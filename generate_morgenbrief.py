@@ -6,6 +6,7 @@ Morgenbrief: Täglicher Tagesplan via Claude → ePub → Kindle
 import os
 import sys
 import json
+import re
 import smtplib
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -15,10 +16,10 @@ from email.mime.text import MIMEText
 from email import encoders
 from pathlib import Path
 
-# ─── Kalender parsen (ics ohne externe Abhängigkeiten) ───
+# ─── Kalender parsen ───
 
 def fetch_calendar(ical_url):
-    """Holt iCal-Daten und extrahiert Termine der nächsten 14 Tage."""
+    """Holt iCal-Daten und extrahiert Termine der nächsten 3 Tage."""
     try:
         req = urllib.request.Request(ical_url, headers={"User-Agent": "Morgenbrief/1.0"})
         with urllib.request.urlopen(req, timeout=15) as resp:
@@ -26,10 +27,9 @@ def fetch_calendar(ical_url):
     except Exception as e:
         return f"[Kalender konnte nicht geladen werden: {e}]"
 
-    import re
     events = []
     now = datetime.now(timezone.utc)
-    horizon = now + timedelta(days=14)
+    horizon = now + timedelta(days=3)
 
     for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", data, re.DOTALL):
         summary = ""
@@ -46,7 +46,6 @@ def fetch_calendar(ical_url):
         if m:
             location = m.group(1).strip().replace("\\n", ", ").replace("\\,", ",")
 
-        # Datum parsen
         dt = None
         try:
             if "T" in dtstart_str:
@@ -61,95 +60,85 @@ def fetch_calendar(ical_url):
             if now - timedelta(days=1) <= dt_aware <= horizon:
                 date_str = dt.strftime("%a %d.%m. %H:%M") if "T" in dtstart_str else dt.strftime("%a %d.%m.")
                 loc_str = f" ({location})" if location else ""
-                events.append((dt, f"- {date_str}: {summary}{loc_str}"))
+                events.append((dt, f"– {date_str}: {summary}{loc_str}"))
 
     events.sort(key=lambda x: x[0])
     if not events:
-        return "[Keine Termine in den nächsten 14 Tagen gefunden]"
+        return "[Keine Termine in den nächsten 3 Tagen]"
     return "\n".join(e[1] for e in events)
 
 
 # ─── Wetter holen ───
 
 def fetch_weather():
-    """Holt Wetter für Leipzig via Open-Meteo (kein API Key nötig)."""
+    """Holt Wetter für Leipzig via Open-Meteo."""
     url = (
         "https://api.open-meteo.com/v1/forecast?"
         "latitude=51.34&longitude=12.37"
         "&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weathercode"
-        "&timezone=Europe/Berlin&forecast_days=2"
+        "&timezone=Europe/Berlin&forecast_days=1"
     )
     try:
         with urllib.request.urlopen(url, timeout=10) as resp:
             data = json.loads(resp.read())
-        daily = data["daily"]
-
-        wmo_codes = {
+        d = data["daily"]
+        codes = {
             0: "Klar", 1: "Überwiegend klar", 2: "Teils bewölkt", 3: "Bewölkt",
-            45: "Nebel", 48: "Reifnebel", 51: "Leichter Niesel", 53: "Niesel",
-            55: "Starker Niesel", 61: "Leichter Regen", 63: "Regen", 65: "Starker Regen",
-            71: "Leichter Schnee", 73: "Schnee", 75: "Starker Schnee",
-            80: "Regenschauer", 81: "Starke Schauer", 95: "Gewitter"
+            45: "Nebel", 51: "Niesel", 61: "Leichter Regen", 63: "Regen",
+            65: "Starker Regen", 80: "Regenschauer", 95: "Gewitter"
         }
-
-        lines = []
-        for i in range(min(2, len(daily["time"]))):
-            code = daily["weathercode"][i]
-            desc = wmo_codes.get(code, f"Code {code}")
-            tmin = daily["temperature_2m_min"][i]
-            tmax = daily["temperature_2m_max"][i]
-            rain = daily["precipitation_sum"][i]
-            label = "Heute" if i == 0 else "Morgen"
-            rain_str = f", {rain}mm Niederschlag" if rain > 0 else ""
-            lines.append(f"- {label}: {desc}, {tmin}–{tmax}°C{rain_str}")
-
-        return "\n".join(lines)
+        desc = codes.get(d["weathercode"][0], f"Code {d['weathercode'][0]}")
+        rain = d["precipitation_sum"][0]
+        rain_str = f", {rain}mm Regen" if rain > 0 else ""
+        return f"{desc}, {d['temperature_2m_min'][0]}–{d['temperature_2m_max'][0]}°C{rain_str}"
     except Exception as e:
-        return f"[Wetter nicht verfügbar: {e}]"
+        return f"[Wetter nicht verfügbar]"
 
 
 # ─── Claude aufrufen ───
 
 def call_claude(kontext, fahrplan, aufgaben, kalender, wetter):
-    """Ruft die Anthropic API auf und lässt Claude den Morgenbrief schreiben."""
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         sys.exit("ANTHROPIC_API_KEY nicht gesetzt")
 
     today = datetime.now().strftime("%A, %d. %B %Y")
-    weekday = datetime.now().strftime("%A")
 
-    user_message = f"""Heute ist {today}.
+    user_message = f"""Heute ist {today}. Wetter: {wetter}
 
-## Kontext
+KONTEXT:
 {kontext}
 
-## Fahrplan (Gesamtübersicht)
-{fahrplan}
-
-## Aktuelle Aufgaben
+OFFENE AUFGABEN:
 {aufgaben}
 
-## Kalender (nächste 14 Tage)
+KALENDER (nächste 3 Tage):
 {kalender}
 
-## Wetter Leipzig
-{wetter}
+FAHRPLAN (nur als Hintergrund für Deadlines):
+{fahrplan}
 
----
+AUFTRAG:
+Schreibe den Morgenbrief. Befolge EXAKT die Regeln im Kontext-Dokument.
 
-Schreibe jetzt den Morgenbrief für heute. Orientiere dich an den Anweisungen im Kontext-Dokument. Beachte besonders:
-- Was steht heute konkret an? (Kalender + Wochentag-Routine)
-- Welche Deadlines rücken näher?
-- Was wurde seit dem letzten Update erledigt (abgehakte Aufgaben)?
-- Was ist überfällig oder braucht Aufmerksamkeit?
-- Ein kurzer, ehrlicher Schluss.
+Struktur:
+1. Was sind die 2–3 wichtigsten Dinge für HEUTE? (Aus Kalender und offenen Aufgaben ableiten. Nur was heute dran ist oder in den nächsten 3 Tagen fällig wird.)
+2. Falls eine Aufgabe seit dem letzten Update als erledigt markiert wurde: kurz erwähnen.
+3. Ein Satz zum Schluss.
 
-Kein Markdown verwenden. Schreibe in einfachem Fließtext mit Absätzen. Nutze Spiegelstriche (–) für Listen. Unter 500 Wörter."""
+VERBOTEN:
+– Kein Markdown (kein **, kein ##, kein *, keine Backticks)
+– Keine Vermutungen über Zusammenhänge zwischen Terminen
+– Keine Ratschläge zu Gesundheit, Wohlbefinden, Selbstfürsorge
+– Keine Beschreibung der Wohnsituation oder Lebenslage
+– Keine Wiederholung von Infos die nicht heute relevant sind
+– Kein Ausblick über 3 Tage hinaus
+– Keine Kommentare zu Lift-Konzerten außer sie sind heute oder morgen
+– Unter 300 Wörter. Lieber zu kurz als zu lang."""
 
     payload = json.dumps({
         "model": "claude-sonnet-4-20250514",
-        "max_tokens": 1500,
+        "max_tokens": 1000,
         "messages": [{"role": "user", "content": user_message}]
     }).encode("utf-8")
 
@@ -171,16 +160,27 @@ Kein Markdown verwenden. Schreibe in einfachem Fließtext mit Absätzen. Nutze S
         sys.exit(f"Claude API Fehler: {e}")
 
 
+def strip_markdown(text):
+    """Entfernt Markdown-Formatierung als Fallback."""
+    text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)  # **bold**
+    text = re.sub(r'\*(.+?)\*', r'\1', text)        # *italic*
+    text = re.sub(r'^#{1,6}\s+', '', text, flags=re.MULTILINE)  # ### headers
+    text = re.sub(r'`(.+?)`', r'\1', text)           # `code`
+    text = re.sub(r'^\*\s+', '– ', text, flags=re.MULTILINE)  # * bullets → –
+    return text
+
+
 # ─── ePub erzeugen ───
 
 def create_epub(text, date_str):
-    """Erzeugt eine minimale ePub-Datei aus dem Morgenbrief-Text."""
     import zipfile
     from io import BytesIO
 
     title = f"Morgenbrief {date_str}"
 
-    # HTML aus Text
+    # Markdown entfernen falls Claude es doch benutzt
+    text = strip_markdown(text)
+
     paragraphs = text.strip().split("\n\n")
     html_body = ""
     for p in paragraphs:
@@ -253,14 +253,12 @@ p {{ margin-bottom: 0.8em; }}
     filename = f"morgenbrief_{date_str}.epub"
     with open(filename, "wb") as f:
         f.write(buf.getvalue())
-
     return filename
 
 
 # ─── Per Mail an Kindle schicken ───
 
 def send_to_kindle(epub_path):
-    """Versendet die ePub-Datei per Gmail SMTP an die Kindle-Adresse."""
     gmail_addr = os.environ.get("GMAIL_ADDRESS")
     gmail_pw = os.environ.get("GMAIL_APP_PASSWORD")
     kindle_addr = os.environ.get("KINDLE_EMAIL")
@@ -272,7 +270,6 @@ def send_to_kindle(epub_path):
     msg["From"] = gmail_addr
     msg["To"] = kindle_addr
     msg["Subject"] = "Morgenbrief"
-
     msg.attach(MIMEText("", "plain"))
 
     with open(epub_path, "rb") as f:
@@ -285,41 +282,26 @@ def send_to_kindle(epub_path):
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
         smtp.login(gmail_addr, gmail_pw)
         smtp.sendmail(gmail_addr, kindle_addr, msg.as_string())
-
-    print(f"✓ Morgenbrief an {kindle_addr} gesendet")
+    print(f"Morgenbrief an {kindle_addr} gesendet")
 
 
 # ─── Main ───
 
 def main():
     repo_dir = Path(__file__).parent
-
-    # Dateien lesen
     kontext = (repo_dir / "kontext.md").read_text(encoding="utf-8")
     fahrplan = (repo_dir / "fahrplan.md").read_text(encoding="utf-8")
     aufgaben = (repo_dir / "aufgaben.md").read_text(encoding="utf-8")
 
-    # Kalender holen
     ical_url = os.environ.get("ICAL_URL", "")
-    if ical_url:
-        kalender = fetch_calendar(ical_url)
-    else:
-        kalender = "[Keine Kalender-URL konfiguriert]"
-
-    # Wetter holen
+    kalender = fetch_calendar(ical_url) if ical_url else "[Keine Kalender-URL]"
     wetter = fetch_weather()
 
-    # Claude fragen
-    print("→ Claude schreibt den Morgenbrief...")
+    print("Morgenbrief wird geschrieben...")
     text = call_claude(kontext, fahrplan, aufgaben, kalender, wetter)
-    print(f"→ {len(text)} Zeichen generiert")
 
-    # ePub erzeugen
     date_str = datetime.now().strftime("%Y-%m-%d")
     epub_path = create_epub(text, date_str)
-    print(f"→ {epub_path} erstellt")
-
-    # An Kindle senden
     send_to_kindle(epub_path)
 
 
