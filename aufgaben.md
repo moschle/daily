@@ -4,37 +4,77 @@
 
 ## Diese Woche (31.3.–6.4.)
 
-- [ ] Niedersachsen MI Bewerbung (Sachbearbeiter Auswertung Islamismus) — Frist 6.4.
-- [ ] hochroth-Paket vorbereiten: Exposé (1–2 S.) + 5–6 Übersetzungsproben von 2–3 Dichter:innen + Probekommentar. Zuerst Leipzig (Feibig/Lisa), dann Berlin (Kurlenina).
-- [ ] BfV AWV-2026-010 Bewerbung fertigstellen — Frist 13.4.
-- [ ] Wiepersdorf Online-Bewerbung — Frist 15.4.
-- [ ] Mail an Michael Lentz (Promotionsbetreuung anfragen)
-- [ ] McFit reaktivieren
+- [ ] Niedersachsen MI Bewerbung (Sachbearbeiter Auswertung Islamismus, EG 11 TV-L, Hannover) — Frist 6.4.
+- [ ] hochroth-Paket vorbereiten: Exposé (1–2 S.) + 5–6 Übersetzungsproben von 2–3 Dichter:innen (nicht nur Dilorom) + Probekommentar der das Anthologie-Format zeigt. Zuerst hochroth Leipzig (Ulrike Feibig, Martina Lisa — Edition OstroVers), dann hochroth Berlin (Vera Kurlenina — Lyrikübersetzung Osteuropa).
+- [ ] BfV AWV-2026-010 Bewerbung (Sachbearbeiter Auswertung Islamismus, gehobener Dienst, Berlin) — Frist 13.4.
+- [ ] Wiepersdorf Online-Bewerbung (Residenzstipendium 2027, 3 Monate, 1.200€/Monat + Unterkunft/Verpflegung) — Frist 15.4.
+- [ ] Mail an Michael Lentz (Promotionsbetreuung DLL anfragen). Alternativ Ulrike Draesner.
+- [ ] McFit reaktivieren, ersten Besuch diese Woche
 
 ## April
 
+- [ ] Lehrstuhltreffen Halle mit Pabst (10.4., Ludwig-Wucherer-Str.)
+- [ ] Lift Diesbar-Seußlitz (11.4.) — kollidiert mit August-Assistenz Dresden am selben Tag!
 - [ ] Einstufungstest Persisch VHS (13.4., 13:00 online)
 - [ ] Lesung Langenstein-Gedenkstätte (21.4.)
-- [ ] Brodyer Nächte abschließen
-- [ ] Laptop aufräumen
+- [ ] Tacheles: Brodyer Nächte Termin 1 mit Anja Kampmann (23.4.)
+- [ ] Brodyer Nächte Produktion abschließen
+- [ ] Laptop aufräumen (Dateien sortieren, alte Projekte archivieren)
 
 ## Mai
 
 - [ ] DÜF Arbeitsstipendium prüfen — nur mit hochroth-Vertrag (Frist 15.5.)
-- [ ] BfV Job Day Köln (9.5.) — kollidiert mit Camilla Geb., Priorität klären
-- [ ] Kulturstiftung Sachsen Formular ab 15.5.
+- [ ] BfV Job Day Köln (9.5.) — kollidiert mit Camilla Geb. Ausflug, Priorität klären
+- [ ] Bücherfrühling Langenstein Quedlinburg (10.5.)
+- [ ] Langenstein Buchvorstellung Literaturhaus Halle (12.5.)
+- [ ] Schweiz mit Milan (ab 14.5.)
+- [ ] Kulturstiftung Sachsen Formular ab 15.5. (Max Uhlig Reisestipendium für Yage-Projekt)
+- [ ] Tacheles: Brodyer Nächte Termin 2 mit Yevgeniy Breyger (21.5.)
 
-## Laufende Projekte
+## Sommer
 
-- [ ] Garten: Zwischenbau planen und umsetzen
-- [ ] Garten: Sanitärinstallation (PE-HD Leitungen)
-- [ ] Peugeot 309 reparieren, dann verkaufen
-- [ ] VW Sportsvan kaufen
-- [ ] ERGO-Rechtsstreit verfolgen
+- [ ] Böll Promotionsstipendium (Portal 15.7., Frist 1.9.) — Betreuungszusage muss bis dahin stehen
+- [ ] DÜF Arbeitsstipendium Herbstvergabe (Frist 15.9.)
+- [ ] Tajikistan-Reise September (MA an Dilorom Soliboeva übergeben, lyrikline-Aufnahmen, Anthologie-Recherche)
+
+## Schreibprojekte
+
+- [ ] hochroth Anthologie: kommentierte Sammlung zeitgenössischer persophoner Lyrik in dt. Erstübersetzung
+- [ ] Exposé Dissertation (1 Seite für Lentz/Draesner, 10–15 Seiten für Böll)
+- [ ] Kommentierter Übersetzungsessay für Zeitschrift (Akzente, Sprache im technischen Zeitalter, Sinn und Form)
+- [ ] Egon Schmandt Lyrik — Artikel aufarbeiten
+- [ ] Westsahara-Artikel für dis:orient
+- [ ] Weitere dis:orient-Texte (Themen klären, Redaktion kontaktieren)
+- [ ] Yage-Projekt Exposé (essayistische Überschreibung von Burroughs' Yage Letters, Oliver Harris Redux Edition 2006. Forschungsreise 2027: Bogotá → Putumayo → Lima → Pucallpa. Fokus auf Northern Gaze, koloniale Haltungen.)
+- [ ] Musikpodcast (iranischer Jazz) — Konzept, Recherche, Pilotfolge
+
+## Auto
+
+- [ ] Peugeot 309 reparieren (Kraftstoffstutzen/Flansch Benzinpumpe defekt, muss in Werkstatt). Dann verkaufen.
+- [ ] VW Sportsvan von Oma kaufen (2015, 1.4 TSI 125 PS DSG, ~103.000 km, ~8.000€ Familienpreis, Ratenzahlung)
+
+## Garten (Roitzsch)
+
+- [ ] Zwischenbau planen und umsetzen
+- [ ] Sanitärinstallation weiterführen (PE-HD Leitungen, Zwei-Punkt-Wassersystem von Gartenzapfstelle)
+- [ ] Asbestdach Gartenhaus: Entsorgung klären (keine direkte Zufahrt, Big Bags nötig), neue Faserzement- oder Wellblechplatten
+- [ ] Wasserführende Heizung: kleiner Holzofen + Handtuchheizkörper per Thermosiphon (ohne Strom)
+
+## Laufend
+
+- [ ] ERGO-Rechtsstreit verfolgen (Nutzungsausfall Peugeot, Az. KS0731 23075-0005, Anwältin Turan-Agdas)
 - [ ] BfV-Stellenportal monatlich checken
-- [ ] Übersetzungsproben erweitern (nicht nur Dilorom)
+- [ ] DMG-Forschungspreis — noch nicht beworben, wollten wir machen
+- [ ] Website moritzschlenstedt.de pflegen (Carrd)
 
 ## Erledigt
 
 - [x] MA abgegeben (30.3.2026)
-- [x] OSTEN Festival Bewerbung abgeschickt (29.3.)
+- [x] OSTEN Festival Bewerbung (Produktionsleitung) abgeschickt (29.3.)
+- [x] PE-HD Wasserinstallation im Garten (Zwei-Punkt-System von einer Gartenzapfstelle)
+- [x] Langenstein Buchvorstellung Kleimhaus Magdeburg (25.3.)
+- [x] FAZ/FAS ePub-to-Kindle Automation (GitHub Actions, Gmail SMTP)
+- [x] Persian-English Kindle Mega-Dictionary (Wiktionary + Steingass, ~70k Einträge)
+- [x] Tajik Poetry Analyzer (Streamlit, GitHub: tajikpoemanalyzer, ʿArūḍ-Prosodie, 68k-Wort-Lexikon)
+- [x] Berliner Debatte Initial Artikel "Herdens blinder Fleck" (2026)
+- [x] Langenstein-Kapitel für Mitteldeutscher Verlag (mit Pabst/Fedtke)
