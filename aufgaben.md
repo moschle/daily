@@ -23,19 +23,17 @@
 
 ## Mai
 
-- [ ] DÜF Arbeitsstipendium prüfen — nur mit hochroth-Vertrag (Frist 15.5.)
 - [ ] BfV Job Day Köln (9.5.) — kollidiert mit Camilla Geb. Ausflug, Priorität klären
 - [ ] Bücherfrühling Langenstein Quedlinburg (10.5.)
 - [ ] Langenstein Buchvorstellung Literaturhaus Halle (12.5.)
 - [ ] Schweiz mit Milan (ab 14.5.)
-- [ ] Kulturstiftung Sachsen Formular ab 15.5. (Max Uhlig Reisestipendium für Yage-Projekt)
 - [ ] Tacheles: Brodyer Nächte Termin 2 mit Yevgeniy Breyger (21.5.)
 
 ## Sommer
 
-- [ ] Böll Promotionsstipendium (Portal 15.7., Frist 1.9.) — Betreuungszusage muss bis dahin stehen
-- [ ] DÜF Arbeitsstipendium Herbstvergabe (Frist 15.9.)
 - [ ] Tajikistan-Reise September (MA an Dilorom Soliboeva übergeben, lyrikline-Aufnahmen, Anthologie-Recherche)
+- [ ] Tacheles: Brodyer Nächte Termin 3 mit Slata Roschal (18.6.)
+- [ ] softtreatment Festival Colditz (5.6.)
 
 ## Schreibprojekte
 
@@ -60,8 +58,25 @@
 - [ ] Asbestdach Gartenhaus: Entsorgung klären (keine direkte Zufahrt, Big Bags nötig), neue Faserzement- oder Wellblechplatten
 - [ ] Wasserführende Heizung: kleiner Holzofen + Handtuchheizkörper per Thermosiphon (ohne Strom)
 
+## Stipendien & Förderungen (Zeitleiste)
+
+- [ ] DÜF Arbeitsstipendium — Frist 15.5. (nur mit hochroth-Vertrag)
+- [ ] Kulturstiftung Sachsen — Formular ab 15.5., Frist 1.7. (Max Uhlig Reisestipendium für Yage)
+- [ ] Böll Promotionsstipendium — Portal 15.7., Frist 1.9. (~1.350€/Monat + 100€ Forschung, 3 Jahre. Alumnus-Vorteil.)
+- [ ] DÜF Arbeitsstipendium Herbstvergabe — Frist 15.9.
+- [ ] DÜF Initiativstipendium — Frist 30.11. (2.000€, OHNE Vertrag möglich, für Recherche/Exposé/Verlagsvermittlung)
+- [ ] Kunststiftung Sachsen-Anhalt Arbeitsstipendium — Frist November (1.500€/Monat)
+- [ ] DAAD Forschungsaufenthalt Tadschikistan/Iran (~1.200€/Monat, Frist variabel)
+- [ ] Übersetzerhaus Looren — Aufenthaltsstipendium (laufend, keine feste Frist)
+- [ ] LCB Übersetzerworkshop/-stipendium Berlin (nach Verlagsvertrag)
+- [ ] Studienstiftung Promotionsstipendium (~1.550€/Monat, laufend)
+- [ ] Wien Angewandte PhD in Art — voraussichtlich Februar 2027
+- [ ] Wien Akademie PhD in Practice (low residency) — voraussichtlich Februar 2027
+- [ ] Böll Promotionsstipendium Frühjahrsrunde — 15.1.–1.3.2027 (falls Herbst nicht klappt)
+
 ## Laufend
 
+- [ ] VG Wort Anmeldung — DRINGEND! Publikationen melden: Langenstein-Kapitel (Mitteldeutscher Verlag), Berliner Debatte Initial Artikel, ggf. weitere.
 - [ ] ERGO-Rechtsstreit verfolgen (Nutzungsausfall Peugeot, Az. KS0731 23075-0005, Anwältin Turan-Agdas)
 - [ ] BfV-Stellenportal monatlich checken
 - [ ] DMG-Forschungspreis — noch nicht beworben, wollten wir machen
