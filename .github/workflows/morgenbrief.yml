@@ -1,0 +1,29 @@
+name: Morgenbrief
+
+on:
+  schedule:
+    # 6:00 Uhr MESZ = 4:00 UTC (Sommerzeit)
+    # 6:00 Uhr MEZ  = 5:00 UTC (Winterzeit)
+    # Im Sommer: 4:00 UTC. Anpassen bei Zeitumstellung.
+    - cron: '0 4 * * *'
+  workflow_dispatch: # Manuell auslösen
+
+jobs:
+  morgenbrief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Morgenbrief generieren und senden
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ICAL_URL: ${{ secrets.ICAL_URL }}
+          KINDLE_EMAIL: ${{ secrets.KINDLE_EMAIL }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python generate_morgenbrief.py

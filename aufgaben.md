@@ -1,0 +1,41 @@
+# Aufgaben
+
+*Letzte Aktualisierung: 30. März 2026*
+
+## Dringend (diese Woche)
+
+- [ ] Niedersachsen MI Bewerbung (Auswertung Islamismus) — Frist 6.4.
+- [ ] hochroth-Paket vorbereiten (Exposé + 5–6 Proben + Probekommentar) — zuerst Leipzig (Feibig/Lisa), dann Berlin (Kurlenina)
+- [ ] BfV AWV-2026-010 Bewerbung fertigstellen — Frist 13.4.
+- [ ] Wiepersdorf-Bewerbung (Online-Formular) — Frist 15.4.
+- [ ] Mail an Lentz/Draesner entwerfen — Lehrstuhltreffen Halle am 10.4. nutzen?
+- [ ] McFit reaktivieren
+
+## April
+
+- [ ] Lift Ruhland vorbereiten (4.4.)
+- [ ] Einstufungstest Persisch VHS (13.4., 13:00 online)
+- [ ] Lesung Langenstein-Gedenkstätte (21.4.)
+- [ ] Tacheles: Anja Kampmann (23.4.)
+- [ ] Brodyer Nächte abschließen
+- [ ] WG-Gesucht checken (möbliertes Zimmer Leipzig)
+- [ ] Laptop aufräumen
+
+## Mai
+
+- [ ] DÜF Arbeitsstipendium prüfen — nur mit hochroth-Vertrag (Frist 15.5.)
+- [ ] BfV Job Day Köln (9.5.) — kollidiert mit Camilla Geb.!
+- [ ] Kulturstiftung Sachsen Formular ab 15.5.
+- [ ] Bücherfrühling Langenstein Quedlinburg (10.5.)
+- [ ] Langenstein Buchvorstellung Literaturhaus Halle (12.5.)
+
+## Laufend
+
+- [ ] ERGO-Rechtsstreit verfolgen
+- [ ] BfV-Stellenportal monatlich checken
+- [ ] Übersetzungsproben erweitern (nicht nur Dilorom — 2–3 Dichter:innen)
+
+## Erledigt
+
+- [x] MA abgegeben (30.3.2026)
+- [x] OSTEN Festival Bewerbung abgeschickt (29.3.)
