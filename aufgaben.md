@@ -14,7 +14,7 @@
 ## April
 
 - [ ] Lehrstuhltreffen Halle mit Pabst (10.4., Ludwig-Wucherer-Str.)
-- [ ] Lift Diesbar-Seußlitz (11.4.) — kollidiert mit August-Assistenz Dresden am selben Tag!
+- [ ] Lift Diesbar-Seußlitz (11.4.) + August-Assistenz Dresden (Familienausflug)
 - [ ] Einstufungstest Persisch VHS (13.4., 13:00 online)
 - [ ] Lesung Langenstein-Gedenkstätte (21.4.)
 - [ ] Tacheles: Brodyer Nächte Termin 1 mit Anja Kampmann (23.4.)

@@ -6,7 +6,9 @@ Moritz Schlenstedt, Schriftsteller, Übersetzer (Persisch/Tadschikisch ins Deuts
 
 Wohnt im Kleingarten in Roitzsch bei Bitterfeld (Sandersdorf-Brehna). Partnerin: Shirin Martha Atef (Rechtsreferendarin) in Leipzig. Stiefsohn Milan. Eltern in Dresden und Zürich. Bruder existiert (kann xteink aus China mitbringen).
 
-Einkommen: Persönliche Assistenz 12h/Woche (~800–900€/Monat), Dresden (ab Mai meist montags). Kindernachmittag mit Milan meist dienstags (ab Mai). Registriert als arbeitslos.
+Einkommen: Persönliche Assistenz (August) 12h/Woche (~800–900€/Monat), Dresden (ab Mai meist montags). Kindernachmittag mit Milan meist dienstags (ab Mai). Registriert als arbeitslos.
+
+Wenn August-Assistenz und ein anderer Termin (z.B. Lift-Konzert) am selben Tag stehen, ist das kein Konflikt — es hängt ein Familienausflug dran, bei dem kein fremder Assistent dabei sein soll. Nicht als Kollision markieren.
 
 ## Laufende Engagements
 

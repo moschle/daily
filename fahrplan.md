@@ -150,7 +150,7 @@ April ist unregelmäßig (Dresden nur 11.4., viele Einzeltermine). Ab Mai normal
 | 23.10. | Quedlinburg | — | ✅ sicher |
 
 **Achtung Kollisionen:**
-- 11.04. Diesbar-Seußlitz — am selben Tag August-Assistenz Dresden!
+- 11.04. Diesbar-Seußlitz + August-Assistenz Dresden (Familienausflug, kein Konflikt)
 - 17.05. Moritzburg — gleiche Woche wie DÜF-Frist 15.5.
 - 23./24.07. Stralsund/Dranske → verlängertes Ostsee-Wochenende möglich
 - September Tajikistan ↔ 19.09. Görlitz — Termin ggf. nicht machbar
@@ -164,8 +164,8 @@ April ist unregelmäßig (Dresden nur 11.4., viele Einzeltermine). Ab Mai normal
 - 04.04. Fr: **LIFT Ruhland**
 - 07.04. Di: Geburtstag Margarethe
 - 08.04. Mi: Senzera
-- 10.04. Fr: **Lehrstuhltreffen Halle** (Ludwig-Wucherer-Str.) ← Lentz/Pabst?
-- 11.04. Sa: **August-Assistenz Dresden** + **LIFT Diesbar-Seußlitz** (Konflikt!)
+- 10.04. Fr: Lehrstuhltreffen Halle mit Pabst (Ludwig-Wucherer-Str.)
+- 11.04. Sa: August-Assistenz Dresden + LIFT Diesbar-Seußlitz (Familienausflug)
 - 13.04. So: **Einstufungstest Persisch VHS** (online, 13:00)
 - 21.04. Di: Lesung Gedenkstätte Langenstein-Zwieberge
 - 23.04. Do: Tacheles — Anja Kampmann
