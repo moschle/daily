@@ -17,7 +17,7 @@
 - [ ] Lift Diesbar-Seußlitz (11.4.) + August-Assistenz Dresden (Familienausflug)
 - [ ] Einstufungstest Persisch VHS (13.4., 13:00 online)
 - [ ] Lesung Langenstein-Gedenkstätte (21.4.)
-- [ ] Tacheles: Brodyer Nächte Termin 1 mit Anja Kampmann (23.4.)
+- [ ] Brodyer Nächte Termin 1: Anja Kampmann + Juliette Pary / Musik: Clara Stoll. 23.4., Passagekino (Casino), Hainstr. 19a, Leipzig. Einlass 19:30, Beginn 20 Uhr. Eintritt frei.
 - [ ] Brodyer Nächte Produktion abschließen
 - [ ] Laptop aufräumen (Dateien sortieren, alte Projekte archivieren)
 
@@ -27,12 +27,12 @@
 - [ ] Bücherfrühling Langenstein Quedlinburg (10.5.)
 - [ ] Langenstein Buchvorstellung Literaturhaus Halle (12.5.)
 - [ ] Schweiz mit Milan (ab 14.5.)
-- [ ] Tacheles: Brodyer Nächte Termin 2 mit Yevgeniy Breyger (21.5.)
+- [ ] Brodyer Nächte Termin 2: Yevgeniy Breyger / Musik: Yoanna Bozhidarova. 21.5., ehem. Ez-Chaim Synagoge, Apels Garten 4, Leipzig. Anmeldung via books@rotorbooks.de
 
 ## Sommer
 
 - [ ] Tajikistan-Reise September (MA an Dilorom Soliboeva übergeben, lyrikline-Aufnahmen, Anthologie-Recherche)
-- [ ] Tacheles: Brodyer Nächte Termin 3 mit Slata Roschal (18.6.)
+- [ ] Brodyer Nächte Termin 3: Slata Roschal / Musik: Robert Lucaciu. 18.6., Klub der Kulturarbeiterinnen, Hermann-Liebmann-Str. 88, Leipzig
 - [ ] softtreatment Festival Colditz (5.6.)
 
 ## Schreibprojekte
@@ -74,6 +74,20 @@
 - [ ] Wien Akademie PhD in Practice (low residency) — voraussichtlich Februar 2027
 - [ ] Böll Promotionsstipendium Frühjahrsrunde — 15.1.–1.3.2027 (falls Herbst nicht klappt)
 
+## Reisen 2026/27
+
+- [ ] Tajikistan September 2026 (2–3 Wochen, Flüge ab ~400€). MA an Dilorom überreichen, lyrikline-Aufnahmen (bessere Tonqualität), Anthologie-Recherche.
+- [ ] Surfen lernen — Westsahara/Marokko (Dakhla, Imsouane, Taghazout). Herbst 2026 oder Frühjahr 2027. ~800–1.200€ für 2–3 Wochen.
+- [ ] Mehrwöchige Wanderung — Ort offen (GR20 Korsika, Lykischer Weg Türkei, Via Dinarica Balkan, Pyrenäen). Herbst 2026 oder Frühjahr 2027.
+- [ ] Yage-Recherchereise Kolumbien/Peru 2027 (4–6 Wochen, 3.000–5.000€, Finanzierung über Kulturstiftung Sachsen Max Uhlig Reisestipendium)
+
+## Sprachkurse & Weiterbildung
+
+- [ ] AVGS Persisch-Einzelcoaching (Berlitz) — Anfrage läuft, warte auf Antwort. In Berlin gemeldet.
+- [ ] LSI Bochum Persisch-Intensivkurs (ab 17.8., akademisch beste Option, ~600–900€ Selbstzahler). Kontakt: larissa.hogrefe@lsi-bochum.de
+- [ ] VHS Einstufungstest Persisch (13.4., 13:00 online)
+- [ ] Bildungsgutschein Französisch C1 (für Auswärtiges Amt) — bei Sachbearbeiterin beantragen
+
 ## Laufend
 
 - [ ] VG Wort Anmeldung — DRINGEND! Publikationen melden: Langenstein-Kapitel (Mitteldeutscher Verlag), Berliner Debatte Initial Artikel, ggf. weitere.
@@ -81,6 +95,8 @@
 - [ ] BfV-Stellenportal monatlich checken
 - [ ] DMG-Forschungspreis — noch nicht beworben, wollten wir machen
 - [ ] Website moritzschlenstedt.de pflegen (Carrd)
+- [ ] Cranston R9Max Faltrad — Farbwechsel-Anfrage noch offen
+- [ ] RCD330 Radio für Sportsvan klären (war inkompatibel mit altem Golf Sportsvan AM1 2015)
 
 ## Erledigt
 
