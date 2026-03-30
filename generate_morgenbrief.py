@@ -60,7 +60,7 @@ def fetch_calendar(ical_url):
             if now - timedelta(days=1) <= dt_aware <= horizon:
                 date_str = dt.strftime("%a %d.%m. %H:%M") if "T" in dtstart_str else dt.strftime("%a %d.%m.")
                 loc_str = f" ({location})" if location else ""
-                events.append((dt, f"– {date_str}: {summary}{loc_str}"))
+                events.append((dt, f"  {date_str}: {summary}{loc_str}"))
 
     events.sort(key=lambda x: x[0])
     if not events:
@@ -70,29 +70,37 @@ def fetch_calendar(ical_url):
 
 # ─── Wetter holen ───
 
-def fetch_weather():
-    """Holt Wetter für Leipzig via Open-Meteo."""
+def fetch_weather_for_location(lat, lon, name):
+    """Holt Tageswetter für einen Ort."""
     url = (
-        "https://api.open-meteo.com/v1/forecast?"
-        "latitude=51.34&longitude=12.37"
-        "&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weathercode"
-        "&timezone=Europe/Berlin&forecast_days=1"
+        f"https://api.open-meteo.com/v1/forecast?"
+        f"latitude={lat}&longitude={lon}"
+        f"&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weathercode"
+        f"&timezone=Europe/Berlin&forecast_days=1"
     )
+    codes = {
+        0: "Klar", 1: "Überwiegend klar", 2: "Teils bewölkt", 3: "Bewölkt",
+        45: "Nebel", 48: "Reifnebel", 51: "Leichter Niesel", 53: "Niesel",
+        55: "Starker Niesel", 61: "Leichter Regen", 63: "Regen", 65: "Starker Regen",
+        71: "Leichter Schnee", 73: "Schnee", 75: "Starker Schnee",
+        80: "Regenschauer", 81: "Starke Schauer", 95: "Gewitter"
+    }
     try:
         with urllib.request.urlopen(url, timeout=10) as resp:
             data = json.loads(resp.read())
         d = data["daily"]
-        codes = {
-            0: "Klar", 1: "Überwiegend klar", 2: "Teils bewölkt", 3: "Bewölkt",
-            45: "Nebel", 51: "Niesel", 61: "Leichter Regen", 63: "Regen",
-            65: "Starker Regen", 80: "Regenschauer", 95: "Gewitter"
-        }
         desc = codes.get(d["weathercode"][0], f"Code {d['weathercode'][0]}")
         rain = d["precipitation_sum"][0]
-        rain_str = f", {rain}mm Regen" if rain > 0 else ""
-        return f"{desc}, {d['temperature_2m_min'][0]}–{d['temperature_2m_max'][0]}°C{rain_str}"
-    except Exception as e:
-        return f"[Wetter nicht verfügbar]"
+        rain_str = f", {rain}mm Regen" if rain and rain > 0 else ""
+        return f"{name}: {desc}, {d['temperature_2m_min'][0]}–{d['temperature_2m_max'][0]}°C{rain_str}"
+    except Exception:
+        return f"{name}: [nicht verfügbar]"
+
+
+def fetch_weather():
+    roitzsch = fetch_weather_for_location(51.62, 12.25, "Roitzsch")
+    leipzig = fetch_weather_for_location(51.34, 12.37, "Leipzig")
+    return f"{roitzsch}\n{leipzig}"
 
 
 # ─── Claude aufrufen ───
@@ -104,9 +112,12 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter):
 
     today = datetime.now().strftime("%A, %d. %B %Y")
 
-    user_message = f"""Heute ist {today}. Wetter: {wetter}
+    user_message = f"""Heute ist {today}.
 
-KONTEXT:
+WETTER:
+{wetter}
+
+KONTEXT (enthält Format und Regeln — befolge sie exakt):
 {kontext}
 
 OFFENE AUFGABEN:
@@ -119,26 +130,20 @@ FAHRPLAN (nur als Hintergrund für Deadlines):
 {fahrplan}
 
 AUFTRAG:
-Schreibe den Morgenbrief. Befolge EXAKT die Regeln im Kontext-Dokument.
+Schreibe den Morgenbrief exakt in der Struktur die im Kontext-Dokument definiert ist:
+1. WETTER — die Wetterdaten oben einfach klar wiedergeben
+2. HEUTE — Termine + die 2–3 wichtigsten Aufgaben
+3. ROUTINE — die tägliche Routine-Liste
+4. PROJEKTE — was heute ein guter Tag für wäre
+5. ERLEDIGTES — nur wenn es welches gibt
+6. AUSBLICK — morgen/übermorgen, kurz
 
-Struktur:
-1. Was sind die 2–3 wichtigsten Dinge für HEUTE? (Aus Kalender und offenen Aufgaben ableiten. Nur was heute dran ist oder in den nächsten 3 Tagen fällig wird.)
-2. Falls eine Aufgabe seit dem letzten Update als erledigt markiert wurde: kurz erwähnen.
-3. Ein Satz zum Schluss.
-
-VERBOTEN:
-– Kein Markdown (kein **, kein ##, kein *, keine Backticks)
-– Keine Vermutungen über Zusammenhänge zwischen Terminen
-– Keine Ratschläge zu Gesundheit, Wohlbefinden, Selbstfürsorge
-– Keine Beschreibung der Wohnsituation oder Lebenslage
-– Keine Wiederholung von Infos die nicht heute relevant sind
-– Kein Ausblick über 3 Tage hinaus
-– Keine Kommentare zu Lift-Konzerten außer sie sind heute oder morgen
-– Unter 300 Wörter. Lieber zu kurz als zu lang."""
+Jede Sektion mit dem Namen als Überschrift (ohne Formatierung, einfach in Großbuchstaben).
+Kein Markdown. Keine Vermutungen. Sachlich. Unter 400 Wörter."""
 
     payload = json.dumps({
         "model": "claude-sonnet-4-20250514",
-        "max_tokens": 1000,
+        "max_tokens": 1200,
         "messages": [{"role": "user", "content": user_message}]
     }).encode("utf-8")
 
@@ -162,11 +167,11 @@ VERBOTEN:
 
 def strip_markdown(text):
     """Entfernt Markdown-Formatierung als Fallback."""
-    text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)  # **bold**
-    text = re.sub(r'\*(.+?)\*', r'\1', text)        # *italic*
-    text = re.sub(r'^#{1,6}\s+', '', text, flags=re.MULTILINE)  # ### headers
-    text = re.sub(r'`(.+?)`', r'\1', text)           # `code`
-    text = re.sub(r'^\*\s+', '– ', text, flags=re.MULTILINE)  # * bullets → –
+    text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
+    text = re.sub(r'\*(.+?)\*', r'\1', text)
+    text = re.sub(r'^#{1,6}\s+', '', text, flags=re.MULTILINE)
+    text = re.sub(r'`(.+?)`', r'\1', text)
+    text = re.sub(r'^\*\s+', '– ', text, flags=re.MULTILINE)
     return text
 
 
@@ -177,30 +182,44 @@ def create_epub(text, date_str):
     from io import BytesIO
 
     title = f"Morgenbrief {date_str}"
-
-    # Markdown entfernen falls Claude es doch benutzt
     text = strip_markdown(text)
 
-    paragraphs = text.strip().split("\n\n")
-    html_body = ""
-    for p in paragraphs:
-        lines = p.strip().split("\n")
-        formatted_lines = []
-        for line in lines:
-            if line.strip().startswith("–") or line.strip().startswith("-"):
-                formatted_lines.append(f"<br/>{line.strip()}")
-            else:
-                formatted_lines.append(line.strip())
-        html_body += f"<p>{'<br/>'.join(formatted_lines)}</p>\n"
+    # Sektionen erkennen und als HTML-Überschriften formatieren
+    lines = text.strip().split("\n")
+    html_parts = []
+    current_block = []
+    section_names = {"WETTER", "HEUTE", "ROUTINE", "PROJEKTE", "ERLEDIGTES", "AUSBLICK"}
+
+    def flush_block():
+        if current_block:
+            content = "<br/>".join(current_block)
+            html_parts.append(f"<p>{content}</p>")
+            current_block.clear()
+
+    for line in lines:
+        stripped = line.strip()
+        if stripped in section_names or (stripped and stripped.rstrip(":") in section_names):
+            flush_block()
+            html_parts.append(f"<h2>{stripped}</h2>")
+        elif stripped == "":
+            flush_block()
+        elif stripped.startswith("–") or stripped.startswith("-"):
+            current_block.append(stripped)
+        else:
+            current_block.append(stripped)
+
+    flush_block()
+    html_body = "\n".join(html_parts)
 
     content_xhtml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head><title>{title}</title>
 <style>
-body {{ font-family: serif; font-size: 1em; line-height: 1.6; margin: 1em; }}
-h1 {{ font-size: 1.3em; margin-bottom: 0.5em; }}
-p {{ margin-bottom: 0.8em; }}
+body {{ font-family: serif; font-size: 1em; line-height: 1.5; margin: 1em; }}
+h1 {{ font-size: 1.4em; margin-bottom: 0.3em; }}
+h2 {{ font-size: 1.1em; margin-top: 1em; margin-bottom: 0.3em; text-transform: uppercase; letter-spacing: 0.05em; }}
+p {{ margin-bottom: 0.6em; }}
 </style>
 </head>
 <body>

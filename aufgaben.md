@@ -16,7 +16,6 @@
 - [ ] Einstufungstest Persisch VHS (13.4., 13:00 online)
 - [ ] Lesung Langenstein-Gedenkstätte (21.4.)
 - [ ] Brodyer Nächte abschließen
-- [ ] WG-Gesucht checken (möbliertes Zimmer Leipzig)
 - [ ] Laptop aufräumen
 
 ## Mai
@@ -25,8 +24,12 @@
 - [ ] BfV Job Day Köln (9.5.) — kollidiert mit Camilla Geb., Priorität klären
 - [ ] Kulturstiftung Sachsen Formular ab 15.5.
 
-## Laufend
+## Laufende Projekte
 
+- [ ] Garten: Zwischenbau planen und umsetzen
+- [ ] Garten: Sanitärinstallation (PE-HD Leitungen)
+- [ ] Peugeot 309 reparieren, dann verkaufen
+- [ ] VW Sportsvan kaufen
 - [ ] ERGO-Rechtsstreit verfolgen
 - [ ] BfV-Stellenportal monatlich checken
 - [ ] Übersetzungsproben erweitern (nicht nur Dilorom)
