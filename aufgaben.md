@@ -8,8 +8,11 @@
 - [ ] hochroth-Paket vorbereiten: Exposé (1–2 S.) + 5–6 Übersetzungsproben von 2–3 Dichter:innen (nicht nur Dilorom) + Probekommentar der das Anthologie-Format zeigt. Zuerst hochroth Leipzig (Ulrike Feibig, Martina Lisa — Edition OstroVers), dann hochroth Berlin (Vera Kurlenina — Lyrikübersetzung Osteuropa).
 - [ ] BfV AWV-2026-010 Bewerbung (Sachbearbeiter Auswertung Islamismus, gehobener Dienst, Berlin) — Frist 13.4.
 - [ ] Wiepersdorf Online-Bewerbung (Residenzstipendium 2027, 3 Monate, 1.200€/Monat + Unterkunft/Verpflegung) — Frist 15.4.
-- [ ] Mail an Michael Lentz (Promotionsbetreuung DLL anfragen). Alternativ Ulrike Draesner.
 - [ ] McFit reaktivieren, ersten Besuch diese Woche
+
+## Wartet (nicht jetzt)
+
+- [ ] Mail an Michael Lentz (Promotionsbetreuung DLL anfragen). Alternativ Ulrike Draesner. WARTET auf MA-Bewertung.
 
 ## April
 
@@ -80,6 +83,20 @@
 - [ ] Surfen lernen — Westsahara/Marokko (Dakhla, Imsouane, Taghazout). Herbst 2026 oder Frühjahr 2027. ~800–1.200€ für 2–3 Wochen.
 - [ ] Mehrwöchige Wanderung — Ort offen (GR20 Korsika, Lykischer Weg Türkei, Via Dinarica Balkan, Pyrenäen). Herbst 2026 oder Frühjahr 2027.
 - [ ] Yage-Recherchereise Kolumbien/Peru 2027 (4–6 Wochen, 3.000–5.000€, Finanzierung über Kulturstiftung Sachsen Max Uhlig Reisestipendium)
+
+## Praktika & Stellen (frühere Liste + aktuelle Funde)
+
+- [ ] GIZ Praktikum Naher/Mittlerer Osten I+II (Iran, Irak, Türkei, Syrien, Jemen etc.) — 1.634€/Monat, rolling, Abschluss max 6 Monate her = bis Sept 2026 möglich. jobs.giz.de, Kontakt: fabian.wilhelm@giz.de
+- [ ] GIZ EZ-Traineeprogramm (17 Monate, Auslandsrotation) — nächste Ausschreibung voraussichtlich Nov/Dez 2025 für Start Juli 2026. Prüfen ob noch offen.
+- [ ] SWP Berlin Praktikum (3 Monate ab 1.7.2026, Forschungsgruppe Afrika/Naher Osten oder Osteuropa/Eurasien) — Status: Bewerbung war geplant, Frist 31.3. Prüfen ob noch möglich.
+- [ ] DGAP Berlin Praktikum (Zentrum Osteuropa/Zentralasien, 2 Monate, rolling)
+- [ ] ZOiS Berlin Praktikum (Zentralasien/Konfliktdynamiken, 3–6 Monate, ab März/April oder Sept/Okt)
+- [ ] Goethe-Institut Praktika: Freiburg (Mai–Juli, kostenlose Unterkunft), Toulouse (ab Sept, Kulturprogramm), New York (Okt–Dez, Bildungskooperation)
+- [ ] Goethe-Institut Taschkent/Zentralasien — Kontakt Fr. Niemeyer, direkte Anfrage für Praktikum
+- [ ] Orient-Institut Beirut — wiss. Mitarbeiterstelle ab 1.9.2026 (Frist 1.3.2026 — verpasst? Status prüfen)
+- [ ] zenith/Candid Foundation Berlin — MENA-Profil, rolling
+- [ ] Carlo-Schmid-Programm (DAAD) — Praktika bei int. Organisationen, Bewerbung für 2027
+- [ ] Auswärtiges Amt höherer Dienst — Ausschreibung voraussichtlich Mai/Juni 2026, Französisch C1 nötig
 
 ## Sprachkurse & Weiterbildung
 
