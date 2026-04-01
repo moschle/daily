@@ -12,9 +12,9 @@
 
 ## DRINGEND (sofort)
 
-- [ ] Böll-Stiftung Abschlussbericht einreichen! Pflicht, sonst Rückforderung letzter Stipendienraten. Formular im Studynet (boell-studynet.de). Deckblatt + narrative Darstellung (Studienabschlussphase + persönliche Bewertung). Nach Erhalt der Note zusätzlich: Kopie Abschlusszeugnis + Deckblatt/Inhaltsverzeichnis MA-Arbeit.
+- [x] Böll-Stiftung Abschlussbericht eingereicht (1.4.2026) Pflicht, sonst Rückforderung letzter Stipendienraten. Formular im Studynet (boell-studynet.de). Deckblatt + narrative Darstellung (Studienabschlussphase + persönliche Bewertung). Nach Erhalt der Note zusätzlich: Kopie Abschlusszeugnis + Deckblatt/Inhaltsverzeichnis MA-Arbeit.
 - [ ] Böll Studynet-Profil aktualisieren (Arbeitgeber, Funktion, Adresse)
-- [ ] Böll Mentoring "Grün vernetzt" prüfen — als frischer Alumnus kannst du dir über Studynet einen Mentor suchen. Kontakt: Dr. Janina Bach, bach@boell.de, 030-28534-421
+- [ ] Böll Mentoring "Grün vernetzt": Mentor:in suchen auf studynet.boell.de/mentorinnen/. Kontakt Koordination: Dr. Janina Bach, bach@boell.de, 030-28534-421. Nach Beginn der Mentoring-Beziehung bei Koordination melden für Begleitprogramm.
 
 ## Wartet (nicht jetzt)
 
@@ -29,6 +29,7 @@
 - [ ] Brodyer Nächte Termin 1: Anja Kampmann + Juliette Pary / Musik: Clara Stoll. 23.4., Passagekino (Casino), Hainstr. 19a, Leipzig. Einlass 19:30, Beginn 20 Uhr. Eintritt frei.
 - [ ] Brodyer Nächte Produktion abschließen
 - [ ] Laptop aufräumen (Dateien sortieren, alte Projekte archivieren)
+- [ ] MA-Arbeit: Formatierungsfehler fixen (Markdown-Unterstriche _ im Drucktext statt Kursivierung). Korrigierte Version für Archiv und Nachreichung.
 
 ## Mai
 
