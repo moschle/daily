@@ -14,7 +14,7 @@
 
 - [x] Böll-Stiftung Abschlussbericht eingereicht (1.4.2026) Pflicht, sonst Rückforderung letzter Stipendienraten. Formular im Studynet (boell-studynet.de). Deckblatt + narrative Darstellung (Studienabschlussphase + persönliche Bewertung). Nach Erhalt der Note zusätzlich: Kopie Abschlusszeugnis + Deckblatt/Inhaltsverzeichnis MA-Arbeit.
 - [ ] Böll Studynet-Profil aktualisieren (Arbeitgeber, Funktion, Adresse)
-- [ ] Böll Mentoring "Grün vernetzt": Mentor:in suchen auf studynet.boell.de/mentorinnen/. Kontakt Koordination: Dr. Janina Bach, bach@boell.de, 030-28534-421. Nach Beginn der Mentoring-Beziehung bei Koordination melden für Begleitprogramm.
+- [ ] Böll Mentoring "Grün vernetzt": Mentor:in suchen auf studynet.boell.de/mentorinnen/. Projektkoordination laut Leitfaden: Ulrike Gringmuth-Dallmer (gringmuth-dallmer@boell.de, 030-28534475). Alumni-Programm allgemein: Dr. Janina Bach (bach@boell.de, 030-28534-421). Nach Beginn der Mentoring-Beziehung bei Koordination melden für Begleitprogramm + Verteiler.
 
 ## Wartet (nicht jetzt)
 
