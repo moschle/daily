@@ -92,18 +92,18 @@
 
 ## Praktika & Stellen (frühere Liste + aktuelle Funde)
 
-- [ ] GIZ Praktikum Naher/Mittlerer Osten I+II (Iran, Irak, Türkei, Syrien, Jemen etc.) — 1.634€/Monat, rolling, Abschluss max 6 Monate her = bis Sept 2026 möglich. jobs.giz.de/index.php?ac=jobad&id=53093, Kontakt: fabian.wilhelm@giz.de
-- [ ] GIZ Praktikum Klimaschutzstrategien Afrika, West- und Zentralasien — 2.205€/Monat, Regionalwissen Zentralasien erwünscht! jobs.giz.de/index.php?ac=jobad&id=77183
-- [ ] GIZ EZ-Traineeprogramm (17 Monate, Auslandsrotation) — Prüfen ob Bewerbung noch offen.
-- [ ] SWP Berlin Praktikum (3 Monate ab 1.7.2026, Forschungsgruppe Afrika/Naher Osten oder Osteuropa/Eurasien) — Status: Bewerbung war geplant, Frist 31.3. Prüfen ob noch möglich.
-- [ ] DGAP Berlin Praktikum (Zentrum Osteuropa/Zentralasien, 2 Monate, rolling)
-- [ ] ZOiS Berlin Praktikum (Zentralasien/Konfliktdynamiken, 3–6 Monate, ab März/April oder Sept/Okt)
-- [ ] Goethe-Institut Praktika: Freiburg (Mai–Juli, kostenlose Unterkunft), Toulouse (ab Sept, Kulturprogramm), New York (Okt–Dez, Bildungskooperation)
-- [ ] Goethe-Institut Taschkent/Zentralasien — Kontakt Fr. Niemeyer, direkte Anfrage für Praktikum
-- [ ] Orient-Institut Beirut — wiss. Mitarbeiterstelle ab 1.9.2026 (Frist 1.3.2026 — verpasst? Status prüfen)
-- [ ] zenith/Candid Foundation Berlin — MENA-Profil, rolling
-- [ ] Carlo-Schmid-Programm (DAAD) — Praktika bei int. Organisationen, Bewerbung für 2027
+- [ ] GIZ Praktika prüfen — jobs.giz.de, Reiter "Praktika". Relevant: Naher/Mittlerer Osten, Zentralasien, Klimaschutz. Rolling, keine feste Frist. Abschluss max 6 Monate her = bis Sept 2026 möglich. Vergütung ~1.634–2.349€/Monat.
+- [ ] SWP Berlin Praktikum — Frist 31.3. war geplant. Prüfen ob noch möglich: swp-berlin.org/de/ueber-uns/stellenangebote
+- [ ] DGAP Berlin Praktikum (Zentrum Osteuropa/Zentralasien) — prüfen: dgap.org/de/ueber-uns/stellenangebote
+- [ ] ZOiS Berlin Praktikum — prüfen: zois-berlin.de/karriere
+- [ ] Goethe-Institut Praktika — prüfen: goethe.de/de/uun/auf/pra.html (nach Standort filtern)
+- [ ] Goethe-Institut Taschkent/Zentralasien — Kontakt Fr. Niemeyer, direkte Anfrage
+- [ ] Orient-Institut Beirut — prüfen: orient-institut.org/about/vacancies
+- [ ] zenith/Candid Foundation Berlin — prüfen: zenith.me/de/jobs
+- [ ] Carlo-Schmid-Programm (DAAD) — Praktika bei int. Organisationen, Bewerbung für 2027: daad.de/carlo-schmid
 - [ ] Auswärtiges Amt höherer Dienst — Ausschreibung voraussichtlich Mai/Juni 2026, Französisch C1 nötig
+
+ALLE Stellen selbst prüfen — die Links oben können veraltet sein. Claude-Websuche findet oft Stellenanzeigen die nicht mehr existieren.
 
 ## Sprachkurse & Weiterbildung
 
