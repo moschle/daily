@@ -20,6 +20,7 @@ Wenn August-Assistenz und ein anderer Termin (z.B. Lift-Konzert) am selben Tag s
   Termin 2 (21.5.): Yevgeniy Breyger / Musik: Yoanna Bozhidarova. Ehem. Ez-Chaim Synagoge, Apels Garten 4. Anmeldung: books@rotorbooks.de.
   Termin 3 (18.6.): Slata Roschal / Musik: Robert Lucaciu. Klub der Kulturarbeiterinnen, Hermann-Liebmann-Str. 88.
 – Hilfskraft bei Stephan Pabst (Germanistik, MLU Halle)
+– Heinrich-Böll-Stiftung: Alumnus (Förderung gerade beendet). Abschlussbericht muss eingereicht werden. Mentoring-Programm "Grün vernetzt" steht offen. Studynet-Profil aktuell halten. Kontakt Alumni: Dr. Janina Bach, bach@boell.de. Alumni-Verein: hbs-ehemalige.de.
 
 ## Publikationen
 

@@ -10,6 +10,12 @@
 - [ ] Wiepersdorf Online-Bewerbung (Residenzstipendium 2027, 3 Monate, 1.200€/Monat + Unterkunft/Verpflegung) — Frist 15.4.
 - [ ] McFit reaktivieren, ersten Besuch diese Woche
 
+## DRINGEND (sofort)
+
+- [ ] Böll-Stiftung Abschlussbericht einreichen! Pflicht, sonst Rückforderung letzter Stipendienraten. Formular im Studynet (boell-studynet.de). Deckblatt + narrative Darstellung (Studienabschlussphase + persönliche Bewertung). Nach Erhalt der Note zusätzlich: Kopie Abschlusszeugnis + Deckblatt/Inhaltsverzeichnis MA-Arbeit.
+- [ ] Böll Studynet-Profil aktualisieren (Arbeitgeber, Funktion, Adresse)
+- [ ] Böll Mentoring "Grün vernetzt" prüfen — als frischer Alumnus kannst du dir über Studynet einen Mentor suchen. Kontakt: Dr. Janina Bach, bach@boell.de, 030-28534-421
+
 ## Wartet (nicht jetzt)
 
 - [ ] Mail an Michael Lentz (Promotionsbetreuung DLL anfragen). Alternativ Ulrike Draesner. WARTET auf MA-Bewertung.
@@ -86,8 +92,9 @@
 
 ## Praktika & Stellen (frühere Liste + aktuelle Funde)
 
-- [ ] GIZ Praktikum Naher/Mittlerer Osten I+II (Iran, Irak, Türkei, Syrien, Jemen etc.) — 1.634€/Monat, rolling, Abschluss max 6 Monate her = bis Sept 2026 möglich. jobs.giz.de, Kontakt: fabian.wilhelm@giz.de
-- [ ] GIZ EZ-Traineeprogramm (17 Monate, Auslandsrotation) — nächste Ausschreibung voraussichtlich Nov/Dez 2025 für Start Juli 2026. Prüfen ob noch offen.
+- [ ] GIZ Praktikum Naher/Mittlerer Osten I+II (Iran, Irak, Türkei, Syrien, Jemen etc.) — 1.634€/Monat, rolling, Abschluss max 6 Monate her = bis Sept 2026 möglich. jobs.giz.de/index.php?ac=jobad&id=53093, Kontakt: fabian.wilhelm@giz.de
+- [ ] GIZ Praktikum Klimaschutzstrategien Afrika, West- und Zentralasien — 2.205€/Monat, Regionalwissen Zentralasien erwünscht! jobs.giz.de/index.php?ac=jobad&id=77183
+- [ ] GIZ EZ-Traineeprogramm (17 Monate, Auslandsrotation) — Prüfen ob Bewerbung noch offen.
 - [ ] SWP Berlin Praktikum (3 Monate ab 1.7.2026, Forschungsgruppe Afrika/Naher Osten oder Osteuropa/Eurasien) — Status: Bewerbung war geplant, Frist 31.3. Prüfen ob noch möglich.
 - [ ] DGAP Berlin Praktikum (Zentrum Osteuropa/Zentralasien, 2 Monate, rolling)
 - [ ] ZOiS Berlin Praktikum (Zentralasien/Konfliktdynamiken, 3–6 Monate, ab März/April oder Sept/Okt)
