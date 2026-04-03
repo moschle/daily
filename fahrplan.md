@@ -1,6 +1,6 @@
 # Fahrplan Sommer 2026
 
-*Stand: 30. März 2026 — MA abgegeben, Übergangsphase*
+*Stand: 3. April 2026 — MA abgegeben, Übergangsphase*
 
 ---
 
@@ -58,6 +58,16 @@ April ist unregelmäßig (Dresden nur 11.4., viele Einzeltermine). Ab Mai normal
 **DRINGEND (April)**
 - [ ] **BfV Sachbearbeiter Auswertung Islamismus (AWV-2026-010)** — Frist: 13. April ✅ bestätigt online
   - Gehobener Dienst, Berlin. Analyse, operative Steuerung, internationale Zusammenarbeit.
+- [ ] **DAAD Regellektorat Nachausschreibung 2026/27** — Frist: 14. April ⚡
+  - Online-Bewerbung, bis zu 3 Hochschulen. Gutachten nötig (Pabst am 10.4. fragen!).
+  - Top-Auswahl:
+    1. **Federal University of Pará, Belém** (BRA-RL-1) — Kulturlektorat. Master DaF/Germanistik/Romanistik/LitWiss. Promotion wünschenswert. DaF-Lehrerfahrung + Kulturmanagement + Portugiesisch gefordert. Beginn Feb 2027. Kontakt: María del Mar Dumath, ST31, dumath@daad.de
+    2. **Capital Normal University, Beijing** (CHN-RL-13) — Master DaF/Germanistik reicht. Lehrerfahrung. DaF, Literatur, IK, Landeskunde, Fachdidaktik. Beginn Sept 2026. Kontakt: Jeannine Kaliga-Blake, ST34, kaliga-blake@daad.de
+    3. **University of Alger 2, Algier** (DZA-RL-1) — Promotion erwünscht. Französisch + Arabisch gefragt (!— beides vorhanden). Sprach-/Literaturwiss., Übersetzung, Didaktik. Beginn Sept 2026. Kontakt: Paula Blaschke, ST33, blaschke@daad.de
+  - Alternativen: Beijing International Studies University (CHN-RL-11, breiter, auch Dolmetschen/Übersetzen), University of São Paulo (BRA-RL-10, Promotion Pflicht, eher akademisch)
+  - Allg. Voraussetzungen: Abschluss an dt. Hochschule, EU-Staatsangehörigkeit, Lebensmittelpunkt DE in letzten 2 Jahren
+  - Dauer: mind. 2, max. 5 Jahre. Dienstverhältnis mit Gasthochschule.
+  - Gutachten-Hinweise (aus DAAD-Dokument): Gutachter soll eingehen auf Ausbildung, wiss. Qualifikation, Lehrerfahrung, Eignung fürs Ausland, Fähigkeit Lehrmaterial/Lehrpläne zu entwickeln, Interessenschwerpunkte, Persönlichkeit, Anpassungsfähigkeit, Kontaktfreudigkeit/Flexibilität, Interessen außerhalb des Fachs, Auswirkung auf Werdegang. Deckblatt beifügen.
 - [ ] **Niedersachsen MI: Sachbearbeiter Auswertung Islamismus** — Frist: 6. April ⚡
   - EG 11 TV-L, Hannover. Landesverfassungsschutz, gleiche Arbeit.
   - Bewerbung über karriere.niedersachsen.de
@@ -125,12 +135,13 @@ April ist unregelmäßig (Dresden nur 11.4., viele Einzeltermine). Ab Mai normal
 
 ## 4. Szenarien (ab Frühjahr 2027)
 
-**A: Böll + DLL Leipzig** — ~2.200–2.400€/Monat bei Mietfreiheit Italien. Komfortabel.
-**B: Wien Akademie PhD in Practice (low residency)** — 1 Woche/Monat Wien, sonst Italien.
-**C: Wien Angewandte PhD in Art** — Präsenzpflicht, Italien erst später. Stärkeres Netzwerk.
+**A: Böll + DLL Leipzig** — ~2.200–2.400€/Monat bei Mietfreiheit. Komfortabel.
+**B: Wien Akademie PhD in Practice (low residency)** — 1 Woche/Monat Wien, sonst flexibel.
+**C: Wien Angewandte PhD in Art** — Präsenzpflicht. Stärkeres Netzwerk.
 **D: Halle (Fallback)** — Pabst/Purnaqcheband, unkompliziert, Böll-Kombi möglich.
-**E: BfV** — A13/E13, ~4.000€ netto. Kein Italien. Maximale Sicherheit.
-**F: Tiny Farms SA/BB** — Mikrofarm + Promotion. Kein Italien, aber draußen/langsam/schreiben.
+**E: BfV** — A13/E13, ~4.000€ netto. Maximale Sicherheit.
+**F: DAAD Lektorat** — 2–5 Jahre Ausland. Belém (Kulturlektorat + Lehre, ab Feb 2027), Beijing (Lehre + Beratung, ab Sept 2026), oder Algier (Lehre + Kulturarbeit, Französisch+Arabisch, ab Sept 2026). Gehalt: lokales Dienstverhältnis + DAAD-Zulagen. Promotion parallel theoretisch möglich, aber eingeschränkt. Karriere: Einstieg in DAAD/Goethe/AA-Netzwerk.
+**G: Tiny Farms SA/BB** — Mikrofarm + Promotion. Draußen/langsam/schreiben.
 
 ---
 
@@ -252,7 +263,7 @@ Was du über dich weißt: Du funktionierst mit Routinen. Isolation + Leerlauf = 
 | Quelle | Was | Betrag | Frist |
 |---|---|---|---|
 | Kulturstiftung Sachsen | Arbeitsstipendium / Max Uhlig Reise | variabel | ab 15.5. (für 2027) |
-| DAAD | Forschungsaufenthalt Tadschikistan/Iran | ~1.200€/Monat | variabel |
+| DAAD | Regellektorat (Belém/Beijing/Algier) | Lokales Gehalt + DAAD-Zulagen | Frist 14.4.2026 |
 | Übersetzerhaus Looren | Aufenthaltsstipendium | 15€/Woche | laufend |
 | Kunststiftung Sachsen-Anhalt | Arbeitsstipendium | 1.500€/Monat | November |
 | Studienstiftung | Promotionsstipendium | ~1.550€/Monat | laufend |
@@ -262,18 +273,12 @@ Was du über dich weißt: Du funktionierst mit Routinen. Isolation + Leerlauf = 
 
 ## 10. Nächste Schritte (Woche 31.3.–6.4.)
 
-*Heute krank → Ruhe. Aber die Woche hat zwei enge Fristen.*
-
-**Sobald fit (Di/Mi):**
-1. [ ] **Niedersachsen MI bewerben** — Frist 6.4. (Montag!). Motivationsschreiben + Lebenslauf über karriere.niedersachsen.de
-2. [ ] **hochroth-Paket vorbereiten** — Exposé + 5–6 Übersetzungsproben + Probekommentar. Zuerst an hochroth Leipzig (Feibig/Lisa), parallel an hochroth Berlin (Kurlenina)
-3. [ ] **BfV AWV-2026-010 Bewerbung** — Frist 13.4. Kann nächste Woche
-4. [ ] **Wiepersdorf-Bewerbung anfangen** — Frist 15.4.
-5. [ ] Mail an Lentz/Draesner entwerfen — 1-seitiges Exposé. Lehrstuhltreffen Halle am 10.4. als Gelegenheit?
-
-**Wenn Energie da ist:**
-6. [ ] WG-Gesucht checken: möbliertes Zimmer Leipzig, 3–6 Monate
+**Diese Woche:**
+1. [ ] **Niedersachsen MI bewerben** — Frist 6.4. (Sonntag!)
+2. [ ] **hochroth-Paket vorbereiten** — Exposé + 5–6 Übersetzungsproben + Probekommentar
+3. [ ] **BfV AWV-2026-010 Bewerbung** — Frist 13.4.
+4. [ ] **DAAD Regellektorat Bewerbung** — Frist 14.4. Entscheidung treffen: will ich das? Wenn ja: Online-Formular, 3 Hochschulen eintragen (exakte Schreibweise!), Gutachten organisieren.
+5. [ ] **Wiepersdorf-Bewerbung** — Frist 15.4.
+6. [ ] **Lehrstuhltreffen Pabst (10.4.)** — Pabst um DAAD-Gutachten + Promotionsgespräch bitten
 7. [ ] McFit-Mitgliedschaft reaktivieren
-8. [ ] Laptop aufräumen
-9. [ ] **Lift Ruhland (4.4.) vorbereiten**
-8. [ ] Lift: Ruhland am 4.4. vorbereiten
+8. [ ] Lift Ruhland (4.4.) vorbereiten

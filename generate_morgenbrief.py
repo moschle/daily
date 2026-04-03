@@ -16,10 +16,36 @@ from email.mime.text import MIMEText
 from email import encoders
 from pathlib import Path
 
+# Berlin timezone offset (MESZ = +2, MEZ = +1)
+# Simple DST detection: last Sunday March → last Sunday October
+def _berlin_offset():
+    """Returns Berlin UTC offset as timedelta."""
+    now_utc = datetime.now(timezone.utc)
+    year = now_utc.year
+    # Last Sunday in March
+    mar31 = datetime(year, 3, 31)
+    dst_start = mar31 - timedelta(days=(mar31.weekday() + 1) % 7)
+    dst_start = dst_start.replace(hour=1, tzinfo=timezone.utc)
+    # Last Sunday in October
+    oct31 = datetime(year, 10, 31)
+    dst_end = oct31 - timedelta(days=(oct31.weekday() + 1) % 7)
+    dst_end = dst_end.replace(hour=1, tzinfo=timezone.utc)
+    if dst_start <= now_utc < dst_end:
+        return timedelta(hours=2)  # MESZ
+    return timedelta(hours=1)  # MEZ
+
+BERLIN_OFFSET = _berlin_offset()
+BERLIN_TZ = timezone(BERLIN_OFFSET)
+
+
+def now_berlin():
+    return datetime.now(BERLIN_TZ)
+
+
 # ─── Kalender parsen ───
 
 def fetch_calendar(ical_url):
-    """Holt iCal-Daten und extrahiert Termine der nächsten 3 Tage."""
+    """Holt iCal-Daten und extrahiert Termine von heute + nächste 2 Tage (Berliner Zeit)."""
     try:
         req = urllib.request.Request(ical_url, headers={"User-Agent": "Morgenbrief/1.0"})
         with urllib.request.urlopen(req, timeout=15) as resp:
@@ -28,13 +54,14 @@ def fetch_calendar(ical_url):
         return f"[Kalender konnte nicht geladen werden: {e}]"
 
     events = []
-    now = datetime.now(timezone.utc)
-    horizon = now + timedelta(days=3)
+    today_berlin = now_berlin().replace(hour=0, minute=0, second=0, microsecond=0)
+    horizon = today_berlin + timedelta(days=3)  # heute + 2 weitere Tage
 
     for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", data, re.DOTALL):
         summary = ""
         dtstart_str = ""
         location = ""
+        is_utc = False
 
         m = re.search(r"SUMMARY:(.*?)[\r\n]", block)
         if m:
@@ -42,30 +69,59 @@ def fetch_calendar(ical_url):
         m = re.search(r"DTSTART[^:]*:(.*?)[\r\n]", block)
         if m:
             dtstart_str = m.group(1).strip()
+        # Check if DTSTART has TZID or ends with Z
+        dtstart_line_m = re.search(r"DTSTART([^:]*):.*?[\r\n]", block)
+        dtstart_params = dtstart_line_m.group(1) if dtstart_line_m else ""
+        if dtstart_str.endswith("Z"):
+            is_utc = True
+            dtstart_str = dtstart_str[:-1]
+
         m = re.search(r"LOCATION:(.*?)[\r\n]", block)
         if m:
             location = m.group(1).strip().replace("\\n", ", ").replace("\\,", ",")
 
         dt = None
+        is_allday = False
         try:
             if "T" in dtstart_str:
                 dt = datetime.strptime(dtstart_str[:15], "%Y%m%dT%H%M%S")
             elif len(dtstart_str) >= 8:
                 dt = datetime.strptime(dtstart_str[:8], "%Y%m%d")
+                is_allday = True
         except ValueError:
             continue
 
-        if dt:
-            dt_aware = dt.replace(tzinfo=timezone.utc)
-            if now - timedelta(days=1) <= dt_aware <= horizon:
-                date_str = dt.strftime("%a %d.%m. %H:%M") if "T" in dtstart_str else dt.strftime("%a %d.%m.")
-                loc_str = f" ({location})" if location else ""
-                events.append((dt, f"  {date_str}: {summary}{loc_str}"))
+        if dt is None:
+            continue
+
+        # Convert to Berlin time
+        if is_allday:
+            dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
+        elif is_utc:
+            dt_berlin = dt.replace(tzinfo=timezone.utc).astimezone(BERLIN_TZ)
+        elif "Europe/Berlin" in dtstart_params or "Europe%2FBerlin" in dtstart_params:
+            dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
+        else:
+            # Assume Berlin time for events without explicit timezone (Google Cal default)
+            dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
+
+        if today_berlin <= dt_berlin < horizon:
+            if is_allday:
+                date_str = dt_berlin.strftime("%a %d.%m.")
+            else:
+                date_str = dt_berlin.strftime("%a %d.%m. %H:%M")
+            loc_str = f" ({location})" if location else ""
+
+            # Tag-Label für Sortierung
+            day_diff = (dt_berlin.date() - today_berlin.date()).days
+            tag_label = ["HEUTE", "MORGEN", "ÜBERMORGEN"][day_diff] if day_diff < 3 else ""
+
+            events.append((dt_berlin, tag_label, f"  [{tag_label}] {date_str}: {summary}{loc_str}"))
 
     events.sort(key=lambda x: x[0])
     if not events:
         return "[Keine Termine in den nächsten 3 Tagen]"
-    return "\n".join(e[1] for e in events)
+    return "\n".join(e[2] for e in events)
 
 
 # ─── Wetter holen ───
@@ -76,6 +132,7 @@ def fetch_weather_for_location(lat, lon, name):
         f"https://api.open-meteo.com/v1/forecast?"
         f"latitude={lat}&longitude={lon}"
         f"&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weathercode"
+        f"&hourly=temperature_2m,precipitation"
         f"&timezone=Europe/Berlin&forecast_days=1"
     )
     codes = {
@@ -91,8 +148,16 @@ def fetch_weather_for_location(lat, lon, name):
         d = data["daily"]
         desc = codes.get(d["weathercode"][0], f"Code {d['weathercode'][0]}")
         rain = d["precipitation_sum"][0]
-        rain_str = f", {rain}mm Regen" if rain and rain > 0 else ""
-        return f"{name}: {desc}, {d['temperature_2m_min'][0]}–{d['temperature_2m_max'][0]}°C{rain_str}"
+        rain_str = f", {rain}mm Niederschlag" if rain and rain > 0 else ""
+
+        # Aktuelle Temperatur aus hourly (nächste volle Stunde)
+        current_hour = now_berlin().hour
+        hourly_temps = data.get("hourly", {}).get("temperature_2m", [])
+        current_temp = ""
+        if hourly_temps and current_hour < len(hourly_temps):
+            current_temp = f" (jetzt {hourly_temps[current_hour]:.0f}°C)"
+
+        return f"{name}: {desc}, {d['temperature_2m_min'][0]:.0f}–{d['temperature_2m_max'][0]:.0f}°C{current_temp}{rain_str}"
     except Exception:
         return f"{name}: [nicht verfügbar]"
 
@@ -103,19 +168,79 @@ def fetch_weather():
     return f"{roitzsch}\n{leipzig}"
 
 
+# ─── Tagesimpuls generieren ───
+
+def generate_impulse():
+    """Gibt dem Prompt kontextsensitive Vorschläge statt einer festen Liste."""
+    today = now_berlin()
+    weekday = today.strftime("%A")  # Monday, Tuesday, etc.
+    day_de = {
+        "Monday": "Montag", "Tuesday": "Dienstag", "Wednesday": "Mittwoch",
+        "Thursday": "Donnerstag", "Friday": "Freitag", "Saturday": "Samstag",
+        "Sunday": "Sonntag"
+    }.get(weekday, weekday)
+    month = today.month
+    day_of_year = today.timetuple().tm_yday
+
+    # Rotate through different creative suggestions using day of year
+    creative_pools = [
+        "Einen Film entwickeln oder Negative scannen",
+        "Einen persischen Film schauen (z.B. Panahi, Kiarostami, Farhadi, Rasoulof)",
+        "Eine Mixtape-Seite aufnehmen",
+        "Einen Brief schreiben (handschriftlich)",
+        "Skizzen machen oder zeichnen",
+        "Ein Gedicht übersetzen, das nicht für hochroth ist",
+        "Einen langen Spaziergang mit Kamera machen",
+        "Etwas am Klavier improvisieren, ohne Übungsziel",
+        "Einen alten Text von dir lesen und dazu Notizen machen",
+        "Etwas Neues kochen — ein Rezept aus einer anderen Küche",
+        "Eine Postkarte an jemanden schicken",
+        "Feldaufnahmen machen (Garten, Umgebung)",
+    ]
+
+    album_pools = [
+        "Ahmad Jamal — The Awakening",
+        "Kayhan Kalhor & Rembrandt Trio — Silence City",
+        "Tigran Hamasyan — A Fable",
+        "Sadegh Nojouki — Safar",
+        "Avishai Cohen — From Darkness",
+        "Anouar Brahem — Thimar",
+        "Nils Frahm — Felt",
+        "Vijay Iyer — Historicity",
+        "Shabaka Hutchings — Afrikan Culture",
+        "Aziza Mustafa Zadeh — Shamans",
+        "Arvo Pärt — Tabula Rasa",
+        "Alva Noto & Ryuichi Sakamoto — Vrioon",
+        "Nusrat Fateh Ali Khan — Mustt Mustt",
+        "Sussan Deyhim — Madman of God",
+        "Bill Evans — Waltz for Debby",
+    ]
+
+    creative_today = creative_pools[day_of_year % len(creative_pools)]
+    album_today = album_pools[day_of_year % len(album_pools)]
+
+    return f"""Heute ist {day_de}. Tagesvorschläge (nimm EINEN, nicht alle):
+– Kreativ: {creative_today}
+– Album des Tages: {album_today}
+Wähle passend zum Wochentag, Wetter und Terminen aus. Wenn der Tag voll ist, lass die Vorschläge weg."""
+
+
 # ─── Claude aufrufen ───
 
-def call_claude(kontext, fahrplan, aufgaben, kalender, wetter):
+def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse):
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         sys.exit("ANTHROPIC_API_KEY nicht gesetzt")
 
-    today = datetime.now().strftime("%A, %d. %B %Y")
+    today = now_berlin().strftime("%A, %d. %B %Y")
 
     user_message = f"""Heute ist {today}.
 
 WETTER:
 {wetter}
+
+TAGESIMPULS:
+{impulse}
 
 KONTEXT (enthält Format und Regeln — befolge sie exakt):
 {kontext}
@@ -123,7 +248,7 @@ KONTEXT (enthält Format und Regeln — befolge sie exakt):
 OFFENE AUFGABEN:
 {aufgaben}
 
-KALENDER (nächste 3 Tage):
+KALENDER (nächste 3 Tage, Tag-Labels beachten):
 {kalender}
 
 FAHRPLAN (nur als Hintergrund für Deadlines):
@@ -132,14 +257,14 @@ FAHRPLAN (nur als Hintergrund für Deadlines):
 AUFTRAG:
 Schreibe den Morgenbrief exakt in der Struktur die im Kontext-Dokument definiert ist:
 1. WETTER — die Wetterdaten oben einfach klar wiedergeben
-2. HEUTE — Termine + die 2–3 wichtigsten Aufgaben
-3. ROUTINE — die tägliche Routine-Liste
-4. PROJEKTE — was heute ein guter Tag für wäre
+2. HEUTE — nur Termine mit Label [HEUTE]. Daneben die 2–3 wichtigsten Aufgaben.
+3. IMPULS — wähle EINEN Vorschlag aus dem Tagesimpuls, passend zu Wochentag und Wetter. Nicht die ganze Liste wiedergeben. Formuliere den Vorschlag als beiläufigen Satz, nicht als Befehl.
+4. PROJEKTE — was heute ein guter Tag für wäre (kurz, nach Terminen einschätzen)
 5. ERLEDIGTES — nur wenn es welches gibt
-6. AUSBLICK — morgen/übermorgen, kurz
+6. AUSBLICK — Termine mit Label [MORGEN] und [ÜBERMORGEN], nahende Deadlines. Max 2 Sätze.
 
 Jede Sektion mit dem Namen als Überschrift (ohne Formatierung, einfach in Großbuchstaben).
-Kein Markdown. Keine Vermutungen. Sachlich. Unter 400 Wörter."""
+Kein Markdown. Keine Vermutungen. Sachlich. Unter 350 Wörter."""
 
     payload = json.dumps({
         "model": "claude-sonnet-4-20250514",
@@ -188,7 +313,7 @@ def create_epub(text, date_str):
     lines = text.strip().split("\n")
     html_parts = []
     current_block = []
-    section_names = {"WETTER", "HEUTE", "ROUTINE", "PROJEKTE", "ERLEDIGTES", "AUSBLICK"}
+    section_names = {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK"}
 
     def flush_block():
         if current_block:
@@ -242,7 +367,7 @@ p {{ margin-bottom: 0.6em; }}
     <dc:title>{title}</dc:title>
     <dc:language>de</dc:language>
     <dc:creator>Claude</dc:creator>
-    <meta property="dcterms:modified">{datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}</meta>
+    <meta property="dcterms:modified">{datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}</meta>
   </metadata>
   <manifest>
     <item id="content" href="content.xhtml" media-type="application/xhtml+xml"/>
@@ -315,11 +440,12 @@ def main():
     ical_url = os.environ.get("ICAL_URL", "")
     kalender = fetch_calendar(ical_url) if ical_url else "[Keine Kalender-URL]"
     wetter = fetch_weather()
+    impulse = generate_impulse()
 
-    print("Morgenbrief wird geschrieben...")
-    text = call_claude(kontext, fahrplan, aufgaben, kalender, wetter)
+    print(f"Morgenbrief wird geschrieben ({now_berlin().strftime('%d.%m.%Y %H:%M')} Berliner Zeit)...")
+    text = call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse)
 
-    date_str = datetime.now().strftime("%Y-%m-%d")
+    date_str = now_berlin().strftime("%Y-%m-%d")
     epub_path = create_epub(text, date_str)
     send_to_kindle(epub_path)
 
