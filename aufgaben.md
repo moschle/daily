@@ -159,7 +159,7 @@ ALLE Stellen selbst prüfen — die Links oben können veraltet sein. Claude-Web
 - [ ] VG Wort Anmeldung — DRINGEND! Publikationen melden: Langenstein-Kapitel (Mitteldeutscher Verlag), Berliner Debatte Initial Artikel, ggf. weitere.
 - [ ] ERGO-Rechtsstreit verfolgen (Nutzungsausfall Peugeot, Az. KS0731 23075-0005, Anwältin Turan-Agdas)
 - [ ] BfV-Stellenportal monatlich checken
-- [ ] DMG-Forschungspreis — noch nicht beworben, wollten wir machen
+- [ ] DMG-Forschungspreis (5.000€) — Bewerbung an Prof. Weninger (Marburg, weninger@staff.uni-marburg.de). Nächster DOT (36.) voraussichtlich 2028–2029, Frist dann 15. Juni des DOT-Jahres. Braucht: MA-Arbeit (elektronisch) + 3–4-seitige Zusammenfassung + CV + 2 Gutachten (Pabst + Purnaqcheband/Rzehak?). WARTET auf MA-Bewertung. Kriterium: übersetzerische/interpretatorische Erschließung von Primärquellen. 35. DOT war Sept 2025 in Erlangen.
 - [ ] Website moritzschlenstedt.de pflegen (Carrd)
 - [ ] Cranston R9Max Faltrad — Farbwechsel-Anfrage noch offen
 - [ ] RCD330 Radio für Sportsvan klären (war inkompatibel mit altem Golf Sportsvan AM1 2015)
