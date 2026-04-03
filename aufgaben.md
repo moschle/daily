@@ -69,17 +69,47 @@
 - [ ] Asbestdach Gartenhaus: Entsorgung klären (keine direkte Zufahrt, Big Bags nötig), neue Faserzement- oder Wellblechplatten
 - [ ] Wasserführende Heizung: kleiner Holzofen + Handtuchheizkörper per Thermosiphon (ohne Strom)
 
-## Stipendien & Förderungen (Zeitleiste)
+## Stipendien & Förderungen (Zeitleiste, Stand 3.4.2026)
 
+*Quelle: VdÜ Preise- & Stipendien-Datenbank + eigene Recherche*
+
+### April
+- [ ] Schloss Wiepersdorf Aufenthaltsstipendium — Frist 15.4.
+- [ ] DÜF Hieronymus-Programm — Frist 15.4.
+- [ ] Germersheimer Übersetzer-Stipendium — Frist 15.4.
+- [ ] Atelier LCB Berlin — Frist 20.4.
+- [ ] Culture Moves Europe (EU-Mobilitätsstipendium) — Frist 30.4.
+
+### Mai
 - [ ] DÜF Arbeitsstipendium — Frist 15.5. (nur mit hochroth-Vertrag)
+- [ ] DÜF Reisestipendium — Frist 15.5. (für Tajikistan September!)
+- [ ] DÜF Aufenthaltsstipendien Visby/Arles/Straelen — Frist 15.5.
+- [ ] „Schritte"-Stipendien S. Fischer Stiftung — Frist 15.5.
 - [ ] Kulturstiftung Sachsen — Formular ab 15.5., Frist 1.7. (Max Uhlig Reisestipendium für Yage)
+
+### Juni/Juli
+- [ ] Berliner Übersetzerwerkstatt — Frist 15.6.
+- [ ] NRW Arbeits- und Recherchestipendien — Frist 30.6.
+- [ ] Kulturstiftung Sachsen Arbeits-/Aufenthaltsstipendien — Frist 1.7.
 - [ ] Böll Promotionsstipendium — Portal 15.7., Frist 1.9. (~1.350€/Monat + 100€ Forschung, 3 Jahre. Alumnus-Vorteil.)
+
+### September
+- [ ] DÜF Looren Aufenthalt — Frist 1.9.
 - [ ] DÜF Arbeitsstipendium Herbstvergabe — Frist 15.9.
-- [ ] DÜF Initiativstipendium — Frist 30.11. (2.000€, OHNE Vertrag möglich, für Recherche/Exposé/Verlagsvermittlung)
+- [ ] DÜF Reisestipendium Herbstvergabe — Frist 15.9.
+- [ ] DÜF Aufenthaltsstipendien Visby/Arles/Straelen — Frist 15.9.
+- [ ] Gastdozenturen des DÜF — Frist 30.9.
+
+### November/Dezember
+- [ ] DÜF Initiativstipendium — Frist 30.11. (2.000€, OHNE Vertrag möglich)
+- [ ] NRW Arbeits-/Recherchestipendien — Frist 30.11.
 - [ ] Kunststiftung Sachsen-Anhalt Arbeitsstipendium — Frist November (1.500€/Monat)
-- [ ] DAAD Forschungsaufenthalt Tadschikistan/Iran (~1.200€/Monat, Frist variabel)
-- [ ] Übersetzerhaus Looren — Aufenthaltsstipendium (laufend, keine feste Frist)
-- [ ] LCB Übersetzerworkshop/-stipendium Berlin (nach Verlagsvertrag)
+
+### Jederzeit
+- [ ] Übersetzerhaus Looren (direkt, ohne DÜF)
+- [ ] Ventspils (Lettland), Visby (Schweden), Sofia (Bulgarien) — Aufenthaltsstipendien
+
+### Promotionsstipendien & Langfristig
 - [ ] Studienstiftung Promotionsstipendium (~1.550€/Monat, laufend)
 - [ ] Wien Angewandte PhD in Art — voraussichtlich Februar 2027
 - [ ] Wien Akademie PhD in Practice (low residency) — voraussichtlich Februar 2027
@@ -113,6 +143,16 @@ ALLE Stellen selbst prüfen — die Links oben können veraltet sein. Claude-Web
 - [ ] LSI Bochum Persisch-Intensivkurs (ab 17.8., akademisch beste Option, ~600–900€ Selbstzahler). Kontakt: larissa.hogrefe@lsi-bochum.de
 - [ ] VHS Einstufungstest Persisch (13.4., 13:00 online)
 - [ ] Bildungsgutschein Französisch C1 (für Auswärtiges Amt) — bei Sachbearbeiterin beantragen
+
+## Mitgliedschaften & Vernetzung
+
+- [ ] DMG (Deutsche Morgenländische Gesellschaft) — Mitgliedschaft beantragen (dmg-web.de, Sitz Halle)
+- [ ] VdÜ (Verband deutschsprachiger Übersetzer) — Kandidatenstatus beantragen (literaturuebersetzer.de). Vollmitglied nach hochroth-Vertrag.
+- [ ] GiG (Gesellschaft für interkulturelle Germanistik) — Mitgliedschaft prüfen (gig.uni-bayreuth.de)
+- [ ] SIE (Societas Iranologica Europaea) — langfristig, braucht 2 Bürgen
+- [ ] H-Net + H-Soz-Kult — für CfP-Alerts registrieren
+- [ ] Mail an Lutz Rzehak (HU Berlin/SOAS) — MA-Ergebnisse vorstellen, Konferenz-Empfehlungen erfragen
+- [ ] FU Berlin Arabisch-Lehrkraft (LfbA, 50%, E13, Mutterschutzvertretung) — bewerben!
 
 ## Laufend
 
