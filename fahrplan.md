@@ -60,9 +60,9 @@ April ist unregelmäßig (Dresden nur 11.4., viele Einzeltermine). Ab Mai normal
   - Gehobener Dienst, Berlin. Analyse, operative Steuerung, internationale Zusammenarbeit.
 - [ ] **DAAD Regellektorat Nachausschreibung 2026/27** — Frist: 14. April ⚡
   - Online-Bewerbung, bis zu 3 Hochschulen. Gutachten nötig (Pabst am 10.4. fragen!).
-  - Top-Auswahl:
-    1. **Federal University of Pará, Belém** (BRA-RL-1) — Kulturlektorat. Master DaF/Germanistik/Romanistik/LitWiss. Promotion wünschenswert. DaF-Lehrerfahrung + Kulturmanagement + Portugiesisch gefordert. Beginn Feb 2027. Kontakt: María del Mar Dumath, ST31, dumath@daad.de
-    2. **Capital Normal University, Beijing** (CHN-RL-13) — Master DaF/Germanistik reicht. Lehrerfahrung. DaF, Literatur, IK, Landeskunde, Fachdidaktik. Beginn Sept 2026. Kontakt: Jeannine Kaliga-Blake, ST34, kaliga-blake@daad.de
+  - Auswahl (Reihenfolge im Formular):
+    1. **Capital Normal University, Beijing** (CHN-RL-13) — Master DaF/Germanistik reicht. Lehrerfahrung. DaF, Literatur, IK, Landeskunde, Fachdidaktik. Beginn Sept 2026. Kontakt: Jeannine Kaliga-Blake, ST34, kaliga-blake@daad.de
+    2. **Federal University of Pará, Belém** (BRA-RL-1) — Kulturlektorat. Master DaF/Germanistik/Romanistik/LitWiss. Promotion wünschenswert. DaF-Lehrerfahrung + Kulturmanagement + Portugiesisch gefordert. Beginn Feb 2027. Kontakt: María del Mar Dumath, ST31, dumath@daad.de
     3. **University of Alger 2, Algier** (DZA-RL-1) — Promotion erwünscht. Französisch + Arabisch gefragt (!— beides vorhanden). Sprach-/Literaturwiss., Übersetzung, Didaktik. Beginn Sept 2026. Kontakt: Paula Blaschke, ST33, blaschke@daad.de
   - Alternativen: Beijing International Studies University (CHN-RL-11, breiter, auch Dolmetschen/Übersetzen), University of São Paulo (BRA-RL-10, Promotion Pflicht, eher akademisch)
   - Allg. Voraussetzungen: Abschluss an dt. Hochschule, EU-Staatsangehörigkeit, Lebensmittelpunkt DE in letzten 2 Jahren

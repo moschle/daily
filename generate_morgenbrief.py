@@ -127,45 +127,89 @@ def fetch_calendar(ical_url):
 # ─── Wetter holen ───
 
 def fetch_weather_for_location(lat, lon, name):
-    """Holt Tageswetter für einen Ort."""
+    """Holt detailliertes Tageswetter für einen Ort mit Niederschlag nach Tageszeit."""
     url = (
         f"https://api.open-meteo.com/v1/forecast?"
         f"latitude={lat}&longitude={lon}"
         f"&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weathercode"
-        f"&hourly=temperature_2m,precipitation"
+        f"&hourly=temperature_2m,precipitation,precipitation_probability,weathercode"
         f"&timezone=Europe/Berlin&forecast_days=1"
     )
-    codes = {
-        0: "Klar", 1: "Überwiegend klar", 2: "Teils bewölkt", 3: "Bewölkt",
-        45: "Nebel", 48: "Reifnebel", 51: "Leichter Niesel", 53: "Niesel",
-        55: "Starker Niesel", 61: "Leichter Regen", 63: "Regen", 65: "Starker Regen",
-        71: "Leichter Schnee", 73: "Schnee", 75: "Starker Schnee",
-        80: "Regenschauer", 81: "Starke Schauer", 95: "Gewitter"
+    wmo_codes = {
+        0: "klar", 1: "überwiegend klar", 2: "teils bewölkt", 3: "bewölkt",
+        45: "Nebel", 48: "Reifnebel",
+        51: "leichter Niesel", 53: "Niesel", 55: "starker Niesel",
+        56: "gefrierender Niesel", 57: "starker gefrierender Niesel",
+        61: "leichter Regen", 63: "Regen", 65: "starker Regen",
+        66: "gefrierender Regen", 67: "starker gefrierender Regen",
+        71: "leichter Schneefall", 73: "Schneefall", 75: "starker Schneefall",
+        77: "Schneegriesel",
+        80: "leichte Regenschauer", 81: "Regenschauer", 82: "heftige Regenschauer",
+        85: "leichte Schneeschauer", 86: "heftige Schneeschauer",
+        95: "Gewitter", 96: "Gewitter mit leichtem Hagel", 99: "Gewitter mit Hagel"
     }
     try:
         with urllib.request.urlopen(url, timeout=10) as resp:
             data = json.loads(resp.read())
         d = data["daily"]
-        desc = codes.get(d["weathercode"][0], f"Code {d['weathercode'][0]}")
-        rain = d["precipitation_sum"][0]
-        rain_str = f", {rain}mm Niederschlag" if rain and rain > 0 else ""
+        h = data.get("hourly", {})
 
-        # Aktuelle Temperatur aus hourly (nächste volle Stunde)
-        current_hour = now_berlin().hour
-        hourly_temps = data.get("hourly", {}).get("temperature_2m", [])
-        current_temp = ""
-        if hourly_temps and current_hour < len(hourly_temps):
-            current_temp = f" (jetzt {hourly_temps[current_hour]:.0f}°C)"
+        tmin = d["temperature_2m_min"][0]
+        tmax = d["temperature_2m_max"][0]
+        daily_code = d["weathercode"][0]
+        daily_desc = wmo_codes.get(daily_code, f"Code {daily_code}")
 
-        return f"{name}: {desc}, {d['temperature_2m_min'][0]:.0f}–{d['temperature_2m_max'][0]:.0f}°C{current_temp}{rain_str}"
-    except Exception:
-        return f"{name}: [nicht verfügbar]"
+        # Temperatur und Niederschlag nach Tageszeit
+        hourly_temps = h.get("temperature_2m", [])
+        hourly_precip = h.get("precipitation", [])
+        hourly_prob = h.get("precipitation_probability", [])
+        hourly_codes = h.get("weathercode", [])
+
+        # Zeitfenster: Nacht 0-5, Morgen 6-9, Vormittag 10-12, Nachmittag 13-17, Abend 18-23
+        slots = [
+            ("Nacht", 0, 6),
+            ("Morgen", 6, 10),
+            ("Vormittag", 10, 13),
+            ("Nachmittag", 13, 18),
+            ("Abend", 18, 24),
+        ]
+
+        precip_parts = []
+        for slot_name, start, end in slots:
+            if len(hourly_precip) < end or len(hourly_codes) < end:
+                continue
+            slot_precip = sum(hourly_precip[start:end])
+            slot_probs = hourly_prob[start:end] if len(hourly_prob) >= end else []
+            slot_codes_list = hourly_codes[start:end]
+
+            if slot_precip > 0.1 or (slot_probs and max(slot_probs) > 30):
+                # Find the most severe weather code in this slot
+                max_code = max(slot_codes_list) if slot_codes_list else 0
+                precip_desc = wmo_codes.get(max_code, "Niederschlag")
+                avg_prob = int(sum(slot_probs) / len(slot_probs)) if slot_probs else 0
+                if slot_precip > 0.1:
+                    precip_parts.append(f"{slot_name}: {precip_desc} ({slot_precip:.1f}mm, {avg_prob}%)")
+                elif avg_prob > 30:
+                    precip_parts.append(f"{slot_name}: mögl. {precip_desc} ({avg_prob}%)")
+
+        # Nachttemperatur (Minimum der Stunden 0-5)
+        night_temps = hourly_temps[0:6] if len(hourly_temps) >= 6 else []
+        night_min = f"{min(night_temps):.0f}°C" if night_temps else f"{tmin:.0f}°C"
+
+        result = f"{name}: {daily_desc.capitalize()}, {tmin:.0f}–{tmax:.0f}°C (Nacht {night_min})"
+        if precip_parts:
+            result += "\n  " + "; ".join(precip_parts)
+        elif d["precipitation_sum"][0] and d["precipitation_sum"][0] > 0:
+            result += f" — {d['precipitation_sum'][0]:.1f}mm Niederschlag gesamt"
+        return result
+    except Exception as e:
+        return f"{name}: [nicht verfügbar: {e}]"
 
 
 def fetch_weather():
-    roitzsch = fetch_weather_for_location(51.62, 12.25, "Roitzsch")
-    leipzig = fetch_weather_for_location(51.34, 12.37, "Leipzig")
-    return f"{roitzsch}\n{leipzig}"
+    # Nur Leipzig — Roitzsch ist 30km entfernt, Wetter praktisch identisch
+    leipzig = fetch_weather_for_location(51.34, 12.37, "Leipzig/Roitzsch")
+    return leipzig
 
 
 # ─── Tagesimpuls generieren ───
