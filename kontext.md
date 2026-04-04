@@ -34,6 +34,8 @@ Moritz funktioniert am besten mit klaren Routinen. Ohne Struktur neigt er zu exz
 
 Kommunikationssprache: Deutsch. Bevorzugt direkte, evidenzbasierte Kommunikation.
 
+Aktives Sprachtraining: Arabisch (MSA + levantinischer Dialekt) und Persisch täglich üben, je 20–30 Minuten. Ziel: BKA-Eignungstest bestehen + Konversationsfähigkeit Persisch verbessern.
+
 ## Format des Morgenbriefs
 
 Feste Struktur, kein Gespräch. Ein Tagesblatt.

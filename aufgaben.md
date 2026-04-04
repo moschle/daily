@@ -141,6 +141,7 @@ ALLE Stellen selbst prüfen — die Links oben können veraltet sein. Claude-Web
 
 ## Sprachkurse & Weiterbildung
 
+- [ ] Tägliches Sprachtraining: Arabisch + Persisch (je 20–30 Min.). MSA Fusha auffrischen + levantinischen Dialekt anfängen. Persisch: Konversation üben (xiaozhi-Pager oder Tandem).
 - [ ] AVGS Persisch-Einzelcoaching (Berlitz) — Anfrage läuft, warte auf Antwort. In Berlin gemeldet.
 - [ ] LSI Bochum Persisch-Intensivkurs (ab 17.8., akademisch beste Option, ~600–900€ Selbstzahler). Kontakt: larissa.hogrefe@lsi-bochum.de
 - [ ] VHS Einstufungstest Persisch (13.4., 13:00 online)
@@ -158,7 +159,7 @@ ALLE Stellen selbst prüfen — die Links oben können veraltet sein. Claude-Web
 
 ## Laufend
 
-- [ ] VG Wort Anmeldung — DRINGEND! Publikationen melden: Langenstein-Kapitel (Mitteldeutscher Verlag), Berliner Debatte Initial Artikel, ggf. weitere.
+- [x] VG Wort Anmeldung — ERLEDIGT (3.4.2026). Publikationen gemeldet.
 - [ ] ERGO-Rechtsstreit verfolgen (Nutzungsausfall Peugeot, Az. KS0731 23075-0005, Anwältin Turan-Agdas)
 - [ ] BfV-Stellenportal monatlich checken
 - [ ] DMG-Forschungspreis (5.000€) — Bewerbung an Prof. Weninger (Marburg, weninger@staff.uni-marburg.de). Nächster DOT (36.) voraussichtlich 2028–2029, Frist dann 15. Juni des DOT-Jahres. Braucht: MA-Arbeit (elektronisch) + 3–4-seitige Zusammenfassung + CV + 2 Gutachten (Pabst + Purnaqcheband/Rzehak?). WARTET auf MA-Bewertung. Kriterium: übersetzerische/interpretatorische Erschließung von Primärquellen. 35. DOT war Sept 2025 in Erlangen.
