@@ -173,7 +173,7 @@ April ist unregelmäßig (Dresden nur 11.4., viele Einzeltermine). Ab Mai normal
 
 **April** (Dresden unregelmäßig, nur 11.4.)
 - 31.03. Mo: DMG-Forschungspreis + Termin Lea Fritz (Schenkendorfstr.)
-- 04.04. Fr: **LIFT Ruhland**
+- 04.04. Sa: **LIFT Ruhland** (19:30, Schützenhaus)
 - 07.04. Di: Geburtstag Margarethe
 - 08.04. Mi: Senzera
 - 10.04. Fr: Lehrstuhltreffen Halle mit Pabst (Ludwig-Wucherer-Str.)
