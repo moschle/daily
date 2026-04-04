@@ -58,6 +58,7 @@
 - [ ] Weitere dis:orient-Texte (Themen klären, Redaktion kontaktieren)
 - [ ] Yage-Projekt Exposé (essayistische Überschreibung von Burroughs' Yage Letters, Oliver Harris Redux Edition 2006. Forschungsreise 2027: Bogotá → Putumayo → Lima → Pucallpa. Fokus auf Northern Gaze, koloniale Haltungen.)
 - [ ] Musikpodcast (iranischer Jazz) — Konzept, Recherche, Pilotfolge
+- [ ] Morgenbrief Public Version — Wochenendprojekt. Generisches Repo (kindle-morning-brief oder morgenbrief) für r/digitalminimalism. config.yaml statt persönlicher Markdown-Dateien, Schritt-für-Schritt README, optionale Sprachübung. Post auf r/digitalminimalism, r/kindle, r/selfhosted.
 
 ## Auto
 
