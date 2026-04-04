@@ -212,9 +212,34 @@ def fetch_weather():
     return leipzig
 
 
+# ─── Nachrichten für Sprachübung holen ───
+
+def fetch_news_headline(lang_code):
+    """Holt eine aktuelle Schlagzeile für die Sprachübung."""
+    if lang_code == "ar":
+        # Al Jazeera Arabic RSS
+        url = "https://www.aljazeera.net/aljazeerarss/a7c186be-1baa-4bd4-9d80-a84db769f779/73d0e1b4-532f-45ef-b135-bfdff8b8cab9"
+    else:
+        # Tehran Times / IRNA English (for topic extraction)
+        url = "https://www.tehrantimes.com/rss"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Morgenbrief/1.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = resp.read().decode("utf-8", errors="replace")
+        # Extract first <title> from RSS items (skip channel title)
+        titles = re.findall(r"<item>.*?<title>(?:<\!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", data, re.DOTALL)
+        if titles:
+            # Clean HTML entities
+            headline = titles[0].strip()
+            headline = headline.replace("&amp;", "&").replace("&quot;", '"').replace("&lt;", "<").replace("&gt;", ">")
+            return headline[:300]
+    except Exception:
+        pass
+    return None
+
+
 # ─── Sprachübung generieren ───
 
-# Start date for difficulty progression
 LANG_START = datetime(2026, 4, 5, tzinfo=BERLIN_TZ)
 
 def generate_language_exercise():
@@ -246,24 +271,22 @@ def generate_language_exercise():
         level = "B2 (fortgeschritten)"
         instructions = "Anspruchsvoller Text. Zeitungssprache, abstrakte Themen, idiomatische Wendungen."
 
-    # Thema rotiert
-    topics = [
-        "Tagesablauf und Routine",
-        "Essen und Kochen",
-        "Eine Reise beschreiben",
-        "Familie und Freunde",
-        "Das Wetter und die Jahreszeiten",
-        "Einkaufen auf dem Markt",
-        "Ein Buch oder Film beschreiben",
-        "Die eigene Stadt vorstellen",
-        "Arbeit und Beruf",
-        "Kindheitserinnerungen",
-        "Ein Fest oder eine Feier",
-        "Natur und Umwelt",
-        "Musik und Kunst",
-        "Gesundheit und Sport",
-    ]
-    topic = topics[days_since_start % len(topics)]
+    # Versuche aktuelle Nachricht zu holen
+    headline = fetch_news_headline(lang_code)
+    if headline:
+        topic = f"Aktuelle Nachricht: {headline}"
+        topic_source = "Al Jazeera" if lang_code == "ar" else "Tehran Times"
+    else:
+        # Fallback: rotierende Themen
+        fallback_topics = [
+            "Tagesablauf und Routine", "Essen und Kochen", "Eine Reise beschreiben",
+            "Familie und Freunde", "Das Wetter", "Einkaufen auf dem Markt",
+            "Ein Buch oder Film beschreiben", "Die eigene Stadt vorstellen",
+            "Arbeit und Beruf", "Kindheitserinnerungen", "Natur und Umwelt",
+            "Musik und Kunst", "Gesundheit und Sport", "Politik und Gesellschaft",
+        ]
+        topic = fallback_topics[days_since_start % len(fallback_topics)]
+        topic_source = None
 
     return {
         "language": language,
@@ -271,6 +294,7 @@ def generate_language_exercise():
         "level": level,
         "instructions": instructions,
         "topic": topic,
+        "topic_source": topic_source,
         "week": week,
     }
 
@@ -342,7 +366,8 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     today = now_berlin().strftime("%A, %d. %B %Y")
 
     lang = lang_exercise
-    lang_prompt = f"""SPRACHÜBUNG ({lang['language']}, Level {lang['level']}, Woche {lang['week']+1}):
+    source_note = f" (basierend auf {lang['topic_source']})" if lang.get('topic_source') else ""
+    lang_prompt = f"""SPRACHÜBUNG ({lang['language']}, Level {lang['level']}, Woche {lang['week']+1}{source_note}):
 Schreibe einen kurzen Übungstext auf {lang['language']} zum Thema "{lang['topic']}".
 Regeln:
 - 5–8 Sätze in {'arabischer' if lang['lang_code'] == 'ar' else 'persischer'} Schrift.
