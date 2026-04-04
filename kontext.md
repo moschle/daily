@@ -58,6 +58,9 @@ Aufgaben die seit dem letzten Update als erledigt markiert wurden. Sonst weglass
 6. AUSBLICK
 Termine mit Label [MORGEN] und [ÜBERMORGEN], nahende Deadlines. Max 2 Sätze.
 
+7. SPRACHÜBUNG
+Täglicher Übungstext, abwechselnd Arabisch (gerade Tage) und Persisch (ungerade Tage). In Originalschrift (arabisch/persisch), NICHT in Transliteration. Schwierigkeit steigt über die Wochen automatisch (A2 → B1 → B1+ → B2). Neues Vokabular wird inline in Klammern auf Deutsch erklärt. Am Ende 2–3 Verständnisfragen auf Deutsch. Der Text wird auf dem Kindle gelesen — Kindle kann arabische/persische Schrift darstellen.
+
 ## Regeln
 
 – KEIN Markdown (kein **, ##, *, Backticks). Nur Fließtext und Spiegelstriche (–).

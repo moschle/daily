@@ -212,6 +212,69 @@ def fetch_weather():
     return leipzig
 
 
+# ─── Sprachübung generieren ───
+
+# Start date for difficulty progression
+LANG_START = datetime(2026, 4, 5, tzinfo=BERLIN_TZ)
+
+def generate_language_exercise():
+    """Bestimmt Sprache (Arabisch/Persisch) und Schwierigkeitsgrad für den Tag."""
+    today = now_berlin()
+    day_of_year = today.timetuple().tm_yday
+    days_since_start = max(0, (today - LANG_START).days)
+    week = days_since_start // 7
+
+    # Gerader Tag = Arabisch, ungerader Tag = Persisch
+    if day_of_year % 2 == 0:
+        language = "Arabisch"
+        lang_code = "ar"
+    else:
+        language = "Persisch"
+        lang_code = "fa"
+
+    # Schwierigkeitsstufe steigt über Wochen
+    if week < 2:
+        level = "A2 (einfach)"
+        instructions = "Sehr einfache Sätze. Grundvokabular: Familie, Essen, Wetter, Tagesablauf. Präsens und einfache Vergangenheit."
+    elif week < 6:
+        level = "B1 (mittel)"
+        instructions = "Längere Sätze möglich. Themen: Reisen, Arbeit, Meinungen, Nachrichten. Konjunktiv, Relativsätze erlaubt."
+    elif week < 12:
+        level = "B1+ (gehoben)"
+        instructions = "Komplexere Strukturen. Themen: Kultur, Politik, Literatur. Passiv, indirekte Rede."
+    else:
+        level = "B2 (fortgeschritten)"
+        instructions = "Anspruchsvoller Text. Zeitungssprache, abstrakte Themen, idiomatische Wendungen."
+
+    # Thema rotiert
+    topics = [
+        "Tagesablauf und Routine",
+        "Essen und Kochen",
+        "Eine Reise beschreiben",
+        "Familie und Freunde",
+        "Das Wetter und die Jahreszeiten",
+        "Einkaufen auf dem Markt",
+        "Ein Buch oder Film beschreiben",
+        "Die eigene Stadt vorstellen",
+        "Arbeit und Beruf",
+        "Kindheitserinnerungen",
+        "Ein Fest oder eine Feier",
+        "Natur und Umwelt",
+        "Musik und Kunst",
+        "Gesundheit und Sport",
+    ]
+    topic = topics[days_since_start % len(topics)]
+
+    return {
+        "language": language,
+        "lang_code": lang_code,
+        "level": level,
+        "instructions": instructions,
+        "topic": topic,
+        "week": week,
+    }
+
+
 # ─── Tagesimpuls generieren ───
 
 def generate_impulse():
@@ -271,12 +334,24 @@ Wähle passend zum Wochentag, Wetter und Terminen aus. Wenn der Tag voll ist, la
 
 # ─── Claude aufrufen ───
 
-def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse):
+def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exercise):
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         sys.exit("ANTHROPIC_API_KEY nicht gesetzt")
 
     today = now_berlin().strftime("%A, %d. %B %Y")
+
+    lang = lang_exercise
+    lang_prompt = f"""SPRACHÜBUNG ({lang['language']}, Level {lang['level']}, Woche {lang['week']+1}):
+Schreibe einen kurzen Übungstext auf {lang['language']} zum Thema "{lang['topic']}".
+Regeln:
+- 5–8 Sätze in {'arabischer' if lang['lang_code'] == 'ar' else 'persischer'} Schrift.
+- {lang['instructions']}
+- {'Fusha (MSA), kein Dialekt.' if lang['lang_code'] == 'ar' else 'Farsi-ye me\'yar, kein Slang.'}
+- Wenn ein Wort über Grundwortschatz hinausgeht: sofort in Klammern auf Deutsch erklären.
+  Beispiel {'Arabisch' if lang['lang_code'] == 'ar' else 'Persisch'}: {'ذهبتُ إلى المكتبة (Maktaba = Bibliothek)' if lang['lang_code'] == 'ar' else 'من به کتابخانه (ketābkhāne = Bibliothek) رفتم'}
+- KEIN Transliteration. Nur Originalschrift + deutsche Glossen in Klammern.
+- Am Ende: 2–3 Verständnisfragen auf Deutsch zum Text."""
 
     user_message = f"""Heute ist {today}.
 
@@ -298,6 +373,8 @@ KALENDER (nächste 3 Tage, Tag-Labels beachten):
 FAHRPLAN (nur als Hintergrund für Deadlines):
 {fahrplan}
 
+{lang_prompt}
+
 AUFTRAG:
 Schreibe den Morgenbrief exakt in der Struktur die im Kontext-Dokument definiert ist:
 1. WETTER — die Wetterdaten oben einfach klar wiedergeben
@@ -306,13 +383,14 @@ Schreibe den Morgenbrief exakt in der Struktur die im Kontext-Dokument definiert
 4. PROJEKTE — was heute ein guter Tag für wäre (kurz, nach Terminen einschätzen)
 5. ERLEDIGTES — nur wenn es welches gibt
 6. AUSBLICK — Termine mit Label [MORGEN] und [ÜBERMORGEN], nahende Deadlines. Max 2 Sätze.
+7. SPRACHÜBUNG — den Übungstext gemäß den Anweisungen oben generieren. In Originalschrift. Neue Vokabeln inline in Klammern auf Deutsch glossieren. Am Ende 2–3 Verständnisfragen auf Deutsch.
 
 Jede Sektion mit dem Namen als Überschrift (ohne Formatierung, einfach in Großbuchstaben).
-Kein Markdown. Keine Vermutungen. Sachlich. Unter 350 Wörter."""
+Kein Markdown. Keine Vermutungen. Sachlich. Morgenbrief-Teil unter 350 Wörter, Sprachübung zusätzlich."""
 
     payload = json.dumps({
         "model": "claude-sonnet-4-20250514",
-        "max_tokens": 1200,
+        "max_tokens": 2000,
         "messages": [{"role": "user", "content": user_message}]
     }).encode("utf-8")
 
@@ -357,18 +435,24 @@ def create_epub(text, date_str):
     lines = text.strip().split("\n")
     html_parts = []
     current_block = []
-    section_names = {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK"}
+    section_names = {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK", "SPRACHÜBUNG"}
+    rtl_section = False  # Track if we're in the SPRACHÜBUNG section
 
     def flush_block():
         if current_block:
             content = "<br/>".join(current_block)
-            html_parts.append(f"<p>{content}</p>")
+            if rtl_section:
+                html_parts.append(f'<p dir="rtl" style="text-align: right; font-size: 1.1em; line-height: 1.8;">{content}</p>')
+            else:
+                html_parts.append(f"<p>{content}</p>")
             current_block.clear()
 
     for line in lines:
         stripped = line.strip()
         if stripped in section_names or (stripped and stripped.rstrip(":") in section_names):
             flush_block()
+            section_key = stripped.rstrip(":")
+            rtl_section = (section_key == "SPRACHÜBUNG")
             html_parts.append(f"<h2>{stripped}</h2>")
         elif stripped == "":
             flush_block()
@@ -485,9 +569,11 @@ def main():
     kalender = fetch_calendar(ical_url) if ical_url else "[Keine Kalender-URL]"
     wetter = fetch_weather()
     impulse = generate_impulse()
+    lang_exercise = generate_language_exercise()
 
     print(f"Morgenbrief wird geschrieben ({now_berlin().strftime('%d.%m.%Y %H:%M')} Berliner Zeit)...")
-    text = call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse)
+    print(f"Sprachübung: {lang_exercise['language']} (Level {lang_exercise['level']}, Thema: {lang_exercise['topic']})")
+    text = call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exercise)
 
     date_str = now_berlin().strftime("%Y-%m-%d")
     epub_path = create_epub(text, date_str)
