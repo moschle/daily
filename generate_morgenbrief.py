@@ -271,22 +271,19 @@ def generate_language_exercise():
         level = "B2 (fortgeschritten)"
         instructions = "Anspruchsvoller Text. Zeitungssprache, abstrakte Themen, idiomatische Wendungen."
 
-    # Versuche aktuelle Nachricht zu holen
+    # Aktuelle Nachricht holen (zusätzlich zum Übungsthema)
     headline = fetch_news_headline(lang_code)
-    if headline:
-        topic = f"Aktuelle Nachricht: {headline}"
-        topic_source = "Al Jazeera" if lang_code == "ar" else "Tehran Times"
-    else:
-        # Fallback: rotierende Themen
-        fallback_topics = [
-            "Tagesablauf und Routine", "Essen und Kochen", "Eine Reise beschreiben",
-            "Familie und Freunde", "Das Wetter", "Einkaufen auf dem Markt",
-            "Ein Buch oder Film beschreiben", "Die eigene Stadt vorstellen",
-            "Arbeit und Beruf", "Kindheitserinnerungen", "Natur und Umwelt",
-            "Musik und Kunst", "Gesundheit und Sport", "Politik und Gesellschaft",
-        ]
-        topic = fallback_topics[days_since_start % len(fallback_topics)]
-        topic_source = None
+    news_source = ("Al Jazeera" if lang_code == "ar" else "Tehran Times") if headline else None
+
+    # Thema rotiert (für strukturierte Übung)
+    fallback_topics = [
+        "Tagesablauf und Routine", "Essen und Kochen", "Eine Reise beschreiben",
+        "Familie und Freunde", "Das Wetter", "Einkaufen auf dem Markt",
+        "Ein Buch oder Film beschreiben", "Die eigene Stadt vorstellen",
+        "Arbeit und Beruf", "Kindheitserinnerungen", "Natur und Umwelt",
+        "Musik und Kunst", "Gesundheit und Sport", "Politik und Gesellschaft",
+    ]
+    topic = fallback_topics[days_since_start % len(fallback_topics)]
 
     return {
         "language": language,
@@ -294,7 +291,8 @@ def generate_language_exercise():
         "level": level,
         "instructions": instructions,
         "topic": topic,
-        "topic_source": topic_source,
+        "headline": headline,
+        "news_source": news_source,
         "week": week,
     }
 
@@ -366,17 +364,27 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     today = now_berlin().strftime("%A, %d. %B %Y")
 
     lang = lang_exercise
-    source_note = f" (basierend auf {lang['topic_source']})" if lang.get('topic_source') else ""
-    lang_prompt = f"""SPRACHÜBUNG ({lang['language']}, Level {lang['level']}, Woche {lang['week']+1}{source_note}):
+    script = 'arabischer' if lang['lang_code'] == 'ar' else 'persischer'
+    dialect_rule = 'Fusha (MSA), kein Dialekt.' if lang['lang_code'] == 'ar' else 'Farsi-ye meyar, kein Slang.'
+
+    lang_prompt = f"""SPRACHÜBUNG ({lang['language']}, Level {lang['level']}, Woche {lang['week']+1}):
 Schreibe einen kurzen Übungstext auf {lang['language']} zum Thema "{lang['topic']}".
 Regeln:
-- 5–8 Sätze in {'arabischer' if lang['lang_code'] == 'ar' else 'persischer'} Schrift.
+- 5–8 Sätze in {script} Schrift.
 - {lang['instructions']}
-- {'Fusha (MSA), kein Dialekt.' if lang['lang_code'] == 'ar' else 'Farsi-ye meyar, kein Slang.'}
+- {dialect_rule}
 - Wenn ein Wort über Grundwortschatz hinausgeht: sofort in Klammern auf Deutsch erklären.
-  Beispiel {'Arabisch' if lang['lang_code'] == 'ar' else 'Persisch'}: {'ذهبتُ إلى المكتبة (Maktaba = Bibliothek)' if lang['lang_code'] == 'ar' else 'من به کتابخانه (ketābkhāne = Bibliothek) رفتم'}
 - KEIN Transliteration. Nur Originalschrift + deutsche Glossen in Klammern.
 - Am Ende: 2–3 Verständnisfragen auf Deutsch zum Text."""
+
+    # Nachrichtenblock (zusätzlich zur Übung)
+    news_prompt = ""
+    if lang.get('headline'):
+        news_prompt = f"""\nNACHRICHTEN (von {lang['news_source']}):
+Schreibe unter der Überschrift NACHRICHTEN die folgende Schlagzeile in {script} Originalschrift.
+Glossiere schwierige Wörter inline auf Deutsch in Klammern.
+Fasse dann in 2–3 einfachen Sätzen auf {lang['language']} zusammen, worum es geht (Level {lang['level']}).
+Schlagzeile: {lang['headline']}"""
 
     user_message = f"""Heute ist {today}.
 
@@ -400,6 +408,8 @@ FAHRPLAN (nur als Hintergrund für Deadlines):
 
 {lang_prompt}
 
+{news_prompt}
+
 AUFTRAG:
 Schreibe den Morgenbrief exakt in der Struktur die im Kontext-Dokument definiert ist:
 1. WETTER — die Wetterdaten oben einfach klar wiedergeben
@@ -409,6 +419,7 @@ Schreibe den Morgenbrief exakt in der Struktur die im Kontext-Dokument definiert
 5. ERLEDIGTES — nur wenn es welches gibt
 6. AUSBLICK — Termine mit Label [MORGEN] und [ÜBERMORGEN], nahende Deadlines. Max 2 Sätze.
 7. SPRACHÜBUNG — den Übungstext gemäß den Anweisungen oben generieren. In Originalschrift. Neue Vokabeln inline in Klammern auf Deutsch glossieren. Am Ende 2–3 Verständnisfragen auf Deutsch.
+8. NACHRICHTEN — falls Nachrichtenanweisungen oben vorhanden: Schlagzeile in Originalschrift + Zusammenfassung. Sonst weglassen.
 
 Jede Sektion mit dem Namen als Überschrift (ohne Formatierung, einfach in Großbuchstaben).
 Kein Markdown. Keine Vermutungen. Sachlich. Morgenbrief-Teil unter 350 Wörter, Sprachübung zusätzlich."""
@@ -460,7 +471,7 @@ def create_epub(text, date_str):
     lines = text.strip().split("\n")
     html_parts = []
     current_block = []
-    section_names = {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK", "SPRACHÜBUNG"}
+    section_names = {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK", "SPRACHÜBUNG", "NACHRICHTEN"}
     rtl_section = False  # Track if we're in the SPRACHÜBUNG section
 
     def flush_block():
@@ -477,7 +488,7 @@ def create_epub(text, date_str):
         if stripped in section_names or (stripped and stripped.rstrip(":") in section_names):
             flush_block()
             section_key = stripped.rstrip(":")
-            rtl_section = (section_key == "SPRACHÜBUNG")
+            rtl_section = (section_key in ("SPRACHÜBUNG", "NACHRICHTEN"))
             html_parts.append(f"<h2>{stripped}</h2>")
         elif stripped == "":
             flush_block()
