@@ -372,7 +372,7 @@ Schreibe einen kurzen Übungstext auf {lang['language']} zum Thema "{lang['topic
 Regeln:
 - 5–8 Sätze in {'arabischer' if lang['lang_code'] == 'ar' else 'persischer'} Schrift.
 - {lang['instructions']}
-- {'Fusha (MSA), kein Dialekt.' if lang['lang_code'] == 'ar' else 'Farsi-ye me\'yar, kein Slang.'}
+- {'Fusha (MSA), kein Dialekt.' if lang['lang_code'] == 'ar' else 'Farsi-ye meyar, kein Slang.'}
 - Wenn ein Wort über Grundwortschatz hinausgeht: sofort in Klammern auf Deutsch erklären.
   Beispiel {'Arabisch' if lang['lang_code'] == 'ar' else 'Persisch'}: {'ذهبتُ إلى المكتبة (Maktaba = Bibliothek)' if lang['lang_code'] == 'ar' else 'من به کتابخانه (ketābkhāne = Bibliothek) رفتم'}
 - KEIN Transliteration. Nur Originalschrift + deutsche Glossen in Klammern.
