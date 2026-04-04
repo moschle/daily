@@ -141,7 +141,11 @@ ALLE Stellen selbst prüfen — die Links oben können veraltet sein. Claude-Web
 
 ## Sprachkurse & Weiterbildung
 
-- [ ] Tägliches Sprachtraining: Arabisch + Persisch (je 20–30 Min.). MSA Fusha auffrischen + levantinischen Dialekt anfängen. Persisch: Konversation üben (xiaozhi-Pager oder Tandem).
+- [ ] Tägliches Sprachtraining: Arabisch + Persisch (je 20–30 Min.).
+  – Pimsleur Arabic (Eastern Arabic / MSA) täglich eine Lektion
+  – Persischer Film/Serie täglich (auch nur 20 Min.)
+  – Tandem-App reaktivieren (Arabisch + Persisch Tandempartner suchen)
+  – Täglicher Übungstext: abwechselnd Arabisch und Persisch, von Claude generiert. Startet leicht (A2/B1), wird langsam schwieriger. Neues Vokabular inline glossiert.
 - [ ] AVGS Persisch-Einzelcoaching (Berlitz) — Anfrage läuft, warte auf Antwort. In Berlin gemeldet.
 - [ ] LSI Bochum Persisch-Intensivkurs (ab 17.8., akademisch beste Option, ~600–900€ Selbstzahler). Kontakt: larissa.hogrefe@lsi-bochum.de
 - [ ] VHS Einstufungstest Persisch (13.4., 13:00 online)
