@@ -7,6 +7,8 @@
 - [ ] Niedersachsen MI Bewerbung (Sachbearbeiter Auswertung Islamismus, EG 11 TV-L, Hannover) — Frist 6.4.
 - [ ] hochroth-Paket vorbereiten: Exposé (1–2 S.) + 5–6 Übersetzungsproben von 2–3 Dichter:innen (nicht nur Dilorom) + Probekommentar der das Anthologie-Format zeigt. Zuerst hochroth Leipzig (Ulrike Feibig, Martina Lisa — Edition OstroVers), dann hochroth Berlin (Vera Kurlenina — Lyrikübersetzung Osteuropa).
 - [ ] BfV AWV-2026-010 Bewerbung (Sachbearbeiter Auswertung Islamismus, gehobener Dienst, Berlin) — Frist 13.4.
+- [ ] BfV AWV-2026-022 Bewerbung (Sachbearbeiter Auswertung Islamismus/islamistischer Terrorismus, mehrere Stellen, Berlin) — Frist 13.4. Gehobener nichttechnischer Verwaltungsdienst oder BA-Abschluss PoWi/VerwWi/Jura mit „gut“. Unbefristet bis E11 TV EntgO Bund (53.578–79.392€/J.) + Nachrichtendienstzulage, spätere Verbeamtung möglich. Online-Bewerbung über Bundesverwaltungsamt.
+- [ ] BKA T-2026-19 Bewerbung (karriere.bka.de) — Frist prüfen! Details auf karriere.bka.de/T-2026-19
 - [ ] **DAAD Regellektorat Nachausschreibung 2026/27** — Online-Bewerbung Frist 14.4. Bis zu 3 Hochschulen angeben. Auswahl: 1) Capital Normal University, Beijing (Sept 2026), 2) Federal University of Pará, Belém (Kulturlektorat, Feb 2027), 3) University of Alger 2, Algier (Sept 2026). Gutachten von Stephan Pabst nötig → am 10.4. beim Lehrstuhltreffen ansprechen!
 - [ ] Wiepersdorf Online-Bewerbung (Residenzstipendium 2027, 3 Monate, 1.200€/Monat + Unterkunft/Verpflegung) — Frist 15.4.
 - [ ] McFit reaktivieren, ersten Besuch diese Woche
