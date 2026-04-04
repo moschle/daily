@@ -140,6 +140,7 @@ April ist unregelmäßig (Dresden nur 11.4., viele Einzeltermine). Ab Mai normal
 **C: Wien Angewandte PhD in Art** — Präsenzpflicht. Stärkeres Netzwerk.
 **D: Halle (Fallback)** — Pabst/Purnaqcheband, unkompliziert, Böll-Kombi möglich.
 **E: BfV** — A13/E13, ~4.000€ netto. Maximale Sicherheit.
+**E2: BKA Islamwissenschaftler** — E14 TV EntgO Bund, Berlin, unbefristet. Wissenschaftliche Fachstelle in der Terrorismusbekämpfung. Höchste Eingruppierung aller aktuellen Optionen. Frist 19.4.
 **F: DAAD Lektorat** — 2–5 Jahre Ausland. Belém (Kulturlektorat + Lehre, ab Feb 2027), Beijing (Lehre + Beratung, ab Sept 2026), oder Algier (Lehre + Kulturarbeit, Französisch+Arabisch, ab Sept 2026). Gehalt: lokales Dienstverhältnis + DAAD-Zulagen. Promotion parallel theoretisch möglich, aber eingeschränkt. Karriere: Einstieg in DAAD/Goethe/AA-Netzwerk.
 **G: Tiny Farms SA/BB** — Mikrofarm + Promotion. Draußen/langsam/schreiben.
 
