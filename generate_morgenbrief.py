@@ -17,6 +17,70 @@ from email import encoders
 from pathlib import Path
 from zoneinfo import ZoneInfo  # Neu: echte Berliner Zeitzone
 
+# ─── Vokabelgedächtnis (persistente JSON-Datei) ───
+VOCAB_FILE = Path(__file__).parent / "vocab_memory.json"
+
+def load_vocab_memory():
+    """Lädt das Vokabelgedächtnis aus JSON-Datei."""
+    if VOCAB_FILE.exists():
+        try:
+            with open(VOCAB_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            return {"ar": [], "fa": []}
+    return {"ar": [], "fa": []}
+
+def save_vocab_memory(memory):
+    """Speichert das Vokabelgedächtnis."""
+    with open(VOCAB_FILE, "w", encoding="utf-8") as f:
+        json.dump(memory, f, ensure_ascii=False, indent=2)
+
+def get_due_vocab(lang_code, memory):
+    """Gibt Vokabeln zurück, die heute wiederholt werden sollen (Spaced Repetition)."""
+    today = now_berlin().date()
+    due = []
+    for entry in memory.get(lang_code, []):
+        last_review = datetime.fromisoformat(entry["last_review"]).date()
+        interval = entry.get("interval", 1)
+        if (today - last_review).days >= interval:
+            due.append(entry)
+            # Intervall für nächstes Mal wird später nach erfolgreicher Wiederholung erhöht
+    return due
+
+def add_new_vocab(lang_code, words, memory):
+    """Fügt neue Vokabeln (Liste von (fremdwort, bedeutung)) zum Gedächtnis hinzu."""
+    today = now_berlin().isoformat()
+    for word, meaning in words:
+        word = word.strip()
+        meaning = meaning.strip()
+        if not word or not meaning:
+            continue
+        exists = any(w["word"] == word for w in memory.get(lang_code, []))
+        if not exists:
+            memory.setdefault(lang_code, []).append({
+                "word": word,
+                "meaning": meaning,
+                "first_seen": today,
+                "last_review": today,
+                "interval": 1,
+                "times_reviewed": 0
+            })
+    save_vocab_memory(memory)
+
+def update_reviewed_vocab(lang_code, reviewed_words, memory):
+    """Aktualisiert den Zeitstempel und erhöht das Intervall für wiederholte Vokabeln."""
+    today = now_berlin().isoformat()
+    for word in reviewed_words:
+        for entry in memory.get(lang_code, []):
+            if entry["word"] == word:
+                entry["last_review"] = today
+                entry["times_reviewed"] += 1
+                # Intervall verdoppeln, maximal 30 Tage
+                new_interval = entry.get("interval", 1) * 2
+                entry["interval"] = min(new_interval, 30)
+                break
+    save_vocab_memory(memory)
+
 # ─── Echte Berliner Zeitzone (automatische Sommer-/Winterzeit) ───
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 
@@ -194,30 +258,46 @@ def fetch_weather():
     return leipzig
 
 
-# ─── Nachrichten für Sprachübung (verbesserte Fehlerbehandlung) ───
+# ─── Nachrichten für Sprachübung holen (mit offiziellen BBC Feeds) ───
 
 def fetch_news_headline(lang_code):
-    """Holt eine aktuelle Schlagzeile für die Sprachübung. Gibt None zurück, wenn nichts gefunden."""
-    if lang_code == "ar":
-        url = "https://www.aljazeera.net/aljazeerarss/a7c186be-1baa-4bd4-9d80-a84db769f779/73d0e1b4-532f-45ef-b135-bfdff8b8cab9"
+    """
+    Holt eine aktuelle Schlagzeile für die Sprachübung.
+    Verwendet die offiziellen BBC World Service RSS-Feeds von GitHub.
+    """
+    # Auswahl der korrekten Feed-URL basierend auf der Sprache
+    if lang_code == "ar":  # Arabisch
+        url = "https://raw.githubusercontent.com/bbc/world-service-rss/main/arabic.md"
+    elif lang_code == "fa":  # Persisch
+        url = "https://raw.githubusercontent.com/bbc/world-service-rss/main/persian.md"
     else:
-        url = "https://www.tehrantimes.com/rss"
+        return None
+
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Morgenbrief/1.0"})
-        with urllib.request.urlopen(req, timeout=10) as resp:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            # Die Feeds sind als Markdown-Dateien abgelegt, daher direkt als Text einlesen
             data = resp.read().decode("utf-8", errors="replace")
-        # Suche ersten Titel in <item>
-        titles = re.findall(r"<item>.*?<title>(?:<\!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", data, re.DOTALL)
-        if titles:
-            headline = titles[0].strip()
+
+        # Extrahiere die erste (neueste) Überschrift aus dem Markdown
+        # Das Format ist: ## [TITLE](URL) ...
+        match = re.search(r'## \[(.*?)\]\(.*?\)', data, re.DOTALL)
+        if match:
+            headline = match.group(1).strip()
+            # Bereinige die Überschrift von HTML-Entities
             headline = headline.replace("&amp;", "&").replace("&quot;", '"').replace("&lt;", "<").replace("&gt;", ">")
-            return headline[:300]
+            print(f"News via BBC RSS gefunden: {headline[:60]}...", file=sys.stderr)
+            return headline[:300]  # Begrenze auf 300 Zeichen
+
     except Exception as e:
-        print(f"News-Fehler ({lang_code}): {e}", file=sys.stderr)
+        # Fehler werden auf stderr ausgegeben, um das Log des GitHub Actions nicht zu stören
+        print(f"BBC RSS Fehler ({lang_code}): {e}", file=sys.stderr)
+
+    print(f"Keine News für {lang_code} gefunden.", file=sys.stderr)
     return None
 
 
-# ─── Sprachübung generieren (angepasst: immer News-Sektion erzwingen) ───
+# ─── Sprachübung generieren (mit Vokabelgedächtnis) ───
 
 LANG_START = datetime(2026, 4, 5, tzinfo=BERLIN_TZ)
 
@@ -227,6 +307,7 @@ def generate_language_exercise():
     days_since_start = max(0, (today - LANG_START).days)
     week = days_since_start // 7
 
+    # Sprache wechselt täglich
     if day_of_year % 2 == 0:
         language = "Arabisch"
         lang_code = "ar"
@@ -234,6 +315,7 @@ def generate_language_exercise():
         language = "Persisch"
         lang_code = "fa"
 
+    # Schwierigkeitsstufe basierend auf Wochen
     if week < 2:
         level = "A2 (einfach)"
         instructions = "Sehr einfache Sätze. Grundvokabular: Familie, Essen, Wetter, Tagesablauf. Präsens und einfache Vergangenheit."
@@ -247,9 +329,25 @@ def generate_language_exercise():
         level = "B2 (fortgeschritten)"
         instructions = "Anspruchsvoller Text. Zeitungssprache, abstrakte Themen, idiomatische Wendungen."
 
-    headline = fetch_news_headline(lang_code)
-    news_source = ("Al Jazeera" if lang_code == "ar" else "Tehran Times") if headline else None
+    # Vokabelgedächtnis laden
+    memory = load_vocab_memory()
+    due_vocab = get_due_vocab(lang_code, memory)
 
+    # Prompt für Wiederholungen (falls vorhanden)
+    repetition_prompt = ""
+    if due_vocab:
+        vocab_list = "\n".join([f"  - {v['word']} ({v['meaning']})" for v in due_vocab])
+        repetition_prompt = f"""
+VOKABELWIEDERHOLUNG (Spaced Repetition):
+Die folgenden Wörter wurden früher eingeführt und sollen heute wiederholt werden. Baue sie in den Übungstext ein (oder erstelle einen separaten Wiederholungssatz am Ende des Textes):
+{vocab_list}
+"""
+
+    # Nachrichtenschlagzeile holen
+    headline = fetch_news_headline(lang_code)
+    news_source = "BBC" if headline else None
+
+    # Themenrotation
     fallback_topics = [
         "Tagesablauf und Routine", "Essen und Kochen", "Eine Reise beschreiben",
         "Familie und Freunde", "Das Wetter", "Einkaufen auf dem Markt",
@@ -258,6 +356,15 @@ def generate_language_exercise():
         "Musik und Kunst", "Gesundheit und Sport", "Politik und Gesellschaft",
     ]
     topic = fallback_topics[days_since_start % len(fallback_topics)]
+
+    # Anweisung für Claude, neue Vokabeln zu markieren
+    new_vocab_instruction = """
+WICHTIG FÜR NEUE VOKABELN:
+Wenn du im Übungstext ein Wort einführst, das über den absoluten Grundwortschatz hinausgeht (also nicht alltäglich wie "ich, du, essen, gehen, groß, klein"), dann:
+1. Glossiere es sofort inline auf Deutsch in Klammern hinter dem Wort.
+2. Füge am Ende des TEXT-Abschnitts (vor den Verständnisfragen) eine Zeile ein: "NEUE VOKABELN: Wort (Bedeutung), weiteres Wort (Bedeutung)"
+   Beispiel: "NEUE VOKABELN: مكتبة (Bibliothek), سريع (schnell)"
+"""
 
     return {
         "language": language,
@@ -268,10 +375,201 @@ def generate_language_exercise():
         "headline": headline,
         "news_source": news_source,
         "week": week,
+        "repetition_prompt": repetition_prompt,
+        "new_vocab_instruction": new_vocab_instruction,
+        "memory": memory,
+        "due_vocab": due_vocab,  # für späteres Update
     }
 
+# ─── Musikbibliothek laden (aus all.txt) ───
+MUSIC_LIBRARY_FILE = Path(__file__).parent / "all.txt"
+_music_data = None   # wird später gefüllt: Liste von dicts mit allen Spalten
 
-# ─── Tagesimpuls ───
+def _load_music_library():
+    """Liest die iTunes-Exportdatei (TSV) und speichert alle relevanten Spalten."""
+    data = []
+    if not MUSIC_LIBRARY_FILE.exists():
+        print("Hinweis: all.txt nicht gefunden, verwende Fallback-Alben.", file=sys.stderr)
+        return data
+    try:
+        with open(MUSIC_LIBRARY_FILE, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f, delimiter="\t")
+            for row in reader:
+                # Nur Einträge mit Album und Künstler behalten
+                if not row.get("Album") or not row.get("Artist"):
+                    continue
+                # Plays
+                plays_str = row.get("Plays", "0")
+                try:
+                    plays = int(plays_str) if plays_str else 0
+                except:
+                    plays = 0
+                # Last Played
+                last_str = row.get("Last Played", "").strip()
+                last_date = None
+                if last_str and "," in last_str:
+                    try:
+                        date_part = last_str.split(",")[0].strip()
+                        last_date = datetime.strptime(date_part, "%d.%m.%Y").date()
+                    except:
+                        pass
+                # Bewertung (My Rating): 0-100, wobei 100 = 5 Sterne? In iTunes oft 20 pro Stern
+                rating_str = row.get("My Rating", "0")
+                try:
+                    rating = int(rating_str) if rating_str else 0
+                except:
+                    rating = 0
+                # Genre
+                genre = row.get("Genre", "").strip()
+                # Komponist / Künstler (für ähnliche Empfehlungen)
+                composer = row.get("Composer", "").strip()
+                data.append({
+                    "artist": row["Artist"],
+                    "album": row["Album"],
+                    "plays": plays,
+                    "last_played": last_date,
+                    "rating": rating,
+                    "genre": genre,
+                    "composer": composer,
+                })
+    except Exception as e:
+        print(f"Fehler beim Lesen der Musikbibliothek: {e}", file=sys.stderr)
+    return data
+
+# Beim Modulstart einmal laden
+_music_data = _load_music_library()
+
+def _get_top_genres(limit=3):
+    """Ermittelt die am häufigsten gehörten Genres basierend auf Plays (oder falls keine Plays, nach Anzahl Alben)."""
+    if not _music_data:
+        return []
+    genre_playcount = {}
+    for entry in _music_data:
+        genre = entry["genre"]
+        if not genre:
+            continue
+        plays = entry["plays"]
+        genre_playcount[genre] = genre_playcount.get(genre, 0) + plays
+    # Nach Spielhäufigkeit sortieren
+    sorted_genres = sorted(genre_playcount.items(), key=lambda x: x[1], reverse=True)
+    return [g for g, _ in sorted_genres[:limit]]
+
+def _get_high_rated_artists(threshold=80, limit=5):
+    """Gibt Künstler zurück, die viele Alben mit hoher Bewertung haben."""
+    if not _music_data:
+        return []
+    artist_scores = {}
+    for entry in _music_data:
+        artist = entry["artist"]
+        rating = entry["rating"]
+        if rating >= threshold:
+            artist_scores[artist] = artist_scores.get(artist, 0) + 1
+    sorted_artists = sorted(artist_scores.items(), key=lambda x: x[1], reverse=True)
+    return [a for a, _ in sorted_artists[:limit]]
+
+def _get_similar_artists(artist_name, limit=3):
+    """Findet Künstler, die ähnlich klingen (basierend auf gleichem Genre oder Komponist)."""
+    if not _music_data:
+        return []
+    # Zuerst das Genre des gegebenen Künstlers finden
+    genres = set()
+    for entry in _music_data:
+        if entry["artist"] == artist_name and entry["genre"]:
+            genres.add(entry["genre"])
+    if not genres:
+        return []
+    # Andere Künstler mit gleichem Genre sammeln
+    similar = set()
+    for entry in _music_data:
+        if entry["artist"] != artist_name and entry["genre"] in genres:
+            similar.add(entry["artist"])
+    # Begrenzen und als Liste zurückgeben
+    return list(similar)[:limit]
+
+def _select_album_of_the_day():
+    """
+    Wählt ein Album aus der Bibliothek aus – mit intelligenter Gewichtung:
+    - Bevorzugt Alben mit hoher Bewertung (5 Sterne)
+    - Bevorzugt Alben aus häufig gehörten Genres
+    - Bevorzugt Alben, die lange nicht gespielt wurden oder wenige Plays haben
+    - Gelegentlich (ca. 20% der Fälle) wird ein "neues" Album vorgeschlagen: 
+      entweder ein Album mit 0 Plays oder ein Album eines ähnlichen Künstlers zu deinen Favoriten.
+    """
+    if not _music_data:
+        return None
+    
+    today = now_berlin().date()
+    # Entscheide, ob wir eine "Neuentdeckung" vorschlagen (20% Chance)
+    is_exploration = random.random() < 0.2
+    
+    # Gewichtungsfaktoren
+    weight_exploration = 2.0   # Bonus für ungehörte / ähnliche Künstler
+    weight_rating = 1.5        # Bonus pro 20 Bewertungspunkte
+    weight_genre = 1.2         # Bonus für Top-Genres
+    weight_staleness = 1.0     # Tage seit letztem Hören (je mehr desto besser)
+    weight_playcount = 0.5     # je weniger Plays, desto besser
+    
+    top_genres = _get_top_genres(3)
+    high_rated_artists = _get_high_rated_artists(threshold=80)
+    
+    # Falls Exploration: Baue eine Liste von Künstlern, die ähnlich zu hoch bewerteten sind
+    similar_artists = set()
+    if is_exploration:
+        for artist in high_rated_artists:
+            similar_artists.update(_get_similar_artists(artist))
+        # Auch Alben mit 0 Plays sind interessant
+        zero_play_albums = [e for e in _music_data if e["plays"] == 0]
+    else:
+        zero_play_albums = []
+    
+    weighted_albums = []
+    for entry in _music_data:
+        # Grundgewicht: 1
+        weight = 1.0
+        
+        # Exploration-Bonus
+        if is_exploration:
+            # Album hat 0 Plays?
+            if entry["plays"] == 0:
+                weight *= weight_exploration
+            # Album stammt von einem ähnlichen Künstler?
+            if entry["artist"] in similar_artists:
+                weight *= weight_exploration
+        else:
+            # Normaler Modus: Bevorzugung von hoch bewerteten Alben
+            if entry["rating"] >= 80:
+                weight *= weight_rating * (entry["rating"] / 50)
+            # Genre-Bonus
+            if entry["genre"] in top_genres:
+                weight *= weight_genre
+        
+        # Staleness (Tage seit letztem Hören)
+        days_since = (today - entry["last_played"]).days if entry["last_played"] else 365
+        weight *= (days_since * weight_staleness)
+        
+        # Playcount (weniger ist besser)
+        play_factor = 1.0 / (entry["plays"] + 1)
+        weight *= (play_factor * weight_playcount)
+        
+        # Zufallsfaktor, um immer etwas Abwechslung zu haben
+        weight *= random.uniform(0.8, 1.2)
+        
+        weighted_albums.append((weight, entry))
+    
+    if not weighted_albums:
+        return None
+    
+    # Gewichtete Auswahl
+    total = sum(w for w, _ in weighted_albums)
+    r = random.random() * total
+    cum = 0
+    for w, entry in weighted_albums:
+        cum += w
+        if r <= cum:
+            return entry
+    return weighted_albums[-1][1]
+
+# ─── Tagesimpuls (personalisiert) ───
 
 def generate_impulse():
     today = now_berlin()
@@ -281,51 +579,51 @@ def generate_impulse():
         "Thursday": "Donnerstag", "Friday": "Freitag", "Saturday": "Samstag",
         "Sunday": "Sonntag"
     }.get(weekday, weekday)
-    day_of_year = today.timetuple().tm_yday
-
-    creative_pools = [
-        "Einen Film entwickeln oder Negative scannen",
-        "Einen persischen Film schauen (z.B. Panahi, Kiarostami, Farhadi, Rasoulof)",
-        "Eine Mixtape-Seite aufnehmen",
-        "Einen Brief schreiben (handschriftlich)",
-        "Skizzen machen oder zeichnen",
-        "Ein Gedicht übersetzen, das nicht für hochroth ist",
-        "Einen langen Spaziergang mit Kamera machen",
-        "Etwas am Klavier improvisieren, ohne Übungsziel",
-        "Einen alten Text von dir lesen und dazu Notizen machen",
-        "Etwas Neues kochen — ein Rezept aus einer anderen Küche",
-        "Eine Postkarte an jemanden schicken",
-        "Feldaufnahmen machen (Garten, Umgebung)",
+    
+    # Personalisiertes Album aus der eigenen Mediathek
+    album_entry = _select_album_of_the_day()
+    if album_entry:
+        album_suggestion = f"Album des Tages: {album_entry['artist']} — {album_entry['album']}"
+        # Zusatzinfo: Warum dieses Album?
+        if album_entry["plays"] == 0:
+            album_suggestion += " (Noch nie gehört – vielleicht eine schöne Entdeckung?)"
+        elif album_entry["rating"] >= 80:
+            album_suggestion += " (Du magst diesen Künstler – hör mal wieder rein!)"
+        elif album_entry["last_played"] and (today - album_entry["last_played"]).days > 90:
+            album_suggestion += " (Lange nicht gehört – Zeit für ein Revival.)"
+    else:
+        # Fallback, falls Bibliothek nicht verfügbar
+        fallback_albums = [
+            "Ahmad Jamal — The Awakening", "Kayhan Kalhor & Rembrandt Trio — Silence City",
+            "Tigran Hamasyan — A Fable", "Avishai Cohen — From Darkness",
+            "Nils Frahm — Felt", "Vijay Iyer — Historicity"
+        ]
+        album_suggestion = f"Album des Tages: {random.choice(fallback_albums)}"
+    
+    # Kreativvorschläge – jetzt mit korrekter Großschreibung und freundlicher Formulierung
+    creative_pool = [
+        "Entwickle einen Film oder scanne Negative.",
+        "Schau einen persischen Film.",
+        "Nimm eine Mixtape-Seite auf.",
+        "Mache Skizzen oder zeichne.",
+        "Übersetze ein Gedicht, das nicht für hochroth ist.",
+        "Mach einen langen Spaziergang mit der Kamera.",
+        "Improvisiere am Klavier – ganz ohne Übungsziel.",
+        "Lies einen alten Text von dir und mache dir Notizen dazu.",
+        "Koche etwas Neues – ein Rezept aus einer anderen Küche.",
+        "Schicke eine Postkarte an jemanden.",
+        "Mache Field Recordings (im Garten oder in der Umgebung)."
     ]
-
-    album_pools = [
-        "Ahmad Jamal — The Awakening",
-        "Kayhan Kalhor & Rembrandt Trio — Silence City",
-        "Tigran Hamasyan — A Fable",
-        "Sadegh Nojouki — Safar",
-        "Avishai Cohen — From Darkness",
-        "Anouar Brahem — Thimar",
-        "Nils Frahm — Felt",
-        "Vijay Iyer — Historicity",
-        "Shabaka Hutchings — Afrikan Culture",
-        "Aziza Mustafa Zadeh — Shamans",
-        "Arvo Pärt — Tabula Rasa",
-        "Alva Noto & Ryuichi Sakamoto — Vrioon",
-        "Nusrat Fateh Ali Khan — Mustt Mustt",
-        "Sussan Deyhim — Madman of God",
-        "Bill Evans — Waltz for Debby",
-    ]
-
-    creative_today = creative_pools[day_of_year % len(creative_pools)]
-    album_today = album_pools[day_of_year % len(album_pools)]
-
-    return f"""Heute ist {day_de}. Tagesvorschläge (nimm EINEN, nicht alle):
+    creative_today = random.choice(creative_pool)
+    
+    # Formuliere den Impuls als netten Vorschlag, nicht als Befehl
+    return f"""Heute ist {day_de}. Kleine Ideen für den Tag (wähle höchstens eine, wenn Zeit ist):
 – Kreativ: {creative_today}
-– Album des Tages: {album_today}
-Wähle passend zum Wochentag, Wetter und Terminen aus. Wenn der Tag voll ist, lass die Vorschläge weg."""
+– {album_suggestion}
+Passe die Auswahl an deine Termine und das Wetter an. Wenn der Tag voll ist, lass die Vorschläge einfach weg."""
 
 
-# ─── Claude aufrufen (angepasster Prompt mit getrennten Sprachübungs-Sektionen) ───
+# ─── Claude aufrufen (mit Vokabelwiederholung und Neuvokabel-Markierung) ───
 
 def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exercise):
     api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -338,7 +636,7 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     script = 'arabischer' if lang['lang_code'] == 'ar' else 'persischer'
     dialect_rule = 'Fusha (MSA), kein Dialekt.' if lang['lang_code'] == 'ar' else 'Farsi-ye meyar, kein Slang.'
 
-    # NEU: Immer einen News-Block generieren – wenn keine Headline, dann Platzhalter
+    # News-Block (unverändert)
     if lang.get('headline'):
         news_prompt = f"""NACHRICHTEN:
 Die folgende Schlagzeile von {lang['news_source']} in {script} Originalschrift wiedergeben. Glossiere schwierige Wörter inline auf Deutsch in Klammern. Danach in 2–3 einfachen Sätzen auf {lang['language']} zusammenfassen (Level {lang['level']}).
@@ -347,15 +645,18 @@ Schlagzeile: {lang['headline']}"""
         news_prompt = """NACHRICHTEN:
 Keine aktuellen Nachrichten verfügbar. Schreibe stattdessen einen kurzen Satz auf Deutsch, dass heute keine neue Schlagzeile vorliegt."""
 
-    # Sprachübung nun aufgeteilt in TEXT und FRAGEN (für korrekte RTL/LTR)
+    # Sprachübung mit Vokabelgedächtnis (neu)
+    repetition_prompt = lang.get('repetition_prompt', '')
+    new_vocab_instruction = lang.get('new_vocab_instruction', '')
+
     lang_prompt = f"""SPRACHÜBUNG – TEXT (RTL, in Originalschrift):
 Schreibe einen kurzen Übungstext auf {lang['language']} zum Thema "{lang['topic']}".
 Regeln:
 - 5–8 Sätze in {script} Schrift.
 - {lang['instructions']}
 - {dialect_rule}
-- Wenn ein Wort über Grundwortschatz hinausgeht: sofort in Klammern auf Deutsch erklären.
-- KEIN Transliteration. Nur Originalschrift + deutsche Glossen in Klammern.
+- {new_vocab_instruction}
+{repetition_prompt}
 
 SPRACHÜBUNG – FRAGEN (LTR, auf Deutsch):
 Schreibe 2–3 Verständnisfragen auf Deutsch zum obigen Text. Jede Frage in einer neuen Zeile. Keine Originalschrift mehr."""
@@ -421,17 +722,6 @@ Kein Markdown. Keine Vermutungen. Sachlich. Morgenbrief-Teil unter 350 Wörter, 
         return result["content"][0]["text"]
     except Exception as e:
         sys.exit(f"Claude API Fehler: {e}")
-
-
-def strip_markdown(text):
-    text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
-    text = re.sub(r'\*(.+?)\*', r'\1', text)
-    text = re.sub(r'^#{1,6}\s+', '', text, flags=re.MULTILINE)
-    text = re.sub(r'`(.+?)`', r'\1', text)
-    text = re.sub(r'^\*\s+', '– ', text, flags=re.MULTILINE)
-    return text
-
-
 # ─── ePub erzeugen (mit separater RTL/LTR Behandlung für die beiden Sprachübungs-Sektionen) ───
 
 def create_epub(text, date_str):
@@ -444,10 +734,21 @@ def create_epub(text, date_str):
     lines = text.strip().split("\n")
     html_parts = []
     current_block = []
-    # Definiere, welche Sektionen RTL (rechts nach links) bekommen sollen
-    rtl_sections = {"SPRACHÜBUNG – TEXT", "SPRACHÜBUNG - TEXT"}  # beide Varianten
-    ltr_sections = {"SPRACHÜBUNG – FRAGEN", "SPRACHÜBUNG - FRAGEN"}
-    current_rtl = False
+    current_rtl = False  # Nur für Textblöcke, nicht für Überschriften
+
+    # Hilfsfunktion: Erkennt, ob eine Zeile eine Sektionsüberschrift ist und welcher Typ
+    def detect_section(line):
+        upper = line.strip().upper()
+        # RTL-Sektionen (Sprachübung Text)
+        if "SPRACHÜBUNG" in upper and "TEXT" in upper:
+            return "rtl_section"
+        # LTR-Sektionen (Fragen)
+        if "SPRACHÜBUNG" in upper and ("FRAGE" in upper or "VERSTÄNDNISFRAGE" in upper):
+            return "ltr_section"
+        # Andere bekannte Sektionen (alle LTR)
+        if upper.rstrip(":") in {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK", "NACHRICHTEN"}:
+            return "ltr_section"
+        return None
 
     def flush_block():
         nonlocal current_rtl
@@ -461,22 +762,18 @@ def create_epub(text, date_str):
 
     for line in lines:
         stripped = line.strip()
-        # Prüfe auf Sektionsüberschrift (Großbuchstaben, evtl. mit Doppelpunkt)
-        if stripped.upper() in [s.upper() for s in rtl_sections] or stripped.rstrip(":").upper() in [s.upper() for s in rtl_sections]:
+        section_type = detect_section(stripped)
+
+        if section_type:
             flush_block()
-            current_rtl = True
-            html_parts.append(f"<h2>{stripped}</h2>")
-        elif stripped.upper() in [s.upper() for s in ltr_sections] or stripped.rstrip(":").upper() in [s.upper() for s in ltr_sections]:
-            flush_block()
-            current_rtl = False
-            html_parts.append(f"<h2>{stripped}</h2>")
-        elif stripped in {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK", "NACHRICHTEN"} or stripped.rstrip(":") in {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK", "NACHRICHTEN"}:
-            flush_block()
-            current_rtl = False
+            # Setze den RTL-Modus für den folgenden Text
+            current_rtl = (section_type == "rtl_section")
+            # Füge die Überschrift hinzu (ohne dir-Attribut, da Überschrift immer LTR sein darf)
             html_parts.append(f"<h2>{stripped}</h2>")
         elif stripped == "":
             flush_block()
         else:
+            # Normale Textzeile – sammeln
             current_block.append(stripped)
     flush_block()
 
@@ -597,6 +894,23 @@ def main():
         print("Keine News – verwende Platzhalter.")
 
     text = call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exercise)
+
+    # --- Vokabelgedächtnis aktualisieren (neue Wörter extrahieren) ---
+    new_vocab_match = re.search(r"NEUE VOKABELN:\s*(.*?)(?:\n|$)", text, re.IGNORECASE)
+    if new_vocab_match:
+        vocab_line = new_vocab_match.group(1)
+        # Format: "Wort (Bedeutung), Wort2 (Bedeutung2)"
+        pairs = re.findall(r"([^\s,]+)\s*\(([^)]+)\)", vocab_line)
+        if pairs:
+            add_new_vocab(lang_exercise["lang_code"], pairs, lang_exercise["memory"])
+            # Entferne die Zeile aus dem Text, damit sie nicht im Kindle erscheint
+            text = re.sub(r"NEUE VOKABELN:.*\n?", "", text, flags=re.IGNORECASE)
+
+    # --- Wiederholte Vokabeln als "reviewed" markieren ---
+    due_words = [v["word"] for v in lang_exercise.get("due_vocab", [])]
+    reviewed = [w for w in due_words if w in text]
+    if reviewed:
+        update_reviewed_vocab(lang_exercise["lang_code"], reviewed, lang_exercise["memory"])
 
     date_str = now_berlin().strftime("%Y-%m-%d")
     epub_path = create_epub(text, date_str)
