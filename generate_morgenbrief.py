@@ -15,34 +15,16 @@ from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from email import encoders
 from pathlib import Path
+from zoneinfo import ZoneInfo  # Neu: echte Berliner Zeitzone
 
-# Berlin timezone offset (MESZ = +2, MEZ = +1)
-# Simple DST detection: last Sunday March → last Sunday October
-def _berlin_offset():
-    """Returns Berlin UTC offset as timedelta."""
-    now_utc = datetime.now(timezone.utc)
-    year = now_utc.year
-    # Last Sunday in March
-    mar31 = datetime(year, 3, 31)
-    dst_start = mar31 - timedelta(days=(mar31.weekday() + 1) % 7)
-    dst_start = dst_start.replace(hour=1, tzinfo=timezone.utc)
-    # Last Sunday in October
-    oct31 = datetime(year, 10, 31)
-    dst_end = oct31 - timedelta(days=(oct31.weekday() + 1) % 7)
-    dst_end = dst_end.replace(hour=1, tzinfo=timezone.utc)
-    if dst_start <= now_utc < dst_end:
-        return timedelta(hours=2)  # MESZ
-    return timedelta(hours=1)  # MEZ
-
-BERLIN_OFFSET = _berlin_offset()
-BERLIN_TZ = timezone(BERLIN_OFFSET)
-
+# ─── Echte Berliner Zeitzone (automatische Sommer-/Winterzeit) ───
+BERLIN_TZ = ZoneInfo("Europe/Berlin")
 
 def now_berlin():
     return datetime.now(BERLIN_TZ)
 
 
-# ─── Kalender parsen ───
+# ─── Kalender parsen (korrigiert mit ZoneInfo) ───
 
 def fetch_calendar(ical_url):
     """Holt iCal-Daten und extrahiert Termine von heute + nächste 2 Tage (Berliner Zeit)."""
@@ -62,16 +44,22 @@ def fetch_calendar(ical_url):
         dtstart_str = ""
         location = ""
         is_utc = False
+        has_tzid_berlin = False
 
         m = re.search(r"SUMMARY:(.*?)[\r\n]", block)
         if m:
             summary = m.group(1).strip()
+        
         m = re.search(r"DTSTART[^:]*:(.*?)[\r\n]", block)
         if m:
             dtstart_str = m.group(1).strip()
-        # Check if DTSTART has TZID or ends with Z
-        dtstart_line_m = re.search(r"DTSTART([^:]*):.*?[\r\n]", block)
-        dtstart_params = dtstart_line_m.group(1) if dtstart_line_m else ""
+        
+        # Prüfe auf TZID=Europe/Berlin oder UTC-Kennung
+        dtstart_line = re.search(r"DTSTART([^:]*):", block)
+        if dtstart_line:
+            params = dtstart_line.group(1)
+            if "Europe/Berlin" in params or "Europe%2FBerlin" in params:
+                has_tzid_berlin = True
         if dtstart_str.endswith("Z"):
             is_utc = True
             dtstart_str = dtstart_str[:-1]
@@ -94,15 +82,16 @@ def fetch_calendar(ical_url):
         if dt is None:
             continue
 
-        # Convert to Berlin time
+        # Korrekte Umwandlung nach Berliner Zeit
         if is_allday:
+            # Ganztägige Termine: behandeln als naive Berliner Zeit
             dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
         elif is_utc:
             dt_berlin = dt.replace(tzinfo=timezone.utc).astimezone(BERLIN_TZ)
-        elif "Europe/Berlin" in dtstart_params or "Europe%2FBerlin" in dtstart_params:
+        elif has_tzid_berlin:
             dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
         else:
-            # Assume Berlin time for events without explicit timezone (Google Cal default)
+            # Fallback: Annahme, dass der Termin in Berliner Lokalzeit vorliegt
             dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
 
         if today_berlin <= dt_berlin < horizon:
@@ -112,7 +101,6 @@ def fetch_calendar(ical_url):
                 date_str = dt_berlin.strftime("%a %d.%m. %H:%M")
             loc_str = f" ({location})" if location else ""
 
-            # Tag-Label für Sortierung
             day_diff = (dt_berlin.date() - today_berlin.date()).days
             tag_label = ["HEUTE", "MORGEN", "ÜBERMORGEN"][day_diff] if day_diff < 3 else ""
 
@@ -124,10 +112,9 @@ def fetch_calendar(ical_url):
     return "\n".join(e[2] for e in events)
 
 
-# ─── Wetter holen ───
+# ─── Wetter (unverändert, funktioniert) ───
 
 def fetch_weather_for_location(lat, lon, name):
-    """Holt detailliertes Tageswetter für einen Ort mit Niederschlag nach Tageszeit."""
     url = (
         f"https://api.open-meteo.com/v1/forecast?"
         f"latitude={lat}&longitude={lon}"
@@ -159,13 +146,11 @@ def fetch_weather_for_location(lat, lon, name):
         daily_code = d["weathercode"][0]
         daily_desc = wmo_codes.get(daily_code, f"Code {daily_code}")
 
-        # Temperatur und Niederschlag nach Tageszeit
         hourly_temps = h.get("temperature_2m", [])
         hourly_precip = h.get("precipitation", [])
         hourly_prob = h.get("precipitation_probability", [])
         hourly_codes = h.get("weathercode", [])
 
-        # Zeitfenster: Nacht 0-5, Morgen 6-9, Vormittag 10-12, Nachmittag 13-17, Abend 18-23
         slots = [
             ("Nacht", 0, 6),
             ("Morgen", 6, 10),
@@ -183,7 +168,6 @@ def fetch_weather_for_location(lat, lon, name):
             slot_codes_list = hourly_codes[start:end]
 
             if slot_precip > 0.1 or (slot_probs and max(slot_probs) > 30):
-                # Find the most severe weather code in this slot
                 max_code = max(slot_codes_list) if slot_codes_list else 0
                 precip_desc = wmo_codes.get(max_code, "Niederschlag")
                 avg_prob = int(sum(slot_probs) / len(slot_probs)) if slot_probs else 0
@@ -192,7 +176,6 @@ def fetch_weather_for_location(lat, lon, name):
                 elif avg_prob > 30:
                     precip_parts.append(f"{slot_name}: mögl. {precip_desc} ({avg_prob}%)")
 
-        # Nachttemperatur (Minimum der Stunden 0-5)
         night_temps = hourly_temps[0:6] if len(hourly_temps) >= 6 else []
         night_min = f"{min(night_temps):.0f}°C" if night_temps else f"{tmin:.0f}°C"
 
@@ -207,49 +190,43 @@ def fetch_weather_for_location(lat, lon, name):
 
 
 def fetch_weather():
-    # Nur Leipzig — Roitzsch ist 30km entfernt, Wetter praktisch identisch
     leipzig = fetch_weather_for_location(51.34, 12.37, "Leipzig/Roitzsch")
     return leipzig
 
 
-# ─── Nachrichten für Sprachübung holen ───
+# ─── Nachrichten für Sprachübung (verbesserte Fehlerbehandlung) ───
 
 def fetch_news_headline(lang_code):
-    """Holt eine aktuelle Schlagzeile für die Sprachübung."""
+    """Holt eine aktuelle Schlagzeile für die Sprachübung. Gibt None zurück, wenn nichts gefunden."""
     if lang_code == "ar":
-        # Al Jazeera Arabic RSS
         url = "https://www.aljazeera.net/aljazeerarss/a7c186be-1baa-4bd4-9d80-a84db769f779/73d0e1b4-532f-45ef-b135-bfdff8b8cab9"
     else:
-        # Tehran Times / IRNA English (for topic extraction)
         url = "https://www.tehrantimes.com/rss"
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Morgenbrief/1.0"})
         with urllib.request.urlopen(req, timeout=10) as resp:
             data = resp.read().decode("utf-8", errors="replace")
-        # Extract first <title> from RSS items (skip channel title)
+        # Suche ersten Titel in <item>
         titles = re.findall(r"<item>.*?<title>(?:<\!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", data, re.DOTALL)
         if titles:
-            # Clean HTML entities
             headline = titles[0].strip()
             headline = headline.replace("&amp;", "&").replace("&quot;", '"').replace("&lt;", "<").replace("&gt;", ">")
             return headline[:300]
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"News-Fehler ({lang_code}): {e}", file=sys.stderr)
     return None
 
 
-# ─── Sprachübung generieren ───
+# ─── Sprachübung generieren (angepasst: immer News-Sektion erzwingen) ───
 
 LANG_START = datetime(2026, 4, 5, tzinfo=BERLIN_TZ)
 
 def generate_language_exercise():
-    """Bestimmt Sprache (Arabisch/Persisch) und Schwierigkeitsgrad für den Tag."""
     today = now_berlin()
     day_of_year = today.timetuple().tm_yday
     days_since_start = max(0, (today - LANG_START).days)
     week = days_since_start // 7
 
-    # Gerader Tag = Arabisch, ungerader Tag = Persisch
     if day_of_year % 2 == 0:
         language = "Arabisch"
         lang_code = "ar"
@@ -257,7 +234,6 @@ def generate_language_exercise():
         language = "Persisch"
         lang_code = "fa"
 
-    # Schwierigkeitsstufe steigt über Wochen
     if week < 2:
         level = "A2 (einfach)"
         instructions = "Sehr einfache Sätze. Grundvokabular: Familie, Essen, Wetter, Tagesablauf. Präsens und einfache Vergangenheit."
@@ -271,11 +247,9 @@ def generate_language_exercise():
         level = "B2 (fortgeschritten)"
         instructions = "Anspruchsvoller Text. Zeitungssprache, abstrakte Themen, idiomatische Wendungen."
 
-    # Aktuelle Nachricht holen (zusätzlich zum Übungsthema)
     headline = fetch_news_headline(lang_code)
     news_source = ("Al Jazeera" if lang_code == "ar" else "Tehran Times") if headline else None
 
-    # Thema rotiert (für strukturierte Übung)
     fallback_topics = [
         "Tagesablauf und Routine", "Essen und Kochen", "Eine Reise beschreiben",
         "Familie und Freunde", "Das Wetter", "Einkaufen auf dem Markt",
@@ -297,21 +271,18 @@ def generate_language_exercise():
     }
 
 
-# ─── Tagesimpuls generieren ───
+# ─── Tagesimpuls ───
 
 def generate_impulse():
-    """Gibt dem Prompt kontextsensitive Vorschläge statt einer festen Liste."""
     today = now_berlin()
-    weekday = today.strftime("%A")  # Monday, Tuesday, etc.
+    weekday = today.strftime("%A")
     day_de = {
         "Monday": "Montag", "Tuesday": "Dienstag", "Wednesday": "Mittwoch",
         "Thursday": "Donnerstag", "Friday": "Freitag", "Saturday": "Samstag",
         "Sunday": "Sonntag"
     }.get(weekday, weekday)
-    month = today.month
     day_of_year = today.timetuple().tm_yday
 
-    # Rotate through different creative suggestions using day of year
     creative_pools = [
         "Einen Film entwickeln oder Negative scannen",
         "Einen persischen Film schauen (z.B. Panahi, Kiarostami, Farhadi, Rasoulof)",
@@ -354,7 +325,7 @@ def generate_impulse():
 Wähle passend zum Wochentag, Wetter und Terminen aus. Wenn der Tag voll ist, lass die Vorschläge weg."""
 
 
-# ─── Claude aufrufen ───
+# ─── Claude aufrufen (angepasster Prompt mit getrennten Sprachübungs-Sektionen) ───
 
 def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exercise):
     api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -367,7 +338,17 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     script = 'arabischer' if lang['lang_code'] == 'ar' else 'persischer'
     dialect_rule = 'Fusha (MSA), kein Dialekt.' if lang['lang_code'] == 'ar' else 'Farsi-ye meyar, kein Slang.'
 
-    lang_prompt = f"""SPRACHÜBUNG ({lang['language']}, Level {lang['level']}, Woche {lang['week']+1}):
+    # NEU: Immer einen News-Block generieren – wenn keine Headline, dann Platzhalter
+    if lang.get('headline'):
+        news_prompt = f"""NACHRICHTEN:
+Die folgende Schlagzeile von {lang['news_source']} in {script} Originalschrift wiedergeben. Glossiere schwierige Wörter inline auf Deutsch in Klammern. Danach in 2–3 einfachen Sätzen auf {lang['language']} zusammenfassen (Level {lang['level']}).
+Schlagzeile: {lang['headline']}"""
+    else:
+        news_prompt = """NACHRICHTEN:
+Keine aktuellen Nachrichten verfügbar. Schreibe stattdessen einen kurzen Satz auf Deutsch, dass heute keine neue Schlagzeile vorliegt."""
+
+    # Sprachübung nun aufgeteilt in TEXT und FRAGEN (für korrekte RTL/LTR)
+    lang_prompt = f"""SPRACHÜBUNG – TEXT (RTL, in Originalschrift):
 Schreibe einen kurzen Übungstext auf {lang['language']} zum Thema "{lang['topic']}".
 Regeln:
 - 5–8 Sätze in {script} Schrift.
@@ -375,16 +356,9 @@ Regeln:
 - {dialect_rule}
 - Wenn ein Wort über Grundwortschatz hinausgeht: sofort in Klammern auf Deutsch erklären.
 - KEIN Transliteration. Nur Originalschrift + deutsche Glossen in Klammern.
-- Am Ende: 2–3 Verständnisfragen auf Deutsch zum Text."""
 
-    # Nachrichtenblock (zusätzlich zur Übung)
-    news_prompt = ""
-    if lang.get('headline'):
-        news_prompt = f"""\nNACHRICHTEN (von {lang['news_source']}):
-Schreibe unter der Überschrift NACHRICHTEN die folgende Schlagzeile in {script} Originalschrift.
-Glossiere schwierige Wörter inline auf Deutsch in Klammern.
-Fasse dann in 2–3 einfachen Sätzen auf {lang['language']} zusammen, worum es geht (Level {lang['level']}).
-Schlagzeile: {lang['headline']}"""
+SPRACHÜBUNG – FRAGEN (LTR, auf Deutsch):
+Schreibe 2–3 Verständnisfragen auf Deutsch zum obigen Text. Jede Frage in einer neuen Zeile. Keine Originalschrift mehr."""
 
     user_message = f"""Heute ist {today}.
 
@@ -418,8 +392,9 @@ Schreibe den Morgenbrief exakt in der Struktur die im Kontext-Dokument definiert
 4. PROJEKTE — was heute ein guter Tag für wäre (kurz, nach Terminen einschätzen)
 5. ERLEDIGTES — nur wenn es welches gibt
 6. AUSBLICK — Termine mit Label [MORGEN] und [ÜBERMORGEN], nahende Deadlines. Max 2 Sätze.
-7. SPRACHÜBUNG — den Übungstext gemäß den Anweisungen oben generieren. In Originalschrift. Neue Vokabeln inline in Klammern auf Deutsch glossieren. Am Ende 2–3 Verständnisfragen auf Deutsch.
-8. NACHRICHTEN — falls Nachrichtenanweisungen oben vorhanden: Schlagzeile in Originalschrift + Zusammenfassung. Sonst weglassen.
+7. SPRACHÜBUNG – TEXT — den Übungstext in Originalschrift, wie oben verlangt.
+8. SPRACHÜBUNG – FRAGEN — die Verständnisfragen auf Deutsch.
+9. NACHRICHTEN — wie oben definiert.
 
 Jede Sektion mit dem Namen als Überschrift (ohne Formatierung, einfach in Großbuchstaben).
 Kein Markdown. Keine Vermutungen. Sachlich. Morgenbrief-Teil unter 350 Wörter, Sprachübung zusätzlich."""
@@ -449,7 +424,6 @@ Kein Markdown. Keine Vermutungen. Sachlich. Morgenbrief-Teil unter 350 Wörter, 
 
 
 def strip_markdown(text):
-    """Entfernt Markdown-Formatierung als Fallback."""
     text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
     text = re.sub(r'\*(.+?)\*', r'\1', text)
     text = re.sub(r'^#{1,6}\s+', '', text, flags=re.MULTILINE)
@@ -458,7 +432,7 @@ def strip_markdown(text):
     return text
 
 
-# ─── ePub erzeugen ───
+# ─── ePub erzeugen (mit separater RTL/LTR Behandlung für die beiden Sprachübungs-Sektionen) ───
 
 def create_epub(text, date_str):
     import zipfile
@@ -467,17 +441,19 @@ def create_epub(text, date_str):
     title = f"Morgenbrief {date_str}"
     text = strip_markdown(text)
 
-    # Sektionen erkennen und als HTML-Überschriften formatieren
     lines = text.strip().split("\n")
     html_parts = []
     current_block = []
-    section_names = {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK", "SPRACHÜBUNG", "NACHRICHTEN"}
-    rtl_section = False  # Track if we're in the SPRACHÜBUNG section
+    # Definiere, welche Sektionen RTL (rechts nach links) bekommen sollen
+    rtl_sections = {"SPRACHÜBUNG – TEXT", "SPRACHÜBUNG - TEXT"}  # beide Varianten
+    ltr_sections = {"SPRACHÜBUNG – FRAGEN", "SPRACHÜBUNG - FRAGEN"}
+    current_rtl = False
 
     def flush_block():
+        nonlocal current_rtl
         if current_block:
             content = "<br/>".join(current_block)
-            if rtl_section:
+            if current_rtl:
                 html_parts.append(f'<p dir="rtl" style="text-align: right; font-size: 1.1em; line-height: 1.8;">{content}</p>')
             else:
                 html_parts.append(f"<p>{content}</p>")
@@ -485,19 +461,25 @@ def create_epub(text, date_str):
 
     for line in lines:
         stripped = line.strip()
-        if stripped in section_names or (stripped and stripped.rstrip(":") in section_names):
+        # Prüfe auf Sektionsüberschrift (Großbuchstaben, evtl. mit Doppelpunkt)
+        if stripped.upper() in [s.upper() for s in rtl_sections] or stripped.rstrip(":").upper() in [s.upper() for s in rtl_sections]:
             flush_block()
-            section_key = stripped.rstrip(":")
-            rtl_section = (section_key in ("SPRACHÜBUNG", "NACHRICHTEN"))
+            current_rtl = True
+            html_parts.append(f"<h2>{stripped}</h2>")
+        elif stripped.upper() in [s.upper() for s in ltr_sections] or stripped.rstrip(":").upper() in [s.upper() for s in ltr_sections]:
+            flush_block()
+            current_rtl = False
+            html_parts.append(f"<h2>{stripped}</h2>")
+        elif stripped in {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK", "NACHRICHTEN"} or stripped.rstrip(":") in {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK", "NACHRICHTEN"}:
+            flush_block()
+            current_rtl = False
             html_parts.append(f"<h2>{stripped}</h2>")
         elif stripped == "":
             flush_block()
-        elif stripped.startswith("–") or stripped.startswith("-"):
-            current_block.append(stripped)
         else:
             current_block.append(stripped)
-
     flush_block()
+
     html_body = "\n".join(html_parts)
 
     content_xhtml = f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -564,7 +546,7 @@ p {{ margin-bottom: 0.6em; }}
     return filename
 
 
-# ─── Per Mail an Kindle schicken ───
+# ─── Per Mail an Kindle ───
 
 def send_to_kindle(epub_path):
     gmail_addr = os.environ.get("GMAIL_ADDRESS")
@@ -609,6 +591,11 @@ def main():
 
     print(f"Morgenbrief wird geschrieben ({now_berlin().strftime('%d.%m.%Y %H:%M')} Berliner Zeit)...")
     print(f"Sprachübung: {lang_exercise['language']} (Level {lang_exercise['level']}, Thema: {lang_exercise['topic']})")
+    if lang_exercise.get('headline'):
+        print(f"News vorhanden: {lang_exercise['headline'][:60]}...")
+    else:
+        print("Keine News – verwende Platzhalter.")
+
     text = call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exercise)
 
     date_str = now_berlin().strftime("%Y-%m-%d")
