@@ -41,21 +41,22 @@ Moritz baut gerade Routinen wieder auf. Das Ziel ist Stetigkeit, nicht Perfektio
 ### Sprachtraining (Arabisch + Persisch)
 Ziel: BKA-Eignungstest vorbereiten + Konversation Persisch für Tajikistan-Reise.
 
-Tägliches Minimum (20–30 Min.):
-– Glossika Persisch (vorhanden) ODER Language Transfer Arabic (kostenlos) — im Wechsel mit dem Morgenbrief-Tag (gerade Tage = Arabisch, ungerade = Persisch)
+Tägliches Minimum (30 Min.):
+– Arabisch-Tage (gerade): Pimsleur Eastern Arabic (1 Lektion, 30 Min., Levantinisch)
+– Persisch-Tage (ungerade): Glossika Persisch (vorhanden, 20 Min.)
 – Morgenbrief-Sprachübung lesen und durcharbeiten (5–10 Min.)
 
 Wöchentlich:
 – Preply-Stunden: 2x Arabisch (Libanesin, Shami-Konversation) + 1x Persisch (Afghanin, Farsi-Konversation). Jeweils 4€/h, insgesamt ~48€/Monat. Feste Slots Mi, Do, Fr nachmittags.
-– 1 Lehrbuch-Einheit Arabic Today (John Mace, mit Tonbeispielen) — z.B. Mittwochs
+– 1 Lehrbuch-Einheit Arabic Today (John Mace, mit Tonbeispielen) — Mittwochs, Grammatik + Hörübung
 – Easy Arabic Reader: 1 Kapitel/Woche — am Wochenende
 – Harry Potter auf Persisch: 10–15 Seiten/Tag als Abendritual oder morgens nach Sport
 – Once Upon a Time in Iran: 1–2 Episoden/Woche abends
 
-Nicht verwenden: Anki (hat nie funktioniert), Pimsleur (zu teuer, Glossika reicht).
+Nicht verwenden: Anki (hat nie funktioniert).
 
 ### Tagesablauf
-– Morgens: Morgenbrief auf Kindle → Sport/Bewegung → Glossika/Language Transfer → Frühstück → Lesen in Zielsprache (15 Min.)
+– Morgens: Morgenbrief auf Kindle → Sport/Bewegung → Pimsleur oder Glossika (je nach Tag) → Frühstück → Lesen in Zielsprache (15 Min.)
 – Tagsüber: DNB oder Garten für Arbeit (Bewerbungen, hochroth, Schreiben). Mittags 30 Min. Lehrbuch.
 – Nachmittags: Preply-Stunde (an Preply-Tagen) oder Fachbuch/Freizeit.
 – Abends: Frei — Belletristik, Film, Freunde, Kochen. Once Upon a Time in Iran 1–2x/Woche.
