@@ -42,7 +42,7 @@ Moritz baut gerade Routinen wieder auf. Das Ziel ist Stetigkeit, nicht Perfektio
 Ziel: BKA-Eignungstest vorbereiten + Konversation Persisch für Tajikistan-Reise.
 
 Tägliches Minimum (30 Min.):
-– Arabisch-Tage (gerade): Pimsleur Eastern Arabic (1 Lektion, 30 Min., Levantinisch)
+– Arabisch-Tage (gerade): GLOSS-Lektion (gloss.dliflc.edu, Levantine Arabic, 20–30 Min. — kostenlos, authentische Materialien mit Transkript, vom US Defense Language Institute)
 – Persisch-Tage (ungerade): Glossika Persisch (vorhanden, 20 Min.)
 – Morgenbrief-Sprachübung lesen und durcharbeiten (5–10 Min.)
 
@@ -56,7 +56,7 @@ Wöchentlich:
 Nicht verwenden: Anki (hat nie funktioniert).
 
 ### Tagesablauf
-– Morgens: Morgenbrief auf Kindle → Sport/Bewegung → Pimsleur oder Glossika (je nach Tag) → Frühstück → Lesen in Zielsprache (15 Min.)
+– Morgens: Morgenbrief auf Kindle → Sport/Bewegung → GLOSS oder Glossika (je nach Tag) → Frühstück → Lesen in Zielsprache (15 Min.)
 – Tagsüber: DNB oder Garten für Arbeit (Bewerbungen, hochroth, Schreiben). Mittags 30 Min. Lehrbuch.
 – Nachmittags: Preply-Stunde (an Preply-Tagen) oder Fachbuch/Freizeit.
 – Abends: Frei — Belletristik, Film, Freunde, Kochen. Once Upon a Time in Iran 1–2x/Woche.
