@@ -56,16 +56,13 @@ def fetch_calendar(ical_url):
         summary = str(component.get('SUMMARY', ''))
         location = str(component.get('LOCATION', ''))
 
-        # Datum/Zeit in Berliner Zeit umwandeln
         if isinstance(dt, datetime):
-            # Wenn es schon ein datetime ist, aber zeitzonenlos -> als UTC annehmen? iCal Standard: floating time = lokale Zeit des Veranstalters.
-            # Wir nehmen hier an, dass die Kalender-URL bereits Berliner Zeit liefert (meistens der Fall bei Google mit Zeitzone).
             if dt.tzinfo is None:
                 dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
             else:
                 dt_berlin = dt.astimezone(BERLIN_TZ)
             is_allday = False
-        else:  # date only
+        else:
             dt_berlin = datetime.combine(dt, datetime.min.time()).replace(tzinfo=BERLIN_TZ)
             is_allday = True
 
@@ -370,7 +367,7 @@ def _generate_discovery_albums_via_api():
               f'[{{"artist": "Name", "album": "Albumtitel"}}, ...]')
 
     payload = json.dumps({
-        "model": "claude-sonnet-4-20250514",  # laut Benutzer funktioniert dieser Modellname
+        "model": "claude-sonnet-4-20250514",
         "max_tokens": 2000,
         "messages": [{"role": "user", "content": prompt}]
     }).encode("utf-8")
@@ -530,7 +527,6 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     script = 'arabischer' if lang['lang_code']=='ar' else 'persischer'
     dialect = 'Fusha (MSA), kein Dialekt.' if lang['lang_code']=='ar' else 'Farsi-ye meyar, kein Slang.'
     
-    # Verstärkte Aufforderung zur Vokalisierung (für Arabisch)
     vocalization_instruction = ""
     if lang['lang_code'] == 'ar':
         vocalization_instruction = ("DU MUSST ALLE ARABISCHEN WÖRTER VOLLSTÄNDIG VOKALISIEREN (Tashkīl/Harakat). "
@@ -550,7 +546,8 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
                   f"Fasse den Artikel in 4-6 Sätzen auf {lang['language']} zusammen (Level {lang['level']}). {vocalization_instruction}\n"
                   f"Glossiere schwierige Wörter inline auf Deutsch (passend zu Level {lang['level']}).")
     else:
-        news_p = "NACHRICHTEN:\nKeine aktuellen Nachrichten verfügbar. Schreibe einen kurzen Satz auf Deutsch."
+        news_p = ("NACHRICHTEN (RTL, in Originalschrift):\n"
+                  "Keine aktuellen Nachrichten verfügbar. Schreibe einen kurzen Satz auf Deutsch, dass heute keine Nachrichten abgerufen werden konnten.")
 
     lang_p = (f"SPRACHÜBUNG - TEXT (RTL, in Originalschrift):\n"
               f"Schreibe einen kurzen Übungstext auf {lang['language']} zum Thema \"{lang['topic']}\".\n"
@@ -561,7 +558,7 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
               f"Keine Originalschrift in diesem Abschnitt. Schreibe die Fragen in normaler lateinischer Schrift (LTR).")
 
     msg = (f"Heute ist {today}.\n\nWETTER:\n{wetter}\n\nTAGESIMPULS:\n{impulse}\n\n"
-           f"KONTEXT (enthält Format und Regeln - befolge sie exakt):\kontext}\n\n"
+           f"KONTEXT (enthält Format und Regeln - befolge sie exakt):\n{kontext}\n\n"   # <-- FIXED: {kontext} not \kontext}
            f"OFFENE AUFGABEN:\n{aufgaben}\n\nKALENDER (nächste 3 Tage):\n{kalender}\n\n"
            f"FAHRPLAN (nur als Hintergrund):\n{fahrplan}\n\n{lang_p}\n\n{news_p}\n\n"
            f"AUFTRAG:\nSchreibe den Morgenbrief exakt in dieser Struktur:\n"
@@ -616,20 +613,24 @@ def create_epub(text, date_str):
     for line in lines:
         s = line.strip()
         u = s.upper()
-        # Erkennung der Sektionen (flexibel)
-        if "SPRACHÜBUNG - TEXT" in u or "SPRACHUEBUNG - TEXT" in u:
-            flush()
-            current_rtl = True
-            html_parts.append(f'<h2 dir="ltr">{html.escape(s)}</h2>')  # Überschrift immer LTR
-        elif "SPRACHÜBUNG - FRAGEN" in u or "SPRACHUEBUNG - FRAGEN" in u or u.startswith("FRAGEN:"):
-            flush()
-            current_rtl = False  # Fragen sind LTR (Deutsch)
-            html_parts.append(f'<h2 dir="ltr">{html.escape(s)}</h2>')
-        elif "NACHRICHTEN" in u and (u == "NACHRICHTEN" or u.startswith("NACHRICHTEN")):
+        # Erkennung der Sektionen (robust)
+        # Text-Übung (RTL)
+        if re.search(r'SPRACH[ÜU]BUNG\s*[-–]\s*TEXT', u):
             flush()
             current_rtl = True
             html_parts.append(f'<h2 dir="ltr">{html.escape(s)}</h2>')
-        elif u.rstrip(":").lstrip() in {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK"}:
+        # Fragen (LTR) – erkenne verschiedene Varianten
+        elif re.search(r'SPRACH[ÜU]BUNG\s*[-–]\s*FRAGEN', u) or re.search(r'VERST[ÄA]NDNISFRAGEN', u) or u.startswith('FRAGEN:'):
+            flush()
+            current_rtl = False
+            html_parts.append(f'<h2 dir="ltr">{html.escape(s)}</h2>')
+        # Nachrichten (RTL)
+        elif re.search(r'^NACHRICHTEN', u):
+            flush()
+            current_rtl = True
+            html_parts.append(f'<h2 dir="ltr">{html.escape(s)}</h2>')
+        # Andere Standard-Sektionen (LTR)
+        elif u.rstrip(':').lstrip() in {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK"}:
             flush()
             current_rtl = False
             html_parts.append(f'<h2 dir="ltr">{html.escape(s)}</h2>')
@@ -638,6 +639,9 @@ def create_epub(text, date_str):
         else:
             current_block.append(s)
     flush()
+
+    # Debug: Ausgabe der erkannten Sektionen (in GitHub Actions Log sichtbar)
+    print(f"ePub generiert mit {len(html_parts)} Blöcken", file=sys.stderr)
 
     xhtml = (f'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE html>\n'
              f'<html xmlns="http://www.w3.org/1999/xhtml"><head><title>{html.escape(title)}</title>\n'
