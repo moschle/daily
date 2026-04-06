@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-GLOSS Tagesplaner — legt beim Login einen Lernzettel auf den Desktop
+GLOSS Tagesplaner — legt beim Login einen Lernzettel auf den GLOSS_DIR
 und öffnet GLOSS mit der richtigen Sprache.
 """
 
@@ -12,11 +12,12 @@ from zoneinfo import ZoneInfo
 
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 STATE_FILE = Path(__file__).parent / "gloss_state.json"
-DESKTOP = Path.home() / "Desktop"
+GLOSS_DIR = Path.home() / "GLOSS_notes"
+GLOSS_DIR.mkdir(exist_ok=True)
 
 # Alte Zettel aufräumen
 def _cleanup_old():
-    for f in DESKTOP.glob("GLOSS_*.md"):
+    for f in GLOSS_DIR.glob("GLOSS_*.md"):
         try: f.unlink()
         except: pass
 
@@ -74,7 +75,7 @@ def main():
         lesen = "Harry Potter auf Persisch (10–15 Seiten)"
         preply = "Do: Preply Persisch (Afghanin)"
 
-    zettel = DESKTOP / f"GLOSS_{date_str}.md"
+    zettel = GLOSS_DIR / f"GLOSS_{date_str}.md"
     zettel.write_text(f"""# {day_de}, {now.strftime('%d.%m.%Y')} — {lang_name}-Tag
 
 ## GLOSS #{lesson_nr}
