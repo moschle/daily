@@ -184,6 +184,56 @@ def fetch_news_headline(lang_code):
     print(f"Keine News verfügbar ({lang_code})", file=sys.stderr)
     return None
 
+def _clean_html(text):
+    text = re.sub(r'<[^>]+>', ' ', text)
+    text = text.replace("&amp;","&").replace("&quot;",'"').replace("&lt;","<").replace("&gt;",">").replace("&#039;","'")
+    return re.sub(r'\s+', ' ', text).strip()
+
+def _fetch_article_text(lang_code):
+    """Holt den Artikeltext der ersten BBC-Nachricht (unabhängig von fetch_news_headline)."""
+    # RSS-URL bestimmen
+    gh_urls = {"ar": "https://raw.githubusercontent.com/bbc/world-service-rss/main/arabic.md",
+               "fa": "https://raw.githubusercontent.com/bbc/world-service-rss/main/persian.md"}
+    rss_url = BBC_RSS_FALLBACKS.get(lang_code)
+    gh = gh_urls.get(lang_code)
+    if gh:
+        try:
+            req = urllib.request.Request(gh, headers={"User-Agent": "Morgenbrief/1.0"})
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                data = resp.read().decode("utf-8", errors="replace")
+            m = re.search(r'\((https?://feeds\.bbci\.co\.uk/[^)]+)\)', data)
+            if m: rss_url = m.group(1)
+        except Exception: pass
+    if not rss_url: return ""
+    # Ersten Artikel-Link aus RSS holen
+    try:
+        req = urllib.request.Request(rss_url, headers={"User-Agent": "Morgenbrief/1.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            rss = resp.read().decode("utf-8", errors="replace")
+        items = re.findall(r"<item>(.*?)</item>", rss, re.DOTALL)
+        if not items: return ""
+        link_m = re.search(r"<link>(.*?)</link>", items[0])
+        desc_m = re.search(r"<description>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</description>", items[0], re.DOTALL)
+        desc = _clean_html(desc_m.group(1))[:500] if desc_m else ""
+        link = link_m.group(1).strip() if link_m else ""
+    except Exception:
+        return ""
+    if not link: return desc
+    # Artikelseite holen
+    try:
+        req = urllib.request.Request(link, headers={"User-Agent": "Morgenbrief/1.0"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            html = resp.read().decode("utf-8", errors="replace")
+        paragraphs = re.findall(r'<p[^>]*>([^<]+(?:<[^/p][^>]*>[^<]*</[^p][^>]*>)*[^<]*)</p>', html)
+        text_parts = [_clean_html(p) for p in paragraphs if len(_clean_html(p)) > 40]
+        if text_parts:
+            article = "\n".join(text_parts[:8])
+            print(f"Artikel geladen ({lang_code}): {len(article)} Zeichen", file=sys.stderr)
+            return article
+    except Exception as e:
+        print(f"Artikel-Fetch Fehler: {e}", file=sys.stderr)
+    return desc
+
 
 # ─── Musikbibliothek ───
 
@@ -457,12 +507,13 @@ def generate_language_exercise():
         rep = f"\nVOKABELWIEDERHOLUNG:\nDiese Wörter sollen heute wiederholt werden. Baue sie in den Übungstext ein:\n{vl}\n"
 
     hl = fetch_news_headline(lc)
+    article_text = _fetch_article_text(lc) if hl else ""
     topics = ["Tagesablauf und Routine","Essen und Kochen","Eine Reise beschreiben","Familie und Freunde",
               "Das Wetter","Einkaufen auf dem Markt","Ein Buch oder Film beschreiben","Die eigene Stadt vorstellen",
               "Arbeit und Beruf","Kindheitserinnerungen","Natur und Umwelt","Musik und Kunst","Gesundheit und Sport","Politik und Gesellschaft"]
 
     return {"language":language,"lang_code":lc,"level":level,"instructions":instr,
-            "topic":topics[dss%len(topics)],"headline":hl,"news_source":"BBC" if hl else None,
+            "topic":topics[dss%len(topics)],"headline":hl,"article_text":article_text,"news_source":"BBC" if hl else None,
             "week":week,"repetition_prompt":rep,
             "new_vocab_instruction":"\nWICHTIG: Neue Vokabeln inline glossieren. Am Ende eine Zeile: \"NEUE VOKABELN: Wort (Bedeutung), Wort (Bedeutung)\"\n",
             "memory":mem,"due_vocab":due}
@@ -480,11 +531,15 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     vok = 'MIT VOLLSTÄNDIGER VOKALISIERUNG (tashkīl/harakat). ' if lang['lang_code']=='ar' else ''
 
     if lang.get('headline'):
+        article_block = ""
+        if lang.get('article_text'):
+            article_block = f"\nArtikeltext (als Grundlage):\n{lang['article_text'][:1500]}\n"
         news_p = (f"NACHRICHTEN (RTL, in Originalschrift):\n"
-                  f"Die folgende Schlagzeile von {lang['news_source']} in {script} Originalschrift wiedergeben. {vok}\n"
-                  f"Glossiere schwierige Wörter inline auf Deutsch in Klammern (passend zu Level {lang['level']}).\n"
-                  f"Danach in 2-3 einfachen Sätzen auf {lang['language']} zusammenfassen (Level {lang['level']}). {vok}\n"
-                  f"Schlagzeile: {lang['headline'][:200]}")
+                  f"Schlagzeile: {lang['headline'][:200]}\n"
+                  f"{article_block}"
+                  f"Gib die Schlagzeile in {script} Originalschrift wieder. {vok}\n"
+                  f"Fasse den Artikel in 4-6 Sätzen auf {lang['language']} zusammen (Level {lang['level']}). {vok}\n"
+                  f"Glossiere schwierige Wörter inline auf Deutsch (passend zu Level {lang['level']}).")
     else:
         news_p = "NACHRICHTEN:\nKeine aktuellen Nachrichten verfügbar. Schreibe einen kurzen Satz auf Deutsch."
 
