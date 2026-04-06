@@ -11,6 +11,7 @@ import smtplib
 import urllib.request
 import csv
 import random
+import html
 from datetime import datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
@@ -18,6 +19,8 @@ from email.mime.text import MIMEText
 from email import encoders
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from icalendar import Calendar
+import requests
 
 # ─── Zeitzone ───
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
@@ -29,15 +32,15 @@ def _normalize_dashes(text):
     return text.replace("\u2014", "-").replace("\u2013", "-").replace("\u2012", "-")
 
 
-# ─── Kalender parsen ───
+# ─── Kalender parsen (mit icalendar) ───
 
 def fetch_calendar(ical_url):
     if ical_url.startswith("webcal://"):
         ical_url = ical_url.replace("webcal://", "https://", 1)
     try:
-        req = urllib.request.Request(ical_url, headers={"User-Agent": "Morgenbrief/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = resp.read().decode("utf-8", errors="replace")
+        resp = requests.get(ical_url, timeout=15, headers={"User-Agent": "Morgenbrief/1.0"})
+        resp.raise_for_status()
+        cal = Calendar.from_ical(resp.text)
     except Exception as e:
         return f"[Kalender konnte nicht geladen werden: {e}]"
 
@@ -45,40 +48,32 @@ def fetch_calendar(ical_url):
     today_berlin = now_berlin().replace(hour=0, minute=0, second=0, microsecond=0)
     horizon = today_berlin + timedelta(days=3)
 
-    for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", data, re.DOTALL):
-        summary, dtstart_str, location = "", "", ""
-        is_utc, has_tzid_berlin = False, False
-
-        m = re.search(r"SUMMARY:(.*?)[\r\n]", block)
-        if m: summary = m.group(1).strip()
-        m = re.search(r"DTSTART[^:]*:(.*?)[\r\n]", block)
-        if m: dtstart_str = m.group(1).strip()
-        dtstart_line = re.search(r"DTSTART([^:]*):", block)
-        if dtstart_line and "Europe/Berlin" in dtstart_line.group(1):
-            has_tzid_berlin = True
-        if dtstart_str.endswith("Z"):
-            is_utc = True
-            dtstart_str = dtstart_str[:-1]
-        m = re.search(r"LOCATION:(.*?)[\r\n]", block)
-        if m: location = m.group(1).strip().replace("\\n", ", ").replace("\\,", ",")
-
-        dt, is_allday = None, False
-        try:
-            if "T" in dtstart_str:
-                dt = datetime.strptime(dtstart_str[:15], "%Y%m%dT%H%M%S")
-            elif len(dtstart_str) >= 8:
-                dt = datetime.strptime(dtstart_str[:8], "%Y%m%d")
-                is_allday = True
-        except ValueError:
+    for component in cal.walk('VEVENT'):
+        dtstart = component.get('DTSTART')
+        if dtstart is None:
             continue
-        if dt is None: continue
+        dt = dtstart.dt
+        summary = str(component.get('SUMMARY', ''))
+        location = str(component.get('LOCATION', ''))
 
-        if is_allday: dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
-        elif is_utc: dt_berlin = dt.replace(tzinfo=timezone.utc).astimezone(BERLIN_TZ)
-        else: dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
+        # Datum/Zeit in Berliner Zeit umwandeln
+        if isinstance(dt, datetime):
+            # Wenn es schon ein datetime ist, aber zeitzonenlos -> als UTC annehmen? iCal Standard: floating time = lokale Zeit des Veranstalters.
+            # Wir nehmen hier an, dass die Kalender-URL bereits Berliner Zeit liefert (meistens der Fall bei Google mit Zeitzone).
+            if dt.tzinfo is None:
+                dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
+            else:
+                dt_berlin = dt.astimezone(BERLIN_TZ)
+            is_allday = False
+        else:  # date only
+            dt_berlin = datetime.combine(dt, datetime.min.time()).replace(tzinfo=BERLIN_TZ)
+            is_allday = True
 
         if today_berlin <= dt_berlin < horizon:
-            date_str = dt_berlin.strftime("%a %d.%m.") if is_allday else dt_berlin.strftime("%a %d.%m. %H:%M")
+            if is_allday:
+                date_str = dt_berlin.strftime("%a %d.%m.")
+            else:
+                date_str = dt_berlin.strftime("%a %d.%m. %H:%M")
             loc_str = f" ({location})" if location else ""
             day_diff = (dt_berlin.date() - today_berlin.date()).days
             tag_label = ["HEUTE", "MORGEN", "ÜBERMORGEN"][day_diff] if day_diff < 3 else ""
@@ -101,8 +96,9 @@ def fetch_weather_for_location(lat, lon, name):
            80:"leichte Regenschauer",81:"Regenschauer",82:"heftige Regenschauer",
            95:"Gewitter",96:"Gewitter mit leichtem Hagel",99:"Gewitter mit Hagel"}
     try:
-        with urllib.request.urlopen(url, timeout=10) as resp:
-            data = json.loads(resp.read())
+        resp = requests.get(url, timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
         d, h = data["daily"], data.get("hourly", {})
         tmin, tmax = d["temperature_2m_min"][0], d["temperature_2m_max"][0]
         daily_desc = wmo.get(d["weathercode"][0], f"Code {d['weathercode'][0]}")
@@ -112,19 +108,26 @@ def fetch_weather_for_location(lat, lon, name):
         slots = [("Nacht",0,6),("Morgen",6,10),("Vormittag",10,13),("Nachmittag",13,18),("Abend",18,24)]
         precip_parts = []
         for sn, s, e in slots:
-            if len(hourly_precip) < e or len(hourly_codes) < e: continue
+            if len(hourly_precip) < e or len(hourly_codes) < e:
+                continue
             sp = sum(hourly_precip[s:e])
             sprobs = hourly_prob[s:e] if len(hourly_prob) >= e else []
             if sp > 0.1 or (sprobs and max(sprobs) > 30):
                 mc = max(hourly_codes[s:e]) if hourly_codes[s:e] else 0
                 avg_p = int(sum(sprobs)/len(sprobs)) if sprobs else 0
-                if sp > 0.1: precip_parts.append(f"{sn}: {wmo.get(mc,'Niederschlag')} ({sp:.1f}mm, {avg_p}%)")
-                elif avg_p > 30: precip_parts.append(f"{sn}: mögl. {wmo.get(mc,'Niederschlag')} ({avg_p}%)")
+                if sp > 0.1:
+                    precip_parts.append(f"{sn}: {wmo.get(mc,'Niederschlag')} ({sp:.1f}mm, {avg_p}%)")
+                elif avg_p > 30:
+                    precip_parts.append(f"{sn}: mögl. {wmo.get(mc,'Niederschlag')} ({avg_p}%)")
         hourly_temps = h.get("temperature_2m", [])
-        nt = hourly_temps[0:6]
-        night_min = f"{min(nt):.0f}°C" if nt else f"{tmin:.0f}°C"
+        if len(hourly_temps) >= 6:
+            nt = hourly_temps[0:6]
+            night_min = f"{min(nt):.0f}°C"
+        else:
+            night_min = f"{tmin:.0f}°C"
         result = f"{name}: {daily_desc.capitalize()}, {tmin:.0f}–{tmax:.0f}°C (Nacht {night_min})"
-        if precip_parts: result += "\n  " + "; ".join(precip_parts)
+        if precip_parts:
+            result += "\n  " + "; ".join(precip_parts)
         elif d["precipitation_sum"][0] and d["precipitation_sum"][0] > 0:
             result += f" — {d['precipitation_sum'][0]:.1f}mm Niederschlag gesamt"
         return result
@@ -139,9 +142,9 @@ def fetch_weather():
 
 def _fetch_rss_headline(rss_url):
     try:
-        req = urllib.request.Request(rss_url, headers={"User-Agent": "Morgenbrief/1.0"})
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            data = resp.read().decode("utf-8", errors="replace")
+        resp = requests.get(rss_url, timeout=10, headers={"User-Agent": "Morgenbrief/1.0"})
+        resp.raise_for_status()
+        data = resp.text
         titles = re.findall(r"<item>.*?<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", data, re.DOTALL)
         if titles:
             h = titles[0].strip().replace("&amp;","&").replace("&quot;",'"').replace("&lt;","<").replace("&gt;",">")
@@ -156,9 +159,9 @@ def _fetch_bbc_github(lang_code):
     url = urls.get(lang_code)
     if not url: return None
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Morgenbrief/1.0"})
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            data = resp.read().decode("utf-8", errors="replace")
+        resp = requests.get(url, timeout=10, headers={"User-Agent": "Morgenbrief/1.0"})
+        resp.raise_for_status()
+        data = resp.text
         rss_match = re.search(r'\((https?://feeds\.bbci\.co\.uk/[^)]+)\)', data)
         if rss_match:
             return _fetch_rss_headline(rss_match.group(1))
@@ -191,25 +194,24 @@ def _clean_html(text):
 
 def _fetch_article_text(lang_code):
     """Holt den Artikeltext der ersten BBC-Nachricht (unabhängig von fetch_news_headline)."""
-    # RSS-URL bestimmen
     gh_urls = {"ar": "https://raw.githubusercontent.com/bbc/world-service-rss/main/arabic.md",
                "fa": "https://raw.githubusercontent.com/bbc/world-service-rss/main/persian.md"}
     rss_url = BBC_RSS_FALLBACKS.get(lang_code)
     gh = gh_urls.get(lang_code)
     if gh:
         try:
-            req = urllib.request.Request(gh, headers={"User-Agent": "Morgenbrief/1.0"})
-            with urllib.request.urlopen(req, timeout=10) as resp:
-                data = resp.read().decode("utf-8", errors="replace")
+            resp = requests.get(gh, timeout=10, headers={"User-Agent": "Morgenbrief/1.0"})
+            resp.raise_for_status()
+            data = resp.text
             m = re.search(r'\((https?://feeds\.bbci\.co\.uk/[^)]+)\)', data)
-            if m: rss_url = m.group(1)
+            if m:
+                rss_url = m.group(1)
         except Exception: pass
     if not rss_url: return ""
-    # Ersten Artikel-Link aus RSS holen
     try:
-        req = urllib.request.Request(rss_url, headers={"User-Agent": "Morgenbrief/1.0"})
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            rss = resp.read().decode("utf-8", errors="replace")
+        resp = requests.get(rss_url, timeout=10, headers={"User-Agent": "Morgenbrief/1.0"})
+        resp.raise_for_status()
+        rss = resp.text
         items = re.findall(r"<item>(.*?)</item>", rss, re.DOTALL)
         if not items: return ""
         link_m = re.search(r"<link>(.*?)</link>", items[0])
@@ -219,12 +221,11 @@ def _fetch_article_text(lang_code):
     except Exception:
         return ""
     if not link: return desc
-    # Artikelseite holen
     try:
-        req = urllib.request.Request(link, headers={"User-Agent": "Morgenbrief/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            html = resp.read().decode("utf-8", errors="replace")
-        paragraphs = re.findall(r'<p[^>]*>([^<]+(?:<[^/p][^>]*>[^<]*</[^p][^>]*>)*[^<]*)</p>', html)
+        resp = requests.get(link, timeout=15, headers={"User-Agent": "Morgenbrief/1.0"})
+        resp.raise_for_status()
+        html_page = resp.text
+        paragraphs = re.findall(r'<p[^>]*>([^<]+(?:<[^/p][^>]*>[^<]*</[^p][^>]*>)*[^<]*)</p>', html_page)
         text_parts = [_clean_html(p) for p in paragraphs if len(_clean_html(p)) > 40]
         if text_parts:
             article = "\n".join(text_parts[:8])
@@ -369,7 +370,8 @@ def _generate_discovery_albums_via_api():
               f'[{{"artist": "Name", "album": "Albumtitel"}}, ...]')
 
     payload = json.dumps({
-        "model": "claude-sonnet-4-20250514", "max_tokens": 1000,
+        "model": "claude-sonnet-4-20250514",  # laut Benutzer funktioniert dieser Modellname
+        "max_tokens": 2000,
         "messages": [{"role": "user", "content": prompt}]
     }).encode("utf-8")
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=payload,
@@ -378,7 +380,6 @@ def _generate_discovery_albums_via_api():
         with urllib.request.urlopen(req, timeout=30) as resp:
             result = json.loads(resp.read())
         text = result["content"][0]["text"].strip()
-        # JSON extrahieren falls in Backticks gewrappt
         text = re.sub(r'^[`]{3}json\s*', '', text)
         text = re.sub(r'\s*[`]{3}$', '', text)
         raw = json.loads(text)
@@ -528,7 +529,15 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     lang = lang_exercise
     script = 'arabischer' if lang['lang_code']=='ar' else 'persischer'
     dialect = 'Fusha (MSA), kein Dialekt.' if lang['lang_code']=='ar' else 'Farsi-ye meyar, kein Slang.'
-    vok = 'MIT VOLLSTÄNDIGER VOKALISIERUNG (tashkīl/harakat). ' if lang['lang_code']=='ar' else ''
+    
+    # Verstärkte Aufforderung zur Vokalisierung (für Arabisch)
+    vocalization_instruction = ""
+    if lang['lang_code'] == 'ar':
+        vocalization_instruction = ("DU MUSST ALLE ARABISCHEN WÖRTER VOLLSTÄNDIG VOKALISIEREN (Tashkīl/Harakat). "
+                                    "Beispiel: كِتابٌ, مَدْرَسَةٌ, ذَهَبَ. Jeder Buchstabe erhält sein kurzes Vokalzeichen. "
+                                    "Unvokalisierter Text ist nicht akzeptabel.\n")
+    else:
+        vocalization_instruction = ""
 
     if lang.get('headline'):
         article_block = ""
@@ -537,22 +546,22 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
         news_p = (f"NACHRICHTEN (RTL, in Originalschrift):\n"
                   f"Schlagzeile: {lang['headline'][:200]}\n"
                   f"{article_block}"
-                  f"Gib die Schlagzeile in {script} Originalschrift wieder. {vok}\n"
-                  f"Fasse den Artikel in 4-6 Sätzen auf {lang['language']} zusammen (Level {lang['level']}). {vok}\n"
+                  f"Gib die Schlagzeile in {script} Originalschrift wieder. {vocalization_instruction}\n"
+                  f"Fasse den Artikel in 4-6 Sätzen auf {lang['language']} zusammen (Level {lang['level']}). {vocalization_instruction}\n"
                   f"Glossiere schwierige Wörter inline auf Deutsch (passend zu Level {lang['level']}).")
     else:
         news_p = "NACHRICHTEN:\nKeine aktuellen Nachrichten verfügbar. Schreibe einen kurzen Satz auf Deutsch."
 
     lang_p = (f"SPRACHÜBUNG - TEXT (RTL, in Originalschrift):\n"
               f"Schreibe einen kurzen Übungstext auf {lang['language']} zum Thema \"{lang['topic']}\".\n"
-              f"Regeln:\n- 5-8 Sätze in {script} Schrift. {vok}\n- {lang['instructions']}\n- {dialect}\n"
+              f"Regeln:\n- 5-8 Sätze in {script} Schrift. {vocalization_instruction}\n- {lang['instructions']}\n- {dialect}\n"
               f"- {lang['new_vocab_instruction']}\n{lang['repetition_prompt']}\n"
               f"SPRACHÜBUNG - FRAGEN (LTR, auf Deutsch):\n"
               f"2-3 Verständnisfragen auf Deutsch zum obigen Text. Jede Frage in einer neuen Zeile.\n"
-              f"Keine Originalschrift in diesem Abschnitt.")
+              f"Keine Originalschrift in diesem Abschnitt. Schreibe die Fragen in normaler lateinischer Schrift (LTR).")
 
     msg = (f"Heute ist {today}.\n\nWETTER:\n{wetter}\n\nTAGESIMPULS:\n{impulse}\n\n"
-           f"KONTEXT (enthält Format und Regeln - befolge sie exakt):\n{kontext}\n\n"
+           f"KONTEXT (enthält Format und Regeln - befolge sie exakt):\kontext}\n\n"
            f"OFFENE AUFGABEN:\n{aufgaben}\n\nKALENDER (nächste 3 Tage):\n{kalender}\n\n"
            f"FAHRPLAN (nur als Hintergrund):\n{fahrplan}\n\n{lang_p}\n\n{news_p}\n\n"
            f"AUFTRAG:\nSchreibe den Morgenbrief exakt in dieser Struktur:\n"
@@ -563,7 +572,7 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
            f"WICHTIG: Verwende in Sektionstiteln immer einfache Bindestriche (-), NIEMALS Gedankenstriche.\n"
            f"Jede Sektion als Überschrift in Großbuchstaben. Kein Markdown. Sachlich.")
 
-    payload = json.dumps({"model":"claude-sonnet-4-20250514","max_tokens":3000,
+    payload = json.dumps({"model":"claude-sonnet-4-20250514","max_tokens":8000,
                           "messages":[{"role":"user","content":msg}]}).encode("utf-8")
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=payload,
         headers={"Content-Type":"application/json","x-api-key":api_key,"anthropic-version":"2023-06-01"})
@@ -597,31 +606,44 @@ def create_epub(text, date_str):
     def flush():
         nonlocal current_rtl
         if current_block:
-            c = "<br/>".join(current_block)
-            if current_rtl: html_parts.append(f'<p dir="rtl" style="text-align:right;font-size:1.1em;line-height:1.8;">{c}</p>')
-            else: html_parts.append(f"<p>{c}</p>")
+            c = "<br/>".join(html.escape(line) for line in current_block)
+            if current_rtl:
+                html_parts.append(f'<p dir="rtl" style="text-align:right;font-size:1.1em;line-height:1.8;">{c}</p>')
+            else:
+                html_parts.append(f'<p dir="ltr">{c}</p>')
             current_block.clear()
 
     for line in lines:
         s = line.strip()
         u = s.upper()
+        # Erkennung der Sektionen (flexibel)
         if "SPRACHÜBUNG - TEXT" in u or "SPRACHUEBUNG - TEXT" in u:
-            flush(); current_rtl = True; html_parts.append(f"<h2>{s}</h2>")
-        elif "SPRACHÜBUNG - FRAGEN" in u or "SPRACHUEBUNG - FRAGEN" in u or s.startswith("FRAGEN:"):
-            flush(); current_rtl = False; html_parts.append(f"<h2>{s}</h2>")
-        elif u.strip().rstrip(":") == "NACHRICHTEN":
-            flush(); current_rtl = True; html_parts.append(f"<h2>{s}</h2>")
-        elif u.strip().rstrip(":") in {"WETTER","HEUTE","IMPULS","PROJEKTE","ERLEDIGTES","AUSBLICK"}:
-            flush(); current_rtl = False; html_parts.append(f"<h2>{s}</h2>")
-        elif s == "": flush()
-        else: current_block.append(s)
+            flush()
+            current_rtl = True
+            html_parts.append(f'<h2 dir="ltr">{html.escape(s)}</h2>')  # Überschrift immer LTR
+        elif "SPRACHÜBUNG - FRAGEN" in u or "SPRACHUEBUNG - FRAGEN" in u or u.startswith("FRAGEN:"):
+            flush()
+            current_rtl = False  # Fragen sind LTR (Deutsch)
+            html_parts.append(f'<h2 dir="ltr">{html.escape(s)}</h2>')
+        elif "NACHRICHTEN" in u and (u == "NACHRICHTEN" or u.startswith("NACHRICHTEN")):
+            flush()
+            current_rtl = True
+            html_parts.append(f'<h2 dir="ltr">{html.escape(s)}</h2>')
+        elif u.rstrip(":").lstrip() in {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK"}:
+            flush()
+            current_rtl = False
+            html_parts.append(f'<h2 dir="ltr">{html.escape(s)}</h2>')
+        elif s == "":
+            flush()
+        else:
+            current_block.append(s)
     flush()
 
     xhtml = (f'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE html>\n'
-             f'<html xmlns="http://www.w3.org/1999/xhtml"><head><title>{title}</title>\n'
+             f'<html xmlns="http://www.w3.org/1999/xhtml"><head><title>{html.escape(title)}</title>\n'
              f'<style>body{{font-family:serif;font-size:1em;line-height:1.5;margin:1em;}}'
              f'h1{{font-size:1.4em;margin-bottom:0.3em;}}h2{{font-size:1.1em;margin-top:1em;margin-bottom:0.3em;text-transform:uppercase;letter-spacing:0.05em;}}'
-             f'p{{margin-bottom:0.6em;}}</style></head><body>\n<h1>{title}</h1>\n'
+             f'p{{margin-bottom:0.6em;}}</style></head><body>\n<h1>{html.escape(title)}</h1>\n'
              + "\n".join(html_parts) + '\n</body></html>')
 
     container = ('<?xml version="1.0" encoding="UTF-8"?>\n<container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container">'
@@ -629,13 +651,13 @@ def create_epub(text, date_str):
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     opf = (f'<?xml version="1.0" encoding="UTF-8"?>\n<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">'
            f'\n<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="uid">morgenbrief-{date_str}</dc:identifier>'
-           f'<dc:title>{title}</dc:title><dc:language>de</dc:language><dc:creator>Claude</dc:creator>'
+           f'<dc:title>{html.escape(title)}</dc:title><dc:language>de</dc:language><dc:creator>Claude</dc:creator>'
            f'<meta property="dcterms:modified">{ts}</meta></metadata>'
            f'\n<manifest><item id="content" href="content.xhtml" media-type="application/xhtml+xml"/>'
            f'<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/></manifest>'
            f'\n<spine><itemref idref="content"/></spine></package>')
     nav = (f'<?xml version="1.0" encoding="UTF-8"?>\n<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">'
-           f'<head><title>Navigation</title></head><body>\n<nav epub:type="toc"><h1>Inhalt</h1><ol><li><a href="content.xhtml">{title}</a></li></ol></nav>'
+           f'<head><title>Navigation</title></head><body>\n<nav epub:type="toc"><h1>Inhalt</h1><ol><li><a href="content.xhtml">{html.escape(title)}</a></li></ol></nav>'
            f'\n</body></html>')
 
     buf = BytesIO()
@@ -670,9 +692,19 @@ def send_to_kindle(epub_path):
 
 def main():
     repo = Path(__file__).parent
-    kontext = (repo/"kontext.md").read_text(encoding="utf-8")
-    fahrplan = (repo/"fahrplan.md").read_text(encoding="utf-8")
-    aufgaben = (repo/"aufgaben.md").read_text(encoding="utf-8")
+    try:
+        kontext = (repo/"kontext.md").read_text(encoding="utf-8")
+    except FileNotFoundError:
+        kontext = "Du bist ein Schriftsteller, Übersetzer und Musiker. Sei direkt und sachlich."
+        print("Warnung: kontext.md nicht gefunden, verwende Standard.", file=sys.stderr)
+    try:
+        fahrplan = (repo/"fahrplan.md").read_text(encoding="utf-8")
+    except FileNotFoundError:
+        fahrplan = "Kein Fahrplan vorhanden."
+    try:
+        aufgaben = (repo/"aufgaben.md").read_text(encoding="utf-8")
+    except FileNotFoundError:
+        aufgaben = "Keine Aufgaben."
 
     ical_url = os.environ.get("ICAL_URL","")
     kalender = fetch_calendar(ical_url) if ical_url else "[Keine Kalender-URL]"
@@ -688,11 +720,11 @@ def main():
     text = call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_ex)
 
     # Vokabelgedächtnis
-    vm = re.search(r"NEUE VOKABELN:\s*(.*?)(?:\n|$)", text, re.IGNORECASE)
+    vm = re.search(r"NEUE VOKABELN:\s*(.*?)(?:\n|$)", text, re.IGNORECASE | re.MULTILINE)
     if vm:
         pairs = re.findall(r"([^\s,]+)\s*\(([^)]+)\)", vm.group(1))
         if pairs: add_new_vocab(lang_ex["lang_code"], pairs, lang_ex["memory"])
-        text = re.sub(r"NEUE VOKABELN:.*\n?", "", text, flags=re.IGNORECASE)
+        text = re.sub(r"NEUE VOKABELN:.*\n?", "", text, flags=re.IGNORECASE | re.MULTILINE)
     due_w = [v["word"] for v in lang_ex.get("due_vocab",[])]
     reviewed = [w for w in due_w if w in text]
     if reviewed: update_reviewed_vocab(lang_ex["lang_code"], reviewed, lang_ex["memory"])
