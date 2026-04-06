@@ -135,102 +135,61 @@ def fetch_weather():
     return fetch_weather_for_location(51.34, 12.37, "Leipzig/Roitzsch")
 
 
-# ─── Nachrichten (BBC World Service, mit RSS-Fallback) ───
+# ─── Nachrichten (direkt aus BBC GitHub Markdown) ───
 
-def _fetch_rss_headline(rss_url):
-    try:
-        resp = requests.get(rss_url, timeout=10, headers={"User-Agent": "Morgenbrief/1.0"})
-        resp.raise_for_status()
-        data = resp.text
-        titles = re.findall(r"<item>.*?<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", data, re.DOTALL)
-        if titles:
-            h = titles[0].strip().replace("&amp;","&").replace("&quot;",'"').replace("&lt;","<").replace("&gt;",">")
-            return h[:300]
-    except Exception:
-        pass
-    return None
-
-def _fetch_bbc_github(lang_code):
-    urls = {"ar": "https://raw.githubusercontent.com/bbc/world-service-rss/main/arabic.md",
-            "fa": "https://raw.githubusercontent.com/bbc/world-service-rss/main/persian.md"}
+def fetch_bbc_news(lang_code):
+    """
+    Holt die erste Nachricht aus der BBC GitHub Markdown-Datei.
+    lang_code: 'ar' oder 'fa'
+    Rückgabe: (headline, description) oder (None, None)
+    """
+    urls = {
+        "ar": "https://raw.githubusercontent.com/bbc/world-service-rss/main/arabic.md",
+        "fa": "https://raw.githubusercontent.com/bbc/world-service-rss/main/persian.md"
+    }
     url = urls.get(lang_code)
-    if not url: return None
+    if not url:
+        return None, None
+
     try:
         resp = requests.get(url, timeout=10, headers={"User-Agent": "Morgenbrief/1.0"})
         resp.raise_for_status()
-        data = resp.text
-        rss_match = re.search(r'\((https?://feeds\.bbci\.co\.uk/[^)]+)\)', data)
-        if rss_match:
-            return _fetch_rss_headline(rss_match.group(1))
-        match = re.search(r'## \[(.*?)\]\(.*?\)', data, re.DOTALL)
-        if match:
-            h = match.group(1).strip().replace("&amp;","&").replace("&quot;",'"')
-            return h[:300]
-    except Exception as e:
-        print(f"BBC GitHub Fehler ({lang_code}): {e}", file=sys.stderr)
-    return None
+        content = resp.text
 
-BBC_RSS_FALLBACKS = {"ar": "https://feeds.bbci.co.uk/arabic/rss.xml", "fa": "https://feeds.bbci.co.uk/persian/rss.xml"}
+        # Das Format ist: ## [Überschrift](link)
+        # Danach kommt eine Leerzeile, dann die Beschreibung (die erste Zeile nach dem Bild, falls vorhanden)
+        # Einfacher: Extrahiere die erste Überschrift und den ersten Absatz (nicht das Bild)
+        lines = content.split('\n')
+        headline = None
+        description = None
 
-def fetch_news_headline(lang_code):
-    headline = _fetch_bbc_github(lang_code)
-    if headline: return headline
-    fb = BBC_RSS_FALLBACKS.get(lang_code)
-    if fb:
-        headline = _fetch_rss_headline(fb)
+        for i, line in enumerate(lines):
+            # Suche nach Zeile, die mit "## [" beginnt
+            if line.strip().startswith('## ['):
+                # Extrahiere den Text zwischen den eckigen Klammern
+                match = re.search(r'## \[(.*?)\]\(.*?\)', line)
+                if match:
+                    headline = match.group(1).strip()
+                    # Beschreibung: die nächste nicht-leere Zeile, die nicht mit '![' beginnt (Bild)
+                    for j in range(i+1, min(i+10, len(lines))):
+                        desc_line = lines[j].strip()
+                        if desc_line and not desc_line.startswith('![') and not desc_line.startswith('_'):
+                            # Entferne eventuelle Markdown-Formatierung
+                            desc_line = re.sub(r'\[(.*?)\]\(.*?\)', r'\1', desc_line)
+                            description = desc_line[:500]  # Begrenzung
+                            break
+                    break
+
         if headline:
-            print(f"News via BBC RSS Fallback ({lang_code})", file=sys.stderr)
-            return headline
-    print(f"Keine News verfügbar ({lang_code})", file=sys.stderr)
-    return None
+            print(f"BBC News ({lang_code}): {headline[:60]}...", file=sys.stderr)
+            return headline, description
+        else:
+            print(f"Keine News in BBC Markdown für {lang_code} gefunden", file=sys.stderr)
+            return None, None
 
-def _clean_html(text):
-    text = re.sub(r'<[^>]+>', ' ', text)
-    text = text.replace("&amp;","&").replace("&quot;",'"').replace("&lt;","<").replace("&gt;",">").replace("&#039;","'")
-    return re.sub(r'\s+', ' ', text).strip()
-
-def _fetch_article_text(lang_code):
-    """Holt den Artikeltext der ersten BBC-Nachricht (unabhängig von fetch_news_headline)."""
-    gh_urls = {"ar": "https://raw.githubusercontent.com/bbc/world-service-rss/main/arabic.md",
-               "fa": "https://raw.githubusercontent.com/bbc/world-service-rss/main/persian.md"}
-    rss_url = BBC_RSS_FALLBACKS.get(lang_code)
-    gh = gh_urls.get(lang_code)
-    if gh:
-        try:
-            resp = requests.get(gh, timeout=10, headers={"User-Agent": "Morgenbrief/1.0"})
-            resp.raise_for_status()
-            data = resp.text
-            m = re.search(r'\((https?://feeds\.bbci\.co\.uk/[^)]+)\)', data)
-            if m:
-                rss_url = m.group(1)
-        except Exception: pass
-    if not rss_url: return ""
-    try:
-        resp = requests.get(rss_url, timeout=10, headers={"User-Agent": "Morgenbrief/1.0"})
-        resp.raise_for_status()
-        rss = resp.text
-        items = re.findall(r"<item>(.*?)</item>", rss, re.DOTALL)
-        if not items: return ""
-        link_m = re.search(r"<link>(.*?)</link>", items[0])
-        desc_m = re.search(r"<description>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</description>", items[0], re.DOTALL)
-        desc = _clean_html(desc_m.group(1))[:500] if desc_m else ""
-        link = link_m.group(1).strip() if link_m else ""
-    except Exception:
-        return ""
-    if not link: return desc
-    try:
-        resp = requests.get(link, timeout=15, headers={"User-Agent": "Morgenbrief/1.0"})
-        resp.raise_for_status()
-        html_page = resp.text
-        paragraphs = re.findall(r'<p[^>]*>([^<]+(?:<[^/p][^>]*>[^<]*</[^p][^>]*>)*[^<]*)</p>', html_page)
-        text_parts = [_clean_html(p) for p in paragraphs if len(_clean_html(p)) > 40]
-        if text_parts:
-            article = "\n".join(text_parts[:8])
-            print(f"Artikel geladen ({lang_code}): {len(article)} Zeichen", file=sys.stderr)
-            return article
     except Exception as e:
-        print(f"Artikel-Fetch Fehler: {e}", file=sys.stderr)
-    return desc
+        print(f"BBC News Fehler ({lang_code}): {e}", file=sys.stderr)
+        return None, None
 
 
 # ─── Musikbibliothek ───
@@ -504,16 +463,21 @@ def generate_language_exercise():
         vl = "\n".join([f"  - {v['word']} ({v['meaning']})" for v in due])
         rep = f"\nVOKABELWIEDERHOLUNG:\nDiese Wörter sollen heute wiederholt werden. Baue sie in den Übungstext ein:\n{vl}\n"
 
-    hl = fetch_news_headline(lc)
-    article_text = _fetch_article_text(lc) if hl else ""
+    # News direkt aus BBC Markdown holen
+    news_headline, news_desc = fetch_bbc_news(lc)
+    if news_headline:
+        news_text = f"Schlagzeile: {news_headline}\nZusammenfassung: {news_desc[:300]}" if news_desc else f"Schlagzeile: {news_headline}"
+    else:
+        news_text = None
+
     topics = ["Tagesablauf und Routine","Essen und Kochen","Eine Reise beschreiben","Familie und Freunde",
               "Das Wetter","Einkaufen auf dem Markt","Ein Buch oder Film beschreiben","Die eigene Stadt vorstellen",
               "Arbeit und Beruf","Kindheitserinnerungen","Natur und Umwelt","Musik und Kunst","Gesundheit und Sport","Politik und Gesellschaft"]
 
     return {"language":language,"lang_code":lc,"level":level,"instructions":instr,
-            "topic":topics[dss%len(topics)],"headline":hl,"article_text":article_text,"news_source":"BBC" if hl else None,
+            "topic":topics[dss%len(topics)],"headline":news_headline,"news_text":news_text,
             "week":week,"repetition_prompt":rep,
-            "new_vocab_instruction":"\nWICHTIG: Neue Vokabeln inline glossieren. Am Ende eine Zeile: \"NEUE VOKABELN: Wort (Bedeutung), Wort (Bedeutung)\"\n",
+            "new_vocab_instruction":"\nWICHTIG: Neue Vokabeln NICHT inline glossieren. Stattdessen am Ende des Textes ein separates Glossar: \"Glossar:\" und dann jede Zeile: Wort = Bedeutung.\n",
             "memory":mem,"due_vocab":due}
 
 
@@ -536,18 +500,15 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
         vocalization_instruction = ""
 
     if lang.get('headline'):
-        article_block = ""
-        if lang.get('article_text'):
-            article_block = f"\nArtikeltext (als Grundlage):\n{lang['article_text'][:1500]}\n"
         news_p = (f"NACHRICHTEN (RTL, in Originalschrift):\n"
-                  f"Schlagzeile: {lang['headline'][:200]}\n"
-                  f"{article_block}"
-                  f"Gib die Schlagzeile in {script} Originalschrift wieder. {vocalization_instruction}\n"
-                  f"Fasse den Artikel in 4-6 Sätzen auf {lang['language']} zusammen (Level {lang['level']}). {vocalization_instruction}\n"
-                  f"Glossiere schwierige Wörter inline auf Deutsch (passend zu Level {lang['level']}).")
+                  f"Schlagzeile: {lang['headline']}\n"
+                  f"Zusammenfassung: {lang['news_text'] if lang['news_text'] else 'Keine detaillierte Zusammenfassung verfügbar.'}\n"
+                  f"Gib die Schlagzeile und die Zusammenfassung in {script} Originalschrift wieder. {vocalization_instruction}\n"
+                  f"Füge am Ende ein Glossar mit 3-5 schwierigen Wörtern hinzu im Format: Wort = Bedeutung.")
     else:
         news_p = ("NACHRICHTEN (RTL, in Originalschrift):\n"
-                  "Keine aktuellen Nachrichten verfügbar. Schreibe einen kurzen Satz auf Deutsch, dass heute keine Nachrichten abgerufen werden konnten.")
+                  "Keine aktuellen Nachrichten verfügbar. Schreibe einen kurzen Satz auf Deutsch, dass heute keine Nachrichten abgerufen werden konnten.\n"
+                  "Dieser Satz muss in lateinischer Schrift (LTR) sein.")
 
     lang_p = (f"SPRACHÜBUNG - TEXT (RTL, in Originalschrift):\n"
               f"Schreibe einen kurzen Übungstext auf {lang['language']} zum Thema \"{lang['topic']}\".\n"
@@ -555,10 +516,11 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
               f"- {lang['new_vocab_instruction']}\n{lang['repetition_prompt']}\n"
               f"SPRACHÜBUNG - FRAGEN (LTR, auf Deutsch):\n"
               f"2-3 Verständnisfragen auf Deutsch zum obigen Text. Jede Frage in einer neuen Zeile.\n"
-              f"Keine Originalschrift in diesem Abschnitt. Schreibe die Fragen in normaler lateinischer Schrift (LTR).")
+              f"WICHTIG: Schreibe die Fragen ausschließlich in lateinischen Buchstaben (von links nach rechts). Verwende keine arabischen oder persischen Buchstaben in diesem Abschnitt.\n"
+              f"Füge nach den Fragen eine Leerzeile und dann \"---\" ein, um die Sektion zu beenden.\n")
 
     msg = (f"Heute ist {today}.\n\nWETTER:\n{wetter}\n\nTAGESIMPULS:\n{impulse}\n\n"
-           f"KONTEXT (enthält Format und Regeln - befolge sie exakt):\n{kontext}\n\n"   # <-- FIXED: {kontext} not \kontext}
+           f"KONTEXT (enthält Format und Regeln - befolge sie exakt):\n{kontext}\n\n"
            f"OFFENE AUFGABEN:\n{aufgaben}\n\nKALENDER (nächste 3 Tage):\n{kalender}\n\n"
            f"FAHRPLAN (nur als Hintergrund):\n{fahrplan}\n\n{lang_p}\n\n{news_p}\n\n"
            f"AUFTRAG:\nSchreibe den Morgenbrief exakt in dieser Struktur:\n"
@@ -567,7 +529,8 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
            f"8. SPRACHÜBUNG - FRAGEN (Verständnisfragen auf Deutsch, LTR)\n"
            f"9. NACHRICHTEN (Schlagzeile + Zusammenfassung in Originalschrift, RTL)\n\n"
            f"WICHTIG: Verwende in Sektionstiteln immer einfache Bindestriche (-), NIEMALS Gedankenstriche.\n"
-           f"Jede Sektion als Überschrift in Großbuchstaben. Kein Markdown. Sachlich.")
+           f"Jede Sektion als Überschrift in Großbuchstaben. Kein Markdown. Sachlich.\n"
+           f"Die Sektion 'NACHRICHTEN' MUSS immer vorkommen, auch wenn keine Nachrichten verfügbar sind. In dem Fall schreibe: 'Keine aktuellen Nachrichten.'")
 
     payload = json.dumps({"model":"claude-sonnet-4-20250514","max_tokens":8000,
                           "messages":[{"role":"user","content":msg}]}).encode("utf-8")
@@ -587,6 +550,38 @@ def strip_markdown(text):
     text = re.sub(r'^\*\s+', '– ', text, flags=re.MULTILINE)
     return text
 
+def postprocess_rtl_ltr(text):
+    """Forces LTR on the comprehension questions section."""
+    lines = text.splitlines()
+    new_lines = []
+    in_fragen = False
+    for line in lines:
+        u = line.upper()
+        if re.search(r'SPRACH[ÜU]BUNG\s*[-–]\s*FRAGEN', u) or u.startswith('FRAGEN:'):
+            in_fragen = True
+            new_lines.append(line)  # keep heading
+            new_lines.append('<div dir="ltr">')  # force LTR for all following content
+            continue
+        if in_fragen and (re.search(r'^[A-ZÜÖÄ]+:', u) or u.startswith('NACHRICHTEN') or u.startswith('AUSBLICK') or u.startswith('ERLEDIGTES')):
+            # Next section heading detected
+            new_lines.append('</div>')
+            in_fragen = False
+            new_lines.append(line)
+            continue
+        if in_fragen:
+            new_lines.append(line)
+        else:
+            new_lines.append(line)
+    if in_fragen:
+        new_lines.append('</div>')
+    return "\n".join(new_lines)
+
+def ensure_news_section(text):
+    """If no NACHRICHTEN section exists, append a default."""
+    if not re.search(r'^NACHRICHTEN\s*$', text, re.MULTILINE):
+        text += "\n\nNACHRICHTEN\nKeine aktuellen Nachrichten verfügbar."
+    return text
+
 
 # ─── ePub erzeugen (robuste RTL/LTR Erkennung) ───
 
@@ -596,6 +591,8 @@ def create_epub(text, date_str):
     title = f"Morgenbrief {date_str}"
     text = strip_markdown(text)
     text = _normalize_dashes(text)
+    text = postprocess_rtl_ltr(text)
+    text = ensure_news_section(text)
 
     lines = text.strip().split("\n")
     html_parts, current_block, current_rtl = [], [], False
@@ -613,23 +610,24 @@ def create_epub(text, date_str):
     for line in lines:
         s = line.strip()
         u = s.upper()
-        # Erkennung der Sektionen (robust)
-        # Text-Übung (RTL)
+        # Skip the LTR div markers (they are already HTML)
+        if s == '<div dir="ltr">' or s == '</div>':
+            flush()
+            html_parts.append(s)
+            continue
+        # Section detection
         if re.search(r'SPRACH[ÜU]BUNG\s*[-–]\s*TEXT', u):
             flush()
             current_rtl = True
             html_parts.append(f'<h2 dir="ltr">{html.escape(s)}</h2>')
-        # Fragen (LTR) – erkenne verschiedene Varianten
         elif re.search(r'SPRACH[ÜU]BUNG\s*[-–]\s*FRAGEN', u) or re.search(r'VERST[ÄA]NDNISFRAGEN', u) or u.startswith('FRAGEN:'):
             flush()
             current_rtl = False
             html_parts.append(f'<h2 dir="ltr">{html.escape(s)}</h2>')
-        # Nachrichten (RTL)
         elif re.search(r'^NACHRICHTEN', u):
             flush()
             current_rtl = True
             html_parts.append(f'<h2 dir="ltr">{html.escape(s)}</h2>')
-        # Andere Standard-Sektionen (LTR)
         elif u.rstrip(':').lstrip() in {"WETTER", "HEUTE", "IMPULS", "PROJEKTE", "ERLEDIGTES", "AUSBLICK"}:
             flush()
             current_rtl = False
@@ -640,7 +638,6 @@ def create_epub(text, date_str):
             current_block.append(s)
     flush()
 
-    # Debug: Ausgabe der erkannten Sektionen (in GitHub Actions Log sichtbar)
     print(f"ePub generiert mit {len(html_parts)} Blöcken", file=sys.stderr)
 
     xhtml = (f'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE html>\n'
@@ -718,20 +715,29 @@ def main():
 
     print(f"Morgenbrief wird geschrieben ({now_berlin().strftime('%d.%m.%Y %H:%M')} Berliner Zeit)...")
     print(f"Sprachübung: {lang_ex['language']} (Level {lang_ex['level']}, Thema: {lang_ex['topic']})")
-    if lang_ex.get('headline'): print(f"News: {lang_ex['headline'][:60]}...")
-    else: print("Keine News verfügbar.")
+    if lang_ex.get('headline'):
+        print(f"News: {lang_ex['headline'][:60]}...")
+    else:
+        print("Keine News verfügbar.")
 
     text = call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_ex)
 
-    # Vokabelgedächtnis
-    vm = re.search(r"NEUE VOKABELN:\s*(.*?)(?:\n|$)", text, re.IGNORECASE | re.MULTILINE)
-    if vm:
-        pairs = re.findall(r"([^\s,]+)\s*\(([^)]+)\)", vm.group(1))
-        if pairs: add_new_vocab(lang_ex["lang_code"], pairs, lang_ex["memory"])
-        text = re.sub(r"NEUE VOKABELN:.*\n?", "", text, flags=re.IGNORECASE | re.MULTILINE)
+    # Vokabelgedächtnis – sucht nach "Glossar:" oder "NEUE VOKABELN:"
+    glossar_match = re.search(r'(?:Glossar|NEUE VOKABELN):\s*(.*?)(?:\n\n|\n$)', text, re.IGNORECASE | re.DOTALL)
+    if glossar_match:
+        gloss_text = glossar_match.group(1)
+        pairs = re.findall(r'([^\s=]+)\s*[=:]\s*([^,\n]+)', gloss_text)
+        if not pairs:
+            pairs = re.findall(r'([^\s,]+)\s*\(([^)]+)\)', gloss_text)
+        if pairs:
+            add_new_vocab(lang_ex["lang_code"], pairs, lang_ex["memory"])
+        # Entferne die Glossar-Zeile aus dem Text
+        text = re.sub(r'(?:Glossar|NEUE VOKABELN):.*?(?=\n\n|\n$)', '', text, flags=re.IGNORECASE | re.DOTALL)
+
     due_w = [v["word"] for v in lang_ex.get("due_vocab",[])]
     reviewed = [w for w in due_w if w in text]
-    if reviewed: update_reviewed_vocab(lang_ex["lang_code"], reviewed, lang_ex["memory"])
+    if reviewed:
+        update_reviewed_vocab(lang_ex["lang_code"], reviewed, lang_ex["memory"])
 
     epub = create_epub(text, now_berlin().strftime("%Y-%m-%d"))
     send_to_kindle(epub)
