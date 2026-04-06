@@ -136,54 +136,86 @@ def fetch_weather():
     return fetch_weather_for_location(51.34, 12.37, "Leipzig/Roitzsch")
 
 
-# ─── Nachrichten (BBC World Service, mit RSS-Fallback) ───
+# ─── Nachrichten (BBC World Service — Headline + Artikel) ───
 
-def _fetch_rss_headline(rss_url):
+def _clean_html(text):
+    """Entfernt HTML-Tags und bereinigt Entities."""
+    text = re.sub(r'<[^>]+>', ' ', text)
+    text = text.replace("&amp;","&").replace("&quot;",'"').replace("&lt;","<").replace("&gt;",">").replace("&#039;","'")
+    return re.sub(r'\s+', ' ', text).strip()
+
+def _fetch_rss_article(rss_url):
+    """Holt erstes Item aus RSS: {headline, description, link}."""
     try:
         req = urllib.request.Request(rss_url, headers={"User-Agent": "Morgenbrief/1.0"})
         with urllib.request.urlopen(req, timeout=10) as resp:
             data = resp.read().decode("utf-8", errors="replace")
-        titles = re.findall(r"<item>.*?<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", data, re.DOTALL)
-        if titles:
-            h = titles[0].strip().replace("&amp;","&").replace("&quot;",'"').replace("&lt;","<").replace("&gt;",">")
-            return h[:300]
-    except Exception:
-        pass
+        items = re.findall(r"<item>(.*?)</item>", data, re.DOTALL)
+        if not items:
+            return None
+        item = items[0]
+        title_m = re.search(r"<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", item, re.DOTALL)
+        desc_m = re.search(r"<description>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</description>", item, re.DOTALL)
+        link_m = re.search(r"<link>(.*?)</link>", item)
+        headline = _clean_html(title_m.group(1)) if title_m else None
+        description = _clean_html(desc_m.group(1)) if desc_m else ""
+        link = link_m.group(1).strip() if link_m else ""
+        if not headline:
+            return None
+        return {"headline": headline[:300], "description": description[:500], "link": link}
+    except Exception as e:
+        print(f"RSS Fehler: {e}", file=sys.stderr)
     return None
 
-def _fetch_bbc_github(lang_code):
-    urls = {"ar": "https://raw.githubusercontent.com/bbc/world-service-rss/main/arabic.md",
-            "fa": "https://raw.githubusercontent.com/bbc/world-service-rss/main/persian.md"}
-    url = urls.get(lang_code)
-    if not url: return None
+def _fetch_article_text(url):
+    """Versucht den Artikeltext von einer BBC-Seite zu extrahieren."""
+    if not url:
+        return ""
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Morgenbrief/1.0"})
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            data = resp.read().decode("utf-8", errors="replace")
-        rss_match = re.search(r'\((https?://feeds\.bbci\.co\.uk/[^)]+)\)', data)
-        if rss_match:
-            return _fetch_rss_headline(rss_match.group(1))
-        match = re.search(r'## \[(.*?)\]\(.*?\)', data, re.DOTALL)
-        if match:
-            h = match.group(1).strip().replace("&amp;","&").replace("&quot;",'"')
-            return h[:300]
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            html = resp.read().decode("utf-8", errors="replace")
+        # BBC Artikel: Paragraphen im Artikelbereich extrahieren
+        paragraphs = re.findall(r'<p[^>]*>([^<]+(?:<[^/p][^>]*>[^<]*</[^p][^>]*>)*[^<]*)</p>', html)
+        text_parts = [_clean_html(p) for p in paragraphs if len(_clean_html(p)) > 40]
+        if text_parts:
+            return "\n".join(text_parts[:8])  # Max 8 Absätze
     except Exception as e:
-        print(f"BBC GitHub Fehler ({lang_code}): {e}", file=sys.stderr)
-    return None
+        print(f"Artikel-Fetch Fehler: {e}", file=sys.stderr)
+    return ""
 
-BBC_RSS_FALLBACKS = {"ar": "https://feeds.bbci.co.uk/arabic/rss.xml", "fa": "https://feeds.bbci.co.uk/persian/rss.xml"}
+def _get_bbc_rss_url(lang_code):
+    """Holt RSS-URL von BBC GitHub, Fallback auf direkte URL."""
+    gh_urls = {"ar": "https://raw.githubusercontent.com/bbc/world-service-rss/main/arabic.md",
+               "fa": "https://raw.githubusercontent.com/bbc/world-service-rss/main/persian.md"}
+    gh = gh_urls.get(lang_code)
+    if gh:
+        try:
+            req = urllib.request.Request(gh, headers={"User-Agent": "Morgenbrief/1.0"})
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                data = resp.read().decode("utf-8", errors="replace")
+            m = re.search(r'\((https?://feeds\.bbci\.co\.uk/[^)]+)\)', data)
+            if m:
+                return m.group(1)
+        except Exception:
+            pass
+    # Fallback
+    fallbacks = {"ar": "https://feeds.bbci.co.uk/arabic/rss.xml", "fa": "https://feeds.bbci.co.uk/persian/rss.xml"}
+    return fallbacks.get(lang_code)
 
-def fetch_news_headline(lang_code):
-    headline = _fetch_bbc_github(lang_code)
-    if headline: return headline
-    fb = BBC_RSS_FALLBACKS.get(lang_code)
-    if fb:
-        headline = _fetch_rss_headline(fb)
-        if headline:
-            print(f"News via BBC RSS Fallback ({lang_code})", file=sys.stderr)
-            return headline
-    print(f"Keine News verfügbar ({lang_code})", file=sys.stderr)
-    return None
+def fetch_news(lang_code):
+    """Holt einen Nachrichtenartikel: {headline, description, article_text, link}."""
+    rss_url = _get_bbc_rss_url(lang_code)
+    if not rss_url:
+        return None
+    article = _fetch_rss_article(rss_url)
+    if not article:
+        print(f"Keine News verfügbar ({lang_code})", file=sys.stderr)
+        return None
+    # Versuche den vollen Artikeltext zu holen
+    article["article_text"] = _fetch_article_text(article.get("link", ""))
+    print(f"News: {article['headline'][:60]}... (Artikel: {len(article.get('article_text',''))} Zeichen)", file=sys.stderr)
+    return article
 
 
 # ─── Musikbibliothek ───
@@ -457,13 +489,13 @@ def generate_language_exercise():
         vl = "\n".join([f"  - {v['word']} ({v['meaning']})" for v in due])
         rep = f"\nVOKABELWIEDERHOLUNG:\nDiese Wörter sollen heute wiederholt werden. Baue sie in den Übungstext ein:\n{vl}\n"
 
-    hl = fetch_news_headline(lc)
+    hl = fetch_news(lc)
     topics = ["Tagesablauf und Routine","Essen und Kochen","Eine Reise beschreiben","Familie und Freunde",
               "Das Wetter","Einkaufen auf dem Markt","Ein Buch oder Film beschreiben","Die eigene Stadt vorstellen",
               "Arbeit und Beruf","Kindheitserinnerungen","Natur und Umwelt","Musik und Kunst","Gesundheit und Sport","Politik und Gesellschaft"]
 
     return {"language":language,"lang_code":lc,"level":level,"instructions":instr,
-            "topic":topics[dss%len(topics)],"headline":hl,"news_source":"BBC" if hl else None,
+            "topic":topics[dss%len(topics)],"news":hl,"news_source":"BBC" if hl else None,
             "week":week,"repetition_prompt":rep,
             "new_vocab_instruction":"\nWICHTIG: Neue Vokabeln inline glossieren. Am Ende eine Zeile: \"NEUE VOKABELN: Wort (Bedeutung), Wort (Bedeutung)\"\n",
             "memory":mem,"due_vocab":due}
@@ -479,14 +511,20 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     script = 'arabischer' if lang['lang_code']=='ar' else 'persischer'
     dialect = 'Fusha (MSA), kein Dialekt.' if lang['lang_code']=='ar' else 'Farsi-ye meyar, kein Slang.'
 
-    if lang.get('headline'):
+    news = lang.get('news')
+    if news:
         vokalisierung = 'MIT VOLLSTÄNDIGER VOKALISIERUNG (tashkīl/harakat auf jedem Wort). ' if lang['lang_code']=='ar' else ''
+        article_block = ""
+        if news.get('article_text'):
+            article_block = f"\nArtikeltext (als Grundlage für die Zusammenfassung):\n{news['article_text'][:1500]}\n"
+        elif news.get('description'):
+            article_block = f"\nBeschreibung: {news['description']}\n"
         news_p = (f"NACHRICHTEN (RTL, in Originalschrift):\n"
-                  f"Gib NUR DIE ERSTE der folgenden Schlagzeilen wieder (ignoriere alle weiteren).\n"
-                  f"Schreibe sie in {script} Originalschrift. {vokalisierung}\n"
-                  f"Glossiere schwierige Wörter inline auf Deutsch in Klammern — Glossierung passend zu Level {lang['level']} (bei A2: nur Grundbedeutung, sehr einfach).\n"
-                  f"Danach in 2-3 einfachen Sätzen auf {lang['language']} zusammenfassen (Level {lang['level']}).\n"
-                  f"Schlagzeile: {lang['headline'][:200]}")
+                  f"Schlagzeile: {news['headline']}\n"
+                  f"{article_block}"
+                  f"Aufgabe: Gib die Schlagzeile in {script} Originalschrift wieder. {vokalisierung}\n"
+                  f"Fasse dann den Artikel in 4-6 Sätzen auf {lang['language']} zusammen (Level {lang['level']}). {vokalisierung}\n"
+                  f"Glossiere schwierige Wörter inline auf Deutsch in Klammern — passend zu Level {lang['level']} (bei A2: nur Grundbedeutung, sehr einfach).")
     else:
         news_p = "NACHRICHTEN:\nKeine aktuellen Nachrichten verfügbar. Schreibe einen kurzen Satz auf Deutsch."
 
@@ -511,7 +549,7 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
            f"WICHTIG: Verwende in Sektionstiteln immer einfache Bindestriche (-), NIEMALS Gedankenstriche.\n"
            f"Jede Sektion als Überschrift in Großbuchstaben. Kein Markdown. Sachlich.")
 
-    payload = json.dumps({"model":"claude-sonnet-4-20250514","max_tokens":2000,
+    payload = json.dumps({"model":"claude-sonnet-4-20250514","max_tokens":3000,
                           "messages":[{"role":"user","content":msg}]}).encode("utf-8")
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=payload,
         headers={"Content-Type":"application/json","x-api-key":api_key,"anthropic-version":"2023-06-01"})
@@ -630,7 +668,7 @@ def main():
 
     print(f"Morgenbrief wird geschrieben ({now_berlin().strftime('%d.%m.%Y %H:%M')} Berliner Zeit)...")
     print(f"Sprachübung: {lang_ex['language']} (Level {lang_ex['level']}, Thema: {lang_ex['topic']})")
-    if lang_ex.get('headline'): print(f"News: {lang_ex['headline'][:60]}...")
+    if lang_ex.get('news'): print(f"News: {lang_ex['news']['headline'][:60]}...")
     else: print("Keine News verfügbar.")
 
     text = call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_ex)
