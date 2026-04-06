@@ -53,7 +53,7 @@ Wöchentlich:
 – Harry Potter auf Persisch: 10–15 Seiten/Tag als Abendritual oder morgens nach Sport
 – Once Upon a Time in Iran: 1–2 Episoden/Woche abends
 
-Nicht verwenden: Anki (hat nie funktioniert).
+Nicht verwenden: Anki mit selbstgebauten Decks (hat nie funktioniert). GLOSS-Anki-Decks sind erlaubt — die sind kuratiert und lektionsbezogen, kein Aufwand beim Erstellen.
 
 ### Tagesablauf
 – Morgens: Morgenbrief auf Kindle → Sport/Bewegung → GLOSS oder Glossika (je nach Tag) → Frühstück → Lesen in Zielsprache (15 Min.)

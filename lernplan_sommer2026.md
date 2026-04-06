@@ -23,7 +23,14 @@
 - Morgenbrief (gerade Tage)
 
 ### Weglassen
-- Anki, Pimsleur, LSI Bochum
+- Anki selbst bauen (hat nie funktioniert)
+- Pimsleur, Language Transfer, LSI Bochum
+
+### Erlaubt
+- GLOSS-Anki-Decks (kuratiert, lektionsbezogen, kein eigener Aufwand — ausprobieren, nach einer Woche entscheiden)
+
+### Methode
+- Siehe gloss_methode.md für die konkrete Vorgehensweise pro GLOSS-Lektion
 
 ### Kosten
 - Preply: 3x/Woche à 4€ = ~48€/Monat
