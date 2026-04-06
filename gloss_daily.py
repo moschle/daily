@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """
-GLOSS Tagesplaner — öffnet die richtige GLOSS-Seite und legt einen Lernzettel auf den Desktop.
-Aufruf: python3 gloss_daily.py
-Oder via launchd/cron jeden Morgen automatisch.
+GLOSS Tagesplaner — legt beim Login einen Lernzettel auf den Desktop
+und öffnet GLOSS mit der richtigen Sprache.
 """
 
 import json
-import subprocess
 import webbrowser
 from datetime import datetime
 from pathlib import Path
@@ -14,104 +12,97 @@ from zoneinfo import ZoneInfo
 
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 STATE_FILE = Path(__file__).parent / "gloss_state.json"
+DESKTOP = Path.home() / "Desktop"
 
-def today():
-    return datetime.now(BERLIN_TZ)
+# Alte Zettel aufräumen
+def _cleanup_old():
+    for f in DESKTOP.glob("GLOSS_*.md"):
+        try: f.unlink()
+        except: pass
 
 def load_state():
     if STATE_FILE.exists():
         try:
-            with open(STATE_FILE, "r") as f:
-                return json.load(f)
-        except:
-            pass
-    return {"ar_lesson": 0, "fa_lesson": 0, "ar_level": "1", "fa_level": "1", "last_date": ""}
+            with open(STATE_FILE, "r") as f: return json.load(f)
+        except: pass
+    return {"ar_lesson": 0, "fa_lesson": 0, "ar_level": "1", "fa_level": "1",
+            "ar_competence_idx": 0, "fa_competence_idx": 0, "last_date": ""}
 
 def save_state(state):
-    with open(STATE_FILE, "w") as f:
-        json.dump(state, f, indent=2)
+    with open(STATE_FILE, "w") as f: json.dump(state, f, indent=2)
+
+COMPETENCES = ["Lexical", "Structural", "Discourse", "Socio-Cultural"]
+MODALITIES = ["Listening", "Reading"]
 
 def main():
-    now = today()
-    doy = now.timetuple().tm_yday
+    now = datetime.now(BERLIN_TZ)
     date_str = now.strftime("%Y-%m-%d")
     day_de = {"Monday":"Montag","Tuesday":"Dienstag","Wednesday":"Mittwoch",
               "Thursday":"Donnerstag","Friday":"Freitag","Saturday":"Samstag",
               "Sunday":"Sonntag"}.get(now.strftime("%A"), "")
+    doy = now.timetuple().tm_yday
 
     state = load_state()
-
-    # Schon heute gelaufen?
     if state.get("last_date") == date_str:
-        print(f"Heute ({date_str}) schon gelaufen.")
-        return
+        return  # Heute schon gelaufen
+
+    _cleanup_old()
 
     # Sprache bestimmen (gleiche Logik wie Morgenbrief)
     if doy % 2 == 0:
-        lang = "Arabisch"
-        lang_code = "ar"
-        gloss_lang = "Arabic-Levantine"
-        level = state.get("ar_level", "1")
-        lesson_count = state.get("ar_lesson", 0) + 1
-        state["ar_lesson"] = lesson_count
-        pimsleur = f"Pimsleur Eastern Arabic — Lektion {lesson_count}"
-        lesen = "Arabic Today oder Easy Arabic Reader"
-        extras = "Mi: Preply Arabisch (Libanesin) | Fr: Preply Arabisch"
+        lang, lang_name, gloss_lang = "ar", "Arabisch", "Arabic-Levantine"
+        lesson_key, comp_key, level_key = "ar_lesson", "ar_competence_idx", "ar_level"
     else:
-        lang = "Persisch"
-        lang_code = "fa"
-        gloss_lang = "Farsi"
-        level = state.get("fa_level", "1")
-        lesson_count = state.get("fa_lesson", 0) + 1
-        state["fa_lesson"] = lesson_count
-        pimsleur = f"Pimsleur Farsi — Lektion {lesson_count}"
+        lang, lang_name, gloss_lang = "fa", "Persisch", "Farsi"
+        lesson_key, comp_key, level_key = "fa_lesson", "fa_competence_idx", "fa_level"
+
+    lesson_nr = state.get(lesson_key, 0) + 1
+    state[lesson_key] = lesson_nr
+    comp_idx = state.get(comp_key, 0)
+    comp = COMPETENCES[comp_idx % len(COMPETENCES)]
+    state[comp_key] = comp_idx + 1
+    level = state.get(level_key, "1")
+    modality = MODALITIES[(lesson_nr // 5) % 2]  # Alle 5 Lektionen wechseln
+
+    # Pimsleur-Lektion berechnen
+    if lang == "ar":
+        pimsleur = f"Pimsleur Eastern Arabic — Lektion {lesson_nr}"
+        lesen = "Arabic Today oder Easy Arabic Reader"
+        preply = "Mi + Fr: Preply Arabisch (Libanesin)"
+    else:
+        pimsleur = f"Pimsleur Farsi — Lektion {lesson_nr}"
         lesen = "Harry Potter auf Persisch (10–15 Seiten)"
-        extras = "Do: Preply Persisch (Afghanin) | Abends: Once Upon a Time in Iran"
+        preply = "Do: Preply Persisch (Afghanin)"
 
-    # Competence rotieren (Lexical → Structural → Discourse → Socio-Cultural)
-    competences = ["Lexical", "Structural", "Discourse", "Socio-Cultural"]
-    comp = competences[lesson_count % 4]
+    zettel = DESKTOP / f"GLOSS_{date_str}.md"
+    zettel.write_text(f"""# {day_de}, {now.strftime('%d.%m.%Y')} — {lang_name}-Tag
 
-    # GLOSS-URL mit Filtern
-    gloss_url = f"https://gloss.dliflc.edu/"
-
-    # Tageszettel auf Desktop
-    desktop = Path.home() / "Desktop"
-    zettel = desktop / f"GLOSS_{date_str}.md"
-
-    inhalt = f"""# {day_de}, {now.strftime('%d.%m.%Y')} — {lang}-Tag
-
-## GLOSS-Lektion #{lesson_count}
-Sprache: {gloss_lang}
-Level: {level}
-Competence: {comp}
-Modality: Listening (oder Reading, wenn schon gehört)
-
-→ {gloss_url}
+## GLOSS #{lesson_nr}
+Öffne gloss.dliflc.edu und wähle:
+  Sprache: {gloss_lang}
+  Level: {level}
+  Modality: {modality}
+  Competence: {comp}
 
 ## Ablauf (20–30 Min.)
-1. Hören ohne Text (5 Min.) — große Audiodatei
+1. Hören ohne Text (5 Min.)
 2. Transkript lesen + Glossar (5 Min.)
-3. Hören mit Text (5 Min.) — kleine Audiodatei (langsam)
-4. Aufgaben machen (5–10 Min.) — Competence: {comp}
-5. Optional: Anki-Deck der Lektion laden
+3. Hören mit Text (5 Min.) — Alternate Audio
+4. Aufgaben (5–10 Min.)
+5. Optional: Anki-Deck laden
 
-## Außerdem heute
+## Heute außerdem
 – {pimsleur}
 – Lesen: {lesen}
-– {extras}
-– Morgenbrief-Sprachübung durcharbeiten
-"""
+– {preply}
+– Morgenbrief-Sprachübung
+""", encoding="utf-8")
 
-    zettel.write_text(inhalt, encoding="utf-8")
-    print(f"Tageszettel: {zettel}")
-
-    # GLOSS im Browser öffnen
-    webbrowser.open(gloss_url)
+    webbrowser.open("https://gloss.dliflc.edu/")
 
     state["last_date"] = date_str
     save_state(state)
-    print(f"{lang}-Tag #{lesson_count} — {comp} — Level {level}")
+    print(f"{lang_name}-Tag #{lesson_nr} — {comp} — Level {level} — {modality}")
 
 if __name__ == "__main__":
     main()
