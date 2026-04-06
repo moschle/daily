@@ -1,5 +1,5 @@
 *.epub
 __pycache__/
 .env
-vocab_memory.json
+gloss_state.json
 generate_morgenbrief_broken.py

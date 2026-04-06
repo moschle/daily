@@ -32,6 +32,9 @@ def _normalize_dashes(text):
 # ─── Kalender parsen ───
 
 def fetch_calendar(ical_url):
+    # webcal:// → https:// konvertieren (iCloud gibt manchmal webcal-URLs)
+    if ical_url.startswith("webcal://"):
+        ical_url = ical_url.replace("webcal://", "https://", 1)
     try:
         req = urllib.request.Request(ical_url, headers={"User-Agent": "Morgenbrief/1.0"})
         with urllib.request.urlopen(req, timeout=15) as resp:
@@ -477,17 +480,20 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     dialect = 'Fusha (MSA), kein Dialekt.' if lang['lang_code']=='ar' else 'Farsi-ye meyar, kein Slang.'
 
     if lang.get('headline'):
+        vokalisierung = 'MIT VOLLSTÄNDIGER VOKALISIERUNG (tashkīl/harakat auf jedem Wort). ' if lang['lang_code']=='ar' else ''
         news_p = (f"NACHRICHTEN (RTL, in Originalschrift):\n"
-                  f"Die folgende Schlagzeile von {lang['news_source']} in {script} Originalschrift wiedergeben.\n"
-                  f"Glossiere schwierige Wörter inline auf Deutsch in Klammern.\n"
+                  f"Gib NUR DIE ERSTE der folgenden Schlagzeilen wieder (ignoriere alle weiteren).\n"
+                  f"Schreibe sie in {script} Originalschrift. {vokalisierung}\n"
+                  f"Glossiere schwierige Wörter inline auf Deutsch in Klammern — Glossierung passend zu Level {lang['level']} (bei A2: nur Grundbedeutung, sehr einfach).\n"
                   f"Danach in 2-3 einfachen Sätzen auf {lang['language']} zusammenfassen (Level {lang['level']}).\n"
-                  f"Schlagzeile: {lang['headline']}")
+                  f"Schlagzeile: {lang['headline'][:200]}")
     else:
         news_p = "NACHRICHTEN:\nKeine aktuellen Nachrichten verfügbar. Schreibe einen kurzen Satz auf Deutsch."
 
+    vok_uebung = 'WICHTIG: Arabischen Text MIT VOLLSTÄNDIGER VOKALISIERUNG (tashkīl/harakat) schreiben. ' if lang['lang_code']=='ar' else ''
     lang_p = (f"SPRACHÜBUNG - TEXT (RTL, in Originalschrift):\n"
               f"Schreibe einen kurzen Übungstext auf {lang['language']} zum Thema \"{lang['topic']}\".\n"
-              f"Regeln:\n- 5-8 Sätze in {script} Schrift.\n- {lang['instructions']}\n- {dialect}\n"
+              f"Regeln:\n- 5-8 Sätze in {script} Schrift.\n- {vok_uebung}{lang['instructions']}\n- {dialect}\n"
               f"- {lang['new_vocab_instruction']}\n{lang['repetition_prompt']}\n"
               f"SPRACHÜBUNG - FRAGEN (LTR, auf Deutsch):\n"
               f"2-3 Verständnisfragen auf Deutsch zum obigen Text. Jede Frage in einer neuen Zeile.\n"

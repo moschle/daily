@@ -11,6 +11,7 @@
 ### Persisch
 - Sprache: Farsi (+ gelegentlich Dari für Tajikistan-Vorbereitung)
 - Level: 1 (anfangen)
+- Viel Videomaterial und Nachrichten verfügbar — auch für Hörverständnis nutzen
 - Modality: wie oben
 
 ---
