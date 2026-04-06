@@ -1,3 +1,5 @@
 *.epub
 __pycache__/
 .env
+vocab_memory.json
+generate_morgenbrief_broken.py

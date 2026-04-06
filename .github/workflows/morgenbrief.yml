@@ -4,9 +4,8 @@ on:
   schedule:
     # 6:00 Uhr MESZ = 4:00 UTC (Sommerzeit)
     # 6:00 Uhr MEZ  = 5:00 UTC (Winterzeit)
-    # Im Sommer: 4:00 UTC. Anpassen bei Zeitumstellung.
     - cron: '0 4 * * *'
-  workflow_dispatch: # Manuell auslösen
+  workflow_dispatch:
 
 jobs:
   morgenbrief:
@@ -27,3 +26,11 @@ jobs:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python generate_morgenbrief.py
+
+      - name: Vokabelgedächtnis committen
+        run: |
+          git config user.name "Morgenbrief Bot"
+          git config user.email "morgenbrief@users.noreply.github.com"
+          git add vocab_memory.json || true
+          git diff --cached --quiet || git commit -m "vocab: $(date +%Y-%m-%d)"
+          git push || true
