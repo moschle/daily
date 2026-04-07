@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Morgenbrief: Täglicher Tagesplan via Claude → ePub → Kindle
+Unterstützt mehrere Kalender (Semikolon-getrennte URLs) und BBC-Artikeltexte.
 """
 
 import os
@@ -28,66 +29,75 @@ def now_berlin():
 def _normalize_dashes(text):
     return text.replace("\u2014", "-").replace("\u2013", "-").replace("\u2012", "-")
 
-
-# ─── Kalender parsen ───
-
-def fetch_calendar(ical_url):
-    try:
-        req = urllib.request.Request(ical_url, headers={"User-Agent": "Morgenbrief/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = resp.read().decode("utf-8", errors="replace")
-    except Exception as e:
-        return f"[Kalender konnte nicht geladen werden: {e}]"
-
-    events = []
+# ─── Kalender parsen (unterstützt mehrere URLs, semikolon-getrennt) ───
+def fetch_calendar(ical_urls):
+    """Lädt einen oder mehrere iCal-URLs (durch Semikolon getrennt) und gibt die Termine der nächsten 3 Tage aus."""
+    if not ical_urls:
+        return "[Keine Kalender-URL]"
+    
+    urls = [u.strip() for u in ical_urls.split(';') if u.strip()]
+    all_events = []
     today_berlin = now_berlin().replace(hour=0, minute=0, second=0, microsecond=0)
     horizon = today_berlin + timedelta(days=3)
 
-    for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", data, re.DOTALL):
-        summary, dtstart_str, location = "", "", ""
-        is_utc, has_tzid_berlin = False, False
-
-        m = re.search(r"SUMMARY:(.*?)[\r\n]", block)
-        if m: summary = m.group(1).strip()
-        m = re.search(r"DTSTART[^:]*:(.*?)[\r\n]", block)
-        if m: dtstart_str = m.group(1).strip()
-        dtstart_line = re.search(r"DTSTART([^:]*):", block)
-        if dtstart_line and "Europe/Berlin" in dtstart_line.group(1):
-            has_tzid_berlin = True
-        if dtstart_str.endswith("Z"):
-            is_utc = True
-            dtstart_str = dtstart_str[:-1]
-        m = re.search(r"LOCATION:(.*?)[\r\n]", block)
-        if m: location = m.group(1).strip().replace("\\n", ", ").replace("\\,", ",")
-
-        dt, is_allday = None, False
+    for url in urls:
+        if url.startswith("webcal://"):
+            url = url.replace("webcal://", "https://", 1)
         try:
-            if "T" in dtstart_str:
-                dt = datetime.strptime(dtstart_str[:15], "%Y%m%dT%H%M%S")
-            elif len(dtstart_str) >= 8:
-                dt = datetime.strptime(dtstart_str[:8], "%Y%m%d")
-                is_allday = True
-        except ValueError:
+            req = urllib.request.Request(url, headers={"User-Agent": "Morgenbrief/1.0"})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = resp.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            print(f"Kalenderfehler bei {url}: {e}", file=sys.stderr)
             continue
-        if dt is None: continue
 
-        if is_allday: dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
-        elif is_utc: dt_berlin = dt.replace(tzinfo=timezone.utc).astimezone(BERLIN_TZ)
-        else: dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
+        for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", data, re.DOTALL):
+            summary, dtstart_str, location = "", "", ""
+            is_utc = False
 
-        if today_berlin <= dt_berlin < horizon:
-            date_str = dt_berlin.strftime("%a %d.%m.") if is_allday else dt_berlin.strftime("%a %d.%m. %H:%M")
-            loc_str = f" ({location})" if location else ""
-            day_diff = (dt_berlin.date() - today_berlin.date()).days
-            tag_label = ["HEUTE", "MORGEN", "ÜBERMORGEN"][day_diff] if day_diff < 3 else ""
-            events.append((dt_berlin, tag_label, f"  [{tag_label}] {date_str}: {summary}{loc_str}"))
+            m = re.search(r"SUMMARY:(.*?)[\r\n]", block)
+            if m:
+                summary = m.group(1).strip()
+            m = re.search(r"DTSTART[^:]*:(.*?)[\r\n]", block)
+            if m:
+                dtstart_str = m.group(1).strip()
+            if dtstart_str.endswith("Z"):
+                is_utc = True
+                dtstart_str = dtstart_str[:-1]
+            m = re.search(r"LOCATION:(.*?)[\r\n]", block)
+            if m:
+                location = m.group(1).strip().replace("\\n", ", ").replace("\\,", ",")
 
-    events.sort(key=lambda x: x[0])
-    return "\n".join(e[2] for e in events) if events else "[Keine Termine in den nächsten 3 Tagen]"
+            dt, is_allday = None, False
+            try:
+                if "T" in dtstart_str:
+                    dt = datetime.strptime(dtstart_str[:15], "%Y%m%dT%H%M%S")
+                elif len(dtstart_str) >= 8:
+                    dt = datetime.strptime(dtstart_str[:8], "%Y%m%d")
+                    is_allday = True
+            except ValueError:
+                continue
+            if dt is None:
+                continue
 
+            if is_allday:
+                dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
+            elif is_utc:
+                dt_berlin = dt.replace(tzinfo=timezone.utc).astimezone(BERLIN_TZ)
+            else:
+                dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
 
-# ─── Wetter ───
+            if today_berlin <= dt_berlin < horizon:
+                date_str = dt_berlin.strftime("%a %d.%m.") if is_allday else dt_berlin.strftime("%a %d.%m. %H:%M")
+                loc_str = f" ({location})" if location else ""
+                day_diff = (dt_berlin.date() - today_berlin.date()).days
+                tag_label = ["HEUTE", "MORGEN", "ÜBERMORGEN"][day_diff] if day_diff < 3 else ""
+                all_events.append((dt_berlin, tag_label, f"  [{tag_label}] {date_str}: {summary}{loc_str}"))
 
+    all_events.sort(key=lambda x: x[0])
+    return "\n".join(e[2] for e in all_events) if all_events else "[Keine Termine in den nächsten 3 Tagen]"
+
+# ─── Wetter (unverändert) ───
 def fetch_weather_for_location(lat, lon, name):
     url = (f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}"
            f"&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weathercode"
@@ -110,19 +120,23 @@ def fetch_weather_for_location(lat, lon, name):
         slots = [("Nacht",0,6),("Morgen",6,10),("Vormittag",10,13),("Nachmittag",13,18),("Abend",18,24)]
         precip_parts = []
         for sn, s, e in slots:
-            if len(hourly_precip) < e or len(hourly_codes) < e: continue
+            if len(hourly_precip) < e or len(hourly_codes) < e:
+                continue
             sp = sum(hourly_precip[s:e])
             sprobs = hourly_prob[s:e] if len(hourly_prob) >= e else []
             if sp > 0.1 or (sprobs and max(sprobs) > 30):
                 mc = max(hourly_codes[s:e]) if hourly_codes[s:e] else 0
                 avg_p = int(sum(sprobs)/len(sprobs)) if sprobs else 0
-                if sp > 0.1: precip_parts.append(f"{sn}: {wmo.get(mc,'Niederschlag')} ({sp:.1f}mm, {avg_p}%)")
-                elif avg_p > 30: precip_parts.append(f"{sn}: mögl. {wmo.get(mc,'Niederschlag')} ({avg_p}%)")
+                if sp > 0.1:
+                    precip_parts.append(f"{sn}: {wmo.get(mc,'Niederschlag')} ({sp:.1f}mm, {avg_p}%)")
+                elif avg_p > 30:
+                    precip_parts.append(f"{sn}: mögl. {wmo.get(mc,'Niederschlag')} ({avg_p}%)")
         hourly_temps = h.get("temperature_2m", [])
         nt = hourly_temps[0:6]
         night_min = f"{min(nt):.0f}°C" if nt else f"{tmin:.0f}°C"
         result = f"{name}: {daily_desc.capitalize()}, {tmin:.0f}–{tmax:.0f}°C (Nacht {night_min})"
-        if precip_parts: result += "\n  " + "; ".join(precip_parts)
+        if precip_parts:
+            result += "\n  " + "; ".join(precip_parts)
         elif d["precipitation_sum"][0] and d["precipitation_sum"][0] > 0:
             result += f" — {d['precipitation_sum'][0]:.1f}mm Niederschlag gesamt"
         return result
@@ -132,83 +146,106 @@ def fetch_weather_for_location(lat, lon, name):
 def fetch_weather():
     return fetch_weather_for_location(51.34, 12.37, "Leipzig/Roitzsch")
 
-
-# ─── Nachrichten (BBC World Service, mit RSS-Fallback) ───
-
-def _fetch_rss_headline(rss_url):
-    try:
-        req = urllib.request.Request(rss_url, headers={"User-Agent": "Morgenbrief/1.0"})
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            data = resp.read().decode("utf-8", errors="replace")
-        titles = re.findall(r"<item>.*?<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", data, re.DOTALL)
-        if titles:
-            h = titles[0].strip().replace("&amp;","&").replace("&quot;",'"').replace("&lt;","<").replace("&gt;",">")
-            return h[:300]
-    except Exception:
-        pass
-    return None
-
-def _fetch_bbc_github(lang_code):
-    urls = {"ar": "https://raw.githubusercontent.com/bbc/world-service-rss/main/arabic.md",
-            "fa": "https://raw.githubusercontent.com/bbc/world-service-rss/main/persian.md"}
+# ─── Nachrichten: Headline + Artikeltext aus BBC GitHub Markdown ───
+def fetch_bbc_news_with_article(lang_code):
+    """
+    Ruft die BBC GitHub Markdown-Datei ab, extrahiert die erste Schlagzeile,
+    den Link zum Artikel und lädt den ersten längeren Absatz des Artikels.
+    Rückgabe: (headline, article_text) oder (None, None)
+    """
+    urls = {
+        "ar": "https://raw.githubusercontent.com/bbc/world-service-rss/main/arabic.md",
+        "fa": "https://raw.githubusercontent.com/bbc/world-service-rss/main/persian.md"
+    }
     url = urls.get(lang_code)
-    if not url: return None
+    if not url:
+        return None, None
+
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Morgenbrief/1.0"})
         with urllib.request.urlopen(req, timeout=10) as resp:
             data = resp.read().decode("utf-8", errors="replace")
-        rss_match = re.search(r'\((https?://feeds\.bbci\.co\.uk/[^)]+)\)', data)
-        if rss_match:
-            return _fetch_rss_headline(rss_match.group(1))
-        match = re.search(r'## \[(.*?)\]\(.*?\)', data, re.DOTALL)
-        if match:
-            h = match.group(1).strip().replace("&amp;","&").replace("&quot;",'"')
-            return h[:300]
     except Exception as e:
         print(f"BBC GitHub Fehler ({lang_code}): {e}", file=sys.stderr)
-    return None
+        return None, None
 
-BBC_RSS_FALLBACKS = {"ar": "https://feeds.bbci.co.uk/arabic/rss.xml", "fa": "https://feeds.bbci.co.uk/persian/rss.xml"}
+    # Extrahiere die erste Zeile mit ## [Titel](Link)
+    match = re.search(r'## \[(.*?)\]\((https?://[^)]+)\)', data, re.MULTILINE)
+    if not match:
+        # Fallback: nur den Titel aus der Zeile ohne Link (sollte nicht vorkommen)
+        match = re.search(r'## \[(.*?)\]\(.*?\)', data, re.MULTILINE)
+        if not match:
+            print(f"Keine Schlagzeile in BBC {lang_code} gefunden", file=sys.stderr)
+            return None, None
+        headline = match.group(1).strip()
+        article_url = None
+    else:
+        headline = match.group(1).strip()
+        article_url = match.group(2).strip()
 
-def fetch_news_headline(lang_code):
-    headline = _fetch_bbc_github(lang_code)
-    if headline: return headline
-    fb = BBC_RSS_FALLBACKS.get(lang_code)
-    if fb:
-        headline = _fetch_rss_headline(fb)
-        if headline:
-            print(f"News via BBC RSS Fallback ({lang_code})", file=sys.stderr)
-            return headline
-    print(f"Keine News verfügbar ({lang_code})", file=sys.stderr)
-    return None
+    article_text = ""
+    if article_url:
+        try:
+            req = urllib.request.Request(article_url, headers={"User-Agent": "Morgenbrief/1.0"})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                html = resp.read().decode("utf-8", errors="replace")
+            # Suche nach dem ersten <p> mit ausreichend Text (ca. > 100 Zeichen)
+            paragraphs = re.findall(r'<p[^>]*>(.*?)</p>', html, re.DOTALL)
+            for para in paragraphs:
+                clean = re.sub(r'<[^>]+>', ' ', para).strip()
+                if len(clean) > 100:
+                    article_text = clean[:800]  # Begrenzung
+                    break
+            if not article_text:
+                # Fallback: Beschreibung aus der Markdown-Datei (die Zeile nach der Überschrift)
+                lines = data.splitlines()
+                for i, line in enumerate(lines):
+                    if line.strip().startswith('## ['):
+                        for j in range(i+1, min(i+10, len(lines))):
+                            desc_line = lines[j].strip()
+                            if desc_line and not desc_line.startswith('![') and not desc_line.startswith('_'):
+                                article_text = desc_line[:500]
+                                break
+                        break
+        except Exception as e:
+            print(f"Artikel-Fetch Fehler ({lang_code}): {e}", file=sys.stderr)
 
+    return headline, article_text
 
-# ─── Musikbibliothek ───
-
+# ─── Musikbibliothek (aus Ihrer alten Version, unverändert) ───
 MUSIC_LIBRARY_FILE = Path(__file__).parent / "all.txt"
 _music_data = None
 
 def _load_music_library():
     data = []
-    if not MUSIC_LIBRARY_FILE.exists(): return data
+    if not MUSIC_LIBRARY_FILE.exists():
+        return data
     for delim in ('\t', ','):
         try:
             with open(MUSIC_LIBRARY_FILE, "r", encoding="utf-8") as f:
                 fl = f.readline()
-                if not fl or "Album" not in fl: continue
+                if not fl or "Album" not in fl:
+                    continue
                 f.seek(0)
                 for row in csv.DictReader(f, delimiter=delim):
                     album, artist = row.get("Album","").strip(), row.get("Artist","").strip()
-                    if not album or not artist: continue
-                    try: plays = int(row.get("Plays","0") or "0")
-                    except: plays = 0
+                    if not album or not artist:
+                        continue
+                    try:
+                        plays = int(row.get("Plays","0") or "0")
+                    except:
+                        plays = 0
                     last_date = None
                     ls = row.get("Last Played","").strip()
                     if ls and "," in ls:
-                        try: last_date = datetime.strptime(ls.split(",")[0].strip(), "%d.%m.%Y").date()
-                        except: pass
-                    try: rating = int(row.get("My Rating","0") or "0")
-                    except: rating = 0
+                        try:
+                            last_date = datetime.strptime(ls.split(",")[0].strip(), "%d.%m.%Y").date()
+                        except:
+                            pass
+                    try:
+                        rating = int(row.get("My Rating","0") or "0")
+                    except:
+                        rating = 0
                     data.append({"artist":artist,"album":album,"plays":plays,"last_played":last_date,"rating":rating,"genre":row.get("Genre","").strip()})
             if data:
                 print(f"Musikbibliothek: {len(data)} Einträge", file=sys.stderr)
@@ -220,60 +257,71 @@ def _load_music_library():
 _music_data = _load_music_library()
 
 def _get_top_genres(limit=3):
-    if not _music_data: return []
+    if not _music_data:
+        return []
     gc = {}
     for e in _music_data:
-        if e["genre"]: gc[e["genre"]] = gc.get(e["genre"],0) + e["plays"]
+        if e["genre"]:
+            gc[e["genre"]] = gc.get(e["genre"],0) + e["plays"]
     return [g for g,_ in sorted(gc.items(), key=lambda x:x[1], reverse=True)[:limit]]
 
 def _get_high_rated_artists(threshold=80, limit=5):
-    if not _music_data: return []
+    if not _music_data:
+        return []
     sc = {}
     for e in _music_data:
-        if e["rating"] >= threshold: sc[e["artist"]] = sc.get(e["artist"],0)+1
+        if e["rating"] >= threshold:
+            sc[e["artist"]] = sc.get(e["artist"],0)+1
     return [a for a,_ in sorted(sc.items(), key=lambda x:x[1], reverse=True)[:limit]]
 
 def _get_similar_artists(artist_name, limit=3):
-    if not _music_data: return []
+    if not _music_data:
+        return []
     genres = {e["genre"] for e in _music_data if e["artist"]==artist_name and e["genre"]}
-    if not genres: return []
+    if not genres:
+        return []
     return list({e["artist"] for e in _music_data if e["artist"]!=artist_name and e["genre"] in genres})[:limit]
 
 def _select_album_of_the_day():
-    if not _music_data: return None
+    if not _music_data:
+        return None
     today = now_berlin().date()
     is_exploration = random.random() < 0.2
     top_genres = _get_top_genres(3)
     ha = _get_high_rated_artists(threshold=80)
     similar = set()
     if is_exploration:
-        for a in ha: similar.update(_get_similar_artists(a))
+        for a in ha:
+            similar.update(_get_similar_artists(a))
     weighted = []
     for e in _music_data:
         w = 1.0
         if is_exploration:
-            if e["plays"]==0: w *= 2.0
-            if e["artist"] in similar: w *= 2.0
+            if e["plays"]==0:
+                w *= 2.0
+            if e["artist"] in similar:
+                w *= 2.0
         else:
-            if e["rating"]>=80: w *= 1.5*(e["rating"]/50)
-            if e["genre"] in top_genres: w *= 1.2
+            if e["rating"]>=80:
+                w *= 1.5*(e["rating"]/50)
+            if e["genre"] in top_genres:
+                w *= 1.2
         ds = (today - e["last_played"]).days if e["last_played"] else 365
         w *= (ds+1) * (1.0/(e["plays"]+1)) * random.uniform(0.8,1.2)
         weighted.append((w,e))
-    if not weighted: return None
+    if not weighted:
+        return None
     total = sum(w for w,_ in weighted)
     r = random.random()*total
     cum = 0
     for w,e in weighted:
         cum += w
-        if r <= cum: return e
+        if r <= cum:
+            return e
     return weighted[-1][1]
 
-
-# ─── Entdeckungsvorschläge (auto-generiert via Claude API) ───
-
+# ─── Entdeckungsvorschläge (minimal gehalten) ───
 DISCOVERY_FILE = Path(__file__).parent / "discovery_albums.json"
-
 _SEED_ALBUMS = [
     ("Kayhan Kalhor & Rembrandt Trio","Silence City"),("Tigran Hamasyan","A Fable"),
     ("Anouar Brahem","Thimar"),("Mohsen Namjoo","Toranj"),
@@ -283,7 +331,8 @@ _SEED_ALBUMS = [
 ]
 
 def _load_discovery_albums():
-    if not DISCOVERY_FILE.exists(): return [], True
+    if not DISCOVERY_FILE.exists():
+        return [], True
     try:
         with open(DISCOVERY_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -295,13 +344,15 @@ def _load_discovery_albums():
 
 def _save_discovery_albums(albums, profile=None):
     data = {"albums": albums, "generated_at": now_berlin().isoformat()}
-    if profile: data["generated_from"] = profile
+    if profile:
+        data["generated_from"] = profile
     with open(DISCOVERY_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 def _generate_discovery_albums_via_api():
     api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key: return None
+    if not api_key:
+        return None
     top_genres = _get_top_genres(5)
     top_artists = _get_high_rated_artists(threshold=60, limit=10)
     library_artists = {e["artist"] for e in _music_data} if _music_data else set()
@@ -326,7 +377,6 @@ def _generate_discovery_albums_via_api():
         with urllib.request.urlopen(req, timeout=30) as resp:
             result = json.loads(resp.read())
         text = result["content"][0]["text"].strip()
-        # JSON extrahieren falls in Backticks gewrappt
         text = re.sub(r'^[`]{3}json\s*', '', text)
         text = re.sub(r'\s*[`]{3}$', '', text)
         raw = json.loads(text)
@@ -347,22 +397,23 @@ def _select_discovery_album():
     albums, needs_refresh = _load_discovery_albums()
     if needs_refresh:
         new = _generate_discovery_albums_via_api()
-        if new: albums = new
+        if new:
+            albums = new
         elif not albums:
             albums = [{"artist":a,"album":b,"suggested":False} for a,b in _SEED_ALBUMS]
             _save_discovery_albums(albums)
     unseen = [a for a in albums if not a.get("suggested", False)]
-    if not unseen: unseen = albums
+    if not unseen:
+        unseen = albums
     pick = random.choice(unseen)
     for a in albums:
         if a["artist"]==pick["artist"] and a["album"]==pick["album"]:
-            a["suggested"] = True; break
+            a["suggested"] = True
+            break
     _save_discovery_albums(albums)
     return (pick["artist"], pick["album"])
 
-
 # ─── Tagesimpuls ───
-
 def generate_impulse():
     today = now_berlin()
     day_de = {"Monday":"Montag","Tuesday":"Dienstag","Wednesday":"Mittwoch","Thursday":"Donnerstag",
@@ -388,9 +439,12 @@ def generate_impulse():
         entry = _select_album_of_the_day()
         if entry:
             album_line = f"Album des Tages: {entry['artist']} — {entry['album']}"
-            if entry["plays"]==0: album_line += " (Noch nie gehört!)"
-            elif entry["rating"]>=80: album_line += " (Du magst diesen Künstler – hör mal wieder rein!)"
-            elif entry["last_played"] and (today.date()-entry["last_played"]).days > 90: album_line += " (Lange nicht gehört.)"
+            if entry["plays"]==0:
+                album_line += " (Noch nie gehört!)"
+            elif entry["rating"]>=80:
+                album_line += " (Du magst diesen Künstler – hör mal wieder rein!)"
+            elif entry["last_played"] and (today.date()-entry["last_played"]).days > 90:
+                album_line += " (Lange nicht gehört.)"
         else:
             a, b = _select_discovery_album()
             album_line = f"Album des Tages: {a} — {b}"
@@ -400,21 +454,22 @@ def generate_impulse():
             f"– {album_line}\n"
             f"Passe die Auswahl an deine Termine und das Wetter an. Wenn der Tag voll ist, lass die Vorschläge einfach weg.")
 
-
 # ─── Sprachübung (mit Vokabelgedächtnis) ───
-
 LANG_START = datetime(2026, 4, 5, tzinfo=BERLIN_TZ)
 VOCAB_FILE = Path(__file__).parent / "vocab_memory.json"
 
 def load_vocab_memory():
     if VOCAB_FILE.exists():
         try:
-            with open(VOCAB_FILE,"r",encoding="utf-8") as f: return json.load(f)
-        except: pass
+            with open(VOCAB_FILE,"r",encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            pass
     return {"ar":[],"fa":[]}
 
 def save_vocab_memory(m):
-    with open(VOCAB_FILE,"w",encoding="utf-8") as f: json.dump(m,f,ensure_ascii=False,indent=2)
+    with open(VOCAB_FILE,"w",encoding="utf-8") as f:
+        json.dump(m, f, ensure_ascii=False, indent=2)
 
 def get_due_vocab(lc, m):
     today = now_berlin().date()
@@ -433,7 +488,10 @@ def update_reviewed_vocab(lc, reviewed, m):
     for w in reviewed:
         for e in m.get(lc,[]):
             if e["word"]==w:
-                e["last_review"]=today; e["times_reviewed"]+=1; e["interval"]=min(e.get("interval",1)*2,30); break
+                e["last_review"]=today
+                e["times_reviewed"]+=1
+                e["interval"]=min(e.get("interval",1)*2,30)
+                break
     save_vocab_memory(m)
 
 def generate_language_exercise():
@@ -442,10 +500,14 @@ def generate_language_exercise():
     dss = max(0, (today - LANG_START).days)
     week = dss // 7
     language, lc = ("Arabisch","ar") if doy%2==0 else ("Persisch","fa")
-    if week<2: level, instr = "A2 (einfach)", "Sehr einfache Sätze. Grundvokabular: Familie, Essen, Wetter, Tagesablauf. Präsens und einfache Vergangenheit."
-    elif week<6: level, instr = "B1 (mittel)", "Längere Sätze möglich. Themen: Reisen, Arbeit, Meinungen, Nachrichten. Konjunktiv, Relativsätze erlaubt."
-    elif week<12: level, instr = "B1+ (gehoben)", "Komplexere Strukturen. Themen: Kultur, Politik, Literatur. Passiv, indirekte Rede."
-    else: level, instr = "B2 (fortgeschritten)", "Anspruchsvoller Text. Zeitungssprache, abstrakte Themen, idiomatische Wendungen."
+    if week<2:
+        level, instr = "A2 (einfach)", "Sehr einfache Sätze. Grundvokabular: Familie, Essen, Wetter, Tagesablauf. Präsens und einfache Vergangenheit."
+    elif week<6:
+        level, instr = "B1 (mittel)", "Längere Sätze möglich. Themen: Reisen, Arbeit, Meinungen, Nachrichten. Konjunktiv, Relativsätze erlaubt."
+    elif week<12:
+        level, instr = "B1+ (gehoben)", "Komplexere Strukturen. Themen: Kultur, Politik, Literatur. Passiv, indirekte Rede."
+    else:
+        level, instr = "B2 (fortgeschritten)", "Anspruchsvoller Text. Zeitungssprache, abstrakte Themen, idiomatische Wendungen."
 
     mem = load_vocab_memory()
     due = get_due_vocab(lc, mem)
@@ -454,23 +516,27 @@ def generate_language_exercise():
         vl = "\n".join([f"  - {v['word']} ({v['meaning']})" for v in due])
         rep = f"\nVOKABELWIEDERHOLUNG:\nDiese Wörter sollen heute wiederholt werden. Baue sie in den Übungstext ein:\n{vl}\n"
 
-    hl = fetch_news_headline(lc)
+    headline, article = fetch_bbc_news_with_article(lc)
+    if headline:
+        news_content = f"Schlagzeile: {headline}\n\nArtikeltext:\n{article[:800]}" if article else f"Schlagzeile: {headline}"
+    else:
+        news_content = None
+
     topics = ["Tagesablauf und Routine","Essen und Kochen","Eine Reise beschreiben","Familie und Freunde",
               "Das Wetter","Einkaufen auf dem Markt","Ein Buch oder Film beschreiben","Die eigene Stadt vorstellen",
               "Arbeit und Beruf","Kindheitserinnerungen","Natur und Umwelt","Musik und Kunst","Gesundheit und Sport","Politik und Gesellschaft"]
 
     return {"language":language,"lang_code":lc,"level":level,"instructions":instr,
-            "topic":topics[dss%len(topics)],"headline":hl,"news_source":"BBC" if hl else None,
+            "topic":topics[dss%len(topics)],"headline":headline,"news_text":news_content,
             "week":week,"repetition_prompt":rep,
             "new_vocab_instruction":"\nWICHTIG: Neue Vokabeln inline glossieren. Am Ende eine Zeile: \"NEUE VOKABELN: Wort (Bedeutung), Wort (Bedeutung)\"\n",
             "memory":mem,"due_vocab":due}
 
-
 # ─── Claude aufrufen ───
-
 def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exercise):
     api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key: sys.exit("ANTHROPIC_API_KEY nicht gesetzt")
+    if not api_key:
+        sys.exit("ANTHROPIC_API_KEY nicht gesetzt")
     today = now_berlin().strftime("%A, %d. %B %Y")
     lang = lang_exercise
     script = 'arabischer' if lang['lang_code']=='ar' else 'persischer'
@@ -478,10 +544,11 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
 
     if lang.get('headline'):
         news_p = (f"NACHRICHTEN (RTL, in Originalschrift):\n"
-                  f"Die folgende Schlagzeile von {lang['news_source']} in {script} Originalschrift wiedergeben.\n"
-                  f"Glossiere schwierige Wörter inline auf Deutsch in Klammern.\n"
-                  f"Danach in 2-3 einfachen Sätzen auf {lang['language']} zusammenfassen (Level {lang['level']}).\n"
-                  f"Schlagzeile: {lang['headline']}")
+                  f"Die folgende Nachricht von BBC in {script} Originalschrift wiedergeben.\n"
+                  f"Zunächst die Schlagzeile, dann den Artikeltext sinngemäß in 3-4 Sätzen zusammenfassen.\n"
+                  f"Glossiere schwierige Wörter inline auf Deutsch in Klammern.\n\n"
+                  f"Schlagzeile: {lang['headline']}\n\n"
+                  f"Artikeltext (zur Zusammenfassung):\n{lang['news_text']}\n")
     else:
         news_p = "NACHRICHTEN:\nKeine aktuellen Nachrichten verfügbar. Schreibe einen kurzen Satz auf Deutsch."
 
@@ -523,9 +590,7 @@ def strip_markdown(text):
     text = re.sub(r'^\*\s+', '– ', text, flags=re.MULTILINE)
     return text
 
-
-# ─── ePub erzeugen (robuste RTL/LTR Erkennung) ───
-
+# ─── ePub erzeugen (robuste RTL/LTR Erkennung, wie in alter Version) ───
 def create_epub(text, date_str):
     import zipfile
     from io import BytesIO
@@ -540,23 +605,35 @@ def create_epub(text, date_str):
         nonlocal current_rtl
         if current_block:
             c = "<br/>".join(current_block)
-            if current_rtl: html_parts.append(f'<p dir="rtl" style="text-align:right;font-size:1.1em;line-height:1.8;">{c}</p>')
-            else: html_parts.append(f"<p>{c}</p>")
+            if current_rtl:
+                html_parts.append(f'<p dir="rtl" style="text-align:right;font-size:1.1em;line-height:1.8;">{c}</p>')
+            else:
+                html_parts.append(f"<p>{c}</p>")
             current_block.clear()
 
     for line in lines:
         s = line.strip()
         u = s.upper()
         if "SPRACHÜBUNG - TEXT" in u or "SPRACHUEBUNG - TEXT" in u:
-            flush(); current_rtl = True; html_parts.append(f"<h2>{s}</h2>")
+            flush()
+            current_rtl = True
+            html_parts.append(f"<h2>{s}</h2>")
         elif "SPRACHÜBUNG - FRAGEN" in u or "SPRACHUEBUNG - FRAGEN" in u or s.startswith("FRAGEN:"):
-            flush(); current_rtl = False; html_parts.append(f"<h2>{s}</h2>")
+            flush()
+            current_rtl = False
+            html_parts.append(f"<h2>{s}</h2>")
         elif u.strip().rstrip(":") == "NACHRICHTEN":
-            flush(); current_rtl = True; html_parts.append(f"<h2>{s}</h2>")
+            flush()
+            current_rtl = True
+            html_parts.append(f"<h2>{s}</h2>")
         elif u.strip().rstrip(":") in {"WETTER","HEUTE","IMPULS","PROJEKTE","ERLEDIGTES","AUSBLICK"}:
-            flush(); current_rtl = False; html_parts.append(f"<h2>{s}</h2>")
-        elif s == "": flush()
-        else: current_block.append(s)
+            flush()
+            current_rtl = False
+            html_parts.append(f"<h2>{s}</h2>")
+        elif s == "":
+            flush()
+        else:
+            current_block.append(s)
     flush()
 
     xhtml = (f'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE html>\n'
@@ -588,44 +665,51 @@ def create_epub(text, date_str):
         zf.writestr("OEBPS/content.xhtml",xhtml)
         zf.writestr("OEBPS/nav.xhtml",nav)
     fn = f"morgenbrief_{date_str}.epub"
-    with open(fn,"wb") as f: f.write(buf.getvalue())
+    with open(fn,"wb") as f:
+        f.write(buf.getvalue())
     return fn
 
-
 # ─── Mail an Kindle ───
-
 def send_to_kindle(epub_path):
     ga, gp, ka = os.environ.get("GMAIL_ADDRESS"), os.environ.get("GMAIL_APP_PASSWORD"), os.environ.get("KINDLE_EMAIL")
-    if not all([ga,gp,ka]): sys.exit("Gmail/Kindle Secrets nicht vollständig")
-    msg = MIMEMultipart(); msg["From"]=ga; msg["To"]=ka; msg["Subject"]="Morgenbrief"
+    if not all([ga,gp,ka]):
+        sys.exit("Gmail/Kindle Secrets nicht vollständig")
+    msg = MIMEMultipart()
+    msg["From"] = ga
+    msg["To"] = ka
+    msg["Subject"] = "Morgenbrief"
     msg.attach(MIMEText("","plain"))
     with open(epub_path,"rb") as f:
-        part = MIMEBase("application","epub+zip"); part.set_payload(f.read())
-        encoders.encode_base64(part); part.add_header("Content-Disposition",f"attachment; filename={os.path.basename(epub_path)}")
+        part = MIMEBase("application","epub+zip")
+        part.set_payload(f.read())
+        encoders.encode_base64(part)
+        part.add_header("Content-Disposition",f"attachment; filename={os.path.basename(epub_path)}")
         msg.attach(part)
     with smtplib.SMTP_SSL("smtp.gmail.com",465) as smtp:
-        smtp.login(ga,gp); smtp.sendmail(ga,ka,msg.as_string())
+        smtp.login(ga,gp)
+        smtp.sendmail(ga,ka,msg.as_string())
     print(f"Morgenbrief an {ka} gesendet")
 
-
 # ─── Main ───
-
 def main():
     repo = Path(__file__).parent
     kontext = (repo/"kontext.md").read_text(encoding="utf-8")
     fahrplan = (repo/"fahrplan.md").read_text(encoding="utf-8")
     aufgaben = (repo/"aufgaben.md").read_text(encoding="utf-8")
 
-    ical_url = os.environ.get("ICAL_URL","")
-    kalender = fetch_calendar(ical_url) if ical_url else "[Keine Kalender-URL]"
+    # ICAL_URL kann mehrere, durch Semikolon getrennte URLs enthalten
+    ical_urls = os.environ.get("ICAL_URL", "")
+    kalender = fetch_calendar(ical_urls) if ical_urls else "[Keine Kalender-URL]"
     wetter = fetch_weather()
     impulse = generate_impulse()
     lang_ex = generate_language_exercise()
 
     print(f"Morgenbrief wird geschrieben ({now_berlin().strftime('%d.%m.%Y %H:%M')} Berliner Zeit)...")
     print(f"Sprachübung: {lang_ex['language']} (Level {lang_ex['level']}, Thema: {lang_ex['topic']})")
-    if lang_ex.get('headline'): print(f"News: {lang_ex['headline'][:60]}...")
-    else: print("Keine News verfügbar.")
+    if lang_ex.get('headline'):
+        print(f"News: {lang_ex['headline'][:60]}...")
+    else:
+        print("Keine News verfügbar.")
 
     text = call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_ex)
 
@@ -633,15 +717,16 @@ def main():
     vm = re.search(r"NEUE VOKABELN:\s*(.*?)(?:\n|$)", text, re.IGNORECASE)
     if vm:
         pairs = re.findall(r"([^\s,]+)\s*\(([^)]+)\)", vm.group(1))
-        if pairs: add_new_vocab(lang_ex["lang_code"], pairs, lang_ex["memory"])
+        if pairs:
+            add_new_vocab(lang_ex["lang_code"], pairs, lang_ex["memory"])
         text = re.sub(r"NEUE VOKABELN:.*\n?", "", text, flags=re.IGNORECASE)
     due_w = [v["word"] for v in lang_ex.get("due_vocab",[])]
     reviewed = [w for w in due_w if w in text]
-    if reviewed: update_reviewed_vocab(lang_ex["lang_code"], reviewed, lang_ex["memory"])
+    if reviewed:
+        update_reviewed_vocab(lang_ex["lang_code"], reviewed, lang_ex["memory"])
 
     epub = create_epub(text, now_berlin().strftime("%Y-%m-%d"))
     send_to_kindle(epub)
-
 
 if __name__ == "__main__":
     main()
