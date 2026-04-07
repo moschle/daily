@@ -68,7 +68,7 @@ def _parse_ical_events(data, today_berlin, horizon):
     return events
 
 # Nur diese iCloud-Kalender einbeziehen (Shirin ausschließen)
-CALDAV_ALLOWED_CALENDARS = {"SM", "Moritz", "Arbeit", "Familie"}
+CALDAV_ALLOWED_CALENDARS = {"SM", "Moritz", "Arbeit", "Familie", "Geburtstag", "Preply"}
 
 def _fetch_caldav_events(today_berlin, horizon):
     """Holt Events via CalDAV (iCloud mit app-spezifischem Passwort)."""
