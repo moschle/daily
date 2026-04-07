@@ -67,6 +67,9 @@ def _parse_ical_events(data, today_berlin, horizon):
             events.append(f"  [{tag_label}] {date_str}: {summary}{loc_str}")
     return events
 
+# Nur diese iCloud-Kalender einbeziehen (Shirin ausschließen)
+CALDAV_ALLOWED_CALENDARS = {"SM", "Moritz", "Arbeit", "Familie"}
+
 def _fetch_caldav_events(today_berlin, horizon):
     """Holt Events via CalDAV (iCloud mit app-spezifischem Passwort)."""
     apple_id = os.environ.get("APPLE_ID", "")
@@ -80,15 +83,20 @@ def _fetch_caldav_events(today_berlin, horizon):
         calendars = principal.calendars()
         events = []
         for cal in calendars:
+            cal_name = getattr(cal, 'name', '') or ''
+            if CALDAV_ALLOWED_CALENDARS and cal_name not in CALDAV_ALLOWED_CALENDARS:
+                print(f"CalDAV: überspringe Kalender '{cal_name}'", file=sys.stderr)
+                continue
             try:
                 results = cal.date_search(start=today_berlin, end=horizon, expand=True)
                 for event in results:
                     ical_data = event.data
                     if ical_data:
                         events.extend(_parse_ical_events(ical_data, today_berlin, horizon))
+                print(f"CalDAV: {cal_name} — {len(results)} Events", file=sys.stderr)
             except Exception as e:
-                print(f"CalDAV Kalender-Fehler ({cal}): {e}", file=sys.stderr)
-        print(f"CalDAV: {len(events)} Events geladen", file=sys.stderr)
+                print(f"CalDAV Kalender-Fehler ({cal_name}): {e}", file=sys.stderr)
+        print(f"CalDAV gesamt: {len(events)} Events", file=sys.stderr)
         return events
     except ImportError:
         print("caldav nicht installiert, überspringe CalDAV", file=sys.stderr)
