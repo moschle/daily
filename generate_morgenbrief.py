@@ -115,7 +115,7 @@ def fetch_weather_for_location(lat, lon, name):
            80:"leichte Regenschauer",81:"Regenschauer",82:"heftige Regenschauer",
            95:"Gewitter",96:"Gewitter mit leichtem Hagel",99:"Gewitter mit Hagel"}
     try:
-        with urllib.request.urlopen(url, timeout=10) as resp:
+        with urllib.request.urlopen(url, timeout=20) as resp:
             data = json.loads(resp.read())
         d, h = data["daily"], data.get("hourly", {})
         tmin, tmax = d["temperature_2m_min"][0], d["temperature_2m_max"][0]
@@ -150,7 +150,17 @@ def fetch_weather_for_location(lat, lon, name):
         return f"{name}: [nicht verfügbar: {e}]"
 
 def fetch_weather():
-    return fetch_weather_for_location(51.34, 12.37, "Leipzig/Roitzsch")
+    result = fetch_weather_for_location(51.34, 12.37, "Leipzig/Roitzsch")
+    if "nicht verfügbar" in result:
+        # Fallback: wttr.in
+        try:
+            req = urllib.request.Request("https://wttr.in/Leipzig?format=%t+%C+%p&lang=de", headers={"User-Agent": "curl/7.0"})
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                wttr = resp.read().decode("utf-8").strip()
+            result = f"Leipzig: {wttr} (Quelle: wttr.in, Open-Meteo nicht erreichbar)"
+        except Exception:
+            pass
+    return result
 
 # ─── Nachrichten: Headline + Artikeltext aus BBC GitHub Markdown ───
 def fetch_bbc_news_with_article(lang_code):
@@ -547,12 +557,13 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     lang = lang_exercise
     script = 'arabischer' if lang['lang_code']=='ar' else 'persischer'
     dialect = 'Fusha (MSA), kein Dialekt.' if lang['lang_code']=='ar' else 'Farsi-ye meyar, kein Slang.'
+    vok = 'WICHTIG: Arabischen Text MIT VOLLSTÄNDIGER VOKALISIERUNG (tashkīl/harakat auf jedem Wort) schreiben. ' if lang['lang_code']=='ar' else ''
 
     if lang.get('headline'):
         news_p = (f"NACHRICHTEN (RTL, in Originalschrift):\n"
-                  f"Die folgende Nachricht von BBC in {script} Originalschrift wiedergeben.\n"
-                  f"Zunächst die Schlagzeile, dann den Artikeltext sinngemäß in 3-4 Sätzen zusammenfassen.\n"
-                  f"Glossiere schwierige Wörter inline auf Deutsch in Klammern.\n\n"
+                  f"Die folgende Nachricht von BBC in {script} Originalschrift wiedergeben. {vok}\n"
+                  f"Zunächst die Schlagzeile, dann den Artikeltext sinngemäß in 3-4 Sätzen zusammenfassen. {vok}\n"
+                  f"Glossiere schwierige Wörter inline auf Deutsch in Klammern (passend zu Level {lang['level']}).\n\n"
                   f"Schlagzeile: {lang['headline']}\n\n"
                   f"Artikeltext (zur Zusammenfassung):\n{lang['news_text']}\n")
     else:
@@ -560,7 +571,7 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
 
     lang_p = (f"SPRACHÜBUNG - TEXT (RTL, in Originalschrift):\n"
               f"Schreibe einen kurzen Übungstext auf {lang['language']} zum Thema \"{lang['topic']}\".\n"
-              f"Regeln:\n- 5-8 Sätze in {script} Schrift.\n- {lang['instructions']}\n- {dialect}\n"
+              f"Regeln:\n- 5-8 Sätze in {script} Schrift. {vok}\n- {lang['instructions']}\n- {dialect}\n"
               f"- {lang['new_vocab_instruction']}\n{lang['repetition_prompt']}\n"
               f"SPRACHÜBUNG - FRAGEN (LTR, auf Deutsch):\n"
               f"2-3 Verständnisfragen auf Deutsch zum obigen Text. Jede Frage in einer neuen Zeile.\n"
@@ -578,7 +589,7 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
            f"WICHTIG: Verwende in Sektionstiteln immer einfache Bindestriche (-), NIEMALS Gedankenstriche.\n"
            f"Jede Sektion als Überschrift in Großbuchstaben. Kein Markdown. Sachlich.")
 
-    payload = json.dumps({"model":"claude-sonnet-4-20250514","max_tokens":2000,
+    payload = json.dumps({"model":"claude-sonnet-4-20250514","max_tokens":3000,
                           "messages":[{"role":"user","content":msg}]}).encode("utf-8")
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=payload,
         headers={"Content-Type":"application/json","x-api-key":api_key,"anthropic-version":"2023-06-01"})
