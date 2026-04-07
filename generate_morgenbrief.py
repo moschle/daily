@@ -29,18 +29,19 @@ def now_berlin():
 def _normalize_dashes(text):
     return text.replace("\u2014", "-").replace("\u2013", "-").replace("\u2012", "-")
 
-# ─── Kalender parsen (unterstützt mehrere URLs, semikolon-getrennt) ───
+# ─── Kalender: mehrere URLs (Semikolon-getrennt) ───
 def fetch_calendar(ical_urls):
-    """Lädt einen oder mehrere iCal-URLs (durch Semikolon getrennt) und gibt die Termine der nächsten 3 Tage aus."""
+    """Lädt einen oder mehrere iCal-URLs (durch ; getrennt) und gibt Termine der nächsten 3 Tage aus."""
     if not ical_urls:
         return "[Keine Kalender-URL]"
-    
+
     urls = [u.strip() for u in ical_urls.split(';') if u.strip()]
     all_events = []
     today_berlin = now_berlin().replace(hour=0, minute=0, second=0, microsecond=0)
     horizon = today_berlin + timedelta(days=3)
 
     for url in urls:
+        # Apple iCal verwendet webcal:// – wandle in https:// um
         if url.startswith("webcal://"):
             url = url.replace("webcal://", "https://", 1)
         try:
@@ -51,20 +52,25 @@ def fetch_calendar(ical_urls):
             print(f"Kalenderfehler bei {url}: {e}", file=sys.stderr)
             continue
 
+        # Normalisiere Zeilenumbrüche
+        data = data.replace('\r\n', '\n').replace('\r', '\n')
+
         for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", data, re.DOTALL):
-            summary, dtstart_str, location = "", "", ""
+            summary = ""
+            dtstart_str = ""
+            location = ""
             is_utc = False
 
-            m = re.search(r"SUMMARY:(.*?)[\r\n]", block)
+            m = re.search(r"SUMMARY:(.*?)[\n]", block, re.DOTALL)
             if m:
                 summary = m.group(1).strip()
-            m = re.search(r"DTSTART[^:]*:(.*?)[\r\n]", block)
+            m = re.search(r"DTSTART[^:]*:(.*?)[\n]", block, re.DOTALL)
             if m:
                 dtstart_str = m.group(1).strip()
             if dtstart_str.endswith("Z"):
                 is_utc = True
                 dtstart_str = dtstart_str[:-1]
-            m = re.search(r"LOCATION:(.*?)[\r\n]", block)
+            m = re.search(r"LOCATION:(.*?)[\n]", block, re.DOTALL)
             if m:
                 location = m.group(1).strip().replace("\\n", ", ").replace("\\,", ",")
 
@@ -92,10 +98,10 @@ def fetch_calendar(ical_urls):
                 loc_str = f" ({location})" if location else ""
                 day_diff = (dt_berlin.date() - today_berlin.date()).days
                 tag_label = ["HEUTE", "MORGEN", "ÜBERMORGEN"][day_diff] if day_diff < 3 else ""
-                all_events.append((dt_berlin, tag_label, f"  [{tag_label}] {date_str}: {summary}{loc_str}"))
+                all_events.append(f"  [{tag_label}] {date_str}: {summary}{loc_str}")
 
-    all_events.sort(key=lambda x: x[0])
-    return "\n".join(e[2] for e in all_events) if all_events else "[Keine Termine in den nächsten 3 Tagen]"
+    all_events.sort()
+    return "\n".join(all_events) if all_events else "[Keine Termine in den nächsten 3 Tagen]"
 
 # ─── Wetter (unverändert) ───
 def fetch_weather_for_location(lat, lon, name):
