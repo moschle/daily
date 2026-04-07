@@ -29,78 +29,102 @@ def now_berlin():
 def _normalize_dashes(text):
     return text.replace("\u2014", "-").replace("\u2013", "-").replace("\u2012", "-")
 
-# ─── Kalender: mehrere URLs (Semikolon-getrennt) ───
-def fetch_calendar(ical_urls):
-    """Lädt einen oder mehrere iCal-URLs (durch ; getrennt) und gibt Termine der nächsten 3 Tage aus."""
-    if not ical_urls:
-        return "[Keine Kalender-URL]"
+# ─── Kalender: iCloud CalDAV + iCal-URLs (Semikolon-getrennt) ───
 
+def _parse_ical_events(data, today_berlin, horizon):
+    """Parst iCal-Daten und gibt Events als Liste von Strings zurück."""
+    events = []
+    data = data.replace('\r\n', '\n').replace('\r', '\n')
+    for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", data, re.DOTALL):
+        summary, dtstart_str, location, is_utc = "", "", "", False
+        m = re.search(r"SUMMARY:(.*?)[\n]", block, re.DOTALL)
+        if m: summary = m.group(1).strip()
+        m = re.search(r"DTSTART[^:]*:(.*?)[\n]", block, re.DOTALL)
+        if m: dtstart_str = m.group(1).strip()
+        if dtstart_str.endswith("Z"):
+            is_utc = True
+            dtstart_str = dtstart_str[:-1]
+        m = re.search(r"LOCATION:(.*?)[\n]", block, re.DOTALL)
+        if m: location = m.group(1).strip().replace("\\n", ", ").replace("\\,", ",")
+        dt, is_allday = None, False
+        try:
+            if "T" in dtstart_str:
+                dt = datetime.strptime(dtstart_str[:15], "%Y%m%dT%H%M%S")
+            elif len(dtstart_str) >= 8:
+                dt = datetime.strptime(dtstart_str[:8], "%Y%m%d")
+                is_allday = True
+        except ValueError:
+            continue
+        if dt is None: continue
+        if is_allday: dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
+        elif is_utc: dt_berlin = dt.replace(tzinfo=timezone.utc).astimezone(BERLIN_TZ)
+        else: dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
+        if today_berlin <= dt_berlin < horizon:
+            date_str = dt_berlin.strftime("%a %d.%m.") if is_allday else dt_berlin.strftime("%a %d.%m. %H:%M")
+            loc_str = f" ({location})" if location else ""
+            day_diff = (dt_berlin.date() - today_berlin.date()).days
+            tag_label = ["HEUTE", "MORGEN", "ÜBERMORGEN"][day_diff] if day_diff < 3 else ""
+            events.append(f"  [{tag_label}] {date_str}: {summary}{loc_str}")
+    return events
+
+def _fetch_caldav_events(today_berlin, horizon):
+    """Holt Events via CalDAV (iCloud mit app-spezifischem Passwort)."""
+    apple_id = os.environ.get("APPLE_ID", "")
+    app_password = os.environ.get("APPLE_APP_PASSWORD", "")
+    if not apple_id or not app_password:
+        return []
+    try:
+        import caldav
+        client = caldav.DAVClient(url="https://caldav.icloud.com", username=apple_id, password=app_password)
+        principal = client.principal()
+        calendars = principal.calendars()
+        events = []
+        for cal in calendars:
+            try:
+                results = cal.date_search(start=today_berlin, end=horizon, expand=True)
+                for event in results:
+                    ical_data = event.data
+                    if ical_data:
+                        events.extend(_parse_ical_events(ical_data, today_berlin, horizon))
+            except Exception as e:
+                print(f"CalDAV Kalender-Fehler ({cal}): {e}", file=sys.stderr)
+        print(f"CalDAV: {len(events)} Events geladen", file=sys.stderr)
+        return events
+    except ImportError:
+        print("caldav nicht installiert, überspringe CalDAV", file=sys.stderr)
+        return []
+    except Exception as e:
+        print(f"CalDAV Fehler: {e}", file=sys.stderr)
+        return []
+
+def _fetch_ical_urls(ical_urls, today_berlin, horizon):
+    """Holt Events von iCal-URLs (Semikolon-getrennt)."""
+    events = []
     urls = [u.strip() for u in ical_urls.split(';') if u.strip()]
-    all_events = []
-    today_berlin = now_berlin().replace(hour=0, minute=0, second=0, microsecond=0)
-    horizon = today_berlin + timedelta(days=3)
-
     for url in urls:
-        # Apple iCal verwendet webcal:// – wandle in https:// um
         if url.startswith("webcal://"):
             url = url.replace("webcal://", "https://", 1)
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Morgenbrief/1.0"})
             with urllib.request.urlopen(req, timeout=15) as resp:
                 data = resp.read().decode("utf-8", errors="replace")
+            events.extend(_parse_ical_events(data, today_berlin, horizon))
         except Exception as e:
-            print(f"Kalenderfehler bei {url}: {e}", file=sys.stderr)
-            continue
+            print(f"iCal-Fehler bei {url[:60]}: {e}", file=sys.stderr)
+    return events
 
-        # Normalisiere Zeilenumbrüche
-        data = data.replace('\r\n', '\n').replace('\r', '\n')
-
-        for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", data, re.DOTALL):
-            summary = ""
-            dtstart_str = ""
-            location = ""
-            is_utc = False
-
-            m = re.search(r"SUMMARY:(.*?)[\n]", block, re.DOTALL)
-            if m:
-                summary = m.group(1).strip()
-            m = re.search(r"DTSTART[^:]*:(.*?)[\n]", block, re.DOTALL)
-            if m:
-                dtstart_str = m.group(1).strip()
-            if dtstart_str.endswith("Z"):
-                is_utc = True
-                dtstart_str = dtstart_str[:-1]
-            m = re.search(r"LOCATION:(.*?)[\n]", block, re.DOTALL)
-            if m:
-                location = m.group(1).strip().replace("\\n", ", ").replace("\\,", ",")
-
-            dt, is_allday = None, False
-            try:
-                if "T" in dtstart_str:
-                    dt = datetime.strptime(dtstart_str[:15], "%Y%m%dT%H%M%S")
-                elif len(dtstart_str) >= 8:
-                    dt = datetime.strptime(dtstart_str[:8], "%Y%m%d")
-                    is_allday = True
-            except ValueError:
-                continue
-            if dt is None:
-                continue
-
-            if is_allday:
-                dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
-            elif is_utc:
-                dt_berlin = dt.replace(tzinfo=timezone.utc).astimezone(BERLIN_TZ)
-            else:
-                dt_berlin = dt.replace(tzinfo=BERLIN_TZ)
-
-            if today_berlin <= dt_berlin < horizon:
-                date_str = dt_berlin.strftime("%a %d.%m.") if is_allday else dt_berlin.strftime("%a %d.%m. %H:%M")
-                loc_str = f" ({location})" if location else ""
-                day_diff = (dt_berlin.date() - today_berlin.date()).days
-                tag_label = ["HEUTE", "MORGEN", "ÜBERMORGEN"][day_diff] if day_diff < 3 else ""
-                all_events.append(f"  [{tag_label}] {date_str}: {summary}{loc_str}")
-
-    all_events.sort()
+def fetch_calendar(ical_urls):
+    """Lädt Termine: erst CalDAV (iCloud), dann iCal-URLs als Fallback/Ergänzung."""
+    today_berlin = now_berlin().replace(hour=0, minute=0, second=0, microsecond=0)
+    horizon = today_berlin + timedelta(days=3)
+    all_events = []
+    # 1. CalDAV (iCloud mit App-Passwort)
+    all_events.extend(_fetch_caldav_events(today_berlin, horizon))
+    # 2. iCal-URLs (Google, etc.)
+    if ical_urls:
+        all_events.extend(_fetch_ical_urls(ical_urls, today_berlin, horizon))
+    # Deduplizieren (gleicher Text = gleicher Termin)
+    all_events = sorted(set(all_events))
     return "\n".join(all_events) if all_events else "[Keine Termine in den nächsten 3 Tagen]"
 
 # ─── Wetter (unverändert) ───

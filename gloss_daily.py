@@ -12,8 +12,7 @@ from zoneinfo import ZoneInfo
 
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 STATE_FILE = Path(__file__).parent / "gloss_state.json"
-GLOSS_DIR = Path.home() / "GLOSS_notes"
-GLOSS_DIR.mkdir(exist_ok=True)
+GLOSS_DIR = Path.home() / "Desktop"
 
 # Alte Zettel aufräumen
 def _cleanup_old():
