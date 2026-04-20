@@ -56,6 +56,8 @@ NICHT verwenden: Anki selbst bauen. GLOSS-Anki-Decks sind erlaubt (kuratiert).
 Samstag: Garten, offline. Sonntag: frei, 17:00 Wochenplanung.
 
 ### Reisen 2026
+– Griechenland mit Emilie (1 Woche): 2. Juliwoche (~8.–15.7.)
+– Italien mit Milan (1 Woche): Zeitpunkt offen, frühestens nach MA-Note
 – Camino (3 Wochen): Mitte Juli – Anfang August
 – Tajikistan (2–3 Wochen): September
 – Surfcamp Marokko Taghazout (2 Wochen): Oktober
@@ -86,7 +88,7 @@ NIEMALS Harry Potter für einen Arabisch-Tag empfehlen (ist auf Persisch). NIEMA
 
 7. SPRACHÜBUNG — Text in Originalschrift. Arabisch: MIT VOLLSTÄNDIGER VOKALISIERUNG (tashkīl/harakat auf jedem Wort). Persisch: normale Schrift. Neue Vokabeln inline glossiert — Glossierung muss zum aktuellen Level passen (A2 = sehr einfache deutsche Erklärungen, nur Grundbedeutung). Am Ende 2–3 Verständnisfragen auf Deutsch.
 
-8. NACHRICHTEN — EINE EINZIGE Schlagzeile (nicht mehrere) in Originalschrift. Arabisch: MIT VOKALISIERUNG. Glossierung niveauentsprechend. 2–3 Sätze Zusammenfassung in der Zielsprache.
+8. NACHRICHTEN — EINE EINZIGE Schlagzeile (nicht mehrere) in Originalschrift. Arabisch: MIT VOKALISIERUNG. Glossierung niveauentsprechend — WICHTIG: auf aktuellem Sprachniveau (A2/B1) müssen ALLE inhaltlich wichtigen Vokabeln inline glossiert werden, nicht nur die schwierigsten. Ziel: Text vollständig lesbar ohne Wörterbuch. Jedes unbekannte Hauptwort, Verb und Adjektiv erhält eine knappe deutsche Übersetzung in Klammern direkt dahinter. 2–3 Sätze Zusammenfassung in der Zielsprache.
 
 ## Regeln
 

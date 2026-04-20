@@ -1,20 +1,23 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 3. April 2026*
+*Letzte Aktualisierung: 20. April 2026*
 
-## Diese Woche (31.3.–6.4.)
+## Diese Woche (31.3.–6.4.) — abgelaufen
 
-- [ ] Niedersachsen MI Bewerbung (Sachbearbeiter Auswertung Islamismus, EG 11 TV-L, Hannover) — Frist 6.4.
+- [x] Niedersachsen MI Bewerbung (Sachbearbeiter Auswertung Islamismus, EG 11 TV-L, Hannover) — Frist 6.4., abgelaufen
 - [ ] hochroth-Paket vorbereiten: Exposé (1–2 S.) + 5–6 Übersetzungsproben von 2–3 Dichter:innen (nicht nur Dilorom) + Probekommentar der das Anthologie-Format zeigt. Zuerst hochroth Leipzig (Ulrike Feibig, Martina Lisa — Edition OstroVers), dann hochroth Berlin (Vera Kurlenina — Lyrikübersetzung Osteuropa).
-- [ ] BfV AWV-2026-010 Bewerbung (Sachbearbeiter Auswertung Islamismus, gehobener Dienst, Berlin) — Frist 13.4.
-- [ ] BfV AWV-2026-022 Bewerbung (Sachbearbeiter Auswertung Islamismus/islamistischer Terrorismus, mehrere Stellen, Berlin) — Frist 13.4. Gehobener nichttechnischer Verwaltungsdienst oder BA-Abschluss PoWi/VerwWi/Jura mit „gut“. Unbefristet bis E11 TV EntgO Bund (53.578–79.392€/J.) + Nachrichtendienstzulage, spätere Verbeamtung möglich. Online-Bewerbung über Bundesverwaltungsamt.
-- [ ] BKA T-2026-19 Islamwissenschaftler/in, Abt. Islamistisch motivierter Terrorismus/Extremismus, Berlin — Frist 19.4. Unbefristet E14 TV EntgO Bund (!). MA Islamwiss./Arabistik/Orientalistik + sehr gutes Arabisch + Farsi/Tadschikisch explizit gefordert + Feldforschung islamisches Land erwünscht. PERFEKTER FIT. Analyse religiösen Schrifttums, Beratung Ermittlungen, Vorträge, Auslandsdienstreisen. Erweiterte Sicherheitsüberprüfung nötig. Online-Bewerbung karriere.bka.de
-- [ ] **DAAD Regellektorat Nachausschreibung 2026/27** — Online-Bewerbung Frist 14.4. Bis zu 3 Hochschulen angeben. Auswahl: 1) Capital Normal University, Beijing (Sept 2026), 2) Federal University of Pará, Belém (Kulturlektorat, Feb 2027), 3) University of Alger 2, Algier (Sept 2026). Gutachten von Stephan Pabst nötig → am 10.4. beim Lehrstuhltreffen ansprechen!
-- [ ] Wiepersdorf Online-Bewerbung (Residenzstipendium 2027, 3 Monate, 1.200€/Monat + Unterkunft/Verpflegung) — Frist 15.4.
-- [ ] McFit reaktivieren, ersten Besuch diese Woche
+- [x] BfV AWV-2026-010 Bewerbung (Sachbearbeiter Auswertung Islamismus, gehobener Dienst, Berlin) — Frist 13.4., abgelaufen
+- [x] BfV AWV-2026-022 Bewerbung (Sachbearbeiter Auswertung Islamismus/islamistischer Terrorismus, mehrere Stellen, Berlin) — **EINGEREICHT 13.4.2026.** Zeugnisse nachreichen: Personalgewinnung-AWV@bva.bund.de
+- [x] BKA T-2026-19 Islamwissenschaftler/in, Abt. Islamistisch motivierter Terrorismus/Extremismus, Berlin — Frist 19.4., abgelaufen
+- [x] **DAAD Regellektorat Nachausschreibung 2026/27** — Stellen bereits vergeben. Entwürfe für Beijing CNU, Belém UFPA, Alger 2 + Lebenslauf + Gutachtenentwurf liegen als .md vor für Herbst 2026/27.
+- [ ] Wiepersdorf Online-Bewerbung (Residenzstipendium 2027, 3 Monate, 1.200€/Monat + Unterkunft/Verpflegung) — Frist 15.4., abgelaufen
+- [ ] McFit reaktivieren
 
 ## DRINGEND (sofort)
 
+- [ ] **Dilorom Soliboeva anschreiben** (ÜBERFÄLLIG — MA übergeben, lyrikline ankündigen, Briefvorschlag in Vorbereitung)
+- [ ] **Gafforova anschreiben** — Gedicht von Farzana (Gulruhsor) übersetzen, Erlaubnis einholen
+- [ ] **Lyrikline: Aufnahmen auswerten, übersetzen, einreichen** (ÜBERFÄLLIG)
 - [x] Böll-Stiftung Abschlussbericht eingereicht (1.4.2026) Pflicht, sonst Rückforderung letzter Stipendienraten. Formular im Studynet (boell-studynet.de). Deckblatt + narrative Darstellung (Studienabschlussphase + persönliche Bewertung). Nach Erhalt der Note zusätzlich: Kopie Abschlusszeugnis + Deckblatt/Inhaltsverzeichnis MA-Arbeit.
 - [ ] Böll Studynet-Profil aktualisieren (Arbeitgeber, Funktion, Adresse)
 - [ ] Böll Mentoring "Grün vernetzt": Mentor:in suchen auf studynet.boell.de/mentorinnen/. Projektkoordination laut Leitfaden: Ulrike Gringmuth-Dallmer (gringmuth-dallmer@boell.de, 030-28534475). Alumni-Programm allgemein: Dr. Janina Bach (bach@boell.de, 030-28534-421). Nach Beginn der Mentoring-Beziehung bei Koordination melden für Begleitprogramm + Verteiler.
@@ -25,7 +28,7 @@
 
 ## April
 
-- [ ] Lehrstuhltreffen Halle mit Pabst (10.4., Ludwig-Wucherer-Str.) — ⚠️ Pabst um DAAD-Gutachten bitten! Gutachten soll eingehen auf: wiss. Qualifikation, Lehrerfahrung, Eignung fürs Ausland, interkulturelle Kompetenz, Persönlichkeit, Flexibilität. Deckblatt beifügen.
+- [x] Lehrstuhltreffen Halle mit Pabst (10.4., Ludwig-Wucherer-Str.) — ✅ stattgefunden
 - [ ] Lift Diesbar-Seußlitz (11.4.) + August-Assistenz Dresden (Familienausflug)
 - [ ] Einstufungstest Persisch VHS (13.4., 13:00 online)
 - [ ] Lesung Langenstein-Gedenkstätte (21.4.)
@@ -59,10 +62,11 @@
 - [ ] Yage-Projekt Exposé (essayistische Überschreibung von Burroughs' Yage Letters, Oliver Harris Redux Edition 2006. Forschungsreise 2027: Bogotá → Putumayo → Lima → Pucallpa. Fokus auf Northern Gaze, koloniale Haltungen.)
 - [ ] Musikpodcast (iranischer Jazz) — Konzept, Recherche, Pilotfolge
 - [ ] Morgenbrief Public Version — Wochenendprojekt. Generisches Repo (kindle-morning-brief oder morgenbrief) für r/digitalminimalism. config.yaml statt persönlicher Markdown-Dateien, Schritt-für-Schritt README, optionale Sprachübung. Post auf r/digitalminimalism, r/kindle, r/selfhosted.
+- [ ] **Morgenbrief — Arabisch-Nachrichtentext: niveaugerechtere Vokabelhilfe.** Aktuelle Nachrichten auf Arabisch sind zu schwer. Optionen: (a) GLOSS-Integration ausbauen (bekannte Vokabeln aus Lektionsstand überspringen), (b) eigenes Glossar für Nachrichtenvokabular mit Niveaustufen aufbauen, (c) Claude-Prompt anpassen: Nachrichten-Snippet mit dichterer Inline-Glossierung generieren (A2/B1, jedes unbekannte Wort mit dt. Übersetzung direkt dahinter in Klammern).
 
 ## Auto
 
-- [ ] Peugeot 309 reparieren (Kraftstoffstutzen/Flansch Benzinpumpe defekt, muss in Werkstatt). Dann verkaufen.
+- [ ] Peugeot 309 reparieren (Kraftstoffstutzen/Flansch Benzinpumpe defekt) — **nächster Dresdenbesuch: Termin bei Werkstatt Leuner vereinbaren und Wagen vorbeibringen.** Danach verkaufen.
 - [ ] VW Sportsvan von Oma kaufen (2015, 1.4 TSI 125 PS DSG, ~103.000 km, ~8.000€ Familienpreis, Ratenzahlung)
 
 ## Garten (Roitzsch)
@@ -120,9 +124,12 @@
 
 ## Reisen 2026/27
 
-- [ ] Tajikistan September 2026 (2–3 Wochen, Flüge ab ~400€). MA an Dilorom überreichen, lyrikline-Aufnahmen (bessere Tonqualität), Anthologie-Recherche.
+- [ ] **Griechenland 2. Juliwoche** — mit Emilie, 1 Woche (~8.–15.7.)
+- [ ] **Italien** — evtl. 1 Woche mit Milan (Zeitpunkt offen, frühestens nach MA-Note)
+- [ ] Camino (3 Wochen): Mitte Juli – Anfang August
+- [ ] Tajikistan September 2026 (2–3 Wochen). MA an Dilorom überreichen, lyrikline-Aufnahmen (bessere Tonqualität), Anthologie-Recherche. Evtl. kombiniert mit Afghanistan.
 - [ ] Surfen lernen — Westsahara/Marokko (Dakhla, Imsouane, Taghazout). Herbst 2026 oder Frühjahr 2027. ~800–1.200€ für 2–3 Wochen.
-- [ ] Mehrwöchige Wanderung — Ort offen (GR20 Korsika, Lykischer Weg Türkei, Via Dinarica Balkan, Pyrenäen). Herbst 2026 oder Frühjahr 2027.
+- [ ] Mehrwöchige Wanderung — Ort offen (GR20 Korsika, Lykischer Weg Türkei, Via Dinarica Balkan, Pyrenen). Herbst 2026 oder Frühjahr 2027.
 - [ ] Yage-Recherchereise Kolumbien/Peru 2027 (4–6 Wochen, 3.000–5.000€, Finanzierung über Kulturstiftung Sachsen Max Uhlig Reisestipendium)
 
 ## Praktika & Stellen (frühere Liste + aktuelle Funde)

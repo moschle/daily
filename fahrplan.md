@@ -1,6 +1,6 @@
 # Fahrplan Sommer 2026
 
-*Stand: 3. April 2026 — MA abgegeben, Übergangsphase*
+*Stand: 20. April 2026 — MA abgegeben (Note 1,3), Übergangsphase*
 
 ---
 
@@ -55,22 +55,24 @@ April ist unregelmäßig (Dresden nur 11.4., viele Einzeltermine). Ab Mai normal
 
 ### Phase 1: April–Juni 2026 — Grundlagen legen
 
-**DRINGEND (April)**
-- [ ] **BfV Sachbearbeiter Auswertung Islamismus (AWV-2026-010)** — Frist: 13. April ✅ bestätigt online
-  - Gehobener Dienst, Berlin. Analyse, operative Steuerung, internationale Zusammenarbeit.
-- [ ] **DAAD Regellektorat Nachausschreibung 2026/27** — Frist: 14. April ⚡
-  - Online-Bewerbung, bis zu 3 Hochschulen. Gutachten nötig (Pabst am 10.4. fragen!).
-  - Auswahl (Reihenfolge im Formular):
-    1. **Capital Normal University, Beijing** (CHN-RL-13) — Master DaF/Germanistik reicht. Lehrerfahrung. DaF, Literatur, IK, Landeskunde, Fachdidaktik. Beginn Sept 2026. Kontakt: Jeannine Kaliga-Blake, ST34, kaliga-blake@daad.de
-    2. **Federal University of Pará, Belém** (BRA-RL-1) — Kulturlektorat. Master DaF/Germanistik/Romanistik/LitWiss. Promotion wünschenswert. DaF-Lehrerfahrung + Kulturmanagement + Portugiesisch gefordert. Beginn Feb 2027. Kontakt: María del Mar Dumath, ST31, dumath@daad.de
-    3. **University of Alger 2, Algier** (DZA-RL-1) — Promotion erwünscht. Französisch + Arabisch gefragt (!— beides vorhanden). Sprach-/Literaturwiss., Übersetzung, Didaktik. Beginn Sept 2026. Kontakt: Paula Blaschke, ST33, blaschke@daad.de
-  - Alternativen: Beijing International Studies University (CHN-RL-11, breiter, auch Dolmetschen/Übersetzen), University of São Paulo (BRA-RL-10, Promotion Pflicht, eher akademisch)
-  - Allg. Voraussetzungen: Abschluss an dt. Hochschule, EU-Staatsangehörigkeit, Lebensmittelpunkt DE in letzten 2 Jahren
-  - Dauer: mind. 2, max. 5 Jahre. Dienstverhältnis mit Gasthochschule.
-  - Gutachten-Hinweise (aus DAAD-Dokument): Gutachter soll eingehen auf Ausbildung, wiss. Qualifikation, Lehrerfahrung, Eignung fürs Ausland, Fähigkeit Lehrmaterial/Lehrpläne zu entwickeln, Interessenschwerpunkte, Persönlichkeit, Anpassungsfähigkeit, Kontaktfreudigkeit/Flexibilität, Interessen außerhalb des Fachs, Auswirkung auf Werdegang. Deckblatt beifügen.
-- [ ] **Niedersachsen MI: Sachbearbeiter Auswertung Islamismus** — Frist: 6. April ⚡
-  - EG 11 TV-L, Hannover. Landesverfassungsschutz, gleiche Arbeit.
-  - Bewerbung über karriere.niedersachsen.de
+**DRINGEND (April, Stand 20.4.2026)**
+- [x] **BfV AWV-2026-022 (Sachbearbeiter Auswertung Islamismus)** — eingereicht 13.4.2026. Zeugnisse nachreichen: Personalgewinnung-AWV@bva.bund.de
+- [x] **BfV AWV-2026-010** — Frist 13.4., abgelaufen.
+- [x] **BKA T-2026-19** — Frist 19.4., abgelaufen.
+- [x] **Schloss Wiepersdorf Residenz** — Frist 15. April, abgelaufen.
+- [x] **DAAD Regellektorat Nachausschreibung** — Stellen vergeben. Motivationsschreiben Beijing/Belém/Alger2 + Lebenslauf + Gutachtenentwurf liegen als .md-Entwurf vor für Herbst 2026.
+- [x] **Lehrstuhltreffen Halle mit Pabst (10.4.)** — stattgefunden.
+- [ ] **BPB / Landesverfassungsschutz: Auswertung PMK-RI/-AI** — Frist prüfen auf bpb.de.
+
+**Neue Stellen identifiziert (April 2026)**
+- [ ] **AA höherer Auswärtiger Dienst** — Bewerbungsfenster 8. Juni–27. Juli 2026, Test 1. September. Arabisch oder Farsi als Zweitsprache zugelassen. Ernsthaft vorbereiten.
+- [ ] **AA Social Media Analyse / MENA-Desinformation** — Arabischkenntnisse + OSINT + Islamismus-nahe Analyse. Aktuelle Frist prüfen auf auswaertiges-amt.de.
+- [ ] **GRK Heidelberg „Ambivalent Enmity: Dynamics of Antagonism in Asia, Europe, and the Middle East"** — Graduiertenkolleg Heidelberg + Hochschule für Jüdische Studien. Exakt passend: politischer Islam, autoritäre Kontexte, Zentralasien/Nahost. Promotionsstipendien. Bewerbungsfenster und nächste Kohorte prüfen: uni-heidelberg.de/grk-ambivalent-enmity
+- [ ] **Universität Bayreuth: Promotionsstelle Islamwissenschaft** — Islam im Schulbuch, E13 50%, befristet 2 Jahre. Lehrstuhl direkt kontaktieren vor formaler Bewerbung: islamwiss@uni-bayreuth.de
+- [ ] **FU Berlin Iranistik (GK-Iranistik/SGIIG)** — Promotionsstelle historische Linguistik, Persisch/Paschto. Eher Linguistik-Fokus, weniger passend — aber Persisch-Kompetenz Pluspunkt. Prüfen ob neue Kohorte ausgeschrieben.
+- [ ] **H-Soz-Kult regelmäßig checken** — hsozkult.de/job/page für neue Promotionsstellen Arabistik/Islamwissenschaft/Iranistik. Monatlich, immer montags.
+
+- [x] **Niedersachsen MI: Sachbearbeiter Auswertung Islamismus** — Frist 6. April, abgelaufen.
 - [ ] **Schloss Wiepersdorf Residenz** — Frist: 15. April
   - Arbeitsvorhaben formulieren (Übersetzungsprojekt? Egon Schmandt?)
   - Lebenslauf, Textproben, ggf. Empfehlung
@@ -202,7 +204,9 @@ April ist unregelmäßig (Dresden nur 11.4., viele Einzeltermine). Ab Mai normal
 - 26.06. Fr: **LIFT Berlin** (Theater Ost)
 
 **Juli**
+- 08.07. Mi: **Griechenland mit Emilie** (1 Woche, ~8.–15.7.)
 - 15.07. Mi: Zappanale? Bad Doberan
+- 18.07. Sa: Camino Beginn (3 Wochen bis Anfang August)
 - 20.07. Mo: Ostsee
 - 23.07. Do: **LIFT Stralsund**
 - 24.07. Fr: **LIFT Dranske**
