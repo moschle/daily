@@ -16,7 +16,7 @@
 ## DRINGEND (sofort)
 
 - [ ] **Dilorom Soliboeva anschreiben** (ÜBERFÄLLIG — MA übergeben, lyrikline ankündigen, Briefvorschlag in Vorbereitung)
-- [ ] **Gafforova anschreiben** — Gedicht von Farzana (Gulruhsor) übersetzen, Erlaubnis einholen
+- [ ] **Gafforova Farogat antworten** — sie hat am 14.9.2025 gebeten, ein Gedicht von Farzana zu übersetzen. Seit September keine Antwort. Antworten + Übersetzung mitschicken oder ankündigen.
 - [ ] **Lyrikline: Aufnahmen auswerten, übersetzen, einreichen** (ÜBERFÄLLIG)
 - [x] Böll-Stiftung Abschlussbericht eingereicht (1.4.2026) Pflicht, sonst Rückforderung letzter Stipendienraten. Formular im Studynet (boell-studynet.de). Deckblatt + narrative Darstellung (Studienabschlussphase + persönliche Bewertung). Nach Erhalt der Note zusätzlich: Kopie Abschlusszeugnis + Deckblatt/Inhaltsverzeichnis MA-Arbeit.
 - [ ] Böll Studynet-Profil aktualisieren (Arbeitgeber, Funktion, Adresse)
