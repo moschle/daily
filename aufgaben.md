@@ -16,6 +16,7 @@
 ## DRINGEND (sofort)
 
 - [ ] **Dilorom Soliboeva anschreiben** (ÜBERFÄLLIG — MA übergeben, lyrikline ankündigen, Briefvorschlag in Vorbereitung)
+- [ ] **MA-Arbeit: Bereinigte Version für Tadschikistan** — bis September 2026 (vor Reise). Zwei Exemplare: (A) Original für Dilorom persönlich, nicht zur Weitergabe. (B) Bereinigte Fassung zum Verleihen: Übersetzungen + Forschungsstand + biographisch-kontextuelles Kapitel, ohne politische Schlussfolgerungen. Dilorom kann (B) ins Institut mitbringen, an Kolleginnen weitergeben.
 - [ ] **Gafforova Farogat antworten** — sie hat am 14.9.2025 gebeten, ein Gedicht von Farzana zu übersetzen. Seit September keine Antwort. Antworten + Übersetzung mitschicken oder ankündigen.
 - [ ] **Lyrikline: Aufnahmen auswerten, übersetzen, einreichen** (ÜBERFÄLLIG)
 - [x] Böll-Stiftung Abschlussbericht eingereicht (1.4.2026) Pflicht, sonst Rückforderung letzter Stipendienraten. Formular im Studynet (boell-studynet.de). Deckblatt + narrative Darstellung (Studienabschlussphase + persönliche Bewertung). Nach Erhalt der Note zusätzlich: Kopie Abschlusszeugnis + Deckblatt/Inhaltsverzeichnis MA-Arbeit.
