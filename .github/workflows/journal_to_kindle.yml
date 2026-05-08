@@ -1,0 +1,39 @@
+name: Journal to Kindle
+
+# Push akademischer Journals (NewsNet, Slavic Review TOC, CAS TOC) an Kindle.
+# Läuft wöchentlich Sonntag früh und kann manuell gestartet werden.
+
+on:
+  schedule:
+    # Sonntag 04:30 UTC → 05:30/06:30 MEZ/MESZ + GH-Actions-Delay = ~07:00
+    - cron: '30 4 * * 0'
+  workflow_dispatch:
+
+jobs:
+  journal_to_kindle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Abhängigkeiten installieren
+        run: pip install -r requirements.txt
+
+      - name: Journals an Kindle senden
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          KINDLE_EMAIL: ${{ secrets.KINDLE_EMAIL }}
+        run: python journal_to_kindle.py
+
+      - name: State committen
+        run: |
+          git config user.name "Journal Bot"
+          git config user.email "journal@users.noreply.github.com"
+          git add journal_state.json || true
+          git diff --cached --quiet || git commit -m "journal_state: $(date +%Y-%m-%d)"
+          git push || true
