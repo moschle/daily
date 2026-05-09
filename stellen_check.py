@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
 Stellen-Monitor: tägliche Suche nach passenden Wissenschafts-/Behörden-Stellen.
-Quellen: H-Soz-Kult (Atom), kultweet.de (HTML), UniBwM (HTML), service.bund.de (RSS).
+Quellen:
+  DE: H-Soz-Kult (Atom), kultweet.de (HTML), UniBwM (HTML), service.bund.de (RSS)
+  Internationale Erweiterung: arthist.net (RSS), jobs.ac.uk × 3 Fachbereiche (RSS)
 Filter: Score-basiert mit Wortgrenzen-Matching + Hard-Blacklist.
 Output: HTML-Mail an GMAIL_ADDRESS, wenn neue Treffer da sind.
 State: stellen_seen.json mit gesehenen IDs (Aufräumen nach 90 Tagen).
@@ -25,17 +27,11 @@ from xml.etree import ElementTree as ET
 from zoneinfo import ZoneInfo
 
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
-USER_AGENT = "StellenMonitor/1.2 (+https://github.com/moschle/daily)"
+USER_AGENT = "StellenMonitor/2.0 (+https://github.com/moschle/daily)"
 SEEN_FILE = Path(__file__).parent / "stellen_seen.json"
 SEEN_TTL_DAYS = 90
 
 # ─── Filter-Konfiguration: Score-basiert mit Wortgrenzen ───
-# Kategorie-Wertesystem: jede Kategorie liefert max. einmal ihren Weight.
-# Stelle passiert, wenn Summe der Kategorie-Scores >= MIN_SCORE.
-# WICHTIG: Begriffe werden mit Wortgrenzen gematcht (\b...\b),
-# damit "iran" nicht in "Tirana" und "algeri" nicht in "Sozialgericht" matched.
-# Mehrwort-Phrasen ("digital humanities") werden als ganze Phrase gesucht.
-
 MIN_SCORE = 3
 
 CATEGORIES = {
@@ -43,14 +39,14 @@ CATEGORIES = {
     "iran_islam_kern": {
         "weight": 4,
         "terms": [
-            r"iran", r"iranistik", r"iranist\w*", r"persisch\w*",
+            r"iran", r"iranistik", r"iranist\w*", r"persisch\w*", r"persian",
             r"persophon\w*", r"tadschik\w*", r"tajik\w*", r"afghan\w*",
-            r"zentralasien\w*", r"central asia", r"indo-iran\w*",
+            r"zentralasien\w*", r"central asia\w*", r"indo-iran\w*",
             r"islamwiss\w*", r"islamic studies", r"islamistik",
-            r"arabisch\w*", r"arabist\w*",  # NEU: arabisch als Kern (UniBwM-Stelle)
-            r"orientalist\w*", r"orientalistik",
-            r"turkologie", r"turkolog\w*",
-            r"kurd\w*",  # bleibt — wenn "Kurdistan" matched, ist das oft relevant; Yekmal jetzt in Hard-Blacklist
+            r"arabisch\w*", r"arabist\w*", r"arabic studies",
+            r"orientalist\w*", r"orientalistik", r"oriental studies",
+            r"turkologie", r"turkolog\w*", r"turkish studies",
+            r"kurd\w*",
         ],
     },
     # ── Sicherheit/Behörden: 4 Punkte ──
@@ -70,9 +66,9 @@ CATEGORIES = {
         "terms": [
             r"vorderer orient", r"vorder orient",
             r"naher osten", r"mittlerer osten",
-            r"middle east", r"near east", r"morgenland\w*",
-            r"maghreb", r"marokko\w*", r"tunesi\w*", r"algeri\w*",
-            r"westsahara",
+            r"middle east\w*", r"near east\w*", r"morgenland\w*",
+            r"maghreb", r"marokko\w*", r"morocco", r"tunesi\w*",
+            r"algeri\w*", r"westsahara",
             r"ottoman\w*", r"osman\w*",
         ],
     },
@@ -81,8 +77,10 @@ CATEGORIES = {
         "weight": 3,
         "terms": [
             r"literarische übersetzung", r"literarisches übersetzen",
+            r"literary translation",
             r"übersetzungswiss\w*", r"übersetzungswerkstatt",
             r"lyrik\w*", r"poesie", r"persische lyrik", r"lyriker\w*",
+            r"poetry", r"poetics",
         ],
     },
     # ── DH / Computational: 3 Punkte ──
@@ -93,6 +91,7 @@ CATEGORIES = {
             r"computational linguist\w*",
             r"korpuslinguist\w*", r"korpus-",
             r"computerphilolog\w*",
+            r"corpus linguistic\w*",
         ],
     },
     # ── Migration/EZ Maghreb-spezifisch: 3 Punkte ──
@@ -113,7 +112,7 @@ CATEGORIES = {
             r"gedenkstätte\w*", r"gedenk- und bildung\w*", r"gedenkstaette\w*",
             r"erinnerungskultur", r"erinnerungsort\w*",
             r"konzentrationslager", r"\bkz-",
-            r"kulturgutverluste", r"kolonial\w*",
+            r"kulturgutverluste", r"kolonial\w*", r"colonial",
             r"ettersberg", r"buchenwald",
             r"andreasstraße", r"andreasstrasse",
             r"langenstein", r"zwieberge",
@@ -133,7 +132,7 @@ CATEGORIES = {
             r"verlag 8\. mai",
             r"melodie & rhythmus", r"melodie und rhythmus",
             r"stiftung aufarbeitung",
-            r"sonntag", r"der sonntag",  # Moritz hat zur Sonntag geforscht
+            r"sonntag", r"der sonntag",
         ],
     },
     # ── Klassische Musik / Chormusik: 2 Punkte ──
@@ -165,11 +164,16 @@ CATEGORIES = {
     "kuratorisch_wiss_volo": {
         "weight": 2,
         "terms": [
-            r"kuratorisches volontariat", r"wissenschaftliches volontariat",
-            r"wiss\. volontariat", r"wiss\. volontär\w*",
+            r"kuratorisches volontariat\w*",
+            r"wissenschaftliches volontariat\w*",
+            r"wissenschaftliche volontariat\w*",
+            r"wiss\. volontariat\w*",
+            r"wiss\. volontär\w*",
             r"wissenschaftliche volontär\w*",
-            r"kurator\w*", r"kuratierung",
+            r"kurator\w*", r"kuratierung", r"curator\w*",
             r"ausstellungskonzept\w*", r"sammlungsleitung",
+            r"museumspädagog\w*", r"museumsvermittl\w*",
+            r"museumsmanagement", r"museologie",
         ],
     },
     # ── Schwache Signale: 1 Punkt ──
@@ -191,7 +195,7 @@ CATEGORIES = {
         "weight": 1,
         "terms": [
             r"südasien", r"south asia",
-            r"\basien\b", r"\basia\b",  # nicht in 'Klassische Archäologie'
+            r"\basien\b", r"\basia\b",
             r"bibliothek geisteswiss\w*", r"philologisch\w*",
             r"ostslawisch\w*", r"russistik", r"slavistik", r"slawistik",
             r"osteuropa\w*", r"südosteuropa\w*", r"balkan\w*",
@@ -201,7 +205,6 @@ CATEGORIES = {
 }
 
 # ── Hard-Blacklist: sortiert sofort aus, egal wie hoch der Score ──
-# Diese werden mit einfachem 'in' gematcht (Substring), da es längere Phrasen sind.
 HARD_BLACKLIST = [
     # Sozialarbeit-Pflicht
     "studium der sozialen arbeit erforderlich",
@@ -227,7 +230,7 @@ HARD_BLACKLIST = [
     "stud. hilfskraft", "studentische hilfskraft",
     "wiss. hilfskraft", "wissenschaftliche hilfskraft",
     "studienbegleitend", "minijob", "minjob",
-    # Berufe ohne thematischen Bezug, häufige False Positives
+    # Berufe ohne thematischen Bezug
     "online marketing", "marketing manager", "marketingmanager",
     "people lead",
     "office management erwünscht",
@@ -243,26 +246,20 @@ HARD_BLACKLIST = [
     "länderreferent mittelamerika",
     "evangelischer kirchenkreis",
     "erf medien",
-    # Neu nach Test-Lauf:
     "personalwesen erforderlich",
     "bachelor in sozialer arbeit",
-    "redakteur (w/m/d) berlin/ ostdeutschland",  # zu generischer Lokaljournalismus
 ]
 
 
 # ─── Filter ───
-# Pre-compile alle Patterns für Effizienz
 def _compile_patterns():
-    """Wandelt jeden Term in ein Regex mit Wortgrenzen um."""
     compiled = {}
     for cat_name, cat_data in CATEGORIES.items():
         patterns = []
         for term in cat_data["terms"]:
-            # Wenn term schon \b enthält (z.B. r"\basien\b"), nicht doppelt einklammern
             if r"\b" in term:
                 patterns.append(re.compile(term, re.IGNORECASE))
             else:
-                # Standard: Wortgrenzen drumherum
                 patterns.append(re.compile(r"\b" + term + r"\b", re.IGNORECASE))
         compiled[cat_name] = (cat_data["weight"], patterns)
     return compiled
@@ -328,46 +325,134 @@ def fetch_url(url, timeout=20):
         return resp.read().decode("utf-8", errors="replace")
 
 
-# ─── Quelle 1: H-Soz-Kult Atom ───
-def fetch_hsozkult():
-    url = "https://www.hsozkult.de/job/rss"
-    try:
-        data = fetch_url(url, timeout=30)
-    except Exception as e:
-        print(f"H-Soz-Kult Fehler: {e}", file=sys.stderr)
-        return []
+# ─── Generischer RSS/Atom-Parser ───
+def parse_rss_or_atom(data, source_name, base_url=""):
+    """Parst RSS 2.0 oder Atom-Feed. Gibt Liste von dicts zurück."""
     jobs = []
     try:
-        ns = {"atom": "http://www.w3.org/2005/Atom"}
         root = ET.fromstring(data)
+    except ET.ParseError as e:
+        print(f"{source_name} XML-Fehler: {e}", file=sys.stderr)
+        return []
+
+    # RSS 2.0?
+    channel = root.find("channel")
+    if channel is not None:
+        for item in channel.findall("item"):
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            desc = (item.findtext("description") or "").strip()
+            guid = (item.findtext("guid") or link).strip()
+            if not title or not link:
+                continue
+            desc_clean = unescape(re.sub(r"<[^>]+>", " ", desc))
+            desc_clean = re.sub(r"\s+", " ", desc_clean).strip()
+            jobs.append({
+                "source": source_name,
+                "id": guid or link,
+                "title": title,
+                "url": urljoin(base_url, link) if base_url else link,
+                "summary": desc_clean[:500],
+                "updated": (item.findtext("pubDate") or "").strip(),
+            })
+        return jobs
+
+    # Atom?
+    ns = {"atom": "http://www.w3.org/2005/Atom"}
+    if root.tag.endswith("feed") or root.findall("atom:entry", ns):
         for entry in root.findall("atom:entry", ns):
             title_elem = entry.find("atom:title", ns)
             id_elem = entry.find("atom:id", ns)
             link_elem = entry.find("atom:link[@rel='alternate']", ns)
+            if link_elem is None:
+                link_elem = entry.find("atom:link", ns)
             summary_elem = entry.find("atom:summary", ns)
+            content_elem = entry.find("atom:content", ns)
             updated_elem = entry.find("atom:updated", ns)
+
             title = (title_elem.text or "").strip() if title_elem is not None else ""
             job_id = (id_elem.text or "").strip() if id_elem is not None else ""
             url_link = link_elem.get("href", "") if link_elem is not None else ""
-            summary = (summary_elem.text or "").strip() if summary_elem is not None else ""
+            summary = ""
+            if summary_elem is not None and summary_elem.text:
+                summary = summary_elem.text.strip()
+            elif content_elem is not None and content_elem.text:
+                summary = content_elem.text.strip()
+            summary = unescape(re.sub(r"<[^>]+>", " ", summary))
+            summary = re.sub(r"\s+", " ", summary).strip()
             updated = (updated_elem.text or "").strip() if updated_elem is not None else ""
             if not title or not job_id:
                 continue
             jobs.append({
-                "source": "H-Soz-Kult",
+                "source": source_name,
                 "id": job_id,
                 "title": title,
-                "url": urljoin(url, url_link) if url_link else job_id,
-                "summary": summary,
+                "url": urljoin(base_url, url_link) if base_url else (url_link or job_id),
+                "summary": summary[:500],
                 "updated": updated,
             })
-    except ET.ParseError as e:
-        print(f"H-Soz-Kult XML-Fehler: {e}", file=sys.stderr)
-    print(f"H-Soz-Kult: {len(jobs)} Stellen geladen", file=sys.stderr)
     return jobs
 
 
-# ─── Quelle 2: kultweet.de HTML ───
+def fetch_feed(url, source_name):
+    """Generische Feed-Abfrage mit Fehlerbehandlung."""
+    try:
+        data = fetch_url(url, timeout=30)
+    except Exception as e:
+        print(f"{source_name} Fehler: {e}", file=sys.stderr)
+        return []
+    jobs = parse_rss_or_atom(data, source_name, base_url=url)
+    print(f"{source_name}: {len(jobs)} Stellen geladen", file=sys.stderr)
+    return jobs
+
+
+# ─── Quelle: H-Soz-Kult Atom ───
+def fetch_hsozkult():
+    return fetch_feed("https://www.hsozkult.de/job/rss", "H-Soz-Kult")
+
+
+# ─── Quelle: service.bund.de RSS ───
+def fetch_servicebund():
+    return fetch_feed(
+        "https://www.service.bund.de/Content/Globals/Functions/RSSFeed/RSSGenerator_Stellen.xml",
+        "service.bund.de"
+    )
+
+
+# ─── Quelle: arthist.net RSS ───
+# Vermischt Jobs/CFPs/Konferenzen — Filter zieht nur die Jobs raus
+def fetch_arthist():
+    """arthist.net Feed — vermischt JOB/CFP/CONF — wir nehmen alles und filtern später."""
+    jobs = fetch_feed("http://arthist.net/rss.xml", "arthist.net")
+    # Optional: Vorfilter, nur Items deren Titel mit "JOB:" beginnt
+    filtered = [j for j in jobs if j["title"].startswith("JOB:") or "JOB:" in j["title"][:10]]
+    if filtered:
+        print(f"arthist.net: davon {len(filtered)} JOB-Einträge", file=sys.stderr)
+        return filtered
+    return jobs  # Fallback: nichts vorgefiltert
+
+
+# ─── Quelle: jobs.ac.uk RSS-Feeds ───
+def fetch_jobsacuk_languages():
+    return fetch_feed(
+        "https://www.jobs.ac.uk/jobs/languages-literature-and-culture/?format=rss",
+        "jobs.ac.uk Languages"
+    )
+
+def fetch_jobsacuk_history():
+    return fetch_feed(
+        "https://www.jobs.ac.uk/jobs/historical-and-philosophical-studies/?format=rss",
+        "jobs.ac.uk History"
+    )
+
+def fetch_jobsacuk_politics():
+    return fetch_feed(
+        "https://www.jobs.ac.uk/jobs/politics-and-government/?format=rss",
+        "jobs.ac.uk Politics"
+    )
+
+
+# ─── Quelle: kultweet.de HTML ───
 class KultweetParser(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -436,7 +521,7 @@ def fetch_kultweet():
     return deduped
 
 
-# ─── Quelle 3: UniBwM HTML ───
+# ─── Quelle: UniBwM HTML ───
 class UniBwMParser(HTMLParser):
     """Echte Struktur: <a href="...pdf"><h2>Fakultät</h2>Stellentitel-Text</a>"""
     def __init__(self):
@@ -466,7 +551,10 @@ class UniBwMParser(HTMLParser):
         elif tag == "a" and self.in_relevant_link:
             faculty = re.sub(r"\s+", " ", " ".join(self.h2_buf)).strip()
             title_text = re.sub(r"\s+", " ", " ".join(self.text_buf)).strip()
-            full_url = urljoin("https://www.unibw.de/stellenausschreibungen/wissenschaftliche-mitarbeiter", self.current_href)
+            full_url = urljoin(
+                "https://www.unibw.de/stellenausschreibungen/wissenschaftliche-mitarbeiter",
+                self.current_href
+            )
             url_id = full_url.rsplit("/", 1)[-1].replace(".pdf", "")
             if title_text or faculty:
                 self.jobs.append({
@@ -505,40 +593,6 @@ def fetch_unibwm():
     return parser.jobs
 
 
-# ─── Quelle 4: service.bund.de RSS ───
-def fetch_servicebund():
-    url = "https://www.service.bund.de/Content/Globals/Functions/RSSFeed/RSSGenerator_Stellen.xml"
-    try:
-        data = fetch_url(url, timeout=30)
-    except Exception as e:
-        print(f"service.bund Fehler: {e}", file=sys.stderr)
-        return []
-    jobs = []
-    try:
-        root = ET.fromstring(data)
-        for item in root.iter("item"):
-            title = (item.findtext("title") or "").strip()
-            link = (item.findtext("link") or "").strip()
-            desc = (item.findtext("description") or "").strip()
-            guid = (item.findtext("guid") or link).strip()
-            if not title or not link:
-                continue
-            desc_clean = unescape(re.sub(r"<[^>]+>", " ", desc))
-            desc_clean = re.sub(r"\s+", " ", desc_clean).strip()
-            jobs.append({
-                "source": "service.bund.de",
-                "id": guid or link,
-                "title": title,
-                "url": urljoin(url, link),
-                "summary": desc_clean[:500],
-                "updated": "",
-            })
-    except ET.ParseError as e:
-        print(f"service.bund XML-Fehler: {e}", file=sys.stderr)
-    print(f"service.bund.de: {len(jobs)} Stellen geladen", file=sys.stderr)
-    return jobs
-
-
 # ─── Mail ───
 def build_html_mail(scored_hits, total_seen, sources_status):
     today = datetime.now(BERLIN_TZ).strftime("%a, %d.%m.%Y")
@@ -571,7 +625,7 @@ def build_html_mail(scored_hits, total_seen, sources_status):
     for s, count in sources_status.items():
         parts.append(f"{s}: {count} geladen<br>")
     parts.append(f"Insgesamt im Gedächtnis: {total_seen} Stellen<br>")
-    parts.append(f"Min-Score: {MIN_SCORE}<br>")
+    parts.append(f"Min-Score: {MIN_SCORE} (Skript-Version: 2.0)<br>")
     parts.append("</p></body></html>")
     return "\n".join(parts)
 
@@ -606,6 +660,10 @@ def main():
         ("kultweet", fetch_kultweet),
         ("UniBwM", fetch_unibwm),
         ("service.bund.de", fetch_servicebund),
+        ("arthist.net", fetch_arthist),
+        ("jobs.ac.uk Languages", fetch_jobsacuk_languages),
+        ("jobs.ac.uk History", fetch_jobsacuk_history),
+        ("jobs.ac.uk Politics", fetch_jobsacuk_politics),
     ]
     all_jobs = []
     sources_status = {}
