@@ -653,5 +653,95 @@
       "kuratorisch_wiss_volo",
       "schwach_methodisch"
     ]
+  },
+  "kultweet-247883": {
+    "first_seen": "2026-05-12T10:04:54.882287+00:00",
+    "source": "kultweet",
+    "title": "Junior-Berater*in für Privatkapitalmobilisierung und private Investitionen in städtische Infrastruktur, Voll- oder Teilzeit | Eschborn​‌‌‌‌​​‌​​​​‌​​‌​‌‌ - Deutsche Gesellschaft für Internationale Zu",
+    "url": "https://jobs.giz.de/index.php?ac=jobad&id=78266",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1446693.html": {
+    "first_seen": "2026-05-12T10:04:56.470651+00:00",
+    "source": "service.bund.de",
+    "title": "Referent/in (w/m/d) Arbeitsmarktpolitik/Fachkräfteeinwanderung",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1446693.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6499280.html": {
+    "first_seen": "2026-05-12T10:04:56.493671+00:00",
+    "source": "service.bund.de",
+    "title": "IT-Datenbankadministratorinnen/IT-Datenbankadministratoren (m/w/d) - AWV-2025-097 - Köln",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6499280.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6499290.html": {
+    "first_seen": "2026-05-12T10:04:56.494763+00:00",
+    "source": "service.bund.de",
+    "title": "IT-Datenbankadministratorinnen/IT-Datenbankadministratoren (m/w/d) - AWV-2025-097 - Berlin",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6499290.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6498991.html": {
+    "first_seen": "2026-05-12T10:04:56.495770+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterin/Mitarbeiter (w/m/d) in der Kommunikationspsychologie, AS-2026-063",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6498991.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6499633.html": {
+    "first_seen": "2026-05-12T10:04:56.511759+00:00",
+    "source": "service.bund.de",
+    "title": "Fachreferentin / Fachreferent (m/w/d) im Resilienzmanagement - AWV-2026-024 - Köln",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6499633.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6499655.html": {
+    "first_seen": "2026-05-12T10:04:56.512401+00:00",
+    "source": "service.bund.de",
+    "title": "Fachreferentin / Fachreferent (m/w/d) im Resilienzmanagement - AWV-2026-024 - Berlin",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6499655.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/giz/2026/05/1572859-21601.html": {
+    "first_seen": "2026-05-12T10:04:56.661024+00:00",
+    "source": "service.bund.de",
+    "title": "Junior-Berater*in für Privatkapitalmobilisierung und private Investitionen in städtische Infrastruktur",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/giz/2026/05/1572859-21601.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.jobs.ac.uk/job/DRM943/associate-lecturer-in-digital-humanities-and-modern-languages-comparative-literature-education-focused-ao1995rx/": {
+    "first_seen": "2026-05-12T10:04:56.711014+00:00",
+    "source": "jobs.ac.uk Languages",
+    "title": "Associate Lecturer in Digital Humanities and Modern Languages/Comparative Literature (Education Focused) - AO1995RX",
+    "url": "https://www.jobs.ac.uk/job/DRM943/associate-lecturer-in-digital-humanities-and-modern-languages-comparative-literature-education-focused-ao1995rx/",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
   }
 }
