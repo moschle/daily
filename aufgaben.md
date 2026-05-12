@@ -1,17 +1,20 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 27. April 2026*
+*Letzte Aktualisierung: 12. Mai 2026*
 
 ## DRINGEND (sofort)
 
 - [ ] **ZfA anrufen** (+49 22899 358-74209): Klärung ob MA "Deutsche Literatur und Kultur + Arabistik" als "vergleichbar" zu Master DaF anerkannt wird. Vor BPLK-Bewerbung. Falls ja: BPLK Tadschikistan/Usbekistan möglich.
-- [ ] **Bayreuth Islam-in-Afrika E13** — Frist 15.5.2026, OMEKA S. Top of mind, jetzt vorbereiten.
+- [ ] **Bayreuth Islam-in-Afrika E13** — Frist 15.5.2026, OMEKA S. Noch nicht beworben — jetzt sofort.
+- [ ] **Uni Hildesheim** — Frist 15.5.2026. Noch nicht beworben — jetzt sofort.
+- [ ] **GIZ Deutsch-Indischer Digitaldialog: Gesprächsvorbereitung** — Interview 14.05., 09:00–09:40 CEST (MS Teams, Özlem Buran + Lars Radscheidt, beide Neu-Delhi). Zugesagt ✓
 - [ ] **Schichtstrategie Camino**: Spätdienst + Nachtdienst 22.5. tauschen, um Urlaubstag zu gewinnen für Camino-Start 23.5.
 - [ ] **Lyrikline-Aufnahmen werden in Tajikistan September neu gemacht** — alte Aufnahmen zu schwach. Aktuelles Übersetzen + Einreichen abgesagt zugunsten Neuaufnahmen.
 
 ## Diese Woche
 
-- [ ] hochroth-Paket vorbereiten: Exposé (1–2 S.) + 5–6 Übersetzungsproben von 2–3 Dichter:innen (nicht nur Dilorom) + Probekommentar. Beide hochroth Leipzig + hochroth Bielefeld haben auf Buchmesse Interesse signalisiert. Anthologie-Projekt mit hochroth Bielefeld konkret.
+- [x] hochroth-Mail abgeschickt (12.5.) — Anthologie-Projekt hochroth Bielefeld, wartet auf Rückmeldung
+- [x] Mail an Pabst (12.5.) — korrigierte Version Berliner Debatten Initial abgeschickt, wartet auf Druckfreigabe
 - [ ] McFit reaktivieren
 
 ## Bewerbungspipeline (Stand 27.4.2026)
@@ -19,11 +22,15 @@
 ### Aktiv läuft
 - [x] BfV AWV-2026-022 (Auswertung Islamismus, Berlin) — eingereicht 13.4.2026, läuft. Zeugnisse nachreichen über Personalgewinnung-AWV@bva.bund.de
 - [x] BND AWV-2026-045 — abgeschickt
+- [x] GIZ Deutsch-Indischer Digitaldialog — Bewerbungsgespräch 14.5. zugesagt ✓
 - [ ] Auswärtiger Dienst höherer Dienst — Bewerbungsfenster 8.6.–27.7.2026, Test 1.9. Französisch C1 nötig.
 - [ ] GRK Heidelberg "Ambivalent Enmity" Promotionsstipendien
 - [ ] Uni Bayreuth Islamwissenschaft Promotionsstelle
-- [ ] **Bayreuth Islam-in-Afrika E13 — Frist 15.5.2026, OMEKA S** (siehe oben, dringend)
-- [ ] AwareNet Hannover E13 Islamismusprävention
+- [ ] **Bayreuth Islam-in-Afrika E13 — Frist 15.5.2026** (⚠️ noch nicht beworben)
+- [ ] **Uni Hildesheim — Frist 15.5.2026** (⚠️ noch nicht beworben)
+- [ ] AVP Düsseldorf 80% Projektleitung Prävention/De-Radikalisierung (rolling, bewerbung@a-v-p.org)
+- [ ] MfD München Maghreb Circular Migration (Frist erfragen: joachim.scheurer@munichforum.org)
+- [ ] AwareNet Hannover E13 Islamismusprävention (Deadline prüfen)
 
 ### Abgesagt / nicht mehr aktiv
 - BfV Rechtsextremismus-Stelle: nach einer Woche abgesagt
@@ -191,10 +198,34 @@ Doku: daf_pfade_uebersicht.md
 - [ ] LfV Bayern: lfv.bayern.de/karriere monatlich (currently nur IT/Cyber)
 - [ ] BfV-Stellenportal monatlich
 
+### Neue Stellen (Stand 11.5.2026)
+
+**Tier 1 — bewerben:**
+- [ ] **Flossenbürg Bildungsabteilung E13 TV-L** — Frist 25.5.2026, Interamt ID 1439970, ab 1.11.2026, Standort Flossenbürg (BY). Match: Langenstein-Buch, Warte-Führungserfahrung.
+- [ ] **zenith Magazin Berlin** (Persisch/Arabisch explizit), De Gruyter/Brill Volontariat, UniBw München Arabistik E14 (ab 1.9.26), GEI Braunschweig, sujet Verlag Bremen, Bundessprachenamt Hürth
+
+**Tier 2 — sinnvoll:**
+- [ ] **Gedenkstättenverbund Südl. Oberrhein, Offenburg** — 0,4 GF Homeoffice, 1.500€/Monat, Frist 1.6.2026 (bewerbung@gedenkstaettenverbund-suedlicher-oberrhein.de). Baustein parallel zu Pflegeassistenz.
+- [ ] Matthes & Seitz (offen ab 1.5.), Jena LfbA Persisch, GIZ Tadschikistan, Haus für Poesie
+
+**Tier 3 — opportunistisch:**
+- [ ] **Kulturgutverluste Berlin E11 unbefristet** — Frist 31.5.2026, Kennziffer 2026-02 (bewerbung@kulturgutverluste.de). Schwäche: HiDA4/Metadatenstandards fehlen.
+- [ ] **HKW Volontariat Musik & Klangpraktiken** — Frist 18.5.2026. Eher skippen (E2, Überqualifikation).
+
+**Skip:**
+- DaMOst AntiRaktiv (K.O.: 3+ Jahre Antirassismus-Beratung)
+
 ## Laufend
 
 - [x] VG Wort Anmeldung (3.4.2026)
 - [ ] Website moritzschlenstedt.de pflegen (Carrd)
+
+## Erledigt (Mai 2026)
+
+- [x] Mail an Pabst — korrigierte Version Berliner Debatten Initial (12.5.2026)
+- [x] hochroth-Mail an hochroth Bielefeld — Anthologie-Paket (12.5.2026)
+- [x] GIZ Deutsch-Indischer Digitaldialog: Gespräch 14.5. zugesagt
+- [x] ASEEES Vollmitglied seit Mai 2026 (Independent Scholar, Leipzig)
 
 ## Erledigt (April 2026)
 
