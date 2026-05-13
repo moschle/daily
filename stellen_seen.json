@@ -743,5 +743,77 @@
     "categories": [
       "digital_humanities"
     ]
+  },
+  "kultweet-247998": {
+    "first_seen": "2026-05-13T10:04:11.206729+00:00",
+    "source": "kultweet",
+    "title": "Studentische*r Mitarbeiter*in (20 Wochenstunden, m/w/d), befristet | Berlin​‌‌‌‌​​‌​​​‌​‌‌‌‌‌​ - CLAIM gGmbH",
+    "url": "https://www.claim-organisation.de/content/uploads/2026/05/studentische_r-mitarbeiter_in-20-wochenstunden-m-w-d.pdf?x20952",
+    "score": 4,
+    "categories": [
+      "iran_islam_kern"
+    ]
+  },
+  "kultweet-247983": {
+    "first_seen": "2026-05-13T10:04:11.233904+00:00",
+    "source": "kultweet",
+    "title": "Civil Peace Service (CPS) Advisor (m/f/d) for Dealing with the Past (DwP) and Mental Health and Psychosocial Support (MHPSS) | Bujumbura, Burundi​‌‌‌‌​​‌​​​‌​‌​‌‌‌‌ - Deutsche Gesellschaft für Intern",
+    "url": "https://jobs.giz.de/index.php?ac=jobad&id=77402",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "kultweet-247982": {
+    "first_seen": "2026-05-13T10:04:11.235442+00:00",
+    "source": "kultweet",
+    "title": "Berater*in humanitäre Hilfe, Voll- oder Teilzeit | Berlin​‌‌‌‌​​‌​​​‌​‌​‌‌‌​ - Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)",
+    "url": "https://jobs.giz.de/index.php?ac=jobad&id=78296",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "kultweet-247970": {
+    "first_seen": "2026-05-13T10:04:11.253587+00:00",
+    "source": "kultweet",
+    "title": "Leitung für das Kreismuseum (unbefristet / Vollzeit / teilzeitgeeignet) | Peine​‌‌‌‌​​‌​​​‌​‌​​​‌​ - Landkreis Peine",
+    "url": "https://bewerbermanagement.net/jobposting/8a8598d6d2c4d01802b8d8a98e1e0b4533c9eda90?ref=homepage",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-247967": {
+    "first_seen": "2026-05-13T10:04:11.259014+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliches Volontariat (m/w/d) im Fachbereich Kultur für das Museum am Schölerberg | Osnabrück​‌‌‌‌​​‌​​​‌​​‌‌‌‌‌ - Stadt Osnabrück",
+    "url": "https://karriere.bei-der-stadt.de/jobposting/a73bdd36aa6529f29890a644ab48f637700aa858",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-247929": {
+    "first_seen": "2026-05-13T10:04:11.321647+00:00",
+    "source": "kultweet",
+    "title": "Referent/in Policy & Partnership (m/w/d), Vollzeit | Berlin​‌‌‌‌​​‌​​​​‌‌‌‌​​‌ - DRK-Generalsekretariat in Berlin",
+    "url": "https://jobs.drk.de/job-postings/deutsches-rotes-kreuz-e-v-generalsekretariat-referent-in-policy-partnership-m-w-d",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1444758.html": {
+    "first_seen": "2026-05-13T10:04:12.913419+00:00",
+    "source": "service.bund.de",
+    "title": "Gruppenleitung (m/w/d) - Meldewesen/Visa/EU-Freizügigkeit/Rückkehrmanagement und Asyl",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1444758.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
   }
 }
