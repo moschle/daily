@@ -5,9 +5,8 @@
 ## DRINGEND (sofort)
 
 - [ ] **ZfA anrufen** (+49 22899 358-74209): Klärung ob MA "Deutsche Literatur und Kultur + Arabistik" als "vergleichbar" zu Master DaF anerkannt wird. Vor BPLK-Bewerbung. Falls ja: BPLK Tadschikistan/Usbekistan möglich.
-- [ ] **Bayreuth Islam-in-Afrika E13** — Frist 15.5.2026, OMEKA S. Noch nicht beworben — jetzt sofort.
-- [ ] **Uni Hildesheim** — Frist 15.5.2026. Noch nicht beworben — jetzt sofort.
-- [ ] **GIZ Deutsch-Indischer Digitaldialog: Gesprächsvorbereitung** — Interview 14.05., 09:00–09:40 CEST (MS Teams, Özlem Buran + Lars Radscheidt, beide Neu-Delhi). Zugesagt ✓
+- [ ] **Uni Hildesheim E13 50%** — Frist 15.5.2026, Kennziffer 2026/76. Anschreiben fertig (Stand 10.5.), liegt unter ~/Documents/Bewerbungen/bewerbung_hildesheim/. Einreichen über Karriereportal.
+- [ ] **GIZ Deutsch-Indischer Digitaldialog: Gesprächsvorbereitung** — Interview 14.05., 09:00–09:40 CEST (MS Teams, Özlem Buran + Lars Radscheidt, beide Neu-Delhi). Briefing liegt in ~/Documents/Bewerbungen/bewerbung_halle/ (verschoben). Zugesagt ✓
 - [ ] **Schichtstrategie Camino**: Spätdienst + Nachtdienst 22.5. tauschen, um Urlaubstag zu gewinnen für Camino-Start 23.5.
 - [ ] **Lyrikline-Aufnahmen werden in Tajikistan September neu gemacht** — alte Aufnahmen zu schwach. Aktuelles Übersetzen + Einreichen abgesagt zugunsten Neuaufnahmen.
 
@@ -26,13 +25,13 @@
 - [ ] Auswärtiger Dienst höherer Dienst — Bewerbungsfenster 8.6.–27.7.2026, Test 1.9. Französisch C1 nötig.
 - [ ] GRK Heidelberg "Ambivalent Enmity" Promotionsstipendien
 - [ ] Uni Bayreuth Islamwissenschaft Promotionsstelle
-- [ ] **Bayreuth Islam-in-Afrika E13 — Frist 15.5.2026** (⚠️ noch nicht beworben)
-- [ ] **Uni Hildesheim — Frist 15.5.2026** (⚠️ noch nicht beworben)
+- [ ] **Uni Hildesheim E13 50% — Frist 15.5.2026, Kennziffer 2026/76** (Anschreiben fertig, einreichen)
 - [ ] AVP Düsseldorf 80% Projektleitung Prävention/De-Radikalisierung (rolling, bewerbung@a-v-p.org)
 - [ ] MfD München Maghreb Circular Migration (Frist erfragen: joachim.scheurer@munichforum.org)
 - [ ] AwareNet Hannover E13 Islamismusprävention (Deadline prüfen)
 
 ### Abgesagt / nicht mehr aktiv
+- **Bayreuth Islam-in-Afrika E13** (12.5.): abgesagt — Pendelaufwand Leipzig–Bayreuth (drei Tage/Woche Präsenz), geringe Erfolgschancen, kein Afrika-Profilmatch. Recherche zum Lehrstuhl + ICA-Projekt bleibt für Promotionsstelle Bayreuth verwertbar.
 - BfV Rechtsextremismus-Stelle: nach einer Woche abgesagt
 - BKA T-2026-19, BfV AWV-2026-010, Niedersachsen MI: Fristen abgelaufen / abgehakt
 - DAAD Regellektorat Nachausschreibung 2026/27: Stellen bereits vergeben
