@@ -1,0 +1,90 @@
+{
+  "albums": [
+    {
+      "artist": "Mammal Hands",
+      "album": "Floa",
+      "suggested": false
+    },
+    {
+      "artist": "Anoushka Shankar",
+      "album": "Traveller",
+      "suggested": false
+    },
+    {
+      "artist": "Thundercat",
+      "album": "Drunk",
+      "suggested": false
+    },
+    {
+      "artist": "Perfume",
+      "album": "Game",
+      "suggested": false
+    },
+    {
+      "artist": "Jlin",
+      "album": "Black Origami",
+      "suggested": false
+    },
+    {
+      "artist": "Yazz Ahmed",
+      "album": "Polyhymnia",
+      "suggested": false
+    },
+    {
+      "artist": "BadBadNotGood",
+      "album": "IV",
+      "suggested": false
+    },
+    {
+      "artist": "Ichiko Aoba",
+      "album": "Windswept Adan",
+      "suggested": false
+    },
+    {
+      "artist": "Masayoshi Takanaka",
+      "album": "The Rainbow Goblins",
+      "suggested": false
+    },
+    {
+      "artist": "Sault",
+      "album": "5",
+      "suggested": true
+    },
+    {
+      "artist": "Shahram Nazeri",
+      "album": "Golha-ye Rangarang",
+      "suggested": false
+    },
+    {
+      "artist": "Vulfpeck",
+      "album": "The Beautiful Game",
+      "suggested": false
+    },
+    {
+      "artist": "Mahsa Vahdat",
+      "album": "Twinklings of Hope",
+      "suggested": false
+    },
+    {
+      "artist": "GoGo Penguin",
+      "album": "Humdrum Star",
+      "suggested": false
+    },
+    {
+      "artist": "Cornelius",
+      "album": "Fantasma",
+      "suggested": false
+    },
+    {
+      "artist": "Sevdaliza",
+      "album": "ISON",
+      "suggested": false
+    },
+    {
+      "artist": "Portico Quartet",
+      "album": "Memory Streams",
+      "suggested": false
+    }
+  ],
+  "generated_at": "2026-05-20T08:41:16.225376+02:00"
+}
