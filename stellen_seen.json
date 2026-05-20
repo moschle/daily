@@ -1023,5 +1023,78 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "https://www.hsozkult.de/job/id/job-162450": {
+    "first_seen": "2026-05-20T10:34:11.061257+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: 1 Wiss. Volontariat (m/w/d) (Landesmuseum Württemberg, Stuttgart)",
+    "url": "https://www.hsozkult.de/job/id/job-162450",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-248273": {
+    "first_seen": "2026-05-20T10:34:11.162551+00:00",
+    "source": "kultweet",
+    "title": "Programmkoordinator*in für den Zivilen Friedensdienst (ZFD), Vollzeit | Kigali, Ruanda​‌‌‌‌​​‌​​‌‌‌​‌​​​‌ - Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)",
+    "url": "https://jobs.giz.de/index.php?ac=jobad&id=77757",
+    "score": 4,
+    "categories": [
+      "migration_ez",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-248269": {
+    "first_seen": "2026-05-20T10:34:11.168462+00:00",
+    "source": "kultweet",
+    "title": "Museologe*in in der Sammlung Alltagskultur 1, 39h/Woche, unbefristet | Berlin​‌‌‌‌​​‌​​‌‌‌​​‌‌​‌ - Stiftung Deutsches Historisches Museum",
+    "url": "https://www.dhm.de/museum/stellenangebote/stellenausschreibungen/museologein-sammlung-alltagskultur-1/",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6508447.html": {
+    "first_seen": "2026-05-20T10:34:12.735097+00:00",
+    "source": "service.bund.de",
+    "title": "Informatiker/-innen (m/w/d) für IT-Sicherheit - AWV-2026-029 - Köln",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6508447.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6508438.html": {
+    "first_seen": "2026-05-20T10:34:12.736157+00:00",
+    "source": "service.bund.de",
+    "title": "Informatiker/-innen (m/w/d) für IT-Sicherheit - AWV-2026-029 - Berlin",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6508438.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1448970.html": {
+    "first_seen": "2026-05-20T10:34:12.775722+00:00",
+    "source": "service.bund.de",
+    "title": "Erzieherin / Erzieher (m/w/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1448970.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1448926.html": {
+    "first_seen": "2026-05-20T10:34:12.800995+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterin /Mitarbeiter im Verfahren zur beschleunigten Fachkräfteeinwanderung",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1448926.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
   }
 }
