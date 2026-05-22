@@ -1262,5 +1262,69 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "kultweet-248437": {
+    "first_seen": "2026-05-22T10:34:05.905771+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliches Volontariat bei den kommunalen Galerien Tempelhof-Schöneberg (m/w/d) | Berlin​‌‌‌‌​​‌​‌​​‌‌‌​‌​‌ - Bezirksamt Tempelhof-Schöneberg von Berlin",
+    "url": "https://www.karriereportal-stellen.berlin.de/wissenschaftliches-volontariat-bei-den-kommunalen-galerien-de-j66893.html?preview=297fe626",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-248423": {
+    "first_seen": "2026-05-22T10:34:05.930230+00:00",
+    "source": "kultweet",
+    "title": "Integrationsmanager:in (m/w/d), befristet, Vollzeit | Berlin​‌‌‌‌​​‌​‌​​‌‌​​‌‌‌ - Bezirksamt Lichtenberg von Berlin",
+    "url": "https://www.karriereportal-stellen.berlin.de/Integrationsmanagerin-mwd-de-j67439.html",
+    "score": 5,
+    "categories": [
+      "iran_islam_kern",
+      "schwach_regional"
+    ]
+  },
+  "kultweet-248420": {
+    "first_seen": "2026-05-22T10:34:05.936437+00:00",
+    "source": "kultweet",
+    "title": "Kurator*in Bauhaus Art Schools (d/m/w), Vollzeit (39 Stunden), befristet | Berlin​‌‌‌‌​​‌​‌​​‌‌​​‌​​ - Bauhaus-Archiv e.V. - Museum für Gestaltung",
+    "url": "https://www.bauhaus.de/wp-content/uploads/2026/05/Ausschreibung_Kurator_in-Bauhaus-Art-Schools-d_m_w-1.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6511579.html": {
+    "first_seen": "2026-05-22T10:34:07.787392+00:00",
+    "source": "service.bund.de",
+    "title": "Bürokräfte (m/w/d)  für Rechtsextremismus/-terrorismus - AWV-2026-021",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6511579.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1450029.html": {
+    "first_seen": "2026-05-22T10:34:07.872742+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliches Volontariat in der Direktion des Goethe- und Schiller-Archivs Kz. 21/2026",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1450029.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/stellenmarkt_nrw/2026/05/a242815c-ec68-41dd-bb73-592355f547a7.html": {
+    "first_seen": "2026-05-22T10:34:07.937253+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiterin / Sachbearbeiter (m/w/d) für das Referat 614 „Prävention, Aussteigerprogramme“ der Abteilung 6 (Verfassungsschutz)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/stellenmarkt_nrw/2026/05/a242815c-ec68-41dd-bb73-592355f547a7.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
