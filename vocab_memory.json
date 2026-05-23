@@ -57,5 +57,70 @@
       "times_reviewed": 0
     }
   ],
-  "fa": []
+  "fa": [
+    {
+      "word": "نویسنده",
+      "meaning": "Autor",
+      "first_seen": "2026-05-23T08:00:05.576686+02:00",
+      "last_review": "2026-05-23T08:00:05.576686+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "روان",
+      "meaning": "fließend",
+      "first_seen": "2026-05-23T08:00:05.576686+02:00",
+      "last_review": "2026-05-23T08:00:05.576686+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "اصلی",
+      "meaning": "Hauptfiguren",
+      "first_seen": "2026-05-23T08:00:05.576686+02:00",
+      "last_review": "2026-05-23T08:00:05.576686+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "واقعی",
+      "meaning": "realistisch",
+      "first_seen": "2026-05-23T08:00:05.576686+02:00",
+      "last_review": "2026-05-23T08:00:05.576686+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "اجتماعی",
+      "meaning": "gesellschaftliche Veränderungen",
+      "first_seen": "2026-05-23T08:00:05.576686+02:00",
+      "last_review": "2026-05-23T08:00:05.576686+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "اثر",
+      "meaning": "Werk",
+      "first_seen": "2026-05-23T08:00:05.576686+02:00",
+      "last_review": "2026-05-23T08:00:05.576686+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "منتقدان",
+      "meaning": "Kritiker",
+      "first_seen": "2026-05-23T08:00:05.576686+02:00",
+      "last_review": "2026-05-23T08:00:05.576686+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "معاصر",
+      "meaning": "zeitgenössische Literatur",
+      "first_seen": "2026-05-23T08:00:05.576686+02:00",
+      "last_review": "2026-05-23T08:00:05.576686+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    }
+  ]
 }
