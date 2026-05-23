@@ -1326,5 +1326,48 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "https://www.hsozkult.de/job/id/job-162518": {
+    "first_seen": "2026-05-23T09:21:09.960591+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: Wiss. Volontariat (w/m/d) (Jüdisches Museum München)",
+    "url": "https://www.hsozkult.de/job/id/job-162518",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.hsozkult.de/job/id/job-162514": {
+    "first_seen": "2026-05-23T09:21:09.966234+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: Wiss. Volontariat (m/w/d) \"Direktion Goethe- und Schiller-Archiv\" (Klassik Stiftung Weimar)",
+    "url": "https://www.hsozkult.de/job/id/job-162514",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-248450": {
+    "first_seen": "2026-05-23T09:21:10.059452+00:00",
+    "source": "kultweet",
+    "title": "Volontariat Kommunikation (m/w/d), Vollzeit, befristet auf 2 Jahre | Hamburg​‌‌‌‌​​‌​‌​‌​​​​​‌​ - Ensemble Resonanz gGmbH",
+    "url": "https://www.ensembleresonanz.com/assets/2026_stellenausschreibung_ensemble-resonanz_volo-kommunikation_05-2026-1779263612.pdf",
+    "score": 3,
+    "categories": [
+      "klassische_musik",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1449724.html": {
+    "first_seen": "2026-05-23T09:21:11.976682+00:00",
+    "source": "service.bund.de",
+    "title": "Eine Referatsleitung (m/w/d) für den Grundsatzbereich in der Abteilung Fördermittelmanagement im höheren Dienst",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1449724.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
