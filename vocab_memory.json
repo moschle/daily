@@ -70,55 +70,95 @@
       "word": "روان",
       "meaning": "fließend",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-05-23T08:00:05.576686+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-05-25T09:04:45.185306+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "اصلی",
       "meaning": "Hauptfiguren",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-05-23T08:00:05.576686+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-05-25T09:04:45.185306+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "واقعی",
       "meaning": "realistisch",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-05-23T08:00:05.576686+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-05-25T09:04:45.185306+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "اجتماعی",
       "meaning": "gesellschaftliche Veränderungen",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-05-23T08:00:05.576686+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-05-25T09:04:45.185306+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "اثر",
       "meaning": "Werk",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-05-23T08:00:05.576686+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-05-25T09:04:45.185306+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "منتقدان",
       "meaning": "Kritiker",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-05-23T08:00:05.576686+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-05-25T09:04:45.185306+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "معاصر",
       "meaning": "zeitgenössische Literatur",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-05-23T08:00:05.576686+02:00",
+      "last_review": "2026-05-25T09:04:45.185306+02:00",
+      "interval": 2,
+      "times_reviewed": 1
+    },
+    {
+      "word": "حرفه",
+      "meaning": "Beruf",
+      "first_seen": "2026-05-25T09:04:45.184688+02:00",
+      "last_review": "2026-05-25T09:04:45.184688+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "کردن",
+      "meaning": "sich bemühen",
+      "first_seen": "2026-05-25T09:04:45.184688+02:00",
+      "last_review": "2026-05-25T09:04:45.184688+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "تغییرات",
+      "meaning": "Veränderungen",
+      "first_seen": "2026-05-25T09:04:45.184688+02:00",
+      "last_review": "2026-05-25T09:04:45.184688+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "دقت",
+      "meaning": "Genauigkeit",
+      "first_seen": "2026-05-25T09:04:45.184688+02:00",
+      "last_review": "2026-05-25T09:04:45.184688+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "بودن",
+      "meaning": "glauben, der Meinung sein",
+      "first_seen": "2026-05-25T09:04:45.184688+02:00",
+      "last_review": "2026-05-25T09:04:45.184688+02:00",
       "interval": 1,
       "times_reviewed": 0
     }
