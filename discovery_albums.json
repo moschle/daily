@@ -8,7 +8,7 @@
     {
       "artist": "Anoushka Shankar",
       "album": "Traveller",
-      "suggested": false
+      "suggested": true
     },
     {
       "artist": "Thundercat",
@@ -86,5 +86,5 @@
       "suggested": false
     }
   ],
-  "generated_at": "2026-05-24T08:29:06.122906+02:00"
+  "generated_at": "2026-05-26T08:39:12.363474+02:00"
 }
