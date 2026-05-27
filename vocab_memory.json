@@ -102,33 +102,33 @@
       "word": "روان",
       "meaning": "fließend",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-05-25T09:04:45.185306+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-05-27T08:56:35.666683+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "اصلی",
       "meaning": "Hauptfiguren",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-05-25T09:04:45.185306+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-05-27T08:56:35.666683+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "واقعی",
       "meaning": "realistisch",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-05-25T09:04:45.185306+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-05-27T08:56:35.666683+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "اجتماعی",
       "meaning": "gesellschaftliche Veränderungen",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-05-25T09:04:45.185306+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-05-27T08:56:35.666683+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "اثر",
@@ -142,25 +142,25 @@
       "word": "منتقدان",
       "meaning": "Kritiker",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-05-25T09:04:45.185306+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-05-27T08:56:35.666683+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "معاصر",
       "meaning": "zeitgenössische Literatur",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-05-25T09:04:45.185306+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-05-27T08:56:35.666683+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "حرفه",
       "meaning": "Beruf",
       "first_seen": "2026-05-25T09:04:45.184688+02:00",
-      "last_review": "2026-05-25T09:04:45.184688+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-05-27T08:56:35.666683+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "کردن",
@@ -174,23 +174,47 @@
       "word": "تغییرات",
       "meaning": "Veränderungen",
       "first_seen": "2026-05-25T09:04:45.184688+02:00",
-      "last_review": "2026-05-25T09:04:45.184688+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-05-27T08:56:35.666683+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "دقت",
       "meaning": "Genauigkeit",
       "first_seen": "2026-05-25T09:04:45.184688+02:00",
-      "last_review": "2026-05-25T09:04:45.184688+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-05-27T08:56:35.666683+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "بودن",
       "meaning": "glauben, der Meinung sein",
       "first_seen": "2026-05-25T09:04:45.184688+02:00",
       "last_review": "2026-05-25T09:04:45.184688+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "شخصیت",
+      "meaning": "Charakter",
+      "first_seen": "2026-05-27T08:56:35.666016+02:00",
+      "last_review": "2026-05-27T08:56:35.666016+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "نگرانی",
+      "meaning": "Sorge",
+      "first_seen": "2026-05-27T08:56:35.666016+02:00",
+      "last_review": "2026-05-27T08:56:35.666016+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "مشهود",
+      "meaning": "sichtbar",
+      "first_seen": "2026-05-27T08:56:35.666016+02:00",
+      "last_review": "2026-05-27T08:56:35.666016+02:00",
       "interval": 1,
       "times_reviewed": 0
     }

@@ -58,7 +58,7 @@
     {
       "artist": "Vulfpeck",
       "album": "The Beautiful Game",
-      "suggested": false
+      "suggested": true
     },
     {
       "artist": "Mahsa Vahdat",
@@ -86,5 +86,5 @@
       "suggested": false
     }
   ],
-  "generated_at": "2026-05-26T08:39:12.363474+02:00"
+  "generated_at": "2026-05-27T08:56:02.132478+02:00"
 }
