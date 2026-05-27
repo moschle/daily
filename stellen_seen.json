@@ -1369,5 +1369,77 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "kultweet-248498": {
+    "first_seen": "2026-05-27T11:04:25.847768+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftlichen Mitarbeiter*in (m/w/d) Statistische Modellierung und Computational Archaeology, befristet, 80% | Kiel​‌‌‌‌​​‌​‌​‌​‌‌​​‌​ - Christian-Albrechts-Universität zu Kiel",
+    "url": "https://www.uni-kiel.de/personal/de/stellen/extern/wiss/ausschreibung-statistische-modellierung-05-26.pdf",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "kultweet-248465": {
+    "first_seen": "2026-05-27T11:04:25.900284+00:00",
+    "source": "kultweet",
+    "title": "Stelle in der Gedenkstättenpädagogik (m/w/d) in der Gedenkstätte KZ Lichtenburg Prettin, befristet | Annaburg, OT Prettin​‌‌‌‌​​‌​‌​‌​​‌​​​‌ - Stiftung Gedenkstätten Sachsen-Anhalt",
+    "url": "https://www.kultweet.de/jobs/Gedenkstaettenpaedagogik.pdf",
+    "score": 3,
+    "categories": [
+      "erinnerungskultur",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6514864.html": {
+    "first_seen": "2026-05-27T11:04:27.574866+00:00",
+    "source": "service.bund.de",
+    "title": "Informatiker/-innen (m/w/d) für die IT-Infrastruktur - AWV-2026-058",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6514864.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.jobs.ac.uk/job/DRR630/lecturer-in-history-and-digital-humanities/": {
+    "first_seen": "2026-05-27T11:04:27.795095+00:00",
+    "source": "jobs.ac.uk Languages",
+    "title": "Lecturer in History and Digital Humanities",
+    "url": "https://www.jobs.ac.uk/job/DRR630/lecturer-in-history-and-digital-humanities/",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "https://www.jobs.ac.uk/job/DRR283/lecturer-assistant-professor-associate-professor-professor-in-translation/": {
+    "first_seen": "2026-05-27T11:04:27.798090+00:00",
+    "source": "jobs.ac.uk Languages",
+    "title": "Lecturer/Assistant Professor/Associate Professor/Professor in Translation",
+    "url": "https://www.jobs.ac.uk/job/DRR283/lecturer-assistant-professor-associate-professor-professor-in-translation/",
+    "score": 5,
+    "categories": [
+      "iran_islam_kern",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.jobs.ac.uk/job/DRR285/lecturer-assistant-or-associate-professor-professor-in-english-literature/": {
+    "first_seen": "2026-05-27T11:04:27.798462+00:00",
+    "source": "jobs.ac.uk Languages",
+    "title": "Lecturer/Assistant or Associate Professor/Professor in English Literature",
+    "url": "https://www.jobs.ac.uk/job/DRR285/lecturer-assistant-or-associate-professor-professor-in-english-literature/",
+    "score": 4,
+    "categories": [
+      "iran_islam_kern"
+    ]
+  },
+  "https://www.jobs.ac.uk/job/DRR398/gerald-averay-wainwright-early-career-research-fellowship-in-near-eastern-archaeology/": {
+    "first_seen": "2026-05-27T11:04:27.805396+00:00",
+    "source": "jobs.ac.uk History",
+    "title": "Gerald Averay Wainwright Early Career Research Fellowship in Near Eastern Archaeology",
+    "url": "https://www.jobs.ac.uk/job/DRR398/gerald-averay-wainwright-early-career-research-fellowship-in-near-eastern-archaeology/",
+    "score": 3,
+    "categories": [
+      "region_orient"
+    ]
   }
 }
