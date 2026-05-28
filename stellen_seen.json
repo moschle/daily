@@ -1441,5 +1441,110 @@
     "categories": [
       "region_orient"
     ]
+  },
+  "kultweet-248640": {
+    "first_seen": "2026-05-28T11:06:00.774077+00:00",
+    "source": "kultweet",
+    "title": "Wiss. Mitarbeiter*in (w/m/d) Ostasien und Vorderer Orient, Institut für Islamwissenschaft, befristet, 50% | Berlin​‌‌‌‌​​‌​‌‌​‌​​​​​​ - Freie Universität Berlin",
+    "url": "https://www.fu-berlin.de/universitaet/beruf-karriere/jobs/wiss/13_fb-geschichts-und-kulturwissenschaften/GK-WiMi_Jong_DFG_2026_D.html",
+    "score": 7,
+    "categories": [
+      "iran_islam_kern",
+      "region_orient"
+    ]
+  },
+  "kultweet-248598": {
+    "first_seen": "2026-05-28T11:06:00.845303+00:00",
+    "source": "kultweet",
+    "title": "Mitarbeiter für die Stabstelle Digitalisierung (m/w/d), Vollzeit, befristet | Lutherstadt Wittenberg​‌‌‌‌​​‌​‌‌​​​‌​‌‌​ - LutherMuseen | Stiftung Luthergedenkstätten in Sachsen-Anhalt",
+    "url": "https://www.luthermuseen.de/sites/default/files/2026-05/2026-05-22_MA-Digitalisierung_final.pdf",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "kultweet-248596": {
+    "first_seen": "2026-05-28T11:06:00.848423+00:00",
+    "source": "kultweet",
+    "title": "Referent*in Advocacy (all genders), Vollzeit, befristet | Berlin​‌‌‌‌​​‌​‌‌​​​‌​‌​​ - Aktion gegen den Hunger e.V.",
+    "url": "https://www.aktiongegendenhunger.de/referent-in-advocacy",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1451784.html": {
+    "first_seen": "2026-05-28T11:06:02.541773+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliches Volontariat (m/w/d) in der KZ-Gedenkstätte Mittelbau-Dora",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1451784.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "erinnerungskultur",
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6516028.html": {
+    "first_seen": "2026-05-28T11:06:02.586244+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterinnen/Mitarbeiter (w/m/d) im Bereich der Auswertung von technischen Bedrohungslagen, AS-2026-075",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6516028.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6515974.html": {
+    "first_seen": "2026-05-28T11:06:02.586840+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterinnen/Mitarbeiter (w/m/d) im Bereich technischer Netzwerkanalyse, AS-2026-072",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6515974.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6515932.html": {
+    "first_seen": "2026-05-28T11:06:02.587995+00:00",
+    "source": "service.bund.de",
+    "title": "Verwaltungsfachangestellte (w/m/d), AS-2026-070",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6515932.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6516004.html": {
+    "first_seen": "2026-05-28T11:06:02.596279+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterinnen/Mitarbeiter (w/m/d) für die Auswertung und der Analyse von Datenströmen/Datenschichten und zur Cyberanalyse, AS-2026-073",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6516004.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6516019.html": {
+    "first_seen": "2026-05-28T11:06:02.598880+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterinnen/Mitarbeiter (w/m/d) im Bereich Data Intelligence, AS-2026-074",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6516019.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6515948.html": {
+    "first_seen": "2026-05-28T11:06:02.599420+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterin/Mitarbeiter (w/m/d) im Bereich SAP-Programmierung, AS-2026-071",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6515948.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
