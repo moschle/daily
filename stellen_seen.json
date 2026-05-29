@@ -1546,5 +1546,47 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "https://www.hsozkult.de/job/id/job-162606": {
+    "first_seen": "2026-05-29T10:56:29.917862+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: Wiss. Volontariat (m/w/d) \"KZ-Gedenkstätte Mittelbau-Dora\" (Stiftung Gedenkstätten Buchenwald und Mittelbau-Dora, Nordhausen)",
+    "url": "https://www.hsozkult.de/job/id/job-162606",
+    "score": 5,
+    "categories": [
+      "erinnerungskultur",
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1452569.html": {
+    "first_seen": "2026-05-29T10:56:31.764189+00:00",
+    "source": "service.bund.de",
+    "title": "Koordinatorin / Koordinator (m/w/d) in der Entwicklungszusammenarbeit",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1452569.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6518051.html": {
+    "first_seen": "2026-05-29T10:56:31.811963+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterinnen/Mitarbeiter (w/m/d) für den Objektschutz, AS-2026-078",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6518051.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1452162.html": {
+    "first_seen": "2026-05-29T10:56:31.905084+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeitung (m/w/d) im Bereich Hausverwaltung in Teilzeit (27 Wochenstunden)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1452162.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
