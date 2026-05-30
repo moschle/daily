@@ -1588,5 +1588,47 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "https://www.hsozkult.de/job/id/job-162677": {
+    "first_seen": "2026-05-30T09:30:21.971355+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: 1 Wiss. Volontariat (m/w/d) \"Museale Arbeit\" (Zweckverband Mühlhäuser Museen, Mühlhausen)",
+    "url": "https://www.hsozkult.de/job/id/job-162677",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1453207.html": {
+    "first_seen": "2026-05-30T09:30:23.752465+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliche/n Mitarbeiter*in Digital Humanities (m/w/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1453207.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1452684.html": {
+    "first_seen": "2026-05-30T09:30:23.940827+00:00",
+    "source": "service.bund.de",
+    "title": "Teamassistenz (m/w/d) für den Bereich Finanzen",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1452684.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://arthist.net/archive/52595": {
+    "first_seen": "2026-05-30T09:30:23.990279+00:00",
+    "source": "arthist.net",
+    "title": "JOB: Wiss. Volontariat bei den Mühlhäuser Museen Mühlhausen (Thüringen)",
+    "url": "https://arthist.net/archive/52595",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
