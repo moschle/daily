@@ -1695,5 +1695,26 @@
       "kuratorisch_wiss_volo",
       "schwach_methodisch"
     ]
+  },
+  "kultweet-248887": {
+    "first_seen": "2026-06-03T12:21:06.728553+00:00",
+    "source": "kultweet",
+    "title": "Archivar (m/w/d), 35%, unbefristet | Freudenstadt​‌‌‌‌​​‌‌​​​​‌‌​‌‌‌ - Landratsamt Freudenstadt",
+    "url": "https://lra-freudenstadt.bewerbung.dvvbw.de/1565-archivar-w-m-d/de/job.html",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "kultweet-248847": {
+    "first_seen": "2026-06-03T12:21:06.793935+00:00",
+    "source": "kultweet",
+    "title": "Referent*in Bildung und Vermittlung und Museumspädagog*in (m/w/d) für das Museum für Kommunikation, Vollzeit | Berlin​‌‌‌‌​​‌‌​​​​​​‌‌‌‌ - Museumsstiftung Post und Telekommunikation",
+    "url": "https://www.museumsstiftung.de/wp-content/uploads/AT_Ref_Bildung_und_Vermittlung_Museumspaedagog_in_MKB_final.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
