@@ -1757,5 +1757,27 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "kultweet-249005": {
+    "first_seen": "2026-06-05T10:57:48.116025+00:00",
+    "source": "kultweet",
+    "title": "Leitung des Kulturhistorischen Museums Wurzen (m/w/d), unbefristet, Teilzeit | Wurzen​‌‌‌‌​​‌‌​​‌​‌​‌‌​‌ - Stadt Wurzen",
+    "url": "https://interamt.de/koop/app/stelle?id=1455101",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-248972": {
+    "first_seen": "2026-06-05T10:57:48.170386+00:00",
+    "source": "kultweet",
+    "title": "Verstärkung im Bereich Administration und Projektmanagement, 20h/Woche | Stein/Krems, Österreich​‌‌‌‌​​‌‌​​‌​​​‌‌​​ - Literaturhaus NÖ",
+    "url": "https://literaturhausnö.at/doc/stellenausschreibung.php",
+    "score": 3,
+    "categories": [
+      "verlag_geistes",
+      "schwach_methodisch"
+    ]
   }
 }
