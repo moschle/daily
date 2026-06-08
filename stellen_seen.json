@@ -1800,5 +1800,36 @@
       "digital_humanities",
       "schwach_methodisch"
     ]
+  },
+  "kultweet-249064": {
+    "first_seen": "2026-06-08T12:15:10.837115+00:00",
+    "source": "kultweet",
+    "title": "30 Attaché(e)s (w/m/d) als Beamtin oder Beamter auf Widerruf im Vorbereitungsdienst für den höheren Auswärtigen Dienst | Berlin​‌‌‌‌​​‌‌​​‌‌‌​‌​​​ - Auswärtiges Amt",
+    "url": "https://www.auswaertiges-amt.de/de/karriere/stellenanzeigen/2773176-2773176",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "kultweet-249045": {
+    "first_seen": "2026-06-08T12:15:10.870741+00:00",
+    "source": "kultweet",
+    "title": "Senior Press and Communication Manager (m/w/d/k), Haus der Kulturen der Welt, 39h/Woche, befristet | Berlin​‌‌‌‌​​‌‌​​‌‌​‌​‌​‌ - KBB - Kulturveranstaltungen des Bundes in Berlin GmbH",
+    "url": "https://kbbjobs.softgarden.io/job/65145448/Senior-Press-and-Communication-Manager-m-w-d-k-?jobDbPVId=274974268&l=de",
+    "score": 3,
+    "categories": [
+      "klassische_musik",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-249041": {
+    "first_seen": "2026-06-08T12:15:10.878066+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliche*r Mitarbeiter*in, Kunstgeschichtliches Institut, befristet, Vollzeit | Marburg​‌‌‌‌​​‌‌​​‌‌​‌​​​‌ - Philipps-Universität Marburg",
+    "url": "https://stellenangebote.uni-marburg.de/jobposting/486b789b5d172a0ae63f069d332f1782fdb91e690",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
   }
 }
