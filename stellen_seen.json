@@ -1925,5 +1925,127 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "kultweet-249267": {
+    "first_seen": "2026-06-11T11:55:18.783488+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliche Mitarbeit (Postdoc- oder Promotionsstelle) im Fachgebiet Frühe Neuzeit / Digital Humanities, (Postdoc/Doc-Stelle), befristet | Hannover​‌‌‌‌​​‌‌​‌‌​‌‌​​‌‌ - Leibniz Universität Hanno",
+    "url": "https://www.uni-hannover.de/jobs/id/8551",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "kultweet-249204": {
+    "first_seen": "2026-06-11T11:55:18.882317+00:00",
+    "source": "kultweet",
+    "title": "wissenschaftliche:r Mitarbeiter:in im Bereich Digital Humanities (m/w/d), Teilzeit, befristet | Bautzen / Cottbus​‌‌‌‌​​‌‌​‌​‌‌‌​‌​​ - Sorbische Institut · Serbski institut",
+    "url": "https://www.kultweet.de/jobs/Sorbisches_Institut_Digital_Humanities.pdf",
+    "score": 4,
+    "categories": [
+      "digital_humanities",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-249182": {
+    "first_seen": "2026-06-11T11:55:18.914257+00:00",
+    "source": "kultweet",
+    "title": "Wiss. Volontariat im Grenzlandmuseum Eichsfeld | Teistungen​‌‌‌‌​​‌‌​‌​‌​‌‌‌‌​ - Grenzlandmuseum Eichsfeld e.V.",
+    "url": "https://www.grenzlandmuseum.de/wp-content/uploads/2026_Stellenausschreibung_Volontariat-Grenzlandmuseum-Eichsfeld.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6533804.html": {
+    "first_seen": "2026-06-11T11:55:20.480418+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiterin/Sachbearbeiter (w/m/d) im Bereich IT-Systemadministration, Dienstort: Großraum Bonn, AS-2026-086",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6533804.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6533833.html": {
+    "first_seen": "2026-06-11T11:55:20.481017+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterin/Mitarbeiter (w/m/d) für den Fachbereich Rechtsangelegenheiten, AS-2026-087",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6533833.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6533849.html": {
+    "first_seen": "2026-06-11T11:55:20.487585+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiter / Mitarbeiterin (m/w/d) für die technische Beschaffung, AS-2026-088",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6533849.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6534016.html": {
+    "first_seen": "2026-06-11T11:55:20.488223+00:00",
+    "source": "service.bund.de",
+    "title": "Bürosachbearbeiter/-in (m/w/d) für Internetrecherchen bei Sicherheitsüberprüfungen - AWV-20026-068 - Köln",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6534016.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6534025.html": {
+    "first_seen": "2026-06-11T11:55:20.488862+00:00",
+    "source": "service.bund.de",
+    "title": "Bürosachbearbeiter/-in (m/w/d) für Internetrecherchen bei Sicherheitsüberprüfungen - AWV-20026-068 - Berlin",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6534025.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6533740.html": {
+    "first_seen": "2026-06-11T11:55:20.492285+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterin/Mitarbeiter (w/m/d) für die Technische Beschaffung, AS-2026-083",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6533740.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6533708.html": {
+    "first_seen": "2026-06-11T11:55:20.492842+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterinnen/Mitarbeiter (w/m/d) für die Technische Beschaffung, AS-2026-081",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6533708.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6533756.html": {
+    "first_seen": "2026-06-11T11:55:20.493373+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiter/Mitarbeiterin (w/m/d) im Bereich der IT-Sicherheit, AS-2026-084",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6533756.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1454267.html": {
+    "first_seen": "2026-06-11T11:55:20.565910+00:00",
+    "source": "service.bund.de",
+    "title": "mehrere Sachbearbeiterinnen und Sachbearbeiter (m/w/d) für den Bereich Personalbezahlung im (vergleichbaren) gehobenen Dienst",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1454267.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
