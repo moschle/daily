@@ -2159,5 +2159,79 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "https://www.hsozkult.de/job/id/job-162902": {
+    "first_seen": "2026-06-13T10:12:52.544825+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: Wiss. Volontariat (m/w/d) \"Grenzmuseum Schifflersgrund\" (Arbeitskreis Grenzinformation e.V., Asbach-Sickenberg)",
+    "url": "https://www.hsozkult.de/job/id/job-162902",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.hsozkult.de/job/id/job-162924": {
+    "first_seen": "2026-06-13T10:12:52.546532+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: 0,5 Wiss. Mitarb. (m/w/d) \"Digital Humanities\" (Sorbisches Institut, Bautzen/Cottbus)",
+    "url": "https://www.hsozkult.de/job/id/job-162924",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BMDS/2026/06/6535595.html": {
+    "first_seen": "2026-06-13T10:12:54.268800+00:00",
+    "source": "service.bund.de",
+    "title": "eine Referentin / einen Referenten (m/w/d) für die Geschäftsstelle der Arbeitsgemeinschaft der Hauptpersonalräte (AG HPR) im Auswärtigen Amt (AA); Berlin; BMDS-2026-007",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BMDS/2026/06/6535595.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6536865.html": {
+    "first_seen": "2026-06-13T10:12:54.289393+00:00",
+    "source": "service.bund.de",
+    "title": "Fachreferent/-in (m/w/d) für Wirtschaftsschutz und Prävention - AWV-2026-035",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6536865.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1457945.html": {
+    "first_seen": "2026-06-13T10:12:54.300863+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliches Volontariat (m/w/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1457945.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "erinnerungskultur",
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1457807.html": {
+    "first_seen": "2026-06-13T10:12:54.344370+00:00",
+    "source": "service.bund.de",
+    "title": "Reinigungskraft (w/m/d) in Teilzeit (50 %) in unbefristeter Anstellung und eine Reinigungskraft (w/m/d) in Teilzeit (50 %) befristet auf ein Jahr",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1457807.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://arthist.net/archive/52713": {
+    "first_seen": "2026-06-13T10:12:54.500599+00:00",
+    "source": "arthist.net",
+    "title": "JOB: 2 Pos. Wiss. Volontariat (m/w/d), MdbK Leipzig",
+    "url": "https://arthist.net/archive/52713",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
