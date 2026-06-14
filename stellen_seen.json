@@ -2233,5 +2233,16 @@
       "kuratorisch_wiss_volo",
       "schwach_methodisch"
     ]
+  },
+  "https://arthist.net/archive/52704": {
+    "first_seen": "2026-06-14T10:38:08.299470+00:00",
+    "source": "arthist.net",
+    "title": "JOB: Wiss. Volontariat, Bildung/Vermittlung, Lenbachhaus, München",
+    "url": "https://arthist.net/archive/52704",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
