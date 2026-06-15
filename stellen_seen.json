@@ -2244,5 +2244,56 @@
       "kuratorisch_wiss_volo",
       "schwach_methodisch"
     ]
+  },
+  "kultweet-249373": {
+    "first_seen": "2026-06-15T13:30:31.398651+00:00",
+    "source": "kultweet",
+    "title": "Projektleitung für das Modellprojekt  “Verständigen statt verfestigen“, 32-39h/Woche, befristet | Berlin​‌‌‌‌​​‌‌‌​​​​‌‌‌​‌ - Verband afghanischer Organisationen in Deutschland e.V.",
+    "url": "https://vafo.ngo/karriere/",
+    "score": 4,
+    "categories": [
+      "iran_islam_kern"
+    ]
+  },
+  "kultweet-249372": {
+    "first_seen": "2026-06-15T13:30:31.400010+00:00",
+    "source": "kultweet",
+    "title": "Community Manager:in für das Modellprojekt  “Verständigen statt verfestigen”, 30h/Woche, befristet | Berlin​‌‌‌‌​​‌‌‌​​​​‌‌‌​​ - Verband afghanischer Organisationen in Deutschland e.V.",
+    "url": "https://vafo.ngo/wp-content/uploads/2023/12/2026_Stellenausschreibung_CM-InB.pdf",
+    "score": 4,
+    "categories": [
+      "iran_islam_kern"
+    ]
+  },
+  "kultweet-249352": {
+    "first_seen": "2026-06-15T13:30:31.426195+00:00",
+    "source": "kultweet",
+    "title": "wissenschaftliches Volontariat (m/w/d) in Vollzeit | Asbach-Sickenberg​‌‌‌‌​​‌‌‌​​​​​‌​​​ - Grenzmuseum Schifflersgrund",
+    "url": "https://www.grenzmuseum.de/wp-content/uploads/2026/06/GM-Schifflersgrund_Stellenausschreibung-Volontariat-2026.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6539928.html": {
+    "first_seen": "2026-06-15T13:30:32.581263+00:00",
+    "source": "service.bund.de",
+    "title": "Fotografin oder Fotografen (w/m/d) im Druck- und Medienzentrum, AS-2026-096",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/06/6539928.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1456409.html": {
+    "first_seen": "2026-06-15T13:30:32.603983+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeitung (m/w/d) im Referat 346 -Aus- und Fortbildung, Internationale Zusammenarbeit, Datenschutz, Gesundheitsmanagement in der Polizei",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1456409.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
   }
 }
