@@ -2295,5 +2295,46 @@
     "categories": [
       "migration_ez"
     ]
+  },
+  "kultweet-249392": {
+    "first_seen": "2026-06-16T12:26:50.023107+00:00",
+    "source": "kultweet",
+    "title": "Studentische*n Mitarbeiter (m/w/d), befristet, 19,7h/Woche | Berlin​‌‌‌‌​​‌‌‌​​​‌‌​​​​ - Dokumentationszentrum NS-Zwangsarbeit der Stiftung Topographie des Terrors",
+    "url": "https://topographie-des-terrors.kenjo.io/studentische-n-mitarbeiter-m-w-d-77894",
+    "score": 3,
+    "categories": [
+      "erinnerungskultur",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6541782.html": {
+    "first_seen": "2026-06-16T12:26:51.440007+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiter/-in (m/w/d) für die Spionageabwehr - AWV-2026-045",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6541782.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1454243.html": {
+    "first_seen": "2026-06-16T12:26:51.576536+00:00",
+    "source": "service.bund.de",
+    "title": "Evaluator*in für Evaluierungsabteilung I",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1454243.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/giz/2026/06/1587466-55264.html": {
+    "first_seen": "2026-06-16T12:26:51.650278+00:00",
+    "source": "service.bund.de",
+    "title": "Junior-Berater*in und Datenanalyst*in im Sektorvorhaben \"Daten in der Entwicklungszusammenarbeit\"",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/giz/2026/06/1587466-55264.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
   }
 }
