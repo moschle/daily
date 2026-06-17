@@ -2336,5 +2336,78 @@
     "categories": [
       "migration_ez"
     ]
+  },
+  "kultweet-249517": {
+    "first_seen": "2026-06-17T12:05:01.518303+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliche Volontär*in (w/m/d) | Wolfsburg​‌‌‌‌​​‌‌‌​‌​‌​‌‌​‌ - Kunstmuseum Wolfsburg",
+    "url": "https://www.kunstmuseum.de/stellenangebote_kunstmuseum/",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-249492": {
+    "first_seen": "2026-06-17T12:05:01.560621+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliche:r Mitarbeiter:in Globalgeschichte mit Schwerpunkt Afrika, 65%, befristet | Hamburg​‌‌‌‌​​‌‌‌​‌​​‌​‌​​ - Universität Hamburg",
+    "url": "https://www.uni-hamburg.de/stellenangebote/ausschreibung.html?jobID=bebe62f789402181a812bbf9e52a472d508fba9c",
+    "score": 3,
+    "categories": [
+      "erinnerungskultur",
+      "schwach_regional"
+    ]
+  },
+  "kultweet-249479": {
+    "first_seen": "2026-06-17T12:05:01.579730+00:00",
+    "source": "kultweet",
+    "title": "Besucherbegleiter*innen (d/m/w) auf Honorarbasis für die Gedenk- und Bildungsstätte Andreasstraße | Erfurt​‌‌‌‌​​‌‌‌​‌​​​​‌‌‌ - Stiftung Ettersberg",
+    "url": "https://museumsverband-thueringen.de/wp-content/uploads/2026/06/BesucherbegleiterINNENausschreibung-2026.pdf",
+    "score": 3,
+    "categories": [
+      "erinnerungskultur",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-249463": {
+    "first_seen": "2026-06-17T12:05:01.603934+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliche/-r Mitarbeiter/-in (m/w/d) (EG 13 TV-L), befristet, Vollzeit | Hannover​‌‌‌‌​​‌‌‌​​‌‌‌​‌‌‌ - Gottfried Wilhelm Leibniz Bibliothek - Niedersächsische Landesbibliothek (GWLB)",
+    "url": "https://jobs.gwlb.de/jobposting/ebf0d7094214bd604239677e89f3939144c3488a0?ref=homepage",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "kultweet-249457": {
+    "first_seen": "2026-06-17T12:05:01.612448+00:00",
+    "source": "kultweet",
+    "title": "Evaluator*in für Evaluierungsabteilung I (Fragile Staatlichkeit, Konfliktprävention, Good Governance), unbefristet | Bonn​‌‌‌‌​​‌‌‌​​‌‌‌​​​‌ - DEval – Deutsches Evaluierungsinstitut der Entwicklungszu",
+    "url": "https://www.deval.org/de/ueber-uns/wer-wir-sind/karriere/evaluatorin-fuer-evaluierungsabteilung-i-1",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1456431.html": {
+    "first_seen": "2026-06-17T12:05:03.107315+00:00",
+    "source": "service.bund.de",
+    "title": "Gruppenleitung (m/w/d) - Meldewesen/Visa/EU-Freizügigkeit/Rückkehrmanagement und Asyl",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1456431.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1455819.html": {
+    "first_seen": "2026-06-17T12:05:03.222944+00:00",
+    "source": "service.bund.de",
+    "title": "Leitung des Dezernats 12 - IT- und Sondertechnik (m/w/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1455819.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
