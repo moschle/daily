@@ -2503,5 +2503,100 @@
     "categories": [
       "migration_ez"
     ]
+  },
+  "kultweet-249649": {
+    "first_seen": "2026-06-19T11:49:08.002319+00:00",
+    "source": "kultweet",
+    "title": "Sachbearbeiter*in in der Unteren Denkmalbehörde, 19,50h/Woche, unbefristet | Bonn​‌‌‌‌​​‌‌‌‌​​‌‌​​​‌ - Bundesstadt Bonn",
+    "url": "https://recruitingapp-5327.de.umantis.com/Vacancies/5308/Description/1",
+    "score": 3,
+    "categories": [
+      "erinnerungskultur",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-249629": {
+    "first_seen": "2026-06-19T11:49:08.036914+00:00",
+    "source": "kultweet",
+    "title": "Dolmetscherin/Übersetzerin bzw. Dolmetscher/Übersetzer (m/w/d) für Arabisch, Vollzeit, unbefristet | Riad, Saudi-Arabien und Berlin​‌‌‌‌​​‌‌‌‌​​​‌‌‌​‌ - Deutschen Botschaft in Riad und Auswärtiges Amt",
+    "url": "https://www.auswaertiges-amt.de/de/karriere/stellenanzeigen/2775492-2775492",
+    "score": 9,
+    "categories": [
+      "iran_islam_kern",
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-249625": {
+    "first_seen": "2026-06-19T11:49:08.043501+00:00",
+    "source": "kultweet",
+    "title": "wissenschaftliches Volontariat mit dem Schwerpunkt Museumspädagogik und Öffentlichkeitsarbeit, Vollzeit | Berlin​‌‌‌‌​​‌‌‌‌​​​‌‌​​‌ - Bröhan Museum",
+    "url": "https://www.museumsbund.de/stellenangebote/wissenschaftliches-volontariat-mit-dem-schwerpunkt-museumspaedagogik-und-oeffentlichkeitsarbeit/",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-249618": {
+    "first_seen": "2026-06-19T11:49:08.053400+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliches Volontariat (m/w/d)  Städtische Galerie Nordhorn, befristet auf 2 Jahre | Nordhorn​‌‌‌‌​​‌‌‌‌​​​‌​​‌​ - Stadt Nordhorn",
+    "url": "https://logahr3.kdo.de/bewerber-web/?companyEid=32600&tenant=32600&lang=D#position,id=047b53f7-6240-4451-aaa5-ab2884dc16b0",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-249617": {
+    "first_seen": "2026-06-19T11:49:08.055117+00:00",
+    "source": "kultweet",
+    "title": "Fachberatung mit Arabisch in sozialen Medien (w/m/d) und wissenschaftliche Mitarbeit, 35-39h/Woche, befristet | Berlin​‌‌‌‌​​‌‌‌‌​​​‌​​​‌ - Minor - Digital gGmbH",
+    "url": "https://minor-digital.de/wp-content/uploads/2026/06/Fem.OS_WiMi_AR_26-06-17.pdf",
+    "score": 4,
+    "categories": [
+      "iran_islam_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6544266.html": {
+    "first_seen": "2026-06-19T11:49:09.706420+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiter/-in (m/w/d) für Haushaltsangelegenheiten - AWV-2026-046",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6544266.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1459574.html": {
+    "first_seen": "2026-06-19T11:49:09.752795+00:00",
+    "source": "service.bund.de",
+    "title": "Bürosachbearbeiter/-in (w/m/d) für die Geschäftsstelle der Arbeitsgemeinschaft der Hauptpersonalräte der obersten Bundesbehörden",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1459574.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1458399.html": {
+    "first_seen": "2026-06-19T11:49:09.797588+00:00",
+    "source": "service.bund.de",
+    "title": "Fremdsprachenassistentinnen und Fremdsprachenassistenten (w/m/d) für Englisch",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1458399.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1458831.html": {
+    "first_seen": "2026-06-19T11:49:09.815204+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeitung Rückkehrmanagement (m/w/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1458831.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
   }
 }
