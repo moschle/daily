@@ -2598,5 +2598,28 @@
     "categories": [
       "migration_ez"
     ]
+  },
+  "https://www.hsozkult.de/job/id/job-163036": {
+    "first_seen": "2026-06-20T10:18:30.349395+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: 2x Volontariat \"KZ-Gedenkstätte Dachau\" (Stiftung Bayerische Gedenkstätten, Dachau)",
+    "url": "https://www.hsozkult.de/job/id/job-163036",
+    "score": 3,
+    "categories": [
+      "erinnerungskultur",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Auswaertiges-Amt/2026/06/6545560.html": {
+    "first_seen": "2026-06-20T10:18:31.922564+00:00",
+    "source": "service.bund.de",
+    "title": "Dolmetscherin/Übersetzerin bzw. Dolmetscher/Übersetzer (m/w/d) für Arabisch",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Auswaertiges-Amt/2026/06/6545560.html#track=feed-jobs",
+    "score": 9,
+    "categories": [
+      "iran_islam_kern",
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
   }
 }
