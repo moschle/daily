@@ -2621,5 +2621,39 @@
       "behörden_kern",
       "schwach_methodisch"
     ]
+  },
+  "kultweet-249669": {
+    "first_seen": "2026-06-22T13:11:56.153845+00:00",
+    "source": "kultweet",
+    "title": "Volontariat Presse- & Öffentlichkeitsarbeit in der KZ-Gedenkstätte Dachau​‌‌‌‌​​‌‌‌‌​‌​​​‌​‌ - KZ-Gedenkstätte Dachau, Stiftung Bayerische Gedenkstätten",
+    "url": "https://www.kz-gedenkstaette-dachau.de/stellenangebote/volontariat-presse-oeffentlichkeitsarbeit-in-der-kz-gedenkstaette-dachau/",
+    "score": 3,
+    "categories": [
+      "erinnerungskultur",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-249668": {
+    "first_seen": "2026-06-22T13:11:56.155300+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliches Volontariat in der KZ-Gedenkstätte Dachau​‌‌‌‌​​‌‌‌‌​‌​​​‌​​ - KZ-Gedenkstätte Dachau, Stiftung Bayerische Gedenkstätten",
+    "url": "https://www.kz-gedenkstaette-dachau.de/stellenangebote/wissenschaftliches-volontariat-m-w-d-in-der-kz-gedenkstaette-dachau-2/",
+    "score": 5,
+    "categories": [
+      "erinnerungskultur",
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-249663": {
+    "first_seen": "2026-06-22T13:11:56.162603+00:00",
+    "source": "kultweet",
+    "title": "wiss. Volontär (m/w/d) in Vollzeit | Potsdam​‌‌‌‌​​‌‌‌‌​​‌‌‌‌‌‌ - Museen der Hasso Plattner Foundation gGmbH",
+    "url": "https://www.museum-barberini.de/de/4222/jobs",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
