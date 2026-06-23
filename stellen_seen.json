@@ -2655,5 +2655,48 @@
       "kuratorisch_wiss_volo",
       "schwach_methodisch"
     ]
+  },
+  "kultweet-249760": {
+    "first_seen": "2026-06-23T10:46:38.813623+00:00",
+    "source": "kultweet",
+    "title": "Geschäftsleiter/in \"Europäische und internationale Zusammenarbeit\" (w/m/d), Vollzeit, Teilzeit, befristet | Bonn​‌‌‌‌​​‌‌‌‌‌​‌​​​​​ - DLR Projektträger",
+    "url": "https://jobs.dlr.de/default/job/Gesch%C3%A4ftsleiterin-%E2%80%9EEurop%C3%A4ische-und-internationale-Zusammenarbeit-%28wmd%29/5401-de_DE",
+    "score": 4,
+    "categories": [
+      "migration_ez",
+      "schwach_regional"
+    ]
+  },
+  "kultweet-249720": {
+    "first_seen": "2026-06-23T10:46:38.881202+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliches Volontariat Kommunikation und Bildung | Berlin​‌‌‌‌​​‌‌‌‌​‌‌‌‌​​​ - Berlinische Galerie - Landesmuseum für Moderne Kunst, Fotografie und Architektur",
+    "url": "https://interamt.de/koop/app/stelle?id=1460788",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1458807.html": {
+    "first_seen": "2026-06-23T10:46:40.457514+00:00",
+    "source": "service.bund.de",
+    "title": "mehrere Fachangestellte (w/m/d) für Medien- und Informationsdienste Fachrichtung Archiv",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1458807.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://arthist.net/archive/52787": {
+    "first_seen": "2026-06-23T10:46:40.612360+00:00",
+    "source": "arthist.net",
+    "title": "JOB: Wiss. Volontariat, Meininger Museen, Schloss Elisabethenburg",
+    "url": "https://arthist.net/archive/52787",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
