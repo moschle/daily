@@ -2791,5 +2791,37 @@
     "categories": [
       "migration_ez"
     ]
+  },
+  "kultweet-249864": {
+    "first_seen": "2026-06-25T10:25:20.028033+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliches Volontariat (m/w/d) | Stade​‌‌‌‌​‌​​​​​​​​‌​​​ - Museen Stade",
+    "url": "https://www.museumsbund.de/stellenangebote/wissenschaftliches-volontariat-m-w-d-14/",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1461783.html": {
+    "first_seen": "2026-06-25T10:25:21.597104+00:00",
+    "source": "service.bund.de",
+    "title": "Projektassistentin / Projektassistent (m/w/d) in der Entwicklungszusammenarbeit",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1461783.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Thueringer-Innenministerium/2026/06/6551021.html": {
+    "first_seen": "2026-06-25T10:25:21.613206+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiter/-in \"Auswertung\"",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Thueringer-Innenministerium/2026/06/6551021.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
   }
 }
