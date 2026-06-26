@@ -2823,5 +2823,57 @@
       "behörden_kern",
       "schwach_methodisch"
     ]
+  },
+  "https://www.hsozkult.de/job/id/job-163195": {
+    "first_seen": "2026-06-26T10:36:00.295676+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: Wiss. Volontariat (m/w/d) \"Abteilung Sammlungen\" (DHM Berlin)",
+    "url": "https://www.hsozkult.de/job/id/job-163195",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-249913": {
+    "first_seen": "2026-06-26T10:36:00.437818+00:00",
+    "source": "kultweet",
+    "title": "Regionalleiterin/Regionalleiter (m/w/d, 100%) Projektregion Ostafrika, befristet | Daressalam, Tansania​‌‌‌‌​‌​​​​​​‌‌‌​​‌ - Deutsche Volkshochschul-Verband e.V.",
+    "url": "https://stellen.dvv-vhs.de/jobposting/dd9f4e972dc05abc597561609d31e34c2afafc570?ref=homepage",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "kultweet-249902": {
+    "first_seen": "2026-06-26T10:36:00.456192+00:00",
+    "source": "kultweet",
+    "title": "Kurator:in (m/w/d), Vollzeit, Teilzeit möglich, unbefristet | Chemnitz​‌‌‌‌​‌​​​​​​‌​‌‌‌​ - Stadt Chemnitz",
+    "url": "https://schemni.pi-asp.de/bewerber-web/?company=01-FIRMA-ID&tenant=&lang=D#position,id=ab06e535-0cd3-40d2-96ed-ae576b703f6b,jobportalid=7d51b858-e466-400d-8696-5e01d3b26140",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1462288.html": {
+    "first_seen": "2026-06-26T10:36:02.191381+00:00",
+    "source": "service.bund.de",
+    "title": "IT-Experte (m/w/d) für die Cybersicherheit in Bayern",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1462288.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1461128.html": {
+    "first_seen": "2026-06-26T10:36:02.262501+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiterin oder Sachbearbeiter (m/w/d) für Staats- und Verwaltungsrecht",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1461128.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
