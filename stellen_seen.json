@@ -2907,5 +2907,55 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Thueringer-Innenministerium/2026/06/6555326.html": {
+    "first_seen": "2026-06-29T12:15:48.343953+00:00",
+    "source": "service.bund.de",
+    "title": "Data Scientist im Amt für Verfassungsschutz beim Thüringer Ministerium für Inneres, Kommunales und Landesentwicklung",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Thueringer-Innenministerium/2026/06/6555326.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Ministerium-des-Innern-und-fuer-Kommunales-des-Landes-Brandenburg/2026/06/6555734.html": {
+    "first_seen": "2026-06-29T12:15:48.351650+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterin/Mitarbeiter (w/m/d) Zentralregistratur Verfassungsschutz",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Ministerium-des-Innern-und-fuer-Kommunales-des-Landes-Brandenburg/2026/06/6555734.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6555750.html": {
+    "first_seen": "2026-06-29T12:15:48.352671+00:00",
+    "source": "service.bund.de",
+    "title": "Referenten / Referentinnen (m/w/d) für die Cyber- und Spionageabwehr - AWV-2026-053 - Köln",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6555750.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6555759.html": {
+    "first_seen": "2026-06-29T12:15:48.354092+00:00",
+    "source": "service.bund.de",
+    "title": "Referenten / Referentinnen (m/w/d) für die Cyber- und Spionageabwehr - AWV-2026-053 - Berlin",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6555759.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1462791.html": {
+    "first_seen": "2026-06-29T12:15:48.362421+00:00",
+    "source": "service.bund.de",
+    "title": "Referentin/Referent (m/w/d) im Referat 346 - Aus- und Fortbildung, Internationale Zusammenarbeit, Datenschutz, Gesundheitsmanagement in der Polizei",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1462791.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
   }
 }
