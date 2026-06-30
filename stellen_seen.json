@@ -2957,5 +2957,26 @@
     "categories": [
       "migration_ez"
     ]
+  },
+  "kultweet-250070": {
+    "first_seen": "2026-06-30T10:43:35.920086+00:00",
+    "source": "kultweet",
+    "title": "Co-Leitung für den Aufbau eines Tech-Zentrums (m/w/d), 100%, befristet | Berlin​‌‌‌‌​‌​​​​‌‌​‌​‌‌​ - Deutsche Gesellschaft für Auswärtige Politik e.V.",
+    "url": "https://dgap.org/de/dgap/jobs/co-leitung-fuer-den-aufbau-eines-tech-zentrums-m-w-d",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "kultweet-250055": {
+    "first_seen": "2026-06-30T10:43:35.942150+00:00",
+    "source": "kultweet",
+    "title": "Wiss. Mitarbeiter*in (Postdoc) (w/m/d) mit 75% Ostasien und Vorderer Orient, Institut für Arabistik | Berlin​‌‌‌‌​‌​​​​‌‌​​​‌‌‌ - Freie Universität Berlin",
+    "url": "https://www.fu-berlin.de/universitaet/beruf-karriere/jobs/wiss/13_fb-geschichts-und-kulturwissenschaften/GK-Arabistik-PostDoc-2026.html",
+    "score": 7,
+    "categories": [
+      "iran_islam_kern",
+      "region_orient"
+    ]
   }
 }
