@@ -3018,5 +3018,37 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "kultweet-250140": {
+    "first_seen": "2026-07-02T10:18:35.190484+00:00",
+    "source": "kultweet",
+    "title": "Direktionsassistenz und Museumsmanagement (d/w/m), Vollzeit | Berlin​‌‌‌‌​‌​​​‌​​​‌‌‌​​ - Berliner Medizinhistorische Museum (bmm) der Charité",
+    "url": "https://karriere.charite.de/stellenangebote/detail/7701",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250127": {
+    "first_seen": "2026-07-02T10:18:35.210712+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliche/r Volontär/in (m/w/d) für das Litearturmuseum \"Theodor Storm\", befristet | Heilbad Heiligenstadt​‌‌‌‌​‌​​​‌​​​​‌‌‌‌ - Theodor-Storm-Verein e.V.",
+    "url": "https://www.kultweet.de/jobs/Theodor-Storm-Verein-Volontariat.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1464157.html": {
+    "first_seen": "2026-07-02T10:18:36.681250+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeitung Rückkehrmanagement (m/w/d) im Fachgebiet Ausländerbehörde im Fachdienst Ordnung",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1464157.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
   }
 }
