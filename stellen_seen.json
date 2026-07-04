@@ -3194,5 +3194,36 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "kultweet-250254": {
+    "first_seen": "2026-07-04T09:36:36.123131+00:00",
+    "source": "kultweet",
+    "title": "Traineeprogramm „Data & Information Specialist (MAS)“ (m/w/d) | Köln und Berlin​‌‌‌‌​‌​​​‌‌​​​‌‌‌​ - Deutschlandradio",
+    "url": "https://deutschlandradio.softgarden.io/job/65777941/Traineeprogramm-%E2%80%9EData-Information-Specialist-MAS-%E2%80%9C-m-w-d-?jobDbPVId=277736746&l=de",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "kultweet-250248": {
+    "first_seen": "2026-07-04T09:36:36.133776+00:00",
+    "source": "kultweet",
+    "title": "Referent*in Institutionelle Partnerschaften Auswärtiges Amt und BMZ, Vollzeit, befristet | Berlin​‌‌‌‌​‌​​​‌‌​​​‌​​​ - Oxfam Deutschland e.V.",
+    "url": "https://www.oxfam.de/ueber-uns/arbeiten-bei-oxfam/jobs/referentin-institutionelle-partnerschaften-auswaertiges-amt-bmz",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://arthist.net/archive/52872": {
+    "first_seen": "2026-07-04T09:36:37.738540+00:00",
+    "source": "arthist.net",
+    "title": "JOB: Wiss. Volontariat, Kunst der Moderne, Frankfurt am Main, Städel Museum",
+    "url": "https://arthist.net/archive/52872",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
