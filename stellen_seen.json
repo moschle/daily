@@ -3225,5 +3225,69 @@
       "kuratorisch_wiss_volo",
       "schwach_methodisch"
     ]
+  },
+  "kultweet-250298": {
+    "first_seen": "2026-07-06T11:47:50.762244+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliche Kuratorin / Wissenschaftlicher Kurator (m/w/d) für das Siegerlandmuseum, Vollzeit | Siegen​‌‌‌‌​‌​​​‌‌​‌‌‌​‌​ - Stadtverwaltung Siegen",
+    "url": "https://perspektiven.siegen.de/jobposting/709852b817bbb9fa77b5ad89afb4f93c6fbc05ca0",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250293": {
+    "first_seen": "2026-07-06T11:47:50.772397+00:00",
+    "source": "kultweet",
+    "title": "Wiss. Mitarbeiter*in (w/m/d) Vollzeitbeschäftigung am Institut für Griechische und Lateinische Philologie - Arbeitsbereich Digital Humanities, befristet | Berlin​‌‌‌‌​‌​​​‌‌​‌‌​‌​‌ - Freie Universität",
+    "url": "https://www.fu-berlin.de/universitaet/beruf-karriere/jobs/wiss/16_fb-philosophie-und-geisteswissenschaften/PG-DH-WiMi-2026.html",
+    "score": 4,
+    "categories": [
+      "digital_humanities",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250276": {
+    "first_seen": "2026-07-06T11:47:50.801211+00:00",
+    "source": "kultweet",
+    "title": "wissenschaftliche:n Volontär:in (w/m/d) für unser LWL-Museum für Kunst und Kultur | Münster​‌‌‌‌​‌​​​‌‌​‌​​‌​​ - Landschaftsverband Westfalen-Lippe (LWL)",
+    "url": "https://recruiting.lwl.org/r/z02or1iwhwsgejx/wissenschaftliche%3An+Volont%C3%A4r%3Ain+wmd/48143/M%C3%BCnster",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250272": {
+    "first_seen": "2026-07-06T11:47:50.808987+00:00",
+    "source": "kultweet",
+    "title": "wiss. Referent (m/w/d) für die Koordinationsstelle für Provenienzforschung NRW (KPF.NRW), Voll- oder Teilzeit, befristet | Köln​‌‌‌‌​‌​​​‌‌​‌​​​​​ - Landschaftsverband Rheinland (LVR)",
+    "url": "https://www.kultweet.de/jobs/LVR_Wiss_Ref_Koordinationsstelle_Provenienzforschung_NRW.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/07/6562164.html": {
+    "first_seen": "2026-07-06T11:47:52.254384+00:00",
+    "source": "service.bund.de",
+    "title": "Projektmanager/-in (m/w/d) im Management Office des CTO - AWV-2026-028 - Köln",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/07/6562164.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/07/6562130.html": {
+    "first_seen": "2026-07-06T11:47:52.255000+00:00",
+    "source": "service.bund.de",
+    "title": "Projektmanager/-in (m/w/d) im Management Office des CTO - AWV-2026-028 - Berlin",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/07/6562130.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
