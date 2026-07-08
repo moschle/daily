@@ -3359,5 +3359,36 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "kultweet-250445": {
+    "first_seen": "2026-07-08T09:55:00.732614+00:00",
+    "source": "kultweet",
+    "title": "LänderreferentIn (m/w/d), Vollzeit | Konstanz​‌‌‌‌​‌​​‌​​‌​​‌‌​‌ - Hoffnungszeichen │ Sign of Hope e.V.",
+    "url": "https://www.hoffnungszeichen.de/jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "kultweet-250438": {
+    "first_seen": "2026-07-08T09:55:00.743513+00:00",
+    "source": "kultweet",
+    "title": "Volontariat im Museum der Osterburg in Weida (m/w/d)​‌‌‌‌​‌​​‌​​‌​​​‌‌​ - Stadt Weida",
+    "url": "https://museumsverband-thueringen.de/wp-content/uploads/2026/07/Ausschreibung-Volontariat-im-Museum-der-Osterburg-in-Weida_n.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/07/6563530.html": {
+    "first_seen": "2026-07-08T09:55:02.370997+00:00",
+    "source": "service.bund.de",
+    "title": "InTelligence Day Köln – Wir suchen dich! - InTelligenceDay-K - mittlerer Dienst",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/07/6563530.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
