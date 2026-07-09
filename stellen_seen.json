@@ -3390,5 +3390,37 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "kultweet-250521": {
+    "first_seen": "2026-07-09T10:42:57.830511+00:00",
+    "source": "kultweet",
+    "title": "wissenschaftliche Volontärin/Volontär (m/w/d) für den Arbeitsschwerpunkt Ausstellungen und Sammlungen | Bamberg​‌‌‌‌​‌​​‌​‌​​‌‌​​‌ - Stadt Bamberg",
+    "url": "https://sbamberg.pi-asp.de/bewerber-web/?company=100-FIRMA-ID&tenant=&lang=D#position,id=179aec7a-82e6-4ff1-8e3e-a3cfd63e224f,popup=y",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250493": {
+    "first_seen": "2026-07-09T10:42:57.877127+00:00",
+    "source": "kultweet",
+    "title": "Projekt Assistenz für die Ausstellungsrealisation Keith Haring (m/w/d), 100%, befristet | Berlin​‌‌‌‌​‌​​‌​​‌‌‌‌‌​‌ - KBB - Kulturveranstaltungen des Bundes in Berlin GmbH",
+    "url": "https://kbbjobs.softgarden.io/job/65946314/Projekt-Assistenz-f%C3%BCr-die-Ausstellungsrealisation-Keith-Haring-m-w-d-?jobDbPVId=278371314&l=de",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250490": {
+    "first_seen": "2026-07-09T10:42:57.881663+00:00",
+    "source": "kultweet",
+    "title": "Referent/in Kultur, Bildung und Öffentlichkeitsarbeit, Vollzeit, unbefristet | Golf-Region (Abu Dhabi, Dubai, Maskat)​‌‌‌‌​‌​​‌​​‌‌‌‌​‌​ - Goethe-Institut e.V.",
+    "url": "https://www.goethe.de/ins/ae/de/ueb/kar/ref.html",
+    "score": 4,
+    "categories": [
+      "iran_islam_kern"
+    ]
   }
 }
