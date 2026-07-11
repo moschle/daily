@@ -3535,5 +3535,47 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "https://www.hsozkult.de/job/id/job-163432": {
+    "first_seen": "2026-07-11T09:07:08.929827+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: 0,75 Wiss. Mitarb. (m/w/d) \"Arabistik\" (Otto-Friedrich-Univ. Bamberg)",
+    "url": "https://www.hsozkult.de/job/id/job-163432",
+    "score": 4,
+    "categories": [
+      "iran_islam_kern"
+    ]
+  },
+  "kultweet-250663": {
+    "first_seen": "2026-07-11T09:07:08.998366+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftlichen Mitarbeiter*in (m/w/d) an der Professur für Arabistik, 75%, befristet | Bamberg​‌‌‌‌​‌​​‌‌​​‌​​‌‌‌ - Universität Bamberg",
+    "url": "https://www.uni-bamberg.de/fileadmin/abt-personal/Homepage_ab_2016-03/10_Stellenausschreibungen/02_Wissenschaftliche_Beschaeftigte/2026_08_01_GuK_Prof_Arabistik.pdf",
+    "score": 4,
+    "categories": [
+      "iran_islam_kern"
+    ]
+  },
+  "kultweet-250654": {
+    "first_seen": "2026-07-11T09:07:09.011278+00:00",
+    "source": "kultweet",
+    "title": "Collection Data Manager:in, Vollzeit, befristet | Stuttgart​‌‌‌‌​‌​​‌‌​​​‌‌‌‌​ - Linden-Museum Stuttgart",
+    "url": "https://lindenmuseum.de/ueber-uns/jobs/",
+    "score": 6,
+    "categories": [
+      "digital_humanities",
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6570749.html": {
+    "first_seen": "2026-07-11T09:07:10.522446+00:00",
+    "source": "service.bund.de",
+    "title": "Referentin/ Referent (w/m/d) für das Projektmanagement - Schwerpunkt Changemanagement, AS-2026-109",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6570749.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
