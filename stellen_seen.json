@@ -3577,5 +3577,16 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "https://arthist.net/archive/53447": {
+    "first_seen": "2026-07-12T09:27:18.596865+00:00",
+    "source": "arthist.net",
+    "title": "JOB: Wiss. Volontariat, Kommunikation und Kunstvermittlung, Clemens Sels Museum Neuss",
+    "url": "https://arthist.net/archive/53447",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
