@@ -3784,5 +3784,129 @@
       "iran_islam_kern",
       "behörden_kern"
     ]
+  },
+  "kultweet-250772": {
+    "first_seen": "2026-07-15T09:28:50.028757+00:00",
+    "source": "kultweet",
+    "title": "Projektevaluator*in (M/W/D), befristet | Hamburg​‌‌‌‌​‌​​‌‌‌​​‌​‌​​ - Lessan e.V.",
+    "url": "https://lessan.eu/wp-content/uploads/2026/07/Ausschreibung-ProjektevaluatorIn.pdf",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "kultweet-250758": {
+    "first_seen": "2026-07-15T09:28:50.050797+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliches Volontariat in der Restaurierung (m/w/d) für Glas/Porzellan | Potsdam​‌‌‌‌​‌​​‌‌‌​​​​‌‌​ - Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg (SPSG)",
+    "url": "https://www.spsg.de/stiftung/karriere/stellenangebote-detailseiten/stellenausschreibung-vorlage-6-2-1-1-4-1-1",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250745": {
+    "first_seen": "2026-07-15T09:28:50.072254+00:00",
+    "source": "kultweet",
+    "title": "Förderreferent:in (m/w/d), Vollzeit | Wiesbaden​‌‌‌‌​‌​​‌‌​‌‌‌‌​​‌ - Kuratorium junger deutscher Film",
+    "url": "https://www.kuratorium-junger-film.de/files/media/Aktuelles%20&%20Informationen/20260709%20Stellenausschreibung_Förderreferent_in.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1469106.html": {
+    "first_seen": "2026-07-15T09:28:51.694339+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliches Volontariat  in der Restaurierung (m/w/d) für Glas/Porzellan",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1469106.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6573659.html": {
+    "first_seen": "2026-07-15T09:28:51.699633+00:00",
+    "source": "service.bund.de",
+    "title": "Physikalisch-technischen Assistenten/physikalisch-technische Assistentin oder Optroniker/Optronikerin oder Messtechniker/Messtechnikerin (w/m/d) für den Bereich Nachrichtendienstliche Fähigkeiten mit ",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6573659.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6573728.html": {
+    "first_seen": "2026-07-15T09:28:51.717298+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterinnen/Mitarbeiter (w/m/d) für die technische Auswertung und Analyse von Datenströmen/Datenschichten, AS-2026-126",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6573728.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6573710.html": {
+    "first_seen": "2026-07-15T09:28:51.720364+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterin/Mitarbeiter (w/m/d) im Bereich Computer Network Operation \"Backend Development\", AS-2026-125",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6573710.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6573767.html": {
+    "first_seen": "2026-07-15T09:28:51.721843+00:00",
+    "source": "service.bund.de",
+    "title": "Technische Mitarbeiterin/Mitarbeiter (w/m/d) in der OSINT-Datenbeschaffung, AS-2026-116",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6573767.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6573687.html": {
+    "first_seen": "2026-07-15T09:28:51.722437+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterin/Mitarbeiter (w/m/d) im Bereich Telefon- und Videokonferenztechnik, AS-2026-124",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6573687.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6573737.html": {
+    "first_seen": "2026-07-15T09:28:51.722968+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterinnen/Mitarbeiter (w/m/d) für den Kurierdienst, AS-2026-127",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6573737.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Deutsche-Gesellschaft-fuer-Auswaertige-Politik-e-V/2026/07/6573483.html": {
+    "first_seen": "2026-07-15T09:28:51.744202+00:00",
+    "source": "service.bund.de",
+    "title": "Policy Fellow Klimamigration (m/w/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Deutsche-Gesellschaft-fuer-Auswaertige-Politik-e-V/2026/07/6573483.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/stellenmarkt_nrw/2026/07/f3a2d18f-9dd7-4ed7-a029-246fbd53c9cb.html": {
+    "first_seen": "2026-07-15T09:28:51.851730+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiter*in / Mitarbeiter*in - Rückkehrmanagement / Rückkehrberatung",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/stellenmarkt_nrw/2026/07/f3a2d18f-9dd7-4ed7-a029-246fbd53c9cb.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
   }
 }
