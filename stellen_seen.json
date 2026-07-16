@@ -3908,5 +3908,69 @@
     "categories": [
       "migration_ez"
     ]
+  },
+  "https://www.hsozkult.de/job/id/job-163592": {
+    "first_seen": "2026-07-16T09:34:53.376641+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: Wiss. Volontariat (w/m/d) \"Kulturbetrieb\" (Kulturhäuser Landkreis Ravensburg)",
+    "url": "https://www.hsozkult.de/job/id/job-163592",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250815": {
+    "first_seen": "2026-07-16T09:34:53.443960+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliche*n Volontär*in im Bereich „Sammlung und Archiv“ (m/w/d), Vollzeit, befristet | Mettingen​‌‌‌‌​‌​​‌‌‌​‌‌‌‌‌‌ - Draiflessen Collection gGmbH",
+    "url": "https://www.kultweet.de/jobs/_Draiflessen_Volontariat_Sammlung_Archiv.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250814": {
+    "first_seen": "2026-07-16T09:34:53.445255+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliches Volontariat Kulturbetrieb (w/m/d) | Ravensburg​‌‌‌‌​‌​​‌‌‌​‌‌‌‌‌​ - Landkreis Ravensburg",
+    "url": "https://lra-ravensburg.bewerbung.dvvbw.de/451-wissenschaftliches-volontariat-kulturbetrieb-w-m-d/de/job.html",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250801": {
+    "first_seen": "2026-07-16T09:34:53.465039+00:00",
+    "source": "kultweet",
+    "title": "Sachbearbeiter*in (m/w/d) Öffentlichkeitsarbeit, Vollzeit, befristet | Rabat, Marokko​‌‌‌‌​‌​​‌‌‌​‌‌​​​‌ - Goethe-Institut Marokko",
+    "url": "https://www.goethe.de/de/kar/ovr/jpd.cfm?job_id=11654",
+    "score": 3,
+    "categories": [
+      "region_orient"
+    ]
+  },
+  "kultweet-250791": {
+    "first_seen": "2026-07-16T09:34:53.482507+00:00",
+    "source": "kultweet",
+    "title": "Akademische*r Mitarbeiter*in Data Literacy (w/m/d), 20h/Woche, befristet | Potsdam​‌‌‌‌​‌​​‌‌‌​‌​​‌‌‌ - Fachhochschule Potsdam",
+    "url": "https://jobs.b-ite.com/jobposting/baa0d85ceb7c5a246f524049b01fe169f102af4c0?ref=homepage",
+    "score": 4,
+    "categories": [
+      "digital_humanities",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250777": {
+    "first_seen": "2026-07-16T09:34:53.504780+00:00",
+    "source": "kultweet",
+    "title": "Policy Fellow Klimamigration (m/w/d), befristet, 100% | Berlin​‌‌‌‌​‌​​‌‌‌​​‌‌​​‌ - Deutsche Gesellschaft für Auswärtige Politik e.V.",
+    "url": "https://dgap.org/de/dgap/jobs/policy-fellow-klimamigration-m-w-d",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
