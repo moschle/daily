@@ -3972,5 +3972,49 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "kultweet-250877": {
+    "first_seen": "2026-07-17T09:27:20.022150+00:00",
+    "source": "kultweet",
+    "title": "Wiss. Mitarbeiter*in (w/m/d) am Institut für Griechische und Lateinische Philologie - Arbeitsbereich Digital Humanities, Vollzeitbeschäftigung, befristet | Berlin​‌‌‌‌​‌​​‌‌‌‌‌‌‌‌​‌ - Freie Universitä",
+    "url": "https://www.fu-berlin.de/universitaet/beruf-karriere/jobs/wiss/16_fb-philosophie-und-geisteswissenschaften/PG-DH-WiMi-2026.html",
+    "score": 4,
+    "categories": [
+      "digital_humanities",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250865": {
+    "first_seen": "2026-07-17T09:27:20.040753+00:00",
+    "source": "kultweet",
+    "title": "Programmkurator*in (w/m/d) für die Kunstkoordination in Vollzeit, befristet | Frankfurt am Main​‌‌‌‌​‌​​‌‌‌‌‌‌​​​‌ - Hochschule für Bildende Künste–Städelschule",
+    "url": "https://staedelschule.de/de/aktuelles/stellenangebote",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250864": {
+    "first_seen": "2026-07-17T09:27:20.042701+00:00",
+    "source": "kultweet",
+    "title": "Museologe (m/w/d) bzw. Museumsassistenz (m/w/d) – Schwerpunkt Partizipation und Projektassistenz Museumsneukonzeption, 20h/Woche | Donauwörth​‌‌‌‌​‌​​‌‌‌‌‌‌​​​​ - Stadt Donauwörth",
+    "url": "https://www.donauwoerth.de/wp-content/uploads/2026/07/Museologe-mwd-bzw.-Museumsassistenz-mwd.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-250863": {
+    "first_seen": "2026-07-17T09:27:20.044016+00:00",
+    "source": "kultweet",
+    "title": "Museumsleitung (m/w/d, 50%-Stelle) | Gütersloh​‌‌‌‌​‌​​‌‌‌‌‌​‌‌‌‌ - Heimatverein Gütersloh e.V.",
+    "url": "https://www.stadtmuseum-guetersloh.de/",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
