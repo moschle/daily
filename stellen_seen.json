@@ -4267,5 +4267,134 @@
     "categories": [
       "migration_ez"
     ]
+  },
+  "kultweet-251110": {
+    "first_seen": "2026-07-22T09:59:59.335009+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliche Mitarbeit (m/w/d) im Bereich Forschungsdatenmanagement mit Schwerpunkt Qualitätsmanagement historischer Forschungsdaten, befristet  Marburg​‌‌‌‌​‌​‌​​‌‌‌​​‌‌​ - Herder-Institut für h",
+    "url": "https://www.herder-institut.de/de/aktuelles/neuigkeiten/wissenschaftliche-mitarbeit-m-w-d-im-bereich-forschungsdatenmanagement-mit-schwerpunkt-qualitaetsmanagement-historischer-forschungsdaten",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "kultweet-251108": {
+    "first_seen": "2026-07-22T09:59:59.339160+00:00",
+    "source": "kultweet",
+    "title": "Evaluationsmanager:in (desk-based) auf Honorarbasis | Köln​‌‌‌‌​‌​‌​​‌‌‌​​‌​​ - medica mondiale e.V.",
+    "url": "https://medicamondiale.org/stellenangebote/stellenangebot/evaluationsmanagerin-desk-based-auf-honorarbasis",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "kultweet-251079": {
+    "first_seen": "2026-07-22T09:59:59.387676+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliches Volontariat in der Mahn- und Gedenkstätte Ravensbrück (m/w/d) | Fürstenberg​‌‌‌‌​‌​‌​​‌‌​​​‌‌‌ - Stiftung Brandenburgische Gedenkstätten",
+    "url": "https://www.stiftung-bg.de/die-stiftung/stellenausschreibungen/",
+    "score": 5,
+    "categories": [
+      "erinnerungskultur",
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-251065": {
+    "first_seen": "2026-07-22T09:59:59.412219+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliches Volontariat (w/m/d) Bereich Digitales Sammlungsmanagement und Dokumentation in der Kunststiftung DZ BANK, Vollzeit, befristet | Frankfurt am Main​‌‌‌‌​‌​‌​​‌​‌‌‌​​‌ - DZ BANK Kunsts",
+    "url": "https://kunststiftungdzbank.de/wp-content/uploads/2026/07/Ausschreibung_Volontariat_2027-2028f-3.pdf",
+    "score": 6,
+    "categories": [
+      "digital_humanities",
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6582415.html": {
+    "first_seen": "2026-07-22T10:00:01.176255+00:00",
+    "source": "service.bund.de",
+    "title": "EnterBND #GEO am 15.10.2026: Recruiting Day für GEO-Profis mit Berufsabschluss, AS-2026-800",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6582415.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6582454.html": {
+    "first_seen": "2026-07-22T10:00:01.180651+00:00",
+    "source": "service.bund.de",
+    "title": "Koch/Köchin (w/m/d), AS-2026-129",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6582454.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6582431.html": {
+    "first_seen": "2026-07-22T10:00:01.181242+00:00",
+    "source": "service.bund.de",
+    "title": "EnterBND #GEO am 15.10.2026: Recruiting Day für GEO-Profis mit Bachelor , AS-2026-801",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6582431.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6582514.html": {
+    "first_seen": "2026-07-22T10:00:01.184999+00:00",
+    "source": "service.bund.de",
+    "title": "Kraftfahrer/Kraftfahrerinnen (m/w/d), AS-2026-131",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6582514.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1471884.html": {
+    "first_seen": "2026-07-22T10:00:01.190025+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliches Volontariat Museum für Naturkunde - Schwerpunkt Bildung und Vermittlung",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1471884.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1471861.html": {
+    "first_seen": "2026-07-22T10:00:01.192886+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliches Volontariat Museum für Naturkunde - Schwerpunkt Forschung",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1471861.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1471765.html": {
+    "first_seen": "2026-07-22T10:00:01.209425+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliches Volontariat (m/w/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1471765.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "erinnerungskultur",
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1471733.html": {
+    "first_seen": "2026-07-22T10:00:01.227309+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliches Volontariat Kunstsammlungen Chemnitz - Schwerpunkt Textil- und Kunstgewerbe",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1471733.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
