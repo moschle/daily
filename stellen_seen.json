@@ -4396,5 +4396,25 @@
       "kuratorisch_wiss_volo",
       "schwach_methodisch"
     ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6583592.html": {
+    "first_seen": "2026-07-23T09:58:06.975107+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterinnen/Mitarbeiter (w/m/d) im Bereich Security Operations Center, AS-2026-132",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6583592.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6583583.html": {
+    "first_seen": "2026-07-23T09:58:06.976552+00:00",
+    "source": "service.bund.de",
+    "title": "EnterBND #IT am 06.10.2026: Recruiting Day für IT-Profis mit Berufsausbildung (w/m/d), AS-2026-602",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6583583.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
