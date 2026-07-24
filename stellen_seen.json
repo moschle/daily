@@ -4416,5 +4416,59 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "kultweet-251223": {
+    "first_seen": "2026-07-24T09:55:14.901844+00:00",
+    "source": "kultweet",
+    "title": "wissenschaftliches Volontariat im Bereich Direktion und Kuration (m/w/d) für das Kulturamt, GRASSI Museum für Angewandte Kunst | Leipzig​‌‌‌‌​‌​‌​‌​‌​‌​‌‌‌ - Stadt Leipzig",
+    "url": "https://karriere.leipzig.de/stellenangebote//wissenschaftliches-volontariat-im-bereich-direktion-und-ku-de-j2135.html",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-251208": {
+    "first_seen": "2026-07-24T09:55:14.920515+00:00",
+    "source": "kultweet",
+    "title": "Akademische*r Mitarbeiter*in (m/w/d) an der Philologischen Fakultät in Verbindung mit dem Digital Humanities Lab, 75%, befristet | Freiburg i. Br.​‌‌‌‌​‌​‌​‌​‌​​‌​​​ - Albert-Ludwigs-Universität Freib",
+    "url": "https://uni-freiburg.de/stellenangebot/00005110/",
+    "score": 5,
+    "categories": [
+      "digital_humanities",
+      "schwach_methodisch",
+      "schwach_regional"
+    ]
+  },
+  "kultweet-251203": {
+    "first_seen": "2026-07-24T09:55:14.925590+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliches Volontariat bei den kommunalen Galerien Tempelhof-Schöneberg (m/w/d) | Berlin​‌‌‌‌​‌​‌​‌​‌​​​​‌‌ - Bezirksamt Tempelhof-Schöneberg von Berlin",
+    "url": "https://www.karriereportal-stellen.berlin.de/Wissenschaftliches-Volontariat-bei-den-kommunalen-Galerien-de-j68695.html",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6585741.html": {
+    "first_seen": "2026-07-24T09:55:16.280390+00:00",
+    "source": "service.bund.de",
+    "title": "Master of Laws als juristische Referentinnen und Referenten (w/m/d), AS-2026-134",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6585741.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1472882.html": {
+    "first_seen": "2026-07-24T09:55:16.302494+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiterin bzw. Sachbearbeiter (m/w/d) Ausländerbehörde, Referat Migration und Fachkräfteeinwanderung",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1472882.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
   }
 }
