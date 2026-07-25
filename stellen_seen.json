@@ -4470,5 +4470,35 @@
     "categories": [
       "migration_ez"
     ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6586124.html": {
+    "first_seen": "2026-07-25T09:18:13.807584+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiterinnen/Sachbearbeiter (w/m/d) für die internationale nachrichtendienstliche Zusammenarbeit, AS-2026-119",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6586124.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/nolis/2026/07/658ea775-bc56-4a5a-84de-ea070adf32db.html": {
+    "first_seen": "2026-07-25T09:18:13.933249+00:00",
+    "source": "service.bund.de",
+    "title": "Zuarbeitung (m/w/d) für das Rückkehrmanagement",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/nolis/2026/07/658ea775-bc56-4a5a-84de-ea070adf32db.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/giz/2026/07/1603490-21601.html": {
+    "first_seen": "2026-07-25T09:18:13.978946+00:00",
+    "source": "service.bund.de",
+    "title": "Spezialist*in Security Incident Management im ISMS",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/giz/2026/07/1603490-21601.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
   }
 }
