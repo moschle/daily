@@ -4500,5 +4500,25 @@
     "categories": [
       "migration_ez"
     ]
+  },
+  "https://www.hsozkult.de/job/id/job-163710": {
+    "first_seen": "2026-07-27T10:54:19.058531+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: 0,75 Doktorand:in + 0,5 Wiss. Mitarb. \"Cluster für schweizerische Begriffsgeschichte\" (Univ. de Genève)",
+    "url": "https://www.hsozkult.de/job/id/job-163710",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "kultweet-251276": {
+    "first_seen": "2026-07-27T10:54:19.178039+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliche*r Mitarbeiter*in (m/w/d) Fach Computerlinguistik und Digital Humanities, unbefristet, 100% | Trier​‌‌‌‌​‌​‌​‌‌​​​‌‌​​ - Universität Trier",
+    "url": "https://www.uni-trier.de/fileadmin/organisation/ABT3/Stellen_WissMitarbeiter/a38_26_WissMA_FB_II_Computerlinguistik_DH.pdf",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
   }
 }
