@@ -4520,5 +4520,57 @@
     "categories": [
       "digital_humanities"
     ]
+  },
+  "kultweet-251313": {
+    "first_seen": "2026-07-28T10:07:06.895819+00:00",
+    "source": "kultweet",
+    "title": "Sachbearbeitung (m/w/d) für das Leitungsbüro mit Schwerpunkt interne und externe Kommunikation, Öffentlichkeitsarbeit im (vglb.) gehobenen Dienst, unbefristet | Brandenburg an der Havel​‌‌‌‌​‌​‌​‌‌​‌‌",
+    "url": "https://bfaa.diplo.de/bfaa-de/karriere/2780152-2780152",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1470361.html": {
+    "first_seen": "2026-07-28T10:07:08.606987+00:00",
+    "source": "service.bund.de",
+    "title": "eine Sachbearbeitung (m/w/d) für das Leitungsbüro mit Schwerpunkt interne und externe Kommunikation, Öffentlichkeitsarbeit im (vgl.) gehobenen Dienst",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1470361.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1469757.html": {
+    "first_seen": "2026-07-28T10:07:08.612400+00:00",
+    "source": "service.bund.de",
+    "title": "Rechtsdozentin oder Rechtsdozent (m/w/d) mit dem Schwerpunkt Öffentliches Recht",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1469757.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/07/6588273.html": {
+    "first_seen": "2026-07-28T10:07:08.659033+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiter/-innen (m/w/d) für die Auswertung im Bereich Linksextremismus/-terrorismus - AWV-2026-097",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/07/6588273.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1466846.html": {
+    "first_seen": "2026-07-28T10:07:08.717503+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliches Volontariat bei den kommunalen Galerien Tempelhof-Schöneberg (m/w/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1466846.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
