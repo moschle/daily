@@ -4572,5 +4572,66 @@
       "kuratorisch_wiss_volo",
       "schwach_methodisch"
     ]
+  },
+  "https://www.hsozkult.de/job/id/job-163803": {
+    "first_seen": "2026-07-29T10:07:58.877086+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: 0,5 Wiss. Mitarb. (w/m/d) \"Digital Humanities und Datenmanagement\" (IfZ München)",
+    "url": "https://www.hsozkult.de/job/id/job-163803",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "kultweet-251382": {
+    "first_seen": "2026-07-29T10:07:58.999417+00:00",
+    "source": "kultweet",
+    "title": "wiss. Mitarbeiter/in (w/m/d) für Digital Humanities und Datenmanagement, 50%, unbefristet | München​‌‌‌‌​‌​‌​‌‌‌‌‌​‌‌​ - Institut für Zeitgeschichte München–Berlin (IfZ)",
+    "url": "https://www.ifz-muenchen.de/das-institut/stellenpraktika/stellenpraktika-detail/stellenangebot-digital-humanities-und-datenmanagement",
+    "score": 4,
+    "categories": [
+      "digital_humanities",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6590174.html": {
+    "first_seen": "2026-07-29T10:08:00.830155+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiter / Mitarbeiterin (w/m/d) für die IT-Administration / IT-Betrieb und Weiterentwicklung unserer IT-Systemlandschaft, AS-2026-133",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6590174.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1464191.html": {
+    "first_seen": "2026-07-29T10:08:00.854140+00:00",
+    "source": "service.bund.de",
+    "title": "Informatikerin oder Informatiker (m/w/d) für die IT-Netzwerktechnik",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1464191.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1474513.html": {
+    "first_seen": "2026-07-29T10:08:00.854714+00:00",
+    "source": "service.bund.de",
+    "title": "Daten-Analyst/-in (m/w/d) für den Bereich Technische Innovation",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1474513.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1474302.html": {
+    "first_seen": "2026-07-29T10:08:00.902442+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliche Mitarbeiterin/wissenschaftlicher Mitarbeiter (w/m/d) für Digital Humanities und Datenmanagement",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1474302.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
   }
 }
