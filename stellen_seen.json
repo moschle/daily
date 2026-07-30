@@ -4633,5 +4633,81 @@
     "categories": [
       "digital_humanities"
     ]
+  },
+  "kultweet-251468": {
+    "first_seen": "2026-07-30T09:58:34.165853+00:00",
+    "source": "kultweet",
+    "title": "Überprüfer/in für völkerrechtliche Verträge (m/w/d), unbefristet | Berlin​‌‌‌‌​‌​‌‌​​‌​​‌‌​​ - Auswärtiges Amt",
+    "url": "https://www.auswaertiges-amt.de/de/karriere/stellenanzeigen/2780582-2780582",
+    "score": 5,
+    "categories": [
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-251465": {
+    "first_seen": "2026-07-30T09:58:34.171919+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliche Volontär:in (m/w/d) im Bereich Ausstellung/Projekte | Völklingen​‌‌‌‌​‌​‌‌​​‌​​‌​​‌ - Weltkulturerbe Völklinger Hütte | Europäisches Zentrum für Kunst und Industriekultur GmbH",
+    "url": "https://www.kultweet.de/jobs/Volontariat_Voelklinger_Huette.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-251450": {
+    "first_seen": "2026-07-30T09:58:34.198439+00:00",
+    "source": "kultweet",
+    "title": "wissenschaftliches Volontariat | Mettmann​‌‌‌‌​‌​‌‌​​​‌‌‌​‌​ - Stiftung Neanderthal Museum",
+    "url": "https://neanderthal.de/documents/145/NTM_Stellenanzeige_Wissenschaftliches_Volontariat_A3_K8.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-251449": {
+    "first_seen": "2026-07-30T09:58:34.200277+00:00",
+    "source": "kultweet",
+    "title": "wissenschaftliche*n Referent*in (m/w/d) im Rahmen von „Plan P. – Fachstelle Prävention islamistischer Radikalisierung“, Teilzeit, befristet | Köln​‌‌‌‌​‌​‌‌​​​‌‌‌​​‌ - Arbeitsgemeinschaft Kinder- und ",
+    "url": "https://ajs.nrw/wp-content/uploads/2026/07/PP-Ausschreibung-Referent_in-2026.pdf",
+    "score": 9,
+    "categories": [
+      "iran_islam_kern",
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-251435": {
+    "first_seen": "2026-07-30T09:58:34.223189+00:00",
+    "source": "kultweet",
+    "title": "Praktikum Programmkoordination, Kommunikation und Veranstaltungsdurchführung, 35h/Woche, befristet | Hamburg​‌‌‌‌​‌​‌‌​​​‌​‌​‌‌ - Literaturhaus Hamburg e.V.",
+    "url": "https://www.kultweet.de/jobs/Literaturhaus_Hamburg_Praktikum.pdf",
+    "score": 3,
+    "categories": [
+      "verlag_geistes",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Auswaertiges-Amt/2026/07/6591390.html": {
+    "first_seen": "2026-07-30T09:58:36.061805+00:00",
+    "source": "service.bund.de",
+    "title": "Überprüferin/Überprüfer für völkerrechtliche Verträge (m/w/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Auswaertiges-Amt/2026/07/6591390.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1475010.html": {
+    "first_seen": "2026-07-30T09:58:36.075682+00:00",
+    "source": "service.bund.de",
+    "title": "Projektassistentin/ Projektassistent (m/w/d) in der Entwicklungszusammenarbeit",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1475010.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
   }
 }
