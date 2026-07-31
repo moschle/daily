@@ -4709,5 +4709,46 @@
     "categories": [
       "migration_ez"
     ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1470362.html": {
+    "first_seen": "2026-07-31T10:05:59.594330+00:00",
+    "source": "service.bund.de",
+    "title": "Bürosachbearbeitung (m/w/d) Datenbankauswertung und Statistik für die Zentralstelle für das Auslandsschulwesen im (vergleichbaren) mittleren Dienst",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1470362.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/07/6592963.html": {
+    "first_seen": "2026-07-31T10:05:59.641554+00:00",
+    "source": "service.bund.de",
+    "title": "Volljuristinnen/ Volljuristen (m/w/d)  für das Justiziariat - AWV-2026-103 - Köln",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/07/6592963.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/07/6592999.html": {
+    "first_seen": "2026-07-31T10:05:59.642186+00:00",
+    "source": "service.bund.de",
+    "title": "Volljuristinnen/ Volljuristen (m/w/d)  für das Justiziariat - AWV-2026-103 - Berlin",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/07/6592999.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6592864.html": {
+    "first_seen": "2026-07-31T10:05:59.644427+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterinnen/Mitarbeiter (w/m/d) für den 24/7 Schichtbetrieb in der Auswertung, AS-2026-135",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6592864.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
   }
 }
