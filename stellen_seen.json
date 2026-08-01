@@ -4750,5 +4750,65 @@
       "behörden_kern",
       "schwach_methodisch"
     ]
+  },
+  "kultweet-251534": {
+    "first_seen": "2026-08-01T09:31:58.857245+00:00",
+    "source": "kultweet",
+    "title": "Junior-Referent:in Ukraine (m/w/d), Vollzeit, befristet | Tönisvorst​‌‌‌‌​‌​‌‌​‌​​​‌‌‌​ - action medeor e.V.",
+    "url": "https://medeor.de/ueber-uns/team-karriere/30-karriere/935-junior-referent-in-ukraine-m-w-d.html",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1471405.html": {
+    "first_seen": "2026-08-01T09:32:00.566573+00:00",
+    "source": "service.bund.de",
+    "title": "Qualifizierungsmaßnahme für den gehobenen Auswärtigen Dienst 26/27",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1471405.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6594314.html": {
+    "first_seen": "2026-08-01T09:32:00.596570+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterin/Mitarbeiter (w/m/d) im Bereich Führungsunterstützung - AS-2026-137",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/07/6594314.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Verband-der-Reservisten-der-Deutschen-Bundeswehr-e-V/2026/07/6594269.html": {
+    "first_seen": "2026-08-01T09:32:00.598086+00:00",
+    "source": "service.bund.de",
+    "title": "Sachgebietsleitung Internationale Zusammenarbeit, Vollzeit, Berlin",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Verband-der-Reservisten-der-Deutschen-Bundeswehr-e-V/2026/07/6594269.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Niedersaechsisches-Ministerium-fuer-Inneres-und-Sport/2026/07/6594417.html": {
+    "first_seen": "2026-08-01T09:32:00.614818+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiter/-in (m/w/d) für Extremismusprävention",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Niedersaechsisches-Ministerium-fuer-Inneres-und-Sport/2026/07/6594417.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1476058.html": {
+    "first_seen": "2026-08-01T09:32:00.672984+00:00",
+    "source": "service.bund.de",
+    "title": "Projektassistentin/ Projektassistent (m/w/d) in der Entwicklungszusammenarbeit",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/07/1476058.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
   }
 }
