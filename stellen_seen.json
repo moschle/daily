@@ -4810,5 +4810,48 @@
     "categories": [
       "migration_ez"
     ]
+  },
+  "kultweet-251639": {
+    "first_seen": "2026-08-04T10:10:46.653488+00:00",
+    "source": "kultweet",
+    "title": "wissenschaftliches Volontariat im Hölderlinturm Tübingen (m/w/d) | Tübingen​‌‌‌‌​‌​‌‌​‌‌‌‌​‌‌‌ - Universitätsstadt Tübingen",
+    "url": "https://www.mein-check-in.de/tuebingen?position_id=531310",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-251635": {
+    "first_seen": "2026-08-04T10:10:46.661501+00:00",
+    "source": "kultweet",
+    "title": "12 Wissenschaftliche Mitarbeiter*innen DFG-Graduiertenkolleg 3125 „Versöhnung und ihre Äquivalente im transkulturellen Vergleich“(65%), befristet | Bonn​‌‌‌‌​‌​‌‌​‌‌‌‌​​‌‌ - Rheinische Friedrich-Wilhe",
+    "url": "https://www.uni-bonn.de/de/universitaet/arbeiten-an-der-uni/stellenangebote/stellenausschreibungen/12-wissenschaftliche-mitarbeiter-innen-65",
+    "score": 5,
+    "categories": [
+      "iran_islam_kern",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1476705.html": {
+    "first_seen": "2026-08-04T10:10:48.192468+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterin oder Mitarbeiter (m/w/d) im Bereich Schulprävention",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1476705.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1476621.html": {
+    "first_seen": "2026-08-04T10:10:48.248619+00:00",
+    "source": "service.bund.de",
+    "title": "mehrere Sachbearbeiterinnen bzw. Sachbearbeiter (w/m/d) im Bereich Auswertung",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1476621.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
   }
 }
