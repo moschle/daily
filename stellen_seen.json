@@ -4853,5 +4853,67 @@
       "behörden_kern",
       "schwach_methodisch"
     ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1477254.html": {
+    "first_seen": "2026-08-05T10:07:14.835477+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeitende im Bereich der Auswertung",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1477254.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1477248.html": {
+    "first_seen": "2026-08-05T10:07:14.839954+00:00",
+    "source": "service.bund.de",
+    "title": "Personalsachbearbeitung",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1477248.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6596780.html": {
+    "first_seen": "2026-08-05T10:07:14.863506+00:00",
+    "source": "service.bund.de",
+    "title": "Elektroniker/-in (m/w/d) - AWV-2026-104 - Köln",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6596780.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Deutsche-Gesellschaft-fuer-Auswaertige-Politik-e-V/2026/08/6597456.html": {
+    "first_seen": "2026-08-05T10:07:14.874952+00:00",
+    "source": "service.bund.de",
+    "title": "Research Assistant in the Future Orders Project (m/w/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Deutsche-Gesellschaft-fuer-Auswaertige-Politik-e-V/2026/08/6597456.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/08/6597227.html": {
+    "first_seen": "2026-08-05T10:07:14.875512+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterinnen/Mitarbeiter (w/m/d) für den Kurierdienst, AS-2026-136",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/08/6597227.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1471664.html": {
+    "first_seen": "2026-08-05T10:07:14.884598+00:00",
+    "source": "service.bund.de",
+    "title": "Eine Sachbearbeitung (m/w/d) für den Bereich Datenanalyse und -auswertung in der Abteilung Fördermittelmanagement im (vergleichbaren) gehobenen Dienst",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1471664.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
   }
 }
