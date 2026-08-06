@@ -4915,5 +4915,98 @@
       "behörden_kern",
       "schwach_methodisch"
     ]
+  },
+  "kultweet-251720": {
+    "first_seen": "2026-08-06T10:08:42.305186+00:00",
+    "source": "kultweet",
+    "title": "wissenschaftliches Volontariat Sammlung Malerei bis 1900 | Düsseldorf​‌‌‌‌​‌​‌‌‌​‌​​‌​​​ - Stiftung Museum Kunstpalast",
+    "url": "https://karriere.kunstpalast.de/de?id=c75785",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-251717": {
+    "first_seen": "2026-08-06T10:08:42.311001+00:00",
+    "source": "kultweet",
+    "title": "Fachreferentin bzw. Fachreferent (m/w/d) im Sprachlernzentrum des Auswärtigen Amts, befristet, 75% | Berlin​‌‌‌‌​‌​‌‌‌​‌​​​‌​‌ - Auswärtiges Amt",
+    "url": "https://www.auswaertiges-amt.de/de/karriere/stellenanzeigen/2781066-2781066",
+    "score": 5,
+    "categories": [
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-251715": {
+    "first_seen": "2026-08-06T10:08:42.313499+00:00",
+    "source": "kultweet",
+    "title": "Vermittlung & Outreach (m/w/d) | Hannover​‌‌‌‌​‌​‌‌‌​‌​​​​‌‌ - Kunstverein Hannover e.V.",
+    "url": "https://www.kunstverein-hannover.de/de/info/9339-stellenausschreibung",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-251704": {
+    "first_seen": "2026-08-06T10:08:42.333223+00:00",
+    "source": "kultweet",
+    "title": "Referent Forschungsdatenmanagement (w/m/d), befristet, Vollzeit | Stuttgart​‌‌‌‌​‌​‌‌‌​​‌‌‌​​​ - Landesarchiv Baden-Württemberg",
+    "url": "https://www.landesarchiv-bw.de/de/landesarchiv/karriere/ueberblick/47834",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1475076.html": {
+    "first_seen": "2026-08-06T10:08:42.361452+00:00",
+    "source": "service.bund.de",
+    "title": "technischer Hausmeisterinnen und Hausmeister (m/w/d) für den weltweiten Einsatz",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1475076.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-UKRat/2026/08/6598613.html": {
+    "first_seen": "2026-08-06T10:08:42.402578+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiterin/ Sachbearbeiter (w/m/d) für die administrative Kontrolle, UKRat-2026-013",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-UKRat/2026/08/6598613.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6598670.html": {
+    "first_seen": "2026-08-06T10:08:42.407876+00:00",
+    "source": "service.bund.de",
+    "title": "Volljuristinnen und Volljuristen (m/w/d)  für die Rechtskontrolle des Einsatzes von nachrichtendienstlichen Mitteln - AWV-2026-119 - Köln",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6598670.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6598704.html": {
+    "first_seen": "2026-08-06T10:08:42.408608+00:00",
+    "source": "service.bund.de",
+    "title": "Volljuristinnen und Volljuristen (m/w/d)  für die Rechtskontrolle des Einsatzes von nachrichtendienstlichen Mitteln - AWV-2026-119 - Berlin",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6598704.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/stellenmarkt_nrw/2026/08/095ca2de-be23-4c7e-9bf8-82dea94d99e9.html": {
+    "first_seen": "2026-08-06T10:08:42.516763+00:00",
+    "source": "service.bund.de",
+    "title": "Tarifbeschäftigte/-n (m/w/d) für das Referat 604 (Observation) im Team \"Nachrichtendienstliche Werkstatt\" in der Abteilung 6 (Verfassungsschutz)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/stellenmarkt_nrw/2026/08/095ca2de-be23-4c7e-9bf8-82dea94d99e9.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
