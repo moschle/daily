@@ -4405,5 +4405,60 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "kultweet-251859": {
+    "first_seen": "2026-08-08T08:06:13.122224+00:00",
+    "source": "kultweet",
+    "title": "wiss. Mitarbeiter/in (m/w/d) „Netzwerke der Nonnen. Edition und Erschließung der Briefsammlung aus Kloster Lüne (ca. 1460–1555)“, befristet | Wolfenbüttel​‌‌‌‌​‌​‌‌‌‌‌​‌​​‌‌ - Herzog August Bibliothek",
+    "url": "https://www.hab.de/wp-content/uploads/2026/07/NdN-Stellenausschreibung-2026.pdf",
+    "score": 4,
+    "categories": [
+      "digital_humanities",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-251847": {
+    "first_seen": "2026-08-08T08:06:13.133770+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliches Volontariat (m/w/d)  in der Archäologischen Denkmalpflege - Fachbereich Kultur | Osnabrück​‌‌‌‌​‌​‌‌‌‌‌​​​‌‌‌ - Stadt Osnabrück",
+    "url": "https://karriere.bei-der-stadt.de/jobposting/d474d35907265bcf95ec31b99a01502b8fe1b3b2",
+    "score": 5,
+    "categories": [
+      "erinnerungskultur",
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6601302.html": {
+    "first_seen": "2026-08-08T08:06:13.186052+00:00",
+    "source": "service.bund.de",
+    "title": "Referenten/Referentin (m/w/d)  für den Bereich Islamismus/islamistischer Terrorismus - AWV-2026-062 - Köln",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6601302.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6601286.html": {
+    "first_seen": "2026-08-08T08:06:13.186469+00:00",
+    "source": "service.bund.de",
+    "title": "Referenten/Referentin (m/w/d)  für den Bereich Islamismus/islamistischer Terrorismus - AWV-2026-062 - Berlin",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6601286.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Stadt-Osnabrueck/2026/08/6601812.html": {
+    "first_seen": "2026-08-08T08:06:13.193018+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliches Volontariat (m/w/d) in der Archäologischen Denkmalpflege - Fachbereich Kultur",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Stadt-Osnabrueck/2026/08/6601812.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "erinnerungskultur",
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
