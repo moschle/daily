@@ -1,36 +1,4 @@
 {
-  "kultweet-247849": {
-    "first_seen": "2026-05-11T10:46:59.064386+00:00",
-    "source": "kultweet",
-    "title": "Projektmanager*in Internationale Zusammenarbeit [befristet] | Düsseldorf​‌‌‌‌​​‌​​​​​‌​‌​​‌ - Stiftung Museum Kunstpalast",
-    "url": "https://karriere.kunstpalast.de/de?id=9af942",
-    "score": 3,
-    "categories": [
-      "migration_ez"
-    ]
-  },
-  "kultweet-247847": {
-    "first_seen": "2026-05-11T10:46:59.067479+00:00",
-    "source": "kultweet",
-    "title": "Geschäftsführung (m/w/d) für die Geschäfte des Verbundes und als Referent / Referentin für Öffentlichkeitsarbeit, 60h/Monat, unbefristet | Offenburg​‌‌‌‌​​‌​​​​​‌​​‌‌‌ - Gedenkstättenverbund Südlicher",
-    "url": "https://www.hsozkult.de/job/id/job-162233?title=0-4-geschaeftsfuehrung-m-w-d-gedenkstaettenverbund-suedlicher-oberrhein-e-v-offenburg&recno=5&q=&sort=&fq=&total=75",
-    "score": 3,
-    "categories": [
-      "erinnerungskultur",
-      "schwach_methodisch"
-    ]
-  },
-  "kultweet-247837": {
-    "first_seen": "2026-05-11T10:46:59.081370+00:00",
-    "source": "kultweet",
-    "title": "Mitarbeiter (m/w/d) in der Museumspädagogik für das Saarlandmuseum (Moderne Galerie/Alte Sammlung) und das Museum für Vor- und Frühgeschichte, Vollzeit, unbefristet | Saarbrücken​‌‌‌‌​​‌​​​​​​‌‌‌​‌ - ",
-    "url": "https://www.kulturbesitz.de/de/stiftung/stellenausschreibungen",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
   "kultweet-247883": {
     "first_seen": "2026-05-12T10:04:54.882287+00:00",
     "source": "kultweet",
@@ -4449,6 +4417,38 @@
       "erinnerungskultur",
       "kuratorisch_wiss_volo",
       "schwach_methodisch"
+    ]
+  },
+  "kultweet-251892": {
+    "first_seen": "2026-08-10T08:57:53.793782+00:00",
+    "source": "kultweet",
+    "title": "Referenten/Referentin (m/w/d) für den Bereich Islamismus/islamistischer Terrorismus, Vollzeit, Teilzeit | Köln, Berlin​‌‌‌‌​‌​‌‌‌‌‌‌‌​‌​​ - Bundesamt für Verfassungsschutz (BfV)",
+    "url": "https://www.verfassungsschutz.de/SharedDocs/stellenangebote/DE/2026-08-07-ref-islamismus-ausschreibung.html",
+    "score": 8,
+    "categories": [
+      "iran_islam_kern",
+      "behörden_kern"
+    ]
+  },
+  "kultweet-251881": {
+    "first_seen": "2026-08-10T08:57:53.813356+00:00",
+    "source": "kultweet",
+    "title": "Kurator / Kuratorin (60 - 80%) | Urnäsch, Schweiz​‌‌‌‌​‌​‌‌‌‌‌‌​‌​​‌ - Appenzeller Brauchtumsmuseum Urnäsch",
+    "url": "https://www.museums.ch/admin/data/files/jobs/file/14247/stelleninserat-kuratorin-08.2026.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-251875": {
+    "first_seen": "2026-08-10T08:57:53.825059+00:00",
+    "source": "kultweet",
+    "title": "2 Mitarbeiter (m/w/d)im Bereich Schulprävention der BIGE, befristet | Nürnberg​‌‌‌‌​‌​‌‌‌‌‌‌​​​‌‌ - Bayerische Landesamt für Verfassungsschutz (BayLfV)",
+    "url": "https://www.lfv.bayern.de/jobs/mitarbeiterin-oder-mitarbeiter-mwdim-bereich-schulpraevention-der-bige/",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
     ]
   }
 }
