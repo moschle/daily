@@ -1,66 +1,4 @@
 {
-  "kultweet-248045": {
-    "first_seen": "2026-05-14T09:56:05.062323+00:00",
-    "source": "kultweet",
-    "title": "wissenschaftliches Volontariat (m/w/d) Restaurierung, Fachrichtung kunsthandwerkliche und archäologische Objekte | Stuttgart​‌‌‌‌​​‌​​​‌‌‌​‌‌​‌ - Landesmuseum Württemberg",
-    "url": "https://landesmuseum-stuttgart.softgarden.io/job/64714864/wissenschaftliches-Volontariat-m-w-d-Restaurierung,-Fachrichtung-kunsthandwerkliche-und-arch%C3%A4ologische-Objekte?jobDbPVId=272906809&l=de",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
-  "kultweet-248032": {
-    "first_seen": "2026-05-14T09:56:05.083975+00:00",
-    "source": "kultweet",
-    "title": "Wissenschaftliche Mitarbeiter/in (m/w/d), Islamwissenschaft, 100%, befristet | Bayreuth​‌‌‌‌​​‌​​​‌‌‌​​​​​ - Universität Bayreuth",
-    "url": "https://www.uni-bayreuth.de/stelle-kennwort-islamwissenschaft-1e1c4ac67f72ac38",
-    "score": 5,
-    "categories": [
-      "iran_islam_kern",
-      "schwach_regional"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6502456.html": {
-    "first_seen": "2026-05-14T09:56:06.864026+00:00",
-    "source": "service.bund.de",
-    "title": "Sachbearbeiter (w/m/d) für den IT-Basisdienstleistungen Endgerätemanager, AS-2026-064",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6502456.html#track=feed-jobs",
-    "score": 4,
-    "categories": [
-      "behörden_kern"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6502481.html": {
-    "first_seen": "2026-05-14T09:56:06.864582+00:00",
-    "source": "service.bund.de",
-    "title": "Sachbearbeiter (w/m/d) für die IT-Kommunikationssysteme, AS-2026-065",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/05/6502481.html#track=feed-jobs",
-    "score": 4,
-    "categories": [
-      "behörden_kern"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6501467.html": {
-    "first_seen": "2026-05-14T09:56:06.869617+00:00",
-    "source": "service.bund.de",
-    "title": "Sachbearbeiter/-in (m/w/d)  für die Internetbearbeitung im Bereich Linksextremismus/-terrorismus  - AWV-2026-014",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6501467.html#track=feed-jobs",
-    "score": 4,
-    "categories": [
-      "behörden_kern"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Deutsche-Gesellschaft-fuer-Auswaertige-Politik-e-V/2026/05/6502399.html": {
-    "first_seen": "2026-05-14T09:56:06.883814+00:00",
-    "source": "service.bund.de",
-    "title": "Hausmeister/Haustechniker/Facility Manager (m/w/d)",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Deutsche-Gesellschaft-fuer-Auswaertige-Politik-e-V/2026/05/6502399.html#track=feed-jobs",
-    "score": 4,
-    "categories": [
-      "behörden_kern"
-    ]
-  },
   "kultweet-248097": {
     "first_seen": "2026-05-15T10:02:32.082753+00:00",
     "source": "kultweet",
@@ -4405,6 +4343,36 @@
     "source": "service.bund.de",
     "title": "Linux-Systemadministrator/-in (m/w/d) im Bereich Technische Innovation",
     "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1479612.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "kultweet-252085": {
+    "first_seen": "2026-08-13T08:51:22.043946+00:00",
+    "source": "kultweet",
+    "title": "Berater*in humanitäre Hilfe, Voll- oder Teilzeit, befristet | Berlin​‌‌‌‌​‌‌​​​‌​‌‌​‌​‌ - Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)",
+    "url": "https://jobs.giz.de/index.php?ac=jobad&id=78968",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6606462.html": {
+    "first_seen": "2026-08-13T08:51:22.157167+00:00",
+    "source": "service.bund.de",
+    "title": "Duales Studium der Verwaltungsinformatik (Laufbahnausbildung für den gehobenen Dienst)  - AWV-2026-100 - Berlin",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6606462.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6606372.html": {
+    "first_seen": "2026-08-13T08:51:22.160145+00:00",
+    "source": "service.bund.de",
+    "title": "Duales Studium der Verwaltungsinformatik (Laufbahnausbildung für den gehobenen Dienst)  - AWV-2026-100 - Köln",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6606372.html#track=feed-jobs",
     "score": 4,
     "categories": [
       "behörden_kern"
