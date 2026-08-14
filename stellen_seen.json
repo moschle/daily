@@ -1,14 +1,4 @@
 {
-  "kultweet-248097": {
-    "first_seen": "2026-05-15T10:02:32.082753+00:00",
-    "source": "kultweet",
-    "title": "Fachkraft für den Zivilen Friedensdienst (ZFD) Beratung für die Stärkung des gesellschaftlichen Zusammenhalts | Niamey, Niger​‌‌‌‌​​‌​​‌​​‌​​​​‌ - Deutsche Gesellschaft für Internationale Zusammenarb",
-    "url": "https://jobs.giz.de/index.php?ac=jobad&id=78256",
-    "score": 3,
-    "categories": [
-      "migration_ez"
-    ]
-  },
   "kultweet-248171": {
     "first_seen": "2026-05-16T09:11:12.223572+00:00",
     "source": "kultweet",
@@ -4376,6 +4366,77 @@
     "score": 4,
     "categories": [
       "behörden_kern"
+    ]
+  },
+  "kultweet-252115": {
+    "first_seen": "2026-08-14T08:45:02.306099+00:00",
+    "source": "kultweet",
+    "title": "Ar­chi­var mit Schwer­punkt di­gi­ta­le Samm­lungs- und In­for­ma­ti­ons­sys­te­me (m/w/d), Vollzeit, unbefristet | Cottbus​‌‌‌‌​‌‌​​​‌‌​‌​​‌‌ - Stiftung Fürst-Pückler-Museum Park und Schloss Branitz",
+    "url": "https://www.pueckler-museum.de/wp-content/uploads/2026/08/StA_Archivar.pdf",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "kultweet-252107": {
+    "first_seen": "2026-08-14T08:45:02.321041+00:00",
+    "source": "kultweet",
+    "title": "Projektmitarbeiter*in (m/w/d) für Kulturvermittlung im Ganztag, befristet, 75% | Hannover​‌‌‌‌​‌‌​​​‌‌​​‌​‌‌ - Niedersächsisches Landesmuseum Hannover",
+    "url": "https://landesmuseum-hannover.de/wp-content/uploads/stellenausschreibung-kulturvermittlung-ganztag.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6607593.html": {
+    "first_seen": "2026-08-14T08:45:02.413748+00:00",
+    "source": "service.bund.de",
+    "title": "IT-Führungskräfte (m/w/d) als Referatsleitung - AWV-2026-400 - Berlin",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6607593.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6607608.html": {
+    "first_seen": "2026-08-14T08:45:02.414271+00:00",
+    "source": "service.bund.de",
+    "title": "IT-Führungskräfte (m/w/d) als Referatsleitung - AWV-2026-400 - Köln",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6607608.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6607344.html": {
+    "first_seen": "2026-08-14T08:45:02.422591+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiter/-innen (m/w/d)  für das Recruiting - AWV-2026-085",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6607344.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6607889.html": {
+    "first_seen": "2026-08-14T08:45:02.432416+00:00",
+    "source": "service.bund.de",
+    "title": "Bürokräfte (m/w/d) für Auslandsbezogenen Extremismus / Terrorismus  oder Linksextremismus/-terrorismus  - AWV-2026-011",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6607889.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1474124.html": {
+    "first_seen": "2026-08-14T08:45:02.471285+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiter*in Personalabteilung in Teilzeit (50-60%)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1474124.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
     ]
   }
 }
