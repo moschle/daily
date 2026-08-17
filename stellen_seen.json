@@ -1,26 +1,4 @@
 {
-  "kultweet-248189": {
-    "first_seen": "2026-05-18T11:31:06.027174+00:00",
-    "source": "kultweet",
-    "title": "Tarifbeschäftigte/r (m/w/d), Vollzeit, Teilzeit möglich, unbefristet | Berlin​‌‌‌‌​​‌​​‌​‌‌‌‌‌​‌ - Senatsverwaltung für Arbeit, Soziales, Gleichstellung, Integration, Vielfalt und Antidiskriminierung",
-    "url": "https://www.karriereportal-stellen.berlin.de/Tarifbeschaeftigter-mwd-de-j67292.html",
-    "score": 5,
-    "categories": [
-      "iran_islam_kern",
-      "schwach_methodisch"
-    ]
-  },
-  "kultweet-248186": {
-    "first_seen": "2026-05-18T11:31:06.037070+00:00",
-    "source": "kultweet",
-    "title": "Wissenschaftliches Volontariat in der Bildung und Vermittlung am Kindermuseum Adlerturm(m/w/d) | Dortmund​‌‌‌‌​​‌​​‌​‌‌‌‌​‌​ - Kulturbetriebe Dortmund",
-    "url": "https://www.dortmund.de/rathaus-und-verwaltung/karriere/aktuelle-stellenangebote/stellenangebote-im-%C3%BCberblick/wissenschaftliches-volontariat-in-der-bildung-und-vermittlung-am-kindermuseum-adlerturmm-w-d.html",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
   "kultweet-248228": {
     "first_seen": "2026-05-19T10:47:41.505935+00:00",
     "source": "kultweet",
@@ -4446,6 +4424,26 @@
     "score": 4,
     "categories": [
       "behörden_kern"
+    ]
+  },
+  "kultweet-252212": {
+    "first_seen": "2026-08-17T08:08:11.526996+00:00",
+    "source": "kultweet",
+    "title": "Mitarbeiter/in (m/w/d) für das Universitätsarchiv (100%; befristet) | Stuttgart​‌‌‌‌​‌‌​​‌​​‌‌​‌​​ - Universitätsbibliothek Stuttgart",
+    "url": "https://www.stellenwerk.de/stuttgart/mitarbeiterin-mwd-fuer-das-universitaetsarchiv-100prozent-befristet-eg-13-tv-l-260813-274454",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
+    ]
+  },
+  "kultweet-252206": {
+    "first_seen": "2026-08-17T08:08:11.535319+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliche:r Mitarbeiter:in am Institut für Germanistische Sprachwissenschaft, 65%, befristet | Jena​‌‌‌‌​‌‌​​‌​​‌​‌‌‌​ - Friedrich-Schiller-Universität Jena",
+    "url": "https://jobs.uni-jena.de/jobposting/180aa838ba018b0b1a5a927cb1f1b9393d1b02390",
+    "score": 3,
+    "categories": [
+      "digital_humanities"
     ]
   }
 }
