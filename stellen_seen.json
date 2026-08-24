@@ -4118,5 +4118,27 @@
     "categories": [
       "iran_islam_kern"
     ]
+  },
+  "kultweet-252512": {
+    "first_seen": "2026-08-24T08:11:23.913284+00:00",
+    "source": "kultweet",
+    "title": "Künstlerische / wissenschaftliche Direktion (m/w/d) des Rautenstrauch-Joest-Museums – Kulturen der Welt (RJM) | Köln​‌‌‌‌​‌‌​‌​​‌‌​​​​​ - Stadt Köln",
+    "url": "https://www.kultweet.de/jobs/RJM_Direktion.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-252503": {
+    "first_seen": "2026-08-24T08:11:23.928749+00:00",
+    "source": "kultweet",
+    "title": "kuratorische Assistenz für Projekt- und Ausstellungsumsetzung (m, w, d) befristet in Vollzeit | Hamburg​‌‌‌‌​‌‌​‌​​‌​‌​‌‌‌ - Hamburger Kunsthalle",
+    "url": "https://www.hamburger-kunsthalle.de/de/jobs",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
