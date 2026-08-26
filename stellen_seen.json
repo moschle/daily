@@ -1,76 +1,4 @@
 {
-  "kultweet-248498": {
-    "first_seen": "2026-05-27T11:04:25.847768+00:00",
-    "source": "kultweet",
-    "title": "Wissenschaftlichen Mitarbeiter*in (m/w/d) Statistische Modellierung und Computational Archaeology, befristet, 80% | Kiel​‌‌‌‌​​‌​‌​‌​‌‌​​‌​ - Christian-Albrechts-Universität zu Kiel",
-    "url": "https://www.uni-kiel.de/personal/de/stellen/extern/wiss/ausschreibung-statistische-modellierung-05-26.pdf",
-    "score": 3,
-    "categories": [
-      "digital_humanities"
-    ]
-  },
-  "kultweet-248465": {
-    "first_seen": "2026-05-27T11:04:25.900284+00:00",
-    "source": "kultweet",
-    "title": "Stelle in der Gedenkstättenpädagogik (m/w/d) in der Gedenkstätte KZ Lichtenburg Prettin, befristet | Annaburg, OT Prettin​‌‌‌‌​​‌​‌​‌​​‌​​​‌ - Stiftung Gedenkstätten Sachsen-Anhalt",
-    "url": "https://www.kultweet.de/jobs/Gedenkstaettenpaedagogik.pdf",
-    "score": 3,
-    "categories": [
-      "erinnerungskultur",
-      "schwach_methodisch"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6514864.html": {
-    "first_seen": "2026-05-27T11:04:27.574866+00:00",
-    "source": "service.bund.de",
-    "title": "Informatiker/-innen (m/w/d) für die IT-Infrastruktur - AWV-2026-058",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/05/6514864.html#track=feed-jobs",
-    "score": 4,
-    "categories": [
-      "behörden_kern"
-    ]
-  },
-  "https://www.jobs.ac.uk/job/DRR630/lecturer-in-history-and-digital-humanities/": {
-    "first_seen": "2026-05-27T11:04:27.795095+00:00",
-    "source": "jobs.ac.uk Languages",
-    "title": "Lecturer in History and Digital Humanities",
-    "url": "https://www.jobs.ac.uk/job/DRR630/lecturer-in-history-and-digital-humanities/",
-    "score": 3,
-    "categories": [
-      "digital_humanities"
-    ]
-  },
-  "https://www.jobs.ac.uk/job/DRR283/lecturer-assistant-professor-associate-professor-professor-in-translation/": {
-    "first_seen": "2026-05-27T11:04:27.798090+00:00",
-    "source": "jobs.ac.uk Languages",
-    "title": "Lecturer/Assistant Professor/Associate Professor/Professor in Translation",
-    "url": "https://www.jobs.ac.uk/job/DRR283/lecturer-assistant-professor-associate-professor-professor-in-translation/",
-    "score": 5,
-    "categories": [
-      "iran_islam_kern",
-      "schwach_methodisch"
-    ]
-  },
-  "https://www.jobs.ac.uk/job/DRR285/lecturer-assistant-or-associate-professor-professor-in-english-literature/": {
-    "first_seen": "2026-05-27T11:04:27.798462+00:00",
-    "source": "jobs.ac.uk Languages",
-    "title": "Lecturer/Assistant or Associate Professor/Professor in English Literature",
-    "url": "https://www.jobs.ac.uk/job/DRR285/lecturer-assistant-or-associate-professor-professor-in-english-literature/",
-    "score": 4,
-    "categories": [
-      "iran_islam_kern"
-    ]
-  },
-  "https://www.jobs.ac.uk/job/DRR398/gerald-averay-wainwright-early-career-research-fellowship-in-near-eastern-archaeology/": {
-    "first_seen": "2026-05-27T11:04:27.805396+00:00",
-    "source": "jobs.ac.uk History",
-    "title": "Gerald Averay Wainwright Early Career Research Fellowship in Near Eastern Archaeology",
-    "url": "https://www.jobs.ac.uk/job/DRR398/gerald-averay-wainwright-early-career-research-fellowship-in-near-eastern-archaeology/",
-    "score": 3,
-    "categories": [
-      "region_orient"
-    ]
-  },
   "kultweet-248640": {
     "first_seen": "2026-05-28T11:06:00.774077+00:00",
     "source": "kultweet",
@@ -4157,6 +4085,58 @@
     "source": "kultweet",
     "title": "Volljuristin oder Volljurist (m/w/d) für Sanktionspolitik im Auswärtigen Amt, Voll- oder Teilzeit, befristet | Berlin​‌‌‌‌​‌‌​‌​‌​‌​​​‌‌ - Auswärtiges Amt",
     "url": "https://www.auswaertiges-amt.de/de/karriere/stellenanzeigen/2798842-2798842",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "kultweet-252653": {
+    "first_seen": "2026-08-26T08:07:52.999931+00:00",
+    "source": "kultweet",
+    "title": "Project Manager (m/w/d), 80%, limited | Berlin​‌‌‌‌​‌‌​‌​‌‌‌​‌‌​‌ - Deutsche Gesellschaft für Auswärtige Politik e.V.",
+    "url": "https://dgap.org/de/dgap/jobs/project-manager-m-w-d",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "kultweet-252652": {
+    "first_seen": "2026-08-26T08:07:53.000997+00:00",
+    "source": "kultweet",
+    "title": "Prozessmanager:in Lektorat (d/m/w) in 50%, unbefristet | Stuttgart oder remote​‌‌‌‌​‌‌​‌​‌‌‌​‌‌​​ - Haufe-Lexware GmbH & Co.KG",
+    "url": "https://jobs.haufegroup.com/stelle/prozessmanagerin-lektorat-d-m-w-in-/18aab758-3735-4cd5-bb33-478e618f711a",
+    "score": 4,
+    "categories": [
+      "digital_humanities",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1484713.html": {
+    "first_seen": "2026-08-26T08:07:53.022558+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiter (m/w/d) für das Literaturhaus Uwe Johnson",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1484713.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "verlag_geistes",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/08/6618397.html": {
+    "first_seen": "2026-08-26T08:07:53.060508+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiterinnen/Mitarbeiter (w/m/d) im Bereich der sicherheitlichen Bauüberwachung, AS-2026-145",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/08/6618397.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Deutsche-Gesellschaft-fuer-Auswaertige-Politik-e-V/2026/08/6618353.html": {
+    "first_seen": "2026-08-26T08:07:53.061418+00:00",
+    "source": "service.bund.de",
+    "title": "Project Manager (m/w/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Deutsche-Gesellschaft-fuer-Auswaertige-Politik-e-V/2026/08/6618353.html#track=feed-jobs",
     "score": 4,
     "categories": [
       "behörden_kern"
