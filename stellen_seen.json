@@ -1,46 +1,4 @@
 {
-  "https://www.hsozkult.de/job/id/job-162677": {
-    "first_seen": "2026-05-30T09:30:21.971355+00:00",
-    "source": "H-Soz-Kult",
-    "title": "Job: 1 Wiss. Volontariat (m/w/d) \"Museale Arbeit\" (Zweckverband Mühlhäuser Museen, Mühlhausen)",
-    "url": "https://www.hsozkult.de/job/id/job-162677",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1453207.html": {
-    "first_seen": "2026-05-30T09:30:23.752465+00:00",
-    "source": "service.bund.de",
-    "title": "Wissenschaftliche/n Mitarbeiter*in Digital Humanities (m/w/d)",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1453207.html#track=feed-jobs",
-    "score": 3,
-    "categories": [
-      "digital_humanities"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1452684.html": {
-    "first_seen": "2026-05-30T09:30:23.940827+00:00",
-    "source": "service.bund.de",
-    "title": "Teamassistenz (m/w/d) für den Bereich Finanzen",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/05/1452684.html#track=feed-jobs",
-    "score": 4,
-    "categories": [
-      "behörden_kern"
-    ]
-  },
-  "https://arthist.net/archive/52595": {
-    "first_seen": "2026-05-30T09:30:23.990279+00:00",
-    "source": "arthist.net",
-    "title": "JOB: Wiss. Volontariat bei den Mühlhäuser Museen Mühlhausen (Thüringen)",
-    "url": "https://arthist.net/archive/52595",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
   "https://www.hsozkult.de/job/id/job-162706": {
     "first_seen": "2026-06-01T13:12:08.254981+00:00",
     "source": "H-Soz-Kult",
@@ -4032,6 +3990,27 @@
     "source": "service.bund.de",
     "title": "Sozialarbeiter:in (w/m/d) Auswärtige und Zugewiesene",
     "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1485023.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "kultweet-252780": {
+    "first_seen": "2026-08-28T19:32:05.867331+00:00",
+    "source": "kultweet",
+    "title": "wiss. Volontär*in für das LVR-Freilichtmuseum in Lindlar​‌‌‌‌​‌‌​‌‌​‌‌​‌‌​​ - Landschaftsverband Rheinland (LVR)",
+    "url": "https://jobs.lvr.de/index.php?ac=jobad&id=19066",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6622895.html": {
+    "first_seen": "2026-08-28T19:32:05.920182+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeitende (m/w/d)  für die Spionageabwehr (GUS-Staaten) - AWV-2026-090",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6622895.html#track=feed-jobs",
     "score": 4,
     "categories": [
       "behörden_kern"
