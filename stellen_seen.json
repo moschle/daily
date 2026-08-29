@@ -4015,5 +4015,26 @@
     "categories": [
       "behörden_kern"
     ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1485843.html": {
+    "first_seen": "2026-08-29T13:18:44.339387+00:00",
+    "source": "service.bund.de",
+    "title": "Sozial- oder Geisteswissenschaftler/innen  als Beschäftige/r im Bereich Radikalisierungsprävention im Justizvollzug",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1485843.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "behörden_kern",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/giz/2026/08/1548439-21601.html": {
+    "first_seen": "2026-08-29T13:18:44.394958+00:00",
+    "source": "service.bund.de",
+    "title": "Spezialist*in IT für SAP S/4 HANA Analytics und Finanzen",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/giz/2026/08/1548439-21601.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "migration_ez"
+    ]
   }
 }
