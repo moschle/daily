@@ -1,69 +1,4 @@
 {
-  "https://www.hsozkult.de/job/id/job-162706": {
-    "first_seen": "2026-06-01T13:12:08.254981+00:00",
-    "source": "H-Soz-Kult",
-    "title": "Job: Wiss. Mitarb. \"Digital Humanities\" (m/w/d) (MPI für Rechtsgeschichte und Rechtstheorie Frankfurt am Main)",
-    "url": "https://www.hsozkult.de/job/id/job-162706",
-    "score": 3,
-    "categories": [
-      "digital_humanities"
-    ]
-  },
-  "kultweet-248762": {
-    "first_seen": "2026-06-01T13:12:08.346663+00:00",
-    "source": "kultweet",
-    "title": "Wis­sen­schaft­li­che/n Mit­ar­bei­ter*in Di­gi­tal Hu­ma­ni­ties (m/w/d), Vollzeit, befristet | Frankfurt am Main​‌‌‌‌​​‌​‌‌‌​‌‌‌​‌​ - Max-Planck-Institut für Rechtsgeschichte und Rechtstheorie",
-    "url": "https://jobs.lhlt.mpg.de/jobposting/62607be389686327a0c14d8e4125d7a03e2dd8330",
-    "score": 3,
-    "categories": [
-      "digital_humanities"
-    ]
-  },
-  "kultweet-248747": {
-    "first_seen": "2026-06-01T13:12:08.371811+00:00",
-    "source": "kultweet",
-    "title": "Collection Data Manager:in (w/m/d), Vollzeit, befristet | Stuttgart​‌‌‌‌​​‌​‌‌‌​‌​‌​‌‌ - Linden-Museum Stuttgart",
-    "url": "https://www.museumsbund.de/stellenangebote/collection-data-managerin-w-m-d/",
-    "score": 6,
-    "categories": [
-      "digital_humanities",
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
-  "kultweet-248733": {
-    "first_seen": "2026-06-01T13:12:08.395321+00:00",
-    "source": "kultweet",
-    "title": "Assistenzkurator*in (m/w/d/k) Ausstellungen für das kuratorische Team des Gropius Bau, befristet, 39h/Woche | Berlin​‌‌‌‌​​‌​‌‌‌​​‌‌‌​‌ - KBB - Kulturveranstaltungen des Bundes in Berlin GmbH",
-    "url": "https://kbbjobs.softgarden.io/job/64981223/Assistenzkurator-in-m-w-d-k-Ausstellungen-?jobDbPVId=274303218&l=de",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
-  "kultweet-248731": {
-    "first_seen": "2026-06-01T13:12:08.398206+00:00",
-    "source": "kultweet",
-    "title": "Wissenschaftliches Volontariat (m/w/d) bei dem Zweckverband Mühlhäuser Museen | Mühlhausen​‌‌‌‌​​‌​‌‌‌​​‌‌​‌‌ - Zweckverband Mühlhäuser Museen",
-    "url": "https://www.hsozkult.de/job/id/job-162677?recno=6&q=&sort=&fq=&total=67",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
-  "kultweet-248780": {
-    "first_seen": "2026-06-02T11:49:54.820769+00:00",
-    "source": "kultweet",
-    "title": "Wissenschaftliches Volontariat (m/w/d) - Kuratorischer Bereich | Karlsruhe​‌‌‌‌​​‌​‌‌‌‌​​‌‌​​ - ZKM | Zentrum für Kunst und Medien Karlsruhe",
-    "url": "https://zkm.de/de/wissenschaftliches-volontariat-mwd-kuratorischer-bereich",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
   "kultweet-248887": {
     "first_seen": "2026-06-03T12:21:06.728553+00:00",
     "source": "kultweet",
@@ -4035,6 +3970,17 @@
     "score": 3,
     "categories": [
       "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6623980.html": {
+    "first_seen": "2026-08-31T15:17:30.140089+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiter/-in (m/w/d) in der Informationsbeschaffung  mit sehr guten Sprachkenntnissen in Arabisch - AWV-2026-081",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6623980.html#track=feed-jobs",
+    "score": 8,
+    "categories": [
+      "iran_islam_kern",
+      "behörden_kern"
     ]
   }
 }
