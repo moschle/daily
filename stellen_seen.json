@@ -1,25 +1,4 @@
 {
-  "kultweet-248887": {
-    "first_seen": "2026-06-03T12:21:06.728553+00:00",
-    "source": "kultweet",
-    "title": "Archivar (m/w/d), 35%, unbefristet | Freudenstadt​‌‌‌‌​​‌‌​​​​‌‌​‌‌‌ - Landratsamt Freudenstadt",
-    "url": "https://lra-freudenstadt.bewerbung.dvvbw.de/1565-archivar-w-m-d/de/job.html",
-    "score": 3,
-    "categories": [
-      "digital_humanities"
-    ]
-  },
-  "kultweet-248847": {
-    "first_seen": "2026-06-03T12:21:06.793935+00:00",
-    "source": "kultweet",
-    "title": "Referent*in Bildung und Vermittlung und Museumspädagog*in (m/w/d) für das Museum für Kommunikation, Vollzeit | Berlin​‌‌‌‌​​‌‌​​​​​​‌‌‌‌ - Museumsstiftung Post und Telekommunikation",
-    "url": "https://www.museumsstiftung.de/wp-content/uploads/AT_Ref_Bildung_und_Vermittlung_Museumspaedagog_in_MKB_final.pdf",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
   "kultweet-248912": {
     "first_seen": "2026-06-04T10:47:37.196649+00:00",
     "source": "kultweet",
@@ -3977,6 +3956,47 @@
     "source": "service.bund.de",
     "title": "Mitarbeiter/-in (m/w/d) in der Informationsbeschaffung  mit sehr guten Sprachkenntnissen in Arabisch - AWV-2026-081",
     "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/08/6623980.html#track=feed-jobs",
+    "score": 8,
+    "categories": [
+      "iran_islam_kern",
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/09/6625308.html": {
+    "first_seen": "2026-09-01T12:41:50.091048+00:00",
+    "source": "service.bund.de",
+    "title": "Auszubildende (m/w/d) zur/zum Verwaltungsfachangestellten beim Inlandsnachrichtendienst  - AWV-VFA-27-B - Berlin",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/09/6625308.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/09/6625299.html": {
+    "first_seen": "2026-09-01T12:41:50.093207+00:00",
+    "source": "service.bund.de",
+    "title": "Auszubildende (m/w/d) zur/zum Verwaltungsfachangestellten beim Inlandsnachrichtendienst  - AWV-VFA-27-K - Köln",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/09/6625299.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/09/6625262.html": {
+    "first_seen": "2026-09-01T12:41:50.094855+00:00",
+    "source": "service.bund.de",
+    "title": "Bürosachbearbeiter/-innen (m/w/d)  in der Spionageabwehr - AWV-2026-110",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/09/6625262.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1486589.html": {
+    "first_seen": "2026-09-01T12:41:50.152180+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiterin / Sachbearbeiter (w/m/d)  für den Bereich Extremismusanalyse mit Sprachkenntnissen (Türkisch, Arabisch oder Kurmandschi)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/08/1486589.html#track=feed-jobs",
     "score": 8,
     "categories": [
       "iran_islam_kern",
