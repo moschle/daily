@@ -33,7 +33,7 @@
     {
       "artist": "BadBadNotGood",
       "album": "IV",
-      "suggested": false
+      "suggested": true
     },
     {
       "artist": "Ichiko Aoba",
@@ -86,5 +86,5 @@
       "suggested": false
     }
   ],
-  "generated_at": "2026-05-27T08:56:02.132478+02:00"
+  "generated_at": "2026-09-02T10:25:30.790520+02:00"
 }
