@@ -31,7 +31,7 @@ jobs:
           KINDLE_EMAIL: ${{ secrets.KINDLE_EMAIL }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-        run: python generate_morgenbrief.py
+        run: python run_morgenbrief.py
 
       - name: Persistente Dateien committen
         run: |
