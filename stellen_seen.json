@@ -1,45 +1,4 @@
 {
-  "kultweet-248912": {
-    "first_seen": "2026-06-04T10:47:37.196649+00:00",
-    "source": "kultweet",
-    "title": "wiss. Volontär (m/w/d) im Bereich Sammlung und Dokumentation | Mechernich​‌‌‌‌​​‌‌​​​‌​‌​​​​ - Landschaftsverband Rheinland (LVR)",
-    "url": "https://jobs.lvr.de/index.php?ac=jobad&id=19683",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1454609.html": {
-    "first_seen": "2026-06-04T10:47:38.757469+00:00",
-    "source": "service.bund.de",
-    "title": "Projektkoordination (m/w/d)  für Digital Humanities und Datenmodellierung",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1454609.html#track=feed-jobs",
-    "score": 3,
-    "categories": [
-      "digital_humanities"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6526186.html": {
-    "first_seen": "2026-06-04T10:47:38.785602+00:00",
-    "source": "service.bund.de",
-    "title": "Mitarbeitende (m/w/d) für zentrale Anfragen in der Cyber- und Spionageabwehr  - AWV-2026-063",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6526186.html#track=feed-jobs",
-    "score": 4,
-    "categories": [
-      "behörden_kern"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1454275.html": {
-    "first_seen": "2026-06-04T10:47:38.872499+00:00",
-    "source": "service.bund.de",
-    "title": "Reinigungskräfte (m/w/d) in Teilzeit (20 Wochenstunden)",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1454275.html#track=feed-jobs",
-    "score": 4,
-    "categories": [
-      "behörden_kern"
-    ]
-  },
   "kultweet-249005": {
     "first_seen": "2026-06-05T10:57:48.116025+00:00",
     "source": "kultweet",
@@ -4000,6 +3959,16 @@
     "score": 8,
     "categories": [
       "iran_islam_kern",
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1481647.html": {
+    "first_seen": "2026-09-02T12:14:24.234306+00:00",
+    "source": "service.bund.de",
+    "title": "Referent (m/w/d) für die Koordinierungsstelle des Landes-Demokratiezentrums Saarland für die Bereiche Demokratiebildung und Extremismusprävention",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1481647.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
       "behörden_kern"
     ]
   }
