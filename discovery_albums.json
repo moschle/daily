@@ -78,7 +78,7 @@
     {
       "artist": "Sevdaliza",
       "album": "ISON",
-      "suggested": false
+      "suggested": true
     },
     {
       "artist": "Portico Quartet",
@@ -86,5 +86,5 @@
       "suggested": false
     }
   ],
-  "generated_at": "2026-09-02T10:25:30.790520+02:00"
+  "generated_at": "2026-09-03T09:30:21.926176+02:00"
 }
