@@ -1,26 +1,4 @@
 {
-  "kultweet-249005": {
-    "first_seen": "2026-06-05T10:57:48.116025+00:00",
-    "source": "kultweet",
-    "title": "Leitung des Kulturhistorischen Museums Wurzen (m/w/d), unbefristet, Teilzeit | Wurzen​‌‌‌‌​​‌‌​​‌​‌​‌‌​‌ - Stadt Wurzen",
-    "url": "https://interamt.de/koop/app/stelle?id=1455101",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
-  "kultweet-248972": {
-    "first_seen": "2026-06-05T10:57:48.170386+00:00",
-    "source": "kultweet",
-    "title": "Verstärkung im Bereich Administration und Projektmanagement, 20h/Woche | Stein/Krems, Österreich​‌‌‌‌​​‌‌​​‌​​​‌‌​​ - Literaturhaus NÖ",
-    "url": "https://literaturhausnö.at/doc/stellenausschreibung.php",
-    "score": 3,
-    "categories": [
-      "verlag_geistes",
-      "schwach_methodisch"
-    ]
-  },
   "kultweet-249019": {
     "first_seen": "2026-06-06T09:33:41.769118+00:00",
     "source": "kultweet",
@@ -3967,6 +3945,46 @@
     "source": "service.bund.de",
     "title": "Referent (m/w/d) für die Koordinierungsstelle des Landes-Demokratiezentrums Saarland für die Bereiche Demokratiebildung und Extremismusprävention",
     "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1481647.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1487352.html": {
+    "first_seen": "2026-09-03T12:12:46.546498+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiterin bzw. Sachbearbeiter (w/m/d) im technischen Gebäudemanagement",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1487352.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1487332.html": {
+    "first_seen": "2026-09-03T12:12:46.549789+00:00",
+    "source": "service.bund.de",
+    "title": "Sachbearbeiterinnen bzw. Sachbearbeiter (w/m/d) für das Referat Finanzen, Controlling, Innerer Dienst",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1487332.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1485148.html": {
+    "first_seen": "2026-09-03T12:12:46.552583+00:00",
+    "source": "service.bund.de",
+    "title": "Techniker/Technikerin (w/m/d) der Elektrotechnik oder Versorgungstechnik",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1485148.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1487237.html": {
+    "first_seen": "2026-09-03T12:12:46.567690+00:00",
+    "source": "service.bund.de",
+    "title": "Systemadministratorinnen bzw. Systemadministratoren (w/m/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1487237.html#track=feed-jobs",
     "score": 4,
     "categories": [
       "behörden_kern"
