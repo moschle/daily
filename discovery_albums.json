@@ -38,7 +38,7 @@
     {
       "artist": "Ichiko Aoba",
       "album": "Windswept Adan",
-      "suggested": false
+      "suggested": true
     },
     {
       "artist": "Masayoshi Takanaka",
@@ -86,5 +86,5 @@
       "suggested": false
     }
   ],
-  "generated_at": "2026-09-03T09:30:21.926176+02:00"
+  "generated_at": "2026-09-04T09:33:09.478854+02:00"
 }
