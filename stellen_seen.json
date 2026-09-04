@@ -1,25 +1,4 @@
 {
-  "kultweet-249019": {
-    "first_seen": "2026-06-06T09:33:41.769118+00:00",
-    "source": "kultweet",
-    "title": "Koordinator*in für digitales Sammlungsmanagement (m/w/d), 35h/Woche, befristet | Stuttgart​‌‌‌‌​​‌‌​​‌​‌‌‌​‌‌ - Landesmuseum Württemberg",
-    "url": "https://landesmuseum-stuttgart.softgarden.io/job/65052568/Koordinator-in-f%C3%BCr-digitales-Sammlungsmanagement-m-w-d-?jobDbPVId=274598003&l=de",
-    "score": 3,
-    "categories": [
-      "digital_humanities"
-    ]
-  },
-  "kultweet-249018": {
-    "first_seen": "2026-06-06T09:33:41.770789+00:00",
-    "source": "kultweet",
-    "title": "Projektkoordination (m/w/d) für Digital Humanities und Datenmodellierung, Teilzeit, 75% | Stuttgart​‌‌‌‌​​‌‌​​‌​‌‌‌​‌​ - Landesmuseum Württemberg",
-    "url": "https://landesmuseum-stuttgart.softgarden.io/job/65053358/Projektkoordination-m-w-d-f%C3%BCr-Digital-Humanities-und-Datenmodellierung?jobDbPVId=274601508&l=de",
-    "score": 4,
-    "categories": [
-      "digital_humanities",
-      "schwach_methodisch"
-    ]
-  },
   "kultweet-249064": {
     "first_seen": "2026-06-08T12:15:10.837115+00:00",
     "source": "kultweet",
@@ -3988,6 +3967,49 @@
     "score": 4,
     "categories": [
       "behörden_kern"
+    ]
+  },
+  "kultweet-253074": {
+    "first_seen": "2026-09-04T12:13:04.733139+00:00",
+    "source": "kultweet",
+    "title": "Referent/in der Arbeitsgruppe III C 1 - Strategische Steuerung der Bekämpfung des islamistischen Terrorismus, der Deradikalisierung und der Radikalisierungsprävention (w/m/d), unbefristet / Berlin​‌‌‌",
+    "url": "https://www.karriereportal-stellen.berlin.de/referentin-der-arbeitsgruppe-iii-c-1-strategische-steuerun-de-j69631.html",
+    "score": 8,
+    "categories": [
+      "iran_islam_kern",
+      "behörden_kern"
+    ]
+  },
+  "kultweet-253065": {
+    "first_seen": "2026-09-04T12:13:04.748860+00:00",
+    "source": "kultweet",
+    "title": "wissenschaftliche:n Volontär:in - kuratorische Assistenz (w/m/d) für das LWL-Museum Hellerlecht | Detmold​‌‌‌‌​‌‌‌​​‌​​​‌​​‌ - Landschaftsverband Westfalen-Lippe (LWL)",
+    "url": "https://recruiting.lwl.org/r/z11de38xovmbr5e/wissenschaftliche%3An+Volont%C3%A4r%3Ain+-+kuratorische+Assistenz+wmd/32760/Detmold",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1486359.html": {
+    "first_seen": "2026-09-04T12:13:04.808231+00:00",
+    "source": "service.bund.de",
+    "title": "Referent/in Strategische Steuerung der Bekämpfung des islamistischen Terrorismus, der Deradikalisierung und der Radikalisierungsprävention (w/m/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1486359.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1488183.html": {
+    "first_seen": "2026-09-04T12:13:04.834250+00:00",
+    "source": "service.bund.de",
+    "title": "Projektkoordination m/w/d in Teilzeit 19,5 Wochenstunden für das Referat Nordost- und Zentralasien im Institut für Internationale Zusammenarbeit",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1488183.html#track=feed-jobs",
+    "score": 7,
+    "categories": [
+      "iran_islam_kern",
+      "migration_ez"
     ]
   }
 }
