@@ -4011,5 +4011,37 @@
       "iran_islam_kern",
       "migration_ez"
     ]
+  },
+  "https://www.hsozkult.de/job/id/job-164328": {
+    "first_seen": "2026-09-05T11:21:48.451081+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: Wiss. Volontär:in (w/m/d) \"kuratorische Assistenz\" (Landschaftsverband Westfalen Lippe, Detmold)",
+    "url": "https://www.hsozkult.de/job/id/job-164328",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-253097": {
+    "first_seen": "2026-09-05T11:21:48.530864+00:00",
+    "source": "kultweet",
+    "title": "Projektkoordination (m/w/d) in Teilzeit (19,5 Wochenstunden) für das Referat „Nordost- und Zentralasien“ im Institut für Internationale Zusammenarbeit, befristet | München​‌‌‌‌​‌‌‌​​‌​‌​‌​​‌ - Hanns-S",
+    "url": "https://www.hss.de/ueber-uns/stellenangebote/angebot/projektkoordination-mwd-in-teilzeit-195-wochenstunden-fuer-das-referat-nordost-und-zentralasien-im-institut-fuer-internationale-zusammenarbeit-job25433/",
+    "score": 7,
+    "categories": [
+      "iran_islam_kern",
+      "migration_ez"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/09/6630306.html": {
+    "first_seen": "2026-09-05T11:21:48.629450+00:00",
+    "source": "service.bund.de",
+    "title": "Mitarbeiter / Mitarbeiterin (w/m/d) für die Softwareentwicklung für IT-Systeme, AS-2026-146",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BND/2026/09/6630306.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_kern"
+    ]
   }
 }
