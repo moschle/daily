@@ -1,15 +1,14 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 7. September 2026*
+*Letzte Aktualisierung: 7. September 2026 (abends)*
 
 ## DRINGEND (diese Woche)
 
-- [ ] **SenInnSport Berlin — Referent/in AG III C 1 Islamismus/Deradikalisierung**, Kennziffer III 15/2026, E13/A13h, Frist 01.10.2026, Bewerbung über Karriereportal Berlin. Anforderungsprofil liegt vor: Ausschlusskriterium ist nur das Studium, unabdingbar (Gewicht 4) sind Deradikalisierungskenntnisse und Englisch B2, keine Anforderung mit Priorität III. **Höchste Priorität der Pipeline — Anschreiben schreiben und einreichen.**
+- [ ] **SenInnSport Berlin — Referent/in AG III C 1 Islamismus/Deradikalisierung**, Kennziffer III 15/2026, E13/A13h, Frist 01.10.2026, Dienstort Klosterstraße 47, Vollzeit unbefristet. Anforderungsprofil liegt vor: Ausschlusskriterium ist nur das Studium, unabdingbar (Gewicht 4) sind Deradikalisierungskenntnisse und Englisch B2. **Gesamtbewerbung (8 S.: Anschreiben, Lebenslauf, MA-Urkunde/-Zeugnis, BA-Urkunde, Arabisch-Zertifikate) liegt fertig vor — im Karriereportal ins Pflichtfeld „Anschreiben / Komplette Unterlagen" hochladen, dort liegt bisher fälschlich der Lebenslauf. Offen: Satz zur Umzugs-/Pendelbereitschaft nach Berlin.**
 - [ ] **DÜF Herbstvergabe — Frist 15.09.2026**: Arbeitsstipendium (nur mit Verlagsvertrag), Reisestipendium, Aufenthaltsstipendien Visby/Arles/Straelen. Hängt am hochroth-Vertrag, Rückmeldung steht weiter aus.
 - [ ] **DÜF Initiativstipendium** (2.000 €, ohne Verlagsvertrag möglich) — Fristangaben widersprüchlich (15.09. vs. 30.11.), auf der DÜF-Seite verifizieren.
 - [ ] **GRK Bonn — Frist 17.09.2026** (Promotionsstelle/-stipendium)
 - [ ] **flaschenpost Leipzig**: Probearbeiten als Fahrer/Kurier steht an. Midijob-Vertrag statt Minijob prüfen.
-- [ ] **Auswärtiger Dienst höherer Dienst**: Test war für 01.09.2026 angesetzt — Status klären und in dieser Datei nachtragen.
 - [ ] **Gastdozenturen des DÜF — Frist 30.09.2026**
 
 ## Bewerbungspipeline (Stand 07.09.2026)
@@ -30,6 +29,7 @@
 - [ ] AwareNet Hannover E13 Islamismusprävention (Deadline prüfen)
 
 ### Absagen
+- Auswärtiger Dienst höherer Dienst: am Test vom 01.09.2026 nicht teilgenommen
 - Deutsches Hygiene-Museum (Stand 26.08.2026)
 - AIWG Frankfurt „Weiter Sprechen" (02.07.2026)
 - BfV AWV-2026-020
@@ -73,7 +73,9 @@
 
 ## Schreibprojekte / Persische Dichtung
 
-- [ ] **hochroth Bielefeld, persophone Anthologie**: interne Beratung angekündigt, seit Juli keine Rückmeldung — nachfassen. Verlagsvertrag schaltet DÜF-Arbeitsstipendium, Looren, LCB und VdÜ-Vollmitgliedschaft frei.
+- [ ] **hochroth Bielefeld, persophone Anthologie**: interne Beratung angekündigt, seit Juli keine Rückmeldung — nachfassen, laut Tillmann Severin hilft beharrliches Nachhaken. Verlagsvertrag schaltet DÜF-Arbeitsstipendium, Looren, LCB und VdÜ-Vollmitgliedschaft frei.
+- [ ] **Weitere Verlagsadressen für die Anthologie** (Empfehlung Severin, 07.09.2026): hochroth Berlin (auf Übersetzungen spezialisiert) und Klak. Verlagshaus Berlin scheidet aus — inhaltlich nicht passend, Severin steigt im nächsten Jahr als Verleger aus.
+- [ ] Severin möchte mehr über das Anthologie-Projekt erfahren — Material schicken oder erzählen
 - [ ] Gafforova: Übersetzung des Farzona-Gedichts weiterhin offen
 - [ ] lyrikline-Neuaufnahmen — hingen an der Tadschikistan-Reise, die auf unbestimmte Zeit verschoben ist. Alternative Aufnahmewege prüfen (Kontakt Heiko Strunk).
 - [ ] MA-Original an Dilorom übergeben — ebenfalls verschoben mit der Reise
