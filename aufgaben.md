@@ -1,243 +1,209 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 12. Mai 2026*
+*Letzte Aktualisierung: 7. September 2026*
 
-## DRINGEND (sofort)
+## DRINGEND (diese Woche)
 
-- [ ] **ZfA anrufen** (+49 22899 358-74209): Klärung ob MA "Deutsche Literatur und Kultur + Arabistik" als "vergleichbar" zu Master DaF anerkannt wird. Vor BPLK-Bewerbung. Falls ja: BPLK Tadschikistan/Usbekistan möglich.
-- [ ] **Uni Hildesheim E13 50%** — Frist 15.5.2026, Kennziffer 2026/76. Anschreiben fertig (Stand 10.5.), liegt unter ~/Documents/Bewerbungen/bewerbung_hildesheim/. Einreichen über Karriereportal.
-- [ ] **GIZ Deutsch-Indischer Digitaldialog: Gesprächsvorbereitung** — Interview 14.05., 09:00–09:40 CEST (MS Teams, Özlem Buran + Lars Radscheidt, beide Neu-Delhi). Briefing liegt in ~/Documents/Bewerbungen/bewerbung_halle/ (verschoben). Zugesagt ✓
-- [ ] **Schichtstrategie Camino**: Spätdienst + Nachtdienst 22.5. tauschen, um Urlaubstag zu gewinnen für Camino-Start 23.5.
-- [ ] **Lyrikline-Aufnahmen werden in Tajikistan September neu gemacht** — alte Aufnahmen zu schwach. Aktuelles Übersetzen + Einreichen abgesagt zugunsten Neuaufnahmen.
+- [ ] **SenInnSport Berlin — Referent/in AG III C 1 Islamismus/Deradikalisierung**, Kennziffer III 15/2026, E13/A13h, Frist 01.10.2026, Bewerbung über Karriereportal Berlin. Anforderungsprofil liegt vor: Ausschlusskriterium ist nur das Studium, unabdingbar (Gewicht 4) sind Deradikalisierungskenntnisse und Englisch B2, keine Anforderung mit Priorität III. **Höchste Priorität der Pipeline — Anschreiben schreiben und einreichen.**
+- [ ] **DÜF Herbstvergabe — Frist 15.09.2026**: Arbeitsstipendium (nur mit Verlagsvertrag), Reisestipendium, Aufenthaltsstipendien Visby/Arles/Straelen. Hängt am hochroth-Vertrag, Rückmeldung steht weiter aus.
+- [ ] **DÜF Initiativstipendium** (2.000 €, ohne Verlagsvertrag möglich) — Fristangaben widersprüchlich (15.09. vs. 30.11.), auf der DÜF-Seite verifizieren.
+- [ ] **GRK Bonn — Frist 17.09.2026** (Promotionsstelle/-stipendium)
+- [ ] **flaschenpost Leipzig**: Probearbeiten als Fahrer/Kurier steht an. Midijob-Vertrag statt Minijob prüfen.
+- [ ] **Auswärtiger Dienst höherer Dienst**: Test war für 01.09.2026 angesetzt — Status klären und in dieser Datei nachtragen.
+- [ ] **Gastdozenturen des DÜF — Frist 30.09.2026**
 
-## Diese Woche
+## Bewerbungspipeline (Stand 07.09.2026)
 
-- [x] hochroth-Mail abgeschickt (12.5.) — Anthologie-Projekt hochroth Bielefeld, wartet auf Rückmeldung
-- [x] Mail an Pabst (12.5.) — korrigierte Version Berliner Debatten Initial abgeschickt, wartet auf Druckfreigabe
-- [ ] McFit reaktivieren
-
-## Bewerbungspipeline (Stand 27.4.2026)
-
-### Aktiv läuft
-- [x] BfV AWV-2026-022 (Auswertung Islamismus, Berlin) — eingereicht 13.4.2026, läuft. Zeugnisse nachreichen über Personalgewinnung-AWV@bva.bund.de
+### Eingereicht, wartend
+- [x] BfV AWV-2026-022 (Auswertung Islamismus, Berlin) — eingereicht 13.04.2026. Zeugnisse nachreichbar über Personalgewinnung-AWV@bva.bund.de
 - [x] BND AWV-2026-045 — abgeschickt
-- [x] GIZ Deutsch-Indischer Digitaldialog — Bewerbungsgespräch 14.5. zugesagt ✓
-- [ ] Auswärtiger Dienst höherer Dienst — Bewerbungsfenster 8.6.–27.7.2026, Test 1.9. Französisch C1 nötig.
-- [ ] GRK Heidelberg "Ambivalent Enmity" Promotionsstipendien
-- [ ] Uni Bayreuth Islamwissenschaft Promotionsstelle
-- [ ] **Uni Hildesheim E13 50% — Frist 15.5.2026, Kennziffer 2026/76** (Anschreiben fertig, einreichen)
+- [x] KSK-Antrag (Künstlersozialkasse) — eingereicht, Bescheid steht aus
+- [x] Uni Hildesheim E13 50%, Kennziffer 2026/76 — eingereicht 15.05.2026
+
+### Aktiv zu bewerben
+- [ ] **SenInnSport Berlin III 15/2026** — Frist 01.10.2026 (siehe DRINGEND)
+- [ ] Tier 1 aus dem Mai-Stand, **Fristen vor Bearbeitung einzeln prüfen**: zenith Magazin Berlin, De Gruyter/Brill Volontariat, UniBw München Arabistik E14, GEI Braunschweig, sujet Verlag Bremen, Bundessprachenamt Hürth
+- [ ] Tier 2 aus dem Mai-Stand, ebenfalls Fristen prüfen: Matthes & Seitz, Jena LfbA Persisch, GIZ Tadschikistan, Haus für Poesie, LfV NRW, FU Berlin Islamwissenschaft WiMi 50% (Frist unklar, service.bund.de prüfen)
+- [ ] FU Berlin Arabisch-Lehrkraft (LfbA, 50%, E13, Mutterschutz) — Ausschreibungsstand prüfen
 - [ ] AVP Düsseldorf 80% Projektleitung Prävention/De-Radikalisierung (rolling, bewerbung@a-v-p.org)
 - [ ] MfD München Maghreb Circular Migration (Frist erfragen: joachim.scheurer@munichforum.org)
 - [ ] AwareNet Hannover E13 Islamismusprävention (Deadline prüfen)
 
-### Abgesagt / nicht mehr aktiv
-- **Bayreuth Islam-in-Afrika E13** (12.5.): abgesagt — Pendelaufwand Leipzig–Bayreuth (drei Tage/Woche Präsenz), geringe Erfolgschancen, kein Afrika-Profilmatch. Recherche zum Lehrstuhl + ICA-Projekt bleibt für Promotionsstelle Bayreuth verwertbar.
-- BfV Rechtsextremismus-Stelle: nach einer Woche abgesagt
-- BKA T-2026-19, BfV AWV-2026-010, Niedersachsen MI: Fristen abgelaufen / abgehakt
-- DAAD Regellektorat Nachausschreibung 2026/27: Stellen bereits vergeben
+### Absagen
+- Deutsches Hygiene-Museum (Stand 26.08.2026)
+- AIWG Frankfurt „Weiter Sprechen" (02.07.2026)
+- BfV AWV-2026-020
+- GIZ develoPPP
+- Bayreuth Islam-in-Afrika E13 — eigene Absage 12.05.2026 (Pendelaufwand, kein Profilmatch)
+- BfV Rechtsextremismus-Stelle — eigene Absage
+- DAAD Regellektorat Nachausschreibung 2026/27 — Stellen vergeben
 
-### Verworfen nach Recherche
-- Kripo / BKA-Direkteinstieg / LKA Berlin: BKA höherer Dienst nur über 3-Jahre-Bachelor möglich, LKA Berlin Quereinstieg nur IT/Cyber+Wirtschaft. BfV bleibt sinnvollster Sicherheitsbehörden-Pfad.
+### Nicht verfolgen / verworfen
+- Hanns-Seidel-Stiftung München, Projektkoordination Nordost-/Zentralasien, 19,5 h, E10, Frist 30.09.2026 — nachrangig, nicht verfolgen
+- AWV-048, BND-IT, Aktion-Hunger, DaMOst AntiRaktiv, HKW Volontariat
+- BKA-Direkteinstieg höherer Dienst nicht möglich; LKA Berlin Quereinstieg nur IT/Cyber und Wirtschaft. BfV bleibt der sinnvollste Sicherheitsbehörden-Pfad für dieses Profil.
+- BayLfV: Initiativbewerbungen nicht zulässig (Stand April 2026), lfv.bayern.de/karriere monatlich prüfen
 
-### Vorbereitung für Herbst-Ausschreibungen
-- [ ] **DAAD-Lehrassistenz Hauptausschreibung 2027/28** — Start 15.7.2026, Bewerbungsschluss vermutlich Ende November 2026. **HAT VERFALLSDATUM** (MA max. 2 Jahre alt). Letztes sicheres Fenster für mich. Standorte priorisieren: Iran, Tadschikistan, Algerien, Tunesien, Jordanien, Libanon, Türkei, Italien.
-- [ ] **DAAD-Lektorat Hauptausschreibung Oktober 2026** für 2027/28 — als Plan B parallel prüfen. Materialien für Beijing CNU, Belém UFPA, Alger 2 (CV + Gutachtenentwurf .md) liegen vor.
-- [ ] **Mercator-Kolleg** — Frist ~15. Juni jährlich, €2.200/Monat, North-South/Decolonization/MENA. Erfordert bestehenden Arbeitsvertrag. Erst nach Anstellung anwendbar.
-- [ ] **Erasmus+ Praktikumsförderung** — bis 12 Monate post-graduation (also bis ~März 2027). Absolute Priorität, recherchieren.
+### Vorbereitung Herbst-/Winterausschreibungen
+- [ ] **DAAD-Lehrassistenz 2027/28** — seit 15.07.2026 ausgeschrieben, Bewerbungsschluss vermutlich Ende November 2026. **HAT VERFALLSDATUM** (MA max. 2 Jahre alt), letztes sicheres Fenster. Standorte priorisieren: Iran, Tadschikistan, Algerien, Tunesien, Jordanien, Libanon, Türkei, Italien.
+- [ ] **DAAD-Lektorat Hauptausschreibung Oktober 2026** für 2027/28 — Materialien für Beijing CNU, Belém UFPA, Alger 2 (CV + Gutachtenentwurf als .md) liegen vor
+- [ ] **Erasmus+ Praktikumsförderung** — bis ~März 2027 nutzbar, Priorität. Schweizer Praktika laut Leonardo-Büro Magdeburg nicht förderfähig; vor einem CH-Track Rückfrage bei Anna Kostov, MLU International Office, +49 345 55 21579. Favoriten: Droschl Graz, Verdier Lagrasse.
+- [ ] Mercator-Kolleg — Frist ~15. Juni jährlich, erfordert bestehenden Arbeitsvertrag
+- [ ] ZfA-BPLK: MA-Anerkennung („vergleichbar" zu Master DaF) klären, ZfA +49 22899 358-74209
 
-### Internate (falls Lebensform-Wechsel mit Shirin gewollt)
-- [ ] Salem, Louisenlund, Schweizer Internate (Lyceum Alpinum Zuoz, Le Rosey, Aiglon)
-- Inkompatibel mit Roitzsch + Leipzig + Brodyer Nächte + Warte e.V. + Schöffenamt — daher nicht prioritär.
+## Promotion
 
-## Plan B Landschaftspflege (mit Bruder besprechen)
+- [x] Betreuungsanfrage an Manja Stephan abgeschickt (28.07.2026)
+- Antwort 31.07.2026: keine Zu-/Absage, inhaltlich offen. Forschungsfreisemester ab Mitte August, bis Ende Oktober nicht in Berlin — **Gespräch über mögliche Themen ab November**.
+- Themenrichtung Stephan: „Alltagsleben" des freien Verses — wer schreibt für wen und warum, unter welchen Bedingungen; Verhältnis zur klassischen Dichtung; Migration/Diaspora, Geschlechterverhältnisse, Nation-Building, Social Media und KI
+- Purnaqcheband (MLU Halle) als Zweitgutachter bzw. Halle als reibungsloser Rückfall
+- [ ] **GRK Bonn — Frist 17.09.2026**
+- [ ] GRK Heidelberg „Ambivalent Enmity"
+- [ ] Uni Bayreuth Promotionsstelle Islamwissenschaft
+- [ ] Exposé Dissertation (1 Seite Lentz/Draesner, 10–15 S. Böll)
+- [ ] Studienstiftung Promotionsstipendium (laufend)
+- [ ] Böll Promotionsstipendium Frühjahrsrunde — 15.01.–01.03.2027 (Herbstfrist 01.09.2026 verstrichen)
 
-- [ ] Mit Bruder über gemeinsame Highland-Cattle-Mutterkuhhaltung sprechen
-- [ ] Standort: Bayern (Allgäu/Frankenalb auf Zürich-Achse) ODER Galgata/Umbrien (Flächen verfügbar)
-- [ ] Kontakte: Eble Osterzell (hochlandrinderzucht.de, Allgäu), Markus Wolf 91349 Egloffstein (verkleinert Bio-Herde aktuell), Bichlerhof Oberbayern
-- [ ] Variante Agri-PV mit Hühnern prüfen
-- [ ] Schlachtplan-Doku: schlachtplan_weidehaltung.md
+## ANOR / MA-Publikation „stille stürme"
 
-## DaF-Pfade (Recherche April 2026)
-
-Vier Spuren mit unterschiedlicher Zeitlogik:
-1. **DAAD-Lehrassistenz**: Verfallsdatum, 2027/28 letztes sicheres Fenster (siehe oben)
-2. **DAAD-Lektorat**: kein Zeitfenster, aber Hochschul-DaF-Lehrerfahrung fehlt — klassisch nach Lehrassistenz
-3. **ZfA-BPLK**: MA-Anerkennung klären (siehe DRINGEND)
-4. **Internate**: niedrige Schwelle, aber Lebensformwechsel
-
-Doku: daf_pfade_uebersicht.md
+- MA am 10.06.2026 mit 1,0 bewertet; Aufnahme in die ANOR-Reihe (De Gruyter Brill) am 13.07.2026 zugesagt
+- Rzehak schreibt das Peer-Review-Gutachten (Anfrage 22.08.2026); Herausgeberinnen peilen die Ausgabe noch im Kalenderjahr 2026 an
+- Entscheidung 22.08.2026: Pabst-Anmerkungen werden nicht eingearbeitet; stattdessen etwaige Anmerkungen aus Rzehaks Peer-Review abwarten
+- [ ] Vortrags-/Werkstattgesprächstermine mit Rzehak Mitte Oktober nach Semesterbeginn besprechen
 
 ## Schreibprojekte / Persische Dichtung
 
-- [ ] **MA-Arbeit**: Bereinigte Version 20.4. erfolgreich, positive Reaktion von Gafforova. Original-Übergabe an Dilorom in Tajikistan September geplant.
-- [ ] Dilorom Soliboeva: kontaktiert + replied ✓
-- [ ] **Gafforova-Farzana**: Übersetzung des Farzana-Gedichts noch offen (sie hatte 14.9.2025 gefragt)
-- [ ] hochroth Anthologie: kommentierte Sammlung zeitgenössischer persophoner Lyrik in dt. Erstübersetzung (mit hochroth Bielefeld). Unlocks DÜF, Looren, LCB sobald Verlagsvertrag steht.
-- [ ] Exposé Dissertation (1 Seite Lentz/Draesner, 10–15 S. Böll)
+- [ ] **hochroth Bielefeld, persophone Anthologie**: interne Beratung angekündigt, seit Juli keine Rückmeldung — nachfassen. Verlagsvertrag schaltet DÜF-Arbeitsstipendium, Looren, LCB und VdÜ-Vollmitgliedschaft frei.
+- [ ] Gafforova: Übersetzung des Farzona-Gedichts weiterhin offen
+- [ ] lyrikline-Neuaufnahmen — hingen an der Tadschikistan-Reise, die auf unbestimmte Zeit verschoben ist. Alternative Aufnahmewege prüfen (Kontakt Heiko Strunk).
+- [ ] MA-Original an Dilorom übergeben — ebenfalls verschoben mit der Reise
 - [ ] Kommentierter Übersetzungsessay (Akzente / Sprache im technischen Zeitalter / Sinn und Form)
 - [ ] Egon Schmandt Lyrik — Artikel aufarbeiten
 - [ ] Westsahara-Artikel für dis:orient
-- [ ] Yage-Projekt Exposé (Bogotá → Putumayo → Lima → Pucallpa, 2027, finanziert über Kulturstiftung Sachsen Max Uhlig Reisestipendium)
+- [ ] Yage-Projekt Exposé (Bogotá → Putumayo → Lima → Pucallpa, 2027, Kulturstiftung Sachsen Max Uhlig Reisestipendium)
 - [ ] Musikpodcast (iranischer Jazz)
-- [ ] Schreibkollektiv Maja Maj & Yara Moritz (Konzept gespeichert: PROJEKT_maja-maj-yara-moritz.md)
-- [ ] **Morgenbrief — Arabisch-Nachrichten zu schwer**: GLOSS-Integration ausbauen / eigenes Vokabular-Glossar / Inline-Glossierung A2/B1
-- [ ] Morgenbrief Public Version (generisches Repo, r/digitalminimalism)
+- [ ] Schreibkollektiv mit Maja Maj und Yara Moritz (Konzept: PROJEKT_maja-maj-yara-moritz.md)
+- [ ] Texte platzieren (Lettre International u. a.) und Zeitungstexte schreiben
+- [ ] Morgenbrief: Arabisch-Nachrichten zu schwer — GLOSS-Integration ausbauen, eigenes Glossar, Inline-Glossierung A2/B1
+- [ ] Morgenbrief Public Version (generisches Repo)
 
-## Mai
+## Herbst 2026
 
-- [ ] BfV Job Day Köln (9.5.) — kollidiert mit Camilla Geb. Ausflug, Priorität klären
-- [ ] Bücherfrühling Langenstein Quedlinburg (10.5.)
-- [ ] Langenstein Buchvorstellung Literaturhaus Halle (12.5.)
-- [ ] Schweiz mit Milan (ab 14.5.)
-- [ ] **Brodyer Nächte Termin 2: Yevgeniy Breyger / Yoanna Bozhidarova. 21.5., ehem. Ez-Chaim Synagoge, Apels Garten 4, Leipzig.** Anmeldung via books@rotorbooks.de
-- [ ] **Spätdienst + Nachtdienst 22.5.** (Schichtstrategie für Camino-Urlaubstag)
-- [ ] **Camino: 23.5.–6./7.6.2026**
+- [ ] Afghanistan-Reise
+- [ ] Arbeit auf dem Bau
+- [ ] Vortrag in Berlin
+- [ ] evtl. Workshops
+- [ ] Promotion organisieren, weitere Artikel schreiben
+- [ ] Marseille Anfang Oktober, ein paar Tage — Kammerchorprojekt von Lucas
+- Tadschikistan: auf unbestimmte Zeit verschoben (Stand 22.08.2026), separat, bei weniger Hitze und mit mehr Zeit und Geld
+- Marokko/Taghazout Oktober: abgesagt (Stand 31.08.2026)
 
-## Juni
+## Stipendien & Förderungen (Zeitleiste ab September 2026)
 
-- [ ] Brodyer Nächte Termin 3: Slata Roschal / Robert Lucaciu. 18.6., Klub der Kulturarbeiterinnen, Hermann-Liebmann-Str. 88, Leipzig
-- [ ] softtreatment Festival Colditz (5.6.)
-- [ ] Auswärtiger Dienst Bewerbungsfenster öffnet 8.6.
-
-## Sommer / Herbst 2026
-
-- [ ] Griechenland 2. Juliwoche mit Emilie (~8.–15.7.)
-- [ ] Italien evtl. mit Milan (Zeitpunkt offen)
-- [ ] **Tajikistan September 2026 (3 Wochen)**: lyrikline-Aufnahmen NEU machen, MA-Original Dilorom übergeben, Anthologie-Recherche, evtl. Afghanistan kombinieren
-- [ ] Auswärtiger Dienst Test 1.9.
-- [ ] Surfen lernen — Marokko Taghazout (Oktober, beste Swell-Zeit), 800–1.200€ für 2–3 Wochen
-- [ ] Mehrwöchige Wanderung — GR20 Korsika / Lykischer Weg / Via Dinarica / Pyrenen
-
-## Stipendien & Förderungen (Zeitleiste, Stand 27.4.2026)
-
-### Mai
-- [ ] DÜF Arbeitsstipendium — Frist 15.5. (nur mit hochroth-Vertrag)
-- [ ] DÜF Reisestipendium — Frist 15.5. (für Tajikistan September!)
-- [ ] DÜF Aufenthaltsstipendien Visby/Arles/Straelen — Frist 15.5.
-- [ ] „Schritte"-Stipendien S. Fischer Stiftung — Frist 15.5.
-- [ ] Kulturstiftung Sachsen — Formular ab 15.5., Frist 1.7. (Max Uhlig für Yage)
-
-### Juni / Juli
-- [ ] Berliner Übersetzerwerkstatt — Frist 15.6.
-- [ ] Mercator-Kolleg — Frist ~15.6. (braucht Arbeitsvertrag)
-- [ ] NRW Arbeits- und Recherchestipendien — Frist 30.6.
-- [ ] Kulturstiftung Sachsen Arbeits-/Aufenthaltsstipendien — Frist 1.7.
-- [ ] **DAAD-Lehrassistenz 2027/28 ab 15.7. ausgeschrieben** (siehe oben)
-- [ ] Böll Promotionsstipendium — Portal 15.7., Frist 1.9.
-
-### August / September
-- [ ] LSI Bochum Persisch-Intensivkurs ab 17.8., ~600–900€
-- [ ] DÜF Looren Aufenthalt — Frist 1.9.
-- [ ] DÜF Arbeitsstipendium Herbstvergabe — Frist 15.9.
-- [ ] DÜF Reisestipendium Herbstvergabe — Frist 15.9.
-- [ ] DÜF Aufenthaltsstipendien Visby/Arles/Straelen — Frist 15.9.
-- [ ] Gastdozenturen des DÜF — Frist 30.9.
+### September
+- [ ] DÜF Arbeitsstipendium Herbstvergabe — Frist 15.09. (nur mit Verlagsvertrag)
+- [ ] DÜF Reisestipendium Herbstvergabe — Frist 15.09.
+- [ ] DÜF Aufenthaltsstipendien Visby/Arles/Straelen — Frist 15.09.
+- [ ] DÜF Looren Aufenthalt — Frist 01.09. (verstrichen, nächste Runde vormerken)
+- [ ] GRK Bonn — 17.09.
+- [ ] Gastdozenturen des DÜF — 30.09.
 
 ### Oktober / November
-- [ ] **DAAD-Lektorat Hauptausschreibung Oktober** für 2027/28
-- [ ] **DAAD-Lehrassistenz Bewerbungsschluss vermutlich Ende November 2026**
-- [ ] DÜF Initiativstipendium — Frist 30.11. (2.000€, OHNE Vertrag möglich)
+- [ ] DAAD-Lektorat Hauptausschreibung Oktober für 2027/28
+- [ ] DAAD-Lehrassistenz Bewerbungsschluss vermutlich Ende November 2026
+- [ ] DÜF Initiativstipendium — 2.000 €, ohne Vertrag möglich (Frist verifizieren)
 - [ ] NRW Arbeits-/Recherchestipendien — Frist 30.11.
-- [ ] Kunststiftung Sachsen-Anhalt Arbeitsstipendium — Frist November (1.500€/Monat)
+- [ ] Kunststiftung Sachsen-Anhalt Arbeitsstipendium — Frist November (1.500 €/Monat)
 
-### Promotionsstipendien & Langfristig
-- [ ] Studienstiftung Promotionsstipendium (~1.550€/Monat, laufend)
-- [ ] Wien Angewandte PhD in Art — voraussichtlich Februar 2027
-- [ ] Wien Akademie PhD in Practice (low residency) — voraussichtlich Februar 2027
-- [ ] Böll Promotionsstipendium Frühjahrsrunde — 15.1.–1.3.2027 (falls Herbst nicht klappt)
-- [ ] DMG-Forschungspreis (5.000€) — wartet auf nächsten DOT, voraussichtlich 2029
-
-## Vivobarefoot / Konsumiges
-
-- [ ] Vivobarefoot Support: Retroactive 40%-Rabattcode auf Bestellung DE000802538 (REV-015094)
-- [ ] Cranston R9Max Faltrad — Farbwechsel-Anfrage offen
-- [ ] RCD330 Radio für Sportsvan klären
-
-## Auto
-
-- [ ] Peugeot 309: Werkstattermin Leuner Dresden vor nächstem Dresdenbesuch. Kraftstoffstutzen/Flansch Benzinpumpe. Danach verkaufen.
-- [ ] VW Sportsvan von Oma kaufen (~8.000€, Ratenzahlung)
-- [ ] ERGO-Rechtsstreit (Az. KS0731 23075-0005, Anwältin Turan-Agdas)
-
-## Garten (Roitzsch)
-
-- [ ] Zwischenbau planen und umsetzen
-- [ ] Sanitärinstallation weiterführen
-- [ ] Asbestdach Gartenhaus: Entsorgung + neue Faserzement-/Wellblechplatten
-- [ ] Wasserführende Heizung (kleiner Holzofen + Handtuchheizkörper Thermosiphon)
+### 2027 und später
+- [ ] Kulturstiftung Sachsen — Bewerbungsphase ab Mai, Frist 01.07. (Max Uhlig für Yage)
+- [ ] Berliner Übersetzerwerkstatt — Frist 15.06.
+- [ ] Wien Angewandte PhD in Art / Wien Akademie PhD in Practice — voraussichtlich Februar 2027
+- [ ] DMG-Forschungspreis (5.000 €) — nächster DOT, voraussichtlich 2029
 
 ## Sprachen
 
 - [ ] Tägliches Sprachtraining: Arabisch + Persisch (je 20–30 Min.)
-  – GLOSS täglich (rotiert Arabisch/Persisch nach Tagesparität)
-  – Pimsleur Arabic / Farsi
-  – Glossika Persian
+  – GLOSS täglich (rotiert nach Tagesparität)
+  – Pimsleur Arabic / Farsi, Glossika Persian
   – Harry Potter Persisch abends
   – *Once Upon a Time in Iran* (Khatoon) Hörverstehen
   – Preply: Lebanese 2x/Woche, Afghan Farsi 1x/Woche
 - [ ] AVGS Persisch-Einzelcoaching (Berlitz) — Anfrage läuft
-- [ ] LSI Bochum Persisch-Intensivkurs (ab 17.8.)
 - [ ] Bildungsgutschein Französisch C1 (für Auswärtiges Amt)
 
 ## Mitgliedschaften & Vernetzung
 
 - [ ] DMG (Deutsche Morgenländische Gesellschaft) — Mitgliedschaft beantragen
-- [ ] VdÜ Kandidatenstatus beantragen (Vollmitglied nach hochroth-Vertrag)
+- [ ] VdÜ Kandidatenstatus beantragen (Vollmitglied nach Verlagsvertrag)
 - [ ] GiG (Gesellschaft für interkulturelle Germanistik) prüfen
 - [ ] SIE (Societas Iranologica Europaea) — langfristig, 2 Bürgen nötig
 - [ ] H-Net + H-Soz-Kult für CfP-Alerts registrieren
-- [ ] Mail an Lutz Rzehak (HU Berlin/SOAS): MA-Ergebnisse, Konferenz-Empfehlungen
-- [ ] FU Berlin Arabisch-Lehrkraft (LfbA, 50%, E13, Mutterschutz) — bewerben
+- [x] ASEEES Vollmitglied seit Mai 2026 (Independent Scholar, Leipzig)
 
-## Praktika & Stellen (laufend prüfen)
+## Stellenmonitoring
 
-- [ ] **Erasmus+ Praktikumsförderung — bis ~März 2027 (Priorität!)**
-- [ ] GIZ Praktika (jobs.giz.de): Naher Osten, Zentralasien, Klimaschutz. Sechs Bewerbungen entwickelt April 2026 (Sahel, Ukraine, Bildung, develoPPP, Indien, Stabilisierung)
+- stellen_check.py v2.0 (Min-Score 3): H-Soz-Kult, kultweet, service.bund.de, arthist.net, jobs.ac.uk
+- bpb-Infodienst Radikalisierungsprävention, Stellenangebote: bpb.de/themen/infodienst/304029/stellenangebote/
+- Google und RapidJob geben veraltete Ausschreibungen fälschlich als neu aus (04.08.2026) — Datum immer gegenprüfen
+- [ ] BfV-Stellenportal monatlich, lfv.bayern.de/karriere monatlich
+- [ ] GIZ Praktika (jobs.giz.de): Naher Osten, Zentralasien, Klimaschutz
 - [ ] SWP Berlin / DGAP / ZOiS Berlin / Goethe-Institut / Orient-Institut Beirut / zenith / Carlo-Schmid-Programm
-- [ ] LfV Bayern: lfv.bayern.de/karriere monatlich (currently nur IT/Cyber)
-- [ ] BfV-Stellenportal monatlich
 
-### Neue Stellen (Stand 11.5.2026)
+## Plan B Landschaftspflege (mit Bruder besprechen)
 
-**Tier 1 — bewerben:**
-- [ ] **Flossenbürg Bildungsabteilung E13 TV-L** — Frist 25.5.2026, Interamt ID 1439970, ab 1.11.2026, Standort Flossenbürg (BY). Match: Langenstein-Buch, Warte-Führungserfahrung.
-- [ ] **zenith Magazin Berlin** (Persisch/Arabisch explizit), De Gruyter/Brill Volontariat, UniBw München Arabistik E14 (ab 1.9.26), GEI Braunschweig, sujet Verlag Bremen, Bundessprachenamt Hürth
+- [ ] Mit Bruder über gemeinsame Highland-Cattle-Mutterkuhhaltung sprechen
+- [ ] Standort: Bayern (Allgäu/Frankenalb auf Zürich-Achse) ODER Galgata/Umbrien
+- [ ] Kontakte: Eble Osterzell (hochlandrinderzucht.de, Allgäu), Markus Wolf 91349 Egloffstein, Bichlerhof Oberbayern
+- [ ] Variante Agri-PV mit Hühnern prüfen
+- [ ] Schlachtplan-Doku: schlachtplan_weidehaltung.md
 
-**Tier 2 — sinnvoll:**
-- [ ] **Gedenkstättenverbund Südl. Oberrhein, Offenburg** — 0,4 GF Homeoffice, 1.500€/Monat, Frist 1.6.2026 (bewerbung@gedenkstaettenverbund-suedlicher-oberrhein.de). Baustein parallel zu Pflegeassistenz.
-- [ ] Matthes & Seitz (offen ab 1.5.), Jena LfbA Persisch, GIZ Tadschikistan, Haus für Poesie
+## Garten (Roitzsch)
 
-**Tier 3 — opportunistisch:**
-- [ ] **Kulturgutverluste Berlin E11 unbefristet** — Frist 31.5.2026, Kennziffer 2026-02 (bewerbung@kulturgutverluste.de). Schwäche: HiDA4/Metadatenstandards fehlen.
-- [ ] **HKW Volontariat Musik & Klangpraktiken** — Frist 18.5.2026. Eher skippen (E2, Überqualifikation).
+- [ ] Zwischenbau planen und umsetzen
+- [ ] Sanitärinstallation weiterführen
+- [ ] Gartenhausdach: Sanierung / Überdeckung der Dachpappe
+- [ ] Wasserführende Heizung (kleiner Holzofen + Handtuchheizkörper Thermosiphon)
 
-**Skip:**
-- DaMOst AntiRaktiv (K.O.: 3+ Jahre Antirassismus-Beratung)
+## Wohnung
+
+- [ ] Kachelofen-Sanierung: Zustand klären, Ofeneinsatz
+- [ ] Küche: Gastro-Edelstahlmöbel, offene Entscheidungen
+
+## Auto
+
+- [ ] Peugeot 309: Werkstattermin Leuner Dresden vor nächstem Dresdenbesuch (Kraftstoffstutzen/Flansch Benzinpumpe), danach verkaufen
+- [ ] VW Sportsvan von Oma kaufen (~8.000 €, Ratenzahlung)
+- [ ] ERGO-Rechtsstreit (Az. KS0731 23075-0005, Anwältin Turan-Agdas)
+- [ ] RCD330 Radio für Sportsvan klären
+
+## Konsumiges
+
+- [ ] Vivobarefoot Support: retroaktiver 40%-Rabattcode auf Bestellung DE000802538 (REV-015094)
+- [ ] Cranston R9Max Faltrad — Farbwechsel-Anfrage offen
 
 ## Laufend
 
-- [x] VG Wort Anmeldung (3.4.2026)
 - [ ] Website moritzschlenstedt.de pflegen (Carrd)
+- [x] VG Wort Anmeldung (03.04.2026)
 
-## Erledigt (Mai 2026)
+## Erledigt (Juni–August 2026)
 
-- [x] Mail an Pabst — korrigierte Version Berliner Debatten Initial (12.5.2026)
-- [x] hochroth-Mail an hochroth Bielefeld — Anthologie-Paket (12.5.2026)
-- [x] GIZ Deutsch-Indischer Digitaldialog: Gespräch 14.5. zugesagt
-- [x] ASEEES Vollmitglied seit Mai 2026 (Independent Scholar, Leipzig)
+- [x] MA-Note 1,0 (10.06.2026)
+- [x] Aufnahme in die ANOR-Reihe zugesagt (13.07.2026)
+- [x] Betreuungsanfrage an Manja Stephan (28.07.2026)
+- [x] Artikel „Typisch DDR" für Berliner Debatte Initial, Heft 37(1) 2026 — Publikation bestätigt
+- [x] Bürgergeld/Anlage EKS für 18.06.–31.07.2026 eingereicht; zum 31.07.2026 abgemeldet, Wechsel in die freiwillige Krankenversicherung
+- [x] Camino Primitivo (Mai/Juni 2026), Ledro Trek (08.–13.06.2026), Chimaera Festival (14.–16.08.2026)
 
-## Erledigt (April 2026)
+## Erledigt (Frühjahr 2026)
 
-- [x] MA abgegeben (30.3.2026), Note 1.3
-- [x] **MA-Bereinigung 20.04.** — bereinigte Fassung erstellt, positive Reaktion von Gafforova
-- [x] **Dilorom Soliboeva kontaktiert + replied**
-- [x] BfV AWV-2026-022 eingereicht (13.4.)
-- [x] BND AWV-2026-045 abgeschickt
-- [x] Sechs GIZ-Praktikumsbewerbungen entwickelt (Sahel, Ukraine, Bildung, develoPPP, Indien, Stabilisierung)
-- [x] Böll-Stiftung Abschlussbericht eingereicht (1.4.)
-- [x] OSTEN Festival Bewerbung (29.3.)
+- [x] MA abgegeben (30.03.2026)
+- [x] BfV AWV-2026-022 eingereicht (13.04.), BND AWV-2026-045 abgeschickt
+- [x] Sechs GIZ-Praktikumsbewerbungen (Sahel, Ukraine, Bildung, develoPPP, Indien, Stabilisierung); GIZ-Gespräch Digitaldialog Indien am 14.05.2026
+- [x] Böll-Stiftung Abschlussbericht (01.04.)
 - [x] FAZ/FAS ePub-to-Kindle Automation
 - [x] Persian-English Kindle Mega-Dictionary (~70k Einträge)
 - [x] Tajik Poetry Analyzer (Streamlit, GitHub: tajikpoemanalyzer)
-- [x] Berliner Debatte Initial Artikel "Herdens blinder Fleck"
-- [x] Langenstein-Kapitel Mitteldeutscher Verlag (mit Pabst/Fedtke)
+- [x] Langenstein-Kapitel Mitteldeutscher Verlag
+- [x] Brodyer Nächte Termine 2 (21.05.) und 3 (18.06.)
