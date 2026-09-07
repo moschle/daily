@@ -4,7 +4,6 @@
 
 ## DRINGEND (diese Woche)
 
-- [ ] **SenInnSport Berlin — Referent/in AG III C 1 Islamismus/Deradikalisierung**, Kennziffer III 15/2026, E13/A13h, Frist 01.10.2026, Dienstort Klosterstraße 47, Vollzeit unbefristet. Anforderungsprofil liegt vor: Ausschlusskriterium ist nur das Studium, unabdingbar (Gewicht 4) sind Deradikalisierungskenntnisse und Englisch B2. **Gesamtbewerbung (8 S.: Anschreiben, Lebenslauf, MA-Urkunde/-Zeugnis, BA-Urkunde, Arabisch-Zertifikate) liegt fertig vor — im Karriereportal ins Pflichtfeld „Anschreiben / Komplette Unterlagen" hochladen, dort liegt bisher fälschlich der Lebenslauf. Offen: Satz zur Umzugs-/Pendelbereitschaft nach Berlin.**
 - [ ] **DÜF Herbstvergabe — Frist 15.09.2026**: Arbeitsstipendium (nur mit Verlagsvertrag), Reisestipendium, Aufenthaltsstipendien Visby/Arles/Straelen. Hängt am hochroth-Vertrag, Rückmeldung steht weiter aus.
 - [ ] **DÜF Initiativstipendium** (2.000 €, ohne Verlagsvertrag möglich) — Fristangaben widersprüchlich (15.09. vs. 30.11.), auf der DÜF-Seite verifizieren.
 - [ ] **GRK Bonn — Frist 17.09.2026**: DFG-Graduiertenkolleg 3125 „Versöhnung und ihre Äquivalente im transkulturellen Vergleich", 12 Stellen, 65 % E13, 01.02.2027–31.01.2031, Sprecherin Prof. Dr. Christine Krüger, Auswahlgespräche in der ersten Oktoberhälfte. **Bewerbung als EINE PDF per E-Mail an ckrueger@uni-bonn.de unter Angabe der Kennziffer 2026/333** — kein Online-Portal. Gefordert: Zeugnisse, Lebenslauf, 2-seitiges Motivationsschreiben, 5-seitige Projektskizze, Englischnachweis (bis Stellenantritt nachreichbar), Empfehlungsschreiben (bei Einladung nachreichbar). Englisch B2 genügt, da die Dissertation auf Deutsch geschrieben wird. **Paket liegt fertig vor (14 S.): Motivationsschreiben, Projektskizze „Redigierte Eintracht", Lebenslauf, MA-Urkunde/-Zeugnis, BA-Urkunde, Abitur als vorläufiger Englischnachweis. Offen: Literaturbelege im Forschungsstand, Empfehlungsschreiben, förmlicher Englischnachweis.**
@@ -22,6 +21,7 @@
 - BAMF-2026-300 — Interamt-Hilfstexte statt Anschreiben
 
 ### Eingereicht, wartend
+- [x] **SenInnSport Berlin, Referent/in AG III C 1 — Strategische Steuerung der Bekämpfung des islamistischen Terrorismus, der Deradikalisierung und der Radikalisierungsprävention**, Kennziffer III 15/2026, E13/A13h, Dienstort Klosterstraße 47 Berlin, Vollzeit unbefristet — **eingereicht am 07.09.2026** über das Karriereportal Berlin (Gesamt-PDF, 8 S.: Anschreiben, Lebenslauf, MA-Urkunde/-Zeugnis, BA-Urkunde, Arabisch-Zertifikate)
 - [x] BfV AWV-2026-022 (Auswertung Islamismus, Berlin) — eingereicht 13.04.2026. Zeugnisse nachreichbar über Personalgewinnung-AWV@bva.bund.de
 - [x] BND AWV-2026-045 — abgeschickt
 - [x] KSK-Antrag (Künstlersozialkasse) — eingereicht, Bescheid steht aus
