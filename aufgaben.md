@@ -7,7 +7,7 @@
 - [ ] **SenInnSport Berlin — Referent/in AG III C 1 Islamismus/Deradikalisierung**, Kennziffer III 15/2026, E13/A13h, Frist 01.10.2026, Dienstort Klosterstraße 47, Vollzeit unbefristet. Anforderungsprofil liegt vor: Ausschlusskriterium ist nur das Studium, unabdingbar (Gewicht 4) sind Deradikalisierungskenntnisse und Englisch B2. **Gesamtbewerbung (8 S.: Anschreiben, Lebenslauf, MA-Urkunde/-Zeugnis, BA-Urkunde, Arabisch-Zertifikate) liegt fertig vor — im Karriereportal ins Pflichtfeld „Anschreiben / Komplette Unterlagen" hochladen, dort liegt bisher fälschlich der Lebenslauf. Offen: Satz zur Umzugs-/Pendelbereitschaft nach Berlin.**
 - [ ] **DÜF Herbstvergabe — Frist 15.09.2026**: Arbeitsstipendium (nur mit Verlagsvertrag), Reisestipendium, Aufenthaltsstipendien Visby/Arles/Straelen. Hängt am hochroth-Vertrag, Rückmeldung steht weiter aus.
 - [ ] **DÜF Initiativstipendium** (2.000 €, ohne Verlagsvertrag möglich) — Fristangaben widersprüchlich (15.09. vs. 30.11.), auf der DÜF-Seite verifizieren.
-- [ ] **GRK Bonn — Frist 17.09.2026**: DFG-Graduiertenkolleg 3125 „Versöhnung und ihre Äquivalente im transkulturellen Vergleich", 12 Stellen, 65 % E13, 01.02.2027–31.01.2031, Sprecherin Prof. Dr. Christine Gisela Krüger, Auswahlgespräche in der ersten Oktoberhälfte, Bewerbung über das Online-Portal. Islamwissenschaften ist gelistetes Fach; Englisch B2, bei englischsprachiger Dissertation C1. **Anschreiben liegt als Entwurf vor, das darin angekündigte fünfseitige Exposé existiert noch nicht — ohne Exposé keine Bewerbung.**
+- [ ] **GRK Bonn — Frist 17.09.2026**: DFG-Graduiertenkolleg 3125 „Versöhnung und ihre Äquivalente im transkulturellen Vergleich", 12 Stellen, 65 % E13, 01.02.2027–31.01.2031, Sprecherin Prof. Dr. Christine Krüger, Auswahlgespräche in der ersten Oktoberhälfte. **Bewerbung als EINE PDF per E-Mail an ckrueger@uni-bonn.de unter Angabe der Kennziffer 2026/333** — kein Online-Portal. Gefordert: Zeugnisse, Lebenslauf, 2-seitiges Motivationsschreiben, 5-seitige Projektskizze, Englischnachweis (bis Stellenantritt nachreichbar), Empfehlungsschreiben (bei Einladung nachreichbar). Englisch B2 genügt, da die Dissertation auf Deutsch geschrieben wird. **Paket liegt fertig vor (14 S.): Motivationsschreiben, Projektskizze „Redigierte Eintracht", Lebenslauf, MA-Urkunde/-Zeugnis, BA-Urkunde, Abitur als vorläufiger Englischnachweis. Offen: Literaturbelege im Forschungsstand, Empfehlungsschreiben, förmlicher Englischnachweis.**
 - [ ] **Uni Leipzig, Dezernat 5 Finanzen, Kennziffer 119/2026** (geringfügig, Beginn 01.10.2026, z. Hd. Diana Richter) — Anschreiben liegt als Entwurf vor, Frist prüfen
 - [ ] **BAMF-2026-300, Entscheider Landesasylstelle Berlin** (Interamt, Beginn 04.01.2027, SÜ1, kein Anschreiben zulässig) — Hilfstexte für die Freitextfelder liegen vor
 - [ ] **flaschenpost Leipzig**: Probearbeiten als Fahrer/Kurier steht an. Midijob-Vertrag statt Minijob prüfen.
@@ -17,7 +17,7 @@
 
 ### Entwürfe liegen vor, Versand unklar (Stand 03.09.2026)
 - BfV AWV-2026-062 (Referent Islamismus/islamistischer Terrorismus) — Anschreiben datiert 02.09.2026
-- DFG GRK 3125 Bonn, Kennziffer 2026/333 — Anschreiben datiert 02.09.2026, Exposé fehlt
+- DFG GRK 3125 Bonn, Kennziffer 2026/333 — durch das neue Paket vom 07.09.2026 ersetzt
 - Uni Leipzig Finanzen 119/2026 — Anschreiben datiert 02.09.2026
 - BAMF-2026-300 — Interamt-Hilfstexte statt Anschreiben
 
