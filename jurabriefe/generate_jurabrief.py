@@ -112,20 +112,45 @@ def _old_search(params: dict) -> list:
     return data.get("results") or []
 
 
+def _is_zivil(case: dict) -> bool:
+    kind = (case.get("gerichtsbarkeit") or "").lower()
+    return kind == "zivil" or "zivil" in case.get("gebiet", "").lower()
+
+
+def _is_verw(case: dict) -> bool:
+    kind = (case.get("gerichtsbarkeit") or "").lower()
+    return kind == "verwaltung" or "verwalt" in case.get("gebiet", "").lower()
+
+
 def _court_ok(court: str, case: dict) -> bool:
     c = (court or "").lower()
-    kind = (case.get("gerichtsbarkeit") or "").lower()
-    if kind == "zivil" or "zivil" in case.get("gebiet", "").lower():
+    if _is_zivil(case):
         if any(tok in c for tok in VR_COURTS):
             return False
         return any(tok in c for tok in ZR_COURTS)
-    if kind == "verwaltung" or "verwalt" in case.get("gebiet", "").lower():
+    if _is_verw(case):
         return any(tok in c for tok in VR_COURTS)
     return True
 
 
 def search_related_case(case):
     terms = [t for t in case.get("suchbegriffe", []) if t]
+    if _is_zivil(case):
+        terms += [
+            "Landgericht Urteil Klägerin Beklagte",
+            "Oberlandesgericht Urteil ZPO",
+            "Bundesgerichtshof Urteil ZPO",
+        ]
+    elif _is_verw(case):
+        terms += ["Verwaltungsgericht Urteil Tenor", "Oberverwaltungsgericht Urteil"]
+
+    seen = set()
+    uniq = []
+    for t in terms:
+        if t not in seen:
+            seen.add(t)
+            uniq.append(t)
+
     base = {
         "start_date": "2019-01-01",
         "end_date": now_berlin().strftime("%Y-%m-%d"),
@@ -133,26 +158,20 @@ def search_related_case(case):
         "return_text": "1",
         "page_size": "8",
     }
-    attempts = []
-    if terms:
-        attempts.append({**base, "text": terms[0]})
-        if len(terms) > 1:
-            attempts.append({**base, "text": " ".join(terms)})
-
-    for params in attempts:
-        hits = _old_search(params)
-        print(f"OLD search text={params.get('text')!r} hits={len(hits)}", file=sys.stderr)
+    for text in uniq:
+        hits = _old_search({**base, "text": text})
+        print(f"OLD search text={text!r} hits={len(hits)}", file=sys.stderr)
         for r in hits:
             court = r.get("court") or ""
             if isinstance(court, dict):
                 court = court.get("name") or court.get("slug") or ""
             if not _court_ok(str(court), case):
                 continue
-            text = r.get("text") or ""
-            if not text:
+            raw = r.get("text") or ""
+            if not raw:
                 snippets = r.get("snippets") or []
-                text = "\n".join(s.get("text", "") for s in snippets if isinstance(s, dict))
-            if len(text) < 200:
+                raw = "\n".join(s.get("text", "") for s in snippets if isinstance(s, dict))
+            if len(raw) < 200:
                 continue
             slug = r.get("slug") or ""
             return {
@@ -160,7 +179,7 @@ def search_related_case(case):
                 "datum": r.get("date", ""),
                 "aktenzeichen": slug,
                 "entscheidungstyp": r.get("decision_type", ""),
-                "text": text[:4500] + ("..." if len(text) > 4500 else ""),
+                "text": raw[:4500] + ("..." if len(raw) > 4500 else ""),
                 "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
             }
     return None
