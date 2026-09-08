@@ -58,7 +58,7 @@ Fuer jede Rohkarte:
 Nur JSON-Liste ohne Markdown:
 [{{"id": "<id der Rohkarte>", "frage": "<neue Frage>", "gewicht": <1-3>}}]"""
 
-FUSSNOTE = re.compile(r"(?<=[.!?\u201c\"])\d{1,3}(?=\s|$)")
+FUSSNOTE = re.compile(r"(?<=[a-zA-ZäöüßÄÖÜ][.!?\u201c\"])\d{1,3}(?=\s|$)")
 RANDNUMMER = re.compile(r"\s\d{2,3}(?=\s§)")
 
 
