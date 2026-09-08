@@ -1,10 +1,62 @@
 {
   "ziel": "2027-04-30",
   "phasen": [
-    {"name": "ZR Struktur", "bis": "2026-10-31", "gebiete": ["zr-001", "zr-002", "zr-003", "zr-004", "zr-005", "zr-008"]},
-    {"name": "ZR halten, StrafR einfuehren", "bis": "2026-12-31", "gebiete": ["zr-001", "zr-002", "zr-003", "zr-004", "zr-005", "zr-008", "str-001", "str-002", "str-003", "str-004"]},
-    {"name": "Anwaltsklausuren dazu", "bis": "2027-01-31", "gebiete": ["zr-001", "zr-002", "zr-003", "zr-004", "zr-005", "zr-008", "str-001", "str-002", "str-003", "str-004", "zr-006", "zr-007"]},
-    {"name": "VerwR dazu", "bis": "2027-02-28", "gebiete": ["zr-001", "zr-002", "zr-003", "zr-004", "zr-005", "zr-008", "str-001", "str-002", "str-003", "str-004", "zr-006", "zr-007", "zr-009", "zr-010"]},
-    {"name": "Alles, FSRS fuehrt", "bis": "2027-04-30", "gebiete": ["zr-001", "zr-002", "zr-003", "zr-004", "zr-005", "zr-008", "str-001", "str-002", "str-003", "str-004", "zr-006", "zr-007", "zr-009", "zr-010", "zr-011", "str-011"]}
+    {
+      "name": "Zivilrecht",
+      "bis": "2026-11-30",
+      "gebiete": [
+        "zr-001",
+        "zr-002",
+        "zr-003",
+        "zr-004",
+        "zr-005",
+        "zr-006"
+      ]
+    },
+    {
+      "name": "Zivilrecht und Strafrecht",
+      "bis": "2027-01-31",
+      "gebiete": [
+        "zr-001",
+        "zr-002",
+        "zr-003",
+        "zr-004",
+        "zr-005",
+        "zr-006",
+        "zr-007",
+        "zr-008",
+        "zr-009",
+        "zr-010",
+        "zr-011",
+        "zr-012",
+        "sr-001",
+        "sr-002",
+        "sr-003"
+      ]
+    },
+    {
+      "name": "alles, FSRS fuehrt",
+      "bis": "2027-04-30",
+      "gebiete": [
+        "zr-001",
+        "zr-002",
+        "zr-003",
+        "zr-004",
+        "zr-005",
+        "zr-006",
+        "zr-007",
+        "zr-008",
+        "zr-009",
+        "zr-010",
+        "zr-011",
+        "zr-012",
+        "sr-001",
+        "sr-002",
+        "sr-003",
+        "sr-004",
+        "sr-005",
+        "mdl-001"
+      ]
+    }
   ]
 }
