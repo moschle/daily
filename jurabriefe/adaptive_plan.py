@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
-"""Adaptiver Lernplan: wählt den nächsten Fall nach Phase + FSRS-Fälligkeit + Gewicht.
-
-- Phase aus lernplan.json (nach Datum)
-- Innerhalb der Phase: fällige Fälle zuerst (fsrs_scheduler.due_today)
-- Danach nach Gewicht (progress.json) sortiert — schwache Gebiete öfter
-- Gibt case_id + Begründung aus; generate_jurabrief.py nutzt das.
-"""
-
+"""Naechsten Fall nach Phase, FSRS und Rotation waehlen."""
 from __future__ import annotations
 
 import json
@@ -28,17 +21,20 @@ def current_phase(plan: dict) -> dict:
     return plan["phasen"][-1] if plan.get("phasen") else {}
 
 
-def pick(cases: list[dict], plan: dict, progress: dict) -> dict:
+def pick(cases: list[dict], plan: dict, progress: dict, exclude_ids: list[str] | None = None) -> dict:
     phase = current_phase(plan)
     pool = [c for c in cases if c["id"] in phase.get("gebiete", [])]
     if not pool:
-        pool = cases
+        pool = list(cases)
+    skip = set(exclude_ids or [])
+    rotated = [c for c in pool if c["id"] not in skip]
+    if rotated:
+        pool = rotated
     due = set(due_today([c["id"] for c in pool]))
     weights = progress.get("gewichte", {})
-    # Sortierung: fällig zuerst, dann höheres Gewicht, dann nach ID für Stabilität
     pool.sort(key=lambda c: (0 if c["id"] in due else 1, -weights.get(c["id"], 1.0), c["id"]))
     chosen = pool[0]
-    reason = "fällig" if chosen["id"] in due else f"Gewicht {weights.get(chosen['id'], 1.0)}"
+    reason = "faellig" if chosen["id"] in due else f"Gewicht {weights.get(chosen['id'], 1.0)}"
     return {"case": chosen, "phase": phase.get("name", "?"), "grund": reason}
 
 
