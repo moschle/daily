@@ -1,0 +1,36 @@
+name: Karten kuratieren
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  kuratieren:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Abhaengigkeiten
+        run: pip install -r requirements.txt
+      - name: Rohkarten
+        run: python jurabriefe/karten.py
+      - name: Woertlichkeit
+        run: python jurabriefe/kuratieren.py --alle --pruefen
+      - name: Kuration
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python jurabriefe/kuratieren.py --alle
+      - name: Commit
+        run: |
+          git config user.name "Jurabrief Bot"
+          git config user.email "jurabrief@users.noreply.github.com"
+          git add jurabriefe/karten/INDEX.md
+          git add -f jurabriefe/karten/*.kuratiert.json jurabriefe/karten/*.json || true
+          git diff --cached --quiet || git commit -m "Karten kuratiert $(date -u +%F)"
+          git pull --rebase --autostash
+          git push
