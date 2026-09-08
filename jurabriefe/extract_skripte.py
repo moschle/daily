@@ -27,13 +27,13 @@ def fetch(url: str) -> bytes:
 def fetch_retry(urls: list[str]) -> bytes:
     last = None
     for url in urls:
-        for attempt in range(4):
+        for attempt in range(5):
             try:
                 return fetch(url)
             except Exception as e:
                 last = e
-                wait = 8 * (attempt + 1)
-                print(f"  retry {attempt+1} {url.split('/')[-1]}: {e} — {wait}s")
+                wait = 10 * (attempt + 1)
+                print(f"  retry {attempt+1} {url.split('/')[-1]}: {e} — {wait}s", flush=True)
                 time.sleep(wait)
     raise last  # type: ignore
 
@@ -51,7 +51,7 @@ def headings(text: str) -> list[str]:
             continue
         if ln.startswith("===== SEITE"):
             continue
-        if re.match(r"^[A-J]\.", ln) or re.match(r"^\d+\.\s", ln):
+        if re.match(r"^[A-J]\.\s", ln) or re.match(r"^\d+\.\s", ln):
             found.append(ln)
         elif ln.isupper() and " " in ln:
             found.append(ln)
@@ -84,7 +84,7 @@ def main() -> None:
             "ueberschriften": headings(text),
         })
         print(f"  {len(pages)} Seiten, {len(text)} Zeichen")
-        time.sleep(3)
+        time.sleep(4)
     (OUT / "index.json").write_text(
         json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8"
     )
