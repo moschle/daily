@@ -68,7 +68,7 @@ def maengel(bestand: dict[str, list[dict]]) -> list[str]:
                 fehler.append(f"{wo}: Loesung steht nicht woertlich im Skript")
             if k.get("gewicht") not in (1, 2, 3):
                 fehler.append(f"{wo}: Gewicht {k.get('gewicht')!r} ungueltig")
-            if re.search(r"(?<=[.!?])\d{1,3}(\s|$)", k.get("loesung") or ""):
+            if re.search(r"(?<=[a-zA-ZäöüßÄÖÜ][.!?])\d{1,3}(\s|$)", k.get("loesung") or ""):
                 fehler.append(f"{wo}: Fussnotenziffer in der Loesung")
     return fehler
 
