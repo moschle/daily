@@ -2,26 +2,102 @@
   "cases": [
     {
       "id": "zr-001",
-      "gebiet": "Schuldrecht AT — Verzug",
-      "kernfrage": "Wann tritt Verzug ohne Mahnung ein? Welche Voraussetzungen muss die Mahnung erfüllen?",
-      "behoerdensprache": ["ernsthafte und hinreichend bestimmte Zahlungsaufforderung", "Mahnung", "Verzugseintritt"],
-      "verwandte_urteile_hinweis": "BGH zu § 286 BGB, Mahnungserfordernis"
+      "gebiet": "Zivilrecht staatliche Sicht — Rubrum / Parteibezeichnungen",
+      "kernfrage": "Wie werden Parteien, Streitgenossen, Kaufleute, Erben und gesetzliche Vertreter im Rubrum korrekt bezeichnet? Welche grammatikalischen Regeln gelten?",
+      "behoerdensprache": ["des Klägers", "gegen den Beklagten", "Prozessbevollmächtigte", "als Gesamtschuldner", "Im Namen des Volkes"],
+      "verwandte_urteile_hinweis": "Struktur nach §§ 253, 750 ZPO; Beispiele aus dem Berliner Assessorskript",
+      "quelle": "Berlin: Zivilrecht staatliche Sicht (zr-skript-5-auflage_2025.pdf, Stand Juli 2025)"
     },
     {
       "id": "zr-002",
-      "gebiet": "Sachenrecht — Eigentumserwerb",
-      "kernfrage": "Wie erwirbt man Eigentum an einer beweglichen Sache durch Übergabe? Was gilt bei gutgläubigem Erwerb?",
-      "behoerdensprache": ["Besitzverschaffung", "gute Glauben", "Übergabesurrogat"],
-      "verwandte_urteile_hinweis": "BGH zu § 929, 932 BGB"
+      "gebiet": "Zivilrecht staatliche Sicht — Urteilsformel / Tenor",
+      "kernfrage": "Wie muss ein Leistungsurteil, Feststellungsurteil oder Gestaltungsurteil formuliert sein, damit es vollstreckungsfähig und erschöpfend ist?",
+      "behoerdensprache": ["wird verurteilt", "wird festgestellt", "wird für unzulässig erklärt", "vorläufig vollstreckbar", "gegen Sicherheitsleistung"],
+      "verwandte_urteile_hinweis": "§§ 308, 313, 756 ZPO; Tenorierung im Berliner Skript",
+      "quelle": "Berlin: Zivilrecht staatliche Sicht (zr-skript-5-auflage_2025.pdf)"
     },
     {
       "id": "zr-003",
-      "gebiet": "Allgemeines Schuldrecht — Schadensersatz",
-      "kernfrage": "Wann haftet man aus unerlaubter Handlung? Welche Kausalität ist erforderlich?",
-      "behoerdensprache": ["unerlaubte Handlung", "Kausalzusammenhang", "Schadensersatzpflicht"],
-      "verwandte_urteile_hinweis": "BGH zu § 823 BGB"
+      "gebiet": "Zivilrecht staatliche Sicht — Tatbestand",
+      "kernfrage": "Wie baut man den Tatbestand auf: Geschichtserzählung, streitiges Vorbringen, Anträge, Prozessgeschichte? Welche Sprache (Indikativ vs. Konjunktiv)?",
+      "behoerdensprache": ["Geschichtserzählung", "streitiges Vorbringen", "beantragt", "salvatorische Klausel", "Prozessgeschichte"],
+      "verwandte_urteile_hinweis": "§§ 313, 314 ZPO; Tatbestandsaufbau im Berliner Skript",
+      "quelle": "Berlin: Zivilrecht staatliche Sicht (zr-skript-5-auflage_2025.pdf)"
+    },
+    {
+      "id": "zr-004",
+      "gebiet": "Zivilrecht staatliche Sicht — Entscheidungsgründe / Urteilsstil",
+      "kernfrage": "Wie formuliert man Obersätze und die Subsumtion im Urteilsstil? Was gehört in die Sachurteilsvoraussetzungen?",
+      "behoerdensprache": ["Obersatz", "Subsumtion", "Sachurteilsvoraussetzungen", "Begründetheit", "freie Überzeugung"],
+      "verwandte_urteile_hinweis": "§ 286 ZPO; Aufbau der Entscheidungsgründe im Berliner Skript",
+      "quelle": "Berlin: Zivilrecht staatliche Sicht (zr-skript-5-auflage_2025.pdf)"
+    },
+    {
+      "id": "zr-005",
+      "gebiet": "Zivilrecht anwaltliche Sicht — Aufbau der Anwaltsklausur",
+      "kernfrage": "Wie strukturiert man eine Anwaltsklausur: Mandantenbegehren, Gutachten, Zweckmäßigkeitserwägungen, Schriftsatzentwurf?",
+      "behoerdensprache": ["Mandantenbegehren", "Gutachten", "Zweckmäßigkeitserwägungen", "Schriftsatzentwurf", "Anträge"],
+      "verwandte_urteile_hinweis": "Skript Weinholz (zra-2023.pdf); Aufbauempfehlung Anwaltsklausur",
+      "quelle": "Berlin: Zivilrecht anwaltliche Sicht (zra-2023.pdf, Stand Dezember 2023)"
+    },
+    {
+      "id": "zr-006",
+      "gebiet": "Zivilrecht anwaltliche Sicht — Beweisrecht / Beweiserleichterungen",
+      "kernfrage": "Wann greifen Anscheinsbeweis, Indizienbeweis, gesetzliche Vermutungen oder Glaubhaftmachung? Wie verschiebt sich die Beweislast?",
+      "behoerdensprache": ["Anscheinsbeweis", "Indizienbeweis", "Glaubhaftmachung", "Beweislastumkehr", "freie Überzeugung"],
+      "verwandte_urteile_hinweis": "§§ 286, 287, 291, 294 ZPO; Beweisrecht im Skript Weinholz",
+      "quelle": "Berlin: Zivilrecht anwaltliche Sicht (zra-2023.pdf)"
+    },
+    {
+      "id": "zr-007",
+      "gebiet": "Zivilrecht anwaltliche Sicht — Kautelarklausur / AGB",
+      "kernfrage": "Wie gestaltet man einen Vertrag unter AGB-Kontrolle? Was ist der blue-pencil-test und wann ist eine salvatorische Klausel wirksam?",
+      "behoerdensprache": ["AGB-Kontrolle", "Inhaltskontrolle", "salvatorische Klausel", "blue-pencil-test", "Individualabrede"],
+      "verwandte_urteile_hinweis": "§§ 305 ff. BGB; Kautelarklausur im Skript Weinholz",
+      "quelle": "Berlin: Zivilrecht anwaltliche Sicht (zra-2023.pdf)"
+    },
+    {
+      "id": "zr-008",
+      "gebiet": "Zivilrecht anwaltliche Sicht — Zwangsvollstreckung / Vollstreckungsabwehrklage",
+      "kernfrage": "Wann ist die Vollstreckungsabwehrklage (§ 767 ZPO) oder Drittwiderspruchsklage (§ 771 ZPO) statthaft? Welche Fristen gelten?",
+      "behoerdensprache": ["Vollstreckungsabwehrklage", "Drittwiderspruchsklage", "Präklusion", "Titel", "Vollstreckungstitel"],
+      "verwandte_urteile_hinweis": "§§ 767, 771, 793 ZPO; Zwangsvollstreckung im Skript Weinholz",
+      "quelle": "Berlin: Zivilrecht anwaltliche Sicht (zra-2023.pdf)"
+    },
+    {
+      "id": "zr-009",
+      "gebiet": "Verwaltungsrecht staatliche Sicht — Tenorierung verwaltungsgerichtlicher Urteile",
+      "kernfrage": "Wie tenoriert man Anfechtungs-, Verpflichtungs-, Feststellungs- und Leistungsklage? Was ist ein Bescheidungsurteil?",
+      "behoerdensprache": ["Anfechtungsklage", "Verpflichtungsklage", "Bescheidungsurteil", "Fortsetzungsfeststellungsklage", "Teilstattgabe"],
+      "verwandte_urteile_hinweis": "§§ 113, 162 VwGO; Tenorierung im Berliner VerwR-Skript",
+      "quelle": "Berlin: Skript VerwR (skriptverwr-dez-2025.pdf, Stand Dezember 2025)"
+    },
+    {
+      "id": "zr-010",
+      "gebiet": "Verwaltungsrecht staatliche Sicht — Vorläufiger Rechtsschutz § 80 Abs. 5 VwGO",
+      "kernfrage": "Wann sind ernstliche Zweifel an der Rechtmäßigkeit der Grundverfügung gegeben? Wann offensichtliche Rechtmäßigkeit? Was ist faktischer Vollzug?",
+      "behoerdensprache": ["ernstliche Zweifel", "offensichtliche Rechtmäßigkeit", "sofortige Vollziehung", "faktischer Vollzug", "aufschiebende Wirkung"],
+      "verwandte_urteile_hinweis": "§ 80 Abs. 5 VwGO; Vorläufiger Rechtsschutz im Berliner VerwR-Skript",
+      "quelle": "Berlin: Skript VerwR (skriptverwr-dez-2025.pdf)"
+    },
+    {
+      "id": "zr-011",
+      "gebiet": "Verwaltungsrecht anwaltliche Sicht — Anwaltsklausur im VerwR",
+      "kernfrage": "Wie baut man die anwaltliche VerwR-Klausur auf: Mandatsübernahme, Akteneinsicht, Widerspruch, Klageschrift, mündliche Verhandlung?",
+      "behoerdensprache": ["Mandatsübernahme", "Akteneinsicht", "Widerspruch", "Klageschrift", "mündliche Verhandlung"],
+      "verwandte_urteile_hinweis": "Skript Hartmann (skript_hartmann_2026_fn.pdf, Stand Februar 2026)",
+      "quelle": "Berlin: Verwaltungsrecht anwaltliche Sicht (skript_hartmann_2026_fn.pdf)"
+    },
+    {
+      "id": "zr-012",
+      "gebiet": "Verwaltungsrecht anwaltliche Sicht — einstweiliger Rechtsschutz / Beiladung",
+      "kernfrage": "Wann ist ein Antrag auf aufschiebende Wirkung, Sicherungs- oder Regelungsanordnung statthaft? Wie funktioniert die Beiladung?",
+      "behoerdensprache": ["aufschiebende Wirkung", "Sicherungsanordnung", "Regelungsanordnung", "Beiladung", "Anordnungsanspruch"],
+      "verwandte_urteile_hinweis": "§§ 80, 123 VwGO; einstweiliger Rechtsschutz im Skript Hartmann",
+      "quelle": "Berlin: Verwaltungsrecht anwaltliche Sicht (skript_hartmann_2026_fn.pdf)"
     }
   ],
-  "quelle": "Platzhalter — später Berlin-Skript + Scans",
-  "aktualisiert": "2026-09-08"
+  "quelle": "Berliner Ausbildungsskripte Kammergericht (öffentliche Downloads) + deine Scans (später)",
+  "aktualisiert": "2026-09-08",
+  "hinweis": "Themen stammen aus den echten Inhaltsverzeichnissen der Berlin-PDFs. Die Skripte behandeln überwiegend prozessuale Struktur und Formulierungen, keine vollständigen materiellen Fallsammlungen. Materielle Grundfälle (z. B. § 433 BGB) kommen in den Anwalts-Skripten als Beispielsthemen vor."
 }

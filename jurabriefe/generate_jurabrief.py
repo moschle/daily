@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Jurabrief: wählt einen Zivilrechts-Fall, formuliert eine Aufgabe und mailt sie.
 
-Entwurf — Fall-DB ist Platzhalter. Später:
-- Berlin-Skript (zr-skript-5-auflage_2025.pdf) + deine Scans einpflegen
-- Anki-Abgleich (später)
-- Sachsen-Anhalt-Landesrecht (später)
+Fall-DB basiert auf echten Themen aus den Berliner Ausbildungsskripten
+(Kammergericht): Zivilrecht staatliche/anwaltliche Sicht, VerwR.
+Später:
+- deine Scans (Sachsen-Anhalt) einpflegen
+- Anki-Abgleich
+- Open Legal Data API für verwandte Urteile (return_text=1)
 """
 
 from __future__ import annotations
@@ -24,28 +26,13 @@ BERLIN_TZ = ZoneInfo("Europe/Berlin")
 STATE_FILE = Path(__file__).parent / "state.json"
 CASES_FILE = Path(__file__).parent / "cases.json"
 
-# Platzhalter-Fälle (Berlin-Skript-Stil). Später durch echte Extraktion ersetzen.
 SEED_CASES = [
     {
         "id": "zr-001",
-        "gebiet": "Schuldrecht AT — Verzug",
-        "kernfrage": "Wann tritt Verzug ohne Mahnung ein? Welche Voraussetzungen muss die Mahnung erfüllen?",
-        "behoerdensprache": ["ernsthafte und hinreichend bestimmte Zahlungsaufforderung", "Mahnung", "Verzugseintritt"],
-        "verwandte_urteile_hinweis": "BGH zu § 286 BGB, Mahnungserfordernis",
-    },
-    {
-        "id": "zr-002",
-        "gebiet": "Sachenrecht — Eigentumserwerb",
-        "kernfrage": "Wie erwirbt man Eigentum an einer beweglichen Sache durch Übergabe? Was gilt bei gutgläubigem Erwerb?",
-        "behoerdensprache": ["Besitzverschaffung", "gute Glauben", "Übergabesurrogat"],
-        "verwandte_urteile_hinweis": "BGH zu § 929, 932 BGB",
-    },
-    {
-        "id": "zr-003",
-        "gebiet": "Allgemeines Schuldrecht — Schadensersatz",
-        "kernfrage": "Wann haftet man aus unerlaubter Handlung? Welche Kausalität ist erforderlich?",
-        "behoerdensprache": ["unerlaubte Handlung", "Kausalzusammenhang", "Schadensersatzpflicht"],
-        "verwandte_urteile_hinweis": "BGH zu § 823 BGB",
+        "gebiet": "Zivilrecht staatliche Sicht — Rubrum / Parteibezeichnungen",
+        "kernfrage": "Wie werden Parteien, Streitgenossen, Kaufleute, Erben und gesetzliche Vertreter im Rubrum korrekt bezeichnet?",
+        "behoerdensprache": ["des Klägers", "gegen den Beklagten", "Prozessbevollmächtigte"],
+        "verwandte_urteile_hinweis": "Struktur nach §§ 253, 750 ZPO",
     },
 ]
 

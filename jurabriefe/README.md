@@ -10,10 +10,10 @@ Baut auf der Morgenbrief-Infrastruktur auf:
 ## Status (Entwurf)
 - [x] Workflow-Datei (Mo/Mi/Fr 07:00)
 - [x] Generator-Skript mit Fall-DB + Prompt
-- [x] Beispiel-Fall-DB (3 Fälle, Berlin-Skript-Stil)
-- [ ] echte Skripte einpflegen (Berlin PDF + deine Scans)
+- [x] Fall-DB mit echten Themen aus Berlin-Skripten (12 Fälle)
+- [ ] deine Scans (Sachsen-Anhalt) einpflegen
 - [ ] Anki-Daten (später)
-- [ ] Sachsen-Anhalt-Landesrecht (später)
+- [ ] Open Legal Data API für verwandte Urteile (return_text=1)
 
 ## Nächste Schritte
 1. `python jurabriefe/generate_jurabrief.py` lokal testen
