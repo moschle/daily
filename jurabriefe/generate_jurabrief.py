@@ -3,9 +3,6 @@
 
 1) Verwandtes Urteil zum Lesen (Sprache, Tenor, Begruendung)
 2) Aufgabe aus dem Skript-Fall (loesen, keine neu generierte Klausur)
-
-Der Betreff enthaelt die Fall-ID in eckigen Klammern, damit die Antwortmail
-automatisch zugeordnet werden kann: [zr-001].
 """
 
 from __future__ import annotations
@@ -46,7 +43,6 @@ def now_berlin():
 
 
 def resolve_to() -> str:
-    """JURABRIEF_TO, sonst GMAIL_ADDRESS. Leerer String zaehlt als nicht gesetzt."""
     to_addr = (os.environ.get("JURABRIEF_TO") or "").strip()
     if not to_addr:
         to_addr = (os.environ.get("GMAIL_ADDRESS") or "").strip()
@@ -85,8 +81,6 @@ def load_plan():
 
 
 def pick_case(cases, state):
-    """Adaptiver Plan: Phase + FSRS-Faelligkeit + Gewicht. Faellt zurueck auf
-    zyklisches Picking, falls adaptive_plan nicht greift."""
     try:
         plan = load_plan()
         progress = load_progress()
@@ -110,20 +104,7 @@ def pick_case(cases, state):
         return case, "zyklus"
 
 
-def search_related_case(case):
-    cited = case.get("cited_law") or {}
-    params = {
-        "text": " ".join(case.get("suchbegriffe", [])),
-        "start_date": "2019-01-01",
-        "end_date": now_berlin().strftime("%Y-%m-%d"),
-        "order_by": "relevance",
-        "return_text": "1",
-        "page_size": "3",
-    }
-    if cited.get("book"):
-        params["cited_law_book"] = cited["book"]
-    if cited.get("section"):
-        params["cited_law_section"] = cited["section"]
+def _old_search(params: dict) -> list:
     url = OLD_BASE + "?" + urllib.parse.urlencode(params)
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "jurabrief/1.0"})
@@ -131,28 +112,65 @@ def search_related_case(case):
             data = json.loads(resp.read().decode("utf-8"))
     except Exception as e:
         print(f"Open Legal Data Fehler: {e}", file=sys.stderr)
-        return None
+        return []
+    return data.get("results") or []
 
-    results = data.get("results", [])
-    if not results:
-        return None
+
+def search_related_case(case):
+    terms = [t for t in case.get("suchbegriffe", []) if t]
+    cited = case.get("cited_law") or {}
+    base = {
+        "start_date": "2019-01-01",
+        "end_date": now_berlin().strftime("%Y-%m-%d"),
+        "order_by": "relevance",
+        "return_text": "1",
+        "page_size": "5",
+    }
+    attempts = []
+    if terms:
+        attempts.append({**base, "text": " ".join(terms)})
+        attempts.append({**base, "text": terms[0]})
+    if cited.get("book") and cited.get("section"):
+        attempts.append({
+            **base,
+            "text": cited["book"].upper() + " " + str(cited["section"]),
+            "cited_law_book": cited["book"],
+            "cited_law_section": str(cited["section"]),
+        })
+    if not attempts:
+        attempts.append({**base, "text": case.get("gebiet", "Urteil")})
+
+    results = []
+    for params in attempts:
+        results = _old_search(params)
+        print(f"OLD search text={params.get('text')!r} hits={len(results)}", file=sys.stderr)
+        if results:
+            break
+
     for r in results:
         text = r.get("text") or ""
-        if len(text) > 200:
-            snippet = text[:4500] + ("..." if len(text) > 4500 else "")
-            return {
-                "gericht": r.get("court", ""),
-                "datum": r.get("date", ""),
-                "aktenzeichen": r.get("slug", ""),
-                "entscheidungstyp": r.get("decision_type", ""),
-                "text": snippet,
-                "url": f"https://de.openlegaldata.io/case/{r.get('slug', '')}/",
-            }
+        if not text:
+            snippets = r.get("snippets") or []
+            text = "\n".join(s.get("text", "") for s in snippets if isinstance(s, dict))
+        if len(text) < 200:
+            continue
+        court = r.get("court") or ""
+        if isinstance(court, dict):
+            court = court.get("name") or court.get("slug") or ""
+        snippet = text[:4500] + ("..." if len(text) > 4500 else "")
+        slug = r.get("slug") or ""
+        return {
+            "gericht": court,
+            "datum": r.get("date", ""),
+            "aktenzeichen": slug,
+            "entscheidungstyp": r.get("decision_type", ""),
+            "text": snippet,
+            "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
+        }
     return None
 
 
 def lesehinweis(case, related):
-    """Kurzer Blickwinkel fuers Lesen — kein neuer Fall."""
     sprache = ", ".join(case.get("behoerdensprache", [])[:4])
     prompt = (
         "Schreibe auf Deutsch zwei bis drei kurze Saetze als Lesehinweis. "
@@ -225,11 +243,7 @@ def send_mail(subject, body, to_addr):
         print(body)
         return
     if not to_addr or "@" not in to_addr:
-        print(
-            f"Kein gueltiger Empfaenger (JURABRIEF_TO leer). Fallback waere GMAIL_ADDRESS."
-            f" Aktuell to={to_addr!r}. Mail wird nicht gesendet.",
-            file=sys.stderr,
-        )
+        print("Kein gueltiger Empfaenger. Mail wird nicht gesendet.", file=sys.stderr)
         print(body)
         return
     msg = MIMEText(body, "plain", "utf-8")
