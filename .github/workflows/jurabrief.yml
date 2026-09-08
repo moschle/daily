@@ -1,38 +1,9 @@
 name: Jurabrief
-
+# Verschoben nach https://github.com/moschle/jurabrief
 on:
-  schedule:
-    # Montag, Mittwoch, Freitag um 07:00 Berlin (05:00 UTC)
-    - cron: '0 5 * * 1,3,5'
   workflow_dispatch:
-
 jobs:
-  jurabrief:
+  hinweis:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Python einrichten
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Abhaengigkeiten installieren
-        run: pip install -r requirements.txt
-
-      - name: Jurabrief generieren und senden
-        env:
-          PYTHONPATH: ${{ github.workspace }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          JURABRIEF_TO: ${{ secrets.JURABRIEF_TO }}
-        run: python jurabriefe/generate_jurabrief.py
-
-      - name: Persistente Dateien committen
-        run: |
-          git config user.name "Jurabrief Bot"
-          git config user.email "jurabrief@users.noreply.github.com"
-          git add jurabriefe/state.json || true
-          git diff --cached --quiet || git commit -m "jurabrief: $(date +%Y-%m-%d)"
-          git push || true
+      - run: echo "Jurabrief laeuft in moschle/jurabrief"
