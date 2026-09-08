@@ -21,7 +21,6 @@ for _p in (_REPO, _HERE):
     if s not in sys.path:
         sys.path.insert(0, s)
 
-from claude_client import complete
 from adaptive_plan import pick
 
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
@@ -31,7 +30,7 @@ PROGRESS_FILE = _HERE / "progress.json"
 LERNPLAN_FILE = _HERE / "lernplan.json"
 OLD_BASE = "https://de.openlegaldata.io/api/cases/search/"
 
-ZR_COURTS = ("lg", "olg", "bgh", "kg", "ag")
+ZR_COURTS = ("lg", "olg", "bgh", "kg")
 VR_COURTS = ("vg", "ovg", "bverwg", "vgh")
 
 
@@ -113,19 +112,20 @@ def _old_search(params: dict) -> list:
     return data.get("results") or []
 
 
-def _court_ok(court: str, gebiet: str) -> bool:
+def _court_ok(court: str, case: dict) -> bool:
     c = (court or "").lower()
-    g = (gebiet or "").lower()
-    if "zivil" in g:
+    kind = (case.get("gerichtsbarkeit") or "").lower()
+    if kind == "zivil" or "zivil" in case.get("gebiet", "").lower():
+        if any(tok in c for tok in VR_COURTS):
+            return False
         return any(tok in c for tok in ZR_COURTS)
-    if "verwalt" in g:
+    if kind == "verwaltung" or "verwalt" in case.get("gebiet", "").lower():
         return any(tok in c for tok in VR_COURTS)
     return True
 
 
 def search_related_case(case):
     terms = [t for t in case.get("suchbegriffe", []) if t]
-    cited = case.get("cited_law") or {}
     base = {
         "start_date": "2019-01-01",
         "end_date": now_berlin().strftime("%Y-%m-%d"),
@@ -135,100 +135,64 @@ def search_related_case(case):
     }
     attempts = []
     if terms:
-        attempts.append({**base, "text": " ".join(terms)})
         attempts.append({**base, "text": terms[0]})
-    if cited.get("book") and cited.get("section"):
-        attempts.append({
-            **base,
-            "text": f"{cited['book']} {cited['section']}",
-        })
+        if len(terms) > 1:
+            attempts.append({**base, "text": " ".join(terms)})
 
-    pool = []
     for params in attempts:
         hits = _old_search(params)
         print(f"OLD search text={params.get('text')!r} hits={len(hits)}", file=sys.stderr)
-        pool.extend(hits)
-        if pool:
-            break
-
-    gebiet = case.get("gebiet", "")
-    ranked = []
-    for r in pool:
-        court = r.get("court") or ""
-        if isinstance(court, dict):
-            court = court.get("name") or court.get("slug") or ""
-        ranked.append((0 if _court_ok(str(court), gebiet) else 1, r, court))
-    ranked.sort(key=lambda x: x[0])
-
-    for _prio, r, court in ranked:
-        text = r.get("text") or ""
-        if not text:
-            snippets = r.get("snippets") or []
-            text = "\n".join(s.get("text", "") for s in snippets if isinstance(s, dict))
-        if len(text) < 200:
-            continue
-        slug = r.get("slug") or ""
-        snippet = text[:4500] + ("..." if len(text) > 4500 else "")
-        return {
-            "gericht": court,
-            "datum": r.get("date", ""),
-            "aktenzeichen": slug,
-            "entscheidungstyp": r.get("decision_type", ""),
-            "text": snippet,
-            "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
-        }
+        for r in hits:
+            court = r.get("court") or ""
+            if isinstance(court, dict):
+                court = court.get("name") or court.get("slug") or ""
+            if not _court_ok(str(court), case):
+                continue
+            text = r.get("text") or ""
+            if not text:
+                snippets = r.get("snippets") or []
+                text = "\n".join(s.get("text", "") for s in snippets if isinstance(s, dict))
+            if len(text) < 200:
+                continue
+            slug = r.get("slug") or ""
+            return {
+                "gericht": court,
+                "datum": r.get("date", ""),
+                "aktenzeichen": slug,
+                "entscheidungstyp": r.get("decision_type", ""),
+                "text": text[:4500] + ("..." if len(text) > 4500 else ""),
+                "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
+            }
     return None
 
 
-def lesehinweis(case, related):
-    sprache = ", ".join(case.get("behoerdensprache", [])[:4])
-    prompt = (
-        "Zwei bis drei Sätze auf Deutsch, Urteilsstil, keine Anrede, keine Aufforderung. "
-        "Nur worauf Tenor und Gründe für das Thema relevant sind. "
-        f"Thema: {case.get('gebiet', '')}. "
-        f"Kern: {case.get('kernfrage', '')}. "
-        f"Begriffe: {sprache}."
-    )
-    if related:
-        prompt += f" Gericht: {related.get('gericht')} {related.get('datum')}."
-    try:
-        return complete(prompt, max_tokens=180).strip()
-    except Exception as e:
-        print(f"Claude-Fehler (Lesehinweis): {e}", file=sys.stderr)
-        return case.get("kernfrage", "")
-
-
-def build_mail(case, related, hint, today_str):
+def build_mail(case, related, today_str):
     quelle = case.get("quelle", "Berliner Ausbildungsskript")
-    sprache = ", ".join(case.get("behoerdensprache", []))
-    form = (
-        "staatliche Klausur: Rubrum, Tenor, Tatbestand, Gründe."
-        if "staatlich" in case.get("gebiet", "").lower()
-        else "anwaltliche Klausur: Gutachten und Schriftsatz."
-    )
+    aufgabe = case.get("aufgabe") or case.get("kernfrage") or ""
+    auszug = case.get("skriptauszug") or ""
 
     if related:
         lesen = (
             f"I. Lesetext\n"
-            f"{related['gericht']}, {related['entscheidungstyp']} vom {related['datum']}, {related['aktenzeichen']}\n"
+            f"{related['gericht']}, {related['entscheidungstyp']} vom {related['datum']}\n"
+            f"{related['aktenzeichen']}\n"
             f"{related['url']}\n\n"
-            f"{hint}\n\n"
             f"---\n"
             f"{related['text']}\n"
         )
     else:
-        lesen = "I. Lesetext\nKein passendes Urteil in der Abfrage.\n"
+        lesen = "I. Lesetext\nKein Urteil der passenden Gerichtsbarkeit.\n"
 
-    aufgabe = (
+    block2 = (
         f"II. Bearbeitung\n"
         f"{case['gebiet']}\n"
         f"{quelle}\n\n"
-        f"{case['kernfrage']}\n\n"
-        f"Form: {form}\n"
-        f"Begriffe: {sprache}\n"
+        f"{aufgabe}\n"
     )
+    if auszug:
+        block2 += f"\nVorgabe aus dem Skript:\n{auszug}\n"
 
-    return f"Jurabrief — {today_str}\n{case['gebiet']}\n\n{lesen}\n\n{aufgabe}\n"
+    return f"Jurabrief — {today_str}\n{case['gebiet']}\n\n{lesen}\n\n{block2}\n"
 
 
 def send_mail(subject, body, to_addr):
@@ -264,8 +228,7 @@ def main():
 
     today = now_berlin().strftime("%A, %d. %B %Y")
     related = search_related_case(case)
-    hint = lesehinweis(case, related)
-    body = build_mail(case, related, hint, today)
+    body = build_mail(case, related, today)
 
     to_addr = resolve_to()
     subject = f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})"
