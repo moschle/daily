@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Jurabrief: Lesetext + Aufgabe aus dem Skript-Volltext."""
+"""Jurabrief: Lesetext + Klausuraufgabe aus dem Skript."""
 
 from __future__ import annotations
 
 import json
 import os
+import re
 import smtplib
 import sys
 import urllib.parse
@@ -35,21 +36,23 @@ OLD_BASE = "https://de.openlegaldata.io/api/cases/search/"
 ZR_COURTS = ("lg", "olg", "bgh", "kg")
 VR_COURTS = ("vg", "ovg", "bverwg", "vgh")
 
-EXCERPT_PROMPT = """Du erhaeltst den Anfang eines deutschen Gerichtsurteils.
-Gib ausschliesslich den Text wieder, den eine Referendarin fuer Rubrum, Tenor und den Einstieg in den Tatbestand braucht.
-Keine Anrede, kein Kommentar. Orientierungssatz weglassen, wenn Tenor vorhanden.
-Tenor vollstaendig. Nicht umformulieren.
-Wenn der Text nicht zur Gerichtsbarkeit passt: UNPASSEND.
+EXCERPT_PROMPT = """Anfang eines deutschen Zivilurteils.
+Nur Rubrum und Tenor wiedergeben. Keine Anrede. Nicht umformulieren.
+Passt der Text nicht: UNPASSEND.
 
 Text:
 {text}
 """
 
-AUFGABE_PROMPT = """Formuliere eine Klausuraufgabe. Nur die Aufgabe.
-Wenn ein vollstaendiges Musterrubrum vorkommt (Gericht, Aktenzeichen, Parteien, Tenor):
-dieses eine Muster ist der Sachverhalt. Keine zweite Beispielgruppe dazu mischen.
-Keine neuen Namen. Keine Loesung. Keine Anrede. Kein Fragenkatalog.
-Auftrag: den Urteilskopf nach dem Skript fertigen.
+AUFGABE_PROMPT = """Schreibe eine Assessorklausur-Aufgabe (staatliche Sicht, Urteilskopf).
+Stil: Bearbeitervermerk, keine Anrede, kein Fettdruck, keine Nummerierung als Quiz.
+
+Vorgabe:
+- Aus dem Skript nur EIN zusammenhaengendes Parteienset verwenden.
+- Den fertigen Urteilskopf und den Tenor NICHT abdrucken.
+- Stattdessen die Parteien, Vertreter, Prozessbevollmaechtigten, Gericht, Spruchkoerper und den letzten Verhandlungstag als Sachverhalt nennen.
+- Auftrag in einem Satz: Fertigen Sie den Kopf des Urteils einschliesslich der Formel Im Namen des Volkes.
+- Keine Loesungshinweise.
 
 Skript:
 {text}
@@ -61,29 +64,23 @@ def now_berlin():
 
 
 def resolve_to() -> str:
-    to_addr = (os.environ.get("JURABRIEF_TO") or "").strip()
-    if not to_addr:
-        to_addr = (os.environ.get("GMAIL_ADDRESS") or "").strip()
-    return to_addr
+    return (os.environ.get("JURABRIEF_TO") or os.environ.get("GMAIL_ADDRESS") or "").strip()
 
 
 def load_cases():
     if CASES_FILE.exists():
-        with open(CASES_FILE, encoding="utf-8") as f:
-            return json.load(f).get("cases", [])
+        return json.loads(CASES_FILE.read_text(encoding="utf-8")).get("cases", [])
     return []
 
 
 def load_state():
     if STATE_FILE.exists():
-        with open(STATE_FILE, encoding="utf-8") as f:
-            return json.load(f)
+        return json.loads(STATE_FILE.read_text(encoding="utf-8"))
     return {"done": [], "next_index": 0, "last_id": None}
 
 
 def save_state(state):
-    with open(STATE_FILE, "w", encoding="utf-8") as f:
-        json.dump(state, f, ensure_ascii=False, indent=2)
+    STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def load_progress():
@@ -100,9 +97,7 @@ def load_plan():
 
 def pick_case(cases, state):
     try:
-        plan = load_plan()
-        progress = load_progress()
-        res = pick(cases, plan, progress)
+        res = pick(cases, load_plan(), load_progress())
         case = res["case"]
         state["last_id"] = case["id"]
         state.setdefault("done", []).append(case["id"])
@@ -110,8 +105,10 @@ def pick_case(cases, state):
     except Exception as e:
         print(f"Adaptiver Plan Fehler, Fallback: {e}", file=sys.stderr)
         done = set(state.get("done", []))
-        remaining = [c for c in cases if c["id"] not in done]
-        if not remaining:
+        remaining = [c for c in cases if c["id"] not in done] or cases
+        if not state.get("done"):
+            pass
+        elif not [c for c in cases if c["id"] not in done]:
             state["done"] = []
             remaining = cases
         idx = state.get("next_index", 0) % len(remaining)
@@ -131,9 +128,8 @@ def _find_body(text: str, needle: str) -> int:
         i = text.find(needle, pos)
         if i < 0:
             return fallback if fallback >= 0 else 0
-        line_end = text.find("\n", i)
-        line = text[i: line_end if line_end > i else i + 80]
-        if "...." in line or "\u2026" in line:
+        line = text[i: text.find("\n", i)]
+        if "...." in line:
             if fallback < 0:
                 fallback = i
             pos = i + len(needle)
@@ -143,57 +139,78 @@ def _find_body(text: str, needle: str) -> int:
 
 def _cut_clean(text: str, limit: int) -> str:
     if len(text) <= limit:
-        return text
+        return text.rstrip()
     cut = text.rfind("\n\n", 0, limit)
-    if cut < limit // 2:
+    if cut < limit // 3:
         cut = text.rfind("\n", 0, limit)
-    if cut < limit // 2:
+    if cut < limit // 3:
         cut = limit
     return text[:cut].rstrip()
 
 
-def load_skript_section(case: dict) -> str:
-    sid = case.get("skript_id")
-    if not sid:
-        return ""
-    path = EXTRACTED / f"{sid}.txt"
-    if not path.exists():
-        print(f"kein Volltext {path}", file=sys.stderr)
-        return ""
-    text = path.read_text(encoding="utf-8")
-    start = case.get("skript_start") or ""
-    end = case.get("skript_end") or ""
-    i = _find_body(text, start)
-    j = _find_body(text, end) if end else -1
-    if j <= i:
-        j = min(len(text), i + 20000)
-    chunk = text[i:j]
-    muster_at = -1
-    for mark in ("Amtsgericht Neukölln", "12 C 310/24", "Im Namen des Volkes"):
+def _split_muster(chunk: str) -> tuple[str, str]:
+    for mark in ("Amtsgericht Neukölln\n12 C", "Amtsgericht Neukölln\n12 C 310", "12 C 310/24"):
         k = chunk.find(mark)
         if k >= 0:
-            muster_at = k
-            if mark != "Im Namen des Volkes":
-                break
-    if muster_at >= 0:
-        head = _cut_clean(chunk[:muster_at], 2200)
-        tail = chunk[muster_at:]
-        tail = _cut_clean(tail, 4500)
-        chunk = (head + "\n\n" + tail).strip()
-    else:
-        chunk = _cut_clean(chunk.strip(), 7000)
-    return chunk
+            if mark.startswith("12 C"):
+                line = chunk.rfind("Amtsgericht", 0, k + 1)
+                if line >= 0:
+                    k = line
+            return chunk[:k].rstrip(), chunk[k:].strip()
+    return chunk, ""
 
 
-def aufgabe_aus_skript(case: dict, section: str) -> str:
-    if not section:
-        return case.get("aufgabe") or case.get("kernfrage") or ""
+def load_skript_section(case: dict) -> tuple[str, str]:
+    """Regeln, Musterrubrum (Loesung, nicht in die Aufgabe)."""
+    sid = case.get("skript_id")
+    if not sid:
+        return "", ""
+    path = EXTRACTED / f"{sid}.txt"
+    if not path.exists():
+        return "", ""
+    text = path.read_text(encoding="utf-8")
+    i = _find_body(text, case.get("skript_start") or "")
+    end = case.get("skript_end") or ""
+    j = _find_body(text, end) if end else -1
+    if j <= i:
+        j = min(len(text), i + 25000)
+    chunk = text[i:j]
+    rules, muster = _split_muster(chunk)
+    rules = _cut_clean(rules, 3500)
+    return rules, muster
+
+
+def aufgabe_aus_skript(case: dict, rules: str, muster: str) -> str:
+    quelle = (rules + "\n\n" + muster)[:7000] if muster else rules[:7000]
+    if not quelle:
+        return case.get("aufgabe") or ""
     try:
-        out = complete(AUFGABE_PROMPT.format(text=section[:6000]), max_tokens=400).strip()
+        out = complete(AUFGABE_PROMPT.format(text=quelle), max_tokens=450).strip()
+        out = re.sub(r"\*\*+", "", out)
+        if "Im Namen des Volkes" in out and "Rabe Schneedienst" in out and "fuer Recht erkannt" in out.lower():
+            out = ""
         if out:
             return out
     except Exception as e:
         print(f"Aufgabe aus Skript: {e}", file=sys.stderr)
+    if muster:
+        return (
+            "Vor dem Amtsgericht Neukölln, Abteilung 12, ist folgende Sache anhaengig.\n"
+            "Klagepartei: Rabe Schneedienst GmbH, Kochstrasse 34, 12047 Berlin, "
+            "gesetzlich vertreten durch den Geschaeftsfuehrer Martin Mueller, ebenda; "
+            "Prozessbevollmaechtigte Rechtsanwaelte Martina Klage und Karl Meier, Parkstrasse 101, 12165 Berlin.\n"
+            "Streithelferin der Klaegerin: Mega AG, gesetzlich vertreten durch die Vorstandsmitglieder "
+            "Herbert Mueller und Ralf Schubert, Sonnenallee 93, 12199 Berlin; "
+            "Prozessbevollmaechtigte Rechtsanwaelte Karl Boot u. a., Oberweg 12, 12498 Berlin.\n"
+            "Beklagte zu 1): der unter der Firma Dieter Teufel handelnde Kaufmann Rainer Zufall, "
+            "Peststrasse 14, 12345 Berlin.\n"
+            "Beklagte zu 2): die am 12. Dezember 2015 geborene Erika Hage, Sanderweg 2, 12047 Berlin, "
+            "gesetzlich vertreten durch ihre Eltern Maria und Lutz Hage, ebenda; "
+            "Prozessbevollmaechtigter Rechtsanwalt Herbert Sol, Kalckreuthweg 56, 10787 Berlin.\n"
+            "Widerklage der Beklagten. Letzte muendliche Verhandlung am 3. April 2025, "
+            "Richter am Amtsgericht Dr. Mueller.\n"
+            "Fertigen Sie den Kopf des Urteils."
+        )
     return case.get("aufgabe") or ""
 
 
@@ -202,21 +219,18 @@ def _old_search(params: dict) -> list:
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "jurabrief/1.0"})
         with urllib.request.urlopen(req, timeout=20) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
+            return json.loads(resp.read().decode("utf-8")).get("results") or []
     except Exception as e:
         print(f"Open Legal Data Fehler: {e}", file=sys.stderr)
         return []
-    return data.get("results") or []
 
 
 def _is_zivil(case: dict) -> bool:
-    kind = (case.get("gerichtsbarkeit") or "").lower()
-    return kind == "zivil" or "zivil" in case.get("gebiet", "").lower()
+    return (case.get("gerichtsbarkeit") or "").lower() == "zivil" or "zivil" in case.get("gebiet", "").lower()
 
 
 def _is_verw(case: dict) -> bool:
-    kind = (case.get("gerichtsbarkeit") or "").lower()
-    return kind == "verwaltung" or "verwalt" in case.get("gebiet", "").lower()
+    return (case.get("gerichtsbarkeit") or "").lower() == "verwaltung" or "verwalt" in case.get("gebiet", "").lower()
 
 
 def _court_ok(court: str, case: dict) -> bool:
@@ -240,20 +254,17 @@ def _result_text(r: dict) -> str:
     text = r.get("text") or ""
     if text:
         return text
-    snippets = r.get("snippets") or []
-    return "\n".join(s.get("text", "") for s in snippets if isinstance(s, dict))
+    return "\n".join(s.get("text", "") for s in (r.get("snippets") or []) if isinstance(s, dict))
 
 
 def _score_hit(text: str) -> int:
     t = text.lower()
     score = 0
-    if "tenor" in t:
-        score += 3
     if "im namen des volkes" in t:
         score += 4
+    if "tenor" in t:
+        score += 3
     if "kläger" in t and "beklag" in t:
-        score += 2
-    if "prozessbevollm" in t:
         score += 2
     return score
 
@@ -326,7 +337,7 @@ def search_related_case(case):
     return None
 
 
-def build_mail(case, related, section, aufgabe, today_str):
+def build_mail(case, related, rules, aufgabe, today_str):
     quelle = case.get("quelle", "Berliner Ausbildungsskript")
     if related:
         lesen = (
@@ -339,20 +350,15 @@ def build_mail(case, related, section, aufgabe, today_str):
     else:
         lesen = "I. Lesetext\nKein Urteil der passenden Gerichtsbarkeit.\n"
     block2 = f"II. Bearbeitung\n{case['gebiet']}\n{quelle}\n\n{aufgabe}\n"
-    if section:
-        block2 += "\n--- Skript ---\n" + section + "\n"
+    if rules:
+        block2 += "\n--- Skript (Regeln, kein Musterrubrum) ---\n" + rules + "\n"
     return f"Jurabrief — {today_str}\n{case['gebiet']}\n\n{lesen}\n\n{block2}\n"
 
 
 def send_mail(subject, body, to_addr):
     gmail = (os.environ.get("GMAIL_ADDRESS") or "").strip()
     pw = (os.environ.get("GMAIL_APP_PASSWORD") or "").strip()
-    if not gmail or not pw:
-        print("Keine Gmail-Secrets, Mail wird nicht gesendet.", file=sys.stderr)
-        print(body)
-        return
-    if not to_addr or "@" not in to_addr:
-        print("Kein Empfaenger.", file=sys.stderr)
+    if not gmail or not pw or "@" not in (to_addr or ""):
         print(body)
         return
     msg = MIMEText(body, "plain", "utf-8")
@@ -372,17 +378,17 @@ def main():
     state = load_state()
     case, grund = pick_case(cases, state)
     save_state(state)
-    section = load_skript_section(case)
-    aufgabe = aufgabe_aus_skript(case, section)
+    rules, muster = load_skript_section(case)
+    aufgabe = aufgabe_aus_skript(case, rules, muster)
     related = search_related_case(case)
     today = now_berlin().strftime("%A, %d. %B %Y")
-    body = build_mail(case, related, section, aufgabe, today)
+    body = build_mail(case, related, rules, aufgabe, today)
     send_mail(
         f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})",
         body,
         resolve_to(),
     )
-    print(f"Fall {case['id']} gewaehlt ({grund}), Skript {len(section)} Zeichen.")
+    print(f"Fall {case['id']} ({grund}), Regeln {len(rules)}, Muster {len(muster)}.")
 
 
 if __name__ == "__main__":
