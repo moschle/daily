@@ -1,0 +1,38 @@
+B. Kopf des Urteils
+
+Nach § 2 AktO Justiz Berlin ist das Aktenzeichen anzugeben. An erster Stelle des Urteils muss es nach § 311 Abs. 1 ZPO heißen:
+
+Im Namen des Volkes
+
+Das Urteil wird grundsätzlich eingeleitet durch die Formel:
+In dem Rechtsstreit
+
+II. Bezeichnung der Parteien und ihrer Vertreter
+1. Notwendige Angaben
+Im Urteil müssen die Parteien im Hinblick auf § 750 ZPO so genau wie möglich bezeichnet werden:
+Vor- und Nachname, Wohnort, Parteistellung rechtsbündig.
+
+2. Grammatik der Parteibezeichnungen
+Beispiele des Skripts:
+
+der Frau Lare Heise, Jonasstraße 12, 12345 Berlin,
+Klägerin,
+gegen
+Herrn Jonas Jonathan, Jonasstraße 13, 12345 Berlin,
+Beklagten,
+
+3. Streitgenossen
+Streitgenossen werden fortlaufend nummeriert. Eheleute nicht unter einer Nummer zusammenfassen. Klammerwirkung bei derselben Anschrift:
+
+1. Werner Müller,
+2. Gabriele Müller,
+beide Hauptstraße 3, 15890 Eisenhüttenstadt,
+Kläger,
+- Prozessbevollmächtigte: Rechtsanwältin ... –
+
+Im Tatbestand: Kläger zu 1), Klägerin zu 2).
+
+4. Kaufleute
+§ 17 Abs. 2 HGB. Firma und Inhaber nicht identisch:
+der unter der Firma Agathe Teufel handelnden Kauffrau Wilhelmina Zufall, Peststraße 14, 12345 Berlin,
+Klägerin,
