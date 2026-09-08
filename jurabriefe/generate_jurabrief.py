@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Jurabrief: Lesetext + Aufgabe aus dem Skript."""
+"""Jurabrief: Lesetext aus der Entscheidungsdatenbank + Aufgabe aus dem Skript."""
 
 from __future__ import annotations
 
 import json
 import os
+import re
 import smtplib
 import sys
 import urllib.parse
@@ -22,6 +23,7 @@ for _p in (_REPO, _HERE):
         sys.path.insert(0, s)
 
 from adaptive_plan import pick
+from claude_client import complete
 
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 STATE_FILE = _HERE / "state.json"
@@ -32,6 +34,21 @@ OLD_BASE = "https://de.openlegaldata.io/api/cases/search/"
 
 ZR_COURTS = ("lg", "olg", "bgh", "kg")
 VR_COURTS = ("vg", "ovg", "bverwg", "vgh")
+
+EXCERPT_PROMPT = """Du erhältst den Anfang eines deutschen Gerichtsurteils.
+Aufgabe: Gib ausschließlich den Text wieder, den eine Referendarin für Rubrum, Tenor und den Einstieg in den Tatbestand braucht.
+
+Regeln:
+- Keine Anrede, kein Kommentar, keine Lernhinweise.
+- Orientierungssatz weglassen, sofern Tenor oder Tatbestand vorhanden sind.
+- Tenor vollständig.
+- Vom Tatbestand nur so viel, wie Parteibezeichnung, Streitgegenstand und Anträge erkennen lässt.
+- Nicht umformulieren. Nicht kürzen innerhalb von Tenorziffern.
+- Wenn der Text kein Zivilurteil der ordentlichen Gerichtsbarkeit ist, antworte nur: UNPASSEND.
+
+Text:
+{text}
+"""
 
 
 def now_berlin():
@@ -133,23 +150,80 @@ def _court_ok(court: str, case: dict) -> bool:
     return True
 
 
+def _court_name(court) -> str:
+    if isinstance(court, dict):
+        return court.get("name") or court.get("slug") or ""
+    return str(court or "")
+
+
+def _result_text(r: dict) -> str:
+    text = r.get("text") or ""
+    if text:
+        return text
+    snippets = r.get("snippets") or []
+    return "\n".join(s.get("text", "") for s in snippets if isinstance(s, dict))
+
+
+def _score_hit(text: str) -> int:
+    t = text.lower()
+    score = 0
+    if "tenor" in t:
+        score += 3
+    if "im namen des volkes" in t:
+        score += 4
+    if "kläger" in t and "beklag" in t:
+        score += 2
+    if "prozessbevollm" in t:
+        score += 2
+    if "tatbestand" in t:
+        score += 1
+    if "orientierungssatz" in t and "tenor" not in t:
+        score -= 2
+    return score
+
+
+def _cut_native(text: str) -> str:
+    low = text.lower()
+    start = 0
+    for marker in ("im namen des volkes", "tenor", "urteil"):
+        i = low.find(marker)
+        if i != -1:
+            start = i
+            break
+    chunk = text[start:start + 3800]
+    return chunk.strip()
+
+
+def shape_excerpt(text: str) -> str | None:
+    raw = text[:8000]
+    try:
+        out = complete(EXCERPT_PROMPT.format(text=raw), max_tokens=1200).strip()
+    except Exception as e:
+        print(f"Claude-Zuschnitt: {e}", file=sys.stderr)
+        return _cut_native(text)
+    if not out or out.upper().startswith("UNPASSEND"):
+        return None
+    return out[:4000]
+
+
 def search_related_case(case):
     terms = [t for t in case.get("suchbegriffe", []) if t]
     if _is_zivil(case):
-        terms += [
+        terms = [
+            "Im Namen des Volkes Tenor Klägerin Beklagte Landgericht",
+            "Prozessbevollmächtigte Tenor Landgericht Urteil",
             "Landgericht Urteil Klägerin Beklagte",
-            "Oberlandesgericht Urteil ZPO",
-            "Bundesgerichtshof Urteil ZPO",
-        ]
+            "Oberlandesgericht Urteil ZPO Tenor",
+        ] + terms
     elif _is_verw(case):
-        terms += ["Verwaltungsgericht Urteil Tenor", "Oberverwaltungsgericht Urteil"]
+        terms = ["Verwaltungsgericht Im Namen des Volkes Tenor", "Verwaltungsgericht Urteil Tenor"] + terms
 
-    seen = set()
-    uniq = []
+    seen_q = set()
+    queries = []
     for t in terms:
-        if t not in seen:
-            seen.add(t)
-            uniq.append(t)
+        if t not in seen_q:
+            seen_q.add(t)
+            queries.append(t)
 
     base = {
         "start_date": "2019-01-01",
@@ -158,30 +232,38 @@ def search_related_case(case):
         "return_text": "1",
         "page_size": "8",
     }
-    for text in uniq:
-        hits = _old_search({**base, "text": text})
-        print(f"OLD search text={text!r} hits={len(hits)}", file=sys.stderr)
+
+    candidates = []
+    for text_q in queries:
+        hits = _old_search({**base, "text": text_q})
+        print(f"OLD search text={text_q!r} hits={len(hits)}", file=sys.stderr)
         for r in hits:
-            court = r.get("court") or ""
-            if isinstance(court, dict):
-                court = court.get("name") or court.get("slug") or ""
-            if not _court_ok(str(court), case):
+            court = _court_name(r.get("court"))
+            if not _court_ok(court, case):
                 continue
-            raw = r.get("text") or ""
-            if not raw:
-                snippets = r.get("snippets") or []
-                raw = "\n".join(s.get("text", "") for s in snippets if isinstance(s, dict))
+            raw = _result_text(r)
             if len(raw) < 200:
                 continue
-            slug = r.get("slug") or ""
-            return {
-                "gericht": court,
-                "datum": r.get("date", ""),
-                "aktenzeichen": slug,
-                "entscheidungstyp": r.get("decision_type", ""),
-                "text": raw[:4500] + ("..." if len(raw) > 4500 else ""),
-                "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
-            }
+            candidates.append(( _score_hit(raw), r, court, raw))
+        if any(s >= 5 for s, *_ in candidates):
+            break
+
+    candidates.sort(key=lambda x: x[0], reverse=True)
+    for score, r, court, raw in candidates:
+        shaped = shape_excerpt(raw)
+        if not shaped:
+            continue
+        slug = r.get("slug") or ""
+        fn = r.get("file_number") or slug
+        return {
+            "gericht": court,
+            "datum": r.get("date", ""),
+            "aktenzeichen": fn,
+            "slug": slug,
+            "entscheidungstyp": r.get("decision_type") or r.get("type") or "Urteil",
+            "text": shaped,
+            "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
+        }
     return None
 
 
@@ -193,12 +275,11 @@ def build_mail(case, related, today_str):
     if related:
         lesen = (
             f"I. Lesetext\n"
-            f"{related['gericht']}, {related['entscheidungstyp']} vom {related['datum']}\n"
-            f"{related['aktenzeichen']}\n"
-            f"{related['url']}\n\n"
-            f"---\n"
-            f"{related['text']}\n"
+            f"{related['gericht']}, {related['entscheidungstyp']} vom {related['datum']}, {related['aktenzeichen']}\n"
         )
+        if related.get("url"):
+            lesen += f"{related['url']}\n"
+        lesen += "\n" + related["text"] + "\n"
     else:
         lesen = "I. Lesetext\nKein Urteil der passenden Gerichtsbarkeit.\n"
 
@@ -209,7 +290,7 @@ def build_mail(case, related, today_str):
         f"{aufgabe}\n"
     )
     if auszug:
-        block2 += f"\nVorgabe aus dem Skript:\n{auszug}\n"
+        block2 += f"\nVorgabe:\n{auszug}\n"
 
     return f"Jurabrief — {today_str}\n{case['gebiet']}\n\n{lesen}\n\n{block2}\n"
 
