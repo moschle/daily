@@ -35,10 +35,10 @@ OLD_BASE = "https://de.openlegaldata.io/api/cases/search/"
 ZR_COURTS = ("lg", "olg", "bgh", "kg")
 VR_COURTS = ("vg", "ovg", "bverwg", "vgh")
 
-EXCERPT_PROMPT = """Du erhältst den Anfang eines deutschen Gerichtsurteils.
-Gib ausschließlich den Text wieder, den eine Referendarin für Rubrum, Tenor und den Einstieg in den Tatbestand braucht.
+EXCERPT_PROMPT = """Du erhaeltst den Anfang eines deutschen Gerichtsurteils.
+Gib ausschliesslich den Text wieder, den eine Referendarin fuer Rubrum, Tenor und den Einstieg in den Tatbestand braucht.
 Keine Anrede, kein Kommentar. Orientierungssatz weglassen, wenn Tenor vorhanden.
-Tenor vollständig. Nicht umformulieren.
+Tenor vollstaendig. Nicht umformulieren.
 Wenn der Text nicht zur Gerichtsbarkeit passt: UNPASSEND.
 
 Text:
@@ -46,10 +46,9 @@ Text:
 """
 
 AUFGABE_PROMPT = """Aus dem folgenden Skriptabschnitt eine Klausuraufgabe auf Examensniveau formulieren.
-Nur die Aufgabe. Keine Lösung. Keine Anrede. Kein Kommentar.
-Wenn das Skript ein ausformuliertes Muster (Urteilskopf, Tenor, Schriftsatz) enthält:
-die dort genannten Parteien und das Gericht als Sachverhalt verwenden und den entsprechenden Urteilsteil verlangen.
-Keine erfundenen Parteien außerhalb des Skripts.
+Nur die Aufgabe. Keine Loesung. Keine Anrede. Kein Kommentar.
+Wenn das Skript ein ausformuliertes Muster enthaelt: die dort genannten Parteien und das Gericht als Sachverhalt verwenden.
+Keine erfundenen Parteien ausserhalb des Skripts.
 Maximal 1200 Zeichen.
 
 Skript:
@@ -211,8 +210,9 @@ def _score_hit(text: str) -> int:
         score += 3
     if "im namen des volkes" in t:
         score += 4
-    if "kläger" in t and "beklag" in t:
-        score += 2
+    if "klaeger" in t or "kläger" in t:
+        if "beklag" in t:
+            score += 2
     if "prozessbevollm" in t:
         score += 2
     return score
@@ -244,9 +244,9 @@ def search_related_case(case):
     terms = [t for t in case.get("suchbegriffe", []) if t]
     if _is_zivil(case):
         terms = [
-            "Im Namen des Volkes Tenor Klägerin Beklagte Landgericht",
-            "Prozessbevollmächtigte Tenor Landgericht Urteil",
-            "Landgericht Urteil Klägerin Beklagte",
+            "Im Namen des Volkes Tenor Landgericht",
+            "Prozessbevollmaechtigte Tenor Landgericht Urteil",
+            "Landgericht Urteil Klaegerin Beklagte",
         ] + terms
     elif _is_verw(case):
         terms = ["Verwaltungsgericht Im Namen des Volkes Tenor"] + terms
@@ -316,8 +316,7 @@ def build_mail(case, related, section, aufgabe, today_str):
         f"{aufgabe}\n"
     )
     if section:
-        block2 += "\n--- Skript ---
-" + section + "\n"
+        block2 += "\n--- Skript ---\n" + section + "\n"
     return f"Jurabrief — {today_str}\n{case['gebiet']}\n\n{lesen}\n\n{block2}\n"
 
 
@@ -329,7 +328,7 @@ def send_mail(subject, body, to_addr):
         print(body)
         return
     if not to_addr or "@" not in to_addr:
-        print("Kein gültiger Empfänger. Mail wird nicht gesendet.", file=sys.stderr)
+        print("Kein gueltiger Empfaenger. Mail wird nicht gesendet.", file=sys.stderr)
         print(body)
         return
     msg = MIMEText(body, "plain", "utf-8")
@@ -345,7 +344,7 @@ def send_mail(subject, body, to_addr):
 def main():
     cases = load_cases()
     if not cases:
-        print("Keine Fälle in cases.json.", file=sys.stderr)
+        print("Keine Faelle in cases.json.", file=sys.stderr)
         sys.exit(1)
 
     state = load_state()
@@ -361,7 +360,7 @@ def main():
     to_addr = resolve_to()
     subject = f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})"
     send_mail(subject, body, to_addr)
-    print(f"Fall {case['id']} gewählt ({grund}), Skript {len(section)} Zeichen.")
+    print(f"Fall {case['id']} gewaehlt ({grund}), Skript {len(section)} Zeichen.")
 
 
 if __name__ == "__main__":
