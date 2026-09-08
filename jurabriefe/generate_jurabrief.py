@@ -45,11 +45,10 @@ Text:
 {text}
 """
 
-AUFGABE_PROMPT = """Aus dem folgenden Skriptabschnitt eine Klausuraufgabe auf Examensniveau formulieren.
-Nur die Aufgabe. Keine Loesung. Keine Anrede. Kein Kommentar.
-Wenn das Skript ein ausformuliertes Muster enthaelt: die dort genannten Parteien und das Gericht als Sachverhalt verwenden.
-Keine erfundenen Parteien ausserhalb des Skripts.
-Maximal 1200 Zeichen.
+AUFGABE_PROMPT = """Formuliere eine Klausuraufgabe. Nur die Aufgabe.
+Verwende ausschliesslich Personen, Firmen und Gerichte, die im Skriptabschnitt namentlich vorkommen.
+Keine neuen Namen. Keine Loesung. Keine Anrede.
+Verlange den Urteilsteil, den der Abschnitt behandelt.
 
 Skript:
 {text}
@@ -122,6 +121,25 @@ def pick_case(cases, state):
         return case, "zyklus"
 
 
+def _find_body(text: str, needle: str) -> int:
+    if not needle:
+        return 0
+    pos = 0
+    fallback = -1
+    while True:
+        i = text.find(needle, pos)
+        if i < 0:
+            return fallback if fallback >= 0 else 0
+        line_end = text.find("\n", i)
+        line = text[i: line_end if line_end > i else i + 80]
+        if "...." in line or "…" in line:
+            if fallback < 0:
+                fallback = i
+            pos = i + len(needle)
+            continue
+        return i
+
+
 def load_skript_section(case: dict) -> str:
     sid = case.get("skript_id")
     if not sid:
@@ -133,12 +151,11 @@ def load_skript_section(case: dict) -> str:
     text = path.read_text(encoding="utf-8")
     start = case.get("skript_start") or ""
     end = case.get("skript_end") or ""
-    i = text.find(start) if start else 0
-    if i < 0:
-        i = 0
-    j = text.find(end, i + max(len(start), 1)) if end else -1
-    chunk = text[i:j] if j > i else text[i:i + 7000]
-    chunk = chunk.strip()
+    i = _find_body(text, start)
+    j = _find_body(text, end) if end else -1
+    if j <= i:
+        j = i + 7000
+    chunk = text[i:j].strip()
     if len(chunk) > 5500:
         chunk = chunk[:5500] + "\n[...]"
     return chunk
@@ -210,9 +227,8 @@ def _score_hit(text: str) -> int:
         score += 3
     if "im namen des volkes" in t:
         score += 4
-    if "klaeger" in t or "kläger" in t:
-        if "beklag" in t:
-            score += 2
+    if "kläger" in t and "beklag" in t:
+        score += 2
     if "prozessbevollm" in t:
         score += 2
     return score
@@ -243,21 +259,11 @@ def shape_excerpt(text: str) -> str | None:
 def search_related_case(case):
     terms = [t for t in case.get("suchbegriffe", []) if t]
     if _is_zivil(case):
-        terms = [
-            "Im Namen des Volkes Tenor Landgericht",
-            "Prozessbevollmaechtigte Tenor Landgericht Urteil",
-            "Landgericht Urteil Klaegerin Beklagte",
-        ] + terms
+        terms = ["Im Namen des Volkes Tenor Landgericht", "Landgericht Urteil Klaegerin Beklagte"] + terms
     elif _is_verw(case):
         terms = ["Verwaltungsgericht Im Namen des Volkes Tenor"] + terms
-
     seen = set()
-    queries = []
-    for t in terms:
-        if t not in seen:
-            seen.add(t)
-            queries.append(t)
-
+    queries = [t for t in terms if not (t in seen or seen.add(t))]
     base = {
         "start_date": "2019-01-01",
         "end_date": now_berlin().strftime("%Y-%m-%d"),
@@ -308,13 +314,7 @@ def build_mail(case, related, section, aufgabe, today_str):
         lesen += "\n" + related["text"] + "\n"
     else:
         lesen = "I. Lesetext\nKein Urteil der passenden Gerichtsbarkeit.\n"
-
-    block2 = (
-        f"II. Bearbeitung\n"
-        f"{case['gebiet']}\n"
-        f"{quelle}\n\n"
-        f"{aufgabe}\n"
-    )
+    block2 = f"II. Bearbeitung\n{case['gebiet']}\n{quelle}\n\n{aufgabe}\n"
     if section:
         block2 += "\n--- Skript ---\n" + section + "\n"
     return f"Jurabrief — {today_str}\n{case['gebiet']}\n\n{lesen}\n\n{block2}\n"
@@ -328,7 +328,7 @@ def send_mail(subject, body, to_addr):
         print(body)
         return
     if not to_addr or "@" not in to_addr:
-        print("Kein gueltiger Empfaenger. Mail wird nicht gesendet.", file=sys.stderr)
+        print("Kein Empfaenger.", file=sys.stderr)
         print(body)
         return
     msg = MIMEText(body, "plain", "utf-8")
@@ -344,22 +344,20 @@ def send_mail(subject, body, to_addr):
 def main():
     cases = load_cases()
     if not cases:
-        print("Keine Faelle in cases.json.", file=sys.stderr)
         sys.exit(1)
-
     state = load_state()
     case, grund = pick_case(cases, state)
     save_state(state)
-
     section = load_skript_section(case)
     aufgabe = aufgabe_aus_skript(case, section)
     related = search_related_case(case)
     today = now_berlin().strftime("%A, %d. %B %Y")
     body = build_mail(case, related, section, aufgabe, today)
-
-    to_addr = resolve_to()
-    subject = f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})"
-    send_mail(subject, body, to_addr)
+    send_mail(
+        f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})",
+        body,
+        resolve_to(),
+    )
     print(f"Fall {case['id']} gewaehlt ({grund}), Skript {len(section)} Zeichen.")
 
 
