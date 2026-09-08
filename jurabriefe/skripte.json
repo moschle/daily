@@ -1,0 +1,12 @@
+{
+  "skripte": [
+    {"id": "zr-staat", "titel": "Zivilrecht staatliche Sicht", "url": "https://www.berlin.de/gerichte/kammergericht/_assets/rechtsreferendariat/vorbereitungsdienst/downloads/ausbildungsskripte/zr-skript-5-auflage_2025.pdf", "prio": 1},
+    {"id": "zr-anwalt", "titel": "Zivilrecht anwaltliche Sicht", "url": "https://www.berlin.de/gerichte/kammergericht/_assets/rechtsreferendariat/vorbereitungsdienst/downloads/ausbildungsskripte/zra-2023.pdf", "prio": 1},
+    {"id": "kautelar", "titel": "Kautelarklausur", "url": "https://www.berlin.de/gerichte/kammergericht/_assets/rechtsreferendariat/vorbereitungsdienst/downloads/ausbildungsskripte/skript_kautelarklausur_2016.pdf", "prio": 2},
+    {"id": "verwr-staat", "titel": "VerwR staatliche Sicht", "url": "https://www.berlin.de/gerichte/kammergericht/_assets/rechtsreferendariat/vorbereitungsdienst/downloads/ausbildungsskripte/skriptverwr-dez-2025.pdf", "prio": 1},
+    {"id": "verwr-anwalt", "titel": "VerwR anwaltliche Sicht", "url": "https://www.berlin.de/gerichte/kammergericht/_assets/rechtsreferendariat/vorbereitungsdienst/downloads/ausbildungsskripte/skript_hartmann_2026_fn.pdf", "prio": 1},
+    {"id": "sr-staat", "titel": "Strafrecht staatliche Sicht", "url": "https://www.berlin.de/gerichte/kammergericht/_assets/rechtsreferendariat/vorbereitungsdienst/downloads/ausbildungsskripte/sr_skript_dez_2025.pdf", "prio": 3},
+    {"id": "anklage", "titel": "Anklageskript 2023", "url": "https://www.berlin.de/gerichte/kammergericht/_assets/rechtsreferendariat/vorbereitungsdienst/downloads/ausbildungsskripte/anklageskript-2023.pdf", "prio": 3},
+    {"id": "aktenvortrag", "titel": "Skript zum Aktenvortrag", "url": "https://www.berlin.de/gerichte/kammergericht/_assets/rechtsreferendariat/vorbereitungsdienst/downloads/ausbildungsskripte/aktenvortrag.pdf", "prio": 2}
+  ]
+}

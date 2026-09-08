@@ -3,3 +3,4 @@ icalendar
 requests
 tzdata
 mergecal
+pypdf

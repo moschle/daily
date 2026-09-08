@@ -1,0 +1,13 @@
+{
+  "ziel": "2. Staatsexamen Sachsen-Anhalt, Klausurphase Zivilrecht zuerst",
+  "von": "2026-09-08",
+  "bis": "2027-04-30",
+  "frequenz": "Mo/Mi/Fr",
+  "slots_pro_woche": 3,
+  "phasen": [
+    {"name": "Zivilrecht Struktur", "bis": "2026-11-15", "gebiete": ["zr-001", "zr-002", "zr-003", "zr-004", "zr-005", "zr-006", "zr-007", "zr-008"]},
+    {"name": "VerwR + Wiederholung ZR", "bis": "2027-01-31", "gebiete": ["zr-009", "zr-010", "zr-011", "zr-012", "zr-005", "zr-006"]},
+    {"name": "Mix + Landesrecht SA", "bis": "2027-04-30", "gebiete": ["zr-001", "zr-008", "zr-010", "zr-012"]}
+  ],
+  "hinweis": "Landesrecht Sachsen-Anhalt kommt aus den Scans. Gewichte stehen in progress.json und werden durch Feedback verschoben."
+}
