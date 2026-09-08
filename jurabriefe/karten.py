@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
-"""Karten aus den Skript-Volltexten. Loesung immer aus dem Skript, nichts erfinden."""
+"""Karten aus den Skript-Volltexten. Loesung immer aus dem Skript, nichts erfinden.
+
+EXTRACTED: JURABRIEF_EXTRACTED oder jurabriefe/extracted (Berlin-Skripte).
+OUT:       JURABRIEF_KARTEN oder jurabriefe/karten.
+"""
 from __future__ import annotations
 
 import json
+import os
 import random
 import re
 import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-EXTRACTED = HERE / "extracted"
-OUT = HERE / "karten"
+EXTRACTED = Path(os.environ["JURABRIEF_EXTRACTED"]) if os.environ.get("JURABRIEF_EXTRACTED") else HERE / "extracted"
+OUT = Path(os.environ["JURABRIEF_KARTEN"]) if os.environ.get("JURABRIEF_KARTEN") else HERE / "karten"
 
 SEITE = re.compile(r"(?m)^=+ SEITE \d+ =+$")
 FUSSNOTE = re.compile(r"(?m)^\d{1,3}\s{2}\S")
@@ -56,16 +61,21 @@ def _randnummer_bei(text: str, pos: int) -> str:
 ZITAT = re.compile(r"„([^“]{20,1200})“", re.S)
 JURA = re.compile(
     r"\b(Klage|Kläger|Beklagt|Urteil|Antrag|Kosten|vollstreckbar|verurteilt|"
-    r"festgestellt|abgewiesen|Angeklagt|Beschuldigt|Revision|Bescheid|"
-    r"Widerspruch|Verfügung|Beweis|Zeuge|Frist|Anspruch|Verfahren|"
-    r"Anklage|Strafe|Mandant|Gericht|Verwaltungsakt|Vertrag|§)"
+    r"festgestellt|abgewiesen|Angeklagt|Angeschuldigt|Beschuldigt|Revision|Bescheid|"
+    r"Widerspruch|Verfügung|Beweis|Zeuge|Frist|Anspruch|Verfahren|Staatsanwaltschaft|"
+    r"Tatverdacht|verdächtig|Anklage|eingestellt|Strafe|Strafbefehl|Verteidiger|"
+    r"Hauptverhandlung|Behörde|Antragsteller|Antragsgegner|Verwaltungsakt|Vertrag|"
+    r"verpflichtet|Mandant|Gericht|Beteiligt|§)"
 )
 TENORSATZ = re.compile(
     r"(?m)^(?:\d+\.\s*)?(?:Die Klage wird[^\n]*|Der Antrag wird[^\n]*|"
     r"Die (?:Berufung|Revision|Beschwerde)[^\n]*wird[^\n]*|"
-    r"Der Beklagte wird (?:verurteilt|verpflichtet)[^\n]*|"
-    r"Es wird festgestellt[^\n]*|Das Urteil ist[^\n]*vollstreckbar[^\n]*|"
-    r"Die Kosten des [^\n]*)$"
+    r"Der Bescheid[^\n]*|Die (?:Beklagte|Beklagten|Beklagte zu)[^\n]*(?:wird|werden) verurteilt[^\n]*|"
+    r"Der Beklagte wird (?:verurteilt|verpflichtet)[^\n]*|Es wird festgestellt[^\n]*|"
+    r"Die aufschiebende Wirkung[^\n]*|Der (?:Kläger|Beklagte|Antragsteller|Antragsgegner|Angeklagte) (?:trägt|hat)[^\n]*Kosten[^\n]*|"
+    r"Das Urteil ist[^\n]*vollstreckbar[^\n]*|Der Angeklagte wird[^\n]*|Der Angeklagte ist[^\n]*|"
+    r"Das Verfahren wird[^\n]*|Der Streitwert wird[^\n]*|Der Wert des[^\n]*wird[^\n]*|"
+    r"Die Kosten des [^\n]*|Die Vollstreckung[^\n]*|Die Zwangsvollstreckung[^\n]*)$"
 )
 FALSCH = re.compile(r"(?i)(falsch sind|falsch wäre|fehlerhaft|nicht:|unzulässig ist|typische fehler|häufiger fehler)")
 FALL = re.compile(r"(?m)^(?:Beispiels?fall|Fall|Übungsfall)(?:\s*\d+)?\s*:\s*(.+?)(?=\n\s*\n|\Z)", re.S)
@@ -192,6 +202,9 @@ def baue(sid: str) -> list[dict]:
 
 
 def main() -> int:
+    if not EXTRACTED.exists():
+        print(f"kein Extrakt-Ordner: {EXTRACTED}", file=sys.stderr)
+        return 2
     ids = sorted(p.stem for p in EXTRACTED.glob("*.txt") if p.stat().st_size > 5000)
     if len(sys.argv) > 1 and sys.argv[1] in ids:
         karten = baue(sys.argv[1])
