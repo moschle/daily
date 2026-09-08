@@ -45,6 +45,14 @@ def now_berlin():
     return datetime.now(BERLIN_TZ)
 
 
+def resolve_to() -> str:
+    """JURABRIEF_TO, sonst GMAIL_ADDRESS. Leerer String zaehlt als nicht gesetzt."""
+    to_addr = (os.environ.get("JURABRIEF_TO") or "").strip()
+    if not to_addr:
+        to_addr = (os.environ.get("GMAIL_ADDRESS") or "").strip()
+    return to_addr
+
+
 def load_cases():
     if CASES_FILE.exists():
         with open(CASES_FILE, encoding="utf-8") as f:
@@ -210,10 +218,18 @@ def build_mail(case, related, hint, today_str):
 
 
 def send_mail(subject, body, to_addr):
-    gmail = os.environ.get("GMAIL_ADDRESS", "")
-    pw = os.environ.get("GMAIL_APP_PASSWORD", "")
+    gmail = (os.environ.get("GMAIL_ADDRESS") or "").strip()
+    pw = (os.environ.get("GMAIL_APP_PASSWORD") or "").strip()
     if not gmail or not pw:
         print("Keine Gmail-Secrets, Mail wird nicht gesendet.", file=sys.stderr)
+        print(body)
+        return
+    if not to_addr or "@" not in to_addr:
+        print(
+            f"Kein gueltiger Empfaenger (JURABRIEF_TO leer). Fallback waere GMAIL_ADDRESS."
+            f" Aktuell to={to_addr!r}. Mail wird nicht gesendet.",
+            file=sys.stderr,
+        )
         print(body)
         return
     msg = MIMEText(body, "plain", "utf-8")
@@ -241,7 +257,7 @@ def main():
     hint = lesehinweis(case, related)
     body = build_mail(case, related, hint, today)
 
-    to_addr = os.environ.get("JURABRIEF_TO", os.environ.get("GMAIL_ADDRESS", ""))
+    to_addr = resolve_to()
     subject = f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})"
     send_mail(subject, body, to_addr)
     print(f"Fall {case['id']} gewaehlt ({grund}).")
