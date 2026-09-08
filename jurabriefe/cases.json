@@ -5,7 +5,8 @@
       "gebiet": "Zivilrecht staatliche Sicht — Rubrum / Parteibezeichnungen",
       "kernfrage": "Wie werden Parteien, Streitgenossen, Kaufleute, Erben und gesetzliche Vertreter im Rubrum korrekt bezeichnet? Welche grammatikalischen Regeln gelten?",
       "behoerdensprache": ["des Klägers", "gegen den Beklagten", "Prozessbevollmächtigte", "als Gesamtschuldner", "Im Namen des Volkes"],
-      "verwandte_urteile_hinweis": "Struktur nach §§ 253, 750 ZPO; Beispiele aus dem Berliner Assessorskript",
+      "suchbegriffe": ["Kaufvertrag notariell", "Parteien Bezeichnung", "Streitgenossenschaft"],
+      "cited_law": {"book": "zpo", "section": "253"},
       "quelle": "Berlin: Zivilrecht staatliche Sicht (zr-skript-5-auflage_2025.pdf, Stand Juli 2025)"
     },
     {
@@ -13,7 +14,8 @@
       "gebiet": "Zivilrecht staatliche Sicht — Urteilsformel / Tenor",
       "kernfrage": "Wie muss ein Leistungsurteil, Feststellungsurteil oder Gestaltungsurteil formuliert sein, damit es vollstreckungsfähig und erschöpfend ist?",
       "behoerdensprache": ["wird verurteilt", "wird festgestellt", "wird für unzulässig erklärt", "vorläufig vollstreckbar", "gegen Sicherheitsleistung"],
-      "verwandte_urteile_hinweis": "§§ 308, 313, 756 ZPO; Tenorierung im Berliner Skript",
+      "suchbegriffe": ["Leistungsurteil", "Feststellungsurteil", "Gestaltungsurteil"],
+      "cited_law": {"book": "zpo", "section": "308"},
       "quelle": "Berlin: Zivilrecht staatliche Sicht (zr-skript-5-auflage_2025.pdf)"
     },
     {
@@ -21,7 +23,8 @@
       "gebiet": "Zivilrecht staatliche Sicht — Tatbestand",
       "kernfrage": "Wie baut man den Tatbestand auf: Geschichtserzählung, streitiges Vorbringen, Anträge, Prozessgeschichte? Welche Sprache (Indikativ vs. Konjunktiv)?",
       "behoerdensprache": ["Geschichtserzählung", "streitiges Vorbringen", "beantragt", "salvatorische Klausel", "Prozessgeschichte"],
-      "verwandte_urteile_hinweis": "§§ 313, 314 ZPO; Tatbestandsaufbau im Berliner Skript",
+      "suchbegriffe": ["Tatbestand Aufbau", "Geschichtserzählung", "Prozessgeschichte"],
+      "cited_law": {"book": "zpo", "section": "313"},
       "quelle": "Berlin: Zivilrecht staatliche Sicht (zr-skript-5-auflage_2025.pdf)"
     },
     {
@@ -29,7 +32,8 @@
       "gebiet": "Zivilrecht staatliche Sicht — Entscheidungsgründe / Urteilsstil",
       "kernfrage": "Wie formuliert man Obersätze und die Subsumtion im Urteilsstil? Was gehört in die Sachurteilsvoraussetzungen?",
       "behoerdensprache": ["Obersatz", "Subsumtion", "Sachurteilsvoraussetzungen", "Begründetheit", "freie Überzeugung"],
-      "verwandte_urteile_hinweis": "§ 286 ZPO; Aufbau der Entscheidungsgründe im Berliner Skript",
+      "suchbegriffe": ["Entscheidungsgründe", "Obersatz", "freie Überzeugung"],
+      "cited_law": {"book": "zpo", "section": "286"},
       "quelle": "Berlin: Zivilrecht staatliche Sicht (zr-skript-5-auflage_2025.pdf)"
     },
     {
@@ -37,7 +41,8 @@
       "gebiet": "Zivilrecht anwaltliche Sicht — Aufbau der Anwaltsklausur",
       "kernfrage": "Wie strukturiert man eine Anwaltsklausur: Mandantenbegehren, Gutachten, Zweckmäßigkeitserwägungen, Schriftsatzentwurf?",
       "behoerdensprache": ["Mandantenbegehren", "Gutachten", "Zweckmäßigkeitserwägungen", "Schriftsatzentwurf", "Anträge"],
-      "verwandte_urteile_hinweis": "Skript Weinholz (zra-2023.pdf); Aufbauempfehlung Anwaltsklausur",
+      "suchbegriffe": ["Anwaltsklausur Aufbau", "Mandantenbegehren", "Schriftsatz"],
+      "cited_law": {"book": "zpo", "section": "253"},
       "quelle": "Berlin: Zivilrecht anwaltliche Sicht (zra-2023.pdf, Stand Dezember 2023)"
     },
     {
@@ -45,7 +50,8 @@
       "gebiet": "Zivilrecht anwaltliche Sicht — Beweisrecht / Beweiserleichterungen",
       "kernfrage": "Wann greifen Anscheinsbeweis, Indizienbeweis, gesetzliche Vermutungen oder Glaubhaftmachung? Wie verschiebt sich die Beweislast?",
       "behoerdensprache": ["Anscheinsbeweis", "Indizienbeweis", "Glaubhaftmachung", "Beweislastumkehr", "freie Überzeugung"],
-      "verwandte_urteile_hinweis": "§§ 286, 287, 291, 294 ZPO; Beweisrecht im Skript Weinholz",
+      "suchbegriffe": ["Anscheinsbeweis", "Indizienbeweis", "Glaubhaftmachung"],
+      "cited_law": {"book": "zpo", "section": "286"},
       "quelle": "Berlin: Zivilrecht anwaltliche Sicht (zra-2023.pdf)"
     },
     {
@@ -53,7 +59,8 @@
       "gebiet": "Zivilrecht anwaltliche Sicht — Kautelarklausur / AGB",
       "kernfrage": "Wie gestaltet man einen Vertrag unter AGB-Kontrolle? Was ist der blue-pencil-test und wann ist eine salvatorische Klausel wirksam?",
       "behoerdensprache": ["AGB-Kontrolle", "Inhaltskontrolle", "salvatorische Klausel", "blue-pencil-test", "Individualabrede"],
-      "verwandte_urteile_hinweis": "§§ 305 ff. BGB; Kautelarklausur im Skript Weinholz",
+      "suchbegriffe": ["AGB", "salvatorische Klausel", "Vertragsgestaltung"],
+      "cited_law": {"book": "bgb", "section": "305"},
       "quelle": "Berlin: Zivilrecht anwaltliche Sicht (zra-2023.pdf)"
     },
     {
@@ -61,7 +68,8 @@
       "gebiet": "Zivilrecht anwaltliche Sicht — Zwangsvollstreckung / Vollstreckungsabwehrklage",
       "kernfrage": "Wann ist die Vollstreckungsabwehrklage (§ 767 ZPO) oder Drittwiderspruchsklage (§ 771 ZPO) statthaft? Welche Fristen gelten?",
       "behoerdensprache": ["Vollstreckungsabwehrklage", "Drittwiderspruchsklage", "Präklusion", "Titel", "Vollstreckungstitel"],
-      "verwandte_urteile_hinweis": "§§ 767, 771, 793 ZPO; Zwangsvollstreckung im Skript Weinholz",
+      "suchbegriffe": ["Vollstreckungsabwehrklage", "Drittwiderspruchsklage", "Präklusion"],
+      "cited_law": {"book": "zpo", "section": "767"},
       "quelle": "Berlin: Zivilrecht anwaltliche Sicht (zra-2023.pdf)"
     },
     {
@@ -69,7 +77,8 @@
       "gebiet": "Verwaltungsrecht staatliche Sicht — Tenorierung verwaltungsgerichtlicher Urteile",
       "kernfrage": "Wie tenoriert man Anfechtungs-, Verpflichtungs-, Feststellungs- und Leistungsklage? Was ist ein Bescheidungsurteil?",
       "behoerdensprache": ["Anfechtungsklage", "Verpflichtungsklage", "Bescheidungsurteil", "Fortsetzungsfeststellungsklage", "Teilstattgabe"],
-      "verwandte_urteile_hinweis": "§§ 113, 162 VwGO; Tenorierung im Berliner VerwR-Skript",
+      "suchbegriffe": ["Anfechtungsklage", "Verpflichtungsklage", "Bescheidungsurteil"],
+      "cited_law": {"book": "vwgo", "section": "113"},
       "quelle": "Berlin: Skript VerwR (skriptverwr-dez-2025.pdf, Stand Dezember 2025)"
     },
     {
@@ -77,7 +86,8 @@
       "gebiet": "Verwaltungsrecht staatliche Sicht — Vorläufiger Rechtsschutz § 80 Abs. 5 VwGO",
       "kernfrage": "Wann sind ernstliche Zweifel an der Rechtmäßigkeit der Grundverfügung gegeben? Wann offensichtliche Rechtmäßigkeit? Was ist faktischer Vollzug?",
       "behoerdensprache": ["ernstliche Zweifel", "offensichtliche Rechtmäßigkeit", "sofortige Vollziehung", "faktischer Vollzug", "aufschiebende Wirkung"],
-      "verwandte_urteile_hinweis": "§ 80 Abs. 5 VwGO; Vorläufiger Rechtsschutz im Berliner VerwR-Skript",
+      "suchbegriffe": ["§ 80 Abs. 5 VwGO", "sofortige Vollziehung", "aufschiebende Wirkung"],
+      "cited_law": {"book": "vwgo", "section": "80"},
       "quelle": "Berlin: Skript VerwR (skriptverwr-dez-2025.pdf)"
     },
     {
@@ -85,15 +95,17 @@
       "gebiet": "Verwaltungsrecht anwaltliche Sicht — Anwaltsklausur im VerwR",
       "kernfrage": "Wie baut man die anwaltliche VerwR-Klausur auf: Mandatsübernahme, Akteneinsicht, Widerspruch, Klageschrift, mündliche Verhandlung?",
       "behoerdensprache": ["Mandatsübernahme", "Akteneinsicht", "Widerspruch", "Klageschrift", "mündliche Verhandlung"],
-      "verwandte_urteile_hinweis": "Skript Hartmann (skript_hartmann_2026_fn.pdf, Stand Februar 2026)",
-      "quelle": "Berlin: Verwaltungsrecht anwaltliche Sicht (skript_hartmann_2026_fn.pdf)"
+      "suchbegriffe": ["Anwaltsklausur Verwaltungsrecht", "Widerspruch", "Klageschrift"],
+      "cited_law": {"book": "vwgo", "section": "42"},
+      "quelle": "Berlin: Skript Hartmann (skript_hartmann_2026_fn.pdf, Stand Februar 2026)"
     },
     {
       "id": "zr-012",
       "gebiet": "Verwaltungsrecht anwaltliche Sicht — einstweiliger Rechtsschutz / Beiladung",
       "kernfrage": "Wann ist ein Antrag auf aufschiebende Wirkung, Sicherungs- oder Regelungsanordnung statthaft? Wie funktioniert die Beiladung?",
       "behoerdensprache": ["aufschiebende Wirkung", "Sicherungsanordnung", "Regelungsanordnung", "Beiladung", "Anordnungsanspruch"],
-      "verwandte_urteile_hinweis": "§§ 80, 123 VwGO; einstweiliger Rechtsschutz im Skript Hartmann",
+      "suchbegriffe": ["einstweilige Anordnung", "Beiladung", "Sicherungsanordnung"],
+      "cited_law": {"book": "vwgo", "section": "123"},
       "quelle": "Berlin: Verwaltungsrecht anwaltliche Sicht (skript_hartmann_2026_fn.pdf)"
     }
   ],
