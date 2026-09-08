@@ -19,6 +19,24 @@ OUT = Path(os.environ["JURABRIEF_KARTEN"]) if os.environ.get("JURABRIEF_KARTEN")
 
 SEITE = re.compile(r"(?m)^=+ SEITE \d+ =+$")
 FUSSNOTE = re.compile(r"(?m)^\d{1,3}\s{2}\S")
+# Fussnotenziffer direkt hinter Satzzeichen ("…Verfahrens.13"). Ausgenommen sind
+# Abkuerzungen, hinter denen eine Ziffer inhaltlich dazugehoert ("Abs.3", "Nr.2"),
+# und Tausendertrennzeichen ("2.500") — daher der Buchstabe im Lookbehind.
+_FUSS = re.compile(r"(?<=[a-zA-ZäöüßÄÖÜ][.!?\u201c\"])\d{1,3}(?=\s|$)")
+_ABK = re.compile(r"(?:Abs|Nr|Art|Alt|Ziff|Rn|S|lit|Hs|Halbs|Var)\.$")
+
+
+def ohne_fussnoten(text: str) -> str:
+    teile, pos = [], 0
+    for m in _FUSS.finditer(text):
+        if _ABK.search(text[:m.start()]):
+            continue
+        teile.append(text[pos:m.start()])
+        pos = m.end()
+    teile.append(text[pos:])
+    return "".join(teile)
+
+
 KOLUMNE = re.compile(r"(?m)^[A-ZÄÖÜIVX][^\n]{0,60}?\s+\d{1,3}\s*$")
 
 
@@ -33,7 +51,7 @@ def clean(text: str) -> str:
     t = re.sub(r"(\w)-\n(\w)", r"\1\2", t)
     t = re.sub(r"(?<=[a-zäöüß])(\d{1,2})(?=[\s.,;:)“])", "", t)
     # Fussnotenziffer direkt hinter Satzzeichen oder Anfuehrung: "…Verfahrens.13"
-    t = re.sub(r"(?<=[a-zA-ZäöüßÄÖÜ][.!?“])\d{1,3}(?=\s|$)", "", t)
+    t = ohne_fussnoten(t)
     t = re.sub(r"[ \t\u00a0]{2,}", " ", t)
     t = re.sub(r"(?m)^ +| +$", "", t)
     return re.sub(r"\n{3,}", "\n\n", t).strip()
