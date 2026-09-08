@@ -1,0 +1,30 @@
+name: Skripte extrahieren
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pypdf
+
+      - name: PDFs laden und Text ziehen
+        run: python jurabriefe/extract_skripte.py
+
+      - name: Volltexte committen
+        run: |
+          git config user.name "Jurabrief Bot"
+          git config user.email "jurabrief@users.noreply.github.com"
+          git add jurabriefe/extracted || true
+          git diff --cached --quiet || git commit -m "jurabriefe: Volltexte der Berliner Skripte"
+          git push || true
