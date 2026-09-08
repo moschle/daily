@@ -45,11 +45,11 @@ def build_body(g: dict) -> str:
 
 
 def send(body: str, to_addr: str):
-    gmail = os.environ.get("GMAIL_ADDRESS", "")
-    pw = os.environ.get("GMAIL_APP_PASSWORD", "")
-    if not gmail or not pw:
-        print(body)
-        return
+    gmail = (os.environ.get("GMAIL_ADDRESS") or "").strip()
+    pw = (os.environ.get("GMAIL_APP_PASSWORD") or "").strip()
+    if not gmail or not pw or "@" not in (to_addr or ""):
+        print("Kein Empfänger oder keine SMTP-Secrets.", file=sys.stderr)
+        raise SystemExit(2)
     msg = MIMEText(body, "plain", "utf-8")
     msg["Subject"] = f"Jurabrief-Auswertung — {datetime.now(TZ).strftime('%d.%m.')}"
     msg["From"] = gmail
@@ -69,7 +69,7 @@ def main():
         print(f"Bewertung hatte Fehler: {g['fehler']}")
         return
     body = build_body(g)
-    to_addr = os.environ.get("JURABRIEF_TO", os.environ.get("GMAIL_ADDRESS", ""))
+    to_addr = (os.environ.get("JURABRIEF_TO") or os.environ.get("GMAIL_ADDRESS") or "").strip()
     send(body, to_addr)
 
 
