@@ -1,0 +1,454 @@
+{
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der Bearbeitungsvermerk gibt insoweit regelmäßig\nvor, dass auch auf Nachfrage der Mandant und Dritte keine weiteren Angaben\nmachen können. Zur Vertiefung der Notwendigkeit substantiierten Vortrags und dem\nUmgang mit Beweisfragen kann Muthorst",
+   "loesung": "Der Beweis im Zivilprozess",
+   "id": "kautelar:form:001",
+   "skript": "kautelar",
+   "abschnitt": "I. Aufbau › III. Prüfung der materiellen Rechtslage im Rahmen des Gutachtens › 1. Schlüssigkeitsprüfung / Substantiierungslast",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der Bearbeitungsvermerk gibt insoweit regelmäßig\nvor, dass auch auf Nachfrage der Mandant und Dritte keine weiteren Angaben\nmachen können. Zur Vertiefung der Notwendigkeit substantiierten Vortrags und dem\nUmgang mit Beweisfragen kann Muthorst „Der Beweis im Zivilprozess“ in JuS 2014,\n686 und Dölling",
+   "loesung": "Die Voraussetzungen der Beweiserhebung im Zivilprozess",
+   "id": "kautelar:form:002",
+   "skript": "kautelar",
+   "abschnitt": "I. Aufbau › III. Prüfung der materiellen Rechtslage im Rahmen des Gutachtens › 1. Schlüssigkeitsprüfung / Substantiierungslast",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Dies ist dann der\nFall, wenn aus Sicht des Gerichtes der Kläger außerhalb des vorzutragenden\nGeschehensablaufes steht und daher keine hinreichende Kenntnis von diesem\n\n\u000013\nbesitzt. Der BGH lexetius.com/2008,70 erläutert dies wie folgt:",
+   "loesung": "Steht ein darlegungspflichtiger Kläger außerhalb des für seinen Anspruch erheblichen Geschehensablaufs und kennt der Beklagte alle wesentlichen Tatsachen, so genügt nach den Grundsätzen über die sekundäre Darlegungslast sein einfaches Bestreiten nicht, sofern ihm nähere Angaben zuzumuten sind (BGHZ 86, 29; 100,190 (196); 140, 156, (158 f); 163, 209 (214); siehe auch BGH, Urteil vom 12. Juni 2007 - X ZR 87/06 - NJW 2007, 2549 (2553) Rn. 46). In diesen Fällen kann vom Prozessgegner im Rahmen des Zumutbaren das substantiierte Bestreiten der behaupteten Tatsache unter Darlegung der für das Gegenteil sprechenden Tatsachen und Umstände verlangt werden (vgl. BGHZ 140 aaO S. 159).",
+   "id": "kautelar:form:003",
+   "skript": "kautelar",
+   "abschnitt": "I. Aufbau › III. Prüfung der materiellen Rechtslage im Rahmen des Gutachtens › 2. Verteidigungsmöglichkeiten des Gegners",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der Umgang mit diesem Beweismittel macht Schwierigkeiten und es sollte daher in\nder Klausur mit Zurückhaltung und Bedacht vorgegangen werden (vgl. generell zum\nUmgang mit Parteiangaben Stackmann „Frei oder streng - Erhebung und Verwertung\nvon Parteiangaben“ in NJW 2012, 1249 und Zuck",
+   "loesung": "Verfassungsrechtliche Rahmen– bedingungen des zivilprossessualen Beweisverfahrens - Parteivernehmung",
+   "id": "kautelar:form:004",
+   "skript": "kautelar",
+   "abschnitt": "I. Aufbau › IV. Umgang mit streitigen Tatsachen › 2. Beweismittel (Merkwort: S A P U Z)",
+   "rn": ""
+  },
+  {
+   "typ": "fall",
+   "frage": "Lösen Sie im Klausurstil.\nDer Abdruck des Steuerrades auf der Brust und Verletzung durch Rückspiegel am Kopf nach Pkw-Kollision kann Ansatz für einen Anscheinsbeweis für fehlendes Anschnallen und die entsprechende Kausalität sein. Es kann auch von der Verletzung einer Verkehrssicherungspflicht auf die Kausalität für eine eingetretene Verletzung geschlossen werden (vgl. BGH NJW 1994, 945). Beispielsfall: Die 83-jährige O stürzt bei Glatteis und bricht sich den Oberschenkel– hals und es war nicht gestreut worden. Beides ist unstreitig, streitig ist hingegen, dass die O wegen des Glatteises und nicht einfach so gestürzt ist. Ein Anscheinsbeweis auch Prima-facie-Beweis genannt streitet für eine beweis– pflichtige Partei unter folgenden Voraussetzungen: aa) Typizität des Geschehensabaufs Aufgrund der Lebenserfahrung muss eine bestimmte Typizität vorliegen, nach der der Schluss auf den streitigen Umstand geradezu zwingend erscheint. Der BGH drückt es oftmals etwas offener aus z.B. in der das Notieren eines PIN auf einer ECKarte betreffenden Entscheidung BGH lexetius.com/2011,6908: „Denn die Grundsätze über den Beweis des ersten Anscheins verlangen einen",
+   "loesung": "\u000018 typischen Geschehensablauf, d.h. es muss ein Sachverhalt feststehen, der nach der allgemeinen Lebenserfahrung auf eine bestimmte Ursache oder auf einen bestimmten Ablauf als maßgeblich für den Eintritt eines bestimmten Erfolges hinweist.“ Diese Typizität ist abzuleiten. Bei Vorschriften, die dem Schutz vor spezifischen Gefahren dienen, kann vom Bestehen der Vorschrift auf die Typizität der Kausalität für den eingetretenen Schaden bei Verletzung der entsprechenden Vorschrift geschlossen werden. Der BGH in NJW 1994, 945 (946): „Diese Voraussetzungen hat der Senat in der Regel bei der Verletzung von Schutzgesetzen i. S. des § 823 II BGB bejaht. Hat der vom Verletzten in Anspruch Genommene gegen ein Schutzgesetz verstoßen, das typischen Gefährdungsmöglichkeiten entgegenwirken soll, und ist im Zusammenhang mit dem Verstoß gerade derjenige Schaden eingetreten, der mit Hilfe des Schutzgesetzes verhindert werden sollte, so spricht grundsätzlich der Beweis des ersten Anscheins dafür, dass der Verstoß für den Schadenseintritt ursächlich gewesen ist.“ In den Fällen, in denen kein Verstoß gegen ein Schutzgesetz vorliegt, ist die Typizität der in Frage stehenden Umstände sorgfältig zu begründen. Nicht jeder auf den ersten Blick bestehende Erfahrungssatz reicht aus. Lehrreich dazu BGH NJW 1982, 2447 (2448): Auf eine Verseuchung von verabreichten Muscheln kann vom Bestehen einer Hepatitisinfektion nicht im Sinne einer Typizität geschlossen werden. Es handele sich nur um Indizien. So mus",
+   "id": "kautelar:fall:005",
+   "skript": "kautelar",
+   "abschnitt": "I. Aufbau › IV. Umgang mit streitigen Tatsachen › 2. Beweismittel (Merkwort: S A P U Z)",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der BGH\ndrückt es oftmals etwas offener aus z.B. in der das Notieren eines PIN auf einer ECKarte betreffenden Entscheidung BGH lexetius.com/2011,6908:",
+   "loesung": "Denn die Grundsätze über den Beweis des ersten Anscheins verlangen einen \u000018 typischen Geschehensablauf, d.h. es muss ein Sachverhalt feststehen, der nach der allgemeinen Lebenserfahrung auf eine bestimmte Ursache oder auf einen bestimmten Ablauf als maßgeblich für den Eintritt eines bestimmten Erfolges hinweist.",
+   "id": "kautelar:form:006",
+   "skript": "kautelar",
+   "abschnitt": "I. Aufbau › IV. Umgang mit streitigen Tatsachen › 2. Beweismittel (Merkwort: S A P U Z)",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Bei Vorschriften, die dem Schutz vor spezifischen\nGefahren dienen, kann vom Bestehen der Vorschrift auf die Typizität der Kausalität\nfür den eingetretenen Schaden bei Verletzung der entsprechenden Vorschrift\ngeschlossen werden. Der BGH in NJW 1994, 945 (946):",
+   "loesung": "Diese Voraussetzungen hat der Senat in der Regel bei der Verletzung von Schutzgesetzen i. S. des § 823 II BGB bejaht. Hat der vom Verletzten in Anspruch Genommene gegen ein Schutzgesetz verstoßen, das typischen Gefährdungsmöglichkeiten entgegenwirken soll, und ist im Zusammenhang mit dem Verstoß gerade derjenige Schaden eingetreten, der mit Hilfe des Schutzgesetzes verhindert werden sollte, so spricht grundsätzlich der Beweis des ersten Anscheins dafür, dass der Verstoß für den Schadenseintritt ursächlich gewesen ist.",
+   "id": "kautelar:form:007",
+   "skript": "kautelar",
+   "abschnitt": "I. Aufbau › IV. Umgang mit streitigen Tatsachen › 2. Beweismittel (Merkwort: S A P U Z)",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: BGH NJW 2008, 2647 = lexetius.com/2008,821; BGH NJW 2009, 1591 =\nlexetius.com/2009,429; nocheinmal bestätigend BGH NJW 2015, 3447 =\nlexetius.com/2015,2117). Der BGH erläuterte dies bereits in BGH NJW 2008, 2647 =\nlexetius.com/2008,821 wie folgt:",
+   "loesung": "In Verträgen mit rechtlichen Beratern gilt die Vermutung, dass der Mandant beratungsgemäß gehandelt hätte, wenn nach der Lebenserfahrung bei vertragsgemäßer Leistung des Beraters lediglich ein bestimmtes Verhalten nahegelegen hätte. Kommen als Reaktion auf eine zutreffende steuerliche Beratung hingegen mehrere objektiv gleich vernünftige Verhaltensmöglichkeiten in Betracht, hat der Mandant den Weg zu bezeichnen, für den er sich entschieden hätte. Ihn trifft in einem solchen Fall die volle Beweislast, weil der Anscheinsbeweis bei der Möglichkeit alternativer Verhaltensweisen nicht durchgreift.",
+   "id": "kautelar:form:008",
+   "skript": "kautelar",
+   "abschnitt": "I. Aufbau › IV. Umgang mit streitigen Tatsachen › 2. Beweismittel (Merkwort: S A P U Z)",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Dies kann im Rahmen von Kautelarklausuren Bedeutung erlangen, wenn\nvorgelegte Bedingungen zu bewerten sind. Zum Anscheinsbeweis und der Mehr -\nfachverwendung BGH NJW 2004, 502 (503) = lexetius.com/2003,3137:",
+   "loesung": "aa) Aus dem Inhalt und der Gestaltung der in einem Bauvertrag verwendeten Bedingungen kann sich ein von dem Verwender zu widerlegender Anschein dafür ergeben, dass sie zur Mehrfachverwendung vorformuliert worden sind (BGHZ 118, 229 [238] = NJW 1992, 2160). Das kann zum Beispiel der Fall sein, wenn der Vertrag zahlreiche formelhafte Klauseln enthält und nicht auf die individuelle Vertragssituation abgestimmt ist. Das hat der Senat für den Bauträgervertrag ausgeführt. Es gilt gleichermaßen für den Bauvertrag. bb) Die Vertragsklauseln sind allem Anschein nach für eine Mehrfachverwendung vorformuliert. Sie bestehen aus einer Vielzahl von formelhaften Wendungen zur Regelung der typischen konfliktgefährdeten Sachverhalte. Sie enthalten fast ausschließlich den Auftragnehmer belastende Regelungen. ... (vgl. BGHZ 144, 242 = NJW 2000, 2988 = NZBau 2000, 375 = BauR 2000, 1182 [1185] = ZfBR 2000, 472).",
+   "id": "kautelar:form:009",
+   "skript": "kautelar",
+   "abschnitt": "I. Aufbau › IV. Umgang mit streitigen Tatsachen › 2. Beweismittel (Merkwort: S A P U Z)",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Dies ist\nbesondere Prozessvoraussetzung und ergibt sich aus § 593 Abs. Dies kann\ndurch die Überschrift",
+   "loesung": "Klage im Urkundenprozess",
+   "id": "kautelar:form:010",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 2. Urkunden- und Wechselprozess § 592 ff ZPO",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Jede Urkunde, die lediglich einen Ersatzbeweis\ndarstellt, fällt somit aus. Der BGH NJW 2008, 523 = lexetius.com/2007,3288 führt\ndazu aus:",
+   "loesung": "In der Rechtsprechung und im weit überwiegenden Schrifttum ist anerkannt, dass Augenschein, Zeugen und Sachverständige im Urkundenprozess, in dem sie als Beweis nicht zugelassen sind, auch nicht auf dem Wege über eine Urkunde, in der außergerichtlich das Ergebnis des Augenscheins, die Zeugenaussage oder die gutachterliche Äußerung des Sachverständigen niedergelegt ist, in den Prozess eingeführt werden dürfen. Es sei sinnwidrig, Augenschein, Zeugen und Sachverständige zwar als unmittelbare Beweismittel auszuschließen, sie aber in der grundsätzlich schwächeren Form des Urkundenbeweises zuzulassen.",
+   "id": "kautelar:form:011",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 2. Urkunden- und Wechselprozess § 592 ff ZPO",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Dazu und den vorgebrachten Argumenten Leidig/Jöbges NJW 2014, 892. g) Tenorierungen im Nachverfahren",
+   "loesung": "Das Vorbehaltsurteil wird aufgehoben und die Klage abgewiesen",
+   "id": "kautelar:form:012",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 2. Urkunden- und Wechselprozess § 592 ff ZPO",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: 2 ZPO Parteivernehmung angeboten werden. Auf Beklagtenseite kann wie folgt beantragt werden, wenn keine Einwendungen gegen die Statthaftigkeit und auch keine Urkunden, die dem\n\n\u000026\nKlägervortrag entgegengesetzt werden können, vorliegen:",
+   "loesung": "Der Beklagte wird seine Einwendungen erst im Nachverfahren geltend machen. Er erkennt daher den Klageanspruch unter Vorbehalt seiner Rechte im Nachverfahren an. Falls das Gericht ein solches Anerkenntnis nicht für zulässig halten sollte, widerspricht der Beklagte dem Anspruch und beantragt, 1. Die Klage abzuweisen ...",
+   "id": "kautelar:form:014",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 2. Urkunden- und Wechselprozess § 592 ff ZPO",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der persönliche Arrest ist ein\nSonderfall und ist nur in wenigen Ausnahmefällen denkbar, da er die Inhaftnahme\ndes Schuldners ermöglicht. Der Antrag im Falle des dinglichen Arrestes kann wie folgt lauten:",
+   "loesung": "Wegen einer Geldforderung des Antragstellers in Höhe von € 120.000,00 nebst Zinsen in Höhe von 5 Prozentpunkten p.a. seit dem tt.mm.jjjj wird der dingliche Arrest in das Vermögen des Antragsgegners angeordnet.",
+   "id": "kautelar:form:015",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 3. Einstweiliger Rechtsschutz",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Eine Zustellung des Arrestes vor der Pfändung an den Antragsgegner ist\nwegen § 929 Abs. 3 ZPO zunächst nicht erforderlich:",
+   "loesung": "In Vollziehung des Arrestes wird das im Eigentum des Antragsgegners stehende Gemälde „Röhrender Hirsch",
+   "id": "kautelar:form:016",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 3. Einstweiliger Rechtsschutz",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der Antragsgegner hat sich jeder Verfügung über den\nbezeichneten Gegenstand zu enthalten.“\nDer persönliche Arrest kann in Form einer Meldepflicht, des Hausarrestes, der\nWegnahme des Reisepasses oder eines Auslandsvisum sowie durch Inhaftnahme\nvollzogen werden. Der Antrag kann wie folgt lauten:",
+   "loesung": "1. Wegen einer Geldforderung von € 120.000,00 nebst ... wird der persönliche Sicherungsarrest gegen den Antragsgegner angeordnet. 2. In Vollziehung des Antrages zu 1 wird die Haft gegen den Antragsgegner verhängt.",
+   "id": "kautelar:form:017",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 3. Einstweiliger Rechtsschutz",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Die\nletzten beiden Beispiele stellen Ausnahme dar, da eine Vorwegnahme der\nHauptsache ausnahmsweise gewährt wird. Im Bereich des gewerblichen Rechtsschutzes aber auch bei Persönlichkeits–\nrechtsverletzungen richtet sich der Antrag häufig auf Unterlassung.",
+   "loesung": "1. Der Antragsgegner hat es zu unterlassen, gegenüber Dritten wörtlich oder sinngemäß zu behaupten, dass der Antragsteller Umgang mit Prostituierten habe.",
+   "id": "kautelar:form:018",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 2. In Vollziehung des Antrages zu 1 wird die Haft gegen den",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: 1 GG vorliegt, gesprochen. Der Antrag auf Zahlung eines Schmerzensgeldes nach § 253 BGB wird häufig wie\nfolgt gefasst:",
+   "loesung": "Der Beklagte wird verurteilt, an den Kläger ein in das Ermessen des Gerichtes gestelltes angemessenes Schmerzensgeld in Höhe von mindestens € xxxxxx,xx nebst fünf Prozentpunkten über dem jeweiligen Basiszinssatz seit ... zu zahlen.",
+   "id": "kautelar:form:019",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 5. Unbezifferter Klagantrag",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Letztere fallen damit nicht in die Schadenseinheit. Ein Antrag gerichtet auf positive Feststellung kann lauten:",
+   "loesung": "... festzustellen, dass die Beklagte verpflichtet ist, dem Kläger alle materiellen wie immateriellen Schäden zu ersetzen, die dem Kläger aus dem Verkehrsunfall mit dem Versicherungsnehmer der Beklagten ... entstanden noch entstehen werden, soweit Ansprüche nicht auf einen Sozialversicherungsträger oder Dritte übergegangen sind.",
+   "id": "kautelar:form:020",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 6. Positive und negative Feststellungsklage nach § 256 Abs. 1 ZPO und",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: festzustellen, dass die Beklagte verpflichtet ist, dem Kläger alle\nmateriellen wie immateriellen Schäden zu ersetzen, die dem Kläger\naus dem Verkehrsunfall mit dem Versicherungsnehmer der Beklagten\n... entstanden noch entstehen werden, soweit Ansprüche nicht auf\neinen Sozialversicherungsträger oder Dritte übergegangen sind.“\nEin Antrag im Rahmen einer negativen Feststellungsklage könnte lauten:",
+   "loesung": "...festzustellen, dass dem Beklagten keine Unterlassungsansprüche \u000043 gegen den Kläger aufgrund des Umstandes zustehen, dass der Kläger unter dem Namen XYZ firmiert.",
+   "id": "kautelar:form:021",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 6. Positive und negative Feststellungsklage nach § 256 Abs. 1 ZPO und",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: entstanden noch entstehen werden, soweit Ansprüche nicht auf\neinen Sozialversicherungsträger oder Dritte übergegangen sind.“\nEin Antrag im Rahmen einer negativen Feststellungsklage könnte lauten: „...festzustellen, dass dem Beklagten keine Unterlassungsansprüche\n\n\u000043\ngegen den Kläger aufgrund des Umstandes zustehen, dass der\nKläger unter dem Namen XYZ firmiert.“ oder",
+   "loesung": "... festzustellen, dass dem Beklagten gegen den Kläger aufgrund eines am ... geschlossenen Vertrages kein Zahlungsanspruch in Höhe von € xxx,xx zusteht.",
+   "id": "kautelar:form:022",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 6. Positive und negative Feststellungsklage nach § 256 Abs. 1 ZPO und",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Für\ndie Zwischenfeststellungsklage bedarf es eines rechtshängigen Verfahrens. Ein möglicher Erweiterungsantrag kann lauten:",
+   "loesung": "... erweitern wir die Klage mit dem Antrag, festzustellen, dass der zwischen den Parteien unter der Versicherungsscheinnummer xyz bestehende Versicherungsvertrag nicht durch den mit Schreiben vom ... erklärten Rücktritt vom Vertrag beendet wurde.",
+   "id": "kautelar:form:023",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 6. Positive und negative Feststellungsklage nach § 256 Abs. 1 ZPO und",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Auch der Bürge kann Befreiung von der\nBürgschaft verlangen (vgl. Der Antrag kann wie folgt formuliert werden:",
+   "loesung": "Der Beklagte wird verurteilt, den Kläger von der Verbindlichkeit gegenüber Frau XXXX YYYY aus dem Auftrag vom ... durch Zahlung in Höhe von € xxx,yy freizustellen.",
+   "id": "kautelar:form:024",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 7. Freistellungsantrag (Freihaltungs-, Befreiungs- bzw. Freistellungsanspruch)",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: „Der Beklagte wird verurteilt, den Kläger von der Verbindlichkeit\ngegenüber Frau XXXX YYYY aus dem Auftrag vom ... durch Zahlung\nin Höhe von € xxx,yy freizustellen.“\n\n\u000045\noder",
+   "loesung": "Der Beklagte wird verurteilt, den Kläger von dem durch das Land Berlin geltend gemachten Zahlungsanspruch aus ... in Höhe von € xxxx,yy zur Hälfte freizustellen.",
+   "id": "kautelar:form:025",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 7. Freistellungsantrag (Freihaltungs-, Befreiungs- bzw. Freistellungsanspruch)",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Dies ist in Klausuren\nschon verlangt worden und damit stets zu prüfen. BGH lexetius.com/2004,191:",
+   "loesung": "Darauf kommt es nicht entscheidend an, weil ein etwaiger Befreiungsanspruch gemäß § 250 Satz 2 BGB in einen Geldanspruch übergegangen ist. Diese Vorschrift eröffnet dem Geschädigten die Möglichkeit, unabhängig von den §§ 249 Abs. 2, 251 BGB zu einem Anspruch auf Geldersatz zu gelangen, wenn er dem Ersatzpflichtigen erfolglos eine Frist zur Herstellung, d. h. hier Haftungsfreistellung, mit Ablehnungsandrohung setzt. Dem steht es nach ständiger Rechtsprechung des Bundesgerichtshofs gleich, wenn der Schuldner die geforderte Herstellung oder überhaupt jeden Schadensersatz ernsthaft und endgültig verweigert. Dann wandelt sich der Freistellungsanspruch in einen Zahlungsanspruch um, wenn der Geschädigte Geldersatz fordert (BGH, Urteile vom 7. Januar 1965 - VII ZR 28/63, WM 1965, 287, 289, vom 11. Juni 1986 - VIII ZR 153/85, WM 1986, 1115, 1117, vom 26. Februar 1991 - XI ZR 331/89, WM 1991, 1002, vom 29. April 1992 - VIII ZR 77/91, WM 1992, 1074, 1076, vom 12. März 1993 - V ZR 69/92, WM 1993, 1557, 1559 f., vom 31. Januar 1996 - VIII ZR 243/94, WM 1996, 1282, 1283 und vom 10. Februar 1999 - VIII ZR 70/98, WM 1999, 779, 781).",
+   "id": "kautelar:form:026",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 7. Freistellungsantrag (Freihaltungs-, Befreiungs- bzw. Freistellungsanspruch)",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Die Streitverkündung sollte ausdrücklich am Beginn eines Schriftsatzes erfolgen,\ndamit das Gericht sie nicht übersieht. Sie kann wie folgt formuliert werden:",
+   "loesung": "In der Sache ... wird dem Herrn A,B der Streit verkündet mit der Aufforderung, dem Rechtsstreit auf Seiten des Klägers beizutreten.",
+   "id": "kautelar:form:027",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VII. Streitverkündung gem. § 72-74 ZPO › a. E., wohl eher beiläufig in Kauf nehmen wollen; vgl. indessen dazu etwa Wieser,",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Sie kann wie folgt formuliert werden: wird dem Herrn A,B der Streit verkündet mit der Aufforderung, dem\nRechtsstreit auf Seiten des Klägers beizutreten.“\n\n\u000054\noder",
+   "loesung": "Namens und in Vollmacht des Beklagten wird der Firma X, Anschrift, gerichtlich der Streit verkündet mit der Aufforderung, dem Rechtsstreit auf Seiten des Beklagten beizutreten.",
+   "id": "kautelar:form:028",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VII. Streitverkündung gem. § 72-74 ZPO › a. E., wohl eher beiläufig in Kauf nehmen wollen; vgl. indessen dazu etwa Wieser,",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Das Gericht soll die sachliche und funktionelle Zuständigkeit sowie den\nHöhe des Gebührenvorschusses anhand der Angaben vorläufig bestimmen können. Eingangsformulierung\nAls Eingangsformulierung ist üblich:",
+   "loesung": "Namens und in Vollmacht des Klägers erheben wir Klage mit dem Antrag:",
+   "id": "kautelar:form:029",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 2. Eingangsformulierung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Eingangsformulierung\nAls Eingangsformulierung ist üblich: „Namens und in Vollmacht des Klägers erheben wir Klage mit dem\nAntrag:“\noder",
+   "loesung": "In der Sache ... erhebe ich namens und in Vollmacht des Klägers Klage und werde beantragen:",
+   "id": "kautelar:form:030",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 2. Eingangsformulierung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: „Namens und in Vollmacht des Klägers erheben wir Klage mit dem\nAntrag:“\noder\n„In der Sache ... erhebe ich namens und in Vollmacht des Klägers\nKlage und werde beantragen:“\nMöglich – wenn auch etwas lang – ist folgende Formulierung, die in der Praxis sicher\nunschädlich ist, aber vielleicht nicht jedem Prüfer gefällt:",
+   "loesung": "Namens und in Vollmacht des Klägers erheben wir Klage und bitten um die Anberaumung einer Güteverhandlung nach dessen Scheitern wir beantragen werden:",
+   "id": "kautelar:form:031",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 2. Eingangsformulierung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Ist kein Verbraucher beteiligt und es\nhandelt sich um eine Entgeldforderung sind neun Prozentpunkte über dem jeweiligen\nBasiszinssatz als Verzugszins nach § 288 Abs. Der Standardantrag wird\nfolgendermaßen lauten.",
+   "loesung": "Der Beklagte wird verurteilt, an den Kläger € 7.500,00 nebst Zinsen in Höhe von fünf Prozentpunkten über dem jeweiligen Basiszinssatz seit dem 1.5.2005 zu zahlen.",
+   "id": "kautelar:form:032",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 3. Anträge",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der Standardantrag wird\nfolgendermaßen lauten. „Der Beklagte wird verurteilt, an den Kläger € 7.500,00 nebst Zinsen\nin Höhe von fünf Prozentpunkten über dem jeweiligen Basiszinssatz\nseit dem 1.5.2005 zu zahlen.“\nBei Rückständen von wiederkehrenden Leistungen kann ein gestaffelter Zinsantrag\nnotwendig sein:",
+   "loesung": "Der Beklagte wird verurteilt, an den Kläger € 3.000,00 nebst Zinsen in Höhe von fünf Prozentpunkten über dem jeweiligen Basiszinssatz aus € 1.000,00 seit dem 1.1.2005, aus weiteren € 1.000,00 seit dem 1.2.2005, sowie aus weiteren € 1.000,00 seit dem 1.3.2005 zu zahlen.",
+   "id": "kautelar:form:033",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 3. Anträge",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Die Formulierung lautet\n„... geräumt herauszugeben.“\noder",
+   "loesung": "... zu räumen und an den Kläger herauszugeben.",
+   "id": "kautelar:form:035",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 3. Anträge",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: 1 Satz 2 ZPO\nnicht erforderlich. 2 ZPO sollte stets der Erlass eines Versäumnisurteils\nbeantragt werden:",
+   "loesung": "Für den Fall der Anordnung des schriftlichen Vorverfahrens wird beantragt, nach Ablauf der Frist des § 276 Abs. 1 ZPO unter den Voraussetzungen des § 331 Abs. 3 ZPO ein Versäumnisurteil zu erlassen",
+   "id": "kautelar:form:036",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 3. Anträge",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: 1 ZPO\nunter den Voraussetzungen des § 331 Abs. 3 ZPO ein\nVersäumnisurteil zu erlassen“\noder",
+   "loesung": "... gegen den Beklagten im Fall des § 331 Abs. 3 ZPO i.V.m. § 276 Abs. 1 Satz 1, Abs. 2 ZPO Versäumnisurteil ohne mündliche Verhandlung zu erlassen.",
+   "id": "kautelar:form:037",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 3. Anträge",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Begründung der Klage\nFolgende Aspekte sollten bei der Fertigung von Klagen oder auch anderen\nSchriftsätzen berücksichtigt werden. a) Einleitungssatz\nDie Klagebegründung sollte mit einem Einleitungssatz beginnen, aus dem sich das\nKlagebegehren ergibt.",
+   "loesung": "Der Kläger macht Schadensersatz- und Schmerzensgeldansprüche aus einem Verkehrsunfall, der sich am 5.8.2005 in der ABC-Straße in Berlin Schöneberg ereignete, gegen den Beklagten zu 1 als Halter und Fahrer eines PKW sowie die Beklagte zu 2 als Haftpflicht– versicherung geltend.",
+   "id": "kautelar:form:038",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 4. Begründung der Klage",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: a) Einleitungssatz\nDie Klagebegründung sollte mit einem Einleitungssatz beginnen, aus dem sich das\nKlagebegehren ergibt. „Der Kläger macht Schadensersatz- und Schmerzensgeldansprüche\naus einem Verkehrsunfall, der sich am 5.8.2005 in der ABC-Straße in\nBerlin Schöneberg ereignete, gegen den Beklagten zu 1 als Halter\nund Fahrer eines PKW sowie die Beklagte zu 2 als Haftpflicht–\nversicherung geltend.“",
+   "loesung": "Der Kläger vermietet dem Beklagten eine Wohnung in der ABCStraße in Berlin Schöneberg und macht mit dieser Klage Miet– rückstände für die Monate Januar bis Juli 2005 geltend.",
+   "id": "kautelar:form:039",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 4. Begründung der Klage",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: a) Einleitungssatz\nDie Klagebegründung sollte mit einem Einleitungssatz beginnen, aus dem sich das\nKlagebegehren ergibt. „Der Kläger macht Schadensersatz- und Schmerzensgeldansprüche\naus einem Verkehrsunfall, der sich am 5.8.2005 in der ABC-Straße in\nBerlin Schöneberg ereignete, gegen den Beklagten zu 1 als Halter\nund Fahrer eines PKW sowie die Beklagte zu 2 als Haftpflicht–\nversicherung geltend.“\n„Der Kläger vermietet dem Beklagten eine Wohnung in der ABCStraße in Berlin Schöneberg und macht mit dieser Klage Miet–\nrückstände für die Monate Januar bis Juli 2005 geltend.“",
+   "loesung": "Der Kläger verlangt als Mieter mit dieser Klage vom Beklagten die Unterlassung von Baumaßnahmen im Bereich des .... oder verlangt vom Beklagten die Unterlassung ehrverletzender Aussagen.",
+   "id": "kautelar:form:040",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 4. Begründung der Klage",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Es ist daher entsprechende Zurückhaltung geboten und auf die wesentlichen\nPassagen zur Sicherheit konkret Bezug zu nehmen. Rechtsausführungen wären wegen des Grundsatzes „iura novit curia“ (frei übersetzt",
+   "loesung": "das Gericht kennt das Recht",
+   "id": "kautelar:form:041",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 4. Begründung der Klage",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: In der Klausur eher bedenklich aber in der Praxis gebräuchlich ist die\nVerwendung des Kürzels „n.n.“ (soll für „nomen nominandum“ stehen), welches\nHinweis darauf gibt, dass der Name und die Anschrift des Zeugen erst beschafft\nwerden sollen. Werden Angestellte einer Partei benannt, erfolgt häufig statt Nennung\nder Anschrift, der Zusatz",
+   "loesung": "zu laden über den Kläger/Beklagten",
+   "id": "kautelar:form:042",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 4. Begründung der Klage",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Typische Konstellationen, in denen eine Widerklage angezeigt ist, ergeben sich\ninsbesondere bei der Teilklage des Gegners sowie bei der negativen Feststellungs–\nklage des Gegners. Bei der gegen die Teilklage gerichteten Widerklage ist wie folgt zu beantragen:",
+   "loesung": "Die Klage wird abgewiesen. Es wird festgestellt, dass dem Kläger auch ein weiterer Anspruch aus dem Verkehrsunfall vom .... / Vertrag vom ... in Höhe von gegen den Beklagten nicht zusteht.",
+   "id": "kautelar:form:043",
+   "skript": "kautelar",
+   "abschnitt": "I. Mandantenziel › IV. Prozessuales Gutachten und Prozesstaktische Erwägungen › 1. Widerklage, Drittwiderklage, Aufrechnung, Hilfsaufrechnung, Hilfswiderklage",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Das Prozessverhältnis gegen den Dritten hinge dann in seinem Bestand von der Wirksamkeit der\nAufrechnung gegen den Kläger ab. Dazu BGH NJW 2001, 2094 (2095):",
+   "loesung": "...denn es ist keinem Prozessgegner zuzumuten, sich auf ein Verfahren einzulassen, bei dem die Möglichkeit besteht, dass es sich wieder in ein rechtliches \u000069 Nichts auflöst.",
+   "id": "kautelar:form:044",
+   "skript": "kautelar",
+   "abschnitt": "I. Mandantenziel › IV. Prozessuales Gutachten und Prozesstaktische Erwägungen › 1. Widerklage, Drittwiderklage, Aufrechnung, Hilfsaufrechnung, Hilfswiderklage",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Nach der früheren\n\n\u000070\nRechtslage konnte dies einer Erledigung entgegenstehen, denn vor Rechtshängigkeit gab es keinen Rechtsstreit, der sich erledigen konnte. Umgang mit Versäumnisurteil und Vollstreckungsbescheid/\nWiedereinsetzung in den vorherigen Stand\nIm Falle, dass gegen ein Versäumnisurteil oder einen Vollstreckungsbescheid\nvorgegangen werden soll, ist nach § 340 ZPO der Schriftsatz als Einspruch zu\nüberschreiben und wie folgt zu beantragen:",
+   "loesung": "Das Versäumnisurteil vom ... wird aufgehoben und die Klage abgewiesen.",
+   "id": "kautelar:form:045",
+   "skript": "kautelar",
+   "abschnitt": "I. Mandantenziel › IV. Prozessuales Gutachten und Prozesstaktische Erwägungen › 2. Umgang mit Versäumnisurteil und Vollstreckungsbescheid/",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der Beklagte darf allerdings keinen Anlass zur\nKlage gegeben haben. Es ist wie folgt zu beantragen:",
+   "loesung": "... Der Beklagte erkennt den Anspruch in Höhe von € 5.120,00 nebst \u000072 fünf Prozentpunkten über dem jeweiligen Basiszinssatz an. Das Anerkenntnis erfolgt unter Protest gegen die Kostenlast. Die tatsächlichen Voraussetzungen des § 93 ZPO werden in der Klageerwiderung dargelegt werden. Soweit der Anspruch nicht anerkannt wird, wird sich der Beklagte verteidigen. Es wird beantragt werden: Die Klage wird abgewiesen, soweit der Klageantrag nicht anerkannt wurde.",
+   "id": "kautelar:form:046",
+   "skript": "kautelar",
+   "abschnitt": "I. Mandantenziel › IV. Prozessuales Gutachten und Prozesstaktische Erwägungen › 3. (Teil-)anerkenntnis und Vertretungsanzeige",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: 3 ZPO muss substantiiert bestritten\nwerden, sofern der Beklagte vom Kläger vorgetragene Tatsachen etwas\nentgegensetzen kann. Teilweise wird empfohlen, die entsprechenden Punkte\neinzuleiten mit Sätzen wie:",
+   "loesung": "Die Umstände haben sich abweichend vom Vortrag des Klägers verhalten. Unrichtig ist die Behauptung des Klägers, dass ... Richtig ist vielmehr, dass .... Insgesamt ist daher von folgendem Sachverhalt auszugehen.",
+   "id": "kautelar:form:047",
+   "skript": "kautelar",
+   "abschnitt": "V. Vollstreckungsschutzantrag › VI. Klageerwiderung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Bei Unsicherheiten kann ein Bestreiten\nerfolgen aber auf den Umstand der fehlenden Erheblichkeit hingewiesen werden. Es bietet sich an, bei den Beweisangeboten Hinweise zu geben wie „ gegen–\nbeweislich“ oder",
+   "loesung": "unter Protest gegen die Beweislast",
+   "id": "kautelar:form:048",
+   "skript": "kautelar",
+   "abschnitt": "V. Vollstreckungsschutzantrag › VI. Klageerwiderung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Dabei geht es ihm\ndarum, aus dem Erlös vor dem eigentlichen Vollstreckungsgläubiger befriedigt zu\nwerden. Entsprechend ist zu beantragen:",
+   "loesung": "Der Kläger ist vor dem Beklagten aus dem Reinerlös aus der Vollstreckung in folgenden Gegenstand <genau bezeichnen> wegen einer Forderung des Klägers in Höhe von € ... zu befriedigen.",
+   "id": "kautelar:form:049",
+   "skript": "kautelar",
+   "abschnitt": "I. Klagen gegen die Zwangsvollstreckung › 3. Klage auf vorzugsweise Befriedigung nach § 805 ZPO",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Die Anträge können lauten: „Die Zwangsvollstreckung ist soweit für unzulässig zu erklären ...“\noder",
+   "loesung": "Der Gerichtsvollzieher wird angewiesen ...",
+   "id": "kautelar:form:050",
+   "skript": "kautelar",
+   "abschnitt": "I. Klagen gegen die Zwangsvollstreckung › II. Sofortige Beschwerde und Erinnerung › 2. Erinnerung nach § 766 ZPO",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Überdurchschnittliche Leistungen differenzieren\nsehr präzise und liefern eine gute Begründungstiefe, ohne nicht auch die übrigen\nMerkmale kurz und knapp aber auch souverän festzustellen oder nur kurz zu be -\ngründen. Beispiel (niedrige Begründungstiefe - viel zu pauschal) :",
+   "loesung": "Durch den Einbau des Motors in das Kfz des Beklagten ist dieser nicht gemäß §§ 947 I, II, 93 BGB Eigentümer des Motors geworden. Der Mandant hat folglich sein Eigentum auch nicht verloren. Nach ständiger Rechtsprechung des BGH sind Motoren von Serienfahrzeugen keine wesentlichen Bestandteile.",
+   "id": "kautelar:form:051",
+   "skript": "kautelar",
+   "abschnitt": "I. Allgemeine Standards › IV. Begründungstiefe",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Häufig werden Schachtelsätze gebildet, in dem Glauben so eine möglichst „juristische Sprache“ zu verwenden. Negativ-Beispiel (etwas überzogen):",
+   "loesung": "Vorliegend steht dem Kläger - unter Berücksichtigung der Rechtsprechung des BGH - der Anspruch zu, da die Einrede, die der Beklagte unberechtigt geltend macht, nicht durchgreift und außerdem auch weitere Anspruchsgrundlagen, darunter 1007 und 961 - den Anspruch stützen. Verortet ist der Anspruch klar in § 985, der dem Eigentümer einen Herausgabeanspruch gewährt, wenn dieser Eigentümer geworden ist, und das Eigentum nicht im Wege des gutgläubigen Erwerbs verloren hat ...",
+   "id": "kautelar:form:054",
+   "skript": "kautelar",
+   "abschnitt": "V. Klare Sprache und klarer Aufbau",
+   "rn": ""
+  }
+ ]
+}

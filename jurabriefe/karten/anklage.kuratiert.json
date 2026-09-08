@@ -1,0 +1,35 @@
+{
+ "skript": "anklage",
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Wo steht in der Anklageschrift die Behördenbezeichnung, und wie lautet sie für Berlin?",
+   "loesung": "Staatsanwaltschaft Berlin",
+   "id": "anklage:form:001",
+   "skript": "anklage",
+   "abschnitt": "I. RUBRUM › 1. Kopfzeile",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Beschuldigte hat zum Zeitpunkt der Anklageerhebung eine Verteidigerin. Formulieren Sie den entsprechenden Vermerk im Rubrum.",
+   "loesung": "Verteidigerin: Rechtsanwältin ...",
+   "id": "anklage:form:002",
+   "skript": "anklage",
+   "abschnitt": "I. RUBRUM › 8. Verteidigungsverhältnisse",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Angeschuldigte hat sich in seiner verantwortlichen Vernehmung nicht zum Tatvorwurf geäußert und nur Angaben zur Person gemacht. Wie lautet die Bezeichnung des Beweismittels?",
+   "loesung": "Einlassung des Angeschuldigten (nur zur Person)",
+   "id": "anklage:form:003",
+   "skript": "anklage",
+   "abschnitt": "I. Einlassung des Angeschuldigten",
+   "rn": "",
+   "gewicht": 1
+  }
+ ]
+}

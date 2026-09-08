@@ -1,0 +1,220 @@
+{
+ "karten": [
+  {
+   "typ": "fehler",
+   "frage": "Was ist hieran fehlerhaft, und wie lautet es richtig?\nPrüfungsschema -",
+   "loesung": "Nichtanwendung von Vorschriften auf den festgestellten Sachverhalt _______________ 51\nIII.",
+   "id": "revision:fehl:001",
+   "skript": "revision",
+   "abschnitt": "I. Falsche Anwendung einer Norm _____________________________________________ 51",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Januar 2015\nverurteilt. Er legt binnen Wochenfrist Revision gegen",
+   "loesung": "das gegen mich ergangene Urteil des Landgerichts vom 30. Januar 2015, Az. 17 KLs 1324/14",
+   "id": "revision:form:002",
+   "skript": "revision",
+   "abschnitt": "I. Rechtsmittelberechtigte › III. Anfechtungserklärung",
+   "rn": "6"
+  },
+  {
+   "typ": "fall",
+   "frage": "Lösen Sie im Klausurstil.\nA geht direkt zur Geschäftsstelle des Amtsgerichts, um dort zu Protokoll Revision einzulegen. Er trifft aber keinen Urkundsbeamten, sondern nur den Abteilungsrichter an, der die Revisionserklärung entsprechend protokolliert. Die Revision ist ordnungsgemäß eingelegt. Zwar handelt es sich bei den Urkundsbeamten der Geschäftsstelle um einen Rechtspfleger, dem diese Protokollierung gemäß § 24 RPflG zugewiesen ist. Allerdings kann der Richter gemäß § 8 RPflG die Protokollierung – wie hier – an sich ziehen, so dass die Revision ordnungsgemäß eingelegt ist.",
+   "loesung": "7 Daneben besteht die Möglichkeit der unbestimmten Anfechtung: Ist gegen ein Urteil statt Berufung auch Revision zulässig, so kann es angefochten werden, ohne dass das konkrete Rechtsmittel bezeichnet wird. Bis zum Ablauf der Revisionsbegründungsfrist (§ 345 Abs. 1 StPO) hat der Rechtsmittelführer die Möglichkeit zu entscheiden, ob das Rechtsmittel als Berufung oder Revision behandelt werden soll. Schließlich können in einigen Fällen erst nach Vorliegen des Protokolls bzw. der schriftlichen Urteilsgründe, vgl. § 275 Abs. 1 StPO, die Erfolgsaussichten einer Revision beurteilt werden. Geht innerhalb der Revisionsbegründungsfrist keine Erklärung ein, so wird das Rechtsmittel als Berufung behandelt, um den Instanzenzug nicht zu verkürzen. Da Berufung und Revision nebeneinander nur bei Urteilen des Amtsgerichts möglich sind, stellt sich dieses Problem nie, wenn das Landgericht erstinstanzlich entschieden hat. Nach Berufungseinlegung ist innerhalb der Revisionsbegründungsfrist (§ 345 Abs. 1 StPO) der Übergang zur Revision zulässig, ebenfalls innerhalb dieser Frist auch der Übergang von Revision zu Berufung.",
+   "id": "revision:fall:003",
+   "skript": "revision",
+   "abschnitt": "I. Rechtsmittelberechtigte › III. Anfechtungserklärung",
+   "rn": "6"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: 1 BVerfG, 2 BvR 2628/10 vom 19.3.2013\n\n9\nUnberührt bleiben auch die Grundsätze des Strafverfahrens. Es gibt insbesondere kein",
+   "loesung": "Konsensprinzip\". Eine Verständigung kann nie alleinige Grundlage des Urteils sein. Das Gericht bleibt weiterhin verpflichtet, den wahren Sachverhalt bis zu seiner Überzeugung zu ermitteln. Insbesondere Geständnisse sind auf ihre Glaubhaftigkeit zu hinterfragen, selbst wenn eine Verständigung erfolgt ist. Die Ermittlung der Wahrheit geht der Prozessökonomie vor. Das Bundesverfassungsgericht hat mit zwei Beschlüssen vom 8. November 2023 (2 BvR 294/22) und vom 20. Dezember 2023 (2 BvR 2103/20) die Anforderungen an das Verständigungsverfahren erheblich präzisiert. Erstens hat das BVerfG klargestellt, dass ein verständigungsbasiertes Geständnis zwingend durch förmliche Beweiserhebung in der Hauptverhandlung auf seine Richtigkeit zu überprüfen ist; ein bloßer Abgleich mit der Aktenlage genügt nicht. Ein sog. „Formalgeständnis",
+   "id": "revision:form:004",
+   "skript": "revision",
+   "abschnitt": "I. Rechtsmittelberechtigte › IV. Rechtsmittelverzicht, § 302 StPO › 3. die Staatsanwaltschaft.",
+   "rn": "9"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: b RPflG) oder\ndurch einen von einem Verteidiger oder Rechtsanwalt unterzeichneten\nSchriftsatz; damit übernimmt der Rechtsanwalt die volle Verantwortung für\ndie Revisionsbegründung. Das bedeutet auch, dass er hinter den\ntatsächlichen Behauptungen im Sachvortrag stehen muss und sich nicht",
+   "loesung": "hinter dem Protokoll oder dem Mandantenvortrag verstecken",
+   "id": "revision:form:005",
+   "skript": "revision",
+   "abschnitt": "I. Gerichtszuständigkeit › II. Zulässigkeitsvoraussetzungen der Revision › 5. Ordnungsgemäße Revisionsbegründung (§ 345 StPO)",
+   "rn": "15"
+  },
+  {
+   "typ": "fall",
+   "frage": "Lösen Sie im Klausurstil.\nDer Angeklagte schweigt in der Hauptverhandlung zur Sache vollständig. Das Gericht wertet das Schweigen im Urteil und argumentiert, der Angeklagte müsse einen Grund zum Schweigen gehabt haben, d.h. es müsse Relevantes geben, das er nicht preisgeben wolle. Wenn er unschuldig wäre, so könnte er doch reden und sich entlasten. Da er das nicht getan habe, sei er wohl der Täter. Sein Schweigen sei eines (unter mehreren) Indizien für seine Täterschaft.",
+   "loesung": "Damit hat das Gericht gegen zwei Prinzipien verstoßen. Ein mit der Verfahrensrüge zu beanstandender Verfahrensfehler liegt darin, dass das Schweigen des Angeklagten überhaupt als ein (verwertbares) Beweismittel herangezogen wurde. Bei Totalschweigen des Angeklagten zur Sache darf nämlich nach h.M. überhaupt kein Schluss daraus gezogen werden (Unverwertbarkeit des Verhaltens des Angeklagten in diesem Fall = Verstoß gegen § 261 StPO i.V.m. Grundsatz „nemo tenetur se ipse accussare). 19 Ein mit der Sachrüge zu beanstandender (weil aus den Urteilsgründen allein ersichtlicher!) materiell-rechtlicher Fehler liegt darin, dass das Gericht aus dem Schweigen des Angeklagten einen unerlaubten Schluss zog (Verstoß gegen Denkgesetze). Hier wird als o nicht mehr beanstandet, dass das Schweigen überhaupt verwertet wird, sondern wie es verwertet wird.",
+   "id": "revision:fall:006",
+   "skript": "revision",
+   "abschnitt": "B. Revisionsbegründung, § 344 Abs. 1, Abs. 2 StPO › 3. Abgrenzung Sach-/Verfahrensrüge",
+   "rn": "18"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Bei Totalschweigen des\nAngeklagten zur Sache darf nämlich nach h.M. überhaupt kein Schluss daraus gezogen\nwerden (Unverwertbarkeit des Verhaltens des Angeklagten in diesem Fall = Verstoß gegen §\n261 StPO i.V.m.",
+   "loesung": "nemo tenetur se ipse accussare). 19 Ein mit der Sachrüge zu beanstandender (weil aus den Urteilsgründen allein ersichtlicher!) materiell-rechtlicher Fehler liegt darin, dass das Gericht aus dem Schweigen des Angeklagten einen unerlaubten Schluss zog (Verstoß gegen Denkgesetze). Hier wird als o nicht mehr beanstandet, dass das Schweigen überhaupt verwertet wird, sondern wie es verwertet wird. N.B.: Eine Verfahrensrüge ist nur dann erfolgreich, wenn die den Verfahrensfehler begründenden Sachverhaltsvoraussetzungen zur Überzeugung des Revisionsgerichts feststehen. Zweifel in diesem Bereich wirken sich nicht zugunsten des Revisionsführers (oder des Angeklagten) aus, denn der Grundsatz „in dubio pro reo",
+   "id": "revision:form:007",
+   "skript": "revision",
+   "abschnitt": "B. Revisionsbegründung, § 344 Abs. 1, Abs. 2 StPO › 3. Abgrenzung Sach-/Verfahrensrüge",
+   "rn": ""
+  },
+  {
+   "typ": "fall",
+   "frage": "Lösen Sie im Klausurstil.\nA ist wegen Mordes vor dem Schwurgericht angeklagt. Im Ergebnis wird er wegen gefährlicher Körperverletzung zu einer Freiheitsstrafe von einem Jahr und sechs Monaten verurteilt. Es könnte ein Verfahrenshindernis vorliegen, wenn ein unzuständiges Gericht entschieden hätte. Eine gefährliche Körperverletzung hätte mit der vorliegenden Rechtsfolge auch vor dem Amtsgericht – Strafrichter – verhandelt werden können. Die Anklageerhebung zum Schwurgericht ist gleichwohl unschädlich, da bei Anklageerhebung keine Willkür ersichtlich war und die Strafgewalt der höheren Gerichte umfassend und nicht durch die Strafgewalt der niedrigeren Gerichte begrenzt ist. Das Landgericht kann demnach – ohne Verweisung – auch Geldstrafen verhängen, das Schöffengericht umgekehrt aber nicht mehr als vier Jahre.",
+   "loesung": "- Verstöße gegen die örtliche und funktionelle Zuständigkeit werden vom Revisionsgericht nicht von Amts wegen geprüft. Es handelt sich um absolute Revisionsgründe gemäß § 338 Nr. 4 StPO, die nach h.M. mit einer Verfahrensrüge geltend zu machen sind .",
+   "id": "revision:fall:008",
+   "skript": "revision",
+   "abschnitt": "I. Wichtige Verfahrenshindernisse › 1. Mängel bei der sachlichen Zuständigkeit, insbesondere",
+   "rn": "22"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Was ist hieran fehlerhaft, und wie lautet es richtig?\nFür den Beweis wesentlicher Förmlichkeiten der Hauptverhandlung ist allein das",
+   "loesung": "Unzulässigkeit der Protokollrüge",
+   "id": "revision:fehl:009",
+   "skript": "revision",
+   "abschnitt": "A. Vorbemerkung: Unzulässigkeit der Protokollrüge",
+   "rn": "25"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Was ist hieran fehlerhaft, und wie lautet es richtig?\n§ 338 Nr. 2 StPO: Mitwirkung eines kraft Gesetzes ausgeschlossenen Richters",
+   "loesung": "absolute Revisionsgründe (§ 338 StPO)\n§ 338 Nr.",
+   "id": "revision:fehl:015",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO)",
+   "rn": "27"
+  },
+  {
+   "typ": "fall",
+   "frage": "Lösen Sie im Klausurstil.\nDer Angeklagte hat die X-GmbH betrügerisch geschädigt. Schöffe S ist Prokurist dieser Firma. Ist S von der Urteilsfindung ausgeschlossen?2 Verletzt im Sinne der StPO § 22 Nr. 1 ist nur eine Person, die durch die abzuurteilende Tat unmittelbar betroffen ist. Dies ist bei dem Prokuristen einer geschädigten GmbH auch dann nicht der Fall, wenn er Anteil am Gewinn hat.",
+   "loesung": "28 Fall: Richter R führt den Vorsitz in einer Verhandlung gegen A wegen Anstiftung zur Abtreibung. R hatte in dem Verfahren gegen den mittlerweile rechtskräftig abgeurteilten Haupttäter als Zeuge ausgesagt. Ist R befangen? 3 Ein Richter ist in der Regel auch dann kraft Gesetzes ausgeschlossen, wenn er in einem anderen Verfahren als Zeuge zu demselben Tatgeschehen vernommen worden ist, das er jetzt abzuurteilen hätte.",
+   "id": "revision:fall:017",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO)",
+   "rn": "27"
+  },
+  {
+   "typ": "fall",
+   "frage": "Lösen Sie im Klausurstil.\nRichter R gibt vor der Hauptverhandlung eine Information an die Presse, in der es – entsprechend der Anklageschrift – heißt, der Angeklagte habe es verstanden, durch falsche Angaben Ministerialreferent zu werden. Kann er nunmehr wegen Befangenheit abgelehnt werden?5 Ein Richter kann wegen Besorgnis der Befangenheit abgelehnt werden, wenn er die dem Angeklagten zur Last gelegten Vorgänge der Presse als feststehende Tatsachen mitgeteilt hat. Für einen erkennenden Richter empfiehlt sich gegenüber der Presse vor der Hauptverhandlung große Zurückhaltung.",
+   "loesung": "2 BGH 2. Strafsenat, 26.07.1951, Aktenzeichen: 2 StR 251/51 3 BGH 2. Strafsenat, 29.04.1983, Aktenzeichen: 2 StR 709/82 4 BGH 3. Strafsenat, 09.02.1951, Aktenzeichen: 3 StR 48/50 5 BGH 5. Strafsenat, 09.07.1953, Aktenzeichen: 5 StR 282/53",
+   "id": "revision:fall:018",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO)",
+   "rn": "28"
+  },
+  {
+   "typ": "fall",
+   "frage": "Lösen Sie im Klausurstil.\nVerteidiger V möchte sich für seinen Mandanten äußern und eine entsprechende schriftliche Stellungnahme für diesen verlesen. Das Gericht lehnt diese Vorgehensweise ab. Kann es nun wegen Befangenheit abgelehnt werden?7 1. Die Ablehnung eines Befangenheitsantrages der Verteidigung gegen Berufsrichter der Strafkammer ist nicht zu beanstanden, wenn die Befangenheitsbesorgnis darauf gestützt wurde, dass die Kammer entschieden hat, als Einlassungen der Angeklagten nicht von deren Verteidigern verfasste Erklärungen verlesen zu lassen, wenn diese Entscheidung nicht willkürlich oder abwegig war. 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn besondere Umstände, etwa Sprachfehler oder Sprachhemmungen, einen Angeklagten am eigenen Vortrag hindern oder ihn wesentlich beeinträchtigen würden. Solche Umstände sind hier nicht vorgetragen. Es verbleibt deshalb bei dem Grundsatz, wonach die Vernehmung des Angeklagten zur Sache gemäß § 243 Abs. 4 S. 2 StPO mündlich erfolgt und er sich nicht durch seinen Verteidiger vertreten lassen kann.",
+   "loesung": "Nach § 24 Abs. 2 StPO kann ein Richter wegen Besorgnis der Befangenheit abgelehnt werden, wenn ein Grund vorliegt, der geeignet ist, Misstrauen gegen seine Unparteilichkeit zu rechtfertigen. Das ist der Fall, wenn der Ablehnende bei verständiger Würdigung des ihm bekannten Sachverhalts Grund zur Annahme hat, der Richter nehme ihm gegenüber eine innere Haltung ein, die die gebotene Unparteilichkeit und Unvoreingenommenheit störend beeinflussen kann. Diese Besorgnis lässt sich aber nicht schon allein mit einer fehlerhaften Sachbehandlung begründen. Verfahrensverstöße, die auf einem Irrtum oder auf einer unrichtigen Rechtsansicht beruhen, stellen grundsätzlich keinen Ablehnungsgrund dar, sondern nur dann, wenn die Entscheidungen abwegig sind oder den Anschein d er Willkür erwecken. Abwegig oder willkürlich war die Entscheidung, als Einlassungen der Angeklagten nicht von deren Verteidigern verfasste Erklärungen verlesen zu lassen, nicht. Willkürlich könnte eine solche Entscheidung sein, wenn besondere Umstände, etwa Sprachfehler oder Sprachhemmungen, den Angeklagten am eigenen Vortrag hindern oder ihn wesentlich beeinträchtigen würden. Solche Umstände sind hier nicht vorgetragen. Die Entscheidung steht im Einklang mit der Rechtsprechung des Bundesgerichtshofs, des",
+   "id": "revision:fall:019",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO)",
+   "rn": "29"
+  },
+  {
+   "typ": "fall",
+   "frage": "Lösen Sie im Klausurstil.\nRichter R reagiert auf die Beweisanträge des Verteidigers mit der Bemerkung: „Sie machen die Kammer nicht fertig. Wir haben den längeren Arm.“ Ist ein darauf gestützter Befangenheitsantrag begründet?9 Aus dem Vorbringen der Revision, das durch die dienstlichen Äußerungen sowie den Inhalt des das Gesuch ablehnenden Beschlusses insoweit bestätigt wird, ergibt sich, dass der Vorsitzende davon ausgegangen war - und mangels vorheriger Hinweise auf zu erwartende Beweisanträge auch glaubte, davon ausgehen zu können, - dass die",
+   "loesung": "8 Bayerisches Oberstes Landesgericht 4. Strafsenat, 01.12.1987, Aktenzeichen: RReg 4 St 253/87 9 BGH 3. Strafsenat, 09.03.1988, Aktenzeichen: 3 StR 567/87",
+   "id": "revision:fall:020",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
+   "rn": "30"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der Senat muss davon ausgehen, dass der Vorsitzende sich, wenn\nnicht wörtlich, so doch sinngemäß, so geäußert hat, nachdem dieser in seiner\ndienstlichen Erklärung den ersten Teil dieser Äußerung einräumt und den zweiten nicht\nanspricht, während der Staatsanwalt die Abgabe einer solchen Erklärung für möglich\nhält und der Verteidiger des Mitangeklagten sie in vollem Umfang bestätigt. Auch die\nim selben Zusammenhang der Beweisantragstellung an den Verteidiger gerichteten\nFragen:",
+   "loesung": "Meinen Sie, dass Sie im Interesse Ihres Mandanten handeln?",
+   "id": "revision:form:021",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
+   "rn": "31"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Auch die\nim selben Zusammenhang der Beweisantragstellung an den Verteidiger gerichteten\nFragen: „Meinen Sie, dass Sie im Interesse Ihres Mandanten handeln?“ und",
+   "loesung": "Sie müssen ja wissen, wie Sie Ihren Mandanten verteidigen, Sie werden schon sehen, was Sie davon haben",
+   "id": "revision:form:022",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
+   "rn": "31"
+  },
+  {
+   "typ": "fall",
+   "frage": "Lösen Sie im Klausurstil.\nRichter R, der über einen Schwarzafrikaner zu urteilen hat, hat in einem anderen Verfahren geäußert, dass „insbesondere Afrikaner lügen, dass sich die Balken biegen.“ Ist er befangen?9 Die dem aus Ghana stammenden Angeklagten zugetragene, in einem anderen Verfahren gemachte Äußerung des abgelehnten Richters, ihm sei aus seiner langjährigen Tätigkeit als Ermittlungsrichter bekannt, dass insbesondere Afrikaner ... lügen, dass sich die Balken biegen, gab dem Angeklagten auch bei vernünftiger Würdigung aller Umstände Grund zu der Annahme, der Richter nehme ihm gegenüber eine innere Haltung ein, die dessen Unvoreingenommenheit und Unparteilichkeit störend beeinflussen könne.",
+   "loesung": "9 OLG Köln 1. Strafsenat, 25.10.1991, Aktenzeichen: Ss 477/91",
+   "id": "revision:fall:023",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
+   "rn": "31"
+  },
+  {
+   "typ": "fall",
+   "frage": "Lösen Sie im Klausurstil.\nIm Rahmen der mehrtägigen Hauptverhandlung stellt sich heraus, dass der Angeklagte die an den kommenden Verhandlungstagen noch zu vernehmenden Zeugen bedroht. Die Staatsanwaltschaft beantragt daher den Erlass eines Haftbefehls wegen Verdunkelungsgefahr. De r Verteidiger stellt einen",
+   "loesung": "10 BGH 3. Strafsenat, 01.07.1998, Aktenzeichen: 3 StR 242/98 11 BGH 1. Strafsenat, 04.03.1993, Aktenzeichen: 1 StR 895/92",
+   "id": "revision:fall:024",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
+   "rn": "32"
+  },
+  {
+   "typ": "fall",
+   "frage": "Lösen Sie im Klausurstil.\nIn der Hauptverhandlung vom 7. März 2013 beantragte der Angeklagte die Entbindung seines Pflichtverteidigers, weil dieser die Verteidigung des Angeklagten durch Einwirken auf zwei Zeuginnen gegen dessen Willen eingeschränkt und damit das Vertrauensverhältnis schwerwiegend gestört habe. Mit außerhalb der Hauptverhandlung ergangenem und dem inhaftierten Angeklagten am 22. April 2013 formlos per Post übersandten Beschluss vom 19. Ap.ril 2013 wies der Vorsitzende den Entpflichtungsantrag zurück. Die Vorwürfe des Angeklagten lägen neben der Sache, würden dem bisherigen Einsatz des Verteidigers nicht gerecht und stellten sich entsprechend einer durch den Verteidiger in anderem Zusammenhang gebrauchten Formulierung als „Theaterdonner“ dar. Im nachfolgenden Hauptverhandlungstermin vom 25. April 2013 lehnte der Angeklagte den Vorsitzenden wegen Besorgnis der Befangenheit ab. Er machte unter anderem geltend, dass der Vorsitzende im Zurückweisungsbeschluss das Wort „Theaterdonner“ aufgegriffen und verwendet habe, als sei damit „glasklar erwiesen“, dass der Verteidiger fair gearbeitet und ihn nicht seiner Rechte beraubt habe. Die Schwurgerichtskammer verwarf den Befangenheitsantrag unter Mitwirkung des abgelehnten Vorsitzenden im Termin vom 13. Mai 2013 als unzulässig gemäß § 26a Abs. 1 Nr. 2 und 3 StPO. Der Angeklagte habe weder ein Mittel zur Glaubhaftmachung noch einen geeig neten Ablehnungsgrund angegeben. Betreffend die Formulierung „Theaterdonner“ habe er offengelassen, inwiefern hierdurch Zweifel an der Unvoreingenommenheil des abgelehnten Richters begründet seien. Das Gesuch ziele ersichtlich nicht auf das Ausscheiden des abgelehnten Richters ab, sondern ausschließlich auf die Entpflichtung des Verteidigers und erweise sich damit als Missbrauch des Instituts der Richterablehnung. Bei dem angegriffenen Urteil wirkte ein Richter mit, nachdem ein gegen ihn gerichtetes Ablehnungsgesuch unter Verletzung des § 26a StPO in einer unter dem Aspekt des Art. 101 Abs. 1 Satz 2 GG nicht vertretbaren Weise verworfen worden war. Der Glaubhaftmachung der zugrunde liegenden Tatsachen bedurfte es nicht, weil sich diese aus den Akten ergaben. Die Ablehnung erfolgte auch rechtzeitig. Die Übersendung des Beschlusses vom 19. April 2013 wurde am 22. April 2013 ausgeführt und konnte den Angeklagten demgemäß frühestens am 23. April 2013 erreichen. Zwar kann es das Unverzüglichkeitsgebot in Anbetracht des anzulegenden strengen Maßstabs erfordern, das Gesuch schon während einer Verhandlungsunterbrechung zeitnah schriftlich oder",
+   "loesung": "34 zu Protokoll der Geschäftsstelle anzubringen. Jedoch ist die im unmittelbar folgenden Hauptverhandlungstermin vom 25. April 2013 durchgeführte Antragstellung unter Anrechnung einer dem Angeklagten zuzubilligenden Überlegungsfrist hier als rechtzeitig anzusehen. Das Befangenheitsgesuch hätte nicht nach § 26a Abs. 1 Nr. 2. StPO abgelehnt werden dürfen. Die Vorschrift des § 26a Abs. 1 Nr. 2 Alt. 2 StPO gestattet ausnahmsweise nur dann die Beteiligung des abgelehnten Richters an der Entscheidung über einen gegen ihn gestellten Befangenheitsantrag, wenn das Ablehnungsgesuch ohne nähere Prüfung und losgelöst von den Umständen des Einzelfalls zur Begründung der Besorgnis der Befangenheit gänzlich ungeeignet ist; hingegen darf der abgelehnte Richter über diese bloß formale Prüfung hinaus nicht an einer näheren inhaltlichen Untersuchung der Ablehnungsgründe auch unter dem Blickwinkel einer offensichtlichen Unbegründetheit mitwirken und sich auf diese Weise zum „Richter in eigener Sache“ machen. Dabei muss die Auslegung des Ablehnungsgesuchs darauf ausgerichtet sein, es seinem Inhalt nach vollständig zu erfassen, um nicht im Gewande der Zulässigkeitsprüfung in eine Begründetheitsprüfung einzutreten. Diesen Maßstäben wird der Zurückweisungsbeschluss der Schwurgerichtskammer nicht gerecht. Dem Befangenheitsgesuch ist die Besorgnis des Angeklagten zu entnehmen, dass der Vorsitzende das Vorbringen zur Beeinträchtigung seiner Verteidigungsinteressen durch den Pflichtverteidiger nicht ern",
+   "id": "revision:fall:025",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
+   "rn": "33"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Staatsanwaltschaft und Verteidigung stimmten\ndem zu. Der Angeklagte verließ daraufhin den Sitzungssaal Die Sitzung wurde\nkurz unterbrochen und mit der Verkündung folgenden Beschlusses fortgesetzt:",
+   "loesung": "Gemäß § 247 S. 2 StPO wird der Angeklagte für die Dauer der weiteren Vernehmung der Zeugin W. ausgeschlossen, um einer Retraumatisierung entgegenzutreten und einen weiteren psychischen Schaden für die Zeugin zu verhindern.",
+   "id": "revision:form:026",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
+   "rn": "35"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Er muss vielmehr in Anwesenheit des Angeklagten verkündet\nwerden. Der Umstand, dass der Verteidiger des Angeklagten zuvor erklärt hatte,",
+   "loesung": "dass der Angeklagte einverstanden sei, den Sitzungssaal zu verlassen, auch wenn dafür keine Notwendigkeit gesehen wird",
+   "id": "revision:form:027",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
+   "rn": "35"
+  },
+  {
+   "typ": "fall",
+   "frage": "Lösen Sie im Klausurstil.\nAusweislich des Hauptverhandlungsprotokolls vom 31.01.2001 verkündete die Amtsrichterin am Ende der Hauptverhandlung folgenden Beschluss: 1. Die heutige Hauptverhandlung wird unterbrochen. 2. Termin zur Fortsetzung der Hauptverhandlung wird anberaumt auf Montag, 05. Febr. 01, 08.30 Uhr, an der Tatörtlichkeit. 3. Zu dem Fortsetzungstermin soll die benannte Zeugin Frau G um 09.30 Uhr im Gerichtsgebäude erscheinen. Am 05.02.2001 wurde die Hauptverhandlung vor dem Haus mit der Inaugenscheinnahme des Tatortes und Zeugenvernehmungen sowie anschließend ab ca. 10.30 Uhr im Gerichtsgebäude des Amtsgerichts Dorsten",
+   "loesung": "38 fortgesetzt. Das am Sitzungssaal des Amtsgerichts aushängende Verzeichnis der anstehenden Termine wies folgenden Eintrag auf: „Fortsetzungs - und Ortstermin 08.30 Uhr D, B 5 Ds 32 Js 1035/00 (354/00)“ Nach der dienstlichen Äußerung der Amtsrichterin hatte sie der Protokollführerin keine Anweisung erteilt, den Verhandlungsort („Tatörtlichkeit“) mit der genauen Anschrift in den Aushang aufzunehmen.14 Durch die fehlende Angabe der Anschrift des Verhandlungsortes auf dem Aushang ist das Gebot der Öffentlichkeit des Hauptverfahrens in vorwerfbarer Weise verletzt. Öffentlich ist eine Verhandlung nur dann, wenn die Allgemeinheit, d.h. beliebige, auch unbeteiligte Zuhörer, an der Hauptverhandlung teilnehmen können, sofern sie dies wünschen (BGH NStZ 1981, 311). Der in § 169 Satz 1 GVG normierte Grundsatz der Öffentlichkeit des Verfahrens erfordert, dass das Gericht grundsätzlich durch einen Hinweis am Gerichtssaal auf Ort und Zeit der Verhandlung aufmerksam machen muss, wenn die Hauptverhandlung nicht an der sonst üblichen Stelle stattfindet. Das Amtsgericht hatte hier aufgrund des in der öffentlichen Sitzung vom 31.01.2001 verkündeten Beschlusses die Hauptverhandlung am 05.02.2001 ab 08.30 Uhr zunächst in E-X vor dem Haus I ... und sodann ab 10.30 Uhr im Saal 105 des Amtsgerichts Dorsten fortgesetzt. Der vor dem Gerichtssaal angebrachte Aushang enthielt jedoch keinen Hinweis darauf, an welchem Ort die Fortsetzung der Hauptverhandlung stattfinden sollte. Damit hätte ein Zuhörer, d",
+   "id": "revision:fall:028",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
+   "rn": "37"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Was ist hieran fehlerhaft, und wie lautet es richtig?\ndie behauptete Tatsache hat keine Beziehung zum Prozessstoff oder",
+   "loesung": "3 StPO\ni) Unzulässige Beweiserhebung",
+   "id": "revision:fehl:029",
+   "skript": "revision",
+   "abschnitt": "S. 5 StPO).",
+   "rn": "45"
+  },
+  {
+   "typ": "fall",
+   "frage": "Lösen Sie im Klausurstil.\nDer Angeklagte wird wegen Wohnraumeinbruchs gemäß § 244 StGB verurteilt. Das Gericht führt in den Urteilsgründen aus, dass straferschwerend zu berücksichtigen sei, dass durch den Einbruch in eine Wohnung als grundgesetzlich besonders geschütztem Raum eine erhebliche Traumatisierung der Opfer zu befürchten sei. Ein solcher Strafzumessungsaspekt ist unzulässig, da die Erwägungen bereits den Gesetzgeber dazu gebracht haben, dem Qualifikationstatbestand des § 244 StGB",
+   "loesung": "55 einen erhöhten Strafrahmen zugrunde zu legen. Für eine Erhöhung innerhalb dieses bereits erhöhten Strafrahmens ist somit kein Raum mehr.",
+   "id": "revision:fall:031",
+   "skript": "revision",
+   "abschnitt": "I. Fehlende Schilderung der persönlichen und wirtschaftlichen Verhältnisse › III. Ordnungsgemäße Abwägung gemäß § 46 Abs. 2 StGB",
+   "rn": "54"
+  }
+ ]
+}

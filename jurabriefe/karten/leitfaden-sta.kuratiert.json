@@ -1,0 +1,115 @@
+{
+ "skript": "leitfaden-sta",
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Sie vertreten die Staatsanwaltschaft in der Hauptverhandlung. Der Angeklagte ist trotz ordnungsgemäßer Ladung unentschuldigt ausgeblieben. Ein Strafbefehlsantrag kommt in Betracht. Formulieren Sie den Antrag.",
+   "loesung": "Unter Bezugnahme auf die ordnungsgemäße Ladung wird beantragt, gemäß § 408 a StPO einen der Anklage ent - sprechenden Strafbefehl zu erlassen und die Strafe auf … festzu- setzen.",
+   "id": "leitfaden-sta:form:003",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "26",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Zeuge Müller ist trotz ordnungsgemäßer Ladung unentschuldigt nicht zur Hauptverhandlung erschienen. Formulieren Sie den Antrag auf Verhängung eines Ordnungsgeldes (Tagessatz: 50 Euro, 3 Tage Ordnungshaft als Ersatz).",
+   "loesung": "Es wird beantragt, gegen den trotz ordnungsgemäßer Ladung unentschuldigt nicht erschienenen Zeugen Müller ein Ordnungsgeld von 150,- Euro, ersatzweise drei Tage Ord- nungshaft zu verhängen",
+   "id": "leitfaden-sta:form:007",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "31",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Sie möchten in der Hauptverhandlung Herrn X als Zeugen dafür benennen, dass der Angeklagte sich zur Tatzeit in der Gaststätte Y aufgehalten hat. Formulieren Sie den förmlichen Beweisantrag.",
+   "loesung": "Es wird beantragt, Herrn X, wohnhaft..., als Zeugen zum Beweis dafür zu vernehmen, dass der Angeklagte sich am ... um ... in der Gaststätte Y aufgehalten hat. Der Zeuge X wird hierzu Angaben machen können, da…",
+   "id": "leitfaden-sta:form:008",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "33",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Im Schlussvortrag ist das Ergebnis der Beweisaufnahme darzustellen. Der Angeklagte hat ein Geständnis abgelegt, das durch die übrige Beweisaufnahme bestätigt wurde. Formulieren Sie die entsprechende Passage.",
+   "loesung": "Aufgrund des glaubhaften Geständnisses des Angeklagten, das durch das übrige Ergebnis der Beweisaufnahme bestätigt worden ist, steht fest, dass sich der Sachverhalt wie in der Anklageschrift be- schrieben zugetragen hat.",
+   "id": "leitfaden-sta:form:010",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "37",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Im Schlussvortrag ist die rechtliche Würdigung bei einem einfachen Sachverhalt vorzunehmen. Der festgestellte Sachverhalt erfüllt den Tatbestand des § 242 StGB. Formulieren Sie die rechtliche Würdigung.",
+   "loesung": "...damit hat die Angeklagte einen Diebstahl gemäß § 242 StGB begangen",
+   "id": "leitfaden-sta:form:013",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "38",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Im Schlussvortrag sind Einzelstrafen zu beantragen. Fall 1 der Anklage: Raub; die Angeklagte ist unbestraft und hat glaubhaft gestanden. Fall 2: Diebstahl mit Waffen. Formulieren Sie den Strafantrag für beide Fälle.",
+   "loesung": "Unter Abwägung dieser Umstände – insbesondere aufgrund der bisheri- gen Unbestraftheit der Angeklagten und ihrer reuigen und geständigen Einlassung – erscheint für den Raub (Fall 1 der Anklage) eine Geldstrafe von 120 Tagessätzen zu je 15,- Euro tat- und schuldangemessen, für Fall 2 der Anklage, den Diebstahl mit Waffen, eine Freiheitsstrafe von acht Monaten.",
+   "id": "leitfaden-sta:form:014",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "41",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Antrag auf Gesamtstrafenbildung bei Tatmehrheit (§§ 53, 54 StGB) im Plädoyer. Wegen mehrerer in Tatmehrheit stehender Delikte soll eine Gesamtfreiheitsstrafe beantragt werden.",
+   "loesung": "unter erneuter Abwägung der für und gegen die/den Angeklagte/n sprechenden Umstände",
+   "id": "leitfaden-sta:form:015",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "45",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Antrag auf nachträgliche Gesamtstrafenbildung gem. § 55 StGB. Aus zwei Einzelstrafen soll eine Gesamtfreiheitsstrafe von zehn Monaten gebildet werden.",
+   "loesung": "Unter erneuter Abwägung aller für und gegen die Angeklagte spre - chenden Strafzumessungsumstände ist aus diesen beiden Einzelstrafen eine tat- und schuldangemessene Gesamtfreiheitsstrafe von zehn Mo - naten zu bilden.",
+   "id": "leitfaden-sta:form:016",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, § 54 Rn. 10).",
+   "rn": "45",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Bewährungsantrag im Plädoyer. Die Angeklagte ist nicht vorbestraft, es soll eine Bewährungszeit von drei Jahren, Unterstellung unter einen Bewährungshelfer sowie die Auflage von 120 Stunden gemeinnütziger Arbeit beantragt werden.",
+   "loesung": "Die Vollstreckung dieser Freiheitsstrafe kann zur Bewährung ausge - setzt werden. Die Angeklagte ist bislang strafrechtlich nicht in Erschei- nung getreten, weshalb zu erwarten ist, dass sie sich bereits die Ver - hängung einer Freiheitsstrafe hinreichend zur Warnung dienen lässt, um zukünftig von der Begehung weiterer Straftaten Abstand zu nehmen. Die Dauer der Bewährungszeit sollte drei Jahre betragen. Zudem sollte die Angeklagte zum einen für die Dauer der Bewährungszeit der A uf- sicht und Leitung eines hauptamtlichen Bewährungshelfers unterstellt werden, damit ihr Hilfe bei der Stabilisierung seiner Lebensverhält - nisse, insbesondere bei der Suche nach einer Therapiestelle und einer geeigneten Einrichtung des betreuten Wohnens zur Verfügung steht. Zum anderen wird beantragt, der Angeklagten die Ableistung von 120 Stunden gemeinnütziger Arbeit binnen sechs Monaten nach Rechts - kraft des Urteils aufzuerlegen, damit ihr das von ihr begangene Unrecht auch durch eine unmittelbar spürbare Sanktion noch einmal vor Augen geführt wird.",
+   "id": "leitfaden-sta:form:017",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, Rn. 9 zu § 55 StGB.",
+   "rn": "47",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Antrag auf Entziehung der Fahrerlaubnis mit Sperrfrist im Plädoyer. Der Angeklagte hat sich durch die Taten als ungeeignet zum Führen von Kraftfahrzeugen erwiesen; beantragt wird eine Sperre von zwei Jahren.",
+   "loesung": "Durch diese Taten hat sich der Angeklagte zudem als ungeeignet zum Führen von Kraftfa hrzeugen erwiesen. Ich beantrage daher, dem Angeklagten die Fahrerlaubnis zu entziehen, den Führerschein einzuziehen und die Verwaltungsbehörde anzuweisen, ihm vor Ablauf einer Sperre von zwei Jahren keine neue Fahrerlaubnis zu erteilen.",
+   "id": "leitfaden-sta:form:018",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, Rn. 9 zu § 55 StGB.",
+   "rn": "50",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Freispruchsantrag im Plädoyer einschließlich des Antrags zur Entschädigung nach dem StrEG. Der Angeklagte hat Untersuchungshaft erlitten.",
+   "loesung": "Ich beantrage daher, den Angeklagten freizusprechen und festzu- stellen, dass der Angeklagte für die erlittene Untersuchungshaft zu entschädigen ist.",
+   "id": "leitfaden-sta:form:019",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, Rn. 9 zu § 55 StGB.",
+   "rn": "51",
+   "gewicht": 3
+  }
+ ]
+}

@@ -1,0 +1,575 @@
+{
+ "skript": "zr-staat",
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Urteilskopf für folgenden Sachverhalt: Klägerin ist Frau Lare Heise, wohnhaft Jonasstraße 12, 12345 Berlin. Beklagter ist Herr Jonas Jonathan, wohnhaft Jonasstraße 13, 12345 Berlin.",
+   "loesung": "der Frau Lare Heise, Jonasstraße 12, 12345 Berlin, Klägerin, gegen Herrn Jonas Jonathan, Jonasstraße 13, 12345 Berlin, Beklagten,",
+   "id": "zr-staat:form:001",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 2. Grammatik der Parteibezeichnungen",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Urteilskopf für folgenden Sachverhalt: Kläger ist Herr Werner Heise, wohnhaft Abtstraße 12, 14469 Berlin. Beklagter ist das Land Berlin, vertreten durch die Senatsverwaltung für Justiz und Verbraucherschutz, diese vertreten durch die Senatorin Dr. Felor Badenberg, Salzburger Straße 21-25, 10825 Berlin.",
+   "loesung": "Herrn Werner Heise, Abtstraße 12, 14469 Berlin, Kläger, gegen Land Berlin, vertreten durch die Senatsverwaltung für Justiz und Verbraucherschutz, diese vertreten durch die Senatorin für Justiz und Verbraucherschutz Dr. Felor Badenberg, Salzburger Straße 21-25, 10825 Berlin Beklagter,",
+   "id": "zr-staat:form:002",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 2. Grammatik der Parteibezeichnungen",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Urteilskopf für folgenden Sachverhalt: Kläger sind die Eheleute Werner Müller und Gabriele Müller, beide wohnhaft Hauptstraße 3, 15890 Eisenhüttenstadt, vertreten durch dieselbe Rechtsanwältin.",
+   "loesung": "1. Werner Müller, 2. Gabriele Müller, beide Hauptstraße 3, 15890 Eisenhüttenstadt, Kläger, - Prozessbevollmächtigte: Rechtsanwältin ... –",
+   "id": "zr-staat:form:003",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 3. Streitgenossen",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Urteilskopf für folgenden Sachverhalt: Klägerin ist die Kauffrau Wilhelmina Zufall, wohnhaft Peststraße 14, 12345 Berlin; sie handelt unter der Firma Agathe Teufel.",
+   "loesung": "der unter der Firma Agathe Teufel handelnden Kauffrau Wilhelmina Zufall, Peststraße 14, 12345 Berlin, Klägerin,",
+   "id": "zr-staat:form:004",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 4. Kaufleute",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Urteilskopf für folgenden Sachverhalt: Klägerin ist Rechtsanwältin Johanna Glücklich, Friedensweg 1, 15230 Frankfurt (Oder), in ihrer Eigenschaft als Insolvenzverwalterin über das Vermögen der Gesundheits- und Heil GmbH und Co. KG, Bergstr. 12, 15230 Frankfurt (Oder).",
+   "loesung": "der Rechtsanwältin Johanna Glücklich, Friedensweg 1, 15230 Frankfurt (Oder), als Insolvenzverwalterin über das Vermögen der Gesundheits- und Heil GmbH und Co. KG, Bergstr. 12, 15230 Frankfurt (Oder), Klägerin,",
+   "id": "zr-staat:form:005",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 5. Parteien kraft Amtes",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Urteilskopf für folgenden Sachverhalt: Klägerin ist die Bonus GmbH, Sonnenallee 93, 12199 Berlin, gesetzlich vertreten durch die Geschäftsführer Holger Fahls und Maria Herbst.",
+   "loesung": "der Bonus GmbH, gesetzlich vertreten durch die Geschäftsführer Holger Fahls und Maria Herbst, Sonnenallee 93, 12199 Berlin, Klägerin,",
+   "id": "zr-staat:form:006",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Urteilskopf für folgenden Sachverhalt: Klägerin ist die Mega AG, Hainerpfad 7, 15299 Müllrose, gesetzlich vertreten durch ihre Vorstandsmitglieder Heike Müller, Jenny Golz und Sabine Erbs.",
+   "loesung": "der Mega AG, gesetzlich vertreten durch ihre Vorstandsmitglieder Heike Müller, Jenny Golz und Sabine Erbs, Hainerpfad 7, 15299 Müllrose, Klägerin,",
+   "id": "zr-staat:form:007",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Urteilskopf für folgenden Sachverhalt: Klägerin ist die ... GmbH & Co. KG, Sonnenallee 93, 12199 Berlin, gesetzlich vertreten durch die ... GmbH, diese gesetzlich vertreten durch ihre Geschäftsführer Herbert Müller u. a.",
+   "loesung": "der ... GmbH & Co. KG, gesetzlich vertreten durch die ... GmbH, diese gesetzlich vertreten durch ihre Geschäftsführer Herbert Müller u. a., Sonnenallee 93, 12199 Berlin, Klägerin,",
+   "id": "zr-staat:form:008",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie die Eingangsformel des Urteils für folgenden Sachverhalt: Das Gericht entscheidet im schriftlichen Verfahren; die Schriftsatzfrist läuft bis zu einem bestimmten Datum.",
+   "loesung": "im schriftlichen Verfahren mit einer Schriftsatzfrist bis zum ...",
+   "id": "zr-staat:form:011",
+   "skript": "zr-staat",
+   "abschnitt": "V. Streithelfer › VII. Angabe des letzten Tages und des Klagegrundes",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Kostenausspruch im Tenor für folgenden Sachverhalt: Der Beklagte unterliegt vollständig.",
+   "loesung": "Der Beklagte hat die Kosten des Rechtsstreits zu tragen.",
+   "id": "zr-staat:form:012",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › 2. Kostenentscheidung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Beklagte hat versäumt, zur mündlichen Verhandlung zu erscheinen. Die übrigen Kosten des Rechtsstreits trägt der Kläger. Formulieren Sie die Kostenentscheidung.",
+   "loesung": "Der Beklagte hat die Kosten seiner Säumnis zu tragen; die übrigen Kosten des Rechtsstreits hat der Kläger zu tragen.",
+   "id": "zr-staat:form:013",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › 2. Kostenentscheidung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Das Urteil soll vorläufig vollstreckbar erklärt werden; die Vollstreckung soll nur gegen Sicherheitsleistung möglich sein. Formulieren Sie den Vollstreckbarkeitsausspruch.",
+   "loesung": "Das Urteil ist gegen Sicherheitsleistung in Höhe des jeweils zu vollstreckenden Betrages zuzüglich 10 % vorläufig vollstreckbar.",
+   "id": "zr-staat:form:014",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › 3. Entscheidung über Vollstreckbarkeit",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Das Urteil soll vorläufig vollstreckbar erklärt werden; dem Beklagten soll die Möglichkeit zur Abwendung durch Sicherheitsleistung eingeräumt werden. Formulieren Sie den Vollstreckbarkeitsausspruch.",
+   "loesung": "Das Urteil ist vorläufig vollstreckbar. Der Beklagte darf die Vollstreckung durch Sicherheitsleistung in Höhe des auf Grund des Urteils vollstreckbaren Betrages zuzüglich 10 % abwenden, wenn nicht die Klägerin vor der Vollstreckung Sicherheit in Höhe des jeweils zu vollstreckenden Betrages zuzüglich 10 % leistet.",
+   "id": "zr-staat:form:015",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › 3. Entscheidung über Vollstreckbarkeit",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Voraussetzungen des § 511 Abs. 4 ZPO liegen vor; die Berufung des Beklagten soll zugelassen werden. Formulieren Sie den entsprechenden Tenorausspruch.",
+   "loesung": "Die Berufung des Beklagten wird zugelassen.",
+   "id": "zr-staat:form:016",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › 4. Zulassung von Rechtsmitteln",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Beklagte wird wegen einer vorsätzlich begangenen unerlaubten Handlung zur Zahlung von 800,00 EUR verurteilt. Formulieren Sie den Tenor unter Berücksichtigung des § 850f Abs. 2 ZPO.",
+   "loesung": "Der Beklagte wird verurteilt, an den Kläger wegen vorsätzlich begangener unerlaubter Handlung 800,00 EUR zu zahlen.",
+   "id": "zr-staat:form:024",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › II. Einzelheiten › 2. Knapp",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Beklagte wird zur Zahlung von 8.777,91 EUR nebst Zinsen verurteilt; der weitergehende Antrag des Klägers hat keinen Erfolg. Formulieren Sie den vollständigen Tenor der Hauptsache.",
+   "loesung": "Die Beklagte wird verurteilt, an den Kläger 8.777,91 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit dem 13. September 2025 zu zahlen. Im Übrigen wird die Klage abgewiesen.",
+   "id": "zr-staat:form:026",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › II. Einzelheiten › 3. Erschöpfend",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Beklagte soll zur Räumung und Herausgabe einer Wohnung verurteilt werden (Werbellinstraße 60, 12053 Berlin, 2. OG links, 1 Zimmer, 1 Küche, 1 Flur, 1 Bad/WC, 1 Balkon, Keller Nr. 11). Formulieren Sie den Räumungstenor.",
+   "loesung": "Der Beklagte wird verurteilt, die im Hause Werbellinstraße 60, 12053 Berlin, zweites Obergeschoss links, gelegene Wohnung, bestehend aus 1 Zimmer, 1 Küche, 1 Flur, 1 Bad/WC, 1 Balkon und Keller Nr. 11, zu räumen und geräumt an die Klägerin herauszugeben.",
+   "id": "zr-staat:form:027",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 1. Leistungsurteile",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Beklagte soll zur Zahlung von 3.931,78 EUR nebst gesetzlichen Verzugszinsen seit dem 3. März 2025 verurteilt werden. Formulieren Sie den Zahlungstenor.",
+   "loesung": "Der Beklagte wird verurteilt, an die Klägerin 3.931,78 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit dem 3. März 2025 zu zahlen.",
+   "id": "zr-staat:form:028",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 1. Leistungsurteile",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Tenor: Das Versäumnisurteil des AG Neuruppin vom 26. Februar 2025 – 14 C 8/24 – wird teilweise aufrechterhalten; der Beklagte bleibt verurteilt, an den Kläger 4.800,00 EUR nebst Zinsen (5 PP über Basiszins seit 13. Dezember 2023) zu zahlen; im Übrigen wird das Versäumnisurteil aufgehoben und die Klage abgewiesen.",
+   "loesung": "Das Versäumnisurteil des Amtsgerichts Neuruppin vom 26. Februar 2025 – 14 C 8/ 24 – wird insoweit aufrechterhalten, als der Beklagte verurteilt ist, an den Kläger 4.800,00 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit dem 13. Dezember 2023 zu zahlen. Im Übrigen wird das Versäumnisurteil aufgehoben und die Klage abgewiesen.",
+   "id": "zr-staat:form:030",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 1. Leistungsurteile",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Tenor eines Feststellungsurteils: Gegenstand ist die Eigentümerstellung des Klägers an einem Pkw Ford Typ Transit, Fahrzeug-Identifizierungsnummer ABCDEFGH123456789.",
+   "loesung": "Es wird festgestellt, dass der Kläger Eigentümer des Pkw Ford Typ Transit, Fahrzeug-Identifizierungsnummer ABCDEFGH123456789, ist.",
+   "id": "zr-staat:form:031",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 2. Feststellungsurteile",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Tenor eines Feststellungsurteils: Der Rechtsstreit hat sich in der Hauptsache erledigt.",
+   "loesung": "Es wird festgestellt, dass sich der Rechtsstreit in der Hauptsache erledigt hat.",
+   "id": "zr-staat:form:032",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 2. Feststellungsurteile",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Tenor eines Feststellungsurteils: Der Beklagte hat der Klägerin sämtliche weiteren materiellen Schäden aus einem Verkehrsunfall vom 9. November 2024 in der Schrottstraße 5 in 14641 Nauen zu ersetzen.",
+   "loesung": "Es wird festgestellt, dass der Beklagte der Klägerin sämtliche weiteren materiellen Schäden zu ersetzen hat, die ihr aufgrund des Verkehrsunfalls vom 9. November 2024 in der Schrottstraße 5 in 14641 Nauen entstanden sind oder noch entstehen werden.",
+   "id": "zr-staat:form:033",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 2. Feststellungsurteile",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Tenor eines Gestaltungsurteils (Vollstreckungsgegenklage): Die Zwangsvollstreckung aus dem Urteil des AG Neukölln vom 13. Mai 2024 – 4 C 300/23 – ist unzulässig, soweit der Beklagte wegen mehr als 5.000,00 EUR nebst Zinsen (5 PP über Basiszins seit 10. Dezember 2023) vollstreckt; im Übrigen wird die Klage abgewiesen.",
+   "loesung": "Die Zwangsvollstreckung aus dem Urteil des Amtsgerichts Neukölln vom 13. Mai 2024 – 4 C 300/23 – wird für unzulässig erklärt, soweit der Beklagte hieraus wegen mehr als 5.000,00 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit dem 10. Dezember 2023 vollstreckt. Im Übrigen wird die Klage abgewiesen.",
+   "id": "zr-staat:form:034",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 3. Gestaltungsurteile",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Tenor eines Gestaltungsurteils (Drittwiderspruchsklage): Die Zwangsvollstreckung des Beklagten aus dem Urteil des AG Neukölln vom 13. Mai 2024 – 4 C 300/23 – in das am 10. August 2025 beim Schuldner Herbert Meier, Hermannstr. 23, 12345 Berlin, gepfändete Herren-Rennrad Canondale SuperSix, Rahmennummer 12345 (Pfändungsprotokoll GV Herbert Müller DR Nr. II 355/25), ist unzulässig.",
+   "loesung": "Die Zwangsvollstreckung des Beklagten aus dem Urteil des Amtsgerichts Neukölln vom 13. Mai 2024 – 4 C 300/ 23 – in das am 10. August 2025 bei dem Schuldner Herbert Meier, Hermannstr. 23, 12345 Berlin, gepfändete Herren-Rennrad Canondale SuperSix, Rahmennummer 12345 (Pfändungsprotokoll des Gerichtsvollziehers Herbert Müller DR Nr. II 355/25), wird für unzulässig erklärt.",
+   "id": "zr-staat:form:035",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 3. Gestaltungsurteile",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Tenor bei einer unzulässigen oder unbegründeten Klage (Grundfall).",
+   "loesung": "Die Klage wird abgewiesen.",
+   "id": "zr-staat:form:036",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 4. Unzulässige und unbegründete Klagen",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Tenor: Das Versäumnisurteil des AG Neukölln – 12 C 134/25 – vom 28. April 2025 wird aufgehoben und die Klage abgewiesen.",
+   "loesung": "Das Versäumnisurteil des Amtsgerichts Neukölln - 12 C 134/25 - vom 28. April 2025 wird aufgehoben und die Klage abgewiesen",
+   "id": "zr-staat:form:037",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 4. Unzulässige und unbegründete Klagen",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie einen Verweissatz im Tatbestand: Wegen der Einzelheiten des Kaufvertrages soll auf die Anlage 2 zur Klageschrift Bezug genommen werden.",
+   "loesung": "Wegen der Einzelheiten des Kaufvertrages wird auf die Anlage 2 zur Klageschrift Bezug genommen",
+   "id": "zr-staat:form:039",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie die Einleitung des streitigen Klägervorbringens im Tatbestand: Der Kläger behauptet, die Wand sei grün und die Tür sei gelb.",
+   "loesung": "Der Kläger behauptet,36 die Wand sei grün. Er behauptet weiter, die Tür sei gelb.",
+   "id": "zr-staat:form:047",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 2. Streitiges Vorbringen › b. Streitiges Vorbringen des Klägers",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie das streitige tatsächliche Klägervorbringen im Tatbestand (Variante: Aufzählung mit Doppelpunkt).",
+   "loesung": "Die Klägerin behauptet: Die Wand sei grün. Die Tür sei gelb.",
+   "id": "zr-staat:form:048",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 2. Streitiges Vorbringen › b. Streitiges Vorbringen des Klägers",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie die Kennzeichnung einer Rechtsansicht des Klägers im Tatbestand.",
+   "loesung": "Die Klägerin ist der Ansicht/Auffassung, meint ... .",
+   "id": "zr-staat:form:049",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 2. Streitiges Vorbringen › b. Streitiges Vorbringen des Klägers",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Klageantrag auf Zahlung nebst Rechtshängigkeitszinsen im Tatbestand (wörtliche Wiedergabe).",
+   "loesung": "Der Kläger beantragt, den Beklagten zu verurteilen, an ihn 5.500,00 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit Rechtshängigkeit zu zahlen.",
+   "id": "zr-staat:form:050",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 3. Anträge",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Klageabweisungsantrag der Beklagten nebst Vollstreckungsschutz-Hilfsantrag im Tatbestand.",
+   "loesung": "Die Beklagte beantragt, die Klage abzuweisen, hilfsweise, das Urteil nicht für vorläufig vollstreckbar zu erklären oder die Vollstreckung auf die in § 720a Abs. 1, 2 ZPO bezeichneten Maßregeln zu beschränken.",
+   "id": "zr-staat:form:051",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 3. Anträge",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie die Beurkundung einer Aufrechnungserklärung in der Prozessgeschichte (Perfekt).",
+   "loesung": "Die Beklagte hat mit Schriftsatz vom … die Aufrechnung mit einer Forderung aus Werkvertrag/Delikt erklärt",
+   "id": "zr-staat:form:052",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 7. Prozessgeschichte",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie eine Klageänderung (Klageerweiterung) in der Prozessgeschichte.",
+   "loesung": "Der Kläger hat zunächst Zahlung von 1.000,00 EUR verlangt. Nunmehr beantragt er, ...",
+   "id": "zr-staat:form:053",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 7. Prozessgeschichte",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Bericht über eine Beweisaufnahme durch uneidliche Zeugenvernehmung, wenn kein Beweisbeschluss vorliegt (Beweisthema ist zu umschreiben).",
+   "loesung": "Das Gericht hat über die Behauptung des Klägers, der Beklagte habe ihm einen Faustschlag versetzt, Beweis erhoben durch uneidliche Vernehmung der Zeugen ... und ... . Hinsichtlich des Ergebnisses der Beweisaufnahme wird auf die Sitzungsniederschrift vom ... verwiesen.",
+   "id": "zr-staat:form:055",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 7. Prozessgeschichte",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Einstieg in die Entscheidungsgründe im Urteilsstil für eine begründete Schadensersatzklage aus § 823 Abs. 1 BGB (mit Zwischenergebnissen).",
+   "loesung": "Die Klage ist begründet. • (Denn) • Dem Kläger steht gegen den Beklagten wegen der Beschädigung seines Pkw ein Schadensersatzanspruch in Höhe von 1.000,00 90 § 313 Abs. 1 Nr. 6 ZPO 91 Aufgabe 92 Urteilsstil EUR aus § 823 Absatz 1 BGB zu. • (Denn) • Der Beklagte hat das Eigentum des Klägers am Pkw dadurch verletzt, dass er ... • ...",
+   "id": "zr-staat:form:056",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › 2. Urteilsstil",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie einen Eröffnungssatz der Entscheidungsgründe im Urteilsstil (Präsens) für eine begründete Klage aus § 280 Abs. 1 BGB.",
+   "loesung": "Die Klage ist begründet; die Voraussetzungen des § 280 Abs. 1 BGB liegen vor ...",
+   "id": "zr-staat:form:057",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › 5. Zeitform der Entscheidungsgründe",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie in den Entscheidungsgründen den Bericht über das Ergebnis einer Beweisaufnahme (Zeitform: Perfekt).",
+   "loesung": "Das Sachverständigengutachten hat im Rahmen der Beweisaufnahme ergeben, … Der Zeuge hat bekundet, ...",
+   "id": "zr-staat:form:058",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › 5. Zeitform der Entscheidungsgründe",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie in den Entscheidungsgründen die Beweiswürdigung nach Zeugenvernehmung gemäß § 286 ZPO.",
+   "loesung": "Nach dem Ergebnis der Beweisaufnahme ist bewiesen (steht es zur Überzeugung des Gerichts fest) , dass der Beklagte den Pkw des Klägers beschädigte hat. Der Zeuge Müller hat bekundet, dass der Beklagte mit einem Baseballschläger auf die Frontscheibe des Pkw des Klägers wuchtig eingeschlagen habe",
+   "id": "zr-staat:form:059",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › 6. Feststellungen im Sinne von § 286 ZPO",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Beweisaufnahme: Zeuge Müller hat bekundet, der Beklagte habe wuchtig mit einem Baseballschläger auf die Frontscheibe des Pkw des Klägers eingeschlagen. Aussage ist glaubhaft. Formulieren Sie den Anschlusssatz zur Glaubwürdigkeit des Zeugen.",
+   "loesung": "Der Zeuge ist auch glaubwürdig ...",
+   "id": "zr-staat:form:060",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › 6. Feststellungen im Sinne von § 286 ZPO",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Einleitungssatz der Entscheidungsgründe: Klage zulässig, Klage begründet (Kurzform mit eingebettetem Zulässigkeitsergebnis).",
+   "loesung": "Die zulässige Klage ist begründet.",
+   "id": "zr-staat:form:061",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Einleitungssatz der Entscheidungsgründe: Klage zulässig und begründet (beide Prüfungsergebnisse gleichrangig nebengestellt).",
+   "loesung": "Die Klage ist zulässig und begründet.",
+   "id": "zr-staat:form:062",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Einleitungssatz der Entscheidungsgründe: Klage zulässig und begründet, mit Gliederungspunkten (I.) und (II.).",
+   "loesung": "Die Klage ist zulässig (I.) und begründet (II.).",
+   "id": "zr-staat:form:063",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Einleitungssatz der Entscheidungsgründe: Antrag war auszulegen, Klage in ausgelegter Form zulässig und begründet, mit Gliederungspunkten (I.), (II.) und (III.).",
+   "loesung": "Die Klage ist in ihrer ausgelegten Form (I.) zulässig (II.) und begründet (III.).",
+   "id": "zr-staat:form:064",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Einleitungssatz der Entscheidungsgründe: Klage zulässig, nur teilweise begründet (Verweis auf Tenor für den Umfang).",
+   "loesung": "Die zulässige Klage ist in dem aus dem Tenor ersichtlichen Umfang begründet.",
+   "id": "zr-staat:form:065",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Einleitungssatz der Entscheidungsgründe: Klage zulässig, aber unbegründet.",
+   "loesung": "Die zulässige Klage ist unbegründet.",
+   "id": "zr-staat:form:066",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Einleitungssatz der Entscheidungsgründe: Klage hat Hauptantrag und Hilfsantrag; bereits der Hauptantrag ist begründet.",
+   "loesung": "Die Klage ist bereits im Hauptantrag begründet.",
+   "id": "zr-staat:form:067",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Einleitungssatz der Entscheidungsgründe: Klage zulässig, dem Kläger wird mehr als die Hälfte zugesprochen, aber nicht alles.",
+   "loesung": "Die Klage ist zulässig und überwiegend begründet.",
+   "id": "zr-staat:form:068",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Einleitungssatz der Entscheidungsgründe: Klage zulässig, aber nur zu einem Teil begründet.",
+   "loesung": "Die Klage ist zulässig und teilweise begründet",
+   "id": "zr-staat:form:069",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Antrag des Klägers ist unklar und muss vor Zulässigkeitsprüfung ausgelegt werden. Formulieren Sie den Einstieg der Entscheidungsgründe einschließlich der Auslegung.",
+   "loesung": "Entscheidungsgründe Der Antrag des Klägers [ ggf. Wiedergabe des Antrages] ist dahingehend auszulegen, dass er (...). Für diese Auslegung spricht, dass [Begründung für das Ergebnis der Auslegung].",
+   "id": "zr-staat:form:070",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 2. Unklare Anträge",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Beklagte hat gegen ein Versäumnisurteil vom 23. Mai 2025 Einspruch eingelegt. Formulieren Sie den Eröffnungssatz zur Zulässigkeit des Einspruchs.",
+   "loesung": "Der Einspruch der Beklagten gegen das Versäumnisurteil vom 23. Mai 2025 ist zulässig und insbesondere rechtzeitig innerhalb der Zweiwochenfrist des § 339 Abs. 1 ZPO eingelegt. ...",
+   "id": "zr-staat:form:071",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 3. Prüfung eines Rechtsbehelfs/Rechtsmittels",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Zulässigkeit ist unproblematisch. Formulieren Sie die Zulässigkeit knapp aus (längere Version).",
+   "loesung": "Die Klage ist zulässig. Insbesondere ist das angerufene Gericht nach § 1 ZPO, §§ 23 Nr. 1, 71 Abs. 2 GVG sachlich und nach §§ 12, 13 ZPO örtlich zuständig. Sie ist auch begründet. …",
+   "id": "zr-staat:form:072",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › III. Sachurteilsvoraussetzungen › 2. Kein Zulässigkeitsproblem",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Kläger begehrt Feststellung. Das Feststellungsinteresse ist kurz zu prüfen. Formulieren Sie.",
+   "loesung": "Auch das nach § 256 Abs. 1 ZPO erforderliche Feststellungsinteresse ist gegeben. Denn der Kläger hat bei Eintritt eines erledigenden Ereignisses keine andere Möglichkeit als die Feststellungsklage, um von den Kosten des Rechtsstreits befreit zu werden",
+   "id": "zr-staat:form:074",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › III. Sachurteilsvoraussetzungen › 4. Besondere Sachurteilsvoraussetzungen",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Klage ist begründet. Formulieren Sie den Einleitungssatz zur Begründetheit (Kaufvertrag, Zahlung 5.000,00 EUR).",
+   "loesung": "Die Klägerin hat einen Anspruch auf Zahlung von 5.000,00 EUR aus dem am 21. Mai 2025 zwischen den Parteien geschlossenen Kaufvertrag in Verbindung mit § 433 Absatz 2 BGB.",
+   "id": "zr-staat:form:075",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › IV. Begründetheit › 2. Hauptanspruch › a. Begründete Klage",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "aufbau",
+   "frage": "Die Klage ist abzuweisen. Geben Sie den allgemeinen Prüfungsaufbau der Anspruchsgrundlagen an.",
+   "loesung": "1. Vertrag\n2. quasivertragliche Ansprüche\n3. dingliche Ansprüche\n4. ungerechtfertigte Bereicherung",
+   "id": "zr-staat:aufb:076",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › IV. Begründetheit › 2. Hauptanspruch › b. Unbegründete Klage",
+   "rn": "139",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Kostenentscheidung ergibt sich ohne weiteres aus dem Gesetz. Formulieren Sie die Begründung.",
+   "loesung": "Die Kostenentscheidung beruht auf § 91 Abs. 1 Satz 1 ZPO.",
+   "id": "zr-staat:form:078",
+   "skript": "zr-staat",
+   "abschnitt": "V. Prozessuale Nebenentscheidungen › 1. Kostenentscheidung",
+   "rn": "139",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Parteien haben den Rechtsstreit teilweise übereinstimmend für erledigt erklärt. Die Kostenentscheidung stützt sich auf § 91a ZPO und ist zu begründen. Formulieren Sie.",
+   "loesung": "Soweit die Parteien den Rechtsstreit in der Hauptsache wegen des Austauschs der Fenster in der Küche und der Abdichtung der Terrasse für erledigt erklärt haben, sind dem Beklagten die Kosten aufzuerlegen. Nach § 91 a Abs. 1 ZPO ist eine Billigkeitsentscheidung nach dem bisherigen Sach- und Streitstand zu treffen. Nach der derzeitigen Sach - und Rechtslage hätte die Klage voraussichtlich Erfolg gehabt. Der Beklagte war unstreitig Nebenentscheidungen bereits vor Rechtshängigkeit verpflichtet, die Schäden an den Fenstern und an der Terrasse zu beheben [ist weiter auszuführen].",
+   "id": "zr-staat:form:079",
+   "skript": "zr-staat",
+   "abschnitt": "V. Prozessuale Nebenentscheidungen › 1. Kostenentscheidung",
+   "rn": "139",
+   "gewicht": 3
+  }
+ ]
+}

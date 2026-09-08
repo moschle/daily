@@ -1,0 +1,15 @@
+{
+ "skript": "aktenvortrag",
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Kurzvorschlag im Aktenvortrag. Sachverhalt: Die Klage ist begründet / der Anwalt empfiehlt Klageerhebung / es soll eine Abrissverfügung ergehen.",
+   "loesung": "Ich schlage vor, der Klage stattzugeben / Verpflichtungsklage zu erheben / gegen Herrn Müller eine Abrissverfügung zu erlassen",
+   "id": "aktenvortrag:form:005",
+   "skript": "aktenvortrag",
+   "abschnitt": "I. Ziel › IV. Aufbau › 1. Der einleitende Satz soll vorab darüber informieren, ob ein Sachverhalt aus",
+   "rn": "",
+   "gewicht": 3
+  }
+ ]
+}

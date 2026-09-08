@@ -1,0 +1,105 @@
+{
+ "skript": "sr-staat",
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Obersatz der Deliktsprüfung für § 132 1. Alt. StGB. A hat sich gegenüber dem Bankangestellten als 'Polizeibeamter' ausgegeben.",
+   "loesung": "1. § 132 1. Alt. StGB A könnte sich einer Amtsanmaßung hinreichend verdächtig gemacht haben, indem er sich gegenüber dem Bankangestellten als ‚Polizeibeamter‘ ausgab.",
+   "id": "sr-staat:form:001",
+   "skript": "sr-staat",
+   "abschnitt": "I. Deliktsprüfung",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie die Bezugnahme auf das materiellrechtliche Gutachten im Rahmen des dringenden Tatverdachts (§ 112 Abs. 1 S. 1 StPO).",
+   "loesung": "Nach dem Ergebnis des materiellrechtlichen Gutachtens ist der Tatverdacht nicht nur hinreichend, sondern auch dringend.",
+   "id": "sr-staat:form:007",
+   "skript": "sr-staat",
+   "abschnitt": "I. Dringender Tatverdacht, § 112 Abs. 1 S. 1 StPO",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Haftvermerk, der rechts oben im Kopf der Anklageschrift einzutragen ist.",
+   "loesung": "Haft! Frist gemäß §§ 121, 122 StPO: TT.MM.JJJJ",
+   "id": "sr-staat:form:008",
+   "skript": "sr-staat",
+   "abschnitt": "I. Oben › III. Rechts oben › 1. die Haftverhältnisse – in Kurzform (Nr. 52 RiStBV):",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie die Verteidiger-Angabe im Rubrum der Anklageschrift. Verteidiger ist Rechtsanwalt Kai Meyerhoff, Meyerhoffstr. 17, 13645 Berlin.",
+   "loesung": "Verteidiger: Rechtsanwalt Kai Meyerhoff, Meyerhoffstr. 17, 13645 Berlin",
+   "id": "sr-staat:form:009",
+   "skript": "sr-staat",
+   "abschnitt": "I. Einleitung mit den Personalien (Nr. 110 Abs. 2a) RiStBV) › II. Verteidiger (Nr. 110 Abs. 2 b) RiStBV)",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Einleitungssatz des konkreten Anklagesatzes.",
+   "loesung": "Dem Angeschuldigten wird Folgendes zur Last gelegt:",
+   "id": "sr-staat:form:010",
+   "skript": "sr-staat",
+   "abschnitt": "I. Einleitung mit den Personalien (Nr. 110 Abs. 2a) RiStBV) › IV. Konkreter Anklagesatz",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie die Angabe zur Blutalkoholkonzentration im konkreten Anklagesatz. Blutentnahme am 28. Februar JJJJ um 23:17 Uhr, BAK 1,15 ‰ Ethanol im Vollblut.",
+   "loesung": "Die dem Angeschuldigten am 28. Februar JJJJ um 23:17 Uhr entnommene Blutprobe enthielt eine Blutalkoholkonzentration von 1,15 ‰ Ethanol im Vollblut.",
+   "id": "sr-staat:form:011",
+   "skript": "sr-staat",
+   "abschnitt": "I. Einleitung mit den Personalien (Nr. 110 Abs. 2a) RiStBV) › IV. Konkreter Anklagesatz",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Schlusssatz zur Fahrerlaubnisentziehung im konkreten Anklagesatz.",
+   "loesung": "Hiernach hat sich der Angeschuldigte als zum Führen von Kraftfahrzeugen ungeeignet erwiesen.",
+   "id": "sr-staat:form:012",
+   "skript": "sr-staat",
+   "abschnitt": "I. Einleitung mit den Personalien (Nr. 110 Abs. 2a) RiStBV) › IV. Konkreter Anklagesatz",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Antragsabschnitt der Anklageschrift. Anklage zum Amtsgericht Tiergarten – Schöffengericht; Haftfortdauer beantragt.",
+   "loesung": "Es wird beantragt, 1. das Hauptverfahren zu eröffnen und die Anklage zur Hauptverhandlung vor dem Amtsgericht Tiergarten – Schöffengericht – zuzulassen, 2. Haftfortdauer anzuordnen",
+   "id": "sr-staat:form:014",
+   "skript": "sr-staat",
+   "abschnitt": "D. Die Anträge",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den abstrakten Anklagesatz samt §§-Kette für eine Gefährdung des Straßenverkehrs gemäß § 315c StGB, bei der hinsichtlich der Gefährdung nur Fahrlässigkeit vorliegt, nebst Fahrerlaubnisentziehung.",
+   "loesung": "vorsätzlich im Straßenverkehr ein Fahrzeug geführt zu haben, obwohl er infolge des Genusses alkoholischer Getränke nicht in der Lage war, das Fahrzeug sicher zu führen, und dadurch fahrlässig fremde Sachen von bedeutendem Wert gefährdet zu haben. KONKRETUM Der Angeschuldigte hat sich durch die Tat als ungeeignet zum Führen von Kraftfahrzeugen erwiesen. Vergehen, strafbar gemäß §§ 315c Abs. 1 Nr. 1a, Abs. 3 Nr. 1, 69 Abs. 2 Nr. 1, 69a StGB",
+   "id": "sr-staat:form:015",
+   "skript": "sr-staat",
+   "abschnitt": "V. schwerer Raub mit Todesfolge › IX. Gefährdung des Straßenverkehrs – hinsichtlich der Gefährdung nur Fahrlässigkeit",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den abstrakten und konkreten Anklagesatz für einen gefährlichen Eingriff in den Straßenverkehr zur Verdeckung einer anderen Straftat (§§ 315b, 315 StGB). Nennen Sie auch die Norm zur Fahreignung.",
+   "loesung": "vorsätzlich die Sicherheit des Straßenverkehrs dadurch beeinträchtigt zu haben, dass er einen dem Hindernisbereiten ähnlichen, ebenso gefährlichen Eingriff vornahm, und dadurch vorsätzlich Leib und Leben eines anderen Menschen gefährdet zu haben, wobei er in der Absicht handelte, eine andere Straftat zu verdecken. KONKRETUM Der Angeschuldigte hat sich durch die Tat als ungeeignet zum Führen von Kraftfahrzeugen erwiesen. Verbrechen, strafbar gemäß §§ 315b Abs. 1 Nr. 3, Abs.3 i.V.m. 315 Abs. 3 Nr. 1b, 69 Abs. 1, 69a StGB",
+   "id": "sr-staat:form:016",
+   "skript": "sr-staat",
+   "abschnitt": "V. schwerer Raub mit Todesfolge › IX. Gefährdung des Straßenverkehrs – hinsichtlich der Gefährdung nur Fahrlässigkeit",
+   "rn": "",
+   "gewicht": 3
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Wenn Sie insoweit\neinen hinreichenden Tatverdacht annehmen, ist das dann auch die exakte Handlung, die im konkreten\nAnklagesatz zu erwähnen ist. An dieser Stelle zahlt sich also Genauigkeit bereits aus.",
+   "loesung": "1. § 132 1. Alt. StGB A könnte sich einer Amtsanmaßung hinreichend verdächtig gemacht haben, indem er sich gegenüber dem Bankangestellten als ‚Polizeibeamter‘ ausgab.",
+   "id": "sr-staat:form:001",
+   "skript": "sr-staat",
+   "abschnitt": "I. Deliktsprüfung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Hierzu gehören insbesondere die Themen Teileinstellung, gerichtliche Zuständigkeit, Notwendigkeit einer Verteidigerbeiordnung, Haftfragen, vorläufige Entziehung der Fahrerlaubnis, Fragen der Vermögensabschöpfung einschließlich der Einziehung sowie sonstige (vorläufige) Maßnahmen. KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026 Seite 12 von 44\nDie Entscheidung, ob eine prozessuale Frage innerhalb des materiell rechtlichen Gutachtens\n(Teil I) oder des prozessualen Gutachtens (Teil II) zu erörtern ist, orientiert sich am Begriff des",
+   "loesung": "hinreichenden Tatverdachts",
+   "id": "sr-staat:form:002",
+   "skript": "sr-staat",
+   "abschnitt": "I. Deliktsprüfung › IV. Konkurrenzen",
+   "rn": ""
+  },
+  {
+   "typ": "fehler",
+   "frage": "Was ist hieran fehlerhaft, und wie lautet es richtig?\neine verantwortliche Vernehmung stattgefunden hat,",
+   "loesung": "Auch wenn keine Teileinstellungen vorzunehmen sind, ist dies festzuhalten, wobei dabei auch\ndeutlich werden sollte, dass die Prüfungskriterien bekannt sind (also",
+   "id": "sr-staat:fehl:003",
+   "skript": "sr-staat",
+   "abschnitt": "A. Teileinstellung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Dringender Tatverdacht, § 112 Abs. 1 StPO\nHier ist die Bezugnahme auf das materiellrechtliche Gutachten ausreichend, vorzugsweise mit der\nFormulierung:",
+   "loesung": "Nach dem Ergebnis des materiellrechtlichen Gutachtens ist der Tatverdacht nicht nur hinreichend, sondern auch dringend.",
+   "id": "sr-staat:form:007",
+   "skript": "sr-staat",
+   "abschnitt": "I. Dringender Tatverdacht, § 112 Abs. 1 S. 1 StPO",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Das Js-Aktenzeichen der Staatsanwaltschaft\nlinks direkt darunter. die Haftverhältnisse – in Kurzform (Nr.",
+   "loesung": "Haft! Frist gemäß §§ 121, 122 StPO: TT.MM.JJJJ",
+   "id": "sr-staat:form:008",
+   "skript": "sr-staat",
+   "abschnitt": "I. Oben › III. Rechts oben › 1. die Haftverhältnisse – in Kurzform (Nr. 52 RiStBV):",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Es wird nur auf tatsächlich bestehende Haftverhältnisse in diesem Verfahren hingewiesen. Allenfalls kann bei Haft in einem anderen Verfahren oben rechts der Hinweis „Haft in anderer Sache“ sinnvoll sein.",
+   "loesung": "Verteidiger: Rechtsanwalt Kai Meyerhoff, Meyerhoffstr. 17, 13645 Berlin",
+   "id": "sr-staat:form:009",
+   "skript": "sr-staat",
+   "abschnitt": "I. Einleitung mit den Personalien (Nr. 110 Abs. 2a) RiStBV) › II. Verteidiger (Nr. 110 Abs. 2 b) RiStBV)",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Er ist daher im\ngesamten konkreten Anklagesatz als Angeschuldigter zu bezeichnen. Der konkrete Anklagesatz sollte mit dem Satz eingeleitet werden:",
+   "loesung": "Dem Angeschuldigten wird Folgendes zur Last gelegt:",
+   "id": "sr-staat:form:010",
+   "skript": "sr-staat",
+   "abschnitt": "I. Einleitung mit den Personalien (Nr. 110 Abs. 2a) RiStBV) › IV. Konkreter Anklagesatz",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Eine Rückrechnung zum Tatzeitpunkt sollte der konkrete Anklagesatz nicht enthalten. KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026 Seite 29 von 44\nBeispiel:",
+   "loesung": "Die dem Angeschuldigten am 28. Februar JJJJ um 23:17 Uhr entnommene Blutprobe enthielt eine Blutalkoholkonzentration von 1,15 ‰ Ethanol im Vollblut.",
+   "id": "sr-staat:form:011",
+   "skript": "sr-staat",
+   "abschnitt": "I. Einleitung mit den Personalien (Nr. 110 Abs. 2a) RiStBV) › IV. Konkreter Anklagesatz",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Letztere Variante wird sich anbieten, falls mehrere prozessuale Taten angeklagt werden, von denen jedenfalls nicht alle für die geplante\nEntziehung der Fahrerlaubnis ursächlich sind. Die Formulierung sollte etwa lauten:",
+   "loesung": "Hiernach hat sich der Angeschuldigte als zum Führen von Kraftfahrzeugen ungeeignet erwiesen.",
+   "id": "sr-staat:form:012",
+   "skript": "sr-staat",
+   "abschnitt": "I. Einleitung mit den Personalien (Nr. 110 Abs. 2a) RiStBV) › IV. Konkreter Anklagesatz",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Die Beweismittel\nIn der Klausur ist die Aufzählung der Beweismittel in der Regel erlassen. Anderenfalls oder in der\nPraxis werden sie in folgender Reihenfolge benannt und mit römischen Zahlen bezeichnet, die Einleitung erfolgt mit dem Wort:",
+   "loesung": "Beweismittel: I. Angaben des Angeschuldigten II. Zeugen KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026 Seite 33 von 44 III. Sachverständige IV. Urkunden V. Augenscheinsobjekte",
+   "id": "sr-staat:form:013",
+   "skript": "sr-staat",
+   "abschnitt": "C. Die Beweismittel",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Hierbei\nhandelt es sich um den Eröffnungsantrag (§ 199 Abs. 3 RiStBV) und Anträge hinsichtlich der Fortdauer der Haftverhältnisse in diesem Verfahren (§ 207\nAbs.",
+   "loesung": "Es wird beantragt, 1. das Hauptverfahren zu eröffnen und die Anklage zur Hauptverhandlung vor dem Amtsgericht Tiergarten – Schöffengericht – zuzulassen, 2. Haftfortdauer anzuordnen",
+   "id": "sr-staat:form:014",
+   "skript": "sr-staat",
+   "abschnitt": "D. Die Anträge",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: 2 eine Verurteilung erfolgt.)\n\nIX. Gefährdung des Straßenverkehrs – hinsichtlich der Gefährdung nur Fahrlässigkeit",
+   "loesung": "vorsätzlich im Straßenverkehr ein Fahrzeug geführt zu haben, obwohl er infolge des Genusses alkoholischer Getränke nicht in der Lage war, das Fahrzeug sicher zu führen, und dadurch fahrlässig fremde Sachen von bedeutendem Wert gefährdet zu haben. KONKRETUM Der Angeschuldigte hat sich durch die Tat als ungeeignet zum Führen von Kraftfahrzeugen erwiesen. Vergehen, strafbar gemäß §§ 315c Abs. 1 Nr. 1a, Abs. 3 Nr. 1, 69 Abs. 2 Nr. 1, 69a StGB",
+   "id": "sr-staat:form:015",
+   "skript": "sr-staat",
+   "abschnitt": "V. schwerer Raub mit Todesfolge › IX. Gefährdung des Straßenverkehrs – hinsichtlich der Gefährdung nur Fahrlässigkeit",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: 1, 69a StGB“\n\nKG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026 Seite 38 von 44\n\nKG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026 Seite 39 von 44\nX. Gefährlicher Eingriff in den Straßenverkehr zur Verdeckung einer anderen Straftat",
+   "loesung": "vorsätzlich die Sicherheit des Straßenverkehrs dadurch beeinträchtigt zu haben, dass er einen dem Hindernisbereiten ähnlichen, ebenso gefährlichen Eingriff vornahm, und dadurch vorsätzlich Leib und Leben eines anderen Menschen gefährdet zu haben, wobei er in der Absicht handelte, eine andere Straftat zu verdecken. KONKRETUM Der Angeschuldigte hat sich durch die Tat als ungeeignet zum Führen von Kraftfahrzeugen erwiesen. Verbrechen, strafbar gemäß §§ 315b Abs. 1 Nr. 3, Abs.3 i.V.m. 315 Abs. 3 Nr. 1b, 69 Abs. 1, 69a StGB",
+   "id": "sr-staat:form:016",
+   "skript": "sr-staat",
+   "abschnitt": "V. schwerer Raub mit Todesfolge › IX. Gefährdung des Straßenverkehrs – hinsichtlich der Gefährdung nur Fahrlässigkeit",
+   "rn": ""
+  }
+ ]
+}

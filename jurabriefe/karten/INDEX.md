@@ -1,8 +1,5 @@
 # Karten aus den Skripten
 
-Rohkarten per `python jurabriefe/karten.py` aus den elf Extrakten.
-Loesung steht woertlich im Skript. Kuration: `python jurabriefe/kuratieren.py --alle`.
-
 | Skript | formulierung | fall | fehler | aufbau | gesamt |
 |---|---|---|---|---|---|
 | aktenvortrag | 5 | 0 | 0 | 0 | 5 |

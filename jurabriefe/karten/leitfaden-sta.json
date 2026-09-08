@@ -1,0 +1,157 @@
+{
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Wird das Verfahren nur teilweise eingestellt (z.B. nur hinsichtlich\neines von mehreren beschuldigten Personen oder hinsichtlich eines Teils der Vorwürfe), so\nmuss das in der Verfügung zum Ausdruck gebracht werden (z.B.",
+   "loesung": "Das Verfahren gegen den Beschuldigten Schmidt wird gemäß § 170 Abs. 2 StPO eingestellt.",
+   "id": "leitfaden-sta:form:001",
+   "skript": "leitfaden-sta",
+   "abschnitt": "I. Vorbemerkung › IV. Abschluss des Ermittlungsverfahrens › 2. Einstellung nach § 170 Abs. 2 StPO",
+   "rn": "16"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: „Das Verfahren gegen den\nBeschuldigten Schmidt wird gemäß § 170 Abs. 2 StPO eingestellt.“ oder",
+   "loesung": "Das Verfahren wird gemäß § 170 Abs. 2 StPO eingestellt, soweit Betrug zum Nachteil des Zeugen Meier in Betracht kommt.",
+   "id": "leitfaden-sta:form:002",
+   "skript": "leitfaden-sta",
+   "abschnitt": "I. Vorbemerkung › IV. Abschluss des Ermittlungsverfahrens › 2. Einstellung nach § 170 Abs. 2 StPO",
+   "rn": "16"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: In seltenen Einzelfällen – einfacher Sachverhalt und geständige\nAngeklagte/geständiger Angeklagter – kann auch die sofortige Bestellung einer/eines\nanderen Pflic htverteidigerin/Pflichtverteidigers erfolgen (telefonisch oder aus dem\nAnwaltszimmer). In der Regel dürfte dies aber bereits aus Gründen einer ordnungsgemäßen",
+   "loesung": "Unter Bezugnahme auf die ordnungsgemäße Ladung wird beantragt, gemäß § 408 a StPO einen der Anklage ent - sprechenden Strafbefehl zu erlassen und die Strafe auf … festzu- setzen.",
+   "id": "leitfaden-sta:form:003",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "26"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Abweichend von dem Text in der Anklage wird daher im gesamten\nkonkreten Anklagesatz der Begriff „Angeschuldigte *r“ durch den Begriff „Angeklagte *r“\nersetzt. „Karl Herrmann – Personalien (und Haftverhältnisse) wie soeben erörtert –\nwird angeklagt, in Berlin am...“",
+   "loesung": "Dem Angeklagten wird Folgendes zur Last gelegt: Am 10. Mai 2010 schoss der Angeklagte auf öffentlichem Straßenland...",
+   "id": "leitfaden-sta:form:004",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "28"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: (2) Anhaltspunkte für strafbare Handlungen im Laufe der Beweisaufnahme\nErgeben sich in der Hauptverhandlung Anhaltspunkte für strafbare Handlungen – unabhängig\ndavon, ob es sich um in der Hauptverhandlung begangene Straftaten (z. Falschaussagen,\nBeleidigungen) oder um Taten handelt, die lediglich in der Hauptverhandlung bekannt werden",
+   "loesung": "Es wird beantragt, gegen den trotz ordnungsgemäßer Ladung unentschuldigt nicht erschienenen Zeugen Müller ein Ordnungsgeld von 150,- Euro, ersatzweise drei Tage Ord- nungshaft zu verhängen",
+   "id": "leitfaden-sta:form:007",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "31"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Eine\nbloße Beweisanregung ist demgegenüber gegeben, wenn die Bewei serhebung in das\nErmessen des Gerichts gestellt wird (legaldefiniert in § 244 Abs. Der erforderliche Strafantrag wurde form- und fristgerecht gestellt, vorsorglich wird\ndas besondere öffentliche Interesse an der Strafverfolgung bejaht.",
+   "loesung": "Es wird beantragt, Herrn X, wohnhaft..., als Zeugen zum Beweis dafür zu vernehmen, dass der Angeklagte sich am ... um ... in der Gaststätte Y aufgehalten hat. Der Zeuge X wird hierzu Angaben machen können, da…",
+   "id": "leitfaden-sta:form:008",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "33"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Behelfsweise kann man auch nach der Anrede des Gerichts und der Verteidigung mit einem\nallgemeinen „Werte Anwesende!“ alle übrigen im Gerichtssaal befindlichen Personen in seinen\nAdressatenkreis einbeziehen. (2) Darstellung des Ergebnisses der Beweisaufnahme (erwiesener Sachverhalt)\nIn unproblematischen Fällen (geständige/r Angekla gte/r; Anklagevorwurf, der sich\nvollumfänglich be stätigt hat) kann die Zusammenfassung des tatsächlichen Geschehens\n„Frau/Herr Vorsitzender“ oder",
+   "loesung": "Hohes Gericht, Frau/Herr Verteidiger(in)",
+   "id": "leitfaden-sta:form:009",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "36"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Das Urteil des Bundesgerichtshofs vom 30. Juli 1999 – 1 StR 618/99 setzt sich mit den\nwissenschaftlichen Anforderungen an ein Glaubhaftigkeitsgutachten auseinander und\nempfiehlt sich a ls Lektüre zur Vorbereitung der selbständigen Wahrnehmung des\nSitzungsdienstes, s ollte sich im Rahmen der Vorbereitung der Sitzungsvertretung\nandeuten, dass es Probleme bei der Würdigung von Aussagen von Zeug*innen geben\nkönnte.",
+   "loesung": "Aufgrund des glaubhaften Geständnisses des Angeklagten, das durch das übrige Ergebnis der Beweisaufnahme bestätigt worden ist, steht fest, dass sich der Sachverhalt wie in der Anklageschrift be- schrieben zugetragen hat.",
+   "id": "leitfaden-sta:form:010",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "37"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Juli 1999 – 1 StR 618/99 setzt sich mit den\nwissenschaftlichen Anforderungen an ein Glaubhaftigkeitsgutachten auseinander und\nempfiehlt sich a ls Lektüre zur Vorbereitung der selbständigen Wahrnehmung des\nSitzungsdienstes, s ollte sich im Rahmen der Vorbereitung der Sitzungsvertretung\nandeuten, dass es Probleme bei der Würdigung von Aussagen von Zeug*innen geben\nkönnte. „Aufgrund des glaubhaften Geständnisses des Angeklagten, das\ndurch das übrige Ergebnis der Beweisaufnahme bestätigt worden ist,\nsteht fest, dass sich der Sachverhalt wie in der Anklageschrift be-\nschrieben zugetragen hat.“",
+   "loesung": "Der Angeklagte hat sich zu dem Tatvorwurf nicht geäußert.",
+   "id": "leitfaden-sta:form:011",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "37"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Juli 1999 – 1 StR 618/99 setzt sich mit den\nwissenschaftlichen Anforderungen an ein Glaubhaftigkeitsgutachten auseinander und\nempfiehlt sich a ls Lektüre zur Vorbereitung der selbständigen Wahrnehmung des\nSitzungsdienstes, s ollte sich im Rahmen der Vorbereitung der Sitzungsvertretung\nandeuten, dass es Probleme bei der Würdigung von Aussagen von Zeug*innen geben\nkönnte. „Aufgrund des glaubhaften Geständnisses des Angeklagten, das\ndurch das übrige Ergebnis der Beweisaufnahme bestätigt worden ist,\nsteht fest, dass sich der Sachverhalt wie in der Anklageschrift be-\nschrieben zugetragen hat.“\n„Der Angeklagte hat sich zu dem Tatvorwurf nicht geäußert.“;",
+   "loesung": "Der Angeklagte hat sich dahingehend eingelassen, dass...",
+   "id": "leitfaden-sta:form:012",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "37"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Beispiele für fakultative Milderungen im Rahmen der Strafzumessung sind § 23 Abs. 2 StGB\n(Versuchsstrafbarkeit) und § 21 StGB (Strafe bei verminderter Schuldfähigkeit).",
+   "loesung": "...damit hat die Angeklagte einen Diebstahl gemäß § 242 StGB begangen",
+   "id": "leitfaden-sta:form:013",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "38"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: 2 StGB darf nicht strafschärfend berücksichtigt werden, dass der/die Angeklagte bei der\nTat ein Messer verwendete. (c) Bildung der Strafe\nEs ist zunächst für jede angeklagte Tat zunächst eine tat - und schuldangemessene\nEinzelstrafe zu beantragen, bei Geldstrafen auch jeweils unter Nennung der Tagessatzanzahl\nund Tagessatzhöhe, bei Freiheitsstrafen unter Beachtung von § 47 StGB.",
+   "loesung": "Unter Abwägung dieser Umstände – insbesondere aufgrund der bisheri- gen Unbestraftheit der Angeklagten und ihrer reuigen und geständigen Einlassung – erscheint für den Raub (Fall 1 der Anklage) eine Geldstrafe von 120 Tagessätzen zu je 15,- Euro tat- und schuldangemessen, für Fall 2 der Anklage, den Diebstahl mit Waffen, eine Freiheitsstrafe von acht Monaten.",
+   "id": "leitfaden-sta:form:014",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "41"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der\nStrafrahmen wird von dem schwersten verwirklichten Delikt vorgegeben, § 52 Abs. Sind mehrere Delikte angeklagt worden, die in Tatmehrheit (§ 53 StGB) zueinander stehen\nund sollen auch wegen aller Taten Anträge gestellt werden, ist eine Gesamtstrafe gemäß §§\n53, 54 StGB zu beantragen.",
+   "loesung": "unter erneuter Abwägung der für und gegen die/den Angeklagte/n sprechenden Umstände",
+   "id": "leitfaden-sta:form:015",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "45"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: 2 StGB), wenn die Sanktion der zu verhängenden Geldstrafe im Rahmen der\nGesamtfreiheitsstrafe nicht zum Tragen kommen würde. Nachträgliche Gesamtstrafenbildung ( § 55 StGB)\nWenn sich aus dem Bundeszentralregisterauszug oder ansonsten aus der Hauptverhandlung\nergibt, dass der/die Angeklagte nach der Begehung der angeklagten Tat wegen einer anderen\nTat rechtskräftig verurteilt worden ist, ist eine nachträgliche Gesamtstrafe zu bilden.",
+   "loesung": "Unter erneuter Abwägung aller für und gegen die Angeklagte spre - chenden Strafzumessungsumstände ist aus diesen beiden Einzelstrafen eine tat- und schuldangemessene Gesamtfreiheitsstrafe von zehn Mo - naten zu bilden.",
+   "id": "leitfaden-sta:form:016",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, § 54 Rn. 10).",
+   "rn": "45"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Letztlich kommt es auf eine Betrachtung des Einzelfalls an. Die Arbeitsauflage wird in Stunden beantragt und verhängt, wobei sechs Stunden einem\nArbeitstag entsprechen (180 gemeinnütziger Arbeit entsprechen also beispielsweise 30\nTagen).",
+   "loesung": "Die Vollstreckung dieser Freiheitsstrafe kann zur Bewährung ausge - setzt werden. Die Angeklagte ist bislang strafrechtlich nicht in Erschei- nung getreten, weshalb zu erwarten ist, dass sie sich bereits die Ver - hängung einer Freiheitsstrafe hinreichend zur Warnung dienen lässt, um zukünftig von der Begehung weiterer Straftaten Abstand zu nehmen. Die Dauer der Bewährungszeit sollte drei Jahre betragen. Zudem sollte die Angeklagte zum einen für die Dauer der Bewährungszeit der A uf- sicht und Leitung eines hauptamtlichen Bewährungshelfers unterstellt werden, damit ihr Hilfe bei der Stabilisierung seiner Lebensverhält - nisse, insbesondere bei der Suche nach einer Therapiestelle und einer geeigneten Einrichtung des betreuten Wohnens zur Verfügung steht. Zum anderen wird beantragt, der Angeklagten die Ableistung von 120 Stunden gemeinnütziger Arbeit binnen sechs Monaten nach Rechts - kraft des Urteils aufzuerlegen, damit ihr das von ihr begangene Unrecht auch durch eine unmittelbar spürbare Sanktion noch einmal vor Augen geführt wird.",
+   "id": "leitfaden-sta:form:017",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, Rn. 9 zu § 55 StGB.",
+   "rn": "47"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Es ist jedoch darauf zu\nachten, dass sämtliche Beweismittel ausgeschöpft sind. Ein Verzicht auf in der Anklageschrift\naufgeführte Beweismittel sollte wiederum nur nach Rücksprache erfolgen.",
+   "loesung": "Durch diese Taten hat sich der Angeklagte zudem als ungeeignet zum Führen von Kraftfa hrzeugen erwiesen. Ich beantrage daher, dem Angeklagten die Fahrerlaubnis zu entziehen, den Führerschein einzuziehen und die Verwaltungsbehörde anzuweisen, ihm vor Ablauf einer Sperre von zwei Jahren keine neue Fahrerlaubnis zu erteilen.",
+   "id": "leitfaden-sta:form:018",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, Rn. 9 zu § 55 StGB.",
+   "rn": "50"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Auch hier ist es ratsam, die ersten Terminsvermerke\ngemeinsam mit Ihren Ausbilder*innenzu fertigen. Im Einzelnen ist Folgendes zu beachten:",
+   "loesung": "Ich beantrage daher, den Angeklagten freizusprechen und festzu- stellen, dass der Angeklagte für die erlittene Untersuchungshaft zu entschädigen ist.",
+   "id": "leitfaden-sta:form:019",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, Rn. 9 zu § 55 StGB.",
+   "rn": "51"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Es ist vielmehr jeweils aus der Perspektive der\nVerteidigung heraus zu argumentieren. Beispielhaft kann bei einem entsprechenden Sachverhalt wie folgt argumentiert\nwerden:",
+   "loesung": "Die Strafaussetzung zur Bewährung ist nach § 56 Abs. 2 StGB gerechtfertigt, weil sowohl eine positive Prognose sowie besondere Umstände vorliegen. Die positive Prognose begründet sich vorliegend schon allein daraus, dass die Tat nunmehr vier Jahre zurück liegt und der Angekl. seitdem nicht weiter straffällig geworden und auch zuvor unbestraft war… Die besonderen Umstände können sich auf das Geständnis und die Wiedergutmachungsleistungen stützen, mit denen der Angeklagte deutlich macht, dass er Verantwortung übernommen hat…",
+   "id": "sr-anwalt:form:001",
+   "skript": "sr-anwalt",
+   "abschnitt": "I. Der Aufbau des Gutachtens › III. Das Verteidigungsziel",
+   "rn": "13"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Große\nStrafkammer in ihrem Urteil vom (…) getroffen hat. Wörtlich heißt es in dem Urteil:",
+   "loesung": "Im Rahmen der Ermittlungen wegen Brandstiftung – beim Brandort wurden Rückstände eines Brandbeschleunigers festgestellt – konnte dem Angeklagten eine Beteiligung hieran nicht nachgewiesen werden.",
+   "id": "sr-anwalt:form:002",
+   "skript": "sr-anwalt",
+   "abschnitt": "I. Unabhängig von der Frage, ob die bisherigen Ermittlungsergebnisse für die",
+   "rn": "62"
+  }
+ ]
+}

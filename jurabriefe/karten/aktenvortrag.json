@@ -1,0 +1,49 @@
+{
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der einleitende Satz soll vorab darüber informieren, ob ein Sachverhalt aus\nstaatlicher oder aus anwaltlicher Sicht zugrunde liegt, wer was von wem in welcher Verfahrensart und welchem Verfahrensstadium begehrt, wer zur Entscheidung berufen ist und was ggf. das Begehr en des Mandanten ist.",
+   "loesung": "Ich trage vor in der Verwaltungsstreitsache des Heinz Mayer aus Berlin gegen das Land Berlin, die am Verwaltungsgericht Berlin a nhängig war. Der Kläger begehrt die Wiedererteilung der Fahrerlaubnis.",
+   "id": "aktenvortrag:form:001",
+   "skript": "aktenvortrag",
+   "abschnitt": "I. Ziel › IV. Aufbau › 1. Der einleitende Satz soll vorab darüber informieren, ob ein Sachverhalt aus",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: „Ich trage vor in der Verwaltungsstreitsache des Heinz Mayer aus\nBerlin gegen das Land Berlin, die am Verwaltungsgericht Berlin a nhängig war. Der Kläger begehrt die Wiedererteilung der Fahrerlaubnis.“",
+   "loesung": "Ich berichte über den Antrag auf Erlass einer einstweiligen Anor dnung des Emil Schulze aus Münster gegen die Freie Universität Berlin, vertreten durch den Universitätspräsidenten, auf Zulassung zum Studium der Humanmedizin. Das Verfahren war beim Verwa ltungsgericht Berlin anhängig.",
+   "id": "aktenvortrag:form:002",
+   "skript": "aktenvortrag",
+   "abschnitt": "I. Ziel › IV. Aufbau › 1. Der einleitende Satz soll vorab darüber informieren, ob ein Sachverhalt aus",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der Kläger begehrt die Wiedererteilung der Fahrerlaubnis.“\n\n„Ich berichte über den Antrag auf Erlass einer einstweiligen Anor dnung des Emil Schulze aus Münster gegen die Freie Universität\nBerlin, vertreten durch den Universitätspräsidenten, auf Zulassung\nzum Studium der Humanmedizin. Das Verfahren war beim Verwa ltungsgericht Berlin anhängig.“",
+   "loesung": "Ich berichte über die Beschwerde des Landes Berlin, vertreten durch das Bezirksamt Pankow von Berlin, gegen den Beschluss des Verwaltungsgerichts Berlin vom …, die beim Oberverwaltungsg ericht Berlin -Brandenburg anhängig war. Kläger des Ausgan gsverfahrens ist Hans Müller, Beklagter der Beschwerdeführer. Durch den angefochtenen Beschluss hat das Verwaltungs gericht die Beil adung der ABC GmbH abgelehnt.",
+   "id": "aktenvortrag:form:003",
+   "skript": "aktenvortrag",
+   "abschnitt": "I. Ziel › IV. Aufbau › 1. Der einleitende Satz soll vorab darüber informieren, ob ein Sachverhalt aus",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Kläger des Ausgan gsverfahrens ist Hans Müller, Beklagter der Beschwerdeführer. Durch\nden angefochtenen Beschluss hat das Verwaltungs gericht die Beil adung der ABC GmbH abgelehnt.“",
+   "loesung": "Ich berichte über eine Anwaltsberatung durch Rechtsanwalt Müller für seine Mandantin Simone Meier aus Köln. Es geht um die Erfol gsaussichten einer gerichtlichen Durchsetzung eines Antrags auf Erteilung einer Baugenehmigung.",
+   "id": "aktenvortrag:form:004",
+   "skript": "aktenvortrag",
+   "abschnitt": "I. Ziel › IV. Aufbau › 1. Der einleitende Satz soll vorab darüber informieren, ob ein Sachverhalt aus",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Dem Kurzvorschlag folgt der Entscheidungsvorschlag . Sie sollten den Zuhörern vorab ihr Ergebnis mitteilen, damit diese den nachfolgenden Ausführungen\nzur rechtlichen Würdigung be sser folgen können.",
+   "loesung": "Ich schlage vor, der Klage stattzugeben / Verpflichtungsklage zu erheben / gegen Herrn Müller eine Abrissverfügung zu erlassen",
+   "id": "aktenvortrag:form:005",
+   "skript": "aktenvortrag",
+   "abschnitt": "I. Ziel › IV. Aufbau › 1. Der einleitende Satz soll vorab darüber informieren, ob ein Sachverhalt aus",
+   "rn": ""
+  }
+ ]
+}

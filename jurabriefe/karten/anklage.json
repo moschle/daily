@@ -1,0 +1,40 @@
+{
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: 46/III (je nach\nBezeichnung der Aktenbände auf dem Aktendeckel). Kopfzeile\n\nDie Anklageschrift enthält links oben die Behördenbezeichnung, nämlich",
+   "loesung": "Staatsanwaltschaft Berlin",
+   "id": "anklage:form:001",
+   "skript": "anklage",
+   "abschnitt": "I. RUBRUM › 1. Kopfzeile",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: – in die\nAngaben zum „Wohnort“ aufzunehmen. Verteidigungsverhältnisse\n\nHat der Beschuldigte zum Zeitpunkt der Anklageerhebung einen Verteidiger, wird dies in der\nnächsten Zeile unter Angabe dessen Namen und der Kanzleianschrift vermerkt:",
+   "loesung": "Verteidigerin: Rechtsanwältin ...",
+   "id": "anklage:form:002",
+   "skript": "anklage",
+   "abschnitt": "I. RUBRUM › 8. Verteidigungsverhältnisse",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: An erster Stelle stehen immer die Angaben der Beschuldigten (insoweit bezeichnet als\n„Einlassung“), vorausgesetzt, dass sich diese während des Ermittlungsverfahrens in ihrer\nprozessualen Funktion als Beschuldigte mündlich oder schriftlich geäußert haben. Einlassung des Angeschuldigten\n\nSoweit Beschuldigte im Rahmen ihrer verantwortlichen Vernehmung von dem Recht Gebrauch\nmachen, sich nicht zum Tatvorwurf zu äußern und gegenüber der Polizei nur ihre Personalien\nnennen, würde es demzufolge heißen:",
+   "loesung": "Einlassung des Angeschuldigten (nur zur Person)",
+   "id": "anklage:form:003",
+   "skript": "anklage",
+   "abschnitt": "I. Einlassung des Angeschuldigten",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Sofern sich aus dem Bundeszentralregister Vorstrafen ergeben, werden diese\nin der Regel vollständig und chronologisch in Form der Eintragungen aufgelistet. Möglich sind\nnotfalls auch Zusammenfassungen, wie etwa",
+   "loesung": "Der Angeschuldigte ist seit 20 06 vielfach strafrechtlich in Erscheinung getreten, darunter in 12 Fällen wegen Betruges. Zuletzt verurteilte ihn das Amtsgericht Tiergarten am 1. Juni 202 1 – 241 Ds 564/ 21 - wegen Diebstahls zu einer Freiheitsstrafe von 2 Jahren, die der Angeschuldigte am 5. September 2023 verbüßt hatte.",
+   "id": "anklage:form:004",
+   "skript": "anklage",
+   "abschnitt": "I. Zur Person:",
+   "rn": ""
+  }
+ ]
+}

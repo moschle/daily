@@ -1,0 +1,607 @@
+{
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Die Parteiangabe\nsollte durch ein Komma abgetrennt werden 4. Die Länder Berlin und\nBrandenburg sind wie andere Bundesländer männlich, die Bundesrepublik Deutschland hingegen weiblich aufzuführen.",
+   "loesung": "der Frau Lare Heise, Jonasstraße 12, 12345 Berlin, Klägerin, gegen Herrn Jonas Jonathan, Jonasstraße 13, 12345 Berlin, Beklagten,",
+   "id": "zr-staat:form:001",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 2. Grammatik der Parteibezeichnungen",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Die Länder Berlin und\nBrandenburg sind wie andere Bundesländer männlich, die Bundesrepublik Deutschland hingegen weiblich aufzuführen. „der Frau Lare Heise, Jonasstraße 12, 12345 Berlin,\n\nKlägerin,\ngegen\n\nHerrn Jonas Jonathan, Jonasstraße 13, 12345 Berlin,\n\nBeklagten,“\noder",
+   "loesung": "Herrn Werner Heise, Abtstraße 12, 14469 Berlin, Kläger, gegen Land Berlin, vertreten durch die Senatsverwaltung für Justiz und Verbraucherschutz, diese vertreten durch die Senatorin für Justiz und Verbraucherschutz Dr. Felor Badenberg, Salzburger Straße 21-25, 10825 Berlin Beklagter,",
+   "id": "zr-staat:form:002",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 2. Grammatik der Parteibezeichnungen",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Dabei sollten mehrere\nStreitgenossen nicht unter einer fortlaufenden Nummer zusammengefasst werden, auch wenn es sich um Eheleute oder enge Verwandte\nhandelt. Zulässig ist es aber, bei derselben Adresse und/oder Parteistellung\noder der Prozessvertretung durch denselben Rechtsanwalt mit einer\nArt „Klammerwirkung“ zu arbeiten und alle gemeinsamen Angaben unter die Parteibezeichnung zu setzen:",
+   "loesung": "1. Werner Müller, 2. Gabriele Müller, beide Hauptstraße 3, 15890 Eisenhüttenstadt, Kläger, - Prozessbevollmächtigte: Rechtsanwältin ... –",
+   "id": "zr-staat:form:003",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 3. Streitgenossen",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Ergibt sich aus dem Firmennamen gleichzeitig\nderen Inhaber, reicht die Angabe der Firma aus. Wenn Firmeninhaber\nund die Firmenbezeichnung nicht identisch sind, empfiehlt sich folgende Formulierung:",
+   "loesung": "der unter der Firma Agathe Teufel handelnden Kauffrau Wilhelmina Zufall, Peststraße 14, 12345 Berlin, Klägerin,",
+   "id": "zr-staat:form:004",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 4. Kaufleute",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: „der unter der Firma Agathe Teufel handelnden Kauffrau\nWilhelmina Zufall, Peststraße 14, 12345 Berlin,\n\nKlägerin,“\n\n5. Parteien kraft Amtes\nBei Parteien kraft Amtes 8 ist neben ihrem Namen ihre\ntreuhänderische Stellung herauszustellen.",
+   "loesung": "der Rechtsanwältin Johanna Glücklich, Friedensweg 1, 15230 Frankfurt (Oder), als Insolvenzverwalterin über das Vermögen der Gesundheits- und Heil GmbH und Co. KG, Bergstr. 12, 15230 Frankfurt (Oder), Klägerin,",
+   "id": "zr-staat:form:005",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 5. Parteien kraft Amtes",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: geborenen Peter Claus, “\n„der Minderjährigen Petra Claus ...“\n\nBei juristischen Personen des bürgerlichen Rechts, bei Personenhandelsgesellschaften und bei der Außen-GbR sind ebenfalls der bzw. die\ngesetzlichen Vertreter zu bezeichnen.",
+   "loesung": "der Bonus GmbH, gesetzlich vertreten durch die Geschäftsführer Holger Fahls und Maria Herbst, Sonnenallee 93, 12199 Berlin, Klägerin,",
+   "id": "zr-staat:form:006",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: die\ngesetzlichen Vertreter zu bezeichnen. „der Bonus GmbH, gesetzlich vertreten durch die Geschäftsführer\nHolger Fahls und Maria Herbst, Sonnenallee 93, 12199 Berlin,\n\nKlägerin,“",
+   "loesung": "der Mega AG, gesetzlich vertreten durch ihre Vorstandsmitglieder Heike Müller, Jenny Golz und Sabine Erbs, Hainerpfad 7, 15299 Müllrose, Klägerin,",
+   "id": "zr-staat:form:007",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: „der Bonus GmbH, gesetzlich vertreten durch die Geschäftsführer\nHolger Fahls und Maria Herbst, Sonnenallee 93, 12199 Berlin,\n\nKlägerin,“\n„der Mega AG, gesetzlich vertreten durch ihre\nVorstandsmitglieder Heike Müller, Jenny Golz und Sabine Erbs,\nHainerpfad 7, 15299 Müllrose,\n\nKlägerin,“\nder Reiche, Müller und Liebig GbR, gesetzlich vertreten durch ihre\ngeschäftsführenden Gesellschafter Herbert Reiche u. a., Elseweg\n5, 03130 Spremberg,\nKlägerin,",
+   "loesung": "der ... GmbH & Co. KG, gesetzlich vertreten durch die ... GmbH, diese gesetzlich vertreten durch ihre Geschäftsführer Herbert Müller u. a., Sonnenallee 93, 12199 Berlin, Klägerin,",
+   "id": "zr-staat:form:008",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Diese Bezeichnung behalten sie\nauch dann, wenn die Klage im weiteren Verlaufe nach Erhebung der\nWiderklage beispielsweise übereinstimmend für erledigt erklärt wird. In Eilverfahren sind die Parteien als „Antragsteller“ und „Antragsgegner“, der Bevollmächtigte als",
+   "loesung": "Verfahrensbevollmächtigter",
+   "id": "zr-staat:form:009",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › III. Parteistellung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Wird durch Urteil entschieden, heißen die Parteien hingegen „Verfügungskläger“ und „Verfügungsbeklagter“, der Bevollmächtigte „Prozessbevollmächtigter“. Prozessbevollmächtigte\n\nVertritt ein Rechtsanwalt eine Partei, ist dies im Kopf kenntlich zu machen.",
+   "loesung": "Rechtsanwalt” sollte ausgeschrieben und nicht mit „RA” abgekürzt werden. Der Prozessbevollmächtigte ist nicht Partei und nach Angabe der Parteistellung des Mandanten aufzuführen. Die Angabe der Prozessbevollmächtigten wird in Parenthese gesetzt. „- Prozessbevollmächtigte: Rechtsanwältin Helga Boot, Reichsstraße 12, 12498 Berlin -",
+   "id": "zr-staat:form:010",
+   "skript": "zr-staat",
+   "abschnitt": "I. Allgemeines › IV. Prozessbevollmächtigte",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: März 2025 ...“\n\nWird im schriftlichen Verfahren entschieden, muss das Gericht den\nZeitpunkt bestimmen, bis zu dem Schriftsätze eingereicht werden können (§ 128 Abs. Dieser Zeitpunkt entspricht dem Tag\nder letzten mündlichen Verhandlung.",
+   "loesung": "im schriftlichen Verfahren mit einer Schriftsatzfrist bis zum ...",
+   "id": "zr-staat:form:011",
+   "skript": "zr-staat",
+   "abschnitt": "V. Streithelfer › VII. Angabe des letzten Tages und des Klagegrundes",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Die Hauptsacheentscheidung darf über die gestellten Anträge nicht hinausgehen. Kostenentscheidung\n\nDie Kostenentscheidung muss aussprechen, wer die Kosten des\n\nRechtsstreits zu welchem Anteil zu tragen hat, und hat grundsätzlich\neinheitlich zu ergehen.",
+   "loesung": "Der Beklagte hat die Kosten des Rechtsstreits zu tragen.",
+   "id": "zr-staat:form:012",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › 2. Kostenentscheidung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Kostenentscheidung\n\nDie Kostenentscheidung muss aussprechen, wer die Kosten des\n\nRechtsstreits zu welchem Anteil zu tragen hat, und hat grundsätzlich\neinheitlich zu ergehen. „Der Beklagte hat die Kosten des Rechtsstreits zu tragen.“",
+   "loesung": "Der Beklagte hat die Kosten seiner Säumnis zu tragen; die übrigen Kosten des Rechtsstreits hat der Kläger zu tragen.",
+   "id": "zr-staat:form:013",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › 2. Kostenentscheidung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Entscheidung über Vollstreckbarkeit\n\nGrundsätzlich findet die Zwangsvollstreckung aus einem Urteil nur\nstatt, das in der Urteilsformel für vorläufig vollstreckbar erklärt worden\nist. In einigen Fällen ist ein Ausspruch zur Vollstreckbarkeit aber\nauch entbehrlich, zum Beispiel bei stattgebenden Urteilen in den Eilverfahren (Arrest und einstweilige Verfügung).",
+   "loesung": "Das Urteil ist gegen Sicherheitsleistung in Höhe des jeweils zu vollstreckenden Betrages zuzüglich 10 % vorläufig vollstreckbar.",
+   "id": "zr-staat:form:014",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › 3. Entscheidung über Vollstreckbarkeit",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: In einigen Fällen ist ein Ausspruch zur Vollstreckbarkeit aber\nauch entbehrlich, zum Beispiel bei stattgebenden Urteilen in den Eilverfahren (Arrest und einstweilige Verfügung). „Das Urteil ist gegen Sicherheitsleistung in Höhe des jeweils zu\nvollstreckenden Betrages zuzüglich 10 % vorläufig vollstreckbar.“",
+   "loesung": "Das Urteil ist vorläufig vollstreckbar. Der Beklagte darf die Vollstreckung durch Sicherheitsleistung in Höhe des auf Grund des Urteils vollstreckbaren Betrages zuzüglich 10 % abwenden, wenn nicht die Klägerin vor der Vollstreckung Sicherheit in Höhe des jeweils zu vollstreckenden Betrages zuzüglich 10 % leistet.",
+   "id": "zr-staat:form:015",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › 3. Entscheidung über Vollstreckbarkeit",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Zulassung von Rechtsmitteln\n\nWird die Berufung nach §§ 511 Abs. 2 ZPO zugelassen,\nso ist dies im Tenor zum Ausdruck zu bringen.",
+   "loesung": "Die Berufung des Beklagten wird zugelassen.",
+   "id": "zr-staat:form:016",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › 4. Zulassung von Rechtsmitteln",
+   "rn": ""
+  },
+  {
+   "typ": "fehler",
+   "frage": "Was ist hieran fehlerhaft, und wie lautet es richtig?\n„Der Klage wird stattgegeben.“",
+   "loesung": "für ein Feststellungsurteil), ist\ndem Bestimmtheitserfordernis Rechnung zu tragen",
+   "id": "zr-staat:fehl:017",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › II. Einzelheiten › 1. Vollstreckungsfähig/hinreichend bestimmt",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: für ein Feststellungsurteil), ist\ndem Bestimmtheitserfordernis Rechnung zu tragen\n\nFalsch sind etwa folgende Aussprüche: „Der Klage wird stattgegeben.“\n„Die Klage ist begründet.“\n„Der Beklagte wird verurteilt, den vereinbarten Pachtzins zu\nzahlen.“",
+   "loesung": "Der Beklagte wird verurteilt, ...24 1.810,00 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit Rechtshängigkeit zu zahlen.",
+   "id": "zr-staat:form:023",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › II. Einzelheiten › 1. Vollstreckungsfähig/hinreichend bestimmt",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Etwas anderes gilt, wenn eine besondere Tenorierung im Gesetz vorgesehen oder sachdienlich ist: 2 ZPO bei Ansprüchen aus Delikt:",
+   "loesung": "Der Beklagte wird verurteilt, an den Kläger wegen vorsätzlich begangener unerlaubter Handlung 800,00 EUR zu zahlen.",
+   "id": "zr-staat:form:024",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › II. Einzelheiten › 2. Knapp",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: 2 ZPO bei Ansprüchen aus Delikt: „Der\nBeklagte wird verurteilt, an den Kläger wegen vorsätzlich\nbegangener unerlaubter Handlung 800,00 EUR zu zahlen.“\nWegen des Umfangs der Rechtskraft bei noch nicht fälligem\nAnspruch:",
+   "loesung": "Die Klage wird als derzeit unbegründet abgewiesen",
+   "id": "zr-staat:form:025",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › II. Einzelheiten › 2. Knapp",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Für die Kostenentscheidung und die Entscheidung über die vorläu-\n\nfige Vollstreckbarkeit bedarf es keines Antrages. Hat eine Klage teilweise keinen Erfolg, muss sie „ im Übrigen “ abgewiesen werden 28.",
+   "loesung": "Die Beklagte wird verurteilt, an den Kläger 8.777,91 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit dem 13. September 2025 zu zahlen. Im Übrigen wird die Klage abgewiesen.",
+   "id": "zr-staat:form:026",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › II. Einzelheiten › 3. Erschöpfend",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Im Übrigen\nwird die Klage abgewiesen.“\n\nIII. Leistungsurteile\n\nBeispiele für typische Leistungsurteile:",
+   "loesung": "Der Beklagte wird verurteilt, die im Hause Werbellinstraße 60, 12053 Berlin, zweites Obergeschoss links, gelegene Wohnung, bestehend aus 1 Zimmer, 1 Küche, 1 Flur, 1 Bad/WC, 1 Balkon und Keller Nr. 11, zu räumen und geräumt an die Klägerin herauszugeben.",
+   "id": "zr-staat:form:027",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 1. Leistungsurteile",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: „Der Beklagte wird verurteilt, die im Hause Werbellinstraße 60,\n12053 Berlin, zweites Obergeschoss links, gelegene Wohnung,\nbestehend aus 1 Zimmer, 1 Küche, 1 Flur, 1 Bad/WC, 1 Balkon\nund Keller Nr. 11, zu räumen und geräumt an die Klägerin herauszugeben.“",
+   "loesung": "Der Beklagte wird verurteilt, an die Klägerin 3.931,78 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit dem 3. März 2025 zu zahlen.",
+   "id": "zr-staat:form:028",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 1. Leistungsurteile",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: 11, zu räumen und geräumt an die Klägerin herauszugeben.“\n„Der Beklagte wird verurteilt, an die Klägerin 3.931,78 EUR nebst\nZinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit dem 3. März 2025 zu zahlen.“",
+   "loesung": "Die Beklagte wird verurteilt, an die Kläger 4.800,00 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit dem 7. Februar 202 5 Zug um Zug gegen Rückgabe des Pkw Ford Typ Transit, Fahrzeug -Identifizierungsnummer ABCDEFGH123456789 H, zu zahlen.",
+   "id": "zr-staat:form:029",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 1. Leistungsurteile",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: März 2025 zu zahlen.“\n„Die Beklagte wird verurteilt, an die Kläger 4.800,00 EUR nebst\nZinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit dem 7. Februar 202 5 Zug um Zug gegen Rückgabe\n\ndes Pkw Ford Typ Transit, Fahrzeug -Identifizierungsnummer\nABCDEFGH123456789 H, zu zahlen.“",
+   "loesung": "Das Versäumnisurteil des Amtsgerichts Neuruppin vom 26. Februar 2025 – 14 C 8/ 24 – wird insoweit aufrechterhalten, als der Beklagte verurteilt ist, an den Kläger 4.800,00 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit dem 13. Dezember 2023 zu zahlen. Im Übrigen wird das Versäumnisurteil aufgehoben und die Klage abgewiesen.",
+   "id": "zr-staat:form:030",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 1. Leistungsurteile",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Im Übrigen wird das Versäumnisurteil aufgehoben und die Klage abgewiesen.“\n\n2. Feststellungsurteile\n\nBeispiele für typische Feststellungsurteile:",
+   "loesung": "Es wird festgestellt, dass der Kläger Eigentümer des Pkw Ford Typ Transit, Fahrzeug-Identifizierungsnummer ABCDEFGH123456789, ist.",
+   "id": "zr-staat:form:031",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 2. Feststellungsurteile",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Feststellungsurteile\n\nBeispiele für typische Feststellungsurteile: „Es wird festgestellt, dass der Kläger Eigentümer des Pkw Ford Typ Transit, Fahrzeug-Identifizierungsnummer ABCDEFGH123456789, ist.“",
+   "loesung": "Es wird festgestellt, dass sich der Rechtsstreit in der Hauptsache erledigt hat.",
+   "id": "zr-staat:form:032",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 2. Feststellungsurteile",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: „Es wird festgestellt, dass der Kläger Eigentümer des Pkw Ford Typ Transit, Fahrzeug-Identifizierungsnummer ABCDEFGH123456789, ist.“\n„Es wird festgestellt, dass sich der Rechtsstreit in der Hauptsache\nerledigt hat.“ (bzw. „Der Rechtsstreit ist in der Hauptsache erledigt.“)\n\noder",
+   "loesung": "Es wird festgestellt, dass der Beklagte der Klägerin sämtliche weiteren materiellen Schäden zu ersetzen hat, die ihr aufgrund des Verkehrsunfalls vom 9. November 2024 in der Schrottstraße 5 in 14641 Nauen entstanden sind oder noch entstehen werden.",
+   "id": "zr-staat:form:033",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 2. Feststellungsurteile",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: November 2024 in der Schrottstraße 5 in 14641 Nauen entstanden\nsind oder noch entstehen werden.“\n\n3. Gestaltungsurteile\n\nBeispiele für typische Gestaltungsurteile:",
+   "loesung": "Die Zwangsvollstreckung aus dem Urteil des Amtsgerichts Neukölln vom 13. Mai 2024 – 4 C 300/23 – wird für unzulässig erklärt, soweit der Beklagte hieraus wegen mehr als 5.000,00 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit dem 10. Dezember 2023 vollstreckt. Im Übrigen wird die Klage abgewiesen.",
+   "id": "zr-staat:form:034",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 3. Gestaltungsurteile",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Dezember 2023 vollstreckt. Im Übrigen wird\ndie Klage abgewiesen.“",
+   "loesung": "Die Zwangsvollstreckung des Beklagten aus dem Urteil des Amtsgerichts Neukölln vom 13. Mai 2024 – 4 C 300/ 23 – in das am 10. August 2025 bei dem Schuldner Herbert Meier, Hermannstr. 23, 12345 Berlin, gepfändete Herren-Rennrad Canondale SuperSix, Rahmennummer 12345 (Pfändungsprotokoll des Gerichtsvollziehers Herbert Müller DR Nr. II 355/25), wird für unzulässig erklärt.",
+   "id": "zr-staat:form:035",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 3. Gestaltungsurteile",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: II 355/25), wird\nfür unzulässig erklärt.“\n\n4. Unzulässige und unbegründete Klagen\n\nIst eine Klage unzulässig oder unbegründet, heißt es in allen Klagearten:",
+   "loesung": "Die Klage wird abgewiesen.",
+   "id": "zr-staat:form:036",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 4. Unzulässige und unbegründete Klagen",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Unzulässige und unbegründete Klagen\n\nIst eine Klage unzulässig oder unbegründet, heißt es in allen Klagearten: „Die Klage wird abgewiesen.“",
+   "loesung": "Das Versäumnisurteil des Amtsgerichts Neukölln - 12 C 134/25 - vom 28. April 2025 wird aufgehoben und die Klage abgewiesen",
+   "id": "zr-staat:form:037",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 4. Unzulässige und unbegründete Klagen",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Im Tatbestand sollen die erhobenen Ansprüche und die dazu vorgebrachten Angriffs - und Verteidigungsmittel unter Hervorhebung der\ngestellten Anträge nur ihrem wesentlichen Inhalt nach knapp dargestellt werden, § 313 Abs. Wegen der Einzelheiten des\nSach- und Streitstandes soll in geeigneten Fällen auf bestimmte Stellen von\nSchriftsätzen, Protokolle und andere konkret benannte Unterlagen verwiesen\n\nwerden, § 313 Abs.",
+   "loesung": "Wegen der Einzelheiten des Kaufvertrages wird auf die Anlage 2 zur Klageschrift Bezug genommen",
+   "id": "zr-staat:form:039",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung",
+   "rn": ""
+  },
+  {
+   "typ": "fehler",
+   "frage": "Was ist hieran fehlerhaft, und wie lautet es richtig?\nKeine oder falsche Trennung von Unstreitigem/Streitigem",
+   "loesung": "Sachvortrag, auch streitiger, ist sinnvoll zu filtern, zu sichten und\nzu ordnen.",
+   "id": "zr-staat:fehl:040",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung",
+   "rn": ""
+  },
+  {
+   "typ": "aufbau",
+   "frage": "Bringen Sie in die richtige Reihenfolge und ergänzen Sie Fehlendes.\n- flüssiges ist wegzulassen. • Keine Wiederholungen. • Sachvortrag, auch streitiger, ist sinnvoll zu filtern, zu sichten und zu ordnen. Typische Fehler beim Aufbau eines Tatbestandes sind:\n– Keine oder falsche Trennung von Unstreitigem/Streitigem\n– Unstrukturierte Wiedergabe insbesondere des unstreitigen\n– Keine oder falsche Trennung von Tatsachenbehauptungen/Rechts -\n– Vorwegnahmen von Wertungen, Auslegungen oder von\n– Falsche Gewichtung, fehlende Herausarbeitung des Wesentlichen\n– Tatsachen zu Nebenforderungen nicht zu berichten",
+   "loesung": "1. Keine oder falsche Trennung von Unstreitigem/Streitigem\n2. Keine oder falsche Trennung von Tatsachenbehauptungen/Rechts -\n3. Falsche Gewichtung, fehlende Herausarbeitung des Wesentlichen\n4. Unstrukturierte Wiedergabe insbesondere des unstreitigen\n5. Vorwegnahmen von Wertungen, Auslegungen oder von\n6. Tatsachen zu Nebenforderungen nicht zu berichten",
+   "id": "zr-staat:aufb:046",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der Kläger muss die\nstreitigen Tatsachen behaupten, die die Tatbestandsmerkmale der\nvon ihm in Anspruch genommenen Anspruchsnorm abdecken. Eingeleitet wird das streitige tatsächliche Klägervorbringen mit der\n\nFormulierung:",
+   "loesung": "Der Kläger behauptet,36 die Wand sei grün. Er behauptet weiter, die Tür sei gelb.",
+   "id": "zr-staat:form:047",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 2. Streitiges Vorbringen › b. Streitiges Vorbringen des Klägers",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: „Der Kläger behauptet,36 die Wand sei grün. Er behauptet weiter,\ndie Tür sei gelb.“\n\noder",
+   "loesung": "Die Klägerin behauptet: Die Wand sei grün. Die Tür sei gelb.",
+   "id": "zr-staat:form:048",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 2. Streitiges Vorbringen › b. Streitiges Vorbringen des Klägers",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Er behauptet weiter,\ndie Tür sei gelb.“\n\noder\n„Die Klägerin behauptet: Die Tür sei gelb.“\n\nRechtsansichten des Klägers kennzeichnet man hingegen mit:",
+   "loesung": "Die Klägerin ist der Ansicht/Auffassung, meint ... .",
+   "id": "zr-staat:form:049",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 2. Streitiges Vorbringen › b. Streitiges Vorbringen des Klägers",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Die Anträge sind durch deutliches Einrücken hervorzuheben,\n§ 313 Abs. Beantragt der Kläger Rechtshängigkeitszinsen, ist dies wörtlich zu\nberichten und erst in den Entscheidungsgründen auszulegen 43.",
+   "loesung": "Der Kläger beantragt, den Beklagten zu verurteilen, an ihn 5.500,00 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit Rechtshängigkeit zu zahlen.",
+   "id": "zr-staat:form:050",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 3. Anträge",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Beantragt der Kläger Rechtshängigkeitszinsen, ist dies wörtlich zu\nberichten und erst in den Entscheidungsgründen auszulegen 43. „Der Kläger beantragt,\n\nden Beklagten zu verurteilen, an ihn\n5.500,00 EUR nebst Zinsen in Höhe von 5\nProzentpunkten über dem jeweiligen Basiszinssatz seit Rechtshängigkeit zu zahlen.“",
+   "loesung": "Die Beklagte beantragt, die Klage abzuweisen, hilfsweise, das Urteil nicht für vorläufig vollstreckbar zu erklären oder die Vollstreckung auf die in § 720a Abs. 1, 2 ZPO bezeichneten Maßregeln zu beschränken.",
+   "id": "zr-staat:form:051",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 3. Anträge",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Die Darstellung erfolgt im Perfekt\n(Indikativ). Aus Gründen der Verständlichkeit kann zum Beispiel eine Beurkundung der Pro zessgeschichte in der unstreitigen Geschichtserzählung (Sachbericht) angezeigt sein.",
+   "loesung": "Die Beklagte hat mit Schriftsatz vom … die Aufrechnung mit einer Forderung aus Werkvertrag/Delikt erklärt",
+   "id": "zr-staat:form:052",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 7. Prozessgeschichte",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: und dem Kläger\nam ..., dem Beklagten am ...) zugestellte Ver säumnisurteil hat der\nBeklagte mit bei Ge richt am ... eingegangenem Schriftsatz Einspruch eingelegt.“",
+   "loesung": "Der Kläger hat zunächst Zahlung von 1.000,00 EUR verlangt. Nunmehr beantragt er, ...",
+   "id": "zr-staat:form:053",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 7. Prozessgeschichte",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Hinsichtlich des Ergebnisses der Beweisaufnahme ist auf\ndie Sitzungsniederschrift oder ein Gutachten zu verweisen. Fehlt ein\nBeweisbeschluss, ist das Beweisthema kurz zu umschreiben.",
+   "loesung": "Das Gericht ha t gemäß Beschluss vom 15. Mai 20 25 Beweis erhoben durch eidliche Vernehmung des Zeugen Wilhelm Busch. Hinsichtlich des Ergebnisses der Beweisaufnahme wird auf die Sitzungsniederschrift vom 20. Juni 2025 verwiesen.",
+   "id": "zr-staat:form:054",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 7. Prozessgeschichte",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Hinsichtlich des Ergebnisses der Beweisaufnahme wird auf die\nSitzungsniederschrift vom 20. Juni 2025 verwiesen.“",
+   "loesung": "Das Gericht hat über die Behauptung des Klägers, der Beklagte habe ihm einen Faustschlag versetzt, Beweis erhoben durch uneidliche Vernehmung der Zeugen ... und ... . Hinsichtlich des Ergebnisses der Beweisaufnahme wird auf die Sitzungsniederschrift vom ... verwiesen.",
+   "id": "zr-staat:form:055",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 7. Prozessgeschichte",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Die einzelnen, in sich abgeschlossenen Gedankengänge\nmüssen gleichsam mit einem „Denn“ verbunden werden können – von\ndem Bindewort „Denn“ sollte aus stilistischen Gründen freilich nur zurückhaltend Gebrauch gemacht werden. Innerhalb der Entscheidungsgründe sollte der Weg der Subsumtion stets nachvollziehbar\nbleiben.",
+   "loesung": "Die Klage ist begründet. • (Denn) • Dem Kläger steht gegen den Beklagten wegen der Beschädigung seines Pkw ein Schadensersatzanspruch in Höhe von 1.000,00 90 § 313 Abs. 1 Nr. 6 ZPO 91 Aufgabe 92 Urteilsstil EUR aus § 823 Absatz 1 BGB zu. • (Denn) • Der Beklagte hat das Eigentum des Klägers am Pkw dadurch verletzt, dass er ... • ...",
+   "id": "zr-staat:form:056",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › 2. Urteilsstil",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Die Struktur des\nGedankengangs ist durch Absätze zu verdeutlichen. Zeitform der Entscheidungsgründe\n\nZeitform der Entscheidungsgründe ist das Präsens.",
+   "loesung": "Die Klage ist begründet; die Voraussetzungen des § 280 Abs. 1 BGB liegen vor ...",
+   "id": "zr-staat:form:057",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › 5. Zeitform der Entscheidungsgründe",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: „Die Klage ist begründet; die Voraussetzungen des § 280 Abs. 1\nBGB liegen vor ...“\n\nFür Prozessgeschichte ist die Zeitform hingegen Perfekt:",
+   "loesung": "Das Sachverständigengutachten hat im Rahmen der Beweisaufnahme ergeben, … Der Zeuge hat bekundet, ...",
+   "id": "zr-staat:form:058",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › 5. Zeitform der Entscheidungsgründe",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Daher sind unter Umständen Ausführungen\nzu den Fragen erforderlich, ob ein wirksames Geständnis vorliegt, welche Tatsachen zulässig bestritten oder ob Tatsachen wegen Widersprüchlichkeit, mangelnder Substanziierung, Verspätung usw. Danach müssen bei einer Beweiswürdigung immer\ndie Gründe angegeben werden, die für die richterliche Überzeugung\nleitend gewesen sind.",
+   "loesung": "Nach dem Ergebnis der Beweisaufnahme ist bewiesen (steht es zur Überzeugung des Gerichts fest) , dass der Beklagte den Pkw des Klägers beschädigte hat. Der Zeuge Müller hat bekundet, dass der Beklagte mit einem Baseballschläger auf die Frontscheibe des Pkw des Klägers wuchtig eingeschlagen habe",
+   "id": "zr-staat:form:059",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › 6. Feststellungen im Sinne von § 286 ZPO",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der Zeuge Müller hat bekundet, dass\nder Beklagte mit einem Baseballschläger auf die Frontscheibe des\nPkw des Klägers wuchtig eingeschlagen habe“. „Diese Aussage ist glaubhaft.",
+   "loesung": "Der Zeuge ist auch glaubwürdig ...",
+   "id": "zr-staat:form:060",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › 6. Feststellungen im Sinne von § 286 ZPO",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Kann diese Frage aber bejaht\nwerden, ist darzustellen, ob die Klage vollstän dig oder teilweise begründet ist (Begründetheit). Das Ergebnis der jeweiligen Prüfungen muss in einem kurzen Einleitungssatz am Beginn der Entscheidungsgründe gleich nach der Überschrift „Entscheidungsgründe“ dargestellt werden.",
+   "loesung": "Die zulässige Klage ist begründet.",
+   "id": "zr-staat:form:061",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Das Ergebnis der jeweiligen Prüfungen muss in einem kurzen Einleitungssatz am Beginn der Entscheidungsgründe gleich nach der Überschrift „Entscheidungsgründe“ dargestellt werden. „Die zulässige Klage ist begründet.“\n\nEinleitungssatz",
+   "loesung": "Die Klage ist zulässig und begründet.",
+   "id": "zr-staat:form:062",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Das Ergebnis der jeweiligen Prüfungen muss in einem kurzen Einleitungssatz am Beginn der Entscheidungsgründe gleich nach der Überschrift „Entscheidungsgründe“ dargestellt werden. „Die zulässige Klage ist begründet.“\n\nEinleitungssatz\n„Die Klage ist zulässig und begründet.“",
+   "loesung": "Die Klage ist zulässig (I.) und begründet (II.).",
+   "id": "zr-staat:form:063",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Das Ergebnis der jeweiligen Prüfungen muss in einem kurzen Einleitungssatz am Beginn der Entscheidungsgründe gleich nach der Überschrift „Entscheidungsgründe“ dargestellt werden. „Die zulässige Klage ist begründet.“\n\nEinleitungssatz\n„Die Klage ist zulässig und begründet.“\n„Die Klage ist zulässig (I.) und begründet (II.).“",
+   "loesung": "Die Klage ist in ihrer ausgelegten Form (I.) zulässig (II.) und begründet (III.).",
+   "id": "zr-staat:form:064",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Das Ergebnis der jeweiligen Prüfungen muss in einem kurzen Einleitungssatz am Beginn der Entscheidungsgründe gleich nach der Überschrift „Entscheidungsgründe“ dargestellt werden. „Die zulässige Klage ist begründet.“\n\nEinleitungssatz\n„Die Klage ist zulässig und begründet.“\n„Die Klage ist zulässig (I.) und begründet (II.).“\n„Die Klage ist in ihrer ausgelegten Form (I.) zulässig (II.) und\nbegründet (III.).“",
+   "loesung": "Die zulässige Klage ist in dem aus dem Tenor ersichtlichen Umfang begründet.",
+   "id": "zr-staat:form:065",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Das Ergebnis der jeweiligen Prüfungen muss in einem kurzen Einleitungssatz am Beginn der Entscheidungsgründe gleich nach der Überschrift „Entscheidungsgründe“ dargestellt werden. „Die zulässige Klage ist begründet.“\n\nEinleitungssatz\n„Die Klage ist zulässig und begründet.“\n„Die Klage ist zulässig (I.) und begründet (II.).“\n„Die Klage ist in ihrer ausgelegten Form (I.) zulässig (II.) und\nbegründet (III.).“\n„Die zulässige Klage ist in dem aus dem Tenor ersichtlichen\nUmfang begründet.“",
+   "loesung": "Die zulässige Klage ist unbegründet.",
+   "id": "zr-staat:form:066",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Das Ergebnis der jeweiligen Prüfungen muss in einem kurzen Einleitungssatz am Beginn der Entscheidungsgründe gleich nach der Überschrift „Entscheidungsgründe“ dargestellt werden. „Die zulässige Klage ist begründet.“\n\nEinleitungssatz\n„Die Klage ist zulässig und begründet.“\n„Die Klage ist zulässig (I.) und begründet (II.).“\n„Die Klage ist in ihrer ausgelegten Form (I.) zulässig (II.) und\nbegründet (III.).“\n„Die zulässige Klage ist in dem aus dem Tenor ersichtlichen\nUmfang begründet.“\n„Die zulässige Klage ist unbegründet.“",
+   "loesung": "Die Klage ist bereits im Hauptantrag begründet.",
+   "id": "zr-staat:form:067",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Das Ergebnis der jeweiligen Prüfungen muss in einem kurzen Einleitungssatz am Beginn der Entscheidungsgründe gleich nach der Überschrift „Entscheidungsgründe“ dargestellt werden. „Die zulässige Klage ist begründet.“\n\nEinleitungssatz\n„Die Klage ist zulässig und begründet.“\n„Die Klage ist zulässig (I.) und begründet (II.).“\n„Die Klage ist in ihrer ausgelegten Form (I.) zulässig (II.) und\nbegründet (III.).“\n„Die zulässige Klage ist in dem aus dem Tenor ersichtlichen\nUmfang begründet.“\n„Die zulässige Klage ist unbegründet.“\n„Die Klage ist bereits im Hauptantrag begründet.“",
+   "loesung": "Die Klage ist zulässig und überwiegend begründet.",
+   "id": "zr-staat:form:068",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Das Ergebnis der jeweiligen Prüfungen muss in einem kurzen Einleitungssatz am Beginn der Entscheidungsgründe gleich nach der Überschrift „Entscheidungsgründe“ dargestellt werden. „Die zulässige Klage ist begründet.“\n\nEinleitungssatz\n„Die Klage ist zulässig und begründet.“\n„Die Klage ist zulässig (I.) und begründet (II.).“\n„Die Klage ist in ihrer ausgelegten Form (I.) zulässig (II.) und\nbegründet (III.).“\n„Die zulässige Klage ist in dem aus dem Tenor ersichtlichen\nUmfang begründet.“\n„Die zulässige Klage ist unbegründet.“\n„Die Klage ist bereits im Hauptantrag begründet.“\n„Die Klage ist zulässig und überwiegend begründet.“",
+   "loesung": "Die Klage ist zulässig und teilweise begründet",
+   "id": "zr-staat:form:069",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Bei der Reaktion der Parteien auf Rücknahmen, Erledigungen etc. In einem solchen Fall kann etwa wie folgt formuliert werden:",
+   "loesung": "Entscheidungsgründe Der Antrag des Klägers [ ggf. Wiedergabe des Antrages] ist dahingehend auszulegen, dass er (...). Für diese Auslegung spricht, dass [Begründung für das Ergebnis der Auslegung].",
+   "id": "zr-staat:form:070",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 2. Unklare Anträge",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Kann gegen die jeweilige gerichtliche Entscheidung gerade\ndieses Rechtsmittel oder dieser Rechtsbehelf genutzt werden?), ob\ndas Mittel form - und fristgerecht – gegebenenfalls in Verbindung mit\neinem Antrag auf Wiedereinsetzung in den vorigen Stand – eingelegt\nwurde. Die in der Klausur am häufigsten notwendige Prüfung eines\nEinspruchs kann zum Beispiel so dargestellt werden:",
+   "loesung": "Der Einspruch der Beklagten gegen das Versäumnisurteil vom 23. Mai 2025 ist zulässig und insbesondere rechtzeitig innerhalb der Zweiwochenfrist des § 339 Abs. 1 ZPO eingelegt. ...",
+   "id": "zr-staat:form:071",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 3. Prüfung eines Rechtsbehelfs/Rechtsmittels",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Breitere Ausführungen zu\nunproblematischen Bereichen fallen negativ auf. Beispiele für Kurzformen:",
+   "loesung": "Die Klage ist zulässig. Insbesondere ist das angerufene Gericht nach § 1 ZPO, §§ 23 Nr. 1, 71 Abs. 2 GVG sachlich und nach §§ 12, 13 ZPO örtlich zuständig. Sie ist auch begründet. …",
+   "id": "zr-staat:form:072",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › III. Sachurteilsvoraussetzungen › 2. Kein Zulässigkeitsproblem",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Besondere Sachurteilsvoraussetzungen\n\nGibt es besondere Sachurteilsvoraussetzungen, etwa bei einem Feststellungsantrag das Feststellungsinteresse, sind diese wenigstens\nkurz abzuhandeln. Die notwendige Kurzprüfung kann dabei etwa so\naussehen:",
+   "loesung": "Auch das nach § 256 Abs. 1 ZPO erforderliche Feststellungsinteresse ist gegeben. Denn der Kläger hat bei Eintritt eines erledigenden Ereignisses keine andere Möglichkeit als die Feststellungsklage, um von den Kosten des Rechtsstreits befreit zu werden",
+   "id": "zr-staat:form:074",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › III. Sachurteilsvoraussetzungen › 4. Besondere Sachurteilsvoraussetzungen",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Begründete Klage\n\nIn einem kurzen und einfachen Einleitungssatz sollte das Ergebnis\ndes Prozesses unter Nennung der entscheidungs erheblichen Anspruchsnorm (gegebenenfalls auch des entsprechenden Vertrages)\ngenannt werden. Dass gegebenenfalls auch andere Anspruchsgrundlagen zu demselben Ergebnis führen, interessiert nicht.",
+   "loesung": "Die Klägerin hat einen Anspruch auf Zahlung von 5.000,00 EUR aus dem am 21. Mai 2025 zwischen den Parteien geschlossenen Kaufvertrag in Verbindung mit § 433 Absatz 2 BGB.",
+   "id": "zr-staat:form:075",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › IV. Begründetheit › 2. Hauptanspruch › a. Begründete Klage",
+   "rn": ""
+  },
+  {
+   "typ": "aufbau",
+   "frage": "Bringen Sie in die richtige Reihenfolge und ergänzen Sie Fehlendes.\neklagten erfolglos eine Einrede, ist auc h diese abzuhandeln. Insoweit beschränken sich jedoch die Erörterungen auf das Merkmal, das verneint wird. Allgemeiner Aufbau:\n– quasivertragliche Ansprüche\n– dingliche Ansprüche\n– ungerechtfertigte Bereicherung\n– Vertrag",
+   "loesung": "1. Vertrag\n2. quasivertragliche Ansprüche\n3. dingliche Ansprüche\n4. ungerechtfertigte Bereicherung",
+   "id": "zr-staat:aufb:076",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › IV. Begründetheit › 2. Hauptanspruch › b. Unbegründete Klage",
+   "rn": "139"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Der Umfang der Begründung hängt vom Einzelfall ab. Ist zum Beispiel\nder Verzugsbeginn problematisch, gehören hierzu Ausführungen in\ndie Entscheidungsgründe.",
+   "loesung": "Der zuerkannte Zinsanspruch rechtfertigt sich unter dem Satz 2 BGB. Entgegen der Ansicht des Beklagten trat Verzug bereits am ... ein. Denn das Schreiben der Klägerin vom ... ist als Mahnung zu qualifizieren. E s enthält eine ernsthafte und hinreichend bestimmte Zahlungsaufforderung",
+   "id": "zr-staat:form:077",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › IV. Begründetheit › 3. Nebenforderungen",
+   "rn": "139"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Kostenentscheidung\n\nDie Kostenentscheidung beurteilt sich zumeist nach §§ 91 bis 101,\n269 Abs. In der Regel genügt zur Begründung\nder Kostenentscheidung ein Zitat der gesetzlichen Normen, auf denen\ndie Entscheidung beruht.",
+   "loesung": "Die Kostenentscheidung beruht auf § 91 Abs. 1 Satz 1 ZPO.",
+   "id": "zr-staat:form:078",
+   "skript": "zr-staat",
+   "abschnitt": "V. Prozessuale Nebenentscheidungen › 1. Kostenentscheidung",
+   "rn": "139"
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: In diesem Fall muss die Kosten entscheidung – soweit sie sich auf §§ 91a, 93 ZPO stützt – begründet werden. Dies findet\nseinen Grund darin, dass zum Beispiel die auf §§ 91a, 93 ZPO beruhenden Entscheidungen gesondert angefochten werden kann.",
+   "loesung": "Soweit die Parteien den Rechtsstreit in der Hauptsache wegen des Austauschs der Fenster in der Küche und der Abdichtung der Terrasse für erledigt erklärt haben, sind dem Beklagten die Kosten aufzuerlegen. Nach § 91 a Abs. 1 ZPO ist eine Billigkeitsentscheidung nach dem bisherigen Sach- und Streitstand zu treffen. Nach der derzeitigen Sach - und Rechtslage hätte die Klage voraussichtlich Erfolg gehabt. Der Beklagte war unstreitig Nebenentscheidungen bereits vor Rechtshängigkeit verpflichtet, die Schäden an den Fenstern und an der Terrasse zu beheben [ist weiter auszuführen].",
+   "id": "zr-staat:form:079",
+   "skript": "zr-staat",
+   "abschnitt": "V. Prozessuale Nebenentscheidungen › 1. Kostenentscheidung",
+   "rn": "139"
+  }
+ ]
+}

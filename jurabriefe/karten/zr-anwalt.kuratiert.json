@@ -1,0 +1,95 @@
+{
+ "skript": "zr-anwalt",
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie die Einleitung des Klageantrages, wenn das Rubrum mit den Worten 'In dem Rechtsstreit des Herrn Johannes Hufland, Klägers,' eingeleitet wurde.",
+   "loesung": "erhebe ich hiermit namens und in Vollmacht des Klägers Klage und werde beantragen, wie folgt zu erkennen:",
+   "id": "zr-anwalt:form:011",
+   "skript": "zr-anwalt",
+   "abschnitt": "V. Die Klausurbearbeitung: › 2. Karl- Heinz Emmerich, (…),",
+   "rn": "20",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Antrag auf einstweilige Einstellung der Zwangsvollstreckung im Rahmen einer Vollstreckungsabwehrklage (AG Schöneberg, Urteil vom 8.6.2010, Az. 13 C 212/10).",
+   "loesung": "Die Zwangsvollstreckung aus dem Urteil des Amtsgerichts Schöneberg vom 8.6.2010 zum Geschäftszeichen 13 C 212/10 wird bis zum Erlass des Urteils in der Hauptsache einstweilen ohne, hilfsweise gegen Sicherheitsleistung eingestellt.",
+   "id": "zr-anwalt:form:012",
+   "skript": "zr-anwalt",
+   "abschnitt": "V. Die Klausurbearbeitung: › 6. Herrn Rechtsanwalt H, ebd., Widerbeklagter zu 6., › h. Vollstreckungsabwehrklage",
+   "rn": "26",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie die einleitende Parteivorstellung im Schriftsatz (Zahnarzt-Abfindungsstreit).",
+   "loesung": "Die Parteien sind Zahnärzte. Der Kläger begehrt vom Beklagten die Zahlung einer Abfindung aufgrund vorzeitiger Kündigung des Gemeinschaftspraxisvertrages. (...)",
+   "id": "zr-anwalt:form:013",
+   "skript": "zr-anwalt",
+   "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden.",
+   "rn": "29",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie die einleitende Parteivorstellung im Schriftsatz (Mietrückstände August bis November 2023, Pallasstraße 57, Berlin-Schöneberg).",
+   "loesung": "Die Klägerin vermietet dem Beklagten eine Wohnung in der Pallasstraße 57 in 10829 Berlin - Schöneberg und macht mit dieser Klage Mietrückstände für die Monate August bis November 2023 geltend.",
+   "id": "zr-anwalt:form:014",
+   "skript": "zr-anwalt",
+   "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden.",
+   "rn": "29",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie die einleitende Parteivorstellung im Schriftsatz (Schmerzensgeld und Folgeansprüche aus Verkehrsunfall mit Polizeifahrzeug, 50 % Haftung).",
+   "loesung": "Der Kläger nimmt den Beklagten auf Zahlung von Schmerzensgeld sowie wegen Folgeansprüchen aus einem Verkehrsunfall unter Beteiligung eines Einsatzfahrzeuges der Polizei Berlin in Anspruch. Geltend gemacht werden 50 % der bei dem Unfall entstandenen Schäden.",
+   "id": "zr-anwalt:form:015",
+   "skript": "zr-anwalt",
+   "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden.",
+   "rn": "29",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Beweisantritt für den Sachverstaendigenbeweis.",
+   "loesung": "Beweis: Sachverständigengutachten",
+   "id": "zr-anwalt:form:016",
+   "skript": "zr-anwalt",
+   "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › 2. Formelles Beweisrecht › a. Beweisverfahren",
+   "rn": "35",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie eine salvatorische Klausel fuer AGB.",
+   "loesung": "Sollten Bestimmungen dieser Allgemeinen Geschäftsbedingungen und/oder des Vertrages unwirksam sein oder werden, so berührt dies die Wirksamkeit der übrigen Bestimmungen nicht. Vielmehr gilt anstelle jeder unwirksamen Bestimmung eine dem Zweck der Vereinbarung entsprechende oder zumindest nahekommende Ersatzbestimmung, wie sie die Parteien zur Erreichung des gleichen wirtschaftlichen Ergebnisses vereinbart hätten, wenn sie die Unwirksamkeit der Bestimmung gekannt hätten. Entsprechendes gilt für Unvollständigkeiten.",
+   "id": "zr-anwalt:form:017",
+   "skript": "zr-anwalt",
+   "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › VIII. Kautelarklausuren › 4. AGB-Regelungen in der Vertragsgestaltung",
+   "rn": "67",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Ihr Mandant ist Dritter mit vorrangigem Pfandrecht an einer Sache, die gerade verwertet wird. Er will seinen Vorrang vor dem Vollstreckungsgläubiger durchsetzen. Formulieren Sie den Klageantrag nach § 805 ZPO.",
+   "loesung": "Der Kläger ist vor dem Beklagten aus dem Reinerlös aus der Vollstreckung in folgenden Gegenstand (genau bezeichnen) wegen einer Forderung des Klägers in Höhe von € ... zu befriedigen.",
+   "id": "zr-anwalt:form:018",
+   "skript": "zr-anwalt",
+   "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › IX. Klagen und Rechtsbehelfe in der Zwangsvollstreckung › 1. Klagen gegen die Zwangsvollstreckung: › c. Klage auf vorzugsweise Befriedigung nach § 805 ZPO",
+   "rn": "69",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Ihr Mandant wendet sich im Wege der Erinnerung nach § 766 ZPO gegen eine Maßnahme des Gerichtsvollziehers. Formulieren Sie den alternativen Antragstyp (Anweisung).",
+   "loesung": "Der Gerichtsvollzieher wird angewiesen, …",
+   "id": "zr-anwalt:form:019",
+   "skript": "zr-anwalt",
+   "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › IX. Klagen und Rechtsbehelfe in der Zwangsvollstreckung › 2. Sofortige Beschwerde und Erinnerung › b. Erinnerung nach § 766 ZPO",
+   "rn": "71",
+   "gewicht": 3
+  }
+ ]
+}

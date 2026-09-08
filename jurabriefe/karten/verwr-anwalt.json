@@ -1,0 +1,31 @@
+{
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Streitwert und Gegenstandswert sind ihrer Höhe nach regelmäßig gleich. In diesem Sinne\nnormiert § 23 Absatz 1 Satz 1 RVG:",
+   "loesung": "Soweit sich die Gerichtsgebühren nach dem Wert richten, bestimmt sich der Gegenstandswert im gerichtlichen Verfahren nach den für die Gerichtsgebühren geltenden Wertvorschriften.",
+   "id": "verwr-anwalt:form:001",
+   "skript": "verwr-anwalt",
+   "abschnitt": "01. Juli 2004 den Aufbau des Gerichtskostengesetzes (GKG) grundlegend geändert und",
+   "rn": ""
+  },
+  {
+   "typ": "fehler",
+   "frage": "Was ist hieran fehlerhaft, und wie lautet es richtig?\nRechtschutz für Beigeladenen: Durch eine Beiladung wird verhindert, dass ohne Beteiligung des Beigeladenen über seine Rechte entschieden wird;",
+   "loesung": "Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 31 von 53\nNutzungsfehler des Rechtsanwalts\n\nEine",
+   "id": "verwr-anwalt:fehl:002",
+   "skript": "verwr-anwalt",
+   "abschnitt": "21. September 2022, Aktenzeichen XII ZB 264/22). Danach bedarf es zur",
+   "rn": ""
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie. Situation laut Skript: Wie mit diesen umzugehen ist, ist dem Bearbeitervermerk zu entnehmen. Eine entsprechende Formulierung\nlautet beispielsweise:",
+   "loesung": "Werden in einzelnen Punkten die Gewährung des rechtlichen Gehörs, Ermittlungen oder Beweisaufnahmen für erforderlich gehalten, so ist dies zu erörtern, sodann jedoch zu unterstellen, dass entsprechende Maßnahmen durchgeführt wurden, aber keine über die bere its vorliegenden Unterlagen hinausgehenden Erkenntnisse ergeben haben. Wird die getroffene Entscheidung auf einen rechtlichen Gesichtspunkt gestützt, den ein Beteiligter erkennbar übersehen oder für unerheblich gehalten hat, so ist zu unterstellen, dass ihm Gelegenheit zur Äußerung gegeben worden ist, er hiervon jedoch keinen Gebrauch gemacht hat.",
+   "id": "verwr-anwalt:form:004",
+   "skript": "verwr-anwalt",
+   "abschnitt": "2. Schreiben",
+   "rn": ""
+  }
+ ]
+}
