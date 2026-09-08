@@ -32,6 +32,8 @@ def clean(text: str) -> str:
     t = "\n".join(seiten)
     t = re.sub(r"(\w)-\n(\w)", r"\1\2", t)
     t = re.sub(r"(?<=[a-zäöüß])(\d{1,2})(?=[\s.,;:)“])", "", t)
+    # Fussnotenziffer direkt hinter Satzzeichen oder Anfuehrung: "…Verfahrens.13"
+    t = re.sub(r"(?<=[.!?“])\d{1,3}(?=\s|$)", "", t)
     t = re.sub(r"[ \t\u00a0]{2,}", " ", t)
     t = re.sub(r"(?m)^ +| +$", "", t)
     return re.sub(r"\n{3,}", "\n\n", t).strip()
@@ -77,7 +79,7 @@ TENORSATZ = re.compile(
     r"Das Verfahren wird[^\n]*|Der Streitwert wird[^\n]*|Der Wert des[^\n]*wird[^\n]*|"
     r"Die Kosten des [^\n]*|Die Vollstreckung[^\n]*|Die Zwangsvollstreckung[^\n]*)$"
 )
-FALSCH = re.compile(r"(?i)(falsch sind|falsch wäre|fehlerhaft|nicht:|unzulässig ist|typische fehler|häufiger fehler)")
+FALSCH = re.compile(r"(?i)(falsch sind|falsch wäre|fehlerhaft|nicht:|unzulaessig ist|typische fehler|häufiger fehler)")
 FALL = re.compile(r"(?m)^(?:Beispiels?fall|Fall|Übungsfall)(?:\s*\d+)?\s*:\s*(.+?)(?=\n\s*\n|\Z)", re.S)
 AUFZAEHLUNG = re.compile(r"(?m)^\s*[•\-–]\s+(.+)$")
 
