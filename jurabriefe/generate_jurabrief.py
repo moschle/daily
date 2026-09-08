@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Jurabrief: Lesetext + Klausuraufgabe aus dem Skript."""
-
+"""Jurabrief: rotierendes Kapitel, wechselnder Lesetext, vollstaendige Aufgabe."""
 from __future__ import annotations
 
 import json
@@ -32,31 +31,36 @@ PROGRESS_FILE = _HERE / "progress.json"
 LERNPLAN_FILE = _HERE / "lernplan.json"
 EXTRACTED = _HERE / "extracted"
 OLD_BASE = "https://de.openlegaldata.io/api/cases/search/"
-
 ZR_COURTS = ("lg", "olg", "bgh", "kg")
 VR_COURTS = ("vg", "ovg", "bverwg", "vgh")
 
-EXCERPT_PROMPT = """Anfang eines deutschen Zivilurteils.
-Nur Rubrum und Tenor wiedergeben. Keine Anrede. Nicht umformulieren.
-Passt der Text nicht: UNPASSEND.
+RUBRUM_SV = (
+    "Bearbeitervermerk\n"
+    "Sicht des erkennenden Gerichts. Fertigen Sie den Kopf des Urteils.\n\n"
+    "Sachverhalt\n"
+    "Amtsgericht Neukoelln, Abteilung 12, Az. 12 C 310/24. "
+    "Letzte muendliche Verhandlung am 3. April 2025 vor dem Richter am Amtsgericht Dr. Mueller.\n\n"
+    "Klaegerin und Widerbeklagte: Rabe Schneedienst GmbH, Kochstrasse 34, 12047 Berlin, "
+    "gesetzlich vertreten durch den Geschaeftsfuehrer Martin Mueller, ebenda. "
+    "Prozessbevollmaechtigte: Rechtsanwaelte Martina Klage und Karl Meier, Parkstrasse 101, 12165 Berlin.\n\n"
+    "Streithelferin der Klaegerin: Mega AG, gesetzlich vertreten durch die Vorstandsmitglieder "
+    "Herbert Mueller und Ralf Schubert, Sonnenallee 93, 12199 Berlin. "
+    "Prozessbevollmaechtigte: Rechtsanwaelte Karl Boot u. a., Oberweg 12, 12498 Berlin.\n\n"
+    "Beklagter zu 1) und Widerklaeger: der unter der Firma Dieter Teufel handelnde Kaufmann "
+    "Rainer Zufall, Peststrasse 14, 12345 Berlin.\n\n"
+    "Beklagte zu 2) und Widerklaegerin: die am 12. Dezember 2015 geborene Erika Hage, "
+    "Sanderweg 2, 12047 Berlin, gesetzlich vertreten durch ihre Eltern Maria und Lutz Hage, ebenda. "
+    "Prozessbevollmaechtigter der Beklagten zu 2): Rechtsanwalt Herbert Sol, Kalckreuthweg 56, 10787 Berlin.\n\n"
+    "Fertigen Sie den Kopf des Urteils einschliesslich der Formel Im Namen des Volkes."
+)
 
-Text:
-{text}
-"""
+EXCERPT_PROMPT = """Anfang eines deutschen Urteils. Nur Rubrum und Tenor. Keine Anrede. Nicht umformulieren.
+Passt der Text nicht zur Gerichtsbarkeit: UNPASSEND.\n\nText:\n{text}\n"""
 
-AUFGABE_PROMPT = """Schreibe eine Assessorklausur-Aufgabe (staatliche Sicht, Urteilskopf).
-Stil: Bearbeitervermerk, keine Anrede, kein Fettdruck, keine Nummerierung als Quiz.
-
-Vorgabe:
-- Aus dem Skript nur EIN zusammenhaengendes Parteienset verwenden.
-- Den fertigen Urteilskopf und den Tenor NICHT abdrucken.
-- Stattdessen die Parteien, Vertreter, Prozessbevollmaechtigten, Gericht, Spruchkoerper und den letzten Verhandlungstag als Sachverhalt nennen.
-- Auftrag in einem Satz: Fertigen Sie den Kopf des Urteils einschliesslich der Formel Im Namen des Volkes.
-- Keine Loesungshinweise.
-
-Skript:
-{text}
-"""
+AUFGABE_PROMPT = """Assessorklausur, staatliche oder anwaltliche Sicht je nach Skript.
+Nur die Aufgabe. Kein Musterrubrum, kein Tenor als Loesung. Keine Anrede. Kein Fettdruck.
+Ein Parteienset. Auftrag in einem Satz am Ende.
+Sachverhalt vollstaendig: alle im Skript genannten Parteien dieses einen Musters.\n\nSkript:\n{text}\n"""
 
 
 def now_berlin():
@@ -67,56 +71,40 @@ def resolve_to() -> str:
     return (os.environ.get("JURABRIEF_TO") or os.environ.get("GMAIL_ADDRESS") or "").strip()
 
 
-def load_cases():
-    if CASES_FILE.exists():
-        return json.loads(CASES_FILE.read_text(encoding="utf-8")).get("cases", [])
-    return []
-
-
-def load_state():
-    if STATE_FILE.exists():
-        return json.loads(STATE_FILE.read_text(encoding="utf-8"))
-    return {"done": [], "next_index": 0, "last_id": None}
+def load_json(path: Path, default):
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+    return default
 
 
 def save_state(state):
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def load_progress():
-    if PROGRESS_FILE.exists():
-        return json.loads(PROGRESS_FILE.read_text(encoding="utf-8"))
-    return {"gewichte": {}, "feedback": [], "letzte_anpassung": None}
-
-
-def load_plan():
-    if LERNPLAN_FILE.exists():
-        return json.loads(LERNPLAN_FILE.read_text(encoding="utf-8"))
-    return {"phasen": []}
-
-
 def pick_case(cases, state):
+    recent = []
+    for cid in reversed(state.get("done", [])):
+        if cid not in recent:
+            recent.append(cid)
+        if len(recent) >= 4:
+            break
     try:
-        res = pick(cases, load_plan(), load_progress())
+        res = pick(
+            cases,
+            load_json(LERNPLAN_FILE, {"phasen": []}),
+            load_json(PROGRESS_FILE, {"gewichte": {}}),
+            exclude_ids=recent,
+        )
         case = res["case"]
-        state["last_id"] = case["id"]
-        state.setdefault("done", []).append(case["id"])
-        return case, res.get("grund", "adaptiv")
+        grund = res.get("grund", "adaptiv")
     except Exception as e:
-        print(f"Adaptiver Plan Fehler, Fallback: {e}", file=sys.stderr)
-        done = set(state.get("done", []))
-        remaining = [c for c in cases if c["id"] not in done] or cases
-        if not state.get("done"):
-            pass
-        elif not [c for c in cases if c["id"] not in done]:
-            state["done"] = []
-            remaining = cases
-        idx = state.get("next_index", 0) % len(remaining)
-        case = remaining[idx]
-        state["done"].append(case["id"])
-        state["next_index"] = (idx + 1) % max(len(remaining), 1)
-        state["last_id"] = case["id"]
-        return case, "zyklus"
+        print(f"Plan: {e}", file=sys.stderr)
+        remaining = [c for c in cases if c["id"] not in recent] or cases
+        case = remaining[0]
+        grund = "zyklus"
+    state.setdefault("done", []).append(case["id"])
+    state["last_id"] = case["id"]
+    return case, grund
 
 
 def _find_body(text: str, needle: str) -> int:
@@ -143,75 +131,54 @@ def _cut_clean(text: str, limit: int) -> str:
     cut = text.rfind("\n\n", 0, limit)
     if cut < limit // 3:
         cut = text.rfind("\n", 0, limit)
-    if cut < limit // 3:
-        cut = limit
-    return text[:cut].rstrip()
-
-
-def _split_muster(chunk: str) -> tuple[str, str]:
-    for mark in ("Amtsgericht Neukölln\n12 C", "Amtsgericht Neukölln\n12 C 310", "12 C 310/24"):
-        k = chunk.find(mark)
-        if k >= 0:
-            if mark.startswith("12 C"):
-                line = chunk.rfind("Amtsgericht", 0, k + 1)
-                if line >= 0:
-                    k = line
-            return chunk[:k].rstrip(), chunk[k:].strip()
-    return chunk, ""
+    return text[: cut if cut > limit // 3 else limit].rstrip()
 
 
 def load_skript_section(case: dict) -> tuple[str, str]:
-    """Regeln, Musterrubrum (Loesung, nicht in die Aufgabe)."""
     sid = case.get("skript_id")
-    if not sid:
-        return "", ""
-    path = EXTRACTED / f"{sid}.txt"
-    if not path.exists():
+    path = EXTRACTED / f"{sid}.txt" if sid else None
+    if not path or not path.exists():
         return "", ""
     text = path.read_text(encoding="utf-8")
     i = _find_body(text, case.get("skript_start") or "")
     end = case.get("skript_end") or ""
-    j = _find_body(text, end) if end else -1
+    j = _find_body(text, end) if end else min(len(text), i + 25000)
     if j <= i:
         j = min(len(text), i + 25000)
     chunk = text[i:j]
-    rules, muster = _split_muster(chunk)
-    rules = _cut_clean(rules, 3500)
-    return rules, muster
+    muster = ""
+    for mark in ("12 C 310/24", "Im Namen des Volkes\n\nIn dem Rechtsstreit"):
+        k = chunk.find(mark)
+        if k >= 0:
+            line = chunk.rfind("Amtsgericht", 0, k + 1)
+            if line >= 0:
+                k = line
+            muster = chunk[k:]
+            chunk = chunk[:k]
+            break
+    return _cut_clean(chunk, 4000), muster.strip()
+
+
+def aufgabe_vollstaendig(text: str, case: dict) -> bool:
+    if case.get("id") == "zr-001":
+        return all(x in text for x in ("Hage", "Zufall", "Rabe", "Fertigen"))
+    return len(text) > 200 and "Fertigen" in text or "Pruefen" in text or "Formulieren" in text or "Gliedern" in text
 
 
 def aufgabe_aus_skript(case: dict, rules: str, muster: str) -> str:
-    quelle = (rules + "\n\n" + muster)[:7000] if muster else rules[:7000]
+    if case.get("id") == "zr-001":
+        return RUBRUM_SV
+    quelle = (rules + "\n\n" + muster)[:7000]
     if not quelle:
-        return case.get("aufgabe") or ""
+        return case.get("aufgabe") or "Bearbeiten Sie den Abschnitt nach dem Skript."
     try:
-        out = complete(AUFGABE_PROMPT.format(text=quelle), max_tokens=450).strip()
+        out = complete(AUFGABE_PROMPT.format(text=quelle), max_tokens=700).strip()
         out = re.sub(r"\*\*+", "", out)
-        if "Im Namen des Volkes" in out and "Rabe Schneedienst" in out and "fuer Recht erkannt" in out.lower():
-            out = ""
-        if out:
+        if aufgabe_vollstaendig(out, case):
             return out
     except Exception as e:
-        print(f"Aufgabe aus Skript: {e}", file=sys.stderr)
-    if muster:
-        return (
-            "Vor dem Amtsgericht Neukölln, Abteilung 12, ist folgende Sache anhaengig.\n"
-            "Klagepartei: Rabe Schneedienst GmbH, Kochstrasse 34, 12047 Berlin, "
-            "gesetzlich vertreten durch den Geschaeftsfuehrer Martin Mueller, ebenda; "
-            "Prozessbevollmaechtigte Rechtsanwaelte Martina Klage und Karl Meier, Parkstrasse 101, 12165 Berlin.\n"
-            "Streithelferin der Klaegerin: Mega AG, gesetzlich vertreten durch die Vorstandsmitglieder "
-            "Herbert Mueller und Ralf Schubert, Sonnenallee 93, 12199 Berlin; "
-            "Prozessbevollmaechtigte Rechtsanwaelte Karl Boot u. a., Oberweg 12, 12498 Berlin.\n"
-            "Beklagte zu 1): der unter der Firma Dieter Teufel handelnde Kaufmann Rainer Zufall, "
-            "Peststrasse 14, 12345 Berlin.\n"
-            "Beklagte zu 2): die am 12. Dezember 2015 geborene Erika Hage, Sanderweg 2, 12047 Berlin, "
-            "gesetzlich vertreten durch ihre Eltern Maria und Lutz Hage, ebenda; "
-            "Prozessbevollmaechtigter Rechtsanwalt Herbert Sol, Kalckreuthweg 56, 10787 Berlin.\n"
-            "Widerklage der Beklagten. Letzte muendliche Verhandlung am 3. April 2025, "
-            "Richter am Amtsgericht Dr. Mueller.\n"
-            "Fertigen Sie den Kopf des Urteils."
-        )
-    return case.get("aufgabe") or ""
+        print(f"Aufgabe: {e}", file=sys.stderr)
+    return case.get("aufgabe") or RUBRUM_SV
 
 
 def _old_search(params: dict) -> list:
@@ -221,119 +188,103 @@ def _old_search(params: dict) -> list:
         with urllib.request.urlopen(req, timeout=20) as resp:
             return json.loads(resp.read().decode("utf-8")).get("results") or []
     except Exception as e:
-        print(f"Open Legal Data Fehler: {e}", file=sys.stderr)
+        print(f"OLD: {e}", file=sys.stderr)
         return []
 
 
-def _is_zivil(case: dict) -> bool:
-    return (case.get("gerichtsbarkeit") or "").lower() == "zivil" or "zivil" in case.get("gebiet", "").lower()
+def _is_zivil(case):
+    return (case.get("gerichtsbarkeit") or "") == "zivil" or "zivil" in case.get("gebiet", "").lower()
 
 
-def _is_verw(case: dict) -> bool:
-    return (case.get("gerichtsbarkeit") or "").lower() == "verwaltung" or "verwalt" in case.get("gebiet", "").lower()
+def _is_verw(case):
+    return (case.get("gerichtsbarkeit") or "") == "verwaltung" or "verwalt" in case.get("gebiet", "").lower()
 
 
-def _court_ok(court: str, case: dict) -> bool:
+def _court_ok(court, case):
     c = (court or "").lower()
     if _is_zivil(case):
-        if any(tok in c for tok in VR_COURTS):
-            return False
-        return any(tok in c for tok in ZR_COURTS)
+        return not any(t in c for t in VR_COURTS) and any(t in c for t in ZR_COURTS)
     if _is_verw(case):
-        return any(tok in c for tok in VR_COURTS)
+        return any(t in c for t in VR_COURTS)
     return True
 
 
-def _court_name(court) -> str:
+def _court_name(court):
     if isinstance(court, dict):
         return court.get("name") or court.get("slug") or ""
     return str(court or "")
 
 
-def _result_text(r: dict) -> str:
-    text = r.get("text") or ""
-    if text:
-        return text
+def _result_text(r):
+    if r.get("text"):
+        return r["text"]
     return "\n".join(s.get("text", "") for s in (r.get("snippets") or []) if isinstance(s, dict))
 
 
-def _score_hit(text: str) -> int:
-    t = text.lower()
-    score = 0
-    if "im namen des volkes" in t:
-        score += 4
-    if "tenor" in t:
-        score += 3
-    if "kläger" in t and "beklag" in t:
-        score += 2
-    return score
-
-
-def _cut_native(text: str) -> str:
-    low = text.lower()
-    start = 0
-    for marker in ("im namen des volkes", "tenor", "urteil"):
-        i = low.find(marker)
-        if i != -1:
-            start = i
-            break
-    return text[start:start + 3800].strip()
-
-
-def shape_excerpt(text: str) -> str | None:
+def shape_excerpt(text: str):
     try:
         out = complete(EXCERPT_PROMPT.format(text=text[:8000]), max_tokens=1200).strip()
     except Exception as e:
-        print(f"Claude-Zuschnitt: {e}", file=sys.stderr)
-        return _cut_native(text)
+        print(f"Zuschnitt: {e}", file=sys.stderr)
+        low = text.lower()
+        i = low.find("im namen des volkes")
+        return text[i if i >= 0 else 0: (i if i >= 0 else 0) + 3800]
     if not out or out.upper().startswith("UNPASSEND"):
         return None
     return out[:4000]
 
 
-def search_related_case(case):
-    terms = [t for t in case.get("suchbegriffe", []) if t]
-    if _is_zivil(case):
-        terms = ["Im Namen des Volkes Tenor Landgericht"] + terms
-    elif _is_verw(case):
-        terms = ["Verwaltungsgericht Im Namen des Volkes Tenor"] + terms
-    seen = set()
-    queries = [t for t in terms if not (t in seen or seen.add(t))]
+def search_related_case(case, seen_slugs: list[str]):
+    seen = set(seen_slugs or [])
+    day = now_berlin().strftime("%Y-%m-%d")
+    extra = [
+        f"Landgericht Urteil {day[3]}",
+        "Oberlandesgericht Zivilsenat Tenor",
+        "Bundesgerichtshof Urteil ZPO",
+        "Kammergericht Urteil Klaegerin",
+        "Landgericht Berlin Urteil",
+        "Landgericht Halle Urteil",
+        "Landgericht Magdeburg Urteil",
+    ]
+    terms = extra + list(case.get("suchbegriffe") or [])
+    if _is_verw(case):
+        terms = ["Verwaltungsgericht Im Namen des Volkes", "OVG Urteil Tenor"] + terms
+    queries = []
+    for t in terms:
+        if t not in queries:
+            queries.append(t)
     base = {
         "start_date": "2019-01-01",
         "end_date": now_berlin().strftime("%Y-%m-%d"),
         "order_by": "relevance",
         "return_text": "1",
-        "page_size": "8",
+        "page_size": "10",
     }
-    candidates = []
     for text_q in queries:
         hits = _old_search({**base, "text": text_q})
-        print(f"OLD search text={text_q!r} hits={len(hits)}", file=sys.stderr)
+        print(f"OLD {text_q!r} {len(hits)}", file=sys.stderr)
         for r in hits:
+            slug = r.get("slug") or ""
+            if slug in seen:
+                continue
             court = _court_name(r.get("court"))
             if not _court_ok(court, case):
                 continue
             raw = _result_text(r)
             if len(raw) < 200:
                 continue
-            candidates.append((_score_hit(raw), r, court, raw))
-        if any(s >= 5 for s, *_ in candidates):
-            break
-    candidates.sort(key=lambda x: x[0], reverse=True)
-    for _score, r, court, raw in candidates:
-        shaped = shape_excerpt(raw)
-        if not shaped:
-            continue
-        slug = r.get("slug") or ""
-        return {
-            "gericht": court,
-            "datum": r.get("date", ""),
-            "aktenzeichen": r.get("file_number") or slug,
-            "entscheidungstyp": r.get("decision_type") or r.get("type") or "Urteil",
-            "text": shaped,
-            "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
-        }
+            shaped = shape_excerpt(raw)
+            if not shaped:
+                continue
+            return {
+                "gericht": court,
+                "datum": r.get("date", ""),
+                "aktenzeichen": r.get("file_number") or slug,
+                "entscheidungstyp": r.get("decision_type") or "Urteil",
+                "text": shaped,
+                "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
+                "slug": slug,
+            }
     return None
 
 
@@ -351,7 +302,7 @@ def build_mail(case, related, rules, aufgabe, today_str):
         lesen = "I. Lesetext\nKein Urteil der passenden Gerichtsbarkeit.\n"
     block2 = f"II. Bearbeitung\n{case['gebiet']}\n{quelle}\n\n{aufgabe}\n"
     if rules:
-        block2 += "\n--- Skript (Regeln, kein Musterrubrum) ---\n" + rules + "\n"
+        block2 += "\n--- Skript (Regeln) ---\n" + rules + "\n"
     return f"Jurabrief — {today_str}\n{case['gebiet']}\n\n{lesen}\n\n{block2}\n"
 
 
@@ -372,15 +323,19 @@ def send_mail(subject, body, to_addr):
 
 
 def main():
-    cases = load_cases()
+    cases = load_json(CASES_FILE, {}).get("cases", [])
     if not cases:
         sys.exit(1)
-    state = load_state()
+    state = load_json(STATE_FILE, {"done": [], "seen_slugs": []})
     case, grund = pick_case(cases, state)
-    save_state(state)
     rules, muster = load_skript_section(case)
     aufgabe = aufgabe_aus_skript(case, rules, muster)
-    related = search_related_case(case)
+    related = search_related_case(case, state.get("seen_slugs", []))
+    if related and related.get("slug"):
+        slugs = state.get("seen_slugs", [])
+        slugs.append(related["slug"])
+        state["seen_slugs"] = slugs[-40:]
+    save_state(state)
     today = now_berlin().strftime("%A, %d. %B %Y")
     body = build_mail(case, related, rules, aufgabe, today)
     send_mail(
@@ -388,7 +343,7 @@ def main():
         body,
         resolve_to(),
     )
-    print(f"Fall {case['id']} ({grund}), Regeln {len(rules)}, Muster {len(muster)}.")
+    print(f"Fall {case['id']} ({grund})")
 
 
 if __name__ == "__main__":
