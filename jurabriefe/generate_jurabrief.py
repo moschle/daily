@@ -136,6 +136,12 @@ def clean_ocr(text):
     return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
+def _is_toc_line(text, pos):
+    nl = text.find("\n", pos)
+    line = text[pos: nl if nl != -1 else len(text)]
+    return ".." in line or re.search(r"\s\d{1,3}\s*$", line) is not None
+
+
 def load_skript_section(case):
     sid = case.get("skript_id") or ""
     text = ""
@@ -147,12 +153,25 @@ def load_skript_section(case):
     if not text:
         return ""
     start = case.get("skript_start") or ""
-    i = text.find(start) if start else 0
-    if i < 0:
-        i = 0
+    i = 0
+    if start:
+        pat = re.compile(r"[ \t\u00a0]+".join(map(re.escape, start.split())))
+        hits = [m.start() for m in pat.finditer(text)]
+        real = [h for h in hits if not _is_toc_line(text, h)]
+        if not real:
+            print(f"Skript: nur TOC oder kein Treffer fuer {start!r}", file=sys.stderr)
+            return ""
+        i = real[0]
     end = case.get("skript_end") or ""
-    j = text.find(end, i + 1) if end else min(len(text), i + 12000)
-    chunk = text[i:j if j > i else i + 12000]
+    j = -1
+    if end:
+        epat = re.compile(r"[ \t\u00a0]+".join(map(re.escape, end.split())))
+        for m in epat.finditer(text, i + 1):
+            if not _is_toc_line(text, m.start()):
+                j = m.start()
+                break
+    j = j if j > i else min(len(text), i + 12000)
+    chunk = text[i:j]
     if len(chunk) > 4500:
         cut = chunk.rfind("\n\n", 0, 4500)
         chunk = chunk[: cut if cut > 1000 else 4500]
@@ -224,7 +243,8 @@ def search_related_case(case, seen_slugs):
         terms = ["Verwaltungsgericht Im Namen des Volkes"] + terms
     for q in terms:
         hits = _old_search({"text": q, "page_size": "10"})
-        print(f"OLD {q!r} {len(hits)}", file=sys.stderr)
+        courts = [_court_name(r.get("court")) for r in hits]
+        print(f"OLD {q!r} {len(hits)} {courts[:6]}", file=sys.stderr)
         for r in hits:
             slug = r.get("slug") or ""
             if slug in seen:
