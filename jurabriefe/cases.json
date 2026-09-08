@@ -7,8 +7,13 @@
       "skript_start": "B. Kopf des Urteils",
       "skript_end": "C. Urteilsformel",
       "gerichtsbarkeit": "zivil",
-      "suchbegriffe": ["Im Namen des Volkes Landgericht Prozessbevollmächtigte"],
-      "cited_law": {"book": "zpo", "section": "313"},
+      "suchbegriffe": [
+        "Im Namen des Volkes Landgericht Prozessbevollmächtigte"
+      ],
+      "cited_law": {
+        "book": "zpo",
+        "section": "313"
+      },
       "quelle": "Berlin: Zivilrecht staatliche Sicht, 5. Aufl. 2025, Abschnitt B"
     },
     {
@@ -18,8 +23,13 @@
       "skript_start": "C. Urteilsformel",
       "skript_end": "D. Tatbestand",
       "gerichtsbarkeit": "zivil",
-      "suchbegriffe": ["Landgericht wird verurteilt vorläufig vollstreckbar"],
-      "cited_law": {"book": "zpo", "section": "308"},
+      "suchbegriffe": [
+        "Landgericht wird verurteilt vorläufig vollstreckbar"
+      ],
+      "cited_law": {
+        "book": "zpo",
+        "section": "308"
+      },
       "quelle": "Berlin: Zivilrecht staatliche Sicht, 5. Aufl. 2025, Abschnitt C"
     },
     {
@@ -29,8 +39,13 @@
       "skript_start": "D. Tatbestand",
       "skript_end": "E. Entscheidungsgründe",
       "gerichtsbarkeit": "zivil",
-      "suchbegriffe": ["Landgericht Tatbestand Geschichtserzählung"],
-      "cited_law": {"book": "zpo", "section": "313"},
+      "suchbegriffe": [
+        "Landgericht Tatbestand Geschichtserzählung"
+      ],
+      "cited_law": {
+        "book": "zpo",
+        "section": "313"
+      },
       "quelle": "Berlin: Zivilrecht staatliche Sicht, 5. Aufl. 2025, Abschnitt D"
     },
     {
@@ -40,8 +55,13 @@
       "skript_start": "E. Entscheidungsgründe",
       "skript_end": "",
       "gerichtsbarkeit": "zivil",
-      "suchbegriffe": ["Landgericht Entscheidungsgründe"],
-      "cited_law": {"book": "zpo", "section": "286"},
+      "suchbegriffe": [
+        "Landgericht Entscheidungsgründe"
+      ],
+      "cited_law": {
+        "book": "zpo",
+        "section": "286"
+      },
       "quelle": "Berlin: Zivilrecht staatliche Sicht, 5. Aufl. 2025, Abschnitt E"
     },
     {
@@ -51,8 +71,13 @@
       "skript_start": "Mandantenbegehren",
       "skript_end": "Beweisrecht",
       "gerichtsbarkeit": "zivil",
-      "suchbegriffe": ["Landgericht Klageschrift"],
-      "cited_law": {"book": "zpo", "section": "253"},
+      "suchbegriffe": [
+        "Landgericht Klageschrift"
+      ],
+      "cited_law": {
+        "book": "zpo",
+        "section": "253"
+      },
       "quelle": "Berlin: Zivilrecht anwaltliche Sicht"
     },
     {
@@ -62,8 +87,13 @@
       "skript_start": "Beweiswürdigung",
       "skript_end": "",
       "gerichtsbarkeit": "zivil",
-      "suchbegriffe": ["Bundesgerichtshof Anscheinsbeweis"],
-      "cited_law": {"book": "zpo", "section": "286"},
+      "suchbegriffe": [
+        "Bundesgerichtshof Anscheinsbeweis"
+      ],
+      "cited_law": {
+        "book": "zpo",
+        "section": "286"
+      },
       "quelle": "Berlin: Zivilrecht anwaltliche Sicht"
     },
     {
@@ -73,8 +103,13 @@
       "skript_start": "Mandantenbegehren",
       "skript_end": "",
       "gerichtsbarkeit": "zivil",
-      "suchbegriffe": ["Bundesgerichtshof AGB Inhaltskontrolle"],
-      "cited_law": {"book": "bgb", "section": "307"},
+      "suchbegriffe": [
+        "Bundesgerichtshof AGB Inhaltskontrolle"
+      ],
+      "cited_law": {
+        "book": "bgb",
+        "section": "307"
+      },
       "quelle": "Berlin: Kautelarklausur"
     },
     {
@@ -84,8 +119,13 @@
       "skript_start": "1. Vollstreckungsabwehrklage nach § 767 ZPO",
       "skript_end": "Drittwiderspruchsklage",
       "gerichtsbarkeit": "zivil",
-      "suchbegriffe": ["Landgericht Vollstreckungsabwehrklage 767 ZPO"],
-      "cited_law": {"book": "zpo", "section": "767"},
+      "suchbegriffe": [
+        "Landgericht Vollstreckungsabwehrklage 767 ZPO"
+      ],
+      "cited_law": {
+        "book": "zpo",
+        "section": "767"
+      },
       "quelle": "Berlin: Kautelarklausur"
     },
     {
@@ -95,8 +135,13 @@
       "skript_start": "C. Tenorierung verwaltungsgerichtlicher Urteile",
       "skript_end": "G. Vorläufiger Rechtsschutz",
       "gerichtsbarkeit": "verwaltung",
-      "suchbegriffe": ["Verwaltungsgericht Anfechtungsklage Tenor"],
-      "cited_law": {"book": "vwgo", "section": "113"},
+      "suchbegriffe": [
+        "Verwaltungsgericht Anfechtungsklage Tenor"
+      ],
+      "cited_law": {
+        "book": "vwgo",
+        "section": "113"
+      },
       "quelle": "Berlin: Skript VerwR"
     },
     {
@@ -106,8 +151,13 @@
       "skript_start": "G. Vorläufiger Rechtsschutz",
       "skript_end": "",
       "gerichtsbarkeit": "verwaltung",
-      "suchbegriffe": ["Verwaltungsgericht 80 Abs. 5 VwGO"],
-      "cited_law": {"book": "vwgo", "section": "80"},
+      "suchbegriffe": [
+        "Verwaltungsgericht 80 Abs. 5 VwGO"
+      ],
+      "cited_law": {
+        "book": "vwgo",
+        "section": "80"
+      },
       "quelle": "Berlin: Skript VerwR"
     },
     {
@@ -117,8 +167,13 @@
       "skript_start": "Die Anwaltsklausur im Verwaltungsrecht",
       "skript_end": "",
       "gerichtsbarkeit": "verwaltung",
-      "suchbegriffe": ["Verwaltungsgericht Klageschrift"],
-      "cited_law": {"book": "vwgo", "section": "42"},
+      "suchbegriffe": [
+        "Verwaltungsgericht Klageschrift"
+      ],
+      "cited_law": {
+        "book": "vwgo",
+        "section": "42"
+      },
       "quelle": "Berlin: Skript Hartmann"
     },
     {
@@ -128,9 +183,87 @@
       "skript_start": "Mandatsübernahme",
       "skript_end": "",
       "gerichtsbarkeit": "verwaltung",
-      "suchbegriffe": ["Verwaltungsgericht einstweilige Anordnung 123 VwGO"],
-      "cited_law": {"book": "vwgo", "section": "123"},
+      "suchbegriffe": [
+        "Verwaltungsgericht einstweilige Anordnung 123 VwGO"
+      ],
+      "cited_law": {
+        "book": "vwgo",
+        "section": "123"
+      },
       "quelle": "Berlin: Skript Hartmann"
+    },
+    {
+      "id": "sr-001",
+      "gebiet": "Strafrecht staatliche Sicht — Anklage und Abschlussverfuegung",
+      "gerichtsbarkeit": "straf",
+      "skript_id": "sr-staat",
+      "skript_start": null,
+      "skript_end": null,
+      "suchbegriffe": [
+        "Angeklagte Strafkammer Im Namen des Volkes",
+        "Landgericht Urteil Angeklagten"
+      ],
+      "quelle": "Berliner Ausbildungsskript (sr-staat)"
+    },
+    {
+      "id": "sr-002",
+      "gebiet": "Strafrecht — Anklageschrift",
+      "gerichtsbarkeit": "straf",
+      "skript_id": "anklage",
+      "skript_start": null,
+      "skript_end": null,
+      "suchbegriffe": [
+        "Anklageschrift Staatsanwaltschaft hinreichender Tatverdacht"
+      ],
+      "quelle": "Berliner Ausbildungsskript (anklage)"
+    },
+    {
+      "id": "sr-003",
+      "gebiet": "Strafrecht — Leitfaden Staatsanwaltschaft",
+      "gerichtsbarkeit": "straf",
+      "skript_id": "leitfaden-sta",
+      "skript_start": null,
+      "skript_end": null,
+      "suchbegriffe": [
+        "Staatsanwaltschaft Einstellung 170 StPO"
+      ],
+      "quelle": "Berliner Ausbildungsskript (leitfaden-sta)"
+    },
+    {
+      "id": "sr-004",
+      "gebiet": "Strafrecht — Revisionsklausur",
+      "gerichtsbarkeit": "straf",
+      "skript_id": "revision",
+      "skript_start": null,
+      "skript_end": null,
+      "suchbegriffe": [
+        "Revision 337 StPO Verfahrensruege Urteil aufgehoben"
+      ],
+      "quelle": "Berliner Ausbildungsskript (revision)"
+    },
+    {
+      "id": "sr-005",
+      "gebiet": "Strafrecht anwaltliche Sicht",
+      "gerichtsbarkeit": "straf",
+      "skript_id": "sr-anwalt",
+      "skript_start": null,
+      "skript_end": null,
+      "suchbegriffe": [
+        "Verteidiger Angeklagter Revision Beschwerde"
+      ],
+      "quelle": "Berliner Ausbildungsskript (sr-anwalt)"
+    },
+    {
+      "id": "mdl-001",
+      "gebiet": "Aktenvortrag — muendliche Pruefung",
+      "gerichtsbarkeit": "zivil",
+      "skript_id": "aktenvortrag",
+      "skript_start": null,
+      "skript_end": null,
+      "suchbegriffe": [
+        "Landgericht Urteil Sachverhalt Antraege"
+      ],
+      "quelle": "Berliner Ausbildungsskript (aktenvortrag)"
     }
   ],
   "aktualisiert": "2026-09-08"
