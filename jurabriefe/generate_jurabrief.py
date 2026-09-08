@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Jurabrief: rotierendes Kapitel, wechselnder Lesetext, vollstaendige Aufgabe."""
+"""Jurabrief. Teil I = wörtlicher Urteilsschnitt, keine Umschreibung."""
 from __future__ import annotations
 
 import json
@@ -22,7 +22,6 @@ for _p in (_REPO, _HERE):
         sys.path.insert(0, s)
 
 from adaptive_plan import pick
-from claude_client import complete
 
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 STATE_FILE = _HERE / "state.json"
@@ -35,16 +34,16 @@ ZR_COURTS = ("lg", "olg", "bgh", "kg")
 VR_COURTS = ("vg", "ovg", "bverwg", "vgh")
 STRAF = (
     "angeklagte", "staatsanwaltschaft", "strafkammer", "stpo",
-    "revisionen des angeklagten", "grosse strafkammer", "jugendkammer",
+    "revisionen des angeklagten", "grosse strafkammer",
 )
+PLACEHOLDER = ("[kläger", "[beklag", "[name]", "[datum]", "firma/name", "gericht/senat")
 
 RUBRUM_SV = (
     "Bearbeitervermerk\nSicht des erkennenden Gerichts. Fertigen Sie den Kopf des Urteils.\n\n"
     "Sachverhalt\nAmtsgericht Neukoelln, Abteilung 12, Az. 12 C 310/24. "
     "Letzte muendliche Verhandlung am 3. April 2025 vor dem Richter am Amtsgericht Dr. Mueller.\n\n"
     "Klaegerin und Widerbeklagte: Rabe Schneedienst GmbH, Kochstrasse 34, 12047 Berlin, "
-    "gesetzlich vertreten durch den Geschaeftsfuehrer Martin Mueller, ebenda. "
-    "Prozessbevollmaechtigte: Rechtsanwaelte Martina Klage und Karl Meier, Parkstrasse 101, 12165 Berlin.\n\n"
+    "gesetzlich vertreten durch den Geschaeftsfuehrer Martin Mueller, ebenda.\n\n"
     "Streithelferin der Klaegerin: Mega AG, gesetzlich vertreten durch die Vorstandsmitglieder "
     "Herbert Mueller und Ralf Schubert, Sonnenallee 93, 12199 Berlin.\n\n"
     "Beklagter zu 1) und Widerklaeger: der unter der Firma Dieter Teufel handelnde Kaufmann "
@@ -53,27 +52,35 @@ RUBRUM_SV = (
     "Sanderweg 2, 12047 Berlin, gesetzlich vertreten durch ihre Eltern Maria und Lutz Hage, ebenda.\n\n"
     "Fertigen Sie den Kopf des Urteils einschliesslich der Formel Im Namen des Volkes."
 )
-
 TENOR_SV = (
     "Bearbeitervermerk\nSicht des erkennenden Gerichts. Fertigen Sie allein die Urteilsformel.\n\n"
     "Sachverhalt\nDie Klage der Rabe Schneedienst GmbH gegen Rainer Zufall und Erika Hage "
     "auf Zahlung von 2.559,45 EUR nebst Zinsen in Hoehe von 5 Prozentpunkten ueber dem "
-    "Basiszinssatz seit dem 10. Dezember 2024 ist begruendet. Die Widerklage der Beklagten "
-    "ist unbegruendet. Die Beklagten haften als Gesamtschuldner. "
-    "Vollstreckung nach § 709 ZPO, Sicherheitsleistung Betrag zuzueglich 10 %.\n\n"
+    "Basiszinssatz seit dem 10. Dezember 2024 ist begruendet. Die Widerklage ist unbegruendet. "
+    "Gesamtschuld. Vollstreckung nach § 709 ZPO, Sicherheit Betrag zuzueglich 10 %.\n\n"
     "Fertigen Sie die Urteilsformel (Hauptsache, Kosten, vorlaeufige Vollstreckbarkeit)."
 )
-
+TATBESTAND_SV = (
+    "Bearbeitervermerk\nFertigen Sie den Tatbestand. Unerhebliches weglassen. "
+    "Unstreitiges im Indikativ, Streitiges im Konjunktiv. Antraege wörtlich.\n\n"
+    "Sachverhalt\nKlage der Rabe Schneedienst GmbH gegen Zufall und Hage auf 2.559,45 EUR. "
+    "Die Beklagten bestreiten die Hoehe. Widerklage auf Feststellung, dass der Vertrag nichtig sei. "
+    "In der Klageschrift steht eine Seite Unternehmensgeschichte der Klaegerin; das ist nicht entscheidungserheblich. "
+    "Letzte muendliche Verhandlung am 3. April 2025.\n\n"
+    "Fertigen Sie den Tatbestand nach Abschnitt D des Skripts."
+)
+GRUENDE_SV = (
+    "Bearbeitervermerk\nFertigen Sie die Entscheidungsgruende im Urteilsstil.\n\n"
+    "Sachverhalt\nZahlungsklage 2.559,45 EUR der Rabe Schneedienst GmbH. Widerklage abzuweisen. "
+    "Zulaessigkeit unproblematisch.\n\n"
+    "Fertigen Sie die Entscheidungsgruende. Obersatz voran."
+)
 FALLBACK = {
     "zr-001": RUBRUM_SV,
     "zr-002": TENOR_SV,
+    "zr-003": TATBESTAND_SV,
+    "zr-004": GRUENDE_SV,
 }
-
-EXCERPT_PROMPT = """Anfang eines deutschen ZIVILURTEILS. Nur Rubrum und Tenor.
-Strafsache, Angeklagter, StPO: UNPASSEND.\n\nText:\n{text}\n"""
-
-AUFGABE_PROMPT = """Assessorklausur zum vorliegenden Skriptabschnitt.
-Nur die Aufgabe. Keine Loesung. Auftragssatz am Ende.\n\nSkript:\n{text}\n"""
 
 
 def now_berlin():
@@ -144,34 +151,24 @@ def _cut_clean(text: str, limit: int) -> str:
     return text[: cut if cut > limit // 3 else limit].rstrip()
 
 
-def load_skript_section(case: dict) -> tuple[str, str]:
+def load_skript_section(case: dict) -> str:
     sid = case.get("skript_id")
     path = EXTRACTED / f"{sid}.txt" if sid else None
     if not path or not path.exists():
-        return "", ""
+        return ""
     text = path.read_text(encoding="utf-8")
     i = _find_body(text, case.get("skript_start") or "")
     end = case.get("skript_end") or ""
-    j = _find_body(text, end) if end else min(len(text), i + 25000)
+    j = _find_body(text, end) if end else min(len(text), i + 20000)
     if j <= i:
-        j = min(len(text), i + 25000)
-    return _cut_clean(text[i:j], 4500), ""
+        j = min(len(text), i + 20000)
+    return _cut_clean(text[i:j], 4500)
 
 
-def aufgabe_aus_skript(case: dict, rules: str, muster: str) -> str:
+def aufgabe_aus_skript(case: dict) -> str:
     cid = case.get("id", "")
     if cid in FALLBACK:
         return FALLBACK[cid]
-    quelle = rules[:7000]
-    if not quelle:
-        return case.get("aufgabe") or "Bearbeiten Sie den Abschnitt nach dem Skript."
-    try:
-        out = complete(AUFGABE_PROMPT.format(text=quelle), max_tokens=700).strip()
-        out = re.sub(r"\*\*+", "", out)
-        if len(out) > 180:
-            return out
-    except Exception as e:
-        print(f"Aufgabe: {e}", file=sys.stderr)
     return case.get("aufgabe") or "Bearbeiten Sie den Abschnitt nach dem Skript."
 
 
@@ -186,7 +183,7 @@ def _old_search(params: dict) -> list:
         return []
 
 
-def _is_zivil(case):
+def _is_zivil_case(case):
     return (case.get("gerichtsbarkeit") or "") == "zivil" or "zivil" in case.get("gebiet", "").lower()
 
 
@@ -203,9 +200,14 @@ def _is_straf(text: str, slug: str = "") -> bool:
     return False
 
 
+def _is_placeholder(text: str) -> bool:
+    t = text.lower()
+    return any(p in t for p in PLACEHOLDER)
+
+
 def _court_ok(court, case):
     c = (court or "").lower()
-    if _is_zivil(case):
+    if _is_zivil_case(case):
         return not any(t in c for t in VR_COURTS) and any(t in c for t in ZR_COURTS)
     if _is_verw(case):
         return any(t in c for t in VR_COURTS)
@@ -224,32 +226,35 @@ def _result_text(r):
     return "\n".join(s.get("text", "") for s in (r.get("snippets") or []) if isinstance(s, dict))
 
 
-def shape_excerpt(text: str):
-    try:
-        out = complete(EXCERPT_PROMPT.format(text=text[:8000]), max_tokens=1200).strip()
-    except Exception as e:
-        print(f"Zuschnitt: {e}", file=sys.stderr)
-        low = text.lower()
-        i = low.find("im namen des volkes")
-        return text[i if i >= 0 else 0: (i if i >= 0 else 0) + 3800]
-    if not out or out.upper().startswith("UNPASSEND"):
+def slice_urteil(text: str) -> str | None:
+    if _is_placeholder(text) or _is_straf(text):
         return None
-    if _is_straf(out):
+    low = text.lower()
+    start = 0
+    for m in ("im namen des volkes", "in dem rechtsstreit", "tenor"):
+        i = low.find(m)
+        if i != -1:
+            start = i
+            break
+    chunk = text[start:start + 3500].strip()
+    if len(chunk) < 180:
         return None
-    return out[:4000]
+    if _is_placeholder(chunk):
+        return None
+    return chunk
 
 
 def search_related_case(case, seen_slugs: list[str]):
     seen = set(seen_slugs or [])
     terms = [
-        "Landgericht Urteil Klaegerin Beklagte ZPO",
-        "Oberlandesgericht Zivilsenat Tenor Klaegerin",
-        "Bundesgerichtshof Urteil ZPO Klaeger",
-        "Landgericht Halle Urteil Klaegerin",
-        "Landgericht Magdeburg Urteil Zivilkammer",
+        "Im Namen des Volkes Landgericht Klaegerin Beklagte",
+        "Oberlandesgericht Zivilsenat In dem Rechtsstreit",
+        "Landgericht Zivilkammer Urteil Klaegerin",
+        "Landgericht Halle Zivilkammer Urteil",
+        "Landgericht Magdeburg Urteil Klaeger",
     ] + list(case.get("suchbegriffe") or [])
     if _is_verw(case):
-        terms = ["Verwaltungsgericht Im Namen des Volkes Klaeger"] + terms
+        terms = ["Verwaltungsgericht Im Namen des Volkes"] + terms
     queries = []
     for t in terms:
         if t not in queries:
@@ -269,14 +274,12 @@ def search_related_case(case, seen_slugs: list[str]):
             if slug in seen:
                 continue
             raw = _result_text(r)
-            if _is_straf(raw, slug):
+            if _is_straf(raw, slug) or _is_placeholder(raw):
                 continue
             court = _court_name(r.get("court"))
             if not _court_ok(court, case):
                 continue
-            if len(raw) < 200:
-                continue
-            shaped = shape_excerpt(raw)
+            shaped = slice_urteil(raw)
             if not shaped:
                 continue
             return {
@@ -331,8 +334,8 @@ def main():
         sys.exit(1)
     state = load_json(STATE_FILE, {"done": [], "seen_slugs": []})
     case, grund = pick_case(cases, state)
-    rules, muster = load_skript_section(case)
-    aufgabe = aufgabe_aus_skript(case, rules, muster)
+    rules = load_skript_section(case)
+    aufgabe = aufgabe_aus_skript(case)
     related = search_related_case(case, state.get("seen_slugs", []))
     if related and related.get("slug"):
         slugs = state.get("seen_slugs", [])
