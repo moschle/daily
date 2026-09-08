@@ -1,0 +1,2784 @@
+===== SEITE 1 =====
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht 
+ 
+ 
+ 
+Skript zu Einführungslehrgang und Arbeitsgemeinschaft 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(Bearbeitungsstand: Februar 2026) 
+ 
+ 
+ 
+ 
+ PETER HARTMANN  
+ Rechtsanwalt 
+
+===== SEITE 2 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 2 von 42 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ 
+ 
+Anmerkungen des Kammergerichts: 
+ 
+Die durch das Kammergericht zur Verfügung gestellten Skripte werden von erfahrenen Leiterin-
+nen und Leitern von Arbeitsgemeinschaften erstellt. In ihnen werden Fragen der Klausurbearbei-
+tung behandelt und mögliche Lösungen aufgezeigt. 
+ 
+Die Skripte bieten indes keine abschließende Aufbereitung des Prüfungsstoffes und möglicher 
+Lösungswege bzw. Darstellungsformen für die Klausuren. Ziel ist es vielmehr, Referendarinnen 
+und Referendaren bestimmte Strukturen und Formulierungen an die Hand zu  geben, die das 
+Schreiben der Examensklausuren unterstützen. Die hier vorgeschlagenen Lösungswege sind 
+vertretbar und liegen innerhalb des Antwortspielraums der Klausurschreibenden.“ 
+ 
+ 
+Anmerkungen des Verfassers: 
+ 
+Ausdrücklich möchte sich der Verfasser bei Frau Kollegin Dr. iur. Silke Dulle , Partnerin bei  
+ADVANT Beiten in Berlin, für ihre konstruktive inhaltliche Unterstützung bei der Erarbeitung des 
+vorliegenden Skriptes bedanken. 
+ 
+Im weiteren Text verwendet der Verfasser bereits aus Gründen der besseren Lesbarkeit das ge-
+nerische Maskulinum. Gemeint sind damit alle natürlichen Personen gleichermaßen. 
+ 
+Für Kritik an und für Anregungen zu diesem Skript ist der Verfasser stets dankbar. Er ist unter 
+der E-Mail-Adresse ra.hartmann@web.de zu erreichen. 
+ 
+
+===== SEITE 3 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 3 von 53 
+Gliederung 
+ 
+ 
+1. Mandatsübernahme im Verwaltungsrecht ...................................... 5 
+1.1. Verhältnis zwischen Rechtsanwalt und Mandant ................................ .... 5 
+1.2. Erste Sachverhaltsermittlung ................................ ................................ . 5 
+1.3. Zeitpunkt der Mandatsübernahme................................ .......................... 5 
+1.4. Bestimmung des Mandantenziels ................................ .......................... 6 
+1.5. Besondere Haftungsprobleme ................................ ................................  6 
+1.5.1. Haftpflichtversicherung ................................ ................................ ........... 6 
+1.5.2. Fragen im Versicherungsfall ................................ ................................ ... 7 
+1.5.3. Haftungsbeschränkungen ................................ ................................ ...... 7 
+1.5.4. Verjährung ................................ ................................ ............................. 7 
+1.6. Prüfung der Einhaltung von Berufspflichten ................................ ........... 7 
+1.6.1. Hintergrund zu Berufspflichten ................................ ...............................  7 
+1.6.2. Rechtsanwaltskammern und Bundesrechtsanwaltskammer ................... 8 
+1.6.3. Stellung und Funktion des Rechtsanwaltes ................................ .......... 10 
+1.6.4. „Allgemeine“ anwaltliche Berufspflichten, §§ 43, 43a BRAO ................ 11 
+1.6.5. Kenntnisse im Berufsrecht, § 43f BRAO ................................ .............. 12 
+1.6.6. Anwaltliche Berufspflichten in der BORA................................ .............. 13 
+1.7. Bevollmächtigung ................................ ................................ ................. 15 
+1.7.1. Allgemeines ................................ ................................ ......................... 15 
+1.7.2. Form der Bevollmächtigung ................................ ................................ . 15 
+1.7.3. Risiko der Interessenkollision ................................ ...............................  15 
+1.8. Kostenrisiko des Mandanten ................................ ................................  15 
+1.8.1. Kostenübernahmeregel im VwVfG ................................ ....................... 15 
+1.8.2. Kostenregelungen in der VwGO ................................ ........................... 16 
+1.8.3. Gerichtskostengesetz................................ ................................ ........... 16 
+1.8.4. Rechtsanwaltsvergütungsgesetz ................................ .......................... 17 
+1.8.5. Vergütungsvereinbarung ................................ ................................ ...... 22 
+1.8.6. Rechtsschutzversicherung ................................ ................................ ... 23 
+ 
+2. Mandatsbearbeitung ....................................................................... 25 
+2.1. Akteneinsicht ................................ ................................ ....................... 25 
+2.2. Wiedereinsetzung in den vorigen Stand ................................ ............... 25 
+2.2.1. Normen ................................ ................................ ................................  25 
+2.2.2. Einzelfälle für die Frage nach fehlendem Verschulden ......................... 26 
+2.3. Beiladung ................................ ................................ ............................. 31 
+2.3.1 Arten an Beiladung ................................ ................................ .............. 31 
+2.3.2. Klagearten ................................ ................................ ........................... 32 
+2.3.3. Zulässigkeit ................................ ................................ .......................... 32 
+ 
+3. Die Anwaltsklausur im Verwaltungsrecht ..................................... 33 
+3.1. Klausurperspektive ................................ ................................ .............. 33 
+3.2. Grundregeln zur Klausurbearbeitung ................................ ................... 33 
+3.2.1. Zeithaushalt beachten ................................ ................................ .......... 33 
+3.2.2. Schwerpunktbildung ................................ ................................ ............. 33 
+
+===== SEITE 4 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 4 von 53 
+3.2.3. Urteilsstil ................................ ................................ ..............................  34 
+3.3. Aufbauempfehlung ................................ ................................ ............... 34 
+3.3.1. Mandantenbegehr ................................ ................................ ................ 35 
+3.3.2. Gutachten ................................ ................................ ............................ 35 
+3.3.3. Schreiben ................................ ................................ ............................. 37 
+3.4. Anwaltliche Schreiben ................................ ................................ .......... 38 
+3.4.1. Mandantenschreiben................................ ................................ ............ 38 
+3.4.2. Antrag auf Erlass eines Verwaltungsaktes ................................ ........... 39 
+3.4.3. Widerspruch ................................ ................................ ......................... 39 
+3.4.4. Antrag auf Gewährung einstweiligen Rechtsschutzes .......................... 41 
+3.4.5. Klageschrift ................................ ................................ .......................... 44 
+3.4.6. Antrags- oder Klageerwiderung ................................ ............................ 47 
+ 
+4. Mündliche Verhandlung ................................................................. 49 
+4.1. Vorbereitung ................................ ................................ ........................ 49 
+4.1.1. Grundsatz des alleinigen Erscheinens vor Gericht ...............................  49 
+4.1.2. Handlungsrahmen des Rechtsanwaltes ................................ ............... 49 
+4.2. Mitwirkung des Rechtsanwalts während der Verhandlung ................... 50 
+4.3. Vortrag des Inhalts der Akten, § 103 Absatz 2 VwGO .......................... 50 
+4.4. Antragstellung ................................ ................................ ...................... 50 
+4.4.1. Zeitpunkt der Antragstellung ................................ ................................  50 
+4.4.2. Unsicherheiten bei Antragstellung ................................ ........................ 50 
+4.5. Beweisaufnahme ................................ ................................ ................. 51 
+4.5.1. Amtsermittlungsgrundsatz ................................ ................................ .... 51 
+4.5.2. Beweisanregung und Beweisantrag ................................ ..................... 51 
+4.5.3. Erforderliche Angaben für einen Beweisantrag ................................ .... 51 
+4.5.4. Beweismittel ................................ ................................ ......................... 52 
+4.6. Erörterung der Streitsache, § 104 Absatz 1 VwGO ..............................  53 
+4.7. Schluss der mündlichen Verhandlung ................................ .................. 53 
+4.8. Nach der mündlichen Verhandlung ................................ ...................... 53 
+
+===== SEITE 5 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 5 von 53 
+1. Mandatsübernahme im Verwaltungsrecht 
+ 
+ 
+1.1. Verhältnis zwischen Rechtsanwalt und Mandant 
+ 
+Grundsätzlich bestehen keine besonderen Voraussetzungen für die Übernahme eines verwal-
+tungsrechtlichen Mandats. Es gilt dasselbe wie für die Übernahme eines zivilrechtlichen Mandats. 
+ 
+Allgemein befindet sich Rechtsanwalt in einem Spannungsfeld zwischen 
+• wirtschaftlichen Interessen, 
+• Haftung aufgrund seiner Berufstätigkeit und 
+• berufsrechtlichen Verpflichtungen. 
+ 
+ 
+1.2. Erste Sachverhaltsermittlung 
+ 
+Der Amtsermittlungsgrundsatz im Verwaltungsverfahren (§ 24 VwVfG) und im verwaltungsge-
+richtlichen Verfahren ( § 86 VwGO) entbindet einen Rechtsanwalt nicht, bei der behördlichen  
+Sachverhaltsermittlung mitzuwirken und in einem Gerichtsverfahren die zur Begründung dienen-
+den Tatsachen und Beweismittel anzugeben. 
+ 
+In diesem Sinne schreibt § 26 Absatz 2 VwVfG vor, dass die Beteiligten bei der Ermittlung des 
+Sachverhalts mitwirken sollen. Sie sollen insbesondere ihnen bekannte Tatsachen und Beweis-
+mittel angeben. Eine weitergehende Pflicht, bei der Ermittlung des Sachverhalts mitzuwirken, ins-
+besondere eine Pflicht zum persönlichen Erscheinen oder zur Aussage, besteht indes nur, soweit 
+sie durch Rechtsvorschrift besonders vorgesehen ist. 
+ 
+Gemäß § 82 Absatz 1 Satz 3 VwGO sollen bei der Klage die zur Begründung dienenden Tatsa-
+chen und Beweismittel angegeben sowie die angefochtene Verfügung und der Widerspruchsbe-
+scheid in Abschrift beigefügt werden. 
+ 
+Ein Gericht ist nach herrschender Meinung zur Aufklärung verpflichtet, sofern Beteiligte entspre-
+chende Anträge gestellt haben. Dazu ist es erforderlich, dass Beteiligte zumindest Anregungen 
+für die zu ermittelnden Tatsachen gegeben haben, oder aber, dass sich die Notwendigkeit weite-
+rer Ermittlungen dem Gericht aufdrängt. 
+ 
+ 
+1.3. Zeitpunkt der Mandatsübernahme 
+ 
+Ein Rechtsanwalt muss sich zum Zeitpunkt der Mandatsübernahme vergewissern, ob bislang 
+lediglich informelle Vorgänge (Realakte, beispielsweise Verhandlungen) vorliegen oder ob man 
+sich bereits in einem oder mehreren 
+• (besonderen) Verwaltungsverfahren (§§ 9, 63 ff., 72 ff. VwGO), 
+• Widerspruchsverfahren (§§ 68 ff. VwGO; §§ 79 f. VwVfG), 
+• Verfahren im einstweiligen Rechtsschutz (§§ 80 f., 123 VwGO), 
+• Gerichtsverfahren (§ 81 VwGO) oder in der 
+• Verwaltungsvollstreckung (VwVG) 
+befindet. 
+ 
+
+===== SEITE 6 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 6 von 53 
+Diese Differenzierung lässt sich sinngemäß auf die Situation einer Anwaltsklausur im Verwal-
+tungsrecht übertragen: Auch hier ist zunächst festzustellen, in welchem (informell verstandenen) 
+Verfahrensstadium die Klausur spielt. Dabei ist auch auf ein mögliches Zusammenspiel zwischen 
+einem Verfahren im einstweiligen Rechtsschutz und einem etwaigen Hauptsacheverfahren  zu 
+achten. 
+ 
+ 
+1.4. Bestimmung des Mandantenziels 
+ 
+Zu Beginn des Mandatsverhältnisses ist das k onkrete (Rechtsschutz-) Ziel des Mandanten zu 
+ermitteln. Dieses Ziel des Mandanten ist durch den Rechtsanwalt in rechtliche Kategorien zu 
+übertragen. 
+ 
+Im Rahmen dessen ist mit dem Mandanten die konkrete Zielrichtung des anwaltlichen Handelns 
+und der Umfang des anwaltlichen Tätigwerdens zu besprechen. Bedeutsam ist insoweit auch, 
+wie weit das Mandat reichen soll. 
+ 
+ 
+1.5. Besondere Haftungsprobleme 
+ 
+1.5.1. Haftpflichtversicherung 
+ 
+Seit September 1994 ist gemäß § 51 Absatz 1 Bundesrechtsanwaltsordnung (BRAO) ein 
+Rechtsanwalt verpflichtet, eine  Berufshaftpflichtversicherung zur Deckung der sich aus 
+seiner Berufstätigkeit ergebenden Haftpflichtgefahren für Vermögensschäden abzuschlie-
+ßen und für die Dauer seiner Zulassung aufrechtzuerhalten. Die Versicherung muss bei 
+einem im Inland zum Geschäftsbetrieb befugten Versicherungsunternehmen zu den nach 
+Maßgabe des Versicherungsaufsichtsgesetzes eingereichten Allgemeinen Versiche-
+rungsbedingungen genommen werden und sich auch auf solche Vermögensschäden er-
+strecken, für die der Rechtsanwalt nach § 278 BGB oder § 831 BGB einzustehen hat. 
+ 
+Gemäß § 51 Absatz 4 BRAO beträgt die Mindestversicherungssumme für jeden Versiche-
+rungsfall EUR 250.000,00. Die Leistungen des Versicherers für alle innerhalb eines Ver-
+sicherungsjahres verursachten Schäden können auf den vierfachen Betrag der Mindest-
+versicherungssumme begrenzt werden. 
+ 
+In einem solchen Versicherungsvertrag ist gemäß § 51 Absatz 6 BRAO der Versicherer 
+zu verpflichten, der zuständigen Rechtsanwaltskammer, den Beginn und die Beendigung 
+oder Kündigung des Versicherungsvertrages sowie jede Änderung des Versicherungsver-
+trages unverzüglich mitzuteilen, die den vorgeschriebenen Versicher ungsschutz beein-
+trächtigt. 
+ 
+Ohne Nachweis des Abschlusses einer entsprechenden Versicherung oder der Vorlage 
+einer vorläufigen Deckungszusage darf die Urkunde über die Zulassung zur Rechtsan-
+waltschaft gemäß § 12 Absatz 2 Nummer 2 BRAO an die Bewerberin oder den Bewerber 
+nicht ausgehändigt werden. Die Zulassung zur Rechtsanwaltschaft wird dadurch nach 
+§ 12 Absatz 1 BRAO nicht wirksam. 
+ 
+Inhalt der Versicherung ist ein  Versicherungsschutz für jede einzelne Pflichtverletzung, 
+die gesetzliche Haftpflichtansprüche privatrechtlichen Inhalts gegen den Rechtsanwalt zur 
+Folge haben könnte . Damit umfasst die Versicherung nicht allein Vermögensschäden, 
+
+===== SEITE 7 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 7 von 53 
+sondern auch Sachschäden aufgrund einer Pflichtverletzung, beispielsweise verlorenge-
+gangene oder beschädigte Beweisstücke. 
+ 
+1.5.2. Fragen im Versicherungsfall 
+ 
+Für einen Rechtsanwalt als Versicherungsnehmer bestehen zwei zentrale Mitwirkungs-
+pflichten: 
+ 
+• Umgehende Meldung des Versicherungsfalls an die Versicherung sowie 
+• die Versagung einer anerkennenden Einlassung ohne die Zustimmung der Versi-
+cherung. 
+ 
+Generell ist in einem potenziellen Versicherungsfall das Hinzuziehen eines unbeteiligten 
+Rechtsanwaltes dringend anzuraten. Der Ausspruch „Niemals in eigenen Angelegenhei-
+ten“ hat sich vielfach bestätigt. 
+ 
+1.5.3. Haftungsbeschränkungen 
+ 
+Der Anspruch des Mandanten aus dem zwischen ihm und dem Rechtsanwalt bestehen-
+den Vertragsverhältnis kann gemäß § 52 BRAO auf den Ersatz eines fahrlässig verur-
+sachten Schadens auf zweierlei Art beschränkt werden: 
+ 
+• durch schriftliche Vereinbarung im Einzelfall bis zur Höhe der Mindestversiche-
+rungssumme; 
+• durch vorformulierte Vertragsbedingungen für Fälle einfacher Fahrlässigkeit auf 
+den vierfachen Betrag der Mindestversicherungssumme, wenn insoweit Versiche-
+rungsschutz besteht. 
+ 
+1.5.4. Verjährung 
+ 
+Die Verjährung etwaiger Haftungsansprüche ergibt sich grundsätzlich aus den allgemei-
+nen gesetzlichen Verjährungsregelungen. 
+ 
+Die frühere gesonderte berufsrechtliche Verjährungsregelung nach § 51b BRAO, nach der 
+eine Verjährung des Ersatzanspruchs drei Jahre nach Entstehen des Anspruchs, spätes-
+tens drei Jahre nach Beendigung des Mandates eintrat, ist aufgehoben. 
+ 
+ 
+1.6. Prüfung der Einhaltung von Berufspflichten 
+ 
+1.6.1. Hintergrund zu Berufspflichten 
+ 
+Die erste Rechtsanwaltsordnung in Deutschland datiert bereits aus dem Jahr  1878. Die 
+Bundesrechtsanwaltsordnung wurde zum 1. August 1959 erlassen. 
+ 
+Urteile des BVerfG im Jahre 1987 machten die Schaffung der Berufsordnung für Rechts-
+anwälte (BORA) notwendig. Das BVerfG hatte festgestellt, dass positives Gesetzesrecht 
+erforderlich sei, da standesrechtliche Regelungen generell Einschränkungen der Berufs-
+ausübungsfreiheit im Sinne von Artikel 12 Absatz 1 GG darstellen. 
+ 
+
+===== SEITE 8 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 8 von 53 
+Folge dieser Entscheidungen war die Einrichtung einer Satzungsversammlung innerhalb 
+der Bundesrechtsanwaltskammer. Näheres dazu regeln die §§ 191a bis 191e BRAO. Ins-
+besondere erlässt die Satzungsversammlung gemäß § 191a Absatz 2 BRAO als Satzung 
+eine Berufsordnung für die Ausübung des Rechtsanwaltsberufes unter Berücksichtigung 
+der beruflichen Pflichten und nach Maßgabe des § 59a BRAO. 
+ 
+§ 59a BRAO regelt zunächst, das die beruflichen Rechte und Pflichten durch Satzung in 
+einer Berufsordnung bestimmt werden. Gemäß § 59a Absatz 2 BRAO kann dabei die Be-
+rufsordnung im Rahmen der Vorschriften dieses Gesetzes näher regeln: 
+1. die allgemeinen Berufspflichten und Grundpflichten, 
+2. die besonderen Berufspflichten im Zusammenhang mit dem Führen der Fachan-
+waltsbezeichnung, 
+3. die besonderen Berufspflichten im Zusammenhang mit der Werbung und Angaben 
+über selbst benannte Interessenschwerpunkte; 
+4. die besonderen Berufspflichten im Zusammenhang mit der Versagung der Berufs-
+tätigkeit; 
+5. die besonderen Berufspflichten 
+a) im Zusammenhang mit der Annahme, Wahrnehmung und Beendigung ei-
+nes Auftrags, 
+b) gegenüber Rechtsuchenden im Rahmen von Beratungs -, Verfahrenskos-
+ten- und Prozesskostenhilfe, 
+c) bei der Beratung von Rechtsuchenden mit geringem Einkommen, 
+d) bei der Führung der Handakten; 
+6. die besonderen Berufspflichten gegenüber Gerichten und Behörden: 
+7. die besonderen Berufspflichten bei der Vereinbarung und Abrechnung der anwalt-
+lichen Gebühren und bei deren Beitreibung; 
+8. die besonderen Berufspflichten gegenüber der Rechtsanwaltskammer in Fragen 
+der Aufsicht, das berufliche Verhalten gegenüber anderen Mitgliedern der Rechts-
+anwaltskammer, die Pflichten bei der Zustellung von Rechtsanwalt zu Rechtsan-
+walt, die Pflichten bei beruflicher Zusammenarbeit, die Pflichten im Zusammen-
+hang mit der Beschäftigung von Rechtsanwälten und der Ausbildung sowie Be-
+schäftigung anderer Personen; sowie 
+9 die besonderen Berufspflichten im grenzüberschreitenden Rechtsverkehr. 
+ 
+Die maßgeblichen Gesetzesnormen bezüglich der Rechte und Pflichten des Rechtsan-
+walts und der beruflichen Zusammenarbeit von Rechtsanwälten finden sich in den §§ 43 
+bis 59q BRAO. 
+ 
+1.6.2. Rechtsanwaltskammern und Bundesrechtsanwaltskammer 
+ 
+Rechtsanwaltskammern, §§ 60 bis 89 BRAO 
+ 
+Eine Rechtsanwaltskammer wird gemäß § 60 Absatz 1 BRAO stets für den Bezirk eines 
+Oberlandesgerichts gebildet. Der Sitz einer Rechtsanwaltskammer befindet sich gemäß 
+§ 60 Absatz 2 BRAO immer am Ort des Oberlandesgerichts. 
+ 
+Rechtsanwaltskammern sind nach Vorgabe des § 62 Absatz 1 BRAO stets Körperschaf-
+ten des öffentlichen Rechts. § 62 Absatz 2 BRAO regelt, dass die Staatsaufsicht über sie 
+von der jeweiligen Landesjustizverwaltung ausgeübt wird. Diese ist beschränkt auf die 
+Überwachung der Beachtung von Gesetz und Satzung sowie auf die Erfüllung der der 
+Rechtsanwaltskammer übertragenen Aufgaben.  
+
+===== SEITE 9 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 9 von 53 
+Anwaltsgerichtsbarkeit, §§ 92 bis 112 BRAO 
+ 
+Anwaltsgericht, §§ 92 bis 99 BRAO 
+ 
+Für den Bezirk einer Rechtsanwaltskammer wird gemäß § 92 Absatz 1 BRAO ein 
+Anwaltsgericht errichtet. Es hat seinen Sitz an demselben Ort wie die Rechtsan-
+waltskammer. 
+ 
+Die Kammern des Anwaltsgerichts entscheiden gemäß § 96 BRAO in der Beset-
+zung von drei Mitgliedern einschließlich des Vorsitzenden. 
+ 
+Die Mitglieder des Anwaltsgerichts werden gemäß § 94 Absatz 2 Satz  1 BRAO 
+von der Landesjustizverwaltung anhand einer Vorschlagsliste ernannt, die der Vor-
+stand der Rechtsanwaltskammer einreicht. 
+ 
+Anwaltsgerichtshof, §§ 100 bis 105 BRAO 
+ 
+Der Anwaltsgerichtshof wird gemäß § 100 Absätze 1 und 2 BRAO bei dem Ober-
+landesgericht errichtet. Bestehen in einem Land mehrere Oberlandesgerichte, so 
+kann die Landesregierung unter anderem den Anwaltsgerichtshof für die Bezirke 
+aller oder mehrerer Oberlandesgerichte bei einem oder einigen der Oberlandes-
+gerichte oder bei dem obersten Landesgericht errichten, wenn eine solche Zusam-
+menlegung der Rechtspflege in Anwaltssachen, insbesondere der Sicherung einer 
+einheitlichen Rechtsprechung, dienlich ist. 
+ 
+Der Anwaltsgerichtshof wird gemäß § 101 Absatz 1 BRAO mit einem Präsidenten, 
+der erforderlichen Anzahl von weiteren Vorsitzenden sowie mit Rechtsanwälten 
+und Berufsrichtern als weiteren Mitgliedern besetzt. Die Senate des Anwaltsge-
+richtshofes entscheiden gemäß § 104 BRAO grundsätzlich in der Besetzung von 
+fünf Mitgliedern einschließlich des Vorsitzenden. Als Beisitzer wirken zwei weitere 
+anwaltliche Mitglieder und zwei Berufsrichter mit. 
+ 
+Bundesgerichtshof in Anwaltssachen, §§ 106 bis 112 BRAO 
+ 
+Für Angelegenheiten, die nach der BRAO dem Bundesgerichtshof zugewiesen 
+sind, wird gemäß § 106 Absatz 1 Satz 1 BRAO beim BGH ein Senat für Anwalts-
+sachen gebildet. 
+ 
+Der Senat besteht gemäß § 106 Absatz 2 BRAO aus dem Präsidenten des Bun-
+desgerichtshofes sowie zwei Mitgliedern des Bundesgerichtshofes und zwei 
+Rechtsanwälten als Beisitzern. Den Vorsitz führt der Präsident des Bundesge-
+richtshofes oder in seiner Vertretung ein vom Präsidium des Bundesgerichtshofes 
+bestimmter Vorsitzender Richter. 
+ 
+Die anwaltlichen Beisitzer werden gemäß § 107 Absätze 1 und 2 BRAO von dem 
+Bundesministerium der Justiz anhand einer Vorschlagsliste berufen, die das Prä-
+sidium der Bundesrechtsanwaltskammer auf Grund von Vorschlägen der Rechts-
+anwaltskammern einreicht hat. 
+  
+
+===== SEITE 10 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 10 von 53 
+Anwaltsgerichtliche Maßnahmen, § 114 BRAO 
+ 
+Als anwaltsgerichtliche Maßnahmen kommen bei Verfahren gegen Rechtsanwälte 
+gemäß § 114 Absatz 1 BRAO in Betracht: 
+1. die Warnung, 
+2. der Verweis, 
+3. eine Geldbuße bis zu fünfzigtausend Euro, 
+4. das Verbot, auf bestimmten Rechtsgebieten als Vertreter oder Beistand für 
+die Dauer von einem Jahr bis zu fünf Jahren tätig zu werden sowie 
+5. die Ausschließung aus der Rechtsanwaltschaft. 
+ 
+Gemäß § 114 Absatz 2 BRAO sind bei Verfahren gegen Berufsausübungsgesell-
+schaften als anwaltsgerichtliche Maßnahmen vorgesehen: 
+1. die Warnung, 
+2. der Verweis, 
+3. eine Geldbuße bis zu fünfhunderttausend Euro, 
+4. das Verbot, auf bestimmten Rechtsgebieten für die Dauer von einem Jahr 
+bis zu fünf Jahren als Vertreter oder Beistand tätig zu werden, sowie 
+5. die Aberkennung der Rechtsdienstleistungsbefugnis. 
+ 
+Bundesrechtsanwaltskammer, §§ 175 bis 191e BRAO 
+ 
+Gemäß § 175 BRAO werden die Rechtsanwaltskammern zu einer Bundesrechtsanwalts-
+kammer zusammengeschlossen. Sie ist gemäß § 176 Absatz 1 BRAO eine Körperschaft 
+des öffentlichen Rechts. 
+ 
+Die Bundesrechtsanwaltskammer dient gemäß § 177 BRAO insbesondere zur Erfüllung 
+der ihr durch Gesetz zugewiesenen Aufgaben, wozu insbesondere gehören 
+1. in Fragen, welche die Gesamtheit der Rechtsanwaltskammern angehen, die Auf-
+fassung der einzelnen Rechtsanwaltskammern zu ermitteln und im Wege gemein-
+schaftlicher Aussprache die Auffassung der Mehrheit festzustellen; 
+2. Richtlinien für die Fürsorgeeinrichtungen der Rechtsanwaltskammern ( § 89 Ab-
+satz 2 Nummer 3) aufzustellen; 
+3. in allen die Gesamtheit der Rechtsanwaltskammern berührenden Angelegenhei-
+ten die Auffassung der Bundesrechtsanwaltskammer den zuständigen Gerichten 
+und Behörden gegenüber zur Geltung zu bringen; 
+4. die Gesamtheit der Rechtsanwaltskammern gegenüber Behörden und Organisati-
+onen zu vertreten; 
+5. Gutachten zu erstatten, die eine an der Gesetzgebung beteiligte Behörde oder 
+Körperschaft des Bundes oder ein Bundesgericht anfordert; 
+6. die berufliche Fortbildung der Rechtsanwälte zu fördern; 
+7. die elektronische Kommunikation der Rechtsanwälte mit Gerichten, Behörden und 
+sonstigen Dritten zu unterstützen sowie 
+8. die Rechtsanwaltskammern und die Rechtsanwälte bei der Erfüllung ihrer Pflichten 
+im Rahmen der Geldwäschebekämpfung zu unterstützen. 
+ 
+1.6.3. Stellung und Funktion des Rechtsanwaltes 
+ 
+Gemäß § 1 BRAO ist der Rechtsanwalt ein unabhängiges Organ der Rechtspflege.  
+
+===== SEITE 11 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 11 von 53 
+1.6.4. „Allgemeine“ anwaltliche Berufspflichten, §§ 43, 43a BRAO 
+ 
+Allgemeine Berufspflicht im engen Sinne, § 43 BRAO 
+ 
+In § 43 BRAO ist normiert, dass der Rechtsanwalt seinen Beruf gewissenhaft auszuüben 
+und er sich innerhalb und außerhalb des Berufes der Achtung und des Vertrauens, welche 
+die Stellung des Rechtsanwalts erfordert, würdig zu erweisen hat. 
+ 
+Die Norm von § 43 BRAO hat seit den Entscheidungen des BVerfG (BVerfGE 76, 171; 
+76, 106) zu den Grundsätzen des anwaltlichen Berufsrechts an Bedeutung verloren. Die 
+ursprünglich in ihr angelegte  Konkretisierung durch Standesrichtlinien ist entfallen. Auf-
+grund dessen besteht heutzutage Uneinigkeit über ihren Anwendungsbereich. Die h err-
+schende Meinung sieht in ihr keine eigenständige Berufspflicht , sondern weist ihr den  
+Zweck zu, nicht explizit geregelte Gesetzesverstöße aus Wertungsgesichtspunkten in 
+sanktionsbewehrtes Berufsrecht zu transformieren. 
+ 
+Dies wird für folgende Gruppen an Gesetzesverstößen angenommen: 
+• bei Straftaten im außerberuflichen Bereich, wobei Beschränkungen gemäß § 113 
+Absatz 2 BRAO zu beachten sind, 
+• bei Verstößen gegen einzelne öffentlich-rechtliche Normen, zum Beispiel bei der 
+Mitwirkung an unerlaubter Rechtsberatung, 
+• bei gravierenden Verstößen gegen zivilrechtliche Vorgaben und 
+• bei Straftaten im beruflichen Bereich, beispielsweise bei Insolvenzdelikten, Unter-
+schlagung oder Untreue. 
+ 
+Unabhängigkeit, § 43a Absatz 1 BRAO 
+ 
+Unter den anwaltlichen Grundpflichten im Sinne von § 43a BRAO sticht zunächst die Un-
+abhängigkeit im Sinne von Absatz 1 hervor. Gemeint ist damit eine soziale und finanzielle 
+Unabhängigkeit gegenüber dem Mandanten. 
+ 
+Verschwiegenheit, § 43a Absatz 2 BRAO 
+ 
+Die anwaltliche Verschwiegenheit im Sinne von § 43a Absatz 2 BRAO bezieht sich auf 
+alles, was einem Rechtsanwalt in Ausübung seines Berufes bekanntgeworden ist. Dies 
+gilt allerdings nicht für Tatsachen, die offenkundig sind oder die ihrer Bedeutung nach 
+keiner Geheimhaltung bedürfen. 
+ 
+Sachlichkeit, § 43a Absatz 3 BRAO 
+ 
+Die Grundpflicht zur Sachlichkeit gemäß § 43a Absatz 3 BRAO verbietet insbesondere 
+ein Verhalten, bei dem es sich um die bewusste Verbreitung von Unwahrheiten oder sol-
+che herabsetzenden Äußerungen handelt, zu denen andere Beteiligte oder der Verfah-
+rensverlauf keinen Anlass gegeben haben. Die hier maßgeblichen Grenzen sind gr und-
+sätzlich in den strafrechtlichen Regelungen zu sehen. 
+ 
+Ein Rechtsanwalt ist zwar das bewusste  Verbreiten von Unwahrheiten  untersagt, aller-
+dings darf er bewusst schweigen.  
+  
+
+===== SEITE 12 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 12 von 53 
+Verbot der Vertretung widerstreitender Interessen, § 43a Absatz 4 bis 6 BRAO 
+ 
+Das Verbot der Vertretung widerstreitender Interessen im Sinne von Absatz  4 untersagt 
+einem Rechtsanwalt tätig zu werden, wenn er einen anderen Mandanten in derselben 
+Rechtssache bereits im widerstreitenden Interesse beraten oder vertreten hat. 
+ 
+Dies gilt nach der Vorgabe von § 43a Absatz 5 BRAO sinngemäß auch für die Tätigkeit 
+als Referendar im Vorbereitungsdienst im Rahmen der Ausbildung bei einem Rechtsan-
+walt sowie nach der Vorgabe von Absatz  6 auch für den in berufliches Tätigwerden des 
+Rechtsanwalts außerhalb des Anwaltsberufs, wenn für ein a nwaltliches Tätigwerden ein 
+Tätigkeitsverbot nach Absatz 4 Satz 1 bestehen würde 
+ 
+Gewissenhafter Geldverkehr gegenüber Mandanten, § 43a Absatz 7 BRAO 
+ 
+Gemäß § 43a Absatz 7 BRAO ist ein Rechtsanwalt ist bei der Behandlung der ihm anver-
+trauten Vermögenswerte zu der erforderlichen Sorgfalt verpflichtet. Fremde Gelder sind 
+unverzüglich an den Empfangsberechtigten weiterzuleiten oder auf ein Anderkonto einzu-
+zahlen. 
+ 
+Fortbildungspflicht, § 43a Absatz 8 BRAO 
+ 
+Schließlich wird gemäß § 43a Absatz 7 BRAO eine anwaltliche Grundpflicht zur Fortbil-
+dung normiert. 
+ 
+Bereits seit dem Jahr 1878 besteht die ausdrückliche Verpflichtung zur „gewissenhaften“ 
+anwaltlichen Berufsausübung. Dieses setzt regelmäßig die Verpflichtung zur persönlichen 
+Fortbildung voraus. Eine ausdrückliche Fortbildungspflicht wurde indes erstmals im Jahr 
+1994 in den Katalog der beruflichen Grundpflichten aufgenommen. 
+ 
+Mit der Fortbildungspflicht werden insbesondere drei Funktionen erfüllt: 
+• eine Qualitätssicherung zugunsten des Mandanten, 
+• der Schutz vor Fehlern im Interesse von Mandant und Rechtsanwalt sowie 
+• die Monopolberechtigung. 
+ 
+1.6.5. Kenntnisse im Berufsrecht, § 43f BRAO 
+ 
+Eine besondere Ausprägung der Fortbildungspflicht innerhalb der BRAO findet sich seit 
+dem 01. August 2022 in § 43f BRAO bezüglich von Kenntnissen im Berufsrecht. 
+ 
+Nach dieser Norm hat ein Rechtsanwalt innerhalb des ersten Jahres nach seiner erstma-
+ligen Zulassung zur Rechtsanwaltschaft an einer Lehrveranstaltung über das rechtsan-
+waltliche Berufsrecht teilzunehmen. Dabei muss die Lehrveranstaltung mindestens zehn 
+Zeitstunden dauern und die wesentlichen Bereiche des anwaltlichen Berufsrechts umfas-
+sen. 
+ 
+Diese Pflicht besteht indes nicht, sofern der Rechtsanwalt vor dem 01. August 2022 erst-
+malig zugelassen wurde oder wenn er nachweist, dass er innerhalb von sieben Jahren 
+vor seiner erstmaligen Zulassung zur Rechtsanwaltschaft an einer entsprechenden Lehr-
+veranstaltung teilgenommen hat. Als Lehrveranstaltung im Sinne der Norm werden von 
+vielen Kammerbezirken auch die Einführungslehrgänge in die Anwaltsstationen anerkannt 
+mit einem Zeitumfang von vier bis zu zehn Zeitstunden Fortbildung.  
+
+===== SEITE 13 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 13 von 53 
+1.6.6. Anwaltliche Berufspflichten in der BORA 
+ 
+Neben den Regelungen zu den anwaltlichen Berufspflichten in der BRAO finden sich 
+meist dezidiertere Regelungen in der Berufsordnung für Rechtsanwälte (BORA). 
+ 
+Freiheit der Advokatur, § 1 BORA 
+ 
+Gewissermaßen als Zielbestimmung anwaltlichen Handelns führt § 1 BORA zur Freiheit 
+der Advokatur wie folgt aus: 
+(1) Rechtsanwältinnen und Rechtsanwälte üben ihren Beruf frei, selbstbestimmt und 
+unreglementiert aus, soweit Gesetz oder Berufsordnung sie nicht besonders ver-
+pflichten. 
+(2)  Die Freiheitsrechte der Rechtsanwältinnen und Rechtsanwälte gewährleisten die 
+Teilhabe der Bürgerinnen und Bürger am Recht. Anwaltliche Tätigkeit dient der 
+Verwirklichung des Rechtsstaats. 
+(3) Rechtsanwältinnen und Rechtsanwälte beraten und vertreten ihre Mandantinnen 
+und Mandanten in allen Rechtsangelegenheiten unabhängig und haben sie vor 
+Rechtsverlusten zu schützen, rechtsgestaltend, konfliktvermeidend und streit-
+schlichtend zu begleiten, vor  Fehlentscheidungen durch Gerichte und Behörden 
+zu bewahren und gegen verfassungswidrige Beeinträchtigung und staatliche 
+Machtüberschreitung zu sichern. 
+ 
+Allgemeine Berufs- und Grundpflichten, §§ 2 bis 5a BORA 
+ 
+Bezüglich der allgemeinen Berufs - und Grundpflichten finden sich innerhalb des BORA 
+nähere Regelungen zu: 
+• Verschwiegenheit, § 2 BORA, 
+• Interessenwiderstreit, § 3 BORA, 
+• Umgang mit Fremdgeldern und sonstigen Vermögenswerten, § 4 BORA, 
+• Kanzlei, weitere Kanzlei und Zweigstelle, § 5 BORA, 
+• Kenntnisse im Berufsrecht, § 5a BORA. 
+ 
+Besondere Berufspflichten im Zusammenhang mit der Werbung, §§ 6 bis 10 BORA 
+ 
+Bezüglich besonderer Berufspflichten im Zusammenhang mit Werbung finden sich inner-
+halb der §§ 6 bis 10 BORA nähere Regelungen zu: 
+• Werbung, § 6 BORA, 
+• Benennung von Teilbereichen der Berufstätigkeit, § 7 BORA, 
+• Mediation, § 7a BORA, 
+• Kundgabe gemeinschaftlicher Berufsausübung und anderer beruflicher Zusam-
+menarbeit, § 8 BORA, 
+• Kurzbezeichnungen, § 9 BORA, 
+• Briefbögen, § 10 BORA. 
+ 
+Besondere Berufspflichten bei der Annahme, Wahrnehmung und Beendigung des 
+Mandats, §§ 11 bis 18 BORA 
+ 
+Bezüglich besonderer Berufspflichten bei der Annahme, Wahrnehmung und Beendigung 
+des Mandats finden sich innerhalb der §§ 11 bis 18 BORA nähere Regelungen zu: 
+• Mandatsbearbeitung und Unterrichtung der Mandantschaft, § 11 BORA, 
+• Umgehungsverbot, § 12 BORA, 
+
+===== SEITE 14 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 14 von 53 
+• Zustellungen, § 14 BORA, 
+• Mandatswechsel, § 15 BORA, 
+• Prozesskostenhilfe, Verfahrenskostenhilfe und Beratungshilfe, § 16 BORA, 
+• Ablehnung der Beratungshilfe, § 16a BORA, 
+• Zurückbehaltung von Handakten, § 17 BORA, 
+• Vermittelnde, schlichtende oder mediative Tätigkeit, § 18 BORA. 
+ 
+Besondere Berufspflichten gegenüber Gerichten und Behörden, §§ 19 bis 20 BORA 
+ 
+Bezüglich besonderer Berufspflichten gegenüber Gerichten und Behörden finden sich in-
+nerhalb der §§ 19 und 20 BORA nähere Regelungen zu: 
+• Akteneinsicht, § 19 BORA, 
+• Berufstracht, § 20 BORA. 
+ 
+Besondere Berufspflichten bei Vereinbarung und Abrechnung von Gebühren, §§ 21 
+bis 23 BORA 
+ 
+Bezüglich besonderer Berufspflichten bei Vereinbarung und Abrechnung von Gebühren 
+finden sich innerhalb der §§ 21 und 23 BORA nähere Regelungen zu: 
+• Vergütungsvereinbarung, § 21 BORA, 
+• Gebühren- und Honorarteilung, § 22 BORA, 
+• Abrechnungsverhalten, § 23 BORA. 
+ 
+Besondere Berufspflichten gegenüber der Rechtsanwaltskammer, deren Mitglie-
+dern und gegenüber Mitarbeitenden, §§ 24 bis 28 BORA 
+ 
+Bezüglich besonderer Berufspflichten gegenüber der Rechtsanwaltskammer, deren Mit-
+gliedern und gegenüber Mitarbeitenden finden sich innerhalb der §§ 24 bis 28 BORA nä-
+here Regelungen zu: 
+• Beanstandungen gegenüber Rechtsanwältinnen und Rechtsanwälten , § 25 
+BORA, 
+• Beschäftigung von Rechtsanwältinnen und Rechtsanwälten sowie anderen Mitar-
+beitenden, § 26 BORA, 
+• Beteiligung Dritter, § 27 BORA, 
+• Ausbildungsverhältnisse, § 28 BORA. 
+ 
+Besondere Berufspflichten im grenzüberschreitenden Rechtsverkehr, §§ 29 bis 29b 
+BORA 
+ 
+Bezüglich besonderer Berufspflichten im grenzüberschreitenden Rechtsverkehr finden 
+sich innerhalb der §§ 29 bis 29b BORA nähere Regelungen zu: 
+• Zwischenanwaltliche Korrespondenz im grenzüberschreitenden Rechtsverkehr , 
+§ 29a BORA, 
+• Einschaltung ausländischer Rechtsanwältinnen und Rechtsanwälte, § 29b BORA. 
+ 
+Besondere Berufspflichten bei beruflicher Zusammenarbeit, §§ 30 bis 33 BORA 
+ 
+Bezüglich besonderer Berufspflichten bei beruflicher Zusammenarbeit finden sich inner-
+halb der §§ 30 bis 33 BORA nähere Regelungen zu: 
+• Beendigung einer gemeinschaftlichen Berufsausübung, § 32 BORA, 
+• Geltung der Berufsordnung bei beruflicher Zusammenarbeit, § 33 BORA.  
+
+===== SEITE 15 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 15 von 53 
+1.7. Bevollmächtigung 
+ 
+Eine ordnungsgemäße und vollumfängliche Bevollmächtigung ist bereits vor erstem Tätigwerden 
+(insbesondere bei Tätigwerden nach außen) wichtig. 
+ 
+1.7.1. Allgemeines 
+ 
+Norm für Bevollmächtigung im Zivilprozess ist § 87 ZPO. 
+ 
+Gemäß § 14 Absatz 1 VwVfG für das Verwaltungsverfahren und § 67 Absatz 2 VwGO für 
+das v erwaltungsgerichtliche V erfahren kann sich jeder Beteiligte fakultativ von einem 
+– nicht notwendigerweise rechtskundigen, aber zu sachlichem Vortrag fähigen  – Bevoll-
+mächtigten vertreten lassen. Vor Oberverwaltungsgerichten und vor dem Bundesverwal-
+tungsgericht ist gemäß § 67 Absatz 1 VwGO eine rechtskundige Vertretung obligatorisch. 
+ 
+Eine Vertretung durch einen Bevollmächtigten ist für alle Beteiligte, das bedeutet auch für 
+Behörden im Verwaltungs- oder Vorverfahren, auch für Behörden im verwaltungsgericht-
+lichen Verfahren und genauso für etwaige Beigeladene möglich. 
+ 
+Eine Bevollmächtigung hindert den Mandanten nicht an eigenem Sachvortrag, doch ist 
+die vorherige Abstimmung mit seinem Bevollmächtigten dringend zu empfehlen. 
+ 
+1.7.2. Form der Bevollmächtigung 
+ 
+Eine Vollmacht muss im außergerichtlichen Verfahren nicht schriftlich erteilt werden. Dies 
+folgt aus dem Umkehrschluss aus § 67 Absatz 3 Satz 1 VwGO. Sie muss aber auf Ver-
+langen eines weiteren Beteiligten schriftlich nachgewiesen werden können. 
+ 
+Eine etwaige vollmachtlose Vertretung kann nachträglich bis zum Abschluss des Rechts-
+mittelverfahrens durch die Genehmigung des Vertretenen geheilt werden. Allerdings be-
+steht dabei die Gefahr einer Kostentragungspflicht nach § 80 Absatz 1 Satz 4 VwVfG, 
+§ 155 Absatz 4 VwGO. 
+ 
+Hinweis: Im Falle einer Korrespondenz per unverschlüsselter E-Mail sollte eine ausdrück-
+liche Erlaubnis von dem Mandanten unterzeichnet werden. 
+ 
+1.7.3. Risiko der Interessenkollision 
+ 
+Die G efahr einer Interessenkollision ist im Verwaltungsrecht anders als in anderen 
+Rechtsgebieten nicht immer offensichtlich. Als problematisch zeigt sich die Gefahr einer 
+Interessenkollision besonders bei gleichzeitiger Vertretung von Behörden einerseits und 
+Privatpersonen oder Unternehmen andererseits. 
+ 
+ 
+1.8. Kostenrisiko des Mandanten 
+ 
+1.8.1. Kostenübernahmeregel im VwVfG 
+ 
+Bei erfolgreichem Widerspruch hat der Rechtsträger, dessen Behörde den angefochtenen 
+Verwaltungsakt erlassen hat, gemäß § 80 Absatz 1 VwVfG dem Widerspruchsführer die 
+
+===== SEITE 16 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 16 von 53 
+zur zweckentsprechenden Rechtsverfolgung oder Rechtsverteidigung „notwendigen Auf-
+wendungen“ zu erstatten. 
+ 
+Notwendige Aufwendungen im Sinne von § 80 Absatz 1 VwVfG sind: 
+• persönliche Aufwendungen eines Beteiligten, beispielsweise Kosten der Beschaf-
+fung von Urkunden, Auskünften, Gutachten; Fahrtkosten zwecks Akteneinsicht; 
+mindestens eine Informationsreise des Widerspruchsführers zum Rechtsanwalt , 
+sowie 
+• Gebühren und Auslagen eines Bevollmächtigten im Vorverfahren sind gemäß § 80 
+Absatz 2 VwVfG nur erstattungsfähig, sofern dessen Hinzuziehung notwendig war. 
+ 
+Die Notwendigkeit der Hinzuziehung eines Rechtsanwalts  im Sinne von § 80 Absatz 2 
+VwVfG ist nicht ausnahmslos bei schwierigen und umfangreichen Sachverhalten zu beja-
+hen. Maßgebend ist vielmehr die Sicht eines verständigen Dritten unter Würdigung der 
+gesamten Umstände. 
+ 
+1.8.2. Kostenregelungen in der VwGO 
+ 
+Grundsätzlich trägt im verwaltungsgerichtlichen Verfahren gemäß § 154 Absatz 1 VwGO 
+die Kostenlast die unterliegende Partei. Insoweit handelt es sich um die Parallelregelung 
+zu § 91 Absatz 1 Satz 1 ZPO. 
+ 
+1.8.3. Gerichtskostengesetz 
+ 
+Grundlegender Aufbau 
+ 
+Mit dem Gesetz zur Modernisierung des Kostenrechts ((erstes) Kostenrechtsmodernisie-
+rungsgesetz, KostRMoG) vom 05. Mai 2004 hat der Gesetzgeber mit Wirkung ab dem  
+01. Juli 2004 den Aufbau des Gerichtskostengesetzes (GKG) grundlegend geändert und 
+seine Struktur an weitere Kostenregelungen des Bundes, namentlich an das zeitgleich 
+erstmalig in Kraft getretene Gesetz über die Vergütung der Rechtsanwältinnen und 
+Rechtsanwälte (Rechtsanwaltsvergütungsgesetz, RVG) und an die durch das Gesetz 
+ebenfalls geänderte Verordnung über Kosten im Bereich der Justizverwaltung (Justizvoll-
+zugskostenordnung, JVKostO), angeglichen. 
+ 
+Durch das Zweite Gesetz zur Modernisierung des Kostenrechts (2.  Kostenrechtsmoder-
+nisierungsgesetz, 2.  KostRMoG) vom 23.  Juli 2013 wurde das Kostenrecht modifiziert, 
+nicht aber in seinen Strukturen geändert. 
+ 
+Das GKG besteht wie auch RVG und die JVKostO aus 
+• Gesetzestext, 
+• Kosten- oder Vergütungsverzeichnis und 
+• Gebührentabelle. 
+ 
+Relevante Gebührentatbestände 
+ 
+Die Verfahrensgebühr gemäß § 6 Absatz 1 Nummer 4 GKG hat nach Kostenverzeichnis 
+(KV) Nummer 5110 einen Gebührensatz von 3,0. Die Verfahrensgebühr wird mit Einrei-
+chung der Klage fällig. 
+ 
+
+===== SEITE 17 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 17 von 53 
+Im verwaltungsgerichtlichen Verfahren besteht aber (anders als im Zivilprozess) keine 
+Verpflichtung zu einer Vorschusseinzahlung zeitgleich mit oder unverzüglich nach Einrei-
+chung der Klage. Gemäß § 90 VwGO wird eine verwaltungsgerichtliche Klage mit Erhe-
+bung vor Gericht, nicht erst mit Zustellung an die Gegenseite rechtshängig. 
+ 
+Der Streitwert ist grundsätzlich nicht identisch mit der Geldsumme aus den bestehenden 
+Anträgen. Der Streitwert ist gemäß § 63 Absatz 1 GKG „ohne Anhörung der Parteien“ vom 
+Gericht „sogleich“ mit Einreichung der Klage -, Antrags-, Einspruchs- oder Rechtsmittel-
+schrift vorläufig festzusetzen. 
+ 
+Die Streitwertfestsetzung kann gemäß § 63 Absatz 3 GKG seitens des Gerichts innerhalb 
+von sechs Monaten nach Rechtskraft der Hauptsacheentscheidung oder nach anderwei-
+tiger Verfahrenserledigung noch geändert werden. 
+ 
+Eine Reduzierung des Gebührensatzes der Verfahrensgebühr von 3,0 auf einen Gebüh-
+rensatz von 1,0 erfolgt gemäß Kostenverzeichnis des GKG mit der Nummer 5111, wenn 
+das Verfahren durch rechtzeitige Rücknahme der Klage, durch Anerkenntnis- oder Ver-
+zichtsurteil, durch gerichtlichen Vergleich oder durch Erledigungserklärungen nach § 161 
+Absatz 2 VwGO beendet wird , wobei bei Erledigungserklärungen nach §  161 Absatz 2 
+VwGO zusätzlich keine Entscheidung über die Kosten ergeh en oder die Entscheidung 
+einer zuvor mitgeteilten Einigung der Beteiligten über die Kostentragung oder der Kosten-
+übernahmeerklärung eines Beteiligten folgen darf. 
+ 
+1.8.4. Rechtsanwaltsvergütungsgesetz 
+ 
+Grundlegender Aufbau 
+ 
+Das Rechtsanwaltsvergütungsgesetz (RVG) besteht aus 
+• Gesetzestext, 
+• Vergütungsverzeichnis (Anlage 1 zu § 2 Absatz 2 RVG) sowie 
+• Gebührentabelle (Anlage 2 zu § 13 Absatz 1 RVG). 
+ 
+Im Gesetzestext sind die allgemeinen gebührenrechtlichen Vorschriften enthalten . Dazu 
+gehören insbesondere Definitionen und grundlegenden Regelungen. Das Vergütungsver-
+zeichnis (VV) enthält die einzelnen Gebührentatbestände. Die Gebührentabelle stellt die 
+Relation zwischen Gegenstandswert und Wertgebühr her. 
+ 
+Vergütung 
+ 
+Unter dem Begriff der Vergütung sind grundlegend zu unterscheiden: 
+• Gebühren und 
+• Auslagen. 
+ 
+Gebühren (Abschnitt 2 RVG) 
+ 
+Wertgebühren, § 13 RVG 
+ 
+Es sind verschiedene Arten an Gebühren im RVG zu unterscheiden. Zunächst gibt 
+es sogenannte Wertgebühren gemäß § 13 RVG. Wertgebühren werden ihrer Höhe 
+nach bestimmt durch die Höhe des Gegenstandswerts. Die konkrete Höhe der 
+
+===== SEITE 18 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 18 von 53 
+Wertgebühr in Abhängigkeit der Höhe des Gegenstandswerts ist der Gebührenta-
+belle (Anlage 2 zu § 13 Absatz 1 RVG) zu entnehmen. 
+ 
+Festgebühren 
+ 
+Bei Festgebühren ist die betragsmäßige Höhe oder der Gebührensatz innerhalb 
+des RVG fix. 
+ 
+Rahmengebühren, § 14 RVG 
+ 
+Rahmengebühren bewegen sich demgegenüber innerhalb eines bestimmten Rah-
+mens. Bei Satzrahmengebühren bewegt sich der Gebührensatz in einem Rahmen 
+zwischen Mindestsatz und Höchstsatz. Die mit dem Gebührensatz zu multiplizie-
+rende Wertgebühr ist ihrer Höhe nach bestimmt durch die Höhe des Gegenstands-
+werts. Bei Betragsrahmengebühren wird im Vergütungsverzeichnis ein Mindest- 
+und ein Höchstbetrag ausgewiesen. 
+ 
+Bei Rahmengebühren bestimmt der Rechtsanwalt gemäß § 14 Absatz 1 RVG die 
+Gebühr nach billigem Ermessen unter Berücksichtigung aller Umstände, insbeson-
+dere unter Berücksichtigung 
+• der Bedeutung der Angelegenheit, 
+• des Umfangs der anwaltlichen Tätigkeit, 
+• der Schwierigkeit der anwaltlichen Tätigkeit, 
+• der Vermögens- und Einkommensverhältnisse des Auftraggebers sowie 
+• des „besonderen Haftungsrisikos“. 
+ 
+Auslagen (VV Nummern 7000 ff. ) 
+ 
+Auslagen sind der meist, aber nicht immer pauschalierte Ersatz von seitens des Rechts-
+anwalts verauslagten Kosten. 
+ 
+In nahezu jeder Angelegenheit fallen an und haben deswegen besondere praktische Re-
+levanz: 
+• die Pauschale für Entgelte für Post- und Telekommunikationsdienstleistungen ge-
+mäß VV Nummer 7002 und 
+• die Umsatzsteuer auf die Vergütung gemäß VV Nummer 7008. 
+ 
+Angelegenheit (Abschnitt 3 RVG) 
+ 
+Als Angelegenheiten bezeichnet man gemäß § 15 Absatz 2 RVG die jeweils einmal abre-
+chenbaren Handlungs- oder Verfahrenseinheiten. In diesem Sinne werden im RVG unter-
+schieden: 
+• dieselbe Angelegenheit gemäß § 16 RVG; 
+• verschiedene Angelegenheiten gemäß § 17 RVG; 
+• besondere Angelegenheiten gemäß § 18 RVG. 
+ 
+Verschiedene Angelegenheiten (mit jeweils gesondert abrechenbaren Gebühren) sind un-
+ter anderem: 
+• das Verwaltungsverfahren im Sinne des § 9 VwVfG einerseits, 
+• das einem gerichtlichen Verfahren vorausgehende und der Nachprüfung des Ver-
+waltungsakts dienende „weitere Verwaltungsverfahren“ , gemeint sind damit das 
+
+===== SEITE 19 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 19 von 53 
+Vorverfahren, das Einspruchsverfahren, das Beschwerdeverfahren und das Abhil-
+feverfahren, andererseits, 
+• das Verwaltungsverfahren auf Aussetzung oder Anordnung der sofortigen Vollzie-
+hung andererseits sowie 
+• das gerichtliche Verfahren im jeweiligen Rechtszug. 
+ 
+Gegenstandswert 
+ 
+Zunächst ist begrifflich zu unterscheiden zwischen 
+• dem Streitwert (Begriff aus dem GKG) und 
+• dem Gegenstandswert (Begriff aus dem RVG). 
+ 
+Die Höhe des Streitwerts richtet sich nach dem Ziel, das mit dem Verfahren verfolgt wird. 
+Die Wertfestsetzung steht gemäß § 3 Halbsatz 1 ZPO im freien Ermessen des Gerichts. 
+Nach dem Streitwert richten sich auch die Höhe der Vergütung der Rechtsanwälte sowie 
+die Höhe der Gerichtskosten. 
+ 
+Streitwert und Gegenstandswert sind ihrer Höhe nach regelmäßig gleich. In diesem Sinne 
+normiert § 23 Absatz 1 Satz 1 RVG: „Soweit sich die Gerichtsgebühren nach dem Wert 
+richten, bestimmt sich der Gegenstandswert im gerichtlichen Verfahren nach den für die 
+Gerichtsgebühren geltenden Wertvorschriften.“ 
+ 
+Streitwertkataloge 
+ 
+Aufgrund der im Vergleich zum Zivilprozess geringeren Anzahl an auf Zahlung gerichteten 
+Verfahren spielt die Frage nach dem passenden Streitwert im Verwaltungsprozess eine 
+größere Rolle als im Zivilrecht. Deswegen hat sich eine umfassende Judikatur zu dem 
+Thema entwickelt. 
+ 
+Streitwertkataloge enthalten (unverbindliche) Vorschläge für die Streitwertfestsetzung. Sie 
+werden vom Bundesverwaltungsgericht und von weiteren Verwaltungsgerichten zusam-
+menstellt. Die systematische Zusammenstellung gliedert sich neben allgemeinen Fragen 
+regelmäßig nach Verwaltungsrechtsgebieten. 
+ 
+Streitwertkataloge dienen als Richtschnur für Gerichte  und auch für rechtsanwaltliche 
+Kostenabschätzungen, in bestimmten verwaltungsgerichtlichen Angelegenheiten einen 
+angemessenen Streitwert zu bestimmen. Sie sind rechtlich nicht verbindlich, das freie Er-
+messen des Gerichts wird nicht eingeschränkt. Insoweit ähneln Streitwertkataloge den im 
+Zivilrecht bekannten Schmerzensgeldtabellen. 
+ 
+Auffangstreitwert im Verwaltungsrecht 
+ 
+Der Auffangstreitwert beträgt gemäß § 52 Absatz 2 GKG in Verfahren vor den Gerichten 
+der Verwaltungs-, Finanz- und Sozialgerichtsbarkeit EUR 5.000,00, sofern weder Sach - 
+noch Streitstand für die Bestimmung des Streitwerts genügende Anhaltspunkte bieten. 
+ 
+Der entsprechende Gegenstandswert zur Bemessung der rechtsanwaltlichen Vergütung 
+beträgt gemäß § 23 Absatz 3 RVG ebenfalls EUR 5.000,00, nach Lage des Falles niedri-
+ger oder höher, jedoch nicht über EUR  500.000,00. Dies gilt im Übrigen nur dann, wenn 
+es an genügend tatsächlichen Anhaltspunkten für eine Schätzung mangelt und bei nicht-
+vermögensrechtlichen Gegenständen. 
+
+===== SEITE 20 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 20 von 53 
+ 
+„Berechnungsformel“ für (zivil- und) verwaltungsrechtliche Streitigkeiten 
+ 
+      Angelegenheit [(Gebührensatz  x  WertgebührGebTab  (Gegenstandswert)] 
+ 
+Allgemeine Gebührentatbestände 
+ 
+Einigungsgebühr, VV Nummer 1000 
+ 
+Eine Einigungsgebühr ist abrechenbar, sofern z wischen den Parteien ein Streit 
+oder die Ungewissheit über ein Rechtsverhältnis bestanden hat, welcher oder wel-
+che mit der Einigung unter Mitwirkung des Rechtsanwaltes beseitigt wird. 
+ 
+Die Einigungsgebühr liegt, sofern ein gerichtliches Verfahren noch nicht anhängig 
+ist, bei einem Gebührensatz von 1,5, bei erstinstanzlich anhängigen Verfahren bei 
+einem Gebührensatz von 1,0 und im Berufungs- oder Revisionsverfahren bei ei-
+nem Gebührensatz von 1,3. 
+ 
+Erledigungsgebühr, VV Nummer 1002 
+ 
+Wenn sich die Rechtssache nach Aufhebung oder Änderung des mit einem 
+Rechtsbehelf angefochtenen Verwaltungsakts unter Mitwirkung eines Rechtsan-
+waltes ganz oder teilweise  erledigt, kann eine Erledigungsgebühr abgerechnet 
+werden. Dies gilt im Übrigen auch, wenn sich Rechtssache ganz oder teilweise 
+durch Erlass eines bisher abgelehnten Verwaltungsakts erledigt. 
+ 
+Für den Anfall einer Erledigungsgebühr ist die „Mitwirkung“ des Rechtsanwalts er-
+forderlich. Eine Mitwirkung liegt nicht vor, wenn sich die Beteiligung in bloßer Ver-
+fahrensförderung erschöpfen sollte. Ebenso wenig genügt die Begründung des 
+Antrages des Mandanten. 
+ 
+Gebührentatbestände im außergerichtlichen Bereich 
+ 
+Außergerichtliche Beratung, § 34 RVG 
+ 
+Seit dem 01. Juli 2006 sind Gebühren für die außergerichtliche Beratung freigege-
+ben. Gemeint ist damit der mündliche oder schriftliche Rat oder eine rechtsanwalt-
+liche Auskunft. Es gilt § 34 RVG, nach dem der Rechtsanwalt auf eine Vergütungs-
+vereinbarung mit seinem Mandanten hinwirken soll . Wird keine entsprechende 
+Vergütungsvereinbarung geschlossen, berechnen sich die Gebühren nach bürger-
+lichem Recht. 
+ 
+Hinzutritt eine gesonderte Regelung für die (mündliche oder schriftliche) Erstbera-
+tung. Für einen Verbraucher kostet gemäß § 34 Satz 3 RVG ein erstes Beratungs-
+gespräch durch einen Rechtsanwalt maximal EUR 190,00, die Beratung oder die 
+Ausarbeitung eines schriftlichen Gutachtens kosten maximal EUR 250,00. 
+ 
+  
+
+===== SEITE 21 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 21 von 53 
+Geschäftsgebühr, VV Nummer 2300 
+ 
+Bei der Geschäftsgebühr bewegt sich der Satzrahmen von 0,5 bis 2,5. Ein höherer 
+Gebührensatz als 1,3 (die sogenannte Schwellengebühr) kann nur gefordert wer-
+den, sofern die Tätigkeit umfangreich oder schwierig war. 
+ 
+Die Geschäftsgebühr fällt in einem dem ersten Verwaltungsakt vorausgehenden 
+Verwaltungsverfahren (§ 9 VwVfG) und dem sich gegebenenfalls anschließenden 
+Widerspruchsverfahren jeweils gesondert an (§ 17 Nummer 1 RVG). 
+ 
+Gebührentatbestände im ersten Rechtszug 
+ 
+Verfahrensgebühr, VV Nummer 3100 
+ 
+Die Verfahrensgebühr sieht einen fixen Gebührensatz von  1,3 vor. Sie kann sich 
+unter den Voraussetzungen von VV Nummer 3101 auf 0,8 reduzieren. 
+ 
+Eine im vorgerichtlichen Verfahren angefallene Geschäftsgebühr ist gemäß Vor-
+bemerkung 3 Ziffer 4 zu Teil 3 des Vergütungsverzeichnisses auf die Verfahrens-
+gebühr des gerichtlichen Verfahrens anzurechnen. Die Geschäftsgebühr ist dabei 
+jedoch nur zur Hälfte, höchstens mit einem Gebührensatz von 0,75, auf die Ver-
+fahrensgebühr des gerichtlichen Verfahrens anzurechnen. Sind mehrere Ge-
+schäftsgebühren entstanden, ist für die Anrechnung allein die zuletzt entstandene 
+Gebühr maßgebend. 
+ 
+Für das erstinstanzliche Verfahren vor einem Oberverwaltungsgericht oder vor 
+dem Bundesverwaltungsgericht beträgt der Gebührensatz der Verfahrensgebühr  
+abweichend von VV Nummer 3100 1,6 (VV Nummer 3302 Nummer 2). 
+ 
+Terminsgebühr, VV Nummer 3104 
+ 
+Neben der Verfahrensgebühr entsteht gemäß VV Nummer 3104 eine Terminsge-
+bühr. Ihr Gebührensatz beträgt 1,2. 
+ 
+Die Terminsgebühr fällt gemäß VV Nummer 3104 auch ohne mündliche Verhand-
+lung an, wenn 
+1. in einem Verfahren, für das mündliche Verhandlung vorgeschrieben ist, im 
+Einverständnis mit den Parteien oder Beteiligten oder gemäß §  307 oder 
+§ 495a ZPO oder §  77 Absatz 2 AsylG ohne mündliche Verhandlung ent-
+schieden oder in einem solchen Verfahren mit oder ohne Mitwirkung des 
+Gerichts ein Vertrag im Sinne der Nummer 1000 geschlossen wird oder 
+eine Erledigung der Rechtssache im Sinne der Nummer 1002 eingetreten 
+ist, 
+2. nach § 84 Absatz 1 Satz 1 VwGO oder § 105 Absatz 1 Satz 1 SGG durch 
+Gerichtsbescheid entschieden wird und eine mündliche Verhandlung be-
+antragt werden kann oder 
+3. das Verfahren vor dem Sozialgericht, für das mündliche Verhandlung vor-
+geschrieben ist, nach angenommenem Anerkenntnis ohne mündliche Ver-
+handlung endet. 
+  
+
+===== SEITE 22 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 22 von 53 
+Gebührentatbestände bei Beschwerden 
+ 
+Verfahrensgebühr, VV Nummer 3500 
+ 
+Bei Beschwerden gegen erstinstanzliche Entscheidungen des Verwaltungsge-
+richts in einem Verfahren i m einstweiligen Rechtsschutz fällt eine Verfahrensge-
+bühr an. Ihr Gebührensatz beträgt gemäß VV Nummer 3500 0,5. 
+ 
+Gebührentatbestände in der Berufung 
+ 
+Verfahrensgebühr, VV Nummer 3200 
+ 
+Der Gebührensatz der Verfahrensgebühr gemäß VV Nummer 3200 beträgt fix 1,6. 
+ 
+Für eine Berufungszulassungsantrag beträgt Verfahrensgebühr gemäß VV Num-
+mer 3504 fix 1,6. Sie wird auf Verfahrensgebühr des nachfolgenden Berufungsver-
+fahrens angerechnet, sofern die Berufung zugelassen wird. 
+ 
+Terminsgebühr, VV Nummer 3202 
+ 
+Wie in der ersten Instanz beträgt der Gebührensatz für die Terminsgebühr im Be-
+rufungsverfahren gemäß VV Nummer 3202 fix 1,2. 
+ 
+Gebührentatbestände in der Revision 
+ 
+Verfahrensgebühr, VV Nummer 3206 
+ 
+Der Gebührensatz der Verfahrensgebühr für das Revisionsverfahren beträgt ge-
+mäß VV Nummer 3206 fix 1,6. 
+ 
+Terminsgebühr, VV Nummer 3210 
+ 
+Der Gebührensatz der Terminsgebühr im Revisionsverfahren beträgt gemäß VV 
+Nummer 3210 beträgt fix 1,5. 
+ 
+1.8.5. Vergütungsvereinbarung 
+ 
+Die Abrechnung der anwaltlichen Vergütung erfolgt grundsätzlich nach Maßgabe der ge-
+setzlichen Regelungen des RVG in Verbindung mit den Gebührentatbeständen aus dem 
+Vergütungsverzeichnis oder aufgrund einer zwischen dem Mandanten und dem Rechts-
+anwalt geschlossenen Vergütungsvereinbarung im Sinne der §§ 3a ff. RVG. 
+ 
+Eine Vergütungsvereinbarung braucht sich im Übrigen nicht auf den Bereich der Gebüh-
+ren zu beschränken. Genauso kann eine von den gesetzlichen Vorgaben (VV Num-
+mern 7000 ff.) abweichende Höhe des Ersatzes von Auslagen vereinbart werden. Deswe-
+gen ist auch der Begriff der Vergütung svereinbarung, wie ihn das Rechtsanwaltsvergü-
+tungsgesetz in § 3a Absatz 1 RVG verwendet, präziser als der vielfach noch umgangs-
+sprachlich verwendete Begriff der Gebührenvereinbarung. 
+ 
+Der Abschluss einer Vergütungsvereinbarung ist immer möglich. Die V ergütung für au-
+ßergerichtliche Tätigkeit kann dabei auch gemäß § 4 RVG auch unterhalb der 
+
+===== SEITE 23 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 23 von 53 
+gesetzlichen Vergütung liegen. Sie muss gemäß § 4 Absatz 1 Satz 2 RVG allerdings in 
+einem angemessenen Verhältnis zu Leistung, Verantwortung und Haftungsrisiko des 
+Rechtsanwalts stehen. 
+ 
+Die Vergütung für eine gerichtliche Tätigkeit darf hingegen die Höhe der gesetzlichen Ge-
+bühren grundsätzlich nicht unterschreiten. Allerdings ist dabei die Möglichkeit zur Verein-
+barung eines Erfolgshonorars im Sinne von § 49b Absatz 2 Satz 1 BRAO im Einzelfall 
+unter Berücksichtigung Voraussetzungen gemäß § 4a RVG zu berücksichtigen. 
+ 
+Bei einem Überschreiten der gesetzlichen Gebühren sind Formvorschriften des § 3a Ab-
+satz 1 RVG und die Folgen einer fehlerhaften Vergütungsvereinbarung gemäß § 4b RVG 
+zu beachten. 
+ 
+1.8.6. Rechtsschutzversicherung 
+ 
+Das Kostenrisiko eines Mandanten kann (teilweise) auch durch eine Rechtsschutzversi-
+cherung gedeckt sein. Dazu ist die verbindliche Erklärung der Deckungsübernahme durch 
+eine Rechtsschutzversicherung vonnöten. Grundsätzlich trägt eine Rechtsschutzversi-
+cherung allein die gesetzlichen Kosten und die gesetzliche Vergütung. Besondere Beach-
+tung verdient die Frage der Kostentragung dann, wenn eine Abrechnung außergerichtli-
+cher anwaltlicher Beratung oder ein anwaltliches  Gutachten gegenüber einer Rechts-
+schutzversicherung abgerechnet werden soll, denn seit dem 01. Juli 2006 gibt es für diese 
+anwaltliche Leistung keine gesetzliche Gebühr mehr. 
+ 
+Schutzrichtung 
+ 
+Die Schutzrichtung einer Rechtsschutzversicherung ist die Abwehr von finanziel-
+len Schäden durch die Rechtsverletzung des im Rahmen der anwaltlichen Tätig-
+keit verfolgten Gegners. 
+ 
+Umfang der Rechtsschutzversicherung/Versicherungspakete 
+ 
+Rechtsschutzversicherungen bieten zumeist so genannte Paket -Lösungen an, 
+d. h. der Versicherungsnehmer kann unterschiedliche Risiken durch eine Kombi-
+nation von Versicherungspaketen nach Wahl absichern. 
+ 
+Übliche Versicherungspakete sind: 
+• Privat-Rechtsschutz; 
+• Berufsrechtsschutz für Nichtselbstständige 
+• Berufsrechtsschutz für Selbstständige; 
+• Verkehrsrechtsschutz; 
+• Eigentümer- und Mietrechtsschutz. 
+ 
+Für die anwaltliche Praxis im Bereich Verwaltungsrecht ist von Bedeutung, dass viele 
+Rechtsschutzversicherer im Verwaltungsrecht erst eintreten, wenn der Rechtsstreit vor 
+Gericht geht. Anzuraten ist deswegen, bereits bei der Auswahl oder Verhandlung der Po-
+lice darauf zu achten, dass auch die Anwaltskosten für das vorgeschaltete Widerspruchs-
+verfahren übernommen werden. 
+ 
+Deckungssummen 
+ 
+
+===== SEITE 24 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 24 von 53 
+Die Deckungssummen der Rechtsschutzversicherungen sind eines der wichtigsten Leis-
+tungsmerkmale der Tarife. Hier besteht (differenziert nach Versicher ungsprämien) eine 
+große Spanne. Zu empfehlen sind Deckungssummen von mindestens EUR 250.000,00. 
+ 
+Wartezeit bis zu einem Deckungsschutz 
+ 
+Die Wartezeiten sind nicht einheitlich geregelt. Die meisten Versicherer verlangen eine 
+Wartezeit von drei Monaten ab Vertragsbeginn. Manche Versicherer bestehen auf eine 
+Wartezeit von sechs Monaten. 
+ 
+Es gibt allerdings regelmäßig Ausnahmen von der Wartezeit bei plötzlich eintretenden 
+Versicherungsereignissen, zum Beispiel im Verkehr. 
+ 
+Allgemeine Bedingungen für die Rechtsschutzversicherungen 
+ 
+Die Versicherungsbedingungen können sich erheblich unterscheiden. Deshalb sollten die 
+vom Versicherer verwendeten Allgemeinen Versicherungsbedingungen für die Rechts-
+schutzversicherung in keinem Punkt Regelungen enthalten, die aus Verbrauchersicht un-
+günstiger sind als die vom Gesamtverband der Deutschen Versicherungswirtschaft e.  V. 
+(GDV) unverbindlich veröffentlichten „Allgemeine Bedingungen für die Rechtsschutzver-
+sicherung“ (ARB). 
+ 
+Bei Rechtsschutzversicherungen erfolgt regelmäßig keine sukzessive Anpassung an ge-
+änderte Versicherungsbedingungen durch den Versicherer . V ielmehr bleiben die ur-
+sprünglich vereinbarten Bedingungen erhalten. 
+ 
+Aufgrund dessen können ihnen in der anwaltlichen Praxis verschiedene ARB begegnen. 
+Im Verwaltungsrecht stellt sich damit gegebenenfalls das Problem, dass Verträge gemäß 
+ARB 1975 (regelmäßig Vertragsbeginn vor 1975) grundsätzlich keine n Schutz vor den 
+Kosten von verwaltungsrechtlichen Streitigkeiten umfassen. 
+ 
+Rechtsverhältnisse 
+ 
+Die Versicherung handelt allein aufgrund des Vertragsverhältnisses mit dem Versiche-
+rungsnehmer. Ein Rechtsanwalt tritt gegenüber der Rechtsschutzversicherung als Erklä-
+rungsvertreter des Versicherungsnehmers auf. 
+ 
+Relevant für die anwaltliche Praxis ist, dass die Versicherung nie Kostenschuldner des 
+Rechtsanwaltes wird. Die Versicherung kann deswegen jederzeit ihre erteilte Deckungs-
+zusage widerrufen, denn für die Vergütung steht stets der Mandant ein. 
+ 
+  
+
+===== SEITE 25 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 25 von 53 
+2. Mandatsbearbeitung 
+ 
+ 
+2.1. Akteneinsicht 
+ 
+In aller Regel ist der erste Schritt nach außen nach der Übernahme eines verwaltungsrechtlichen 
+Mandats der Antrag an die Behörde auf Gewährung von Akteneinsicht gemäß § 29 VwVfG oder 
+gemäß spezialgesetzlichen Vorschriften. Von dem Recht auf Akteneinsicht bis zum Abschluss 
+des Verwaltungsverfahrens sind nicht erfasst: Entwürfe zu Entscheidungen sowie die Arbeiten zu 
+ihrer unmittelbaren Vorbereitung. 
+ 
+In der Praxis erweist es sich immer noch als problematisch, dass der Anspruch auf Akteneinsicht 
+keinen Anspruch auf Übersendung von Auszügen und Abschriften der Akte durch die Behörde 
+umfasst. Allerdings kann i m Einzelfall die Einsicht nahme auch bei einer anderen Behörde oder 
+bei einer diplomatischen oder berufskonsularischen Vertretung der Bundesrepublik Deutschland 
+im Ausland erfolgen. Weitere Ausnahmen kann gemäß § 29 Absatz 3 Satz 2 VwVfG die Behörde 
+gestatten, welche die Akten führt. 
+ 
+Im gerichtlichen Verfahren haben gemäß § 100 Absatz 1 Satz 1 VwGO die Beteiligten das Recht, 
+die Gerichtsakten und die dem Gericht vorgelegten Akten, darunter insbesondere die Verwal-
+tungsakte der Behörde n einzusehen. Anders als im Verwaltungsverfahren können sich gemäß 
+§ 100 Absatz 1 Satz 2 die Beteiligten auf ihre Kosten durch die Geschäftsstelle Ausfertigungen, 
+Auszüge, Ausdrucke und Abschriften erteilen lassen. 
+ 
+Bei Vorhandensein elektronischer Prozessakten wird die Akteneinsicht gemäß § 100 Absatz 2 
+Satz 1 VwGO grundsätzlich durch die Bereitstellung des Inhalts der Akten zum Abruf oder durch 
+Übermittlung des Inhalts der Akten auf einem sicheren Übermittlungsweg , beispielsweise durch 
+Übermittlung vom Gericht an das besondere elektronische Anwaltspostfach (beA) gewährt. 
+ 
+ 
+2.2. Wiedereinsetzung in den vorigen Stand 
+ 
+Die Frage nach der Möglichkeit zu einer Wiedereinsetzung in den vorigen Stand stellt sich min-
+destens dann, wenn nach Übernahme eines neuen Mandats festzustellen ist, dass bereits eine 
+relevante gesetzliche Frist versäumt wurde. 
+ 
+Ein entsprechender Antrag ist grundsätzlich bei unverschuldeter Fristversäumung begründet. Un-
+verschuldet bedeutet dabei Fehlen von Vorsatz und Fahrlässigkeit wie bei § 276 BGB. Die Frist-
+versäumung kann auf jedem Umstand beruhen, der eine rechtzeitige Vornahme der fristwahren-
+den Prozesshandlung verhinderte. 
+ 
+2.2.1. Normen 
+ 
+Die maßgeblichen Normen für das Verwaltungsverfahren in § 32 VwVfG und für das ver-
+waltungsgerichtliche Verfahren in § 60 VwGO sind gleich strukturiert, doch unterscheiden 
+sie sich in Einzelheiten. So kann gemäß § 32 Absatz 5 VwVfG die Wiedereinsetzung im 
+Verwaltungsverfahren unzulässig sein, wenn sich aus einer Rechtsvorschrift ergibt, dass 
+sie ausgeschlossen ist. Eine solche Möglichkeit sieht § 60 VwGO nicht vor.  
+ 
+
+===== SEITE 26 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 26 von 53 
+2.2.2. Einzelfälle für die Frage nach fehlendem Verschulden 
+ 
+Es hat sich in der Rechtsprechung eine umfassende Kasuistik zu der Frage gebildet, in 
+welchen Fällen fehlendes Verschulden angenommen wird . Grob kann eine Einteilung in 
+drei Gruppen vorgenommen werden: 
+• Verhinderungen der Partei selbst, 
+• Verhinderungen durch zurechenbares Verschulden eines Verfahrens- oder Pro-
+zessbevollmächtigten sowie 
+• externe Hindernisse. 
+ 
+Verhinderungen der Partei selbst 
+ 
+Abwesenheit 
+ 
+Bei Abwesenheit aufgrund des Jahresurlaubs bedarf bei einer Abwesenheitsdauer 
+von bis zu sechs Wochen  nur dann Vorkehrungen für die Erreichbarkeit, sofern 
+sich ein bereits anhängiges Verwaltungs- oder Gerichtsverfahren in einem Sta-
+dium befindet, in dem mit Zustellungen gerechnet werden muss, welche eine Frist 
+in Gang setzen. 
+ 
+Im Falle länger dauernder Geschäfts- oder Dienstreisen ist regelmäßig Vorsorge 
+für eine rechtzeitige Kenntnisnahme von Zustellungen zu treffen. 
+ 
+Die plötzliche Inhaftierung kann grundsätzlich einen Wiedereinsetzungsgrund dar-
+stellen. Nach einigen Tagen muss der Inhaftierte aber dafür sorgen, dass ihn Zu-
+stellungen erreichen. 
+ 
+Arbeitsüberlastung 
+ 
+Regelmäßig kann mit dem Verweis auf  Arbeitsüberlastung kein fehlendes Ver-
+schulden begründet werden. Sollte bei einer Fristsache die Möglichkeit bestehen, 
+eine Fristverlängerung zu beantragen, so ist durch einen entsprechenden Antrag 
+eine Fristsäumnis zu verhindern. Ist hingegen die Möglichkeit zu einer Fristverlän-
+gerung gesetzlich ausgeschlossen, regelmäßig auch keine Wiedereinsetzung, da 
+fristgebundene Angelegenheiten bevorzugt behandelt oder Hilfskräfte bemüht 
+werden müssen. 
+ 
+Krankheit 
+ 
+Krankheit ist nur dann ein Grund für Wiedereinsetzung, wenn aufgrund der Krank-
+heit die Fristwahrung im Konkreten nicht möglich war. Mit anderen Worten muss 
+es wegen der Krankheit unmöglich gewesen sein, sich beispielsweise an einen 
+Rechtsanwalt oder an die Behörde oder das Gericht zu wenden. In einem solchen 
+Fall ist die Art und Schwere der Krankheit stets substantiiert darzulegen. 
+ 
+Tod 
+ 
+Der hoffentlich nur sehr selten eintretende Fall des Todes eines Mandanten s tellt 
+keine Konstellation für eine mögliche Wiedereinsetzung in den vorigen Stand dar. 
+Zwar könnte man die daraus resultierenden Probleme theoretisch innerhalb dieses 
+
+===== SEITE 27 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 27 von 53 
+Konzeptes lösen, doch hat der Gesetzgeber dazu ausdrückliche Regelungen nor-
+miert. 
+ 
+Im Verwaltungsprozess ohne anwaltliche Vertretung der Partei führt der Tod der 
+Partei gemäß § 173 Satz 1 VwGO i. V. m. § 239 Absatz 1 ZPO zu einer Unterbre-
+chung des Verfahrens. Eine Fristversäumung ist daher nicht möglich. 
+ 
+In einem Anwaltsprozess tritt durch den Tod der Partei gemäß § 173 VwGO i. V. m. 
+§ 246 Absatz 1 ZPO keine Unterbrechung ein. Vielmehr bleibt in diesem Fall der 
+Rechtsanwalt weiterhin für die Fristwahrung verantwortlich.  Der Rechtsanwalt 
+kann allerdings eine Aussetzung des Verfahrens beantragen. 
+ 
+Verhinderungen durch Verschulden des Bevollmächtigten 
+ 
+Das Verschulden eines Prozessbevollmächtigten, beispielsweise eines Rechtsanwalts, 
+wird gemäß § 173 VwGO i. V. m. § 85 Absatz 2 ZPO dem Vertretenen zugerechnet . Im 
+Verwaltungsverfahren erfolgt eine Zurechnung des Verschuldens des Verfahrensbevoll-
+mächtigten unmittelbar über § 32 Absatz 1 Satz 2 VwVfG. 
+ 
+Der Bevollmächtigte kann sich regelmäßig durch den Nachweis der sorgfältigen Auswahl, 
+Anleitung und regelmäßigen Überwachung einer das Versäumnis verursachenden Hilfs-
+person entlasten. Dabei darf ein Rechtsanwalt nicht für alle Tätigkeiten Hilfspersonen ein-
+setzen. Insbesondere die (finale) Überwachung prozessualer Fristen obliegt dem Rechts-
+anwalt selbst. 
+ 
+Büroorganisation 
+ 
+Erforderlich ist die Schaffung einer Büroorganisation, die bei Berechnung und 
+Überwachung von Fristen so weit wie möglich Fehler ausschließt. Die endgültige 
+Überwachung der Fristen ist eine Obliegenheit des Rechtsanwalts selbst. 
+ 
+Das sogenannte Vornotieren von Fristen kann und wird regelmäßig Hilfspersonen 
+übertragen. Doch die abschließende Fristenprüfung obliegt dem Rechtsanwalt. 
+ 
+Fristausnutzung bis zum letzten Tag 
+ 
+Selbstverständlich kann eine Frist grundsätzlich bis zu ihrem letzten Tag ausge-
+nutzt werden. Es gelten allerdings dann besondere Sorgfaltsmaßstäbe, die ein 
+Rechtsanwalt dabei zu beachten hat . So werden von der Rechtsprechung unter 
+anderem verlangt: 
+ 
+• die Berücksichtigung der zu erwartenden Übermittlungszeit für die vorge-
+sehene Übermittlungsart, 
+• eine Kontrolle der Genauigkeit der Uhren, die innerhalb der Kanzlei zur Be-
+stimmung der Tageszeit genutzt werden. 
+ 
+Scheitert die Übermittlung auf die vorgesehene Art, ohne dass der Rechtsanwalt 
+dieses zu verantworten hat, beispielsweise aufgrund eines kurzfristig aufgetrete-
+nen technischen Defekts des Übermittlungsmediums , gewährt die Rechtspre-
+chung regelmäßig die Möglichkeit zu einer Übermittlung unter Nutzung  eines 
+
+===== SEITE 28 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 28 von 53 
+anderen, zumutbaren Übermittlungswegs. Dies gilt auch dann, wenn auf diese 
+Weise die eigentliche Frist überschritten wird. 
+ 
+In der Praxis ist der Grund für die Unmöglichkeit der Übermittlung auf dem ur-
+sprünglich vorgesehenen Übermittlungsweg und die unverzügliche Nutzung des 
+alternativen Übermittlungswegs nachzuweisen. 
+ 
+Unklarheiten bei Deckungsschutz durch eine Rechtsschutzversicherung 
+ 
+Auch dann, wenn zum Zeitpunkt des Fristendes noch nicht geklärt ist, ob eine 
+Rechtsschutzversicherung des Mandanten Deckungsschutz gewährt, sind frist-
+wahrende Handlungen zu unternehmen. 
+ 
+Regelmäßig wird nämlich keine Wiedereinsetzung in den vorigen Stand gewährt, 
+wenn wegen noch fehlender Deckungszusage durch die Rechtsschutzversiche-
+rung die rechtzeitige Einlegung oder Begründung eines Rechtsmittels unterlassen 
+wurde. 
+ 
+Vertretungsregelung 
+ 
+Allein die persönliche Verhinderung des Rechtsanwalts, beispielsweise aufgrun d 
+von Krankheit, begründet noch keine Wiedereinsetzung. 
+ 
+Für den Fall einer Verhinderung des Rechtsanwalts müssen zunächst klare Ver-
+tretungsregeln innerhalb der Kanzlei bestehen. Fehlendes Verschulden wird ins-
+besondere dann nicht angenommen, wenn sich in der Kanzlei  (und ohne Erfolg) 
+einer auf den anderen verlassen hat. 
+ 
+Wiedereinsetzung nach Verfahren über Prozesskostenhilfe 
+ 
+Zu differenzieren ist zunächst dazwischen, ob Prozesskostenhilfe (PKH) später 
+bewilligt wird oder nicht. 
+ 
+• PKH wird später bewilligt 
+ 
+Bis zum Ablauf des letzten Tages der Berufungs - oder sonstigen Notfrist 
+muss ein Rechtsanwalt für die i. S. v. §§ 114 ff. ZPO bedürftige Partei ein 
+Prozesskostenhilfegesuch bei Gericht einreichen. Da über den Antrag in 
+der Regel erst nach Ablauf der Berufungs- oder sonstigen Notfrist entschie-
+den werden dürfte, ist nach der Entscheidung über den PKH-Antrag regel-
+mäßig Wiedereinsetzung zu gewähren. 
+ 
+• PKH wird später versagt 
+ 
+Hat der Antragsteller einen ordnungsmäßigen Antrag eingereicht, so 
+kommt es für die Beurteilung seines Verschuldens im Hinblick auf eine et-
+waige Wiedereinsetzung in den vorigen Stand darauf an, ob er sich für be-
+dürftig halten durfte. Ist dem so, dann ist in dem Wiedereinsetzungsantrag 
+begründet werden, warum sich die Partei für bedürftig hielt. Ein schutzwür-
+diges Vertrauen auf eine Bewilligung von PKH besteht zum Beispiel dann, 
+wenn für die Vorinstanz PKH bewilligt wurde und es zu keiner 
+
+===== SEITE 29 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 29 von 53 
+zwischenzeitlich eingetretenen günstigen Vermögens- oder Einkommens-
+entwicklung gekommen ist. 
+ 
+Externe Hindernisse 
+ 
+Gesetzesänderungen 
+ 
+Auf Unkenntnis der maßgeblichen Gesetzeslage beruhende Fristversäumnisse 
+sind grundsätzlich verschuldet. Nur ausnahmsweise, wenn ein Gesetz nicht hin-
+reichend früh bekannt gemacht wurde, kann es sich um einen Fall verschuldens-
+loser Fristsäumnis handeln. 
+ 
+Änderungen in der Rechtsprechung 
+ 
+Parteien und Rechtsanwälte können im Rahmen der Wiedereinsetzung auf eine 
+bestehende langjährige Praxis in der Rechtsprechung vertrauen. Insbesondere für 
+Rechtsanwälte wird allerdings eine fortwährende aufmerksame Beobachtung der 
+Weiterentwicklung der Rechtsprechung verlangt. Dies umfasst beispielsweise die 
+Lektüre von aktuellen juristischen Veröffentlichungen in dem jeweiligen Rechtsge-
+biet durch Fachzeitschriften. 
+ 
+Gerichtsbetrieb 
+ 
+Etwaige Fehler im Gerichtsbetrieb sind regelmäßig ein Grund für die Annahme 
+fehlenden Verschuldens bei einem Antrag auf Gewährung einer Wiedereinsetzung 
+in den vorigen Stand. 
+ 
+Postlauf 
+ 
+Auf die Postlaufzeiten, die nach den organisatorischen und betrieblichen Vorkeh-
+rungen der Briefpost für den Normalfall bekannt gemacht werden, kann vertraut 
+werden. Dies gilt auch für Laufzeitangaben anderer konzessionierter Postbeförde-
+rungsunternehmen. 
+ 
+Telefax 
+ 
+Gemäß § 55d VwGO sind seit dem 01. Januar 2022 vorbereitende Schriftsätze an 
+die Verwaltungsgerichtsbarkeit und deren Anlagen sowie schriftlich einzu-
+reichende Anträge und Erklärungen, die durch einen Rechtsanwalt, durch eine Be-
+hörde oder durch eine juristische Person des öffentlichen Rechts einschließlich der 
+von ihr zur Erfüllung ihrer öffentlichen Aufgaben gebildeten Zusammenschlüsse 
+eingereicht werden, als elektronisches Dokument zu übermitteln (aktive Nutzungs-
+pflicht). Aufgrund dessen stellt sich die Problematik von Versäumnissen im Zusam-
+menhang mit der Nutzung eines Telefaxgeräts nur noch sehr eingeschränkt, aktu-
+ell beispielsweise im Bereich der Kommunikation mit Behörden. 
+ 
+Auf den Sendebericht eines Telefaxes darf vertraut werden. Bei Netzstörungen, 
+die den Zugang eines Telefaxes verhindern, ohne dass dies aus dem gedruckten 
+Sendebericht hervorgeht, besteht grundsätzlich ein Wiedereinsetzungsgrund. 
+Gleiches gilt für den nur in elektronischer Form vorliegenden Sendebericht eines 
+Computerfaxes.  
+
+===== SEITE 30 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 30 von 53 
+Besonderes elektronisches Anwaltspostfach (beA) 
+ 
+Rechtsgrundlagen für den elektronischen Rechtsverkehr sind § 55a VwGO, § 55d 
+VwGO und die Verordnung über die technischen Rahmenbedingungen des elekt-
+ronischen Rechtsverkehrs und über das besondere elektronische Behördenpost-
+fach. 
+ 
+Wie bereits erwähnt besteht unter anderem für Rechtsanwälte seit dem 01. Januar 
+2022 die aktive Nutzungspflicht für das besondere elektronische Anwaltspostfach 
+(beA). Im Rahmen dessen müssen e lektronische Dokumente entweder mit einer 
+qualifizierten elektronischen Signatur der verantwortenden Person versehen sein 
+oder von der verantwortenden Person signiert und über einen sogenannten siche-
+ren Übermittlungsweg eingereicht werden. 
+ 
+Sichere Übermittlungswege sind das beA, das besondere elektronische Behörden-
+postfach (beBPo), das besondere elektronische Bürger- und Organisationenpost-
+fach (eBO), ein in die Kommunikation mit den Gerichten eingebundenes Nutzer-
+konto des Portalverbundes nach § 2 OZG oder eine absenderbestätigte DE-Mail. 
+ 
+Hierbei zeigen sich Fehler, welche die Frage nach der Möglichkeit zur Wiederein-
+setzung in den vorigen Stand aufwerfen. 
+ 
+Zu differenzieren ist zwischen der technischen Unmöglichkeit zur Übermittlung und 
+Nutzungsfehlern des Rechtsanwalts. 
+ 
+• Übermittlung aus technischen Gründen nicht möglich 
+ 
+Ist eine Übermittlung aus technischen Gründen vorübergehend nicht mög-
+lich, bleibt gemäß § 55d Satz 3 VwGO die Übermittlung nach den allgemei-
+nen Vorschriften zulässig. Allerdings ist in einem solchen Falle gemäß 
+§ 55d Satz 4 VwGO die vorübergehende Unmöglichkeit bei der Ersatzein-
+reichung oder unverzüglich danach glaubhaft zu machen und es ist auf An-
+forderung des Gerichts ein elektronisches Dokument nachzureichen. 
+ 
+Die Anforderungen dazu hat der Bundesgerichtshof zu der gleichlautenden 
+Parallelnorm von § 130d Satz 2 und  3 ZPO herausgearbeitet (Urteil vom 
+21. September 2022, Aktenzeichen XII ZB 264/22). Danach bedarf es zur 
+Glaubhaftmachung der vorübergehenden Unmöglichkeit einer aus sich 
+heraus verständlichen, geschlossenen Schilderung der tatsächlichen Ab-
+läufe oder Umstände, deren Richtigkeit der Rechtsanwalt unter Bezug-
+nahme auf seine Standespflichten anwaltlich versichern muss. 
+ 
+Insoweit besteht bei dem vorübergehenden Fehlen der Möglichkeit zur 
+Übermittlung per beA keine Notwendigkeit zu einer Wiedereinsetzung in 
+den vorigen Stand, denn es gibt nach § § 55d Satz 3 VwGO die Möglichkeit 
+zur Übermittlung nach den allgemeinen Vorschriften. 
+  
+
+===== SEITE 31 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 31 von 53 
+• Nutzungsfehler des Rechtsanwalts 
+ 
+Eine fehlerhafte Nutzung des beA geht regelmäßig zu Lasten des anwen-
+denden Rechtsanwalts. Im Falle der Nutzung von Hilfspersonen kann sich 
+dieser jedoch gegebenenfalls exkulpieren. 
+ 
+In Betracht kommt eine solche Exkulpation aber nur bei Nutzung der Über-
+mittlung von Dokumenten mit qualifizierter elektronischer Signatur der ver-
+antwortenden Person per beA. Der gesicherte Übermittlungsweg verlangt 
+demgegenüber eine persönliche Nutzung des beA durch den Rechtsanwalt 
+selbst. 
+ 
+Praktische Anwendun gsprobleme zeigen sich insbesondere dabei, dass 
+ein Nutzer des beA nicht überprüft, ob die Übertragung fehlerfrei erfolgt ist. 
+Nicht immer ist dies der Fall, was allerdings in der Sendebestätigung (leider 
+nicht einfach) erkannt werden kann. 
+ 
+ 
+2.3. Beiladung 
+ 
+Eine Beiladung ist die Beteiligung eines oder mehrerer Dritter an einem fremden anhängigen 
+Verfahren. Folge davon ist, dass ein Dritter eine prozessuale Stellung erlangt. 
+ 
+Mit dem Rechtskonstrukt der Beiladung werden drei Ziele verfolgt: 
+• Rechtschutz für Beigeladenen: Durch eine Beiladung wird verhindert, dass ohne Beteili-
+gung des Beigeladenen über seine Rechte entschieden wird; 
+• Prozessökonomie: Eine Beiladung ermöglicht umfassende Klärung und Erstreckung der 
+Rechtskraft auf Dritte (§ 121 VwGO); 
+• Rechtssicherheit: Eine Beiladung verhindert widersprüchliche Entscheidungen zur glei-
+chen Sache. 
+ 
+2.3.1 Arten an Beiladung 
+ 
+Es gilt zwei Arten von Beiladung zu unterscheiden: 
+ 
+Einfache Beiladung (§ 65 Absatz 1 VwGO): 
+ 
+Voraussetzung für die einfache Beiladung ist, dass durch den Ausgang des Ver-
+fahrens rechtliche Interessen Dritter berührt werden, die dementsprechend zu dem 
+Verfahren beizuladen sind. 
+ 
+Die Beiladung steht gleichwohl im Ermessen des Gerichts. 
+ 
+Notwendige Beiladung (§ 65 Absatz 2 VwGO) 
+ 
+Eine Beiladung ist dann notwendig, wenn die Entscheidung nur einheitlich ergehen 
+kann. Folge davon ist, dass der betroffene Dritte zwingend an dem Verfahren zu 
+beteiligen ist. 
+ 
+Für die notwendige Beiladung finden sich folgende Fallgruppen: 
+
+===== SEITE 32 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 32 von 53 
+• Anfechtungsklage gegen drittbegünstigenden Verwaltungsakt (Beispiel: 
+Nachbar klagt gegen Sperrzeitverkürzung eines Gastwirtes), 
+• Verpflichtungsklage auf drittbelastenden Verwaltungsakt (Beispiel: Klage 
+auf Erteilung einer immissionsschutzrechtlichen Anordnung gegen einen 
+Nachbarn) sowie 
+• Verpflichtungsklage auf Erlass eines mitwirkungsbedürftigen Verwaltungs-
+akt (Beispiel: Beiladung der Gemeinde beim Streit um Baugenehmigung in 
+Fällen des gemeindlichen Einvernehmens nach § 36 BauGB). 
+ 
+2.3.2. Klagearten 
+ 
+Eine Beiladung kommt grundsätzlich bei allen Klagearten in Betracht. 
+ 
+Dies gilt auch für die Normen kontrollklage, bei der dem Oberverwaltungsgericht gemäß 
+§ 47 Absatz 2 Satz 4 VwGO die Möglichkeit zu einer einfachen Beiladung offensteht, ob-
+gleich die Normenkontrollklage gemäß § 47 Absatz 5 Satz 2 VwGO inter omnes wirkt. 
+ 
+2.3.3. Zulässigkeit 
+ 
+Eine Beiladung ist gemäß § 65 Absatz 1 VwGO nur bis zu dem Zeitpunkt zulässig, bis das 
+Verfahren rechtskräftig abgeschlossen oder in höherer Instanz anhängig ist. 
+ 
+ 
+  
+
+===== SEITE 33 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 33 von 53 
+3. Die Anwaltsklausur im Verwaltungsrecht 
+ 
+ 
+3.1. Klausurperspektive 
+ 
+Zunächst stellt sich die Frage nach der Klausurperspektive. Gemeint ist damit die Frage , aus 
+welcher Rollensicht eine Anwaltsklausur geschrieben werden muss: 
+ 
+Bislang wurden Klausuren in aller Regel aus der Sicht eines Rechtsanwaltes gestellt, der einen 
+rechtsschutzsuchenden Bürger gegenüber einer öffentlichen Einrichtung zu vertreten hat. In Be-
+tracht kommt damit zunächst die anwaltliche Vertretung des (möglichen) Regelungsadressaten. 
+Doch nicht minder die anwaltliche Vertretung eines Beigeladenen möglich. 
+ 
+Diese Regel gilt nicht einschränkungslos. Denkbar wäre grundsätzlich auch Klausur über anwalt-
+liche Vertretung einer Behörde. 
+ 
+ 
+3.2. Grundregeln zur Klausurbearbeitung 
+ 
+In verschiedenen Skripten finden sich Grundregeln für die Bearbeitung einer Examensklausur. 
+Deren Beachtung ist allgemein anzuraten. Allerdings sind drei Aspekte nach Ansicht des Verfas-
+sers aufgrund ihrer besonderen Bedeutung für eine erfolgreiche Klausurbearbeitung hervorzuhe-
+ben: 
+ 
+3.2.1. Zeithaushalt beachten 
+ 
+Der vorgegebene Zeitrahmen von fünf Zeitstunden für die Bearbeitung einer verwaltungsrechtli-
+chen Anwaltsklausur ist grundsätzlich ausreichend, wenn auch ambitioniert. Zur Einhaltung des 
+Zeitrahmens ist deswegen ein bewusster Umgang mit der zur Verfügung stehenden Zeit anzura-
+ten. 
+ 
+Wie lange ein Bearbeiter für die Erfassung der Klausuraufgabe, das Anfertigen einer Lösungs-
+skizze und schließlich für das Ausformulieren des Schreibens benötigen darf, kann nicht pauschal 
+beantwortet werden. Zu unterschiedlich sind die persönlichen Gegebenheiten bei jedem einzel-
+nen Bearbeiter. Generell sollte der zeitliche Aufwand für die Formulierung beispielsweise einer 
+überzeugenden Klageschrift nicht unterschätzt werden. 
+ 
+In jedem Fall ist aber eine eindeutige inhaltliche Schwerpunktsetzung erforderlich . Ohne diese 
+kann regelmäßig die Vorgabe von fünf Zeitstunden nicht eingehalten werden. 
+ 
+3.2.2. Schwerpunktbildung 
+ 
+Für die notwendige  Schwerpunktbildung ist es zunächst erforderlich, dass der Bearbeiter die 
+rechtlich problematischen Fragen der konkreten Klausur identifiziert. Deren Behandlung verdient 
+eine Tiefe und Zeit. 
+ 
+Demgegenüber können unprobl ematische Stellen kurz, bisweilen sehr kurz behandelt werden. 
+Anhand der Kürze der Bearbeitung der unproblematischen Stellen kann die bei den Problemati-
+schen Stellen „verlorene“ Zeit ausgeglichen werden. 
+ 
+
+===== SEITE 34 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 34 von 53 
+3.2.3. Urteilsstil 
+ 
+Die Begründung zu einer Antrags- oder Klageschrift ist stets im Urteilsstil zu verfassen. Für den 
+Sprachstil innerhalb des Gutachtens der Anwaltsklausur gibt es keinen definierten professionellen 
+Standard. Insoweit muss der Bearbeiter selbst entscheiden, welchen Sprachstil er wählt. 
+ 
+Dabei sollte allerdings folgendes in Erwägung gezogen werden, wobei stets die Verständlichkeit 
+des Textes im Vordergrund steht: 
+• Der Gutachtenstil erleichtert erfahrungsgemäß vielen Bearbeitern eine umfassende Prü-
+fung sämtlicher rechtlicher Probleme. 
+• Sofern die Spitzklammertechnik nicht ausdrücklich im Bearbeitervermerk untersagt ist und 
+vom Bearbeiter genutzt werden soll, kann nur auf Stellen innerhalb des Gutachtens ver-
+wiesen werden, die im Urteilsstil verfasst sind. 
+• Unproblematische Punkte können regelmäßig mit Aussagesätzen abgehandelt werden. 
+ 
+Nähere Ausführungen zur Verwendung des passenden Sprachstils in dem Gutachten respektive 
+im anwaltlichen Vermerk finden sich unter Ziffer 3.3.2. 
+ 
+ 
+3.3. Aufbauempfehlung 
+ 
+Eine Anmerkung vorweg: 
+ 
+Bei besonderen Aufgabenstellungen kann ein anderer als der im Folgenden empfohlene Aufbau 
+notwendig sein. Entscheidend sind der jeweilige Bearbeitervermerk und die Zweckmäßigkeit des 
+Aufbaus. 
+ 
+Gebräuchlich sich zwei, inhaltlich eng verwandte Aufbauempfehlungen für die verwaltungsrecht-
+liche Anwaltsklausur im Bereich des Gemeinsamen Justizprüfungsamtes Berlin -Brandenburg. 
+Der Unterschied zwischen beiden liegt lediglich darin, ob die Gliederungspunkte der Mandanten-
+begehr und das anwaltliche Gutachten als eigenen Hauptgliederungspunkte genommen werden 
+oder als Unterpunkte eines anwaltlichen Vermerks fungieren. 
+ 
+Aufbau 1: 1. Mandantenbegehr 
+2. Gutachten 
+3. Schreiben 
+ 
+oder 
+ 
+Aufbau 2: 1. (Anwaltlicher) Vermerk 
+ 
+1.1. Mandantenbegehr 
+1.2. Gutachten 
+ 
+2. Schreiben 
+  
+
+===== SEITE 35 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 35 von 53 
+3.3.1. Mandantenbegehr 
+ 
+Mit der Überschrift Mandantenbegehr erfasst man begrifflich die Ermittlung des Begeh-
+rens des Mandanten. Gemeint ist damit das Benennen der Rechtsschut zziele des Man-
+danten. Bisweilen sind diese nicht ohne Weiteres aus dem Sachverhalt der Klausur zu 
+entnehmen, dann müssen diese hergeleitet werden. 
+ 
+Sollte dieses auf der Hand liegen, so kann bereits das weitere juristische Vorgehen be-
+nannt werden. Allerdings ist es nicht angezeigt, wenn sich verschiedene juristisch sinn-
+volle und effektive Möglichkeiten bieten. Diese verschiedenen Möglichkeiten gehören 
+dann in den taktischen Erwägungen respektive in den Zweckmäßigkeitserwägungen ab-
+gewogen. 
+ 
+Kein Bestandteil der Mandantenbegehr ist eine Sachverhaltswiedergabe. 
+ 
+Ein Schlusssatz kann die Überleitung zum sich anschließenden Gutachten herstellen. Da-
+bei sind allerdings sogenannte Regieanweisungen zu vermeiden. 
+ 
+Ein regelmäßig zu beobachtender Aspekt ist, dass der Mandant eine „Staffelung“ seiner 
+Mandantenbegehr darlegt etwa in dem Sinne, wenn ich jenes nicht erreichen kann, dann 
+aber zumindest dieses“ oder andersherum „in jedem Fall will ich dieses, nach Möglichkeit 
+aber auch jenes erreichen“. Diese Staffelung ist in der Mandantenbegehr zu benennen, 
+denn sie ist regelmäßig Vorgabe für die weitere Prüfung innerhalb des sich anschließen-
+den Gutachtens. 
+ 
+Manchmal finden sich in Sachverhalten (vermeintliche) Widersprüche. Wie mit diesen um-
+zugehen ist, ist dem Bearbeitervermerk zu entnehmen. Eine entsprechende Formulierung 
+lautet beispielsweise: „Werden in einzelnen Punkten die Gewährung des rechtlichen Ge-
+hörs, Ermittlungen oder Beweisaufnahmen für erforderlich gehalten, so ist dies zu erör-
+tern, sodann jedoch zu unterstellen, dass entsprechende Maßnahmen durchgeführt wur-
+den, aber keine über die bere its vorliegenden Unterlagen hinausgehenden Erkenntnisse 
+ergeben haben. Wird die getroffene Entscheidung auf einen rechtlichen Gesichtspunkt 
+gestützt, den ein Beteiligter erkennbar übersehen oder für unerheblich gehalten hat, so ist 
+zu unterstellen, dass ihm Gelegenheit zur Äußerung gegeben worden ist, er hiervon je-
+doch keinen Gebrauch gemacht hat.“ 
+ 
+3.3.2. Gutachten 
+ 
+Rechtliche Würdigung 
+ 
+In dem Gutachten werden zunächst die Erfolgsaussichten der zur Erreichung der Rechts-
+schutzziele in Betracht kommenden Rechtmittel fachlich neutral geprüft. 
+ 
+Dabei werden sämtliche Punkte innerhalb des jeweils in Betracht kommenden Verfahrens 
+geprüft. Es erfolgt keine abstrakte Prüfung einzelner Rechtsfragen „freischwebend“, son-
+dern immer nur innerhalb des geprüften Verfahrens. 
+ 
+Bei einem Gutachten ermöglicht der Gutachtenstil in der Regel eine umfassende Prüfung 
+sämtlicher rechtlicher Probleme, welche Voraussetzung ist, um bei den sich anschließen-
+den Zweckmäßigkeitserwägungen zum weiteren Vorgehen gegeneinander abzuwägen. 
+Unproblematische Punkte können in dem meist kürzeren Urteilsstil abgehandelt werden, 
+
+===== SEITE 36 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 36 von 53 
+wenn es überhaupt so weitgehender Ausführungen bedarf . Ansonsten bieten sich fest-
+stellende Aussagesätze an. Da das zweite Examen aber eine praktische Prüfung ist, bei 
+dem es für diesen Teil der Aufgabe für den Stil keine definierten professionellen Standards 
+gibt, haben die Kandidaten hier einen weiten Antwortspielraum, bei dem sie insbesondere 
+berücksichtigen können, ob sie später mit der Spitzklammertechnik arbeiten wollen. Im 
+Vordergrund steht die Verständlichkeit des Textes. 
+ 
+Soweit in einem zu entwerfenden Schriftsatz mit Spitzklammern auf bestimmte Passagen 
+des Gutachtens verwiesen wird, muss der mit der Spitzklammertechnik übertragene Text 
+wörtlich in den Schriftsatz passen. Es bleibt dabei, dass ein in der Praxis verwendbar er 
+Schriftsatz zu fertigen ist. Deswegen ist die Spitzklammertechnik auch nicht bei allen Be-
+arbeitungen angebracht. Ob die Spitzklammertechnik verwendet werden sollte, sofern de-
+ren Verwendung nicht bereits durch den Bearbeitungsvermerk ausgeschlossen ist, und 
+ob diese in der konkreten Bearbeitung sinnvoll umgesetzt werden kann, müssen die Be-
+arbeiter selbst entscheiden. 
+ 
+Der Aufbau des Gutachtens sollte dem eines Urteils angenähert sein. Das Kammergericht 
+empfiehlt grundsätzlich die Prüfung der Zulässigkeit vor Prüfung der Begründetheit. Dies 
+wird in der Literatur uneinheitlich gesehen, deswegen ist auch eine Prüfung der Begrün-
+detheit vor der Zulässigkeit des Rechtsmittels möglich. Der Verfasser seinerseits empfiehlt 
+ebenfalls die Zulässigkeit vor der Begründetheit zu prüfen, aus zwei rein pragmatischen 
+Gründen: 
+• Diese Reihenfolge ist bei Referendaren und Prüfern eingeübt mit der Folge, dass 
+häufig entsprechend strukturiert gedacht wird, 
+• Die Reihenfolge entspricht derjenigen Reihenfolge, die in der rechtlichen Würdi-
+gung einer Antrags - oder Klageschrift zu beachten ist. Eine parallele Struktur 
+macht deren Nachvollziehen einfacher. Auch erweist sie sich als praktisch, wenn 
+von der Möglichkeit zu Spitzklammerverweisen Gebrauch gemacht wird. Die Ver-
+weise folgen dann derselben Reihenfolge wie die gutachterliche Prüfung. 
+ 
+Auch hier ist wieder auf die Notwendigkeit zu einer klaren Schwerpunktsetzung hinzuwei-
+sen. Unproblematische Stellen verdienen keine langwierige Erörterung. 
+ 
+Zulässigkeit: Hier liegt der Schwerpunkt i. d. R. bei der Erörterung der richtigen Klageart 
+bzw. der Erörterung, ob Eilrechtsschutz und in welcher Form ( § 123 Absatz 1 oder 80 
+Absatz 5 VwGO) geboten ist; 
+ 
+Begründetheit: In der Regel liegt hier ein Schwerpunkt der Arbeit; es sind Ansprüche des 
+Mandanten oder seines Gegners zu prüfen, nicht die allgemeine Rechtslage; 
+ 
+Nebenbemerkung: Auch zu Beginn der rechtlichen Würdigung erfolgt keine voran gestellte 
+Sachverhaltsschilderung. Hier wird bisweilen unnötig Zeit verloren. 
+ 
+Taktische Erwägungen oder Zweckmäßigkeitserwägungen 
+ 
+Zusammenfassend hat sich der Bearbeiter in den taktischen Erwägungen mit de r Frage 
+zu befassen, welches Vorgehen im Lichte der Ergebnisse der gutachterlichen Prüfung für 
+die Verfolgung des Rechtsschutzziels des Mandanten am zweckmäßigsten ist. 
+ 
+Im Rahmen dessen hat ein Rechtsanwalt folgende Aspekte zu berücksichtigen: 
+
+===== SEITE 37 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 37 von 53 
+• die Effektivität (Wirkungsmächtigkeit) des favorisierten Vorgehens im Vergleich zu 
+anderen Verfahrensoptionen, 
+• die voraussichtliche Schnelligkeit des favorisierten Vorgehens im Vergleich zu an-
+deren Verfahrensoptionen, 
+• der Grad an Sicherheit, für den Mandanten sein Rechtschutzziel zu erreichen, so-
+wie 
+• die Fragen nach einem im Vergleich zu anderen Möglichkeiten möglichst kosten-
+günstigen Vorgehen. 
+ 
+Hinzu kommt die Notwendigkeit zu einer Beachtung etwaiger naheliegender Folgen und 
+Zusammenhänge. 
+ 
+Ein regelmäßig zu behandelnder Aspekt ist die Frage, ob in der vorliegenden Sache ein 
+Vorgehen im einstweiligen Rechtsschutz gegenüber einem unmittelbaren Verfolgen des 
+Hauptsacheverfahrens zweckmäßiger erscheint. Dies darf allerdings nicht mit der in dem 
+Verfahren auf einstweiligen Rechtsschutz selbst zu behandelnden Frage nach einer Eil-
+bedürftigkeit in der Sache verwechselt werden. Letztgenannte ist die Frage, ob überhaupt 
+diese Voraussetzungen für ein Verfahren im einstweiligen Rechtsschutz vorliegen, er st-
+genannte ist die Frage, ob das Vorgehen gegenüber dem Hauptsacheverfahren für den 
+Mandanten vorteilhaft ist. 
+ 
+Hinweis: Für das Verwaltungsverfahren und für das verwaltungsgerichtliche Verfahren ist 
+zu beachten, dass gemäß § 45 Absatz 2 VwVfG Verfahrensfehler bis zum Abschluss der 
+letzten Tatsacheninstanz geheilt werden können und ein Aufhebungsanspruch gemäß 
+§ 46 VwVfG insoweit ausgeschlos sen sein kann . Zudem sind Ermessenfehler gemäß 
+§ 114 Satz 2 VwGO in Grenzen heilbar. Beide Möglichkeiten können Unwägbarkeiten für 
+die Abschätzung des Ausgangs des vorliegenden Verfahrens haben. 
+ 
+3.3.3. Schreiben 
+ 
+Der dritte Teil der verwaltungsrechtlichen Anwaltsklausur, bisweilen auch praktischer Teil 
+genannt, besteht aus dem Verfassen zumeist eines Schreibens. In Ausnahmen können 
+allerdings auch mehrere Schreiben erforderlich sein. Dann gilt es aber sorgfältig den Be-
+arbeitervermerk zu prüfen, ob tatsächlich mehrere Schreiben erwartet werden können. 
+Die begrenzte Bearbeitungszeit legt dieses nicht nahe. 
+ 
+Inhaltich differenziert man unter dem Oberbegriff Schreiben zwischen Schriftsätzen, wozu 
+Antrags- und Klageschriften gehören, und Mandantenschreiben sowie weiteren Schrei-
+ben. 
+ 
+Antrags- oder Klageschrift 
+ 
+Grundsätzlich haben Schriftsätze drei Bestandteile: 
+1. das Rubrum, 
+2. der Antrag bzw. die Anträge sowie 
+3. eine Begründung, die ihrerseits besteht aus (a) einer Sachverhaltsdarstellung und 
+(b) Rechtsausführungen oder einer rechtlichen Würdigung. 
+  
+
+===== SEITE 38 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 38 von 53 
+Weitere Schriftsätze 
+ 
+Daneben finden sich in den verwaltungsrechtlichen Anwaltsklausuren Mandantenschrei-
+ben sowie weitere Schreiben, gemeint sind damit beispielswiese Schreiben an Behörden 
+oder Dritte außerhalb normierter Verfahren. 
+ 
+Generell sind Schriftsätze, Mandantenschreiben und weitere Schreiben in einem sachli-
+chen Sprachstil zu verfassen. Es besteht für einen Rechtsanwalt die Berufspflicht zur 
+Sachlichkeit gemäß § 43a Absatz 3 BRAO. Dementsprechend auszuschließen sind: 
+• strafbare Beleidigungen, §§ 185 ff. StGB, sowie 
+• das bewusste Verbreiten von Unwahrheiten (Hinweis: Ein Rechtsanwalt darf nicht 
+lügen, aber er darf bewusst schweigen). 
+ 
+Ein persönliches Angehen der Gegenseite ist in den benannten Grenzen zwar grundsätz-
+lich nicht verboten, sollte in einer Klausur gleichwohl nicht vorkommen. 
+ 
+ 
+3.4. Anwaltliche Schreiben 
+ 
+Hinweis: Die folgenden Beispiele für anwaltliche Schreiben finden sich regelmäßig in verwal-
+tungsrechtlichen Anwaltsklausuren. Das Gemeinsame Justizprüfungsamt Berlin-Brandenburg ist 
+bei seinen Klausuren gleichwohl nicht auf diese Schreiben beschränkt, sondern kann Klausuren 
+stellen, bei denen andere Schreiben als praktische Leistung erwartet werden. 
+ 
+3.4.1. Mandantenschreiben 
+ 
+Ein Mandantenschreiben ist in der Regel nur dann zu fertigen, wenn die Erfolgsaussichten 
+einer Rechtsverfolgung insgesamt und nicht nur teilweise verneint werden. Vielfach findet 
+sich ein ausdrücklicher Hinweis im Bearbeitervermerk für den Fall, dass keine Erfolgsaus-
+sichten in der Sache erkannt werden. 
+ 
+Formal handelt es sich bei einem Mandantenschreiben um einen Geschäftsbrief, wobei 
+dieser regelmäßig von einer individuellen Ansprache des Adressaten, hier der Mandant 
+oder ein für diesen handelnde Person, geprägt ist. 
+ 
+Inhaltlich kann regelmäßig auf eine Sachverhaltsdarstellung verzichtet werden, denn die 
+Beschreibung des Sachverhalts ergibt sich grundsätzlich verbindlich aus der Klausur. An-
+ders wäre es nur, wenn beispielswiese der Anwalt im Rahmen seiner Tätigkeit für d en 
+Mandanten neue, diese bislang noch nicht bekannte Tatsachen erführe. 
+ 
+Im Übrigen ist ein Mandanten schreiben grundsätzlich (vielfach auch auf ausdrücklichen 
+Hinweis im Bearbeitervermerk) laienverständlich abzufassen. Dabei müssen alle tragen-
+den Gründe, die nach dem Gutachten gegen eine Erfolgsaussicht in der Sache sprechen, 
+laienverständlich dargelegt werden. 
+ 
+Aufgrund dessen verbietet sich bei Mandantenschreiben grundsätzlich auch eine Anwen-
+dung der Spitzklammertechnik. 
+ 
+  
+
+===== SEITE 39 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 39 von 53 
+3.4.2. Antrag auf Erlass eines Verwaltungsaktes 
+ 
+Ein Antrag auf Erlass eines Verwaltungsaktes ist eine eher selten vorkommende Klau-
+suraufgabe. Dies deshalb, weil sie grund sätzlich formal und inhaltlich frei zu formulieren  
+wäre. 
+ 
+In einem solchen Fall gilt es aber den Bearbeitervermerk besonders aufmerksam zu be-
+achten. Es liegt nicht fern, dass beispielsweise die Notwendigkeit zu einer Begründung 
+des Antrags und auch deren Struktur, beispielsweise nach dem Vorbild einer Klagebe-
+gründung, vorgegeben wird. 
+ 
+3.4.3. Widerspruch 
+ 
+Auch ein Widerspruch ist eine seltener vorkommende Klausuraufgabe. Sinngemäß gilt für 
+diesen das für einen Antrag auf Erlass eines Verwaltungsaktes Geschriebene. 
+ 
+Im Hinblick auf einen Widerspruch lassen sich aber folgende Kernpunkte festhalten: 
+• Ein Schreiben mit einem Widerspruch ist formal ein Geschäftsbrief. 
+• Dabei sollte der Begriff Widerspruch formal hervorgehoben werden. Regelmäßig 
+geschieht dieses nach einer Leerzeile durch das mittige Einrücken des Wortes und 
+eine weitere Leerzeile im Anschluss. 
+• Solange für Rechtsanwälte keine aktive Nutzungspflicht für den elektronischen 
+Rechtsverkehr bei Widersprüchen besteht, kann ein Widerspruch per Briefpost 
+übermittelt werden. 
+• Dabei sollte dann, sofern vorliegend, zum Nachweis der ordnungsgemäßen Be-
+vollmächtigung die Mandatsvollmacht im Original in der Anlage übersandt werden. 
+Wenn eine solche nicht vorliegt, genügt zunächst eine anw altliche Versicherung 
+der ordnungsgemäßen Bevollmächtigung. 
+• Auch wenn dieses mit Ausnahme von ausdrücklichen Regelungen nicht von Ge-
+setzes wegen vorgesehen ist, so sollte ein Widerspruch begründet werden. Der 
+Aufbau der Begründung sollte  wiederum, sofern der Bearbeitervermerk nicht an-
+deres vorgibt, dem Vorbild einer Klagebegründung folgen, dieses bedeutet, dass 
+sich die Gliederung in Sachverhalt und rechtliche Würdigung untergliedert und sich 
+die rechtliche Würdigung in ihrem Aufbau an den Rechtsgrundlagen strukturiert. 
+ 
+Insbesondere sollten innerhalb des Gutachtens zudem folgende Probleme geprüft, je 
+nach Sachverhalt beachtet und in der Begründung des Widerspruchs gegebenenfalls be-
+rücksichtigt werden: 
+• Ist es zweckmäßig, im Rahmen des Widerspruchs sogleich einen Antrag auf Aus-
+setzung der Vollziehung gemäß § 80 Absatz 4 VwGO zu stellen? 
+• In jeden Fall ergibt es Sinn, sogleich einen Antrag auf Feststellung der Notwendig-
+keit der Zuziehung eines Bevollmächtigten  gemäß § 80 Absatz  2 und  3 Satz  2 
+VwVfG zu stellen. Dieser wird zwar von Amts wegen entschieden, doch dürfte 
+seine Erfolgsaussicht unter anderen von der überzeugenden Wirkung einer Be-
+gründung abhängen. Dies wiederum sollte in der Begründung des Widerspruchs 
+nicht versäumt werden. 
+ 
+Im Folgenden finden sich zwei  Beispiele für Formulierungen von Widersprüchen . Diese 
+sind nicht als verbindlich anzusehen, sondern sollen allein einen Eindruck von Formulie-
+rungen geben, die gebräuchlich sind. 
+ 
+
+===== SEITE 40 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 40 von 53 
+Widerspruch gegen einen belastenden Verwaltungsakt, §§ 68 ff. VwGO 
+ 
+[Anschrift Behörde] [Ort, Datum] 
+ 
+ 
+[Betreff] 
+[Bezug] 
+ 
+ 
+Sehr geehrte Damen und Herren, 
+ 
+hiermit zeige ich an, dass ich in vorbezeichneter Angelegenheit von ................. [Name des 
+Widerspruchsführers nebst Anschrift] mit der Wahrnehmung seiner rechtlichen Interessen 
+beauftragt worden bin. Entsprechende Vollmacht wird zunächst anwaltlich versichert. 
+ 
+Mit Bescheid vom ................., dem Widerspruchsführer am ................. zugegangen, ha-
+ben Sie ................. [Kurzbezeichnung des Inhalts des Bescheides]. 
+ 
+Gegen diesen Bescheid erhebe ich hiermit 
+ 
+Widerspruch. 
+ 
+Im Weiteren beantrage ich 
+ 
+festzustellen, dass die Notwendigkeit zu einer Hinzuziehung eines Bevollmäch-
+tigten gemäß § 80 Absatz 2 und 3 Satz 2 VwVfG bestand. 
+ 
+Zur Begründung führe ich wie folgt aus: 
+ 
+I 
+ 
+[Sachverhaltsdarstellung] 
+ 
+II 
+ 
+Der Widerspruch ist zulässig und begründet. Insbesondere ist der Bescheid 
+vom ................. rechtswidrig, weil ................. 
+ 
+Widerspruch gegen die Ablehnung eines begünstigenden Verwaltungsaktes, 
+§§ 68 ff. VwGO 
+ 
+[Anschrift Behörde] [Ort, Datum] 
+ 
+ 
+[Betreff] 
+[Bezug] 
+ 
+ 
+  
+
+===== SEITE 41 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 41 von 53 
+Sehr geehrte Damen und Herren, 
+ 
+hiermit zeige ich zunächst an, dass ich i n der im Betreff bezeichneten Angelegenheit 
+von ................. [Name des Widerspruchsführers nebst Anschrift ] mit der Wahrnehmung 
+seiner rechtlichen Interessen beauftragt worden bin. Entsprechende Vollmacht liegt die-
+sem Schreiben im Original an. 
+ 
+Gegen Ihren Ablehnungsbescheid mit Datum vom  ................., dem Widerspruchsführer 
+zugestellt am ................., erhebe ich hiermit 
+ 
+Widerspruch. 
+ 
+Zur Begründung ist Folgendes auszuführen: 
+ 
+................. 
+ 
+3.4.4. Antrag auf Gewährung einstweiligen Rechtsschutzes 
+ 
+Eine regelmäßig in verwaltungsrechtlichen Anwaltsklausuren zu beobachtende Aufgabe 
+ist die Formulierung einer Antragsschrift gerichtet auf die Beantragung eines Verfahrens 
+im einstweiligen Rechtsschutz. 
+ 
+Formal gelten dabei die Erwartungen, die an eine Antragsschrift im Allgemeinen gestellt 
+werden. 
+ 
+Für die Sachverhaltsdarstellung gilt dabei im Besonderen, dass diese 
+• grundsätzlich wie bei einer Klagebegründung zu verfassen ist. Einer gesonderten 
+Vorgabe im Bearbeitervermerk, dass eine Sachverhaltsdarstellung erfolgen muss, 
+bedarf es im Übrigen nicht. Allerdings ist immer zu empfehlen, den Bearbeiterver-
+merk auch dahingehend zu sichten, ob nicht eventuell, vermutlich aus Zeitgründen, 
+das Verfassen der Sachverhaltsdarstellung erlassen ist. 
+• Tatsachen werden jedoch in der Antragsschriften im einstweiligen Rechtsschutz 
+lediglich glaubhaft gemacht. Es werden also anders an in den Klageverfahren 
+keine Beweisanregungen gegeben. 
+ 
+Die rechtliche Würdigung einer solchen Antragsschrift folgt ebenfalls generell dem Vorbild 
+einer Klagebegründung. Dies bedeutet, dass die rechtliche Würdigung stets strukturiert 
+nach Rechtsgründen zu erfolgen hat. Dabei sind Spitzklammerverweisungen auf das vor-
+hergehende materiellrechtliche Gutachten grundsätzlich möglich. Wie bereits ausgeführt, 
+ist dabei Maßstab der jeweilige Bearbeitervermerk und, nicht weniger wichtig, ob die Nut-
+zung der Spitzklammertechnik dem Bearbeiter vorteilhaft erscheint. 
+ 
+Hinweis: Ein Antrag auf Feststellung, dass die Hinzuziehung eines Rechtsanwalts not-
+wendig war, ist nicht zu stellen. Das Vorverfahren ist kein notwendiger Bestandteil des 
+einstweiligen Rechtsschutzverfahrens. 
+ 
+Nachstehend finden sich Beispiele für Anträge im einstweiligen Rechtsschutz. Diese sind 
+nicht als verbindlich anzusehen, sondern sollen allein einen Eindruck von Formulierungen 
+geben, die gebräuchlich sind. 
+ 
+  
+
+===== SEITE 42 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 42 von 53 
+Antrag auf Wiederherstellung der aufschiebenden Wirkung einer Klage, § 80 Ab-
+satz 5 VwGO 
+ 
+In dem Verfahren im einstweiligen Rechtsschutz gemäß § 80 Absatz 5 VwGO 
+ 
+des ................., Anschrift 
+– Antragsteller –, 
+ 
+Verfahrensbevollmächtigter: Rechtsanwalt ................., 
+ 
+gegen 
+ 
+den ................., vertreten durch ................., Anschrift 
+– Antragsgegner –, 
+ 
+beantrage ich namens und in Vollmacht des Antragstellers, 
+ 
+die aufschiebende Wirkung der Klage des Antragstellers gegen den Bescheid des 
+Antragsgegners vom ................., in der Gestalt des Widerspruchsbescheides des 
+Antragsgegners vom ................., wiederherzustellen. 
+ 
+Begründung 
+ 
+[Obersatz zum Gegenstand des Antrags] 
+ 
+I 
+ 
+[Schilderung des Sachverhalts] 
+ 
+II 
+ 
+[Rechtliche Würdigung] 
+ 
+Antrag an das Verwaltungsgericht auf Anordnung der aufschiebenden Wirkung des 
+Widerspruchs im Abgabenrecht, § 80 Absatz 5 VwGO 
+ 
+In dem Verfahren im einstweiligen Rechtsschutz 
+ 
+des ................., Anschrift 
+– Antragsteller –, 
+ 
+Verfahrensbevollmächtigter: Rechtsanwalt ................., 
+ 
+gegen 
+ 
+die ................., Anschrift 
+– Antragsgegnerin –, 
+ 
+beantrage ich namens und in Vollmacht des bezeichneten Antragstellers, 
+ 
+
+===== SEITE 43 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 43 von 53 
+1. die aufschiebende Wirkung des Widerspruchs des Antragstellers anzuord-
+nen [Anmerkung: Teilweise wird dieser Antrag auch bereits auf eine etwa-
+ige sich an das Widerspruchsverfahren anschließende Klage ausgeweitet], 
+2. die Kosten des Verfahrens dem Antragsgegner aufzuerlegen. [Anmerkung: 
+Der Kostenantrag wird in der Praxis häufig gestellt. Dabei ist über die Kos-
+tenlast des Antrags von Gerichts wegen zu entscheiden . Zudem sind in 
+aller Regel keine begründenden Ausführungen zur Kostenentscheidung 
+geboten.] 
+ 
+Antrag auf Erlass einer Sicherungsanordnung, § 123 Absatz 1 Satz 1 VwGO 
+ 
+In dem Verfahren auf Erlass einer einstweiligen Anordnung 
+ 
+des ................., Anschrift, 
+Antragstellers, 
+ 
+Verfahrensbevollmächtigter: Rechtsanwalt ................., 
+ 
+gegen 
+ 
+die ................., vertreten durch ................., Anschrift, 
+Antragsgegnerin, 
+ 
+beantrage ich namens und in Vollmacht des Antragstellers, 
+ 
+dem Antragsgegner im Wege einer einstweiligen Anordnung gemäß § 123 Ab-
+satz 1 Satz 1 VwGO aufzugeben, ................. zu unterlassen  [Anmerkung: In Ab-
+hängigkeit von der Fallkonstellation können innerhalb der Antragsformel andere 
+Verben angezeigt sein als „unterlassen“]. 
+ 
+Antrag auf Erlass einer Regelungsanordnung, § 123 Absatz 1 Satz 2 VwGO 
+ 
+In dem Verfahren im einstweiligen Rechtschutz 
+ 
+des ................., Anschrift, 
+Antragstellers, 
+ 
+Verfahrensbevollmächtigter: Rechtsanwalt ................., 
+ 
+gegen 
+ 
+das ................., Anschrift, 
+Antragsgegner, 
+ 
+beantrage ich namens und in Vollmacht des Antragstellers, 
+ 
+den Antragsgegner im Wege einer einstweiligen Anordnung gemäß § 123 Ab-
+satz 1 Satz 2 VwGO aufzugeben, dem Antragsteller ................. zu gewähren [An-
+merkung: In Abhängigkeit von der Fallkonstellation können innerhalb der Antrags-
+formel andere Verben angezeigt sein als „gewähren“]. 
+ 
+
+===== SEITE 44 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 44 von 53 
+Antrag auf Abänderung einer Entscheidung, § 80 Absatz  5 i.  V. m. § 80 Absatz  7 
+VwGO 
+ 
+In Sachen 
+ 
+................. ./: ................., 
+Aktenzeichen: ................., 
+ 
+beantrage ich namens des Antragstellers: 
+ 
+1. Der Beschluss der Kammer vom ................. wird dahingehend abgeändert, 
+dass der Antrag auf Anordnung der aufschiebenden Wirkung abgelehnt 
+wird. 
+2. Dem Antragsgegner werden die Kosten des Abänderungsverfahrens auf-
+erlegt. 
+ 
+3.4.5. Klageschrift 
+ 
+Eine ebenfalls regelmäßig in verwaltungsrechtlichen Anwaltsklausuren zu beobachtende 
+Aufgabe ist die Formulierung einer verwaltungsrechtlichen Klageschrift. Neben den grund-
+sätzlich bei allen Schriftsätzen zu beachtenden Vorgaben ist bei einer Klageschrift zu be-
+achten, dass stets ein hinreichend bestimmter Antrag zu formulieren ist. 
+ 
+Bei der Formulierung der Anträge stellte sich immer die Frage, ob auch die Nebenanträge 
+zu formulieren sind. Die Antwort ist einfach: Sie können, sie müssen aber nicht. Im Fol-
+genden finden sich deswegen auch Beispiel e mit den Nebenanträgen sowie Beispiele 
+ohne. 
+ 
+Den Antrag auf Feststellung der Notwendigkeit der Hinzuziehung eines Bevollmächtigten 
+für das Vorverfahren gemäß §  162 Absatz 2 Satz 2 VwGO sollte aber stets gestellt wer-
+den. Unabhängig von der wohl nicht einheitlich beantworteten Frage, ob das Gericht die 
+Notwendigkeit der Hinzuziehung eines Bevollmächtigten von Amts wegen entscheiden 
+muss, sprechen für eine Antragstellung zwei pragmatische Gründe: Zum einen erkennt 
+der Mandant, dass sich der Rechtsanwalt auch weiterhin um den Ersatz früher entstan-
+dener Kosten kümmert, zum anderen verhindert der Rechtsanwalt dadurch, dass er in der 
+Klagebegründung vergisst, zu dem Antrag begründend auszuführen. Eine sorgfältige Be-
+gründung dürfte regelmäßig die Erfolgsaussichten im Interesse des Mandanten erhöhen. 
+ 
+Hinweis: Bei der konkreten Formulierung einer Klageschrift ist zu beachten, dass seit dem 
+01. Januar 2022 gemäß §§ 55d VwGO für jeden Rechtsanwalt im Austausch mit Verwal-
+tungsgerichten die sogenannte aktive Nutzungspflicht für das besondere elektronische 
+Anwaltspostfach besteht, siehe auch Ziffer 2.2.2 . Auch wenn dieses eine Rechtspflicht 
+darstellt, wird empfohlen unter der Beschreibung des Adressaten der Klageschrift den 
+Hinweis „Per beA“ einzufügen. Anstellte der Unterschrift am Ende der Klageschrift erfolgt 
+die Angabe der einfachen Signatur, da die gesetzlich alternativ vorgesehen Übermittelung 
+eines qualifiziert elektronisch signierten Dokuments in der Anwaltsklausur technisch nicht 
+möglich ist. Eine einfache Signatur ist der ausgeschriebene Name des Unterzeichners. 
+ 
+Im Folgenden finden sich Beispiele für Anträge zu den wesentlichen Klagearten im Ver-
+waltungsprozess. Wie bereits bei den anderen Formulierungsbeispielen sind diese nicht 
+
+===== SEITE 45 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 45 von 53 
+als verbindlich anzusehen, sondern sollen allein einen Eindruck von gebräuchlichen For-
+mulierungen geben. 
+ 
+Anfechtungsklage gegen einen belastenden Verwaltungsakt, §§ 81 ff. VwGO 
+ 
+[Briefkopf der Rechtsanwaltskanzlei]  [Ort, Datum] 
+ 
+[Name und Anschrift des Verwaltungsgerichts] 
+ 
+Per beA 
+ 
+Klage 
+ 
+des ................., Anschrift, 
+Klägers, 
+ 
+Prozessbevollmächtigte: Rechtsanwälte ................., 
+ 
+gegen 
+ 
+den ................., Anschrift, 
+Beklagten, 
+ 
+wegen: ................., 
+vorläufiger Streitwert: EUR ................. 
+ 
+Namens und in Vollmacht des Klägers erhebe ich Klage vor dem Verwaltungsge-
+richt ................. und beantrage, 
+ 
+1. den Bescheid des Beklagten vom  ................. in der Gestalt des Wider-
+spruchsbescheides vom ................. aufzuheben, 
+2. dem Beklagten die Kosten des Verfahrens aufzuerlegen, 
+3. die Hinzuziehung eines Rechtsanwaltes im Vorverfahren für notwendig zu 
+erklären, 
+4. das Urteil wegen der Kosten für vorläufig vollstreckbar zu erklären, 
+5. dem Kläger zu gestatten, eine zulässige oder erforderliche Sicherheit auch 
+durch Bankbürgschaft zu erbringen. 
+ 
+Begründung 
+ 
+[Empfehlung: Obersatz zum Gegenstand des Antrags] 
+ 
+I 
+ 
+[Schilderung des Sachverhalts] 
+ 
+II 
+ 
+[Rechtliche Würdigung] 
+ 
+[Einfache Signatur: Vor- und Nachname des unterzeichnenden Rechtsanwalts]  
+
+===== SEITE 46 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 46 von 53 
+Allgemeine Leistungsklage 
+ 
+Klage 
+ 
+ 
+des ................., Anschrift, 
+Kläger, 
+ 
+Prozessbevollmächtigter: Rechtsanwalt ................., 
+ 
+gegen 
+ 
+den ................., Anschrift, 
+Beklagter. 
+ 
+Hiermit erhebe ich namens und in Vollmacht des bezeichneten Klägers Klage vor dem 
+Verwaltungsgericht .................. Ich beantrage, 
+ 
+1. den Beklagten zu verurteilen, an den Kläger EUR .................. zu zahlen, 
+2. dem Beklagten Prozesszinsen über den Betrag der Forderung in Höhe von 
+..... Prozentpunkten über dem Basiszins aufzuerlegen. 
+ 
+Hinweis: Bei Leistungsklagen, welche auf Zahlung einer Geldschuld gerichtet sind, hat 
+der Kläger ab dem Zeitpunkt der R echtshängigkeit der Klage in entsprechender Anwen-
+dung von § 291 BGB einen Anspruch auf Prozesszinsen (BVerwGE 71,55). Der Umfang 
+des Anspruchs und damit auch die Frage nach einem Anspruch des Klägers auf Verzin-
+sung sind im Gutachten anzusprechen. 
+ 
+Verpflichtungsklage auf Erlass eines begünstigenden Verwaltungsaktes, § 113 Ab-
+satz 5 Satz 1 VwGO 
+ 
+Klage 
+ 
+der ................. GmbH, vertreten durch ihren Geschäftsführer ................., Anschrift 
+ 
+– Klägerin –, 
+ 
+gegen 
+ 
+die ................., vertreten durch Herrn Bürgermeister ................., Anschrift 
+ 
+– Beklagte –, 
+ 
+Namens und in Vollmacht des Klägers erhebe ich Klage vor dem  Verwaltungsge-
+richt ................. mit dem Antrag, 
+ 
+1. den Ablehnungsbescheid der Beklagten vom ................. in der Gestalt des 
+Widerspruchsbescheides des ................. vom ................. aufzuheben [An-
+merkung: Die Beantragung der Aufhebung des ablehnenden Bescheides 
+kann regelmäßig unterbleiben, denn der Antrag zu  1 ist grundsätzlich in 
+dem Antrag zu 2 enthalten.], 
+
+===== SEITE 47 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 47 von 53 
+2. die Beklagte zu verpflichten, dem Kläger die beantragte  ................. zu er-
+teilen. 
+ 
+Verpflichtungsklage – Bescheidungsklage, § 113 Absatz 5 Satz 2 VwGO 
+ 
+Namens und in Vollmacht des Klägers erhebe ich Klage mit dem Antrag, 
+ 
+den Beklagten unter Aufhebung seines Bescheides vom ................., in Gestalt des 
+Widerspruchsbescheides vom ................., zu verpflichten, über den Antrag des 
+Klägers auf ................. unter Beachtung der Rechtsauffassung des Gerichts neu 
+zu bescheiden. 
+ 
+Feststellungsklage, § 43 VwGO 
+ 
+Namens und in Vollmacht des Klägers erhebe ich Klage mit dem Antrag, 
+ 
+festzustellen, dass der Kläger .................ist. 
+ 
+Fortsetzungsfeststellungsklage, § 113 Absatz 1 Satz 4 VwGO 
+ 
+In der Verwaltungsstreitsache 
+ 
+................. ./: ................., 
+Aktenzeichen: ................. 
+ 
+beantrage ich nunmehr, 
+ 
+1. festzustellen, dass ................. rechtswidrig war, 
+2. dem Beklagten die Kosten des Verfahrens aufzuerlegen (Anmerkung: Kos-
+tenantrag wiederum entbehrlich) 
+ 
+Untätigkeitsklage, § 75 VwGO 
+ 
+Die sogenannte Untätigkeitsklage ist keine eigenständige Klageart im eigentlichen Sinne. 
+Mit § 75 VwGO wird da s Rechtsschutzbedürfnis aufgrund eines Nicht-Tätigwerdens der 
+Behörde begründet. 
+ 
+3.4.6. Antrags- oder Klageerwiderung 
+ 
+Wie bereits unter Ziffer 3.1. ausgeführt, wurden bislang Klausuren in aller Regel aus der 
+Sicht eines Rechtsanwaltes gestellt, der einen rechtsschutzsuchenden Bürger gegenüber 
+einer öffentlichen Einrichtung zu vertreten hat. Im Lichte dessen nicht besonders wahr-
+scheinlich, aber nicht auszuschließen ist damit eine Klausur, bei der eine Behörde anwalt-
+lichen Beistand sucht. Regelmäßig wäre dieses eine Klausur aus „Beklagten-Sicht“. 
+ 
+Für eine solche Klausur wäre im Falle überwiegender Erfolgsaussichten in der Sache eine 
+Antrags- oder Klageerwiderung zu verfassen.  
+
+===== SEITE 48 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 48 von 53 
+Zu einem solchen Schriftsatz lassen sich einzelne grundlegende Punkte festhalten: 
+• Es reicht die Angabe eines Kurzrubrums, sofern in der Klausur die Namen des 
+Klägers, des Beklagten und das zugehörigen Aktenzeichen des Gerichts be-
+kannt sind. 
+• In aller Regel ist ein Antrag auf ganz oder teilweise Zurückweisung des Antrags 
+oder auf Klageabweisung zu stellen. 
+• Die Antrags- oder Klageerwiderung ist auch ohne entsprechende Vorgabe im 
+Bearbeitervermerk zu begründen. 
+• Ein eigener Sachvortrag ist zu formulieren, wenn (a) kein Sachvortrag des An-
+tragstellers oder Klägers in der Klausur bekannt gemacht ist oder (b) sich aus 
+Sicht des Antragsgegners oder Beklagten Abweichungen gegenüber diesem 
+ergeben. Dann sind allerdings nur diese Abweichungen aus sich heraus nach-
+vollziehbar zu beschreiben. 
+• Für die Möglichkeit der Nutzung von Spitzklammerverweisen gibt es keine ab-
+weichenden Vorgaben. 
+ 
+Klagerwiderung 
+ 
+[Briefkopf der Rechtsanwaltskanzlei]  [Ort, Datum] 
+ 
+[Name und Anschrift des Verwaltungsgerichts] 
+ 
+Per beA 
+ 
+ 
+In der Verwaltungsstreitsache 
+ 
+................. ./: ................., 
+Aktenzeichen: ................., 
+ 
+beantrage ich namens und mit Vollmacht des Beklagten: 
+ 
+die Klage des Klägers vom ................. vollumfänglich abzuweisen. 
+ 
+ 
+Begründung 
+ 
+I 
+ 
+[Schilderung des gegenüber der Klageschrift abweichenden Sachverhalts] 
+ 
+II 
+ 
+[Rechtliche Würdigung] 
+ 
+ 
+[Einfache Signatur: Vor- und Nachname des unterzeichnenden Rechtsanwalts] 
+ 
+  
+
+===== SEITE 49 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 49 von 53 
+4. Mündliche Verhandlung 
+ 
+ 
+Einer der Höhepunkte einer Referendarstation im Bereich Verwaltungsrecht ist die Teilnahme 
+und vielleicht auch Mitgestaltung einer mündlichen Verhandlung vor einem Verwaltungsgericht. 
+ 
+Zur Unterstützung sollen im Folgenden einige Hinweise zur Vor - und Nachbereitung gegeben 
+sowie der Ablauf der mündlichen Verhandlung skizziert werden. 
+ 
+4.1. Vorbereitung 
+ 
+Aufgrund der vorzüglichen Vorbereitung des Gerichts auf eine mündliche Verhandlung ist bereits 
+im Interesse des Mandanten dringend eine vergleichbare inhaltliche Vorbereitung seitens des 
+Rechtsanwalts und seiner Begleitpersonen anzuraten. Dazu zählen 
+• das Studium der Handakte vor der Sitzung und 
+• ein vertieftes Vertrautmachen mit den rechtlichen Argumenten, die bislang zwischen Ge-
+richt und den Beteiligten getauscht wurden. 
+• Sofern bei dem Verwaltungsgericht vorhanden, ist stets der Besuch des Anwaltszimmers 
+vor der Sitzung anzuraten . Neben dem Austausch mit Kollegen ist Zweck dessen das 
+Streichen von der Sitzungsliste, damit kein Kollege ersatzweise erscheint. 
+ 
+4.1.1. Grundsatz des alleinigen Erscheinens vor Gericht 
+ 
+Aus der praktischen Erfahrung ist die Prüfung zu empfehlen, ob ein persönliches Erschei-
+nen des Mandanten angeordnet ist. Bei weitem nicht immer erfolgt dessen Ladung über 
+den Rechtsanwalt. 
+ 
+Sollte eine Erscheinensanordnung für den Mandanten vorliegen, so ist zu prüfen, ob ein 
+Entbindungsantrag gestellt werden kann. Sollte der Mandant zu einer weiteren Aufklärung 
+des Sachverhalts nichts beitragen können, ist ein Entbindungsantrag bereits zur Vermei-
+dung weiteren zeitlichen Aufwands für den Mandanten mit diesem abzusprechen. 
+ 
+4.1.2. Handlungsrahmen des Rechtsanwaltes 
+ 
+Es sollte eine Selbstverständlichkeit sein, doch ist daran zu erinnern, dass sämtliche 
+Handlungen eines Rechtsanwaltes stets nur im Rahmen seiner Vollmacht und in Abspra-
+che mit dem Mandanten erfolgen sollten. 
+ 
+Bei Zweifeln hinsichtlich des Willens des Mandanten  bieten sich insbesondere folgende 
+Handlungsmöglichkeiten: 
+• eine Sitzungsunterbrechung zur fernmündlichen Nachfrage bei Mandanten sowie 
+• im Falle eines gerichtlichen Vergleichsvorschlags die Vereinbarung eines Wider-
+rufsvorbehalts zum Zwecke der nachträglichen Abstimmung mit dem Mandanten. 
+ 
+Sollte sich, was niemals gänzlich ausgeschlossen werden kann,  Unsicherheiten im Pro-
+zessrecht oder im materiellen Recht  zeigen, die sich nicht durch eigene Mittel oder aus 
+eigenem Wissen beantworten lassen, so besteht die Möglichkeit, einen richterlichen Hin-
+weis zu erbitten. 
+ 
+
+===== SEITE 50 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 50 von 53 
+Allerdings darf dieser Hinweis nicht unkritisch übernommen werden. Anzuraten ist im Falle 
+von verbleibenden Zweifeln notfalls eine ausdrückliche Aufnahme des vollständigen rich-
+terlichen Hinweises in das Protokoll. Von einer Haftung entbindet dieses den Rechtsan-
+walt jedoch grundsätzlich nicht. 
+ 
+4.2. Mitwirkung des Rechtsanwalts während der Verhandlung 
+ 
+In der mündlichen Verhandlung wird (natürlich) die Mitwirkung eines Rechtsanwaltes erwartet. 
+Sie ist prozessual allerdings nicht zwingend erforderlich. 
+ 
+Gemäß § 102 Absatz 2 VwGO ist bei der Ladung darauf hinzuweisen, dass beim Ausbleiben 
+eines Beteiligten auch ohne ihn verhandelt und entschieden werden kann. Somit kommt es für 
+die Durchführung einer mündlichen Verhandlung weder darauf an, dass ein Rechtsanwalt mit-
+wirkt, noch, dass er anwesend ist. 
+ 
+Allerdings kann das Gericht seit dem 21. März 2023 gemäß § 102a Absatz 1 VwGO die den Be-
+teiligten, ihren Bevollmächtigten und Beiständen auf Antrag oder von Amts wegen gestatten, sich 
+während einer mündlichen Verhandlung an einem anderen Ort aufzuhalten und dort Verfahrens-
+handlungen vorzunehmen. Die Verhandlung wi rd dann zeitgleich in Bild und Ton an diesen Ort 
+und in das Sitzungszimmer übertragen. 
+ 
+4.3. Vortrag des Inhalts der Akten, § 103 Absatz 2 VwGO 
+ 
+Die mündliche Verhandlung beginnt mit dem Aufruf der Sache durch den Vorsitzenden. Danach 
+trägt gemäß § 103 Absatz 2 VwGO der Vorsitzende oder der Berichterstatter den wesentlichen 
+Inhalt der Akten vor. 
+ 
+4.4. Antragstellung 
+ 
+4.4.1. Zeitpunkt der Antragstellung 
+ 
+Grundsätzlich erfolgt das Stellen der Anträge und ihre Begründung durch den Rechtsan-
+walt gemäß § 103 Absatz 3 VwGO nach dem Vortrag des Inhalts der Akten. 
+ 
+Ein so frühzeitiges Stellen der Anträge ist allerdings nicht zwingend. Nicht selten erfolgt 
+die Antragstellung durch die Beteiligten tatsächlich erst nach der Beweisaufnahme und 
+nach dem Rechtsgespräch, sodass man sich bereits umgehend über die Sach - und 
+Rechtslage des Verfahrens austauschen konnte. 
+ 
+4.4.2. Unsicherheiten bei Antragstellung 
+ 
+Im Falle etwaiger Unsicherheit bei der Formulierung der konkreten Anträge kann der Vor-
+sitzende um einen Hinweis gebeten werden, denn der Vorsitzende hat gemäß  § 86 Ab-
+satz 3 VwGO darauf hinzuwirken, dass Formfehler beseitigt, unklare Anträge erläutert, 
+sachdienliche Anträge gestellt, ungenügende tatsächliche Angaben ergänzt, ferner alle 
+für die Feststellung und Beurteilung des Sachverhalts wesentlichen Erklärungen abgege-
+ben werden. 
+ 
+Die Anträge der Beteiligten sind auslegungs- und umdeutungsfähig. Insbesondere ist das 
+Gericht gemäß § 88 VwGO nicht an die Fassung der Anträge gebunden.  Doch darf es 
+nicht über das Klagebegehren hinausgehen. Ist der Antrag allerdings eindeutig bestimmt 
+
+===== SEITE 51 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 51 von 53 
+oder beharrt ein Rechtsanwalt trotz richterlichen Hinweises auf einen bestimmten Antrag, 
+so kann dieser nicht gemäß § 88 VwGO ausgelegt werden. 
+ 
+4.5. Beweisaufnahme 
+ 
+Im Verwaltungsverfahren spielen Tatfragen im Vergleich zum Zivilprozess regelmäßig eine ge-
+ringere Rolle. Häufig liegt zur mündlichen Verhandlung bereits ein aufbereiteter und im Tatsäch-
+lichen abgeschlossener Sachverhalt vor. 
+ 
+4.5.1. Amtsermittlungsgrundsatz 
+ 
+Dabei gilt im Verwaltungsverfahren und im verwaltungsgerichtlichen Verfahren der Amts-
+ermittlungsgrundsatz.  
+ 
+Im Verwaltungsverfahren gilt gemäß § 24 VwVfG der Untersuchungsgrundsatz nach dem, 
+die Behörde den Sachverhalt von Amts wegen ermittelt, dabei Art und Umfang ihrer Er-
+mittlungen bestimmt und an das Vorbringen und an die Beweisanträge der Beteiligten 
+nicht gebunden ist. 
+ 
+Sinngemäß gleiches gilt gemäß § 86 Absatz 1 VwGO für das verwaltungsgerichtliche Ver-
+fahren. Danach erforscht das Gericht den Sachverhalt von Amts wegen, wozu die Betei-
+ligten heranzuziehen sind. Auch das Gericht ist an das Vorbringen und an die Beweisan-
+träge der Beteiligten nicht gebunden. 
+ 
+4.5.2. Beweisanregung und Beweisantrag 
+ 
+Als Ausprägung dessen kann ein Beteiligter in seinen ( vorbereitenden) Schriftsätzen le-
+diglich die Beweiserhebung anregen. Mit einer Beweisanregung wird die Beweiserhebung 
+aber nicht zwingend herbeigeführt. Dieser bedarf es dem Grunde nach auch nicht, denn 
+das Gericht muss gemäß § 86 Absatz 1 VwGO von sich aus alle ungeklärten oder streiti-
+gen entscheidungserheblichen Tatfragen durch eine entsprechende Beweiserhebung er-
+mitteln. Allerdings kann das Gericht kann über eine konkrete Beweisanregung auch ein-
+fach hinweggehen, wenn es diese nicht für erforderlich hält. 
+ 
+Eine verbindliche Entscheidung über eine konkrete Beweiserhebung kann gemäß § 86 
+Absatz 2 VwGO von einem Beteiligten durch einen in der mündlichen Verhandlung ge-
+stellten Beweisantrag herbeigeführt werden. Denn ein solcher kann nur durch einen Ge-
+richtsbeschluss abgelehnt werden, der seitens des Gerichts zu begründen ist. 
+ 
+4.5.3. Erforderliche Angaben für einen Beweisantrag 
+ 
+Im verwaltungsgerichtlichen Verfahren gilt, dass gemäß § 96 Absatz 1 Satz 1 VwGO alle 
+Beweise grundsätzlich in der mündlichen Verhandlung erhoben  werden. Davon abwei-
+chend kann das Gericht in geeigneten Fällen gemäß § 96 Absatz 2 VwGO bereits vor der 
+mündlichen Verhandlung durch eines seiner Mitglieder als beauftragten Richter Beweis 
+erheben lassen oder durch Bezeichnung der einzelnen Beweisfragen ein anderes Gericht 
+um die Beweisaufnahme ersuchen. 
+ 
+Ein förmlicher Beweisantrag muss folgende Angaben enthalten: 
+• die Wahl eines tauglichen Beweismittels, 
+
+===== SEITE 52 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 52 von 53 
+• die Bezeichnung der Tatsachen, welche festgestellt werden sollen (auch Beweis-
+thema oder Beweisgegenstand genannt) 
+• die Konnexität zwischen dem Beweismittel und dem Beweisthema sowie 
+• die Angaben zur Erlangung des Beweismittels. 
+ 
+Die Frage danach, wann in einem Verwaltungsprozess ein Beweisantrag nötig ist, ist nicht 
+einfach zu beantworten. Ein Beweisantrag dürfte immer angezeigt sein, sofern im konkre-
+ten Fall die ernstliche Möglichkeit zu einem anders gestalteten Geschehen gegeben ist. 
+Dabei ist zu berücksichtigen, dass ein Gericht in Grenzfällen einen Aufklärungsbedarf zu 
+einer Sachfrage insbesondere dann nicht sehen muss, wenn ein Beweisantrag von einem 
+Rechtsanwalt unterlassen wurde. Mit anderen Worten, das Gericht muss erkennen kön-
+nen, dass es eine unterschiedliche Sicht der Sachlage gibt. 
+ 
+Grundsätzlich werden im verwaltungsgerichtlichen Verfahren weniger Beweisanträge als 
+im Zivilprozess gestellt. Gleichwohl kann auch im Verwaltungsprozess der Rechtsanwalt 
+aus der Ablehnung von Beweisanträgen ablesen, welche Tatsachenfragen das Gericht für 
+erheblich erachtet, und dieses gegebenenfalls in seine Strategie einbeziehen. 
+ 
+4.5.4. Beweismittel 
+ 
+Exkurs: Im Zivilprozess sind aufgrund des dort geltenden Prinzips des Strengbeweises 
+die zulässigen Beweismittel beschränkt und damit einfach zu bestimmen  (Merkwort 
+SAPUZ). Diese sind im Einzelnen: 
+• der Beweis durch Sachverständige (§§ 402 ff. ZPO). 
+• der Beweis durch Augenschein (§§ 371 ff. ZPO). 
+• der Beweis durch Parteivernehmung (§§ 445 ff. ZPO). 
+• der Beweis durch Urkunden (§§ 415 ff. ZPO). 
+• der Zeugenbeweis (§§ 373 ff. ZPO). 
+ 
+Anders die Situation im Verwaltungsverfahren und im Verwaltungsprozess, denn dort gilt 
+das Prinzip des Freibeweises. Gemeint ist damit, dass die gerichtliche Tatsachenfeststel-
+lung mit allen von diesem für erforderlich gehaltenen Mitteln und weitgehend ohne  for-
+melle Vorgaben erfolgen darf. 
+ 
+Gleichwohl werden in verschiedenen Normen des  Verwaltungsverfahrens- und Verwal-
+tungsprozessrechts einzelne, typische Beweismittel genannt. Die se sind für das Verwal-
+tungsverfahren in § 26 VwVfG, für das vorbereitende Verfahren in § 87 Absatz 1 Satz 2 
+VwGO und für das verwaltungsgerichtliche Verfahren in § 96 Absatz 1 Satz 2 VwGO ge-
+nannt. Darauf ergibt sich folgende, nicht abschließende Übersicht über die B eweismittel 
+im Verwaltungsrecht): 
+• Beweis durch Sachverständige 
+• Einholen von Auskünften 
+• Beweis durch Augenschein 
+• Anhörung von Beteiligten 
+• Beweis durch Urkunden 
+• Beweis durch Akten 
+• Beweis durch Zeugen 
+  
+
+===== SEITE 53 =====
+ 
+(Hartmann: Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 53 von 53 
+4.6. Erörterung der Streitsache, § 104 Absatz 1 VwGO 
+ 
+Die Erörterung der Streitsache im Sinne von § 104 Absatz  1 VwGO erfolgt im sogenannten 
+Rechtsgespräch, welches im Anschluss an die Beweisaufnahme erfolgt. 
+ 
+Dabei hat der Rechtsanwalt sein Augenmerk darauf zu legen, dass der Vorsitzende auf die Tat-
+sachen und auf die rechtlichen Gesichtspunkte hinweist, welche die spätere Entscheidung tragen. 
+Sollte dann später eine Entscheidung ergehen, die auf Tatsachen und rechtliche Gesichtspunkte 
+gestützt wird, welche weder im Verwaltungsverfahren noch im Verwaltungsstreitverfahren erörtert 
+worden sind, liegt ein sogenanntes Überraschungsurteil vor . Ein Überraschungsurteil stellt ein e 
+Verletzung des Anspruchs auf rechtliche s Gehör im Sinne von Artikel 103 Absatz 1 GG dar. In 
+einem solchen Fall wäre gemäß § 124 Absatz 2 Nummer 5 VwGO die Berufung zuzulassen. Zu-
+dem handelt es sich um einen absoluten Revisionsgrund im Sinne von § 132 Absatz 2 Nummer 3 
+VwGO. 
+ 
+Aus § 108 Absatz 1 Satz 2 VwGO folgt jedoch keine Pflicht für das Gericht, seine Rechtsauffas-
+sungen den Beteiligten vor dem Ergehen der Entscheidung mitzuteilen. Dieses hat das Gericht 
+erst mit seinem Urteil zu tun. Indes darf das Urteil gemäß § 108 Absatz 2 VwGO nur auf Tatsa-
+chen und Beweisergebnisse gestützt werden, zu denen die Beteiligten sich äußern konnten. 
+ 
+Das Rechtsgespräch schließt regelmäßig mit der Gelegenheit für die Beteiligten oder ihre Bevoll-
+mächtigten, ihre Anträge nochmals zusammenfassend zu begründen und dabei auch die Ergeb-
+nisse einer etwaigen Beweisaufnahme zu würdigen. Dabei macht eine bloße Wiederholung des 
+bereits in den vorbereitenden Schriftsätzen Vorgetragenen nur wenig Sinn. Als passender erweist 
+sich regelmäßig, dass der Rechtsanwalt sich im Wesentlichen darauf beschränken sollte, neue 
+Aspekte vorzutragen und diese in den Gesamtzusammenhang einzuordnen. 
+ 
+4.7. Schluss der mündlichen Verhandlung 
+ 
+Nach der Erörterung der Streitsache erklärt der Vorsitzende gemäß § 104 Absatz 3 VwGO die 
+mündliche Verhandlung für geschlossen. 
+ 
+4.8. Nach der mündlichen Verhandlung 
+ 
+Im Nachgang der mündlichen Verhandlung sollten unverzüglich etwaige  Fristen notiert werden. 
+Dies gilt insbesondere für eine Widerrufsfrist im Falle eines Vergleichs unter Widerrufsvorbehalt. 
+Dies ist insbesondere deswegen geboten, weil das  Protokoll über die mündliche  Verhandlung 
+häufig erst nach Ende der Widerrufsfrist übersandt wird. 
+ 
+Auch ist eine u nverzügliche und objektive Information des Mandanten  anzuraten, wobei diese 
+bereits aus Haftungsgründen schriftlich erfolgen sollte. Parallel dazu sollten eigene Aufzeichnun-
+gen aus der Sitzung mit einem eigenen Vermerk zur anwaltlichen Handakte gereicht werden. 
+ 
+ 
+* * * 

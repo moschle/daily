@@ -1,0 +1,2120 @@
+===== SEITE 1 =====
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+Strafrecht  
+  
+Die Revisionsklausur  
+  
+  
+  
+  
+  
+  
+  
+  
+Verfasser:  
+Sebastian Büchner, Oberstaatsanwalt  
+   
+
+===== SEITE 2 =====
+ 
+  
+Inhalt  
+Kapitel 1 – Allgemeines Rechtsmittelrecht _______________________________________ 2 
+A. Rechtsmittel der StPO (§§ 296 ff StPO) _______________________________________ 2 
+B. Rechtsbehelfe der StPO ___________________________________________________ 2 
+C. Wesen von Berufung und Revision ___________________________________________ 2 
+I. Berufung ________________________________________________________________ 2 
+II. Revision ________________________________________________________________ 3 
+D. Allgemeine Rechtsmittelfragen ______________________________________________ 4 
+I. Rechtsmittelberechtigte ____________________________________________________ 4 
+II. Beschwer _______________________________________________________________ 5 
+III. Anfechtungserklärung _____________________________________________________ 6 
+IV. Rechtsmittelverzicht, § 302 StPO ____________________________________________ 7 
+V. Rechtsmittelrücknahme, §§ 302, 303 StPO ___________________________________ 11 
+VI. Beschränkung des Rechtsmittels ___________________________________________ 11 
+Kapitel 2 – Zulässigkeit der Revision ___________________________________________ 13 
+I. Gerichtszuständigkeit _____________________________________________________ 13 
+II. Zulässigkeitsvoraussetzungen der Revision ___________________________________ 13 
+Kapitel 3 – Begründetheit der Revision _________________________________________ 17 
+A. Revisionsanträge, § 344 Abs. 1 StPO ________________________________________ 17 
+B. Revisionsbegründung, § 344 Abs. 1, Abs. 2 StPO ______________________________ 17 
+Kapitel 4 - Begründetheit der Revision: Prozessvoraussetzungen __________________ 21 
+I. Wichtige Verfahrenshindernisse _____________________________________________ 21 
+II. Besonderheiten bei der Revision gegen ein Berufungsurteil _______________________ 23 
+Kapitel 5 - Begründetheit der Revision: Verfahrensrügen __________________________ 25 
+A. Vorbemerkung: Unzulässigkeit der Protokollrüge _______________________________ 25 
+B. Rechtliche Auseinandersetzung mit der Norm, gegen die das Gericht verstoßen hat (§ 337 
+Abs. 2 StPO) _____________________________________________________________ 26 
+I. absolute Revisionsgründe (§ 338 StPO) _______________________________________ 27 
+II. relative Revisionsgründe (§ 337 StPO) _______________________________________ 39 
+Kapitel 6 - Begründetheit der Revision: Sachrüge ________________________________ 51 
+A. Fehler bei der rechtlichen Würdigung (Subsumtionsfehler) _______________________ 51 
+I. Falsche Anwendung einer Norm _____________________________________________ 51 
+II. Nichtanwendung von Vorschriften auf den festgestellten Sachverhalt _______________ 51 
+III. Fehlerhafte Beurteilung der Konkurrenzen ____________________________________ 51 
+B. Fehler bei der Beweiswürdigung ____________________________________________ 52 
+I. Fehlen einer Beweiswürdigung oder __________________________________________ 52 
+II. widersprüchlicher Beweiswürdigung _________________________________________ 52 
+III. Verstoß gegen Denkgesetze, Naturgesetze, Erfahrungssätze _____________________ 52 
+IV. Verletzung des Grundsatzes „in dubio pro reo“ ________________________________ 52 
+C. Fehler bei der Bildung der Strafe ___________________________________________ 52 
+I. Fehlende Schilderung der persönlichen und wirtschaftlichen Verhältnisse ____________ 53 
+II. Ist der Tatrichter vom richtigen Strafrahmen ausgegangen? _______________________ 53 
+III. Ordnungsgemäße Abwägung gemäß § 46 Abs. 2 StGB _________________________ 54 
+IV. Ordnungsgemäße Bildung der konkreten Strafe _______________________________ 55 
+V. Bewährung, § 56 StGB ___________________________________________________ 55 
+Kapitel 7 - Revisionsanträge __________________________________________________ 57 
+ 
+Anhänge:  
+- Prüfungsschema - 
+Musterklausur 
+
+===== SEITE 3 =====
+   1  
+  
+
+===== SEITE 4 =====
+   2  
+Kapitel 1 – Allgemeines Rechtsmittelrecht  
+  
+A. Rechtsmittel der StPO (§§ 296 ff StPO)  
+Rechtsmittel zeichnen sich durch zwei Aspekte aus: den Devolutiveffekt (Verfahren kommt in 
+höhere Instanz) und den Suspensiveffekt (kein Eintritt der Rechtskraft, Vollstreckbarkeit ist 
+gehindert; Ausnahme: § 307 Abs. 1 StPO).  
+  
+Diese Kriterien erfüllen  
+1. Beschwerde (§§ 304ff StPO),  
+2. Berufung (§§ 312ff StPO),  
+3. Revision (§§ 333ff StPO).  
+  
+  
+B. Rechtsbehelfe der StPO  
+Rechtsbehelfen fehlt stets einer der beiden Effekte. Zu den Rechtsbehelfen zählen 
+beispielsweise  
+1. Wiedereinsetzungsantrag (§§ 44ff StPO)  
+2. Einspruch gegen Strafbefehl (§ 410 StPO)  
+3. Antrag auf Wiederaufnahme des Verfahrens (§§ 359ff StPO)  
+4. Antrag auf gerichtliche Entscheidung §§ 161a Abs. 3, 172, 319 Abs. 2, 346 Abs. 2 
+StPO)   
+5. Haftprüfung (§ 117 StPO)  
+  
+  
+C. Wesen von Berufung und Revision  
+I. Berufung  
+Mit der Berufung wird eine vollständige Überprüfung des Urteils ermöglicht 
+(Tatsacheninstanz). Auf eine zulässige Berufung hin findet eine neue Hauptverhandlung statt, 
+die vom Verfahren her mit einigen Modifikationen (z.B. ist u.U. eine Verlesung der 
+
+===== SEITE 5 =====
+   3  
+Zeugenaussagen aus dem Protokoll der ersten Instanz zulässig, vgl. § 325 StPO) derjenigen 
+in der ersten Instanz entspricht (näheres zu den Besonderheiten der Berufung später). Das 
+Berufungsgericht nimmt eine eigene Beweiswürdigung, eine eigene materiell -rechtliche 
+Subsumtion unter die Strafrechtsnormen und eine eigene Strafzumessung vor.  
+Das bedeutet: Eine Berufung ist (nur) dann sinnvoll, wenn   
+- entweder der Berufungsführer mit der durch den Erstrichter vorgenommenen 
+Beweiswürdigung nicht einverstanden ist und er sich Chancen ausrechnen kann, bei 
+einer erneuten Beweisaufnahme ein anderes Ergebnis zu erlangen, oder   
+- wenn die materiell-rechtliche Würdigung falsch war oder   
+- wenn der Berufungsführer eine andere Rechtsfolgenentscheidung anstrebt.   
+  
+Da hier das erkennende Instanzgericht – auch das Berufungsgericht – nach h.M. einen 
+Ermessensspielraum hat, liegt hier in der Praxis die hauptsächliche Motivation für die 
+Durchführung einer Berufung.  
+Dagegen macht es kaum Sinn, Berufung einzulegen, wenn nur ein Verfahrensfehler in erster 
+Instanz aufgetreten ist. Die meisten Verfahrensfehler können bei Wiederholung der 
+Hauptverhandlung in der Berufungsinstanz nämlich vermieden werden, ohne dass der 
+Tatnachweis scheitert. Nur wenn Verwertungsverbote vom Erstgericht missachtet wurden oder 
+unbehebbare Verfahrenshindernisse vorliegen, die in erster Instanz übersehen wurden, 
+besteht Aussicht auf ein anderes Urteil in der Berufungsinstanz.  
+  
+II. Revision  
+Durch das Rechtsmittel der Revision wird dem Rechtsmittelführer lediglich die Überprüfung 
+des angegriffenen Urteils auf Rechtsfehler ermöglicht (Rechtsinstanz). Dem Revisionsgericht 
+ist nicht gestattet, die Beweiswürdigung des Erstgerichts oder die Ausübun g von 
+Ermessensentscheidungen (vor allem die Strafzumessung) durch Wiederholung auf 
+„Richtigkeit“ zu überprüfen. In diesem Bereich kann – auf die Sachrüge hin – lediglich geprüft 
+werden, ob diese Entscheidungen vorgenommen wurden, im schriftlichen Urteil ausreichend 
+und mit zulässigen Argumenten begründet wurden, nicht aber auch, ob sie angemessen sind 
+oder ob das Revisionsgericht hierbei auch zum gleichen Ergebnis gekommen wäre wie das 
+Ausgangsgericht.   
+
+===== SEITE 6 =====
+   4  
+Andererseits kann die Revision „erfolgreich“ sein, d.h. zur Aufhebung des Urteils und 
+Zurückverweisung der Sache zur erneuten Entscheidung führen, wenn ein Verfahrensfehler 
+vorliegt, ohne dass später im Endergebnis für den Rechtsmittelführer tatsächlich ei ne 
+günstigere Entscheidung rechtskräftig wird. Dies ist meist dann zu erwarten, wenn der 
+Verfahrensfehler bei Neuauflage der Hauptverhandlung vermieden werden kann, ohne dass 
+Beweismittel entfallen. „Gewonnen“ hätte der Rechtsmittelführer dann letztendlich nur eine 
+Verzögerung der Vollstreckbarkeit der Entscheidung, was gelegentlich tatsächlich 
+erstrebenswert sein kann.  
+  
+Weil das Revisionsgericht die Beweisaufnahme und Beweiswürdigung zu Schuld und 
+Strafzumessung nicht selbst vornimmt/wiederholt, wird oft pauschal behauptet, dass in dieser 
+Instanz keine Beweisaufnahme stattfindet. Das Vorliegen von Verfahrenshindernissen oder 
+Verfahrensvoraussetzungen, die Zulässigkeit der Revision und das Vorliegen der Tatsachen, 
+die einen Verfahrensfehler begründen könnten, sind vom Revisionsgericht in eigener 
+Zuständigkeit zu prüfen und festzustellen. Hier findet u.U. auch eine Beweisaufnahme statt.   
+  
+  
+D. Allgemeine Rechtsmittelfragen  
+§§ 296-303 StPO enthalten allgemeine Vorschriften für alle drei Rechtsmittel. Sie gelten direkt 
+für die drei Rechtsmittel, sind aber per gesetzlicher Verweisung (z.B. § 410 Abs. 1 2 StPO) 
+auch für bestimmte Rechtsbehelfe und generell – wo sie passen – analog auch auf die übrigen 
+Rechtsbehelfe anwendbar.  
+  
+I. Rechtsmittelberechtigte  
+1. der/die Angeklagte, § 296 Abs. 1 StPO  
+2. die Verteidigerin/der Verteidiger, § 297 StPO  
+- handelt aus eigenem Recht und in eigenem Namen  
+- bei Zusammentreffen verschiedenartiger Rechtsmittel durch 
+Beschuldigten/Angeklagten und Verteidiger ist der Wille des 
+Beschuldigten/Angeklagten maßgebend, vgl. § 297 StPO; dieser Wille muss aber 
+ausdrücklich gegenüber dem Gericht oder dem Verteidiger erklärt werden  
+
+===== SEITE 7 =====
+   5  
+- auch ein Vertreter, der nicht Verteidiger ist, kann Rechtsmittel einlegen  
+- ein vor Entzug der Vollmacht oder vor Zurückweisung eines Verteidigers nach § 
+146a StPO eingelegtes Rechtsmittel bleibt wirksam bis zu dessen evtl. Rücknahme.  
+3. Gesetzlicher Vertreter, § 298 StPO  
+- gesetzlicher Vertreter und Beschuldigter können nebeneinander Rechtsmittel 
+einlegen (beachte dann § 335 Abs. 3 StPO)  
+- der gesetzlicher Vertreter ist vom Willen des Beschuldigten unabhängig  
+- wird der Beschuldigte nach Rechtsmitteleinlegung durch den gesetzlichen Vertreter 
+mündig, so bleibt das Rechtsmittel wirksam eingelegt; der Beschuldigte muss es 
+nicht bestätigen, kann es aber zurücknehmen.  
+4. Staatsanwaltschaft, § 296, Abs. 1, 2 StPO  
+Die Befugnis kann sowohl Rechtsmittel zu Lasten als auch zu Gunsten des 
+Angeklagten betreffen, vgl. § 296 Abs. 2 StPO. Vor diesem Hintergrund regelt § 301 
+StPO unabhängig von der Intention der Rechtsmitteleinlegung, dass das Gericht eine 
+Abänderung der Entscheidung zu Gunsten des Betroffenen bewirken kann. Umgekehrt 
+kann ein von der Staatsanwaltschaft zu Gunsten des Betroffenen eingelegtes 
+Rechtsmittel nur mit dessen Zustimmung zurückgenommen werden, § 296 Abs. 2 
+i.V.m. § 302 Abs. 1 S. 1 StPO.  
+5. Privatkläger, § 390 StPO  
+6. Nebenkläger, §§ 401 Abs. 1 S. 1, 400 StPO  
+  
+II. Beschwer  
+Die Beschwer muss sich aus dem Entscheidungstenor ergeben (nicht aus den Gründen), es 
+handelt sich also um eine sog. „Tenorbeschwer“.  
+Der Angeklagte ist in diesem Sinne durch jede für ihn nachteilige Entscheidung beschwert, 
+also durch  
+- Verurteilung  
+- Straffreierklärung, § 199 StGB  
+- Absehen von Strafe, § 60 StGB  
+- ausnahmsweise bei Verfahrenseinstellung, wenn das Verfahrenshindernis noch 
+behoben werden kann,  
+
+===== SEITE 8 =====
+   6  
+aber nicht durch  
+- Freispruch (auch nicht wegen Schuldunfähigkeit, § 20 StGB), str.  
+- Verfahrenseinstellung wegen Prozesshindernis.  
+Die Staatsanwaltschaft ist durch jedwede rechtsfehlerhafte Entscheidung beschwert. Das gilt 
+selbst dann, wenn das Urteil dem Antrag des Sitzungsvertreters entspricht oder darüber 
+hinausgeht. Darüber hinaus bedarf es keines Rechtsschutzinteresses.  
+  
+III. Anfechtungserklärung  
+Die Anfechtungserklärung ist als Prozesshandlung bedingungsfeindlich.  
+Der Fall einer Falschbezeichnung ist in § 300 StPO geregelt. Diese Regelung hilft dem 
+Rechtsmittelführer aber nur dann, wenn aus seiner Erklärung unter Berücksichtigung aller dem 
+Gericht bekannten Umstände im Wege der Auslegung zu entnehmen ist, dass eine solche 
+Falschbezeichnung vorliegt und welches Rechtsmittel eigentlich gewollt war.  
+  
+Fall: A legt gegen das erstinstanzliche Urteil des Landgerichts „Einspruch“ ein und 
+erklärt, mit der Verurteilung nicht einverstanden zu sein und es daher „anzufechten“.  
+Da gegen das Urteil nur die Revision statthaft ist und das vollständige Anfechtungsbegehren 
+ersichtlich ist, ist der „Einspruch“ als Revisionseinlegung zu berücksichtigen. 
+ 
+Fall: A wurde vom Landgericht in dem Verfahre 17 KLs 1234/14 am 30. Januar 2015 
+verurteilt. Er legt binnen Wochenfrist Revision gegen „das gegen mich ergangene Urteil 
+des Landgerichts vom 30. Januar 2015, Az. 17 KLs 1324/14“ ein.  
+Hier liegt kein Fall des § 300 StPO vor, da es nicht um eine Falschbezeichnung des 
+Rechtsmittels geht. Da der Schriftsatz trotz des Zahlendrehers eindeutig zuordenbar ist – 
+Name des Angeklagten, Urteilsdatum, Spruchkörper 17. große Strafkammer – ist Revision 
+ordnungsgemäß eingelegt.  
+  
+Fall: A geht direkt zur Geschäftsstelle des Amtsgerichts, um dort zu Protokoll Revision 
+einzulegen. Er trifft aber keinen Urkundsbeamten, sondern nur den Abteilungsrichter 
+an, der die Revisionserklärung entsprechend protokolliert.  
+Die Revision ist ordnungsgemäß eingelegt. Zwar handelt es sich bei den Urkundsbeamten der 
+Geschäftsstelle um einen Rechtspfleger, dem diese Protokollierung gemäß § 24 RPflG 
+zugewiesen ist. Allerdings kann der Richter gemäß § 8 RPflG die Protokollierung – wie hier – 
+an sich ziehen, so dass die Revision ordnungsgemäß eingelegt ist.  
+  
+
+===== SEITE 9 =====
+   7  
+Daneben besteht die Möglichkeit der unbestimmten Anfechtung:  
+Ist gegen ein Urteil statt Berufung auch Revision zulässig, so kann es angefochten werden, 
+ohne dass das konkrete Rechtsmittel bezeichnet wird. Bis zum Ablauf der 
+Revisionsbegründungsfrist (§ 345 Abs. 1 StPO) hat der Rechtsmittelführer die Möglichkeit zu 
+entscheiden, ob das Rechtsmittel als Berufung oder Revision behandelt werden soll. 
+Schließlich können in einigen Fällen erst nach Vorliegen des Protokolls bzw. der schriftlichen 
+Urteilsgründe, vgl. § 275 Abs. 1 StPO, die Erfolgsaussichten einer Revision beurteilt werden.   
+Geht innerhalb der Revisionsbegründungsfrist keine Erklärung ein, so wird das Rechtsmittel 
+als Berufung behandelt, um den Instanzenzug nicht zu verkürzen. Da Berufung und Revision 
+nebeneinander nur bei Urteilen des Amtsgerichts möglich sind, stellt sich dieses Problem nie, 
+wenn das Landgericht erstinstanzlich entschieden hat.  
+Nach Berufungseinlegung ist innerhalb der Revisionsbegründungsfrist (§ 345 Abs. 1 StPO) 
+der Übergang zur Revision zulässig, ebenfalls innerhalb dieser Frist auch der Übergang von 
+Revision zu Berufung.  
+  
+IV. Rechtsmittelverzicht, § 302 StPO  
+Ein Rechtsmittelverzicht führt zur Unzulässigkeit des Rechtsmittels des Verzichtenden. Er 
+kann erklärt werden durch  
+1. den Angeklagten; dessen Verzicht erstreckt sich auch auf Rechtsmittel des 
+Verteidigers,  
+2. den Verteidiger (nur mit besonderer Ermächtigung, vgl. auch § 302 Abs.2 StPO),  
+3. die Staatsanwaltschaft.  
+  
+Die Verzichtserklärung darf für ihre Wirksamkeit nicht vor Erlass der Entscheidung erfolgen, 
+durchaus aber vor Bekanntgabe der Urteilsgründe. Der frühestmögliche Zeitpunkt ist 
+unmittelbar nach Verkündung des Urteilstenors.  
+Der Rechtsmittelverzicht erfordert die gleiche Form wie die Rechtsmitteleinlegung, er muss 
+also schriftlich oder zu Protokoll der Geschäftsstelle (§§ 314 Abs. 1, 341 Abs. 1 StPO) erklärt 
+werden. Die Verzichtserklärung ist auch in der Hauptverhandlung zu Pr otokoll des 
+Urkundsbeamten möglich.  
+
+===== SEITE 10 =====
+   8  
+Der Rechtsmittelverzicht führt zur Unzulässigkeit von Rechtsmitteln des Verzichtenden (bzw. 
+seines Verteidigers). Er ist grundsätzlich unwiderruflich und unanfechtbar, aber grundsätzlich 
+beschränkbar.   
+Allerdings wird nach h.M. eine Unwirksamkeit des Verzichts angenommen, wenn der 
+Erklärende verhandlungsunfähig war, die Art und Weise des Zustandekommens der Erklärung 
+unter schweren Mängeln litt, z.B. nach § 136a StPO verbotene Methoden angewandt wurden 
+(etwa, wenn die Aufhebung eines Haftbefehls von der Rücknahme des Rechtsmittels abhängig 
+gemacht wurde) oder die vorherige Beratung mit einem Verteidiger unmöglich war.  
+Lag dem Urteil eine Verständigung zugrunde, ist ein Rechtsmittelverzicht ausgeschlossen, 
+§ 302 Abs. 1 S. 2 StPO. Häufig finden in der Praxis vorab Erörterungen zwischen dem 
+Verteidiger, dem Vertreter der Staatsanwaltschaft und dem Gericht statt, im Rahmen derer die 
+Strafvorstellungen abgeglichen werden. Dies ist sinnvoll, da es dem Verteidiger e ine 
+Einschätzung seiner Verteidigungsstrategie erlaubt und insofern geeignet ist, Prozesse 
+abzukürzen. Dies geschah bislang häufig eher informell, also in Umgehung der Regelungen 
+zum „Deal“ in der StPO – §§ 160b, 202a, 243 IV, 257b, 257c StPO.   
+Ziel dieser Regelungen ist es, klare gesetzliche Vorgaben zu Verfahren, Inhalt und Folgen von 
+Verständigungen zu schaffen und dadurch Rechtsicherheit, Transparenz und eine 
+gleichmäßige Rechtsanwendung durch die gerichtliche Praxis zu gewährleisten.  
+Im Frühjahr 2013 hatte sich das Bundesverfassungsgericht mit der Zulässigkeit der 
+Verständigung im Strafverfahren zu befassen1. Vor allem hat es dabei klar gestellt, dass die 
+o.g. Vorschriften für die Verständigung abschließend sind, also daneben kein Raum für 
+sonstige informelle Absprachen besteht. Das bedeutet: Entweder ein Deal entsprechend der 
+StPO oder eine streitige (jedenfalls verständigungslose) Verhandlung. Zudem hat es betont, 
+dass die grundlegenden Prinzipien des deutschen Strafprozesses und des materiellen 
+Strafrechts eingehalten werden. Zustandekommen und Ergebnis einer Verständigung müssen 
+sich am Grundsatz des fairen Verfahrens, der Pflicht des Gerichts zur umfassenden Ermittlung 
+der Wahrheit sowie an einer gerechten und schuldangemessenen Strafe orientieren.  
+Dabei geltende die folgenden Grundsätzen:  
+• Die Grundsätze der Strafzumessung bleiben unberührt. Das Strafmaß muss sich 
+weiterhin an der Schuld des Angeklagten orientieren.  
+ 
+1 BVerfG, 2 BvR 2628/10 vom 19.3.2013  
+
+===== SEITE 11 =====
+   9  
+• Unberührt bleiben auch die Grundsätze des Strafverfahrens. Es gibt insbesondere kein 
+„Konsensprinzip". Eine Verständigung kann nie alleinige Grundlage des Urteils sein. 
+Das Gericht bleibt weiterhin verpflichtet, den wahren Sachverhalt bis zu seiner 
+Überzeugung zu ermitteln. Insbesondere Geständnisse sind auf ihre Glaubhaftigkeit  
+zu hinterfragen, selbst wenn eine Verständigung erfolgt ist. Die Ermittlung der Wahrheit 
+geht der Prozessökonomie vor.  
+Das Bundesverfassungsgericht hat mit zwei Beschlüssen vom 8. November 2023 
+(2 BvR 294/22) und vom 20. Dezember 2023 (2 BvR 2103/20) die Anforderungen an 
+das Verständigungsverfahren erheblich präzisiert. Erstens hat das BVerfG klargestellt, 
+dass ein verständigungsbasiertes Geständnis zwingend durch förmliche 
+Beweiserhebung in der Hauptverhandlung auf seine Richtigkeit zu überprüfen ist; ein 
+bloßer Abgleich mit der Aktenlage genügt nicht. Ein sog. „Formalgeständnis“, bei dem 
+der Angeklagte oder sein Verteidiger die Anklagevorwürfe lediglich pauschal bestätigt, 
+reicht für die richterlic he Überzeugungsbildung nicht aus. Der Umfang der 
+erforderlichen Beweiserhebung richtet sich nach der Qualität der geständigen 
+Einlassung und der Komplexität des Vorwurfs: Je oberflächlicher das Geständnis und 
+je vielschichtiger der Tatvorwurf, desto umfang reicher muss die gerichtliche 
+Sachverhaltsaufklärung ausfallen. Zweitens hat das BVerfG die Anforderungen an die 
+Mitteilungspflicht des Vorsitzenden nach § 243 Abs. 4 S. 2 StPO verschärft: Es reicht 
+nicht aus, lediglich das Ergebnis der Verständigung mitzuteilen. Der Vorsitzende muss 
+vielmehr auch darlegen, von welcher Seite die Frage einer Verständigung aufgeworfen 
+wurde, welche Standpunkte die einzelnen Gesprächsteilnehmer vertreten haben und 
+ob die Verständigungsidee auf Zustimmung oder Ablehnung gestoßen ist. Verstöße 
+gegen diese Mitteilungspflicht sind nicht als bloße Ordnungswidrigkeiten zu werten; das 
+Beruhen des Urteils auf einem solchen Verstoß darf revisionsrechtlich nur unter engen 
+Voraussetzungen verneint werden. 
+• Eine Verständigung kann nur in der öffentlichen Hauptverhandlung zustande kommen, 
+Vorgänge außerhalb der Hauptverhandlung muss das Gericht öffentlich mitteilen. 
+Verständigungen müssen stets umfassend protokolliert und im Urteil erwähnt werden. 
+Protokolliert werden muss nicht nur das Ergebnis, sondern auch die zu diesem 
+Ergebnis führenden Positionen und Argumente. Findet keine Verständigung statt, ist 
+ein sog. „Negativattest“ zu protokollieren.  
+• Es gibt keinerlei Beschränkungen der Rechtsmittel. Ist dem Urteil eine Verständigung 
+vorangegangen, ist ein Rechtsmittelverzicht ausgeschlossen. Das Urteil bleibt auch 
+
+===== SEITE 12 =====
+   10  
+nach einer Verständigung in vollem Umfang überprüfbar, der Angeklagte muss darüber 
+eingehend belehrt werden.  
+Gegenstand einer Verständigung dürfen nur die Rechtsfolgen, also im Wesentlichen das 
+Strafmaß und etwaige Auflagen wie zum Beispiel Bewährungsauflagen sein. Weitere 
+Maßnahmen zum Verfahrensverlauf sowie das Prozessverhalten der Beteiligten sind nicht 
+zulässiger Gegenstand des Deals, wie etwa Einstellungsentscheidungen nach §§ 154, 154a 
+außerhalb des verhandelten Verfahren, Haftfragen und Vollstreckungsfragen. Ebenfalls muss 
+ein Geständnis Gegenstand einer Verständigung sein. Das Gericht muss von der Richtigkeit 
+des Geständnisses überzeugt sein, um seiner Aufklärungspflicht in vollem Umfang 
+nachzukommen. Bei Zweifeln an der Richtigkeit muss es gegebenenfalls auf seine 
+Zuverlässigkeit überprüft werden.  
+Ausdrücklich ausgeschlossen als Gegenstand einer Verständigung ist der Schuldspruch - also 
+die Frage, ob und wenn ja, wegen welcher Strafnorm jemand verurteilt wird. Ebenso wenig 
+können Maßregeln der Besserung und Sicherung wie beispielsweise die Unterbrin gung in 
+einem psychiatrischen Krankenhaus in eine Verständigung aufgenommen werden, weil hier 
+das Gesetz dem Gericht keinen Entscheidungsspielraum belässt.  
+Eine Verständigung kommt zustande, indem das Gericht ihren möglichen Inhalt bekannt gibt 
+und der Angeklagte sowie die Staatsanwaltschaft zustimmen. Das Gericht gibt dabei eine 
+Ober- und Untergrenze der möglichen Strafe an. Dabei muss es die allgemeinen 
+Strafzumessungserwägungen berücksichtigen und darf weder eine unangemessen niedrige 
+noch eine unangemessen hohe Strafe vorschlagen. Die Initiative zu einer Verständigung ist 
+aber nicht allein dem Gericht vorbehalten, entsprechende Anregungen können auch von den 
+anderen Verfahrensbeteiligten ausgehen.  
+Die Bindung des Gerichts entfällt, wenn bedeutsame tatsächliche oder rechtliche Umstände 
+übersehen worden sind oder sich nachträglich ergeben und das Gericht deswegen zur 
+Überzeugung kommt, dass die in Aussicht gestellte Strafe nicht mehr tat - oder 
+schuldangemessen ist, was den Fall einschließt, dass das Gericht eine unzutreffende 
+Prognose bei der Bewertung des bisherigen Verhandlungsergebnisses abgegeben hat. Auch 
+kann das Prozessverhalten des Angeklagten das Gericht veranlassen, sich von der Absprache 
+zu lösen, wenn es nicht mehr dem Verhalten entspricht, welches das Gericht seiner Prognose 
+zugrunde gelegt hat.  
+Entfällt die Bindung des Gerichts, darf ein Geständnis des Angeklagten, das er im Vertrauen 
+auf den Bestand der Verständigung als seinen "Beitrag" abgegeben hat, nicht verwertet 
+werden.  
+
+===== SEITE 13 =====
+   11  
+Auch wenn das Urteil auf einer entsprechenden Verständigung beruht, ist ein 
+Rechtsmittelverzicht vollständig ausgeschlossen – selbst wenn Einigkeit zwischen allen 
+Prozessbeteiligten besteht: Zum einen soll eine vollständige Kontrolle durch das Berufungs- 
+oder Revisionsgericht möglich sein. Damit soll sichergestellt werden, dass die Vorschriften 
+gleichmäßig entsprechend der Vorgaben des Gesetzgebers angewandt werden. Zum anderen 
+soll der Eindruck vermieden werden, das Urteil beruhe auf einem „Abkommen" der Beteiligten, 
+an das sich alle zu halten haben. Ergebnis einer Verständigung ist vielmehr ein ganz normales 
+Urteil, dessen Grundlage die volle Überzeugung des Gerichts von der Wahrheit ist und das 
+auf einer vollständigen Aufklärung des Sachverhalts beruht. Dazu gehört, dass das Urteil wie 
+jedes andere überprüfbar sein muss.   
+Dies darf auch nicht umgangen werden, indem auf die erforderliche Protokollierung der 
+Absprache verzichtet wird oder Rechtsmittel eingelegt und sofort wieder zurückgenommen 
+wird.  
+  
+V. Rechtsmittelrücknahme, §§ 302, 303 StPO  
+Eine Entscheidung über ein Rechtsmittel ist auch dann unzulässig, wenn es zurückgenommen 
+wurde. Dies kann durch Erklärung erfolgen des  
+1. Angeklagten (Erstreckung stets auf Rechtsmittel des Verteidigers),  
+2. Verteidigers (nur mit ausdrücklicher Ermächtigung, § 302 Abs. 1 StPO),  
+3. Staatsanwalts (bei Rechtsmitteleinlegung zu Gunsten des Angeklagten nur mit dessen 
+Zustimmung, § 302 Abs. 1 2 StPO).  
+Die Rücknahme kann bis zur Entscheidung über das Rechtsmittel erfolgen, ist aber in den in 
+§ 303 StPO genannten Fällen von der Zustimmung des Gegners abhängig. Die Form 
+entspricht der Form der Rechtsmitteleinlegung.  
+Die Rücknahme ist unwiderruflich unanfechtbar.  
+  
+VI. Beschränkung des Rechtsmittels  
+Ein Rechtsmittel kann auf bestimmte Teile der Entscheidung beschränkt werden, 
+beispielsweise den Rechtsfolgenausspruch, die Tagessatzhöhe oder die Frage der 
+Strafaussetzung der Bewährung. Die nachträgliche Beschränkung eines unbeschränkt 
+eingelegten Rechtsmittels stellt eine Teilrücknahme dar. Die Folge einer wirksamen 
+
+===== SEITE 14 =====
+   12  
+Rechtsmittelbeschränkung ist, dass der nicht angefochtene Teil der Entscheidung für das 
+weitere Verfahren bindend ist.  
+Hierbei gilt die sog. „Trennbarkeitsformel“: eine Beschränkung ist nur zulässig, wenn der 
+angefochtene Teil losgelöst vom übrigen Urteilsinhalt überprüfbar ist. Bei unwirksamer 
+Beschränkung gilt das Rechtsmittel als unbeschränkt eingelegt.  
+  
+1. Beschränkung innerhalb des Schuldspruchs  
+Die Beschränkung eines Rechtsmittels allein auf den Schuldspruch ist unzulässig, da 
+der Schuldspruch Voraussetzung für den Rechtsfolgenausspruch ist. Würde sich der 
+Schuldspruch ändern, müsste sich zwangsläufig auch der Rechtsfolgenausspruch 
+ändern.  
+Möglich ist aber eine Beschränkung des Rechtsmittels auf bestimmte Tatbestände.  
+Dann ist Folgendes zu beachten:  
+Bei Tateinheit kann das Rechtsmittel nicht auf einen von mehreren Tatbeständen 
+beschränkt werden, denn sie stehen aufgrund der Tateinheit miteinander in 
+untrennbarer Verknüpfung.  
+Bei Tatmehrheit ist eine Beschränkung des Rechtsmittels auf einen Tatbestand oder 
+mehrere Tatbestände möglich. Natürlich erfasst in diesem Fall das beschränkte 
+Rechtsmittel nicht nur den Schuldspruch, sondern auch den Rechtsfolgenausspruch.  
+  
+Beispiel:  
+Gegen eine Verurteilung wegen Untreue und Betrugs (Gesamtstrafe) wird auf die 
+Verurteilung wegen Betrugs beschränkte Berufung eingelegt.  
+  
+Die Berufung erfasst damit  
+- den Schuldspruch wegen Betrugs,  
+- den Rechtsfolgenausspruch wegen Betrugs und  
+- die aus Untreue und Betrug gebildete Gesamtstrafe.  
+  
+
+===== SEITE 15 =====
+   13  
+Ist das Erstgericht unzutreffend von Tatmehrheit statt Tateinheit ausgegangen, ist 
+Beschränkung unzulässig.  
+Die Folge einer wirksamen Beschränkung innerhalb des Schuldspruchs ist, dass der 
+nicht angefochtene Teil in „vertikaler“ Teilrechtskraft erwächst.  
+Nach feststehender Rechtsprechung ist die Beschränkung auf einen Teil der 
+Entscheidung nur dann möglich, wenn die tatsächlichen Feststellungen des nicht 
+angefochtenen Teils hinreichend sind. Das bedeutet, dieser Teil wird daraufhin zu 
+überprüfen sein, ob die Umgrenzungsfunktion noch gewahrt wird.  
+  
+2. Beschränkung auf den Rechtsfolgenausspruch  
+Das Rechtsmittel kann auf den Rechtsfolgenausspruch beschränkt werden. Die 
+Feststellungen zum Schuldspruch sind dann für das Rechtsmittelgericht bindend. Sie 
+erwachsen in „horizontaler“ Teilrechtskraft.  
+Bindend festgestellt sind dann die Tatbestandsmerkmale sowie alle zum 
+geschichtlichen Vorgang gehörenden Feststellungen. 
+ 
+Kapitel 2 – Zulässigkeit der Revision  
+  
+I. Gerichtszuständigkeit  
+Das zur Entscheidung über die Revision zuständige Gericht ist bei Revisionen gegen Urteile 
+des Amtsgerichts und Berufungsurteile des Landgerichts (kleine Strafkammer) das 
+Oberlandesgericht/Kammergericht, § 121 Abs. 1 Nr. 1 a-c GVG.  
+Über eine Revision gegen erstinstanzliche Urteil des Oberlandesgerichts/Kammergerichts 
+oder erstinstanzliche Urteile des Landgerichts (große Strafkammer) entscheidet gemäß § 135 
+Abs. 1 GVG der Bundesgerichtshof.  
+  
+II. Zulässigkeitsvoraussetzungen der Revision  
+1. Statthaftigkeit, §§ 333, 335 StPO  
+Die Revision ist statthaft   
+- gegen erstinstanzliche Urteile des Oberlandesgerichts, § 333 StPO,  
+
+===== SEITE 16 =====
+   14  
+- gegen erstinstanzliche Urteile des Landgerichts (große Strafkammer), § 333 StPO,  
+- gegen Berufungsurteile des Landgerichts (kleine Strafkammer), § 333 StPO  
+- gegen erstinstanzliche Urteile des Amtsgerichts (Sprungrevision), § 335 StPO.  
+Eine Sprungrevision bei Bagatelldelikten, § 313 StPO erfordert zunächst das 
+Einlegen einer Berufung, ist ein entsprechender Annahmebeschluss gemäß § 322a 
+StPO ergangen, kann zur Revision übergegangen werden.  
+  
+2. Revisionsberechtigter, s.o.  
+3. Beschwer, s.o.  
+4. Ordnungsgemäße Revisionseinlegung (§ 341 StPO)  
+a) Anfechtungserklärung  
+b) Adressat, § 341 StPO  
+c) Form, § 341 StPO  
+- zu Protokoll des Rechtspflegers des Ausgangsgerichts, § 24 Abs. 1 Nr. 1b  
+RPflG (Ausnahme: § 299 StPO) oder  
+- schriftlich (Unterschrift ist nicht erforderlich)  
+- N.B.: Für die Einlegung der Revision besteht kein Rechtsanwaltszwang!  
+d) Frist, §§ 341 Abs. 1, 2 StPO  
+Die Einlegungsfrist beträgt eine Woche nach Verkündung (§ 341 Abs. 1) bzw. ab 
+Zustellung (§ 341 Abs. 2) des Urteils bei Verkündung in Abwesenheit des 
+Angeklagten.  
+Die Frist endet grundsätzlich an dem Wochentag, auf den das fristauslösende 
+Ereignis fiel, § 43 Abs. 1 StPO. Bei unterbliebener Rechtsmittelbelehrung (§ 35a 
+StPO) läuft die Frist dennoch. Es besteht dann aber die Möglichkeit der 
+Wiedereinsetzung gemäß § 44 S. 2 StPO.  
+5. Ordnungsgemäße Revisionsbegründung (§ 345 StPO)  
+Im Gegensatz zur Berufung muss die Revision begründet werden, § 344 Abs. 1 StPO.  
+a) Adressat, § 345 Abs. 1 StPO  
+Adressat ist das Gericht, dessen Entscheidung angefochten wird.  
+
+===== SEITE 17 =====
+   15  
+b) Form, § 345 Abs. 2 StPO  
+Die Revisionsbegründung muss erfolgen  
+- zu Protokoll des Rechtspflegers (§ 24 Abs. 1 Nr. b RPflG) oder  
+- durch einen von einem Verteidiger oder Rechtsanwalt unterzeichneten 
+Schriftsatz; damit übernimmt der Rechtsanwalt die volle Verantwortung für 
+die Revisionsbegründung. Das bedeutet auch, dass er hinter den 
+tatsächlichen Behauptungen im Sachvortrag stehen muss und sich nicht 
+„hinter dem Protokoll oder dem Mandantenvortrag verstecken“ darf, was aus 
+der Formulierung hervorgehen muss  
+- für die Revisionsbegründung der Staatsanwaltschaft genügt dagegen die 
+einfache Schriftform, vgl. RiStBV Nr. 149  
+c) Revisionsbegründungsfrist, § 345 Abs. 1 StPO  
+Die Revisionsbegründungsfrist beträgt einen Monat. Für die Fristberechnung ist 
+zwischen § 345 Abs. 1 Satz 1 und Satz 2 zu unterscheiden: Wurde das Urteil nicht 
+innerhalb einer Woche nach Urteilsverkündung zugestellt, läuft die 
+Revisionsbegründungsfrist erst ab der Zustellung. Wurde das Urteil innerhalb einer 
+Woche nach Urteilsverkündung zugestellt, läuft die Revisionsbegründungsfrist im 
+Anschluss an die Einlegungsfrist gemäß § 341 Abs. 1 StPO und zwar unabhängig 
+davon, wann tatsächlich die Revision eingelegt wurde.  
+Die entgegen § 273 IV StPO vor Fertigstellung des Protokolls vorgenommene 
+Urteilszustellung ist unwirksam, d.h. es muss erneut das Urteil zugestellt werden, 
+sonst beginnt die Frist überhaupt nicht zu laufen.  
+Bei Versäumung der Einlegungsfrist (§ 341 StPO) und nachfolgendem 
+Wiedereinsetzungsantrag beginnt die Revisionsbegründungsfrist nicht mit der 
+Zustellung des Urteils, sondern mit der Zustellung des (erfolgreichen) 
+Wiedereinsetzungsbeschlusses.  
+Anders als im Zivilrecht muss sich ein Angeklagter die Versäumung einer Frist 
+durch seinen Verteidiger nicht zurechnen lassen. Es kommt also ausschließlich auf 
+ein eigenes Versäumnis des Angeklagten an, sei es also insbesondere durch eine 
+verspätete Beauftragung eines Rechtsanwalts oder durch die Beauftragung eines 
+bekanntermaßen – auch dem Angeklagten bekannte – Unorganisiertheit des 
+Rechtsanwalts.  
+
+===== SEITE 18 =====
+   16  
+d) Inhalt der Revisionsbegründung (§ 344 StPO), siehe Kapitel 3   
+
+===== SEITE 19 =====
+   17  
+Kapitel 3 – Begründetheit der Revision  
+  
+Die Revisionsbegründung muss den (formalen) Anforderungen des § 344 StPO entsprechen.  
+Eine ordnungsgemäße Revisionsbegründung muss enthalten:  
+  
+A. Revisionsanträge, § 344 Abs. 1 StPO  
+Zulässigkeitsvoraussetzung ist nur der Aufhebungsantrag (§ 353 Abs. 1 StPO), nicht der 
+Antrag zur Folgeentscheidung (§§ 354, 355 StPO). Allerdings ist sogar das Fehlen von 
+Anträgen unschädlich, wenn das Ziel der Revision aus dem Inhalt der Revisionsschrift  
+eindeutig hervorgeht.  
+  
+B. Revisionsbegründung, § 344 Abs. 1, Abs. 2 StPO   
+Wegen § 344 Abs. 1 StPO ist die Begründung der Revision zwingende 
+Zulässigkeitsvoraussetzung. Dabei unterscheidet das Gesetz in § 344 Abs. 2 StPO zwischen 
+der Verfahrensrüge und der Sachrüge und stellt an diese Rügen unterschiedliche formale 
+Anforderungen:  
+  
+1. Sachrüge  
+Bei der Sachrüge wird gerügt, dass der Richter Vorschriften des materiellen Rechts im Urteil 
+nicht richtig angewandt habe. Um eine ordnungsgemäße Sachrüge zu formulieren, genügt 
+bereits der Satz: „Ich rüge die Verletzung materiellen Rechts.“ (sog. allgemeine Sachrüge).  
+  
+2. Verfahrensrüge  
+Hier werden verfahrensrechtliche Verstöße, also Fehler auf dem Weg zum Urteil gerügt. Bei 
+dieser muss die Revisionsbegründung gemäß § 344 Abs. 2 S. 2 die den Mangel enthaltenden 
+Tatsachen darstellen. Das bedeutet (vereinfacht dargestellt), dass alle relevanten Passagen 
+aus Urteil und vor allem dem Protokoll, die Anträge, die dazu ergangenen Beschlüsse etc. im 
+Originalwortlaut erneut in der Revisionsbegründungsschrift wiedergegeben werden müssen. 
+Eine bloße Bezugnahme auf die Akten genügt diesem Formerforder nis nicht, die 
+Verfahrensrüge muss aus dem Schriftsatz selbst heraus vollständig erschließbar sein.  
+  
+
+===== SEITE 20 =====
+   18  
+3. Abgrenzung Sach-/Verfahrensrüge  
+Zur Abgrenzung zwischen Sach- und Verfahrensrüge kann nicht allein aus der Tatsache, dass 
+die verletzte Norm aus dem StGB stammt, auf Sachrüge, und daraus, dass sie der StPO 
+entstammt, auf Verfahrensrüge geschlossen werden. Hilfreich kann aber folgende Überlegung 
+sein:  
+- Wenn zur Darlegung des gefundenen Rechtsfehlers nicht auf das Protokoll der 
+Hauptverhandlung oder andere Aktenteile zurückgreifen müssen, sondern alles 
+Erforderliche in den Urteilsgründen zu finden ist, ist die Sachrüge zu erheben.  
+- Wenn der Tatsachenvortrag (§ 344 Abs. 2 StPO) – zumindest auch – aus dem Protokoll 
+der Hauptverhandlung bewiesen wird, so ist die Verfahrensrüge zu erheben.  
+  
+Umstritten in der Literatur sind die sog. „doppelrelevanten Fehler“, die zugleich eine Verletzung 
+des materiellen als auch des formellen Rechts darzustellen scheinen.  
+Die herrschende Meinung stellt sich dabei auf folgenden Standpunkt: ein Rechtsverstoß, d.h. 
+die Verletzung einer Norm (z.B. § 261 StPO) oder eines Rechtsprinzips (fair trial oder des 
+nemo-tenetur-Grundsatzes) kann stets nur entweder ein Verfahrensverstoß, der mit der 
+Verfahrensrüge zu beanstanden ist, oder ein sachlich-rechtlicher Fehler sein, der mit der 
+Sachrüge zu beanstanden ist, sein (wobei die Abgrenzung im Einzelfall durchaus schwierig 
+oder strittig sein kann). Aber: Durch ein bestimmtes Vorgehen des Gerichts bzw. einen Satz 
+in einem Urteil können zwei verschiedene Normen/Prinzipien verletzt sein, so dass eigentlich 
+zwei Fehler begangen sind, die dann natürlich auch u.U. verschieden, d.h. einer mit der 
+Verfahrensrüge, der andere mit der Sachrüge zu beanstanden sind.  
+  
+Fall: Der Angeklagte schweigt in der Hauptverhandlung zur Sache vollständig. Das 
+Gericht wertet das Schweigen im Urteil und argumentiert, der Angeklagte müsse einen 
+Grund zum Schweigen gehabt haben, d.h. es müsse Relevantes geben, das er nicht 
+preisgeben wolle. Wenn er unschuldig wäre, so könnte er doch reden und sich 
+entlasten. Da er das nicht getan habe, sei er wohl der Täter. Sein Schweigen sei eines 
+(unter mehreren) Indizien für seine Täterschaft.   
+Damit hat das Gericht gegen zwei Prinzipien verstoßen. Ein mit der Verfahrensrüge zu 
+beanstandender Verfahrensfehler liegt darin, dass das Schweigen des Angeklagten überhaupt 
+als ein (verwertbares) Beweismittel herangezogen wurde. Bei Totalschweigen des 
+Angeklagten zur Sache darf nämlich nach h.M. überhaupt kein Schluss daraus gezogen 
+werden (Unverwertbarkeit des Verhaltens des Angeklagten in diesem Fall = Verstoß gegen § 
+261 StPO i.V.m. Grundsatz „nemo tenetur se ipse accussare).  
+
+===== SEITE 21 =====
+   19  
+Ein mit der Sachrüge zu beanstandender (weil aus den Urteilsgründen allein ersichtlicher!) 
+materiell-rechtlicher Fehler liegt darin, dass das Gericht aus dem Schweigen des Angeklagten 
+einen unerlaubten Schluss zog (Verstoß gegen Denkgesetze). Hier wird als o nicht mehr 
+beanstandet, dass das Schweigen überhaupt verwertet wird, sondern wie es verwertet wird.  
+   
+N.B.: Eine Verfahrensrüge ist nur dann erfolgreich, wenn die den Verfahrensfehler 
+begründenden Sachverhaltsvoraussetzungen zur Überzeugung des Revisionsgerichts 
+feststehen. Zweifel in diesem Bereich wirken sich nicht zugunsten des Revisionsführers (oder 
+des Angeklagten) aus, denn der Grundsatz „in dubio pro reo“ gilt nicht.   
+
+===== SEITE 22 =====
+   20  
+  
+
+===== SEITE 23 =====
+   21  
+Kapitel 4 - Begründetheit der Revision: Prozessvoraussetzungen  
+  
+Das Vorliegen der Prozessvoraussetzungen bzw. das Fehlen von Verfahrenshindernissen 
+prüft das Revisionsgericht von Amts wegen, also auch dann, wenn die 
+Revisionsbegründungsschrift hierzu keine Rüge enthält. Voraussetzung für diese Prüfung 
+durch das Revisionsgericht ist allerdings das Vorliegen zumindest einer zulässigen Rüge (also 
+z.B. der allgemeinen Sachrüge).  
+Dies gilt für solche Prozesshindernisse/Verfahrensvoraussetzungen, die ein Befassungsverbot 
+beinhalten (wie z.B. Vorliegen einer zulässigen Anklage/Eröffnungsbeschluss, 
+Verhandlungsfähigkeit, Anwendbarkeit deutschen Strafrechts u.ä.). Liegt „nur“ ein 
+Bestrafungsverbot vor (z.B. fehlender oder zurückgenommener Strafantrag, Verjährung u.a.), 
+ist (umstritten) eine Berücksichtigung durch das Revisionsgericht nur auf die Verfahrensrüge 
+hin zulässig.  
+  
+I. Wichtige Verfahrenshindernisse  
+Wichtige Verfahrenshindernisse sind unter anderem  
+1. Mängel bei der sachlichen Zuständigkeit, insbesondere   
+- wenn ein Gericht niedriger Ordnung zu Unrecht entschieden hat – Strafrichter 
+verurteilt wegen eines Verbrechens (Verstoß gegen § 25 GVG); 
+Strafrichter/Schöffengericht/Kleine Strafkammer verhängt mehr als 4 Jahre 
+Freiheitsstrafe (Überschreitung der Strafgewalt des § 24 Abs. 2 GVG); Folge ist 
+die Aufhebung des Urteils und Verweisung an das sachlich zuständige Gericht 
+gemäß § 355 StPO.  
+- Die Entscheidung des höheren anstelle des niedrigeren Gerichts ist 
+unschädlich, vgl. § 269 StPO. Im Falle willkürlicher Verweisung an ein Gericht 
+höherer Ordnung oder willkürlicher Anklage/Eröffnung bei diesem höheren 
+Gericht liegt allerdings doch ein revisibler Fehler vor. Streitig ist dabei nur, ob 
+dieser Fehler von Amts wegen oder nur auf Rüge hin zu beachten ist. 
+Sicherheitshalber wird daher ein sorgfältiger Rechtsanwalt die Verfahrensrüge 
+(mit Sachvortrag nach § 344 Abs. 2 StPO) erheben.  
+  
+
+===== SEITE 24 =====
+   22  
+Fall: A ist wegen Mordes vor dem Schwurgericht angeklagt. Im Ergebnis 
+wird er wegen gefährlicher Körperverletzung zu einer Freiheitsstrafe von 
+einem Jahr und sechs Monaten verurteilt.  
+Es könnte ein Verfahrenshindernis vorliegen, wenn ein unzuständiges Gericht 
+entschieden hätte. Eine gefährliche Körperverletzung hätte mit der vorliegenden 
+Rechtsfolge auch vor dem Amtsgericht – Strafrichter – verhandelt werden 
+können. Die Anklageerhebung zum Schwurgericht ist gleichwohl unschädlich, 
+da bei Anklageerhebung keine Willkür ersichtlich war und die Strafgewalt der 
+höheren Gerichte umfassend und nicht durch die Strafgewalt der niedrigeren 
+Gerichte begrenzt ist. Das Landgericht kann demnach – ohne Verweisung – 
+auch Geldstrafen verhängen, das Schöffengericht umgekehrt aber nicht mehr 
+als vier Jahre.  
+  
+- Verstöße gegen die örtliche und funktionelle Zuständigkeit werden vom 
+Revisionsgericht nicht von Amts wegen geprüft. Es handelt sich um absolute 
+Revisionsgründe gemäß § 338 Nr. 4 StPO, die nach h.M. mit einer 
+Verfahrensrüge geltend zu machen sind .  
+  
+2. fehlender/unwirksamer Strafantrag und keine Bejahung des besonderen öffentlichen 
+Interesses durch die Staatsanwaltschaft  
+  
+3. Verjährung  
+  
+4. fehlende bzw. unwirksame Anklage  
+- Mängel der Anklage führen nur dann zu deren Unwirksamkeit, wenn sie so 
+gravierend sind (z.B. Fehlen von Tatzeit und Tatort), dass unklar bleibt, welche 
+prozessuale Tat dem Angeklagten zur Last gelegt wird, also ein sogenannter 
+Mangel bei der „Umgrenzungsfu nktion“ der Anklage vorliegt. Bloße 
+Ungenauigkeiten und kleinere Fehler (sog. Mangel bei der 
+„Informationsfunktion“ der Anklage) machen eine Anklage nicht unwirksam.  
+- Das Fehlen einer Anklage kann gerade in Klausuren durchaus relevant sein. 
+Meist fehlt dann nicht insgesamt eine Anklage, vielmehr verurteilt das Gericht 
+wegen einer (weiteren) prozessualen Tat, die nicht Gegenstand der Anklage 
+war. Dies verletzt nicht § 266 StPO, sondern den Anklagegrundsatz gemäß § 
+
+===== SEITE 25 =====
+   23  
+151 StPO. Dies stellt ein von Amts wegen zu berücksichtigendes 
+Verfahrenshindernis dar.  
+  
+  
+5. fehlender bzw. unwirksamer Eröffnungsbeschluss  
+Die Existenz eines – die abgeurteilte prozessuale Tat erfassenden – 
+Eröffnungsbeschlusses ist Verfahrensvoraussetzung (und damit in der 
+Revisionsinstanz von Amts wegen zu beachten).  
+Nach h.M. kann jedoch – bis zum Urteilserlass in erster Instanz – der fehlende bzw. 
+fehlerhafte und deswegen unwirksame Eröffnungsbeschluss nachgeholt werden (sehr 
+umstritten). In der Berufungsinstanz ist dies nicht mehr möglich. Folge in der 
+Revisionsinstanz bei Fehlen/Unwirksamkeit des Eröffnungsbeschlusses ist die 
+Einstellung des Verfahrens nach §§ 355, 260 Abs. 3 StPO.  
+  
+6. Strafklageverbrauch  
+Das Vorliegen von Verfahrenshindernissen hat grundsätzlich die Einstellung des 
+Verfahrens gemäß §§ 354 Abs. 1, 260 Abs. 3 StPO durch das Revisionsgericht zur 
+Folge (Ausnahme: Zuständigkeitsfehler, die zur Aufhebung und Verweisung an das 
+zuständige Gericht führen).  
+  
+  
+II. Besonderheiten bei der Revision gegen ein Berufungsurteil  
+Bei Einlegung der Revision gegen ein Berufungsurteil ist ausschließlich dieses und nicht die 
+Entscheidung der ersten Instanz Gegenstand der Untersuchung. Dabei muss das 
+Revisionsgericht folgendes von Amts wegen prüfen:  
+1. Zulässigkeit der Berufung  
+War die Berufung unzulässig, fehlte es dort an einer Sachurteilsvoraussetzung, so dass 
+schon kein Berufungsurteil hätte ergehen können. Folge: Aufhebung des 
+Berufungsurteils und Verwerfung der Berufung als unzulässig; das Ersturteil wird 
+wiederhergestellt, evtl. ist aber § 358 Abs. 2 StPO zu beachten.  
+
+===== SEITE 26 =====
+   24  
+2. Verstöße gegen das Verschlechterungsverbot (§ 331 StPO) überprüft das 
+Revisionsgericht ebenfalls von Amts wegen.  
+  
+
+===== SEITE 27 =====
+   25  
+Kapitel 5 - Begründetheit der Revision: Verfahrensrügen  
+  
+A. Vorbemerkung: Unzulässigkeit der Protokollrüge  
+Unzulässig ist die sogenannte Protokollrüge. Mit der Protokollrüge wird letztlich nur 
+beanstandet, dass das Protokoll unrichtig ist. Auf der bloßen Unrichtigkeit des Protokolls kann 
+das Urteil aber nicht beruhen. Vielmehr beruht das Urteil ausschließlich auf dem Ergebnis der 
+Hauptverhandlung (vgl. § 261 StPO).  
+  
+Bei Widersprüchen zwischen Protokoll und Urteil ist zu beachten:  
+- Für den Beweis wesentlicher Förmlichkeiten der Hauptverhandlung ist allein das 
+Sitzungsprotokoll maßgeblich, auch wenn das Urteil hierzu abweichende Angaben 
+enthält.  
+- Bei Abweichungen zwischen Urteilsformel im schriftlichen Urteil und der 
+Sitzungsniederschrift ist die Sitzungsniederschrift maßgeblich.  
+- Im Urteil wird eine Urkunde/Zeugenaussage (usw.) als Beweismittel verwertet, obwohl 
+dieses nach dem Protokoll gar nicht in die Hauptverhandlung eingeführt worden war: 
+Verstoß gegen § 261 StPO, bewiesen durch die negative Beweiskraft des Protokolls.  
+  
+Die Beweiskraft kann in den nachfolgenden Konstellationen entfallen:  
+- Das Protokoll enthält Widersprüche.  
+- Das Protokoll enthält eine offensichtliche Lücke.  
+- Eine der beiden Urkundspersonen distanziert sich nach Fertigstellung (§ 271 Abs. 1 
+StPO) vom Protokollinhalt. Das Protokoll verliert dann insoweit Beweiskraft (mit der 
+Folge, dass dann die Richtigkeit der Protokollierung im Freibeweisverfahren 
+festzustellen ist). Eine solche Distanzierung ist aber unbeachtlich, wenn sie einer 
+bereits erhobenen Verfahrensrüge, die sich auf den Protokollinhalt stützt, nachträglich 
+den Boden entziehen würde.  
+- Protokollberichtigung: Eine Protokollberichtigung muss vom Vorsitzenden und 
+Protokollführer gemeinsam vorgenommen werden. Dies ist unbeschränkt zulässig. Der 
+neue Inhalt des Protokolls unterliegt dann der Beweisregel des § 274 StPO. Aber: Einer 
+Berichtigung steht zwar nicht entgegen, dass ein Beteiligter bereits Revision eingelegt 
+
+===== SEITE 28 =====
+   26  
+hat. Die Berichtigung ist jedoch nicht geeignet, einer zulässig erhobenen 
+Verfahrensrüge den Boden zu entziehen.  
+- Nachweis der Fälschung, § 274 S. 2 StPO. Eine Fälschung liegt aber nicht schon dann 
+vor, wenn das Protokoll falsch ist, sondern, wenn es bewusst und absichtlich falsche 
+Tatsachen wiedergibt. Es muss also hier auch die Absicht des Fälschenden bewiesen 
+werden.  
+- Abhandenkommen des Protokolls, dann ebenfalls Freibeweis  
+  
+B. Rechtliche Auseinandersetzung mit der Norm, gegen die das Gericht verstoßen hat 
+(§ 337 Abs. 2 StPO)  
+Zu unterscheiden ist zwischen den absoluten Revisionsgründen (§ 338 StPO) und den 
+relativen Revisionsgründen, § 337 StPO. Der Unterschied liegt darin, dass bei den absoluten 
+Revisionsgründen unwiderleglich vermutet wird, dass das Urteil auf dem Verfahrensmangel 
+beruht, während dieses Beruhen bei den relativen Revisionsgründen gesondert festgestellt 
+werden muss.  
+Dass es sich bei den in § 338 Nr. 1 bis 7 aufgeführten Gründen um solche absoluten 
+Revisionsgründe handelt, ist unumstritten.  
+Anders ist dies bei § 338 Nr. 8 StPO, der unzulässigen Beschränkung der Verteidigung: nach 
+h.M. enthält Nr. 8 keinen absoluten Revisionsgrund, so dass hier faktisch der 
+Beruhensnachweis geführt werden muss. Begründet wird dies damit, dass der Grund nur bei 
+„wesentlichen“ Beschränkungen greift und „wesentlich“ in diesem Sinne nur jede 
+Beschränkung der Verteidigung, auf der das Urteil beruhen kann.  
+  
+Aber: In der Klausur ist auch eine auf § 338 Nr. 8 StPO gestützte Rüge rein formal im Rahmen 
+der absoluten Revisionsgründe zu prüfen! Nur inhaltlich erfolgt eine Behandlung wie bei einem 
+relativen Revisionsgrund.  
+  
+Grundsätzlich ist bei Verfahrensrügen auch zu beachten, ob nicht möglicherweise ein 
+Rügeverlust eingetreten ist: Trifft der Vorsitzende lediglich eine Verfügung (es ergeht also kein 
+Gerichtsbeschluss), sollte stets § 238 Abs. 2 StPO geprüft werden. Die Zul ässigkeit einer 
+Verfahrensrüge setzt nämlich grundsätzlich voraus, dass der Beschwerdeführer von dem  
+
+===== SEITE 29 =====
+   27  
+Zwischenrechtsbehelf des § 238 Abs. 2 StPO Gebrauch gemacht hat. Ansonsten verwirkt er 
+insoweit das Recht auf Revision. Auch Anordnungen des Strafrichters (§ 25 GVG) müssen 
+zum Erhalt der Revisionsrüge nach § 238 Abs. 2 StPO beanstandet werden.  
+Die Herbeiführung eines Beschlusses nach § 238 Abs. 2 StPO ist jedoch dann nicht 
+erforderlich, wenn der Vorsitzende eine von Amts wegen vorzunehmende unverzichtbare 
+Handlung unterlassen hat.  
+Für einen Angeklagten, der ohne Verteidiger ist, gilt dies jedoch nicht.  
+  
+I. absolute Revisionsgründe (§ 338 StPO)  
+- § 338 Nr. 1 StPO: Fehlerhafte Besetzung des Gerichts  
+- § 338 Nr. 2 StPO: Mitwirkung eines kraft Gesetzes ausgeschlossenen Richters  
+- § 338 Nr. 3 StPO: Mitwirkung eines abgelehnten Richters  
+§§ 22ff. StPO regeln die Ausschließung und Ablehnung der Gerichtspersonen. Gemeint 
+sind damit die zur Entscheidung berufenen Personen, also die hauptamtlichen Richter, 
+aber auch die Schöffen und Urkundsbeamten, vgl. § 31 StPO.  
+Zu unterscheiden ist zwischen den Fällen, in denen ein Richter schon kraft Gesetzes 
+von der Ausübung seines Amtes ausgeschlossen ist, §§ 22 und 23 StPO, und 
+diejenigen, in denen die Besorgnis der Befangenheit besteht. Letztere muss allerdings 
+ausdrücklich geltend gemacht werden, wobei dies zeitlich, § 25 StPO, und formal, § 26 
+StPO, richtig erfolgen muss.  
+Bei Prüfung der Frage, ob ein Ablehnungsantrag begründet ist, ist auf die „Vermeidung 
+des bösen Scheins“ zu achten.  
+  
+Fall: Ein Schöffe stellt zu Beginn der Hauptverhandlung fest, dass sich unter den 
+Opfern des Angeklagten auch sein Bruder befindet. Was hat dies zur Folge?  
+Der Schöffe ist vom Richteramt ausgeschlossen, § 22 Nr. 3 StPO. Gemäß § 47 GVG 
+iVm § 49 Abs. 1 GVG ist ein Hilfsschöffe von der Hilfsschöffenliste heranzuziehen.  
+  
+Fall: Der Angeklagte hat die X-GmbH betrügerisch geschädigt. Schöffe S ist 
+Prokurist dieser Firma. Ist S von der Urteilsfindung ausgeschlossen?2   
+Verletzt im Sinne der StPO § 22 Nr. 1 ist nur eine Person, die durch die abzuurteilende 
+Tat unmittelbar betroffen ist. Dies ist bei dem Prokuristen einer geschädigten GmbH 
+auch dann nicht der Fall, wenn er Anteil am Gewinn hat.  
+
+===== SEITE 30 =====
+   28  
+Fall2: Richter R führt den Vorsitz in einer Verhandlung gegen A wegen Anstiftung 
+zur Abtreibung. R hatte in dem Verfahren gegen den mittlerweile rechtskräftig 
+abgeurteilten Haupttäter als Zeuge ausgesagt. Ist R befangen? 3  
+Ein Richter ist in der Regel auch dann kraft Gesetzes ausgeschlossen, wenn er in 
+einem anderen Verfahren als Zeuge zu demselben Tatgeschehen vernommen worden 
+ist, das er jetzt abzuurteilen hätte.  
+  
+Fall: Richter R war in demselben Verfahren bereits als Ermittlungsrichter für 
+Handlungen gemäß § 162 StPO tätig. Ist er von der Urteilsfindung 
+ausgeschlossen?  
+Gesetzlich ist ein solcher Ausschluss nicht erwähnt. Für eine analoge Anwendung ist 
+allerdings auch nach herrschender Meinung kein Raum, da es trotz etwaiger 
+Regelungslücke zumindest an der Vergleichbarkeit der Sachverhalt fehlt. Ein 
+Ermittlungsrichter wird – im Gegensatz zum erkennenden Richter – nur partiell tätig. Er 
+überprüft nicht den gesamten Sachverhalt, sondern nur das Vorliegen bestimmter 
+Verdachtsmomente und damit die Rechtmäßigkeit einzelner Ermittlungshandlungen.  
+  
+Fall: Die Ehefrau des Angeklagten hat diesen zunächst bei den polizeilichen 
+Vernehmungen in Kenntnis ihres Zeugnisverweigerungsrechtes schwer belastet. 
+Als sie im Vorfeld der Hauptverhandlung zu erkennen gibt, nunmehr doch die 
+Aussage verweigern zu wollen, äußert der Vorsitzende Richter R zu ihr: „Der 
+Weg, den Sie jetzt gehen, ist falsch.“ E teilt dies A mit. Hat As 
+Befangenheitsantrag Erfolg?4   
+Die Ablehnung eines Richters wegen Besorgnis der Befangenheit ist begründet, wenn 
+im Angeklagten bei verständiger Würdigung der ihm bekannten Umstände die 
+Auffassung aufkommen kann, der Richter werde ihm gegenüber möglicherweise eine 
+innere Haltung einnehmen, die dessen Unparteilichkeit störend beeinflussen könne.  
+  
+Fall: Richter R gibt vor der Hauptverhandlung eine Information an die Presse, in 
+der es – entsprechend der Anklageschrift – heißt, der Angeklagte habe es 
+verstanden, durch falsche Angaben Ministerialreferent zu werden. Kann er 
+nunmehr wegen Befangenheit abgelehnt werden?5   
+Ein Richter kann wegen Besorgnis der Befangenheit abgelehnt werden, wenn er die 
+dem Angeklagten zur Last gelegten Vorgänge der Presse als feststehende Tatsachen 
+mitgeteilt hat. Für einen erkennenden Richter empfiehlt sich gegenüber der Presse vor 
+der Hauptverhandlung große Zurückhaltung.  
+  
+ 
+2 BGH 2. Strafsenat, 26.07.1951, Aktenzeichen: 2 StR 251/51  
+3 BGH 2. Strafsenat, 29.04.1983, Aktenzeichen: 2 StR 709/82  
+4 BGH 3. Strafsenat, 09.02.1951, Aktenzeichen: 3 StR 48/50  
+5 BGH 5. Strafsenat, 09.07.1953, Aktenzeichen: 5 StR 282/53  
+
+===== SEITE 31 =====
+   29  
+Fall: Richter R versucht den wegen Mordes seiner Ehefrau Angeklagten zu einer 
+Schilderung des Tatherganges zu bewegen: „Möge Ihnen Ihre tote Frau nachts 
+vor Augen treten, dann werden Sie noch mal einsichtiger werden.“ Hat der 
+Befangenheitsantrag der Angeklagten Erfolg?6   
+Die Äußerung begründet die Besorgnis der Befangenheit, die Ablehnung des Richters 
+ist begründet.  
+  
+Fall: Verteidiger V möchte sich für seinen Mandanten äußern und eine 
+entsprechende schriftliche Stellungnahme für diesen verlesen. Das Gericht lehnt 
+diese Vorgehensweise ab. Kann es nun wegen Befangenheit abgelehnt werden?7   
+1. Die Ablehnung eines Befangenheitsantrages der Verteidigung gegen Berufsrichter 
+der Strafkammer ist nicht zu beanstanden, wenn die Befangenheitsbesorgnis darauf 
+gestützt wurde, dass die Kammer entschieden hat, als Einlassungen der 
+Angeklagten nicht von deren Verteidigern verfasste Erklärungen verlesen zu lassen, 
+wenn diese Entscheidung nicht willkürlich oder abwegig war.  
+2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn 
+besondere Umstände, etwa Sprachfehler oder Sprachhemmungen, einen 
+Angeklagten am eigenen Vortrag hindern oder ihn wesentlich beeinträchtigen 
+würden. Solche Umstände sind hier nicht vorgetragen. Es verbleibt deshalb bei dem 
+Grundsatz, wonach die Vernehmung des Angeklagten zur Sache gemäß § 243 Abs. 
+4 S. 2 StPO mündlich erfolgt und er sich nicht durch seinen Verteidiger vertreten 
+lassen kann.  
+  
+Nach § 24 Abs. 2 StPO kann ein Richter wegen Besorgnis der Befangenheit abgelehnt 
+werden, wenn ein Grund vorliegt, der geeignet ist, Misstrauen gegen seine 
+Unparteilichkeit zu rechtfertigen. Das ist der Fall, wenn der Ablehnende bei 
+verständiger Würdigung des ihm bekannten Sachverhalts Grund zur Annahme hat, der 
+Richter nehme ihm gegenüber eine innere Haltung ein, die die gebotene 
+Unparteilichkeit und Unvoreingenommenheit störend beeinflussen kann. Diese 
+Besorgnis lässt sich aber nicht schon allein mit einer fehlerhaften Sachbehandlung 
+begründen. Verfahrensverstöße, die auf einem Irrtum oder auf einer unrichtigen 
+Rechtsansicht beruhen, stellen grundsätzlich keinen Ablehnungsgrund dar, sondern 
+nur dann, wenn die Entscheidungen abwegig sind oder den Anschein d er Willkür 
+erwecken.  
+Abwegig oder willkürlich war die Entscheidung, als Einlassungen der Angeklagten nicht 
+von deren Verteidigern verfasste Erklärungen verlesen zu lassen, nicht. Willkürlich 
+könnte eine solche Entscheidung sein, wenn besondere Umstände, etwa Sprachfehler 
+oder Sprachhemmungen, den Angeklagten am eigenen Vortrag hindern oder ihn 
+wesentlich beeinträchtigen würden. Solche Umstände sind hier nicht vorgetragen. Die 
+Entscheidung steht im Einklang mit der Rechtsprechung des Bundesgerichtshofs, des 
+ 
+6 BGH MDR 58, 741  
+7 BGH 2. Strafsenat, 20.06.2007, Aktenzeichen: 2 StR 84/07  
+
+===== SEITE 32 =====
+   30  
+Reichsgerichts und mit Stimmen in der Literatur, wonach die Vernehmung des 
+Angeklagten zur Sache gemäß § 243 Abs. 4 Satz 2 StPO mündlich erfolgt und er sich 
+nicht durch seinen Verteidiger vertreten lassen kann. Zudem spricht für diese 
+Rechtsanwendung der Wortlaut des § 243 Abs. 4 Satz 2 StPO, wonach der zur 
+Äußerung bereite Angeklagte „nach Maßgabe des § 136 Abs. 2 [StPO] zur Sache 
+vernommen“ wird. Diese Meinung ist zwar nicht unbestritten. Dennoch kann angesichts 
+der vertretenen unterschiedlichen Auffassungen die Entscheidung der Strafkammer 
+gegen die Zulässigkeit der Verlesung weder als abwegig noch als aus sonstigen 
+Gründen willkürlich angesehen werden. Die Strafkammer hat durch ihr Vorgehen im 
+Zeitpunkt der Antragstellung und Antragsablehnung auch nicht zu erkennen gegeben, 
+dass sie sich dem Sachvortrag der Angeklagten vollständig verschließen und ihnen 
+auch im weiteren Verlauf der Hauptverhandlung keine Gelegenheit zur Äußerung 
+geben werde. Ihr Verhalten bot deshalb für einen besonnenen Angeklagten keine n 
+Anlass zur Besorgnis der Befangenheit.  
+  
+Fall: Der Angeklagte bezeichnet Richter R als „engstirnigen Bürokraten“ und 
+„Paragraphenschuster“. Kann er R nun als befangen ablehnen?  
+In der Regel begründen diese Beleidigungen allein noch nicht die Befangenheit des 
+zuständige Richters, da es dann dem Angeklagten regelmäßig obläge, den Richter in 
+die Befangenheit hineinzuzwingen. Anders zu beurteilen ist dies allerdings, wenn sich 
+aus der Reaktion des Richters nunmehr weitere Anhaltspunkte für eine 
+Voreingenommenheit ergeben.  
+  
+Fall: Richter R bestellt dem Angeklagten nicht den von diesem gewünschten, 
+sondern einen anderen Rechtsanwalt als Pflichtverteidiger, da er sich davon eine 
+schnellere Verfahrenserledigung erhofft. Macht ihn diese Vorgehensweise 
+befangen?8   
+Nimmt der Richter keine Rücksicht auf den Wunsch des Angeklagten, von einem 
+Rechtsanwalt seines Vertrauens verteidigt zu werden, sondern bestellt er aus Gründen 
+der Verfahrensbeschleunigung einen vom Angeklagten nicht gewünschten 
+Pflichtverteidiger, so kann der Angeklagte bei Würdigung aller Umstände Grund zu der 
+Annahme haben, der Richter sei befangen.  
+  
+Fall: Richter R reagiert auf die Beweisanträge des Verteidigers mit der 
+Bemerkung: „Sie machen die Kammer nicht fertig. Wir haben den längeren Arm.“ 
+Ist ein darauf gestützter Befangenheitsantrag begründet?9   
+Aus dem Vorbringen der Revision, das durch die dienstlichen Äußerungen sowie den 
+Inhalt des das Gesuch ablehnenden Beschlusses insoweit bestätigt wird, ergibt sich, 
+dass der Vorsitzende davon ausgegangen war - und mangels vorheriger Hinweise auf 
+zu erwartende Beweisanträge auch glaubte, davon ausgehen zu können, - dass die 
+ 
+8 Bayerisches Oberstes Landesgericht 4. Strafsenat, 01.12.1987, Aktenzeichen: RReg 4 St 253/87 9 
+BGH 3. Strafsenat, 09.03.1988, Aktenzeichen: 3 StR 567/87  
+
+===== SEITE 33 =====
+   31  
+Beweisaufnahme am ersten Verhandlungstag abgeschlossen werden könne, und dass 
+er darüber verärgert war, dass die Verteidigung am Nachmittag dieses Tages, für ihn 
+unerwartet, eine ganze Reihe von Beweisanträgen stellte, wodurch eine Fortsetzung 
+der Beweisaufnahme an weiteren Verhandlungstagen unerlässlich wurde. Die 
+Äußerungen, die der Vorsitzende, unmittelbar nachdem ein Verteidiger des 
+Angeklagten die Beweisanträge angebracht hatte, diesem gegenüber machte, können 
+auch in einem besonnenen Angeklagten die Befürchtung wecken, dieser Richter sei 
+ihm gegenüber nicht mehr unbefangen und sei geneigt, auf das prozessuale Vorgehen 
+seines Verteidigers ihm, dem Angeklagten, gegenüber in einer seiner Sache 
+nachteiligen Weise zu reagieren. Das gilt namentlich für die gegenüber dem Verteidiger 
+gemachte Äußerung des Vorsitzenden: „Sie machen die Kammer nicht fertig, wir haben 
+den längeren Arm“. Der Senat muss davon ausgehen, dass der Vorsitzende sich, wenn 
+nicht wörtlich, so doch sinngemäß, so geäußert hat, nachdem dieser  in seiner 
+dienstlichen Erklärung den ersten Teil dieser Äußerung einräumt und den zweiten nicht 
+anspricht, während der Staatsanwalt die Abgabe einer solchen Erklärung für möglich 
+hält und der Verteidiger des Mitangeklagten sie in vollem Umfang bestätigt. Auch die 
+im selben Zusammenhang der Beweisantragstellung an den Verteidiger gerichteten 
+Fragen: „Meinen Sie, dass Sie im Interesse Ihres Mandanten handeln?“ und „Sie 
+müssen ja wissen, wie Sie Ihren Mandanten verteidigen, Sie werden schon sehen, was 
+Sie davon haben“, können von einem Angeklagten dahin verstanden werden, der 
+Vorsitzende beziehe ihn in seinen Ärger ein und kündige nachteilige Folgen für ihn an. 
+Das könnte anders sein, wenn sich aus dem Gesamtzusammenhang, in dem die 
+Äußerungen gefallen sind, ergäbe, dass der Vorsitzende die Beweisanträge nach 
+ihrem Inhalt insofern als für den Angeklagten nachteilig angesehen habe, als das zu 
+erwartende oder für möglich gehaltene Ergebnis einer entsprechenden 
+Beweisaufnahme zu für den Angeklagten belastenden Erg ebnissen führen werde. 
+Anhaltspunkte dafür, dass aus den bezeichneten Äußerungen – für den Angeklagten 
+erkennbar – in diesem Sinne ein Bedürfnis des Vorsitzenden nach Fürsorge für den 
+Angeklagten gegenüber einem dessen Interessen missverstehenden und sie 
+verletzenden Verteidiger spreche, sind aber nicht zu sehen.  
+  
+Fall: Richter R, der über einen Schwarzafrikaner zu urteilen hat, hat in einem 
+anderen Verfahren geäußert, dass „insbesondere Afrikaner lügen, dass sich die 
+Balken biegen.“ Ist er befangen?9   
+Die dem aus Ghana stammenden Angeklagten zugetragene, in einem anderen 
+Verfahren gemachte Äußerung des abgelehnten Richters, ihm sei aus seiner 
+langjährigen Tätigkeit als Ermittlungsrichter bekannt, dass insbesondere Afrikaner ... 
+lügen, dass sich die Balken biegen, gab dem Angeklagten auch bei vernünftiger 
+Würdigung aller Umstände Grund zu der Annahme, der Richter nehme ihm gegenüber 
+eine innere Haltung ein, die dessen Unvoreingenommenheit und Unparteilichkeit 
+störend beeinflussen könne.  
+  
+ 
+9 OLG Köln 1. Strafsenat, 25.10.1991, Aktenzeichen: Ss 477/91  
+
+===== SEITE 34 =====
+   32  
+Fall: Die Berufsrichter erklären dem Verteidiger vor der Hauptverhandlung in  
+Abwesenheit der übrigen Verfahrensbeteiligten konkret, wenn auch unverbind- 
+lich, welche Strafe bei einem Geständnis des Angeklagten in Betracht kommt. 
+Begründet diese einen Befangenheitsantrag?10   
+Vereinbarungen im Strafverfahren setzen die Öffentlichkeit der Hauptverhandlung, eine 
+entsprechende Protokollierung und eine bestehen bleibende Rechtsmittelmöglichkeit 
+voraus. In Vorgesprächen dürfen lediglich die Bereitschaft und Positionen geklärt, nicht 
+aber ohne Mitwirkung des Angeklagten ein Ergebnis vereinbart werden.  
+  
+Fall: Richter R und Verteidiger V liegen im Streit. Daraufhin lehnt der Verteidiger 
+R wegen Befangenheit ab. Zu Recht?11   
+Zwar begründen Spannungen zwischen Richter und Verteidiger, die erst im Verfahren 
+entstanden sind, in aller Regel nicht die Besorgnis der Befangenheit; diese kann sich 
+aber aus Reaktionen des Richters ergeben. So verhält es sich hier. Die Reaktionen des 
+Vorsitzenden stehen zu dem sie auslösenden Anlass in keinem vertretbaren Verhältnis 
+mehr. Unter Berücksichtigung aller Geschehnisse kann auch bei einem verständigen 
+Angeklagten die Besorgnis bestehen, ein Richter, der sich selbst als durch den 
+Verteidiger für "massiv beleidigt" und für dessen Vorbringen zumindest in Teilen für 
+"taub" erklärt, würde auch künftiges Verteidigungsvorbringen nicht in der erforderlichen 
+abwägenden Distanziertheit zur Kenntnis nehmen.  
+  
+Fall: Die Geschädigte hält die Beweiswürdigung des Staatsanwaltes für nicht 
+objektiv, da dieser entlastende Aussagen „evident parteiischer“ Zeugen 
+zugunsten der Angeklagten würdige. Kann G den Staatsanwalt wegen 
+Befangenheit ablehnen?13   
+Dem Anzeigeerstatter und Verletzten im Sinne des § 172 StPO steht kein 
+Rechtsanspruch auf Ersetzung eines für befangen gehaltenen Staatsanwaltes durch 
+einen anderen Staatsanwalt zu. Die von dem Leiter der Staatsanwaltschaft abgelehnte 
+Ersetzung des ermittelnden Staatsanwaltes ist daher schon kein Justizverwaltungsakt 
+im Sinne des EGGVG § 23 Abs. 1, denn es handelt sich nicht um eine behördliche 
+Maßnahme, die geeignet ist, den Anzeigeerstatter in seinen Rechten zu verletzen. Von 
+daher kann er die Ablehnung seines Befangenheitsantrages nicht mit einem Antrag auf 
+gerichtliche Entscheidung anfechten.  
+  
+Fall: Im Rahmen der mehrtägigen Hauptverhandlung stellt sich heraus, dass der 
+Angeklagte die an den kommenden Verhandlungstagen noch zu vernehmenden 
+Zeugen bedroht. Die Staatsanwaltschaft beantragt daher den Erlass eines 
+Haftbefehls wegen Verdunkelungsgefahr. De r Verteidiger stellt einen 
+ 
+10 BGH 3. Strafsenat, 01.07.1998, Aktenzeichen: 3 StR 242/98  
+11 BGH 1. Strafsenat, 04.03.1993, Aktenzeichen: 1 StR 895/92  
+
+===== SEITE 35 =====
+   33  
+Befangenheitsantrag gegen das Gericht, um den Haftbefehlserlass zu 
+verhindern. Mit Erfolg?  
+Nein, und zwar wegen § 29 StPO: Die Prüfung eines Haftbefehlsantrags stellt eine 
+unaufschiebbare Amtshandlung dar, weshalb das Gericht diesen trotz einer 
+möglicherweise notwendigen Unterbrechung zur Entscheidung über das 
+Ablehnungsgesuch erlassen kann.  
+  
+Fall: In der Hauptverhandlung vom 7. März 2013 beantragte der Angeklagte die 
+Entbindung seines Pflichtverteidigers, weil dieser die Verteidigung des 
+Angeklagten durch Einwirken auf zwei Zeuginnen gegen dessen Willen 
+eingeschränkt und damit das Vertrauensverhältnis schwerwiegend gestört habe. 
+Mit außerhalb der Hauptverhandlung ergangenem und dem inhaftierten 
+Angeklagten am 22. April 2013 formlos per Post übersandten Beschluss vom 19. 
+Ap.ril 2013 wies der Vorsitzende den Entpflichtungsantrag zurück. Die Vorwürfe 
+des Angeklagten lägen neben der Sache, würden dem bisherigen Einsatz des 
+Verteidigers nicht gerecht und stellten sich entsprechend einer durch den 
+Verteidiger in anderem Zusammenhang gebrauchten Formulierung als 
+„Theaterdonner“ dar. Im nachfolgenden Hauptverhandlungstermin vom 25. April 
+2013 lehnte der Angeklagte den Vorsitzenden wegen Besorgnis der Befangenheit 
+ab. Er machte unter anderem geltend, dass der Vorsitzende im 
+Zurückweisungsbeschluss das Wort „Theaterdonner“ aufgegriffen und 
+verwendet habe, als sei damit „glasklar erwiesen“, dass der Verteidiger fair 
+gearbeitet und ihn nicht seiner Rechte beraubt habe.  
+Die Schwurgerichtskammer verwarf den Befangenheitsantrag unter Mitwirkung 
+des abgelehnten Vorsitzenden im Termin vom 13. Mai 2013 als unzulässig gemäß 
+§ 26a Abs. 1 Nr. 2 und 3 StPO. Der Angeklagte habe weder ein Mittel zur 
+Glaubhaftmachung noch einen geeig neten Ablehnungsgrund angegeben. 
+Betreffend die Formulierung „Theaterdonner“ habe er offengelassen, inwiefern 
+hierdurch Zweifel an der Unvoreingenommenheil des abgelehnten Richters 
+begründet seien. Das Gesuch ziele ersichtlich nicht auf das Ausscheiden des  
+abgelehnten Richters ab, sondern ausschließlich auf die Entpflichtung des 
+Verteidigers und erweise sich damit als Missbrauch des Instituts der 
+Richterablehnung. 
+Bei dem angegriffenen Urteil wirkte ein Richter mit, nachdem ein gegen ihn gerichtetes 
+Ablehnungsgesuch unter Verletzung des § 26a StPO in einer unter dem Aspekt des 
+Art. 101 Abs. 1 Satz 2 GG nicht vertretbaren Weise verworfen worden war.   
+Der Glaubhaftmachung der zugrunde liegenden Tatsachen bedurfte es nicht, weil sich 
+diese aus den Akten ergaben.   
+Die Ablehnung erfolgte auch rechtzeitig. Die Übersendung des Beschlusses vom 19. 
+April 2013 wurde am 22. April 2013 ausgeführt und konnte den Angeklagten 
+demgemäß frühestens am 23. April 2013 erreichen. Zwar kann es das 
+Unverzüglichkeitsgebot in Anbetracht des anzulegenden strengen Maßstabs erfordern, 
+das Gesuch schon während einer Verhandlungsunterbrechung zeitnah schriftlich oder 
+
+===== SEITE 36 =====
+   34  
+zu Protokoll der Geschäftsstelle anzubringen. Jedoch ist die im unmittelbar folgenden 
+Hauptverhandlungstermin vom 25. April 2013 durchgeführte Antragstellung unter 
+Anrechnung einer dem Angeklagten zuzubilligenden Überlegungsfrist hier als 
+rechtzeitig anzusehen.  
+Das Befangenheitsgesuch hätte nicht nach § 26a Abs. 1 Nr. 2. StPO abgelehnt werden 
+dürfen.  
+Die Vorschrift des § 26a Abs. 1 Nr. 2 Alt. 2 StPO gestattet ausnahmsweise nur dann 
+die Beteiligung des abgelehnten Richters an der Entscheidung über einen gegen ihn 
+gestellten Befangenheitsantrag, wenn das Ablehnungsgesuch ohne nähere Prüfung 
+und losgelöst von den Umständen des Einzelfalls zur Begründung der Besorgnis der 
+Befangenheit gänzlich ungeeignet ist; hingegen darf der abgelehnte Richter über diese 
+bloß formale Prüfung hinaus nicht an einer näheren inhaltlichen Untersuchung der 
+Ablehnungsgründe auch unter dem Blickwinkel einer offensichtlichen Unbegründetheit 
+mitwirken und sich auf diese Weise zum „Richter in eigener Sache“ machen. Dabei 
+muss die Auslegung des Ablehnungsgesuchs darauf ausgerichtet sein, es seinem 
+Inhalt nach vollständig zu erfassen, um nicht im Gewande der Zulässigkeitsprüfung in 
+eine Begründetheitsprüfung einzutreten.   
+Diesen Maßstäben wird der Zurückweisungsbeschluss der Schwurgerichtskammer 
+nicht gerecht. Dem Befangenheitsgesuch ist die Besorgnis des Angeklagten zu 
+entnehmen, dass der Vorsitzende das Vorbringen zur Beeinträchtigung seiner 
+Verteidigungsinteressen durch den Pflichtverteidiger nicht ernst nehme 
+(„Theaterdonner“) und sich deshalb vorschnell auf die Seite des Genannten gestellt 
+habe. Damit hat er dessen Voreingenommenheit geltend gemacht, ohne dass weitere 
+Ausführungen notwendig gewesen wären. Das durch ein Zitat belegte 
+Ablehnungsgesuch konnte nicht als aus zwingenden rechtlichen Gründen zur 
+Rechtfertigung des Ablehnungsgesuchs völlig ungeeignet angesehen werden. Denn es 
+erforderte eine inhaltliche und keine rein formale Prüfung, ob die Aussage in der 
+gewählten Formulierung aus Sicht eines verständigen Angeklagten die Besorgnis der 
+Befangenheit zu begründen vermochte. Weil der abgelehnte Richter die Entscheidung 
+selbst getroffen und damit eine inhaltliche Bewertung des Ablehnungsgesuchs in 
+Nichtausschöpfung des Gesuchs versagt hat, ist der Anwendungsbereich des § 26a 
+Abs. 1 Nr. 2 StPO in einer Weise überspannt worden, die im Blick auf die 
+Anforderungen von Art. 101 Abs. 1 Satz 2 GG nicht mehr vertretbar war. Daran vermag 
+nichts zu ändern, dass das Ablehnungsgesuch ohne Mitwirkung des abgelehnten 
+Richters gemäß § 27 StPO wohl als unbegründet zu verwerfen gewesen wäre.   
+Die Voraussetzungen der zweiten Alternative des § 26a Abs. 1 Nr. 3 StPO waren 
+gleichfalls nicht gegeben. Sie könnten allein dann erfüllt sein, wenn der Angeklagte 
+ausschließlich verfahrensfremde Ziele verfolgt hätte. Dies kann anzunehmen sein, 
+wenn mit haltloser Begründung versucht wird, das Institut der Richterablehnung als 
+Druckmittel zur Durchsetzung genehmer oder zur Verhinderung unangenehmer 
+Entscheidungen zu missbrauchen; die völlige Abwegigkeit der Ablehnungsgründe kann 
+dabei die Sachfremdheit des angebrachten Gesuchs im Sinne von § 26a Abs. 1 Nr. 3 
+StPO indizieren. Davon kann hier angesichts nicht gänzlicher Unschlüssigkeit des 
+Vorbringens des Angeklagten nicht ausgegangen werden.   
+
+===== SEITE 37 =====
+   35  
+  
+  
+- § 338 Nr. 4 StPO: Unzuständigkeit des Gerichts  
+- § 338 Nr. 5 StPO: Abwesenheit einer Person, deren Anwesenheit das Gesetz zwingend 
+vorschreibt  
+  
+Fall: Im Termin zur Fortsetzung der Hauptverhandlung beantragte die 
+Nebenklägervertreterin, den Angeklagten für die Dauer der Vernehmung der 
+Geschädigten auszuschließen. Staatsanwaltschaft und Verteidigung stimmten 
+dem zu. Der Angeklagte verließ daraufhin den Sitzungssaal Die Sitzung wurde 
+kurz unterbrochen und mit der Verkündung folgenden Beschlusses fortgesetzt: 
+„Gemäß § 247 S. 2 StPO wird der Angeklagte für die Dauer der weiteren 
+Vernehmung der Zeugin W. ausgeschlossen, um einer Retraumatisierung 
+entgegenzutreten und einen weiteren psychischen Schaden für die Zeugin zu 
+verhindern.“ Anschließend wurde die Geschädigte ergänzend vernommen.12  
+Mit Recht rügt der Angeklagte einen Verstoß gegen das Anwesenheitsrecht und die 
+Anwesenheitspflicht des Angeklagten gemäß § 230 Abs. 1 StPO. Seine Abwesenheit 
+während der Verkündung des Ausschließungsbeschlusses war gesetzwidrig und betraf 
+einen wesentlichen Teil der Hauptverhandlung:   
+Wie von § 247 Satz 2 Fall 1 StPO vorgegeben, hat das Gericht den Angeklagten (nur) 
+für die Dauer der weiteren Vernehmung der Geschädigten ausgeschlossen. Die 
+Verkündung des Ausschließungsbeschlusses selbst gehört nicht zu diesem 
+Verfahrensabschnitt. Er muss vielmehr in Anwesenheit des Angeklagten verkündet 
+werden.   
+Der Umstand, dass der Verteidiger des Angeklagten zuvor erklärt hatte, „dass der 
+Angeklagte einverstanden sei, den Sitzungssaal zu verlassen, auch wenn dafür keine 
+Notwendigkeit gesehen wird“, steht dem Erfolg der Rüge nicht entgegen; denn das 
+Recht des Angeklagten auf Teilnahme an der Hauptverhandlung ist unverzichtbar und 
+darf nur in den gesetzlich vorgesehenen Fällen eingeschränkt werden.   
+  
+Fall: In der Hauptverhandlung vom 11. März 2014 wurde der Angeklagte für die 
+Dauer der Vernehmung seiner Tochter, der Nebenklägerin, durch Beschluss der 
+Strafkammer gemäß § 247 StPO aus dem Sitzungszimmer entfernt. Nach ihrer 
+Aussage zur Sache blieb sie auf Anordnung des Vorsitzenden unvereidigt und 
+wurde entlassen, woraufhin sie den Sitzungssaal verließ. Nachdem der 
+Angeklagte daraufhin den Sitzungssaal wieder betreten hatte, informierte ihn der 
+Vorsitzende über den wesentlichen Inhalt der Aussage der Nebenklägerin. Nach 
+einer 15-minütigen Unterbrechung der Hauptverhandlung erklärte der Verteidiger 
+des Angeklagten, nach einer Besprechung mit diesem gebe es noch drei 
+ 
+12 BGH, 5. November 2014 - 4 StR 385/14   
+
+===== SEITE 38 =====
+   36  
+Ergänzungsfragen an die Nebenklägerin. Für diese ergänzende Vernehmung der 
+Nebenklägerin wurde der Angeklagte erneut durch Gerichtsbeschluss gemäß § 
+247 StPO von der Teilnahme an der Vernehmung ausgeschlossen und verließ 
+den Sitzungssaal. Nach Aussage der Nebenklägerin zur Sache blieb diese auf 
+Anordnung des Vorsitzenden erneut unvereidigt und wurde entlassen. Daraufhin 
+betrat der Angeklagte erneut den Sitzungssaal und wurde vom Vorsitzenden über 
+die Angaben der Nebenklägerin informiert.13  
+Die auf dieses Verfahrensgeschehen gestützte Rüge der Verletzung von § 338 Nr. 5 
+StPO, weil die Hauptverhandlung in einem wesentlichen Teil in Abwesenheit des 
+Angeklagten stattgefunden habe, führt zur Aufhebung des angefochtenen Urteils und 
+zur Zurückverweisung der Sache an das Landgericht.   
+Entgegen der Ansicht des Generalbundesanwalts ist die Verfahrensrüge auch 
+angesichts der Tatsache, dass es sich bei der zweiten Vernehmung der Nebenklägerin 
+als Zeugin am selben Hauptverhandlungstag lediglich um eine ergänzende 
+Vernehmung handelte, zulässig erhoben. § 344 Abs. 2 Satz 2 StPO erfordert in diesem 
+Fall keine Ausführungen zum Inhalt der zweiten Vernehmung um darzulegen, dass es 
+sich auch bei der Verhandlung über die Entlassung der Nebenklägerin nach ihrer 
+zweiten Vernehmung um einen wesentlichen Teil der Hauptverhandlung gehandelt hat.  
+Die Rüge ist auch begründet. Der Beschwerdeführer war entgegen § 247 StPO auch 
+von der Verhandlung über die Entlassung der Nebenklägerin als Zeugin nach deren 
+zweiter Vernehmung ausgeschlossen. Dies begründet den Revisionsgrund des § 338 
+Nr. 5 StPO, denn die Verhandlung über die Entlassung der Nebenklägerin war, auch 
+wenn es sich um eine ergänzende Vernehmung handelte, ein wesentlicher Teil der 
+Hauptverhandlung.   
+Nach der ständigen Rechtsprechung des Bundesgerichtshofs ist die Verhandlung über 
+die Entlassung eines Zeugen grundsätzlich ein wesentlicher Teil der 
+Hauptverhandlung, die währenddessen fortdauernde Abwesenheit des nach § 247 
+Satz 1 oder Satz 2 StPO entfer nten Angeklagten also regelmäßig geeignet, den 
+absoluten Revisionsgrund des§ 338 Nr. 5 StPO zu begründen. Die das 
+Anwesenheitsrecht und die Anwesenheitspflicht des Angeklagten betreffenden 
+Vorschriften bezwecken unter anderem, dem Angeklagten eine uneinges chränkte 
+Verteidigung zu ermöglichen, insbesondere auf Grund des von ihm selbst 
+wahrgenommenen Verlaufs der Hauptverhandlung. Das wird ihm durch seinen 
+Ausschluss von der Verhandlung über die Entlassung des Zeugen erschwert, weil er in 
+unmittelbarem Anschluss an die Zeugenvernehmung keine Fragen oder Anträge 
+stellen kann, die den Verfahrensausgang beeinflussen können. Gemessen daran 
+kommt der ergänzenden Vernehmung einer Opferzeugin grundsätzlich erhebliche 
+Bedeutung für das Verfahren zu, sodass der Angeklagte nach einer solchen ebenfalls 
+stets die Möglichkeit haben muss, ergänzende Fragen oder Anträge zu stellen. Beim 
+Vorwurf von Sexualstraftaten liegt es sogar nahe, dass Umstände zum Tatgeschehen 
+selbst dann erörtert werden, wenn es nur deshalb zu einer erneuten Vernehmung der 
+Opferzeugin kommt, weil Fragen zum Randgeschehen noch geklärt werden müssen. 
+Kein Verfahrensbeteiligter ist in einem solchen Fall rechtlich gehindert, bisher noch 
+ 
+13 BGH, 23. September 2014 - 4 StR 302/14   
+
+===== SEITE 39 =====
+   37  
+nicht gestellte, aber zur Sache gehörende und damit den gesamten Anklagevorwurf 
+betreffende Fragen zu stellen. Dieser Möglichkeit zu ergänzenden Fragen kommt 
+insbesondere dann besondere Bedeutung zu, wenn - wie im vorliegenden Fall - der 
+Angeklagte nach dem zutreffenden Vortrag der Revision bereits gemäß § 247 StPO 
+von der Teilnahme an der Verhandlung über die Entlassung der Nebenklägerin nach 
+ihrer ersten Zeugenvernehmung ausgeschlossen war. Die besondere 
+Verfahrensbedeutung der zweiten Zeugenvernehmung liegt in solchen Fällen darin, 
+dass mit dieser Vernehmung der Verfahrensfehler, dem Angeklagten bei der 
+Verhandlung über die Entlassung nach der ersten Zeugenvernehmung der 
+Nebenklägerin die Anwesenheit nicht zu gestatten, geheilt wurde.  
+  
+ -  § 338 Nr. 6 StPO: Verletzung der Vorschriften über die Öffentlichkeit des Verfahrens  
+Der Grundsatz der Öffentlichkeit des Verfahrens ist eine Prozessmaxime, die mit dem 
+Unmittelbarkeitsprinzip und dem Mündlichkeitsgrundsatz zusammenhängt. Im Rahmen 
+der tatsächlichen Gegebenheiten des Verhandlungsortes muss die Möglichkeit des 
+Eintritts beliebiger Zuhörer bestehen. Es muss ferner die Möglichkeit für die Bürger 
+bestehen, sich ohne besondere Schwierigkeit Kenntnis von Ort und Zeit der 
+Verhandlung zu verschaffen.  
+Die mündlichen Verhandlungen des Gerichts sind grundsätzlich öffentlich, § 169 S. 1 
+GVG. Fernseh-, Rundfunk- und Filmaufnahmen sind nicht gestattet, § 169 Abs. 2 GVG.  
+Begrenzt wird der Öffentlichkeitsgrundsatz durch die Größe des Sitzungssaals. Wenn 
+die Zahl der Zuschauer die Zahl der Plätze übersteigt, gilt das Prioritätsprinzip. Für 
+Pressevertreter können Plätze reserviert werden. Bei besonders 
+öffentlichkeitswirksamen oder sicherheitsrelevanten Prozessen sind Ausweiskontrollen 
+und Taschendurchsuchungen zulässig.  
+Unter besonderen Umständen kann die Öffentlichkeit – bis auf die Verkündung des 
+Urteils, § 173 GVG ausgeschlossen werden, §§ 171a - 172 GVG. Bei 
+Jugendstrafverfahren muss die Öffentlichkeit ausgeschlossen werden, § 48 Abs.1 
+JGG. Ausschluss einzelner Personen ist möglich in den Fällen der §§ 175 Abs.1, 177 
+GVG.  
+  
+Fall: Ausweislich des Hauptverhandlungsprotokolls vom 31.01.2001 verkündete 
+die Amtsrichterin am Ende der Hauptverhandlung folgenden Beschluss:   
+1. Die heutige Hauptverhandlung wird unterbrochen.  
+2. Termin zur Fortsetzung der Hauptverhandlung wird anberaumt auf Montag, 
+05. Febr. 01, 08.30 Uhr, an der Tatörtlichkeit.   
+3. Zu dem Fortsetzungstermin soll die benannte Zeugin Frau G um 09.30 Uhr 
+im Gerichtsgebäude erscheinen.  
+Am 05.02.2001 wurde die Hauptverhandlung vor dem Haus mit der 
+Inaugenscheinnahme des Tatortes und Zeugenvernehmungen sowie 
+anschließend ab ca. 10.30 Uhr im Gerichtsgebäude des Amtsgerichts Dorsten 
+
+===== SEITE 40 =====
+   38  
+fortgesetzt. Das am Sitzungssaal des Amtsgerichts aushängende Verzeichnis 
+der anstehenden Termine wies folgenden Eintrag auf: „Fortsetzungs - und 
+Ortstermin 08.30 Uhr D, B 5 Ds 32 Js 1035/00 (354/00)“  
+Nach der dienstlichen Äußerung der Amtsrichterin hatte sie der Protokollführerin 
+keine Anweisung erteilt, den Verhandlungsort („Tatörtlichkeit“) mit der genauen 
+Anschrift in den Aushang aufzunehmen.14  
+Durch die fehlende Angabe der Anschrift des Verhandlungsortes auf dem Aushang ist 
+das Gebot der Öffentlichkeit des Hauptverfahrens in vorwerfbarer Weise verletzt. 
+Öffentlich ist eine Verhandlung nur dann, wenn die Allgemeinheit, d.h. beliebige, 
+auch unbeteiligte Zuhörer, an der Hauptverhandlung teilnehmen können, sofern 
+sie dies wünschen (BGH NStZ 1981, 311). Der in § 169 Satz 1 GVG normierte 
+Grundsatz der Öffentlichkeit des Verfahrens erfordert, dass das Gericht grundsätzlich 
+durch einen Hinweis am Gerichtssaal auf Ort und Zeit der Verhandlung aufmerksam 
+machen muss, wenn die Hauptverhandlung nicht an der sonst üblichen Stelle 
+stattfindet.  
+Das Amtsgericht hatte hier aufgrund des in der öffentlichen Sitzung vom 31.01.2001 
+verkündeten Beschlusses die Hauptverhandlung am 05.02.2001 ab 08.30 Uhr 
+zunächst in E-X vor dem Haus I ... und sodann ab 10.30 Uhr im Saal 105 des 
+Amtsgerichts Dorsten fortgesetzt. Der vor dem Gerichtssaal angebrachte Aushang 
+enthielt jedoch keinen Hinweis darauf, an welchem Ort die Fortsetzung der 
+Hauptverhandlung stattfinden sollte. Damit hätte ein Zuhörer, der an der 
+Hauptverhandlung gegen den Angeklagten teilnehmen wollte, anhand des Aushanges 
+nicht erkennen können, wo die Hauptverhandlung stattfinden würde.   
+Die Beschränkung der Öffentlichkeit der Verhandlung ist auf ein Verschulden des 
+Gerichts zurückzuführen.   
+Ein revisibler Verstoß gegen die Öffentlichkeit der Verhandlung setzt nach 
+herrschender Meinung ein dem Gericht zurechenbares Verhalten voraus. Der 
+Revisionsgrund greift grundsätzlich nur dann ein, wenn das Gericht oder der 
+Vorsitzende eine die Öffentlichkeit unzulässig beschränkende Anordnung getroffen, 
+eine ihnen bekannte Beschränkung nicht beseitigt oder eine ihm obliegende zumutbare 
+Aufsichtspflicht verletzt haben. Hingegen begründet allein das Verschulden 
+untergeordneter Beamter wie des Protokollführers oder des Gerichtswachtmeisters die 
+Revision regelmäßig nicht, wie allgemein Verletzungen des Öffentlichkeitsgrundsatzes, 
+die auf Umständen beruhen, die außerhalb des Einflussbereichs oder der 
+Einwirkungsmöglichkeit des Gerichtes liegen, die Revision nicht begründen können.  
+Dabei kann dem Gericht aber nur außerplanmäßiges und gelegentliches Fehlverhalten 
+der untergeordneten Hilfsorgane nicht ohne weiteres zugerechnet werden. 
+Insbesondere bei auswärtiger Fortsetzung der Hauptverhandlung führt die 
+Aufsichtspflicht des Gerichtes dazu, dass das Gericht sich selbst davon überzeugen 
+muss, ob die Vorschriften über die Öffentlichkeit beachtet sind.   
+ 
+14 OLG Hamm 3. Strafsenat, 07.11.2001, Aktenzeichen: 3 Ss 426/01  
+
+===== SEITE 41 =====
+   39  
+Hier hatte die Amtsrichterin ihre Sorgfaltspflicht bezüglich der Wahrung der 
+Öffentlichkeit und ihre Aufsichtspflicht gegenüber der Protokollführerin, der die 
+Fertigung des Aushanges oblag, nicht hinreichend erfüllt. Die Amtsrichterin hat sich 
+lediglich auf die allgemeine Zuverlässigkeit der Protokollführerin verlassen und selbst 
+nichts in die Wege geleitet, damit die Öffentlichkeit der Verhandlung hergestellt wird, 
+insbesondere keine konkrete Anweisung für die Fertigung des Aushanges erteilt.  
+Auch hatte die Amtsrichterin den Aushang am Terminstage vor Durchführung des 
+Ortstermins nicht kontrolliert, da sie sich insoweit völlig auf ihre zuverlässige 
+Geschäftsstellenkraft verlassen hatte. In ihrer dienstlichen Äußerung hatte die 
+Amtsrichterin hierzu ausgeführt, die betreffende Beamtin sei bereits sehr lange Leiterin 
+der Strafgeschäftsstelle beim Amtsgericht Dorsten und sei äußerst zuverlässig. Sie 
+schreibe die Terminsrollen auch für die anderen Strafrichter. Auch diese hätten die 
+Zuverlässigkeit der Geschäftsstellenkraft bestätigt, es habe bisher nie Probleme mit 
+den von ihr erstellten Terminsrollen gegeben. Auch habe sie des Öfteren Ortstermine 
+durchgeführt, ohne dass es zu Beanstandungen hinsichtlich des Terminszettels 
+gekommen wäre.   
+Diese Umstände sind nicht geeignet, hier ein Verschulden der Amtsrichterin zu 
+verneinen. Die Amtsrichterin hätte der Geschäftsstellenkraft bzw. der Protokollführerin 
+zumindest die ausdrückliche Anweisung erteilen müssen, auf dem Aushang die genaue 
+Anschrift des Verhandlungsortes aufzunehmen. Nur wenn sie eine solche 
+ausdrückliche Anweisung vor Durchführung des Ortstermins erteilt hätte, könnte es 
+überhaupt noch darauf ankommen, ob die Geschäftsstellenbeamtin derart zuverlässig 
+war, dass ausnahmsweise auf ei ne generell gebotene Kontrolle der richtigen 
+Ausführung dieser Anweisung durch sie seitens der Amtsrichterin hätte verzichtet 
+werden können. Im Übrigen würde auch eine ausdrücklich erteilte Anweisung bezüglich 
+des Aushanges das Gericht nur von der Kontroll- und Überwachungspflicht befreien 
+können, nicht aber auch von der Verpflichtung, zumindest entsprechende 
+Anweisungen betreffend die Gestaltung des Aushanges zu erteilen. Könnte das Gericht 
+auch auf derartige Anweisungen nur aufgrund der ihm bekannten oder  von ihm 
+angenommenen Zuverlässigkeit der Hilfsperson verzichten, würde dies nämlich auf 
+eine unzulässige Übertragung der allein dem Gericht obliegenden Wahrung des 
+Öffentlichkeitsgrundsatzes auf das Hilfsorgan hinauslaufen.   
+  
+ -  § 338 Nr. 7 StPO: Fehlende/verspätete Urteilsbegründung  
+ 
+II. relative Revisionsgründe (§ 337 StPO)   
+Die überwiegende Zahl der revisionsrechtlich relevanten Verfahrensfehler geschieht in der 
+Hauptverhandlung. Da das Protokoll der Hauptverhandlung die primäre Nachweisquelle für 
+diese Verfahrensverstöße bildet, sollte das Hauptverhandlungsprotokoll chronologisch auf 
+Verfahrensfehler überprüft werden.  
+  
+
+===== SEITE 42 =====
+   40  
+1. § 243 StPO – Ablauf der Hauptverhandlung  
+Die Verlesung des Anklagesatzes ist eine wesentliche Förmlichkeit des Verfahrens.  
+Sie dient dazu, den Verfahrensbeteiligten (u.a. Schöffen) den historischen 
+Lebenssachverhalt, der dem Angeklagten zur Last gelegt wird, mitzuteilen. Ein 
+Verstoß hiergegen begründet grundsätzlich die Revision. Nur ganz ausnahmsweise 
+beruht das Urteil nicht auf dem Gesetzesverstoß, wenn bei einfacher Sach- und 
+Rechtslage davon ausgegangen werden kann, dass alle Verfahrensbeteiligten auch 
+ohne Verlesen des Anklagesatzes den Tatvorwurf erfassen können.  
+Wird nicht nur der Anklagesatz, sondern die gesamte Anklageschrift (einschließlich 
+wesentlichen Ermittlungsergebnisses) verlesen, so kann dies bei Beteiligung von 
+Schöffen ein Revisionsgrund sein, da die Schöffen dem Verfahrensgang evtl. nicht 
+mehr unvoreingenommen folgen.  
+Bei umfangreichen Anklagen – insbesondere solchen, in denen aufgrund desselben 
+modus operandi eine Vielzahl von gleichartigen Straftaten begangen wurde, z.B. beim 
+Stoßbetrug – ist nach BGH eine vollumfängliche Verlesung aller einzelnen Taten nicht 
+erforderlich, ausreichend ist vielmehr, wenn diese aus der Anklage klar hervorgehen, 
+beispielsweise im Rahmen des wesentlichen Ergebnisses der Ermittlungen.   
+  
+2. Belehrung vor Vernehmung des Angeklagten zur Sache, § 243 Abs. 5 S. 1 StPO  
+Anders als bei der Feststellung der Personalien (§ 243 Abs. 2 S. 2 StPO) ist der 
+Angeklagte vor der Vernehmung zur Sache über sein Schweigerecht zu belehren. Ein 
+Verstoß gegen § 243 Abs. 4 S. 1 StPO ist grundsätzlich revisibel. Es handelt sich nicht 
+um eine bloße Ordnungsvorschrift (Ausprägung des Anspruchs auf ein faires Verfahren 
+sowie des nemo-tenetur-Grundsatzes).  
+Das Urteil beruht aber nicht auf dem Verstoß, wenn der Angeklagte im Zeitpunkt seiner 
+Aussage einen Verteidiger hatte oder sein Schweigerecht kannte.  
+Fragen nach dem schulischen Werdegang und des wirtschaftlichen Verhältnissen 
+gehören nicht zur Vernehmung zur Person, sondern zur Vernehmung zur Sache. Will 
+das Gericht den Angeklagten hierzu befragen, muss es ihn gemäß § 243 Abs. 4 StPO 
+belehren. Ein Verstoß hiergegen wäre jedoch mangels Beruhens nicht revisibel, 
+insbesondere bei Fragen nach dem Einkommen u.a., wenn anschließend eine 
+Freiheitsstrafe verhängt wurde.  
+  
+
+===== SEITE 43 =====
+   41  
+3. Verstoß gegen § 52 Abs. 3 StPO  
+Auch ein Mitangeklagter kann sich auf einen Verstoß gegen § 52 Abs. 3 StPO berufen, 
+wenn die Aussage des Angehörigen (des anderen Mitangeklagten) gegen ihn 
+verwendet wurde. Im Wesentlichen wäre hier mit der Rechtskreistheorie zu 
+argumentieren.  
+  
+4. Verstoß gegen § 55 StPO  
+Nach § 55 StPO braucht sich kein Zeuge selbst zu belasten. Gemäß § 55 Abs. 2 StPO 
+ist der Zeuge über sein Auskunftsverweigerungsrecht zu belehren. § 55 StPO dient 
+aber allein dem Schutz des Zeugen. Da der Rechtskreis des Angeklagten nicht 
+betroffen ist, kann er einen Verstoß gegen die Belehrungspflicht nicht mit der Revision 
+rügen.  
+  
+5. Verstoß gegen die Vereidigungsvorschriften, §§ 59ff. StPO  
+Nur bei einem auf Vereidigung gerichteten Antrag eines Prozessbeteiligten muss die 
+Entscheidung über die Vereidigung ausdrücklich im Protokoll festgehalten werden. 
+Gerügt wird dann ein Verstoß gegen § 59 StPO. Beim Beruhen ist auszuführen, dass 
+– wenn das Gericht sich hierüber Gedanken gemacht hätte und Ermessen ausgeübt 
+hätte – es möglicherweise diese Vereidigung vorgenommen hätte und dann entweder 
+– je nachdem, ob es sich um einen Belastungszeugen oder einen Entlastungszeugen 
+handelte – dieser von seiner ursprünglichen Aussage abgewichen wäre oder ihm ein 
+höherer Beweiswert zugekommen wäre.  
+  
+6. Verfahrensverstöße im Bereich des Urkundsbeweises, §§ 249ff. StPO  
+Rechtsgrundlage für die Zulässigkeit des Urkundsbeweises ist nach h.M. § 249 StPO, 
+obwohl er eigentlich vom Wortlaut her nur das Verfahren, d.h. das „wie“ der 
+Beweisführung regelt. Der Urkundsbeweis bezieht sich auf die Ermittlung und 
+Verwertung des gedanklichen Inhalts einer Urkunde.  
+Zu unterscheiden ist daher den Urkundsbeweis vom  
+- Vorhalt aus einer Urkunde: dabei wird einem Angeklagten, Zeugen oder 
+Sachverständigen (Personalbeweismittel) bei dessen Vernehmung etwas aus einer 
+Urkunde vorgehalten, um Widersprüche oder Gedächtnislücken zu beseitigen.  
+
+===== SEITE 44 =====
+   42  
+Der Vorhalt ist ein Vernehmungsbehelf, d.h. es wird später nicht der Inhalt der 
+vorgehaltenen Urkunde, sondern die Reaktion des Personalbeweismittels auf den 
+Vorhalt im Urteil verwertet. Grundsätzlich ist jedweder Vorhalt dabei erlaubt (bis 
+zur Grenze der Täuschung des Personalbeweismittels, weil z.B. der Vorhalt 
+unzutreffend ist). Im Zusammenhang mit Vorhalten werden daher wohl kaum 
+revisible Fehler vorkommen.  
+- Augenschein, dieser ist das zutreffend gewählte Beweismittel, wenn es nicht um 
+die Ermittlung des gedanklichen Inhalts der Urkunde, sondern um deren Zustand 
+und/oder Aussehen geht.  
+Die Durchführung des Urkundsbeweises nach § 249 StPO ist generell erlaubt, es sei 
+denn es findet sich eine Verbotsnorm.  
+a) Verbotsnorm des § 250 S. 2 StPO  
+Aus § 250 S. 2 StPO ergibt sich ein Verlesungsverbot, wenn durch diese 
+Urkundsverlesung die Vernehmung eines Personalbeweismittels ersetzt 
+werden soll. Das bedeutet aber auch, dass die Ergänzung desselben durch 
+Urkundsverlesung erlaubt bleibt.  
+Verboten ist die Verlesung – dem Wortlaut der Vorschrift nach – von Protokollen 
+über frühere Vernehmungen des Personalbeweismittels, sowie anderer 
+schriftlicher Erklärungen. Damit sind alle schriftlichen Äußerungen erfasst, die 
+von vorneherein in der Absicht verfasst wurden, zu Beweiszwecken zu dienen 
+(z.B. vor allem Strafanzeigen oder Erläuterungen zu Vernehmungen, aber eben 
+auch echte Vernehmungsprotokolle). Andere Schriftstücke, wie Briefe oder 
+Tagebuchaufzeichnungen werden dagegen von § 250 S. 2 StPO nicht erfasst 
+und sind danach verlesbar.  
+b) Ausnahmen vom Verlesungsverbot des § 250 S. 2 StPO  
+(1) Verlesung nach § 251 StPO  
+Abs. 1 der Norm bezieht sich auf nichtrichterliche Protokolle, während Abs. 
+2 der Norm richterliche Protokolle betrifft, bei Vorliegen eines 
+Erlaubnistatbestands nach Abs. 1 können aber auch richterliche Protokolle 
+verlesen werden (Arg. aus dem Wort „auch“  in Abs. 2 und „erst -
+rechtSchluss“).  
+
+===== SEITE 45 =====
+   43  
+Wichtig ist der Ausnahmefall, dass der Vernehmung des 
+Personalbeweismittels ein Hindernis entgegensteht, das in absehbarer Zeit 
+nicht behoben werden kann und zwar aus tatsächlichen, nicht aus 
+rechtlichen Gründen. Der unbestimmte Rechtsbegriff der „absehbaren Zeit“ 
+ist durch Abwägung der relevanten gegenläufigen Interessen, d.h. dem 
+Interesse des Angeklagten an fairem Verfahren und möglichst sicherer 
+Sachverhaltsaufklärung und dem Interesse des Staates an effektiver und 
+möglichst beschleunigter Strafverfolgung, zu bestimmen. Dabei sind die 
+Umstände des Einzelfalles, insbesondere die Bedeutung des zu 
+ersetzenden Beweismittels für die gesamte Beweisaufnahme und die 
+Schwere der Straftat, d.h. die Schwere der dem Angeklagten drohenden 
+Rechtsfolge zu berücksichtigen.  
+Konkret muss also länger abgewartet werden, bevor verlesen werden darf, 
+wenn es sich um das einzige Beweismittel handelt und dem Angeklagten 
+eine hohe Strafe droht.  
+(2) Protokollverlesung nach § 253 StPO  
+- bei Zeugen oder Sachverständigen  
+- Lücke im Erinnerungsvermögen, d.h. nicht, wenn sich der Zeuge oder 
+Sachverständige überhaupt nicht mehr erinnert, oder 
+Widerspruchsaufklärung  
+- verlesbar dann das Protokoll über seine frühere Vernehmung.  
+(3) Protokollverlesung nach § 254 StPO  
+- Geständnis des Angeklagten in diesem Strafverfahren oder 
+Widerspruchsaufklärung  
+- richterliches Protokoll  
+- vom Angeklagten stammende Erklärungen dürfen aber auch 
+verlesen werden. Grund: Die Gewähr für die Richtigkeit der 
+schriftlichen Niederlegung, die durch den Richter gewahrt 
+wird, ist erst recht gegeben, wenn der Angeklagte das 
+Schreiben selbst verfasst hat  
+(4) Verlesung von Urkunden nach § 256 StPO  
+(5) Verwertungsverbot nach § 252 StPO  
+
+===== SEITE 46 =====
+   44  
+  
+  
+  
+7. Unzulässige Ablehnung von Beweisanträgen, §§ 244, 245 StPO  
+Das Gericht darf einen Beweisantrag nur ablehnen, wenn ein gesetzlicher Grund im 
+Sinne des § 244 Abs. 3 bis 4 StPO (bzw. § 245 StPO) vorliegt. Die strengen 
+Ablehnungsformalitäten der §§ 244 Abs. 3 bis 6, 245 StPO gelten jedoch nur für (echte) 
+Beweisanträge.  
+Ein ordnungsgemäßer Beweisantrag muss – in Abgrenzung zu einem 
+Beweisermittlungsantrag und einer Beweisanregung, die lediglich nach der 
+Aufklärungspflicht des Gerichts zu bestimmen sind – enthalten  
+- eine oder mehrere bestimmte Tatsachenbehauptung(en) (Beweisergebnis)  
+- bestimmtes Beweismittel  
+- bei subjektiven und negativen Tatsachen zusätzlich Vortrag zu Konnexität 
+zwischen Beweismittel und Beweistatsache  
+Dies ergibt sich auch unmittelbar aus § 244 Abs. 3 S. 1 StPO: Danach liegt ein 
+Beweisantrag vor, wenn der Antragsteller ernsthaft verlangt, Beweis über eine 
+bestimmt behauptete konkrete Tatsache, die die Schuld - oder Rechtsfolgenfrage 
+betrifft, durch ein bestimmt bezeichnetes Beweismittel zu erheben und dem Antrag zu 
+entnehmen ist, weshalb das bezeichnete Beweismittel die behauptete Tatsache 
+belegen können soll (Konnexitätserfordernis). Der BGH hat hierzu klargestellt, dass 
+über das gesetzlich normierte Konnexitätserfordernis hinausgehende Anforderungen – 
+insbesondere eine Plausibilisierung, weshalb das Beweismittel zu einem vom 
+bisherigen Beweisergebnis abweichenden Ergebnis führen könnte – nicht verlangt 
+werden dürfen (BGH, Beschl. v. 11.10.2021 – 5 StR 188/21). Ein Beweisantrag kann 
+damit auch auf Tatsachen gestützt werden, die nach dem bisherigen Beweisergebnis 
+unwahrscheinlich erscheinen. Grenzen sind allein die mangelnde Ernsthaftigkeit des 
+Begehrens oder die Verschleppungsabsicht. Zudem ermöglicht der durch die Reform 
+2019 neu eingefügte § 244 Abs. 6 S. 3 StPO dem Vorsitzenden, den 
+Verfahrensbeteiligten nach Abschluss der von Amts wegen vorgesehenen 
+Beweisaufnahme eine Frist zur Stellung von Beweisanträgen zu setzen. Diese 
+Fristsetzung bedarf keiner Begründung und setzt insbesondere keinen konkreten 
+Verdacht einer Verschleppungsabsicht voraus (BGH, Beschl. v. 10.01.2024 – 6 StR 
+276/23; BGH, Beschl. v. 19.12.2023 – 3 StR 160/22). Nach Fristablauf gestellte 
+Beweisanträge werden erst in den Urteilsgründen beschieden; der Antragsteller muss 
+
+===== SEITE 47 =====
+   45  
+glaubhaft machen, warum ihm die fristgerechte Stellung unmöglich war (§ 244 Abs. 6 
+S. 5 StPO). 
+ a)  Ablehnungsgründe des § 244 Abs. 3 StPO   
+i) Unzulässige Beweiserhebung  
+Unzulässig ist eine Beweiserhebung, wenn sie aus Rechtsgründen verboten ist.  
+ii) Überflüssige Beweiserhebung wegen Offenkundigkeit  
+Eine Beweiserhebung ist wegen Offenkundigkeit überflüssig, wenn die unter 
+Beweis gestellte Tatsache entweder allgemein- oder gerichtsbekannt ist. Es 
+genügt, wenn das Gegenteil der Beweistatsache offenkundig ist.  
+iii) Bedeutungslosigkeit der Beweistatsache  
+Bedeutungslosigkeit liegt vor, wenn  
+- die behauptete Tatsache hat keine Beziehung zum Prozessstoff oder   
+- sie zwar Beziehung zum Prozessstoff hat, aber für die Entscheidung ohne 
+Bedeutung ist.  
+Ein Beweisantrag darf nicht wegen Bedeutungslosigkeit mit der Begründung 
+zurückgewiesen werden, das Gericht sei bereits vom Gegenteil überzeugt.  
+iv) Erwiesensein der Tatsache  
+Ist das Gericht von der Richtigkeit der Tatsache aufgrund des bisherigen 
+Ergebnisses der Beweisaufnahme schon überzeugt, braucht diese nicht mehr 
+bewiesen zu werden.  
+Ein Revisionsgrund liegt aber vor, wenn die Begründung der Zurückweisung 
+darin liegt, dass das Gegenteil der zu beweisenden Tatsache bereits erwiesen 
+sei.  
+v) Ungeeignetes Beweismittel  
+Völlig ungeeignet ist ein Beweismittel nur, wenn sich seine Nutzlosigkeit für 
+die weitere Sachaufklärung von vornherein aus sich selbst ergibt.  
+vi) Unerreichbarkeit des Beweismittels  
+Beispielsweise, wenn der Zeuge unbekannten Aufenthalt ist und sein 
+Aufenthalt in angemessener Zeit nicht zu ermitteln ist.  
+
+===== SEITE 48 =====
+   46  
+Aber: Handelt es sich um einen schwerwiegenden Vorwurf und ist die Aussage 
+des Zeugen von erheblicher Bedeutung, so ist auch eine Verzögerung von 
+längerer Dauer hinzunehmen (gleiche Argumentation wie bei § 251 Abs. 1 
+StPO).  
+Befindet sich der Zeuge im Ausland, ist zunächst § 244 Abs. 5 2 StPO zu 
+prüfen. Danach ist eine Ablehnung des Beweisantrags bereits dann möglich, 
+wenn die Vernehmung dieses Zeugen nach dem Ermessen der Gerichts zur 
+Wahrheitserforschung nicht erforderlich i st (das Gericht darf hier 
+ausnahmsweise eine vorweggenommene Beweiswürdigung vornehmen).  
+Hält das Gericht die Vernehmung des Zeugen dagegen für erforderlich, so 
+kann Beweisantrag evtl. gemäß § 244 Abs. 3 StPO wegen „Unerreichbarkeit“ 
+des Zeugen abgelehnt werden.  
+Unerreichbar ist ein Beweismittel aber nur dann, wenn es faktisch 
+unerreichbar ist, nicht wenn die „Unerreichbarkeit“ auf Rechtsgründen beruht 
+(dann Unzulässigkeit!). Dieses Problem stellt sich bei Nichterteilung einer 
+Aussagegenehmigung für einen Zeugen nach § 54 StPO.  
+vii) Verschleppungsabsicht  
+Der BGH stellt extrem strenge Voraussetzungen zur Annahme einer 
+Verschleppungsabsicht auf. Der Antragsteller muss ausschließlich eine 
+Verzögerung des Verfahrens bezwecken. Es muss zweifelsfrei nachgewiesen 
+werden, dass der Antragsteller genau weiß, dass di e beantragte 
+Beweiserhebung nichts zugunsten des Angeklagten erbringt.  
+viii) Wahrunterstellung  
+Das Gericht darf eine beantragte Beweiserhebung mit der Zusage ablehnen, 
+die Beweistatsache bei der Urteilsfindung als wahr zu berücksichtigen. Die 
+Wahrunterstellung ist jedoch nur zulässig bei Behauptungen, die zur 
+Entlastung des Angeklagten bewiesen werden sollen.  
+Die Wahrunterstellung muss sich auf die Beweistatsache selbst beziehen. Es 
+genügt nicht, wenn unterstellt wird, das Beweismittel werde sich so erklären, 
+wie der Antragsteller behauptet, um dann in der Beweiswürdigung diesem 
+Beweismittel die Glaubwürdigkeit abzusprechen.  
+
+===== SEITE 49 =====
+   47  
+Der Grundsatz des fair trial gebietet es darüber hinaus, nur solche Tatsachen 
+als wahr unterstellt von der Beweisaufnahme auszuschließen, die erheblich 
+sind. Andernfalls sollte sogleich auf den eigentlich ins Auge gefassten 
+Ablehnungsgrund der Bedeutungslosigkeit zurückgegriffen werden.  
+  
+b) Ablehnungsgründe des § 244 Abs. 4 StPO  
+Die in § 244 Abs. 3 StPO aufgeführten Ablehnungsgründe gelten außer für 
+Zeugen und Urkunden auch für Sachverständige. § 244 IV StPO erweitert die 
+Ablehnungsmöglichkeiten für Beweisanträge beim Sachverständigenbeweis.  
+  
+c) Die Ablehnungsgründe des § 244 Abs. 5 StPO  
+§ 244 V StPO enthält Sonderregelungen für die Ablehnung von 
+Augenscheinsbeweisen und Zeugen, deren Ladung im Ausland zu bewirken ist. 
+Hier ist in gewissem Umfang (immer auch § 244 Abs. 2 StPO beachten!) eine 
+vorweggenommene Beweiswürdigung zulässig.  
+  
+d) Ablehnungsbeschluss, § 244 Abs. 6 StPO  
+Die Ablehnung eines Beweisantrages kann nur durch Beschluss erfolgen. Dieser 
+ist gemäß § 34 StPO zu begründen. Unterlässt es das Gericht, einen Beweisantrag 
+zu bescheiden oder fehlt eine Begründung, kann dies mit der Revision gerügt 
+werden. Beim Beruhen ist im Rahmen der Rüge dann auszuführen, dass die 
+Verteidigung, hätte sie erfahren, aus welchen Gründen das Gericht von der 
+Erhebung des beantragten Beweises abgesehen hat, sich darauf hätte einstellen 
+können und geeignete Maßnahmen schon im Termin hätte ergreifen können, die 
+möglicherweise ein anderes Urteil zur Folge gehabt hätten.  
+  
+e) Besonderheit beim Hilfsantrag  
+Als Prozesshandlung ist der Beweisantrag grundsätzlich zwar 
+bedingungsfeindlich. Innerprozessuale Bedingungen, d.h. solche, die von einer 
+bestimmten Willensentschließung des Gerichts abhängen, können aber an ihn 
+geknüpft werden.  
+
+===== SEITE 50 =====
+   48  
+Hilfsanträge, die abgelehnt werden sollen, brauchen nicht in der Hauptverhandlung 
+beschieden zu werden (Arg.: Der Antragsteller hat durch seine Hilfsantragstellung 
+konkludent auf eine solche Verbescheidung verzichtet), sondern werden erst im 
+Urteil selbst behandelt.  
+  
+Zusammenfassend lässt sich also feststellen, dass bei der Ablehnung eines Beweisantrages 
+folgende Verfahrensverstöße in Betracht kommen:  
+- Verstoß gegen § 244 Abs. 3, 5 und 6: bei unzulässiger Ablehnung des Beweisantrags;  
+- Verstoß gegen § 245 Abs. 2: bei unzulässiger Ablehnung eines Beweisantrags, der 
+sich auf ein präsentes Beweismittel bezieht;  
+- Verstoß gegen § 244 Abs. 6: bei Unterlassen der Verbescheidung;  
+- Handelt es sich nicht um einen Beweisantrag, sondern um einen 
+Beweisermittlungsantrag, kann dessen Ablehnung nur als Verletzung der 
+Aufklärungspflicht gemäß § 244 Abs. 2 StPO beanstandet werden.  
+  
+Lehnt das Gericht einen Beweisantrag ab, so ist in der Revisionsklausur allein der vom Gericht 
+genannte Ablehnungsgrund zu prüfen. Ob der Beweisantrag aus anderen Gründen hätte 
+abgelehnt werden können, spielt keine Rolle (evtl. Erörterung im Hilfsgutachten).   
+8. Die Aufklärungsrüge, § 244 Abs. 2 StPO  
+Die Aufklärungspflicht gemäß § 244 Abs. 2 StPO ist verletzt, wenn der Tatrichter 
+Ermittlungen unterlassen hat, obwohl der ihm bekannte Sachverhalt zur Benutzung 
+weiterer Beweismittel drängte.  
+Zum notwendigen Revisionsvorbringen gehört  
+- die Bezeichnung der Tatsache, die zu ermitteln das Gericht unterlassen hat;  
+- die Bezeichnung des Beweismittels, dessen sich der Richter hätte bedienen 
+sollen;  
+- die Nennung der Umstände, die das Gericht zu weiteren Ermittlungen hätten 
+drängen müssen;  
+- das Ergebnis, das von der unterbliebenen Beweiserhebung zu erwarten 
+gewesen wäre.  
+
+===== SEITE 51 =====
+   49  
+Die Rüge ist nicht verwirkt, wenn in der Hauptverhandlung kein Beweisantrag gestellt 
+worden ist, obwohl dies möglich gewesen wäre. Lediglich aufgrund einer 
+innerdienstlichen Anweisung (RiStBV) soll der Staatsanwalt die Aufklärungsrüge dann 
+nicht erheben, wenn ihm ein solcher Beweisantrag schon in der Sitzung möglich 
+gewesen wäre, er dies aber unterlassen hat.  
+  
+9. Rüge der Verletzung des § 261 StPO  
+Verwendet der Richter im Urteil Beweismittel, die nicht Gegenstand der 
+Hauptverhandlung waren, so handelt es sich um einen (mit der Verfahrensrüge zu 
+beanstandenden) Verstoß gegen § 261 StPO. Die Verfahrensrüge ist nur dann 
+erfolgreich, wenn ohne Rekonstruktion der Beweisaufnahme der Nachweis der 
+Verwertung verhandlungsfremder Beweismittel geführt werden kann, also 
+beispielsweise wenn  
+- das Urteil die Zeugenaussage allein aus der Akte entnimmt, der Zeuge in der 
+Hauptverhandlung nicht vernommen wurde;  
+- das Wortprotokoll gemäß § 273 Abs. 3 StPO im Urteil völlig anders wiedergegeben 
+wird.  
+Nach § 261 StPO darf das Urteil sich nur auf den Inbegriff der Hauptverhandlung und 
+dabei nur auf dessen zulässigen Inbegriff stützen. Daraus folgt, dass die Verwertung 
+unzulässiger Beweismittel gegen § 261 StPO verstößt und so auch mit der 
+Verfahrensrüge zu beanstanden ist. 
+ 
+10. Fehlender rechtlicher Hinweis, § 265 StPO  
+Will das Gericht in seiner Entscheidung von der rechtlichen Beurteilung der Tat in der 
+zugelassenen Anklage abweichen, muss es den Angeklagten davon in Kenntnis 
+setzen. Nur dann kann dieser seine Verteidigung entsprechend umstellen. Wegen § 
+339 StPO kann die Staatsanwaltschaft die Verletzung des § 265 StPO nicht zu Lasten 
+des Angeklagten rügen.  
+  
+11. Nichtgewährung des letzten Wortes, § 258 Abs. 2 StPO  
+
+===== SEITE 52 =====
+   50  
+Dem Angeklagten gebührt das letzte Wort. Das bedeutet, dass nach dem letzten Wort 
+des Angeklagten keine weiteren Prozesshandlungen mehr vorgenommen werden 
+dürfen (außer natürlich der Urteilsverkündung). Tritt das Gericht nach dem letzten Wort 
+des Angeklagten erneut in die Beweisaufnahme ein, so ist dem Angeklagten erneut 
+das letzte Wort zu gewähren.  
+Das Urteil beruht grundsätzlich auf einem Verstoß gegen § 258 Abs. 2 StPO, da nicht 
+ausgeschlossen werden kann, dass der Angeklagte noch etwas vorgebracht hätte, was 
+bei der Urteilsfindung zu seinen Gunsten zu berücksichtigen gewesen wäre. Das gilt 
+stets, auch wenn der Angeklagte niemals etwas zur Sache sagte, und auch, wenn er 
+vollumfänglich geständig war.  
+  
+12. Verfahrensfehler im Ermittlungsverfahren  
+Gesetzesverletzungen im Ermittlungsverfahren können nur dann eine Revision 
+begründen, wenn der Verstoß in die Hauptverhandlung hineinwirkt. Dies ist nur dann 
+der Fall, wenn der Fehler im Ermittlungsverfahren  
+- zu einem Verwertungsverbot geführt hat,  
+- das Gericht das (unverwertbare) Beweismittel gleichwohl in die 
+Hauptverhandlung eingeführt hat und  
+- das Beweismittel im Urteil verwertet wurde.  
+Auf diese Weise wird der Fehler der Ermittlungsbehörde zu einem Fehler des Gerichts. 
+Nur solche können mit der Revision beanstandet werden, da das Urteil nur auf Fehlern 
+des Gerichts, nicht der Ermittlungsbehörde beruhen kann (vgl. § 261 StPO).  
+  
+
+===== SEITE 53 =====
+   51  
+Kapitel 6 - Begründetheit der Revision: Sachrüge  
+  
+Mit der Erhebung der Sachrüge („Ich rüge die Verletzung materiellen Rechts“) ist das 
+Revisionsgericht verpflichtet, das Urteil in vollem Umfang auf materiell-rechtliche Fehler zu 
+überprüfen. Das gilt auch, wenn lediglich spezielle Sachrügen erhoben wurden.  
+Für die Sachrüge gelten die Anforderungen des § 344 Abs. 2 S. 2 StPO nicht, es muss also 
+kein Tatsachenvortrag erfolgen. Darüber hinaus erfolgt weder die Angabe von Beweismitteln 
+noch eine Stellungnahme zum Beruhen, denn in aller Regel beruht jedes Urteil auf einem 
+unterlaufenen Rechtsfehler.  
+   
+Materiell-rechtliche Fehler können in drei Bereichen auftreten, nämlich bei  
+- der rechtliche Würdigung (Subsumtionsfehler)  
+- der Beweiswürdigung  
+- der Bildung der Strafe/Rechtsfolge  
+  
+A. Fehler bei der rechtlichen Würdigung (Subsumtionsfehler)  
+I. Falsche Anwendung einer Norm  
+Das Revisionsgericht prüft, ob der im Urteil festgestellte Sachverhalt die Anwendung der vom 
+Tatrichter herangezogenen materiell-rechtlichen Vorschriften rechtfertigt.  
+  
+II. Nichtanwendung von Vorschriften auf den festgestellten Sachverhalt  
+Hier ist zu prüfen, ob außer den vom Tatrichter bejahten noch weitere Tatbestände oder 
+Rechtsnormen in Betracht kommen.  
+  
+III. Fehlerhafte Beurteilung der Konkurrenzen  
+Es darf allein von dem im Urteil festgestellten Sachverhalt ausgegangen werden.  
+  
+
+===== SEITE 54 =====
+   52  
+B. Fehler bei der Beweiswürdigung  
+Die Beweiswürdigung unterliegt grundsätzlich keiner Nachprüfung durch das Revisionsgericht. 
+Es kann also nicht gerügt werden, das Gericht habe die Beweise nicht richtig gewürdigt oder 
+der im Urteil festgestellte Sachverhalt entspreche nicht den Zeugenaussagen.  
+Es erfolgt also keine Beweiswürdigung durch das Revisionsgericht, außer beim  
+  
+I. Fehlen einer Beweiswürdigung oder  
+  
+II. widersprüchlicher Beweiswürdigung  
+  
+Beispiel:  
+Der Tatrichter stützte seine Überzeugung von der Schuld des Angeklagten darauf, dass die 
+Angaben des Opfers und des Angeklagten „weitgehend“ übereinstimmten. Die im Urteil 
+wiedergegebene Einlassung des Angeklagten und des Opfers zeigen jedoch, dass die 
+Darstellungen in nahezu allen wesentlichen Punkten unterschiedlich waren.  
+  
+III. Verstoß gegen Denkgesetze, Naturgesetze, Erfahrungssätze  
+  
+IV. Verletzung des Grundsatzes „in dubio pro reo“  
+Ein Verstoß liegt nur dann vor, wenn sich aus dem Urteil ergibt, dass der Richter selbst 
+Zweifel an der Schuld des Angeklagten hatte und dennoch verurteilt hat. Ein Verstoß liegt 
+dagegen nicht vor, wenn nach Ansicht des Revisionsführers der Richter hätte Zweifel haben 
+müssen.  
+Ein revisibler Fehler kann aber auch darin liegen, dass das Gericht den Grundsatz in dubio 
+pro reo nicht (wie richtig) als materielle Rechtsnorm, sondern als Beweisregel auffasst und 
+so – teilweise – zu falschen Tatbestandsfeststellungen kommt.  
+  
+C. Fehler bei der Bildung der Strafe  
+Die Strafhöhe als solche ist mit der Revision nicht angreifbar.  
+
+===== SEITE 55 =====
+   53  
+Verletzen jedoch die Strafzumessungserwägungen des Gerichts das Gesetz (vgl. auch § 267 
+Abs. 3 StPO), so kann dies mit der Sachrüge geltend gemacht werden.  
+Revisibel sind folgende Bereiche:  
+  
+I. Fehlende Schilderung der persönlichen und wirtschaftlichen Verhältnisse  
+Fehlen im Urteil Angaben zu den persönlichen und wirtschaftlichen Verhältnissen sowie den 
+Vorstrafen des Angeklagten, so ist eine Beurteilung der persönlichen Schuld des Angeklagten 
+nicht möglich.  
+  
+II. Ist der Tatrichter vom richtigen Strafrahmen ausgegangen?  
+Liegt die im Urteil erfolgte Sachverhaltsschilderung die Anwendung einer 
+Strafrahmenverschiebung nach dem Besonderen Teil oder dem Allgemeinen Teil des StGB 
+nahe, so muss sich das Urteil mit der entsprechenden Vorschrift auseinandersetzen. Fehlt 
+eine solche Erörterung, so kann dies mit der Revision angegriffen werden.  
+Zur Strafzumessung wird zunächst der Regelstrafrahmen bestimmt, anschließend kommen 
+etwaige Milderungsgründe zum Tragen, anschließend wird der tatsächlich anzuwendende 
+Strafrahmen bestimmt. Zu beachten sind dabei das Vorliegen verschiedener 
+Milderungsgründe, die in der Regel entweder einen minder schweren Fall begründen, sofern 
+einer in dem jeweiligen Straftatbestand vorgesehen ist, oder aber auf § 49 Abs. 1 StGB 
+verweisen (zum Beispiel bei verminderter Schuld oder Versuchsstrafbarkeit). Besonders zu 
+beachten ist dabei die Problematik des Zusammentreffens mehrerer Milderungsgründe.   
+  
+Fälle: Bestimmen Sie den Strafrahmen in den folgenden Konstellationen:  
+a) Diebstahl  
+b) Wohnungseinbruchdiebstahl  
+c) einfacher Raub  
+d) Raub, begangen mittels eines beim Opfer an die Kehle gesetzten Messers, Täter 
+war bei Tatbegehung vermindert schuldfähig  
+e) versuchter Raub mit Waffe durch einen vermindert schuldfähigen Täter, der ein 
+vollumfängliches Geständnis abgelegt hat, aus einer sozialen Notlage heraus 
+gehandelt hat, sich beim Opfer vollumfänglich aus freien Stücken entschuldigt 
+hat und lediglich ein Käsebrötchen erlangen wollte.  
+
+===== SEITE 56 =====
+   54  
+a) Geldstrafe bis Freiheitsstrafe von fünf Jahren. Der Umfang einer möglichen Geldstrafe 
+bestimmt sich nach § 40 StGB. Demnach sind mindestens fünf Tagessätzen, maximal 
+360 Tagessätze zu verhängen, die Tagessatzhöhe beträgt mindestens einen Euro, 
+höchstens 30.000 Euro.   
+b) 6 Monate bis 10 Jahre  
+c) 1 Jahr bis 15 Jahre: Höchstmaß der zeitigen Freiheitsstrafe gemäß § 38 Abs. 2 StGB 
+ist 15 Jahre.  
+d) 2 Jahre bis 11 Jahre 9 Monate: Regelstrafrahmen von 5 bis fünfzehn Jahren, 
+Strafrahmenuntergrenze gemildert nach § 49 Abs. 1 Nr. 3 StGB, 
+Strafrahmenobergrenze gemildert nach § 49 Abs. 1 Nr. 2 StGB.  
+e) In Betracht kommt zunächst aufgrund der Gesamtumstände ein minder schwerer Fall 
+gemäß § 250 Abs. 3 StGB, dann läge der Strafrahmen hier bei einem Jahr bis zu zehn 
+Jahren. Möglich ist hier aber auch eine Kumulation mehrerer Milderungsgründe gemäß 
+§ 50 StGB. Zunächst wäre eine Strafrahmenverschiebung aufgrund von Geständnis, 
+Entschuldigung und Beutewert iSd minder schweren Falles gemäß § 250 Abs. 3 StGB 
+möglich. Dann wäre aufgrund der verminderten Schuldfähigkeit eine erneute 
+Strafrahmenverschiebung gemäß § 49 StGB möglich – drei Monate bis 7,5 Jahre – und 
+schließlich aufgrund der Versuchskonstellation eine weitere Verschiebung gemäß § 49 
+StGB, so dass man letztlich auch auf einen Strafrahmen von 1 Monat bis 5 Jahre und 
+acht Monaten kommen könnte. Beachte aber das Doppelverwertungsverbot gemäß § 
+50 StGB.  
+  
+III. Ordnungsgemäße Abwägung gemäß § 46 Abs. 2 StGB  
+- Gericht muss die wesentlichen Strafzumessungserwägungen in den Urteilsgründen 
+darstellen, insbesondere muss es sich aufdrängende Strafzumessungsgesichtspunkte 
+behandeln. Ergibt sich beispielsweise aus der Beweiswürdigung im Urteil, dass der 
+Angeklagte ein Geständnis abgelegt hat, so muss dieses im Rahmen der Abwägung 
+des § 46 Abs. 2 StGB Berücksichtigung finden.  
+- Verstoß gegen das Verbot der Doppelverwertung gemäß § 46 Abs. 3 StGB ist ebenfalls 
+revisibel.  
+  
+Fall: Der Angeklagte wird wegen Wohnraumeinbruchs gemäß § 244 StGB 
+verurteilt. Das Gericht führt in den Urteilsgründen aus, dass straferschwerend zu 
+berücksichtigen sei, dass durch den Einbruch in eine Wohnung als 
+grundgesetzlich besonders geschütztem Raum eine erhebliche Traumatisierung 
+der Opfer zu befürchten sei.  
+Ein solcher Strafzumessungsaspekt ist unzulässig, da die Erwägungen bereits den 
+Gesetzgeber dazu gebracht haben, dem Qualifikationstatbestand des § 244 StGB 
+
+===== SEITE 57 =====
+   55  
+einen erhöhten Strafrahmen zugrunde zu legen. Für eine Erhöhung innerhalb dieses 
+bereits erhöhten Strafrahmens ist somit kein Raum mehr.  
+  
+IV. Ordnungsgemäße Bildung der konkreten Strafe  
+- Hat das Gericht § 47 StGB beachtet?  
+- Wurde die Gesamtstrafe richtig gebildet (§ 54 I, Abs. 2 StGB), insbesondere § 54 Abs. 
+1 3 StGB beachtet?  
+  
+V. Bewährung, § 56 StGB  
+Im Anschluss an die Beantragung einer Freiheitsstrafe sind Ausführungen zur Bewährung 
+erforderlich. Die gesetzliche Grundlage ist § 56 StGB, wobei Abs. 1 für Freiheitsstrafen bis zu 
+einem Jahr, Abs. 2 mit seinen strengeren Voraussetzungen an die zu stellen de positive 
+Sozialprognose für Freiheitsstrafen von mehr als einem Jahr bis zu zwei Jahren gilt. 
+Freiheitsstrafen über zwei Jahren können nicht mehr zur Bewährung ausgesetzt werden.  
+Die Bewährungszeit beträgt gemäß § 56a StGB mindestens zwei Jahre und höchstens fünf 
+Jahre. Die Regel in Berlin ist dabei eine Bewährungszeit von drei Jahren.   
+Zudem besteht die Möglichkeit, gemäß §§ 56b, 56c StGB die Bewährung an die Erfüllung von 
+Auflagen oder Weisungen zu knüpfen. Diese dienen einerseits dazu, den Angeklagten auch 
+mit einer unmittelbar spürbaren Maßnahme zu treffen (Geldauflage als Zahlung an die 
+Justizkasse/gemeinnützige Einrichtung/an das Opfer als „Schmerzensgeld“; zur 
+Schadenswiedergutmachung; Ableistung gemeinnütziger Arbeit), andererseits dazu, dem 
+Angeklagten Hilfe zur Führung eines straffreien Lebens zu geben (Unterstellung unter die 
+Aufsicht und Leitung eines hauptamtlichen Bewährungshelfers; Therapie/Entziehungskur, 
+allerdings nur mit Einwilligung des Angeklagten, vgl. § 56c Abs. 3 StGB).   
+Die Verhältnismäßigkeit ist bei Festlegung der Auflagen dabei zu wahren, § 56b Abs. 1 S. 2 
+StGB, die Auflage muss also realistischerweise erfüllbar sein. So kommen Arbeitsstunden bei 
+einem voll Berufstätigen oder bei einer physisch kranken Person in aller Regel nicht in 
+Betracht. Umgekehrt können Arbeitsstunden auch einer isoliert lebenden Person, die auch 
+aufgrund von Depressionen zur Begehung von Straftaten neigt, zugute kommen, wenn so 
+wieder Kontakt zur Außenwelt hergestellt wird. Letztlich kommt es auf eine Betrachtung de 
+Einzelfalls an.  
+
+===== SEITE 58 =====
+   56  
+Die Arbeitsauflage wird in Stunden beantragt und verhängt, wobei sechs Stunden einem 
+Arbeitstag entsprechen (180 gemeinnütziger Arbeit entsprechen also beispielsweise 30 
+Tagen).  
+  
+Fall: Das Gericht erörtert im Urteil, dass sich angesichts der Tatbegehung eine 
+Strafaussetzung von selbst verbiete.  
+Die Sachrüge hat Aussicht auf Erfolg, weil das Gericht verpflichtet ist, bei Verhängung einer 
+bewährungsfähigen Strafe die für und gegen eine positive Sozialprognose sprechenden 
+Aspekte umfassend zu erörtern und zu würdigen. Eine – wie hier – pauschale Annahme genügt 
+hingegen nicht.   
+
+===== SEITE 59 =====
+   57  
+Kapitel 7 - Revisionsanträge  
+  
+Der Antrag sollte dem Tenor der begehrten Entscheidung des Revisionsgerichts entsprechen. 
+Er besteht aus zwei Teilen:  
+  
+- dem kassatorischen Teil (§ 353 StPO): Aufhebung des Urteils  
+- der Folgeentscheidung (§§ 354, 355 StPO)  
+  
+Hält das Revisionsgericht die Revision für begründet, dann wird das angefochtene Urteil 
+gemäß § 353 Abs. 1 StPO aufgehoben.  
+  
+Gleichzeitig muss das Gericht gemäß § 353 Abs. 2 StPO eine Entscheidung hinsichtlich der 
+dem Urteil zugrundeliegenden Feststellungen treffen. Grundsätzlich werden die tatsächlichen 
+Feststellungen aufgehoben. Eine Aufhebung der Feststellungen unterbleibt nur dann, wenn 
+der Rechtsfehler keinen Einfluss auf die tatsächlichen Feststellungen des Gerichts hat.  
+  
+Darüber hinaus hat das Revisionsgericht eine Entscheidung in der Sache selbst zu treffen, 
+nämlich  
+  
+- Einstellungen gemäß §§ 354 Abs. 1, 260 Abs. 3 StPO  
+- Freispruch gemäß § 354 Abs. 1 StPO  
+- Zurückverweisung gemäß § 354 Abs. 2 StPO (Regelfall)  
+- Zurückverweisung gemäß § 355 StPO  
+  
+Eine Kostenentscheidung trifft das Revisionsgericht nur, wenn die Revisionsentscheidung 
+verfahrensabschließend ist (also wenn die Sache nicht zurückverwiesen wird).  
+  
+Daran orientieren sich entsprechend die Anträge:  
+  
+
+===== SEITE 60 =====
+   58  
+Konstellation 1  
+Der Revisionsführer erhebt die Verfahrensrüge und evtl. auch die Sachrüge – wobei der 
+Grundsatz tunlichster Aufrechterhaltung der von der Gesetzesverletzung nicht berührten 
+Feststellungen gilt:  
+  
+Es wird beantragt,  
+1. das Urteil des Landgerichts Ort vom TT.MM.JJJJ – Aktenzeichen – mit den ihm 
+zugrunde liegenden Feststellungen aufzuheben,  
+2. die Sache an eine andere Strafkammer des Landgerichts Ort zu erneuter 
+Verhandlung und Entscheidung zurückzuverweisen.  
+  
+Konstellation 2  
+Der Revisionsführer beanstandet ein Prozesshindernis.  
+  
+Es wird beantragt,  
+1. das Urteil des Landgerichts Ort vom TT.MM.JJJJ - Aktenzeichen – aufzuheben und 
+das Verfahren einzustellen,  
+2. die Kosten des Verfahrens und die notwendigen Auslagen des Angeklagten der die 
+Staatskasse aufzuerlegen.  
+  
+Konstellation 3  
+Der Revisionsführer erhebt allein die Sachrüge, es liegt lediglich eine fehlerhafte rechtliche 
+Würdigung zugrunde. Die Feststellungen selbst werden nicht beanstandet. 
+  
+Es wird beantragt,  
+1. das Urteil des Landgerichts Ort vom TT.MM.JJJJ – Aktenzeichen – aufzuheben,  
+2. die Sache an eine andere Strafkammer des Landgerichts Ort zu erneuter 
+Verhandlung und Entscheidung zurückzuverweisen.  
+  
+
+===== SEITE 61 =====
+   59  
+oder  
+  
+1. den Angeklagten freizusprechen  
+2. die Kosten des Verfahrens und die notwendigen Auslagen des Angeklagten der 
+Staatskasse aufzuerlegen.  
+  
+Konstellation 4: Hilfsanträgen  
+In Betracht kommt auch die Notwendigkeit, Hilfsanträge zu stellen, beispielsweise bei der 
+Feststellung eines Prozesshindernisses und gleichzeitiger Rüge von Verfahrensfehlern.  
+  
+Es wird beantragt,  
+  
+1. das Urteil des Landgerichts Ort vom TT.MM.JJJJ – Aktenzeichen – aufzuheben,   
+2. das Verfahren einzustellen,  
+3. die Kosten des Verfahrens und die notwendigen Auslagen des Angeklagten der 
+Staatskasse aufzuerlegen.  
+  
+hilfsweise  
+  
+1. das Urteil des Landgerichts Ort vom TT.MM.JJJJ – Aktenzeichen – mit den 
+zugrunde liegenden Feststellungen aufzuheben,  
+2. die Sache an eine andere Strafkammer des Landgerichts Ort zu erneuter 
+Verhandlung und Entscheidung zurückzuverweisen.  
+  
+Konstellation 5: gemischte Anträge  
+Es kann auch notwendig werden, gemischte Anträge zu stellen, wenn beispielsweise einzelne 
+Taten an unterschiedlichen Mängeln leiden. Zum Beispiel: Der Angeklagte wird wegen 
+Hausfriedensbruchs in Tatmehrheit mit Betrug verurteilt. Die Revision rügt den gemäß § 123 
+
+===== SEITE 62 =====
+   60  
+Abs. 2 StGB fehlenden Strafantrag, hinsichtlich des Betrugs liegen Verfahrensfehler und 
+materiell-rechtliche Fehler vor.  
+  
+Es wird beantragt,  
+  
+1. das Urteil des Amtsgerichts Ort vom TT.MM.JJJJ – Aktenzeichen – aufzuheben, 
+soweit der Angeklagte wegen Hausfriedensbruchs verurteilt wurde,  
+2. das Verfahren insoweit einzustellen,  
+3. die Kosten des Verfahrens, soweit es eingestellt ist, und die notwendigen Auslagen 
+des Angeklagten der Staatskasse aufzuerlegen,  
+4. das Urteil des Amtsgerichts Ort vom TT.MM.JJJJ – Aktenzeichen – wird mit den 
+zugrunde liegenden Feststellungen aufzuheben, soweit der Angeklagte wegen 
+Betrugs verurteilt wurde,  
+5. insoweit die Sache an einen anderen Strafrichter des Amtsgerichts Ort vom 
+TT.MM.JJJJ – Aktenzeichen – zu erneuter Verhandlung und Entscheidung 
+zurückzuverweisen.  
+
+===== SEITE 63 =====
+ 
+  
+A. Zulässigkeit  
+  
+I. Gerichtszuständigkeit  
+II. Zulässigkeitsvoraussetzungen der Revision  
+1. Statthaftigkeit, §§ 333, 335 StPO  
+2. Revisionsberechtigter  
+3. Beschwer  
+4. Ordnungsgemäße Revisionseinlegung (§ 341 StPO)  
+a) Anfechtungserklärung  
+b) Adressat, § 341 StPO  
+c) Form, § 341 StPO  
+d) Frist, §§ 341 Abs. 1, 2 StPO  
+5. Ordnungsgemäße Revisionsbegründung (§ 345 StPO)  
+a) Adressat, § 345 Abs. 1 StPO  
+b) Form, § 345 Abs. 2 StPO  
+c) Revisionsbegründungsfrist, § 345 Abs. 1 StPO  
+  
+  
+B. Begründetheit der Revision  
+  
+I. Prozessvoraussetzungen  
+II. Verfahrensrügen  
+1. absolute Revisionsgründe (§ 338 StPO)  
+2. relative Revisionsgründe (§ 337 StPO)   
+III. Sachrüge  
+1. Fehler bei der rechtlichen Würdigung (Subsumtionsfehler)  
+2. Fehler bei der Beweiswürdigung  
+3. Fehler bei der Bildung der Strafe  
+  
+  
+C. Revisionsanträge  
+  
+  

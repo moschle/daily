@@ -1,0 +1,2467 @@
+===== SEITE 1 =====
+I 
+ 
+  
+ 
+Stand: Juli 2025 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Hinweise zur Assessorklausur 
+im Zivilrecht 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5. Auflage 
+ 
+  
+ 
+
+===== SEITE 2 =====
+II 
+ 
+Inhaltsverzeichnis 
+ 
+ 
+A. Vorbemerkung ...................................................................................... 1 
+B. Kopf des Urteils ................................................................................... 3 
+I. Allgemeines ............................................................................................. 3 
+II. Bezeichnung der Parteien und ihrer Vertreter ........................................ 4 
+1. Notwendige Angaben ............................................................................. 4 
+2. Grammatik der Parteibezeichnungen ..................................................... 4 
+3. Streitgenossen ........................................................................................ 5 
+4. Kaufleute ................................................................................................ 6 
+5. Parteien kraft Amtes ............................................................................... 7 
+6. Erben ...................................................................................................... 7 
+7. Gesetzliche Vertreter .............................................................................. 7 
+III. Parteistellung ......................................................................................... 9 
+IV. Prozessbevollmächtigte ...................................................................... 10 
+V. Streithelfer ............................................................................................ 11 
+VI. Bezeichnung des Gerichts und der Richter ......................................... 11 
+VII. Angabe des letzten Tages und des Klagegrundes ............................. 12 
+C. Urteilsformel ....................................................................................... 15 
+I. Einführung ............................................................................................. 15 
+1. Hauptsacheentscheidung ..................................................................... 15 
+2. Kostenentscheidung ............................................................................. 15 
+3. Entscheidung über Vollstreckbarkeit .................................................... 16 
+4. Zulassung von Rechtsmitteln ................................................................ 17 
+5. Gestaltung ............................................................................................ 17 
+II. Einzelheiten .......................................................................................... 17 
+1. Vollstreckungsfähig/hinreichend bestimmt ............................................ 17 
+2. Knapp ................................................................................................... 19 
+3. Erschöpfend ......................................................................................... 19 
+III. Urteilsarten .......................................................................................... 20 
+1. Leistungsurteile .................................................................................... 20 
+2. Feststellungsurteile ............................................................................... 21 
+3. Gestaltungsurteile ................................................................................. 21 
+4. Unzulässige und unbegründete Klagen ................................................ 22 
+
+===== SEITE 3 =====
+III 
+ 
+  
+D. Tatbestand .......................................................................................... 23 
+I. Einführung ............................................................................................. 23 
+II. Aufbau .................................................................................................. 25 
+III. Sprache ............................................................................................... 26 
+IV. Einzelheiten ......................................................................................... 27 
+1. Sachstand/Geschichtserzählung .......................................................... 27 
+2. Streitiges Vorbringen ............................................................................ 28 
+a. Allgemeines .......................................................................................... 28 
+b. Streitiges Vorbringen des Klägers ........................................................ 28 
+3. Anträge ................................................................................................. 30 
+4. Streitiges Vorbringen des Beklagten .................................................... 31 
+5. Replik/Duplik ......................................................................................... 32 
+6. Salvatorische Klausel ........................................................................... 33 
+7. Prozessgeschichte ............................................................................... 33 
+E. Entscheidungsgründe ....................................................................... 36 
+I. Einleitung ............................................................................................... 36 
+1. Allgemeines .......................................................................................... 36 
+2. Urteilsstil ............................................................................................... 36 
+3. Zitate .................................................................................................... 37 
+4. Gliederung ............................................................................................ 37 
+5. Zeitform der Entscheidungsgründe ....................................................... 37 
+6. Feststellungen im Sinne von § 286 ZPO .............................................. 37 
+7. Gewichtung ........................................................................................... 39 
+II. Aufbau der Entscheidungsgründe ........................................................ 40 
+1. Einführung ............................................................................................ 40 
+2. Unklare Anträge .................................................................................... 41 
+3. Prüfung eines Rechtsbehelfs/Rechtsmittels ......................................... 42 
+4. Weitere vorzuziehende Punkte ............................................................. 42 
+III. Sachurteilsvoraussetzungen ................................................................ 43 
+1. Allgemeines .......................................................................................... 43 
+2. Kein Zulässigkeitsproblem .................................................................... 43 
+3. Ausnahmen .......................................................................................... 43 
+4. Besondere Sachurteilsvoraussetzungen .............................................. 44 
+IV. Begründetheit ...................................................................................... 44 
+1. Allgemeines .......................................................................................... 44 
+
+===== SEITE 4 =====
+IV 
+ 
+2. Hauptanspruch ..................................................................................... 45 
+a. Begründete Klage ................................................................................. 45 
+b. Unbegründete Klage ............................................................................. 46 
+3. Nebenforderungen ................................................................................ 47 
+V. Prozessuale Nebenentscheidungen ..................................................... 47 
+1. Kostenentscheidung ............................................................................. 48 
+2. Vorläufige Vollstreckbarkeit .................................................................. 49 
+3. Entscheidung über eine Räumungsfrist ................................................ 49 
+4. Zulassung von Rechtsmitteln ................................................................ 50 
+5. Rechtsbehelfsbelehrung ....................................................................... 50 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== SEITE 5 =====
+A. Vorbemerkung 1 
+ 
+  
+ 
+A. Vorbemerkung 
+ 
+Während des Referendariats besteht häufig Unsicherheit, wie zivilge-
+richtliche Urteile abzufassen sind. Mit den folgenden Hinweisen wollen 
+wir diesen Schwierigkeiten entgegenwirken. Das Skript soll kein Lehr-
+buch ersetzen. Weder soll es wissenschaftlichen Ansprüchen genü-
+gen, noch alle denkbaren Fallgestaltungen erfassen. Wir haben viel-
+mehr versucht, uns auf einige in der Berufspraxis häufig auftretende 
+Konstellationen zu konzentrieren und für diese Vorschläge zu unter-
+breiten.  
+ 
+Die H inweise zeigen an der Klausurp raxis orientierte Möglichkeiten 
+des Aufbaus und der Darstellung zu Rubrum, Tenor, Tatbestand und 
+Entscheidungsgründe auf. Andere als die von uns vorgeschlagenen 
+Handhabungen mögen ebenfalls gut vertretbar sein. Die Beachtung 
+der für das Rubrum vorgeschlagenen Formalien (Abschnitt B) darf au-
+ßerdem nicht überschätzt werden. Bei der Benotung spielen Forma-
+lien eine allenfall s untergeordnete Rolle. Im Interesse der besseren 
+Lesbarkeit und Barrierefreiheit haben wir auf geschlechtergerechte 
+Personenbezeichnungen verzichtet. Mit der Verwendung des generi-
+schen Maskulinums sollen alle anderen Geschlechter miterfasst sein. 
+ 
+Die durch das Kammergericht zur Verfügung gestellten Skripte wer-
+den von erfahrenen Leiterinnen und Leitern von Arbeitsgemeinschaf-
+ten erstellt. In ihnen werden Fragen der Klausurbearbeitung behandelt 
+und mögliche Lösungen aufgezeigt. Die Skripte bieten indes keine ab-
+schließende Aufbereitung des Prüfungsstoffes und möglicher Lö-
+sungswege bzw. Darstellungsformen für die Klausuren. Ziel ist es viel-
+mehr, Referendarinnen und Referendaren bestimmte Strukturen und 
+Formulierungen an die Hand zu geben, die das Schreiben d er Exa-
+mensklausuren unterstützen. Die hier vorgeschlagenen Lösungswege 
+sind vertretbar und liegen innerhalb des Antwortspielraums der Klau-
+surschreibenden. 
+ 
+
+===== SEITE 6 =====
+2 
+ 
+An diesem Skr ipt haben mitgewirkt: die Richterin Simmler sowie die 
+Richter Elzer, Maier -Sieg, von Saldern  (a.D.) und Zivier. Über Hin-
+weise oder Anmerkungen freuen wir uns. Sie können an den Präsi-
+denten des Kammergerichts – Referendarabteilung – Dienstgebäude 
+Salzburger Straße 21 – 25, 10825 Berlin oder per Mail an oliver.el-
+zer@live.com gesandt werden. 
+ 
+
+===== SEITE 7 =====
+B. Kopf des Urteils  3 
+ 
+ 
+B. Kopf des Urteils 
+ I. Allgemeines 
+ 
+Nach §  2 AktO Justiz Berlin (im Land Brandenburg verhält es sich 
+nicht anders) ist im Urteil das Aktenzeichen (Geschäftszeichen) der 
+Entscheidung anzugeben. In der Praxis wird das Aktenzeichen auf der 
+ersten Seite des Urteils oben links angegeben. Es erscheint sinnvoll, 
+beispielweise darüber das erkennende Gericht anzuführen. 
+ 
+Weder in einem Urteil(sentwurf) noch in einer Klausur ist ein § 315 
+Abs. 3 ZPO entsprechender Vermerk zu fertigen, da dafür der Ur-
+kundsbeamte zuständig ist. 
+ 
+An erster Stelle des Urteils muss es nach § 311 Abs. 1 ZPO heißen: 
+ 
+• Im Namen des Volkes 
+ 
+Handelt es sich um eine besondere Urteilsart, wird unter diese Über-
+schrift die Bezeichnung des Urteils gesetzt1. Beispiele: 
+ 
+• Vorbehaltsurteil (§§ 302, 599 ZPO) 
+• Zwischenurteil (§§ 280, 303 ZPO) 
+• Versäumnisurteil (§ 313b Abs. 1 Satz 2 ZPO) 
+• Anerkenntnisurteil (§ 313b Abs. 1 Satz 2 ZPO) 
+• Verzichtsurteil (§ 313b Abs. 1 Satz 2 ZPO) 
+  
+ 
+ 
+1  In allen übrigen Fällen kann auf eine Urteilsüberschrift verzichtet werden. In der 
+Praxis werden häufig Anerkenntnisteil- bzw. Teilanerkenntnisurteile, die in einer 
+Entscheidung mit dem streitigen Endurteil ergehen, mit „Anerkenntnisteil - und 
+Schlussurteil“ überschrieben. In Brandenburg und zunehmend auch in Berlin ist 
+im Übrigen die Bezeichnung „Urteil“ selbst dann üblich, wenn keine besondere 
+Urteilsart vorliegt. 
+Aktenzei-
+chen 
+1 
+Verkün-
+dungsver-
+merk 
+2 
+Überschrift 3 
+Besondere 
+Urteilsart 
+4 
+
+===== SEITE 8 =====
+B. Kopf des Urteils  4 
+ 
+ 
+Das Urteil wird grundsätzlich eingeleitet durch die Formel:  
+ 
+• In dem Rechtsstreit 
+ 
+Diese Formel ändert sich, soweit es sich um Eilverfahren oder 
+Zwangsvollstreckungssachen handelt. In Eilverfahren heißt es übli-
+cherweise: 
+ 
+• In dem einstweiligen Verfügungsverfahren2 
+• In dem Arrestverfahren 
+ 
+Zwangsvollstreckungssachen, wie die Vollstreckungserinnerung nach 
+§ 766 ZPO, werden regelmäßig eingeleitet mit: 
+ 
+• In der Zwangsvollstreckungssache3 
+ 
+II. Bezeichnung der Parteien und ihrer Vertreter 
+1. Notwendige Angaben 
+ 
+Im Urteil müssen die Parteien im Hinblick auf § 750 ZPO so genau wie 
+möglich bezeichnet werden. Überblick: 
+ 
+• Vor- und Nachname 
+• gegebenenfalls Geburtsname oder Aliasname (hilfreich, aber nicht 
+zwingend) 
+• Wohnort 
+• Geburtsdatum Minderjähriger 
+ 
+2. Grammatik der Parteibezeichnungen 
+ 
+ 
+ 
+2  Ebenso zulässig wäre es zu schreiben: In dem Verfahren auf Erlass einer einst-
+weiligen Verfügung oder Verfügungsrechtsstreit. 
+3  Nicht so bei der Drittwiderspruchsklage nach § 771 ZPO oder der Vollstreckungs-
+abwehrklage nach § 767 ZPO. Dort heißt es: „In dem Rechtsstreit“. 
+Eingangsfor-
+mel 
+5 
+Eilverfahren 
+und 
+Zwangsvoll-
+streckung 
+6 
+7 
+Notwendige 
+Angaben 
+8 
+9 
+
+===== SEITE 9 =====
+B. Kopf des Urteils  5 
+ 
+   
+Die Klagepartei ist im Genitiv und die Beklagtenpartei im Akkusativ 
+darzustellen. Eine andere Möglichkeit besteht darin, die Parteistellun-
+gen übereinstimmend im Nominativ auszudrücken. Die Parteiangabe 
+sollte durch ein Komma abgetrennt werden 4. Die Länder Berlin und 
+Brandenburg sind wie andere Bundesländer männlich, die Bundesre-
+publik Deutschland hingegen weiblich aufzuführen. Beispiele: 
+ 
+• „der Frau Lare Heise, Jonasstraße 12, 12345 Berlin,  
+ 
+Klägerin, 
+gegen 
+ 
+Herrn Jonas Jonathan, Jonasstraße 13, 12345 Berlin, 
+ 
+Beklagten,“ 
+oder 
+ 
+• „Herrn Werner Heise, Abtstraße 12, 14469 Berlin,  
+ 
+Kläger, 
+gegen 
+ 
+Land Berlin, vertreten durch die Senatsverwaltung für Justiz und 
+Verbraucherschutz, diese vertreten durch die Senatorin für Justiz 
+und Verbraucherschutz Dr. Felor Badenberg, Salzburger Straße 
+21-25, 10825 Berlin 
+ 
+Beklagter,“ 
+ 
+3. Streitgenossen 
+ 
+Streitgenossen werden fortlaufend nummeriert. Dabei sollten mehrere 
+Streitgenossen nicht unter einer fortlaufenden Nummer zusammen-
+gefasst werden, auch wenn es sich um Eheleute oder enge Verwandte 
+handelt.  
+ 
+ 
+ 
+4  Die Parteiangabe in Parenthese (dann stets im Nominativ) zu setzen, wäre aber 
+auch nicht falsch.  
+Grammatik 
+der Partei-
+bezeichnun-
+gen 
+10 
+Nummerie-
+rung 
+11 
+
+===== SEITE 10 =====
+B. Kopf des Urteils  6 
+ 
+ 
+Zulässig ist es aber, bei derselben Adresse und/oder Parteistellung 
+oder der Prozessvertretung durch denselben Rechtsanwalt mit einer 
+Art „Klammerwirkung“ zu arbeiten und alle gemeinsamen Angaben un-
+ter die Parteibezeichnung zu setzen: 
+ 
+• „1. Werner Müller, 
+2. Gabriele Müller,  
+ 
+beide Hauptstraße 3, 15890 Eisenhüttenstadt,  
+ 
+Kläger, 
+ 
+- Prozessbevollmächtigte: Rechtsanwältin ... –“ 
+ 
+Im Tatbestand und in den Entscheidungsgründen sind Streitgenos-
+sen wie im Urteilskopf zu bezeichnen [Beispiele: Kläger zu 1), Kläger 
+zu 3)]. Scheidet ein Streitgenosse während des Rechtsstreites aus, 
+zum Beispiel durch Teilklagerücknahme oder Teilurteil, wird er im Ur-
+teil nur erwähnt, wenn er an der Kostenentscheidung beteiligt ist. 
+ 
+4. Kaufleute 
+ 
+Nach § 17 Abs. 2 HGB kann ein Kaufmann5 unter seiner Firma klagen 
+und verklagt werden. Ergibt sich aus dem Firmennamen gleichzeitig 
+deren Inhaber6, reicht die Angabe der Firma aus. Wenn Firmeninhaber 
+und die Firmenbezeichnung nicht identisch sind, empfiehlt sich fol-
+gende Formulierung: 
+ 
+• „der unter der Firma Agathe Teufel handelnden Kauffrau 
+Wilhelmina  Zufall, Peststraße 14, 12345 Berlin7, 
+ 
+Klägerin,“ 
+ 
+ 
+5  Also wer ein Handelsgewerbe betreibt, § 1 Abs. 1 HGB. 
+6  Dieser allein ist Partei. 
+7  Oder auch: „der unter der Firma Agathe Teufel e. K. handelnden eingetragenen 
+Kauffrau Wilhelmina Zufall, Peststraße 14, 12345 Berlin“. 
+Tatbestand 
+und Ent-
+scheidungs-
+gründe 
+12 
+Firma 13 
+
+===== SEITE 11 =====
+B. Kopf des Urteils  7 
+ 
+   
+ 
+5. Parteien kraft Amtes 
+ 
+• Bei Parteien kraft Amtes 8 ist neben ihrem Namen ihre 
+treuhänderische Stellung herauszustellen. Beispiel: 
+ 
+„der Rechtsanwältin Johanna Glücklich, Friedensweg 1, 15230 
+Frankfurt (Oder), als Insolvenzverwalterin über das Vermögen der 
+Gesundheits- und Heil GmbH und Co. KG, Bergstr. 12, 15230 
+Frankfurt (Oder), 
+ 
+Klägerin,“ 
+ 
+6. Erben 
+ 
+Verstirbt eine Partei während des Prozesses, wird der Rechtsstreit mit 
+den Erben fortgesetzt, §§ 239, 246 ZPO. Diese sind dann Partei und 
+im Kopf aufzuführen; die Bezeichnung „Erbengemeinschaft nach ...“ 
+genügt nicht. Üblicherweise wird der Kopf in derartigen Fällen wie folgt 
+formuliert:  
+ 
+• „der Erben des am ... verstorbenen ..., nämlich 
+1. ... 
+2. ... 
+3. ... 
+Kläger,“ 
+ 
+Im Falle einer Nachlasspflegschaft heißt es: 
+ 
+• „die unbekannten Erben des am ... verstorbenen ..., vertreten 
+durch den Nachlasspfleger Rechtsanwalt Udo Hand, Fedicinstraße 
+45, 12345 Berlin,“ 
+ 
+7. Gesetzliche Vertreter  
+ 
+ 
+8  Insolvenzverwalter, Testamentsvollstrecker, Zwangsverwalter, Nach lassverwal-
+ter. 
+Parteien 
+kraft Amtes 
+14 
+Erben 15 
+
+===== SEITE 12 =====
+B. Kopf des Urteils  8 
+ 
+ 
+ 
+Die gesetzlichen Vertreter der Parteien sind entsprechend §§ 130 Nr. 
+1, 253 Abs. 2, Abs. 4 ZPO so genau wie möglich zu bezeichnen9. Bei 
+Minderjährigen, die unter elterlicher Sorge stehen, müssen beide El-
+ternteile erwähnt werden, soweit ihnen die gesetzliche Vertretungs-
+macht zusteht. Für den Minderjährigen ist außerdem das Geburtsda-
+tum anzugeben, sofern dieses bekannt ist. In jedem Falle muss her-
+ausgestellt werden, dass es sich um einen Minderjährigen handelt.  
+  
+• „des am ... geborenen Peter Claus, “  
+• „der Minderjährigen Petra Claus ...“ 
+ 
+Bei juristischen Personen des bürgerlichen Rechts, bei Personenhan-
+delsgesellschaften und bei der Außen-GbR sind ebenfalls der bzw. die 
+gesetzlichen Vertreter zu bezeichnen10. Beispiele: 
+ 
+• „der Bonus GmbH, gesetzlich vertreten durch die Geschäftsführer 
+Holger Fahls und Maria Herbst, Sonnenallee 93, 12199 Berlin,  
+ 
+Klägerin,“ 
+ 
+• „der Mega AG, gesetzlich vertreten durch ihre 
+Vorstandsmitglieder11 Heike Müller, Jenny Golz und Sabine Erbs,  
+Hainerpfad 7, 15299 Müllrose, 
+ 
+Klägerin,“ 
+ 
+ 
+ 
+9  Entsprechendes gilt bei einer Vormundschaft (vgl. § 1773 BGB), Pflegschaft (vgl. 
+§§ 1806 ff, 1882 ff. BGB, § 53 ZPO) oder Betreuung (vgl. §§ 1814 ff. BGB). 
+10  Sind es mehrere Vertreter, reicht es einen namentlich aufzuführen und auf die 
+anderen mit „u. a.“ hinzuweisen. Wenn die gesetzlichen Vertreter in einer Klausur 
+unbekannt sind, sind an ihrer Stelle Punkte einzusetzen. 
+11  Nicht durch den Vorstandsvorsitzenden; dies nur im Falle des § 78 Abs. 2. AktG: 
+Besteht der Vorstand aus mehreren Personen, so sind, wenn die Satzung nichts 
+anderes bestimmt, sämtliche Vorstandsmitglieder nur gemeinschaftlich zur Ver-
+tretung der Gesellschaft befugt. 
+Gesetzliche 
+Vertreter 
+16 
+Juristische 
+Personen 
+des bürgerli-
+chen Rechts 
+17 
+
+===== SEITE 13 =====
+B. Kopf des Urteils  9 
+ 
+   
+ 
+• der Reiche, Müller und Liebig GbR, gesetzlich vertreten durch ihre 
+geschäftsführenden Gesellschafter Herbert Reiche u. a., Elseweg 
+5, 03130 Spremberg, 
+Klägerin, 
+ 
+• „der ... GmbH & Co. KG, gesetzlich vertreten durch die ... GmbH, 
+diese gesetzlich vertreten durch ihre Geschäftsführer Herbert 
+Müller u. a., Sonnenallee 93, 12199 Berlin, 
+Klägerin,“ 
+ 
+• „A-Ltd. [oder „A -Limited“], B -Straße, 12199 C -Stadt, vertreten 
+durch den Direktor …, [gegebenenfalls abweichende Adresse], 
+ 
+Klägerin,“ 
+ 
+ 
+Bei juristischen Personen des öffentlichen Rechts brauchen die Na-
+men der Vertretungsberechtigten nicht angegeben zu werden, vgl. 
+auch § 170 Abs. 2 ZPO. Zu nennen ist aber die Behörde, etwa:  
+ 
+• Freie und Hansestadt Hamburg, vertreten durch die Behörde für 
+Inneres, ... 
+ 
+III. Parteistellung 
+ 
+Die Parteistellung ist in Anlehnung an §§ 130 Nr. 1, 253 Abs. 4 ZPO 
+rechtsbündig unter der Bezeichnung der jeweiligen Partei in den Kopf 
+des Urteils aufzunehmen:  
+ 
+• Klägers/Kläger 
+ 
+Im Falle einer Widerklage werden die Parteien im Rubrum zusätzlich 
+nach ihrer Parteirolle des Widerklägers bzw. Widerbeklagten bezeich-
+net [Beispiel: Kläger und Widerbeklagter]; in den nachfolgenden Ab-
+schnitten des Urteils werden sie dagegen aus Gründen der besseren 
+Juristische 
+Personen 
+des öffentli-
+chen Rechts 
+18 
+Parteistel-
+lung 
+19 
+Widerklage 20 
+
+===== SEITE 14 =====
+B. Kopf des Urteils  10 
+ 
+ 
+Übersicht nur nach ihrer ursprünglichen Parteirolle bezeichnet, d. h. 
+nur als Kläger bzw. oder Beklagter. Diese Bezeichnung behalten sie 
+auch dann, wenn die Klage im weiteren Verlaufe nach Erhebung der 
+Widerklage beispielsweise übereinstimmend für erledigt erklärt wird. 
+ 
+In Eilverfahren sind die Parteien als „Antragsteller“ und „Antragsgeg-
+ner“, der Bevollmächtigte als „Verfahrensbevollmächtigter“ zu be-
+zeichnen. Wird durch Urteil entschieden, heißen die Parteien hinge-
+gen „Verfügungskläger“ und „Verfügungsbeklagter“, der Bevollmäch-
+tigte „Prozessbevollmächtigter“. 
+ 
+IV. Prozessbevollmächtigte  
+ 
+Vertritt ein Rechtsanwalt eine Partei, ist dies im Kopf kenntlich zu ma-
+chen. Die Bezeichnung „Rechtsanwalt” sollte ausgeschrieben und 
+nicht mit „RA” abgekürzt werden. Der Prozessbevollmächtigte ist nicht 
+Partei und nach Angabe der Parteistellung des Mandanten aufzufüh-
+ren. Die Angabe der Prozessbevollmächtigten wird in Parenthese ge-
+setzt12. 
+ 
+„- Prozessbevollmächtigte: Rechtsanwältin Helga Boot, Reichsstraße 
+12, 12498 Berlin -“ 
+  
+Wenn eine Partei durch eine Anwaltssozietät vertreten wird, genügt 
+es, ein Mitglied namentlich zu nennen und auf die anderen durch „u. 
+a.“ hinzuweisen. 
+ 
+„- Prozessbevollmächtigte:  Rechtsanwälte Herbert Bankert u. a., 
+Oberweg 12, 03096 Burg (Spreewald) -“  
+ 
+Bei einer Rechtsanwalts-GbR oder Rechtsanwalts-GmbH, einer LLP  
+usw. genügt es, den Namen und die Adresse der Gesellschaft und 
+ 
+ 
+12  Gleichwohl gesetzte Kommata sind unschädlich und vertretbar. 
+Eilverfahren 21 
+Prozessbe-
+vollmäch-
+tigte 
+22 
+Anwaltssozi-
+etät 
+23 
+Rechtsan-
+walts-GbR 
+24 
+
+===== SEITE 15 =====
+B. Kopf des Urteils  11 
+ 
+   
+wenn möglich ihrer gesetzlichen Vertreter anzugeben.  
+ 
+In den Kopf sind nur die Prozessbevollmächtigten aufzunehmen, die 
+die Parteien zur Zeit der letzten mündlichen Verhandlung vertreten ha-
+ben. Ein Terminsvertreter, ein Unterbevollmächtigter oder ein Ver-
+kehrsanwalt gehören nicht dorthin. Ist ein Rechtsanwalt Partei und 
+vertritt er sich selbst, kann die Angabe des Prozessbevollmächtigten 
+entfallen. 
+ 
+V. Streithelfer  
+  
+Nebenintervenienten, also auch der Streitverkündete, der dem 
+Rechtsstreit beigetreten ist, werden als „Streithelfer" oder „Streitge-
+hilfe“ bezeichnet und sind im Kopf unter der Partei zu erwähnen, der 
+sie beigetreten sind. Auch ihr Prozessbevollmächtigter ist anzugeben. 
+Tritt der Streitverkündete nicht bei, ist eine Streitverkündung weder im 
+Kopf noch an einer sonstigen Stelle des Urteils zu erwähnen.  
+ 
+VI. Bezeichnung des Gerichts13 und der Richter 
+ 
+Bei der Bezeichnung des Gerichts ist der Spruchkörper anzugeben. 
+Das ist beim Landgericht die Kammer, die die Entscheidung trifft. Da 
+es beim Landgericht auch Strafkammern gibt, ist es erforderlich, hier 
+von der Zivilkammer zu sprechen.  
+ 
+• „hat das Landgericht Hamburg, Zivilkammer 3114, ... “ 
+  
+ 
+ 
+13  Eine Reihenfolge „Gericht, Richter, Angabe des letzten Tages“ ergibt sich aus § 
+313 Abs. 1 ZPO. 
+14  Ob es „Zivilkammer 31“ oder „31. Zivilkammer“ heißen muss, ergibt sich stets aus 
+dem Protokoll. 
+Terminsver-
+treter, Unter-
+bevollmäch-
+tigte und 
+Verkehrsan-
+wälte 
+25 
+Streithelfer 26 
+Bezeich-
+nung des 
+Gerichts 
+27 
+
+===== SEITE 16 =====
+B. Kopf des Urteils  12 
+ 
+ 
+Bei den Amtsgerichten kann die Abteilung angegeben werden – was 
+aber z.B. in Brandenburg unüblich ist.  
+ 
+• „hat das Amtsgericht Neukölln, Abteilung 12, ... “ 
+ 
+Die Namen der am Urteil mitwirkenden Richter und deren Amtsbe-
+zeichnung müssen im Kopf angegeben werden. Die Amtsbezeich-
+nung der Richter 15 (Richter, Richter am Amtsgericht, Richter am 
+Landgericht, Vorsitzender Richter am Landgericht, Vizepräsident des 
+Amtsgerichts usw.) ist ebenfalls anzugeben. Diese Daten sind dem 
+Sitzungsprotokoll der letzten mündlichen Verhandlung zu entnehmen. 
+Beispiel: 
+ 
+• „hat das Amtsgericht Neukölln, Abteilung 14, durch den Richter am 
+Amtsgericht Hauptlein auf die mündliche Verhandlung vom 7. März 
+2025 für Recht erkannt“: 
+ 
+Die Funktion der mitwirkenden Richter „als Vorsitzender“, „als Beisit-
+zender“ gehört nicht in den Kopf. Entscheidet bei einem Kollegialge-
+richt der Einzelrichter, ist dies im Kopf zu kennzeichnen. 
+ 
+• „hat ... 
+durch die Richterin am Landgericht Dr. Klug als Einzelrichterin 
+auf ... 
+für Recht erkannt: “ 
+ 
+VII. Angabe des letzten Tages und des Klagegrundes 
+ 
+Um den Umfang der Rechtskraft und die Präklusionswirkung klarzu-
+stellen, hat der Gesetzgeber in § 313 Abs. 1 Nr. 3 ZPO die Angabe 
+ 
+ 
+15  § 19a DRiG. 
+Amtsge-
+richte 
+28 
+Bezeich-
+nung der 
+Richter 
+29 
+Funktion 30 
+Angabe des 
+letzten Ta-
+ges 
+31 
+
+===== SEITE 17 =====
+B. Kopf des Urteils  13 
+ 
+   
+des Tages der letzten mündlichen Verhandlung16 vorgeschrieben17.  
+ 
+• „auf die mündliche Verhandlung vom 12. März18 2025 ...“ 
+ 
+Der Tag der letzten mündlichen Verhandlung wird im Fall der Ent-
+scheidung nach Lage der Akten (§§ 251 a, 331 a ZPO) durch den ver-
+säumten Termin ersetzt.  
+ 
+• „nach Lage der Akten am 13. März 2025 ...“ 
+ 
+Wird im schriftlichen Verfahren entschieden, muss das Gericht den 
+Zeitpunkt bestimmen, bis zu dem Schriftsätze eingereicht werden kön-
+nen (§ 128 Abs. 2 Satz 2 ZPO). Dieser Zeitpunkt entspricht dem Tag 
+der letzten mündlichen Verhandlung.  
+ 
+• „im schriftlichen Verfahren mit einer Schriftsatzfrist bis zum ...“ 
+ 
+Die Angabe des Kl agegrundes (zum Beispiel wegen Schadenersat-
+zes) ist nicht notwendig und empfiehlt sich nicht. 
+ 
+ 
+16  In der Klausur wird hier fälschlicherweise häufig der Tag der Verkündung der 
+Entscheidung eingesetzt! 
+17  Vgl. § 767 Abs. 2 ZPO. 
+18  Der Monat sollte, um Verwechslungen auszuschließen, ausgeschrieben werden. 
+Entschei-
+dung nach 
+Lage der 
+Akten 
+32 
+Schriftliches 
+Verfahren 
+33 
+Klagegrund 34 
+
+===== SEITE 18 =====
+B. Kopf des Urteils  14 
+ 
+ 
+Amtsgericht Neukölln 
+12 C 310/24 
+Im Namen des Volkes 
+ 
+In dem Rechtsstreit 
+ 
+der Rabe Schneedienst GmbH, Kochstraße 34, 12047 Berlin, gesetzlich vertreten durch 
+den Geschäftsführer Martin Müller, ebenda, 
+Klägerin und Widerbeklagten, 
+ 
+- Prozessbevollmächtigte: Rechtsanwälte Martina Klage und Karl Meier, Parkstraße 
+101, 12165 Berlin - 
+ 
+der Mega AG, gesetzlich vertreten durch ihre Vorstandsmitglieder Herbert Müller und 
+Ralf Schubert., Sonnenallee 93, 12199 Berlin,  
+Streithelferin der Klägerin, 
+ 
+- Prozessbevollmächtigte: Rechtsanwälte Karl Boot u. a., Oberweg 12, 12498 Berlin -  
+g e g e n 
+ 
+1. den unter der Firma Dieter Teufel handelnden Kaufmann Rainer Zufall, Peststraße 
+14, 12345 Berlin, 
+ 
+2. die am 12. Dezember 2015 geborene Erika Hage, Sanderweg 2, 12047 Berlin, ge-
+setzlich vertreten durch ihre Eltern Maria und Lutz Hage, ebenda, 
+ 
+Beklagten und Widerkläger, 
+ 
+- Prozessbevollmächtigter der Beklagten zu 2):    Rechtsanwalt Herbert Sol, Kalckreuth-
+weg 56, 10787 Berlin - 
+ 
+hat das Amtsgericht Neukölln, Abteilung 12, durch den Richter am Amtsgericht Dr. Mül-
+ler auf die mündliche Verhandlung vom 3. April 2025  
+für Recht erkannt: 
+ 
+1. Die Beklagten werden als Gesamtschuldner verurteilt, an die Klägerin 
+2.559,45 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen 
+Basiszinssatz seit dem 10. Dezember 2024 zu zahlen. 
+2. Die Widerklage wird abgewiesen.  
+3. Die Beklagten haben die Kosten des Rechtsstreits als Gesamtschuldner zu tra-
+gen. 
+4. Das Urteil ist gegen Sicherheitsleistung in Höhe des jeweils zu vollstreckenden 
+Betrages zuzüglich 10 % vorläufig vollstreckbar. 
+
+===== SEITE 19 =====
+C. Urteilsformel 15 
+ 
+   
+C. Urteilsformel  
+I. Einführung 
+ 
+Das Urteil enthält nach § 313 Abs. 1 Nr. 4 ZPO eine Urteilsformel 
+(auch Tenor oder Ausspruch). Die Urteilsformel setzt sich in der Regel 
+aus drei, bei Zulassung von Rechtsmitteln aus vier Teilen zusammen: 
+ 
+• Entscheidung zur Hauptsache 
+• Kostenentscheidung  
+• Entscheidung über die vorläufige Vollstreckbarkeit 
+• Gegebenenfalls Entscheidung über die Zulassung eines Rechtsmittels 
+ 
+Die Urteilsformel ist in der Praxis der wichtigste Teil des Urteils, steht 
+am Beginn der Entscheidung und ist damit gleichsam die Visitenkarte 
+des Urteils bzw. des Referendars in Praxis und Prüfung. Fehler der 
+Urteilsformel wirken sich dramatisch aus: Es ist unter Umständen 
+nichts zu vollstrecken, es erwächst nichts in Rechtskraft, es wird nichts 
+gestaltet, und der Prozess war wirtschaftlich sinnlos. Auf die Urteils-
+formel muss daher in Praxis und Klausur besondere Mühe und Sorg-
+falt verwendet werden. 
+ 
+1. Hauptsacheentscheidung 
+ 
+Die Hauptsacheentscheidung muss vollstreckungsfähig und knapp 
+gefasst sein, den Streitgegenstand erschöpfen und so gehalten sein, 
+dass sie möglichst keiner Auslegung bedarf. Die Hauptsacheentschei-
+dung darf über die gestellten Anträge nicht hinausgehen19. 
+ 
+2. Kostenentscheidung 
+ 
+Die Kostenentscheidung muss aussprechen, wer die Kosten des 
+ 
+ 
+19  § 308 Abs. 1 Satz 1 ZPO 
+Urteilsformel 36 
+Wichtigster 
+Teil des Ur-
+teils 
+37 
+Hauptsache-
+entschei-
+dung 
+38 
+Kostenent-
+scheidung 
+39 
+
+===== SEITE 20 =====
+C. Urteilsformel 16 
+ 
+ 
+ 
+ 
+ 
+Rechtsstreits20 zu welchem Anteil zu tragen hat, und hat grundsätzlich 
+einheitlich zu ergehen21.  
+ 
+• „Der Beklagte hat die Kosten des Rechtsstreits zu tragen.“ 
+• „Der Beklagte hat die Kosten seiner Säumnis zu tragen; die übrigen 
+Kosten des Rechtsstreits hat der Kläger zu tragen.“ 
+ 
+3. Entscheidung über Vollstreckbarkeit 
+ 
+Grundsätzlich findet die Zwangsvollstreckung aus einem Urteil nur 
+statt, das in der Urteilsformel für vorläufig vollstreckbar erklärt worden 
+ist22. In einigen Fällen ist ein Ausspruch zur Vollstreckbarkeit aber 
+auch entbehrlich, zum Beispiel bei stattgebenden Urteilen in den Eil-
+verfahren (Arrest und einstweilige Verfügung). Beispiele: 
+ 
+• „Das Urteil ist gegen Sicherheitsleistung in Höhe des jeweils zu 
+vollstreckenden Betrages zuzüglich 10 % vorläufig vollstreckbar23.“  
+ 
+• „Das Urteil ist vorläufig vollstreckbar. Der Beklagte darf die 
+Vollstreckung durch Sicherheitsleistung in Höhe des auf Grund des 
+ 
+ 
+20  Das Urteil hat über die Kosten des Rechtsstreits, nicht über die Kosten des Ver-
+fahrens zu entscheiden (Ausnahmen: Siehe Randnummern 6 und 7). Ein häufi-
+ger Fehler in Klausuren. 
+21  Ausnahmen etwa §§ 281 Abs. 3 Satz 1, 344, 96, 97 Abs. 2, 238 Abs. 4 ZPO. 
+22  Ein Ausspruch zur Vollstreckbarkeit ist aber nur erforderlich, wenn das Urteil ei-
+nen vollstreckungsfähigen Inhalt hat. Das ist zum Beispiel bei Zwischenurteilen 
+nicht der Fall. 
+23  Es ist darauf zu achten, dass § 709 Satz 2 ZPO nur bei Geldforderungen an-
+wendbar ist. Wird im Bearbeitungsvermerk die genaue Berechnung der Sicher-
+heitsleistung erlassen, heißt es, wenn nicht nach § 709 Satz 2 ZPO tenoriert wird: 
+„Das Urteil ist gegen Sicherheitsleistung in Höhe von ... EUR vorläufig vollstreck-
+bar.“ 
+Beispiele 40 
+Entschei-
+dung über 
+Vollstreck-
+barkeit 
+41 
+
+===== SEITE 21 =====
+C. Urteilsformel 17 
+ 
+   
+Urteils vollstreckbaren Betrages zuzüglich 10 % abwenden, wenn 
+nicht die Klägerin vor der Vollstreckung Sicherheit in Höhe des 
+jeweils zu vollstreckenden Betrages zuzüglich 10 % leistet.“ 
+ 
+4. Zulassung von Rechtsmitteln 
+ 
+Wird die Berufung nach §§ 511 Abs. 4, Abs. 2 Nr. 2 ZPO zugelassen, 
+so ist dies im Tenor zum Ausdruck zu bringen. Beispiel: 
+ 
+• „Die Berufung des Beklagten wird zugelassen.“ 
+ 
+Werden die Voraussetzungen des § 511 Abs. 4 ZPO verneint, ist dies 
+in den Entscheidungsgründen kurz zu begründen , sofern eine Partei 
+die Zulassung begehrt. Im Falle des § 511 Abs. 2 Nr. 1 ZPO ist über 
+die Zulassung nicht zu entscheiden. 
+ 
+5. Gestaltung 
+ 
+Die Urteilsformel ist wie auch die Anträge im Tatbestand von den üb-
+rigen Teilen des Urteils hervorzuheben. Am besten wird sie nach 
+rechts eingerückt. Eine Nummerierung der einzelnen Bestandteile ist 
+üblich, aber jedenfalls bei kurzen Aussprüchen nicht notwendig. 
+ 
+II. Einzelheiten 
+ 
+Die Formulierung der Entscheidung zur Hauptsache hängt bei einem 
+stattgebenden Urteil von der Klageart ab und muss folgenden Anfor-
+derungen genügen: 
+ 
+• Vollstreckungsfähig, sofern vollstreckbarer Inhalt; hinreichend bestimmt 
+• Knapp  
+• Erschöpfend 
+ 
+1. Vollstreckungsfähig/hinreichend bestimmt 
+ 
+Der Titel muss genügend bestimmt sein. Der Tenor muss so gehalten 
+Rechtsmittel 
+wird zuge-
+lassen 
+42 
+Rechtsmittel 
+wird nicht 
+zugelassen 
+43 
+Nach rechts 
+einrücken 
+44 
+45 
+Bestimmt-
+heit 
+46 
+
+===== SEITE 22 =====
+C. Urteilsformel 18 
+ 
+ 
+ 
+ 
+ 
+sein, dass das Organ, das den Titel zu vollstrecken hat, die erforderli-
+chen Weisungen erteilen kann, ohne auf die Urteilsgründe oder au-
+ßerhalb des Urteils liegende Erkenntnisquellen zurückgreifen zu müs-
+sen. Das gilt im Hinblick auf § 756 ZPO auch im Falle einer Zug -um-
+Zug-Verurteilung für die Gegenleistung. Diese muss so bestimmt sein, 
+dass sie ihrerseits zum Gegenstand einer Leistungsklage gemacht 
+werden könnte. Zahlungstitel genügen dem Bestimmtheitserfordernis, 
+wenn der zu vollstr eckende Zahlungsanspruch betragsmäßig festge-
+legt ist oder sich aus dem Ausspruch oder der Formel ohne weiteres 
+errechnen lässt. Auch bei der Formulierung eines Urteilsausspruchs, 
+der ni cht vollstreckungsfähig ist (z. B. für ein Feststellungsurteil), ist 
+dem Bestimmtheitserfordernis Rechnung zu tragen 
+ 
+Falsch sind etwa folgende Aussprüche: 
+ 
+• „Der Klage wird stattgegeben.“ 
+• „Die Klage ist begründet.“ 
+• „Der Beklagte wird verurteilt, den vereinbarten Pachtzins zu 
+zahlen.“ 
+• „Der Beklagte wird verurteilt, ...24 1.810,00 EUR nebst Zinsen in 
+Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz 
+seit Rechtshängigkeit25 zu zahlen.“ 
+ 
+ 
+ 
+24  Hier fehlt: an den Kläger. 
+25 Hier muss der der Klagezustellung folgende Tag als konkretes Datum genannt 
+werden. 
+Typische 
+Fehler 
+47 
+Unterlas-
+sungste-
+nor/Hand-
+lungen 
+48 
+
+===== SEITE 23 =====
+C. Urteilsformel 19 
+ 
+   
+Ein Unterlassungstenor muss den Gegenstand des Verbots deutlich 
+bezeichnen26, um eine geeignete Grundlage für das Vollstreckungs-
+verfahren bilden zu können. Wird eine Handlung verboten, ist diese im 
+Unterlassungsanspruch zu bezeichnen. 
+ 
+2. Knapp 
+ 
+Teile der Begründung gehören grundsätzlich nicht in den Tenor. Es ist 
+daher nicht anzugeben, dass  
+ 
+• der Kläger Schmerzensgeld erhält oder 
+• auf welchen Bestimmungen die Verurteilung beruht. 
+ 
+Etwas anderes gilt, wenn eine besondere Tenorierung im Gesetz vor-
+gesehen27 oder sachdienlich ist: 
+ 
+• Wegen § 850f Abs. 2 ZPO bei Ansprüchen aus Delikt: „Der 
+Beklagte wird verurteilt, an den Kläger wegen vorsätzlich 
+begangener unerlaubter Handlung 800,00 EUR zu zahlen.“ 
+• Wegen des Umfangs der Rechtskraft bei noch nicht fälligem 
+Anspruch: „Die Klage wird als derzeit unbegründet abgewiesen“. 
+• Nebenforderungen, zum Beispiel Inkasso- oder Mahn- oder andere 
+vorgerichtliche Kosten, dürfen als solche bezeichnet werden. 
+ 
+3. Erschöpfend 
+ 
+Das Gericht ist nach § 308 Abs. 1 ZPO nicht befugt, einer Partei quan-
+titativ oder qualitativ etwas zuzusprechen, was von ihr nicht beantragt 
+ist. Für die Kostenentscheidung und die Entscheidung über die vorläu-
+ 
+ 
+26  §§ 890, 253 Abs. 2 Nr. 2 ZPO. 
+27  Vgl. §§ 341 Abs. 1 Satz 1, 522 Abs. 1 Satz 2, 552 Abs. 1 Satz 2, 597 Abs. 2 ZPO. 
+Teile der 
+Begründung 
+49 
+Ausnahmen 50 
+§ 308 Abs. 1 
+ZPO 
+51 
+
+===== SEITE 24 =====
+C. Urteilsformel 20 
+ 
+ 
+ 
+ 
+ 
+fige Vollstreckbarkeit bedarf es keines Antrages. Hat eine Klage teil-
+weise keinen Erfolg, muss sie „ im Übrigen “ abgewiesen werden 28. 
+Beispiel: 
+ 
+• „Die Beklagte wird verurteilt, an den Kläger 8.777,91 EUR nebst 
+Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen 
+Basiszinssatz seit dem 13. September 2025  zu zahlen. Im Übrigen 
+wird die Klage abgewiesen.“ 
+ 
+III. Urteilsarten 
+1. Leistungsurteile 
+ 
+Beispiele für typische Leistungsurteile: 
+ 
+• „Der Beklagte wird verurteilt, die im Hause Werbellinstraße 60, 
+12053 Berlin, zweites Obergeschoss  links, gelegene Wohnung, 
+bestehend aus 1 Zimmer, 1 Küche, 1 Flur, 1 Bad/WC, 1 Balkon  
+und Keller Nr. 11, zu räumen und geräumt an die Klägerin heraus-
+zugeben.“ 
+ 
+• „Der Beklagte wird verurteilt, an die Klägerin 3.931,78 EUR nebst 
+Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basis-
+zinssatz seit dem 3. März 2025 zu zahlen.“ 
+ 
+• „Die Beklagte wird verurteilt, an die Kläger 4.800,00 EUR nebst 
+Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basis-
+zinssatz seit dem 7. Februar 202 5 Zug um Zug gegen Rückgabe 
+ 
+ 
+28  Ob weniger als beantragt zugesprochen wird, kann im Einzelfall schwierig zu be-
+urteilen sein. Der Kläger unterliegt z.B., wenn „Zug um Zug“ statt wie beantragt 
+uneingeschränkt verurteilt wird, wenn ein Leistungsurteil begehrt wird, aber nur 
+ein Feststellungsurteil ergeht oder wenn die Klage nur im Hilfsantrag Erfolg hat. 
+52 
+Typische 
+Leistungsur-
+teile 
+53 
+
+===== SEITE 25 =====
+C. Urteilsformel 21 
+ 
+   
+des Pkw Ford Typ Transit, Fahrzeug -Identifizierungsnummer 
+ABCDEFGH123456789 H, zu zahlen.“ 
+ 
+• „Das Versäumnisurteil des Amtsgerichts Neuruppin vom 26. Feb-
+ruar 2025 – 14 C 8/ 24 – wird insoweit aufrechterhalten, als der 
+Beklagte verurteilt ist, an den Kläger 4.800,00 EUR nebst Zinsen 
+in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz 
+seit dem 13. Dezember 2023 zu zahlen. Im Übrigen wird das Ver-
+säumnisurteil aufgehoben und die Klage abgewiesen.“ 
+ 
+2. Feststellungsurteile 
+ 
+Beispiele für typische Feststellungsurteile: 
+ 
+• „Es wird festgestellt, dass der Kläger Eigentümer des Pkw Ford Typ Tran-
+sit, Fahrzeug-Identifizierungsnummer ABCDEFGH123456789, ist29.“ 
+ 
+• „Es wird festgestellt, dass sich der Rechtsstreit in der Hauptsache 
+erledigt hat30.“ (bzw. „Der Rechtsstreit ist in der Hauptsache erle-
+digt.“) 
+ 
+oder 
+ 
+„Es wird festgestellt, dass der Beklagte der Klägerin sämtliche weiteren 
+materiellen Schäden zu ersetzen hat, die ihr aufgrund des Verkehrsunfalls 
+vom 9. November 2024 in der Schrottstraße 5 in 14641 Nauen entstanden 
+sind oder noch entstehen werden.“  
+ 
+3. Gestaltungsurteile 
+ 
+ 
+29  Alternativ: Der Kläger ist Eigentümer des Pkw Ford Typ Transit, Fahrzeug-Iden-
+tifizierungsnummer ABCDEFGH123456789. 
+30  Eine Feststellung wäre indes falsch, wenn die Parteien den Rechtsstreit in der 
+Hauptsache übereinstimmend vollständig oder teilweise für erledigt erklärt ha-
+ben. 
+Teilweise 
+Klageabwei-
+sung 
+54 
+55 
+Typische 
+Feststel-
+lungsurteile 
+56 
+
+===== SEITE 26 =====
+C. Urteilsformel 22 
+ 
+ 
+ 
+ 
+ 
+ 
+Beispiele für typische Gestaltungsurteile: 
+ 
+• „Die Zwangsvollstreckung aus dem Urteil des Amtsgerichts Neu-
+kölln vom 13. Mai 2024 – 4 C 300/23 – wird für unzulässig erklärt, 
+soweit der Beklagte hieraus wegen mehr als 5.000,00 EUR nebst 
+Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basis-
+zinssatz seit dem 10. Dezember 2023 vollstreckt. Im Übrigen wird 
+die Klage abgewiesen.“ 
+• „Die Zwangsvollstreckung des Beklagten aus dem Urteil des 
+Amtsgerichts Neukölln vom 13. Mai 2024 – 4 C 300/ 23 – in das 
+am 10. August 2025 bei dem Schuldner Herbert Meier, Her-
+mannstr. 23, 12345 Berlin, gepfändete Herren-Rennrad 
+Canondale SuperSix, Rahmennummer 12345 (Pfändungsproto-
+koll des Gerichtsvollziehers Herbert Müller DR Nr. II 355/25), wird 
+für unzulässig erklärt.“ 
+ 
+4. Unzulässige und unbegründete Klagen 
+ 
+Ist eine Klage unzulässig oder unbegründet, heißt es in allen Klagear-
+ten: 
+ 
+• „Die Klage wird abgewiesen.“ 
+• „Das Versäumnisurteil des Amtsgerichts Neukölln - 12 C 134/25 - vom 28. 
+April 2025 wird aufgehoben und die Klage abgewiesen“. (ggf. bei die Klage 
+abweisendem Versäumnisurteil: „bleibt aufrechterhalten“). 
+• „Die Klage wird als derzeit unbegründet abgewiesen“.  
+57 
+Typische 
+Gestaltungs-
+urteile 
+58 
+Klage unzu-
+lässig oder 
+unbegründet 
+59 
+
+===== SEITE 27 =====
+D. Tatbestand 23 
+ 
+   
+D. Tatbestand 
+I. Einführung 
+ 
+Der Tatbestand ist die objektive und geordnete, durch das Gebot der 
+Verständlichkeit bestimmte Darstellung des Sach - und Streitstandes. 
+Aus dem Tatbestand muss sich ergeben, welche tatsächlichen Vo-
+raussetzungen der Richter seiner Entscheidung zu Grunde gelegt hat. 
+Daneben liefert der Tatbestand Beweis für das mündliche Parteivor-
+bringen, vor allem dafür, ob und in welchem Umfang die Parteien ihr 
+schriftliches Vorbringen berichtigt, ergänzt oder fallengelassen haben, 
+§ 314 ZPO.  
+ 
+Die Parteien können dem Tatbestand folgende Informationen entneh-
+men: 
+ 
+• Ob das Gericht ihr wesentliches tatsächliches Vorbringen zur 
+Kenntnis genommen hat.  
+• Ob das Gericht den wesentlichen Inhalt der von ihnen erhobenen 
+Ansprüche sowie ihr Angriffs - und Vertei digungsvorbringen 
+verstanden hat. 
+• Ob das Gericht den erheblichen Prozessstoff richtig verarbeitet 
+hat.  
+ 
+Im Tatbestand sollen die erhobenen Ansprüche und die dazu vorge-
+brachten Angriffs - und Verteidigungsmittel unter Hervorhebung der 
+gestellten Anträge nur ihrem wesentlichen Inhalt nach knapp31 darge-
+stellt werden, § 313 Abs. 2 Satz 1 ZPO. Wegen der Einzelheiten des  
+Sach- und Streitstandes soll in geeigneten Fällen auf bestimmte Stellen von 
+Schriftsätzen, Protokolle und andere konkret benannte Unterlagen verwiesen 
+ 
+ 
+31  Die Schriftsätze der Parteien enthalten neben den Behauptungen, die der 
+Rechtsverfolgung und der Rechtsverteidigung dienen, oft weitschweifige Ausfüh-
+rungen, die offensichtlich nicht geeignet sind, die Entscheidung des Gerichts zu 
+beeinflussen. Dieser Vortrag ist nicht zu erwähnen. Ansonsten genügt es, der 
+„langen Rede kurzen Sinn“ mitzuteilen.  
+§ 313 Abs. 1 
+Nr. 5, Abs. 2 
+ZPO 
+60 
+Kontrolle für 
+die Parteien 
+61 
+Grundsätze 62 
+
+===== SEITE 28 =====
+D. Tatbestand 24 
+ 
+ 
+ 
+ 
+ 
+werden, § 313 Abs. 2 Satz 2 ZPO32. Beispiel: 
+ 
+• „Wegen der Einzelheiten des Kaufvertrages wird auf die Anlage 2 
+zur Klageschrift Bezug genommen“. 
+ 
+Auch in Klausuren kann eine Verweisung auf konkrete Aktenbestand-
+teile angebracht sein (etwa in Schmerzensgeldfällen, beispielweise für 
+die Einzelheiten des Krankheitsverlaufs und der Behandlungsmaß-
+nahmen). Teilweise wird es sinnvoll sein, kurze entscheidungserheb-
+liche Vertragsklauseln oder AGBs wörtlich wiederzugeben, etwa wenn 
+die Parteien über die Wirksamkeit der Regelung streiten.  In jedem 
+Falle muss der Tatbestand aus sich heraus verständlich bleiben. Der 
+Verfasser des Tatbestandes muss sich in die Lage  derer versetzen, 
+für die das Urteil bestimmt ist.  
+ 
+Was im Tatbestand berichtet werden muss, richtet sich nach dem Ein-
+zelfall. Grundsätzlich gilt Folgendes: 
+ 
+• Bildung von Schwerpunkten nach dem Korrespondenzprinzip. Was 
+Gegenstand umfangreicher Erwägungen in den Ent scheidungs-
+gründen ist, muss auch im Tatbestand im Mittelpunkt stehen. 
+ 
+• Unproblematisches ist zu verkürzen und zu verdichten. Über -
+flüssiges ist wegzulassen. 
+ 
+• Keine Wiederholungen. 
+ 
+• Sachvortrag, auch streitiger, ist sinnvoll zu filtern, zu sichten und 
+zu ordnen.  
+ 
+ 
+32  Auf nicht entscheidungserhebliche Urkunden ist nicht zu verweisen. 
+Klausuren 63 
+Inhalt des 
+Tatbestan-
+des 
+64 
+
+===== SEITE 29 =====
+D. Tatbestand 25 
+ 
+   
+ 
+Typische Fehler beim Aufbau eines Tatbestandes sind: 
+ 
+• Keine oder falsche Trennung von Unstreitigem/Streitigem 
+• Keine oder falsche Trennung von Tatsachenbehauptungen/Rechts -
+ansichten 
+• Falsche Gewichtung, fehlende Herausarbeitung des Wesentlichen 
+• Unstrukturierte Wiedergabe insbesondere des unstreitigen 
+Parteivorbringens 
+• Vorwegnahmen von Wertungen, Auslegungen oder von 
+Beweisergebnissen 
+• Tatsachen zu Nebenforderungen nicht zu berichten 
+ 
+Das Parteivorbringen ist nicht zu verändern, in die Wiedergabe dürfen 
+keine tatsächlichen Schlussfolgerungen oder rechtlichen Wertungen 
+des Verfassers einfließen. Das Parteivorbringen darf nicht auf die Vo-
+raussetzungen der in Betracht kommenden Normen, unter die es zu 
+subsumieren ist, zugeschnitten und dadurch verändert und verfälscht 
+werden. Es ist aber anzustreben, das Vorbringen , wenn möglich, so 
+zu ordnen, wie es der rechtlichen Prüfung entspricht ( beispielsweise 
+Anfechtungserklärung vor Verjährungseinrede). 
+ 
+Im Tatbestand ist jede Vorwegnahme der rechtlichen Beurteilung des 
+Tatsachenstoffes zu vermeiden. Zulässig ist es aber, Rechtsbegriffe 
+oder Rechtsverhältnisse als „Rechtstatsachen“, mithin als Tatsachen 
+anzusehen und dementsprechend zu berichten, wenn sie einfach und 
+allgemein bekannt sind (zum Beispiel im Einzelfall die Rechtstatsache 
+„Kauf“ oder „Schenkung“). 
+ 
+II. Aufbau 
+ 
+Der Tatbestand ist zwar dem Fall entsprechend aufzubauen. In der 
+Praxis hat sich aber ein Standard herausgebildet, der nicht grundlos 
+verlassen werden sollte. Von dem für den Normalfall vorgesehenen 
+Aufbau muss abgewichen werden, wenn dies der Verständlichkeit 
+Typische 
+Fehler 
+65 
+Objektivität 66 
+Keine recht-
+lichen Vor-
+wegnahmen 
+67 
+Aufbau 68 
+
+===== SEITE 30 =====
+D. Tatbestand 26 
+ 
+ 
+ 
+ 
+ 
+dient, zum Beispiel bei dem Streit über die Wirksamkeit eines Prozess-
+vergleichs. Üblicher Aufbau: 
+ 
+• Geschichtserzählung = Sachstand = Unstreitiges ( Präteritum, Indikativ; 
+zum Teil Präsens/Plusquamperfekt) 
+• Streitiger Vortrag des Klägers (Indirekte Rede) 
+ 
+- aktueller Antrag des Klägers (Präsens, Indikativ) 
+- aktueller Antrag des Beklagten (Präsens, Indikativ) 
+ 
+• Streitiger Vortrag des Beklagten (Indirekte Rede) 
+ 
+III. Sprache 
+ 
+Die zu berichtenden Tatsachen sollten in einfachen, kurzen und – 
+auch für den juristischen Laien – leicht verständlichen Sätzen darge-
+stellt werden. Auf die richtige Form der indirekten Rede (Konjunktiv I) 
+sollte Wert gelegt werden; häufig wird stattdessen der Konjunktiv II 
+benutzt. 
+  
+Sprache und 
+Stil 
+69 
+
+===== SEITE 31 =====
+D. Tatbestand 27 
+ 
+   
+IV. Einzelheiten 
+ 
+Der Tatbestand sollte regelmäßig nicht mit einem Einleitungssatz be-
+gonnen werden. Ein kurzer und einfacher Einleitungssatz ist nur dort 
+angebracht, wo er zum Verständnis erforderlich ist. Das kann zum Bei-
+spiel bei einer Klage aus abgetretenem Recht der Fall sein.  
+ 
+1. Sachstand/Geschichtserzählung 
+ 
+Der Tatbestand beginnt mit der Geschichtserzählung des unstreiti-
+gen Sachverhalts (Sachstand im Sinne von § 313 Abs. 2 Satz 2 ZPO) 
+in chronologischer oder logischer Reihenfolge. In aller Regel empfiehlt 
+sich der chronologische Aufbau. Die Geschichtserzählung wird 
+durch das unstreitige Vorbringen der Parteien gebildet. Als unstreitig 
+ist zu behandeln, 
+ 
+• was die Parteien übereinstimmend vortragen, 
+ 
+• was von einer Partei vorgetragen und von der anderen Partei 
+ausdrücklich auf Grund gerichtlichen Geständnisses gemäß § 288 
+ZPO oder fiktiv auf Grund Nichtbestreitens gemäß § 138 Abs. 3 
+ZPO zugestanden wurde, 
+ 
+• wenn eine Partei das gegnerische Vorbringen lediglich pauschal33 
+bestritten hat (insoweit ist Vorsicht angebracht, um nicht dem 
+Vorwurf einer unzulässigen Wertung ausgesetzt zu sein) oder 
+ 
+• was im Laufe des Prozesses, zum Beispiel nach einer 
+Beweisaufnahme, offenkundig unstreitig geworden ist. 
+ 
+Nicht als unstreitig sind Tatsachen zu beurkunden,  
+ 
+ 
+ 
+33  „Das Vorbringen des Gegners wird bestritten, soweit es nicht ausdrücklich zuge-
+standen wird“. 
+Einleitungs-
+satz 
+70 
+Imperfekt In-
+dikativ; zum 
+Teil Prä-
+sens/Plus-
+quamperfekt 
+71 
+Keine wei-
+tere Bewer-
+tung 
+72 
+
+===== SEITE 32 =====
+D. Tatbestand 28 
+ 
+ 
+ 
+ 
+ 
+• die unzulässig bestritten wurden34, 
+• die unsubstanziiert bestritten wurden und 
+• denen das Ergebnis einer Beweisaufnahme entgegensteht35.  
+ 
+2. Streitiges Vorbringen  
+a. Allgemeines 
+ 
+Das streitige Vorbringen der Parteien ist der Streitstand im Sinne des 
+§ 313 Abs. 2 Satz 2 ZPO. Die Frage, ob eine streitige Tatsache beim 
+Kläger- oder Beklagtenvortrag wiederzugeben ist, hängt von der Dar-
+legungslast ab. Eine Tatsache ist bei der Partei zu berichten, der die 
+Darlegungslast obliegt. Unerledigte Beweisantritte si nd nur dann an-
+zugeben (und zwar hinter der Tatsachenbehauptung in Klammern ge-
+setzt), wenn der Verfasser darauf in den Entscheidungsgründen ein-
+geht, zum Beispiel bei einem unzulässigen Beweisantritt. 
+ 
+b. Streitiges Vorbringen des Klägers 
+ 
+Im streitigen Vorbringen des Klägers sind die Tatsachen anzugeben, 
+die von ihm vorgetragen und – da sie nicht unstreitig sind – im unstrei-
+tigen Parteivorbringen nicht angeführt werden. Der Kläger muss die 
+streitigen Tatsachen behaupten, die die Tatbestandsmerkmale der 
+von ihm in Anspruch genommenen Anspruchsnorm abdecken.  
+ 
+Eingeleitet wird das streitige tatsächliche Klägervorbringen mit der 
+ 
+ 
+34  Zum Beispiel, wenn Tatsachen der eigenen Wahrnehmung entgegen  § 138 
+Abs. 4 ZPO mit Nichtwissen bestritten wurden. 
+35  Diese Frage stellt sich freilich nur, soweit die Parteien trotz der entgegenstehen-
+den Beweisaufnahme an ihrem Vortrag festhalten. Das ist ein Problem der Aus-
+legung. Im Zweifel sollte man davon ausgehen, dass die Parteien auch nach 
+einer für sie ungünstigen Beweisaufnahme ihren gegensätzlichen Vortrag für die 
+nächste Instanz aufrechterhalten. 
+73 
+Klägervor-
+bringen 
+74 
+Tatsachen 75 
+
+===== SEITE 33 =====
+D. Tatbestand 29 
+ 
+   
+Formulierung:  
+ 
+• „Der Kläger behauptet,36 die Wand sei grün. Er behauptet weiter37, 
+die Tür sei gelb.“ 
+ 
+oder 
+ 
+• „Die Klägerin behauptet: 
+Die Wand sei grün. Die Tür sei gelb.“ 
+ 
+Rechtsansichten des Klägers kennzeichnet man hingegen mit:  
+ 
+• „Die Klägerin ist der Ansicht/Auffassung, meint ... .“ 
+ 
+Rechtsausführungen der Parteien, insbesondere ihre Rechtsansich-
+ten, sind im Tatbestand in der Regel nicht mitzuteilen. Dies gilt insbe-
+sondere für die von den Parteien für ihre Rechtsansicht vorgebrachten 
+Argumente. Etwas anderes gilt zum einen, wenn sich in einer Rechts-
+ansicht Tatsachenbehauptungen38 verstecken. Rechtsansichten dür-
+fen zum anderen berichtet werden, wenn die Parteien im Kern nur über 
+Rechtsfragen streiten oder die bloße Mitteilung von Tatsachen das 
+Wesen des Streits nicht erkennen ließe39.  
+ 
+ 
+36   Nicht: trägt vor, legt dar, führt aus. Diese Begriffe umfassen auch Rechtsansich-
+ten und sind daher nicht geeignet, die notwendige klare Trennung zwischen 
+Rechtsansichten und Tatsachen herauszustellen. 
+37 Aus sprachlichen Gründen (Wortwiederholung) sollte hiervon nur spärlich Ge-
+brauch gemacht werden. 
+38  Der Beklagte trägt etwa die Ansicht vor, dass der Vertrag nicht zustande gekom-
+men sei. Dahinter kann sich die Behauptung verstecken, dass eine der Parteien 
+geschäftsunfähig gewesen sei. 
+39  Äußern die Parteien europarechtliche Rechtsauffassungen, sollten diese auf 
+Grund der Berechtigung oder Verpflichtung des deutschen Gerichts, die europa-
+rechtliche Fragestellung nach Art. 267 AEUV dem EuGH vorzulegen, regelmäßig 
+kurz wiedergegeben werden. 
+Rechtsan-
+sichten 
+76 
+Rechtsaus-
+führungen 
+
+===== SEITE 34 =====
+D. Tatbestand 30 
+ 
+ 
+ 
+ 
+ 
+ 
+3. Anträge 
+ 
+Nach dem Vorbringen des Klägers folgen die Anträge der Parteien und 
+ihrer Streithelfer40 nach dem Stand bei Schluss der letzten mündlichen 
+Verhandlung. „Anträge“, über die das Gericht von Amts wegen zu ent-
+scheiden hat ( zum Beispiel Kosten und vorläufige Vollstreckbarkeit), 
+sind wegzulassen41. In der Regel sind Anträge wörtlich mitzuteilen, 
+außer wenn es sich um offenbare Unrichtigkeiten oder um sprachliche 
+Unebenheiten handelt. Auslegungsbedürftige Anträge 42 sind zwin-
+gend im Wortlaut wiederzugeben und erst in den Entsc heidungs-
+gründen auszulegen. Für den Antrag des Klägers sollte auch bei zu-
+erkennendem Urteil nicht auf den Hauptsachetenor verwiesen wer-
+den. 
+ 
+Die Anträge sind durch deutliches Einrücken hervorzuheben, 
+§ 313 Abs. 2 ZPO.  
+ 
+Beantragt der Kläger Rechtshängigkeitszinsen, ist dies wörtlich zu 
+berichten und erst in den Entscheidungsgründen auszulegen 43. Bei-
+spiel: 
+ 
+• „Der Kläger beantragt, 
+ 
+ 
+40  Deren Anträge folgen dem Antrag der von ihnen unterstützten Partei. 
+41  Anzugeben sind aber zum Beispiel Schuldnerschutzanträge nach §§ 712, 710 
+ZPO. 
+42  Zum Beispiel eine Erledigungserklärung, wenn der Beklagte Klageabweisung be-
+antragt. Die Frage ob die Erledigungserklärung als Antrag auf Feststellung der 
+Erledigung auszulegen ist, ist am Anfang der Entscheidungsgründe zu klären. 
+43  In diesem Falle darf aber nicht vergessen werden, in der Prozessgeschichte mit-
+zuteilen, wann die Klage zugestellt worden ist. Ein anderer zulässiger Weg be-
+steht etwa darin, im Antrag das Zustellungsdatum in Klammern zu berichten. 
+§ 313 Abs. 2 
+Satz 1 ZPO; 
+Präsens 
+77 
+Hervorhe-
+ben 
+78 
+Rechtshän-
+gigkeitszin-
+sen 
+79 
+
+===== SEITE 35 =====
+D. Tatbestand 31 
+ 
+   
+den Beklagten zu verurteilen, an ihn44 
+5.500,00 EUR nebst Zinsen in Höhe von 5 
+Prozentpunkten über dem jeweiligen Ba-
+siszinssatz seit Rechtshängigkeit zu zah-
+len.“ 
+ 
+• „Die Beklagte beantragt, 
+die Klage abzuweisen,  
+hilfsweise,  
+das Urteil nicht für vorläufig vollstreckbar 
+zu erklären oder die Vollstreckung auf die 
+in § 720a Abs. 1, 2 ZPO bezeichneten 
+Maßregeln zu beschränken.“ 
+ 
+4. Streitiges Vorbringen des Beklagten 
+ 
+Das streitige Vorbringen des Beklagten wird entsprechend dem strei-
+tigen Vorbringen des Klägers aufgebaut 45. Einfaches Bestreiten ist 
+nicht darzustellen46. Beruft sich eine Partei ausdrücklich auf „Nichtwis-
+sen“, ist dies jedoch zu beurkunden. 
+ 
+Innerhalb des Beklagtenvorbringens ist wie folgt aufzubauen: 
+ 
+• Prozessrügen47  
+• Qualifiziertes Bestreiten  
+• Rechtshindernde oder rechtsvernichtende Einwendungen 
+ 
+ 
+44  Nicht „an den Kläger“, wie häufig beurkundet. Die Formulierung „der Kläger be-
+antragt, den Beklagten zu verurteilen, an den Kläger ... zu zahlen“ ist sprachlich 
+abzuändern in „ ... an ihn ... zu zahlen.”  
+45  Siehe Randnummer 74. 
+46  Das geschieht bereits dadurch, dass es streitig beim Kläger dargestellt wird. 
+47  Bestreiten der Zulässigkeit der Klage und das Erheben von Prozesseinreden. 
+80 
+81 
+
+===== SEITE 36 =====
+D. Tatbestand 32 
+ 
+ 
+ 
+ 
+ 
+• Gegebenenfalls Primär- und Hilfsaufrechnung48 
+• Einreden, die nur auf Vortrag zu beachten sind, wie die Verjährungseinrede 
+• Gegebenenfalls so genannte Beweiseinreden49  
+ 
+5. Replik/Duplik 
+ 
+Ganz ausnahmsweise darf im Anschluss an das streitige Vorbringen 
+des Beklagten nochmals auf das streitige Vorbringen des Klägers ein-
+gegangen werden. Eine Replik/Duplik ist aber nur richtig, wenn das 
+Vorbringen in den anderen Bereichen zum Parteivortrag nicht ver-
+ständlich dargestellt werden kann. Hierzu wird es nur selten kommen, 
+zum Beispiel wenn der Beklagte Gegenrechte aus einem anderen Le-
+benssachverhalt herleitet ( zum Beispiel wenn er Widerklage erhebt 
+oder hilfsweise aufrechnet) und der Kläger hierzu qualifiziert vorträgt. 
+ 
+Besteht die Verteidigung gegen diese Gegenrechte wiederum in der 
+Geltendmachung von Gegenrechten, kann nicht nur eine Replik, son-
+dern sogar einmal eine Duplik notwendig werden; diese Situation 
+dürfte jedoch ausgesprochen selten sein.  
+ 
+Darstellungen mit Replik aufgrund von Gegenrechten des Beklagten, 
+die dieser im Wege der Aufrechnung bzw. Widerklage geltend macht, 
+lassen sich vermeiden, wenn der neue Lebenssachverhalt, soweit er 
+unstreitig ist, chronologisch im Unstreitigen integriert  wird. Falls das 
+mangels unstreitigen Sachverhalts beim Gegenrecht nicht möglich ist, 
+ 
+ 
+48  Die Aufrechnungserklärung ist allerdings zumeist unstreitig; es kann sich anbie-
+ten, die Erklärung vor dem streitigen Klägervortrag anzusprechen.  
+49  Beweiseinreden verhalten sich über die Glaubwürdigkeit eines Zeugen. Sie kön-
+nen daher auch in der Prozessgeschichte im Zusammenhang mit dem Beweis-
+mittel geschildert werden. 
+82 
+Duplik 83 
+83a 
+
+===== SEITE 37 =====
+D. Tatbestand 33 
+ 
+   
+kann die Ausübung des Gegenrechts ggf. mithilfe der Prozessge-
+schichte im Unstreitigen eingeführt werden (z.B. „... hat mit .... die Auf-
+rechnung erklärt ...“ ). Anschließend kann im streitigen Parteivorbrin-
+gen (sauber getrennt nach Klagevorbringen und Gegenrechten) der 
+gesamte erhebliche streitige Parteivortrag geschlossen berichtet wer-
+den. 
+ 
+6. Salvatorische Klausel 
+ 
+Eine so genannte salvatorische Klausel ist überflüssig. Zulässig sind 
+nach § 313 Abs. 2 Nr. 2 ZPO nur konkrete Verweisungen.50 
+ 
+7. Prozessgeschichte  
+ 
+Für die Prozessgeschichte gibt es keinen festen Platz. Entscheidend 
+ist die Verständlichkeit für den Leser. Die Darstellung erfolgt im Perfekt 
+(Indikativ). 
+ 
+Aus Gründen der Verständlichkeit kann zum Beispiel eine Beurkun-
+dung der Pro zessgeschichte in der unstreitigen Geschichtserzäh-
+lung (Sachbericht) angezeigt sein.  Beispiel: „Die Beklagte hat mit 
+Schriftsatz vom … die Aufrechnung mit einer Forderung aus Werkver-
+trag/Delikt erklärt“. 
+ 
+Die Prozessgeschichte muss vor den Anträgen dargestellt werden, 
+wenn sie sich auf die Anträge auswirkt 51. Dies geschieht dann in der 
+Regel nach dem streitigen Klägervortrag unmittelbar vor der Darstel-
+lung seines Antrages. 
+ 
+• „Das Amtsgericht Neukölln hat auf Antrag des Klägers am ... den 
+ 
+ 
+50  Siehe Randnummer 62. 
+51  Zum Beispiel bei vorausgegangenem Versäumnisurteil oder Voll streckungsbe-
+scheid, Hauptsachenerledigung, Vorbehaltsurteil, Teilklagerücknahme oder Teil-
+urteil. 
+§ 313 Abs. 2 
+Nr. 2 ZPO 
+84 
+85 
+Geschichts-
+erzählung 
+86 
+87 
+
+===== SEITE 38 =====
+D. Tatbestand 34 
+ 
+ 
+ 
+ 
+ 
+Beklagten durch Versäumnisurteil zur Zahlung von 2.000,00  EUR 
+nebst 10 % Zinsen seit dem 28. Dezember 2024 verurteilt. Gegen 
+das am ... (und im Falle des § 331 Abs. 1 ZPO: und dem Kläger 
+am ..., dem Beklagten am ...) zugestellte Ver säumnisurteil hat der 
+Beklagte mit bei Ge richt am  ... eingegangenem Schriftsatz Ein-
+spruch eingelegt.“ 
+ 
+• „Der Kläger hat zunächst Zahlung von 1.000,00 EUR verlangt. 
+Nunmehr beantragt er, ...“ 
+ 
+In die Prozessgeschichte am Ende des Tatbestandes  gehören bei-
+spielsweise folgende Punkte: 
+ 
+• Erteilte Hinweise  nach §  139 ZPO, die nicht an anderer Stelle 
+aktenkundig gemacht worden sind. 
+ 
+• Gegebenenfalls Sachvortrag, der nach Schluss der mündlichen 
+Verhandlung vorgebracht worden ist und gemäß §  296a ZPO 
+unberücksichtigt bleibt und auch zu keiner Wiedereröffnung der 
+Verhandlung nach § 156 ZPO veranlasst. 
+ 
+• Klageänderungen oder Widerklagen nach Schluss der 
+mündlichen Verhandlung, die deshalb unzulässig sind. 
+ 
+• Für den Fall, dass der Kläger Rechtshängigkeitszinsen beantragt 
+hat und die Klage mit dem Leistungsantrag wenigstens teilweise 
+erfolgreich war, wann die Klage zugestellt worden ist52. 
+ 
+• Dass bestimmte Akten (mit Nennung des Zweckes) beigezogen 
+ 
+ 
+52  Möglich ist auch, die Klagezustellung vor den Anträgen zu beurkunden. 
+am Ende 
+des Tatbe-
+standes 
+88 
+
+===== SEITE 39 =====
+D. Tatbestand 35 
+ 
+   
+worden und Gegenstand der Verhandlung gewesen sind. 
+ 
+• Sofern es für die Frage der Verjährung oder der Einhaltung von 
+Klagefristen relevant ist, der Zeitpunkt des Eingangs der Klage bei 
+Gericht, der Klagezustellung oder der Zustellung des 
+Mahnbescheids sowie der Zeitpunkt, wann Kosten angefordert und 
+eingezahlt worden sind53. 
+ 
+• Dass das Gericht Beweis erhoben hat. 
+ 
+Bei dem Bericht über eine Beweisaufnahme ist der Beweisbeschluss 
+zu nennen. Hinsichtlich des Ergebnisses der Beweisaufnahme ist auf 
+die Sitzungsniederschrift oder ein Gutachten zu verweisen. Fehlt ein 
+Beweisbeschluss, ist das Beweisthema kurz zu umschreiben. 
+ 
+• „Das Gericht ha t gemäß Beschluss vom 15. Mai 20 25 Beweis 
+erhoben durch eidliche Vernehmung des Zeugen Wilhelm Busch. 
+Hinsichtlich des Ergebnisses der Beweisaufnahme wird auf die 
+Sitzungsniederschrift vom 20. Juni 2025 verwiesen.“ 
+ 
+• „Das Gericht hat über die Behauptung des Klägers, der Beklagte 
+habe ihm einen Faustschlag versetzt, Beweis erhoben durch 
+uneidliche Vernehmung der Zeugen ... und ... . Hinsichtlich des 
+Ergebnisses der Beweisaufnahme wird auf die 
+Sitzungsniederschrift vom ... verwiesen.“ 
+ 
+ 
+53  Möglich ist auch, die im Zusammenhang mit der Verjährung stehenden Tatsa-
+chen im Sachbericht zu beurkunden. 
+Beweisauf-
+nahme 
+89 
+
+===== SEITE 40 =====
+E. Entscheidungsgründe 36 
+  
+ 
+E. Entscheidungsgründe 
+I. Einleitung 
+1. Allgemeines 
+ 
+§ 313 Abs. 1 Nr. 6 ZPO schreibt für das erstinstanzliche Urteil im An-
+schluss an den Tatbestand grundsätzlich „Entscheidungsgründe“ vor.  
+ 
+Aufgabe der Entscheidungsgründe ist es, die Urteilsformel, so wie sie 
+im Tenor wiedergegeben ist, zu begründen. Die Entscheidungsgründe 
+sollen deshalb nach § 313 Abs. 3 ZPO eine kurze Zusammenfassung 
+der Erwägungen enthalten, auf denen die Entscheidung in tatsächli-
+cher und rechtlicher Hinsicht beruht. 
+ 
+2. Urteilsstil  
+ 
+Die Entscheidungsgründe sind im Urteilsstil zu schreiben. Ein häufiger 
+Klausurmangel besteht darin, dass der Urteilsstil in den Entschei-
+dungsgründen nicht genutzt oder nicht konsequent durchgehalten 
+wird. 
+ 
+Beim Urteilsstil steht das Ergebnis – im Gegensatz zum Gutachtenstil 
+– am Anfang. Im Anschluss folgt eine Begründung dieses Ergebnis-
+ses. Setzt sich das Gesamtergebnis aus mehreren Teilstücken zu-
+sammen, sind diese hintereinander wiederum im Urteilsstil abzu han-
+deln und jeweils mit Obersätzen zum betreffenden Zwischenergebnis 
+zu versehen. Die einzelnen, in sich abgeschlossenen Gedankengänge 
+müssen gleichsam mit einem „Denn“ verbunden werden können – von 
+dem Bindewort „Denn“ sollte aus stilistischen Gründen freilich nur zu-
+rückhaltend Gebrauch gemacht werden. Innerhalb der Entschei-
+dungsgründe sollte der Weg der Subsumtion stets nachvollziehbar 
+bleiben. Beispiel: 
+ 
+• „Die Klage ist begründet. 
+• (Denn) 
+• Dem Kläger steht gegen den Beklagten wegen der Beschädigung 
+seines Pkw ein Schadensersatzanspruch in Höhe von 1.000,00 
+90 § 313 Abs. 1 
+Nr. 6 ZPO 
+91 Aufgabe 
+92 Urteilsstil 
+93 
+Beispiel 94 
+
+===== SEITE 41 =====
+E. Entscheidungsgründe 37 
+ 
+   
+EUR  aus § 823 Absatz 1 BGB zu.  
+• (Denn) 
+• Der Beklagte hat das Eigentum des Klägers am Pkw dadurch 
+verletzt, dass er ... 
+• ...“ 
+ 
+3. Zitate  
+ 
+In Klausuren sollte nicht zitiert werden. Das Zitat ersetzt aus Prüfer-
+sicht keine eigene Begründung. Zitiert werden  könnte – wenn über-
+haupt – nur aus den Kommentaren, die dem Referendar zur Verfü-
+gung stehen.  
+ 
+4. Gliederung  
+ 
+Um die Gründe besser lesbar zu machen, ist es vertretbar, diese mit 
+Ziffern zu gliedern. Überschriften sind zu vermeiden. Die Struktur des 
+Gedankengangs ist durch Absätze zu verdeutlichen. 
+ 
+5. Zeitform der Entscheidungsgründe 
+ 
+Zeitform der Entscheidungsgründe ist das Präsens. Beispiel: 
+ 
+• „Die Klage ist begründet; die Voraussetzungen des § 280 Abs. 1 
+BGB liegen vor ...“ 
+ 
+Für Prozessgeschichte ist die Zeitform hingegen Perfekt: 
+ 
+• „Das Sachverständigengutachten hat im Rahmen der 
+Beweisaufnahme ergeben, … Der Zeuge hat bekundet, ...“ 
+  
+Für zurückliegende Vorgänge sind Zeitformen der Vergangenheit an-
+zuwenden. 
+ 
+6. Feststellungen im Sinne von § 286 ZPO  
+ 
+ 
+Zitate 95 
+Gliederung 96 
+Zeitform 97 
+98 
+Prozessge-
+schichte 
+99 
+100 
+zurücklie-
+gende Vor-
+gänge 
+101 
+
+===== SEITE 42 =====
+E. Entscheidungsgründe 38 
+ 
+ 
+ 
+ 
+ 
+Neben der Subsumtion des feststehenden Sachverhalts unter ein-
+zelne Tatbestandsmerkmale einschließlich der Klärung von Rechtsfra-
+gen muss in den Entscheidungsgründen der Sachverhalt festgestellt 
+und bewertet werden. Es ist im Einzelnen klarzustellen, durch welche 
+konkreten Tatsachen die Tatbestandsmerkmale ausgefüllt werden. 
+Soweit dies problematisch ist, ist auch die Grundlage der Tatsachen-
+feststellung anzugeben. Daher sind unter Umständen  Ausführungen 
+zu den Fragen erforderlich, ob ein wirksames Geständnis vorliegt, wel-
+che Tatsachen zulässig bestritten oder ob Tatsachen wegen Wider-
+sprüchlichkeit, mangelnder Substanziierung, Verspätung usw. unbe-
+achtlich sind. 
+ 
+Hierzu gehören auch und vor allem Ausführungen im Sinne des § 286 
+Abs. 1 Satz 2 ZPO. Danach müssen bei einer Beweiswürdigung immer 
+die Gründe angegeben werden, die für die richterliche Überzeugung 
+leitend gewesen sind. Beispiel: 
+ 
+• „Nach dem Ergebnis der Beweisaufnahme ist bewiesen  (steht es 
+zur Überzeugung des Gerichts fest) , dass der Beklagte  den Pkw 
+des Klägers beschädigte hat. Der Zeuge Müller hat bekundet, dass 
+der Beklagte mit einem Baseballschläger auf die Frontscheibe des 
+Pkw des Klägers wuchtig eingeschlagen habe“.  
+• „Diese Aussage ist glaubhaft. Denn ...“  
+• „Der Zeuge ist auch glaubwürdig ...“  
+ 
+Ist eine Festlegung in tatsächlicher Hinsicht unproblematisch oder be-
+reits bei Erstellung des Tatbestandes vorgenommen worden, zum Bei-
+spiel, wenn  
+ 
+• eine Tatsache im Tatbestand als unstreitig dargestellt worden ist, 
+• ein überholtes Vorbringen in den Tatbestand nicht aufgenommen 
+worden ist, 
+102 
+§ 286 Abs. 1 
+Satz 2 ZPO 
+103 
+Beispiel 104 
+105 
+106 
+
+===== SEITE 43 =====
+E. Entscheidungsgründe 39 
+ 
+   
+ 
+sind nähere Ausführungen in den Entscheidungs gründen nicht erfor-
+derlich.  
+ 
+Hat sich der Beklagte auf Einreden im Sinne der ZPO berufen, 54 ge-
+hört auch die Auseinandersetzung mit diesen in die Entscheidungs-
+gründe. Bei einem positiven Ausgang des Rechtsstreits für den Kläger 
+ist nur das Merkmal der Einredenorm zu behandeln, das verneint wird. 
+Die anderen Merkmale dieser Norm gehören hingegen n icht zu den 
+tragenden Gründen. Fehlen mehrere Merkmale der Einredenorm, ist 
+dasjenige zu erörtern, das am leichtesten verneint werden kann. 
+ 
+Verteidigt sich der Kläger seinerseits erfolgreich gegen eine Einrede 
+des Beklagten, kann offengelassen werden, ob die Voraussetzungen 
+der Einredenorm des Beklagten zu bejahen sind. Hier reicht die Fest-
+stellung aus, dass der Einrede des Beklagten die Einrede des Klägers 
+entgegensteht. Allerdings sind alle Tatbe standsmerkmale dieser Ein-
+rede abzuhandeln. 
+ 
+7. Gewichtung 
+ 
+In den Entscheidungsgründen sollte die Gewichtung der Probleme 
+stimmen. Nicht selten wird die praktische Brauchbarkeit der Entschei-
+dungsgründe herabgesetzt, wenn umfänglich nicht ent scheidungser-
+hebliche Gesichtspunkte erörtert werden. Unproblematisches muss 
+kurz abgehandelt oder ganz weggelassen werden. Zu einer Frage, die 
+für das Verfahren von zentraler Bedeutung ist und zu der es e ntspre-
+chenden Parteivortrag gibt, muss das Gericht in den Entscheidungs-
+gründen Stellung nehmen. Ver säumt das Gericht dies , liegt darin ein 
+ 
+ 
+54  Alle Tatsachen, die den Tatbestand einer Gegennorm ausfüllen, wie 
+rechtshindernde und rechtsvernichtende Einwendungen sowie Einre-
+den im Sinne des  materiellen Re chts, die erhoben werden müssen, 
+zum Beispiel Verjährung. 
+107 
+108 
+109 
+Gewichtung 110 
+
+===== SEITE 44 =====
+E. Entscheidungsgründe 40 
+ 
+ 
+ 
+ 
+ 
+Verstoß gegen den Anspruch auf rechtliches Gehör (Art. 103 Abs. 1 
+GG). Denn ein solcher Verstoß liegt auch bei einem Umstand vor, aus 
+dem sich klar ergibt, dass das Gericht nicht seiner Pflicht nachgekom-
+men ist, entscheidungserhebliche Ausführungen der Bet eiligten zur 
+Kenntnis zu nehmen oder in Erwägung zu ziehen. Das Gericht ist aber 
+nicht verpflichtet, sich mit jedem einzelnen Vorbringen und jeder Zeu-
+genäußerung ausdrücklich in den Entscheidungsgründen auseinan-
+derzusetzen. Übersicht: 
+ 
+• Auf Rechtsansichten, die keinen Einfluss auf den Rechtsstreit 
+haben, ist nicht einzugehen. 
+• Rechtsansichten müssen (unter Einbeziehung von 
+Meinungsstreitigkeiten) erörtert werden, wenn es für die 
+Entscheidung darauf ankommt (in einer Klausur rät sich indes, die 
+dort explizit aufgeworfenen Rechtsfragen sämtlich zu behandeln). 
+ 
+II. Aufbau der Entscheidungsgründe 
+1. Einführung 
+ 
+In einem Urteil folgen nach dem Tatbestand gemäß § 313 Abs. 3 ZPO 
+die Entscheidungsgründe. Nach der in der Praxis üblichen Binnen-
+struktur der Entscheidungsgründe steht an ihrem Anfang die Antwort 
+auf die Frage, ob die Klage zulässig ist (Zulässigkeit). Ist diese Frage 
+zu verneinen, ergeht ein Prozessurteil. Kann diese Frage aber bejaht 
+werden, ist darzustellen, ob die Klage vollstän dig oder teilweise be-
+gründet ist (Begründetheit). 
+ 
+Das Ergebnis der jeweiligen Prüfungen muss in einem kurzen Einlei-
+tungssatz am Beginn der Entscheidungsgründe gleich nach der Über-
+schrift „Entscheidungsgründe“ dargestellt werden. Beispiele: 
+ 
+ 
+• „Die zulässige Klage ist begründet.“ 
+Übersicht 111 
+Aufbau 112 
+Einleitungs-
+satz 
+113 
+Beispiele 114 
+
+===== SEITE 45 =====
+E. Entscheidungsgründe 41 
+ 
+   
+• „Die Klage ist zulässig und begründet.“ 
+• „Die Klage ist zulässig (I.) und begründet (II.).“ 
+• „Die Klage ist in ihrer ausgelegten Form (I.) zulässig (II.) und 
+begründet (III.).“ 
+• „Die zulässige Klage ist in dem aus dem Tenor ersichtlichen 
+Umfang begründet.“ 
+• „Die zulässige Klage ist unbegründet.“ 
+• „Die Klage ist bereits im Hauptantrag begründet.“ 
+• „Die Klage ist zulässig und überwiegend begründet.“ 
+• „Die Klage ist zulässig und teilweise begründet“. 
+ 
+In besonderen Fällen müssen freilich noch vor der Zulässigkeit be-
+stimmte Fragen gleichsam „vor die Klammer“ gezogen werden. Von 
+ihrer Beantwortung hängt nämlich ab, ob und gegebenenfalls wie die 
+weitere Prüfung läuft. 
+ 
+2. Unklare Anträge 
+ 
+Es ist vorstellbar, dass zu Beginn der Entscheidungsgründe und noch 
+vor Zulässigkeit und Begründetheit der Antrag oder die Klageanträge 
+auszulegen sind. Denn nur wenn vom Gericht festgestellt ist, über wel-
+chen Antrag zu entscheiden ist, können Zulässigkeits - und Begrün-
+detheitsfragen erörtert werden. Eine in diesem Sinne notwendige Aus-
+legung ist vor allem vorstellbar bei: 
+ 
+• Unklarheiten über die gewählte Klageart (zum Beispiel Auslegung 
+des Feststellungs - in einen Gestaltungsantrag [häufig bei § 767 
+ZPO] oder Umdeutung einer einseitig gebliebenen 
+Erledigungserklärung in eine Erledigungsfeststellungsklage) 
+• Bei Unklarheiten wegen des Verhältnisses mehrerer Anträge 
+untereinander. 
+• Bei der Reaktion der Parteien auf Rücknahmen, Erledigungen etc. 
+ 
+In einem solchen Fall kann etwa wie folgt formuliert werden: 
+ 
+Ausnahmen 115 
+unklarer An-
+trag 
+116 
+Überblick 117 
+118 
+
+===== SEITE 46 =====
+E. Entscheidungsgründe 42 
+ 
+ 
+ 
+ 
+ 
+„Entscheidungsgründe 
+ 
+Der Antrag des Klägers [ ggf. Wiedergabe des Antrages] ist 
+dahingehend auszulegen, dass er (...). Für diese Auslegung spricht, 
+dass [Begründung für das Ergebnis der Auslegung].“  
+ 
+[Es folgen: Zulässigkeit und gegebenenfalls Begründetheit]. 
+ 
+3. Prüfung eines Rechtsbehelfs/Rechtsmittels 
+ 
+Im Aufbau vor die Prüfung der Zulässigkeit und Begründetheit einer 
+Klage ist stets auch die Prüfung eines Rechtsbehelfs oder Rechtsmit-
+tels, zum Beispiel eines Einspruchs oder einer Berufung abzuhandeln. 
+ 
+Zu prüfen ist dabei neben der Statthaftigkeit des gewählten Mittels 
+(Frage: Kann gegen die jeweilige gerichtliche Entscheidung gerade 
+dieses Rechtsmittel oder dieser Rechtsbehelf genutzt werden?), ob 
+das Mittel form - und fristgerecht – gegebenenfalls in Verbindung mit 
+einem Antrag auf Wiedereinsetzung in den vorigen Stand – eingelegt 
+wurde. Die in der Klausur am häufigsten notwendige Prüfung eines 
+Einspruchs kann zum Beispiel so dargestellt werden: 
+ 
+• „Der Einspruch der Beklagten gegen das Versäumnisurteil vom 23. 
+Mai 2025 ist zulässig und insbesondere rechtzeitig innerhalb der 
+Zweiwochenfrist des § 339 Abs. 1 ZPO eingelegt. ...“ 
+ 
+4. Weitere vorzuziehende Punkte 
+ 
+Im Aufbau vor die Prüfung der Zulässigkeit und Begründetheit einer 
+Klage gehören u.a. auch die Prüfung der Wirksamkeit eines Prozess-
+vergleichs (ist ein zuvor geschlossener Prozessvergleich wirksam, 
+kann ein im Vergleich vollständig enthaltener Streitgegenstand nicht 
+weiterverfolgt werden) und einer Klageänderung (nur wenn feststeht, 
+Beispiel 119 
+Prüfung ei-
+nes Rechts-
+behelfs/ 
+Rechtsmit-
+tels 
+120 
+Prüfungsge-
+genstände 
+121 
+Beispiel 122 
+weitere vor-
+zuziehende 
+Punkte 
+123 
+
+===== SEITE 47 =====
+E. Entscheidungsgründe 43 
+ 
+   
+welcher Antrag vom Kläger verfolgt wird, kann dessen Zulässigkeit 
+und Begründetheit geprüft werden). 
+ 
+III. Sachurteilsvoraussetzungen 
+1. Allgemeines 
+ 
+Sind sämtliche „Aufbaufragen“ geklärt, steht zu Beginn der Entschei-
+dungsgründe die Frage, ob die erhobene Klage in dem gegebenen-
+falls vorher ausgelegten „Kleid“ zulässig ist. Nur selten wird eine Klage 
+im Assessorexamen insgesamt unzulässig sein. Da sich die wesentli-
+chen Probleme einer Assessorklausur häufig in der Begründetheit 
+„verstecken“, ist die Zulässigkeit oftmals nur „abzuhaken“. Eine unzu-
+lässige Klage, die verhindert, zu materiell-rechtlichen Fragen Stellung 
+zu nehmen, ist eine Ausnahme. 
+ 
+2. Kein Zulässigkeitsproblem 
+ 
+Taucht also kein Zulässigkeitsproblem auf, reicht es völlig aus, knapp 
+festzustellen, dass die Klage zulässig ist – oder es ist sogar sofort mit 
+der Begründetheit der Klage zu beginnen. Breitere Ausführungen zu 
+unproblematischen Bereichen fallen negativ auf. Beispiele für Kurzfor-
+men: 
+ 
+• Längere Version: „Die Klage ist zulässig. Insbesondere ist das 
+angerufene Gericht nach § 1 ZPO, §§ 23 Nr. 1, 71 Abs. 2  GVG 
+sachlich und nach §§ 12, 13 ZPO örtlich zuständig. Sie ist auch 
+begründet. …“  
+• Kurzform: „Die zulässige Klage ist begründet.“ (Es ist ausreichend 
+angedeutet, dass dem Referendar die Fragen der Zulässigkeit 
+geläufig sind, er sie geprüft sowie hier als unproblematisch bejaht 
+hat). 
+ 
+3. Ausnahmen 
+ 
+Die Zulässigkeit einer Klage ist zu problematisieren, wenn eine Sach-
+urteilsvoraussetzung nach dem Sachverhalt oder der Rechtslage im 
+Sachurteils-
+vorausset-
+zungen 
+124 
+kein Zuläs-
+sigkeitsprob-
+lem 
+125 
+Beispiele 126 
+Ausnahmen 127 
+
+===== SEITE 48 =====
+E. Entscheidungsgründe 44 
+ 
+ 
+ 
+ 
+ 
+Einzelfall zweifelhaft ist ( zum Beispiel eine fragliche Zuständigkeit, 
+entgegenstehende Rechtshängigkeit oder Rechtskraft) oder wenn die 
+Zulässigkeit unter den Parteien umstritten ist. Bei Klausuren aus dem 
+Gebiet der Zwangsvollstreckung werden regelmäßig Ausführungen 
+zur Zulässigkeit der Klage angebracht sein (etwa zur Statthaftigkeit 
+des Rechtsbehelfs, zum Rechtsschutzbedürfnis und zur Zuständigkeit 
+des Gerichts wegen § 802 ZPO). 
+ 
+Streiten die Parteien nämlich über die Frage, ob eine Sachurteilsvo-
+raussetzung vorliegt oder nicht, dürfen sie hierzu in den Entschei-
+dungsgründen eine klärende Antwort erwarten – auch wenn der Punkt 
+in Wahrheit unproblematisch ist. 
+ 
+4. Besondere Sachurteilsvoraussetzungen 
+ 
+Gibt es besondere Sachurteilsvoraussetzungen, etwa bei einem Fest-
+stellungsantrag das Feststellungsinteresse, sind diese wenigstens 
+kurz abzuhandeln. Die notwendige Kurzprüfung kann dabei etwa so 
+aussehen: 
+ 
+• „Auch das nach § 256 Abs. 1  ZPO erforderliche 
+Feststellungsinteresse ist gegeben. Denn der Kläger hat bei Eintritt 
+eines erledigenden Ereignisses keine andere Möglichkeit als die 
+Feststellungsklage, um von den Kosten des Rechtsstreits befreit 
+zu werden“. 
+ 
+IV. Begründetheit 
+1. Allgemeines 
+ 
+In einem kurzen Einleitungssatz  sollte das Ergebnis der materiell -
+rechtlichen Prüfung knapp vorgestellt werden. Bei einer unschlüssigen 
+Klage genügt es, allein auf den Klägervortrag einzugehen. Ausführun-
+gen zu dem Vortrag des Beklagten sind dann entbehrlich. 
+Streit 128 
+129 
+Beispiel 130 
+kurzer Ein-
+leitungssatz 
+131 
+
+===== SEITE 49 =====
+E. Entscheidungsgründe 45 
+ 
+   
+ 
+Ist eine Klage durch mehrere Anspruchsgrundlagen begründet, so ha-
+ben sich die Ausführungen auf die am leichtesten begründbare An-
+spruchsgrundlage – also auf eine – zu beschränken. Im Examen ist 
+auf den Bearbeitungsvermerk zu achten. Zum Teil sind ausgeschie-
+dene Anspruchsgrundlagen hilfsgutachterlich zu erläutern. 
+ 
+Bei Klageabweisung sind hingegen alle ernsthaft in Betracht kommen-
+den Anspruchsgrundlagen zu erörtern. 
+ 
+2. Hauptanspruch 
+a. Begründete Klage 
+ 
+In einem kurzen und einfachen Einleitungssatz sollte das Ergebnis 
+des Prozesses unter Nennung der entscheidungs erheblichen An-
+spruchsnorm (gegebenenfalls auch des entsprechenden Vertrages) 
+genannt werden. Dass gegebenenfalls auch andere Anspruchsgrund-
+lagen zu demselben Ergebnis führen, interessiert nicht. Beispiel: 
+ 
+• „Die Klägerin hat einen Anspruch auf Zahlung von 5.000,00  EUR 
+aus dem am 21. Mai 2025 zwischen den Parteien geschlossenen 
+Kaufvertrag in Verbindung mit § 433 Absatz 2 BGB.“ 
+ 
+Innerhalb der bejahten Anspruchsgrundlage müssen alle Tatbe-
+standsmerkmale, auch wenn einzelne von ihnen unproblematisch 
+sind, erörtert werden. Nur das Vorliegen aller Tatbestandsmerkmale 
+ergibt den betreffenden Anspruch. Un problematische Merkmale sind 
+allerdings so kurz wie möglich darzustellen, gegebenenfalls zusam-
+menfassend in einem Satz.  
+ 
+Die Anspruchsnorm ist Merkmal für Merkmal durchzuprüfen. Aufbau: 
+ 
+• Anspruch entstanden? 
+a) Merkmal A 
+b) Merkmal B 
+mehrere An-
+spruchs-
+grundlagen 
+132 
+133 
+eine An-
+spruchs-
+grundlage 
+134 
+Beispiel 135 
+136 
+Aufbau 137 
+Aufbau 138 
+
+===== SEITE 50 =====
+E. Entscheidungsgründe 46 
+ 
+ 
+ 
+ 
+ 
+c) Merkmal C 
+ 
+• Anspruch erloschen? 
+a) zum Beispiel Erfüllung? 
+b) zum Beispiel unbedingte Aufrechnung? 
+ 
+• Anspruch durchsetzbar? 
+a) zum Beispiel Verjährung? 
+b) zum Beispiel Stundung? 
+ 
+• Anspruch erloschen durch Hilfsaufrechnung? 
+ 
+b. Unbegründete Klage 
+ 
+Ist eine Klage abzuweisen, müssen alle ernsthaft in Betracht kommen-
+den oder vom Kläger geltend gemachten Anspruchsgrundlagen be-
+handelt und verneint werden. Dabei ist aber jeweils nur das zu vernei-
+nende Tatbestandsmerkmal darzustellen, hingegen sind nicht alle Tat-
+bestandsmerkmale zu erörtern. Auch hier ist bei mehreren negativen 
+Merkmalen grundsätzlich das auszuwählen, das am leichtesten abge-
+handelt werden kann. Ausführungen, auf die es für die eigene Lösung 
+nicht ankommt, entsprechen nicht dem gebotenen Urteilsstil. Zu be-
+achten ist aber der übliche Bearbeitungsvermerk, wonach alle im 
+Sachverhalt angesprochenen Rechtsprobleme – ggf. in Form hilfswei-
+ser Entscheidungsgründe – zu erörtern sind. Um hilfsweise Erörterun-
+gen zu vermeiden, dürfen kurze, nicht entscheidungserhebliche Aus-
+führungen ausnahmsweise im Urteil selbst dargestellt werden. Eine 
+längere Erörterung solcher Fragen – ggf. mit Darstell ung des Streit-
+standes – sollte aber in den hilfsweisen Entscheidungsgründen statt-
+finden. Keinesfalls darf im Urteil eine Beweiswürdigung vorgenommen 
+werden, wenn es auf diese nach der eigenen Lösung nicht ankommt. 
+ 
+ernsthaft in 
+Betracht 
+kommende 
+Anspruchs-
+normen 
+139 
+
+===== SEITE 51 =====
+E. Entscheidungsgründe 47 
+ 
+   
+Wird eine Klage abgewiesen, weil eine Einrede im Sinne der ZPO ein-
+greift, interessiert es grundsätzlich 55 nicht, ob die anspruchsbegrün-
+denden Tatsachen vorliegen. In diesem Fall ist die Anspruchsgrund-
+lage nur mit der Einredenorm zu verneinen, wobei alle einredebegrün-
+denden Merkmale erörtert werden müssen, und zwar auch diejenigen, 
+die unproblematisch sind. Erhebt der Kläger seinerseits gegenüber 
+der Einrede des Beklagten erfolglos eine Einrede, ist auc h diese ab-
+zuhandeln. Insoweit beschränken sich jedoch die Erörterungen auf 
+das Merkmal, das verneint wird. Allgemeiner Aufbau: 
+ 
+• Vertrag 
+• quasivertragliche Ansprüche 
+• dingliche Ansprüche  
+• Delikt 
+• ungerechtfertigte Bereicherung 
+ 
+3. Nebenforderungen 
+ 
+Innerhalb der Begründetheit darf nicht vergessen werden, auf die Ne-
+benforderungen angemessen (zumindest summarisch) einzugehen. 
+Der Umfang der Begründung hängt vom Einzelfall ab. Ist zum Beispiel 
+der Verzugsbeginn problematisch, gehören hierzu Ausführungen in 
+die Entscheidungsgründe. Beispiel: 
+ 
+• „Der zuerkannte Zinsanspruch rechtfertigt sich unter dem 
+Gesichtspunkt des Verzuges, §§ 286 Abs. 1 Satz  1, 288 Abs. 1 
+Satz 2 BGB. Entgegen der Ansicht des Beklagten trat Verzug 
+bereits am ... ein. Denn das Schreiben der Klägerin vom ... ist als 
+Mahnung zu qualifizieren. E s enthält eine ernsthafte und 
+hinreichend bestimmte Zahlungsaufforderung“.  
+ 
+V. Prozessuale Nebenentscheidungen 
+ 
+ 
+ 
+55  Ausnahme: Aufrechnung, wegen der zu prüfenden Aufrechnungslage.  
+Einreden im 
+Sinne der 
+ZPO 
+140 
+Aufbau 141 
+Nebenforde-
+rungen 
+142 
+Beispiel 143 
+
+===== SEITE 52 =====
+E. Entscheidungsgründe 48 
+ 
+ 
+ 
+ 
+ 
+Zu den prozessualen Nebenentscheidungen gehören die Begründung 
+der Kostenentscheidung sowie die Begründung der Entscheidung 
+über die vorläufige Vollstreckbarkeit. Zum Teil ist auch zu begründen, 
+warum ein Rechtsmittel vom Gericht zu- oder nicht zugelassen worden 
+ist. 
+ 
+1. Kostenentscheidung 
+ 
+Die Kostenentscheidung beurteilt sich zumeist nach §§ 91 bis  101, 
+269 Abs. 3, 281 Abs. 3, 344 ZPO. In der Regel genügt zur Begründung 
+der Kostenentscheidung ein Zitat der gesetzlichen Normen, auf denen 
+die Entscheidung beruht. Beispiel: 
+ 
+• „Die Kostenentscheidung beruht auf § 91 Abs. 1 Satz 1 ZPO.“ 
+ 
+Ergibt sich die Kostenentscheidung ausnahmsweise nicht ohne weite-
+res aus dem Gesetz, muss sie begründet werden. Das ist zum Beispiel 
+bei einer Entscheidung nach § 92 Abs. 2 ZPO oder bei einer überein-
+stimmenden Teilerledigungserklärung oder bei einem teilweisen Aner-
+kenntnis der Fall. In diesem Fall muss die Kosten entscheidung – so-
+weit sie sich auf §§ 91a, 93 ZPO stützt – begründet werden. Dies findet 
+seinen Grund darin, dass zum Beispiel die auf §§ 91a, 93 ZPO beru-
+henden Entscheidungen gesondert angefochten  werden kann. Bei-
+spiel: 
+ 
+• „Soweit die Parteien den Rechtsstreit in der Hauptsache wegen 
+des Austauschs der Fenster in der Küche und der Abdichtung der 
+Terrasse für erledigt erklärt haben, sind dem Beklagten die Kosten 
+aufzuerlegen. Nach § 91 a Abs. 1  ZPO ist eine 
+Billigkeitsentscheidung nach dem bisherigen Sach- und Streitstand 
+zu treffen. Nach der derzeitigen Sach - und Rechtslage hätte die 
+Klage voraussichtlich Erfolg gehabt. Der Beklagte war unstreitig 
+Nebenent-
+scheidungen 
+144 
+Kostenent-
+scheidung 
+145 
+Beispiel 146 
+147 
+Beispiel 148 
+
+===== SEITE 53 =====
+E. Entscheidungsgründe 49 
+ 
+   
+bereits vor Rechtshängigkeit verpflichtet, die Schäden an den 
+Fenstern und an der Terrasse zu beheben [ist weiter 
+auszuführen].“ 
+ 
+Ähnliche Probleme können sich bei Kostenentscheidung en gemäß 
+§ 269 Abs. 3 Satz 2 bzw. Satz 3 ZPO ergeben. 
+ 
+2. Vorläufige Vollstreckbarkeit 
+ 
+Entscheidungen über die vorläufige Vollstreckbarkeit des Urteils fol-
+gen aus §§ 708, 709, 711, 713 ZPO. In der Regel genügt auch hier 
+ein Zitat. Beispiel: 
+ 
+• „Die Entscheidung über die vorläufige Vollstreckbarkeit folgt aus 
+§§ 708 Nr. 11, 711 ZPO.“ 
+ 
+3. Entscheidung über eine Räumungsfrist 
+ 
+Nach § 721 Abs. 1 ZPO kann auf Antrag oder von Amts wegen bei 
+Räumung von Wohnraum über eine Räumungsfrist zu entscheiden 
+sein. Diese Entscheidung ist kurz zu begründen. 
+ 
+  
+vorläufige 
+Vollstreck-
+barkeit 
+149 
+Beispiel 
+150 
+
+===== SEITE 54 =====
+E. Entscheidungsgründe 50 
+ 
+ 
+ 
+ 
+ 
+4. Zulassung von Rechtsmitteln 
+ 
+Zu den prozessualen Nebenentscheidungen gehört auch die Zu- oder 
+Nichtzulassung eines Rechtsmittels, beim Amtsgericht stets der Beru-
+fung. Ist vom Amtsgericht die Berufung oder vom Berufungsgericht die 
+Revision zuzulassen, sollte dies bereits im Tenor deutlich ausgespro-
+chen werden. Die Begründung folgt dann in den Nebenentscheidun-
+gen. Wird ein Rechtsmittel nicht zugelassen, sollte dies zumindest in 
+den Entscheidungsgründen anklin gen. Auch diese Begründung wird 
+dann im Rahmen der Nebenentscheidungen gegeben, wird in der Pra-
+xis aber häufig weggelassen. 
+ 
+5. Rechtsbehelfsbelehrung 
+ 
+Nach § 232 ZPO muss jede anfechtbare gerichtliche Entscheidung mit 
+einer Rechtsbehelfsbelehrung versehen werden, sofern in dem Ver-
+fahren kein Anwaltszwang (§ 78 ZPO) besteht. Mithin muss ein Urteil 
+des Amtsgerichts stets selbst bei anwaltlicher Vertretung mit einer 
+Rechtsbehelfsbelehrung versehen werden, wenn ein Rechtsmittel ge-
+geben ist. Die Rechtsbehelfsbelehrung ist Bestandteil des Urteils und 
+muss damit von der Richterunterschrift gedeckt sein.  
+ 
+In der Klausur wird die Rechtsbehelfsbelehrung nach dem Bearbei-
+tungsvermerk in der Regel erlassen oder nur die Benennung des 
+Rechtsmittels verlangt. 
+Rechtsmittel 151 
+ 
+152 
+153 
