@@ -1,45 +1,46 @@
 # Jurabrief
 
-Mo/Mi/Fr-Brief für die 2. Staatsprüfung (Sachsen-Anhalt), Ziel April.
+Mo/Mi/Fr-Brief für die 2. Staatsprüfung (Sachsen-Anhalt), Ziel April 2027.
 
-## Was wiederhergestellt ist — und was nicht
+## Ablauf
 
-Der unterbrochene Chat hat **keinen** geparsten Volltext und **kein** Feedback-System ins Repo geschrieben.
-Wiederhergestellt aus dem, was wirklich da war:
-- 12 Themen aus den Berliner Inhaltsverzeichnissen (`cases.json`)
-- Generator + Open-Legal-Data-Suche
-- Mail: erst Urteil lesen, dann Skript-Aufgabe
+**Montag / Mittwoch / Freitag, 07:00** — `jurabrief.yml`
+1. Adaptiver Plan wählt den Fall (Phase + FSRS-Fälligkeit + Gewicht).
+2. Open Legal Data sucht ein verwandtes Urteil (ab 2019, nicht identisch).
+3. Mail: **Teil 1 Lesen** (Urteil + Lesehinweis) → **Teil 2 Aufgabe** (Skript-Fall lösen).
+4. Versand von deinem Gmail-Account an `JURABRIEF_TO`.
 
-Neu aufgesetzt (diese Commit):
-- PDF-Volltext-Extractor für die öffentlichen Berlin-Skripte
-- Lernplan-Phasen bis 30.04.2027
-- Adaptives Feedback: Antwortmail mit `SCORE: 1-5` verschiebt die Gewichte
+**Dienstag / Donnerstag, 19:00** — `jurabrief-antwort.yml`
+1. IMAP liest die Antwortmail (`SCORE: 1-5` + Lösungstext).
+2. `grade_solution.py` bewertet die Klausur über Claude (Punkte, Lücken, Muster).
+3. FSRS-Scheduler (`fsrs_scheduler.py`) plant die nächste Wiederholung.
+4. Auswertung-Mail mit Stärken, Lücken, Verbesserung, nächstem Termin.
 
-## PDFs komplett auslesen
+## Daten
 
-Lokal oder in Actions:
+| Datei | Rolle |
+|---|---|
+| `cases.json` | 12 Themen aus Berliner Skript-Inhaltsverzeichnissen |
+| `extracted/*.txt` | Volltexte der 11 Berlin-PDFs (via Action) |
+| `lernplan.json` | 3 Phasen bis 30.04.2027 |
+| `progress.json` | Gewichte + Feedback-Historie |
+| `fsrs_cards.json` | FSRS-Karten pro Fall (Stabilität, Due-Datum) |
+| `last_grade.json` | letzte Klausur-Bewertung |
+
+## Secrets
+
+- `ANTHROPIC_API_KEY` — Claude für Lesehinweis, Bewertung, Musterlösung
+- `GMAIL_ADDRESS` + `GMAIL_APP_PASSWORD` — Versand + IMAP-Empfang
+- `JURABRIEF_TO` — Empfängerin (deine Freundin)
+
+## Lokal testen
 
 ```
-pip install pypdf
-python jurabriefe/extract_skripte.py
+pip install -r requirements.txt
+python jurabriefe/generate_jurabrief.py          # Brief bauen (ohne Mail, wenn keine Secrets)
+python jurabriefe/fsrs_scheduler.py due           # fällige Fälle
+python jurabriefe/adaptive_plan.py               # nächster Fall + Grund
 ```
 
-Schreibt `jurabriefe/extracted/<id>.txt` plus `index.json`.
-Die Berlin-PDFs sind echte Text-PDFs, kein Scan — pypdf reicht.
-Deine Sachsen-Anhalt-Scans kommen als Datei dazu (OCR, falls nötig).
-
-## Feedback-Loop
-
-Sie antwortet auf die Mail:
-
-```
-SCORE: 3
-
-<ihre Lösung>
-```
-
-`ingest_feedback.py` liest per IMAP die Inbox, speichert die Antwort,
-hebt das Gewicht bei SCORE 1–2 (nochmal üben) und senkt es bei 4–5.
-
-Workflow: nach dem Versand optional denselben Job mit Ingest laufen lassen,
-oder einen zweiten Cron (z. B. abends).
+Landesrecht Sachsen-Anhalt (VerwR) kommt später aus deinen Scans rein — einfach
+in `cases.json` ergänzen, der Rest bleibt unverändert.

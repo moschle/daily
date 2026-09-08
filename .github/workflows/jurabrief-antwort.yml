@@ -1,0 +1,56 @@
+name: Jurabrief-Antwort
+
+on:
+  schedule:
+    # Di & Do um 19:00 Berlin (17:00 UTC) — Zwischentage nach Mo/Mi/Fr
+    - cron: '0 17 * * 2,4'
+  workflow_dispatch:
+
+jobs:
+  antwort:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Abhängigkeiten
+        run: pip install -r requirements.txt
+
+      - name: Antwortmails einlesen (IMAP)
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python jurabriefe/ingest_feedback.py
+
+      - name: Klausur bewerten (falls Lösung vorliegt)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -f jurabriefe/pending_solution.json ]; then
+            python - <<'PY'
+import json
+from jurabriefe.grade_solution import grade
+p = json.loads(open("jurabriefe/pending_solution.json").read())
+print(json.dumps(grade(p["case_id"], p["loesung"]), ensure_ascii=False, indent=2))
+PY
+          fi
+
+      - name: Auswertung mailen
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          JURABRIEF_TO: ${{ secrets.JURABRIEF_TO }}
+        run: python jurabriefe/send_auswertung.py
+
+      - name: State & Progress committen
+        run: |
+          git config user.name "Jurabrief Bot"
+          git config user.email "jurabrief@users.noreply.github.com"
+          git add jurabriefe/progress.json jurabriefe/fsrs_cards.json jurabriefe/state.json jurabriefe/last_grade.json || true
+          git diff --cached --quiet || git commit -m "jurabrief-antwort: $(date +%Y-%m-%d)"
+          git push || true
