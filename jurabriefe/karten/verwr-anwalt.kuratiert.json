@@ -3,13 +3,13 @@
  "karten": [
   {
    "typ": "formulierung",
-   "frage": "§ 23 Abs. 1 S. 1 RVG ist zu zitieren. Wie lautet die Norm?",
+   "frage": "Geben Sie den Wortlaut von § 23 Abs. 1 S. 1 RVG wieder.",
    "loesung": "Soweit sich die Gerichtsgebühren nach dem Wert richten, bestimmt sich der Gegenstandswert im gerichtlichen Verfahren nach den für die Gerichtsgebühren geltenden Wertvorschriften.",
    "id": "verwr-anwalt:form:001",
    "skript": "verwr-anwalt",
    "abschnitt": "01. Juli 2004 den Aufbau des Gerichtskostengesetzes (GKG) grundlegend geändert und",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 1
   }
  ]
 }

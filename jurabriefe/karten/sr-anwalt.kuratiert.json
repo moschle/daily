@@ -3,13 +3,23 @@
  "karten": [
   {
    "typ": "formulierung",
-   "frage": "Formulieren Sie einen Absatz zur Begründung der Strafaussetzung zur Bewährung nach § 56 Abs. 2 StGB aus Verteidigerperspektive. Der Mandant hat die Tat vor vier Jahren begangen, ist seitdem nicht mehr straffällig geworden, war zuvor unbestraft und hat ein Geständnis abgelegt sowie Wiedergutmachungsleistungen erbracht.",
+   "frage": "Formulieren Sie einen Absatz für ein Plädoyer zur Strafaussetzung zur Bewährung nach § 56 Abs. 2 StGB. Die Tat liegt vier Jahre zurück, der Angeklagte ist seitdem nicht rückfällig geworden und war zuvor unbestraft. Er hat ein Geständnis abgelegt und Wiedergutmachungsleistungen erbracht.",
    "loesung": "Die Strafaussetzung zur Bewährung ist nach § 56 Abs. 2 StGB gerechtfertigt, weil sowohl eine positive Prognose sowie besondere Umstände vorliegen. Die positive Prognose begründet sich vorliegend schon allein daraus, dass die Tat nunmehr vier Jahre zurück liegt und der Angekl. seitdem nicht weiter straffällig geworden und auch zuvor unbestraft war… Die besonderen Umstände können sich auf das Geständnis und die Wiedergutmachungsleistungen stützen, mit denen der Angeklagte deutlich macht, dass er Verantwortung übernommen hat…",
    "id": "sr-anwalt:form:001",
    "skript": "sr-anwalt",
    "abschnitt": "I. Der Aufbau des Gutachtens › III. Das Verteidigungsziel",
    "rn": "13",
    "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie einen Urteilsauszug für eine Haftbeschwerde. Das Landgericht hat im Vorverfahren wegen Betrugs verurteilt. Beim Brandort wurden Rückstände eines Brandbeschleunigers festgestellt, eine Beteiligung des Angeklagten ließ sich jedoch nicht nachweisen.",
+   "loesung": "Im Rahmen der Ermittlungen wegen Brandstiftung – beim Brandort wurden Rückstände eines Brandbeschleunigers festgestellt – konnte dem Angeklagten eine Beteiligung hieran nicht nachgewiesen werden.",
+   "id": "sr-anwalt:form:002",
+   "skript": "sr-anwalt",
+   "abschnitt": "I. Unabhängig von der Frage, ob die bisherigen Ermittlungsergebnisse für die",
+   "rn": "62",
+   "gewicht": 2
   }
  ]
 }

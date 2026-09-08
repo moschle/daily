@@ -2,13 +2,53 @@
  "skript": "revision",
  "karten": [
   {
-   "typ": "formulierung",
-   "frage": "Formulieren Sie den Ausschließungsbeschluss nach § 247 S. 2 StPO, mit dem der Angeklagte für die Dauer der Zeugenvernehmung der Geschädigten W. aus dem Sitzungssaal entfernt wird.",
-   "loesung": "Gemäß § 247 S. 2 StPO wird der Angeklagte für die Dauer der weiteren Vernehmung der Zeugin W. ausgeschlossen, um einer Retraumatisierung entgegenzutreten und einen weiteren psychischen Schaden für die Zeugin zu verhindern.",
-   "id": "revision:form:026",
+   "typ": "fall",
+   "frage": "A geht zur Geschäftsstelle des Amtsgerichts, um zu Protokoll Revision einzulegen. Er trifft keinen Urkundsbeamten, sondern nur den Abteilungsrichter an, der die Revisionserklärung protokolliert. Ist die Revision ordnungsgemäß eingelegt?",
+   "loesung": "7 Daneben besteht die Möglichkeit der unbestimmten Anfechtung: Ist gegen ein Urteil statt Berufung auch Revision zulässig, so kann es angefochten werden, ohne dass das konkrete Rechtsmittel bezeichnet wird. Bis zum Ablauf der Revisionsbegründungsfrist (§ 345 Abs. 1 StPO) hat der Rechtsmittelführer die Möglichkeit zu entscheiden, ob das Rechtsmittel als Berufung oder Revision behandelt werden soll. Schließlich können in einigen Fällen erst nach Vorliegen des Protokolls bzw. der schriftlichen Urteilsgründe, vgl. § 275 Abs. 1 StPO, die Erfolgsaussichten einer Revision beurteilt werden. Geht innerhalb der Revisionsbegründungsfrist keine Erklärung ein, so wird das Rechtsmittel als Berufung behandelt, um den Instanzenzug nicht zu verkürzen. Da Berufung und Revision nebeneinander nur bei Urteilen des Amtsgerichts möglich sind, stellt sich dieses Problem nie, wenn das Landgericht erstinstanzlich entschieden hat. Nach Berufungseinlegung ist innerhalb der Revisionsbegründungsfrist (§ 345 Abs. 1 StPO) der Übergang zur Revision zulässig, ebenfalls innerhalb dieser Frist auch der Übergang von Revision zu Berufung.",
+   "id": "revision:fall:003",
    "skript": "revision",
-   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
-   "rn": "35",
+   "abschnitt": "I. Rechtsmittelberechtigte › III. Anfechtungserklärung",
+   "rn": "6",
+   "gewicht": 3
+  },
+  {
+   "typ": "fall",
+   "frage": "Der Angeklagte schweigt in der Hauptverhandlung vollständig. Das Gericht wertet im Urteil sein Schweigen als Indiz für seine Täterschaft: Er müsse einen Grund zum Schweigen gehabt haben; wäre er unschuldig, könnte er reden und sich entlasten. Prüfen Sie, welche Revisionsrügen in Betracht kommen und wie sie abzugrenzen sind.",
+   "loesung": "Damit hat das Gericht gegen zwei Prinzipien verstoßen. Ein mit der Verfahrensrüge zu beanstandender Verfahrensfehler liegt darin, dass das Schweigen des Angeklagten überhaupt als ein (verwertbares) Beweismittel herangezogen wurde. Bei Totalschweigen des Angeklagten zur Sache darf nämlich nach h.M. überhaupt kein Schluss daraus gezogen werden (Unverwertbarkeit des Verhaltens des Angeklagten in diesem Fall = Verstoß gegen § 261 StPO i.V.m. Grundsatz „nemo tenetur se ipse accussare). 19 Ein mit der Sachrüge zu beanstandender (weil aus den Urteilsgründen allein ersichtlicher!) materiell-rechtlicher Fehler liegt darin, dass das Gericht aus dem Schweigen des Angeklagten einen unerlaubten Schluss zog (Verstoß gegen Denkgesetze). Hier wird als o nicht mehr beanstandet, dass das Schweigen überhaupt verwertet wird, sondern wie es verwertet wird.",
+   "id": "revision:fall:006",
+   "skript": "revision",
+   "abschnitt": "B. Revisionsbegründung, § 344 Abs. 1, Abs. 2 StPO › 3. Abgrenzung Sach-/Verfahrensrüge",
+   "rn": "18",
+   "gewicht": 3
+  },
+  {
+   "typ": "fall",
+   "frage": "A wird wegen Mordes vor dem Schwurgericht angeklagt und am Ende wegen gefährlicher Körperverletzung zu 1 Jahr 6 Monaten Freiheitsstrafe verurteilt. Liegt ein Verfahrenshindernis wegen sachlicher Unzuständigkeit des Schwurgerichts vor?",
+   "loesung": "- Verstöße gegen die örtliche und funktionelle Zuständigkeit werden vom Revisionsgericht nicht von Amts wegen geprüft. Es handelt sich um absolute Revisionsgründe gemäß § 338 Nr. 4 StPO, die nach h.M. mit einer Verfahrensrüge geltend zu machen sind .",
+   "id": "revision:fall:008",
+   "skript": "revision",
+   "abschnitt": "I. Wichtige Verfahrenshindernisse › 1. Mängel bei der sachlichen Zuständigkeit, insbesondere",
+   "rn": "22",
+   "gewicht": 3
+  },
+  {
+   "typ": "fall",
+   "frage": "Der Angeklagte hat die X-GmbH betrügerisch geschädigt. Schöffe S ist Prokurist der X-GmbH und am Gewinn beteiligt. Ist S gem. § 22 Nr. 1 StPO von der Urteilsfindung ausgeschlossen?",
+   "loesung": "28 Fall: Richter R führt den Vorsitz in einer Verhandlung gegen A wegen Anstiftung zur Abtreibung. R hatte in dem Verfahren gegen den mittlerweile rechtskräftig abgeurteilten Haupttäter als Zeuge ausgesagt. Ist R befangen? 3 Ein Richter ist in der Regel auch dann kraft Gesetzes ausgeschlossen, wenn er in einem anderen Verfahren als Zeuge zu demselben Tatgeschehen vernommen worden ist, das er jetzt abzuurteilen hätte.",
+   "id": "revision:fall:017",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO)",
+   "rn": "27",
+   "gewicht": 3
+  },
+  {
+   "typ": "fall",
+   "frage": "Richter R teilt der Presse vor der Hauptverhandlung mit, der Angeklagte habe es verstanden, durch falsche Angaben Ministerialreferent zu werden – entsprechend dem Inhalt der Anklageschrift. Kann R wegen Besorgnis der Befangenheit abgelehnt werden?",
+   "loesung": "2 BGH 2. Strafsenat, 26.07.1951, Aktenzeichen: 2 StR 251/51 3 BGH 2. Strafsenat, 29.04.1983, Aktenzeichen: 2 StR 709/82 4 BGH 3. Strafsenat, 09.02.1951, Aktenzeichen: 3 StR 48/50 5 BGH 5. Strafsenat, 09.07.1953, Aktenzeichen: 5 StR 282/53",
+   "id": "revision:fall:018",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO)",
+   "rn": "28",
    "gewicht": 3
   }
  ]
