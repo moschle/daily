@@ -3,3 +3,8 @@ __pycache__/
 .env
 gloss_state.json
 generate_morgenbrief_broken.py
+
+# lokales / Verlagsmaterial — nicht ins öffentliche Repo
+private/
+jurabriefe/karten/*.json
+!jurabriefe/karten/INDEX.md
