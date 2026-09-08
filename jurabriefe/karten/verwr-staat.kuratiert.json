@@ -1,1 +1,185 @@
-PLACEHOLDER
+{
+ "skript": "verwr-staat",
+ "karten": [
+  {
+   "typ": "formulierung",
+   "frage": "Die Klage des Nachbarn gegen eine Baugenehmigung wird abgewiesen. Der Bauherr ist beigeladen und hat sich anwaltlich vertreten lassen. Tenorieren Sie die Kostenentscheidung.",
+   "loesung": "Der Kläger trägt die Kosten des Verfahrens mit Ausnahme der außerge- richtlichen Kosten der Beigeladenen, die diese selbst trägt.",
+   "id": "verwr-staat:form:001",
+   "skript": "verwr-staat",
+   "abschnitt": "B. Die Elemente zur Gestaltung eines Rubrums und › 27. Kammer,",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Im verwaltungsgerichtlichen Eilverfahren wird der Antrag auf Gewährung vorläufigen Rechtsschutzes zurückgewiesen. Tenorieren Sie die Kostenentscheidung.",
+   "loesung": "Der Antragsteller trägt die Kosten des Verfahrens.",
+   "id": "verwr-staat:form:002",
+   "skript": "verwr-staat",
+   "abschnitt": "B. Die Elemente zur Gestaltung eines Rubrums und › 8. Januar 2025 wird zurückgewiesen.",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Im verwaltungsgerichtlichen Eilverfahren wird der Antrag zurückgewiesen, der Antragsteller trägt die Kosten. Tenorieren Sie die Streitwertfestsetzung (Streitwert: 2.500 Euro).",
+   "loesung": "Der Wert des Verfahrensgegenstandes wird auf 2.500 Euro festgesetzt.",
+   "id": "verwr-staat:form:003",
+   "skript": "verwr-staat",
+   "abschnitt": "B. Die Elemente zur Gestaltung eines Rubrums und › 8. Januar 2025 wird zurückgewiesen.",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Anfechtungsklage des Klägers hat keinen Erfolg. Tenorieren Sie das vollständige Urteil (Haupt- und Nebenentscheidungen).",
+   "loesung": "Der Kläger trägt die Kosten des Verfahrens.",
+   "id": "verwr-staat:form:004",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 1. Klageabweisung (für alle Klagearten)",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Anfechtungsklage hat Erfolg. Zugrunde liegt ein Bescheid des Bezirksamts Mitte von Berlin vom 1. Februar 2017 in der Gestalt des Widerspruchsbescheides vom 1. April 2017. Tenorieren Sie das vollständige Urteil.",
+   "loesung": "Der Bescheid des Bezirksamts Mitte von Berlin vom 1. Februar 2017 in der Gestalt des Widerspruchsbescheides dieser Behörde vom 1. Ap- ril 2017 wird aufgehoben.",
+   "id": "verwr-staat:form:005",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 2. Anfechtungsklage, Stattgabe",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Anfechtungsklage hat vollständig Erfolg. Tenorieren Sie die Kostenentscheidung.",
+   "loesung": "Der Beklagte trägt die Kosten des Verfahrens.",
+   "id": "verwr-staat:form:006",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 2. Anfechtungsklage, Stattgabe",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Tenorieren Sie den Hauptausspruch. Sachverhalt: Leistungsklage einer Behörde auf Zahlung von 6.000 €; Klage hat vollen Erfolg; Rechtshängigkeit ist eingetreten.",
+   "loesung": "Der Beklagte wird verurteilt, an den Kläger 6.000 € nebst Zinsen in Höhe von 5 Prozentpunkten über dem Basiszinssatz seit dem (Datum der Rechtshängigkeit = Klageerhebung) zu zahlen.",
+   "id": "verwr-staat:form:010",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 7. Leistungsklage, Stattgabe",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Tenorieren Sie die Kostenentscheidung. Sachverhalt: Anfechtungsklage mit Beiladung; Beigeladener hat einen Sachantrag gestellt und sich anwaltlich vertreten lassen; Klage wird abgewiesen.",
+   "loesung": "Der Kläger trägt die Kosten des Verfahrens einschließlich der außer - gerichtlichen Kosten des Beigeladenen.",
+   "id": "verwr-staat:form:012",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 8. Anfechtungsklage, Beteiligung eines Beigeladenen",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Kläger hat eine Fortsetzungsfeststellungsklage in der Anfechtungskonstellation erhoben. Die Klage hat Erfolg. Zugrunde liegt ein Bescheid vom 1. Februar 2017 in der Gestalt des Widerspruchsbescheides vom 1. April 2017. Tenorieren Sie das vollständige Urteil.",
+   "loesung": "Es wird festgestellt, dass der Bescheid des Beklagten vom 1. Februar 2017 in der Gestalt des Widerspruchsbescheides vom 1. April 2017 rechtswidrig war.",
+   "id": "verwr-staat:form:013",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 9. Stattgabe Fortsetzungsfeststellungsklage",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Klage richtet sich gegen VA 1 und VA 2 (einheitlicher Widerspruchsbescheid). Bezüglich VA 1 erklären die Beteiligten den Rechtsstreit übereinstimmend für erledigt. Bezüglich VA 2 hat die Klage keinen Erfolg. Tenorieren Sie den Hauptausspruch vollständig.",
+   "loesung": "Die Klage wird abgewiesen, soweit die Beteiligten den Rechtsstreit nicht übereinstimmend für erledigt erklärt haben (bzw. soweit der Rechtsstreit nicht als erledigt gilt).",
+   "id": "verwr-staat:form:016",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 11. Anfechtungsklage, Abweisung, Teilerledigung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Zwei Verwaltungsakte waren angefochten. Hinsichtlich VA 1 haben die Beteiligten den Rechtsstreit übereinstimmend für erledigt erklärt, hinsichtlich VA 2 wird die Klage abgewiesen. Die Kosten werden nach Quote verteilt. Tenorieren Sie das vollständige Urteil.",
+   "loesung": "Die Kosten des Verfahrens tragen der Kläger zu 3/4 und der Beklagte zu 1/4.18",
+   "id": "verwr-staat:form:017",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 11. Anfechtungsklage, Abweisung, Teilerledigung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Kläger erklärt den Rechtsstreit für erledigt. Der Beklagte verweigert die Erledigungserklärung, weil er rechtsirrig das Eintreten der Erledigung bestreitet. Tenorieren Sie den Hauptausspruch.",
+   "loesung": "Es wird festgestellt, dass der Rechtsstreit in der Hauptsache erledigt ist.",
+   "id": "verwr-staat:form:018",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 12. Feststellungsklage bei Erledigungserklärung d. Klägers, Var. 1",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Tenorieren Sie die Kostenentscheidung. Sachverhalt: Der Kläger hat einen Verwaltungsakt angefochten und für erledigt erklärt. Der Beklagte gibt keine Erledigungserklärung ab, weil er wegen Wiederholungsgefahr ein Interesse an einer Sachentscheidung hat. Das Gericht weist die Klage ab, weil der angefochtene Bescheid rechtmäßig war.",
+   "loesung": "Der Kläger trägt die Kosten des Verfahrens.",
+   "id": "verwr-staat:form:020",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 13. Feststellungsklage bei Erledigungserklärung d. Klägers, Var. 2",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Zwei Verwaltungsakte waren angefochten. Hinsichtlich VA 1 nimmt der Kläger die Klage vor dem Termin zurück, hinsichtlich VA 2 hat die Klage Erfolg. Tenorieren Sie das vollständige Urteil einschließlich Kostenquote und Vollstreckbarkeit.",
+   "loesung": "Der Bescheid des Bezirksamts Mitte von Berlin vom 1. Februar 2017 VA 2 in der Gestalt des Widerspruchsbescheides dieser Behörde vom",
+   "id": "verwr-staat:form:023",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 15. Anfechtungsklage, Stattgabe, Teilrücknahme",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Beschreiben Sie das Darstellungsprinzip der Entscheidungsgründe im verwaltungsgerichtlichen Urteil und formulieren Sie einen Musterobersatz mit anschließender Begründungsstruktur für eine begründete Anfechtungsklage.",
+   "loesung": "Die Klage ist nicht begründet.",
+   "id": "verwr-staat:form:025",
+   "skript": "verwr-staat",
+   "abschnitt": "E. Die Entscheidungsgründe › 3. Urteilsstil und Methodik",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Ein Kandidat setzt in den Entscheidungsgründen Zwischenüberschriften wie 'I. Zulässigkeit' und 'II. Begründetheit'. Was ist daran falsch, und wie ist es richtig zu machen? Formulieren Sie einen korrekten Obersatz für ein Zwischenergebnis.",
+   "loesung": "Der Kläger hat einen Anspruch auf Erteilung eines Waffenscheins aus § 4 WaffG.",
+   "id": "verwr-staat:form:026",
+   "skript": "verwr-staat",
+   "abschnitt": "E. Die Entscheidungsgründe › 3. Urteilsstil und Methodik",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Tenorieren Sie die Kostenentscheidung im Eilverfahren nach § 123 VwGO. Sachverhalt: Das Gericht verpflichtet den Antragsgegner im Wege der einstweiligen Anordnung, den Antrag des Antragstellers vom 13. Oktober 2016 auf Zulassung seines Geschäfts zum 'Frühlingsdom' 2017 binnen einer Woche nach Zustellung unter Beachtung der Rechtsauffassung des Gerichts vorläufig erneut zu bescheiden.",
+   "loesung": "Der Antragsgegner trägt die Kosten des Verfahrens.",
+   "id": "verwr-staat:form:028",
+   "skript": "verwr-staat",
+   "abschnitt": "E. Die Entscheidungsgründe › 3. Obersätze und Tenorierung › b. Tenorierung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Tenorieren Sie die Streitwertfestsetzung im Eilverfahren nach § 123 VwGO. Sachverhalt: Stattgebender Beschluss; Antragsgegner trägt die Kosten. Es liegen keine Anhaltspunkte für eine konkrete Bezifferung des Streitwerts vor.",
+   "loesung": "Der Wert des Verfahrensgegenstandes wird auf 2.500 € festgesetzt.",
+   "id": "verwr-staat:form:029",
+   "skript": "verwr-staat",
+   "abschnitt": "E. Die Entscheidungsgründe › 3. Obersätze und Tenorierung › b. Tenorierung",
+   "rn": "",
+   "gewicht": 3
+  }
+ ]
+}
