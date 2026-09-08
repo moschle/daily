@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Jurabrief: Lesetext aus der Entscheidungsdatenbank + Aufgabe aus dem Skript."""
+"""Jurabrief: Lesetext + Aufgabe aus dem Skript-Volltext."""
 
 from __future__ import annotations
 
 import json
 import os
-import re
 import smtplib
 import sys
 import urllib.parse
@@ -30,23 +29,30 @@ STATE_FILE = _HERE / "state.json"
 CASES_FILE = _HERE / "cases.json"
 PROGRESS_FILE = _HERE / "progress.json"
 LERNPLAN_FILE = _HERE / "lernplan.json"
+EXTRACTED = _HERE / "extracted"
 OLD_BASE = "https://de.openlegaldata.io/api/cases/search/"
 
 ZR_COURTS = ("lg", "olg", "bgh", "kg")
 VR_COURTS = ("vg", "ovg", "bverwg", "vgh")
 
 EXCERPT_PROMPT = """Du erhältst den Anfang eines deutschen Gerichtsurteils.
-Aufgabe: Gib ausschließlich den Text wieder, den eine Referendarin für Rubrum, Tenor und den Einstieg in den Tatbestand braucht.
-
-Regeln:
-- Keine Anrede, kein Kommentar, keine Lernhinweise.
-- Orientierungssatz weglassen, sofern Tenor oder Tatbestand vorhanden sind.
-- Tenor vollständig.
-- Vom Tatbestand nur so viel, wie Parteibezeichnung, Streitgegenstand und Anträge erkennen lässt.
-- Nicht umformulieren. Nicht kürzen innerhalb von Tenorziffern.
-- Wenn der Text kein Zivilurteil der ordentlichen Gerichtsbarkeit ist, antworte nur: UNPASSEND.
+Gib ausschließlich den Text wieder, den eine Referendarin für Rubrum, Tenor und den Einstieg in den Tatbestand braucht.
+Keine Anrede, kein Kommentar. Orientierungssatz weglassen, wenn Tenor vorhanden.
+Tenor vollständig. Nicht umformulieren.
+Wenn der Text nicht zur Gerichtsbarkeit passt: UNPASSEND.
 
 Text:
+{text}
+"""
+
+AUFGABE_PROMPT = """Aus dem folgenden Skriptabschnitt eine Klausuraufgabe auf Examensniveau formulieren.
+Nur die Aufgabe. Keine Lösung. Keine Anrede. Kein Kommentar.
+Wenn das Skript ein ausformuliertes Muster (Urteilskopf, Tenor, Schriftsatz) enthält:
+die dort genannten Parteien und das Gericht als Sachverhalt verwenden und den entsprechenden Urteilsteil verlangen.
+Keine erfundenen Parteien außerhalb des Skripts.
+Maximal 1200 Zeichen.
+
+Skript:
 {text}
 """
 
@@ -117,6 +123,40 @@ def pick_case(cases, state):
         return case, "zyklus"
 
 
+def load_skript_section(case: dict) -> str:
+    sid = case.get("skript_id")
+    if not sid:
+        return ""
+    path = EXTRACTED / f"{sid}.txt"
+    if not path.exists():
+        print(f"kein Volltext {path}", file=sys.stderr)
+        return ""
+    text = path.read_text(encoding="utf-8")
+    start = case.get("skript_start") or ""
+    end = case.get("skript_end") or ""
+    i = text.find(start) if start else 0
+    if i < 0:
+        i = 0
+    j = text.find(end, i + max(len(start), 1)) if end else -1
+    chunk = text[i:j] if j > i else text[i:i + 7000]
+    chunk = chunk.strip()
+    if len(chunk) > 5500:
+        chunk = chunk[:5500] + "\n[...]"
+    return chunk
+
+
+def aufgabe_aus_skript(case: dict, section: str) -> str:
+    if not section:
+        return case.get("aufgabe") or case.get("kernfrage") or ""
+    try:
+        out = complete(AUFGABE_PROMPT.format(text=section[:4500]), max_tokens=500).strip()
+        if out:
+            return out
+    except Exception as e:
+        print(f"Aufgabe aus Skript: {e}", file=sys.stderr)
+    return case.get("aufgabe") or ""
+
+
 def _old_search(params: dict) -> list:
     url = OLD_BASE + "?" + urllib.parse.urlencode(params)
     try:
@@ -175,10 +215,6 @@ def _score_hit(text: str) -> int:
         score += 2
     if "prozessbevollm" in t:
         score += 2
-    if "tatbestand" in t:
-        score += 1
-    if "orientierungssatz" in t and "tenor" not in t:
-        score -= 2
     return score
 
 
@@ -190,14 +226,12 @@ def _cut_native(text: str) -> str:
         if i != -1:
             start = i
             break
-    chunk = text[start:start + 3800]
-    return chunk.strip()
+    return text[start:start + 3800].strip()
 
 
 def shape_excerpt(text: str) -> str | None:
-    raw = text[:8000]
     try:
-        out = complete(EXCERPT_PROMPT.format(text=raw), max_tokens=1200).strip()
+        out = complete(EXCERPT_PROMPT.format(text=text[:8000]), max_tokens=1200).strip()
     except Exception as e:
         print(f"Claude-Zuschnitt: {e}", file=sys.stderr)
         return _cut_native(text)
@@ -213,16 +247,15 @@ def search_related_case(case):
             "Im Namen des Volkes Tenor Klägerin Beklagte Landgericht",
             "Prozessbevollmächtigte Tenor Landgericht Urteil",
             "Landgericht Urteil Klägerin Beklagte",
-            "Oberlandesgericht Urteil ZPO Tenor",
         ] + terms
     elif _is_verw(case):
-        terms = ["Verwaltungsgericht Im Namen des Volkes Tenor", "Verwaltungsgericht Urteil Tenor"] + terms
+        terms = ["Verwaltungsgericht Im Namen des Volkes Tenor"] + terms
 
-    seen_q = set()
+    seen = set()
     queries = []
     for t in terms:
-        if t not in seen_q:
-            seen_q.add(t)
+        if t not in seen:
+            seen.add(t)
             queries.append(t)
 
     base = {
@@ -232,7 +265,6 @@ def search_related_case(case):
         "return_text": "1",
         "page_size": "8",
     }
-
     candidates = []
     for text_q in queries:
         hits = _old_search({**base, "text": text_q})
@@ -244,22 +276,19 @@ def search_related_case(case):
             raw = _result_text(r)
             if len(raw) < 200:
                 continue
-            candidates.append(( _score_hit(raw), r, court, raw))
+            candidates.append((_score_hit(raw), r, court, raw))
         if any(s >= 5 for s, *_ in candidates):
             break
-
     candidates.sort(key=lambda x: x[0], reverse=True)
-    for score, r, court, raw in candidates:
+    for _score, r, court, raw in candidates:
         shaped = shape_excerpt(raw)
         if not shaped:
             continue
         slug = r.get("slug") or ""
-        fn = r.get("file_number") or slug
         return {
             "gericht": court,
             "datum": r.get("date", ""),
-            "aktenzeichen": fn,
-            "slug": slug,
+            "aktenzeichen": r.get("file_number") or slug,
             "entscheidungstyp": r.get("decision_type") or r.get("type") or "Urteil",
             "text": shaped,
             "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
@@ -267,18 +296,15 @@ def search_related_case(case):
     return None
 
 
-def build_mail(case, related, today_str):
+def build_mail(case, related, section, aufgabe, today_str):
     quelle = case.get("quelle", "Berliner Ausbildungsskript")
-    aufgabe = case.get("aufgabe") or case.get("kernfrage") or ""
-    auszug = case.get("skriptauszug") or ""
-
     if related:
         lesen = (
             f"I. Lesetext\n"
             f"{related['gericht']}, {related['entscheidungstyp']} vom {related['datum']}, {related['aktenzeichen']}\n"
         )
         if related.get("url"):
-            lesen += f"{related['url']}\n"
+            lesen += related["url"] + "\n"
         lesen += "\n" + related["text"] + "\n"
     else:
         lesen = "I. Lesetext\nKein Urteil der passenden Gerichtsbarkeit.\n"
@@ -289,9 +315,9 @@ def build_mail(case, related, today_str):
         f"{quelle}\n\n"
         f"{aufgabe}\n"
     )
-    if auszug:
-        block2 += f"\nVorgabe:\n{auszug}\n"
-
+    if section:
+        block2 += "\n--- Skript ---
+" + section + "\n"
     return f"Jurabrief — {today_str}\n{case['gebiet']}\n\n{lesen}\n\n{block2}\n"
 
 
@@ -326,14 +352,16 @@ def main():
     case, grund = pick_case(cases, state)
     save_state(state)
 
-    today = now_berlin().strftime("%A, %d. %B %Y")
+    section = load_skript_section(case)
+    aufgabe = aufgabe_aus_skript(case, section)
     related = search_related_case(case)
-    body = build_mail(case, related, today)
+    today = now_berlin().strftime("%A, %d. %B %Y")
+    body = build_mail(case, related, section, aufgabe, today)
 
     to_addr = resolve_to()
     subject = f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})"
     send_mail(subject, body, to_addr)
-    print(f"Fall {case['id']} gewählt ({grund}).")
+    print(f"Fall {case['id']} gewählt ({grund}), Skript {len(section)} Zeichen.")
 
 
 if __name__ == "__main__":
