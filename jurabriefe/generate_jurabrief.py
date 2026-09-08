@@ -46,6 +46,8 @@ Prozessbevollmaechtigte: Rechtsanwaelte Martina Klage und Karl Meier, Parkstrass
 Streithelferin der Klaegerin: Mega AG, gesetzlich vertreten durch die Vorstandsmitglieder
 Herbert Mueller und Ralf Schubert, Sonnenallee 93, 12199 Berlin.
 Prozessbevollmaechtigte: Rechtsanwaelte Karl Boot u. a., Oberweg 12, 12498 Berlin.
+Die Mega AG hat den Winterdienst als Subunternehmerin ausgefuehrt und der Klaegerin
+den Werklohn bereits erstattet. Sie will den Rechtsstreit auf Klaegerseite unterstuetzen.
 
 Beklagter zu 1) und Widerklaeger: der unter der Firma Dieter Teufel handelnde Kaufmann
 Rainer Zufall, Peststrasse 14, 12345 Berlin.
@@ -62,7 +64,7 @@ Die Klaegerin stellte am 10. Dezember 2024 2.559,45 EUR in Rechnung (netto 2.151
 Die Rechnung ist nicht bezahlt.
 
 Streitig — Klaegerin
-Die Arbeiten seien vollstaendig und mängelfrei. Beide Beklagte haefteten als Gesamtschuldner,
+Die Arbeiten seien vollstaendig und maengelfrei. Beide Beklagte haefteten als Gesamtschuldner,
 die Beklagte zu 2) aus konkludentem Mitschluss und aus Geschaeftsfuehrung ohne Auftrag.
 Zinsen: 5 Prozentpunkte ueber dem Basiszinssatz seit dem 10. Dezember 2024.
 
@@ -85,45 +87,40 @@ Die Unternehmensgeschichte der Klaegerin (drei Seiten in der Klageschrift) ist n
 
 FALLBACK = {
     "zr-001": (
-        "Bearbeitervermerk\n"
-        "Fertigen Sie allein den Kopf des Urteils. Parteistellung rechtsbuendig. "
-        "Grammatik nach dem Skript. Im Namen des Volkes.\n\n" + AKTE +
-        "\nFertigen Sie den Urteilskopf."
+        "Bearbeitervermerk\nFertigen Sie allein den Kopf des Urteils. Parteistellung rechtsbuendig. "
+        "Grammatik nach dem Skript. Im Namen des Volkes.\n\n" + AKTE + "\nFertigen Sie den Urteilskopf."
     ),
     "zr-002": (
-        "Bearbeitervermerk\n"
-        "Fertigen Sie allein die Urteilsformel. Hauptsache, Kosten, vorlaeufige Vollstreckbarkeit. "
+        "Bearbeitervermerk\nFertigen Sie allein die Urteilsformel. Hauptsache, Kosten, vorlaeufige Vollstreckbarkeit. "
         "§ 308 Abs. 1 ZPO. § 709 ZPO (Geldforderung, Sicherheit Betrag zuzueglich 10 %).\n\n" + AKTE +
         "\nErgebnis der Kammer: Klage in Hoehe von 2.559,45 EUR nebst den geltend gemachten Zinsen begruendet. "
         "Gesamtschuld. Widerklage unbegruendet.\n\nFertigen Sie die Urteilsformel."
     ),
     "zr-003": (
-        "Bearbeitervermerk\n"
-        "Fertigen Sie den Tatbestand. Unerhebliches weglassen. Unstreitiges Indikativ, Streitiges Konjunktiv. "
-        "Antraege. Salvatorische Klausel. Keine Unternehmensgeschichte.\n\n" + AKTE +
-        "\nFertigen Sie den Tatbestand."
+        "Bearbeitervermerk\nFertigen Sie den Tatbestand. Unerhebliches weglassen. Unstreitiges Indikativ, Streitiges Konjunktiv. "
+        "Antraege. Salvatorische Klausel. Keine Unternehmensgeschichte.\n\n" + AKTE + "\nFertigen Sie den Tatbestand."
     ),
     "zr-004": (
-        "Bearbeitervermerk\n"
-        "Fertigen Sie die Entscheidungsgruende im Urteilsstil. Praesens. Keine Ueberschriften. "
-        "Zulaessigkeit knapp. Begruendetheit: Vertrag mit dem Beklagten zu 1), Haftung der Beklagten zu 2), "
-        "keine Aufrechnung, Widerklage. Obersatz voran.\n\n" + AKTE +
+        "Bearbeitervermerk\nFertigen Sie die Entscheidungsgruende im Urteilsstil. Praesens. Keine Ueberschriften. "
+        "Zulaessigkeit knapp. Vertrag mit dem Beklagten zu 1), Haftung der Beklagten zu 2), Aufrechnung, Widerklage. "
+        "Streithelferin: Wirkung des § 68 ZPO nur soweit der Beitritt reicht.\n\n" + AKTE +
         "\nFertigen Sie die Entscheidungsgruende."
     ),
     "zr-005": (
-        "Bearbeitervermerk\nAnwaltliche Sicht. Gliedern Sie: Mandantenbegehren, Gutachten, Zweckmaessigkeit, Schriftsatz.\n\n"
-        "Mandant ist die Rabe Schneedienst GmbH. Sie will die Forderung aus dem Winterdienstvertrag "
-        "gegen Zufall und Hage durchsetzen.\n\n" + AKTE
+        "Bearbeitervermerk\nAnwaltliche Sicht. Ein Sachbericht ist nicht zu fertigen.\n"
+        "Gliederung: Mandantenbegehren, Gutachten, Zweckmaessigkeit, Schriftsatz.\n"
+        "Im Gutachten: Anspruch gegen Zufall; Haftung Hage; Aufrechnung Lackschaden; Widerklage Wucher.\n"
+        "In der Zweckmaessigkeit: Beitritt der Mega AG als Streithelferin — Nutzen und Risiko fuer die Mandantin; "
+        "ob der Beitritt anzuregen oder zurueckzuweisen ist.\n\n"
+        "Mandantin: Rabe Schneedienst GmbH. Ziel: Durchsetzung der Werklohnforderung und Abwehr der Widerklage.\n\n" + AKTE
     ),
     "zr-008": (
-        "Bearbeitervermerk\nPruefen Sie eine Vollstreckungsabwehrklage nach § 767 ZPO.\n\n"
-        "Titel: Urteil 12 C 310/24 ueber 2.559,45 EUR. Nach Schluss der muendlichen Verhandlung "
-        "zahlt der Beklagte zu 1) 1.000 EUR und erklaert die Aufrechnung mit einer erst danach "
-        "faellig gewordenen Gegenforderung. Praeklusion nach § 767 Abs. 2 ZPO pruefen.\n\n" + AKTE
+        "Bearbeitervermerk\nPruefen Sie eine Vollstreckungsabwehrklage nach § 767 ZPO. Ein Sachbericht ist nicht zu fertigen.\n\n"
+        "Titel: Urteil 12 C 310/24 ueber 2.559,45 EUR. Nach Schluss der muendlichen Verhandlung zahlt der Beklagte zu 1) "
+        "1.000 EUR und rechnet mit einer erst danach faellig gewordenen Gegenforderung auf. § 767 Abs. 2 ZPO.\n\n" + AKTE
     ),
     "zr-009": (
-        "Bearbeitervermerk\nTenorieren Sie die Stattgabe einer Anfechtungsklage und ein Bescheidungsurteil "
-        "bei der Verpflichtungsklage nach dem VerwR-Skript."
+        "Bearbeitervermerk\nTenorieren Sie die Stattgabe einer Anfechtungsklage und ein Bescheidungsurteil bei der Verpflichtungsklage."
     ),
     "zr-010": (
         "Bearbeitervermerk\nAntrag nach § 80 Abs. 5 VwGO. Ernstliche Zweifel, Interessenabwaegung, Tenor der Wiederherstellung."
@@ -199,6 +196,15 @@ def _cut_clean(text: str, limit: int) -> str:
     return text[: cut if cut > limit // 3 else limit].rstrip()
 
 
+def clean_ocr(text: str) -> str:
+    text = text.replace(""", '"').replace("&", "&")
+    text = re.sub(r"(?m)^\s*\d{1,3}(?=[A-ZÄÖÜ])", "", text)
+    text = re.sub(r"(?<=\n)\d{1,3}(?=[A-Za-zÄÖÜäöü])", "", text)
+    text = re.sub(r"(?m)^\s*\d{1,3}\s*$", "", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
 def load_skript_section(case: dict) -> str:
     sid = case.get("skript_id")
     path = EXTRACTED / f"{sid}.txt" if sid else None
@@ -217,9 +223,7 @@ def aufgabe_aus_skript(case: dict) -> str:
     cid = case.get("id", "")
     if cid in FALLBACK:
         return FALLBACK[cid]
-    return case.get("aufgabe") or (
-        "Bearbeiten Sie den Abschnitt nach dem Skript. Keine neuen Parteien."
-    )
+    return case.get("aufgabe") or "Bearbeiten Sie den Abschnitt nach dem Skript. Keine neuen Parteien."
 
 
 def _old_search(params: dict) -> list:
@@ -243,11 +247,7 @@ def _is_verw(case):
 
 def _bad(text: str, slug: str = "") -> bool:
     t = (text + " " + slug).lower()
-    if any(s in t for s in STRAF):
-        return True
-    if any(p in t for p in PLACEHOLDER):
-        return True
-    return False
+    return any(s in t for s in STRAF) or any(p in t for p in PLACEHOLDER)
 
 
 def _court_ok(court, case):
@@ -272,6 +272,7 @@ def _result_text(r):
 
 
 def slice_urteil(text: str) -> str | None:
+    text = clean_ocr(text)
     if _bad(text):
         return None
     low = text.lower()
