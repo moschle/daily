@@ -46,9 +46,10 @@ Text:
 """
 
 AUFGABE_PROMPT = """Formuliere eine Klausuraufgabe. Nur die Aufgabe.
-Verwende ausschliesslich Personen, Firmen und Gerichte, die im Skriptabschnitt namentlich vorkommen.
-Keine neuen Namen. Keine Loesung. Keine Anrede.
-Verlange den Urteilsteil, den der Abschnitt behandelt.
+Wenn ein vollstaendiges Musterrubrum vorkommt (Gericht, Aktenzeichen, Parteien, Tenor):
+dieses eine Muster ist der Sachverhalt. Keine zweite Beispielgruppe dazu mischen.
+Keine neuen Namen. Keine Loesung. Keine Anrede. Kein Fragenkatalog.
+Auftrag: den Urteilskopf nach dem Skript fertigen.
 
 Skript:
 {text}
@@ -132,12 +133,23 @@ def _find_body(text: str, needle: str) -> int:
             return fallback if fallback >= 0 else 0
         line_end = text.find("\n", i)
         line = text[i: line_end if line_end > i else i + 80]
-        if "...." in line or "…" in line:
+        if "...." in line or "\u2026" in line:
             if fallback < 0:
                 fallback = i
             pos = i + len(needle)
             continue
         return i
+
+
+def _cut_clean(text: str, limit: int) -> str:
+    if len(text) <= limit:
+        return text
+    cut = text.rfind("\n\n", 0, limit)
+    if cut < limit // 2:
+        cut = text.rfind("\n", 0, limit)
+    if cut < limit // 2:
+        cut = limit
+    return text[:cut].rstrip()
 
 
 def load_skript_section(case: dict) -> str:
@@ -154,10 +166,22 @@ def load_skript_section(case: dict) -> str:
     i = _find_body(text, start)
     j = _find_body(text, end) if end else -1
     if j <= i:
-        j = i + 7000
-    chunk = text[i:j].strip()
-    if len(chunk) > 5500:
-        chunk = chunk[:5500] + "\n[...]"
+        j = min(len(text), i + 20000)
+    chunk = text[i:j]
+    muster_at = -1
+    for mark in ("Amtsgericht Neukölln", "12 C 310/24", "Im Namen des Volkes"):
+        k = chunk.find(mark)
+        if k >= 0:
+            muster_at = k
+            if mark != "Im Namen des Volkes":
+                break
+    if muster_at >= 0:
+        head = _cut_clean(chunk[:muster_at], 2200)
+        tail = chunk[muster_at:]
+        tail = _cut_clean(tail, 4500)
+        chunk = (head + "\n\n" + tail).strip()
+    else:
+        chunk = _cut_clean(chunk.strip(), 7000)
     return chunk
 
 
@@ -165,7 +189,7 @@ def aufgabe_aus_skript(case: dict, section: str) -> str:
     if not section:
         return case.get("aufgabe") or case.get("kernfrage") or ""
     try:
-        out = complete(AUFGABE_PROMPT.format(text=section[:4500]), max_tokens=500).strip()
+        out = complete(AUFGABE_PROMPT.format(text=section[:6000]), max_tokens=400).strip()
         if out:
             return out
     except Exception as e:
@@ -259,7 +283,7 @@ def shape_excerpt(text: str) -> str | None:
 def search_related_case(case):
     terms = [t for t in case.get("suchbegriffe", []) if t]
     if _is_zivil(case):
-        terms = ["Im Namen des Volkes Tenor Landgericht", "Landgericht Urteil Klaegerin Beklagte"] + terms
+        terms = ["Im Namen des Volkes Tenor Landgericht"] + terms
     elif _is_verw(case):
         terms = ["Verwaltungsgericht Im Namen des Volkes Tenor"] + terms
     seen = set()
