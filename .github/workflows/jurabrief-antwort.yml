@@ -19,31 +19,24 @@ jobs:
       - name: Abhaengigkeiten
         run: pip install -r requirements.txt
 
-      - name: Antwortmails einlesen (IMAP)
+      - name: Antwortmails einlesen
         env:
           PYTHONPATH: ${{ github.workspace }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python jurabriefe/ingest_feedback.py
 
-      - name: Klausur bewerten (falls Loesung vorliegt)
+      - name: Klausur bewerten
         env:
           PYTHONPATH: ${{ github.workspace }}:${{ github.workspace }}/jurabriefe
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ -f jurabriefe/pending_solution.json ]; then
-            python - <<'PY'
-import json, sys
-from pathlib import Path
-sys.path.insert(0, str(Path("jurabriefe").resolve()))
-sys.path.insert(0, str(Path(".").resolve()))
-from grade_solution import grade
-p = json.loads(open("jurabriefe/pending_solution.json").read())
-print(json.dumps(grade(p["case_id"], p["loesung"]), ensure_ascii=False, indent=2))
-PY
+            python jurabriefe/grade_solution.py "$(python -c 'import json; print(json.load(open("jurabriefe/pending_solution.json"))["case_id"])')" /dev/stdin <<EOF
+$(python -c 'import json; print(json.load(open("jurabriefe/pending_solution.json"))["loesung"])')
+EOF
           else
-            echo "Keine pending_solution.json — keine neue Loesung."
+            echo "keine pending_solution.json"
           fi
 
       - name: Auswertung mailen
@@ -54,7 +47,7 @@ PY
           JURABRIEF_TO: ${{ secrets.JURABRIEF_TO }}
         run: python jurabriefe/send_auswertung.py
 
-      - name: State & Progress committen
+      - name: State committen
         run: |
           git config user.name "Jurabrief Bot"
           git config user.email "jurabrief@users.noreply.github.com"
