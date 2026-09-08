@@ -1,59 +1,34 @@
-name: Jurabrief-Antwort
+name: Jurabrief-Korrektur
 
 on:
   schedule:
-    - cron: '0 17 * * 2,4'
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  antwort:
+  korrektur:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Python einrichten
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - name: Abhaengigkeiten
-        run: pip install -r requirements.txt
-
-      - name: Antwortmails einlesen
+      - name: Auswerten
         env:
-          PYTHONPATH: ${{ github.workspace }}
-          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-        run: python jurabriefe/ingest_feedback.py
-
-      - name: Klausur bewerten
-        env:
-          PYTHONPATH: ${{ github.workspace }}:${{ github.workspace }}/jurabriefe
+          PYTHONPATH: ${{ github.workspace }}/jurabriefe
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          if [ -f jurabriefe/pending_solution.json ]; then
-            python jurabriefe/grade_solution.py "$(python -c 'import json; print(json.load(open("jurabriefe/pending_solution.json"))["case_id"])')" /dev/stdin <<EOF
-$(python -c 'import json; print(json.load(open("jurabriefe/pending_solution.json"))["loesung"])')
-EOF
-          else
-            echo "keine pending_solution.json"
-          fi
-
-      - name: Auswertung mailen
-        env:
-          PYTHONPATH: ${{ github.workspace }}:${{ github.workspace }}/jurabriefe
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           JURABRIEF_TO: ${{ secrets.JURABRIEF_TO }}
-        run: python jurabriefe/send_auswertung.py
-
-      - name: State committen
+        run: python jurabriefe/korrektur.py
+      - name: Progress
         run: |
           git config user.name "Jurabrief Bot"
           git config user.email "jurabrief@users.noreply.github.com"
-          git add jurabriefe/progress.json jurabriefe/fsrs_cards.json jurabriefe/state.json jurabriefe/last_grade.json jurabriefe/pending_solution.json || true
-          git diff --cached --quiet || git commit -m "jurabrief-antwort: $(date +%Y-%m-%d)"
+          git add jurabriefe/progress.json
+          git diff --cached --quiet || git commit -m "jurabrief korrektur $(date -u +%F)"
+          git pull --rebase --autostash
           git push
