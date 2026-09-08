@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 from fsrs_scheduler import due_today, markiere_gezeigt, unseen
@@ -11,12 +12,24 @@ from karten import OUT
 N_MIN, N_MAX = 3, 5
 
 
+def saeubere(s: str) -> str:
+    s = re.sub(r"(\w) ?- (\w)", r"\1\2", s or "")
+    s = re.sub(r"(?<=[.!?:])\d{1,2}\b", "", s)
+    return s
+
+
 def lade_kuratiert(sid: str) -> list[dict]:
     p = OUT / f"{sid}.kuratiert.json"
     if not p.exists():
         return []
     data = json.loads(p.read_text(encoding="utf-8"))
-    return list(data.get("karten") or [])
+    karten = []
+    for k in data.get("karten") or []:
+        k = dict(k)
+        k["loesung"] = saeubere(k.get("loesung", ""))
+        k["frage"] = saeubere(k.get("frage", ""))
+        karten.append(k)
+    return karten
 
 
 def waehle(sid: str, progress: dict, n: int = N_MAX) -> list[dict]:
