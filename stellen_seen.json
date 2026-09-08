@@ -1,36 +1,4 @@
 {
-  "https://www.hsozkult.de/job/id/job-162886": {
-    "first_seen": "2026-06-10T11:09:44.879397+00:00",
-    "source": "H-Soz-Kult",
-    "title": "Job: 5 Wiss. Volontäre (m/w/d) (Landesamt für Denkmalpflege und Archäologie Sachsen-Anhalt, Halle (Saale))",
-    "url": "https://www.hsozkult.de/job/id/job-162886",
-    "score": 4,
-    "categories": [
-      "erinnerungskultur",
-      "kuratorisch_wiss_volo"
-    ]
-  },
-  "https://www.hsozkult.de/job/id/job-162887": {
-    "first_seen": "2026-06-10T11:09:44.879995+00:00",
-    "source": "H-Soz-Kult",
-    "title": "Job: Wiss. Volontariat (m/w/d) (Grenzlandmuseum Eichsfeld, Teistungen)",
-    "url": "https://www.hsozkult.de/job/id/job-162887",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6531594.html": {
-    "first_seen": "2026-06-10T11:09:44.985494+00:00",
-    "source": "service.bund.de",
-    "title": "Referentin / Referenten (m/w/d) im Stab des Chief Technology Officers (CTO) - AWV-2026-047",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/06/6531594.html#track=feed-jobs",
-    "score": 4,
-    "categories": [
-      "behörden_kern"
-    ]
-  },
   "kultweet-249267": {
     "first_seen": "2026-06-11T11:55:18.783488+00:00",
     "source": "kultweet",
@@ -3991,6 +3959,17 @@
     "score": 3,
     "categories": [
       "verlag_geistes",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-253156": {
+    "first_seen": "2026-09-08T12:15:02.667207+00:00",
+    "source": "kultweet",
+    "title": "Museumsleitung (m/w/d) für das Museum im Zeughaus Vechta, Vollzeit, unbefristet | Vechta​‌‌‌‌​‌‌‌​​‌‌‌​​‌​​ - Stadt Vechta",
+    "url": "https://logahr1.kdo.de/bewerber-web/?companyEid=05600&tenant=05600&lang=D#position,id=c2b32249-ddb3-4b7f-b450-c27a3fa01b24",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
       "schwach_methodisch"
     ]
   }
