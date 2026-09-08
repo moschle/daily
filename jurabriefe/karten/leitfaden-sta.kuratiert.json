@@ -3,12 +3,32 @@
  "karten": [
   {
    "typ": "formulierung",
+   "frage": "Sie vertreten die Staatsanwaltschaft in der Hauptverhandlung. Der Angeklagte ist trotz ordnungsgemäßer Ladung unentschuldigt ausgeblieben. Ein Strafbefehlsantrag kommt in Betracht. Formulieren Sie den Antrag.",
+   "loesung": "Unter Bezugnahme auf die ordnungsgemäße Ladung wird beantragt, gemäß § 408 a StPO einen der Anklage ent - sprechenden Strafbefehl zu erlassen und die Strafe auf … festzu- setzen.",
+   "id": "leitfaden-sta:form:003",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "26",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
    "frage": "Die Hauptverhandlung beginnt. Der Angeklagte Karl Herrmann ist erschienen; Personalien und Haftverhältnisse wurden bereits erörtert. Verlesen Sie den Beginn des konkreten Anklagesatzes.",
    "loesung": "Dem Angeklagten wird Folgendes zur Last gelegt: Am 10. Mai 2010 schoss der Angeklagte auf öffentlichem Straßenland...",
    "id": "leitfaden-sta:form:004",
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
    "rn": "28",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Zeuge Müller ist trotz ordnungsgemäßer Ladung unentschuldigt nicht zur Hauptverhandlung erschienen. Formulieren Sie den Antrag auf Verhängung eines Ordnungsgeldes (Tagessatz: 50 Euro, 3 Tage Ordnungshaft als Ersatz).",
+   "loesung": "Es wird beantragt, gegen den trotz ordnungsgemäßer Ladung unentschuldigt nicht erschienenen Zeugen Müller ein Ordnungsgeld von 150,- Euro, ersatzweise drei Tage Ord- nungshaft zu verhängen",
+   "id": "leitfaden-sta:form:007",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "31",
    "gewicht": 3
   },
   {
