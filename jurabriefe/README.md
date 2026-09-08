@@ -1,50 +1,52 @@
 # Jurabrief
 
-Mo/Mi/Fr-Brief für die 2. Staatsprüfung (Sachsen-Anhalt), Ziel April 2027.
+Mo/Mi/Fr-Brief zur Vorbereitung auf die zweite juristische Staatsprüfung
+(Sachsen-Anhalt), Ziel April 2027. Grundlage sind die Berliner
+Ausbildungsskripte des Kammergerichts als Volltext.
 
 ## Ablauf
 
 **Montag / Mittwoch / Freitag, 07:00** — `jurabrief.yml`
-1. Adaptiver Plan wählt den Fall (Phase + FSRS-Fälligkeit + Gewicht).
-2. Open Legal Data sucht ein verwandtes Urteil (ab 2019, nicht identisch).
-3. Mail: **Teil 1 Lesen** (Urteil + Lesehinweis) → **Teil 2 Aufgabe** (Skript-Fall lösen).
-4. Betreff enthält Fall-ID in eckigen Klammern: `[zr-001]`.
-5. Versand von deinem Gmail-Account an `JURABRIEF_TO`.
+1. `adaptive_plan.py` wählt den Fall: Phase des Lernplans, FSRS-Fälligkeit, Ergebnisgewicht.
+   Offene Karten vom letzten Brief werden vorher neutral verbucht (`auto_wertung`).
+2. Open Legal Data liefert ein thematisch passendes Urteil (Suchbegriffe je Fall) — nur zum Lesen.
+3. Mail: **I. Lesetext** (Urteil) → **II. Bearbeitung** (Bearbeitervermerk) → **Skript (Regeln)**.
+4. Betreff trägt die Fall-ID: `[zr-002]`.
 
-**Dienstag / Donnerstag, 19:00** — `jurabrief-antwort.yml`
-1. IMAP liest die Antwortmail (`SCORE: 1-5` + Lösungstext).
-2. Lösung wird automatisch in `pending_solution.json` gespeichert.
-3. `grade_solution.py` bewertet die Klausur über Claude (Punkte 0-18, Lücken, Muster).
-4. FSRS-Scheduler (`fsrs_scheduler.py`) plant die nächste Wiederholung.
-5. Auswertung-Mail mit Stärken, Lücken, Verbesserung, nächstem Termin.
+**Dienstag / Donnerstag / Samstag, 19:00** — `jurabrief-antwort.yml`
+1. `korrektur.py` liest ungelesene Antworten per IMAP.
+2. Erste Zeile `gut`/`wieder`/`schwer`/`leicht` → Selbsteinschätzung.
+   `7 Punkte` → Punkte direkt. Text ab 1200 Zeichen → Klausur.
+3. Klausuren werden über Claude gegen Bearbeitervermerk und Skriptabschnitt
+   korrigiert: 0-18 Punkte, Fehlerstellen mit Zitat, Regel, richtiger Fassung.
+4. Punkte gehen in FSRS (`progress.json`): 0-3 wieder, 4-5 schwer, 6-8 gut, ab 9 leicht.
+5. Auswertungsmail mit Punkten, Fehlern, nächstem Schritt, Gebietsschnitt.
 
-## Daten
+## Dateien
 
 | Datei | Rolle |
 |---|---|
-| `cases.json` | 12 Themen aus Berliner Skript-Inhaltsverzeichnissen |
-| `extracted/*.txt` | Volltexte der 11 Berlin-PDFs (via Action) |
-| `lernplan.json` | 3 Phasen bis 30.04.2027 |
-| `progress.json` | Gewichte + Feedback-Historie |
-| `fsrs_cards.json` | FSRS-Karten pro Fall (Stabilität, Due-Datum) |
-| `last_grade.json` | letzte Klausur-Bewertung |
-| `pending_solution.json` | Lösung aus der Antwortmail (automatisch) |
+| `cases.json` | 12 Fälle: Gebiet, Skriptanker, Suchbegriffe |
+| `lernplan.json` | Phasen bis 30.04.2027 |
+| `progress.json` | FSRS-Karten, Punkteverlauf, Feedback |
+| `state.json` | zuletzt gezeigte Fälle und Urteile |
+| `extracted/*.txt` | Volltexte der elf Berliner Skripte |
+| `karten.py`, `kuratieren.py` | Kartenschicht (Rohkarten → kuratierte Karten); noch nicht im Brief verdrahtet |
+| `skripte.json`, `extract_skripte.py` | Quellen und Extraktion (`--lokal` für eigene PDFs) |
 
 ## Secrets
 
-- `ANTHROPIC_API_KEY` — Claude für Lesehinweis, Bewertung, Musterlösung
-- `GMAIL_ADDRESS` + `GMAIL_APP_PASSWORD` — Versand + IMAP-Empfang
-- `JURABRIEF_TO` — Empfängerin (deine Freundin)
+`GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD`, `JURABRIEF_TO`, `ANTHROPIC_API_KEY`
 
-## Lokal testen
+## Lokal
 
 ```
 pip install -r requirements.txt
-python jurabriefe/generate_jurabrief.py          # Brief bauen (ohne Mail, wenn keine Secrets)
-python jurabriefe/fsrs_scheduler.py due           # fällige Fälle
-python jurabriefe/adaptive_plan.py               # nächster Fall + Grund
-python jurabriefe/grade_solution.py zr-001 test.txt  # Bewertung testen
+python jurabriefe/generate_jurabrief.py   # Brief bauen; ohne Secrets nur Ausgabe
+python jurabriefe/fsrs_scheduler.py       # Karten und Fälligkeiten
+python jurabriefe/karten.py               # Rohkarten aus den Skripten
 ```
 
-Landesrecht Sachsen-Anhalt (VerwR) kommt später aus deinen Scans rein — einfach
-in `cases.json` ergänzen, der Rest bleibt unverändert.
+Verlagsmaterial (z. B. Landesrechtsskripte) gehört nicht in dieses öffentliche
+Repo. `private/` ist per `.gitignore` ausgeschlossen; `karten.py` liest den Pfad
+aus `JURABRIEF_EXTRACTED` / `JURABRIEF_KARTEN`.
