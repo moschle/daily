@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Jurabrief. Eine Akte, rotierende Urteilsteile, Urteilstext unangetastet."""
 from __future__ import annotations
 
+import html
 import json
 import os
 import re
@@ -30,8 +30,14 @@ PROGRESS_FILE = _HERE / "progress.json"
 LERNPLAN_FILE = _HERE / "lernplan.json"
 EXTRACTED = _HERE / "extracted"
 OLD_BASE = "https://de.openlegaldata.io/api/cases/search/"
-ZR_COURTS = ("lg", "olg", "bgh", "kg")
-VR_COURTS = ("vg", "ovg", "bverwg", "vgh")
+ZR_MARK = (
+    "landgericht", "oberlandesgericht", "bundesgerichtshof", "kammergericht",
+    "amtsgericht", "lg-", "olg-", "bgh", "kg-",
+)
+VR_MARK = (
+    "verwaltungsgericht", "oberverwaltungsgericht", "bundesverwaltungsgericht",
+    "verwaltungsgerichtshof", "vg-", "ovg", "bverwg", "vgh",
+)
 STRAF = ("angeklagte", "staatsanwaltschaft", "strafkammer", "stpo", "-ss-")
 PLACEHOLDER = ("[kläger", "[beklag", "[name]", "[datum]", "firma/name")
 
@@ -43,88 +49,40 @@ Klaegerin und Widerbeklagte: Rabe Schneedienst GmbH, Kochstrasse 34, 12047 Berli
 gesetzlich vertreten durch den Geschaeftsfuehrer Martin Mueller, ebenda.
 Prozessbevollmaechtigte: Rechtsanwaelte Martina Klage und Karl Meier, Parkstrasse 101, 12165 Berlin.
 
-Streithelferin der Klaegerin: Mega AG, gesetzlich vertreten durch die Vorstandsmitglieder
-Herbert Mueller und Ralf Schubert, Sonnenallee 93, 12199 Berlin.
-Prozessbevollmaechtigte: Rechtsanwaelte Karl Boot u. a., Oberweg 12, 12498 Berlin.
-Die Mega AG hat den Winterdienst als Subunternehmerin ausgefuehrt und der Klaegerin
-den Werklohn bereits erstattet. Sie will den Rechtsstreit auf Klaegerseite unterstuetzen.
+Streithelferin der Klaegerin: Mega AG (Subunternehmerin, Werklohn an Klaegerin erstattet),
+gesetzlich vertreten durch Herbert Mueller und Ralf Schubert, Sonnenallee 93, 12199 Berlin.
 
 Beklagter zu 1) und Widerklaeger: der unter der Firma Dieter Teufel handelnde Kaufmann
 Rainer Zufall, Peststrasse 14, 12345 Berlin.
 
 Beklagte zu 2) und Widerklaegerin: die am 12. Dezember 2015 geborene Erika Hage,
-Sanderweg 2, 12047 Berlin, gesetzlich vertreten durch ihre Eltern Maria und Lutz Hage, ebenda.
-Prozessbevollmaechtigter der Beklagten zu 2): Rechtsanwalt Herbert Sol, Kalckreuthweg 56, 10787 Berlin.
+Sanderweg 2, 12047 Berlin, gesetzlich vertreten durch Maria und Lutz Hage, ebenda.
 
 Unstreitig
-Die Klaegerin raeumte und streute im Winter 2023/2024 die Zufahrt Peststrasse 14 auf Grundlage
-eines schriftlichen Winterdienstvertrags vom 2. November 2023. Vertragspartner auf Auftraggeberseite
-ist der Beklagte zu 1). Die Beklagte zu 2) wohnt im Anwesen und unterzeichnete den Vertrag nicht.
-Die Klaegerin stellte am 10. Dezember 2024 2.559,45 EUR in Rechnung (netto 2.151,64 EUR zuzueglich USt.).
-Die Rechnung ist nicht bezahlt.
+Winterdienstvertrag 2. November 2023 mit dem Beklagten zu 1). Rechnung 2.559,45 EUR
+vom 10. Dezember 2024 unbezahlt. Hage hat nicht unterzeichnet.
 
-Streitig — Klaegerin
-Die Arbeiten seien vollstaendig und maengelfrei. Beide Beklagte haefteten als Gesamtschuldner,
-die Beklagte zu 2) aus konkludentem Mitschluss und aus Geschaeftsfuehrung ohne Auftrag.
-Zinsen: 5 Prozentpunkte ueber dem Basiszinssatz seit dem 10. Dezember 2024.
+Streitig
+Klaegerin: maengelfrei; Gesamtschuld; Haftung Hage aus konkludentem Mitschluss und GoA.
+Beklagte: Hage nicht Vertragspartnerin; Aufrechnung 800 EUR Lackschaden; Widerklage Wucher,
+hilfsweise Rueckzahlung 200 EUR.
 
-Streitig — Beklagte
-Die Beklagte zu 2) sei nicht Vertragspartnerin. Der Beklagte zu 1) rechne mit einem Schaden
-von 800 EUR auf, weil am 12. Januar 2024 Streusalz Lackschaeden am Pkw verursacht habe.
-Widerklage beider Beklagter: Feststellung, der Vertrag sei wegen Wuchers nichtig, hilfsweise Rueckzahlung
-bereits geleisteter 200 EUR.
-
-Antraege
-Klaegerin: Verurteilung der Beklagten als Gesamtschuldner zur Zahlung von 2.559,45 EUR
-nebst Zinsen in Hoehe von 5 Prozentpunkten ueber dem Basiszinssatz seit dem 10. Dezember 2024;
-Abweisung der Widerklage.
-Beklagte: Klageabweisung; Widerklage wie vor.
-
-Prozess
-Zustellung der Klage am 8. Januar 2025. Muendliche Verhandlung am 3. April 2025.
-Die Unternehmensgeschichte der Klaegerin (drei Seiten in der Klageschrift) ist nicht entscheidungserheblich.
+Unternehmensgeschichte in der Klageschrift unerheblich.
 """
 
 FALLBACK = {
-    "zr-001": (
-        "Bearbeitervermerk\nFertigen Sie allein den Kopf des Urteils. Parteistellung rechtsbuendig. "
-        "Grammatik nach dem Skript. Im Namen des Volkes.\n\n" + AKTE + "\nFertigen Sie den Urteilskopf."
-    ),
-    "zr-002": (
-        "Bearbeitervermerk\nFertigen Sie allein die Urteilsformel. Hauptsache, Kosten, vorlaeufige Vollstreckbarkeit. "
-        "§ 308 Abs. 1 ZPO. § 709 ZPO (Geldforderung, Sicherheit Betrag zuzueglich 10 %).\n\n" + AKTE +
-        "\nErgebnis der Kammer: Klage in Hoehe von 2.559,45 EUR nebst den geltend gemachten Zinsen begruendet. "
-        "Gesamtschuld. Widerklage unbegruendet.\n\nFertigen Sie die Urteilsformel."
-    ),
-    "zr-003": (
-        "Bearbeitervermerk\nFertigen Sie den Tatbestand. Unerhebliches weglassen. Unstreitiges Indikativ, Streitiges Konjunktiv. "
-        "Antraege. Salvatorische Klausel. Keine Unternehmensgeschichte.\n\n" + AKTE + "\nFertigen Sie den Tatbestand."
-    ),
-    "zr-004": (
-        "Bearbeitervermerk\nFertigen Sie die Entscheidungsgruende im Urteilsstil. Praesens. Keine Ueberschriften. "
-        "Zulaessigkeit knapp. Vertrag mit dem Beklagten zu 1), Haftung der Beklagten zu 2), Aufrechnung, Widerklage. "
-        "Streithelferin: Wirkung des § 68 ZPO nur soweit der Beitritt reicht.\n\n" + AKTE +
-        "\nFertigen Sie die Entscheidungsgruende."
-    ),
+    "zr-001": "Bearbeitervermerk\nFertigen Sie den Urteilskopf. Im Namen des Volkes.\n\n" + AKTE,
+    "zr-002": "Bearbeitervermerk\nFertigen Sie die Urteilsformel. § 308, § 709 ZPO. Gesamtschuld. Widerklage abweisen.\n\n" + AKTE,
+    "zr-003": "Bearbeitervermerk\nFertigen Sie den Tatbestand. Indikativ/Konjunktiv. Keine Unternehmensgeschichte.\n\n" + AKTE,
+    "zr-004": "Bearbeitervermerk\nFertigen Sie die Entscheidungsgruende im Urteilsstil. § 68 ZPO zur Streithelferin.\n\n" + AKTE,
     "zr-005": (
         "Bearbeitervermerk\nAnwaltliche Sicht. Ein Sachbericht ist nicht zu fertigen.\n"
         "Gliederung: Mandantenbegehren, Gutachten, Zweckmaessigkeit, Schriftsatz.\n"
-        "Im Gutachten: Anspruch gegen Zufall; Haftung Hage; Aufrechnung Lackschaden; Widerklage Wucher.\n"
-        "In der Zweckmaessigkeit: Beitritt der Mega AG als Streithelferin — Nutzen und Risiko fuer die Mandantin; "
-        "ob der Beitritt anzuregen oder zurueckzuweisen ist.\n\n"
-        "Mandantin: Rabe Schneedienst GmbH. Ziel: Durchsetzung der Werklohnforderung und Abwehr der Widerklage.\n\n" + AKTE
+        "Zweckmaessigkeit: Beitritt Mega AG.\n\nMandantin: Rabe Schneedienst GmbH.\n\n" + AKTE
     ),
-    "zr-008": (
-        "Bearbeitervermerk\nPruefen Sie eine Vollstreckungsabwehrklage nach § 767 ZPO. Ein Sachbericht ist nicht zu fertigen.\n\n"
-        "Titel: Urteil 12 C 310/24 ueber 2.559,45 EUR. Nach Schluss der muendlichen Verhandlung zahlt der Beklagte zu 1) "
-        "1.000 EUR und rechnet mit einer erst danach faellig gewordenen Gegenforderung auf. § 767 Abs. 2 ZPO.\n\n" + AKTE
-    ),
-    "zr-009": (
-        "Bearbeitervermerk\nTenorieren Sie die Stattgabe einer Anfechtungsklage und ein Bescheidungsurteil bei der Verpflichtungsklage."
-    ),
-    "zr-010": (
-        "Bearbeitervermerk\nAntrag nach § 80 Abs. 5 VwGO. Ernstliche Zweifel, Interessenabwaegung, Tenor der Wiederherstellung."
-    ),
+    "zr-008": "Bearbeitervermerk\nVollstreckungsabwehrklage § 767 ZPO. Kein Sachbericht.\n\n" + AKTE,
+    "zr-009": "Bearbeitervermerk\nTenor Anfechtung und Bescheidungsurteil Verpflichtungsklage.",
+    "zr-010": "Bearbeitervermerk\nAntrag § 80 Abs. 5 VwGO.",
 }
 
 
@@ -132,17 +90,17 @@ def now_berlin():
     return datetime.now(BERLIN_TZ)
 
 
-def resolve_to() -> str:
+def resolve_to():
     return (os.environ.get("JURABRIEF_TO") or os.environ.get("GMAIL_ADDRESS") or "").strip()
 
 
-def load_json(path: Path, default):
-    if path.exists():
-        return json.loads(path.read_text(encoding="utf-8"))
-    return default
+def load_json(path, default):
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
 
 
 def save_state(state):
+    state["done"] = (state.get("done") or [])[-20:]
+    state["seen_slugs"] = (state.get("seen_slugs") or [])[-40:]
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
@@ -170,108 +128,63 @@ def pick_case(cases, state):
     return case, grund
 
 
-def _find_body(text: str, needle: str) -> int:
-    if not needle:
-        return 0
-    pos, fallback = 0, -1
-    while True:
-        i = text.find(needle, pos)
-        if i < 0:
-            return fallback if fallback >= 0 else 0
-        line = text[i: text.find("\n", i)]
-        if "...." in line:
-            if fallback < 0:
-                fallback = i
-            pos = i + len(needle)
-            continue
-        return i
-
-
-def _cut_clean(text: str, limit: int) -> str:
-    if len(text) <= limit:
-        return text.rstrip()
-    cut = text.rfind("\n\n", 0, limit)
-    if cut < limit // 3:
-        cut = text.rfind("\n", 0, limit)
-    return text[: cut if cut > limit // 3 else limit].rstrip()
-
-
-def clean_ocr(text: str) -> str:
-    text = text.replace(""", '"').replace("&", "&")
+def clean_ocr(text):
+    text = html.unescape(text)
     text = re.sub(r"(?m)^\s*\d{1,3}(?=[A-ZÄÖÜ])", "", text)
     text = re.sub(r"(?<=\n)\d{1,3}(?=[A-Za-zÄÖÜäöü])", "", text)
     text = re.sub(r"(?m)^\s*\d{1,3}\s*$", "", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
+    return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
-def load_skript_section(case: dict) -> str:
-    sid = case.get("skript_id")
-    path = EXTRACTED / f"{sid}.txt" if sid else None
-    if not path or not path.exists():
+def load_skript_section(case):
+    sid = case.get("skript_id") or ""
+    text = ""
+    for name in (f"{sid}.txt", f"{sid}-kopf.txt"):
+        path = EXTRACTED / name
+        if path.exists() and path.stat().st_size > 50:
+            text = path.read_text(encoding="utf-8")
+            break
+    if not text:
         return ""
-    text = path.read_text(encoding="utf-8")
-    i = _find_body(text, case.get("skript_start") or "")
+    start = case.get("skript_start") or ""
+    i = text.find(start) if start else 0
+    if i < 0:
+        i = 0
     end = case.get("skript_end") or ""
-    j = _find_body(text, end) if end else min(len(text), i + 20000)
-    if j <= i:
-        j = min(len(text), i + 20000)
-    return _cut_clean(text[i:j], 4500)
+    j = text.find(end, i + 1) if end else min(len(text), i + 12000)
+    chunk = text[i:j if j > i else i + 12000]
+    if len(chunk) > 4500:
+        cut = chunk.rfind("\n\n", 0, 4500)
+        chunk = chunk[: cut if cut > 1000 else 4500]
+    return chunk.rstrip()
 
 
-def aufgabe_aus_skript(case: dict) -> str:
-    cid = case.get("id", "")
-    if cid in FALLBACK:
-        return FALLBACK[cid]
-    return case.get("aufgabe") or "Bearbeiten Sie den Abschnitt nach dem Skript. Keine neuen Parteien."
-
-
-def _old_search(params: dict) -> list:
-    url = OLD_BASE + "?" + urllib.parse.urlencode(params)
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "jurabrief/1.0"})
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            return json.loads(resp.read().decode("utf-8")).get("results") or []
-    except Exception as e:
-        print(f"OLD: {e}", file=sys.stderr)
-        return []
-
-
-def _is_zivil_case(case):
-    return (case.get("gerichtsbarkeit") or "") == "zivil" or "zivil" in case.get("gebiet", "").lower()
-
-
-def _is_verw(case):
-    return (case.get("gerichtsbarkeit") or "") == "verwaltung" or "verwalt" in case.get("gebiet", "").lower()
-
-
-def _bad(text: str, slug: str = "") -> bool:
+def _bad(text, slug=""):
     t = (text + " " + slug).lower()
     return any(s in t for s in STRAF) or any(p in t for p in PLACEHOLDER)
 
 
-def _court_ok(court, case):
-    c = (court or "").lower()
-    if _is_zivil_case(case):
-        return not any(t in c for t in VR_COURTS) and any(t in c for t in ZR_COURTS)
-    if _is_verw(case):
-        return any(t in c for t in VR_COURTS)
-    return True
-
-
 def _court_name(court):
     if isinstance(court, dict):
-        return court.get("name") or court.get("slug") or ""
+        return " ".join(str(court.get(k) or "") for k in ("name", "slug"))
     return str(court or "")
 
 
-def _result_text(r):
-    if r.get("text"):
-        return r["text"]
-    return "\n".join(s.get("text", "") for s in (r.get("snippets") or []) if isinstance(s, dict))
+def _is_verw(case):
+    geb = (case.get("gerichtsbarkeit") or "") + " " + case.get("gebiet", "")
+    return "verwalt" in geb.lower()
 
 
-def slice_urteil(text: str) -> str | None:
+def _court_ok(court, case):
+    c = court.lower()
+    if _is_verw(case):
+        return any(t in c for t in VR_MARK)
+    if any(t in c for t in VR_MARK):
+        return False
+    return any(t in c for t in ZR_MARK)
+
+
+def slice_urteil(text):
     text = clean_ocr(text)
     if _bad(text):
         return None
@@ -283,53 +196,54 @@ def slice_urteil(text: str) -> str | None:
             start = i
             break
     chunk = text[start:start + 3500].strip()
-    if len(chunk) < 180 or _bad(chunk):
-        return None
-    return chunk
+    return chunk if len(chunk) >= 180 and not _bad(chunk) else None
 
 
-def search_related_case(case, seen_slugs: list[str]):
+def _old_search(params):
+    url = OLD_BASE + "?" + urllib.parse.urlencode(params)
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "jurabrief/1.0"})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        return data.get("results") or data.get("items") or []
+    except Exception as e:
+        print(f"OLD: {e}", file=sys.stderr)
+        return []
+
+
+def search_related_case(case, seen_slugs):
     seen = set(seen_slugs or [])
     terms = [
-        "Im Namen des Volkes Landgericht Klaegerin Beklagte",
-        "Oberlandesgericht Zivilsenat In dem Rechtsstreit",
-        "Landgericht Zivilkammer Urteil Klaegerin",
-        "Landgericht Halle Zivilkammer",
-        "Landgericht Magdeburg Urteil Klaeger",
+        "Im Namen des Volkes Klaegerin Beklagte",
+        "Landgericht Urteil Klaegerin",
+        "Oberlandesgericht Zivilsenat",
+        "Landgericht Halle",
+        "Landgericht Magdeburg",
     ] + list(case.get("suchbegriffe") or [])
     if _is_verw(case):
         terms = ["Verwaltungsgericht Im Namen des Volkes"] + terms
-    queries = []
-    for t in terms:
-        if t not in queries:
-            queries.append(t)
-    base = {
-        "start_date": "2019-01-01",
-        "end_date": now_berlin().strftime("%Y-%m-%d"),
-        "order_by": "relevance",
-        "return_text": "1",
-        "page_size": "10",
-    }
-    for text_q in queries:
-        hits = _old_search({**base, "text": text_q})
-        print(f"OLD {text_q!r} {len(hits)}", file=sys.stderr)
+    for q in terms:
+        hits = _old_search({"text": q, "page_size": "10"})
+        print(f"OLD {q!r} {len(hits)}", file=sys.stderr)
         for r in hits:
             slug = r.get("slug") or ""
             if slug in seen:
                 continue
-            raw = _result_text(r)
-            if _bad(raw, slug):
+            raw = r.get("text") or ""
+            court = _court_name(r.get("court"))
+            if _bad(raw, slug) or not _court_ok(court, case):
                 continue
-            if not _court_ok(_court_name(r.get("court")), case):
+            year = (r.get("date") or "")[:4]
+            if year and year < "2019":
                 continue
             shaped = slice_urteil(raw)
             if not shaped:
                 continue
             return {
-                "gericht": _court_name(r.get("court")),
+                "gericht": court.strip() or slug,
                 "datum": r.get("date", ""),
-                "aktenzeichen": r.get("file_number") or slug,
-                "entscheidungstyp": r.get("decision_type") or "Urteil",
+                "aktenzeichen": r.get("file_number") or r.get("ecli") or slug,
+                "entscheidungstyp": r.get("type") or r.get("decision_type") or "Urteil",
                 "text": shaped,
                 "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
                 "slug": slug,
@@ -337,30 +251,12 @@ def search_related_case(case, seen_slugs: list[str]):
     return None
 
 
-def build_mail(case, related, rules, aufgabe, today_str):
-    quelle = case.get("quelle", "Berliner Ausbildungsskript")
-    if related:
-        lesen = (
-            f"I. Lesetext\n"
-            f"{related['gericht']}, {related['entscheidungstyp']} vom {related['datum']}, {related['aktenzeichen']}\n"
-        )
-        if related.get("url"):
-            lesen += related["url"] + "\n"
-        lesen += "\n" + related["text"] + "\n"
-    else:
-        lesen = "I. Lesetext\nKein Urteil der passenden Gerichtsbarkeit.\n"
-    block2 = f"II. Bearbeitung\n{case['gebiet']}\n{quelle}\n\n{aufgabe}\n"
-    if rules:
-        block2 += "\n--- Skript (Regeln) ---\n" + rules + "\n"
-    return f"Jurabrief — {today_str}\n{case['gebiet']}\n\n{lesen}\n\n{block2}\n"
-
-
 def send_mail(subject, body, to_addr):
     gmail = (os.environ.get("GMAIL_ADDRESS") or "").strip()
     pw = (os.environ.get("GMAIL_APP_PASSWORD") or "").strip()
     if not gmail or not pw or "@" not in (to_addr or ""):
-        print(body)
-        return
+        print("Kein Empfaenger oder keine SMTP-Secrets.", file=sys.stderr)
+        raise SystemExit(2)
     msg = MIMEText(body, "plain", "utf-8")
     msg["Subject"] = subject
     msg["From"] = gmail
@@ -378,15 +274,27 @@ def main():
     state = load_json(STATE_FILE, {"done": [], "seen_slugs": []})
     case, grund = pick_case(cases, state)
     rules = load_skript_section(case)
-    aufgabe = aufgabe_aus_skript(case)
+    aufgabe = FALLBACK.get(case["id"]) or case.get("aufgabe") or AKTE
     related = search_related_case(case, state.get("seen_slugs", []))
     if related and related.get("slug"):
-        slugs = state.get("seen_slugs", [])
-        slugs.append(related["slug"])
-        state["seen_slugs"] = slugs[-40:]
+        state.setdefault("seen_slugs", []).append(related["slug"])
     save_state(state)
-    today = now_berlin().strftime("%A, %d. %B %Y")
-    body = build_mail(case, related, rules, aufgabe, today)
+    if related:
+        lesen = (
+            f"I. Lesetext\n{related['gericht']}, {related['entscheidungstyp']} vom "
+            f"{related['datum']}, {related['aktenzeichen']}\n"
+        )
+        if related.get("url"):
+            lesen += related["url"] + "\n"
+        lesen += "\n" + related["text"] + "\n"
+    else:
+        lesen = "I. Lesetext\nKein Urteil der passenden Gerichtsbarkeit.\n"
+    body = (
+        f"Jurabrief — {now_berlin().strftime('%A, %d. %B %Y')}\n{case['gebiet']}\n\n"
+        f"{lesen}\n\nII. Bearbeitung\n{case['gebiet']}\n{case.get('quelle', '')}\n\n{aufgabe}\n"
+    )
+    if rules:
+        body += "\n--- Skript (Regeln) ---\n" + rules + "\n"
     send_mail(
         f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})",
         body,
