@@ -33,7 +33,7 @@ try:
 except ImportError:
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
     from claude_client import complete
-from karten import EXTRACTED, OUT, clean
+from karten import EXTRACTED, OUT, clean, ohne_fussnoten
 
 PROMPT = """Du kuratierst Uebungskarten fuer die zweite juristische Staatspruefung.
 Grundlage ist ein Abschnitt aus einem Ausbildungsskript und Rohkarten daraus.
@@ -58,14 +58,13 @@ Fuer jede Rohkarte:
 Nur JSON-Liste ohne Markdown:
 [{{"id": "<id der Rohkarte>", "frage": "<neue Frage>", "gewicht": <1-3>}}]"""
 
-FUSSNOTE = re.compile(r"(?<=[a-zA-ZäöüßÄÖÜ][.!?\u201c\"])\d{1,3}(?=\s|$)")
 RANDNUMMER = re.compile(r"\s\d{2,3}(?=\s§)")
 
 
 def _normal(s: str) -> str:
     """Beide Seiten gleich behandeln — sonst scheitert eine bereinigte Loesung
     am unbereinigten Skripttext."""
-    s = FUSSNOTE.sub("", s)
+    s = ohne_fussnoten(s)
     s = RANDNUMMER.sub(" ", s)
     s = re.sub(r"(\w)\s*-\s*(\w)", r"\1\2", s)          # Trennreste
     s = re.sub(r"[\u201e\u201c\"\u201d\u201a\u2018']", "", s)
