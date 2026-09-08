@@ -15,7 +15,6 @@ from pathlib import Path
 
 from claude_client import complete
 from fsrs_scheduler import _load, _save, parse_note, review, review_punkte
-from karten_wahl import als_loesung
 
 HERE = Path(__file__).resolve().parent
 MIN_KLAUSUR = 400
@@ -159,6 +158,61 @@ def als_mail(case: dict, k: dict, schnitt=None) -> str:
     return "\n".join(z)
 
 
+KARTEN_PROMPT = """Du korrigierst Uebungsantworten fuer die zweite juristische
+Staatspruefung. Zu jeder Aufgabe gibt es eine woertliche Skriptloesung. Vergleiche
+die Antwort damit. Massstab: 4 Punkte Bestehensgrenze, 9 Punkte vollbefriedigend.
+Klausurstil, keine Hoeflichkeit, keine Erklaerung des Offensichtlichen.
+
+AUFGABEN MIT SKRIPTLOESUNG:
+{aufgaben}
+
+ANTWORT DER BEARBEITERIN (nummeriert, kann Luecken haben):
+{antwort}
+
+Bewerte jede Aufgabe einzeln. Fehlt eine Antwort, gib 0 Punkte und sage das.
+Inhaltlich richtig, aber anders formuliert: das ist kein Fehler, solange die
+Skriptformulierung nicht praeziser ist — dann sage, warum sie praeziser ist.
+
+Nur JSON ohne Markdown:
+{{"karten": [{{"nr": <n>, "punkte": <0-18>, "treffer": "<was sass, ein Satz>",
+   "fehlt": "<was fehlt oder falsch ist, ein Satz; leer wenn nichts>"}}],
+  "gesamt": <0-18>, "naechster_schritt": "<eine konkrete Uebung>"}}"""
+
+
+def korrigiere_karten(pack: list[dict], antwort: str) -> dict:
+    aufgaben = "\n\n".join(
+        f"{k['nr']}. {k['frage']}\n   SKRIPTLOESUNG: {k['loesung']}" for k in pack)
+    roh = complete(KARTEN_PROMPT.format(aufgaben=aufgaben[:9000], antwort=antwort[:9000]),
+                   max_tokens=2500)
+    roh = re.sub(r"^```(?:json)?|```$", "", roh.strip(), flags=re.M).strip()
+    d = json.loads(roh)
+    for k in d.get("karten", []):
+        k["punkte"] = max(0, min(18, int(k.get("punkte", 0))))
+    if not d.get("karten"):
+        raise ValueError("Korrektur ohne Kartenbewertung")
+    d["gesamt"] = max(0, min(18, int(d.get("gesamt") or
+                       round(sum(k["punkte"] for k in d["karten"]) / len(d["karten"])))))
+    return d
+
+
+def karten_mail(case: dict, pack: list[dict], k: dict, schnitt=None) -> str:
+    nach_nr = {c["nr"]: c for c in pack}
+    z = [f"Auswertung — {case['gebiet']} [{case['id']}]", "",
+         f"{k['gesamt']} Punkte im Schnitt", ""]
+    for b in sorted(k["karten"], key=lambda x: x.get("nr", 0)):
+        c = nach_nr.get(b.get("nr"), {})
+        z += [f"{b.get('nr')}. {c.get('frage', '')[:120]}",
+              f"   {b['punkte']} Punkte — {b.get('treffer', '')}"]
+        if b.get("fehlt"):
+            z.append(f"   fehlt: {b['fehlt']}")
+        z += [f"   Skript: {c.get('loesung', '')}", ""]
+    z += [f"Naechster Schritt: {k.get('naechster_schritt', '')}"]
+    if schnitt is not None:
+        z += ["", f"Schnitt in diesem Gebiet: {schnitt} Punkte"]
+    z += ["", "Widerspruch? Antworte mit: punkte 9 — <Begruendung>."]
+    return "\n".join(z)
+
+
 def main() -> int:
     from generate_jurabrief import load_skript_section as load_skript
 
@@ -186,15 +240,23 @@ def main() -> int:
         offen = state.get("offen") or {}
         pack = offen.get("karten") or []
         if pack and offen.get("case_id") == case["id"]:
-            aufgabe = "\n\n".join(f"{i+1}. {k.get('frage','')}" for i, k in enumerate(pack))
-            regeln = als_loesung(pack)
-        else:
-            aufgabe = case.get("bearbeitervermerk") or case.get("gebiet", "")
-            regeln = load_skript(case)
-        k = korrigiere(aufgabe, regeln, a["text"])
+            k = korrigiere_karten(pack, a["text"])
+            nach_nr = {c["nr"]: c for c in pack}
+            for b in k["karten"]:
+                c = nach_nr.get(b.get("nr"))
+                if c:
+                    review_punkte(progress, c["id"], b["punkte"], b.get("fehlt", ""))
+            review_punkte(progress, case["id"], k["gesamt"], k.get("naechster_schritt", ""))
+            send_mail(f"Auswertung — {case['gebiet']} [{case['id']}] {k['gesamt']} Punkte",
+                      karten_mail(case, pack, k, progress["cards"][case["id"]].get("schnitt")))
+            print(f"{case['id']} {len(k['karten'])} Karten, Schnitt {k['gesamt']}", file=sys.stderr)
+            state["offen"] = {}
+            state_pfad.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+            continue
+
+        aufgabe = case.get("bearbeitervermerk") or case.get("gebiet", "")
+        k = korrigiere(aufgabe, load_skript(case), a["text"])
         res = review_punkte(progress, case["id"], k["punkte"], k.get("tragend", ""))
-        for card in pack:
-            review_punkte(progress, card["id"], k["punkte"], k.get("tragend", ""))
         send_mail(f"Auswertung — {case['gebiet']} [{case['id']}] {k['punkte']} Punkte",
                   als_mail(case, k, progress["cards"][case["id"]].get("schnitt")))
         print(f"{case['id']} {k['punkte']} Punkte -> +{res['interval']}d", file=sys.stderr)
