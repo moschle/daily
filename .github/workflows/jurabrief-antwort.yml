@@ -2,7 +2,6 @@ name: Jurabrief-Antwort
 
 on:
   schedule:
-    # Di & Do um 19:00 Berlin (17:00 UTC) — Zwischentage nach Mo/Mi/Fr
     - cron: '0 17 * * 2,4'
   workflow_dispatch:
 
@@ -17,33 +16,39 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Abhängigkeiten
+      - name: Abhaengigkeiten
         run: pip install -r requirements.txt
 
       - name: Antwortmails einlesen (IMAP)
         env:
+          PYTHONPATH: ${{ github.workspace }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python jurabriefe/ingest_feedback.py
 
-      - name: Klausur bewerten (falls Lösung vorliegt)
+      - name: Klausur bewerten (falls Loesung vorliegt)
         env:
+          PYTHONPATH: ${{ github.workspace }}:${{ github.workspace }}/jurabriefe
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ -f jurabriefe/pending_solution.json ]; then
             python - <<'PY'
-import json
-from jurabriefe.grade_solution import grade
+import json, sys
+from pathlib import Path
+sys.path.insert(0, str(Path("jurabriefe").resolve()))
+sys.path.insert(0, str(Path(".").resolve()))
+from grade_solution import grade
 p = json.loads(open("jurabriefe/pending_solution.json").read())
 print(json.dumps(grade(p["case_id"], p["loesung"]), ensure_ascii=False, indent=2))
 PY
           else
-            echo "Keine pending_solution.json — keine neue Lösung."
+            echo "Keine pending_solution.json — keine neue Loesung."
           fi
 
       - name: Auswertung mailen
         env:
+          PYTHONPATH: ${{ github.workspace }}:${{ github.workspace }}/jurabriefe
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           JURABRIEF_TO: ${{ secrets.JURABRIEF_TO }}

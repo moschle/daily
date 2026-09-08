@@ -21,14 +21,21 @@ from email.mime.text import MIMEText
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+_HERE = Path(__file__).resolve().parent
+_REPO = _HERE.parent
+for _p in (_REPO, _HERE):
+    s = str(_p)
+    if s not in sys.path:
+        sys.path.insert(0, s)
+
 from claude_client import complete
 from adaptive_plan import pick
 
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
-STATE_FILE = Path(__file__).parent / "state.json"
-CASES_FILE = Path(__file__).parent / "cases.json"
-PROGRESS_FILE = Path(__file__).parent / "progress.json"
-LERNPLAN_FILE = Path(__file__).parent / "lernplan.json"
+STATE_FILE = _HERE / "state.json"
+CASES_FILE = _HERE / "cases.json"
+PROGRESS_FILE = _HERE / "progress.json"
+LERNPLAN_FILE = _HERE / "lernplan.json"
 OLD_BASE = "https://de.openlegaldata.io/api/cases/search/"
 
 SEED_CASES = []
