@@ -14,5 +14,47 @@
     "zr-012": 1.0
   },
   "feedback": [],
-  "letzte_anpassung": null
+  "letzte_anpassung": null,
+  "cards": {
+    "zr-006": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-08",
+      "reps": 0
+    },
+    "zr-anwalt:form:012": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-08",
+      "reps": 0
+    },
+    "zr-anwalt:form:013": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-08",
+      "reps": 0
+    },
+    "zr-anwalt:form:014": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-08",
+      "reps": 0
+    },
+    "zr-anwalt:form:011": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-08",
+      "reps": 0
+    }
+  }
 }

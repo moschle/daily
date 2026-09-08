@@ -7,16 +7,64 @@
     "zr-005",
     "zr-001",
     "zr-002",
-    "zr-003"
+    "zr-003",
+    "zr-006"
   ],
-  "last_id": "zr-003",
+  "last_id": "zr-006",
   "seen_slugs": [
     "olgdres-2021-11-16-4-u-116821",
     "kg--2020-09-30-3-161-ss-4920-48",
     "olghe-2020-11-16-13-u-3419",
     "olgdres-2022-02-17-18a-u-256821",
     "lg-duisburg-2024-05-13-3-o-17123",
-    "olgmuen-2022-02-22-18-u-317620"
+    "olgmuen-2022-02-22-18-u-317620",
+    "olgce-2020-12-16-14-u-8720"
   ],
-  "next_index": 1
+  "next_index": 1,
+  "offen": {
+    "case_id": "zr-006",
+    "datum": "2026-09-08",
+    "karten": [
+      {
+        "nr": 1,
+        "id": "zr-anwalt:form:012",
+        "typ": "formulierung",
+        "frage": "Formulieren Sie den Antrag auf einstweilige Einstellung der Zwangsvollstreckung im Rahmen einer Vollstreckungsabwehrklage (AG Schöneberg, Urteil vom 8.6.2010, Az. 13 C 212/10).",
+        "loesung": "Die Zwangsvollstreckung aus dem Urteil des Amtsgerichts Schöneberg vom 8.6.2010 zum Geschäftszeichen 13 C 212/10 wird bis zum Erlass des Urteils in der Hauptsache einstweilen ohne, hilfsweise gegen Sicherheitsleistung eingestellt.",
+        "gewicht": 3,
+        "skript": "zr-anwalt",
+        "abschnitt": "V. Die Klausurbearbeitung: › 6. Herrn Rechtsanwalt H, ebd., Widerbeklagter zu 6., › h. Vollstreckungsabwehrklage"
+      },
+      {
+        "nr": 2,
+        "id": "zr-anwalt:form:013",
+        "typ": "formulierung",
+        "frage": "Formulieren Sie die einleitende Parteivorstellung im Schriftsatz (Zahnarzt-Abfindungsstreit).",
+        "loesung": "Die Parteien sind Zahnärzte. Der Kläger begehrt vom Beklagten die Zahlung einer Abfindung aufgrund vorzeitiger Kündigung des Gemeinschaftspraxisvertrages. (...)",
+        "gewicht": 2,
+        "skript": "zr-anwalt",
+        "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden."
+      },
+      {
+        "nr": 3,
+        "id": "zr-anwalt:form:014",
+        "typ": "formulierung",
+        "frage": "Formulieren Sie die einleitende Parteivorstellung im Schriftsatz (Mietrückstände August bis November 2023, Pallasstraße 57, Berlin-Schöneberg).",
+        "loesung": "Die Klägerin vermietet dem Beklagten eine Wohnung in der Pallasstraße 57 in 10829 Berlin - Schöneberg und macht mit dieser Klage Mietrückstände für die Monate August bis November 2023 geltend.",
+        "gewicht": 2,
+        "skript": "zr-anwalt",
+        "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden."
+      },
+      {
+        "nr": 4,
+        "id": "zr-anwalt:form:011",
+        "typ": "formulierung",
+        "frage": "Formulieren Sie die Einleitung des Klageantrages, wenn das Rubrum mit den Worten 'In dem Rechtsstreit des Herrn Johannes Hufland, Klägers,' eingeleitet wurde.",
+        "loesung": "erhebe ich hiermit namens und in Vollmacht des Klägers Klage und werde beantragen, wie folgt zu erkennen:",
+        "gewicht": 1,
+        "skript": "zr-anwalt",
+        "abschnitt": "V. Die Klausurbearbeitung: › 2. Karl- Heinz Emmerich, (…),"
+      }
+    ]
+  }
 }
