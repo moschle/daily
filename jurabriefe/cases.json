@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "id": "zr-001",
+      "gebiet": "Schuldrecht AT — Verzug",
+      "kernfrage": "Wann tritt Verzug ohne Mahnung ein? Welche Voraussetzungen muss die Mahnung erfüllen?",
+      "behoerdensprache": ["ernsthafte und hinreichend bestimmte Zahlungsaufforderung", "Mahnung", "Verzugseintritt"],
+      "verwandte_urteile_hinweis": "BGH zu § 286 BGB, Mahnungserfordernis"
+    },
+    {
+      "id": "zr-002",
+      "gebiet": "Sachenrecht — Eigentumserwerb",
+      "kernfrage": "Wie erwirbt man Eigentum an einer beweglichen Sache durch Übergabe? Was gilt bei gutgläubigem Erwerb?",
+      "behoerdensprache": ["Besitzverschaffung", "gute Glauben", "Übergabesurrogat"],
+      "verwandte_urteile_hinweis": "BGH zu § 929, 932 BGB"
+    },
+    {
+      "id": "zr-003",
+      "gebiet": "Allgemeines Schuldrecht — Schadensersatz",
+      "kernfrage": "Wann haftet man aus unerlaubter Handlung? Welche Kausalität ist erforderlich?",
+      "behoerdensprache": ["unerlaubte Handlung", "Kausalzusammenhang", "Schadensersatzpflicht"],
+      "verwandte_urteile_hinweis": "BGH zu § 823 BGB"
+    }
+  ],
+  "quelle": "Platzhalter — später Berlin-Skript + Scans",
+  "aktualisiert": "2026-09-08"
+}
