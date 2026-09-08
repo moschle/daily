@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
-"""Klausur-Kontrolle: bewertet die gelöste Aufgabe über die Claude-API.
-
-Eingabe: Antwortmail mit Lösungstext. Ausgabe: strukturierte Bewertung
-(Punkte 0-18, Stärken, Lücken, konkrete Verbesserungen) plus FSRS-Update.
-
-Der Prompt orientiert sich an offiziellen Korrekturleitfäden
-(Gutachtenstil, Obersatz, Subsumtion, Problemerkenntnis, Schwerpunktsetzung).
-"""
-
+"""Klausurkontrolle auf Examensniveau."""
 from __future__ import annotations
 
 import json
@@ -20,6 +12,42 @@ from fsrs_scheduler import review
 
 ROOT = Path(__file__).parent
 CASES = ROOT / "cases.json"
+EXTRACTED = ROOT / "extracted"
+
+GRADE_PROMPT = """Du korrigierst eine Assessorklausur, staatliche Sicht, 2. Examen.
+Massstab: Berliner ZR-Skript und die Praxis des LJPA. Keine Anrede.
+
+Gebiet: {gebiet}
+Quelle: {quelle}
+Skriptregeln:
+{regeln}
+
+Musterrubrum (nicht als einzige richtige Loesung, aber als Massstab der Formalien):
+{muster}
+
+Loesung der Bearbeiterin:
+---
+{loesung}
+---
+
+Pruefe insbesondere:
+- Im Namen des Volkes
+- Eingangsformel
+- Parteibezeichnung (Genitiv/Akkusativ oder durchgehender Nominativ), Anschrift, gesetzliche Vertreter
+- Parteistellung rechtsbuendig, Widerklagezusatz
+- Prozessbevollmaechtigte in Parenthese, ausgeschrieben
+- Streithelfer unter der Partei, der sie beigetreten sind
+- Gericht, Spruchkoerper, Richter mit Amtsbezeichnung, letzter Verhandlungstag, nicht Verkuendungstag
+- Kaufmann unter der Firma, Minderjaehrige mit Geburtsdatum und beiden Eltern
+
+Antwort nur JSON:
+  "punkte": 0-18,
+  "note": 1-5,
+  "staerken": [str],
+  "luecken": [str],
+  "verbesserung": [str],
+  "muster_kurz": kurzer Hinweis ohne den ganzen Kopf zu wiederholen.
+"""
 
 
 def load_case(case_id: str) -> dict:
@@ -30,44 +58,41 @@ def load_case(case_id: str) -> dict:
     return {}
 
 
-GRADE_PROMPT = """Du bist erfahrene Korrektorin im 2. Juristischen Staatsexamen (Sachsen-Anhalt, LJPA Halle).
-Bewerte die Klausurlösung einer Referendarin streng, aber fair — auf absolutem Examensniveau.
-Orientiere dich an den offiziellen Bewertungskriterien:
-- Gutachtenstil (Obersatz, Definition, Subsumtion, Ergebnis) bzw. Urteilsstil bei staatlicher Sicht
-- Arbeit am Sachverhalt und am Gesetz, Auslegung (Wortlaut, Systematik, Telos)
-- Problemerkenntnis und -bearbeitung, Schwerpunktsetzung, Klausurökonomie
-- Vertretbare Lösungen akzeptieren, auch abweichend von der Musterlösung
-- Häufige Fehler: Urteilsstil statt Gutachtenstil, ungenaue Obersätze, Evidenzbehauptungen, unwesentliches ausführlich
-
-Fall: {gebiet}
-Kernfrage: {kernfrage}
-Erwartete Begriffe/Sprache: {begriffe}
-Quelle: {quelle}
-
-Ihre Lösung:
----
-{loesung}
----
-
-Antworte AUSSCHLIESSLICH als JSON (kein Markdown, kein Text davor/danach) mit genau diesen Keys:
-  "punkte": Zahl 0-18 (18 = fehlerfrei, 0 = völlig unbrauchbar),
-  "note": Zahl 1-5 (1 sehr unsicher, 5 sitzt),
-  "staerken": [kurzer Text],
-  "luecken": [konkrete Lücken, z. B. fehlende Obersatzbildung],
-  "verbesserung": [was sie beim nächsten Mal tun soll],
-  "muster_kurz": 2-3 Sätze Musterlösung zum Kern.
-"""
+def load_skript(case: dict) -> tuple[str, str]:
+    sid = case.get("skript_id")
+    path = EXTRACTED / f"{sid}.txt" if sid else None
+    if not path or not path.exists():
+        return "", ""
+    text = path.read_text(encoding="utf-8")
+    start = case.get("skript_start") or ""
+    end = case.get("skript_end") or ""
+    i = text.find(start) if start else 0
+    # skip TOC
+    while i >= 0 and "...." in text[i: text.find("\n", i)]:
+        nxt = text.find(start, i + 1)
+        if nxt < 0:
+            break
+        i = nxt
+    j = text.find(end, i + 1) if end else -1
+    chunk = text[i: j if j > i else i + 20000]
+    k = chunk.find("12 C 310/24")
+    if k >= 0:
+        line = chunk.rfind("Amtsgericht", 0, k + 1)
+        if line >= 0:
+            return chunk[:line][:3500], chunk[line:line + 2500]
+    return chunk[:3500], ""
 
 
 def grade(case_id: str, loesung: str) -> dict:
     case = load_case(case_id)
     if not case:
         return {"fehler": f"Unbekannte Fall-ID: {case_id}"}
+    regeln, muster = load_skript(case)
     prompt = GRADE_PROMPT.format(
         gebiet=case.get("gebiet", ""),
-        kernfrage=case.get("kernfrage", ""),
-        begriffe=", ".join(case.get("behoerdensprache", [])),
         quelle=case.get("quelle", ""),
+        regeln=regeln[:3000],
+        muster=muster[:2500] or "(kein Musterrubrum im Abschnitt)",
         loesung=loesung[:6000],
     )
     try:
@@ -81,13 +106,15 @@ def grade(case_id: str, loesung: str) -> dict:
         result = json.loads(m.group(0))
     except json.JSONDecodeError:
         return {"fehler": "JSON kaputt", "roh": raw[:500]}
-    # Punkte auf 0-18 clampen
     try:
         punkte = int(result.get("punkte", 0))
     except (TypeError, ValueError):
         punkte = 0
     result["punkte"] = max(0, min(18, punkte))
-    note = int(result.get("note", 3))
+    try:
+        note = int(result.get("note", 3))
+    except (TypeError, ValueError):
+        note = 3
     result["note"] = max(1, min(5, note))
     result["case_id"] = case_id
     result["fsrs"] = review(case_id, result["note"], json.dumps(result.get("luecken", []), ensure_ascii=False))
@@ -101,6 +128,4 @@ if __name__ == "__main__":
     if len(sys.argv) < 3:
         print("Nutzung: grade_solution.py <case_id> <loesungstext-Datei>")
         sys.exit(1)
-    cid = sys.argv[1]
-    text = Path(sys.argv[2]).read_text(encoding="utf-8")
-    print(json.dumps(grade(cid, text), ensure_ascii=False, indent=2))
+    print(json.dumps(grade(sys.argv[1], Path(sys.argv[2]).read_text(encoding="utf-8")), ensure_ascii=False, indent=2))
