@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Jurabrief: Mail mit zwei Blöcken.
+"""Jurabrief: Mail mit zwei Bloecken.
 
-1) Verwandtes Urteil zum Lesen (Sprache, Tenor, Begründung)
-2) Aufgabe aus dem Skript-Fall (lösen, keine neu generierte Klausur)
+1) Verwandtes Urteil zum Lesen (Sprache, Tenor, Begruendung)
+2) Aufgabe aus dem Skript-Fall (loesen, keine neu generierte Klausur)
 
-Der Betreff enthält die Fall-ID in eckigen Klammern, damit die Antwortmail
+Der Betreff enthaelt die Fall-ID in eckigen Klammern, damit die Antwortmail
 automatisch zugeordnet werden kann: [zr-001].
 """
 
@@ -70,7 +70,7 @@ def load_plan():
 
 
 def pick_case(cases, state):
-    """Adaptiver Plan: Phase + FSRS-Fälligkeit + Gewicht. Fällt zurück auf
+    """Adaptiver Plan: Phase + FSRS-Faelligkeit + Gewicht. Faellt zurueck auf
     zyklisches Picking, falls adaptive_plan nicht greift."""
     try:
         plan = load_plan()
@@ -121,11 +121,10 @@ def search_related_case(case):
     results = data.get("results", [])
     if not results:
         return None
-    # Erstes Ergebnis, das nicht exakt dem Skript-Beispiel entspricht
     for r in results:
         text = r.get("text") or ""
-        if len(text) > 200:  # Mindestlänge für Relevanz
-            snippet = text[:4500] + (…" if len(text) > 4500 else "")
+        if len(text) > 200:
+            snippet = text[:4500] + ("..." if len(text) > 4500 else "")
             return {
                 "gericht": r.get("court", ""),
                 "datum": r.get("date", ""),
@@ -138,15 +137,15 @@ def search_related_case(case):
 
 
 def lesehinweis(case, related):
-    """Kurzer Blickwinkel fürs Lesen — kein neuer Fall."""
+    """Kurzer Blickwinkel fuers Lesen — kein neuer Fall."""
     sprache = ", ".join(case.get("behoerdensprache", [])[:4])
     prompt = (
-        "Schreibe auf Deutsch zwei bis drei kurze Sätze als Lesehinweis. "
-        "Kein Sachverhalt, keine Klausuraufgabe, keine Lösung. "
+        "Schreibe auf Deutsch zwei bis drei kurze Saetze als Lesehinweis. "
+        "Kein Sachverhalt, keine Klausuraufgabe, keine Loesung. "
         f"Thema: {case.get('gebiet', '')}. "
         f"Worauf achten: {case.get('kernfrage', '')}. "
         f"Typische Formulierungen: {sprache}. "
-        "Sage der Leserin, worauf sie im Tenor und in den Gründen achten soll."
+        "Sage der Leserin, worauf sie im Tenor und in den Gruenden achten soll."
     )
     if related:
         prompt += f" Gericht des Textes: {related.get('gericht')} {related.get('datum')}."
@@ -155,7 +154,7 @@ def lesehinweis(case, related):
     except Exception as e:
         print(f"Claude-Fehler (Lesehinweis): {e}", file=sys.stderr)
         return (
-            f"Achte beim Lesen auf Tenor und Begründungsaufbau. "
+            f"Achte beim Lesen auf Tenor und Begruendungsaufbau. "
             f"Kernfrage zum Thema: {case.get('kernfrage', '')}"
         )
 
@@ -167,7 +166,7 @@ def build_mail(case, related, hint, today_str):
     if related:
         lesen = (
             f"TEIL 1 — LESEN (Sprache und Aufbau)\n"
-            f"Lies den Auszug. Löse ihn nicht. Er ist nur zum Einlesen.\n\n"
+            f"Lies den Auszug. Loese ihn nicht. Er ist nur zum Einlesen.\n\n"
             f"Gericht: {related['gericht']}\n"
             f"Datum: {related['datum']}\n"
             f"Aktenzeichen: {related['aktenzeichen']}\n"
@@ -190,9 +189,9 @@ def build_mail(case, related, hint, today_str):
         f"Quelle: {quelle}\n"
         f"Kernfrage: {case['kernfrage']}\n"
         f"Begrifflichkeiten aus dem Skript: {sprache}\n\n"
-        f"Schreib deine Lösung in der Form, die das Skript verlangt "
+        f"Schreib deine Loesung in der Form, die das Skript verlangt "
         f"(staatlich: Urteilsteile; anwaltlich: Gutachten plus Schriftsatz).\n"
-        f"Eine kurze Musterlösung kommt im nächsten Brief dazu.\n"
+        f"Eine kurze Musterloesung kommt im naechsten Brief dazu.\n"
     )
 
     return (
@@ -223,7 +222,7 @@ def send_mail(subject, body, to_addr):
 def main():
     cases = load_cases()
     if not cases:
-        print("Keine Fälle in cases.json.", file=sys.stderr)
+        print("Keine Faelle in cases.json.", file=sys.stderr)
         sys.exit(1)
 
     state = load_state()
@@ -238,7 +237,7 @@ def main():
     to_addr = os.environ.get("JURABRIEF_TO", os.environ.get("GMAIL_ADDRESS", ""))
     subject = f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})"
     send_mail(subject, body, to_addr)
-    print(f"Fall {case['id']} gewählt ({grund}).")
+    print(f"Fall {case['id']} gewaehlt ({grund}).")
 
 
 if __name__ == "__main__":
