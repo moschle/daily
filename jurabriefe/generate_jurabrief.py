@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Jurabrief. Teil I = wörtlicher Urteilsschnitt, keine Umschreibung."""
+"""Jurabrief. Eine Akte, rotierende Urteilsteile, Urteilstext unangetastet."""
 from __future__ import annotations
 
 import json
@@ -32,54 +32,102 @@ EXTRACTED = _HERE / "extracted"
 OLD_BASE = "https://de.openlegaldata.io/api/cases/search/"
 ZR_COURTS = ("lg", "olg", "bgh", "kg")
 VR_COURTS = ("vg", "ovg", "bverwg", "vgh")
-STRAF = (
-    "angeklagte", "staatsanwaltschaft", "strafkammer", "stpo",
-    "revisionen des angeklagten", "grosse strafkammer",
-)
-PLACEHOLDER = ("[kläger", "[beklag", "[name]", "[datum]", "firma/name", "gericht/senat")
+STRAF = ("angeklagte", "staatsanwaltschaft", "strafkammer", "stpo", "-ss-")
+PLACEHOLDER = ("[kläger", "[beklag", "[name]", "[datum]", "firma/name")
 
-RUBRUM_SV = (
-    "Bearbeitervermerk\nSicht des erkennenden Gerichts. Fertigen Sie den Kopf des Urteils.\n\n"
-    "Sachverhalt\nAmtsgericht Neukoelln, Abteilung 12, Az. 12 C 310/24. "
-    "Letzte muendliche Verhandlung am 3. April 2025 vor dem Richter am Amtsgericht Dr. Mueller.\n\n"
-    "Klaegerin und Widerbeklagte: Rabe Schneedienst GmbH, Kochstrasse 34, 12047 Berlin, "
-    "gesetzlich vertreten durch den Geschaeftsfuehrer Martin Mueller, ebenda.\n\n"
-    "Streithelferin der Klaegerin: Mega AG, gesetzlich vertreten durch die Vorstandsmitglieder "
-    "Herbert Mueller und Ralf Schubert, Sonnenallee 93, 12199 Berlin.\n\n"
-    "Beklagter zu 1) und Widerklaeger: der unter der Firma Dieter Teufel handelnde Kaufmann "
-    "Rainer Zufall, Peststrasse 14, 12345 Berlin.\n\n"
-    "Beklagte zu 2) und Widerklaegerin: die am 12. Dezember 2015 geborene Erika Hage, "
-    "Sanderweg 2, 12047 Berlin, gesetzlich vertreten durch ihre Eltern Maria und Lutz Hage, ebenda.\n\n"
-    "Fertigen Sie den Kopf des Urteils einschliesslich der Formel Im Namen des Volkes."
-)
-TENOR_SV = (
-    "Bearbeitervermerk\nSicht des erkennenden Gerichts. Fertigen Sie allein die Urteilsformel.\n\n"
-    "Sachverhalt\nDie Klage der Rabe Schneedienst GmbH gegen Rainer Zufall und Erika Hage "
-    "auf Zahlung von 2.559,45 EUR nebst Zinsen in Hoehe von 5 Prozentpunkten ueber dem "
-    "Basiszinssatz seit dem 10. Dezember 2024 ist begruendet. Die Widerklage ist unbegruendet. "
-    "Gesamtschuld. Vollstreckung nach § 709 ZPO, Sicherheit Betrag zuzueglich 10 %.\n\n"
-    "Fertigen Sie die Urteilsformel (Hauptsache, Kosten, vorlaeufige Vollstreckbarkeit)."
-)
-TATBESTAND_SV = (
-    "Bearbeitervermerk\nFertigen Sie den Tatbestand. Unerhebliches weglassen. "
-    "Unstreitiges im Indikativ, Streitiges im Konjunktiv. Antraege wörtlich.\n\n"
-    "Sachverhalt\nKlage der Rabe Schneedienst GmbH gegen Zufall und Hage auf 2.559,45 EUR. "
-    "Die Beklagten bestreiten die Hoehe. Widerklage auf Feststellung, dass der Vertrag nichtig sei. "
-    "In der Klageschrift steht eine Seite Unternehmensgeschichte der Klaegerin; das ist nicht entscheidungserheblich. "
-    "Letzte muendliche Verhandlung am 3. April 2025.\n\n"
-    "Fertigen Sie den Tatbestand nach Abschnitt D des Skripts."
-)
-GRUENDE_SV = (
-    "Bearbeitervermerk\nFertigen Sie die Entscheidungsgruende im Urteilsstil.\n\n"
-    "Sachverhalt\nZahlungsklage 2.559,45 EUR der Rabe Schneedienst GmbH. Widerklage abzuweisen. "
-    "Zulaessigkeit unproblematisch.\n\n"
-    "Fertigen Sie die Entscheidungsgruende. Obersatz voran."
-)
+AKTE = """Akte 12 C 310/24 — Amtsgericht Neukoelln, Abteilung 12
+Letzte muendliche Verhandlung: 3. April 2025, Richter am Amtsgericht Dr. Mueller.
+
+Parteien
+Klaegerin und Widerbeklagte: Rabe Schneedienst GmbH, Kochstrasse 34, 12047 Berlin,
+gesetzlich vertreten durch den Geschaeftsfuehrer Martin Mueller, ebenda.
+Prozessbevollmaechtigte: Rechtsanwaelte Martina Klage und Karl Meier, Parkstrasse 101, 12165 Berlin.
+
+Streithelferin der Klaegerin: Mega AG, gesetzlich vertreten durch die Vorstandsmitglieder
+Herbert Mueller und Ralf Schubert, Sonnenallee 93, 12199 Berlin.
+Prozessbevollmaechtigte: Rechtsanwaelte Karl Boot u. a., Oberweg 12, 12498 Berlin.
+
+Beklagter zu 1) und Widerklaeger: der unter der Firma Dieter Teufel handelnde Kaufmann
+Rainer Zufall, Peststrasse 14, 12345 Berlin.
+
+Beklagte zu 2) und Widerklaegerin: die am 12. Dezember 2015 geborene Erika Hage,
+Sanderweg 2, 12047 Berlin, gesetzlich vertreten durch ihre Eltern Maria und Lutz Hage, ebenda.
+Prozessbevollmaechtigter der Beklagten zu 2): Rechtsanwalt Herbert Sol, Kalckreuthweg 56, 10787 Berlin.
+
+Unstreitig
+Die Klaegerin raeumte und streute im Winter 2023/2024 die Zufahrt Peststrasse 14 auf Grundlage
+eines schriftlichen Winterdienstvertrags vom 2. November 2023. Vertragspartner auf Auftraggeberseite
+ist der Beklagte zu 1). Die Beklagte zu 2) wohnt im Anwesen und unterzeichnete den Vertrag nicht.
+Die Klaegerin stellte am 10. Dezember 2024 2.559,45 EUR in Rechnung (netto 2.151,64 EUR zuzueglich USt.).
+Die Rechnung ist nicht bezahlt.
+
+Streitig — Klaegerin
+Die Arbeiten seien vollstaendig und mängelfrei. Beide Beklagte haefteten als Gesamtschuldner,
+die Beklagte zu 2) aus konkludentem Mitschluss und aus Geschaeftsfuehrung ohne Auftrag.
+Zinsen: 5 Prozentpunkte ueber dem Basiszinssatz seit dem 10. Dezember 2024.
+
+Streitig — Beklagte
+Die Beklagte zu 2) sei nicht Vertragspartnerin. Der Beklagte zu 1) rechne mit einem Schaden
+von 800 EUR auf, weil am 12. Januar 2024 Streusalz Lackschaeden am Pkw verursacht habe.
+Widerklage beider Beklagter: Feststellung, der Vertrag sei wegen Wuchers nichtig, hilfsweise Rueckzahlung
+bereits geleisteter 200 EUR.
+
+Antraege
+Klaegerin: Verurteilung der Beklagten als Gesamtschuldner zur Zahlung von 2.559,45 EUR
+nebst Zinsen in Hoehe von 5 Prozentpunkten ueber dem Basiszinssatz seit dem 10. Dezember 2024;
+Abweisung der Widerklage.
+Beklagte: Klageabweisung; Widerklage wie vor.
+
+Prozess
+Zustellung der Klage am 8. Januar 2025. Muendliche Verhandlung am 3. April 2025.
+Die Unternehmensgeschichte der Klaegerin (drei Seiten in der Klageschrift) ist nicht entscheidungserheblich.
+"""
+
 FALLBACK = {
-    "zr-001": RUBRUM_SV,
-    "zr-002": TENOR_SV,
-    "zr-003": TATBESTAND_SV,
-    "zr-004": GRUENDE_SV,
+    "zr-001": (
+        "Bearbeitervermerk\n"
+        "Fertigen Sie allein den Kopf des Urteils. Parteistellung rechtsbuendig. "
+        "Grammatik nach dem Skript. Im Namen des Volkes.\n\n" + AKTE +
+        "\nFertigen Sie den Urteilskopf."
+    ),
+    "zr-002": (
+        "Bearbeitervermerk\n"
+        "Fertigen Sie allein die Urteilsformel. Hauptsache, Kosten, vorlaeufige Vollstreckbarkeit. "
+        "§ 308 Abs. 1 ZPO. § 709 ZPO (Geldforderung, Sicherheit Betrag zuzueglich 10 %).\n\n" + AKTE +
+        "\nErgebnis der Kammer: Klage in Hoehe von 2.559,45 EUR nebst den geltend gemachten Zinsen begruendet. "
+        "Gesamtschuld. Widerklage unbegruendet.\n\nFertigen Sie die Urteilsformel."
+    ),
+    "zr-003": (
+        "Bearbeitervermerk\n"
+        "Fertigen Sie den Tatbestand. Unerhebliches weglassen. Unstreitiges Indikativ, Streitiges Konjunktiv. "
+        "Antraege. Salvatorische Klausel. Keine Unternehmensgeschichte.\n\n" + AKTE +
+        "\nFertigen Sie den Tatbestand."
+    ),
+    "zr-004": (
+        "Bearbeitervermerk\n"
+        "Fertigen Sie die Entscheidungsgruende im Urteilsstil. Praesens. Keine Ueberschriften. "
+        "Zulaessigkeit knapp. Begruendetheit: Vertrag mit dem Beklagten zu 1), Haftung der Beklagten zu 2), "
+        "keine Aufrechnung, Widerklage. Obersatz voran.\n\n" + AKTE +
+        "\nFertigen Sie die Entscheidungsgruende."
+    ),
+    "zr-005": (
+        "Bearbeitervermerk\nAnwaltliche Sicht. Gliedern Sie: Mandantenbegehren, Gutachten, Zweckmaessigkeit, Schriftsatz.\n\n"
+        "Mandant ist die Rabe Schneedienst GmbH. Sie will die Forderung aus dem Winterdienstvertrag "
+        "gegen Zufall und Hage durchsetzen.\n\n" + AKTE
+    ),
+    "zr-008": (
+        "Bearbeitervermerk\nPruefen Sie eine Vollstreckungsabwehrklage nach § 767 ZPO.\n\n"
+        "Titel: Urteil 12 C 310/24 ueber 2.559,45 EUR. Nach Schluss der muendlichen Verhandlung "
+        "zahlt der Beklagte zu 1) 1.000 EUR und erklaert die Aufrechnung mit einer erst danach "
+        "faellig gewordenen Gegenforderung. Praeklusion nach § 767 Abs. 2 ZPO pruefen.\n\n" + AKTE
+    ),
+    "zr-009": (
+        "Bearbeitervermerk\nTenorieren Sie die Stattgabe einer Anfechtungsklage und ein Bescheidungsurteil "
+        "bei der Verpflichtungsklage nach dem VerwR-Skript."
+    ),
+    "zr-010": (
+        "Bearbeitervermerk\nAntrag nach § 80 Abs. 5 VwGO. Ernstliche Zweifel, Interessenabwaegung, Tenor der Wiederherstellung."
+    ),
 }
 
 
@@ -169,7 +217,9 @@ def aufgabe_aus_skript(case: dict) -> str:
     cid = case.get("id", "")
     if cid in FALLBACK:
         return FALLBACK[cid]
-    return case.get("aufgabe") or "Bearbeiten Sie den Abschnitt nach dem Skript."
+    return case.get("aufgabe") or (
+        "Bearbeiten Sie den Abschnitt nach dem Skript. Keine neuen Parteien."
+    )
 
 
 def _old_search(params: dict) -> list:
@@ -191,18 +241,13 @@ def _is_verw(case):
     return (case.get("gerichtsbarkeit") or "") == "verwaltung" or "verwalt" in case.get("gebiet", "").lower()
 
 
-def _is_straf(text: str, slug: str = "") -> bool:
+def _bad(text: str, slug: str = "") -> bool:
     t = (text + " " + slug).lower()
     if any(s in t for s in STRAF):
         return True
-    if re.search(r"\bss\s*\d", t) or "-ss-" in t:
+    if any(p in t for p in PLACEHOLDER):
         return True
     return False
-
-
-def _is_placeholder(text: str) -> bool:
-    t = text.lower()
-    return any(p in t for p in PLACEHOLDER)
 
 
 def _court_ok(court, case):
@@ -227,19 +272,17 @@ def _result_text(r):
 
 
 def slice_urteil(text: str) -> str | None:
-    if _is_placeholder(text) or _is_straf(text):
+    if _bad(text):
         return None
     low = text.lower()
     start = 0
-    for m in ("im namen des volkes", "in dem rechtsstreit", "tenor"):
+    for m in ("im namen des volkes", "in dem rechtsstreit"):
         i = low.find(m)
         if i != -1:
             start = i
             break
     chunk = text[start:start + 3500].strip()
-    if len(chunk) < 180:
-        return None
-    if _is_placeholder(chunk):
+    if len(chunk) < 180 or _bad(chunk):
         return None
     return chunk
 
@@ -250,7 +293,7 @@ def search_related_case(case, seen_slugs: list[str]):
         "Im Namen des Volkes Landgericht Klaegerin Beklagte",
         "Oberlandesgericht Zivilsenat In dem Rechtsstreit",
         "Landgericht Zivilkammer Urteil Klaegerin",
-        "Landgericht Halle Zivilkammer Urteil",
+        "Landgericht Halle Zivilkammer",
         "Landgericht Magdeburg Urteil Klaeger",
     ] + list(case.get("suchbegriffe") or [])
     if _is_verw(case):
@@ -274,16 +317,15 @@ def search_related_case(case, seen_slugs: list[str]):
             if slug in seen:
                 continue
             raw = _result_text(r)
-            if _is_straf(raw, slug) or _is_placeholder(raw):
+            if _bad(raw, slug):
                 continue
-            court = _court_name(r.get("court"))
-            if not _court_ok(court, case):
+            if not _court_ok(_court_name(r.get("court")), case):
                 continue
             shaped = slice_urteil(raw)
             if not shaped:
                 continue
             return {
-                "gericht": court,
+                "gericht": _court_name(r.get("court")),
                 "datum": r.get("date", ""),
                 "aktenzeichen": r.get("file_number") or slug,
                 "entscheidungstyp": r.get("decision_type") or "Urteil",
