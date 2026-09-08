@@ -40,6 +40,9 @@ VR_MARK = (
 )
 STRAF = ("angeklagte", "staatsanwaltschaft", "strafkammer", "stpo", "-ss-")
 PLACEHOLDER = ("[kläger", "[beklag", "[name]", "[datum]", "firma/name")
+PAGE = re.compile(r"(?m)^=+ SEITE \d+ =+$")
+FOOT = re.compile(r"(?m)^\d{1,3}\s{2}\S")
+HEAD = re.compile(r"(?m)^[A-ZÄÖÜIVX][^\n]{0,60}?\s+\d{1,3}\s*$")
 
 AKTE = """Akte 12 C 310/24 — Amtsgericht Neukoelln, Abteilung 12
 Letzte muendliche Verhandlung: 3. April 2025, Richter am Amtsgericht Dr. Mueller.
@@ -136,6 +139,25 @@ def clean_ocr(text):
     return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
+def clean_skript(text: str) -> str:
+    notes = []
+    out = []
+    for page in PAGE.split(text):
+        m = FOOT.search(page)
+        if m:
+            notes.append(page[m.start():].strip())
+            page = page[:m.start()]
+        out.append(HEAD.sub("", page))
+    t = "\n".join(out)
+    t = re.sub(r"(\w)-\n(\w)", r"\1\2", t)
+    t = re.sub(r"(?<=[a-zäöüß])(\d{1,2})(?=[\s.,;:)])", "", t)
+    t = re.sub(r"(?m)[ \t]+$", "", t)
+    t = re.sub(r"\n{3,}", "\n\n", t).strip()
+    if notes:
+        t += "\n\n--- Fußnoten ---\n" + "\n".join(notes)[:1800]
+    return t
+
+
 def _is_toc_line(text, pos):
     nl = text.find("\n", pos)
     line = text[pos: nl if nl != -1 else len(text)]
@@ -152,6 +174,7 @@ def load_skript_section(case):
             break
     if not text:
         return ""
+    text = clean_skript(text)
     start = case.get("skript_start") or ""
     i = 0
     if start:
