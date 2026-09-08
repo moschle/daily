@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Rohkarten kuratieren. Loesung muss woertlich im Skript stehen."""
+"""Rohkarten kuratieren. Loesung muss woertlich im Skript stehen.
+
+Typ fall: die API sieht die Loesung nicht und darf nur die Frage schreiben.
+"""
 from __future__ import annotations
 
 import json
@@ -25,13 +28,14 @@ ROHKARTEN (JSON):
 {rohkarten}
 
 Fuer jede Rohkarte:
-- verwerfen, wenn die Loesung kein vollstaendiger Formulierungsbaustein,
-  Tenorsatz, Loesungsabsatz oder Schema ist, oder die Situation nicht eindeutig ist.
-- sonst: FRAGE neu im Bearbeitervermerk-Stil, LOESUNG unveraendert woertlich.
-  gewicht 1-3: 3 Tenor/Aufbau/Urteilsstil, 2 Tatbestand, 1 Rubrum.
+- verwerfen, wenn die Situation nicht eindeutig ist oder die Karte kein
+  Formulierungsbaustein, Tenor, Schema oder Fall ist.
+- sonst: FRAGE neu im Bearbeitervermerk-Stil.
+  LOESUNG nur uebernehmen, wenn sie in der Rohkarte steht — sonst weglassen.
+  gewicht 1-3: 3 Tenor/Aufbau/Urteilsstil/Fall, 2 Tatbestand, 1 Rubrum.
 
 Nur JSON-Liste ohne Markdown:
-[{{"id": "<id>", "frage": "<frage>", "loesung": "<woertlich>", "gewicht": <1-3>}}]"""
+[{{"id": "<id>", "frage": "<frage>", "loesung": "<woertlich oder leer>", "gewicht": <1-3>}}]"""
 
 
 def _normal(s: str) -> str:
@@ -52,12 +56,22 @@ def woertlich_im_skript(loesung: str, skript: str) -> bool:
 
 
 def abschnitt_text(skript: str, karten: list[dict]) -> str:
-    treffer = [skript.find(k["loesung"][:40]) for k in karten]
+    treffer = [skript.find(k["loesung"][:40]) for k in karten if k.get("loesung")]
     treffer = [t for t in treffer if t >= 0]
     if not treffer:
         return skript[:6000]
     a, b = max(0, min(treffer) - 2500), min(len(skript), max(treffer) + 2500)
     return skript[a:b]
+
+
+def _fuer_api(stapel: list[dict]) -> list[dict]:
+    out = []
+    for k in stapel:
+        if k.get("typ") == "fall":
+            out.append({k2: k[k2] for k2 in k if k2 != "loesung"})
+        else:
+            out.append(k)
+    return out
 
 
 def kuratiere(sid: str, nur_pruefen: bool = False) -> dict:
@@ -70,7 +84,7 @@ def kuratiere(sid: str, nur_pruefen: bool = False) -> dict:
     for i in range(0, len(roh), 12):
         stapel = roh[i:i + 12]
         antwort = complete(PROMPT.format(abschnitt=abschnitt_text(skript, stapel),
-                                         rohkarten=json.dumps(stapel, ensure_ascii=False)),
+                                         rohkarten=json.dumps(_fuer_api(stapel), ensure_ascii=False)),
                            max_tokens=4000)
         antwort = re.sub(r"^```(?:json)?|```$", "", antwort.strip(), flags=re.M).strip()
         try:
@@ -81,13 +95,20 @@ def kuratiere(sid: str, nur_pruefen: bool = False) -> dict:
         by_id = {k["id"]: k for k in stapel}
         for a in auswahl:
             r = by_id.get(a.get("id"))
-            if not r or not woertlich_im_skript(a.get("loesung", ""), skript):
+            if not r:
                 verworfen += 1
                 continue
-            if _normal(a["loesung"]) != _normal(r["loesung"]):
-                verworfen += 1
-                continue
-            fertig.append({**r, "frage": a["frage"].strip(), "gewicht": int(a.get("gewicht", 2))})
+            loesung = r["loesung"] if r.get("typ") == "fall" else a.get("loesung", "")
+            if r.get("typ") != "fall":
+                if not woertlich_im_skript(loesung, skript):
+                    verworfen += 1
+                    continue
+                if _normal(loesung) != _normal(r["loesung"]):
+                    verworfen += 1
+                    continue
+            frage = (a.get("frage") or r["frage"]).strip()
+            fertig.append({**r, "frage": frage, "loesung": r["loesung"],
+                           "gewicht": int(a.get("gewicht", 3 if r.get("typ") == "fall" else 2))})
     print(f"{sid}: {len(roh)} woertlich -> {len(fertig)} kuratiert, {verworfen} verworfen", file=sys.stderr)
     return {"skript": sid, "karten": fertig}
 
