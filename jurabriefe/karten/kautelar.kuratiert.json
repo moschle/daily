@@ -203,6 +203,16 @@
   },
   {
    "typ": "formulierung",
+   "frage": "Der Freistellungsanspruch kann sich in einen Zahlungsanspruch umwandeln. Formulieren Sie die entsprechende Argumentation nach BGH (lexetius.com/2004,191).",
+   "loesung": "Darauf kommt es nicht entscheidend an, weil ein etwaiger Befreiungsanspruch gemäß § 250 Satz 2 BGB in einen Geldanspruch übergegangen ist. Diese Vorschrift eröffnet dem Geschädigten die Möglichkeit, unabhängig von den §§ 249 Abs. 2, 251 BGB zu einem Anspruch auf Geldersatz zu gelangen, wenn er dem Ersatzpflichtigen erfolglos eine Frist zur Herstellung, d. h. hier Haftungsfreistellung, mit Ablehnungsandrohung setzt. Dem steht es nach ständiger Rechtsprechung des Bundesgerichtshofs gleich, wenn der Schuldner die geforderte Herstellung oder überhaupt jeden Schadensersatz ernsthaft und endgültig verweigert. Dann wandelt sich der Freistellungsanspruch in einen Zahlungsanspruch um, wenn der Geschädigte Geldersatz fordert (BGH, Urteile vom 7. Januar 1965 - VII ZR 28/63, WM 1965, 287, 289, vom 11. Juni 1986 - VIII ZR 153/85, WM 1986, 1115, 1117, vom 26. Februar 1991 - XI ZR 331/89, WM 1991, 1002, vom 29. April 1992 - VIII ZR 77/91, WM 1992, 1074, 1076, vom 12. März 1993 - V ZR 69/92, WM 1993, 1557, 1559 f., vom 31. Januar 1996 - VIII ZR 243/94, WM 1996, 1282, 1283 und vom 10. Februar 1999 - VIII ZR 70/98, WM 1999, 779, 781).",
+   "id": "kautelar:form:026",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 7. Freistellungsantrag (Freihaltungs-, Befreiungs- bzw. Freistellungsanspruch)",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
    "frage": "Der Kläger möchte dem Herrn A, B im laufenden Rechtsstreit den Streit verkünden und ihn auffordern, dem Rechtsstreit beizutreten. Formulieren Sie die Streitverkündungserklärung.",
    "loesung": "In der Sache ... wird dem Herrn A,B der Streit verkündet mit der Aufforderung, dem Rechtsstreit auf Seiten des Klägers beizutreten.",
    "id": "kautelar:form:027",
@@ -240,6 +250,16 @@
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 2. Eingangsformulierung",
    "rn": "",
    "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie die Eingangsformulierung einer Klageschrift mit Hinweis auf die Güteverhandlung (längere Variante).",
+   "loesung": "Namens und in Vollmacht des Klägers erheben wir Klage und bitten um die Anberaumung einer Güteverhandlung nach dessen Scheitern wir beantragen werden:",
+   "id": "kautelar:form:031",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 2. Eingangsformulierung",
+   "rn": "",
+   "gewicht": 3
   },
   {
    "typ": "formulierung",
@@ -306,6 +326,16 @@
    "frage": "Ein Mieter begehrt Unterlassung von Baumaßnahmen durch den Vermieter. Formulieren Sie den Einleitungssatz der Klagebegründung.",
    "loesung": "Der Kläger vermietet dem Beklagten eine Wohnung in der ABCStraße in Berlin Schöneberg und macht mit dieser Klage Miet– rückstände für die Monate Januar bis Juli 2005 geltend.",
    "id": "kautelar:form:039",
+   "skript": "kautelar",
+   "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 4. Begründung der Klage",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Einleitungssatz einer Klagebegründung für eine Klage auf Unterlassung ehrverletzender Aussagen (Kläger als Mieter).",
+   "loesung": "Der Kläger verlangt als Mieter mit dieser Klage vom Beklagten die Unterlassung von Baumaßnahmen im Bereich des .... oder verlangt vom Beklagten die Unterlassung ehrverletzender Aussagen.",
+   "id": "kautelar:form:040",
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 4. Begründung der Klage",
    "rn": "",
@@ -410,6 +440,16 @@
    "abschnitt": "I. Allgemeine Standards › IV. Begründungstiefe",
    "rn": "",
    "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den folgenden Abschnitt zum Herausgabeanspruch des Klägers – vermeiden Sie dabei Schachtelsätze und stellen Sie die sprachlichen Mängel des nachfolgenden Negativbeispiels dar.",
+   "loesung": "Vorliegend steht dem Kläger - unter Berücksichtigung der Rechtsprechung des BGH - der Anspruch zu, da die Einrede, die der Beklagte unberechtigt geltend macht, nicht durchgreift und außerdem auch weitere Anspruchsgrundlagen, darunter 1007 und 961 - den Anspruch stützen. Verortet ist der Anspruch klar in § 985, der dem Eigentümer einen Herausgabeanspruch gewährt, wenn dieser Eigentümer geworden ist, und das Eigentum nicht im Wege des gutgläubigen Erwerbs verloren hat ...",
+   "id": "kautelar:form:054",
+   "skript": "kautelar",
+   "abschnitt": "V. Klare Sprache und klarer Aufbau",
+   "rn": "",
+   "gewicht": 3
   }
  ]
 }
