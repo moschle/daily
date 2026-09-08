@@ -30,19 +30,23 @@ PROGRESS_FILE = _HERE / "progress.json"
 LERNPLAN_FILE = _HERE / "lernplan.json"
 EXTRACTED = _HERE / "extracted"
 OLD_BASE = "https://de.openlegaldata.io/api/cases/search/"
+OLD_CASE = "https://de.openlegaldata.io/api/cases/{}/"
 ZR_MARK = (
     "landgericht", "oberlandesgericht", "bundesgerichtshof", "kammergericht",
     "amtsgericht", "lg-", "olg-", "bgh", "kg-",
 )
+ZR_SLUG = ("lg", "olg", "bgh", "kg")
 VR_MARK = (
     "verwaltungsgericht", "oberverwaltungsgericht", "bundesverwaltungsgericht",
     "verwaltungsgerichtshof", "vg-", "ovg", "bverwg", "vgh",
 )
+VR_SLUG = ("vg", "ovg", "bverwg", "vgh")
 STRAF = ("angeklagte", "staatsanwaltschaft", "strafkammer", "stpo", "-ss-")
 PLACEHOLDER = ("[kläger", "[beklag", "[name]", "[datum]", "firma/name")
 PAGE = re.compile(r"(?m)^=+ SEITE \d+ =+$")
 FOOT = re.compile(r"(?m)^\d{1,3}\s{2}\S")
 HEAD = re.compile(r"(?m)^[A-ZÄÖÜIVX][^\n]{0,60}?\s+\d{1,3}\s*$")
+TAG = re.compile(r"<[^>]+>")
 
 AKTE = """Akte 12 C 310/24 — Amtsgericht Neukoelln, Abteilung 12
 Letzte muendliche Verhandlung: 3. April 2025, Richter am Amtsgericht Dr. Mueller.
@@ -133,6 +137,7 @@ def pick_case(cases, state):
 
 def clean_ocr(text):
     text = html.unescape(text)
+    text = TAG.sub("\n", text)
     text = re.sub(r"(?m)^\s*\d{1,3}(?=[A-ZÄÖÜ])", "", text)
     text = re.sub(r"(?<=\n)\d{1,3}(?=[A-Za-zÄÖÜäöü])", "", text)
     text = re.sub(r"(?m)^\s*\d{1,3}\s*$", "", text)
@@ -212,6 +217,14 @@ def _court_name(court):
     return str(court or "")
 
 
+def _slug_prefix(s: str) -> str:
+    s = re.sub(r"[^a-z]", "", (s or "").lower())
+    for p in ZR_SLUG + VR_SLUG:
+        if s.startswith(p):
+            return p
+    return ""
+
+
 def _is_verw(case):
     geb = (case.get("gerichtsbarkeit") or "") + " " + case.get("gebiet", "")
     return "verwalt" in geb.lower()
@@ -219,11 +232,12 @@ def _is_verw(case):
 
 def _court_ok(court, case):
     c = court.lower()
+    pref = _slug_prefix(c)
     if _is_verw(case):
-        return any(t in c for t in VR_MARK)
-    if any(t in c for t in VR_MARK):
+        return pref in VR_SLUG or any(t in c for t in VR_MARK)
+    if pref in VR_SLUG or any(t in c for t in VR_MARK):
         return False
-    return any(t in c for t in ZR_MARK)
+    return pref in ZR_SLUG or any(t in c for t in ZR_MARK)
 
 
 def slice_urteil(text):
@@ -232,7 +246,7 @@ def slice_urteil(text):
         return None
     low = text.lower()
     start = 0
-    for m in ("im namen des volkes", "in dem rechtsstreit"):
+    for m in ("im namen des volkes", "in dem rechtsstreit", "tatbestand", "gründe"):
         i = low.find(m)
         if i != -1:
             start = i
@@ -241,16 +255,38 @@ def slice_urteil(text):
     return chunk if len(chunk) >= 180 and not _bad(chunk) else None
 
 
+def _http_json(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "jurabrief/1.0"})
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
 def _old_search(params):
     url = OLD_BASE + "?" + urllib.parse.urlencode(params)
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "jurabrief/1.0"})
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-        return data.get("results") or data.get("items") or []
+        data = _http_json(url)
+        return data.get("results") or []
     except Exception as e:
         print(f"OLD: {e}", file=sys.stderr)
         return []
+
+
+def _fetch_case(cid, slug=""):
+    try:
+        d = _http_json(OLD_CASE.format(cid))
+    except Exception as e:
+        print(f"OLD case {cid}: {e}", file=sys.stderr)
+        return None
+    text = d.get("content") or d.get("text") or ""
+    court = _court_name(d.get("court")) or slug
+    return {
+        "text": text,
+        "court": court,
+        "date": d.get("date", ""),
+        "file_number": d.get("file_number") or "",
+        "typ": d.get("type") or d.get("decision_type") or "Urteil",
+        "slug": d.get("slug") or slug,
+    }
 
 
 def search_related_case(case, seen_slugs):
@@ -266,27 +302,38 @@ def search_related_case(case, seen_slugs):
         terms = ["Verwaltungsgericht Im Namen des Volkes"] + terms
     for q in terms:
         hits = _old_search({"text": q, "page_size": "10"})
-        courts = [_court_name(r.get("court")) for r in hits]
+        courts = [str(r.get("court")) for r in hits]
         print(f"OLD {q!r} {len(hits)} {courts[:6]}", file=sys.stderr)
         for r in hits:
             slug = r.get("slug") or ""
             if slug in seen:
                 continue
-            raw = r.get("text") or ""
-            court = _court_name(r.get("court"))
-            if _bad(raw, slug) or not _court_ok(court, case):
-                continue
             year = (r.get("date") or "")[:4]
             if year and year < "2019":
+                continue
+            court = _court_name(r.get("court"))
+            if not _court_ok(court + " " + slug, case):
+                continue
+            detail = _fetch_case(r.get("id"), slug) if r.get("id") else None
+            raw = ""
+            if detail:
+                raw = detail["text"]
+                court = detail["court"] or court
+            if not raw:
+                raw = "\n".join(
+                    s.get("text", "") for s in (r.get("snippets") or []) if isinstance(s, dict)
+                )
+            if _bad(raw, slug):
                 continue
             shaped = slice_urteil(raw)
             if not shaped:
                 continue
+            az = (detail or {}).get("file_number") or slug
             return {
                 "gericht": court.strip() or slug,
-                "datum": r.get("date", ""),
-                "aktenzeichen": r.get("file_number") or r.get("ecli") or slug,
-                "entscheidungstyp": r.get("type") or r.get("decision_type") or "Urteil",
+                "datum": (detail or {}).get("date") or r.get("date", ""),
+                "aktenzeichen": az,
+                "entscheidungstyp": (detail or {}).get("typ") or r.get("decision_type") or "Urteil",
                 "text": shaped,
                 "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
                 "slug": slug,
