@@ -23,6 +23,7 @@ for _p in (_REPO, _HERE):
 
 from adaptive_plan import pick
 from fsrs_scheduler import _load as load_progress, _save as save_progress, auto_wertung, markiere_gezeigt
+from kartenbrief import brieftext, lade, waehle, waehle_fall, zurueckhalten
 
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 STATE_FILE = _HERE / "state.json"
@@ -348,9 +349,22 @@ def main():
     progress = load_progress()
     for c in cases:
         auto_wertung(progress, c["id"])
-    case, grund = pick_case(cases, state, progress)
+    for kid in list((progress.get("cards") or {}).keys()):
+        if ":" in kid:
+            auto_wertung(progress, kid)
+    from adaptive_plan import current_phase
+    phase = current_phase(load_json(LERNPLAN_FILE, {"phasen": []}))
+    case = waehle_fall(cases, phase.get("gebiete", []), progress, state)
+    grund = phase.get("name", "Plan")
+    state.setdefault("done", []).append(case["id"])
+    state["done"] = state["done"][-40:]
+    state["last_id"] = case["id"]
     rules = load_skript_section(case)
-    aufgabe = FALLBACK.get(case["id"]) or case.get("aufgabe") or AKTE
+
+    alle = lade(case.get("skript_id") or "")
+    zuletzt = [k["id"] for k in (state.get("offen") or {}).get("karten", [])]
+    heutige = waehle(alle, progress, meiden=zuletzt)
+    aufgabe = brieftext(heutige)
     related = search_related_case(case, state.get("seen_slugs", []))
     if related and related.get("slug"):
         state.setdefault("seen_slugs", []).append(related["slug"])
@@ -363,15 +377,20 @@ def main():
     else:
         lesen = "I. Lesetext\nKein Urteil der passenden Gerichtsbarkeit.\n"
     body = (f"Jurabrief — {now_berlin().strftime('%A, %d. %B %Y')}\n{case['gebiet']}\n\n"
-            f"{lesen}\n\nII. Bearbeitung\n{case['gebiet']}\n{case.get('quelle', '')}\n\n{aufgabe}\n")
+            f"{lesen}\n\n{aufgabe}\n"
+            f"Quelle: {case.get('quelle', '')}\n")
     if rules:
         body += "\n--- Skript (Regeln) ---\n" + rules + "\n"
     send_mail(f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})",
               body, resolve_to())
     markiere_gezeigt(progress, case["id"])
+    for k in heutige:
+        markiere_gezeigt(progress, k["id"])
+    state["offen"] = zurueckhalten(heutige, case["id"])
     save_progress(progress)
     save_state(state)
-    print(f"Fall {case['id']} ({grund})")
+    print(f"Fall {case['id']} ({grund}), {len(heutige)} Karten: "
+          f"{', '.join(k['id'] for k in heutige)}")
 
 
 if __name__ == "__main__":
