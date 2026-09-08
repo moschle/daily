@@ -193,6 +193,16 @@
   },
   {
    "typ": "formulierung",
+   "frage": "Formulieren Sie den Tenor: Das Versäumnisurteil des AG Neuruppin vom 26. Februar 2025 – 14 C 8/24 – wird teilweise aufrechterhalten; der Beklagte bleibt verurteilt, an den Kläger 4.800,00 EUR nebst Zinsen (5 PP über Basiszins seit 13. Dezember 2023) zu zahlen; im Übrigen wird das Versäumnisurteil aufgehoben und die Klage abgewiesen.",
+   "loesung": "Das Versäumnisurteil des Amtsgerichts Neuruppin vom 26. Februar 2025 – 14 C 8/ 24 – wird insoweit aufrechterhalten, als der Beklagte verurteilt ist, an den Kläger 4.800,00 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit dem 13. Dezember 2023 zu zahlen. Im Übrigen wird das Versäumnisurteil aufgehoben und die Klage abgewiesen.",
+   "id": "zr-staat:form:030",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 1. Leistungsurteile",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
    "frage": "Formulieren Sie den Tenor eines Feststellungsurteils: Der Kläger begehrt die Feststellung, dass er Eigentümer des Pkw Ford Typ Transit, Fahrzeug-Identifizierungsnummer ABCDEFGH123456789, ist. Die Klage ist begründet.",
    "loesung": "Es wird festgestellt, dass der Kläger Eigentümer des Pkw Ford Typ Transit, Fahrzeug-Identifizierungsnummer ABCDEFGH123456789, ist.",
    "id": "zr-staat:form:031",
@@ -233,6 +243,16 @@
   },
   {
    "typ": "formulierung",
+   "frage": "Formulieren Sie den Tenor eines Gestaltungsurteils (Drittwiderspruchsklage): Die Zwangsvollstreckung des Beklagten aus dem Urteil des AG Neukölln vom 13. Mai 2024 – 4 C 300/23 – in das am 10. August 2025 beim Schuldner Herbert Meier, Hermannstr. 23, 12345 Berlin, gepfändete Herren-Rennrad Canondale SuperSix, Rahmennummer 12345 (Pfändungsprotokoll GV Herbert Müller DR Nr. II 355/25), ist unzulässig.",
+   "loesung": "Die Zwangsvollstreckung des Beklagten aus dem Urteil des Amtsgerichts Neukölln vom 13. Mai 2024 – 4 C 300/ 23 – in das am 10. August 2025 bei dem Schuldner Herbert Meier, Hermannstr. 23, 12345 Berlin, gepfändete Herren-Rennrad Canondale SuperSix, Rahmennummer 12345 (Pfändungsprotokoll des Gerichtsvollziehers Herbert Müller DR Nr. II 355/25), wird für unzulässig erklärt.",
+   "id": "zr-staat:form:035",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 3. Gestaltungsurteile",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
    "frage": "Formulieren Sie den Tenor: Die Klage ist unzulässig (oder unbegründet). Es liegt kein Versäumnisurteil vor.",
    "loesung": "Die Klage wird abgewiesen.",
    "id": "zr-staat:form:036",
@@ -240,6 +260,36 @@
    "abschnitt": "I. Einführung › III. Urteilsarten › 4. Unzulässige und unbegründete Klagen",
    "rn": "",
    "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie den Tenor: Das Versäumnisurteil des AG Neukölln – 12 C 134/25 – vom 28. April 2025 wird aufgehoben und die Klage abgewiesen.",
+   "loesung": "Das Versäumnisurteil des Amtsgerichts Neukölln - 12 C 134/25 - vom 28. April 2025 wird aufgehoben und die Klage abgewiesen",
+   "id": "zr-staat:form:037",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › III. Urteilsarten › 4. Unzulässige und unbegründete Klagen",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie einen Verweissatz im Tatbestand: Wegen der Einzelheiten des Kaufvertrages soll auf die Anlage 2 zur Klageschrift Bezug genommen werden.",
+   "loesung": "Wegen der Einzelheiten des Kaufvertrages wird auf die Anlage 2 zur Klageschrift Bezug genommen",
+   "id": "zr-staat:form:039",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Formulieren Sie die Einleitung des streitigen Klägervorbringens im Tatbestand: Der Kläger behauptet, die Wand sei grün und die Tür sei gelb.",
+   "loesung": "Der Kläger behauptet,36 die Wand sei grün. Er behauptet weiter, die Tür sei gelb.",
+   "id": "zr-staat:form:047",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 2. Streitiges Vorbringen › b. Streitiges Vorbringen des Klägers",
+   "rn": "",
+   "gewicht": 2
   },
   {
    "typ": "formulierung",
