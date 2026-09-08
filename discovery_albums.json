@@ -68,7 +68,7 @@
     {
       "artist": "GoGo Penguin",
       "album": "Humdrum Star",
-      "suggested": false
+      "suggested": true
     },
     {
       "artist": "Cornelius",
@@ -86,5 +86,5 @@
       "suggested": false
     }
   ],
-  "generated_at": "2026-09-04T09:33:09.478854+02:00"
+  "generated_at": "2026-09-08T09:34:48.076269+02:00"
 }
