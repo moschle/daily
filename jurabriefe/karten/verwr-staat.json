@@ -21,7 +21,7 @@
   {
    "typ": "formulierung",
    "frage": "Tenorieren Sie. Situation laut Skript: Januar 2025 wird zurückgewiesen. Der Antragsteller trägt die Kosten des Verfahrens.",
-   "loesung": "Der Wert des Verfahrensgegenstandes wird auf 2.500 Euro festgesetzt.",
+   "loesung": "Der Wert des Verfahrensgegenstandes wird auf 2. Euro festgesetzt.",
    "id": "verwr-staat:form:003",
    "skript": "verwr-staat",
    "abschnitt": "B. Die Elemente zur Gestaltung eines Rubrums und › 8. Januar 2025 wird zurückgewiesen.",
@@ -30,7 +30,7 @@
   {
    "typ": "formulierung",
    "frage": "Tenorieren Sie. Situation laut Skript: § 67 ASOG und § 27 AZG sowie Mueller -Thuns/Schubert, LKV\n1999, 213 ff. Klageabweisung (für alle Klagearten)\n\nDie Klage wird abgewiesen.",
-   "loesung": "Der Kläger trägt die Kosten des Verfahrens.1",
+   "loesung": "Der Kläger trägt die Kosten des Verfahrens.",
    "id": "verwr-staat:form:004",
    "skript": "verwr-staat",
    "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 1. Klageabweisung (für alle Klagearten)",
@@ -39,7 +39,7 @@
   {
    "typ": "formulierung",
    "frage": "Tenorieren Sie. Situation laut Skript: Berliner Skript\n15 | Die Assessorklausur im Verwaltungsrecht\n\nDas Urteil ist wegen der Kosten gegen Sicherheitsleistung in Höhe von\n110 Prozent des jeweils zu vollstreckenden Betrages vorläufig voll -\nstreckbar. Anfechtungsklage, Stattgabe",
-   "loesung": "Der Bescheid des Bezirksamts Mitte von Berlin vom 1. Februar 2017 in der Gestalt des Widerspruchsbescheides dieser Behörde vom 1. Ap- ril 2017 wird aufgehoben.4",
+   "loesung": "Der Bescheid des Bezirksamts Mitte von Berlin vom 1. Februar 2017 in der Gestalt des Widerspruchsbescheides dieser Behörde vom 1. Ap- ril 2017 wird aufgehoben.",
    "id": "verwr-staat:form:005",
    "skript": "verwr-staat",
    "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 2. Anfechtungsklage, Stattgabe",
@@ -47,7 +47,7 @@
   },
   {
    "typ": "formulierung",
-   "frage": "Tenorieren Sie. Situation laut Skript: Februar 2017\nin der Gestalt des Widerspruchsbescheides dieser Behörde vom 1. Ap-\nril 2017 wird aufgehoben.4",
+   "frage": "Tenorieren Sie. Situation laut Skript: Februar 2017\nin der Gestalt des Widerspruchsbescheides dieser Behörde vom 1. Ap-\nril 2017 wird aufgehoben.",
    "loesung": "Der Beklagte trägt die Kosten des Verfahrens.",
    "id": "verwr-staat:form:006",
    "skript": "verwr-staat",
@@ -56,8 +56,8 @@
   },
   {
    "typ": "formulierung",
-   "frage": "Tenorieren Sie. Situation laut Skript: Der jeweilige\nSchuldner darf die Vollstreckung durch Sicherheitsleistung in Höhe\nvon 110 Prozent des aufgrund des Urteils vollstreckbaren Betrages\nabwenden, wenn nicht der jeweilige Gläubiger vor der Vollstreckung\nSicherheit in Höhe von 110 Prozent des jeweils zu vollstreckenden\nBetrages leistet. Leistungsklage, Stattgabe\n(Klage der Behörde auf Zahlung von 6.000 €)",
-   "loesung": "Der Beklagte wird verurteilt, an den Kläger 6.000 € nebst Zinsen in Höhe von 5 Prozentpunkten über dem Basiszinssatz seit dem (Datum der Rechtshängigkeit = Klageerhebung) zu zahlen.11",
+   "frage": "Tenorieren Sie. Situation laut Skript: Der jeweilige\nSchuldner darf die Vollstreckung durch Sicherheitsleistung in Höhe\nvon 110 Prozent des aufgrund des Urteils vollstreckbaren Betrages\nabwenden, wenn nicht der jeweilige Gläubiger vor der Vollstreckung\nSicherheit in Höhe von 110 Prozent des jeweils zu vollstreckenden\nBetrages leistet. Leistungsklage, Stattgabe\n(Klage der Behörde auf Zahlung von 6.",
+   "loesung": "Der Beklagte wird verurteilt, an den Kläger 6. € nebst Zinsen in Höhe von 5 Prozentpunkten über dem Basiszinssatz seit dem (Datum der Rechtshängigkeit = Klageerhebung) zu zahlen.",
    "id": "verwr-staat:form:010",
    "skript": "verwr-staat",
    "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 7. Leistungsklage, Stattgabe",
@@ -66,7 +66,7 @@
   {
    "typ": "formulierung",
    "frage": "Tenorieren Sie. Situation laut Skript: § 709 Satz 1 und 2 ZPO. Berliner Skript\n19 | Die Assessorklausur im Verwaltungsrecht",
-   "loesung": "Der Kläger trägt die Kosten des Verfahrens einschließlich der außer - gerichtlichen Kosten des Beigeladenen.13",
+   "loesung": "Der Kläger trägt die Kosten des Verfahrens einschließlich der außer - gerichtlichen Kosten des Beigeladenen.",
    "id": "verwr-staat:form:012",
    "skript": "verwr-staat",
    "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 8. Anfechtungsklage, Beteiligung eines Beigeladenen",
@@ -75,7 +75,7 @@
   {
    "typ": "formulierung",
    "frage": "Tenorieren Sie. Situation laut Skript: Berliner Skript\n20 | Die Assessorklausur im Verwaltungsrecht\n\n9. Stattgabe Fortsetzungsfeststellungsklage\n\na) Anfechtungskonstellation",
-   "loesung": "Es wird festgestellt, dass der Bescheid des Beklagten vom 1. Februar 2017 in der Gestalt des Widerspruchsbescheides vom 1. April 2017 rechtswidrig war.14",
+   "loesung": "Es wird festgestellt, dass der Bescheid des Beklagten vom 1. Februar 2017 in der Gestalt des Widerspruchsbescheides vom 1. April 2017 rechtswidrig war.",
    "id": "verwr-staat:form:013",
    "skript": "verwr-staat",
    "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 9. Stattgabe Fortsetzungsfeststellungsklage",
@@ -93,7 +93,7 @@
   {
    "typ": "formulierung",
    "frage": "Tenorieren Sie. Situation laut Skript: Die Klage wird abgewiesen, soweit die Beteiligten den Rechtsstreit\nnicht übereinstimmend für erledigt erklärt haben (bzw. soweit der\nRechtsstreit nicht als erledigt gilt).",
-   "loesung": "Die Kosten des Verfahrens tragen der Kläger zu 3/4 und der Beklagte zu 1/4.18",
+   "loesung": "Die Kosten des Verfahrens tragen der Kläger zu 3/4 und der Beklagte zu 1/4.",
    "id": "verwr-staat:form:017",
    "skript": "verwr-staat",
    "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 11. Anfechtungsklage, Abweisung, Teilerledigung",
@@ -110,24 +110,6 @@
   },
   {
    "typ": "formulierung",
-   "frage": "Tenorieren Sie. Situation laut Skript: Feststellungsklage bei Erledigungserklärung d. 2\n(Der Beklagte gibt keine Erledigungserklärung ab, weil er trotz Erledigung\nwegen Wiederholungsgefahr ein Interesse an einer Sachentscheidung des\nGerichts hat; der angefochtene Bescheid ist [a] rechtmäßig, [b] rechtswid-\nrig.)\n\n[a] Die Klage wird abgewiesen.",
-   "loesung": "Der Kläger trägt die Kosten des Verfahrens.",
-   "id": "verwr-staat:form:020",
-   "skript": "verwr-staat",
-   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 13. Feststellungsklage bei Erledigungserklärung d. Klägers, Var. 2",
-   "rn": ""
-  },
-  {
-   "typ": "formulierung",
-   "frage": "Tenorieren Sie. Situation laut Skript: April 2017, bezüglich VA 1 nimmt Kläger zurück, bezüglich VA 2 hat\ndie Klage keinen Erfolg.)\n\nSoweit der Kläger die Klage zurückgenommen hat, wird das Verfahren\neingestellt. Im Übrigen wird die Klage abgewiesen.20",
-   "loesung": "Der Kläger trägt die Kosten des Verfahrens.21",
-   "id": "verwr-staat:form:022",
-   "skript": "verwr-staat",
-   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 14. Anfechtungsklage, Abweisung, Teilrücknahme",
-   "rn": ""
-  },
-  {
-   "typ": "formulierung",
    "frage": "Tenorieren Sie. Situation laut Skript: Anfechtungsklage, Stattgabe, Teilrücknahme\n(VA 1 und VA 2, einheitlicher Widerspruchsbescheid für beide Bescheide\nvom 1. April 2017, bezüglich VA 1 nimmt Kläger vor Termin zurück, bezüg-\nlich VA 2 hat die Klage Erfolg.)",
    "loesung": "Der Bescheid des Bezirksamts Mitte von Berlin vom 1. Februar 2017 VA 2 in der Gestalt des Widerspruchsbescheides dieser Behörde vom",
    "id": "verwr-staat:form:023",
@@ -137,8 +119,8 @@
   },
   {
    "typ": "formulierung",
-   "frage": "Tenorieren Sie. Situation laut Skript: April 2017 wird aufgehoben. Soweit der Kläger die Klage zurückge-\nnommen hat, wird das Verfahren eingestellt.22",
-   "loesung": "Die Kosten des Verfahrens tragen der Kläger zu 1/4 und der Beklagte zu 3/4.23",
+   "frage": "Tenorieren Sie. Situation laut Skript: April 2017 wird aufgehoben. Soweit der Kläger die Klage zurückge-\nnommen hat, wird das Verfahren eingestellt.",
+   "loesung": "Die Kosten des Verfahrens tragen der Kläger zu 1/4 und der Beklagte zu 3/4.",
    "id": "verwr-staat:form:024",
    "skript": "verwr-staat",
    "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 1. April 2017 wird aufgehoben. Soweit der Kläger die Klage zurückge-",
@@ -146,7 +128,7 @@
   },
   {
    "typ": "formulierung",
-   "frage": "Formulieren Sie. Situation laut Skript: Erst\ndas Ergebnis, dann die Begründung! Gliedernde Überschriften sind\nzu unterlassen!29 Das gilt sowohl für das Gesamtergebnis (",
+   "frage": "Formulieren Sie. Situation laut Skript: Gliedernde Überschriften sind\nzu unterlassen! Das gilt sowohl für das Gesamtergebnis (",
    "loesung": "Die Klage ist nicht begründet.",
    "id": "verwr-staat:form:025",
    "skript": "verwr-staat",
@@ -155,7 +137,7 @@
   },
   {
    "typ": "formulierung",
-   "frage": "Formulieren Sie. Situation laut Skript: Erst\ndas Ergebnis, dann die Begründung! Gliedernde Überschriften sind\nzu unterlassen!29 Das gilt sowohl für das Gesamtergebnis („Die Klage ist\nnicht begründet.“), als auch für Zwischenergebnisse (",
+   "frage": "Formulieren Sie. Situation laut Skript: Gliedernde Überschriften sind\nzu unterlassen! Das gilt sowohl für das Gesamtergebnis („Die Klage ist\nnicht begründet.“), als auch für Zwischenergebnisse (",
    "loesung": "Der Kläger hat einen Anspruch auf Erteilung eines Waffenscheins aus § 4 WaffG.",
    "id": "verwr-staat:form:026",
    "skript": "verwr-staat",
@@ -183,7 +165,7 @@
   {
    "typ": "formulierung",
    "frage": "Tenorieren Sie. Situation laut Skript: Oktober 2016 auf Zulassung seines Geschäfts zum „Früh -\nlingsdom“ 2017 binnen einer Woche nach Zustellung dieser\nEntscheidung unter Beachtung der Rechtsauffassung des\nGerichts vorläufig erneut zu bescheiden. Der Antragsgegner trägt die Kosten des Verfahrens.",
-   "loesung": "Der Wert des Verfahrensgegenstandes wird auf 2.500 € festgesetzt.",
+   "loesung": "Der Wert des Verfahrensgegenstandes wird auf 2. € festgesetzt.",
    "id": "verwr-staat:form:029",
    "skript": "verwr-staat",
    "abschnitt": "E. Die Entscheidungsgründe › 3. Obersätze und Tenorierung › b. Tenorierung",

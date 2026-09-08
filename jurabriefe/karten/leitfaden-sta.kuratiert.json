@@ -3,6 +3,26 @@
  "karten": [
   {
    "typ": "formulierung",
+   "frage": "Die Hauptverhandlung beginnt. Der Angeklagte Karl Herrmann ist erschienen; Personalien und Haftverhältnisse wurden bereits erörtert. Verlesen Sie den Beginn des konkreten Anklagesatzes.",
+   "loesung": "Dem Angeklagten wird Folgendes zur Last gelegt: Am 10. Mai 2010 schoss der Angeklagte auf öffentlichem Straßenland...",
+   "id": "leitfaden-sta:form:004",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "28",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "In der Hauptverhandlung wegen Körperverletzung nimmt der Verletzte seinen Strafantrag zurück. Die Staatsanwaltschaft hatte das besondere öffentliche Interesse vorsorglich noch nicht bejaht. Formulieren Sie die erforderliche Erklärung.",
+   "loesung": "Es wird beantragt, Herrn X, wohnhaft..., als Zeugen zum Beweis dafür zu vernehmen, dass der Angeklagte sich am ... um ... in der Gaststätte Y aufgehalten hat. Der Zeuge X wird hierzu Angaben machen können, da…",
+   "id": "leitfaden-sta:form:008",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "33",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
    "frage": "Sie beginnen Ihren Schlussvortrag in der Hauptverhandlung. Formulieren Sie eine geeignete Anrede.",
    "loesung": "Hohes Gericht, Frau/Herr Verteidiger(in)",
    "id": "leitfaden-sta:form:009",
@@ -43,6 +63,16 @@
   },
   {
    "typ": "formulierung",
+   "frage": "Im Plädoyer ist der Strafrahmen für einen Raub zu bestimmen. Es liegen ein minder schwerer Fall nach § 249 Abs. 2 StGB und zugleich erheblich verminderte Schuldfähigkeit nach § 21 StGB vor. Formulieren Sie die Strafrahmendarlegung einschließlich der doppelten Verschiebung.",
+   "loesung": "...damit hat die Angeklagte einen Diebstahl gemäß § 242 StGB begangen",
+   "id": "leitfaden-sta:form:013",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
+   "rn": "38",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
    "frage": "Im Schlussvortrag beantragen Sie die Einzelstrafen. Die Angeklagte ist bisher unbestraft und hat gestanden. Für Fall 1 (Raub, minder schwerer Fall mit doppelter Strafrahmenverschiebung) halten Sie eine Geldstrafe für angemessen, für Fall 2 (Diebstahl mit Waffen) eine Freiheitsstrafe. Formulieren Sie den Strafantrag.",
    "loesung": "Unter Abwägung dieser Umstände – insbesondere aufgrund der bisheri- gen Unbestraftheit der Angeklagten und ihrer reuigen und geständigen Einlassung – erscheint für den Raub (Fall 1 der Anklage) eine Geldstrafe von 120 Tagessätzen zu je 15,- Euro tat- und schuldangemessen, für Fall 2 der Anklage, den Diebstahl mit Waffen, eine Freiheitsstrafe von acht Monaten.",
    "id": "leitfaden-sta:form:014",
@@ -59,6 +89,36 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
    "rn": "45",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Im Plädoyer sind für den Angeklagten zwei Einzelstrafen beantragt worden. Aus den Akten ergibt sich ein noch nicht vollstrecktes Vorurteil, das in die Gesamtstrafenbildung einzubeziehen ist. Formulieren Sie den entsprechenden Strafantrag.",
+   "loesung": "Unter erneuter Abwägung aller für und gegen die Angeklagte spre - chenden Strafzumessungsumstände ist aus diesen beiden Einzelstrafen eine tat- und schuldangemessene Gesamtfreiheitsstrafe von zehn Mo - naten zu bilden.",
+   "id": "leitfaden-sta:form:016",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, § 54 Rn. 10).",
+   "rn": "45",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Hauptverhandlung endet mit einem Bewährungsurteil. Formulieren Sie den Antrag zur Strafaussetzung zur Bewährung einschließlich Bewährungszeit, Bewährungshilfe und einer Arbeitsauflage von 120 Stunden.",
+   "loesung": "Die Vollstreckung dieser Freiheitsstrafe kann zur Bewährung ausge - setzt werden. Die Angeklagte ist bislang strafrechtlich nicht in Erschei- nung getreten, weshalb zu erwarten ist, dass sie sich bereits die Ver - hängung einer Freiheitsstrafe hinreichend zur Warnung dienen lässt, um zukünftig von der Begehung weiterer Straftaten Abstand zu nehmen. Die Dauer der Bewährungszeit sollte drei Jahre betragen. Zudem sollte die Angeklagte zum einen für die Dauer der Bewährungszeit der A uf- sicht und Leitung eines hauptamtlichen Bewährungshelfers unterstellt werden, damit ihr Hilfe bei der Stabilisierung seiner Lebensverhält - nisse, insbesondere bei der Suche nach einer Therapiestelle und einer geeigneten Einrichtung des betreuten Wohnens zur Verfügung steht. Zum anderen wird beantragt, der Angeklagten die Ableistung von 120 Stunden gemeinnütziger Arbeit binnen sechs Monaten nach Rechts - kraft des Urteils aufzuerlegen, damit ihr das von ihr begangene Unrecht auch durch eine unmittelbar spürbare Sanktion noch einmal vor Augen geführt wird.",
+   "id": "leitfaden-sta:form:017",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, Rn. 9 zu § 55 StGB.",
+   "rn": "47",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Beweisaufnahme hat den Anklagevorwurf nicht bestätigt. Der Angeklagte befand sich in Untersuchungshaft. Formulieren Sie den Schlussvortrag mit Freispruchsantrag und StrEG-Antrag.",
+   "loesung": "Durch diese Taten hat sich der Angeklagte zudem als ungeeignet zum Führen von Kraftfa hrzeugen erwiesen. Ich beantrage daher, dem Angeklagten die Fahrerlaubnis zu entziehen, den Führerschein einzuziehen und die Verwaltungsbehörde anzuweisen, ihm vor Ablauf einer Sperre von zwei Jahren keine neue Fahrerlaubnis zu erteilen.",
+   "id": "leitfaden-sta:form:018",
+   "skript": "leitfaden-sta",
+   "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, Rn. 9 zu § 55 StGB.",
+   "rn": "50",
    "gewicht": 3
   },
   {

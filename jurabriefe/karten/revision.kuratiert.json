@@ -50,6 +50,36 @@
    "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO)",
    "rn": "28",
    "gewicht": 3
+  },
+  {
+   "typ": "fall",
+   "frage": "Der Angeklagte lehnte den Vorsitzenden wegen Besorgnis der Befangenheit ab und stützte sich dabei auf die Verwendung des Wortes 'Theaterdonner' im Zurückweisungsbeschluss des Vorsitzenden. Die Schwurgerichtskammer verwarf das Gesuch unter Mitwirkung des abgelehnten Vorsitzenden als unzulässig gemäß § 26a Abs. 1 Nr. 2 und 3 StPO. Prüfen Sie, ob die Verwerfung des Ablehnungsgesuchs einen absoluten Revisionsgrund begründet.",
+   "loesung": "34 zu Protokoll der Geschäftsstelle anzubringen. Jedoch ist die im unmittelbar folgenden Hauptverhandlungstermin vom 25. April 2013 durchgeführte Antragstellung unter Anrechnung einer dem Angeklagten zuzubilligenden Überlegungsfrist hier als rechtzeitig anzusehen. Das Befangenheitsgesuch hätte nicht nach § 26a Abs. 1 Nr. 2. StPO abgelehnt werden dürfen. Die Vorschrift des § 26a Abs. 1 Nr. 2 Alt. 2 StPO gestattet ausnahmsweise nur dann die Beteiligung des abgelehnten Richters an der Entscheidung über einen gegen ihn gestellten Befangenheitsantrag, wenn das Ablehnungsgesuch ohne nähere Prüfung und losgelöst von den Umständen des Einzelfalls zur Begründung der Besorgnis der Befangenheit gänzlich ungeeignet ist; hingegen darf der abgelehnte Richter über diese bloß formale Prüfung hinaus nicht an einer näheren inhaltlichen Untersuchung der Ablehnungsgründe auch unter dem Blickwinkel einer offensichtlichen Unbegründetheit mitwirken und sich auf diese Weise zum „Richter in eigener Sache“ machen. Dabei muss die Auslegung des Ablehnungsgesuchs darauf ausgerichtet sein, es seinem Inhalt nach vollständig zu erfassen, um nicht im Gewande der Zulässigkeitsprüfung in eine Begründetheitsprüfung einzutreten. Diesen Maßstäben wird der Zurückweisungsbeschluss der Schwurgerichtskammer nicht gerecht. Dem Befangenheitsgesuch ist die Besorgnis des Angeklagten zu entnehmen, dass der Vorsitzende das Vorbringen zur Beeinträchtigung seiner Verteidigungsinteressen durch den Pflichtverteidiger nicht ern",
+   "id": "revision:fall:019",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
+   "rn": "33",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Angeklagte hatte den Sitzungssaal bereits verlassen, bevor der Ausschließungsbeschluss gemäß § 247 S. 2 StPO verkündet wurde. Formulieren Sie die revisionsrechtliche Bewertung dieses Verfahrensablaufs.",
+   "loesung": "Gemäß § 247 S. 2 StPO wird der Angeklagte für die Dauer der weiteren Vernehmung der Zeugin W. ausgeschlossen, um einer Retraumatisierung entgegenzutreten und einen weiteren psychischen Schaden für die Zeugin zu verhindern.",
+   "id": "revision:form:020",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
+   "rn": "35",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Verteidiger hatte zuvor erklärt, der Angeklagte sei einverstanden, den Sitzungssaal zu verlassen. Formulieren Sie, warum dieses Einverständnis dem Erfolg der Verfahrensrüge nicht entgegensteht.",
+   "loesung": "dass der Angeklagte einverstanden sei, den Sitzungssaal zu verlassen, auch wenn dafür keine Notwendigkeit gesehen wird",
+   "id": "revision:form:021",
+   "skript": "revision",
+   "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
+   "rn": "35",
+   "gewicht": 2
   }
  ]
 }

@@ -30,6 +30,16 @@
    "abschnitt": "I. Einlassung des Angeschuldigten",
    "rn": "",
    "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Im Wesentlichen Ergebnis der Ermittlungen ist unter 'Zur Person' ein Auszug aus dem Bundeszentralregister mit mehreren Eintragungen seit 2006 wiederzugeben, darunter zwölf Betrugsfälle und zuletzt eine Verurteilung durch das AG Tiergarten vom 1. Juni 2021 (Az. 241 Ds 564/21) wegen Diebstahls zu zwei Jahren Freiheitsstrafe, verbüßt am 5. September 2023. Eine vollständige Auflistung ist aus Platzgründen nicht möglich. Formulieren Sie eine zulässige Zusammenfassung.",
+   "loesung": "Der Angeschuldigte ist seit 20 06 vielfach strafrechtlich in Erscheinung getreten, darunter in 12 Fällen wegen Betruges. Zuletzt verurteilte ihn das Amtsgericht Tiergarten am 1. Juni 202 1 – 241 Ds 564/ 21 - wegen Diebstahls zu einer Freiheitsstrafe von 2 Jahren, die der Angeschuldigte am 5. September 2023 verbüßt hatte.",
+   "id": "anklage:form:004",
+   "skript": "anklage",
+   "abschnitt": "I. Zur Person:",
+   "rn": "",
+   "gewicht": 1
   }
  ]
 }

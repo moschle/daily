@@ -2,6 +2,16 @@
  "skript": "zr-staat",
  "karten": [
   {
+   "typ": "aufbau",
+   "frage": "Die Klage ist abzuweisen. Bringen Sie die folgenden Anspruchsgrundlagen in die nach dem Skript vorgesehene Prüfungsreihenfolge und ergänzen Sie die fehlende Kategorie: Vertrag – dingliche Ansprüche – ungerechtfertigte Bereicherung – quasivertragliche Ansprüche.",
+   "loesung": "1. Vertrag\n2. quasivertragliche Ansprüche\n3. dingliche Ansprüche\n4. ungerechtfertigte Bereicherung",
+   "id": "zr-staat:aufb:076",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › IV. Begründetheit › 2. Hauptanspruch › b. Unbegründete Klage",
+   "rn": "139",
+   "gewicht": 3
+  },
+  {
    "typ": "formulierung",
    "frage": "Formulieren Sie das Rubrum für folgende Konstellation: Klägerin ist Frau Lare Heise, Jonasstraße 12, 12345 Berlin; Beklagter ist Herr Jonas Jonathan, Jonasstraße 13, 12345 Berlin. Beachten Sie Grammatik und Kommasetzung.",
    "loesung": "der Frau Lare Heise, Jonasstraße 12, 12345 Berlin, Klägerin, gegen Herrn Jonas Jonathan, Jonasstraße 13, 12345 Berlin, Beklagten,",
@@ -273,9 +283,29 @@
   },
   {
    "typ": "formulierung",
+   "frage": "Die Beklagte hat im laufenden Verfahren mit Schriftsatz die Aufrechnung mit einer Forderung aus Werkvertrag erklärt. Beurkunden Sie diesen prozessgeschichtlichen Vorgang im Sachbericht.",
+   "loesung": "Die Beklagte hat mit Schriftsatz vom … die Aufrechnung mit einer Forderung aus Werkvertrag/Delikt erklärt",
+   "id": "zr-staat:form:052",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 7. Prozessgeschichte",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
    "frage": "Formulieren Sie die Prozessgeschichte bei einer Klageerhöhung (zunächst 1.000,00 EUR, jetzt höherer Betrag).",
    "loesung": "Der Kläger hat zunächst Zahlung von 1.000,00 EUR verlangt. Nunmehr beantragt er, ...",
    "id": "zr-staat:form:053",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einführung › IV. Einzelheiten › 7. Prozessgeschichte",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Das Gericht hat Beweis erhoben durch eidliche Vernehmung des Zeugen Wilhelm Busch; ein Beweisbeschluss vom 15. Mai 2025 liegt vor, die Vernehmung fand am 20. Juni 2025 statt. Formulieren Sie den entsprechenden Passus in der Prozessgeschichte des Tatbestands.",
+   "loesung": "Das Gericht ha t gemäß Beschluss vom 15. Mai 20 25 Beweis erhoben durch eidliche Vernehmung des Zeugen Wilhelm Busch. Hinsichtlich des Ergebnisses der Beweisaufnahme wird auf die Sitzungsniederschrift vom 20. Juni 2025 verwiesen.",
+   "id": "zr-staat:form:054",
    "skript": "zr-staat",
    "abschnitt": "I. Einführung › IV. Einzelheiten › 7. Prozessgeschichte",
    "rn": "",
@@ -290,6 +320,16 @@
    "abschnitt": "I. Einführung › IV. Einzelheiten › 7. Prozessgeschichte",
    "rn": "",
    "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Beklagte hat das Eigentum des Klägers an dessen Pkw durch einen Schlag mit einem Baseballschläger beschädigt; die Klage ist begründet. Formulieren Sie den Einstieg in die Entscheidungsgründe im Urteilsstil mit mindestens zwei aufeinander aufbauenden Obersätzen.",
+   "loesung": "Die Klage ist begründet. • (Denn) • Dem Kläger steht gegen den Beklagten wegen der Beschädigung seines Pkw ein Schadensersatzanspruch in Höhe von 1.000,00 90 § 313 Abs. 1 Nr. 6 ZPO 91 Aufgabe 92 Urteilsstil EUR aus § 823 Absatz 1 BGB zu. • (Denn) • Der Beklagte hat das Eigentum des Klägers am Pkw dadurch verletzt, dass er ... • ...",
+   "id": "zr-staat:form:056",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › 2. Urteilsstil",
+   "rn": "",
+   "gewicht": 3
   },
   {
    "typ": "formulierung",
@@ -310,6 +350,16 @@
    "abschnitt": "I. Einleitung › 5. Zeitform der Entscheidungsgründe",
    "rn": "",
    "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Zeuge Müller hat bekundet, der Beklagte habe mit einem Baseballschläger auf die Frontscheibe des klägerischen Pkw eingeschlagen. Formulieren Sie die Beweiswürdigung in den Entscheidungsgründen einschließlich der Aussage zur Glaubhaftigkeit der Aussage und zur Glaubwürdigkeit des Zeugen.",
+   "loesung": "Nach dem Ergebnis der Beweisaufnahme ist bewiesen (steht es zur Überzeugung des Gerichts fest) , dass der Beklagte den Pkw des Klägers beschädigte hat. Der Zeuge Müller hat bekundet, dass der Beklagte mit einem Baseballschläger auf die Frontscheibe des Pkw des Klägers wuchtig eingeschlagen habe",
+   "id": "zr-staat:form:059",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › 6. Feststellungen im Sinne von § 286 ZPO",
+   "rn": "",
+   "gewicht": 2
   },
   {
    "typ": "formulierung",
@@ -403,6 +453,16 @@
   },
   {
    "typ": "formulierung",
+   "frage": "Die Klage ist zulässig und in vollem Umfang begründet. Formulieren Sie den Einleitungssatz der Entscheidungsgründe. Formulieren Sie anschließend drei weitere Varianten für den Fall, dass die Klage nur teilweise begründet ist bzw. bereits der Hauptantrag durchgreift.",
+   "loesung": "Die Klage ist zulässig und teilweise begründet",
+   "id": "zr-staat:form:069",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
    "frage": "Formulieren Sie den Einstieg in die Entscheidungsgründe. Der Klageantrag ist unklar und muss vor der Zulässigkeitsprüfung ausgelegt werden.",
    "loesung": "Entscheidungsgründe Der Antrag des Klägers [ ggf. Wiedergabe des Antrages] ist dahingehend auszulegen, dass er (...). Für diese Auslegung spricht, dass [Begründung für das Ergebnis der Auslegung].",
    "id": "zr-staat:form:070",
@@ -433,6 +493,16 @@
   },
   {
    "typ": "formulierung",
+   "frage": "Der Kläger hat Feststellungsklage erhoben. Ein erledigendes Ereignis ist eingetreten. Formulieren Sie die Kurzprüfung des Feststellungsinteresses nach § 256 Abs. 1 ZPO in den Entscheidungsgründen.",
+   "loesung": "Auch das nach § 256 Abs. 1 ZPO erforderliche Feststellungsinteresse ist gegeben. Denn der Kläger hat bei Eintritt eines erledigenden Ereignisses keine andere Möglichkeit als die Feststellungsklage, um von den Kosten des Rechtsstreits befreit zu werden",
+   "id": "zr-staat:form:074",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › III. Sachurteilsvoraussetzungen › 4. Besondere Sachurteilsvoraussetzungen",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
    "frage": "Die Klägerin macht einen Zahlungsanspruch aus Kaufvertrag geltend; die Klage ist begründet. Formulieren Sie den Einleitungssatz der Begründetheit.",
    "loesung": "Die Klägerin hat einen Anspruch auf Zahlung von 5.000,00 EUR aus dem am 21. Mai 2025 zwischen den Parteien geschlossenen Kaufvertrag in Verbindung mit § 433 Absatz 2 BGB.",
    "id": "zr-staat:form:075",
@@ -443,9 +513,29 @@
   },
   {
    "typ": "formulierung",
+   "frage": "Der Kläger hat Zinsen ab Verzugseintritt verlangt; der Verzugsbeginn ist zwischen den Parteien streitig. Das Schreiben des Klägers vom 1. März 2025 ist als Mahnung zu werten. Formulieren Sie die Begründung des Zinsanspruchs in den Entscheidungsgründen.",
+   "loesung": "Der zuerkannte Zinsanspruch rechtfertigt sich unter dem Satz 2 BGB. Entgegen der Ansicht des Beklagten trat Verzug bereits am ... ein. Denn das Schreiben der Klägerin vom ... ist als Mahnung zu qualifizieren. E s enthält eine ernsthafte und hinreichend bestimmte Zahlungsaufforderung",
+   "id": "zr-staat:form:077",
+   "skript": "zr-staat",
+   "abschnitt": "I. Einleitung › IV. Begründetheit › 3. Nebenforderungen",
+   "rn": "139",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
    "frage": "Die Klage wird vollständig abgewiesen. Formulieren Sie die Kostenentscheidung.",
    "loesung": "Die Kostenentscheidung beruht auf § 91 Abs. 1 Satz 1 ZPO.",
    "id": "zr-staat:form:078",
+   "skript": "zr-staat",
+   "abschnitt": "V. Prozessuale Nebenentscheidungen › 1. Kostenentscheidung",
+   "rn": "139",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Parteien haben den Rechtsstreit teilweise übereinstimmend für erledigt erklärt; insoweit stützt sich die Kostenentscheidung auf § 91a ZPO. Der Beklagte wäre nach dem bisherigen Sach- und Streitstand voraussichtlich unterlegen. Formulieren Sie die Begründung der Kostenentscheidung.",
+   "loesung": "Soweit die Parteien den Rechtsstreit in der Hauptsache wegen des Austauschs der Fenster in der Küche und der Abdichtung der Terrasse für erledigt erklärt haben, sind dem Beklagten die Kosten aufzuerlegen. Nach § 91 a Abs. 1 ZPO ist eine Billigkeitsentscheidung nach dem bisherigen Sach- und Streitstand zu treffen. Nach der derzeitigen Sach - und Rechtslage hätte die Klage voraussichtlich Erfolg gehabt. Der Beklagte war unstreitig Nebenentscheidungen bereits vor Rechtshängigkeit verpflichtet, die Schäden an den Fenstern und an der Terrasse zu beheben [ist weiter auszuführen].",
+   "id": "zr-staat:form:079",
    "skript": "zr-staat",
    "abschnitt": "V. Prozessuale Nebenentscheidungen › 1. Kostenentscheidung",
    "rn": "139",

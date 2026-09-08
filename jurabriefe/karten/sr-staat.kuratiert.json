@@ -2,12 +2,32 @@
  "skript": "sr-staat",
  "karten": [
   {
+   "typ": "fehler",
+   "frage": "Das Skript nennt als Voraussetzung für die Einstellungsnachricht an den Beschuldigten u.a., dass 'eine verantwortliche Vernehmung stattgefunden hat'. Benennen Sie den Fehler und formulieren Sie die Voraussetzung korrekt.",
+   "loesung": "Auch wenn keine Teileinstellungen vorzunehmen sind, ist dies festzuhalten, wobei dabei auch\ndeutlich werden sollte, dass die Prüfungskriterien bekannt sind (also",
+   "id": "sr-staat:fehl:003",
+   "skript": "sr-staat",
+   "abschnitt": "A. Teileinstellung",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
    "typ": "formulierung",
    "frage": "Formulieren Sie den Obersatz der Deliktsprüfung für A hinsichtlich § 132 1. Alt. StGB. A hat sich gegenüber dem Bankangestellten als 'Polizeibeamter' ausgegeben.",
    "loesung": "1. § 132 1. Alt. StGB A könnte sich einer Amtsanmaßung hinreichend verdächtig gemacht haben, indem er sich gegenüber dem Bankangestellten als ‚Polizeibeamter‘ ausgab.",
    "id": "sr-staat:form:001",
    "skript": "sr-staat",
    "abschnitt": "I. Deliktsprüfung",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Das prozessrechtliche Gutachten (Teil II) ist vom materiellrechtlichen Gutachten (Teil I) abzugrenzen. Nach welchem Kriterium entscheidet sich, ob eine prozessuale Frage in Teil I oder Teil II zu erörtern ist? Formulieren Sie den Obersatz dieser Abgrenzung.",
+   "loesung": "hinreichenden Tatverdachts",
+   "id": "sr-staat:form:002",
+   "skript": "sr-staat",
+   "abschnitt": "I. Deliktsprüfung › IV. Konkurrenzen",
    "rn": "",
    "gewicht": 2
   },

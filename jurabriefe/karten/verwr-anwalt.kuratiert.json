@@ -2,12 +2,32 @@
  "skript": "verwr-anwalt",
  "karten": [
   {
+   "typ": "fehler",
+   "frage": "Das Skript nennt als erstes Ziel der Beiladung: 'Rechtsschutz für Beigeladenen: Durch eine Beiladung wird verhindert, dass ohne Beteiligung des Beigeladenen über seine Rechte entschieden wird.' Was ist hieran unzutreffend, und wie lautet die richtige Formulierung?",
+   "loesung": "Die Tätigkeit des Rechtsanwalts im Verwaltungsrecht) Seite 31 von 53\nNutzungsfehler des Rechtsanwalts\n\nEine",
+   "id": "verwr-anwalt:fehl:002",
+   "skript": "verwr-anwalt",
+   "abschnitt": "21. September 2022, Aktenzeichen XII ZB 264/22). Danach bedarf es zur",
+   "rn": "",
+   "gewicht": 2
+  },
+  {
    "typ": "formulierung",
    "frage": "Geben Sie den Wortlaut von § 23 Abs. 1 S. 1 RVG wieder.",
    "loesung": "Soweit sich die Gerichtsgebühren nach dem Wert richten, bestimmt sich der Gegenstandswert im gerichtlichen Verfahren nach den für die Gerichtsgebühren geltenden Wertvorschriften.",
    "id": "verwr-anwalt:form:001",
    "skript": "verwr-anwalt",
    "abschnitt": "01. Juli 2004 den Aufbau des Gerichtskostengesetzes (GKG) grundlegend geändert und",
+   "rn": "",
+   "gewicht": 1
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Bearbeitervermerk einer Anwaltsklausur enthält Angaben zum Umgang mit (vermeintlichen) Widersprüchen im Sachverhalt. Geben Sie eine typische Formulierung eines solchen Bearbeitervermerks wieder.",
+   "loesung": "Werden in einzelnen Punkten die Gewährung des rechtlichen Gehörs, Ermittlungen oder Beweisaufnahmen für erforderlich gehalten, so ist dies zu erörtern, sodann jedoch zu unterstellen, dass entsprechende Maßnahmen durchgeführt wurden, aber keine über die bere its vorliegenden Unterlagen hinausgehenden Erkenntnisse ergeben haben. Wird die getroffene Entscheidung auf einen rechtlichen Gesichtspunkt gestützt, den ein Beteiligter erkennbar übersehen oder für unerheblich gehalten hat, so ist zu unterstellen, dass ihm Gelegenheit zur Äußerung gegeben worden ist, er hiervon jedoch keinen Gebrauch gemacht hat.",
+   "id": "verwr-anwalt:form:004",
+   "skript": "verwr-anwalt",
+   "abschnitt": "2. Schreiben",
    "rn": "",
    "gewicht": 1
   }

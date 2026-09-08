@@ -156,7 +156,7 @@
   {
    "typ": "formulierung",
    "frage": "Formulieren Sie. Situation laut Skript: für ein Feststellungsurteil), ist\ndem Bestimmtheitserfordernis Rechnung zu tragen\n\nFalsch sind etwa folgende Aussprüche: „Der Klage wird stattgegeben.“\n„Die Klage ist begründet.“\n„Der Beklagte wird verurteilt, den vereinbarten Pachtzins zu\nzahlen.“",
-   "loesung": "Der Beklagte wird verurteilt, ...24 1.810,00 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit Rechtshängigkeit zu zahlen.",
+   "loesung": "Der Beklagte wird verurteilt, ... 1.810,00 EUR nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz seit Rechtshängigkeit zu zahlen.",
    "id": "zr-staat:form:023",
    "skript": "zr-staat",
    "abschnitt": "I. Einführung › II. Einzelheiten › 1. Vollstreckungsfähig/hinreichend bestimmt",
@@ -308,7 +308,7 @@
   },
   {
    "typ": "aufbau",
-   "frage": "Bringen Sie in die richtige Reihenfolge und ergänzen Sie Fehlendes.\n- flüssiges ist wegzulassen. • Keine Wiederholungen. • Sachvortrag, auch streitiger, ist sinnvoll zu filtern, zu sichten und zu ordnen. Typische Fehler beim Aufbau eines Tatbestandes sind:\n– Keine oder falsche Trennung von Unstreitigem/Streitigem\n– Unstrukturierte Wiedergabe insbesondere des unstreitigen\n– Keine oder falsche Trennung von Tatsachenbehauptungen/Rechts -\n– Vorwegnahmen von Wertungen, Auslegungen oder von\n– Falsche Gewichtung, fehlende Herausarbeitung des Wesentlichen\n– Tatsachen zu Nebenforderungen nicht zu berichten",
+   "frage": "Bringen Sie in die richtige Reihenfolge und ergänzen Sie Fehlendes.\n- flüssiges ist wegzulassen. • Keine Wiederholungen. • Sachvortrag, auch streitiger, ist sinnvoll zu filtern, zu sichten und zu ordnen. Typische Fehler beim Aufbau eines Tatbestandes sind:\n– Tatsachen zu Nebenforderungen nicht zu berichten\n– Vorwegnahmen von Wertungen, Auslegungen oder von\n– Falsche Gewichtung, fehlende Herausarbeitung des Wesentlichen\n– Unstrukturierte Wiedergabe insbesondere des unstreitigen\n– Keine oder falsche Trennung von Unstreitigem/Streitigem\n– Keine oder falsche Trennung von Tatsachenbehauptungen/Rechts -",
    "loesung": "1. Keine oder falsche Trennung von Unstreitigem/Streitigem\n2. Keine oder falsche Trennung von Tatsachenbehauptungen/Rechts -\n3. Falsche Gewichtung, fehlende Herausarbeitung des Wesentlichen\n4. Unstrukturierte Wiedergabe insbesondere des unstreitigen\n5. Vorwegnahmen von Wertungen, Auslegungen oder von\n6. Tatsachen zu Nebenforderungen nicht zu berichten",
    "id": "zr-staat:aufb:046",
    "skript": "zr-staat",
@@ -569,7 +569,7 @@
   },
   {
    "typ": "aufbau",
-   "frage": "Bringen Sie in die richtige Reihenfolge und ergänzen Sie Fehlendes.\neklagten erfolglos eine Einrede, ist auc h diese abzuhandeln. Insoweit beschränken sich jedoch die Erörterungen auf das Merkmal, das verneint wird. Allgemeiner Aufbau:\n– quasivertragliche Ansprüche\n– dingliche Ansprüche\n– ungerechtfertigte Bereicherung\n– Vertrag",
+   "frage": "Bringen Sie in die richtige Reihenfolge und ergänzen Sie Fehlendes.\neklagten erfolglos eine Einrede, ist auc h diese abzuhandeln. Insoweit beschränken sich jedoch die Erörterungen auf das Merkmal, das verneint wird. Allgemeiner Aufbau:\n– Vertrag\n– dingliche Ansprüche\n– ungerechtfertigte Bereicherung\n– quasivertragliche Ansprüche",
    "loesung": "1. Vertrag\n2. quasivertragliche Ansprüche\n3. dingliche Ansprüche\n4. ungerechtfertigte Bereicherung",
    "id": "zr-staat:aufb:076",
    "skript": "zr-staat",

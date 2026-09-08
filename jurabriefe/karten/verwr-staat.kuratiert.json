@@ -33,6 +33,26 @@
   },
   {
    "typ": "formulierung",
+   "frage": "Die Anfechtungsklage des Klägers hat keinen Erfolg. Tenorieren Sie das vollständige Urteil (Haupt- und Nebenentscheidungen).",
+   "loesung": "Der Kläger trägt die Kosten des Verfahrens.",
+   "id": "verwr-staat:form:004",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 1. Klageabweisung (für alle Klagearten)",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Die Anfechtungsklage hat Erfolg. Zugrunde liegt ein Bescheid des Bezirksamts Mitte von Berlin vom 1. Februar 2017 in der Gestalt des Widerspruchsbescheides vom 1. April 2017. Tenorieren Sie das vollständige Urteil.",
+   "loesung": "Der Bescheid des Bezirksamts Mitte von Berlin vom 1. Februar 2017 in der Gestalt des Widerspruchsbescheides dieser Behörde vom 1. Ap- ril 2017 wird aufgehoben.",
+   "id": "verwr-staat:form:005",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 2. Anfechtungsklage, Stattgabe",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
    "frage": "Die Anfechtungsklage hat vollständig Erfolg. Tenorieren Sie die Kostenentscheidung.",
    "loesung": "Der Beklagte trägt die Kosten des Verfahrens.",
    "id": "verwr-staat:form:006",
@@ -43,9 +63,39 @@
   },
   {
    "typ": "formulierung",
+   "frage": "Eine Behörde klagt auf Zahlung von 6.000 Euro. Die Leistungsklage hat Erfolg. Tenorieren Sie das vollständige Urteil einschließlich Zinsen und Vollstreckbarkeit.",
+   "loesung": "Der Beklagte wird verurteilt, an den Kläger 6. € nebst Zinsen in Höhe von 5 Prozentpunkten über dem Basiszinssatz seit dem (Datum der Rechtshängigkeit = Klageerhebung) zu zahlen.",
+   "id": "verwr-staat:form:010",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 7. Leistungsklage, Stattgabe",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Der Kläger hat eine Fortsetzungsfeststellungsklage in der Anfechtungskonstellation erhoben. Die Klage hat Erfolg. Zugrunde liegt ein Bescheid vom 1. Februar 2017 in der Gestalt des Widerspruchsbescheides vom 1. April 2017. Tenorieren Sie das vollständige Urteil.",
+   "loesung": "Es wird festgestellt, dass der Bescheid des Beklagten vom 1. Februar 2017 in der Gestalt des Widerspruchsbescheides vom 1. April 2017 rechtswidrig war.",
+   "id": "verwr-staat:form:013",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 9. Stattgabe Fortsetzungsfeststellungsklage",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
    "frage": "Die Klage richtet sich gegen VA 1 und VA 2 (einheitlicher Widerspruchsbescheid). Bezüglich VA 1 erklären die Beteiligten den Rechtsstreit übereinstimmend für erledigt. Bezüglich VA 2 hat die Klage keinen Erfolg. Tenorieren Sie den Hauptausspruch vollständig.",
    "loesung": "Die Klage wird abgewiesen, soweit die Beteiligten den Rechtsstreit nicht übereinstimmend für erledigt erklärt haben (bzw. soweit der Rechtsstreit nicht als erledigt gilt).",
    "id": "verwr-staat:form:016",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 11. Anfechtungsklage, Abweisung, Teilerledigung",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Zwei Verwaltungsakte waren angefochten. Hinsichtlich VA 1 haben die Beteiligten den Rechtsstreit übereinstimmend für erledigt erklärt, hinsichtlich VA 2 wird die Klage abgewiesen. Die Kosten werden nach Quote verteilt. Tenorieren Sie das vollständige Urteil.",
+   "loesung": "Die Kosten des Verfahrens tragen der Kläger zu 3/4 und der Beklagte zu 1/4.",
+   "id": "verwr-staat:form:017",
    "skript": "verwr-staat",
    "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 11. Anfechtungsklage, Abweisung, Teilerledigung",
    "rn": "",
@@ -68,6 +118,36 @@
    "id": "verwr-staat:form:020",
    "skript": "verwr-staat",
    "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 13. Feststellungsklage bei Erledigungserklärung d. Klägers, Var. 2",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Zwei Verwaltungsakte waren angefochten. Hinsichtlich VA 1 nimmt der Kläger die Klage vor dem Termin zurück, hinsichtlich VA 2 hat die Klage Erfolg. Tenorieren Sie das vollständige Urteil einschließlich Kostenquote und Vollstreckbarkeit.",
+   "loesung": "Der Bescheid des Bezirksamts Mitte von Berlin vom 1. Februar 2017 VA 2 in der Gestalt des Widerspruchsbescheides dieser Behörde vom",
+   "id": "verwr-staat:form:023",
+   "skript": "verwr-staat",
+   "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 15. Anfechtungsklage, Stattgabe, Teilrücknahme",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Beschreiben Sie das Darstellungsprinzip der Entscheidungsgründe im verwaltungsgerichtlichen Urteil und formulieren Sie einen Musterobersatz mit anschließender Begründungsstruktur für eine begründete Anfechtungsklage.",
+   "loesung": "Die Klage ist nicht begründet.",
+   "id": "verwr-staat:form:025",
+   "skript": "verwr-staat",
+   "abschnitt": "E. Die Entscheidungsgründe › 3. Urteilsstil und Methodik",
+   "rn": "",
+   "gewicht": 3
+  },
+  {
+   "typ": "formulierung",
+   "frage": "Ein Kandidat setzt in den Entscheidungsgründen Zwischenüberschriften wie 'I. Zulässigkeit' und 'II. Begründetheit'. Was ist daran falsch, und wie ist es richtig zu machen? Formulieren Sie einen korrekten Obersatz für ein Zwischenergebnis.",
+   "loesung": "Der Kläger hat einen Anspruch auf Erteilung eines Waffenscheins aus § 4 WaffG.",
+   "id": "verwr-staat:form:026",
+   "skript": "verwr-staat",
+   "abschnitt": "E. Die Entscheidungsgründe › 3. Urteilsstil und Methodik",
    "rn": "",
    "gewicht": 3
   },

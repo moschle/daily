@@ -10,19 +10,10 @@
    "rn": "6"
   },
   {
-   "typ": "fehler",
-   "frage": "Was ist hieran fehlerhaft, und wie lautet es richtig?\nob gegenüber einem Anspruch für den Mandanten eine erfolgreiche Rechtsverteidigung in",
-   "loesung": "als Beklagtenvertreter zum Ergebnis, dass die Klage",
-   "id": "zr-anwalt:fehl:006",
-   "skript": "zr-anwalt",
-   "abschnitt": "V. Die Klausurbearbeitung: › 2. Das Gutachten: › b. Das Gutachten in der Klausur aus Beklagtensicht",
-   "rn": ""
-  },
-  {
    "typ": "formulierung",
    "frage": "Formulieren Sie. Situation laut Skript: Die Begutachtung sollte insgesamt einen roten Faden verfolgen, der für den Leser erkennbar ist. Es\nsollte ein Eingangssatz gewählt werden, z.B.",
    "loesung": "Die Mandantin hat einen Anspruch auf Zahlung der im Antrag zu 1. genannten Beträge aus eigenem Recht. Der Gegner ist der Mandantin gegenüber gemäß §§ 280 I, 241 II BGB schadensersatzpflichtig. Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung 15 Der Vertrag zwischen den Parteien wurde seitens des Gegners unter Verstoß gegen dessen vertragliche Verpflichtungen gekündigt. ...",
-   "id": "zr-anwalt:form:008",
+   "id": "zr-anwalt:form:006",
    "skript": "zr-anwalt",
    "abschnitt": "V. Die Klausurbearbeitung: › 2. Das Gutachten: › c. Zur Beweisprognose:",
    "rn": "14"
@@ -31,7 +22,7 @@
    "typ": "formulierung",
    "frage": "Formulieren Sie. Situation laut Skript: Im\neinstweiligen Verfügungsverfahren jedoch „Antragsteller/-in“ und „Antragsgegner/ -in“. Wird im\neinstweiligen Rechtsschutz auf Widerspruch des Antragsgegners hin mündlich verhandelt, sind die\nBezeichnungen",
    "loesung": "Verfügungskläger/-in",
-   "id": "zr-anwalt:form:009",
+   "id": "zr-anwalt:form:007",
    "skript": "zr-anwalt",
    "abschnitt": "V. Die Klausurbearbeitung: › 4. Praktische Leistung",
    "rn": "18"
@@ -40,7 +31,7 @@
    "typ": "formulierung",
    "frage": "Formulieren Sie. Situation laut Skript: Im\neinstweiligen Verfügungsverfahren jedoch „Antragsteller/-in“ und „Antragsgegner/ -in“. Wird im\neinstweiligen Rechtsschutz auf Widerspruch des Antragsgegners hin mündlich verhandelt, sind die\nBezeichnungen „Verfügungskläger/-in“ und",
    "loesung": "Verfügungsbeklagte/-r",
-   "id": "zr-anwalt:form:010",
+   "id": "zr-anwalt:form:008",
    "skript": "zr-anwalt",
    "abschnitt": "V. Die Klausurbearbeitung: › 4. Praktische Leistung",
    "rn": "18"
@@ -49,7 +40,7 @@
    "typ": "formulierung",
    "frage": "Formulieren Sie. Situation laut Skript: Alternativ kann das Rubrum mit den Worten eingeleitet werden: In dem Rechtsstreit\n\ndes Herrn Johannes Hufland, Güntzelstraße 55, 10717 Berlin,\nKlägers,\n\nIn diesem Fall muss bei der Einleitung des Klageantrages jedoch entsprechend grammatikalisch\nangeknüpft werden:",
    "loesung": "erhebe ich hiermit namens und in Vollmacht des Klägers Klage und werde beantragen, wie folgt zu erkennen:",
-   "id": "zr-anwalt:form:011",
+   "id": "zr-anwalt:form:009",
    "skript": "zr-anwalt",
    "abschnitt": "V. Die Klausurbearbeitung: › 2. Karl- Heinz Emmerich, (…),",
    "rn": "20"
@@ -58,7 +49,7 @@
    "typ": "formulierung",
    "frage": "Tenorieren Sie. Situation laut Skript: 12.2023 zum\nGeschäftszeichen 13 C 212/23 wird für unzulässig erklärt. Ferner beantrage ich, im Wege des einstweiligen Rechtsschutzes, der Dringlichkeit halber ohne\nmündliche Verhandlung, wie folgt zu entscheiden:9",
    "loesung": "Die Zwangsvollstreckung aus dem Urteil des Amtsgerichts Schöneberg vom 8.6.2010 zum Geschäftszeichen 13 C 212/10 wird bis zum Erlass des Urteils in der Hauptsache einstweilen ohne, hilfsweise gegen Sicherheitsleistung eingestellt.",
-   "id": "zr-anwalt:form:012",
+   "id": "zr-anwalt:form:010",
    "skript": "zr-anwalt",
    "abschnitt": "V. Die Klausurbearbeitung: › 6. Herrn Rechtsanwalt H, ebd., Widerbeklagter zu 6., › h. Vollstreckungsabwehrklage",
    "rn": "26"
@@ -67,7 +58,7 @@
    "typ": "formulierung",
    "frage": "Formulieren Sie. Situation laut Skript: Im Zweifel sollte bestritten werden, was bestritten werden kann und\nnicht vollkommen unsinniges Bestreiten ist. Einleitend sind die Beteiligten vorzustellen.",
    "loesung": "Die Parteien sind Zahnärzte. Der Kläger begehrt vom Beklagten die Zahlung einer Abfindung aufgrund vorzeitiger Kündigung des Gemeinschaftspraxisvertrages. (...)",
-   "id": "zr-anwalt:form:013",
+   "id": "zr-anwalt:form:011",
    "skript": "zr-anwalt",
    "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden.",
    "rn": "29"
@@ -76,7 +67,7 @@
    "typ": "formulierung",
    "frage": "Formulieren Sie. Situation laut Skript: „Die Parteien sind Zahnärzte. Der Kläger begehrt vom Beklagten die Zahlung einer Abfindung\naufgrund vorzeitiger Kündigung des Gemeinschaftspraxisvertrages.",
    "loesung": "Die Klägerin vermietet dem Beklagten eine Wohnung in der Pallasstraße 57 in 10829 Berlin - Schöneberg und macht mit dieser Klage Mietrückstände für die Monate August bis November 2023 geltend.",
-   "id": "zr-anwalt:form:014",
+   "id": "zr-anwalt:form:012",
    "skript": "zr-anwalt",
    "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden.",
    "rn": "29"
@@ -85,7 +76,7 @@
    "typ": "formulierung",
    "frage": "Formulieren Sie. Situation laut Skript: Der Kläger begehrt vom Beklagten die Zahlung einer Abfindung\naufgrund vorzeitiger Kündigung des Gemeinschaftspraxisvertrages. „Die Klägerin vermietet dem Beklagten eine Wohnung in der Pallasstraße 57 in 10829 Berlin -\nSchöneberg und macht mit dieser Klage Mietrückstände für die Monate August bis November 2023\ngeltend.“\n\nOder:",
    "loesung": "Der Kläger nimmt den Beklagten auf Zahlung von Schmerzensgeld sowie wegen Folgeansprüchen aus einem Verkehrsunfall unter Beteiligung eines Einsatzfahrzeuges der Polizei Berlin in Anspruch. Geltend gemacht werden 50 % der bei dem Unfall entstandenen Schäden.",
-   "id": "zr-anwalt:form:015",
+   "id": "zr-anwalt:form:013",
    "skript": "zr-anwalt",
    "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden.",
    "rn": "29"
@@ -94,7 +85,7 @@
    "typ": "formulierung",
    "frage": "Formulieren Sie. Situation laut Skript: Für den Beweisantritt beim Zeugenbeweis sind der v olle Name und eine ladungsfähige Anschrift\nerforderlich. Der Beweis durch einen gerichtlich bestellten Sachverständigen wird durch das Angebot angetreten:",
    "loesung": "Beweis: Sachverständigengutachten",
-   "id": "zr-anwalt:form:016",
+   "id": "zr-anwalt:form:014",
    "skript": "zr-anwalt",
    "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › 2. Formelles Beweisrecht › a. Beweisverfahren",
    "rn": "35"
@@ -103,7 +94,7 @@
    "typ": "formulierung",
    "frage": "Formulieren Sie. Situation laut Skript: Im Prinzip hat man es erst hier mit der\ngeltungserhaltenden Reduktion bzw. Eine salvatorische Klausel kann so formuliert werden:",
    "loesung": "Sollten Bestimmungen dieser Allgemeinen Geschäftsbedingungen und/oder des Vertrages unwirksam sein oder werden, so berührt dies die Wirksamkeit der übrigen Bestimmungen nicht. Vielmehr gilt anstelle jeder unwirksamen Bestimmung eine dem Zweck der Vereinbarung entsprechende oder zumindest nahekommende Ersatzbestimmung, wie sie die Parteien zur Erreichung des gleichen wirtschaftlichen Ergebnisses vereinbart hätten, wenn sie die Unwirksamkeit der Bestimmung gekannt hätten. Entsprechendes gilt für Unvollständigkeiten.",
-   "id": "zr-anwalt:form:017",
+   "id": "zr-anwalt:form:015",
    "skript": "zr-anwalt",
    "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › VIII. Kautelarklausuren › 4. AGB-Regelungen in der Vertragsgestaltung",
    "rn": "67"
@@ -112,7 +103,7 @@
    "typ": "formulierung",
    "frage": "Formulieren Sie. Situation laut Skript: Dabei geht es ihm darum, aus dem Erlös vor dem\neigentlichen Vollstreckungsgläubiger befriedigt zu werden. Entsprechend ist zu beantragen:",
    "loesung": "Der Kläger ist vor dem Beklagten aus dem Reinerlös aus der Vollstreckung in folgenden Gegenstand (genau bezeichnen) wegen einer Forderung des Klägers in Höhe von € ... zu befriedigen.",
-   "id": "zr-anwalt:form:018",
+   "id": "zr-anwalt:form:016",
    "skript": "zr-anwalt",
    "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › IX. Klagen und Rechtsbehelfe in der Zwangsvollstreckung › 1. Klagen gegen die Zwangsvollstreckung: › c. Klage auf vorzugsweise Befriedigung nach § 805 ZPO",
    "rn": "69"
@@ -121,7 +112,7 @@
    "typ": "formulierung",
    "frage": "Formulieren Sie. Situation laut Skript: Die Anträge können lauten: „Die Zwangsvollstreckung ist insoweit für unzulässig zu erklären, als ...“\n\noder",
    "loesung": "Der Gerichtsvollzieher wird angewiesen, …",
-   "id": "zr-anwalt:form:019",
+   "id": "zr-anwalt:form:017",
    "skript": "zr-anwalt",
    "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › IX. Klagen und Rechtsbehelfe in der Zwangsvollstreckung › 2. Sofortige Beschwerde und Erinnerung › b. Erinnerung nach § 766 ZPO",
    "rn": "71"
