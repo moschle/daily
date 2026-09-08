@@ -15,29 +15,27 @@ from pathlib import Path
 
 from claude_client import complete
 from fsrs_scheduler import _load, _save, parse_note, review, review_punkte
+from karten_wahl import als_loesung
 
 HERE = Path(__file__).resolve().parent
-MIN_KLAUSUR = 1200
+MIN_KLAUSUR = 400
 ID = re.compile(r"\[([a-z]{2,4}-\d{3})\]", re.I)
 ZITAT = re.compile(r"^\s*(>|Am .+ schrieb|On .+ wrote|Von:|Gesendet:|-{2,}\s*$|_{5,})", re.I)
 
-RASTER = """Gewichtung (das Skript nennt die Urteilsformel die Visitenkarte des
-Referendars und den nicht durchgehaltenen Urteilsstil einen haeufigen
-Klausurmangel — entsprechend gewichten):
-  35 % Form des verlangten Teils (Urteilsstil, Tenor, Zeitformen, Aufbau)
-  30 % Erfassen des Streitstoffs (unstreitig/streitig, alle Antraege, nichts Ueberfluessiges)
-  25 % Rechtliche Richtigkeit der tragenden Punkte
+RASTER = """Gewichtung:
+  35 % Form (Urteilsstil, Tenor, Zeitformen, Aufbau)
+  30 % Erfassen des Streitstoffs
+  25 % Rechtliche Richtigkeit gegen die Skriptloesung
   10 % Sprache und Knappheit"""
 
 PROMPT = """Du korrigierst eine Bearbeitung im juristischen Vorbereitungsdienst
-(zweite Staatspruefung, Sachsen-Anhalt). Massstab der Zweitkorrektur:
-4 Punkte ist die Bestehensgrenze, 9 Punkte sind vollbefriedigend und selten.
-Schreibe im Klausurstil: klare Ansage, keine Hoeflichkeit.
+(zweite Staatspruefung, Sachsen-Anhalt). Massstab: 4 Punkte Bestehensgrenze,
+9 Punkte vollbefriedigend. Klausurstil, keine Hoeflichkeit.
 
 AUFGABE:
 {aufgabe}
 
-MASSGEBLICHE REGELN AUS DEM SKRIPT:
+SKRIPTLOESUNG (woertlich, nicht umformulieren):
 {regeln}
 
 {raster}
@@ -50,9 +48,9 @@ Antworte nur als JSON, ohne Markdown:
   "tragend": "<zwei Saetze: warum diese Punktzahl>",
   "gelungen": ["<konkret>"],
   "fehler": [{{"stelle": "<Zitat aus der Bearbeitung, max 12 Woerter>",
-               "warum": "<verletzte Regel>", "besser": "<richtige Fassung>"}}],
+               "warum": "<verletzte Regel>", "besser": "<Fassung aus der Skriptloesung>"}}],
   "naechster_schritt": "<eine konkrete Uebung>"}}
-Verfehlt die Bearbeitung den Bearbeitervermerk, sage das in "tragend" und vergib hoechstens 3 Punkte."""
+Weicht die Bearbeitung von der Skriptloesung ab, nimm die Skriptfassung als richtig."""
 
 
 def ohne_zitat(body: str) -> str:
@@ -138,7 +136,7 @@ def send_mail(betreff: str, body: str) -> None:
 
 
 def korrigiere(aufgabe: str, regeln: str, bearbeitung: str) -> dict:
-    roh = complete(PROMPT.format(aufgabe=aufgabe[:6000], regeln=(regeln or "\u2014")[:6000],
+    roh = complete(PROMPT.format(aufgabe=aufgabe[:6000], regeln=(regeln or "\u2014")[:8000],
                                  raster=RASTER, bearbeitung=bearbeitung[:20000]),
                    max_tokens=2000)
     roh = re.sub(r"^```(?:json)?|```$", "", roh.strip(), flags=re.M).strip()
@@ -185,15 +183,18 @@ def main() -> int:
             print(f"{a['case_id']} {a['punkte']} Punkte (selbst)", file=sys.stderr)
             continue
 
-        offen = (state.get("offen") or {})
-        aufgabe = case.get("bearbeitervermerk") or case.get("gebiet", "")
-        if offen.get("case_id") == case["id"]:
-            if offen.get("prueft"):
-                aufgabe += "\n\nGeprueft werden insbesondere: " + "; ".join(offen["prueft"])
-            if offen.get("loesungshinweise"):
-                aufgabe += "\n\nLOESUNGSHINWEISE (nur fuer die Korrektur): " + offen["loesungshinweise"]
-        k = korrigiere(aufgabe, load_skript(case), a["text"])
+        offen = state.get("offen") or {}
+        pack = offen.get("karten") or []
+        if pack and offen.get("case_id") == case["id"]:
+            aufgabe = "\n\n".join(f"{i+1}. {k.get('frage','')}" for i, k in enumerate(pack))
+            regeln = als_loesung(pack)
+        else:
+            aufgabe = case.get("bearbeitervermerk") or case.get("gebiet", "")
+            regeln = load_skript(case)
+        k = korrigiere(aufgabe, regeln, a["text"])
         res = review_punkte(progress, case["id"], k["punkte"], k.get("tragend", ""))
+        for card in pack:
+            review_punkte(progress, card["id"], k["punkte"], k.get("tragend", ""))
         send_mail(f"Auswertung — {case['gebiet']} [{case['id']}] {k['punkte']} Punkte",
                   als_mail(case, k, progress["cards"][case["id"]].get("schnitt")))
         print(f"{case['id']} {k['punkte']} Punkte -> +{res['interval']}d", file=sys.stderr)
