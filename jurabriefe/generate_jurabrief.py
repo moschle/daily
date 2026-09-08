@@ -22,6 +22,7 @@ for _p in (_REPO, _HERE):
         sys.path.insert(0, s)
 
 from adaptive_plan import pick
+from fsrs_scheduler import _load as load_progress, _save as save_progress, auto_wertung, markiere_gezeigt
 
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 STATE_FILE = _HERE / "state.json"
@@ -111,7 +112,7 @@ def save_state(state):
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def pick_case(cases, state):
+def pick_case(cases, state, progress):
     recent = []
     for cid in reversed(state.get("done", [])):
         if cid not in recent:
@@ -119,12 +120,7 @@ def pick_case(cases, state):
         if len(recent) >= 4:
             break
     try:
-        res = pick(
-            cases,
-            load_json(LERNPLAN_FILE, {"phasen": []}),
-            load_json(PROGRESS_FILE, {"gewichte": {}}),
-            exclude_ids=recent,
-        )
+        res = pick(cases, load_json(LERNPLAN_FILE, {"phasen": []}), progress, exclude_ids=recent)
         case, grund = res["case"], res.get("grund", "adaptiv")
     except Exception as e:
         print(f"Plan: {e}", file=sys.stderr)
@@ -145,8 +141,7 @@ def clean_ocr(text):
 
 
 def clean_skript(text: str) -> str:
-    notes = []
-    out = []
+    notes, out = [], []
     for page in PAGE.split(text):
         m = FOOT.search(page)
         if m:
@@ -204,6 +199,8 @@ def load_skript_section(case):
         cut = chunk.rfind("\n\n", 0, 4500)
         chunk = chunk[: cut if cut > 1000 else 4500]
     return chunk.rstrip()
+
+load_skript = load_skript_section
 
 
 def _bad(text, slug=""):
@@ -264,8 +261,7 @@ def _http_json(url):
 def _old_search(params):
     url = OLD_BASE + "?" + urllib.parse.urlencode(params)
     try:
-        data = _http_json(url)
-        return data.get("results") or []
+        return (_http_json(url).get("results") or [])
     except Exception as e:
         print(f"OLD: {e}", file=sys.stderr)
         return []
@@ -279,31 +275,21 @@ def _fetch_case(cid, slug=""):
         return None
     text = d.get("content") or d.get("text") or ""
     court = _court_name(d.get("court")) or slug
-    return {
-        "text": text,
-        "court": court,
-        "date": d.get("date", ""),
-        "file_number": d.get("file_number") or "",
-        "typ": d.get("type") or d.get("decision_type") or "Urteil",
-        "slug": d.get("slug") or slug,
-    }
+    return {"text": text, "court": court, "date": d.get("date", ""),
+            "file_number": d.get("file_number") or "",
+            "typ": d.get("type") or d.get("decision_type") or "Urteil",
+            "slug": d.get("slug") or slug}
 
 
 def search_related_case(case, seen_slugs):
     seen = set(seen_slugs or [])
-    terms = [
-        "Im Namen des Volkes Klaegerin Beklagte",
-        "Landgericht Urteil Klaegerin",
-        "Oberlandesgericht Zivilsenat",
-        "Landgericht Halle",
-        "Landgericht Magdeburg",
-    ] + list(case.get("suchbegriffe") or [])
+    terms = ["Im Namen des Volkes Klaegerin Beklagte", "Landgericht Urteil Klaegerin",
+             "Oberlandesgericht Zivilsenat", "Landgericht Halle", "Landgericht Magdeburg"] + list(case.get("suchbegriffe") or [])
     if _is_verw(case):
         terms = ["Verwaltungsgericht Im Namen des Volkes"] + terms
     for q in terms:
         hits = _old_search({"text": q, "page_size": "10"})
-        courts = [str(r.get("court")) for r in hits]
-        print(f"OLD {q!r} {len(hits)} {courts[:6]}", file=sys.stderr)
+        print(f"OLD {q!r} {len(hits)} {[str(r.get('court')) for r in hits][:6]}", file=sys.stderr)
         for r in hits:
             slug = r.get("slug") or ""
             if slug in seen:
@@ -315,29 +301,24 @@ def search_related_case(case, seen_slugs):
             if not _court_ok(court + " " + slug, case):
                 continue
             detail = _fetch_case(r.get("id"), slug) if r.get("id") else None
-            raw = ""
+            raw = detail["text"] if detail else ""
             if detail:
-                raw = detail["text"]
                 court = detail["court"] or court
             if not raw:
-                raw = "\n".join(
-                    s.get("text", "") for s in (r.get("snippets") or []) if isinstance(s, dict)
-                )
+                raw = "\n".join(s.get("text", "") for s in (r.get("snippets") or []) if isinstance(s, dict))
             if _bad(raw, slug):
                 continue
             shaped = slice_urteil(raw)
             if not shaped:
                 continue
             az = (detail or {}).get("file_number") or slug
-            return {
-                "gericht": court.strip() or slug,
-                "datum": (detail or {}).get("date") or r.get("date", ""),
-                "aktenzeichen": az,
-                "entscheidungstyp": (detail or {}).get("typ") or r.get("decision_type") or "Urteil",
-                "text": shaped,
-                "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
-                "slug": slug,
-            }
+            return {"gericht": court.strip() or slug,
+                    "datum": (detail or {}).get("date") or r.get("date", ""),
+                    "aktenzeichen": az,
+                    "entscheidungstyp": (detail or {}).get("typ") or r.get("decision_type") or "Urteil",
+                    "text": shaped,
+                    "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
+                    "slug": slug}
     return None
 
 
@@ -362,34 +343,32 @@ def main():
     if not cases:
         sys.exit(1)
     state = load_json(STATE_FILE, {"done": [], "seen_slugs": []})
-    case, grund = pick_case(cases, state)
+    progress = load_progress()
+    for c in cases:
+        auto_wertung(progress, c["id"])
+    case, grund = pick_case(cases, state, progress)
     rules = load_skript_section(case)
     aufgabe = FALLBACK.get(case["id"]) or case.get("aufgabe") or AKTE
     related = search_related_case(case, state.get("seen_slugs", []))
     if related and related.get("slug"):
         state.setdefault("seen_slugs", []).append(related["slug"])
-    save_state(state)
     if related:
-        lesen = (
-            f"I. Lesetext\n{related['gericht']}, {related['entscheidungstyp']} vom "
-            f"{related['datum']}, {related['aktenzeichen']}\n"
-        )
+        lesen = (f"I. Lesetext\n{related['gericht']}, {related['entscheidungstyp']} vom "
+                 f"{related['datum']}, {related['aktenzeichen']}\n")
         if related.get("url"):
             lesen += related["url"] + "\n"
         lesen += "\n" + related["text"] + "\n"
     else:
         lesen = "I. Lesetext\nKein Urteil der passenden Gerichtsbarkeit.\n"
-    body = (
-        f"Jurabrief — {now_berlin().strftime('%A, %d. %B %Y')}\n{case['gebiet']}\n\n"
-        f"{lesen}\n\nII. Bearbeitung\n{case['gebiet']}\n{case.get('quelle', '')}\n\n{aufgabe}\n"
-    )
+    body = (f"Jurabrief — {now_berlin().strftime('%A, %d. %B %Y')}\n{case['gebiet']}\n\n"
+            f"{lesen}\n\nII. Bearbeitung\n{case['gebiet']}\n{case.get('quelle', '')}\n\n{aufgabe}\n")
     if rules:
         body += "\n--- Skript (Regeln) ---\n" + rules + "\n"
-    send_mail(
-        f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})",
-        body,
-        resolve_to(),
-    )
+    send_mail(f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})",
+              body, resolve_to())
+    markiere_gezeigt(progress, case["id"])
+    save_progress(progress)
+    save_state(state)
     print(f"Fall {case['id']} ({grund})")
 
 
