@@ -283,10 +283,12 @@ def _fetch_case(cid, slug=""):
 
 def search_related_case(case, seen_slugs):
     seen = set(seen_slugs or [])
-    terms = ["Im Namen des Volkes Klaegerin Beklagte", "Landgericht Urteil Klaegerin",
-             "Oberlandesgericht Zivilsenat", "Landgericht Halle", "Landgericht Magdeburg"] + list(case.get("suchbegriffe") or [])
+    generic = [
+        "Im Namen des Volkes Klaegerin Beklagte", "Landgericht Urteil Klaegerin",
+        "Oberlandesgericht Zivilsenat", "Landgericht Halle", "Landgericht Magdeburg"]
+    terms = list(case.get("suchbegriffe") or []) + generic
     if _is_verw(case):
-        terms = ["Verwaltungsgericht Im Namen des Volkes"] + terms
+        terms = list(case.get("suchbegriffe") or []) + ["Verwaltungsgericht Im Namen des Volkes"] + generic
     for q in terms:
         hits = _old_search({"text": q, "page_size": "10"})
         print(f"OLD {q!r} {len(hits)} {[str(r.get('court')) for r in hits][:6]}", file=sys.stderr)
