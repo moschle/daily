@@ -3,6 +3,9 @@
 
 1) Verwandtes Urteil zum Lesen (Sprache, Tenor, Begründung)
 2) Aufgabe aus dem Skript-Fall (lösen, keine neu generierte Klausur)
+
+Der Betreff enthält die Fall-ID in eckigen Klammern, damit die Antwortmail
+automatisch zugeordnet werden kann: [zr-001].
 """
 
 from __future__ import annotations
@@ -19,10 +22,13 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from claude_client import complete
+from adaptive_plan import pick
 
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 STATE_FILE = Path(__file__).parent / "state.json"
 CASES_FILE = Path(__file__).parent / "cases.json"
+PROGRESS_FILE = Path(__file__).parent / "progress.json"
+LERNPLAN_FILE = Path(__file__).parent / "lernplan.json"
 OLD_BASE = "https://de.openlegaldata.io/api/cases/search/"
 
 SEED_CASES = []
@@ -51,18 +57,42 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
+def load_progress():
+    if PROGRESS_FILE.exists():
+        return json.loads(PROGRESS_FILE.read_text(encoding="utf-8"))
+    return {"gewichte": {}, "feedback": [], "letzte_anpassung": None}
+
+
+def load_plan():
+    if LERNPLAN_FILE.exists():
+        return json.loads(LERNPLAN_FILE.read_text(encoding="utf-8"))
+    return {"phasen": []}
+
+
 def pick_case(cases, state):
-    done = set(state.get("done", []))
-    remaining = [c for c in cases if c["id"] not in done]
-    if not remaining:
-        state["done"] = []
-        remaining = cases
-    idx = state.get("next_index", 0) % len(remaining)
-    case = remaining[idx]
-    state["done"].append(case["id"])
-    state["next_index"] = (idx + 1) % max(len(remaining), 1)
-    state["last_id"] = case["id"]
-    return case
+    """Adaptiver Plan: Phase + FSRS-Fälligkeit + Gewicht. Fällt zurück auf
+    zyklisches Picking, falls adaptive_plan nicht greift."""
+    try:
+        plan = load_plan()
+        progress = load_progress()
+        res = pick(cases, plan, progress)
+        case = res["case"]
+        state["last_id"] = case["id"]
+        state.setdefault("done", []).append(case["id"])
+        return case, res.get("grund", "adaptiv")
+    except Exception as e:
+        print(f"Adaptiver Plan Fehler, Fallback: {e}", file=sys.stderr)
+        done = set(state.get("done", []))
+        remaining = [c for c in cases if c["id"] not in done]
+        if not remaining:
+            state["done"] = []
+            remaining = cases
+        idx = state.get("next_index", 0) % len(remaining)
+        case = remaining[idx]
+        state["done"].append(case["id"])
+        state["next_index"] = (idx + 1) % max(len(remaining), 1)
+        state["last_id"] = case["id"]
+        return case, "zyklus"
 
 
 def search_related_case(case):
@@ -91,17 +121,20 @@ def search_related_case(case):
     results = data.get("results", [])
     if not results:
         return None
-    r = results[0]
-    text = r.get("text") or ""
-    snippet = text[:4500] + ("…" if len(text) > 4500 else "")
-    return {
-        "gericht": r.get("court", ""),
-        "datum": r.get("date", ""),
-        "aktenzeichen": r.get("slug", ""),
-        "entscheidungstyp": r.get("decision_type", ""),
-        "text": snippet,
-        "url": f"https://de.openlegaldata.io/case/{r.get('slug', '')}/",
-    }
+    # Erstes Ergebnis, das nicht exakt dem Skript-Beispiel entspricht
+    for r in results:
+        text = r.get("text") or ""
+        if len(text) > 200:  # Mindestlänge für Relevanz
+            snippet = text[:4500] + (…" if len(text) > 4500 else "")
+            return {
+                "gericht": r.get("court", ""),
+                "datum": r.get("date", ""),
+                "aktenzeichen": r.get("slug", ""),
+                "entscheidungstyp": r.get("decision_type", ""),
+                "text": snippet,
+                "url": f"https://de.openlegaldata.io/case/{r.get('slug', '')}/",
+            }
+    return None
 
 
 def lesehinweis(case, related):
@@ -194,7 +227,7 @@ def main():
         sys.exit(1)
 
     state = load_state()
-    case = pick_case(cases, state)
+    case, grund = pick_case(cases, state)
     save_state(state)
 
     today = now_berlin().strftime("%A, %d. %B %Y")
@@ -203,8 +236,9 @@ def main():
     body = build_mail(case, related, hint, today)
 
     to_addr = os.environ.get("JURABRIEF_TO", os.environ.get("GMAIL_ADDRESS", ""))
-    subject = f"Jurabrief — {case['gebiet']} ({now_berlin().strftime('%d.%m.')})"
+    subject = f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})"
     send_mail(subject, body, to_addr)
+    print(f"Fall {case['id']} gewählt ({grund}).")
 
 
 if __name__ == "__main__":

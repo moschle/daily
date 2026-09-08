@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Liest Antwortmails auf den Jurabrief (IMAP) und passt Gewichte an.
+"""Liest Antwortmails auf den Jurabrief (IMAP) und speichert die Lösung.
 
 Konvention in der Antwortmail:
-  BETREFF: Re: Jurabrief — …
+  BETREFF: Re: Jurabrief — … [zr-001] …
   ERSTE ZEILE: SCORE: 1-5   (1 = unsicher, 5 = sitzt)
   Rest: Lösungstext
 
-Ohne SCORE bleibt das Gewicht unverändert, der Text wird trotzdem gespeichert.
+Schreibt pending_solution.json mit case_id + Lösung, damit der nächste
+Schritt (grade_solution.py) sie bewerten kann. Kein manuelles Anlegen nötig.
 """
 from __future__ import annotations
 
@@ -23,6 +24,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).parent
 PROGRESS = ROOT / "progress.json"
 STATE = ROOT / "state.json"
+PENDING = ROOT / "pending_solution.json"
 TZ = ZoneInfo("Europe/Berlin")
 
 
@@ -52,6 +54,24 @@ def apply_score(progress, case_id: str, score: int):
     elif score >= 4:
         w = max(0.4, w - 0.3)
     progress["gewichte"][case_id] = round(w, 2)
+
+
+def extract_solution(body: str) -> str:
+    """Entfernt die SCORE-Zeile und führt den Rest als Lösungstext zurück."""
+    lines = body.splitlines()
+    start = 0
+    for i, line in enumerate(lines):
+        if re.match(r"^\s*SCORE:\s*[1-5]\b", line, re.I):
+            start = i + 1
+            break
+    sol = "\n".join(lines[start:]).strip()
+    sol = re.sub(r"\n{3,}", "\n\n", sol)
+    return sol
+
+
+def extract_case_id_from_subject(subj: str) -> str | None:
+    m = re.search(r"\[([a-z]{2}-\d{3})\]", subj)
+    return m.group(1) if m else None
 
 
 def main() -> None:
@@ -102,9 +122,16 @@ def main() -> None:
 
         m = re.search(r"SCORE:\s*([1-5])", body, re.I)
         score = int(m.group(1)) if m else None
-        case_id = last_id
+        case_id = extract_case_id_from_subject(subj) or last_id
+        sol = extract_solution(body)
+
         if score and case_id:
             apply_score(progress, case_id, score)
+        if sol and case_id:
+            PENDING.write_text(
+                json.dumps({"case_id": case_id, "loesung": sol, "score": score,
+                            "at": datetime.now(TZ).isoformat(timespec="seconds")},
+                           ensure_ascii=False, indent=2), encoding="utf-8")
         progress["feedback"].append({
             "uid": uid_s,
             "subject": subj,

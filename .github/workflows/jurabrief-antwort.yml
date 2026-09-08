@@ -38,6 +38,8 @@ from jurabriefe.grade_solution import grade
 p = json.loads(open("jurabriefe/pending_solution.json").read())
 print(json.dumps(grade(p["case_id"], p["loesung"]), ensure_ascii=False, indent=2))
 PY
+          else
+            echo "Keine pending_solution.json — keine neue Lösung."
           fi
 
       - name: Auswertung mailen
@@ -51,6 +53,6 @@ PY
         run: |
           git config user.name "Jurabrief Bot"
           git config user.email "jurabrief@users.noreply.github.com"
-          git add jurabriefe/progress.json jurabriefe/fsrs_cards.json jurabriefe/state.json jurabriefe/last_grade.json || true
+          git add jurabriefe/progress.json jurabriefe/fsrs_cards.json jurabriefe/state.json jurabriefe/last_grade.json jurabriefe/pending_solution.json || true
           git diff --cached --quiet || git commit -m "jurabrief-antwort: $(date +%Y-%m-%d)"
           git push || true

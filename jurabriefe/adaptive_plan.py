@@ -25,7 +25,7 @@ def current_phase(plan: dict) -> dict:
     for ph in plan.get("phasen", []):
         if datetime.fromisoformat(ph["bis"]).date() >= today:
             return ph
-    return plan["phasen"][-1]
+    return plan["phasen"][-1] if plan.get("phasen") else {}
 
 
 def pick(cases: list[dict], plan: dict, progress: dict) -> dict:
@@ -35,10 +35,11 @@ def pick(cases: list[dict], plan: dict, progress: dict) -> dict:
         pool = cases
     due = set(due_today([c["id"] for c in pool]))
     weights = progress.get("gewichte", {})
-    pool.sort(key=lambda c: (0 if c["id"] in due else 1, -weights.get(c["id"], 1.0)))
+    # Sortierung: fällig zuerst, dann höheres Gewicht, dann nach ID für Stabilität
+    pool.sort(key=lambda c: (0 if c["id"] in due else 1, -weights.get(c["id"], 1.0), c["id"]))
     chosen = pool[0]
     reason = "fällig" if chosen["id"] in due else f"Gewicht {weights.get(chosen['id'], 1.0)}"
-    return {"case": chosen, "phase": phase["name"], "grund": reason}
+    return {"case": chosen, "phase": phase.get("name", "?"), "grund": reason}
 
 
 if __name__ == "__main__":

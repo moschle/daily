@@ -2,7 +2,10 @@
 """Klausur-Kontrolle: bewertet die gelöste Aufgabe über die Claude-API.
 
 Eingabe: Antwortmail mit Lösungstext. Ausgabe: strukturierte Bewertung
-(Punkte, Stärken, Lücken, konkrete Verbesserungen) plus FSRS-Update.
+(Punkte 0-18, Stärken, Lücken, konkrete Verbesserungen) plus FSRS-Update.
+
+Der Prompt orientiert sich an offiziellen Korrekturleitfäden
+(Gutachtenstil, Obersatz, Subsumtion, Problemerkenntnis, Schwerpunktsetzung).
 """
 
 from __future__ import annotations
@@ -27,8 +30,14 @@ def load_case(case_id: str) -> dict:
     return {}
 
 
-GRADE_PROMPT = """Du bist erfahrene AG-Leiterin im 2. Staatsexamen (Sachsen-Anhalt).
-Bewerte die Klausurlösung einer Referendarin streng, aber fair.
+GRADE_PROMPT = """Du bist erfahrene Korrektorin im 2. Juristischen Staatsexamen (Sachsen-Anhalt, LJPA Halle).
+Bewerte die Klausurlösung einer Referendarin streng, aber fair — auf absolutem Examensniveau.
+Orientiere dich an den offiziellen Bewertungskriterien:
+- Gutachtenstil (Obersatz, Definition, Subsumtion, Ergebnis) bzw. Urteilsstil bei staatlicher Sicht
+- Arbeit am Sachverhalt und am Gesetz, Auslegung (Wortlaut, Systematik, Telos)
+- Problemerkenntnis und -bearbeitung, Schwerpunktsetzung, Klausurökonomie
+- Vertretbare Lösungen akzeptieren, auch abweichend von der Musterlösung
+- Häufige Fehler: Urteilsstil statt Gutachtenstil, ungenaue Obersätze, Evidenzbehauptungen, unwesentliches ausführlich
 
 Fall: {gebiet}
 Kernfrage: {kernfrage}
@@ -40,8 +49,8 @@ Ihre Lösung:
 {loesung}
 ---
 
-Antworte AUSSCHLIESSLICH als JSON (kein Markdown) mit genau diesen Keys:
-  "punkte": Zahl 0-18 (18 = fehlerfrei),
+Antworte AUSSCHLIESSLICH als JSON (kein Markdown, kein Text davor/danach) mit genau diesen Keys:
+  "punkte": Zahl 0-18 (18 = fehlerfrei, 0 = völlig unbrauchbar),
   "note": Zahl 1-5 (1 sehr unsicher, 5 sitzt),
   "staerken": [kurzer Text],
   "luecken": [konkrete Lücken, z. B. fehlende Obersatzbildung],
@@ -72,9 +81,16 @@ def grade(case_id: str, loesung: str) -> dict:
         result = json.loads(m.group(0))
     except json.JSONDecodeError:
         return {"fehler": "JSON kaputt", "roh": raw[:500]}
+    # Punkte auf 0-18 clampen
+    try:
+        punkte = int(result.get("punkte", 0))
+    except (TypeError, ValueError):
+        punkte = 0
+    result["punkte"] = max(0, min(18, punkte))
     note = int(result.get("note", 3))
+    result["note"] = max(1, min(5, note))
     result["case_id"] = case_id
-    result["fsrs"] = review(case_id, note, json.dumps(result.get("luecken", []), ensure_ascii=False))
+    result["fsrs"] = review(case_id, result["note"], json.dumps(result.get("luecken", []), ensure_ascii=False))
     (ROOT / "last_grade.json").write_text(
         json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
     )

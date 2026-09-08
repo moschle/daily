@@ -31,9 +31,11 @@ def build_body(g: dict) -> str:
     luecken = "\n".join(f"- {l}" for l in g.get("luecken", [])[:4]) or "- (keine)"
     verb = "\n".join(f"- {v}" for v in g.get("verbesserung", [])[:4]) or "- (keine)"
     muster = g.get("muster_kurz", "")
+    punkte = g.get("punkte", "?")
+    note = g.get("note", "?")
     return (
         f"Auswertung — {g.get('gebiet', cid)}\n\n"
-        f"Punkte: {g.get('punkte', '?')}/18   Note: {g.get('note', '?')}/5\n\n"
+        f"Punkte: {punkte}/18   Note: {note}/5\n\n"
         f"Stärken:\n{staerken}\n\n"
         f"Lücken:\n{luecken}\n\n"
         f"Nächstes Mal beachten:\n{verb}\n\n"
@@ -63,6 +65,9 @@ def main():
         print("Keine last_grade.json — erst grade_solution.py laufen lassen.")
         return
     g = json.loads(GRADE_FILE.read_text(encoding="utf-8"))
+    if g.get("fehler"):
+        print(f"Bewertung hatte Fehler: {g['fehler']}")
+        return
     body = build_body(g)
     to_addr = os.environ.get("JURABRIEF_TO", os.environ.get("GMAIL_ADDRESS", ""))
     send(body, to_addr)
