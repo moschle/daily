@@ -1,0 +1,1457 @@
+===== SEITE 1 =====
+ 
+ 
+Kammergericht – Referendarabteilung 
+ 
+ 
+ 
+S T R A F R E C H T 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    Pflichtstation Strafrecht 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+- Referendarskript zur Pflichtstation Strafrecht - 
+  
+
+===== SEITE 2 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 2 von 44 
+Vorwort zur 3. Auflage 
+Die nachstehenden Hinweise enthalten eine Zusammenstellung von Aufbauhinweisen und Erläuterun-
+gen zu formalen Fragen in der strafrechtlichen Examensklausur im zweiten juristischen Staatsexamen, 
+die nach der Erfahrung der Verfasser häufig Anlass zu Fehlern bei Referendarinnen und Referendaren 
+bieten. Die Ausführungen zur Abschlussentscheidung der Staatsanwaltschaft sind bewusst auf die 
+Mindesterfordernisse beschränkt.  Die Gesetzesänderungen seit der Vorauflage (Feb. 2017) haben 
+eine Überarbeitung dieses Skripts , insbesondere betreffend Fragen der Ver mögensabschöpfung so-
+wie des Rechts zur notwendigen Verteidigung, erforderlich gemacht. 
+Es mag neben den hier dargestellten Hinweisen zu diesem oder jenem fachlichen Aspekt andere zu-
+mindest in gleicher Weise vertretbare Möglichkeiten geben. Es soll an dieser Stelle nur ein vertretbarer 
+Weg aufgezeigt werden. Angesichts der Bandbreite der vorstellbaren Fallkonstellationen in einer Exa-
+mensklausur steht der Umfang der Darstellung der Formalien nicht in Relation zu ihrer Bedeutung bei 
+der Klausurbewertung. 
+Die Arbeit mit diesem Skript kann nicht die Arbeit mit Lehrbüchern ersetzen.  
+Die durch das Kammergericht zur Verfügung gestellten Skripte werden von erfahrenen Leiterinnen und 
+Leitern von Arbeitsgemeinschaften erstellt. In ihnen werden Fragen der Klausurbearbeitung behandelt 
+und mögliche Lösungen aufgezeigt. Die Skripte bieten inde s keine abschließende Aufbereitung des 
+Prüfungsstoffes und möglicher Lösungswege bzw. Darstellungsformen für die Klausuren. Ziel ist es 
+vielmehr, Referendarinnen und Referendaren bestimmte Strukturen und Formulierungen an die Hand 
+zu geben, die das Schreiben der Examensklausuren unterstützen. Die hier vorgeschlagenen Lösungs-
+wege sind vertretbar und liegen innerhalb des Antwortspielraums der Klausurschreibenden. 
+ 
+An der Erstellung dieses Skriptes haben mitgewirkt: 
+ 
+VRiLG Bartl RiAG Bäuml StA/GL Büchner RiAG (wauRi) Ernst 
+StA/GL Dr. Heller OStA Kühn StA Rebentisch RiAG Sattler 
+ 
+  
+
+===== SEITE 3 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 3 von 44 
+Vorwort zur 4. Auflage: 
+ 
+Die durch das Kammergericht zur Verfügung gestellten Skripte werden von erfahrenen Leiterinnen 
+und Leitern von Arbeitsgemeinschaften erstellt. In ihnen werden Fragen der Klausurbearbeitung be-
+handelt und mögliche Lösungen aufgezeigt. Die Skripte bieten indes keine abschließende Aufberei-
+tung des Prüfungsstoffes und möglicher Lösungswege bzw. Darstellungsformen für die Klausuren. 
+Ziel ist es vielmehr, Referendarinnen und Referendaren bestimmte Strukturen und Formulierungen 
+an die Hand zu geben, die das Schreiben der Examensklausuren unterstützen. Die hier vorgeschla-
+genen Lösungswege sind vertretbar und liegen innerhalb des Antwortspielraums der Klausurschrei-
+benden. Die Gesetzesänderungen seit der Vorauflage (August 2020) sind berücksichtigt. 
+ 
+Soweit in der vorliegenden Ausarbeitung die männliche Form gewählt wurde, soll sich diese jeweils 
+auf beide Geschlechter sowie alle weiteren geschlechtlichen Identitäten beziehen. 
+ 
+ 
+ 
+An der Überarbeitung zur 4. Auflage haben mitgewirkt:  
+ 
+RiAG Bäuml OStA Büchner RiAG (wauRi) Ernst 
+OStA Kühn OStA Rebentisch  
+ 
+  
+
+===== SEITE 4 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 4 von 44 
+Vorwort zur 5. Auflage: 
+ 
+Es gilt auch für diese Auflage, dass die durch das Kammergericht zur Verfügung gestellten Skripte 
+von erfahrenen Leiterinnen und Leitern von Arbeitsgemeinschaften erstellt werden. In ihnen werden 
+neben Fragen der Klausurbearbeitung behandelt und mögliche Lösungen aufgezeigt. Die Skripte bie-
+ten indes keine abschließende Aufbereitung des Prüfungsstoffes und möglicher Lösungswege bzw. 
+Darstellungsformen für die Klausuren. Es bleibt das Ziel, Referendarinnen und Referendaren be-
+stimmte Strukturen und Formulierungen an die Hand zu geben, die das Schreiben der Examensklau-
+suren unterstützen. Die hier vorgeschlagenen Lösungswege sind vertretbar und liegen innerhalb des 
+Antwortspielraums der Klausurschreibenden. Die Gesetzesänderungen seit der Vorauflage  sind be-
+rücksichtigt, vor allem die Änderung zu § 158 StPO. Im Übrigen liegen die Änderungen im Redaktio-
+nellen und einigen Details zu Formulierungen. 
+ 
+Soweit in der vorliegenden Ausarbeitung die männliche Form gewählt wurde, soll sich diese jeweils 
+auf beide Geschlechter sowie alle weiteren geschlechtlichen Identitäten beziehen. 
+ 
+ 
+ 
+An der Überarbeitung zu dieser 5. Auflage haben mitgewirkt:  
+ 
+RiAG Bäuml OStA Rebentisch 
+OStA Kühn RiAG (wauRi) Ernst 
+ 
+  
+
+===== SEITE 5 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 5 von 44 
+Inhalt 
+TEIL I: MATERIELLRECHTLICHES GUTACHTEN _____________________________________________________________ 6 
+A. VORÜBERLEGUNGEN______________________________________________________________________________ 6 
+I. ALLGEMEINES __________________________________________________________________________________ 6 
+II. HANDLUNGSABSCHNITTE ________________________________________________________________________ 6 
+III. TATBETEILIGTE ________________________________________________________________________________ 7 
+IV. ZU PRÜFENDE DELIKTE _________________________________________________________________________ 8 
+B. ANFERTIGUNG DES MATERIELLRECHTLICHEN GUTACHTENS ______________________________________________ 9 
+I. DELIKTSPRÜFUNG ______________________________________________________________________________ 9 
+II. BEWEISFRAGEN _______________________________________________________________________________ 10 
+III. STRAFANTRAG _______________________________________________________________________________ 11 
+IV. KONKURRENZEN _____________________________________________________________________________ 11 
+TEIL II: PROZESSRECHTLICHES GUTACHTEN _____________________________________________________________ 11 
+A. TEILEINSTELLUNG _______________________________________________________________________________ 12 
+B. ANKLAGEADRESSAT _____________________________________________________________________________ 13 
+I. ÖRTLICHE ZUSTÄNDIGKEIT ______________________________________________________________________ 13 
+II. SACHLICHE ZUSTÄNDIGKEIT _____________________________________________________________________ 13 
+1. Amtsgericht, §§ 24 ff. GVG _________________________________________________________________ 13 
+2. Landgericht, §§ 74 ff. GVG _________________________________________________________________ 14 
+C. HAFTFRAGEN ___________________________________________________________________________________ 14 
+I. DRINGENDER TATVERDACHT, § 112 ABS. 1 S. 1 STPO _______________________________________________ 14 
+II. HAFTGRUND, § 112 ABS. 1 S. 1, ABS. 2 STPO _____________________________________________________ 15 
+III. VERHÄLTNISMÄßIGKEITSGRUNDSATZ, § 112 ABS.1 SATZ 2 STPO _____________________________________ 15 
+D. NOTWENDIGKEIT DER BEIORDNUNG ________________________________________________________________ 16 
+E. VORLÄUFIGE MAßNAHMEN _______________________________________________________________________ 17 
+I. VORLÄUFIGE SICHERUNG VON GEGENSTÄNDEN _____________________________________________________ 17 
+II. VORLÄUFIGE ENTZIEHUNG DER FAHRERLAUBNIS, § 111A STPO _______________________________________ 18 
+TEIL III: FORMALIEN DER ANKLAGESCHRIFT _____________________________________________________________ 19 
+A. DER KOPF ______________________________________________________________________________________ 19 
+I. OBEN _______________________________________________________________________________________ 19 
+II. DAS JS-AKTENZEICHEN DER STAATSANWALTSCHAFT ________________________________________________ 19 
+III. RECHTS OBEN _______________________________________________________________________________ 19 
+IV. PARALLEL LINKS DER ADRESSAT ________________________________________________________________ 20 
+V. DARUNTER ZENTRIERT MITTIG DIE ÜBERSCHRIFT ____________________________________________________ 20 
+B. DER ANKLAGESATZ (§ 200 ABS. 1 STPO) _____________________________________________________________ 20 
+I. EINLEITUNG MIT DEN PERSONALIEN (NR. 110 ABS. 2A) RISTBV) _______________________________________ 20 
+II. VERTEIDIGER (NR. 110 ABS. 2 B) RISTBV) ________________________________________________________ 21 
+III. ABSTRAKTER ANKLAGESATZ ____________________________________________________________________ 21 
+IV. KONKRETER ANKLAGESATZ ____________________________________________________________________ 24 
+V. LISTE DER ANGEWANDTEN VORSCHRIFTEN ________________________________________________________ 30 
+C. DIE BEWEISMITTEL ______________________________________________________________________________ 32 
+D. DIE ANTRÄGE ___________________________________________________________________________________ 34 
+E. BEISPIELE FÜR FORMULIERUNGEN DES ANKLAGESATZES ________________________________________________ 35 
+ANHANG _________________________________________________________________________________________ 41 
+  
+
+===== SEITE 6 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 6 von 44 
+Teil I: Materiellrechtliches Gutachten 
+ 
+A. Vorüberlegungen 
+I. Allgemeines 
+Einleitend muss unbedingt darauf hingewiesen werden, dass es Bestandteil der juristischen Prüfungs-
+leistung ist, Wesentliches von Selbstverständlichem und von Unwichtigem unterscheiden zu können. 
+Diese Fertigkeit muss aus dem Gutachten erkennbar sein. Dies unterliegt der Bewertung. Weitschwei-
+fige Ausführungen an eindeutigen oder gar entbehrlichen Stellen vermögen jedenfalls nicht den Wert 
+der Arbeit zu steigern. 
+Im Vordergrund der Aufbauüberlegungen muss daher stehen, kraft des eigenen Fachwissens zu ent-
+scheiden, wo die Schwerpunkte der Erörterungen liegen sollen. Kaum etwas dürfte dem Wert einer 
+Klausur so abträglich sein wie vielleicht sogar noch fehlerhafte Ausführungen an unwichtiger Stelle. 
+Prüfungsmaßstab ist stets der in § 203 StPO genannte Begriff des hinreichenden Tatverdachts i.S.v. 
+§ 170 Abs. 1 StPO. Die Personen, deren Handeln hinsichtlich ihrer strafrechtlichen Relevanz zu prüfen 
+ist, sind – in Hinblick auf § 157 StPO – als Beschuldigte zu bezeichnen.  
+ 
+II. Handlungsabschnitte 
+Das materiellrechtliche Gutachten dient der Vorbereitung der nach der Aufgabenstellung geforderten 
+Abschlussentscheidung, regelmäßig einer Anklageschrift. Es muss in seinem Aufbau auf deren Ge-
+staltung hinwirken. Da in der Anklageschrift  grundsätzlich der chronologische Aufbau vorzunehmen 
+ist, empfiehlt sich dies auch für das Gutachten. 
+Nach einem intensiven Studium des Aktenauszuges, an dessen Ende unbedingt eine lückenlose und 
+detaillierte Vorstellung der Geschehnisse stehen muss, sollten daher in einem ersten Arbeitsschritt 
+„Handlungsabschnitte“ gebildet werden. 
+ 
+Beispiel: 
+„1. Geschehen in der Bank“ 
+„2. Mitnehmen des Bildes aus der Galerie“ 
+  
+
+===== SEITE 7 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 7 von 44 
+Diese Handlungsabschnitte orientieren sich immer an Handlungen – weshalb es nicht heißen sollte: 
+„1. Die Bank“. 
+Sie beziehen sich außerdem in der Überschrift nicht auf Rechtsbegriffe – weshalb es nicht heißen 
+sollte: „2. Die Wegnahme in der Galerie“. 
+Für die Entscheidung, was einen derartigen Handlungsabschnitt ausmacht, sollte eine natürliche Be-
+trachtungsweise gewählt werden. Kriterien können sein:  
+• bestimmte Daten (nehmen Sie diese dann gleich in die Überschrift mit auf!) oder 
+• bestimmte Handlungen, soweit sie von einer bestimmten Absicht getragen sind, bis zu dem 
+Zeitpunkt, in dem sich durch einen Situationswechsel eine andere subjektive Lage ergibt.  
+Die rechtlichen Aspekte der § § 52, 53 StGB sollten bei dieser Entscheidung besser noch keine Rolle 
+spielen. 
+Notieren Sie sich die von Ihnen gebildeten Handlungsabschnitte in der chronologischen Abfolge. Auch 
+die spätere Prüfung der einzelnen Handlungsabschnitte erfolgt regelmäßig chronologisch, es sei denn, 
+Sie erwägen die Prüfung akzessorischer Delikte (Teilnah me: §§ 26, 27 StGB; Verbrechensverabre-
+dung: § 30 StGB). Diese sollten Sie grundsätzlich erst prüfen, wenn Sie die Haupttat geprüft haben. 
+ 
+III. Tatbeteiligte 
+Ermitteln Sie dann für jeden von Ihnen gebildeten Handlungsabschnitt gesondert den oder die jeweils 
+Beschuldigte bzw. Beschuldigten. Sofern Sie innerhalb eines Handlungsabschnitts mehrere Beschul-
+digte prüfen, beginnen Sie die Prüfung mit dem „Tatnächsten“. Das ist derjenige, der unmittelbar ge-
+handelt hat, während beispielsweise andere vielleicht nur zuschauten. Haben mehrere unmittelbar ge-
+handelt, beginnen Sie Ihre spätere Prüfung mit der Person, die als Erste gehandelt hat (Chronologie!). 
+Je nach Festlegung der Handlungsabschnitte kann es sein, dass der eine oder andere dieser Ab-
+schnitte genau genommen aus einer Vielzahl von Einzelhandlungen besteht. 
+ 
+Beispiel:  
+So kann etwa „Das Geschehen in der Bank“ daraus bestehen, dass zunächst zwei Beschul-
+digte die Filiale betreten und sich der eine als Polizeibeamter ausgibt und den Zugang zu 
+
+===== SEITE 8 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 8 von 44 
+einem der Beschlagnahme unterliegenden Schließfach des anderen begehrt; der andere an-
+schließend von dem Schließfach das Siegel abkratzt und anschließend der eine auf Nach-
+frage des Bankangestellten eine gefälschte Freigabebescheinigung ausfüllt und übergibt. 
+Prüfen Sie diese Handlungen in der chronologischen Reihenfolge ihres Ablaufes. 
+ 
+Bei mehreren Beschuldigten empfiehlt es sich fast immer, diese getrennt zu prüfen. Häufig ergeben 
+sich bei der Prüfung Zurechnungsprobleme bestimmter Tatumstände. Die zum Erkennen dieser Fra-
+gen nötige Sensibilität kann im Falle der gemeinsamen Prüfung der Beschuldigten verloren gehen. Es 
+kann umgekehrt aber auch eindeutige Fälle geben, in denen durchaus nichts gegen eine gemeinsame 
+Prüfung einzuwenden ist. 
+Unter Berücksichtigung des Grundsatzes der Akzessorietät kann sich daher bei zwei Beschuldigten in 
+einem Handlungsabschnitt die folgende Prüfungsreihenfolge ergeben: 
+Beispiel: 
+1. hinreichender Tatverdacht gegen A (=Tatnächster) als Täter 
+2. hinreichender Tatverdacht gegen B 
+a) als Täter 
+b) als Teilnehmer an den Taten des A unter 1. (Akzessorietät!) 
+3. (erneut) hinreichender Tatverdacht gegen A als Teilnehmer an den Taten 
+des B zu Ziff. 2.a) 
+ 
+IV. Zu prüfende Delikte 
+Entscheiden Sie anschließend, welche Delikte Sie in dem jeweiligen Handlungsabschnitt bei der oder 
+dem jeweiligen Beschuldigten prüfen möchten. Beginnen Sie – unter Beachtung der Chronologie – 
+dann, wenn eine Handlung mehrere Straftatbestände erfüllen kann, innerhalb dieser mit dem schwers-
+ten Delikt (gemessen an der Straferwartung). 
+Probleme bereitet häufig die Frage, welche Delikte überhaupt „prüfenswert“ sind. Unstreitig sind dies 
+sicherlich die Delikte, bezüglich derer im Ergebnis ein hinreichender Tatverdacht anzunehmen sein 
+wird. Im Übrigen obliegt die Entscheidung Ihrem in dem einleitend dargelegten Sinn ausgeübten fach-
+lichen Ermessen. Zu berücksichtigen wäre dabei auch die Überlegung, welche Problemschwerpunkte 
+
+===== SEITE 9 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 9 von 44 
+der Klausur zugrunde liegen. So kann beispielsweise das Auftauchen eines „beschuhten Fußes“ im 
+Sachverhalt ein Hinweis darauf sein, sich mit den Qualifikationstatbeständen des § 224 StGB ausei-
+nanderzusetzen, statt diesen Umstand im Detail – beispielsweise bei einer Bejahung einer Körperver-
+letzung mit Todesfolge, § 227 StGB – zu prüfen. 
+Nochmals: Das Prüfen oder Erwähnen vieler Delikte ersetzt nicht qualifizierte Feststellungen bei wirk-
+lich maßgeblichen Delikten! 
+ 
+B. Anfertigung des materiellrechtlichen Gutachtens 
+I. Deliktsprüfung 
+Es ist unbedingt erforderlich, dass Sie Ihrer Deliktsprüfung einen Obersatz voranstellen. Dieser muss 
+ganz genau die eine konkrete Handlung bezeichnen, die Grundlage der Prüfung ist. Wenn Sie insoweit 
+einen hinreichenden Tatverdacht annehmen, ist das dann auch die exakte Handlung, die im konkreten 
+Anklagesatz zu erwähnen ist. An dieser Stelle zahlt sich also Genauigkeit bereits aus. 
+Beispiel: 
+„1. § 132 1. Alt. StGB 
+A könnte sich einer Amtsanmaßung hinreichend verdächtig gemacht haben, indem er sich 
+gegenüber dem Bankangestellten als ‚Polizeibeamter‘ ausgab.“ 
+Nur wenn Sie genau die konkrete Handlung benennen, kann Ihnen im weiteren Verlauf der Prüfung 
+die Korrektorin bzw. der Korrektor in Ihrer Argumentation folgen. 
+Eine Festlegung hinsichtlich des subjektiven Tatbestands ist im Obersatz bei Delikten, bei denen es 
+Vorsatz-Fahrlässigkeitskombinationen gibt, allerdings nicht notwendig.  
+ 
+Beispiel: 
+ 
+1. § 315c Abs. 1 StGB 
+ 
+A könnte sich einer Gefährdung des Straßenverkehrs hinreichend verdächtig gemacht ha-
+ben, indem er unter Alkoholeinfluss mit seinem Pkw den Fußgänger anfuhr und diesen 
+dadurch verletzte. 
+ 
+In der weiteren Prüfung sind die konkreten Tatbestandsvarianten (z.B. § 315c Abs.1 Nr.1 oder Nr. 2 
+Buchstabe …StGB) einschließlich der genauen Schuldform (vgl. z.B. § 315c Abs.3 Nr.1 oder Nr.2 
+StGB) darzulegen. 
+
+===== SEITE 10 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 10 von 44 
+II. Beweisfragen 
+Die Frage des Tatnachweises bezieht sich auf den Nachweis einer strafrechtlich relevanten Tatsache 
+mittels eines zulässigen Beweismittels. Da sich die Frage des Nachweises auf das Vorliegen des hin-
+reichenden Tatverdachts hinsichtlich eines bestimmten Deliktes bezieht, müssen diese Fragen immer 
+im materiellrechtlichen Gutachten geprüft werden. Sie werden immer im Zusammenhang mit der Sub-
+sumtion zu einem ganz bestimmten Tatbestandsmerkmal auftauchen. 
+Jedoch muss nicht für jedes Tatbestandsmerkmal die Beweislage gesondert dargestellt werden. Bei 
+einfachen Beweislagen kann diese zusammenfassend geschrieben werden. Ist die Beweislage aber 
+problematisch, ist diese an dem problematischen Tatbestandsmerkmal ausführlich darzustellen, z.B. 
+wenn 
+1. die oder der Beschuldigte schweigt oder 
+2. die oder der Beschuldigte dieses Tatbestandsmerkmal bestreitet oder 
+3. die oder der Beschuldigte zwar diesbezüglich geständig ist, aber  
+a) das Geständnis nicht ordnungsgemäß zustande gekommen ist oder 
+b) das Geständnis aufgrund anderer objektiver Beweismittel inhaltlich zweifelhaft ist. 
+Hierzu ist zunächst an die Einlassung der oder des Beschuldigten anzuknüpfen. Danach erst sind die 
+weiteren Beweismittel, zumeist Zeugenaussagen, darzustellen , und zunächst festzustellen, welcher 
+Teil dieses Beweismittels (also etwa welcher Bestandteil der Zeugenaussage ) die an dieser Stelle 
+bedeutsame Beweisaussage enthält. Anschließend muss ggfs. untersucht werden, ob gegen die Zu-
+lässigkeit dieses Beweismittels rechtliche Bedenken bestehen (etwa Verwertungsverbote). 
+Das kann durchaus auch dazu führen, dass dieselbe Zeugenaussage an verschiedenen Stellen des 
+Gutachtens bei der Erörterung anderer Tatbestandsmerkmale wegen eines anderen Aussagebestand-
+teils gleichfalls Bedeutung gewinnen kann. Darauf ist dann auch an jede r Stelle hinzuweisen. Sofern 
+keine Änderung eingetreten ist, muss hingegen nicht noch einmal die rechtliche Zulässigkeit dieses 
+Beweismittels untersucht werden. Hier kann dann ein entsprechender Hinweis genügen. Dieser sollte 
+aber auch erfolgen.  Bedenken S ie, dass eine Beweis würdigung nicht nur aus der Benennung des 
+Beweismittels besteht. Eine Stellungnahme zur Glaubwürdigkeit von Zeugen oder der Glaubhaftigkeit 
+derer Angaben dürfte sich indes in der Regel erübrigen. Ohne beso ndere Hinweise im Sachverhalt  
+verbieten sich jedenfalls diesbezügliche floskelhafte Feststellungen. 
+ 
+
+===== SEITE 11 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 11 von 44 
+III. Strafantrag 
+Die Prüfung auf Vorliegen eines wirksamen Strafantrages beeinflusst den hinreichenden Tatverdacht 
+und erfolgt daher stets deliktsbezogen im materiellrechtlichen Gutachten. Fehlt es bei einem absoluten 
+Antragsdelikt (z.B. § 123 StGB) an einem wirksamen Strafantrag, liegt insoweit ein Verfahrenshinder-
+nis vor, das eine weitere Deliktsprüfung entbehrlich macht  Die Feststellungen hierzu müssen daher 
+der materiellen Deliktsprüfung vorangestellt werden. Im Falle eines relativen Antragsdelikts (z.B. § 223 
+StGB) hingegen vermag das Fehlen eines wirksamen Strafantrages durch die Annahme eines beson-
+deren öffentlichen Interesses an der Strafverfolgung (im Beispiel vgl. § 230 StGB) ersetzt werden. 
+Letztere Wertung (Maßstab etwa Nr.  234 der Richtlinien für das Strafverfahren und das Bußgeldver-
+fahren - RiStBV) kann jedoch nur vollzogen werden, wenn die materielle Prüfung die Tatbestandsmä-
+ßigkeit des Verhaltens zum Ergebnis hatte. Beim relativen Antragsdelikt ist diese Verfahrensvoraus-
+setzung daher erst am Ende dieser Deliktsprüfung vorzunehmen. Zu beachten ist, dass mit der Neu-
+fassung des § 158 Abs.2 StPO das bisherige Erfordernis der Schriftform (i.d.R. handschriftliche Unter-
+zeichnung) entfallen und stattdessen zu prüfen ist, ob die Identität und der Vefolgungswille der antrag-
+stellenden Person sichergestellt sind. 
+ 
+IV. Konkurrenzen 
+Am Ende eines jeden Handlungsabschnitts sollten die Konkurrenzverhältnisse dargestellt und erfor-
+derlichenfalls begründet werden. Immerhin besteht nicht selten die Möglichkeit, hier  unterschiedliche 
+Auffassungen vertreten zu können. 
+Das materiellrechtliche Gutachten beschließen dann Ausführungen zu den Gesamtkonkurrenzen. Die 
+Festlegung der Konkurrenzen ist wichtig für die Zahl der selbständigen Handlungen einleitend des 
+abstrakten Anklagesatzes. 
+Zur besseren Orientierung empfiehlt es sich, auch ohne das Erfordernis der Darstellung der Konkur-
+renzen wenigstens der Übersicht wegen abschließend ein „Gesamtergebnis“ festzuhalten. 
+ 
+ 
+Teil II: Prozessrechtliches Gutachten 
+Das prozessrechtliche Gutachten stellt das Bindeglied zwischen materiellrechtlichem Gutachten und 
+der Abschlussverfügung dar. An dieser Stelle muss entschieden werden, welche prozessualen 
+Schlussfolgerungen aus dem materiellrechtlichen Ergebnis zu ziehen s ind. Hierzu gehören insbeson-
+dere die Themen Teileinstellung, gerichtliche Zuständigkeit, Notwendigkeit einer Verteidigerbeiord-
+nung, Haftfragen, vorläufige Entziehung der Fahrerlaubnis, Fragen der Vermögensabschöpfung ein-
+schließlich der Einziehung sowie sonstige (vorläufige) Maßnahmen. 
+
+===== SEITE 12 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 12 von 44 
+Die Entscheidung, ob eine prozessuale Frage innerhalb des materiell rechtlichen Gutachtens 
+(Teil I) oder des prozessualen Gutachtens (Teil II) zu erörtern ist, orientiert sich am Begriff des 
+„hinreichenden Tatverdachts“. Mit anderen Worten: Alle rechtlichen Erörterungen, die sich auf 
+den hinreichenden Tatverdacht auswirken können, sind im materiell rechtlichen Gutachten zu 
+prüfen. Die prozessualen Fragen, die ohne Auswirkung auf den hinreichenden Tatverdacht 
+sind, werden im prozessrechtlichen Gutachten geprüft. 
+Eine Erörterung einzelner Beweisverwertungsfragen darf im prozessrechtlichen Gutachten nicht erfol-
+gen; dasselbe gilt für etwaige Verfahrenshindernisse. 
+Typischerweise – und dann zweckmäßig in dieser Reihenfolge – zu erörtern sind immer die Frage n 
+etwaiger Teileinstellungen, des Anklageadressaten, der Haft und der Verteidigung. 
+ 
+A. Teileinstellung 
+Stets ist für sämtliche Tatkomplexe anhand einer Prüfung zu beurteilen, ob das Verfahren wegen einer 
+gesamten Tat im prozessualen Sinn i.S.d. § 264 StPO eingestellt werden soll (Stichwort: einheitlicher 
+Lebensvorgang) oder ob im Rahmen der Anklage gerade wegen dieser Tat im prozessualen Sinn – 
+und zwar wegen anderer darin enthaltener Taten im materiellrechtlichen Sinn – angeklagt wird.  
+Die Frage einer Teileinstellung ist somit gesondert für alle erwogenen Taten im prozessualen Sinn zu 
+prüfen. Auch wenn keine Teileinstellungen vorzunehmen sind, ist dies festzuhalten, wobei dabei auch 
+deutlich werden sollte, dass die Prüfungskriterien bekannt sind (also nicht: „Teileinstellungen müssen 
+nicht erfolgen.“; sondern „Teileinstellungen kommen nicht in Betracht, da hinsichtlich aller prozessualer 
+Taten hinreichender Tatverdacht besteht.“). Weder die Einstellungsnachricht noch der Einstellungsbe-
+scheid sind auszuformulieren. 
+ 
+Erfolgt eine (Teil -)Einstellung im Rahmen des § 170 Abs. 2 StPO, ist eine Einstellungs nachricht an 
+den Beschuldigten erforderlich, wenn 
+• eine verantwortliche Vernehmung stattgefunden hat, 
+• Haftbefehl erlassen war, 
+• er um einen Bescheid gebeten hat oder 
+• ein besonderes Interesse an der Bekanntgabe erkennbar ist. 
+
+===== SEITE 13 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 13 von 44 
+Eines Einstellungsbescheides an den Antragsteller i.S.d. § 171 S. 1 StPO bedarf es, wenn dieser ein 
+Interesse am Verfahrensausgang hat. Dies ist regelmäßig anzunehmen, wenn das Verfahren nicht von 
+Amts wegen eingeleitet wurde. Ist der Anzeigeerstatter zugleich Verletzter, ist zudem herauszuarbei-
+ten, ob der Einstellungsbescheid mit einer Rechtsmittelbelehrung gem. § 171 S. 2 StPO zu versehen 
+ist. Das ist beispielsweise nicht der Fall, wenn nur Privatklagedelikte Gegenstand der einzustellenden 
+prozessualen Tat sind, da dann auch kein Klageerzwingungsverfahren stattfi ndet, § 172 Abs. 2 S . 3 
+StPO (daher sog. „Vorschaltbeschwerde“). 
+B. Anklageadressat 
+I. Örtliche Zuständigkeit 
+Die örtliche Zuständigkeit ergibt sich regelmäßig aus dem Bearbeitervermerk, im  Übrigen aus §§ 7 ff. 
+StPO. 
+ 
+II. Sachliche Zuständigkeit 
+Im Rahmen der sachlichen Zuständigkeit ist zu entscheiden, welcher Spruchkörper des örtlich zustän-
+digen Gerichts zur Sachentscheidung nach dem GVG berufen ist.  
+Bei mehreren Beschuldigten sind in diesem Zusammenhang auch §§ 2, 3 StPO zu prüfen, da dies zu 
+einer Verschiebung der sachlichen Zuständigkeit führen kann. 
+Abgesehen von etwaigen Spezialzuweisungen – in der Examensklausur ist insbesondere die Zustän-
+digkeit zum Schwurgericht gemäß § 74 Abs. 2 GVG relevant – sind der Deliktscharakter (Verbrechen 
+oder Vergehen) und die konkrete Straf erwartung (nicht: die konkrete Strafe) entscheidende Kriterien. 
+Daher wären an dieser Stelle in der Klausur auch etwaige gesetzliche Milderungsgründe wie etwa 
+§§ 13, 21, 23 Abs. 2, 27 Abs. 2, 30 Abs. 1 StGB oder das Vorliegen eines minder schweren Falles zu 
+beachten. 
+ 
+1. Amtsgericht, §§ 24 ff. GVG 
+Die Zuständigkeit des Strafrichters besteht gemäß § 25 GVG bei Vergehen, wenn keine höhere (Ge-
+samt-)Strafe als zwei Jahre zu erwarten ist. 
+Das Schöffengericht ist gemäß §§ 28, 29 Abs. 1 GVG zwingend bei Verbrechen zuständig, aber auch 
+bei Vergehen, wenn die Strafgewalt des Strafrichters nicht mehr ausreicht und die Strafgewalt des 
+Landgerichts noch nicht erreicht wird – also bei einer Straferwartung von mehr als zwei Jahren und 
+maximal vier Jahren. Auch ist es bei sog. Jugendschutzsachen i.S.v. § 26 GVG zuständig. 
+
+===== SEITE 14 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 14 von 44 
+ 
+2. Landgericht, §§ 74 ff. GVG 
+Die große Strafkammer ist bei einer Straferwartung von mehr als vier Jahren zuständig , §§ 74-74c, 
+76 Abs. 1 und 2 GVG, oder wenn die Staatsanwaltschaft wegen des Umfangs (nicht klausurrelevant) 
+oder der besonderen Bedeutung des Falles zum Landgericht anklagt. 
+Die Zuständigkeit des Schwurgerichts ergibt sich aus § 74 Abs. 2 GVG, und zwar auch bei Teilnahme, 
+Versuch oder Vorbereitung eines der dort genannten Delikte.  
+Bei Bejahung der Zuständigkeit des Schwurgerichts trägt die Anklage auch nicht die Überschrift „An-
+klageschrift“, sondern ist als „Schwurgerichtsanklage“ zu bezeichnen. 
+ 
+C. Haftfragen 
+Zu prüfen ist unter dieser Überschrift entweder, ob  
+• der Erlass eines Haftbefehls, 
+• die Aufhebung eines bereits bestehenden Haftbefehls oder 
+• Haftfortdauer 
+beantragt werden sollte. 
+Der Erlass eines Haftbefehls oder ein Antrag auf Haftfortdauer setzen einen dringenden Tatverdacht, 
+einen Haftgrund sowie die Verhältnismäßigkeit des Haftbefehls voraus. 
+ 
+I. Dringender Tatverdacht, § 112 Abs. 1 S. 1 StPO 
+Hier ist die Bezugnahme auf das materiellrechtliche Gutachten ausreichend, vorzugsweise mit der 
+Formulierung: „Nach dem Ergebnis des materiellrechtlichen Gutachtens ist der Tatverdacht nicht nur 
+hinreichend, sondern auch dringend.“ 
+ 
+
+===== SEITE 15 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 15 von 44 
+II. Haftgrund, § 112 Abs. 1 S. 1, Abs. 2 StPO 
+Der Haftgrund der Flucht, § 112 Abs. 2 Nr. 1 StPO, ist regelmäßig nicht klausurrelevant, da Anklage 
+nur gegen einen Beschuldigten erhoben werden kann, dem die Anklageschrift etc. auch mitgeteilt wer-
+den kann – was bei einem Flüchtigen nicht der Fall ist. 
+Für Fluchtgefahr, § 112 Abs. 2 Nr. 2 StPO, ist eine Prognose vorzunehmen, ob damit zu rechnen ist, 
+dass sich der Beschuldigte dem Verfahren stellt. Die Straferwartung allein ist grundsätzlich nicht aus-
+reichend, weshalb eine Erörterung der sich aus dem Sachverhalt ergebenden weiteren konkreten Um-
+stände erforderlich ist, beispielsweise fehlende soziale Bindungen, leicht lösliche Wohnverhältnisse, 
+Arbeitsverhältnisse u.a. 
+Für die Annahme einer Verdunkelungsgefahr, § 112 Abs. 2 Nr. 3 StPO, sind konkrete Anhaltspunkte 
+dafür erforderlich, dass der Beschuldigte auf Beweismittel Einfluss zu nehmen versucht und hierdurch 
+die Wahrheitsermittlung erschwert wird. 
+Erst nach der Prüfung von § 112 Abs. 2 StPO kann ergänzend eine Auseinandersetzung mit § 112 
+Abs. 3 StPO – Taten der Schwerkriminalität – erfolgen. Zu berücksichtigen ist dabei, dass auch hier 
+über den Wortlaut hinaus besondere Umstände erforderlich sind, aufgrund derer eine Flucht - oder 
+Verdunkelungsgefahr nicht auszuschließen ist (Stichwort: „verfassungskonforme Auslegung“). 
+(Teilweise) subsidiär kommt noch der Haftgrund der Wiederholungsgefahr, § 112a StPO, in Betracht. 
+Hier können sich entsprechende Vorbelastungen aus dem Bearbeitervermerk bzw. dem Auszug aus 
+dem Bundeszentralregister ergeben. Aber auch hier sind jeweils die weiteren konkreten Umstände zu 
+berücksichtigen. 
+Es können auch mehrere Haftgründe nebeneinander bestehen, so dass in der Examensklausur stets 
+alle ernsthaft in Betracht zu ziehenden Haftgründe zu prüfen sind. 
+ 
+III. Verhältnismäßigkeitsgrundsatz, § 112 Abs.1 Satz 2 StPO 
+Die Verhältnismäßigkeit eines Haftbefehls ist nur ausnahmsweise klausurrelevant, nämlich bei Delik-
+ten mit geringer Straferwartung. Hier ist dann § 113 StPO zu beachten! 
+ 
+Merke:  
+Kommt man zu dem Schluss, dass ein bestehender Haftbefehl aufzuheben ist, ist § 120 Abs. 3 StPO 
+zu beachten, also zu erörtern, dass ein schnellstmöglicher Antrag auf Aufhebung des Haftbefehls zu 
+
+===== SEITE 16 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 16 von 44 
+stellen ist und gleichzeitig mit der Entschließung der Staatsanwaltschaft – also ohne den Aufhebungs-
+beschluss abzuwarten – eine sofortige Freilassungsanordnung durch die Staatsanwaltschaft gemäß 
+§ 120 Abs. 3 S. 2 StPO zu erfolgen hat. 
+ 
+D. Notwendigkeit der Beiordnung 
+Ein Antrag auf Bestellung einer Verteidigerin oder eines Verteidigers kommt nur in Betracht, wenn ein 
+Fall notwendiger Verteidigung vorliegt und die/der Beschuldigte noch keine Verteidiger in oder keinen 
+Verteidiger hat (vgl. § 141 StPO) oder die Wahlverteidigerin bzw. der Wahlverteidiger die Beiordnung 
+beantragt und für diesen Fall die Niederlegung des Wahlmandats ankündigt. Hat die/der Beschuldigte 
+bereits eine Wahlverteidigerin bzw. eine n Wahlverteidiger beauftragt,  sind die Voraussetzunge n des 
+§ 140 StPO dennoch zu prüfen und auf § 141 StPO zu verweisen.  
+ 
+Klausurrelevante, auch kumulativ vorliegende Fälle aus dem Katalog des § 140 Abs. 1 StPO sind: 
+• Nr. 1: Anklage zum Landgericht oder Schöffengericht, 
+• Nr. 2: Anklage eines Verbrechens, 
+• Nr. 4: Vorführung zum Erlass eines  Untersuchungshaftbefehls oder der einstweiligen Un-
+terbringung, 
+• Nr. 5: der Beschuldigte befindet sich in dieser oder einer anderen Sache in einer „Anstalt" 
+(z.B. in einer JVA, auch zur Untersuchungshaft). 
+ 
+Im Rahmen der Prüfung des § 140 Abs. 2 StPO spielen insbesondere eine Rolle 
+• die Schwere der Tat oder die Schwere der zu erwartenden Rechtsfolge – ab Straferwartung 
+von einem Jahr  Freiheitsstrafe, auch unter Berücksichtigung etwaiger nachträglicher Ge-
+samtstrafenbildungen oder Bewährungswiderrufe oder 
+• der fair trial-Grundsatz – beispielsweise, wenn bei einem weiterem Mitbeschuldigten ein 
+Fall der notwendigen Verteidigung vorliegt, 
+• im Einzelfall die Schwierigkeit der Sach- und Rechtslage. 
+ 
+
+===== SEITE 17 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 17 von 44 
+E. vorläufige Maßnahmen 
+Sind laut Aufgabenstellung Gegenstände sichergestellt oder beschlagnahmt, so ist zu erörtern, was 
+mit diesen geschehen soll; hierbei ist darauf zu achten, ob der Bearbeitervermerk zur Aufgabenstellung 
+die Prüfung der entsprechenden Vorschriften ggf. ausschließt. Zudem kommen auch andere vorläufige 
+Maßnahmen in Betracht, deren Prüfung jeweils erforderlich ist. 
+ 
+Typische Fälle (nicht abschließend!) sind: 
+I. Vorläufige Sicherung von Gegenständen 
+Die Einziehung von Taterträgen gemäß § 73 StGB soll bewirken, dem Täter unmittelbare Tatvorteile 
+(z.B. Tatlohn, Tatbeute, Bestechungsentgel t, aber auch Nutzungen und Surrogate, § 73 Abs. 2 und 
+Abs. 3 StGB, oder Wertersatz, § 73c StGB) zu entziehen.  
+ 
+Die Einziehung gemäß § 74 StGB betrifft Tatwerkzeuge und Tatprodukte – z.B. gefälschte Urkunden, 
+Schraubendreher, Einbruchswerkzeuge, zweckentfremdete Gefährdungsmittel (Pkw) –, wenn 
+• das Tatwerkzeug oder -produkt als eigentliches Mittel zur Begehung einer vorsätzlichen 
+Tat eingesetzt wird (ein bloßer Zusammenhang ist nicht ausreichend), § 74 Abs. 1 StGB, 
+und 
+• der Täter weiterhin Eigentümer oder Rechtsinhaber ist, § 74 Abs. 3 StGB, oder 
+• das Tatwerkzeug eine Gefährdung der Allgemeinheit darstellt, § 74b Abs. 1 StGB, oder  
+• die Gefahr besteht, dass es weiter der Begehung rechtswidriger Taten dienen wird, § 74b 
+Abs. 1 StGB. 
+Werden Gegenstände noch zwecks Maßnahmen zur Vermögensabschöpfung benötigt, ist ggf. ein An-
+trag auf vorläufige Sicherstellung durch Beschlagnahme gem. §§ 111b, 111c, 111e StPO zu stellen. 
+Werden sichergestellte Gegenstände noch als Beweismittel i.S.d. § 94 StPO benötigt, erfolgt ebenfalls 
+keine Freigabe (anderenfalls Freigabe an den Verletzten oder den letzten Gewahrsamsinhaber, z.B. 
+den Beschuldigten, § 111n StPO). Es ist ggf. ein Antrag auf richterliche Bestätigung einer Beschlag-
+nahme gem. § 98 Abs. 2 StPO zu stellen – insbesondere bei Vorliegen eines Widerspruchs oder bei 
+Geltendmachung eines Herausgabeverlangens. 
+ 
+
+===== SEITE 18 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 18 von 44 
+II. Vorläufige Entziehung der Fahrerlaubnis, § 111a StPO 
+Klausurrelevant ist insbesondere ein Antrag auf vorläufige Entziehung der Fahrerlaubnis, § 111a StPO. 
+Dies setzt voraus, dass 
+• die bzw. der Beschuldigte (noch) eine Fahrerlaubnis hat und 
+• dringende Gründe für die Annahme vorliegen, dass die Fahrerlaubnis gem. § § 69, 69a 
+StGB durch Urteil entzogen wird. 
+(Zu beachten ist aber, dass die Staatsanwaltschaft den Antrag auf Entziehung der Fahrerlaubnis bzw. 
+Anträge auf Maßnahmen der Vermögensabschöpfung erst mit den Schlussanträgen in der Hauptver-
+handlung stellen wird. Mithin ist im prozessrechtlichen Gutachten unter Verweis auf die Prognose, dass 
+in der – späteren – Hauptverhandlung eine Entziehung der Fahrerlaubnis zu erwarten ist, die zum 
+Bearbeitungszeitpunkt der Klausur relevante Frage, ob dies durch eine vorläufi ge Maßnahme nach § 
+111a StPO zu begleiten ist, zu erörtern, nicht der später in der Hauptverhandlung zu stellende Antrag 
+auf die Entziehung der Fahrerlaubnis als solcher zu formulieren.) 
+ 
+ 
+  
+
+===== SEITE 19 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 19 von 44 
+Teil III: Formalien der Anklageschrift 
+ 
+Die Formalien in der Anklageschrift – auch bei den Formulierungen betreffend die Untersu-
+chungshaft – weichen im aktuell genutzten automatisierten Schreibwerk der Staatsanwalt-
+schaft Berlin (S@M) teilweise geringfügig von den nachfolgenden Ausführungen ab. Es wird 
+dennoch empfohlen, sich für den im Staatsexamen zu fertigenden Anklageentwurf an der 
+hier vorgeschlagenen Darstellung zu orientieren. 
+ 
+ 
+A. Der Kopf 
+I. Oben 
+links: die absendende Staatsanwaltschaft (z.B. Staatsanwaltschaft Berlin);  
+rechts ausgerückt: Ort und Datum 
+ 
+II. Das Js-Aktenzeichen der Staatsanwaltschaft 
+links direkt darunter. 
+ 
+III. Rechts oben 
+ 
+1. die Haftverhältnisse – in Kurzform (Nr. 52 RiStBV): 
+„Haft! Frist gemäß §§ 121, 122 StPO: TT.MM.JJJJ“ 
+Die Fristberechnung gem. §  121 StPO beginnt nach hM, wenn der Beschuldigte aufgrund eines 
+bestehenden Haftbefehls ergriffen wurde oder wenn der Richter gegen den vorläufig Festgenom-
+menen Haftbefehl erlassen hat; der Zeitraum der vorläufigen Festnahme wird hiernach nicht in die 
+Frist eingerechnet (vgl. BeckOK StPO/Krauß StPO § 121 StPO, Rn. 3 m.w.N.).  
+Auch zu der Frage, ob der Tag, an dem die Untersuchungshaft beginnt, bei der Fristberechnung 
+berücksichtigt wird (also insoweit §  43 StPO Anwendung findet), gibt es unterschiedliche Ansich-
+ten; für den Beschuldigten günstiger ist es jedenfalls, § 43 StPO nicht zur Anwendung kommen zu 
+lassen (vgl. BeckOK a.aO.). Unterbrechungen des Vollzugs des Haftbefehls zählen nicht mit (vgl. 
+Schmitt/Köhler, StPO, § 121 Rn. 5). 
+ 
+Beispiele (bei Nichtanwendung von § 43 StPO):  
+
+===== SEITE 20 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 20 von 44 
+Erfolgt die vorläufige Festnahme am 2. Januar und ergeht der Haftbefehl am 3. Januar, wäre das im 
+Rubrum zu benennende  Datum des Fristablaufs für die Vorlage der Akte beim Kammergericht der 2.Juli. 
+Erfolgte die Festnahme am 2. Januar aufgrund eines bereits zuvor erlassenen und also schon bestehenden 
+Haftbefehls, wäre das maßgebliche Datum des Fristablaufs der 1. Juli – und zwar unabhängig da-
+von, ob die Verkündung des Haftbefehls noch am 2. Januar oder erst am 3. Januar erfolgt. 
+2. „Jugendlicher“/„Heranwachsender“ (ggfs. „zur Tatzeit“) 
+ 
+IV. Parallel links der Adressat  
+Beispiel: 
+An das 
+Amtsgericht Tiergarten 
+– Strafrichter –  
+ 
+V. Darunter zentriert mittig die Überschrift  
+„Anklageschrift“ oder „Schwurgerichtsanklage“ 
+ 
+ 
+B. Der Anklagesatz (§ 200 Abs. 1 StPO) 
+I. Einleitung mit den Personalien (Nr. 110 Abs. 2a) RiStBV) 
+1. Man sollte entweder mit dem Haupttäter beginnen oder die Angeschuldigten in chronologischer 
+Reihenfolge aufführen. 
+„Registerauszug anbei“  oder „Bundeszentralregisterauszug ist beigefügt“  - Der Hinweis im 
+Rubrum der Anklage auf den BZR wird in der Praxis unterschiedlich gehandhabt und kann 
+grundsätzlich auch unterbleiben 
+2. Wiedergabe der Haftverhältnisse 
+a) bei vorläufiger Festnahme und anschließendem Haftbefehlserlass: 
+„in dieser Sache am TT.MM.JJJJ vorläufig festgenommen und aufgrund des Haftbefehls 
+des Amtsgerichts Tiergarten – Aktenzeichen 349 Gs 1635/JJ – vom TT.MM.JJJJ/vom sel-
+ben Tag seitdem in Untersuchungshaft in der JVA Moabit zur Buchnummer 1799/JJ/5“ 
+b) bei Festnahme aufgrund bestehenden Haftbefehls: 
+
+===== SEITE 21 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 21 von 44 
+„in dieser Sache am TT.MM.JJJJ festgenommen aufgrund des Haftbefehls des Amtsge-
+richts Tiergarten – Aktenzeichen 349 Gs 1635/JJ – vom TT.MM.JJJJ und seither in Unter-
+suchungshaft in der JVA Moabit zur Buchnummer 1799/JJ/5“ 
+c) im Fall einer sich aus dem Sachverhalt in dieser Sache ergebenden Haftverschonung ist zu 
+ergänzen: 
+„und seit dem TT.MM.JJJJ von der Haft aufgrund des Beschlusses des Amtsgerichts Tier-
+garten – Aktenzeichen 349 Gs 2946/ JJ – vom TT.MM.JJJJ von dem weiteren Vollzug der 
+Untersuchungshaft verschont.“ 
+Merke: Es wird nur auf tatsächlich bestehende Haftverhältnisse in diesem Verfahren hingewiesen. Al-
+lenfalls kann bei Haft in einem anderen Verfahren oben rechts der Hinweis „Haft in anderer Sa-
+che“ sinnvoll sein. 
+ 
+II. Verteidiger (Nr. 110 Abs. 2 b) RiStBV) 
+„Verteidiger: Rechtsanwalt Kai Meyerhoff, Meyerhoffstr. 17, 13645 Berlin“ 
+Dies gilt selbstverständlich nur für den Fall, dass tatsächlich schon ein Mandat besteht. 
+ 
+III. Abstrakter Anklagesatz 
+Nach den Personalien folgt die Überleitung zum sog. abstrakten Anklagesatz durch die Worte 
+ „wird angeklagt,“ 
+Sodann ist zunächst von Bedeutung, ob es sich bei de r /dem / den Beschuldigte(n) um Jugendliche 
+und / oder Heranwachsende (zur Tatzeit) handelt. Ist dies der Fall, so wird dieser Hinweis in eine 
+neue Zeile nach der Wendung „wird angeklagt“ eingefügt: 
+„als Jugendlicher mit Verantwortungsreife zur Tatzeit“ 
+„als Heranwachsender zur Tatzeit“ 
+„als Jugendlicher mit Verantwortungsreife“ 
+„als Heranwachsender“ 
+„teils als Jugendlicher“ 
+„teils als Heranwachsender“ 
+
+===== SEITE 22 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 22 von 44 
+Handelt es sich bei dem anzuklagenden Beschuldigten um einen Erwachsenen, wird die vorgenannte 
+„Zwischenzeile“ weggelassen. 
+Es folgen die Angaben zum Tatort durch die Ortsbezeichnung, also etwa 
+„in Berlin“ 
+„im Landkreis Lüchow-Dannenberg“ 
+„in Berlin und Brandenburg“. 
+Sind mehrere Tatorte gegeben, werden diese nur komplett aufgezählt, soweit die Auflistung hierbei 
+noch übersichtlich bleibt; mehr als zwei Orte sollten nicht namentlich benannt werden. Anderenfalls 
+bietet sich die Formulierung an 
+„in Berlin und anderenorts“ 
+Die Bezeichnung des Tatortes erfolgt durch den Städtenamen, wobei zu beachten ist, dass der Klau-
+sursachverhalt örtlich nicht in Berlin angesiedelt sein muss. 
+Anschließend werden die Angaben zur Tatzeit gemacht, z.B.  
+„am 27. April JJJJ“ 
+Auch hinsichtlich der Tatzeiten ist eine Einschränkung empfehlenswert, sobald zu viele Einzeldaten zu 
+nennen wären. Sind mehr als zwei Tattage Gegenstand der Anklage, sollte hierfür die gesamte Zeit-
+spanne angegeben werden, also etwa 
+„zwischen dem 29. Januar und 3. März JJJJ“  
+Ist der genaue Tatzeitpunkt nicht bekannt, ist er dennoch datumsmäßig so genau wie möglich einzu-
+grenzen, also auch etwa  
+„zwischen dem 29. März und 1. April JJJJ“  
+(Nicht zulässig ist mangels Bestimmtheit die Wendung „in nicht rechtsverjährter Zeit“.) 
+Sodann ist die Zahl der selbständigen Handlungen zu benennen, die davon abhängt, wie viele De-
+likte jeder Beschuldigte gemäß dem materiellrechtlichen Gutachten in Tatmehrheit begangen haben 
+soll, also etwa 
+„durch drei selbständige Handlungen“ 
+
+===== SEITE 23 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 23 von 44 
+Sind mehrere Beschuldigte anzuklagen, bietet es sich an, diese nacheinander „abzuhandeln“, also 
+beispielsweise zunächst darzulegen, wie viele und welche selbständigen Handlungen der A begangen 
+hat, und danach das Gleiche für B zu machen. 
+Es folgt der sog. abstrakte Anklagesatz, in dem der Gesetzestext der verletzten Strafvorschrift(en) 
+wörtlich wiedergegeben wird. Hierbei sind lediglich die Teile der Normen zu zitieren, die im konkreten 
+Fall einschlägig sind, bei einer Urkundenfälschung gem. § 267 StGB also z.B.: 
+„zur Täuschung im Rechtsverkehr eine unechte Urkunde hergestellt und gebraucht zu haben“ 
+Der Gesetzeswortlaut soll angepasst werden, sofern dies der konkrete Tatvorwurf erfordert, aus einem 
+„oder“ müsste also ein „und“, aus „einer anderen Person“ können „andere Personen“ werden etc. Al-
+lerdings darf ohne ersichtlichen Grund keine Umstellung von  einzelnen Worten oder Satzteilen des 
+Gesetzestextes erfolgen. Für das sprachliche Verständnis erforderliche Abwandlungen sind restriktiv 
+zu handhaben. 
+Der abstrakte Anklagesatz muss erkennen lassen, welche Delikte in welcher Beteiligungsform dem 
+(jeweiligen) Beschuldigten zur Last gelegt werden, einschließlich der Konkurrenzverhältnisse. Hierbei 
+empfiehlt sich, in umfangreichen Anklagesätzen mit römische n und arabischen Ziffern sowie ggf. mit 
+Kleinbuchstaben für Übersichtlichkeit zu sorgen. Bei mehreren Beschuldigten sind diese namentlich 
+zu benennen. 
+Stehen nach dem materiellrechtlichen Gutachten mehrere Delikte im Konkurrenzverhältnis der Tatein-
+heit zueinander, wird hierfür die vorangestellte Formulierung „tateinheitlich“ empfohlen, auch gängig 
+„zugleich“ oder „durch dieselbe Handlung“. 
+Weiterhin ist zu beachten, dass bei Delikten mit Vorsatz -Fahrlässigkeitskombinationen (vgl. insb. 
+§§ 315 ff. StGB) die jeweilige Begehungsform genannt werden muss. Immer, wenn auch fahrlässiges 
+Handeln mit Strafe bedroht ist, hat ein entsprechender Hinweis im abstrakten Anklagesatz zu folgen, 
+also etwa 
+„vorsätzlich im Straßenverkehr ein Fahrzeug geführt zu haben, obwohl er infolge des Genusses 
+alkoholischer Getränke nicht in der Lage war, das Fahrzeug sicher zu führen, und dadurch 
+fahrlässig fremde Sachen von bedeutendem Wert gefährdet zu haben“ 
+Ebenso muss auf die Fälle der versuchten Tat (selbstverständlich nur bei deren Strafbarkeit) hinge-
+wiesen werden, wofür die dem übrigen Gesetzestext vorangestellte Formulierung  
+„versucht zu haben, (...)“  
+verwendet werden sollte. 
+
+===== SEITE 24 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 24 von 44 
+Zudem dürfen im abstrakten Anklagesatz keine Angaben zur verminderten Schuldfähigkeit i.S.d. § 21 
+StGB erfolgen, da für die entsprechende Beurteilung grundsätzlich die Beweisaufnahme in der Haupt-
+verhandlung erforderlich ist. 
+Unbedingt zu beachten  ist, dass der abstrakte Anklagesatz in vollem Umfang  mit dem Endergebnis 
+des materiellrechtlichen Gutachtens sowie den später in der §§ -Kette aufgelisteten Normen überein-
+stimmt und eine klare Zuordnung zum konkreten Anklagesatz (auch hinsichtlich der Gliederung) er-
+möglicht. Was schon im Rahmen der Konkurrenzen, insbesondere bei Konsumtion und Subsidiarität, 
+wegfällt, gehört nicht in den abstrakten Anklagesatz (und auch nicht in die §§-Kette). 
+IV. Konkreter Anklagesatz 
+Im konkreten Anklagesatz wird der Tatvorwurf, wie er sich aus dem abstrakten Anklagesatz ergibt, in 
+Form eines Lebenssachverhaltes dargestellt. 
+Zwar ist der Beschuldigte – formal gesehen – zum Zeitpunkt der Formulierung der Anklageschrift noch 
+kein „Angeschuldigter“ (vgl. die Legaldefinition in § 157 StPO), da die öffentliche Klage erst durch Ein-
+reichung der Anklageschrift an das Gericht mit dem Antrag, das Hauptverfahren zu eröffnen, erhoben 
+wird. Jedoch wird, gewissermaßen in Vorwegnahme für den Empfänger, bereits die Bezeichnung für 
+den Beschuldigten gewählt, die dieser ab Übersendung der Anklage zunächst trägt. Er ist daher im 
+gesamten konkreten Anklagesatz als Angeschuldigter zu bezeichnen. 
+Der konkrete Anklagesatz sollte mit dem Satz eingeleitet werden: 
+„Dem Angeschuldigten wird Folgendes zur Last gelegt:“ 
+Sind mehrere Beschuldigte anzuklagen, so sind diese im konkreten Anklagesatz mit dem Namen zu 
+bezeichnen, nicht durch Nummerierung. Soweit Personen mit gleichem Familiennamen anzuklagen 
+sind, ist selbstverständlich der Vorname hinzuzufügen, um Missverständnisse auszuschließen. 
+Nennen Sie alle Beteiligten mit ihrer prozessualen Rolle. Zeugen sollten Sie als „Zeugen“ bezeichnen 
+und nicht als „Geschädigte“. Bei bestimmten Delikten ist es erforderlich, den Beruf des Zeugen hinzu-
+zufügen (Tatbestandsmerkmal – z.B. bei § 113 StGB: Polizeibeamter). Verwenden Sie keine Anreden 
+wie „Herr“/„Frau“.  
+Es ist grundsätzlich zweckmäßig, sich an die chronologische Reihenfolge der Geschehnisse zu hal-
+ten. Nur dann laufen Sie nicht Gefahr, eine Tat oder innerhalb eines Tatbestandes die Verwirklichung 
+eines Tatbestandsmerkmals zu übersehen. 
+Abweichungen können aber dort erforderlich  sein, wo die Systematik sie gebietet, also etwa bei der 
+Darstellung der Täterschaft vor zeitlich vorangehender Teilnahme. 
+
+===== SEITE 25 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 25 von 44 
+Soweit Sie im abstrakten Anklagesatz die einzelnen Taten durchnummeriert oder mit Fällen  (Fall 1, 
+Fall 2 usw.) bezeichnet haben, muss sich dies im konkreten Anklagesatz wiederfinden und korrespon-
+dieren. Nur so bleibt der konkrete Anklagesatz übersichtlich. 
+Der konkrete Anklagesatz beinhaltet das tatsächliche Geschehen , das sich nach vorläufiger Ein-
+schätzung unter Berücksichtigung des gesamten Akteninhaltes ereignet hat, aber nur soweit sich hie-
+raus objektive und subjektive Merkmale für den Tatvorwurf ergeben. Die strikt einzuhaltende Zeitform 
+ist das Imperfekt. 
+Nur die Erfüllung der Tatbestandsmerkmale, die im abstrakten Anklagesatz genannt sind (objektiv und 
+subjektiv), sind im konkreten Anklagesatz auszuführen. Dies ist die eigentliche juristische Leistung 
+(Subsumtion), die Sie bei der Fertigung der Anklageschrift erbringen müssen. Wie beim Abfassen des 
+abstrakten Anklagesatzes ist auch beim konkreten Anklagesatz auf eine verständliche Darstellungs-
+weise zu achten. 
+Der Beschuldigte soll – als juristischer Laie – in der Lage sein, beim Lesen der Anklageschrift zu er-
+kennen, welches spezifische, konkrete Verhalten und gegebenenfalls welche seiner Absichten zu der 
+Erhebung der öffentlichen Klage geführt haben. Zu bevorzugen ist die Darstellung des Geschehens 
+im Aktiv. 
+Es darf dabei nicht zu Geschichtserzählungen kommen. Alles, was nicht für die Umsetzung des abs-
+trakten Anklagesatzes im konkreten Geschehen erforderlich ist, ist überflüssig und damit falsch. In 
+wenigen Fällen kann es zweckmäßig sein – zum besseren Verständnis – kurz durch einen Satz den 
+Hintergrund der Tat zu beschreiben (z.B. zur Motivklärung). Wesentlich für den konkreten Anklagesatz 
+ist im Hinblick auf § 200 Abs. 1 StPO eine möglichst genaue Bezeichnung von Tatort (Straße, Haus-
+nummer), Tatzeit (Uhrzeit) und dem vorgeworfenen Verhalten. Hierbei dürfen keinerlei Zweifel offen-
+bleiben. Lässt sich etwa die Tatzeit nicht genau festlegen, so ist der Tatzeitraum so genau wie möglich 
+einzugrenzen. Ansonsten besteht die Gefahr des Strafklageverbrauchs oder einer Verfahrenseinstel-
+lung wegen des Verfahrenshindernisses einer unwirksamen Anklage  (§ 260 Abs. 3 StPO), der unbe-
+dingt von vornherein zu begegnen ist. Damit nichts vergessen wird, sollte bereits in den ersten Satz 
+aufgenommen werden, wer, wann, wo gehandelt hat und ggf. auch schon, was geschehen ist. 
+Subsumtion heißt, dass Sie die Tatbestandsmerkmale des abstrakten Anklagesatzes durch möglichst 
+genaue Begriffe aus dem konkreten Geschehen ausfüllen müssen. Praktisch bedeutet dies, dass Sie 
+andere Begriffe verwenden müssen als die, die im abstrakten Anklagesatz genannt sind. 
+Beispiel: § 242 StGB – nicht „Wegnahme“ durch Wegnehmen beschreiben, sondern  
+  „Er entnahm der Handtasche der Zeugin Z deren Geldbörse.“ 
+Eine Wiederholung des Gesetzestextes ist unbedingt zu vermeiden. 
+
+===== SEITE 26 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 26 von 44 
+ 
+  
+
+===== SEITE 27 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 27 von 44 
+ 
+StGB Richtig Falsch 
+§ 22 ..., was ihm allerdings nicht gelang. versuchte der Angeschuldigte 
+§ 26 weckte im Haupttäter (...) den Entschluss bestimmte den Haupttäter 
+§ 27 unterstützte den Haupttäter (...) durch (...) leistete dem Haupttäter Hilfe (...) 
+§ 185 beschimpfte den (...) als (...) beleidigte den (...) durch (...) 
+§ 212 würgte sein Opfer, bis es erstickte. tötete sein Opfer, indem (...) 
+§ 242 ergriff er das in der Kasse befindliche Geld, 
+um es seiner Frau zu schenken (...) 
+nahm das Geld aus der Kasse, in der Absicht, 
+es seiner Frau zuzueignen (...) 
+§ 246 verkaufte den Wagen des (...) eignete sich den Wagen des (...) rechtswidrig 
+zu (...) 
+§ 267 
+änderte den Namenszug des Unterzeichne-
+ten A. Meyer in A. Mayer, wobei er mit einer 
+Rasierklinge zuerst (...) 
+verfälschte die Urkunde, indem (...) 
+ 
+Zwingend zu beachten ist, dass der konkrete Anklagesatz mit dem abstrakten Anklagesatz sowie der 
+Liste der anzuwendenden Vorschriften in vollem Umfang korrespondiert. 
+Als Kontrolle können Sie nach Fertigung des konkreten Anklagesatzes überprüfen, ob alle Merkmale 
+des abstrakten Anklagesatzes ausgefüllt sind. Nehmen Sie hierzu jedes Tatbestandsmerkmal, das im 
+abstrakten Anklagesatz genannt ist, und prüfen Sie, ob sich dieses im konkreten Anklagesatz wieder-
+findet. Wenn dies nicht der Fall ist, fehlt der Subsumtion etwas und die Anklage ist unschlüssig (Prü-
+fung durch „Rücksubsumtion“). Umgekehrt sollten Sie sich auch bei jedem Satzteil des konkreten An-
+klagesatzes die Frage stellen, welches Tatbestandsmerkmal Sie damit beschreiben wollen. Bleiben 
+Sie sich selbst die Antwort schuldig, haben Sie einen überflüssigen Teil des konkreten Anklagesatzes 
+entdeckt. Was nicht zwingend für die Tatbestandsbeschreibung im Sinne der angekla gten Strafvor-
+schriften bzw. die Individualisierung benötigt wird, gehört nicht in den konkreten Anklagesatz (z.B. die 
+Farbe des gestohlenen Pkw). 
+Im Übrigen sollten sämtliche Ausführungen kurz, präzise und sachlich sein (Vollständigkeit, Verständ-
+lichkeit und Lesbarkeit müssen weiterhin gegeben sein). Außerdem dürfen nur solche Umstände be-
+nannt werden, die auch durch die später anzugebenden Beweismit tel beweisbar sind bzw. von Ihnen 
+als beweisbar angesehen werden. 
+Würdigen Sie im konkreten Anklagesatz keinesfalls die Beweise. Schildern Sie nur den konkreten 
+Sachverhalt, wie er sich nach Ihrer Würdigung (nach der Prüfung im materiellrechtlichen Gutachten) 
+
+===== SEITE 28 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 28 von 44 
+darstellt. Das heißt auch, dass der konkrete Anklagesatz keine Äußerungen zur Glaubwürdigkeit von 
+Zeugen oder zur Zulässigkeit von Beweismitteln enthält. Ebenso sollten Sie keine Berechnungen vor-
+nehmen, die den Verfahrensbeteiligten – eventuell mit Hilfe eines Sachverständigen – vorbehalten 
+sind. Sie sollten daher nur die festgestellte Blutalkoholkonzentration mit dem Zeitpunkt der Blutent-
+nahme angeben. Eine Rückrechnung zum Tatzeitpunkt sollte der konkrete Anklagesatz nicht enthal-
+ten. 
+  
+
+===== SEITE 29 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 29 von 44 
+Beispiel: 
+„Die dem Angeschuldigten am 28. Februar JJJJ um 23:17 Uhr entnommene Blutprobe enthielt 
+eine Blutalkoholkonzentration von 1,15 ‰ Ethanol im Vollblut.“ 
+Merke: Die Rückrechnung der BAK auf den Tatzeitpunkt müssen Sie aber in Ihrem materiellrechtlichen 
+Gutachten darlegen. 
+ 
+Keinesfalls dürfen Sie im konkreten Anklagesatz die Ausfüllung des subjektiven Tatbestandes verges-
+sen. Dies gilt insbesondere bei Delikten, die sowohl in vorsätzlicher als auch in fahrlässiger Bege-
+hungsweise unter Strafe gestellt sind (z.B.: §§ 316, 315c StGB, § 21 StVG, § 6 PflVG). 
+Bei den meisten vorsätzlich begangenen Taten reicht ein kurzer Satz zum subjektiven Tatbestand aus. 
+Folgende Formulierungen können sich anbieten: 
+• zur Absicht: 
+„wobei es ihm darauf ankam , (...)“; „Er steckte die Rasierklingen ein, um sie für sich zu 
+verwenden.“ 
+• zum bedingten Vorsatz: 
+„wobei er mit der Möglichkeit rechnete und trotzdem (...)“ 
+Bei unechten Unterlass ungsdelikten muss das Wissen um die Tatsachen, die die Garantenstellung 
+begründen, und die Kenntnis vom möglichen oder gewollten Erfolgseintritt dargestellt werden. 
+Bei Fahrlässigkeitsdelikten sind durch Tatsachen die Vorhersehbarkeit, Vermeidbarkeit und Sorgfalts-
+pflichtverletzung darzustellen. 
+Auf die Möglichkeit der Entziehung der Fahrerlaubnis  gemäß §§ 69, 69a StGB wird entweder am 
+Ende des konkreten Anklagesatzes oder im unmittelbaren Anschluss an das die Voraussetzungen der 
+Fahrerlaubnisentziehung bewirkende Tatgeschehen hingewiesen. Letztere Variante wird sich anbie-
+ten, falls mehrere prozessuale Taten angeklagt werden, von denen jedenfalls nicht alle für die geplante 
+Entziehung der Fahrerlaubnis ursächlich sind. 
+Die Formulierung sollte etwa lauten: 
+„Hiernach hat sich der Angeschuldigte als zum Führen von Kraftfahrzeugen ungeeignet erwie-
+sen.“ 
+
+===== SEITE 30 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 30 von 44 
+Merke: Vergessen Sie nicht, in diesem Fall in der Liste der anzuwendenden Vorschriften unter Nen-
+nung von Absatz und Nummer § 69 sowie § 69a StGB zu zitieren. 
+ 
+Bei Maßnahmen der Vermögensabschöpfung  ist es zwar ausreichend, die in Betracht kommenden 
+Vorschriften ausschließlich in der Liste der anzuwendenden Vorschriften zu nennen, da sich die An-
+knüpfungstatsachen für eine Einziehung ja bereits aus der im konkreten Anklagesatz geschilderten 
+Tathandlung ergeben. Allerdings ist es – zumindest aufgrund der staatsanwaltlichen Praxis in Berlin – 
+keinesfalls falsch, auf die entsprechenden Rechtsfolgen am Ende des konkreten Anklagesatzes aus-
+drücklich hinzuweisen.“ 
+ 
+Beispiel: 
+„Der Wert des durch die Tat erlangten Geldbetrages in Höhe von insgesamt 1247,25 Euro unterliegt 
+der Einziehung.“ 
+ 
+V. Liste der angewandten Vorschriften 
+Nach dem konkreten Anklagesatz werden in der sog. §§ -Kette sämtliche Normen aufgeführt, aus de-
+nen sich die Strafbarkeit des Beschuldigten sowie die etwaigen Nebenfolgen (etwa die Einziehung von 
+Gegenständen oder die Entziehung der Fahrerlaubnis) ergeben.  
+Die Auflistung beginnt mit dem Hinweis, ob es sich um ein Verbrechen und/oder Vergehen handelt. Im 
+Falle von Tateinheit zwischen einem Verbrechen und einem Vergehen liegt nur ein Verbrechen vor. 
+Bei den Vorschriften sollten nicht nur die Paragraphen als solche, sondern auch diejenigen Absätze, 
+Sätze und ggf. Nummern bezeichnet werden, aus denen sich der Vorwurf und dessen Folgen ergeben: 
+„Verbrechen und Vergehen , strafbar gemäß § § 223 Abs. 1, 224 Abs. 1 Nr. 2 und Nr. 5, 242 
+Abs. 1, 243 Abs. 1 Satz 2 Nr. 1, 249, 22, 23, 25 Abs. 2, 52, 53, 69 Abs.1, 69a, 74 StGB; § 21 
+Abs. 1 Nr. 1 StVG“ 
+Hinsichtlich der Reihenfolge der Auflistung der Vorschriften sollte mit dem Besonderen Teil in aufstei-
+gender Folge begonnen werden. Es folgen die Vorschriften des Allgemeinen Teils, gleichfalls aufstei-
+gend. Unabhängig von der Zahl der Tatkomplexe sowie der Zahl der Beschuldigten wird innerhalb 
+eines Gesetzes immer nur eine §§-Kette notiert. Erfolgt Anklageerhebung gegen einen (zur Tatzeit) 
+Jugendlichen oder Heranwachsenden, endet die §§ -Kette mit den § § 1, 3 JGG (Jugendlicher) bzw. 
+§§ 1, 105 JGG (Heranwachsender).  
+Auch die Vorschriften zu den Strafanträgen bzw. deren Ersetzung durch das besondere öffentliche 
+Interesse an der Strafverfolgung sind zu zitieren, falls es sich um Antragsdelikte handelt. Dies erfolgt 
+
+===== SEITE 31 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 31 von 44 
+zum einen durch die Benennung des einschlägigen Paragraphen des Besonderen Teils, zum anderen 
+durch Zitieren der Strafantragsvorschriften im Allgemeinen Teil (sofern Strafantrag gestellt ist). 
+  
+
+===== SEITE 32 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 32 von 44 
+Beispiel: 
+„Vergehen, strafbar nach §§ 223 Abs. 1, 230, 77, 77b StGB“ 
+Unter der Liste der angewandten Vorschriften wird bei Antragsdelikten – auch falls diese in Tateinheit 
+mit Offizialdelikten begangen wurden – die Stellung des Strafantrags ausdrücklich aufgeführt, in der 
+Regel durch die Formulierung: 
+„Der erforderliche Strafantrag ist form- und fristgerecht gestellt.“ 
+Erfolgt die Anklageerhebung bei (relativen) Antragsdelikten allein aufgrund eines besonderen öffentli-
+chen Interesses an der Strafverfolgung, würde auch hierauf an gleicher Stelle entsprechend hingewie-
+sen werden, also etwa: 
+„Das besondere öffentliche Interesse [an der Verfolgung der fahrlässigen Körperverletzung ] 
+wird bejaht.“ 
+Angaben zum öffentlichen Interesse (vgl. hierzu §§ 376 i.V.m. 374 StPO) sind nicht erforderlich, soweit 
+in den Bearbeitervermerken zu den strafrechtlichen Examensklausuren darauf hingewiesen wird, dass 
+ein Verweis auf den Privatklageweg ausgeschlossen ist. Dies ist nach Auskunft des GJPA dahinge-
+hend zu ver stehen, dass ein öffentliches Interesse i.S.d. § 376 StPO stets anzunehmen ist und es 
+insoweit weder der Prüfung noch einer Erwähnung bedarf, erst recht nicht für den Fall, dass Privatkla-
+gedelikte mit Offizialdelikten in Tateinheit stehen. 
+Achtung: Unterscheiden Sie stets das öffentliche Interesse i.S.v. § 376 StPO vom besonderen öffent-
+lichen Interesse bei den Antragsdelikten (z.B. § 230 StGB)! 
+Sofern keine Antragsdelikte angeklagt werden, sind die Hinweise auf den Strafantrag und das beson-
+dere öffentliche Interesse unnötig und wegzulassen. 
+ 
+C. Die Beweismittel 
+In der Klausur ist die Aufzählung der Beweismittel in der Regel erlassen. Anderenfalls oder in der 
+Praxis werden sie in folgender Reihenfolge benannt und mit römischen Zahlen bezeichnet, die Einlei-
+tung erfolgt mit dem Wort: 
+ 
+„Beweismittel: 
+I.  Angaben des Angeschuldigten 
+II.  Zeugen 
+
+===== SEITE 33 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 33 von 44 
+III.  Sachverständige 
+IV.  Urkunden 
+V.  Augenscheinsobjekte“ 
+Bei der Aufführung der Beweismittel erfolgt keine Unterteilung in Tatkomplexe; die Angabe von Blatt-
+zahlen ist in der Examensklausur entbehrlich. 
+Ein unzulässiges Beweismittel darf nicht angegeben werden. 
+ 
+Zu I. 
+An erster Stelle stehen immer die Angaben des (nunmehr, vgl. § 157 StPO) Angeschuldigten – vo-
+rausgesetzt, dass sich dieser während des Ermittlungsverfahrens zur Sache entweder mündlich bei 
+einer Vernehmung oder schriftlich äußert. (Die Angaben des Angeschuldigten werden in der Anklage-
+schrift bei den Beweismitteln aufgeführt, obwohl es sich nicht um ein Beweismittel im Sinne der StPO 
+handelt, arg. § 244 Abs.1 StPO) 
+ 
+Zu II. 
+Hinsichtlich der Zeugen ist nie deren vollständige ladungsfähige Privatanschrift anzugeben, sondern 
+lediglich der Wohnort. Die einzelnen Zeugen werden nacheinander unter Verwendung arabischer Zah-
+len aufgelistet. Ein Hinweis darauf, zu welcher Tat der Zeuge Angaben machen kann, e rfolgt dabei 
+nicht. 
+Soweit es sich bei den Zeugen um solche handelt, die aufgrund ihrer Eigenschaft als Amtsträger Kennt-
+nis vom Sachverhalt erlangt haben, insbesondere Polizeibeamte, erfolgt eine Ladung über die Dienst-
+stelle. 
+ 
+Zu III. 
+Als Sachverständige werden nur diejenigen Beweispersonen eingetragen, die zunächst kraft eines 
+Auftrages der Strafverfolgungsbehörden Auskunft über von ihnen im Rahmen des Gutachtenauftrages 
+festgestellte Tatsachen geben sollen. 
+ 
+Zu IV. 
+
+===== SEITE 34 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 34 von 44 
+Sodann folgen – selbstverständlich nur, soweit vorhanden – die Urkunden, wobei die Relevanz einer 
+Urkunde im Strafverfahren aus ihrer Verlesbarkeit resultiert. Unter Urkunden fallen nicht nur solche im 
+klassischen Sinne, wie etwa ein Reisepass oder ein Vertrag, sondern auch Gutachten, soweit diese 
+verlesbar sind (vgl. hierzu § 256 StPO).  
+Zu V. 
+Unter Augenscheinsobjekten sind solche Beweismittel zu verstehen, die entweder in den Akten ein-
+gesehen werden können, etwa Lichtbilder oder Skizzen, oder deren Asservierung für das Verfahren 
+erfolgt ist und die – nach vom Gericht veranlasster Herbeischaffung aus der Asservatenkamme r – in 
+Augenschein bzw. sinnlich wahr genommen werden können. Hierzu müssen die Beweismittel aller-
+dings tatsächlich verfügbar sein. 
+ 
+D. Die Anträge  
+Bei den Anträgen ist zu beachten, dass entgegen der üblichen Praxis in Berlin ein Großteil der inner-
+halb des prozessrechtlichen Gutachtens im materiellrechtlichen Gutachten erörterten Gesichtspunkte 
+nicht als Anträge in die Anklageschrift aufzunehmen ist. Während in der Praxis also beispielsweise der 
+Antrag auf Bestellung eines Pflichtverteidigers in die Anklageschrift aufgenommen wird, sind in den 
+Anklageentwurf in der Examensklausur nur die nach der StPO und den Richtlinien für das Strafverfah-
+ren und das Bußgeldverfahren (RiStBV) zwingend vorgeschriebenen Anträge aufzunehmen. Hierbei 
+handelt es sich um den Eröffnungsantrag (§ 199 Abs. 2 StPO bzw. § 207 Abs. 1 StPO; Nr. 110 Abs. 
+3 RiStBV) und Anträge hinsichtlich der Fortdauer der  Haftverhältnisse in diesem Verfahren (§ 207 
+Abs. 4 StPO; Nr. 110 Abs. 4 S. 2 RiStBV). 
+ 
+Beispiel: 
+„Es wird beantragt, 
+1. das Hauptverfahren zu eröffnen und die Anklage zur Hauptverhandlung vor dem 
+Amtsgericht Tiergarten – Schöffengericht – zuzulassen, 
+2. Haftfortdauer anzuordnen“ (bei mehreren Angeschuldigten den Namen nennen!) 
+Beachte: Anträge auf Erlass eines Haftbefehls oder auf Aufhebung einer bestehenden Haftverscho-
+nung sind nur im prozessrechtlichen Gutachten zu behandeln. Denn bei einer Antragstellung auf Erlass 
+eines Haftbefehls in den Schlussanträgen der Anklageschrift würde der Angeschuldigte durch die An-
+klagemitteilung möglicherweise noch vor Haftbefehlserlass gewarnt, dass ihm Untersuchungshaft 
+droht. Eine Aufhebung des Haftbefehls würde hingegen noch unmittelbar im Ermittlungsverfahren ver-
+anlasst, so dass sich die Haftsituation bei Anklageerhebung bereits erledigt hat. 
+
+===== SEITE 35 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 35 von 44 
+ 
+E. Beispiele für Formulierungen des Anklagesatzes 
+Zur Verdeutlichung der Systematik bei der Bildung des abstrakten Anklagesatzes einige beispielhafte 
+Konstellationen: 
+I. versuchter Totschlag in Tateinheit mit vorsätzlicher Körperverletzung – kein Strafantrag gestellt 
+„tateinheitlich 
+versucht zu haben, einen Menschen zu töten, ohne Mörder zu sein, 
+und (zugleich) 
+eine andere Person körperlich misshandelt und an der Gesundheit geschädigt zu haben 
+KONKRETUM 
+Verbrechen, strafbar gemäß §§ 212 Abs. 1, 223 Abs. 1, 230, 22, 23, 52 StGB 
+Das besondere öffentliche Interesse an der Verfolgung der vorsätzlichen Körperverletzung wird 
+bejaht.“ 
+(Der Hinweis auf das besondere öffentliche Interesse ist erforderlich, da ansonsten insoweit ein Ver-
+fahrenshindernis bestünde.) 
+ 
+II. gefährliche Körperverletzung in Tateinheit mit Beleidigung 
+„eine andere Person mittels einer Waffe körperlich misshandelt (zu haben) 
+(und) zugleich 
+einen anderen beleidigt zu haben. 
+KONKRETUM 
+Vergehen, strafbar gemäß §§ 185, 194, 223 Abs. 1, 224 Abs. 1 Nr. 2, 52, (74), 77, 77b StGB. 
+Der erforderliche Strafantrag ist form- und fristgerecht gestellt.“ 
+Merke: Im prozessrechtlichen Gutachten haben Sie eine begründete Stellungnahme zum Vorliegen 
+der Voraussetzungen von § 74 StGB abzugeben (oben Teil II E). 
+ 
+
+===== SEITE 36 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 36 von 44 
+III. versuchter Diebstahl mit Waffen 
+„versucht zu haben, eine fremde bewegliche Sache einem anderen in der Absicht wegzuneh-
+men, die Sache sich rechtswidrig zuzueignen, und hierbei eine Waffe bei sich geführt zu haben. 
+KONKRETUM 
+Vergehen, strafbar gemäß §§ 242, 244 Abs. 1 Nr. 1a, Abs. 2, 22, 23, (74) StGB“ 
+(§ 242 ist einzubeziehen, um Wegnahme und rechtswidrige Zueignungsabsicht darzustellen.) 
+ 
+IV. räuberischer Diebstahl 
+„bei einem Diebstahl auf frischer Tat betroffen gegen eine Person Gewalt verübt zu haben, um 
+sich im Besitz des gestohlenen Gutes zu erhalten. 
+KONKRETUM 
+Verbrechen, strafbar gemäß §§ 249 Abs. 1, 252 StGB“ 
+(§ 249 ist zu zitieren, da sich erst daraus der Strafrahmen ergibt.) 
+ 
+V. schwerer Raub mit Todesfolge 
+„mit Gewalt gegen eine Person eine fremde bewegliche Sache einem anderen in der Absicht 
+weggenommen zu haben, die Sache sich rechtswidrig zuzueignen, wobei er eine Waffe bei 
+sich führte, und dadurch wenigstens leichtfertig den Tod eines anderen Menschen ve rursacht 
+zu haben. 
+KONKRETUM 
+Verbrechen, strafbar gemäß §§ 249 Abs. 1, 250 Abs. 1 Nr. 1a, 251, (74) StGB.“ 
+(Selbst bei vorsätzlichem Handeln sind die Worte „wenigstens leichtfertig“ als Mindestvoraussetzung 
+zu zitieren.) 
+ 
+VI. schwere räuberische Erpressung: 
+„einen Menschen rechtswidrig durch Gewalt gegen eine Person zu einer Handlung genötigt und 
+dadurch dem Vermögen des Genötigten Nachteil zugefügt zu haben, um sich zu Unrecht zu 
+
+===== SEITE 37 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 37 von 44 
+bereichern, und hierbei ein Werkzeug bei sich geführt zu haben, um den Widerstand einer an-
+deren Person durch Gewalt zu verhindern. 
+KONKRETUM 
+Verbrechen, strafbar gemäß §§ 249, 250 Abs. 1 Nr. 1b, 253, 255, (74) StGB.“ 
+ 
+VII. Beihilfe zum Betrug 
+„vorsätzlich einem anderen zu dessen vorsätzlich begangener rechtswidriger Tat – nämlich ei-
+nem Betrug – Hilfe geleistet zu haben. 
+KONKRETUM 
+Vergehen, strafbar gemäß §§ 263 Abs. 1, 27 StGB.“ 
+ 
+VIII. Verabredung zum Raub 
+„sich bereit erklärt zu haben, ein Verbrechen – nämlich einen Raub – zu begehen. 
+KONKRETUM 
+Verbrechen, strafbar gemäß § 30 i.V.m. § 249 StGB“ 
+(Der Hinweis „i.V.m.“ ist notwendig, da sich erst aus § 249 das Strafmaß ergibt, andererseits aber nur 
+wegen § 30 Abs. 2 eine Verurteilung erfolgt.) 
+ 
+IX. Gefährdung des Straßenverkehrs – hinsichtlich der Gefährdung nur Fahrlässigkeit 
+„vorsätzlich im Straßenverkehr ein Fahrzeug geführt zu haben, obwohl er infolge des Genusses 
+alkoholischer Getränke nicht in der Lage war, das Fahrzeug sicher zu führen, und dadurch 
+fahrlässig fremde Sachen von bedeutendem Wert gefährdet zu haben. 
+KONKRETUM 
+Der Angeschuldigte hat sich durch die Tat als ungeeignet zum Führen von Kraftfahrzeugen 
+erwiesen. 
+Vergehen, strafbar gemäß §§ 315c Abs. 1 Nr. 1a, Abs. 3 Nr. 1, 69 Abs. 2 Nr. 1, 69a StGB“ 
+
+===== SEITE 38 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 38 von 44 
+  
+
+===== SEITE 39 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 39 von 44 
+X. Gefährlicher Eingriff in den Straßenverkehr zur Verdeckung einer anderen Straftat 
+„vorsätzlich die Sicherheit des Straßenverkehrs dadurch beeinträchtigt zu haben, dass er einen 
+dem Hindernisbereiten ähnlichen, ebenso gefährlichen Eingriff vornahm, und dadurch vorsätz-
+lich Leib und Leben eines anderen Menschen gefährdet zu haben, wobei er in der Absicht 
+handelte, eine andere Straftat zu verdecken. 
+KONKRETUM 
+Der Angeschuldigte hat sich durch die Tat als ungeeignet zum Führen von Kraftfahrzeugen 
+erwiesen. 
+Verbrechen, strafbar gemäß §§ 315b Abs. 1 Nr. 3, Abs.3 i.V.m. 315 Abs. 3 Nr. 1b, 69 Abs. 1, 
+69a StGB“ 
+(Bei § 315b Abs. 1 Nr. 3 StGB ist derjenige Eingriff aus Nr. 1, 2 als Beispiel heranzuziehen, der dem 
+vorliegenden Eingriff am ehesten entspricht.) 
+ 
+XI. Unerlaubtes Entfernen vom Unfallort 
+„sich als Unfallbeteiligter nach einem Unfall im Straßenverkehr vom Unfallort entfernt zu haben, 
+bevor er eine nach den Umständen angemessene Zeit gewartet hat, ohne dass jemand bereit 
+war, die Feststellungen seiner Person, seines Fahrzeuges und der Art seiner Beteiligung zu 
+treffen. 
+KONKRETUM 
+Vergehen, strafbar gemäß §§ 142 Abs. 1 Nr. 2, Abs.5, (69 Abs. 2 Nr. 3, 69a) StGB“ 
+(Ohne Hinweis auf die sich aus § 142 Abs.1 Nr. 1 ergebenden erforderlichen Feststellungen wäre der 
+abstrakte Anklagesatz unverständlich.) 
+  
+
+===== SEITE 40 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 40 von 44 
+ 
+XII. Fahrlässiger Vollrausch 
+„sich fahrlässig durch alkoholische Getränke in einen Rausch versetzt und in diesem Zustand 
+eine rechtswidrige Tat – nämlich einen Diebstahl – begangen zu haben und ihretwegen nicht 
+bestraft werden zu können. 
+KONKRETUM  
+Vergehen, strafbar gemäß §§ 242, 323a StGB“  
+(Merke: § 323a StGB knüpft an das Betrinken an!) 
+  
+
+===== SEITE 41 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 41 von 44 
+Anhang 
+ 
+Und hier ein Beispiel für eine etwas komplexer gestaltete Anklageschrift: 
+ 
+ 
+Staatsanwaltschaft Berlin        Berlin, den … 
+(Js-Aktenzeichen) 
+ 
+ 
+ 
+An das 
+Amtsgericht Tiergarten 
+- Schöffengericht - 
+ 
+ 
+ 
+Anklageschrift  
+ 
+1. A 
+(…) 
+ 
+- Registerauszug ist beigefügt - 
+ 
+Verteidiger: Rechtsanwalt Kai Meyerhoff 
+ 
+2. der Angestellte B 
+(…) 
+ 
+- Registerauszug ist beigefügt - 
+ 
+werden angeklagt, 
+ 
+in Berlin 
+am 10. und 11. November JJJJ 
+ 
+durch zwei selbstständige Handlungen 
+ 
+1. der Angeschuldigte A 
+ 
+fahrlässig im Verkehr ein Fahrzeug geführt zu haben, obwohl er in-
+folge des Genusses alkoholischer Getränke nicht in der Lage war, 
+das Fahrzeug sicher zu führen, 
+
+===== SEITE 42 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 42 von 44 
+ 
+und zugleich 
+ 
+vorsätzlich die Sicherheit des Straßenverkehrs dadurch beeinträch-
+tigt zu haben, dass er einen dem Hindernisbereiten ähnlichen, 
+ebenso gefährlichen Eingriff vornahm und dadurch vorsätzlich Leib 
+oder Leben eines anderen Menschen gefährdet zu haben, wobei der 
+Täter in der Absicht handelte, eine andere Straftat zu verdecken, 
+ 
+und zugleich 
+ 
+einen Amtsträger, der zur Vollstreckung von Gesetzen berufen ist, 
+bei einer Diensthandlung tätlich angegriffen zu haben, wobei der Tä-
+ter ein gefährliches Werkzeug bei sich führte, 
+ 
+und zugleich 
+ 
+einem Amtsträger, der zur Vollstreckung von Gesetzen berufen ist, 
+bei der Vornahme einer solchen Diensthandlung mit Gewalt Wider-
+stand geleistet zu haben, wobei der Täter ein gefährliches Werkzeug 
+bei sich führte, 
+ 
+und zugleich 
+ 
+versucht zu haben,  eine andere Person mittels eines gefährlichen 
+Werkzeugs und einer das Leben gefährdenden Handlung körperlich 
+zu misshandeln und an der Gesundheit zu schädigen, 
+ 
+2. die Angeschuldigten A und B  
+ 
+gemeinschaftlich handelnd 
+ 
+einen Amtsträger, der zur Vollstreckung von Gesetzen berufen ist, bei 
+einer Diensthandlung tätlich angegriffen zu haben, 
+ 
+und zugleich 
+ 
+
+===== SEITE 43 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 43 von 44 
+einem Amtsträger, der zur Vollstreckung von Gesetzen berufen ist, 
+bei der Vornahme einer solchen Diensthandlung mit Gewalt Wider-
+stand geleistet zu haben, 
+ 
+und zugleich 
+ 
+eine andere Person mit einem anderen Beteiligten gemeinschaftlich 
+körperlich misshandelt und an der Gesundheit geschädigt zu haben. 
+ 
+ 
+Den Angeschuldigten wird Folgendes zur Last gelegt: 
+1. Am 10. November JJJJ gegen 23:50 Uhr befuhr der Angeschuldigte 
+A nach vorangegangenem erheblichem Konsum alkoholischer Ge-
+tränke mit dem Pkw BMW, amtliches Kennzeichen B-MW 1954, des 
+Angeschuldigten B die Turmstraße in 10557 Berlin -Moabit, ohne in 
+dem gebotenen Maße zu beachten, dass er aufgrund seiner Alkoho-
+lisierung nicht mehr fahrtauglich war. Als er in Höhe der Turmstraße 
+91 eine polizeiliche Verkehrskontrolle wahrnahm und erkannte, dass 
+der uniformierte Zeuge PHM Müller ihn mittels Haltekelle zum Halten 
+aufforderte, fuhr er gezielt auf den Polizeibe amten zu, um hierdurch 
+die Freigabe des Weges zu erzwingen und unerkannt seine Fahrt 
+fortzusetzen, weil er seiner Bestrafung wegen seiner Fahrt unter Al-
+koholeinfluss entgehen wollte. 
+Der Zeuge PHM Müller konnte im letzten Moment zur Seite springen 
+und wurde daher nicht angefahren, wobei der Angeschuldigte A je-
+doch eine aus dem Anfahren resultierende mögliche lebensgefährli-
+che Verletzung des Zeugen PHM Müller erkannt und gebilligt hatte. 
+2. Nachdem aufgrund des vorgenannten Geschehens eine Polizei-
+streife den Angeschuldigten A gegen 00:20 Uhr des folgenden Tages 
+in Höhe der Potsdamer Straße 88 in 10823 Berlin -Schöneberg in 
+dem Fahrzeug Pkw BMW des Angeschuldigten B sitzend angetroffen 
+und zwec ks Überprüfung zum Aussteigen aufgefordert hatte, ver-
+setzte der Angeschuldigte A dem Zeugen POM Otto einen gezielten 
+Faustschlag in das Gesicht. Der Angeschuldigte B hielt währenddes-
+sen in bewusstem und gewolltem Zusammenwirken  mit dem Ange-
+schuldigten A den Zeugen POM Otto fest und trat dem Polizeibeam-
+ten seinerseits von hinten gegen die Unterschenkel. 
+
+===== SEITE 44 =====
+ 
+ 
+ 
+KG - Referendarskript zur Pflichtstation Strafrecht - Stand Februar 2026  Seite 44 von 44 
+Aufgrund des Faustschlags durch den Angeschuldigten A erlitt der 
+Zeuge POM Otto Nasenbluten und eine leichte Gehirnerschütterung 
+mit mehrtägigen Kopfschmerzen. Folge der gezielten Fußtritte des 
+Angeschuldigten B waren blaue Flecken am Unterschenkel des Zeu-
+gen POM Otto. 
+Eine dem Angeschuldigten A am 11. November JJJJ um 02:50 Uhr 
+entnommene Blutprobe enthielt einen Mittelwert von 1,10 ‰ Alkohol. 
+Der Angeschuldigte A ist hiernach als ungeeignet zum Führen von 
+Kraftfahrzeugen anzusehen. 
+Verbrechen und Vergehen, strafbar nach §§ 113 Abs. 1, Abs. 2 Nr. 1, 114 
+Abs. 1, Abs. 2, 223, 224 Abs. 1 Nr. 2, 4 und 5, Abs. 2, 315b Abs. 1 Nr. 3, 
+Abs. 3 i.V.m. 315 Abs. 3 Nr. 1b, 316 Abs. 2, 22, 23, 25 Abs. 2, 52, 53, 69, 
+69a StGB 
+ 
+ 
+Beweismittel: 
+ 
+(…) 
+ 
+ 
+Es wird beantragt, 
+ 
+das Hauptverfahren zu eröffnen und die Anklage  zur Hauptver-
+handlung vor dem Amtsgericht Tiergarten – Schöffengericht – zu-
+zulassen. 
+ 
+ 
+Staatsanwalt 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Wir wünschen Ihnen viel Erfolg! 

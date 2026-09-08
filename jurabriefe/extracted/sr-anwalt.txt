@@ -1,0 +1,2835 @@
+===== SEITE 1 =====
+1 
+ 
+ 
+ 
+Hinweise zur Anfertigung der Anwaltsklausur im 
+Strafrecht 
+- Schriftsatz und Plädoyer – 
+ 
+Stand: Dezember 2023 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Rechtsanwälte Klaus Bobisch und Hannes Honecker 
+  
+
+===== SEITE 2 =====
+2 
+ 
+ 
+ 
+ 
+Inhaltsverzeichnis 
+ 
+A) Einleitung            3 - 4 
+B) Gutachten / anwaltliche Leistung        4 -42 
+ I.  Der Aufbau des Gutachtens        6 -  8 
+ II. Die anwaltliche Leistung         8 -11 
+ III.  Das Verteidigungsziel        11-14 
+ IV.  Die Schutzschrift im Zwischenverfahren     14-23 
+  1. Aufgabenstellung           14 
+  2. Aufbau - Gliederung - Formalien      14-17 
+  3. Die Anträge        17-23 
+ V. Die Begründung einer Haftprüfung, einer Haftbeschwerde    23-32 
+oder einer weiteren Beschwerde 
+  1. Rechtsschutzmöglichkeiten im Recht der Untersuchungshaft  23-24 
+  2. Basiswissen        24-29 
+   a) Adressat / Zuständigkeit      24-25 
+   b) Wahl des "richtigen" Rechtsbehelfs    25-27 
+  3. Aufgabenstellung - Formalien und Gliederung - Anträge  27-32 
+ VI.  Die Strafbefehlsklausur        32-42 
+  1. Wiedereinsetzung in den vorigen Stand     34-36 
+  2. Aufbau des Schriftsatzes / Beschränkung des Einspruchs   36-42 
+C) Das Plädoyer          42-51 
+  1. Aufgabenstellung        42-43 
+  2. Aufbau - Gliederung - Formalien      43-47 
+  3. Die Anträge        47-50 
+  4. Ergänzendes Gutachten       50-51 
+D) Besonderheiten - Insbesondere: Das Mandantenschreiben    51-52 
+E) Muster - Plädoyer - Haftbeschwerde       53-65 
+
+===== SEITE 3 =====
+3 
+ 
+ 
+ 
+ 
+Die Klausur im Strafrecht aus anwaltlicher Sicht 
+ 
+A) Einleitung 
+Nach § 28 Abs. 2 Satz 6 JAO (Berliner Juristenausbildungsordnung) stammen in der 
+schriftlichen Prüfung (zweites Staatsexamen) bis zu vier Aufgaben aus der anwaltlichen 
+Berufspraxis. Da zwei Aufsichtsarbeiten ihren Schwerpunkt im Pflichtfach Strafrecht habe n, 
+führt dies in der Praxis dazu, dass eine Klausur im Strafrecht aus anwaltlicher Sicht geschrieben 
+wird. Obwohl bei den Klausuren im Strafrecht aus anwaltlicher Sicht seit geraumer Zeit fast 
+ausschließlich die Erfolgsaussichten einer Revision zu begutach ten waren, weist das GJPA 
+immer wieder darauf hin, dass auch die Plädoyer- und Schriftsatzklausur prüfungsrelevant ist. 
+Wir gehen daher im Pflichtfach Strafrecht derzeit von folgenden Klausurkonstellationen aus: 
+ 
+1. Ein umfassendes materielles und prozessuales Gutachten + eine anwaltliche Leistung  
+(Schriftsatzklausur) oder umgekehrt - es ist genau auf den Bearbeitervermerk zu 
+achten - eine anwaltliche Leistung + ein ergänzendes Gutachten  
+2. ein Plädoyer mit einem anschließenden ergänzenden Gutachten 
+3. Die Begutachtung der Erfolgsaussichten einer Revision 
+ 
+Die anwaltliche Leistung soll darin bestehen, in Anschluss an das Gutachten einen 
+anwaltlichen Schriftsatz oder ein Mandantenschreiben anzufertigen  (Konstellation Nr. 1. 1. 
+Alternative). Besteht die Aufgabe darin, zuerst eine anwaltliche Leistung – in der Regel einen 
+Schriftsatz – und sodann ein ergänzendes Gutachten zu erstellen  (Konstellation Nr. 1 . 2. 
+Alternative), liegt der Schwerpunkt der Arbeit und des Argumentationsaufwandes meistens 
+auf dem Schriftsatz. Das ergänzende Gutachten nimmt dann nur noch dazu Stellung, welche 
+rechtlichen und tatsächlichen Würdigungen nicht im Schriftsatz aufgeführt werden sollten. 
+Bei der Plädoyerklausur ist es hingegen üblich , dass die anwaltliche Leistung  (der 
+Schlussvortrag, das Plädoyer) dem Gutachten vorangestellt wird. Dem Plädoyer folgt also ein 
+ergänzendes Gutachten (vgl. dazu Seiten 46 -47). Regelmäßig liegt der größere 
+Argumentationsaufwand im Plädoyer und das ergänzende Gutachten nimmt lediglich no ch 
+dazu Stellung, welche rechtlichen und tatsächlichen Würdigungen nicht im Plädoyer 
+aufgeführt wurden sollten.  
+Als Schriftsätze sind nach bisherigen Erfahrungen insbesondere folgende Konstellationen zu 
+erwarten: 
+ 
+ Anfertigung einer Schutzschrift im Zwischenverfahren (§ 201 StPO) 
+
+===== SEITE 4 =====
+4 
+ 
+ 
+ 
+ Begründung einer Haftprüfung, Haftbeschwerde bzw. einer weiteren Beschwerde 
+ Begründung eines Einspruchs gegen einen Strafbefehl 
+ Begründung eines Rechtsbehelfs gegen eine (vorläufige) Maßnahme im 
+Ermittlungsverfahren. Examensrelevant dürfte insbesondere die Begründung einer 
+Beschwerde gegen die vorläufige Entziehung der Fahrerlaubnis oder einen 
+Durchsuchungsbeschluss sein. 
+ 
+Die Anfertigung eines Gutachtens ist Gegenstand der juristischen Ausbildung im Studium und 
+dürfte für die Referendar *innen - was den Aufbau betrifft - unproblematisch sein. Das 
+Revisionsrecht wird in mehreren Lehr büchern anschaulich dargestellt und in einem 
+gesonderten Skript behandelt.  
+In diesem Skript geht es deshalb darum, die Anträge, den Aufbau und die Formerfordernisse 
+für die anwaltlichen Schriftsätze, das Plädoyer der Verteidigung und das Mandantenschreiben 
+darzustellen und auf mögliche Fehlerquellen hinzuweisen. Außerdem soll auf die 
+Besonderheiten eingegangen werden, die für das ergänzende Gutachten gelten. 
+Wie häufig in Zukunft die Anfertigung eines Schriftsatzes, eines Plädoyers oder einer Revision 
+in der schriftlichen Prüfung verlangt wird , lässt sich schwer einschätzen. In den letzten 
+Kampagnen ist überwiegend die Anfertigung eines revisi onsrechtlichen Gutachtens verlangt 
+worden und womöglich wird das Revisionsrecht auch weiterhin eine größere Rolle spielen, als 
+die Schriftsatz - und Plädoyerklausur.  Der Schwerpunkt dieses Skriptes soll darüber nicht 
+hinwegtäuschen, sondern ist dem Umstand  geschuldet, dass nach unserer Kenntnis keine 
+Literatur für den Schriftsatz und das Plädoyer der Verteidigung in der Assessorklausur existiert. 
+ 
+B) Gutachten / anwaltliche Leistung 
+Hinsichtlich der prozessualen und materiell -rechtlichen Begutachtung des Sa chverhaltes gilt 
+grundsätzlich nichts anderes, als für sämtliche juristischen Gutachten. Der Sachverhalt ist 
+vollständig prozessual und materiell -rechtlich zu würdigen. Allerdings besteht bei der 
+Anwaltsklausur die Besonderheit, dass Grundlage der Prüfung eine Anklageschrift, ein 
+Haftbefehl oder ein Strafbefehl ist, so dass ein Teil der  zu prüfenden S traftatbestände 
+vorgegeben wird. Nach den bisherigen Erfahrungen ist außerdem die Anzahl der zu prüfenden 
+Straftatbestände geringer, als in der Klausur aus staatlicher Sicht.  
+ 
+Im Gutachten sollten in erster Linie sämtliche Straftatbestände erörtert werden, die angeklagt 
+worden sind bzw. hinsichtlich derer in einer Anklage, einem Haftbefehl oder einem Strafbefehl 
+dringender, bzw.  hinreichender Tatverdacht bejaht worden ist. Für die Beratung des 
+Mandanten ist jedoch von Bedeutung, ob die Gefahr einer Bestrafung wegen eines bislang von 
+der Staatsanwaltschaft bzw. dem Gericht nicht erwähnten Tatbestandes besteht. Dahe r sind 
+gutachterlich auch diejenigen Tatbestände zu prüfen, die in der Anklageschrift, dem Straf- 
+
+===== SEITE 5 =====
+5 
+ 
+ 
+ 
+oder Haft befehl nicht genannt werden . Allerdings dürfte die ausführliche Prüfung von 
+Tatbeständen, die in der Anklageschrift, dem Strafbefehl bzw. dem Haftbef ehl nicht erwähnt 
+werden und  vom Bearbeiter verneint werden, eher  die Ausnahme darstellen. Eine solche 
+Ausnahme läge beispielsweise vor, wenn die Staatsanwaltschaft vor einem 
+Haftprüfungstermin eine Erweiterung des Haftbefehles auf andere Taten ankündigt u nd der 
+Verteidigung insoweit Akteneinsicht gewährt wird. Auch in der Strafbefehlsklausur sollten die 
+Bearbeiter*innen darauf achten, dass das Verschlechterungsverbot nicht gilt und folglich die 
+Prüfung von im Strafbefehl nicht genannten Tatbeständen in der  mündlichen 
+Hauptverhandlung nach einem entsprechenden rechtlichen Hinweis rechtlich zulässig ist. 
+ 
+Die praktische Tätigkeit von Strafverteidigern lässt sich in der Klausur nur sehr eingeschränkt 
+simulieren. Daher ist es üblich, dass Grundlage der gutachte rlichen Prüfung regelmäßig eine 
+fehlerhafte Anklageschrift bzw. ein fehlerhafter Haft-/Strafbefehl ist und aus der zutreffenden 
+bzw. zu erwartenden rechtlichen Beurteilung des Sachverhaltes die naheliegenden 
+Konsequenzen für die Beratung des Mandanten gezogen werden. Hierzu zwei Beispiele: 
+ 
+1.  
+In einem Strafbefehl wird dem Mandanten vorgeworfen, am 05.11.2023 einen Diebstahl in 
+einem besonders schweren Fall (§§ 242, 243 Abs. 1 Nr. 1 StGB,  Mindeststrafe: 3 Monate) 
+und am 17.11. 2023 eine Urkundenfälschung begangen zu haben. Die gutachterliche 
+Prüfung ergibt, dass tatsächlich ein Wohnungseinbruchdiebstahl vorlag, die verwertbaren 
+Beweismittel jedoch nicht ausreichen, um den Mandanten wegen einer 
+Urkundenfälschung zu verurteilen. 
+ 
+Da d ie Mindeststrafe für den Wohnungseinbruchdiebstahl ein Jahr  beträgt und das 
+Verschlechterungsverbot im Strafbefehlsverfahren keine Anwendung findet (§ 411 Abs. 4 
+StPO), sollte dem Mandanten geraten werden, den Einspruch auf die Tat vom 17.11. 2023 
+zu beschr änken (vgl. § 410 Abs. 2 StPO). Da die Verurteilung wegen Diebstahls im 
+besonders schweren Fall mit der Beschränkung des Einspruchs rechtskräftig wird, käme in 
+einer Hauptverhandlung eine Bestrafung gemäß § 244 Abs. 1 Nr. 3 StGB nicht mehr in 
+Betracht und könnte gleichwohl ein Freispruch wegen des Vorfalles vo m 17.11. 2023 
+erreicht werden. In dem dem Gutachten folgenden Schriftsatz (Begründung des Einspruchs 
+gegen den Strafbefehl) wäre dann inhaltlich nur noch auf den Vorwurf der 
+Urkundenfälschung einzugehen. 
+ 
+2. 
+In einem noch  nicht vollstreckten Haftbefehl  wird ein dringender Tatverdacht wegen 
+gewerbsmäßigen Betrugs (§ 263 Abs. 3 Nr. 1 StGB) angenommen. Die Fluchtgefahr des 
+nicht vorbestraften Mandanten wird damit begründet, dass keine Meldeanschrift bekannt 
+sei und bei einem Betrug generell eine Verdunkelungsgefahr bestünde. Nach Erlass des 
+Haftbefehls schließt der Mandant einen Mietvertrag ab und meldet sich beim zuständigen 
+
+===== SEITE 6 =====
+6 
+ 
+ 
+ 
+Bürgeramt an. Die gutachterliche Prüfung ergibt, dass tatsächlich ein Tatverdacht lediglich 
+wegen einfachen Betrugs besteht. 
+ 
+Diese Klausurkonstellation ist recht verbreitet. Zum einen kann der Tatvorwurf 
+„herunterdefiniert“ werden, wodurch sich die Straferwartung reduziert, was wiederum 
+Auswirkungen auf die Prüfung der Fluchtgefahr hat. Zum anderen sind die Argumente, mit 
+denen die Haftgründe bejaht werden, überholt (Fluchtgefahr) bzw. rechtlich nicht haltbar 
+(Verdunkelungsgefahr), da nach allgemeiner Ansicht allein aus der Verwirklichung eines 
+Tatbestandes nicht auf die Verdunkelungsgef ahr geschlossen werden kann (vgl. Meyer -
+Goßner / Schmitt, § 112 Rdnr. 30 am Ende). Ausführungen zum einfachen Betrug und zu 
+den beiden Haftgründen wären in diesem Beispiel sowohl im Gutachten als auch in der 
+Begründung der Haftbeschwerde erforderlich. 
+ 
+Die Beispiele verdeutlichen, dass in der Anwaltsklausur Anklageschriften, Haft - und 
+Strafbefehle von den Referendar*innen kritisch gelesen werden sollten und davon 
+ausgegangen werden kann, dass diese in der Regel die materielle Rechtslage nicht 
+zutreffend wiedergeben. 
+ 
+ 
+I. Der Aufbau des Gutachtens 
+ 
+Was den Aufbau des Gutachtens angeht, möchten wir lediglich auf zwei Besonderheiten 
+eingehen. Zum einen stellt sich die Frage, ob vorweg sämtliche Tatbestände geprüft werden 
+sollen, die in der Anklageschrift bzw. dem Straf- oder Haftbefehl genannt werden und danach 
+die „sonstigen“ (übersehenen) Straftatbestände erörtert werden oder ob jede Tat vollständig 
+gutachterlich abzuhandeln ist. Auch wenn es insoweit keine starren Regeln gibt, empfehlen 
+wir die chronologische und vollständige Prüfung jeder prozessualen Tat. Anderenfalls besteht 
+nach unserer Erfahrung die Gefahr, dass von den Korrektoren kritisiert wird, dass nach einer 
+bereits beendeten Prüfung später unvermittelt nochmals auf denselben Sachverhalt 
+zurückgekommen wird. 
+ 
+Zum anderen bereitet die Erörterung prozessualer Probleme den Referendar *innen 
+regelmäßig Schwierigkeiten. Hierbei geht es häufig um Beweiswürdigungsfragen und 
+Beweisverwertungsverbote, die immer tatbestandsmerkmalbezogen erörtert werden sollten. 
+Es sollte also insoweit keinen prozessualen und einen hiervon getrennten materiell -
+rechtlichen Teil im Gutachten geben. Für diese Art der Darstellung spricht, dass der dadurch 
+am besten die Bedeutung der erörterten Rechtsfrage für die Lösung des Falles vor Augen 
+geführt werden kann. In den Klausuren liest man manchmal seitenlange Ausführungen zu 
+einem Beweisverwertungsverbot, ohne zu wissen, für welchen Vorwurf bzw. für welches 
+Tatbestandsmerkmal dies von Bedeutung sein soll. Es kommt vor, dass Gutachten  mit dem 
+Satz beginnen: „Die bei der Durchsuchung gefundenen Unterlagen könnten wegen eines 
+willkürlichen Verstoßes gegen den Richtervorbehalt unverwertbar sein.“ Unklar bleibt bei 
+
+===== SEITE 7 =====
+7 
+ 
+ 
+ 
+derart im „luftleeren Raum“ erörterten Fragen, ob es auf das Beweisverwertu ngsverbot 
+überhaupt ankommt. Auch hierzu ein Beispiel:  
+ 
+Der Mandant war vor seiner polizeilichen Vernehmung nicht über sein Schweigerecht 
+belehrt worden und hatte ein Geständnis abgelegt. Der Nachweis der Tat 
+(Körperverletzung) kann jedoch auf Grund mehre rer Zeug enaussagen geführt werden. 
+Hinsichtlich einer weiteren Tat (Hehlerei – Weiterverkauf eines von dem Zeugen F. 
+gestohlenen Fahrzeuges) konnte die Kenntnis des Mandanten von der rechtswidrigen Tat 
+ausschließlich anhand eines richterlichen Geständnisse s des Mandanten nachgewiesen 
+werden. Insoweit war jedoch die erforderliche Benachrichtigung des Verteidigers gemäß § 
+168 c Abs. 5 StPO unterblieben. 
+ 
+Zwar werden von der herrschenden Meinung bei Verstößen gegen die §§ 136 Abs. 1 Satz 
+2, 168 c Abs. 5 StPO im Falle eines rechtzeigen Widerspruches der Verteidigung in der 
+Hauptverhandlung Verwertungsverbote bejaht. Die ausführliche Erörterung des ersten 
+Verwertungsverbotes ist jedoch auf Grund des sicheren Tatnachweises  durch andere 
+Beweismittel im Schriftsatz oder Plädoyer überflüssig. Im Gutachten bzw. im ergänzenden 
+Gutachten hingegen kann hierzu Stellung genommen und deutlich gemacht werden, dass 
+Ausführungen zu  § 136 Abs. 2 Satz 1 StPO deswegen im Schriftsatz oder Plädoyer 
+unterbleiben, weil es aufgrund der belastenden Zeugenaussagen nicht mehr darauf 
+ankommt. Demgegenüber sollte auf das zweite Verwertungsverbot im Schriftsatz oder 
+Plädoyer ausführlich eingegangen werden, weil es dazu führen kann, dass der Mandant 
+nicht wegen Hehlerei bestraft wird und die Bearbeiter*innen mit ihrer Argumentation ein 
+Gericht (und die Korrektur) überzeugen sollen. 
+ 
+Abgesehen von Beweiswürdigungsproblemen – also wenn es nicht um den Nachweis der Tat 
+geht – kann es erforderlich sein, dass einzelne prozessuale Fragen gesondert – also losgelöst 
+von der materiell -rechtlichen Prüfung – zu erörtern sind. Dies wird beispielsweise bei  den 
+folgenden Fallkonstellationen vorkommen: 
+ 
+ Prüfung der Zulässigkeit eines Rechtsbehelfs ggf. gekoppelt mit einem Antrag auf 
+Wiedereinsetzung in den vorigen Stand ( Bsp.: Strafbefehlsklausur – Versäumen der 
+Einspruchsfrist) 
+ Begründung für die Beschränkung des Einspruchs gegen einen Strafbef ehl (kein 
+Verschlechterungsverbot) 
+ Auswahl eines von mehreren zulässigen Rechtsbehelfen (Standardfall: Haftprüfung / 
+Haftbeschwerde) 
+ 
+Schließlich kann sich die gesonderte Erörterung prozessualer Probleme im Gutachten aus dem 
+Bearbeitervermerk ergeben. Beliebt dürften zukünftig aufgrund der Neugestaltung des Rechts 
+der notwendigen Verteidigung Fragen im Zusammenhang mit dem Zeitpunkt der Beiordnung 
+oder dem Pflichtverteidigerwechsel sein (vgl. Böß, NStZ 2020, 185 ff. ; vgl. auch Seiten 31 -32 
+
+===== SEITE 8 =====
+8 
+ 
+ 
+ 
+für die Haftklaus ur). In einer anderen Klausur wurde nach den Voraussetzungen für eine 
+Richterablehnung und in einer weiteren Klausur nach der Ablehnung bzw. Auswechselung des 
+befangenen Staatsanwaltes gefragt ; weitere d enkbare Klausuraufgaben könnten  die 
+Formulierung eines Beweisantrages sein. Hier sind zahlreiche Konstellationen und 
+Zusatzfragen denkbar. An dieser Stelle soll es lediglich darum gehen, dass sich die 
+Beantwortung solcher prozessualer Zusatzfragen nicht in das materiell -rechtliche Gutachten 
+integrieren lässt. 
+ 
+II. Die anwaltliche Leistung 
+Im Vergleich zu der Klausur im Strafrecht aus staatlicher Sicht (Anklageschrift) sind die 
+formalen Anforderungen an einen anwaltlichen Schriftsatz gering er. Dies darf aber nicht zu 
+der Annahme verleiten, die anwaltliche Leistung wirke sich lediglich abrundend auf die 
+Bewertung einer Klausur aus ; dies gilt selbst dann, wenn der Bearbeitervermerk eine 
+gutachterliche Stellungnahme und (im Anschluss) eine anwaltliche Leistung verlangt . Ebenso 
+wie das Fehlen einer Anklageschrift in der Klausur aus staatlicher Sicht als erheblicher Mangel 
+angesehen wird, soll sich auch das Fehlen eines Schriftsatzes, Plädoyers oder 
+Mandantenschreibens gravierend auf die Bewertung einer Klausur auswirken.  
+Denn erst durch den überzeugenden Schriftsatz weisen Referendar*innen ihre 
+berufspraktischen Kenntnisse nach. Im anwaltlichen Bereich bedeutet dies, dass  sie 
+ausschließlich im Interesse des Mandanten tätig werden . Das verlangt, dass nur jene 
+(gutachterlichen) Überlegungen im Schriftsatz und im Plädoyer der Verteidigung auftauchen, 
+die dem Mandanten auch nutzt. Denn die 
+ 
+anwaltliche Tätigkeit zeichnet sich durch die einseitige Wahrnehmung der 
+Interessen des Mandanten aus 
+ 
+und dies soll die anwaltliche Schriftsatzklausur und das anwaltliche Plädoyer in der 
+Assessorklausur simulieren. 
+In der Ausbildung ist diese (Verteidigungs-) Perspektive für Referendar*innen ungewohnt und 
+neu. Es soll nun nicht mehr - wie seit Jahren gewohnt – „objektiv“1 beurteilt werden, wie ein 
+Sachverhalt rechtlich zu bewerten ist, sondern im Interesse des Mandanten argumentiert 
+werden. Dies gilt uneingeschränkt für die Anfertigu ng von Schriftsätzen . Damit ist gemeint, 
+dass sich längere  Ausführungen zu rechtlichen Aspekten, die für den Mand anten nicht von 
+Vorteil sind, in Schriftsätzen nachteilig auf die Bewertung auswirken dürften. Wird das nicht 
+                                                           
+1 Aus Sicht des GJPA ist die „objektive“ Sicht meist die der Strafverfolgungsbehörden oder der Justiz.  
+
+===== SEITE 9 =====
+9 
+ 
+ 
+ 
+beachtet, gelingt nämlich in der Regel keine anwaltliche - also berufspraktische - Leistung. Zur 
+Verdeutlichung ein Beispiel: 
+ 
+Beispiel (Haftklausur): 
+In einem Haftbefehl wird dem Mandanten ein schwerer Raub vorgeworfen. Der 
+dringende Tatverdacht ergibt sich aus Sicht der Staatsanwaltschaft unter anderem aus 
+der polizeilichen Vernehmung eines Mitbeschuldigten, der zuvor nicht nach den §§ 163 a 
+Abs. 4 S. 2, 136 Abs. 1 StPO über die Möglichkeit belehrt worden war, einen Verteidiger 
+vor der Vernehmung zu befragen.  
+In der Begründung eines Rechtsbehelfs (Haftprüfung/Haftbeschwerde) gegen den 
+Haftbefehl, muss man sich zwar grundsätzlich auch mit möglichen Verw ertungsverboten 
+auseinandersetzen, da diese den dringenden Tatverdacht ausschließen können. Jedoch 
+bejaht die ganz herrschende Meinung (ständige Rechtsprechung) bei einem Verstoß 
+gegen § 136 Abs. 1 StPO ein Verwertungsverbot nur, wenn der Rechtskreis des 
+Vernommenen berührt wird (Rechtskreistheorie / Schutzzwecklehre). Der Verteidiger 
+wird daher in einem Schriftsatz kaum mit Aussicht auf Erfolg die Unverwertbarkeit der 
+Vernehmung des Mitbeschuldigten geltend machen können. Im Gutachten wäre dies 
+vorab oder – im Fall der Konstellation Nr. 1.2. Alternative, siehe oben S. 2 nachfolgend im 
+ergänzenden Gutachten - zu klären.  Besonders engagierte Referendare können 
+selbstverständlich versuchen, mit guten Argumenten gegen die gefestigte 
+Rechtsprechung im Schriftsat z anzugehen. Taktisch nicht nachvollziehbar und aus 
+anwaltlicher Sicht auch nicht geboten  wäre es jedoch,  im Schriftsatz die 
+Rechtskreistheorie zu erörtern und dort das Verwertungsverbot zu verneinen. Denn dem 
+Mandanten ist dadurch nicht geholfen. Ein solches Vorgehen könnte sich aber auch dann 
+nachteilig auf die Bewertung auswirken , wenn der/die Verf asser*in entgegen der 
+herrschenden Meinung ein Verwertungsverbot annimmt, sich aber nicht mit der 
+entgegenstehenden herrschenden Meinung kritisch auseinandersetzt. 
+Häufig wird von Referendar *innen die Frage aufgeworf en, ob im Schriftsatz  zu sämtlichen 
+Tatbestandsmerkmalen und zum Vorsatz Stellung genommen werden soll oder ob es genügt, 
+nur dasjenige Tatbestandsmerkmal zu erörtern, das verneint wird. Darüber hina us bereiten 
+die Erörterung von Beweiswürdigungsfragen und von Beweisverwertungsverboten manchmal 
+Schwierigkeiten. Nach unserer Erfahrung ist hierzu folgendes zu sagen: 
+Es ist zu empfehlen, sich im  Schriftsatz auf die Prüfung der Aspekte zu beschränken 
+(Tatbestandsmerkmale / Vorsatz / Rechtfertigungsgründe / Entschuldigungs - und 
+Schuldausschließungsgründe / Strafaufhebungsgründe /  Absehen von Strafe) , die die 
+Strafbarkeit ausschließen bzw. das Strafmaß für den Mandanten positiv beeinflussen. 
+ 
+
+===== SEITE 10 =====
+10 
+ 
+ 
+ 
+Beispiel: Dem Mandanten wird ein schwerer Raub gemäß §§ 249, 250 Abs. 2 Nr. 1 StGB 
+vorgeworfen. Er soll einem Zeugen das  Smartphone mit Gewalt entwendet haben. Der 
+objektive Tatbestand des Raubes lässt sich problemlos nachweisen. Zu verneinen sind der 
+Vorsatz hinsich tlich der Rechtswidrigkeit der Zueignung und die Verwendung eines 
+gefährlichen Werkzeuges.  
+In einem solchen Fall sollte die Prüfung sogleich mit dem Vorsatz beginne n. Nach der 
+Verneinung des Vorsatzes sollte zusätzlich darauf hingewiesen werden, dass die 
+Qualifikation nicht verwirklicht worden ist.  
+ 
+Formulierungsvorschlag (Schutzschrift): 
+Eine Eröffnung des Hauptverfahrens scheitert  daran, dass der Vorsatz bezüglich der 
+rechtswidrigen Zueignung des Smartphones nicht nachgewiesen werden kann. 
+Unwiderlegbar hat nämlich mein Mandant dazu ausgeführt, irrtümlich davon 
+ausgegangen zu sein, einen Anspruch auf Übergabe des Gerätes zu haben (...). 
+Aber selbst wenn man einen Tatverdacht wegen Raubes annähme, käme allenfalls eine 
+Eröffnung des Hauptverfahrens wegen e ines einfachen und nicht wegen schweren 
+Raubes in Betracht. Denn jedenfalls hat mein Mandant kein gefährl iches Werkzeug 
+verwendet (...). 
+ 
+Beispiel Betrugsvorwurf:  
+Dem Mandanten wird ein Betrug vorgeworfen. Es fehlt am Vermögensschaden. 
+ 
+Formulierungsvorschlag (Schutzschrift):  
+Die Tat ist nicht als Betrug strafbar. Selbst wenn die vom Vorliegen einer Täuschung, eines 
+täuschungsbedingten Irrtums, und einer irrtumsbedingten Vermögensverfügung 
+ausgegangenen werden muss, so liegt doch erkennbar kein Vermögensschaden vor.  
+ 
+Zusammenfassend lässt sich festhalten, dass die anwaltliche Leistung in der Regel darin 
+besteht, in  einem Schriftsatz  einen Ausschnitt aus dem zuvor angefertigten Gutachten 
+interessengerecht darzustellen. In jenen Fällen, in denen zunächst ein Schriftsatz angefertigt 
+und sodann in einem ergänzenden Gutachten nur noch jene Aspekte erörtert werden sollen, 
+die dem Mandanten nicht nur n ützen, m üssen die Referendar*innen die klassische 
+Herangehensweise (und das Denken) auf den Kopf stellen.  
+
+===== SEITE 11 =====
+11 
+ 
+ 
+ 
+Schließlich ist darauf hinzuweisen, dass die Nutzung der Drag-and-Drop-Technik die 
+Kandidatinnen nicht zu unnützen Wiederholungen verführen sollte.  
+ 
+III. Das Verteidigungsziel 
+Bearbeiter*innen einer Schriftsatzklausur  soll bewusst sein, dass jeweils eine 
+mandatsbezogene anwaltliche Arbeit verlangt wird. Der Sachverhalt soll daher - anders als in 
+der Klausur aus staatlicher Sicht - nicht mehr aus allen rechtlichen Gesichtspunkten, sonde rn 
+nur noch im Interesse des Mandanten  betrachtet werden. Im Standardfall legt der Mandant 
+seine Interessen  zumeist in Form einer Gesprächsnieder schrift dar. Hier nach muss die 
+Verteidigung selbst das juristische Verteidigungsziel definieren. In der Klausur soll en 
+Mandanteninteresse und Verteidigungsziel jedoch nicht vor oder zu Beginn eines Schriftsatzes 
+formuliert werden. Es handelt sich insoweit um eine gedankliche Vorarbeit, durch die sich der 
+Klausurbearbeiter, die Klausurbear beiterin sich bewusst macht , welches Ergebnis anstrebt  
+werden soll.  
+Das Mandanteninteresse wird in der Klausur aus dem Sachverhalt, den Angaben des 
+Mandanten und der Aufgabenstellung herzuleiten sein. D ort wird ein Beschuldigter in der 
+Regel das Interesse formulieren, entweder gar nicht oder doch wenigstens möglichst milde 
+bestraft zu werden. Das Verteidigungsziel hingegen ist aus der sorgfältigen Analyse der 
+rechtlichen und tatsächlichen Voraussetzung der Strafbarkeit, aus Sicht der Verteidigung: der 
+Schwachstellen des Vorwurfs herzuleiten. 
+Welches der beiden klassischen Verteidigungs(haupt)ziele, die Nichtverurteilung / 
+Freispruchverteidigung oder die möglichst geringe Sanktion / Strafzumessungsverteidigung 
+in Betracht kommt, kann also in der Klausur und auch in der Praxis der Strafverteidigung erst 
+aus einer sorgefältigen materiell -rechtlichen und prozessualen Analyse des Falles abgeleitet 
+werden. Die Nichtverurteilung kann durch einen Freispruch (in der Hauptverhandlung), durch 
+eine Nichteröffnungsentscheidung (im Zwischenverfahren), durch Einstellungen nach §§ 153, 
+153a, 170 Abs. 2, 205 StPO in allen Phasen des Verfahrens erreicht oder durch den Antrag auf 
+Aufhebung eines Haftbefehls und den Einspruch gegen einen Strafbefehl vorbereitet werden.  
+Ist die Nichtverurteilung das Verteidigungsziel, so müssen in der Klausur die Rechtsgründe 
+herausgearbeitet werden, die zur Nichtverurteilung führen können. Diese liegen in dem 
+Dreiklang: 
+ 
+ Nichtbeweisbarkeit der Tatvorwürfe; etwa bei Verwertungsverboten 
+ Straflosigkeit des fraglichen Verhaltens; etwa bei fehlerhafter Subsumtion 
+ Verfahrenshindernisse; etwa bei fehlenden oder unwirksamen Strafanträgen 
+ 
+
+===== SEITE 12 =====
+12 
+ 
+ 
+ 
+Die Klausuren sind regelmäßig so konstruiert, dass einzelne der oben genannten Rechtsgründe 
+und Kombinationen hiervon das Verteidigungsziel begründen können.  
+Lautet das Verteidigungsziel hingegen, eine möglichst milde Sanktionierung zu erreichen, so 
+sind zunächst alle denkbaren strafrechtlichen Rechtsfolgen in den Blick zu nehmen, da erst die 
+Gesamtschau das Ausmaß der ggf. abzuwehrenden oder abzumildernden Negativfolgen 
+deutlich macht. Rechtsfolgen sind: 
+ 
+ Strafen (Hauptstrafen und Nebenstrafen gem. §§ 38 - 44 StGB)  Beispiele: 
+Geldstrafe 5 - 720 Tagessätze  multipliziert mit der Höhe des einzelnen 
+Tagessatzes, der sich nach § 40 Abs. 2 StGB errechnet; Freiheitsstrafe 1 Monat 
+bis 15 Jahre bei der zeitigen Freiheitsstrafe; Fahrverbot 
+ Maßregeln (§§ 61 - 72 StGB); regelmäßig sind nur die Entziehung der 
+Fahrerlaubnis und das Berufsverbot von Klausurrelevanz 
+ Verfall, Einziehung, Unbrauchbarmachung (§§ 73 - 76 a StGB) 
+ Eintragungen in das Bundeszentralregister (§§ 4 - 8 , 11, 17 BZRG) und in das 
+Führungszeugnis (vgl. insbesondere § 32 BZRG) 
+ 
+Sodann ist zur Konkretisierung des Verteidigungszieles nach den Rechtsgründen zu  
+unterscheiden, die zu einer Reduzierung der Sanktion führen können. Folgende Möglichkeiten 
+kommen in Betracht: 
+ 
+ Anwendung eines milderen Strafgesetzes; benannte und unbenannte minder 
+schwere Fälle des Besonderen Teils des StGB 
+ Strafrahmenverschiebung, § 49 StGB 
+ allgemeine Strafmilderungsgründe, § 46 StGB 
+ 
+Werden dem Mandanten mehrere Straftaten vorgeworfen, so kommt es in den Klausuren vor, 
+dass einige Tatvorwürfe zutreffen,  andere nicht. Vorsicht: Hier muss zumeist differen ziert 
+vorgegangen werden und eine pauschale Befassung mit mehreren Vorwürfen scheitert gerne 
+an übersehenen Nuancen . Verteidigungsbemühungen können das Ziel verfolgen, den 
+Tatvorwurf „niedriger zu hängen“, d.h. die Tat unter ein milderes Strafgesetz zu subsumieren 
+bzw. die Anwend ung eines verschärften Strafrahmens („besonders schwerer Fall“) 
+abzuwenden. Auch kann versucht werden, gesetzlich vorgesehene 
+Strafrahmenverschiebungen zugunsten des Mandanten zur Geltung zu bringen. Zu  seinen 
+Gunsten kommen die Strafrahmenverschiebungen d es Allgemeinen Teils (z.B. §§ 13 Abs. 2, 
+21, 23 Abs. 2, 27 Abs. 2, 46a 1. Alt. StGB, jeweils i.V.m. § 49 Abs. 1 StGB) in Frage. Zuletzt bleibt 
+noch die Möglichkeit, allgemeine Strafmilderungsgründe innerhalb von § 46 StGB zur Geltung 
+
+===== SEITE 13 =====
+13 
+ 
+ 
+ 
+zu bringen, die regelmäßig der Sachverhalt liefert (Beispiel: folgenlose Heilung der Verletzung, 
+Annahme einer Entschuldigung, Wiedergutmachung, etc.).  
+Schließlich sind noch Verteidigungsbemühungen im Zusammenhang mit Prognose -
+entscheidungen zu erwähnen, namentlich bei der Prüfung der Haftgründe (Fluchtgefahr / 
+Verdunkelungsgefahr) und der §§ 56 ff. StGB (Strafaussetzung zur Bewährung). Hier kommt 
+es weniger auf die rechtlichen Aspekte der Tat, sondern mehr auf die Persönlichkei t des 
+Mandanten aber auch sein soziales Umfeld an. Mangels abzuarbeitender Tatbestände fallen 
+diese Prognoseentscheidungen den Bearbeiter *innen regelmäßig schwer; zumeist wird aber 
+nur verlangt, dass überhaupt eine Entscheidung getroffen und ein Antrag gestellt wird und die 
+richtigen Kriterien - wie z.B. die Sozialprognose bei der Prüfung des § 56 StGB - angewendet 
+werden. Hier sollen sich die Bearbeiter *innen jeweils nicht daran klammern, dass es eine 
+„richtige“ und eine „falsche“ Entscheidung gibt. Es ist vielmehr jeweils aus der Perspektive der 
+Verteidigung heraus zu argumentieren.  
+Beispielhaft kann bei einem entsprechenden Sachverhalt wie folgt argumentiert 
+werden: „Die Strafaussetzung zur Bewährung ist nach § 56 Abs. 2 StGB gerechtfertigt, 
+weil sowohl eine positive Prognose sowie besondere Umstände vorliegen. Die positive 
+Prognose begründet sich vorliegend schon allein daraus, dass die Tat nunmehr vier 
+Jahre zurück liegt und der Angekl. seitdem nicht weiter straffällig geworden und auch 
+zuvor unbestraft war… Die besonderen Umstände können sich auf das Geständnis und 
+die Wiedergutmachungsleistungen stützen, mit denen der Angeklagte deutlich macht, 
+dass er Verantwortung übernommen hat…“ 
+Als Erledigungsformen für Verfahren, in denen die Verteidigung mit dem Ziel „möglichst milde 
+Sanktionierung“ geführt wird, kommen in Betracht: 
+ 
+  (Teil-)Einstellung mit Auflagen und Weisungen (§ 153 a Abs. 1 oder 2 StPO) 
+ das Strafbefehlsverfahren, etwa weil es den Mandanten eine Hauptver -
+handlung erspart 
+ Urteil mit (minimiertem) Schuld- und (mildem) Strafausspruch 
+ Urteil mit Schuld- aber ohne Strafausspruch; § 60 StGB. 
+ 
+Die Einstellung gem. § 153 a StPO geht für den Beschuldigten zwar mit Sanktionen einher, weil 
+die Auflagen und Weisungen jedenfalls eine strafähnliche Übelzufügung bedeuten. Allerdings 
+wird die Unschuldsvermutung nicht berührt, denn diese Erledigungsart ist nicht mit einer 
+Schuldfeststellung verknüpft. Sollte der Verteidigung das Mandanteninteresse genannt 
+werden, dass eine öffentliche und stigmatisierende Haupt verhandlung und ein Eintrag im 
+Bundeszentralregister oder/und im polizeilichen Führungszeugnis vermieden werden soll, so 
+kann das Verteidigungsziel der Einstellung nach § 153a Abs. 1 StPO anvisiert werden. 
+Entsprechendes kann auch für den Strafbefehl gelten, der 90 Tagessätze nicht übersteigt. Die 
+
+===== SEITE 14 =====
+14 
+ 
+ 
+ 
+Anwendbarkeit des § 153a StPO hängt einerseits von dem Charakter des Delikts (Vergehen), 
+andererseits von Tatschwere und Präventionsbedürfnissen ab. Die Ansatzpunkte für die 
+Verteidigung sind prinzipiell die gleichen, wie bei einer Strafzumessungsverteidigung. 
+ 
+IV. Die Schutzschrift im Zwischenverfahren 
+ 
+1. Aufgabenstellung 
+Mit der Anklageerhebung legt die Staatsanwaltschaft gemäß § 199 Abs. 2 StPO dem Gericht 
+die Akten vor. Das Zwischenverfahren (§§ 199 - 211 StPO), in dem das Gericht in erster Linie 
+über die Eröffnung des Hauptverfahrens entscheidet, beginnt mit Eingang der Akten bei dem 
+nunmehr zuständigen Gericht. Im Klausurfall wendet sich der Mandant mit der ihm 
+mitgeteilten Anklageschrift an einen Rechtsanwalt oder eine Rechtsanwältin mit dem Hinweis, 
+innerhalb einer bestimmten Frist könne zu den Anklagevorwürfen Stellu ng genommen 
+werden. Anknüpfungspunkt für den zu entwerfenden Schriftsatz ist daher § 201 Abs. 2 StPO. 
+Um zu den Vorwürfen Stellung nehmen zu können, muss den Referendaren der wesentliche 
+Inhalt der Ermittlungsakte bekannt sein. Daher wird im Aufgabentext t ypischerweise 
+mitgeteilt, dass der beauftragte Anwalt Akteneinsicht beantragt und erhalten hat. Die 
+Klausuraufgabe besteht folglich aus der Anklageschrift und den zentralen Beweismitteln, die 
+eine Prüfung des hinreichenden Tatverdachtes ermöglichen. Zu ent werfen ist nach dem 
+Gutachten eine Schutzschrift (Stellungnahme im Zwischenverfahren) , soweit sich aus dem 
+Bearbeitervermerk nichts anders ergibt. 
+ 
+2. Aufbau - Gliederung - Formalien 
+Der Schriftsatz wird an das Gericht adressiert, bei dem die Staatsanwalts chaft Anklage 
+erhoben hat. Dabei handelt es sich in der Klausur entweder um eine Abteilung beim 
+Amtsgericht (Strafrichter / Schöffengericht) oder um eine Große Strafkammer - einschließlich 
+des Schwurgerichtes, dessen Zuständigkeit sich nach § 74 Abs. 2 GVG  richtet - beim 
+Landgericht. 
+Zu Beginn des Schriftsatzes sollten die Anträge gestellt werden. Das Gericht soll bereits zu 
+Beginn umfassend darüber informiert werden, welches Ziel  die Verteidigung anstrebt. Die 
+Herangehensweise hat sich eingebürgert: Gerich t bzw. Staatsanwaltschaft sollen nicht erst 
+nach seitenlangen Ausführungen mit dem eigentlichen Begehren konfrontiert werden, bzw. 
+dieses erst suchen müssen.  
+Zwar sieht § 201 Abs. 2 StPO nicht ausdrücklich ein Antragsrecht der Verteidigung vor, jedoch 
+kann daraus nicht geschlossen werden, dass keine Anträge gestellt werden können. Von 
+folgender Formulierung raten wir ab: 
+
+===== SEITE 15 =====
+15 
+ 
+ 
+ 
+ 
+...nehme ich zu den Tatvorwürfen in der Anklageschrift wie folgt Stellung: ... 
+ 
+Ein einfacher Schriftsatz, in dem zu einer Anklage beim Amtsgericht Tiergarten / Strafrichter 
+Stellung genommen wird, würde etwa wie folgt beginnen (Beispiel): 
+ 
+Rechtsanwältin Tanja Stein 
+Badensche Straße 14 
+10715 Berlin 
+ 
+ 
+An das 
+Amtsgericht Tiergarten 
+- Strafrichter - 
+10548 Berlin 
+ 
+ 
+In der Strafsache 
+./. Kantich, Peter 
+- Az.: 253 Ds 101/22 - 
+ 
+ 
+beantrage ich, 
+ 
+das Hauptverfahren nicht zu eröffnen. 
+ 
+Begründung: 
+ 
+Aus dem Inhalt der Ermittlungsakte ergibt sich, dass kein hinreichender 
+Tatverdacht hinsichtlich der in der Anklageschrift erhobenen Vorwürfe 
+angenommen werden kann. 
+ 
+I. 
+Was den Vorwurf der Unterschlagung betrifft, liegen bereits keine 
+verwertbaren Beweismittel vor, aus denen sich ergeben könnte, dass mein 
+Mandant den erforderlichen Vorsatz hinsichtlich der Fremdheit des von ihm 
+aufbewahrten Buches hatte. (...) 
+ 
+
+===== SEITE 16 =====
+16 
+ 
+ 
+ 
+II. (...) 
+ 
+III. (...) 
+ 
+Es bietet sich an, die Vorwürfe in der Reihenfolge zu prüfen, die in der Anklageschrift gewählt 
+worden ist. Alternativ können entweder - bei deutlich voneinander abweichenden 
+Strafrahmen - zuerst die schwerwiegendst en Vorwürfe erörtert werden oder diejenigen 
+Tatvorwürfe, hinsichtlich derer der hinreichende Tatverdacht verneint wird. 
+In der Begründung des Schriftsatzes geht es zunächst darum , zu sämtlichen Vorwürfen - also 
+auch zu denjenigen, hinsichtlich derer ein hinreichender Tatverdacht bejaht wird - Stellung zu 
+nehmen. Allerdings gilt auch hier: Zu bejahende Tatbestände sind im Schriftsatz äußerst knapp 
+abzuhandeln. Denn es ist nicht Aufgabe der Verteidigung in einer Schutzschrift dem Gericht 
+zu erläutern, aus welchen Gründen sich der Mandant strafbar gemacht hat, sondern aus 
+welchen Gründen die Tat nicht verfolgbar ist, der Mandant sich nicht strafbar gemacht hat 
+und / oder ihm ein Vorwurf nicht nachweisbar ist. Rechtliche Probleme, die mit diesen 
+Tatbeständen in Zusammenhang stehen und deren Prüfung für den Mandanten nicht hilfreich 
+ist, w erden zuvor  (oder je nach Aufgabenstellung auch nachträglich ) im (ergänzenden) 
+Gutachten behandelt. 
+Bei der Schutzschrift kann sich die Frage  stellen, ob im Schriftsatz Delikte geprüft werden 
+sollen, die in der Anklage oder im Haftbefehl übersehen worden sind. Im Ermittlungs- und im 
+Zwischenverfahren findet § 265 StPO keine Anwendung , so dass es jedenfalls vertretbar ist, 
+nicht angeklagte Delikte  zu prüfen. Im Rahmen einer umfassenden Auseinandersetzung mit 
+einem Vorwurf, der unter Umständen eine rechtlich abweichende Bewertung zulässt, kann es 
+geboten sein, übersehene rechtliche Wertungen gleich mit anzusprechen. Unserer Erfahrung 
+nach spielten derartige übersehene rechtliche Wertungen jedoch eher im Plädoyer eine Rolle.  
+In diesem Zusammenhang muss auch das "Herunterdefinieren des Vorwurfes" betrachtet 
+werden: Verneint die Verteidigung ein(e) Qualifikation/Regelbeispiel und bejaht stattdessen 
+lediglich den Grundtatbestand oder stehen das bejahte und das verneinte Delikt in engem 
+Zusammenhang ( Beispiele: Unterschlagung statt Diebstahl / Urkundenunterdrückung stat t 
+Urkundenfälschung) sollte die Prüfung und Benennung des milderen Strafvorwurfs  im 
+Schriftsatz erfolgen.  
+Aus den folgenden Ausführungen zu den Anträgen, kann sich ergeben, dass im Schriftsatz 
+weitere Prüfungen erforderlich sind. Diese können insbesondere betreffen: die sachliche bzw. 
+funktionelle Zuständigkeit des Gerichts (vgl. §§ 209 Abs. 1, § 209 a StPO), die Fortdauer der 
+Untersuchungshaft (§ 207 Abs. 4 StPO), die Kosten und notwendigen Auslagen, 
+Nebenentscheidungen nach den §§ 73 ff. StGB (Verfall und Einziehung), vorläufig angeordnete 
+Maßnahmen der Besserung und Sicherung - klausurrelevant dürfte insoweit die vorläufige 
+Entziehung der Fahrerlaubnis sein - und Anregungen nach den §§ 153, 153 a, 154, 154 a StPO. 
+Dass die vorläufige Entziehung der Fahre rlaubnis und sonstige vorläufig angeordnete 
+
+===== SEITE 17 =====
+17 
+ 
+ 
+ 
+Zwangsmaßnahmen in § 207 Abs. 4 StPO nicht erwähnt werden, sollte die Verteidigung nicht 
+davon abhalten, bereits im Zwischenverfahren entsprechende Aufhebungsanträge zu stellen. 
+Das zuständige Gericht ist befugt, derartige Maßnahmen im Zwischenverfahren aufzuheben.  
+ 
+3. Die Anträge 
+In der Schutzschrift sollte zuerst ein Antrag zur Frage der Eröffnung des Hauptverfahrens - 
+nicht der Hauptverhandlung (!), wie man hin und wieder in Klausuren liest - gestellt werden. 
+Der einfachste Antrag ist der nach § 2 04 StPO, der in dem auf Seite 15 formulierten Beispiel 
+gewählt worden ist.  
+Dass umgekehrt hinsichtlich sämtlicher Vorwürfe in der Anklageschrift der hinreichende 
+Tatverdacht zu bejahen ist und folglich das Hauptverfahren nach § 203 StPO zu eröffnen ist, 
+ist in der Klausur aus anwaltlicher Sicht nicht zu erwarten. In derartige Klausuren sind Feh ler 
+in die Anklage eingebaut. Klausurrelevanz hat vor allem die Regelung in § 207 Abs. 2 StPO, die 
+eine modifizierte Entscheidung über die Eröffnung des Hauptverfahrens ermöglicht. Wird 
+hinsichtlich einer Tat im prozessualen oder im materiellen Sinn ein hinreichender Tatverdacht 
+verneint, ist insoweit die Nichteröffnung nach § 207 Abs. 1 Nr. 1 StPO zu beantragen. In der 
+Regel entsprechen die einzelnen "Anklagepunkte" in der Anklageschrift den Taten, so dass 
+man sich bei der Formulierung des Antrages entweder an diesen oder an dem Datum der Tat 
+orientieren kann. Lediglich bei tatmehrheitlich angeklagten Delikten ist insoweit weiter zu 
+differenzieren. Beispiel:  
+Dem Mandanten wird in der Anklageschrift im Fall 1. ein Widerstand gegen Vollstreckungs-
+beamte am 0 2.01.2023, im Fall 2. eine Körperverletzung in Tatmehrheit m it einem 
+Diebstahl am 15.01. 2023 und Fall 3 . eine fal sche Verdächtigung am 27.01. 2023 
+vorgeworfen. Wird im Schriftsatz die Ansicht vertreten, dass sich nur der Tatverdacht 
+hinsichtlich der Körperverletzung bestätigt hat, könnte der Antrag wie folgt formuliert 
+werden. 
+Formulierungsvorschlag: 
+Ich beantrage,  
+bezüglich der Tatvorwürfe zu 1. und 3. das Hauptverfahren nicht zu eröffnen 
+und 
+bezüglich des Tatvorwurfs zu 3. abweichend von der Anklageschrift lediglich 
+wegen des Vorwurfes der Körperverletzung zu eröffnen. 
+ 
+Eine weitere Besonderheit ergibt sich aus § 207 Abs. 2 Nr. 3 StPO, der den Fal l betrifft, dass 
+im Schriftsatz eine Tat rechtlich abweichend bewertet wird. Es wird also ein hinreichender 
+Tatverdacht bejaht, jedoch hinsichtlich anderer Delikte als der in der Anklageschrift 
+
+===== SEITE 18 =====
+18 
+ 
+ 
+ 
+genannten. Diese Konstellation bietet sich für die Anwaltsklau sur an, weil sie in 
+unmittelbarem Zusammenhang mit dem bereits oben erwähnten "Herunterdefinieren des 
+Tatvorwurfes" steht.  
+Auch hierzu ein einfaches Beispiel: 
+Dem Mandanten wird eine schwere Körperverletzung vorgeworfen. Die Auswertung der 
+Beweismittel re chtfertigt jedoch nach Ansicht der Verteidigung nur die Annahme eines 
+hinreichenden Tatverdachtes wegen einer einfachen Körperverletzung.  
+Formulierungsvorschlag: 
+Ich beantrage, das Hauptverfahren mit der Maßgabe zu eröffnen, dass abweichend 
+von der Anklag eschrift anstatt eines hinreichenden Tatverdachtes wegen schwerer 
+Körperverletzung lediglich ein hinreichender Tatverdacht wegen einfacher 
+Körperverletzung bejaht wird. 
+ 
+Sicher kann man sich bei der Formulierung des Antrages noch weitere Spitzfindigkeiten 
+ausdenken. Wichtiger ist jedoch aus unserer Sicht, dass die Referendare durch die 
+Formulierung des Antrages zu Beginn des Schriftsatzes ein klares Ergebnis präsentieren, das 
+auf keinen Fall der anschließenden Prüfung im Schriftsatz widersprechen darf. Letz teres war 
+in den von uns korrigierten Examensklausuren leider nicht immer der Fall und wirkte sich 
+nachteilig auf die Bewertung aus. 
+Die Referendarinnen und Referendare sollten sich darüber im Klaren sein, dass im 
+Zwischenverfahren ein hinreichender Tatver dacht für die Eröffnung des Hauptverfahrens 
+genügt. In der Praxis hat das zur Folge, dass bei Unklarheiten hinsichtlich der Beweiswürdigung 
+- insbesondere bei Zeugenaussagen - das Verfahren eher eröffnet wird. Denn der hinreichende 
+Tatverdacht kann auch dann bestehen, wenn Zweifel an der Überführung eines Beschuldigten 
+bestehen. Denn Zweifel stehen dem hinreichenden Tatverdacht nicht ohne weiteres 
+entgegen.  
+Da der Zweifelsgrundsatz im Zwischenverfahren nur eine  eingeschränkte Bedeutung hat, ist 
+er regelmäßig auch nur ein schwaches Argument im Schriftsatz, mit der der Eröffnung des 
+Verfahrens entgegengetreten werden kann. Anders als im Plädoyer, in  dem der zutreffend 
+angenommene Grundsatz in dubio pro reo zum Fre ispruch führt, ist es kaum 
+erfolgversprechend, mit dem Hinweis auf Beweiswürdi gungsprobleme, die Eröffnung des 
+Hauptverfahrens zu verneinen. Hierfür spricht aus Sicht des Praktikers auch, dass dem Gericht 
+nur die Protokolle über die Zeugenvernehmungen vorl iegen und offen ist, was der Zeuge in 
+der Hauptverhandlung aussagen wird. Deckungsgleich sind die Aussagen von Zeugen im 
+Ermittlungsverfahren und in der Hauptverhandlung in den seltensten Fällen.  
+
+===== SEITE 19 =====
+19 
+ 
+ 
+ 
+Etwas anderes gilt selbstverständlich für Beweisverwertungs verbote und auch für den Fall, 
+dass der Antrag auf Nichteröffnung des Verfahrens ausnahmsweise auf anerkannte 
+Beweisregeln gestützt werden kann. Letzteres wäre beispielsweise der Fall, wenn die 
+Anklageschrift den Nachweis einer Tat mit dem Schweigen des An geklagten begründen 
+würde. Denn aus dem Schweigen des Angeklagten dürfen grundsätzlich keine für ihn 
+nachteilige Schlüsse gezogen werden.  
+In Klausuren im Zwischenverfahren sind neben den Anträgen nach §§ 204, 207 Abs. 2 Nr. 3 
+StPO die beiden Anträge nach § 209 Abs. 1 StPO und § 207 Abs. 4 StPO recht beliebt.  
+Der Antrag nach § 209 Abs. 1 StPO hat wieder etwas mit dem "Herunterdefinieren des 
+Tatvorwurfes" zu tun. § 209 Abs. 1 StPO ermöglicht es dem Gericht höherer Ordnung das 
+Verfahren vor einem Gericht nie drigerer Ordnung zu eröffnen. Wird also im Schriftsatz der 
+hinreichende Tatverdacht von der Verteidigung abweichend beurteilt und ändert sich dadurch 
+die Straferwartung zugunsten des Mandanten (vgl. §§ 24 Abs. 2, 25 Nr. 2, 74 Abs. 1 Satz 2 
+GVG) oder führt die Verneinung eines hinreichenden Tatverdachtes dazu, dass die 
+Zuständigkeit des Gerichts bzw. des Spruchkörpers entfällt (vgl. § 74 Abs. 2 GVG, § 209 a Nr. 1 
+StPO), kann das Verfahren vor dem Gericht niedrigerer Ordnung eröffnet werden. Die 
+Formulierung Gericht ist in diesem Zusammenhang nicht wörtlich zu verstehen. Denn die 
+Norm erlaubt auch die Eröffnung des Hauptverfahrens durch das Schöffengericht vor dem 
+Strafrichter, wenn die Straferwartung nicht über 2 Jahren liegt und - was hin und wieder 
+übersehen wird - kein hinreichender Tatverdacht wegen eines Verbrechens (§ 25 GVG) bejaht 
+wird.  
+Klausurrelevant sind insbesondere die Eröffnung des Hauptverfahrens durch eine Große 
+Strafkammer vor dem Amtsgericht (Strafrichter oder Schöffengericht), durch das 
+Schwurgericht vor einer Großen Strafkammer und durch das Schöffengericht vor dem 
+Strafrichter. 
+Im Zwischenverfahren entscheidet das zuständige Gericht von Amts wegen über die Fortdauer 
+der Untersuchungshaft. Auch wenn § 207 Abs. 4 StPO kein Antragsrecht vorsi eht, sollte in 
+einer Anwaltsklausur die Aufhebung bzw. Außervollzugsetzung des Haftbefehls beantragt 
+werden, wenn sich der Mandant in Untersuchungshaft befindet und die Prüfung im Schriftsatz 
+ergibt, dass die Voraussetzungen für die Aufrechterhaltung des H aftbefehls nicht (mehr) 
+vorliegen. Entsprechende Anträge sind auch zulässig, wenn sich der Mandant nicht in 
+Untersuchungshaft befindet, eine Entscheidung von Amts wegen also nicht erforderlich ist. 
+Denkbar ist auch, dass das Gericht, bei dem Anklage erhoben worden ist, signalisiert, es wolle 
+einen außer Vollzug gesetzten Haftbefehl (§ 116 StPO) wieder in Vollzug setzen. Dann sollte 
+dieser Absicht im Schriftsatz entgegengetreten werden, ohne dass ein Antrag erforderlich ist. 
+In beiden Fällen muss der Schriftsatz Überlegungen zur Haftsituation beinhalten.  
+Die Aufhebung des Haftbefehles wird beantragt, wenn der dringende Tatverdacht oder ein 
+Haftgrund verneint wird oder die Anordnung der Untersuchungshaft unverhältnismäßig ist. 
+Die Außervollzugsetzung des Haft befehls wird beantragt, wenn durch Weisungen oder 
+
+===== SEITE 20 =====
+20 
+ 
+ 
+ 
+Auflagen der Haftgrund entkräftet werden kann.  Da ein zentrales Kriterium für die Annahme 
+der Fluchtgefahr die Straferwartung ist, hängt die Prüfung dieses Haftgrundes häufig mit der 
+Prüfung des dringenden Tatverdachts eng zusammen.  
+Hilfreich sind auch die folgenden Überlegungen: Die schematische Bejahung der Fluchtgefahr 
+ab einer bestimmten Straferwartung (Beispiel: Freiheitsstrafe über 2 Jahre = Fluchtgefahr) ist 
+unzulässig. Dies folgt schon daraus, dass es bei der Prüfung dieses Haftgrundes immer auf eine 
+Gesamtabwägung sämtlicher Umstände des Falles ankommt (vgl. Meyer-Goßner / Schmitt, § 
+112, Rdrn. 19 und 23 -24). Ist zu erwarten, dass  die Vollstreckung der Freiheitsstrafe zur 
+Bewährung ausgesetzt werden kann, kann dies keine Fluchtgefahr mehr begründen.  
+Auch muss die Straferwartung vo n der Nettostraferwartung aus betrachtet werden. 
+Nettostraferwartung bedeutet, dass vor  allem so genannte Erstverbüßer , also solchen 
+Beschuldigten, die das erste Mal in Haft sitzen, mit einer vorzeitigen Haftentlassung zum 2/3-
+Termin rechnen können . Kommt noch hinzu , dass die Dauer der Untersuchungshaft 
+angerechnet wird, § 51 StGB, dann kann bei (Brutto)Straferwartungen von bis zu 5 Jahren die 
+Fluchtgefahr verneint werden, wenn man davon ausgeht, dass eine vorzeitige Haftentlassung 
+zum 2/3 Termin und unter Anrechnung der bereits verbüßten Untersuchungshaft „nur“ noch 
+von einer (Netto -)Straferwartung von 3 Jahren auszugehen ist, die bei sicheren sozialen 
+Verhältnissen (Kind, Ehe, Arbeit etc.) die Annahme der Fluchtgefahr fernliegend erscheinen 
+lässt.  
+Daher sollten die Klausur bearbeiter*innen sich nicht davon abhalten lassen, sich auch bei 
+einer (Brutto-)Straferwartung von mehr 2 Jahren eine Aufhebung bzw. Außervollzugsetzung 
+des Haftbefehls einzusetzen. Allerdings werden dann ausführlichere Überlegungen zu den der 
+Fluchtgefahr entgegenstehenden Umständen (z.B . soziale Bindun gen) erforderlich sein. 
+Längere Ausführungen zum dringenden Tatverdacht bzw. den Haftgründen werden im 
+Schriftsatz insbesondere erforderlich sein, wenn  
+ 
+ der hinreichende Tatverdacht ausnahmsweise vom dringenden Tatverdacht 
+abweichend beurteilt wird, 
+ es für die Prüfung der Fluchtgefahr auf Grund konkreter Anhaltspunkte im 
+Aufgabentext auf eine Gesamtwürdigung sämtlicher Umstände des Einzelfalles 
+ankommt (soziale Bindungen / Verhalten in früheren Strafverfahren / Selbststeller) 
+und deshalb de m Haftgrund Fluchtgefahr auch bei einer Straferwartung von über 2 
+Jahren mit Aussicht auf Erfolg entgegengetreten werden kann, 
+ eine Haftverschonung gemäß § 116 StPO beantragt wird, 
+ andere Haftgründe - insbesondere die Verdunkelungsgefahr - in Betracht kommen. 
+ 
+
+===== SEITE 21 =====
+21 
+ 
+ 
+ 
+Der klassische Antrag zur Haft lautet (Formulierungsvorschlag): 
+ 
+Ich beantrage, den Haftbefehl des Amtsgerichts ... vom ... aufzuheben, hilfsweise 
+den Haftbefehl des Amtsgerichts ...vom ... (gegebenenfalls unter Auflagen, § 116 
+Abs. 1 StPO) außer Vollzug zu setzen. 
+ 
+Die Regelung in § 207 Abs. 4 StPO gibt der Verteidigung im Zwischenverfahren die Möglichkeit, 
+die Aufhebung des Haftbefehls zu beantragen, ohne eigens den Antrag auf mündliche 
+Haftprüfung oder die Haftbeschwerde einzulegen.  Das bedeutet aber nicht, dass die 
+genannten Rechtsbehelfe im Zwischenverfahren nicht eingelegt werden können. Zu einem 
+eigenständigen Antrag dürfte Anlass bestehen, wenn der Bearbeitervermerk diese 
+Möglichkeit anspricht oder sich aus dem Klausurtext Anhal tspunkte ergeben, dass der 
+Mandant einen Rechtsbehelf wünscht oder sich das Zwischenverfahren wegen komplizierter 
+rechtlicher oder tatsächlicher Fragen über einen längeren Zeitraum erstrecken wird. Hierbei 
+können taktische Überlegungen eine Rolle spielen, denn die mündliche Haftprüfung (vgl. § 118 
+Abs. 5 StPO) und die Haftbeschwerde (vgl. 306 Abs. 2 StPO) müssen innerhalb einer Frist 
+abgearbeitet werden; die Entscheidung über die Eröffnung und auch die nach § 207 Abs. 4 
+StPO sind hingegen nicht fristgebunden, auch wenn das Beschleunigungsgebot in Haftsachen 
+eine unverzügliche Bearbeitung verlangt. 
+In einer Klausur war die Möglichkeit einer Haftbeschwerde / Haftprüfung dadurch 
+im Be arbeitervermerk angedeutet worden, dass die erforderlichen Schriftsätze 
+anzufertigen seien. Das kann ein Hinweis darauf sein, dass neben den 
+Einwendungen gegen die Eröffnung auch gesonderte Haftanträge, ggf. im Wege 
+der mündlichen Haftprüfung oder der Haftbeschwerde einzulegen sind.  
+Wichtig sind auch Überlegungen zu den Einstellungsmöglichkeiten nach den §§ 153 ff. StPO, 
+die im Zwischenverfahren generell zur Verfügung stehen. Werden Einstellungen nach diesen 
+Regelungen angeregt oder beantragt, müssen jedoch auch die Voraussetzungen - mit 
+Ausnahme der selbstverständlich noch fehlenden Zustimmung der Staatsanwaltschaft - für die 
+angeregte Einstellung (z.B.: geringe Schuld / fehlendes öffentliches Interesse) im Schriftsatz 
+erörtert werden. Generell können Referendarinnen und Referendare durch entsprechende 
+Anregungen praktisches Verstän dnis zeigen, was sich positiv au f die Bewertung auswirken 
+dürfte.  
+ 
+Beispiel: 
+Dem Mandanten wird in der an das Landgericht adressierten Anklageschrift ein 
+räuberischer Angriff auf Kraftfahrer (erste Tat) und ein räuberischer Diebstahl (zweite Tat) 
+
+===== SEITE 22 =====
+22 
+ 
+ 
+ 
+vorgeworfen. Hinsichtlich der ersten Tat bejaht die Verteidigung lediglich einen 
+hinreichenden Tatverdacht wegen einer räuberischen Erpressung; wegen der zweiten Tat 
+nimmt sie nur einen hinreichenden Tatverdacht wegen eines einfachen Diebstahls 
+geringwertiger Sachen an. Hier würde sich für den zweiten Vorwurf eine Einstellung nach 
+§ 154 Abs. 1 Nr. 1 StPO anbieten.  
+ 
+Formulierungsvorschlag: 
+Ich beantrage, das Verfahren hinsichtlich der Tat zu 1) mit der Maßgabe zu eröffnen, 
+dass lediglich ein hinreichender Tatverdacht wegen einer räuberischen Erpressung 
+bejaht wird. 
+Hinsichtlich der Tat zu 2) rege ich die Einstellung des Verfahren nach § 154 Abs. 1 Nr. 
+1 StPO an.  
+Ich beantrage weiter, das Verfahren gem. § 209 Abs. 1 StPO vor dem Schöffengericht 
+zu eröffnen.  
+Zur Begründung des Antrags und der Anregung führe ich aus … 
+ 
+In den Klausurlösungen liest man gelegentlich, dass ein Antrag auf Akteneinsicht gemäß § 147 
+Abs. 1 StPO gestellt wird. Häufig ist d ieser Antrag entbehrlich, da bereits Akteneinsicht 
+bewilligt worden ist. Für den Antrag auf Beiordnung als Pflichtverteidiger muss differenziert 
+werden. Im Klausurfall dürfte der Rechtsanwalt das Mandat übernommen haben und folglich 
+zunächst als Wahlverteidiger tätig geworden sein. Soll - laut Bearbeitervermerk oder Wunsch 
+des Mandanten - eine Beiordnung als Pflichtverteidiger beantragt werden, muss  zugleich 
+erklärt werden, dass die Verteidigung für den Fall ihrer Beiordnung die Niederlegung des 
+Wahlmandates ankündigt.  
+Wird ein Antrag auf Beio rdnung eines Pflichtverteidigers gestellt, ist darauf zu achten, dass 
+dieser - anders als bei der Prozesskostenhilfe - nicht an die wirtschaftliche Bedürftigkeit des 
+Mandanten anknüpft, sondern an die Notwendigkeit der Verteidigung (§ 140 StPO). Der 
+Antrag auf Beiordnung eines Pflichtverteidigers soll gestellt werden, wenn der Mandant zu 
+verstehen gibt, dass er dies wünscht. Selbstverständlich können hierfür auch wirtschaftliche 
+Schwierigkeiten des Mandanten ausschlaggebend sein ; Anspruchsvoraussetzung sind  sie 
+hingegen nicht, denn § 140 StPO knüpft nicht an die Bedürftigkeit an. Im Schriftsatz sollte ein 
+entsprechender Antrag nur mit den Tatbestandsvoraussetzungen des  § 140 StPO und nicht 
+auf die wirtschaftliche Situation des Mandanten Bezug begründet werden.  
+Falsch wäre es, in einer Schutzschrift im Zwischenverfahren eine Einstellung des Verfahrens 
+nach § 170 Abs. 2 StPO zu beantragen. Denn die Anklageerhebung macht einerseits deutlich, 
+dass die Anklageverfasserin gerade nicht der Auffassung ist, dass kein  hinreichender 
+
+===== SEITE 23 =====
+23 
+ 
+ 
+ 
+Tatverdacht vorliegt. Zudem kann das angerufene Gericht selbst keine Einstellung nach 170 
+Abs. 2 StPO vornehmen, denn dies obliegt allein der Staatsanwaltschaft. Das Gericht kann 
+hingegen wegen fehlenden hinreichenden Tatverdachts die Eröffn ung ablehnen. In 
+geeigneten Fällen ist das zu beantragen.  
+ 
+V. Die Begründung einer Haftprüfung, einer Haftbeschwerde oder einer weiteren  
+Beschwerde 
+Die Voraussetzungen für den Erlass und die Aufrechterhaltung eines Haftbefehls ergeben sich 
+aus § 112 Abs. 1 und 2 StPO. Eine Auseinandersetzung mit dem Haftbefehl in einem Schriftsatz 
+der Verteidigung muss sich mit dem dringenden Tatverdacht, den Haftgrün den und ggf. der 
+Verhältnismäßigkeit befassen. Aus diesen Voraussetzungen ergibt sich der Aufbau des 
+Schriftsatzes. Die folgenden Ausführungen (1. - 3.) befassen sich mit den Besonderheiten der 
+"Haftklausur". Sie sollten nicht den Blick dafür verstellen, d ass zuvor (oder nachträglich) ein 
+umfassendes (ergänzendes) Gutachten anzufertigen ist und im Schriftsatz die Prüfung  des 
+dringenden Tatverdachtes und der Haftgründe den Schwerpunkt der Klausur darstellen. 
+ 
+1. Rechtsschutzmöglichkeiten im Recht der Untersuchungshaft 
+Eine Besonderheit der "Haftklausur" besteht darin, dass dem Mandanten bzw. seinem 
+Verteidiger regelmäßig mehrere Rechtsbehelfe - nämlich die mündliche (theoretisch auch 
+schriftliche) Haftprüfung und die Haftbeschwerde vor dem nächst höheren Geri cht - gegen 
+einen Haftbefehl zur Verfügung stehen und in den Klausuren nicht immer mitgeteilt wird, 
+welcher Rechtsbehelf ergriffen werden soll. Daher sollen hier zunächst die Rechtsbehelfe 
+gegen Haftbefehle und Haftverschonungsbeschlüsse (§ 116 StPO) zusam menfassend 
+dargestellt werden: 
+Wird ein Haftbefehl vollzogen; befindet sich der Mandant also auf Grund des Haftbefehls, 
+gegen den vorgegangen werden soll, in Untersuchungshaft, stehen grundsätzlich alternativ 
+zwei Rechtsbehelfe zur Verfügung; nämlich die H aftprüfung (§§ 117 ff. StPO) und die 
+Haftbeschwerde (§§ 304 ff. StPO). Wenn im Anschluss an eine Haftprüfung die Haftfortdauer 
+angeordnet worden ist, kann gegen diesen Haftfortdauerbeschluss Haftbeschwerde , § 304 
+StPO eingelegt werden. Davon zu unterscheiden ist die Weitere Beschwerde, § 310 StPO. 
+Eine Haftbeschwerde ist sowohl gegen den Haftbefehl möglich, ohne dass zuvor eine 
+Haftprüfung durchgeführt worden ist, als auch in Anschluss an eine Haftprüfung gegen den 
+Haftfortdauerbeschluss. Als weiterer Rechtsbehelf gegen die ablehnende bzw. die 
+Haftfortdauer anordnende Beschwerdeentscheidung kommt in der Anwaltsklausur dann die 
+Weitere Beschwerde (§ 310 StPO) in Betracht. 
+
+===== SEITE 24 =====
+24 
+ 
+ 
+ 
+In den Anwaltsklausuren hat nach unserem Kenntnisstand  bislang die von Amts weg en 
+durchzuführende Haftprüfung nach § 122 Abs. 1 StP O (Untersuchungshaft von über 6 
+Monaten) bei den Oberlandesgerichten bzw. beim Kammergericht  keine Rolle gespielt. 
+Fristgebundene Rechtsbehelfe existieren im Recht der Untersuchungshaft nicht. Insbesondere 
+kommt eine sofortige Beschwerde nach § 311 StPO nicht in Betracht.  
+ 
+2. Basiswissen 
+Die Zulässigkeitsvoraussetzungen für Rechtsmittel gegen den Haftbefehl sind im Recht der 
+Untersuchungshaft relativ gering. Die Anordnung der Untersuchungshaft stellt einen 
+gravierenden Grundrechtseingriff dar. Der Inhaftierte soll grundsätzlich jederzeit die 
+Überprüfung der Voraussetzungen für die Anordnung der Untersuchungshaft verlangen  
+können. Daher sollte der Schriftsatz nicht mit einer Zulässigkeitsprüfung beginnen. Allerdings 
+sind einige Besonderheiten bzw. Anforderungen an den Schriftsatz zu beachten: 
+ 
+a) Adressat / Zuständigkeit 
+In der Praxis ist die mündliche Haftprüfung der mit Abstand häufigste Rechtsbehelf, der gegen 
+einen Haftbefehl ergriffen wird. Gemäß § 118 Abs. 1 StPO muss über eine Haftprüfung auf 
+Antrag mündlich verhandelt werden. Die schriftliche Haftprüfung spielt demgegenüber in der 
+Praxis sowie in der Klausur (allerdings ist der Antrag, nach § 207 Abs. 4 StPO den Haftbefehl 
+aufzuheben, ein schriftlicher Haftprüfungsantrag) eine untergeordnete Rolle. Der Schriftsatz 
+richtet sich während des Ermittlungsverfahrens an das gemäß § 126 Abs. 1 StPO zuständige 
+Gericht. In der Klausur dürfte dies fast immer das Amtsgericht, also der Ermittlungsrichter am 
+Amtsgericht (vgl. § 162 StPO) sein, der den Haftbefehl erlassen hat. Sollte im Klausurfall bereits 
+Anklage erhoben worden sein, richtet sich die Zuständigkeit nach § 126 Abs. 2 StPO. Der 
+Schriftsatz ist dann an das Gericht zu richten, das mit der Sache befasst ist; d.h. bei dem die 
+Staatsanwaltschaft Ankla ge erhoben hat. Wird unmittelbar nachdem eine Haftprüfung 
+beantragt wurde, Anklage erhoben oder teilt die Staatsanwaltschaft dem Verteidiger mit, in 
+Kürze Anklage zu erheben, sollte darum gebeten werden, den Haftprüfungsantrag an das 
+zuständige Gericht weiterzuleiten bzw. mit der Haftprüfung zu warten, bis die Akten dem mit 
+der Sache befassten Gericht vorliegen. Die einzige nennenswerte Auswirkung des 
+Zuständigkeitswechsels ergibt sich aus § 118 Abs. 5 StPO. Die dort genannte Zweiwochenfrist 
+beginnt mit Ein gang der Akten beim zuständigen Gericht von Neuem. In diesem 
+Zusammenhang sollte den Referendaren bekannt sein, dass Verstöße gegen § 118 Abs. 5 StPO 
+nicht per se die Aufhebung des Haftbefehls zur Folge haben. Allerdings können  eklatante 
+Verstöße gegen § 118 Abs. 5 SPO (Beispiel: die Akten konnten dem zuständigen Gericht über 
+einen Zeitraum von Monaten nicht vorgelegt werden) die Aufhebung des Haftbefehles  
+rechtfertigen. 
+
+===== SEITE 25 =====
+25 
+ 
+ 
+ 
+Die Haftbeschwerde wird beim judex a quo eingelegt; also bei dem Gericht, das den Haftbefehl 
+erlassen bzw. die Haftfortdauer in Anschluss an eine Haftprüfung angeordnet hat. Dies folgt 
+aus der Regelung in § 306 Abs. 1 StPO und der Möglichkeit der Abhilfe in § 306 Abs. 2 StPO. 
+Für die dort geregelte Vorlagefrist von 3 Tagen gilt dasselbe wie für Verstöße gegen § 118 Abs. 
+5 StPO (vgl. KG StV 2015,157 f.). Im Ermittlungsverfahren wird die Haftbeschwerde ebenfalls 
+beim Ermittlungsrichter eingelegt; und zwar unabhängig davon, ob sich die Beschwerde gegen 
+den Haftbefehl oder auch gegen den in Ansch luss an eine Haftprüfung erlassenen 
+Haftfortdauerbeschluss richtet. Hat hingegen die Haftprüfung bereits bei dem mit der Sache 
+befassten Gericht - z.B. einer Großen Strafkammer - stattgefunden, ist auch dort die 
+Haftbeschwerde einzulegen. Auch die weitere Beschwerde gegen eine Entscheidung des 
+Beschwerdegerichts richtet sich an das judex a quo, also nicht an das Oberlandesgericht bzw. 
+das Kammergericht, das über die weitere Beschwerde entscheidet, wenn eine Abhilfe 
+unterbleibt. 
+ 
+b) Wahl des "richtigen" Rechtsbehelfs  
+Ergibt sich aus dem Bearbeitervermerk nicht eindeutig, ob nach dem Gutachten eine 
+Haftbeschwerde oder eine Haftprüfung begründet werden soll, sind einige Besonderheiten zu 
+beachten: 
+Richtet sich der Rechtsbehelf gegen einen gemäß § 116 StPO außer Vollzug gesetzten 
+Haftbefehl oder wird der Haftbefehl nicht vollzogen, weil der Mandant beispielsweise flüchtig 
+ist oder gegen ihn eine Freiheitsstrafe in anderer Sache vollstreckt wird, ist die mündliche 
+Haftprüfung unzulässig. Das folgt aus der Regelung in § 117 Abs. 1 StPO ("Solange der 
+Beschuldigte in Untersuchungshaft ist, ..."). In diesen Fällen ist die Haftbeschwerde zu wählen, 
+die sich dann gegen den Haftbefehl oder den Haftverschonungsbeschluss (§ 116 StPO) richtet.  
+Auch die Regelung in § 118 Abs. 3 StPO kann in der Klausur dazu führen, dass man sich für die 
+Haftbeschwerde entscheidet. Zwar ist grundsätzlich jederzeit (vgl. § 117 Abs. 1 StPO) eine 
+Haftprüfung zulässig, jedoch besteht ein Anspruch auf eine erneute mündliche Haftprüfung 
+nicht beliebig oft, sondern nur dann, wenn die letzte Haftprüfung zwei Monate zurückliegt 
+und sich der Mandant seit drei Monaten in Untersuchungshaft befindet. 
+Ist im Klausurfall ausnahmsweise berei ts Anklage erhoben worden, sollte eine Haftprüfung 
+beantragt werden (zur Zuständigkeit vgl. § 126 Abs. 2 StPO), weil nach herrschender Meinung 
+Haftbeschwerden nach Anklageerhebung in Haftprüfungsanträge umgedeutet werden (vgl. 
+Meyer-Goßner / Schmitt, § 117, Rdnr. 12; NStZ 2015,144/147). 
+Im Übrigen dürfte sich in der Klausur die Haftbeschwerde aus rein praktischen Erwägungen 
+anbieten. Während die mündliche Haftprüfung auch der „Präsentation“ eines Angeklagten 
+dient, kann diese Verteidigungsmöglichkeit in der Klaus ur regelmäßig nicht genutzt werden. 
+Die Einreichung von Beweismitteln - in der Regel Urkunden - kann hingegen sowohl in der 
+mündlichen Haftprüfung als auch in der Haftbeschwerde erfolgen.   
+
+===== SEITE 26 =====
+26 
+ 
+ 
+ 
+Sollte sowohl eine Haftprüfung als auch eine Haftbeschwerde zuläss ig sein, sollte der 
+Schriftsatz selbst keine Überlegungen darüber beinhalten, warum sich der Bearbeiter für 
+welchen Rechtsbehelf entschieden hat (das kann in einem ergänzenden Gutachten erörtert 
+werden). Wichtig ist in diesen Fällen jedoch, dass zu Beginn des Schriftsatzes klar wird, ob eine 
+Haftprüfung beantragt oder eine Haftbeschwerde eingelegt wird. Manchmal liest man in 
+Klausuren lediglich die Formulierung: 
+ 
+"Ich beantrage, den Haftbefehl aufzuheben", 
+ 
+ohne den Rechtsbehelf zu bezeichnen. Hier fehlt es  an der Entscheidung des/der  
+Verfassers/in, welche r Rechtsbehelf ein gelegt werden und wer über den Rechtsbehelf 
+entscheiden soll. Die Bestimmung des Rechtsbehelfs ist von eminenter taktischer Bedeutung, 
+gerade wenn eine Entscheidung der Staatsanwaltschaft oder das die Untersuchungshaft 
+anordnende Gericht angegriffen werden soll und erst durch die Bestimmung des 
+Rechtsbehelfs bspw. als Beschwerde erkennbar wird, dass eine Entscheidung des nächst 
+höheren Gerichts begehrt wird; das Fehlen der Bestimmung des Re chtsbehelfs wirkt sich 
+daher nachteilig auf die Bewertung der Klausur aus.  
+Überlegungen zur Wahl des Rech tsbehelfs sollten im prozessualen Teil des  Gutachtens bzw. 
+ergänzenden Gutachtens  angestellt werden. In den Klausuren liest man manchmal, die 
+Haftprüfung ginge gemäß § 117 Abs. 2 StPO der Haftbeschwerde vor und deshalb werde eine 
+Haftprüfung beantragt. Das ist  so nicht richtig . § 117 Abs. 2 StPO regelt das 
+Konkurrenzverhältnis, wenn beide Rechtsbehelfe eingelegt worden sind (etwa der Mandant 
+die Haftprü fung und die Verteidigung die Beschwerde) und sieht zur Vermeidung 
+divergierender Haftentscheidungen den Vorrang der Haftprüfung vor.  
+Für eine Haftprüfung kann sprechen, dass eine mündliche Verhandlung auf Antrag erzwungen 
+werden kann, was bei einer Haftbeschwerde nicht möglich ist (vgl. § 309 Abs. 1 StPO). Soll im 
+Haftprüfungstermin eine Einlassung des Mandanten erfolgen oder /und können neue 
+Beweismittel im Termin präsentiert werden, sollte daher eine mündliche Haftprüfung 
+beantragt werden. Für die mündliche Haftprüfung kann auch sprechen, dass gegen den 
+Haftfortdauerbeschluss die Haftbeschwerde eingelegt werden kann, der Mandant also einen 
+Rechtsbehelf "verliert", wenn er sogleich Haftbeschwerde einlegt.  
+Für eine Haftbeschwerde können folgende Erwägungen sprechen: In der Regel sind die vor 
+dem Ermittlungsrichter stattfindenden Haftprüfungstermine kaum erfolgversprechend, wenn 
+sie kurz nach Erlass des Haftbefehls und ohne neue entlastende Erkenntnisse vor demselben 
+Ermittlungsrichter stattfinden, der den Haftbefehl erlassen hat. Hat sich die Beweislage 
+zwischen Erlass des Haftbefehls und einem möglichen Haftprüfungstermin nicht geändert,  
+werden vornehmlich rechtliche Argumente gegen die Haftfortdauer vorgebracht (Fragen der 
+Strafbarkeit, der Beweisbarkeit oder/und der Verfolgbarkeit)  spricht das dafür, sogleich 
+
+===== SEITE 27 =====
+27 
+ 
+ 
+ 
+Haftbeschwerde einzulegen. Darüber hinaus dürfte bei der Erörterung schwieriger 
+Rechtsfragen - wenn es also nicht um die Tatsachen geht, die den dringenden Tatverdacht 
+bzw. d en Haftgrund begründen - eher eine Haftbeschwerde zu empfehlen sein, da das 
+Beschwerdegericht - also in der Regel das Landgericht - eher zeitlich dazu in der Lage ist , 
+komplexe Rechtsfragen ausführlich zu prüfen.  
+Es ist daher eine Frage der Verteidigungst aktik, ob man sich für eine Haftprüfung oder eine 
+Haftbeschwerde entscheidet. Deshalb bietet sich diese Fragestellung für eine Anwaltsklausur 
+an. Da es hinsichtlich der Wahl des Rechtsbehelfes kein richtig oder falsch gibt, sollten die 
+Referendare in der K lausur zeigen, dass sie zum einen wissen, dass grundsätzlich beide 
+Rechtsbehelfe zulässig sind und dass sie zum anderen mit nachvollziehbaren Argumenten 
+begründen können, warum sie sich für welchen Rechtsbehelf entschieden haben. 
+ 
+3. Aufgabenstellung - Formalien und Gliederung - Anträge 
+In der "Haftklausur" wird den  Referendar*innen der Haftbefehl zur Verfügung gestellt. 
+Darüber hinaus müssen die Beweismittel bekannt sein, die nach Ansicht der 
+Staatsanwaltschaft und des Haftrichters den dringenden Tatverdac ht und den Haftgrund 
+begründen. Hiervon erfährt die Verteidigung in der Regel durch Gewährung von 
+Akteneinsicht, so dass auch in der Haftklausur ein Antrag auf Akteneinsicht meistens nicht 
+erforderlich sein wird. Sollte ausnahmsweise einmal keine oder nicht ausreichend 
+Akteneinsicht gewährt worden sein, hat dies jedoch Auswirkungen auf die Verwertbarkeit von 
+Beweismitteln im Haftprüfungs- und Haftbeschwerdeverfahren. Bei einer Entscheidung über 
+die Aufrechterhaltung eines Haftbefehls darf das Gericht nä mlich nicht Aktenbestandteile 
+verwerten, die der Verteidigung vorenthalten worden sind. Nachdem zunächst die 
+Rechtsprechung - in einzelnen sehr umstritten - ein Verwertungsverbot angenommen hat, 
+wenn Beweismittel, die den dringenden Tatverdacht oder den Ha ftgrund begründen, der 
+Verteidigung nicht bekannt gegeben worden waren, hat der Gesetzgeber dies - wenn auch 
+nicht ausdrücklich als Verwertungsverbot - inzwischen gesetzlich geregelt (vgl. § 147 Abs. 2 
+Satz 2 StPO).  
+Bislang wurde in den Haftklausuren imme r eine Konstellation im Ermittlungsverfahren 
+gewählt. Denkbar wäre jedoch auch, einen Fall nach Anklageerhebung, nach Eröffnung des 
+Hauptverfahrens oder gar in der Hauptverhandlung (vgl. § 118 Abs. 4 StPO) zu schildern. 
+Auswirkungen hätte dies in erster Linie auf die Frage der Zuständigkeit des Gerichts. Soll eine 
+weitere Beschwerde begründet werden, muss den Referendaren im Aktenauszug der Verlauf 
+und das Ergebnis des Haftbeschwerdeverfahrens geschildert werden.  
+Für die Haftklausur gilt, abweichend von der Plädoyerklausur: Sowohl die Delikte, hinsichtlich 
+derer ein dringender Tatverdacht angenommen wird als auch die Haftgründe können vom 
+Haftrichter ausgetauscht werden. Das bedeutet, dass das zuständige Gericht den dringenden 
+Tatverdacht rechtlich abweiche nd vom Inhalt des Haftbefehls beurteilen kann und 
+
+===== SEITE 28 =====
+28 
+ 
+ 
+ 
+beispielsweise anstelle der Fluchtgefahr Verdunkelungsgefahr angenommen werden kann, 
+wenn die Voraussetzungen dafür vorliegen. Außerdem kann der Haftbefehl um weitere 
+prozessuale Taten erweitert werden. Die s hat zur Folge, dass man sich im Schriftsatz - wenn 
+Anlass dazu besteht - auch mit Delikten, Taten und Haftgründen befassen muss, die im 
+Haftbefehl nicht erwähnt werden.  
+Beispiel:  
+Dem Mandanten wird im Haftbefehl eine Untreue im besonders schweren Fall 
+vorgeworfen. Als Haftgrund wird Fluchtgefahr angenommen. Wenige Tage vor der 
+mündlichen Haftprüfung wird dem Verteidiger von der Staatsanwaltschaft mitgeteilt, dass 
+auch dringender Tatverdacht wegen eines Wohnungseinbruchsdiebstahls bestünde. Die 
+hierzu vorliegenden Beweismittel werden dem Verteidiger nach ergänzender Akteneinsicht 
+bekannt. In der Akte befindet sich außerdem ein Brief des Mandanten, in dem er einen 
+Freund darum bittet, beweiserhebliche Unterlagen zu vernichten. 
+In einem solchen Fall müssten nach der Prüfung des dringenden Tatverdachtes wegen des 
+Vorwurfs der Untreue weitere Überlegungen zu einem dringenden Tatverdacht gemäß § 
+244 Abs. 1 Nr. 3 StGB folgen. Außerdem würde es nicht genügen, als möglichen Haftgrund 
+nur die Fluchtgefahr zu prüfen, sondern die Verteidigung müsste von sich aus auch auf den 
+Haftgrund Verdunkelungsgefahr eingehen. Etwas Anderes würde allerdings gelten, wenn 
+nur der Verteidigung der Inhalt des Briefes bekannt wäre. Zwar darf ein solcher Brief 
+selbstverständlich nicht a us der Haftanstalt mitgenommen und weitergeleitet werden, 
+jedoch verbieten es die Schweigepflicht und der mit dem Mandat übernommene 
+Schutzauftrag, der Staatsanwaltschaft bzw. dem Gericht Informationen zu liefern, die dem 
+Mandanten schaden.  
+Die zu beachtenden Formalien stellen in der Haftklausur selten ein Problem dar. Wichtig ist, 
+dass der Rechtsbehelf an das "richtige" Gericht adressiert wird. Dies wird regelmäßig 
+(Ausnahmen: weitere Beschwerde / Rechtsbehelf nach Anklageerhebung) der 
+Ermittlungsrichter beim Amtsgericht sein. Wir empfehlen für diesen Standardfall alternativ -
+je nachdem ob Haftprüfung beantragt oder Haftbeschwerde eingelegt wird - folgende 
+Formulierung. 
+ 
+Formulierungsvorschläge: 
+ 
+I. Haftbeschwerde 
+Rechtsanwältin Tanja Stein 
+Badensche Straße 14 
+10715 Berlin 
+
+===== SEITE 29 =====
+29 
+ 
+ 
+ 
+ 
+ 
+An das 
+Amtsgericht Tiergarten 
+- Ermittlungsrichter - 
+10548 Berlin 
+ 
+ 
+In dem Ermittlungsverfahren 
+./. Kantich, Peter 
+- Az.: 353 Gs 72/23 - 
+ 
+lege ich gegen den Haftbefehl des Amtsgerichts Tiergarten vom 20.01.2023 
+ 
+Haftbeschwerde 
+ 
+ein und beantrage, 
+ 
+den Haftbefehl aufzuheben, hilfsweise außer Vollzug zu setzen. 
+ 
+Begründung: 
+ 
+I. 
+Hinsicht der im Haftbefehl genannten Delikte kann lediglich wegen einer 
+einfachen Körperverletzung ein dringender Tatverdacht angenommen 
+werden: 
+ 
+ 
+(Prüfung des dringenden Tatverdachtes) 
+II. 
+Die Bejahung des Haftgrundes Fluchtgefahr ist nicht mehr vertretbar. Dies 
+ergibt sich aus der Gesamt würdigung sämtlicher für die Prüfung der 
+Fluchtgefahr relevanten Umstände und insbesondere aus der erheblich 
+gesunkenen Straferwartung. Während im Haftbefehl noch unzutreffend von 
+einem dringenden Tatverdacht wegen mehrerer Verbrechen; nämlich einem 
+räuberischen An griff auf Kraftfahrer und einer schweren Erpressung 
+ausgegangen worden ist, kann mein Mandant im Falle einer Verurteilung 
+wegen einfacher Körperverletzung mit einem Geldstrafe rechnen. Dies stellt 
+keine fluchtanreizbietende Bestrafung dar (...) 
+ 
+ 
+ 
+
+===== SEITE 30 =====
+30 
+ 
+ 
+ 
+III. 
+Sollte das Gericht wider Erwarten auch einen dringenden Tatverdacht wegen 
+einer schweren Erpressung und deshalb auch eine Fluchtgefahr bejahen, kann 
+der Zweck der Untersuchungshaft durch eine Meldeauflage nach § 116 Abs. 1 
+Nr. 1 StPO erreicht werden (...) 
+ 
+ 
+I. Haftprüfung 
+ 
+Rechtsanwältin Tanja Stein 
+Badensche Straße 14 
+10715 Berlin 
+ 
+ 
+ 
+An das 
+Amtsgericht Tiergarten 
+- Ermittlungsrichter - 
+10548 Berlin 
+ 
+ 
+In dem Ermittlungsverfahren 
+./. Kantich, Peter 
+- Az.: 353 Gs 72/23 - 
+ 
+ 
+beantrage ich, eine  
+ 
+ 
+mündliche Haftprüfung 
+ 
+ 
+durchzuführen, in der ich beantragen werde,  
+ 
+ 
+den Haftbefehl des Amtsgerichts Tiergarten vom 20.01.2023 
+aufzuheben, hilfsweise außer Vollzug zu setzen. 
+ 
+ 
+Begründung: 
+
+===== SEITE 31 =====
+31 
+ 
+ 
+ 
+ 
+I.-III. 
+ 
+(siehe Haftbeschwerde) 
+ 
+ 
+Wir empfehlen, die mündliche Haftprüfung ausdrücklich zu beantragen, weil nur bei einem 
+entsprechenden Antrag auch ein Anspruch auf eine mündliche Haftprüfung besteht (§ 118 
+Abs. 1 StPO). Der Antrag nach § 116 StPO sollte nicht – wie in der Praxis üblich - immer gestellt 
+werden. Wird hinsichtlich sämtlicher Delikte der dringende  Tatverdacht und / oder der 
+Haftgrund verneint, könnte der Antrag auf Außervollzugsetzung der eigenen Argumentation 
+widersprechen. Denn der Ermittlungsrichter hat nur Veranlassung, sich mit Auflagen im Sinne 
+des § 116 StPO zu befassen, wenn er einen dringenden Tatverdacht und einen Haftgrund 
+bejaht. Außerdem sollte der Antrag, der sicher häufig angebracht ist, auch begründet werden. 
+Konkrete Auflagen sollte man sich nicht ausdenken - das gilt insbesondere für ei ne 
+Sicherheitsleistung - sondern nur erwähnen, wenn der Sachverhalt hierfür Anhaltspunkte 
+bietet. In einem solchen Fall sollen sie auch in den Antrag aufgenommen werden. 
+Auf die Einhaltung der Fristen §§ 118 Abs. 5, 306 Abs. 2 StPO muss nicht eigens hingewiesen 
+werden; sie ergeben sich aus dem Gesetz ; zudem bleiben  die Folgen einer Nichteinhaltung 
+dieser Fristen - leider - nach h.M. fast immer ohne Folgen.  
+In der Haftklausur sind weitere Anträge denkbar. Zu denken wäre an einen Antrag 
+ auf Beiordnung eines Pflichtverteidigers, wenn entgegen der gesetzlichen 
+Vorgaben des § 141 Abs. 2 Nr. 1 StPO noch keine Bestellung erfolgte,  
+ Verteidigerwechsel nach § 143a Abs. 1 StPO,  
+ auf Pflichtverteidigerwechsel nach § 143a Abs. 2 StPO oder 
+ die sofortige Beschwerde gegen die Bestellung eines Pflichtverteidigers nach § 
+142 Abs. 7 StPO.  
+Eine Besonderheit ist bei den letzten beiden Spiegelstrichen zu beachten: der Austausch des 
+Pflichtverteidigers nach § 143a Abs. 1 Nr. 1 StPO (der Beschuldigte wurde angehört, erreichte 
+seinen Wunschverteidiger nicht und erklärte sich mit der Bestellung eines Notverteidigers 
+einverstanden) ist innerhalb von 3 -Wochen kostenneutral möglich; in den Fällen des § 142 
+Abs. 7 StPO (der Beschuldigte wurde gar nicht ange hört) gilt eine einwöchige Frist für die 
+sofortige Beschwerde.  Ein entsprechender Antrag (oder eine sofortige Beschwerde) ist 
+natürlich nur zu stellen, wenn sich aus dem Sach verhalt oder Bearbeitervermerk 
+Anhaltspunkte dafür ergeben, dass der Mandant dies möchte.  
+Gemäß § 307 Abs. 2 StPO besteht im Beschwerdeverfahren die Möglichkeit, dass die 
+Vollziehung der angefochtenen Entscheidung - also des Haftbefehls - ausgesetzt wird. Der 
+Verteidiger kann dies selbstverständlich in seinem Schriftsatz auch beantrage n. Allerdings 
+
+===== SEITE 32 =====
+32 
+ 
+ 
+ 
+sollte auch dieser Antrag, der in der Praxis aus Sicht der Verteidigung selten eine Rolle spielt, 
+nur gestellt werden, wenn sich aus dem Sachverhalt Anhaltspunkte hierfür ergeben. In der 
+Regel wird ein Beschwerdegericht, das  Zweifel an der Au frechterhaltung eines Haftbefehles 
+hat, umgehend eine Entscheidung treffen, so dass eine Aussetzung des Vollzuges nicht 
+erforderlich wird. Als Beispielsfall für einen Antrag nach § 307 Abs. 2 StPO könnte man den 
+Klausurfall ggf. so gestalten, dass das Besc hwerdegericht dem Verteidiger mitteilt, es werde 
+erst nach der Erhebung weiterer Beweise eine Entscheidung über die Beschwerde treffen. 
+ 
+VI. Die Strafbefehlsklausur 
+In der Stra fbefehlsklausur geht es regelmäßig in einer umfassenden Begutachtung  des 
+Sachverhaltes vor der Beratung des Mandanten  zunächst darum, ob überhaupt (noch) ein 
+Einspruch gegen den Strafbefehl ein gelegt werden kann . Nicht selten thematisieren die 
+Klausuren Zustellungsprobleme beim Strafbefehl. Neben Zustellungsfragen muss dann 
+geprüft werden, ob ein Antrag auf Wiedereinsetzung in den vorigen Stand gestellt werden  
+kann. Sodann ist der Einspruch gegen den Strafbefehl einzulegen.  
+Üblicherweise werden den Klausurbearbeiter*innen der Strafbefehl und die Beweismittel zur 
+Verfügung gestellt , die den hinreichenden Tatverdacht aus Sicht des Strafrichters und der 
+Staatsanwaltschaft begründen. Dem Aktenauszug werden folglich die Aktenbestandteile 
+beigefügt, die zur Prüfung des hinreichenden Tatverdachtes erforderlich sind.  Da der 
+Bearbeitervermerk zumeist den Hinweis beinhaltet, dass derzeit keine weiteren 
+Informationen erlangt werden können, soll vor (wie sowieso immer) unnötigen Spekulationen 
+gewarnt werden. Es ist davon auszugehen, dass dem Verteidiger die zentralen Bewe ismittel 
+bekannt sind und darüber hinaus keine weiteren Beweismittel existieren, die für die Prüfung 
+des Tatverdachtes von Bedeutung sind.  
+Da es in der Begründung des Einspruchs gegen den Strafbefehl um eine Prognose der 
+Verteidigung zur Verurteilungswahrscheinlichkeit geht und das Verschlechterungsverbot im 
+Strafbefehlsverfahren nicht gilt, muss aus anwaltlicher Sicht kritisch entschieden werden, ob 
+die Durchführung des Einspruchs Erfolg verspricht. Der Verteidiger wird dem Mandanten nur 
+raten, gegen den Strafbefehl vorzugehen, wenn in Anschluss an eine Hauptverhandlung mit 
+einem "besseren" Ergebnis für den Mandanten zu rechnen ist. Dies ist der Fall: 
+ wenn nach einer Hauptverhandlung mit einem Freispruch, Teilfreispruch oder einer 
+Einstellung wegen eines Verfahrenshindernisses zu rechnen ist, 
+ wenn im Strafbefehl Delikte aufgeführt sind, hinsichtlich derer nach einer 
+Hauptverhandlung nicht mit einer Verurteilung zu rechnen ist, 
+ wenn anstatt der im Strafbefehl genannten Delikte mit einer Verurteilung wegen 
+anderer Delikte zu rechnen ist, die jedoch eine geringere Strafe zur Folge haben 
+würden und / oder 
+
+===== SEITE 33 =====
+33 
+ 
+ 
+ 
+ wenn Strafzumessungskriterien von der Staatsanwaltschaft und dem Strafrichter 
+übersehen worden sind. 
+Letzteres dürfte eher selten der Fall sein. Hierzu ein Beispiel: 
+Dem Mandanten war vorgeworfen worden, 200,00 € aus dem Portemonnaie eines 
+Gastwirtes entwendet und in seine Hosentasche gesteckt zu haben. Nachdem der 
+Gastwirt bemerkte, dass das Geld fehlte und er den Mandanten darauf ansprach, war 
+diesem der Vorfall sehr unangenehm, gestand er die Tat und gab unverzüglich das Geld 
+zurück. 
+Selbstverständlich wirkte sich dieses Verhalten auf die Strafzumessung aus; jedoch 
+konnte im Beispielsfall unterstellt werden, dass der Strafrichter und die 
+Staatsanwaltschaft dies berücksichtigt hatten, weil sich der Sachverhalt aus der in der 
+Akte befindlichen Zeugenaussage des Gastwirtes ergab. Auch die für den Diebstahl im 
+Strafbefehl festgesetzte Einzelstrafe deutete nicht s darauf hin, dass 
+Strafzumessungsaskepte übersehen worden waren. Es war daher kaum hilfreich, dem 
+Mandanten zu raten, hinsichtlich des Diebstahls an dem Geld Einspruch gegen den 
+Strafbefehl einzulegen.  
+Nebenbei und weil dies in einer Fallbearbeitung aufgefallen war : Ein Rücktritt vom 
+Versuch schied aufgrund der Vollendung der Tat aus. In der Anwaltsklausur soll nicht 
+im Interesse des Mandanten das materielle Strafrecht "umgedeutet" werden; sondern 
+der Fall rechtlich realistisch eingeschätzt werden. 
+Waren strafmildernde Umstände dem Strafrichter bei Erlass d es Strafbefehls hingegen 
+unbekannt, kann dies natürlich dafür sprechen, Einspruch gegen den Strafbefehl einzulegen. 
+Beispiel: 
+Der Mandant teilt seiner Verteidigerin nach Erlass des Strafbefehles mit, er sei von einem 
+Dritten unter Androhung von Schlägen zu  der Tat gezwungen worden und dies könne 
+bewiesen werden. 
+Für Referendare stellt sich mintunter die Frage, ob sie in der Begründung des Einspruchs einen 
+hinreichenden Tatverdacht oder die Strafbarkeit prüfen sollen. Zwar wird bereits bei Vorliegen 
+eines hinreichenden Tatverdachtes der Strafbefehl vom Strafrichter erlassen (vgl. § 408 Abs. 
+2 StPO). Allerdings wird nach dem Einspruch die Hauptverhandlung anberaumt, in der es dann 
+um die Strafbarkeit des Mandanten geht. Referendare sollten durch geschickte 
+Formulierungen zeigen, dass ihnen die Grundzüge des Strafbefehlsverfahrens bekannt sind.  
+ 
+ 
+ 
+
+===== SEITE 34 =====
+34 
+ 
+ 
+ 
+Formulierungsvorschläge: 
+I. 
+Die in Anschluss an den Einspruch gegen den Strafbefehl anzuberaumende 
+Hauptverhandlung wird ergeben, dass sich mein Mandant wegen keiner der 
+Vorwürfe in dem Strafbefehl strafbar gemacht hat => Prüfung der Strafbarkeit 
+II. 
+Der Strafbefehl ist zu Unrecht erlassen worden, weil die Auswertung der 
+vorliegenden Beweismittel ergibt, dass hinsichtlich keiner der vorgeworfenen Taten 
+ein hinreichende r Tatverdacht angenommen werden kann => Prüfung des 
+hinreichenden Tatverdachtes (...) 
+Die nunmehr anzuberaumende Hauptverhandlung wird daher voraussichtlich zum 
+Freispruch meines Mandanten führen. 
+ 
+Im Schriftsatz kann noch kein Freispruch beantragt werden und falsch wäre es, die Aufhebung 
+des Strafbefehls zu beantragen. Derartige Anträge können andeuten , dass Bearbeiter n der 
+Gang des Strafbefehlsverfahrens unbekannt ist . Allerdings kann nach Einspruch gegen einen 
+Strafbefehl dieser nach § 411 Abs. 3  StPO zurückgenommen werden. Das ist aber eine 
+Ausnahmeregelung für den Strafbefehl; die Staatsanwaltschaft könnte eine Anklage nach § 
+156 StPO nur vor der Eröffnung zurücknehmen; vor diesem Hintergrund ist eine Rücknahme 
+des Strafbefehls in Verfahren nach § 408a StPO unzulässig.  
+ 
+1. Wiedereinsetzung in den vorigen Stand 
+Strafbefehle müssen dem Mandanten oder ggf. dem Verteidiger zugestellt werden. Für die 
+ordnungsgemäße Zustellung gelten gemäß § 37 Abs. 1 StPO die Regelungen der ZPO; also die 
+§§ 166 ff.  ZPO. Von der ordnungsgemäßen Zustellung hängt der Beginn der zweiwöchigen 
+Einspruchsfrist ab. Die Strafbefehlsklausur eignet sich aus diesem Grund besonders gut, um 
+Probleme im Zusammenhang mit der Wiedereinsetzung in den vorigen Stand zu prüfen.  
+Bevor e in Antrag auf Wiedereinsetzung in den vorigen Stand im Schriftsatz gestellt wird, 
+sollten sich die Bearbeiter der Klausur jedoch mit der Frage befassen, ob der Antrag 
+erforderlich ist. War die Zustellung des Strafbefehls eindeutig unwirksam, sollte auf den  
+Antrag verzichtet werden und im Schriftsatz lediglich dargestellt werden, warum die 
+Zustellung unwirksam war. Immerhin müsste der Antrag im Schriftsatz später begründet 
+werden und das kostet Zeit. Wenn die Wirksamkeit der Zustellung jedoch lediglich zweifelhaft 
+ist, sollte hilfsweise aus anwaltlicher Vorsicht die Wiedereinsetzung in den vorigen Stand 
+beantragt werden.  
+
+===== SEITE 35 =====
+35 
+ 
+ 
+ 
+Die Probleme im Zusammenhang mit der Unwirksamkeit der Zustellung eines Strafbefehls 
+können und sollen an dieser Stelle nicht vollständig d argestellt werden. Examensrelevant 
+waren bislang insbesondere die Ersatzzustellung nach § 178 ZPO, der Begriff der Wohnung bei 
+inhaftierten Mandanten (Lebensmittelpunkt ist in diesen Fällen die Justizvollzugsanstalt) und 
+§ 37 Abs. 3 StPO analog, der nach h .M. auch im Strafbefehlsverfahren die Zustellung einer 
+Übersetzung des Strafbefehls an einen der deutschen Sprache nicht mächtigen Mandanten 
+verlangt, so dass eine Zustellung eines nicht übersetzten Strafbefehls unwirksam ist und die 
+Einspruchsfrist nicht in Gang gesetzt wird. Außerdem sollte Referendaren das Problem der 
+Doppelzustellung bekannt sein. Zwar dient die Regelung in § 145 a StPO dazu, 
+Doppelzustellungen - also eine Zustellung an den Verteidiger und den Mandanten - zu 
+vermeiden, kommt es jedoch v ersehentlich dennoch zu einer Doppelzustellung, richtet sich 
+die Berechnung der Einspruchsfrist nach der zuletzt bewirkten Zustellung (§ 37 Abs. 2 StPO). 
+Die Wiedereinsetzung in den vorigen Stand wird im Strafbefehlsverfahren bei dem Strafrichter 
+beantragt, der den Strafbefehl erlassen hat (§§ 410 Abs. 1, 45 Abs. 1 StPO). Daher ist es 
+erforderlich, dass in einem Schriftsatz sowohl der Antrag auf Wiedereinsetzung in den vorigen 
+Stand gestellt als auch der Einspruch gegen den Strafbefehl eingelegt und begründet wird. Die 
+Besonderheit des Schriftsatzes besteht - soweit ein Wiedereinsetzungsantrag gestellt wird - 
+darin, dass zunächst ein Sachverhalt zu schildern ist, der es dem Strafrichter ermöglicht, die 
+Voraussetzungen (Versäumen der Einspruchsfrist / kein Verschulden / Wegfall des 
+Hindernisses / Einhaltung der Wochenfrist / Nachholen der versäumten Handlung innerhalb 
+der Antragsfrist) für die Wiedereinsetzung in den vorigen Stand zu prüfen. Darüber hinaus ist 
+dieser Sachverhalt glaubhaft zu machen (§ 45 Abs. 2 Satz 1 StPO).  
+Als Mittel zur Glaubhaftmachung des Sachverhaltes kommen in der Regel eidesstattliche 
+Versicherungen in Betracht. Ob solche Versicherungen existieren, wird im Aktenauszug 
+mitgeteilt. In der Klausur sollte folglich nicht unterstellt werden, dass eidesstattliche 
+Versicherungen vorhanden sind, die im Aktenauszug nicht erwähnt werden. Eidesstattliche 
+Versicherungen des Beschuldigten sind im Strafverfahren kein zulässiges Mittel zur 
+Glaubhaftmachung. Sie sind als schlichte Erklärungen anz usehen und können nur 
+ausnahmsweise berücksichtigt werden, wenn dem Beschuldigten eine anderweitige 
+Glaubhaftmachung ohne eigenes Verschulden nicht möglich ist.  
+Beispiel: Fall der häuslichen Gewalt; Strafbefehl wird in die gemeinsame Wohnung 
+zugestellt und vom Anzeigenerstatter hinter dem Schrank versteckt. Beim Staubsagen 
+fällt der Beschuldigte n, der gegen sie verhängte Strafbefehl in die Hand und der 
+späteren Mandantin  auf, dass er bereits rechtskräftig geworden ist. Hier kann die 
+Versicherung der Beschuldigten als Mittel der Glaubhaftmachung ausreichen.    
+Zur Glaubhaftmachung können  auch Schriftstücke (z.B. Fahrkarten, Rechnungen etc.) 
+eingereicht werden. Schließlich können Rechtsanwälte einen Sachverhalt, der Gegenstand 
+ihrer eigenen Wahrnehmung war, a nwaltlich versichern. Dies spielt insbesondere bei der 
+Frage des unverschuldeten Versäumens der Einspruchsfrist eine Rolle. Da das Verschulden der 
+
+===== SEITE 36 =====
+36 
+ 
+ 
+ 
+Verteidigung (und nicht jedes anwaltliche Verschulden, bspw. nicht das der Nebenklage, des 
+Adhäsionsklägers oder des Einziehungsbeteiligten) im Strafprozess dem Beschuldigten nicht 
+zugerechnet wird - eine dem § 85 Abs. 2 ZPO entsprechende Regelung existiert in der 
+Strafprozessordnung nicht - kann im Schriftsatz ohne weiteres mitgeteilt und glaubhaft 
+gemacht werden, dass der Verteidiger schuldhaft die Einspruchsfrist versäumt hat.  
+ 
+Formulierungsvorschläge zur Glaubhaftmachung: 
+Vom 15.01.2023 bis 30.01.2023 war mein Mandant verreist und hielt sich in Paris auf, 
+so dass er erst na ch seiner Rückkehr am 31.01.20 23 den Inhalt des Strafbefehls zur 
+Kenntnis nahm.  
+ 
+Glaubhaftmachung:  
+1. Eidesstattliche Versicherun g der Karin Stein vom 
+17.02.2023 
+2. Flugtickets über Hin - und Rückflug Berlin - Paris für 
+zwei Personen vom 04.01.2023 
+ 
+Am 01.02.2023 suchte mein Mandant mich in meiner Kanzlei auf und übergab mir den 
+Strafbefehl. Ich sicherte ihm zu, alles Erforderliche zu veranlassen. Nach der 
+Besprechung legte ich versehentlich einen Stapel Akten auf den Strafbefehl  und fand 
+ihn erst am 12.02.20 23 wieder. Der vorstehende Sachverh alt wird anwaltlich 
+versichert. 
+Grundsätzlich können also Mittel zur Glaubhaftmachung im Schriftsatz, ähnlich wie 
+Beweismittel in einer zivilrechtlichen Klage, bezeichnet werden. Da es sich bei der 
+anwaltlichen Versicherung jedoch nicht um ein gesondertes Schriftstück handelt, genügt es 
+insoweit, wenn die anwaltliche Versicherung unmittelbar im Schriftsatz erklärt wird.  
+ 
+2. Aufbau des Schriftsatzes / insbesondere: Beschränkung des Einspruchs 
+Der Einspruch und ggf. der Antrag auf Wiedereinsetzung in den vor igen Stand richten sich an 
+das Amtsgericht (Strafrichter). Bis auf einen evtl. erforderlichen Antrag auf Wiedereinsetzung 
+in den vorigen Stand, sind keine Anträge erforderlich. Allerdings kann auch in der 
+Strafbefehlsklausur angeregt werden, das Verfahren beispielsweise nach den §§ 153, 153 a, 
+154, 154 a StPO einzustellen. 
+
+===== SEITE 37 =====
+37 
+ 
+ 
+ 
+ 
+Formulierungsvorschlag (Antrag auf Wiedereinsetzung + unbeschränkter Einspruch): 
+ 
+Rechtsanwältin Tanja Stein 
+Badensche Straße 14 
+10715 Berlin 
+ 
+ 
+ 
+An das 
+Amtsgericht Tiergarten 
+- Strafrichter - 
+10548 Berlin 
+ 
+ 
+ 
+In dem Strafbefehlsverfahren 
+./. Kantich, Peter 
+- Az.: 224 Cs 170/22 - 
+ 
+ 
+ 
+beantrage ich die  
+ 
+ 
+Wiedereinsetzung in den vorigen Stand 
+ 
+ 
+und lege ich  
+ 
+ 
+Einspruch 
+ 
+ 
+gegen den am 15.01.20 23 zugestellten Strafbefehl des Amtsgerichts 
+Tiergarten ein. 
+ 
+Begründung: 
+ 
+I. 
+
+===== SEITE 38 =====
+38 
+ 
+ 
+ 
+Mein Mandant hat die Einspruchsfrist unverschuldet versäumt und innerhalb 
+der einwöchigen Antragsfrist die versäumte Handlung nachgeholt: 
+ 
+Schilderung und Glaubhaftmachung eines Sachverhaltes, der dem Strafrichter 
+die Prüfung der §§ 44 Satz 1, 45 StPO (Wann wurde der Strafbefehl zugestellt? 
+- Wann endete die Einspruchsfrist? - Warum wurde diese unverschuldet 
+versäumt? - Wann ist das Hindernis weggefallen? - Bis wann konnte der 
+Einspruch nachgeholt werden?) ermöglicht. 
+ 
+II. 
+Hinsichtlich sämtlicher im Strafbefehl genannter Taten kann auf Grund des 
+aktuellen Stands der Ermittlungen kein hinreichender Tatverdacht bejaht 
+werden: 
+ 
+Prüfung der Im Strafbefehl genannten Delikte. Liegen Verfahrenshindernisse 
+vor? Sind die Voraussetzungen des Straftatbestandes erfüllt? Ist der strafbare 
+Sachverhalt beweisbar (Beweisverwertungsverbote? Beweiswürdigungsfra -
+gen?) 
+ 
+Die nunmehr anzuberaumende  Hauptverhandlung wird daher voraus -
+sichtlich zum Freispruch meines Mandanten führen. 
+ 
+ 
+Rechtsanwalt 
+ 
+ 
+Anmerkung: In den Klausurlösungen wird manchmal zwischen der Zulässigkeit (§ 45 Abs. 1 
+StPO) und Begründetheit (§ 44 Satz 1 StPO) des Antrags auf Wiedereinsetzung in den vorigen 
+Stand unterschieden. Nach unserer Auffassung ist das nicht erforderlich, da sich rechtlich 
+keine abweichenden Konsequenzen ergeben. Für die Verteidigung ist es letztlich unerheblich, 
+ob der Antrag als unzulässig oder unbegrü ndet verworfen wird (vgl. § 46 Abs. 3 StPO). In 
+beiden Fällen ist die sofortige Beschwerde zulässig. 
+Eine Besonderheit in der Strafbefehlsklausur ergibt sich aus der Möglichkeit, den Einspruch 
+auf bestimmte Beschwerdepunkte zu beschränken (vgl. § 410 Abs. 2 StPO). Insoweit findet die 
+Trennbarkeitsformel Anwendung, nach der eine Beschränkung des Einspruchs nur möglich ist, 
+wenn eine von dem nicht angegriffenen Teil des Strafbefehls unabhängige tatsächliche und 
+rechtliche Würdigung des Beschwerdepunktes mögli ch ist. Unproblematisch ist daher die 
+Beschränkung eines Einspruchs auf einzelne Taten im prozessualen und/oder materiellen Sinn 
+(zu den wenigen Ausnahmen wie. z.B. § 323 a StGB vgl. Meyer-Goßner / Schmitt, § 318 Rdn. 
+9 ff.). In der Regel wird auch eine Be schränkung auf den Rechtsfolgenausspruch zulässig sein 
+und kann bei der Geldstrafe eine Beschränkung auf die Tagessatzhöhe (vgl. § 40 StGB) oder 
+
+===== SEITE 39 =====
+39 
+ 
+ 
+ 
+die Tagessatzanzahl erfolgen. Interessant für die Anwaltsklausur ist in diesem Zusammenhang 
+die Regelung in § 4 11 Abs. 1 Satz 3 StPO, der bei einer Beschränkung des Einspruchs auf die 
+Tagessatzhöhe eine Entscheidung ohne Hauptverhandlung durch Beschluss ermöglicht, wenn 
+die Verteidigung und die Staatsanwaltschaft dieser Vorgehensweise zustimmen, was in der 
+Praxis regelmäßig der Fall sein dürfte, da für die Entscheidung des Gerichts "nur noch" die 
+wirtschaftlichen Verhältnisse des Mandanten relevant sind.  
+Mit der Trennbarkeitsformel nicht vereinbar ist die Beschränkung des Einspruchs auf einzelne 
+Tatbestandsmerkmale, Strafmilderungsgründe oder Delikte, die tateinheitlich verwirklicht 
+worden sein sollen. Letzteres gilt selbst dann, wenn im Strafbefehl versehentlich unzutreffend 
+von Tatmehrheit ausgegangen worden ist. Im Einzelnen sehr umstritten ist die Frage, ob ein 
+Einspruch auf Nebenstrafen, Nebenfolgen und auf Maßregeln der Besserung und Sicherung 
+beschränkt werden kann. Klausurrelevant sind insoweit das Fahrverbot (§ 44 StGB) und die 
+Entziehung der Fahrerlaubnis (§ 69 StGB). Waren charakterliche Mängel ausschlaggebend für 
+die Entziehung der Fahrerlaubnis, wird eine Beschränkung des Einspruchs auf die Überprüfung 
+der Maßregel überwiegend als unzulässig angesehen. Etwas Anderes soll gelten, wenn 
+körperliche oder geistige Mängel zur Entziehung der Fahrerlaubnis geführ t haben, da diese 
+Mängel losgelöst von den verwirklichten Straftaten beurteilt werden können. Eine 
+Beschränkung des Einspruchs auf das Fahrverbot, wird nach ganz herrschender Meinung 
+wegen des engen Zusammenhangs der Anordnung mit der verwirklichten Straft at als 
+unzulässig angesehen. Die Möglichkeit, ein Rechtsmittel auf die Überprüfung der 
+Strafaussetzung zur Bewährung zu beschränken, spielt für die Strafbefehlsklausur keine Rolle, 
+da im Strafbefehlsverfahren keine Freiheitsstrafe ohne Bewährung verhängt w erden kann 
+(vgl. § 407 Abs. 2 StPO) und die Verteidigung kein Interesse daran haben kann, in der 
+Hauptverhandlung nur die Bewährungsentscheidung überprüfen zu lassen. 
+In den Klausuren geht es regelmäßig um die Beschränkung des Einspruchs auf bestimmte 
+Taten. Ausnahmsweise könnte auch einmal eine Beschränkung auf den Rechtsfolgen -
+ausspruch in Betracht kommen. Beachtet werden sollte, dass die oben genannten Vorteile der 
+Regelung in § 411 Abs. 1 Satz 3 StPO dem Mandanten natürlich kaum weiterhelfen, wenn 
+ohnehin auf Grund anderer Taten eine Hauptverhandlung stattfinden muss. 
+ 
+Beispiel: 
+Dem Mandanten wird im Strafbefehl vorgeworfen am 05.05.2023 eine Urkundenfälschung 
+in Tatmehrheit mit einer  Sachbeschädigung, am 19.07. 2023 einen Widerstand gegen 
+Vollstreckungsbeamte in Tateinheit mit einer  Körperverletzung, am 26.07. 2023 eine 
+Unfallflucht und am 09.08. 2023 eine Strafvereitelung begangen zu haben. Die Prüfung 
+anhand der Ermittlungsergebnisse führt aus Sicht der Verteidigung dazu, dass kein 
+hinreichender Tatverdacht hinsichtlich der Urkundenfälschung, der Körperverletzung und 
+der Unfallflucht vorliegt. Außerdem wird die Einzelstrafe - was die Tagessatzhöhe betrifft - 
+für die verwirklichte Strafvereitelung als zu hoch angesehen.  
+
+===== SEITE 40 =====
+40 
+ 
+ 
+ 
+ 
+Formulierungsbeispiel für die Beschränkung des Einspruchs: 
+(...) lege ich Einspruch gegen den am (...) zugestellten Strafbefehl ein. Hinsichtl ich der 
+Tat vom 05.05. 23 wird der Einspruch auf den Vorwurf der Urkundenfälschung und 
+hinsichtlich der Tat vom 09.08.23 auf den Rechtsfolgenausspruch beschränkt.  
+(Anmerkung: Damit ist klargestellt, dass hinsichtlich der übrigen Taten vom 19.07. und 
+26.07.23 keine Beschränkung erfolgt ist. Eine Beschränkung auf den Vorwurf der 
+Körperverletzung war wegen der tatein heitlichen Begehung nicht möglich, so dass im 
+Schriftsatz kurz der Widerstand gegen Vollstreckungsbeamte eingeräumt werden sollte. 
+Unseres Erachtens empfiehlt es sich nicht, den Einspruch hinsichtlich der Tat vom 09.08.2023 
+ausdrücklich auf die Tagessatzhö he zu beschränken, auch wenn die festgesetzte 
+Tagessatzanzahl nicht beanstandet werden soll. 
+Keinesfalls ist zu formuliern: 
+ 
+Hiermit lege ich teilweise Einspruch gegen den Strafbefehl ein. 
+ 
+Außerdem unterlaufen den Referendar *innen bei der Beschränkung des Einspruchs 
+manchmal folgende Ungenauigkeiten: 
+ 
+..beschränke ich den Einspruch auf den Rechtsfolgenausspruch und die Tagessatzhöhe. 
+ 
+Diese Formulierung ist missverständlich. Wenn der Einspruch auf die Tagessatzhöhe 
+beschränkt wird,  geht daraus hervor, dass die Tagessatzanzahl nicht mehr vom Gericht 
+überprüft werden soll. Die Beschränkung auf den Rechtsfolgenausspruch sollte daher nur 
+vorgenommen werden, wenn die Rechtsfolge insgesamt in einer Hauptverhandlung überprüft 
+werden soll, der Tatvorwurf jedoch eingeräumt wird. 
+Die Formulierung: 
+...beschränke ich den Einspruch auf die Tagessatzhöhe und die Tagesatzanzahl. 
+ist eine Beschränkung auf den Rechtsfolgenausspruch insgesamt. 
+Bei der Klausurbearbeitung müssen Anträge und Beschränkungen zu den Ausführungen und 
+Begründungen passen. Wer den Einspruch auf die Tagessatzhöhe beschränkt, sollte auf gar 
+keinen Fall im Schriftsatz Überlegungen zur Strafzumessung anstellen und wer durch die 
+
+===== SEITE 41 =====
+41 
+ 
+ 
+ 
+Beschränkung des Einspruchs auf bestimmte prozessuale Taten zeigt, dass hinsichtlich einiger 
+Taten keine Beweisaufnahme mehr stattfinden soll, sollte die Taten, hinsichtlich derer kein 
+Einspruch eingelegt wird, im Strafbefehl nicht prüfen , sondern dies e allenfalls  erwähnen, 
+soweit nach einer im Anschluss an den Einspruch und in der  Hauptverhandlung eine 
+Gesamtstrafenbildung erforderlich  werden würde,  könnte man in dem oben genannten 
+Beispiel den Schriftsatz mit der Formulierung beenden: 
+ 
+Nach einer Haup tverhandlung wird mein Mandant folglich wegen der Tat vom 
+29.07.2023 freizusprechen sein und voraussichtlich wegen der verwirklichten 
+Sachbeschädigung jeweils in Tatmehrheit mit einem Widerstand gegen 
+Vollstreckungsbeamte und einer Strafvereitelung eine ne ue - erheblich niedrigere - 
+Gesamtstrafe zu bilden sein. 
+ 
+Nach unserer Einschätzung hat die Strafbefehlsklausur den Vorteil, dass durch eine 
+sachgerechte Beschränkung des Einspruchs besonders gut vermieden werden kann, dass 
+bereits ausführlich im Gutachten erfolgte Prüfungen im Schriftsatz wiederholt werden. Denn 
+die Begründung des Schriftsatzes beschränkt sich auf die Prüfung derjenigen Taten, 
+hinsichtlich derer Einspruch eingelegt worden ist, da der Strafbefehl mitsamt den verhängten 
+Einzelstrafen teilweise - nämlich soweit der Einspruch beschränkt worden ist - rechtskräftig 
+wird. Folglich ist die Erörterung von Rechtsfragen, die im Zusammenhang mit den Taten 
+stehen, hinsichtlich derer kein Einspruch eingelegt worden ist, nur im vorangegangenen oder 
+nachfolgenden (ergänzenden) Gutachten erforderlich. Außerdem lassen sich in einer 
+Strafbefehlsklausur weitere anwaltsspezifische Aspekte abprüfen: 
+Im Strafbefehlsverfahren gilt das Verbot der Schlechterstellung nicht (vgl. § 411 Abs. 4 StPO). 
+In Anschluss an eine Beweisaufnahme, kann folglich eine Verurteilung zu einer höheren Strafe 
+und/oder wegen anderer Delikte erfolgen. Die Aufgabe in der Klausur besteht daher darin, nur 
+im Interesse des Mandante n - also in der Klausur häufig beschränkt - Einspruch gegen den 
+Strafbefehl einzulegen. Ergibt die Prüfung, dass eine Tat im Strafbefehl für den Mandanten 
+rechtlich unzutreffend, aber für ihn günstig bewertet worden ist, weil beispielsweise die 
+Verwirklichung eines Regelbeispiels übersehen wurde oder anstatt einer tatsächlich 
+vorliegenden Mittäterschaft von Beihilfe ausgegangen wir d, wäre es interessenwidrig  
+insoweit Einspruch einzulegen.  
+Die Begründung für die Beschränkung des Einspruchs ergibt sich folgl ich aus der 
+vorangegangenen oder nachfolgenden (ergänzenden) gutachterlichen Prüfung des 
+Sachverhaltes. Man kann also sagen, dass das Gutachten in der Strafbefehlsklausur häufig die 
+Begründung für die Beschränkung des Einspruchs liefert. Wir halten es daher für sinnvoll und 
+empfehlen, die Konsequenzen des Gutachtens für die Beratung des Mandanten vor der 
+Anfertigung des Schriftsatzes kurz zusammenzufassen. 
+
+===== SEITE 42 =====
+42 
+ 
+ 
+ 
+Formulierungsvorschlag: 
+Was die Taten vom 03 .02.2023 und 07.03.2023 betrifft, wurde dem Mandanten von 
+einem Einspruch gegen den Strafbefehl abgeraten und dieser entsprechend 
+beschränkt. Dies war erforderlich, weil das Verbot der Schlechterstellung im 
+Strafbefehlsverfahren gemäß § 411 Abs. 4 StPO nicht gilt und hinsichtlich der 
+genannten Taten nach einer Be weisaufnahme mit einer schwere ren Bestrafung zu 
+rechnen wäre. 
+ 
+C) Das Plädoyer 
+Die auf den Seiten 8 - 13 geschilderten Grundsätze zu r anwaltlichen Leistung und zum 
+Verteidigungsziel gelten sinngemäß auch für das Plädoyer.  
+ 
+1. Aufgabenstellung 
+Die Aufgabe in der Plädoyerklausur besteht darin, ein Plädoyer zu verfassen und in Anschluss 
+daran, in einem ergänzenden Gutachten diejenigen Rechtsfragen gutachterlich zu prüfen, für 
+deren Erörterung im Plädoyer aus anwaltlicher Sicht keine Veranlassung b esteht. Der einer 
+Plädoyerklausur zugrundeliegende Aktenauszug  beinhaltet eine Anklageschrift. Darüber 
+hinaus muss den Referendaren der Inhalt der Beweisaufnahme mitgeteilt werden. Denn eine 
+Verurteilung kann nur anhand der in der Hauptverhandlung erhobenen Beweise erfolgen. In 
+der Klausur scheint dies manchen Refere ndaren nicht klar zu sein. Deshalb hierzu ein kurzes 
+Beispiel: 
+ 
+Ein Zeuge hat im Ermittlungsverfahren eine Aussage bei der Polizei gemacht und ist vor 
+der Hauptverhandlung verstorben. Daher wird das Protokoll über die polizeiliche 
+Vernehmung in der Hauptverhandlung im Wege des Urkundenbeweises gemäß § 251 Abs. 
+1 Nr. 2 StPO verlesen. 
+Im Plädoyer sollte  man nicht von der Aussage des Zeugen sprechen, sondern von dem 
+Protokoll über die Vernehmung. Nur dieses kann Grundlage einer Verurteilung sein. Die 
+Unterscheidung ist durchaus von Bedeutung, weil der Zeuge in der Hauptverhandlung von 
+der Verteidigung nicht befragt werden konnte und der verlesenen Vernehmung ein 
+geringerer Beweiswert zukommt, als einer Vernehmung des Zeugen in der Verhandlung 
+(vgl. § 250 StPO / Grundsatz der Unmittelbarkeit). 
+ 
+Der Inhalt der Beweisaufnahme wird entweder durch eine Mitschrift des Verteidigers oder 
+den Abdruck des Protokolls (vgl. § 273 StPO) mitgeteilt. Nach unserer Erfahrung neigt das GJPA 
+
+===== SEITE 43 =====
+43 
+ 
+ 
+ 
+dazu, den Referendar e eine Mitschrift d es Verteidigers zur Verfügung zu stellen. Sollte 
+ausnahmsweise einmal das Protokoll abgedruckt sein, was bei einer Verhandlung vor einer 
+Großen Strafkammer nicht sinnvoll ist, weil dort der Inhalt von Zeugenvernehmungen nicht 
+protokolliert wird (vgl. § 273 Abs. 2 StPO), sollten sich die Referendare nicht mit den formalen 
+Anforderungen an das Hauptverhandlungsprotokoll befassen und dort nach Fehlern suchen. 
+Das Hauptverhandlungsprotokoll dient dem Revisionsgericht als Beweisgrundlage. Nur in der 
+Revisionsinstanz hat es positive und negative Beweiskraft (vgl.  § 274 StPO). Für die 
+Plädoyerklausur spielt das jedoch k aum eine Rolle. Es soll den Referendaren nur mitgeteilt 
+werden, was sich in der Hauptverhandlung ereignet hat; insbesondere welche Beweise mit 
+welchem Inhalt erhoben worden sind. Auch hierzu ein Beispiel: 
+Aus dem Protokoll ergibt sich, dass der Vorsitzende Richter während der Beweisaufnahme 
+gesagt hat, dass er den Angeklagten auf jeden Fall verurteilen werde, egal was hier noch 
+für Anträge von der Verteidigung gestellt würden. Der Verteidiger nimmt das zum Anlass, 
+unverzüglich (vgl. § 25 Abs. 2 Nr. 2 StPO) einen Befangenheitsantrag zu stellen, der vom 
+Gericht als unzulässig verworfen wird (vgl. § 26 a StPO).  
+Für das Plädoyer ist dieser Vorgang bedeutungslos. Es ist nur zu erörtern, ob sich der 
+Mandant aufgr und der erhobenen Beweise strafbar gemacht hat und wie er ggf. zu 
+bestrafen ist. In einem Gutachten über die Erfolgsaussichten einer Revision, wäre 
+selbstverständlich ein absoluter Revisionsgrund zu prüfen (§ 338 Nr. 3 StPO) und könnte 
+durch das Protokoll bewiesen werden, dass rechtzeitig ein Befangenheitsantrag gestellt 
+worden ist, der als unzulässig verworfen wurde. Für das Plädoyer spielt das aber keine 
+Rolle. 
+Schließlich wird den Referendaren regelmäßig noch der Antrag der Staatsanwaltschaft 
+mitgeteilt, die - fast immer - eine Verurteilung wegen sämtlicher Anklagepunkte in der 
+Anklageschrift verlangt. Es ist die Aufgabe der Verteidigung, diesem Antrag entgegenzu -
+treten, was voraussetzt, dass in die Klausur prozessuale und materiell -rechtliche Fehler 
+eingebaut sind. Die Anklageschrift und die Beweisaufnahme müssen daher von den 
+Referendaren kritisch gelesen werden. Bei der Korrektur von Klausuren entsteht manchmal 
+der Eindruck, einige Referendare würden sich nicht trauen, einer Anklageschrift zu 
+widersprechen. Für das anwaltliche und klausurtaktische Denken ist das natürlich der falsche 
+Ansatz. 
+2. Aufbau - Gliederung - Formalien 
+Die formalen Anforderungen an das Plädoyer der Verteidigung sind gering. Es sollte in 
+wörtlicher Rede verfasst werden. Das soll da durch zum Ausdruck gebracht werden, dass 
+Gliederungszeichen im Text unterbleiben (Bsp.: A., I., 1., a), aa) usw.). Außerdem beginnt das 
+Plädoyer mit der Anrede (Bsp.: "Hohes Gericht, sehr geehrte Frau Staatsanwältin") und soll 
+mit dem Satz enden: "Ich danke für ihre Aufmerksamkeit".  
+
+===== SEITE 44 =====
+44 
+ 
+ 
+ 
+Es empfiehlt sich, nach der Anrede sämtliche Anklagevorwürfe im Urteilsstil abzuhandeln. 
+Häufig liegt es nahe, der Reihenfolge in der Anklageschrift zu folgen. Das ist aber nicht 
+zwingend. Unseres Erachtens kann auch mit dem sc hwerwiegendsten Vorwurf begonnen 
+werden oder mit den Vorwürfen, die zu einem Freispruch führen. Entscheidend ist, dass 
+sämtliche Vorwürfe, die sich aus der Anklageschrift ergeben und hinsichtlich derer die 
+Staatsanwaltschaft eine Verurteilung beantragt, geprüft werden müssen. Plädieren bedeutet 
+also nicht, Straftaten zu verschweigen, die der Mandant tatsächlich begangen hat. Am Ende 
+des Plädoyers muss dem Korrektor klar sein, hinsichtlich welcher Vorwürfe eine Strafbarkeit 
+angenommen wird und hinsichtlich welcher nicht.  
+In diesem Zusammenhang stellt sich manchmal die schwierige Frage, ob zu Straftaten plädiert 
+werden soll, die in der Anklageschrift nicht erwähnt werden: 
+War in der Beweisaufnahme eine in der Anklageschrift nicht genannte Tat im prozessualen 
+Sinn (etwa anderer Lebenssachverhalt, vgl. Meyer -Goßner / Schmitt, § 264 Rdnrn. 1 ff.) 
+Gegenstand der Verhandlung, ist es nur sinnvoll zu dieser Tat zu plädieren, wenn in der 
+Hauptverhandlung eine Nachtragsanklage erhoben worden ist (vgl. § 266 StPO). Ob d ies 
+geschehen ist, kann sich aus dem Bearbeitervermerk oder der Mitschrift des Verteidigers bzw. 
+dem Hauptverhandlungsprotokoll ergeben. Ist keine Nachtragsanklage erhoben worden, sind 
+die Vorwürfe nur gutachterlich zu prüfen und genügt im Plädoyer der kna ppe Hinweis, dass 
+eine Nachtragsanklage nicht bzw. nicht wirksam erhoben worden ist. 
+Wird eine Tat von der Verteidigung rechtlich abweichend von der Anklageschrift gewürdigt, 
+sollte zunächst nachgesehen werden, ob ein rechtlicher Hinweis nach § 265 StPO er teilt 
+worden ist (Regelfall). In mehreren Plädoyerklausuren wird im Bearbeitervermerk klargestellt, 
+dass ein rechtlicher Hinweis - soweit er für erforderlich gehalten wird - zu unterstellen ist. In 
+diesem Fall kann grundsätzlich auch zu Tatbeständen plädie rt werden, die in der 
+Anklageschrift nicht erwähnt werden. Allerdings kann man nur davor warnen, sich mit 
+mehreren nicht angeklagten Straftatbeständen im Plädoyer zu befassen. Der Schwerpunkt der 
+Prüfung liegt im Plädoyer regelmäßig  auf den in der Anklages chrift aufgeführten Delikten. 
+Liegt die Prüfung eines Tatbestandes nicht auf der Hand, sollte daher auch bei einem 
+rechtlichen Hinweis die Prüfung nur im ergänzenden Gutachten erfolgen.  
+Beispiel: 
+In einem Klausurfall hatte der Mandant den Tacho seines eigenen Pkw zerstört. Zuvor war 
+das Fahrzeug von der Polizei in einem anderen Strafverfahren, in dem gegen den 
+Mandanten wegen versuchten Betrugs ermittelt wurde, beschlagnahmt worden. Es befand 
+sich auf einem umzäunten Gelände. Mit der Zerstörung des Tacho s wollte der Mandant 
+erreichen, dass die mit dem Wagen zurückgelegten Kilometer nicht mehr nachgewiesen 
+werden können und er folglich den Wagen zu einem höheren Preis verkaufen kann. 
+Vorgeworfen wurde dem Mandanten lediglich ein Hausfriedensbruch. Insoweit l ag jedoch 
+kein Strafantrag vor. Tatsächlich hatte sich der Mandant wegen eines Verstrickungsbruchs 
+
+===== SEITE 45 =====
+45 
+ 
+ 
+ 
+gemäß § 136 StGB strafbar gemacht, was nur wenige Bearbeiter der Klausur erkannten. In 
+einem solchen Fall ist es unseres Erachtens durchaus vertretbar, den V erstrickungsbruch 
+nur im ergänzenden Gutachten zu prüfen, es sei denn der rechtliche Hinweis im 
+Aufgabentext bezieht sich ausdrücklich auf § 136 StGB. 
+ 
+Wenn kein rechtlicher Hinweis erteilt worden ist, empfehlen wir folgende Vorgehensweise. In 
+vielen Plädoyerklausuren kann der Anklagevorwurf "herunterdefiniert" werden.  
+ 
+Beispiel: Angeklagt war eine gefährliche Körperverletzung, ein räuberischer Diebstahl und 
+ein in Mittäterschaft begangener Betrug. Nach der Beweisaufnahme hat sich nur eine 
+einfache Körperverletzung, ein versuchter Diebstahl und eine Beihilfe zum Betrug bestätigt. 
+In einem solchen Fall wäre es unseres Erachtens praxisfern mit der Begründung, es fehle 
+ein rechtlicher Hinweis, einen Freispruch zu beantragen und die verwirklichten 
+Tatbestände im ergänzenden Gutachten zu prüfen. 
+Drängt sich allerdings die Prüfung eines Tatbestandes oder einer Qualifikation nicht auf, sollte 
+die Prüfung im Plädoyer unterbleiben. Dies sollte vor allem gelten, wenn die Strafandrohung 
+in diesem Tatbestand höher ist als in dem angeklagten Delikt. 
+Straftatbestände, die im Plädoyer bejaht werden, sollten lediglich knapp angesprochen 
+werden. Rechtliche Probleme, die sich im Zusammenhang mit zu bejahenden Tatbeständen 
+stellen, dem Mandanten aber nicht nützen , sind aus schließlich im ergänzenden Gutachten 
+diskutiert werden.  
+Beispiel: 
+Dem Mandanten wird eine Nötigung in Tatmehrheit mit einer Urkundenfälschung 
+vorgeworfen. Der Vorwurf der Urkundenfälschung hat sich in der Beweisaufnahme nicht 
+bestätigt. Hinsichtlich der N ötigung ist die Verwerflichkeit der Nötigungshandlung zwar 
+rechtlich problematisch, sie wird jedoch von der Bearbeiterin der Klausur, die der ganz 
+herrschenden Meinung folgt, bejaht. 
+Nachdem die Urkundenfälschung im Plädoyer verneint worden ist, könnte bei spielsweise 
+wie folgt formuliert werden: "Mein Mandant kann daher allenfalls wegen Nötigung zu einer 
+Geldstrafe verurteilt werden". Das Problem der Verwerflichkeit sollte nur im ergänzenden 
+Gutachten diskutiert werden.  
+Nachdem sämtliche Straftatbestände g eprüft worden sind und das Ergebnis feststeht, kann 
+Anlass bestehen, zu Maßnahmen der Besserung und Sicherung (klausurrelevant: Entziehung 
+der Fahrerlaubnis), zu Nebenfolgen (Beispiel: Fahrverbot) und zur Haftsituation zu plädieren. 
+Da das materiell -rechtliche Ergebnis bereits feststeht, fällt dieser Teil des Plädoyers häufig 
+relativ kurz aus. Sowohl hinsichtlich der Voraussetzungen des § 69 StGB als auch hinsichtlich 
+
+===== SEITE 46 =====
+46 
+ 
+ 
+ 
+des dringenden Tatverdachtes (§ 112 StPO) kann auf die vorangegangene Prüfung verwiesen 
+werden. Es wäre daher nur zu erörtern, ob ein Regelfall des § 69 Abs. 2 StGB vorliegt oder der 
+Mandant zum Führen eines Kraftfahrzeuges ungeeignet im Sinne des Absatzes 1 ist bzw. ein 
+Haftgrund (examensrelevant sind insbesondere: Flucht / Fluchtgefahr / Verd unkelungs-
+gefahr) gegeben ist.  
+Zuletzt sollte zur Strafzumessung plädiert werden, wenn nicht ein vollumfänglicher Freispruch 
+beantragt wird. Dieser Teil des Plädoyers fällt den Referendaren zwar auf der einen Seite 
+schwer, weil eine präzise Subsumtion der  sehr allgemein gehaltenen 
+Strafzumessungsüberlegungen in § 46 StGB kaum möglich ist, auf der anderen Seite stellt das 
+Plädieren zur Strafzumessung in der Regel keinen Schwerpunkt dar und wirkt sich eher 
+abrundend auf die Gesamtbewertung einer Klausur aus.  
+Einige wenige Grundsätze müssen aber bekannt sein und beachtet werden. Bevor 
+Überlegungen zur Strafzumessung im engeren Sinn angestellt werden, geht es darum, den 
+Strafrahmen festzulegen. Vorab sind also mögliche Strafrahmenverschiebungen nach § 49 
+StGB zu prüfen, die beispielsweise bei einer verminderten Schuldfähigkeit (§ 21 StGB), bei 
+einem Unterlassungsdelikt (§ 13 Abs. 2 StGB), einem Versuch (§ 23 Abs. 2 StGB), einer Beihilfe 
+(§ 27 Abs. 2 StGB), dem Fehlen eines besonderen persönlichen Merkmales (§28  Abs. 1 StGB) 
+oder einem Täter -Opfer-Ausgleich (§ 46 a StGB) fakultativ oder obligatorisch in Betracht 
+kommen. Danach sollte man sich hinsichtlich der Strafart (Geldstrafe / Freiheitsstrafe) 
+festlegen. In diesem Zusammenhang ist § 47 Abs. 2 StGB von Bedeut ung, der unter 
+bestimmten Voraussetzungen (Freiheitsstrafe unter 6 Monaten) die Verurteilung zu einer 
+Geldstrafe selbst dann ermöglicht, wenn der Straftatbestand eine Geldstrafe nicht vorsieht. 
+Bei der Prüfung des § 46 StGB ist zwar auf der einen Seite eine Auswertung des Sachverhaltes 
+erforderlich, auf der anderen Seite ist hier aber kein Raum für Spekulationen ( Beispiel: Der 
+Mandant war vor der Tat in einer Kneipe und muss deshalb wohl alkoholisiert und vermindert 
+schuldfähig gewesen sein) und muss bedacht werden, dass auch Strafzumessungstatsachen in 
+der Beweisaufnahme festgestellt werden müssen. Darüber hinaus kann man vor Leerformeln 
+(Beispiel: "Ich bitte um eine milde Strafe, weil mein Mandant ein reumütiges Geständnis 
+abgelegt hat und bestimmt nie wieder mit dem Gesetz in Konflikt geraten wird") nur warnen. 
+Schließlich sollte an das Doppelverwertungsverbot gem. § 46 Abs. 3 StGB und § 50 StGB 
+gedacht werden ( Beispiel: Dass die Tat im Versuchsstadium stecken geblieben ist und der 
+Mandant bei dem Diebs tahl ja immerhin keine Gewalt angewendet habe, kann sich im 
+Rahmen der Strafzumessung im engeren Sinn nicht zugunsten des Mandanten auswirken). 
+Typischerweise sind bei der Prüfung des § 46 StGB die Vorstrafen sowie die Folgen der Tat für 
+den Mandanten (Verletzungen / Verlust des Arbeitsplatzes) und das Opfer (komplikationslos 
+verheilte Verletzung / kein oder geringer materieller Schaden) zu bedenken. Strafschärfende 
+Aspekte sollten - wenn möglich - nicht erwähnt werden. Ist jedoch der 
+Bundeszentralgeisterauszug verlesen worden und sind darin verwertbare Vorstrafen 
+aufgeführt oder wird ein sonstiger strafschärfender Aspekt ausdrücklich zum Gegenstand der 
+Verhandlung gemacht, sollte man sich damit befassen. 
+
+===== SEITE 47 =====
+47 
+ 
+ 
+ 
+Kommt auf Grund der verwirklichten Delikte nur die Ve rhängung einer Freiheitsstrafe gegen 
+den Mandanten in Betracht, wird häufig § 56 StGB zu prüfen sein. Wenn also eine 
+bewährungsfähige Freiheitsstrafe von bis zu 2 Jahren realistisch erscheint, sollte die 
+Verteidigung sich im Plädoyer für eine Strafaussetzu ng zur Bewährung einsetzen  und die 
+Sozialprognose erörtern. Darüber hinaus sollte klargestellt werden, ob Abs. 1 (Freiheitsstrafe 
+bis zu einem Jahr) oder Abs. 2 (Freiheitsstrafe von über einem Jahr bis zu 2 Jahren) geprüft 
+wird, da die Anforderungen für di e Aussetzung der Vollstreckung einer Freiheitsstrafe zur 
+Bewährung insoweit unterschiedlich sind. Generell sollen die Referendare durch die 
+Strafzumessungsüberlegungen und den folgenden Hauptantrag zeigen, dass sie im 
+Referendariat praktische Erfahrungen g esammelt haben, die es ihnen ermöglichen, einen 
+Sachverhalt nicht nur materiell -rechtlich zutreffend zu würdigen, sondern auch auf der 
+Rechtsfolgenseite angemessen und interessengerecht einzuschätzen.  
+ 
+3. Die Anträge 
+Das Plädoyer sollte mit den Anträgen enden. Ein Hauptantrag ist immer erforderlich. 
+Folgende Anträge sind denkbar: 
+ Ich beantrage, meinen Mandanten freizusprechen. 
+ Ich beantrage, das Verfahren wegen Vorliegens eines Verfahrenshin-
+dernisses einzustellen. 
+ Ich beantrage, meinen Mandanten wegen ... zu einer Geldstrafe zu 
+verurteilen, die ... Tagessätze nicht überschreiten sollte. 
+ Ich beantrage, meinen Mandanten wegen ... zu einer Freiheitsstrafe von 
+...  Jahren/Monaten zu verurteilen, deren Vollstreckung zur Bewährung 
+ausgesetzt wird. 
+ Ich beantrage, meinen Mandanten ... zu einer Freiheitsstrafe von ... zu 
+verurteilen.  
+Sind mehrere Taten im prozessualen oder materiellen Sinn angeklagt worden und erfolgt 
+wegen mehrerer Taten eine Verurteilung, muss in der Regel zu einer Gesamtgeldstrafe oder 
+einer Ges amtfreiheitsstrafe verurteilt werden. Ausnahmsweise kann auch eine Geldstrafe 
+neben einer Freiheitstrafe verhängt werden (vgl. § 53 Abs. 2 Satz 2 StGB). Theoretisch ist bei 
+einer Geldstrafe bis zu 180 Tagessätzen auch noch eine Verwarnung mit Strafvorbehal t 
+denkbar. Die Gerichte verhängen diese Strafe in der Praxis äußerst selten. In geeigneten Fällen 
+sollte sich die Verteidigung im Plädoyer jedoch nicht scheuen, einen entsprechenden Antrag 
+zu stellen. Im Plädoyer muss dann jedoch auch zu den Voraussetzunge n des § 59 Abs. 1 StGB 
+plädiert werden. 
+Anträge und Anregungen zu einer Einstellung des Verfahrens nach den §§ 153, 153 a StPO 
+sollten im Plädoyer unterbleiben. Aus Sicht des Praktikers stellen sie sogar einen Fehler dar. 
+Zwar kommt nach dem Wortlaut der Regelungen eine Einstellung in jeder Lage des Verfahrens 
+
+===== SEITE 48 =====
+48 
+ 
+ 
+ 
+in Betracht, jedoch ist es unrealistisch, eine Einstellung zu beantragen, wenn kurz zuvor die 
+Staatsanwaltschaft plädiert und einen Antrag gestellt hat. Mit einer Zustimmung ist in dieser 
+Lage des Ver fahrens nicht zu rechnen. Für eine Einstellung nach Opportunitäts -
+gesichtspunkten setzen sich Strafverteidiger im Ermittlungs-, Zwischen- oder Hauptverfahren 
+vor den Plädoyers ein. 
+Eine Besonderheit stellen der echte und unechte Teilfreispruch dar. Sind mehrere prozessuale 
+Taten oder innerhalb einer prozessualen Tat mehrere Delikte tatmehrheitlich angeklagt, ist 
+ein echter Teilfreispruch zu beantragen, wenn sich der Mandant hinsichtlich einer angeklagten 
+Tat (prozessual oder materiell) nicht strafbar gemacht hat. 
+Beispiel: 
+Dem Mandanten wird vorgeworfen am 1.02.20 23 einen Raub in Tatmehrheit mit einer 
+Sachbeschädigung begangen zu haben. Außerdem wird ihm eine Trunkenheitsfahrt am 
+01.03.2023 zur Last gelegt. Die Beweisaufnahme führt dazu, dass leidglich eine 
+Verurteilung wegen der Sachbeschädigung in Betracht kommt. Der Antrag würde in diesem 
+Fall beispielsweise lauten: 
+ 
+Ich beantrage, meinen Mandanten wegen Sachbeschädigung zu einer 
+Geldstrafe unter 40 Tagessätzen zu verurteilen. Im Übrigen beantrage ich, 
+meinen Mandaten freizusprechen. 
+ 
+Mit diesem Antrag ist klargestellt, dass ein Freispruch sowohl hinsichtlich der gesondert 
+angeklagten prozessualen Tat vom 01.03.20 23 als auch hinsichtlich des tatmehrheitlich 
+angeklagten Raubes erfolgen soll. 
+Beim unechten Teilfreispruch geht es darum, dass dem Mandanten in der Anklageschrift die 
+Verwirklichung mehrerer, tateinheitlich begangener Straftatbestände zur Last gelegt wird und 
+die Beweisaufnahme ergibt, dass nicht alle der angeklagten Delikte (nicht Taten!) 
+nachgewiesen werden können.  
+Beispiel: 
+Dem Mandanten wird in der Anklageschrift eine Urkundenfälschung in Tateinheit mit 
+einem Betrug vorgeworfen. Nach der Beweisaufnahme kommt nur noch eine Verurteilung 
+wegen Urkundenfälschung in Betracht. Der Antrag würde in die sem Fall beispielsweise 
+lauten: 
+ 
+
+===== SEITE 49 =====
+49 
+ 
+ 
+ 
+Ich beantrage, meinen Mandanten abweichend von der Anklage lediglich 
+wegen einer Urkundenfälschung zu einer Geldstrafe unter 30 Tagessätzen zu 
+verurteilen.  
+ 
+Beim unechten Teilfreispruch w ird kein  Freispruch ausdrücklich beantrag t. Mit anderen 
+Worten: Freigesprochen werden kann immer nur von einer Tat im prozessualen oder 
+materiellen Sinn; aber nicht von einem Delikt. Sollte sich aus dem Aktenauszug ergeben, dass 
+nach den §§ 154, 154 a StPO in der Hauptverhandlung von der Strafverfolgung abgesehen 
+worden ist, erübrigt sich selbstverständlich ein Antrag zu diesen Taten (vgl. aber zu den 
+Auswirkungen auf die Strafzumessung: BGH StV 2014, 478).  
+Auch wenn laut Bearbeitervermerk kein konkreter Hauptantr ag verlangt wird, muss in der 
+Klausur klar werden, welche Rechtsfolge (ungefähr) angestrebt wird ( Beispiele: unbedingte 
+Freiheitsstrafe unter 3 Jahren, Freiheitsstrafe bis zu zwei Jahren, deren Vollstreckung zur 
+Bewährung ausgesetzt werden soll, Geldstrafe  unter 90 Tagessätzen). Ein Antrag zur 
+Tagessatzhöhe ist nicht erforderlich, es sei denn aus dem Aktenauszug ergeben sich 
+Anhaltspunkte, die eine Prüfung des § 40 Abs. 2 StGB (Nettoeinkommensprinzip) ermöglichen. 
+Befindet sich der Mandant in Untersuchungsh aft, existiert ein Haftverschonungsbeschluss 
+oder ist dem Mandanten die Fahrerlaubnis vorläufig entzogen worden, sind weitere Anträge 
+erforderlich, wenn diese Maßnahme nicht aufrechterhalten werden sollen. Folgende Anträge, 
+zu denen zuvor im Plädoyer eine Begründung geliefert werden muss, sind möglich: 
+ 
+ Ich beantrage, den Haftbefehl vom ... aufzuheben, hilfsweise außer 
+Vollzug zu setzen. 
+ Ich beantrage, den Haftbefehl und den Haftverschonungsbeschluss 
+vom ... aufzuheben. 
+ Ich beantrage, den Beschluss über die  vorläufige Entziehung der 
+Fahrerlaubnis vom ... aufzuheben und meinem Mandanten, den 
+Führerschein auszuhändigen. 
+ 
+Weitere Anträge nach den §§ 73 ff. StGB (Verfall / Einziehung) und § 70 StGB (Berufsverbot) 
+sind denkbar, waren bislang aber äußerst selten G egenstand der Prüfung in der 
+Plädoyerklausur. Aus Verteidigersicht wird in der Regel Anlass bestehen, entsprechenden 
+Anträgen der Staatsanwaltschaft entgegenzutreten; also selbst keinen Antrag zu stellen. 
+Anträge nach dem Strafrechtsentschädigungsgesetz sind wohl nicht mehr zu erwarten. Ob ein 
+Kostenantrag zu stellen ist, ergibt sich regelmäßig aus dem Bearbeitervermerk. Ist dieser nicht 
+erlassen, sollte er gestellt werden. Insbesondere Folgende Varianten sind examensrelevant: 
+
+===== SEITE 50 =====
+50 
+ 
+ 
+ 
+ 
+ Freispruch (§ 467 Abs. 1 StPO ): Ich beantrage, die Kosten des 
+Verfahrens und die notwendigen Auslagen meines Mandanten der 
+Staatskasse aufzuerlegen. 
+ echter Teilfreispruch (§ 467 Abs. 1 StPO): Soweit mein Mandant 
+freizusprechen ist, beantrage ich die Kosten des Verfahrens und die 
+notwendigen Auslagen meines Mandanten der Staatskasse 
+aufzuerlegen. 
+ unechter Teilfreispruch (nicht ausdrücklich geregelt; evtl. Anträge 
+nach § 464 d, 465 Abs. 2 StPO); anderenfalls: Ich beantrage, dass mein 
+Mandant die Kosten des Verfahrens und die notwendigen Auslagen zu 
+tragen hat (Anmerkung: in der Anwaltsklausur ist dieser Antrag eher 
+nicht zu erwarten). 
+ 
+4. Das ergänzende Gutachten 
+Die Besonderheit der Plädoyerklausur ergibt sich  daraus, dass nach dem Plädoyer ein 
+ergänzendes Gutachten  anzufertigen ist. D adurch lässt sich vermeiden, dass Rechtsfragen 
+doppelt erörtert werden. Im ergänzenden Gutachten sollen diejenigen Rechtsfragen erörtert 
+werden, die im Plädoyer nicht ausführlich behandelt werden, weil das Ergebnis der Prüfung 
+nicht dem Interesse des Manda nten dient. Es findet also eine Aufteilung der Erörterung der 
+Probleme des Falles statt. In diesem Zusammenhang geht es nicht etwa darum, "um jeden 
+Preis" eine bestimmte mandantenfreundliche Rechtsansicht zu vertreten. Vielmehr sollen die 
+Bearbeiter der Kl ausur zeigen, dass sie interessengeleitet denken können. Wenn also ein 
+Bearbeiter aus Überzeugung ein Rechtsproblem dahingehend löst, dass es dem Mandanten 
+schadet, soll er erkennen, dass er seine Überlegungen in diesem Fall besser gutachterlich 
+behandelt und im Plädoyer hierzu schweigt oder sich zumindest äußerst kurz fasst. Beispiel: 
+ 
+In der Anklageschrift wird dem Mandanten ein Tötungsdelikt vorgeworfen. Problematisch 
+ist, ob der Mandant mit Eventualvorsatz oder lediglich fahrlässig gehandelt hat. Insowe it 
+sind beide Ansichten mit einer entsprechend gründlichen Argumentation gut vertretbar.  
+Auch wenn es in einem solchen Fall aus taktischen Gründen sinnvoll sein kann, den 
+Vorsatz in einer Anwaltsklausur zu verneinen, kann dies kaum Einfluss auf die Bewertung 
+der Leistung haben. Entscheidend ist in erster Linie die Qualität der Argumentation. 
+Entscheidet sich der Bearbeiter einer Klausur den Vorsatz in Anschluss an eine 
+ausführliche Begründung zu bejahen,  sollte er jedoch unbedingt erkennen, an welcher 
+Stelle er seine Argumentation zu Papier bringt. In einem Plädoyer dürfte sich der Mandant 
+
+===== SEITE 51 =====
+51 
+ 
+ 
+ 
+wundern, wenn er seinen Verteidiger dabei beobachtet, wie dieser ausführlich in einem 
+Plädoyer darlegt, warum sein Ma ndant mit Vorsatz getötet hat und auch in der Klausur 
+müssen die Referendarinnen und Referendare damit rechnen, dass sich (längere) 
+Erörterungen im Plädoyer, bei denen nicht ersichtlich wird, welches Ziel die Verteidigung 
+damit verfolgt, nachteilig auf die  Bewertung auswirken. Im Beispielsfall wäre  daher die 
+Vorsatzproblematik nur im ergänzenden Gutachten zu erörtern. 
+ 
+D) "Zusatzaufgaben" - Insbesondere: das Mandantenschreiben 
+Es gibt rechtliche Probleme, die sich nur schwer in eine Plädoyer - oder Schriftsa tzklausur 
+integrieren lassen, die aber dennoch Prüfungsstoff sind. Sollen diese Themen Gegenstand der 
+Prüfung werden, geschieht dies auf unterschiedliche Art und Weise. Manchmal soll dem 
+Mandanten eine Frage in einem Mandantenschreiben beantwortet werden. Im 
+Mandantenschreiben geht es dann natürlich in erster Linie darum, die Frage rechtlich 
+zutreffend zu erörtern, aber auch darum, den Mandanten zu beraten und eine rechtliche 
+Materie einem Laien verständlich zu erklären. In einigen Klausuren sollten Anträge formuliert 
+oder Rechtsbehelfe gegen strafprozessuale Maßnahmen ergriffen werden. Es handelt sich bei 
+diesen "Zusatzaufgaben" um einen von mehreren Schwerpunkten in der Klausur, auf dessen 
+Bearbeitung nicht zu viel Zeit verwendet werden sollte. In der Regel wirkt sich die Bearbeitung 
+dieser Aufgaben eher abrundend auf die Gesamtbewertung aus. Etwas anderes gilt lediglich 
+dann, wenn die anwaltliche Leistung ausschließlich darin besteht, ein Mandantenschreiben zu 
+formulieren. Folgende Rechtfragen sind nach unserem Kenntnisstand bislang Gegenstand 
+solcher "Zusatzaufgaben" gewesen: 
+ 
+ Mandantenschreiben: Rechtsschutzmöglichkeiten gegen einen Durchsuchungs -
+beschluss (Beschwerde) und gegen die Art und Weise einer Durchsuchung (Antrag auf 
+gerichtliche Entscheidung) 
+ Mandantenschreiben (Haftklausur): Erörterung der unterschiedlichen Rechtsbehelfe 
+gegen einen vollstreckten Haftbefehl 
+ Möglichkeit der Beschwerde (§ 304 StPO) gegen die unterlassene Beiordnung als 
+Pflichtverteidiger (Problem des Pflichtverteidigerwechsels in Haftsachen) 
+ Formulierung eines Ablehnungsgesuchs (Befangenheitsantrag) 
+ Formulierung eines Beweisantrages 
+Selbstverständlich können hier nicht einmal ansatzweise alle Konstellationen möglicher 
+Zusatzfragen bzw. Klausuraufgaben dargestellt werden. Im Ermi ttlungs- und 
+Zwischenverfahren können zahlreiche Zwangsmaßnahmen, wie zum Beispiel ein Arrest, eine 
+Beschlagnahme oder eine vorläufige Einziehung angeordnet werden, gegen die dem 
+
+===== SEITE 52 =====
+52 
+ 
+ 
+ 
+Mandanten Rechtsschutzmöglichkeiten (Beschwerde / Antrag auf gerichtliche Ent scheidung) 
+zur Verfügung stehen. Dass in diesem Skript nicht erörterte Aufgaben in der Strafrechtsklausur 
+aus anwaltlicher Sicht gestellt werden, können wir selbstverständlich nicht ausschließen. 
+Davon sollte man sich jedoch nicht verunsichern lassen. In d er Regel wird es bei einer 
+atypischen Aufgabenstellung "nur" darum gehen, mit den zugelassenen Kommentaren einen 
+brauchbaren Lösungsvorschlag zu machen. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== SEITE 53 =====
+53 
+ 
+ 
+ 
+E) Muster  
+Dem folgenden Plädoyer und der Haftbeschwerde liegen ältere Klausuren zugrunde. Vom 
+Abdruck der Aufgabentexte haben wir abgesehen, um den Umfang des Skriptes nicht ausufern 
+zu lassen. Es geht uns darum, den Referendaren Anregungen für interessengerechte 
+Formulierungen und den Aufbau eines Schriftsatzes / Plädoyers / ergänzenden Gutachtens zu 
+geben. Schriftsätze in dem dargestellten Umfang können im Examen nicht erwartet werden: 
+ 
+I. Plädoyer (Schwerpunkte sind kursiv gedruckt) 
+ 
+Hohes Gericht, sehr geehrte Frau Staatsanwältin, 
+die Beweisaufnahme hat die Vorwürfe in der Anklageschrift ganz überwiegend nicht bestätigt. 
+Das gilt vor allem für den schwersten Tatvorwurf, der meinem Mandanten zur Last gelegt wird, 
+nämlich den versuchten Mord an seiner geschiedenen Ehefrau. 
+Insoweit liegen keine verwertbaren Bew eismittel vor, aus denen sich ergeben könnte, dass 
+mein Mandant zum Zeitpunkt des Zustechens mit dem Brotmesser mit Tötungsvorsatz 
+gehandelt hat; es also zumindest für möglich hielt, dass der Stich zum Tode führen könnte und 
+dies darüber hinaus auch noch billigend in Kauf nahm. Das Gegenteil ist der Fall: 
+Herr K. hat nämlich gegen Ende der Beweisaufnahme ausdrücklich gesagt, er habe seine Frau 
+gerade nicht töten wollen. Er sei auf Grund des Stichs in die Bauchgegend davon ausgegangen, 
+dass ein solcher Stich gar nicht geeignet ist, den Tod herbeizuführen. Selbst wenn man diese 
+Einlassung – wie die Staatsanwaltschaft das häufig tut – als Schutzbehauptung abtun möchte, 
+drängt sich die Frage auf, warum mein Mandant unmittelbar in Anschluss an den Vorfall Hilfe 
+herbeirief, indem er die Polizei telefonisch verständigte. Für eine billigende Inkaufnahme des 
+Todes der Frau K. spricht das jedenfalls nicht. 
+Unabhängig davon sind an den Nachweis eines bedingten Tötungsvorsatzes besonders hohe 
+Anforderungen zu stellen. In sbesondere kann von der objektiven Gefährlichkeit einer 
+Handlung nicht ohne weiteres auf die billigende Inkaufnahme der Tötung eines Menschen 
+geschlossen werden. Aus den Angaben des Sachverständigen Dr. S. ergeben sich jedoch keine 
+Anhaltspunkte für einen Vorsatz. Der Sachverständige hat ausführlich die emotionale 
+Verfassung meines Mandanten unmittelbar vor Ausführung des Messerstichs geschildert. 
+Danach war mein Mandant durch den vorausgegangenen Konflikt und die aus seiner Sicht 
+vollkommen unerwartete ablehnende Haltung seiner Frau derart aufgebracht, enttäuscht und 
+verzweifelt, dass er sich zu einer Kurzschlusshandlung hinreißen ließ, die er heute sehr bereut. 
+Der spontane Ausbruch meines Mandanten, nachdem er unmittelbar zuvor noch um die Gunst 
+seiner geschiedenen Frau kämpfte, spricht aber dafür, dass er davon ausging und hoffte, diese 
+werde durch seine Attacke nicht sterben. 
+Vollkommen unverständlich ist für die Verteidigung, dass die Kammer den verdeckten 
+Ermittler Y. heute in der Hauptverhandlung vernommen hat und nach Zurückweisung meines 
+Widerspruchs offenbar erwägt, dessen Angaben zu verwerten. Vorweg möchte ich darauf 
+hinweisen, dass die Äußerungen meines Mandanten gegenüber dem verdeckten Ermittler - 
+
+===== SEITE 54 =====
+54 
+ 
+ 
+ 
+wenn es sie denn tatsächlich gegeben haben soll te - nicht zu dem passen, was uns der 
+Sachverständige heute berichtet hat, so dass man selbst bei einer Verwertung dieser 
+Erkenntnisse daran denken könnte, nach dem Zweifelsgrundsatz einen bedingten Vorsatz zu 
+verneinen. Letztlich kann es meines Erachtens darauf jedoch nicht ankommen, da die 
+Vorgehensweise des Y. nach der insoweit recht klaren Rechtsprechung des Europäischen 
+Gerichtshofs für Menschenrechte, der sich der Bundesgerichtshof inzwischen nahezu 
+vollständig angeschlossen hat, nicht mit dem Nemo-tenetur-Grundsatz vereinbar ist und allein 
+aus diesem Grund die Äußerungen nicht verwertet werden können. Nach dem genannten 
+Grundsatz ist niemand verpflichtet, in einem Strafverfahren gegen sich selbst auszusagen; also 
+an seiner eigenen Verurteilung mitzuwirken. Inzwischen steht fest, dass von diesem Grundsatz 
+nicht nur Fälle erfasst werden, in denen die staatlichen Organe gegenüber einem 
+Beschuldigten Zwang anwenden, sondern eine bewusste Umgehung des Schweigerechts des 
+Verfolgten durch den Einsatz verdeckter Ermittlungsmethoden zumindest dann genügt, wenn 
+dabei eine gewisse Drucksituation des Beschuldigten ausgenutzt wird. Was darunter genau zu 
+verstehen ist, ist sicher noch nicht für alle denkbaren Fallvarianten abschließend geklärt. Das 
+Vorgehen des Y. gegenüber meinem Mandanten, der sich zuvor ausdrücklich und standhaft auf 
+sein Recht zu schweigen berufen hatte, sprengt aber den Rahmen dessen, was nach dem 
+Nemo-tenetur-Grundsatz noch erlaubt ist.  
+Der Y. war bewusst während der Verbüßung einer Reststrafe zu meinem Mandanten in die 
+Zelle gelegt worden. Er verfolgte von Anfang an das Ziel, dem K. Informationen über die von 
+ihm begangene Tat - insbesondere seine Vorstellungen und Ziele bei Ausführung des 
+Messerstichs - zu entlocken. Doch damit nicht genug: Na chdem es ihm gelungen war, ein 
+Vertrauensverhältnis zu K. aufzubauen und er nach seiner Entlassung dem Beschuldigten half, 
+indem er seine Wäsche wusch und sich für Vollzugslockerungen einsetzte, stellte er meinen 
+Mandanten zur Rede und wollte Näheres über die Tat erfahren. In dieser Situation musste mein 
+Mandant davon ausgehen, dass der Y. seine weitere Hilfe davon abhängig machen würde, dass 
+er sich dem Y. gegenüber offenbart. Gegen seinen Willen, den er zuvor mehrfach geäußert 
+hatte, sah er sich genötigt,  Informationen Preis zu geben. Meinen sie ernsthaft, dass diese 
+Informationen nun dazu führen können und dürfen, dass mein Mandant wegen eines 
+Tötungsdeliktes verurteilt wird? Es mag in diesem Verfahren um die Aufklärung einer schweren 
+Straftat gehen. Zum Glück besteht aber ein allgemeiner Konsens, dass nicht jede Straftat um 
+jeden Preis und unter Verkennung verfassungsrechtlicher Prinzipien aufgeklärt werden muss. 
+Wenn - wie hier - ein Angeklagter bewusst und ohne dass er es ahnt zum “Beweismittel gegen 
+sich selbst“ gemacht wird, degradiert ihn der Staat zum Objekt des Verfahrens. Genau das soll 
+durch den Grundsatz Nemo-tenetur jedoch vermieden werden. 
+Wenn aber bereits die Aussage des Y. vollständig unverwertbar ist, dann muss das genauso für 
+die Aussage d es Zeugen Karlsberg gelten, soweit sie den Inhalt der zweiten polizeilichen 
+Vernehmung meines Mandanten wiedergibt. In dieser Vernehmung hatte der Beschuldigte im 
+Wesentlichen das bestätigt, was er bereits dem Y. berichtet hatte. Seine Angaben machte er 
+jedoch erst, nachdem er von dem Vernehmungsbeamten davon unterrichtet worden war, dass 
+er auf Grund der Angaben gegenüber dem verdeckten Ermittler "schlechte Karten" habe. Das 
+konnte mein Mandant nur so verstehen, dass er auf Grund dieser Angaben in einer 
+Hauptverhandlung überführt werden könne, was schlicht und ergreifend eine von dem Zeugen 
+Karlsberg veranlasste falsche rechtliche Einschätzung war. Dieses Verhalten mag zwar noch 
+keine Täuschung im Sinne des § 136 a StPO sein, da der K. lediglich die Rechtsl age verkannte 
+und nicht aktiv unzutreffende Tatsachen behauptete. Jedoch muss sich das 
+Beweisverwertungsverbot auf die zweite Vernehmung erstrecken, wenn sie ersichtlich nur auf 
+
+===== SEITE 55 =====
+55 
+ 
+ 
+ 
+Grund einer Fehlvorstellung des Beschuldigten zustande gekommen ist, die ein Polizeibeamter 
+– sei es absichtlich oder unabsichtlich – verursacht hat.  
+Sollte die Kammer wider Erwarten einen Tötungsvorsatz annehmen und die Aussagen der 
+Zeugen Y. und K. für verwertbar halten, müsste sie sich weiter mit der Frage befassen, ob mein 
+Mandant gemäß § 24 Abs. 1 Satz 1 StGB strafbefreiend vom beendeten Versuch 
+zurückgetreten ist. Selbst wenn Herr K. unmittelbar nach dem Stich davon ausgegangen sein 
+sollte, dass dieser zum Tod des Opfers führen kann, hätte er sich anschließend ernsthaft und 
+erfolgreich darum bemüht, den Todeseintritt zu verhindern. Denn nur durch den Anruf bei der 
+Polizei konnte Frau K. gerettet werden. Die Verteidigung hat keine Zweifel, dass mein 
+Mandant derjenige war, der sich bei der Polizei meldete. Zum einen hat er das he ute in der 
+Hauptverhandlung mitgeteilt und zum anderen haben sich keinerlei Hinweise darauf ergeben, 
+dass außer dem Täter und dem Opfer andere Personen etwas von dem Vorfall mitgekommen 
+haben. Zwar kämen als Anrufer theoretisch auch die Zeugen H. oder G. i n Betracht. Diese 
+beiden Zeugen hat die Kammer jedoch heute vernommen und sie hätten sicher von sich aus 
+von einem Anruf berichtet. Der Anruf erfolgte auch freiwillig, denn von einer Entdeckung der 
+Tat ging mein Mandant nicht aus. Die Zeugen G. und H. hatt en lediglich den Wurf des 
+Notebooks mitbekommen und konnten insoweit nicht einmal bestätigen, dass Herr K. den 
+Gegenstand aus dem Fenster geworfen hatte. Von der vorausgegangenen Messerattacke 
+hatten sie auf jeden Fall nichts mitbekommen. 
+Zusammenfassend muss man daher zu dem Ergebnis kommen, dass eine Bestrafung meines 
+Mandanten wegen eines Tötungsdeliktes ausscheidet. 
+Der Vollständigkeit halber möchte ich noch auf das angeklagte Mordmerkmal eingehen. Die 
+Staatsanwaltschaft geht in der Anklageschrift davon  aus, dass mein Mandant seine 
+geschiedene Ehefrau heimtückisch töten wollte. Das würde voraussetzen, dass Herr K. bewusst 
+die Arg- und Wehrlosigkeit des Opfers ausnutzen wollte, als er zustach. Meines Erachtens ist 
+diese Annahme äußerst fern liegend und ic h komme insoweit noch einmal zurück auf die 
+Ausführungen des Sachverständigen, der uns von einer Spontantat berichtet hat. Es mag noch 
+angehen anzunehmen, dass mein Mandant erkannte, dass Frau K. – wie sie auch selber 
+ausgesagt hat – von dem Angriff überra scht war und trotz des vorausgegangenen Konflikts 
+mit einer derartigen Attacke nicht rechnete und auch nicht rechnen musste. Immerhin hat die 
+Zeugin uns ja auch berichtet, dass Herr K. ihr gegenüber zuvor noch nie gewalttätig geworden 
+ist. Es spricht aber nichts dafür, dass der Angeklagte diesen Überraschungseffekt bewusst 
+ausnutzen wollte. Das würde ein zumindest ansatzweise analytisches und gedanklich 
+geordnetes Vorgehen voraussetzen. Der Bundesgerichtshof hat bereits mehrfach klargestellt, 
+dass bei einer  Spontantat generell vieles gegen ein Ausnutzungsbewusstsein des Täters 
+spricht. Hier handelte es sich nicht nur um einen spontanen Entschluss des Herrn K., den er ja 
+nur umsetzen konnte, weil zufällig noch das Brotmesser auf dem Küchentisch lag, sondern 
+darüber hinaus befand sich mein Mandant in einer emotionalen Ausnahmesituation, die nach 
+den Schilderungen der Zeugin K. und des Sachverständigen auch nachvollziehbar ist. Selbst 
+wenn – wie der Sachverständige meint – mein Mandant sich noch nicht in einem Z ustand 
+befand, der eine verminderte Schuldfähigkeit zur Folge hätte, schließt diese Feststellung die 
+Verneinung eines Ausnutzungsbewusstseins – wie der BGH ausdrücklich entschieden hat – 
+nicht aus.  
+All das ändert selbstverständlich nichts daran, dass mein  Mandant sich wegen einer 
+gefährlichen Körperverletzung gemäß § 224 Abs. 1 Nr. 2 StGB strafbar gemacht hat; allerdings 
+
+===== SEITE 56 =====
+56 
+ 
+ 
+ 
+nicht, weil er eine Waffe bei der Tat einsetzte, sondern weil das Brotmesser ein gefährliches 
+Werkzeug darstellt. Es ist zwar nicht dafür vorgesehen einer Person Verletzungen zuzufügen. 
+Jedoch besteht kein Zweifel daran, dass es bei einem Stich in Richtung des Bauches dafür 
+geeignet ist. Folgt man der Rechtsprechung zu § 224 Abs. 1 Nr. 5 StGB, nach der es für eine 
+das Leben gefährdende Behandlung ausreicht, dass die Tathandlung abstrakt geeignet ist, eine 
+lebensgefährliche Verletzung zu verursachen, halte ich es auch für gerechtfertigt, diese 
+Qualifikation zu bejahen, obwohl insoweit der Hinweis auf die abweichende Meinung in der 
+Literatur erlaubt sei, die eine konkret lebensgefährliche Handlung voraussetzt. Ob ein Stich in 
+den Bauch ohne weiteres als konkret lebensgefährlich anzusehen ist, halte ich für fraglich. Die 
+Verteidigung geht jedoch davon aus, dass die Kammer in dieser Frage der stä ndigen 
+Rechtsprechung folgen wird. 
+Die dritte von der Staatsanwaltschaft in der Anklageschrift unterstellte Qualifikation – nämlich 
+ein hinterlistiger Überfall – kann dem gegenüber aber nicht angenommen werden. Ein solcher 
+Überfall setzt voraus, dass der Täter planmäßig seine Verletzungsabsicht gegenüber dem 
+Opfer verbirgt. Ich bin der Auffassung, dass zu dieser Qualifikation wegen der Angaben des Dr. 
+S., die ic h bereits bei der Prüfung des Tötungsvorsatzes und des Mordmerkmales eingehend 
+gewürdigt habe, kaum noch etwas zu sagen ist. Dass mein Mandant weit davon entfernt und 
+wohl auch gar nicht in der Lage war, seiner geschiedenen Ehefrau gegenüber planvoll etwas  
+zu verbergen, steht meines Erachtens auf Grund seines Gemütszustandes und seines dadurch 
+bedingten impulsiven Handelns fest. Es bleibt also bei einer Strafbarkeit gemäß § 224 Abs. 1 
+Nr. 2 und 5 StGB. 
+Lassen sie mich nun auf den zweiten Tatkomplex zu sprec hen kommen. Durch den Wurf des 
+Notebooks aus dem Fenster seiner im zweiten Stock gelegenen Wohnung, den mein Mandant 
+zugegeben hat, soll er sich laut Anklage nach den §§ 315 b Abs. 1 Nr. 3, 224 Abs. 1 Nr. 2, 303 
+StGB strafbar gemacht haben. Mit dieser rech tlichen Bewertung des Sachverhaltes bin ich 
+nicht einverstanden.  
+Ich möchte mich zuerst dem angeklagten gefährlichen Eingriff in den Straßenverkehr 
+zuwenden. Dieser Vorwurf scheidet nach den Aussagen der Zeugen G. und H. aus, da bereits 
+der Anwendungsbereich dieser Strafnorm nicht eröffnet ist. Als Straßenverkehrsdelikt setzt ein 
+gefährlicher Eingriff nämlich ein Ereignis im öffentlichen Straßenverkehr  voraus. Zwar ist 
+damit nicht gemeint, dass sich der Vorfall - in Abgrenzung zu einem Privatgrundstück - auf 
+einem Gelände ereignet, dass der öffentlichen Hand gehört. Erforderlich ist aber, dass von 
+vornherein ein unbestimmter Personenkreis von Verkehrste ilnehmern von dem Eingriff 
+betroffen sein kann. Der Eingriff muss zumindest theoretisch grundsätzlich jeden treffen 
+können. Das war hier aber nicht der Fall. Der Parkplatz, auf dem sich der H. mit seinem Pkw 
+befand, gehörte zu einem Wohnhaus. Die Zeugen G. und H. haben ausgesagt, dass er mit einer 
+abschließbaren Schranke versehen war und für jeden Bewohner des Hauses ein Parkplatz zur 
+Verfügung stand. Besucher, geschweige denn unbekannte Verkehrsteilnehmer, hatten folglich 
+gar nicht die Möglichkeit, auf dem Parkplatz am Straßenverkehr teilzunehmen. Wenn aber von 
+vornherein nur bestimmte Personen oder zumindest ein nach klaren Kriterien benennbarer 
+Personenkreis - wie hier die Bewohner des Hauses - von den gefährlichen Eingriff betroffen sein 
+können, scheidet eine Strafbarkeit gemäß § 315 b Abs. 1 StGB aus.  
+Es wäre auch nicht richtig, meinen Mandanten wegen einer gefährlichen Körperverletzung zu 
+verurteilen. Natürlich war der Wurf mit dem Notebook ursächlich für die Verletzung, die sich 
+die Zeugin G. zugezoge n hat und das Verhalten stellt eine üble unangemessene Behandlung 
+
+===== SEITE 57 =====
+57 
+ 
+ 
+ 
+dar, die zu zwei schmerzhaften Rippenbrüchen führte; also einer Schädigung der Gesundheit 
+und einer Misshandlung im Sinne des § 223 Abs. 1 StGB. Allerdings ist nach der 
+Beweisaufnahme offeng eblieben, ob diese Verletzungen mittels eines gefährlichen 
+Werkzeuges verübt worden sind. Selbst wenn das Notebook sich in einer gepolsterten Tasche 
+befunden hat, stellt es ein gefährliches Werkzeug dar, da es bei einem unkontrollierten Wurf 
+aus dem zweite n Stock je nachdem an welchem Körperteil eine Person getroffen wird, 
+erhebliche Verletzungen verursachen kann. Das allein genügt für eine Strafbarkeit gemäß §224 
+Abs. 1 Nr. 2 StGB jedoch nicht. Entscheidend ist hier, dass nach dem Wortlaut der Qualifikation 
+dem Täter eine unmittelbare Verursachung nachgewiesen werden muss. Das gefährliche 
+Werkzeug selbst muss also die Verletzung herbeiführen. Diese Ansicht, der die Rechtsprechung 
+seit einigen Jahren folgt, wird mit der Formulierung mittels in § 224 Abs. 1 Nr. 2 StGB begründet 
+und in der Tat wäre eine Auslegung der Vorschrift über ihren Wortlaut hinaus mit dem 
+Analogieverbot nicht vereinbar. Hinzu kommt, dass die Verwendung des Begriffs mittels 
+bedeutungslos wäre, wenn eine mittelbare Verursachung für eine Strafbarkeit nach § 224 Abs. 
+1 Nr. 2 StGB genügen würde. Über die Kausalität hinaus, müsste folglich im konkreten Fall 
+feststehen, dass die Rippenbrüche bereits eingetreten waren, als die Zeugin G. von dem 
+Notebook getroffen worden war. Nach dem in der Haupt verhandlung verlesenen Attest des 
+behandelnden Arztes und der Aussage der Zeugin G. besteht aber die Möglichkeit, dass erst 
+der Sturz zum Bruch der Rippen führte. Da letzteres nicht ausgeschlossen werden kann, ist eine 
+Verurteilung von Herrn K. nach dem Zweifelsgrundsatz ausgeschlossen. 
+Aus Sicht der Verteidigung kann meinem Mandanten daher nur der Vorwurf einer einfachen 
+Körperverletzung in Tateinheit mit einer Sachbeschädigung an dem Fahrzeug des Zeugen H. 
+gemacht werden, wobei der Angeklagte in beiden Fä llen jedoch nur mit bedingtem Vorsatz 
+handelte, da er gedankenlos und – wie er selbst gesagt hat – nicht zielgerichtet das Notebook 
+aus dem Fenster warf. 
+Nicht haltbar ist allerdings – und damit komme ich zum letzten Anklagevorwurf – eine 
+Verurteilung wegen Hehlerei. § 259 StGB setzt eine taugliche Vortat voraus. Da Strafzweck der 
+Hehlerei die Verfestigung einer rechtswidrigen Besitzlage ist, die es dem Berechtigten 
+erschwert, sein Eigentum zurück zu erhalten, müsste bereits zum Zeitpunkt des Ankaufs des 
+Fahrzeuges von L. eine rechtswidrige Besitzlage bestanden haben. Dies wäre der Fall, wenn 
+feststünde, dass L. den Alfa Romeo vor dem Verkauf an meinen Mandanten gestohlen hätte. 
+Vage Hinweise auf einen Diebstahl ergeben sich zwar aus der Aussage des Zeugen M ., der 
+berichtet hat, dass der L. regelmäßig Fahrzeuge aufknacke und dann weiterverkaufe. Letztlich 
+spielt dies jedoch keine Rolle, weil die Aussage des M. nicht verwertet werden kann. 
+Dem M. stand nach § 52 Abs. 1 Nr. 3 StPO  ein Zeugnisverweigerungsrecht zu, weil er mit 
+meinem Mandanten verschwägert ist. Der M. ist der Sohn der geschiedenen Ehefrau meines 
+Mandanten aus erster Ehe. Vor der Scheidung bestand folglich eine Schwägerschaft zwischen 
+M. und meinem Mandanten gemäß § 1590 Abs. 1 BGB, die nach Absat z 2 dieser Vorschrift 
+auch nach der Scheidung weiter bestand. Über dieses Zeugnisverweigerungsrecht ist der Zeuge 
+M. jedoch nicht ausreichend belehrt  worden. Vor der Vernehmung las der Vorsitzende dem 
+Zeugen lediglich die Regelung in § 52 Abs. 1 StPO vor und überließ es dem M. zu prüfen, ob er 
+zu dem dort genannten Personenkreis gehört. Dies mag bei einfach gelagerten 
+Verwandtschaftsverhältnissen ausreichen, wie die Vernehmung der Zeugin K. bestätigt. Dass 
+diese nach der ebenfalls rein abstrakten Belehrung ohne weiteres erkannte, dass ihr als 
+geschiedene Ehefrau ein Zeugnisverweigerungsrecht zustand, verwundert nicht. Dieser Fall ist 
+in § 52 Abs. 1 Nr. 2 StPO nämlich ausdrücklich geregelt. Wenn aber ein Zeuge unsicher ist, ob 
+
+===== SEITE 58 =====
+58 
+ 
+ 
+ 
+ihm ein Zeugnisverweigerungsrecht zusteht, muss ihm vom Vorsitzenden gesagt werden, ob er 
+zur Verweigerung der Aussage berechtigt ist. Nach der Rechtsprechung des BGH gilt das 
+insbesondere, wenn der Zeuge irrtümlich glaubt, aussagen zu müssen. Das war hier der Fall, 
+denn der Zeuge M. gab eindeutig zu verstehen, dass er lieber keine Aussage machen möchte, 
+da er sich mit meinem Mandanten trotz der Scheidung von seiner Mutter immer noch gut 
+versteht. Dass die Kammer, trotz der erkennbaren Nöte des Zeugen M., über dieses 
+Rechtsproblem einfach  hinweggegangen ist, stellt für die Verteidigung einen massiven 
+Rechtsverstoß dar, der nun im Urteil korrigiert werden sollte. Denn der Belehrungsfehler muss 
+nach § 52 Abs. 3 StPO ein Verwertungsverbot zur Folge haben. 
+Wenn demnach die Aussage des M. bei d er Urteilsfindung außen vor bleiben muss, ist eine 
+taugliche Vortat des L. erst recht nicht nachweisbar. Zum Vorwurf der Hehlerei hat sich mein 
+Mandant zwar in seiner Einlassung geäußert. Zu dem Verhalten des L. - insbesondere dazu, 
+wie er an das Fahrzeug gelangt ist - konnte er aber nichts sagen. 
+Festzuhalten bleibt, dass Herr K. sich lediglich wegen einer gefährlichen Körperverletzung 
+gemäß § 224 Abs. 1 Nr. 2 und 5 StGB in Tatmehrheit mit einer Sachbeschädigung und einer 
+hierzu tateinheitlich begangenen Körperverletzung strafbar gemacht hat.  
+Was die Strafzumessung betrifft, wird die Kammer folgendes zu berücksichtigen haben: Zwar 
+ist mein Mandant bereits strafrechtlich in Erscheinung getreten, jedoch bislang nicht durch 
+Gewalttätigkeiten aufgefallen. Auch was die hier abzuurteilenden Delikte betrifft, halte ich es 
+für wichtig, dass der Verletzung der Zeugin K. eine Ausnahmesituation zugrunde lag und mein 
+Mandant - was die Zeugin G. betrifft - nicht das Ziel hatte, die G. zu verletzen. Er handelte 
+insoweit gedankenlos und im Grenzbereich zwischen bedingtem Vorsatz und bewusster 
+Fahrlässigkeit und noch unter dem Eindruck der vorangegangenen Ereignisse. Der Anlass für 
+sein Fehlverhalten war aus seiner Perspektive auch nicht nichtig, denn es ging für ihn darum,  
+die Beziehung zu seiner Frau zu retten. Dass er in dieser Situation die Kontrolle verlor, ist ihm 
+heute sehr unangenehm. Zum Glück ist die Verletzung der Zeugin K. weitgehend folgenlos 
+ausgeheilt. 
+Mein Mandant hat den Schaden an dem Fahrzeug des Zeugen H.  beglichen und sich zu den 
+Vorwürfen in vollem Umfang geständig eingelassen. Schließlich wird die Kammer zu 
+berücksichtigen haben, dass sich mein Mandant seit mehreren Monaten in Untersuchungshaft 
+befindet. 
+Nach alledem bin ich der Auffassung, dass mein Ma ndant hier zu einer Freiheitsstrafe von 2 
+Jahren zu verurteilen ist und die Vollstreckung dieser Strafe zur Bewährung ausgesetzt werden 
+kann. Die Sozialprognose könnte man zwar - oberflächlich betrachtet - als ungünstig 
+einschätzen, da mein Mandant bereits  schon einmal zu einer Bewährungsstrafe verurteilt 
+worden ist und nunmehr erneut Straftaten begangen hat. Jedoch muss in diesem 
+Zusammenhang berücksichtigt werden, dass den Taten ein konkreter Anlass zugrunde lag und 
+diese nicht Ausdruck einer grundsätzlic h kriminellen Gesinnung waren. Nichts deutet darauf 
+hin, dass Herr K. in Zukunft gewalttätig auftreten wird und die beiden Eintragungen im 
+Bundeszentralregister beziehen sich auf Vorfälle, die ca. 4 bzw. 8 Jahre zurückliegen. Es liegen 
+hier meines Erachtens auch besondere Umstände im Sinne des § 56 Abs. 2 StGB vor, die sich 
+aus der Tat selbst ergeben. Der gesamte Vorfall beruhte auf einem äußerst emotionalen 
+Beziehungskonflikt, der nicht nur für das Opfer, sondern auch für meinen Mandanten ein 
+einschneidendes Ereignis in seinem Leben darstellt. Es ist folglich nach der endgültigen 
+
+===== SEITE 59 =====
+59 
+ 
+ 
+ 
+Trennung der Zeugin K. von meinem Mandanten nicht damit zu rechnen, dass Herr K. noch 
+einmal in vergleichbarer Weise strafrechtlich in Erscheinung treten wird. Hierfür spricht auch, 
+dass mein inzwischen fast fünfzigjähriger Mandant – was die Zeugin K. ausdrücklich bestätigt 
+hat – nicht zu Gewalttätigkeiten neigt. Schließlich wird die Kammer bei der Prüfung des § 56 
+Abs. 2 StGB zu berücksichtigen haben, dass sich mein Mandant durch s einen Anruf bei der 
+Polizei und die Begleichung des Schadens an dem Fahrzeug um eine Wiedergutmachung 
+seines Fehlverhaltens bemüht hat.  
+Ich beantrage daher, meinen Mandanten wegen der Taten zu 1 und 2 zu einer Freiheitsstrafe 
+von 2 Jahren zu verurteilen, deren Vollstreckung zur Bewährung ausgesetzt werden sollte. Im 
+Übrigen beantrage ich, meinen Mandanten freizusprechen und insoweit der Staatskasse die 
+Kosten und notwendigen Auslagen des Verfahrens aufzuerlegen. Schließlich beantrage ich, 
+den Haftbefehl de s Amtsgerichts Tiergarten aufzuheben. Insbesondere da sich der 
+Tatverdacht wegen eines versuchten Tötungsdeliktes, der letztlich zur Inhaftierung meines 
+Mandanten geführt hat, nicht bestätigt hat, ist nicht mehr von einer Fluchgefahr auszugehen.  
+ 
+Ich danke für ihre Aufmerksamkeit! 
+ 
+Ergänzendes Gutachten: 
+ 
+I. Verwertbarkeit der Aussage des Y 
+Nach der Aussage des Zeugen K. war davon auszugehen, dass die Voraussetzungen für den 
+Einsatz eines verdeckten Ermittlers gemäß § 110 a Abs. 1 Satz 4 StPO vorlagen. Es ging um die 
+Aufklärung eines Tötungsdeliktes - also eines Verbrechens von erheblicher Bedeutung - und 
+die Staatsanwaltschaft und das Gericht hatten dem Einsatz gemäß § 110 b Abs. 1 S. 1, bzw. 
+Abs. 2 StPO zugestimmt. Es war aus Sicht der ermittelnden Behörd en auch aussichtslos, auf 
+andere Art und Weise den Sachverhalt aufzuklären. Da der Einsatz als solcher also rechtmäßig 
+war, konnte sich aus den §§ 110 a ff. StPO kein Verwertungsverbot ergeben. 
+Die Rechtsprechung begründet die Unverwertbarkeit von Erkenntn issen eines verdeckten 
+Ermittlers bei einer Umgehung des Schweigerechts unter Ausnutzung einer Drucksituation mit 
+dem nemo-tenetur-Grundsatz. Einen Verstoß gegen § 136 StPO lehnt der BGH ausdrücklich 
+ab, da der verdeckte Ermittler keine Vernehmungen durchführt und dem Beschuldigten nicht 
+in einer amtlichen Eigenschaft gegenübertritt, so dass dieser glauben könnte, es bestünde 
+eine Aussagepflicht. Es lag daher auch keine vernehmungsähnliche Situation vor. 
+In der Literatur wird zum Teil ein Verstoß gegen § 136 a StPO bejaht. Das ist sicher vertretbar, 
+wird vom BGH jedoch auch ausdrücklich verneint, weil es wieder an einer Vernehmung fehlt 
+und der Einsatz verdeckter Ermittler als zulässige heimliche Ermittlungsmaßnahme 
+ausdrücklich in der Strafprozessordnung vo rgesehen ist. Das Verhalten des Y. im konkreten 
+Fall, dürfte auch nicht mit den in § 136 a StPO restriktiv auszulegenden Alternativen (Quälerei, 
+Misshandlung etc.) vergleichbar sein.  
+ 
+
+===== SEITE 60 =====
+60 
+ 
+ 
+ 
+II. Zweiter Tatkomplex 
+1. Vorsatz 
+Bei allen drei angeklagten Delikten k önnte man prüfen, ob dem Mandanten lediglich ein 
+Fahrlässigkeitsvorwurf zu machen ist. Die Annahme eines nur fahrlässigen Verhaltens liegt 
+aber fern, weil der Zeuge Karlsberg über die erste polizeiliche Vernehmung des K. ausgesagt 
+hatte, dieser habe aus Ge dankenlosigkeit das Notebook aus dem Fenster geworfen und vor 
+dem Wurf wahrgenommen, dass sich Personen auf dem Parkplatz befunden hätten. Die 
+Tathandlung dürfte auch objektiv so gefährlich gewesen sein, dass das Gericht wahrscheinlich 
+von dieser Handlung auf die billigende Inkaufnahme des Erfolges schließen wird. 
+2. Kausalität – objektive Zurechnung (§§ 315 b, 303 StGB) 
+Die Kausalität im Sinne der Äquivalenz - und Adäquanztheorie dürfte in beiden Fällen 
+unproblematisch sein. Auch eine Unterbrechung des Kausalzusammenhangs ist kaum 
+vertretbar, da das Verreißen des Steuers bei einem plötzlichen Ereignis nicht ungewöhnlich ist 
+und folglich sowohl objektiv zurechenbar ist als auch nach der Rechtsprechung keine 
+erhebliche Abweichung vom vorgestellten Kausalverlauf beinhaltet. Bei der Prüfung des § 315 
+b StGB wäre außerdem zu beachten, dass sich die Kausalität nicht auf den Eintritt des 
+Schadens, sondern lediglich auf eine konkrete Gefährdung für das Fahrzeug des H. beziehen 
+muss. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== SEITE 61 =====
+61 
+ 
+ 
+ 
+II. Haftbeschwerde 
+ 
+An das 
+Amtsgericht Tiergarten 
+10548 Berlin 
+ 
+ 
+In der Strafsache 
+gegen Bernd Berger 
+- Az.: 343 Gs 1 Bra Js 557/04 - 
+ 
+ 
+lege ich gegen den Haftbefehl des Amtsgerichts Tiergarten vom (…) 
+ 
+Haftbeschwerde 
+ 
+ein und beantrage, 
+ 
+1.  den Haftbefehl aufzuheben; 
+2.  hilfsweise den Haftbefehl gemäß § 116 StPO außer Vollzug zu setzen. 
+ 
+Begründung: 
+Nach dem aktuellen Stand der Ermittlungen kann weder ein dringender 
+Tatverdacht wegen eines Brandstiftungsdeliktes noch wegen eines räuberischen 
+Diebstahls ang enommen werden. Da insbesondere ein Brandstiftungsdelikt von 
+vornherein ausscheidet, kann auch der Haftgrund der Fluchtgefahr nicht 
+angenommen werden, da dieser allenfalls mit einer hohen Straferwartung 
+begründet werden könnte. 
+I. 
+Unabhängig von der Frage,  ob die bisherigen Ermittlungsergebnisse für die 
+Verwirklichung eines Brandstiftungsdeliktes sprechen, scheitert ein dringender 
+
+===== SEITE 62 =====
+62 
+ 
+ 
+ 
+Tatverdacht an dem verfahrensrechtlichen Grundsatz, dass niemand wegen 
+derselben Tat mehrfach verurteilt werden darf (Artikel 103 Abs. 3 GG). 
+Mein Mandant ist durch das seit dem (…) rechtskräftige Urteil des Landgerichts 
+Berlin bereits wegen Betrugs zu einer Bewährungsstrafe verurteilt worden. Da 
+Gegenstand dieses Verfahrens nicht allein der Straftatbestand des Betruges, 
+sondern di e Tat im prozessualen Sinn war und hierunter auch ein mögliches 
+Brandstiftungsdelikt fällt, kann er nach Rechtskraft des Urteils für diese Tat nicht 
+mehr strafrechtlich belangt werden. Nach ständiger Rechtsprechung wird unter 
+einer Tat im prozessualen Sinn ein einheitlicher geschichtlicher Lebenssachverhalt 
+verstanden. Regelmäßig wird hierfür ein enger räumlicher und zeitlicher 
+Zusammenhang verlangt.  
+Es stellt sich hier also die Frage, ob der Brand in der Bäckerei und die 
+Geltendmachung von Ansprüchen gegenüber der Versicherung, also die Täuschung 
+im Sinne des § 263 StGB, eine Tat darstellen.  Zwar mag es zutreffen, dass mein 
+Mandant seiner Versicherung den Schaden erst 3 ½ Monate nach dem Brand in der 
+Großbäckerei angezeigt hat, dies bedeutet im konkreten Fall jedoch nicht, dass es 
+sich um unterschiedliche prozessuale Taten handelt. Denn trotz des 
+möglicherweise fehlenden engen zeitlichen Zusammenhangs, liegt hier ein enger 
+rechtlicher Zusammenhang vor, der die vorgeworfene Brandstiftung als 
+Vorbereitungshandlung mit dem später begangenen Betrug verknüpft.  
+Das Landgericht konnte nämlich in dem Verfahren die Tatbestandsmerkmale des 
+Betruges nicht unabhängig davon prüfen, ob mein Mandant vorsätzlich einen 
+Versicherungsfall herbeigeführt hat. Dies ergibt sich aus mehreren Umständen. 
+Zum einen setzt das Vorliegen eines Vermögensschadens nach dem Prinzip der 
+Gesamtsaldierung im Sinne des § 263 StGB voraus, dass dem Versicherungs -
+nehmer kein Anspruch gegen die Versicherung zusteht; was bei einer vorsätzlichen 
+Brandlegung selbstverständlich der Fall gewesen wäre. Zum anderen hätte die 
+vorsätzliche Herbeiführung des Versicherungsfalles eine Verurteilung gemäß § 263 
+Abs. 3 Nr. 5 StGB ermöglicht, was ebenfalls dafür spricht, dass sich das Gericht mit 
+den Umständen, die zu dem Brand geführt haben, auseinandersetzen musste.  
+Bestätigt wird diese Annahme auch durch die Feststellungen, die die 37. Große 
+Strafkammer in ihrem Urteil vom (…) getroffen hat. Wörtlich heißt es in dem Urteil: 
+ 
+„Im Rahmen der Ermittlungen wegen Brandstiftung – beim Brandort 
+wurden Rückstände eines Brandbeschleunigers festgestellt – konnte 
+dem Angeklagten eine Beteiligung hieran nicht nachgewiesen 
+werden.“ 
+ 
+Bereits aus dieser Formulierung ergibt sich, dass auch das Landgericht Berlin eine 
+enge rechtliche Verknüpfung zwischen einer Brandstiftung und einem sich daran 
+anschließenden Versicherungsbetrug erkannt hat. Da folglich von einem 
+einheitlichen Lebenssachv erhalt auszugehen ist und mein Mandant bereits 
+rechtskräftig wegen Betruges verurteilt worden ist, liegt ein Fall des 
+
+===== SEITE 63 =====
+63 
+ 
+ 
+ 
+Strafklageverbrauchs vor. Dieses Verfahrenshindernis hat zur Folge, dass eine 
+erneute Verurteilung meines Mandanten wegen dieser Tat ausgeschlossen ist.  
+II. 
+Auch was den wesentlich weniger gravierenden Tatvorwurf – nämlich den 
+Diebstahl eines Paares Herrenschuhe im Wert von deutlich unter 100,00 € in der 
+Schönhauser Alllee 124 betrifft – lässt sich zumindest kein dringender Tatverdacht 
+für einen räuberischen Diebstahl gemäß 252 StGB begründen.  
+Als Beweismittel liegen insoweit der bei der Wohnungsdurchsuchung gefundene 
+Brief meines Mandanten an seine Ehefrau sowie das Protokoll über die polizeiliche 
+Vernehmung der Zeugin Dahl vom (…) vor. We itere Beweismittel sind nicht 
+ersichtlich. Sollte die Staatsanwaltschaft insoweit die Ehefrau bzw. den Schwager 
+meines Mandanten zeugenschaftlich vernehmen wollen, weise ich bereits jetzt 
+darauf hin, dass beide Zeugen angekündigt haben, von ihrem 
+Zeugnisverweigerungsrecht Gebrauch zu machen. 
+Auch wenn die Aussage der Zeugin Dahl dafür spricht, dass mein Mandant ein Paar 
+Herrenschuhe vorsätzlich und mit Zueignungsabsicht weggenommen hat, ergeben 
+sich aus dieser Vernehmung keine Anhaltspunkte für eine Besitzerhaltungsabsicht 
+meines Mandanten, die für die Annahme eines räuberischen Diebstahls 
+erforderlich wäre. Denn die Zeugin hat ausgesagt, dass mein Mandant ihr erst 
+gedroht haben soll, nachdem sie ihm die Schuhe aus der Hand genommen habe. 
+Das bedeutet, dass nach dieser Aussage die Drohung meines Mandanten – soweit 
+sie überhaupt stattgefunden hat – nicht dazu diente, die Schuhe für sich zu 
+behalten. Lebensnah gibt die Zeugin außerdem an, dass es meinem Mandanten 
+und seinem Begleiter in erster Linie darum gegangen sei, den Tatort unbehelligt zu 
+verlassen, da die Zeugin angekündigt hatte, die Polizei zu rufen. 
+Allenfalls der bei der Wohnungsdurchsuchung gefundene Brief bietet 
+Anhaltspunkte dafür, dass mein Mandant die Zeugin zu einem Zeitpunkt bedrohte, 
+als sich die Schuhe noch in seinem Besitz befanden. Aus Sicht der Verteidigung 
+erscheint es bereits zweifelhaft, die von dem Inhalt der Zeugenaussage 
+abweichende Schilderung in dem Brief für die Annahme eines dringenden 
+Tatverdachtes ausreichen zu lassen. Denn nichts deutet darauf hin, dass die Zeugin 
+Dahl in ihrer Vernehmung unrichtige Angaben gemacht hat, so dass zumindest 
+nach dem Zweifelsgrundsatz eine Verurteilung wegen räuberischen Diebstahls 
+äußerst unwahrscheinlich erscheint. 
+Letztlich kommt es darauf jedoch nicht an, da der aufgefundene Brief gemäß § 97 
+Abs. 1 Nr. 1 StPO nicht verwertet werden darf. Zwar lassen sich im Einzelnen die 
+Umstände der Durchsuchung – insbesondere die Frage, ob überhaupt eine 
+richterliche Durchsuchungsanordnung vorlag – derzeit für die Verteidigung nicht 
+nachvollziehen, entscheidend ist jedoch, dass es sich bei dem Brief um eine 
+schriftliche Mitteilung meines Mandanten – also des Beschuldigten – an eine 
+zeugnisverweigerungsberechtigte Person – nämlich seine Ehefrau – handelte. 
+Solche schriftlichen Mitteilungen dürfen bei Wohnungsdurchsuchungen 
+grundsätzlich nicht beschlagnahmt bzw. im Strafverfahren verwertet werden. 
+Hierfür spricht bereits, dass es rechtlich keinen Unterschied machen kann, ob die 
+
+===== SEITE 64 =====
+64 
+ 
+ 
+ 
+ermittelnden Behörden durch eine münd liche Zeugenaussage oder die 
+Beschlagnahme schriftlicher Unterlagen an Informationen herankommen, die von 
+zeugnisverweigerungsberechtigten Personen stammen. Gegen das 
+Verwertungsverbot spricht hier auch nicht § 97 Abs. 2 StPO. Die schriftliche 
+Mitteilung b efand sich nämlich in Gewahrsam der Ehefrau meines Mandanten. 
+Zwar gibt es ältere BGH-Rechtsprechung, nach der zumindest beim Mitgewahrsam 
+des Beschuldigten das Beschlagnahmeverbot nicht gelten soll, ein solcher 
+Mitgewahrsam lag hier jedoch nicht vor. Zwar mag die Annahme nahe liegen, dass 
+Eheleute an sämtlichen Gegenständen der von ihnen gemeinsam bewohnten 
+Wohnung Mitgewahrsam haben. Mein Mandant hatte jedoch – was den 
+durchsuchenden Polizeibeamten zu Beginn der Durchsuchung von der Ehefrau 
+meines Mandant en mitgeteilt worden war – die eheliche Wohnung bereits 
+verlassen und war zu seinem Bruder gezogen. Da folglich – trotz Fortbestandes der 
+Ehe – die Wohnung von meinem Mandanten nicht mehr bewohnt wurde und er 
+auch tatsächlich gar nicht die Gelegenheit hatt e, den beschlagnahmten Brief 
+jederzeit an sich zu nehmen, kann von einem Mitgewahrsam nicht ausgegangen 
+werden. 
+Die Unverwertbarkeit des Briefes muss letztlich dazu führen, den dringenden 
+Tatverdacht wegen räuberischen Diebstahls mangels Besitzerhaltungsab sicht zu 
+verneinen.  
+III. 
+Zieht man die Aussage der Zeugin Dahl heran, besteht allenfalls ein Tatverdacht für 
+einen Diebstahl in Tateinheit mit einer Nötigung. Allein dieser Tatverdacht, der aus 
+Sicht der Verteidigung allerdings nicht als dringend bezeichn et werden kann, 
+rechtfertigt nicht die Annahme des Haftgrundes der Fluchtgefahr. Allein die 
+Straferwartung ist nicht ausschlaggebend für die Annahme von Fluchtgefahr. 
+Vielmehr kommt es auf eine Gesamtabwägung sämtlicher Umstände des 
+Einzelfalles an, wobei hierbei der Straferwartung erhebliche Indizwirkung zu -
+kommt. Isoliert betrachtet wäre für den Fall, dass es zur Verurteilung wegen 
+Diebstahls in Tateinheit mit Nötigung kommt, allenfalls mit einer Geldstrafe zu 
+rechnen. Dies ergibt sich aus dem relativ ger ingen Wert der Schuhe (ca. 90,00 €) 
+und der Tatsache, dass letztlich kein Schaden eingetreten ist. Auch das Verhalten 
+meines Mandanten nach der Tat, spricht nicht gerade für eine hohe kriminelle 
+Energie. Wie die Zeugin Dahl selbst sagt, konnte sie meinem M andanten ohne 
+weiteres die Schuhe nach dem Vorfall abnehmen. 
+Eine wesentlich höhere Straferwartung ergibt sich auch nicht aus der 
+rechtskräftigen Verurteilung vom (…). Zwar hat das Landgericht meinen 
+Mandanten zu einer Bewährungsstrafe von einem Jahr verur teilt. Mit einem 
+Widerruf der Strafaussetzung zur Bewährung gemäß § 56 f StGB ist jedoch nicht zu 
+rechnen. Insoweit verkennt die Staatsanwaltschaft die Voraussetzungen für einen 
+Bewährungswiderruf. Ein solcher kommt allenfalls in Betracht, wenn nach 
+Rechtskraft der Verurteilung während des Laufens der Bewährungszeit der 
+Verurteilte eine weitere Straftat begangen hat bzw. hierfür zumindest erhebliche 
+Anhaltspunkte vorliegen. Der Vorfall im Schuhgeschäft trug sich jedoch am (…) – 
+also vor Rechtskraft der Entscheidung des Landgerichts – zu. In Betracht zu ziehen 
+
+===== SEITE 65 =====
+65 
+ 
+ 
+ 
+wäre daher allenfalls eine nachträgliche Gesamtstrafenbildung gemäß § 55 StGB 
+bei der jedoch nicht mit einer erheblichen Erhöhung der bereits verhängten 
+Bewährungsstrafe zu rechnen wäre. Aus Sicht der V erteidigung läge ohnehin eine 
+Verfahrenseinstellung gemäß § 154 StPO nahe, da der Diebstahl an den Schuhen 
+bzw. die Nötigung der Zeugin Dahl verglichen mit dem Betrug kaum ins Gewicht 
+fällt. 
+Auch die weiteren Umstände sprechen gegen die Annahme von Fluchtg efahr. 
+Soweit die Staatsanwaltschaft meinem Mandanten Auslandskontakte unterstellt, 
+weise ich darauf hin, dass diese ausschließlich auf dem ursprünglichen Plan 
+beruhten, sich nach Mallorca zu begeben, um dort eine neue Existenz aufzubauen. 
+Dass sich dieser  Plan mit der Verurteilung im vergangenen Jahr zerschlagen hat, 
+liegt auf der Hand. Zivilrechtlich ist mein Mandant verpflichtet, die bereits 
+ausgezahlte Rate von 150.000,00 € an seine Versicherung zurückzuzahlen. Da 
+aufgrund der rechtskräftig festgestellt en Täuschung meines Mandanten über 
+einen Betriebsfortführungswillen mit weiteren Zahlungen nicht zu rechnen ist, hat 
+mein Mandant sein Vorhaben aufgegeben. Außerdem hat er inzwischen die 
+Ehekrise überwunden, für die u.a. die bereits abgeurteilte Straftat u rsächlich war. 
+Er hat sich mit seiner Frau versöhnt. Die Tatsache, dass er sich polizeilich nicht 
+umgemeldet hat, sondern nach wie vor unter der Anschrift der gemeinsamen 
+ehelichen Wohnung polizeilich gemeldet ist, verdeutlicht, dass er nie ernsthaft 
+vorhatte, langfristig seine Frau zu verlassen. Sollte das Gericht wider Erwarten 
+einen dringenden Tatverdacht wegen Diebstahls und einer hierzu tateinheitlich 
+begangenen Nötigung annehmen, wäre folglich der Haftbefehl nach § 116 StPO 
+außer Vollzug zu setzen. So llte das Gericht diesen Weg beschreiten, regt die 
+Verteidigung an, dass sich mein Mandant einmal wöchentlich bei dem für ihn 
+zuständigen Polizeiabschnitt meldet. 
+ 
+ 
+ 
+Rechtsanwalt 

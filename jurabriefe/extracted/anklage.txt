@@ -1,0 +1,1076 @@
+===== SEITE 1 =====
+OStA Rebentisch Stand: November 2023 
+ 
+ 
+SKRIPT: ANKLAGESCHRIFT 
+ 
+Hinweis: In der nachfolgenden Darstellung wird eine gendergerechte Sprache verwendet, soweit dies sprachlich 
+sachgerecht erscheint. Im Übrigen soll sich die gewählte weibliche oder männliche Form jeweils auf beide 
+Geschlechter sowie alle weiteren geschlechtlichen Identitäten beziehen. 
+ 
+Die durch das Kammergericht zur Verfügung gestellten Skripte werden von erfahrenen Leiterinnen und Leitern 
+von Arbeitsgemeinschaften erstellt. In ihnen werden Fragen der Klausurbearbeitung behandelt und mögliche 
+Lösungen aufgezeigt. Die Skripte bieten inde s keine abschließende Aufbereitung des Prüfungsstoffes und 
+möglicher Lösungswege bzw. Darstellungsformen für die Klausuren. Ziel ist es vielmehr, Referendarinnen und 
+Referendaren bestimmte Strukturen und Formulierungen an die Hand zu geben, die das Schreib en der 
+Examensklausuren unterstützen. Die hier vorgeschlagenen Lösungswege sind vertretbar und liegen innerhalb des 
+Antwortspielraums der Klausurschreibenden. 
+ 
+ 
+Inhaltsverzeichnis 
+EINLEITUNG ................................ ................................ ................................ ................................ ...... 2 
+AUFBAU EINER ANKLAGESCHRIFT ................................ ................................ ................................ ...... 2 
+I. RUBRUM................................ ................................ ................................ ................................ ... 2 
+II. ÜBERLEITUNG ................................ ................................ ................................ ...........................  8 
+III. ABSTRAKTER ANKLAGESATZ ................................ ................................ ................................ ... 8 
+IV. KONKRETER ANKLAGESATZ ................................ ................................ ................................ .. 11 
+V. LISTE DER ANGEWANDTEN VORSCHRIFTEN ................................ ................................ .............. 13 
+VI. BEWEISMITTEL ................................ ................................ ................................ ....................  14 
+VII. WESENTLICHES ERMITTLUNGSERGEBNIS ................................ ................................ .............. 18 
+VIII. ANTRÄGE ................................ ................................ ................................ ............................  19 
+ 
+
+===== SEITE 2 =====
+Seite 2 von 20 OStA Rebentisch - November 2023 
+ 
+EINLEITUNG 
+ 
+Aufbau und Form von Anklageschriften sind in den einzelnen Bundesländern unterschiedlich. 
+Da die gängigen Lehr- und Anleitungsbücher, die sich mit den Formalien von Anklageschriften 
+befassen, nicht von Berliner Autoren stammen, ist bei deren Nutzung insoweit Vorsicht 
+geboten. 
+ 
+Nachfolgend ist der Aufbau für bei der Staatsanwaltschaft  Berlin zu fertigende 
+Anklageschriften dargestellt, und zwar zweckgerichtet auf die (praktische) Stationstätigkeit. 
+Bei Verwendung des Skripts in der Arbeitsgemeinschaft  ist lediglich zu beachten, dass für 
+Examens- und Übungsklausuren teilweise andere Formalien gelten, allerdings nur in Form  
+eines „Weniger“ (vgl. insoweit die  nachfolgenden Hinweise). Ergänzend wird auf das 
+Referendarskript zur Pflichtstation Strafrecht verwiesen, das ebenfalls auf der Homepage des 
+Kammergerichts zur Verfügung steht.  
+ 
+Die wesentlichen Anforderungen an eine Anklageschrift ergeben sich aus §§ 199 Abs. 2, 200 
+StPO sowie Nrn. 110-113, 280 RiStBV. 
+ 
+ 
+AUFBAU EINER ANKLAGESCHRIFT 
+ 
+Links neben dem Text der Anklageschrift erfolgen jeweils Angaben zu den Blattzahlen der 
+Akten, aus denen sich die jeweilige Information ergibt. Dies ist insbesondere bei den 
+Personalien der Beschuldigten sowie den etwaigen Angaben zur Verteidigung und zu d en 
+Haftverhältnissen zu beachten. Bei mehrbändigen Akten ist deutlich zu machen, auf welchen 
+Band sich die jeweilige Seitenangabe bezieht, also etwa Bd. 3 Bl. 46 oder Bl. 46/III (je nach 
+Bezeichnung der Aktenbände auf dem Aktendeckel). 
+ 
+ 
+I. RUBRUM 
+ 
+1. Kopfzeile 
+ 
+Die Anklageschrift enthält links oben die Behördenbezeichnung, nämlich „Staatsanwaltschaft 
+Berlin“, unmittelbar darunter das (unterstrichene) Aktenzeichen des Verfahrens. 
+Rechts oben stehen die Behördenanschrift, das Datum der Anklageerhebung und die 
+Telefonnummer der Behörde, ggf. mit Durchwahl der Geschäftsstelle: 
+ 
+ 
+Staatsanwaltschaft Berlin 10548 Berlin, den 2. September 2023 
+Tel. 9014-0 
+253 Js 2345/23 
+ 
+ 
+2. Adressat 
+ 
+Die in der Pflichtstation zu fertigenden Anklageschriften richten sich ausschließlich entweder 
+„An das Amtsgericht Tiergarten“ oder „An das Landgericht Berlin“, wobei das Gericht in eine 
+neue Zeile geschrieben wird. 
+ 
+Ist Adressat das Amtsgericht, so ist (zwingend) festzulegen, ob Anklage zum „Strafrichter“ / 
+“Jugendrichter“ oder zum „Schöffengericht“ / “Jugendschöffengericht“ bzw. „erweiterten 
+
+===== SEITE 3 =====
+Seite 3 von 20 OStA Rebentisch - November 2023 
+ 
+Schöffengericht“ (vgl. zu Letzterem § 29 Abs. 2 GVG) erhoben wird. Die Anklagen an das 
+Landgericht richten sich an die „große Strafkammer“ / “Jugendkammer“ bzw. an die gesetzlich 
+normierte Spezialkammer, nämlich das „Schwurgericht“ (§ 74 Abs. 2 GVG), die 
+„Wirtschaftsstrafkammer“ (§ 74c Abs. 1 GVG), die „Staatsschutzkammer“ (§ 74a Abs. 1 GVG) 
+bzw. die Jugendkammer für Jugendschutzsachen (§ 74b GVG). Die  Bezeichnung des 
+zuständigen Richters / Gerichts steht hierbei in Parenthese. Auch insoweit ist eine neue Zeile zu 
+verwenden, also etwa: 
+ 
+An das 
+Amtsgericht Tiergarten 
+  - Schöffengericht - 
+ 
+Wer Adressat der Anklage ist, ergibt sich im Wesentlichen aus der Straferwartung, wie sie sich 
+zum Zeitpunkt der Anklageerhebung darstellt; wegen der weiteren Einzelheiten vgl. GVG, JGG 
+und RiStBV: 
+ 
+- der Strafrichter bei Geldstrafe bzw. Freiheitsstrafe bis zu zwei Jahren (einschließlich), 
+§ 25 GVG (Erwachsene) 
+ 
+- das Schöffengericht bei Freiheitsstrafe zwischen zwei und vier Jahren (einschließlich), 
+§§ 24, 28 GVG (Erwachsene); das Schöffengericht als erweitertes Schöffengericht, wenn 
+sich neben der vorgenannten Straferwartung die Sache als umfangreich erweist, § 29 Abs. 2 
+GVG, z.B. Betrug in 270 Fällen 
+ 
+➔ für Verbrechen, die zum Amtsgericht angeklagt werden, ist ausschließlich das Schöf- 
+fengericht zuständig, vgl. die Formulierung in § 25 GVG „bei Vergehen“ 
+ 
+- das Landgericht bei Freiheitsstrafe von mehr als vier Jahren, §§ 24, 74 GVG (Erwachsene) 
+ 
+➔ Ist zwar die Mindeststrafe des einschlägigen Delikts mehr als vier Jahre (z.B. §§ 249, 
+250 Abs. 2 StGB), jedoch eine geringere Strafe möglich (vgl. § 250 Abs. 3 StGB), wird 
+Anklage zum Amtsgericht erhoben, wenn dessen Strafgewalt im konkreten Fall ausrei- 
+chend ist. Eine Freiheitsstrafe von mehr als vier Jahren ist dann allerdings von vornher- 
+ein ausgeschlossen, soweit nicht das Amtsgericht die Sache an das Landgericht ver- 
+weist. 
+ 
+ 
+3. Überschrift 
+ 
+Im Falle von (Untersuchungs-) Haft eines oder mehrerer Beschuldigter stehen Hinweise hierauf 
+in der Anklage oben rechts neben dem Adressaten (näheres unter 7.). Gleiches gilt bei Anklagen 
+gegen Jugendliche oder Heranwachsende (zur Tatzeit). 
+ 
+ 
+Zentriert unter dem Adressaten und ggf. den Hinweisen auf Haft und Jugendliche bzw. 
+Heranwachsende steht 
+Anklageschrift 
+ 
+Falls Anklage zum Schwurgericht erhoben wird, lautet die (einzige) Ausnahme für die 
+Überschrift „Schwurgerichtsanklage“. 
+
+===== SEITE 4 =====
+Seite 4 von 20 OStA Rebentisch - November 2023 
+ 
+ 
+4. Personalien der Beschuldigten 
+ 
+Die Personalien sind möglichst genau zu bezeichnen. Sie lassen sich den Ermittlungsakten 
+entnehmen, und zwar insbesondere dem der etwaigen Beschuldigtenvernehmung 
+vorangestellten Personalienblatt und/oder dem Personalienbogen mit den Angaben gemäß dem 
+polizeilichen Datensystem POLIKS. Bestehen hierbei Abweichungen in der Schreibweise o.ä., 
+sollte zunächst auf das (von de n Beschuldigten unterschriebene) Personalienblatt 
+zurückgegriffen werden, insbesondere, wenn sich aus diesem ergibt, dass amtliche Dokumente 
+bei der Vernehmung vorlagen. Maßgeblich sind allein die zum Zeitpunkt der Anklageerhebung 
+aktuellen Daten. 
+ 
+Sind mehrere Beschuldigte anzuklagen, werden die Personalien und weiteren Angaben jeweils 
+nacheinander aufgeführt, wobei eine Durchnummerierung (mit arabischen Zahlen) erfolgt und 
+die etwaigen Hinweise neben dem Adressaten der Anklage (insbesondere zur Haft und zu 
+Jugendlichen oder Heranwachsenden) auf jene Durchnummerierung Bezug nimmt, soweit 
+nicht der Name der jeweiligen Beschuldigten genannt wird. 
+ 
+a) Berufsbezeichnung 
+ 
+Es ist üblich, mit der Berufsbezeichnung der Beschuldigten zu beginnen, jedoch nur dann, wenn 
+es sich um eine derzeit ausgeübte Tätigkeit handelt, z.B. „Die Hotelkauffrau...“. 
+Inhaltsleere oder ggf. diskriminierend wirkende Bezeichnungen sollten nicht verwendet 
+werden. Hingegen kann bei einem Arbeitslosen, der einen Beruf erlernt hat, beispielsweise die 
+Formulierung „der gelernte Maurer“ verwendet werden. Ist ein Beruf nicht bekannt, wird 
+sogleich mit dem Namen begonnen (jedoch ohne vorangestellten Artikel). 
+ 
+b) Namen 
+ 
+Zu nennen sind zunächst sämtliche Vornamen, der Rufname wird unterstrichen. In die gleiche 
+Zeile gehört der vollständige Familienname sowie – falls vorhanden – der Geburtsname, z.B. 
+Juliane Britta Hertha M ü l l e r, geb. Schulze . Auch Alias-Personalien werden angegeben, 
+falls diese zur Identifizierung geeignet sind. 
+ 
+c) Geburtsdatum und - ort 
+ 
+In die nächste Zeile gehören Geburtsdatum (Monatsnamen ausschreiben) und der Geburtsort, 
+bei Orten außerhalb Deutschlands auch das Land, z.B. „geboren am 24. Juli 1989 in Berlin“. 
+ 
+d) Wohnort 
+ 
+Wiederum eine neue Zeile wird für den Wohnort der Beschuldigten verwendet, wobei die 
+Anschrift Zustellungen, zunächst insbesondere die Zustellung der Anklageschrift, ermöglichen 
+muss. Daraus folgt, dass sich eine Beschuldigte unter der benannten Anschrift tatsächlich 
+aufhalten muss. Da formelle Zustellungen (ggf. im Wege der Rechtshilfe) auch im Ausland 
+möglich sind, ist eine deutsche Anschrift nicht zwingend erforderlich. 
+ 
+Die Zeile wird gewöhnlich eingeleitet mit der Formulierung „wohnhaft in“, es folgen die 
+Angaben von Stadt und Straße, also etwa „wohnhaft in 12345 Berlin, Rathausstraße 10“. 
+Befindet sich die Beschuldigte in Haft und ist ein Wohnsitz bekannt, wird die Anschrift ergänzt 
+um die Formulierung „zurzeit aufhältlich in der JVA ..., Buchnummer...“ . Handelt es sich 
+um einen Inhaftierten ohne bekannte Anschrift, wird in der Regel die Wendung „in 
+Deutschland ohne festen Wohnsitz, zurzeit aufhältlich in der JVA...“ benutzt. 
+
+===== SEITE 5 =====
+Seite 5 von 20 OStA Rebentisch - November 2023 
+ 
+ 
+Hinweis: Gegen Beschuldigte ohne ladungsfähige Anschrift kann eine Anklage nicht erhoben 
+werden. Möglich wäre aber etwa die Ladung über einen entsprechend bevollmächtigten 
+Verteidiger. 
+ 
+e) Staatsangehörigkeit und Familienstand 
+ 
+Sodann folgen die Angabe zur Staatsangehörigkeit der Beschuldigten, wobei im Falle 
+ausländischer Staatsangehörigkeit die Beifügung eines Adjektivs zu bevorzugen ist („türkischer 
+Staatsangehöriger“), sowie die Bezeichnung des Familienstandes, beides in einer Zeile, also 
+etwa „Deutsche, verheiratet“. 
+Ist der Familienstand zur Zeit der Anklageerhebung nicht bekannt, wird dieser Zusatz 
+weggelassen. Bei unbekannter Staatsangehörigkeit sollte dies demgegenüber vermerkt werden. 
+ 
+f) Vorstrafen 
+ 
+Die früher für Anklagen der Staatsanwaltschaft Berlin geltende Anweisung, bereits in den 
+Personalien auf etwaige Vorstrafen der Beschuldigten hinzuweisen, und zwar durch den 
+Hinweis „bestraft“ bzw. „nicht bestraft“ , ist bereits seit Längerem nicht mehr aktuell; 
+zumindest sollten derartige Formulierungen nicht in Examensklausuren aufgenommen 
+werden. 
+ 
+In Examens- und Übungsklausuren dürfen im Falle der Anklageerhebung die Angaben zu 
+den Personalien der Beschuldigten in der Regel auf den Vor - und Zunamen beschränkt 
+werden. Achten Sie aber immer auf den konkreten Bearbeitungsvermerk. 
+ 
+ 
+5. Bei Jugendlichen: gesetzlicher Vertreter 
+ 
+Richtet sich die Anklage gegen einen – zum Zeitpunkt der Anklageerhebung – Jugendlichen, 
+werden nach der Angabe dessen Personalien die Erziehungsberechtigten (ggf. auch ein anderer 
+gesetzlicher Vertreter ) mit Anschrift benannt, also etwa: „Gesetzliche Vertreter : Eltern 
+Diana und Marcel Meier, Rathausstraße 10, 12345 Berlin“. 
+ 
+ 
+6. Registerauszug 
+ 
+In Parenthese folgt in einer neuen Zeile der Hinweis - Registerauszug anbei - . Sollte der 
+Auszug aus dem Bundeszentralregister für die anzuklagenden Personen noch nicht bei den 
+Akten sein, weisen Sie Ihre Ausbilderin bzw. Ihren Ausbilder darauf hin. Diese w erden dann 
+einen aktuellen Auszug erfordern und zur Akte nehmen. 
+ 
+ 
+7. Haft 
+ 
+Ist im Zusammenhang mit dem konkreten Ermittlungsverfahren ein Haftbefehl gegen einen 
+Beschuldigten erlassen worden, wird dies in einem eigenständigen, in Parenthese gesetzten 
+Abschnitt erwähnt. 
+ 
+Gleichzeitig ist bei Haft bereits oben rechts neben dem Adressaten der Anklage ein Hinweis 
+hierauf erforderlich, der – im Falle andauernder Untersuchungshaft für das konkrete Verfahren 
+
+===== SEITE 6 =====
+Seite 6 von 20 OStA Rebentisch - November 2023 
+ 
+– zugleich die Frist für die Haftprüfung durch das Kammergericht (vgl. §§ 121, 122 StPO) 
+beinhalten muss. 
+ 
+Hinweis: Die Fristberechnung gem. § 121 StPO beginnt nach hM , wenn der Beschuldigte 
+aufgrund eines bestehenden HB ergriffen wurde oder wenn der Richter gegen den vorläufig 
+Festgenommenen HB erlassen hat; der Zeitraum der vorläufigen Festnahme wird hiernach 
+nicht in die Frist ein gerechnet (vgl. BeckOK StPO/Krauß StPO § 121 StPO, Rn. 3 m.w.N.). 
+Auch zu der Frage, ob der Tag, an dem die Untersuchungshaft beginnt, bei der Fristberechnung 
+berücksichtigt wird (also insoweit § 43 StPO Anwendung findet), gibt es unterschiedliche 
+Ansichten; für den Beschuldigten günstiger is t es jedenfalls, § 43 StPO nicht zur Anwendung 
+kommen zu lassen (vgl. BeckOK a.aO.). Unterbrechungen des Vollzugs des HB zählen nicht mit 
+(vgl. Meyer-Goßner/Schmitt, StPO, § 121 Rn. 4). 
+Beispiel: Erfolgt die vorläufige Festnahme am 2.1. und ergeht der HB am 3.1. wäre die zu 
+nennende Frist im Rubrum der 2.7.; erfolgte die Festnahme am 2.1. aufgrund eines bestehenden 
+HB, der am 3.1. verkündet wird, ist die maßgebliche Frist der 1.7. 
+ 
+Befinden sich mehrere Beschuldigte in Haft, erfolgt für jeden Beschuldigten ein gesonderter 
+Hinweis, soweit die Angaben nicht für alle Betroffenen gleichermaßen gelten. 
+ 
+Beispiel: 
+ 
+An das Haft! 
+Amtsgericht Tiergarten Frist gem. §§ 121, 122 StPO 
+- Schöffengericht - am 21. Februar 2024 
+ 
+ 
+Ist der Beschuldigte vom Vollzug der Untersuchungshaft verschont, erfolgt auch hierauf bereits 
+oben rechts ein Hinweis, also entsprechend 
+ 
+An das Haftverschonung! 
+Amtsgericht Tiergarten  
+- Schöffengericht -   
+ 
+a) andauernde Untersuchungshaft 
+ 
+Befindet sich der Beschuldigte in Untersuchungshaft, erfolgt zunächst die Angabe des Tages 
+der vorläufigen Festnahme. Da diese in der Regel von der Polizei vorgenommen wird, ist in 
+den Akten nach der sog. „Einlieferungsanzeige“ zu suchen, wo der Zeitpunkt der vorläufigen 
+Festnahme genau angegeben ist. Sodann ist – unter Angabe des gerichtlichen Aktenzeichens – 
+der Zeitpunkt der Haftbefehlsverkündung durch das Gericht festzuhalten und schließlich der 
+weitere Verbleib des Beschuldigten, in der Regel (nämlich bei männlichen Erwachsenen) seine 
+Überstellung in die JVA Moabit, also etwa 
+ 
+- in dieser Sache vorläufig festgenommen am 
+20. August 2023 und aufgrund des Haftbefehls 
+des Amtsgerichts Tiergarten vom 21. August 
+2023 – 380 Gs 1234/23 – seitdem in Unter- 
+suchungshaft in der JVA Moabit, Buchnr. 
+1967/23/8 - 
+ 
+Hinweis: Wird der Beschuldigte zwar dem Haftrichter vorgeführt, ergeht jedoch – selbst bei 
+Haftantrag des Staatsanwalts – kein Haftbefehl oder wird ein erlassener Haftbefehl später 
+aufgehoben, erfolgen auch keine Angaben zur Haft. 
+ 
+ 
+
+===== SEITE 7 =====
+Seite 7 von 20 OStA Rebentisch - November 2023 
+ 
+b) Haftverschonung 
+ 
+Erfolgt zwar eine Haftbefehlsverkündung, wird der Beschuldigte jedoch sogleich oder auch zu 
+einem späteren Zeitpunkt vom (weiteren) Vollzug der Untersuchungshaft verschont, sind die 
+Angaben hierzu in der Anklageschrift ebenfalls zwingend erforderlich. Gewährt die Richterin 
+Haftverschonung erst nach der Inhaftierung, sind ebenfalls Angaben zur Dauer der (bisherigen) 
+Untersuchungshaft zu machen, wobei entsprechend den Ausführungen zu a) zu verfahren ist. 
+Wird der Haftverschonungsbeschluss zu einem späteren Zeitpunkt unter Invollzugsetzung des 
+(ursprünglichen) Haftbefehls aufgehoben, ist dies ebenfalls aufzuführen. Dies hat zur Folge, dass 
+ggf. die Angaben zu den Haftverhältnissen sehr um fangreich werden können. Sind mehrere 
+Beschuldigte inhaftiert bzw. haftverschont, ist hinsichtlich jedes Inhaftierten eine Darstellung 
+der Haftverhältnisse erforderlich. 
+ 
+Beispiel: 
+ 
+- in dieser Sache vorläufig festgenommen am 
+20. Juli 2023 und aufgrund des Haftbefehls des 
+Amtsgerichts Tiergarten vom 21. Juli 2023 – 380 Gs 
+1234/23 – zunächst seit jenem Tage in Untersuchungshaft 
+in der JVA Moabit bis zum 15. August 2023, sodann 
+durch Beschluss des Amtsgerichts Tiergarten vom 16. 
+August 2023 - 350 Gs 2345/23 – vom weiteren Vollzug der 
+Untersuchungshaft verschont und nach Aufhebung 
+dieses Beschlusses durch Beschluss des Amtsgerichts 
+Tiergarten vom 25. August 2023 – 350 Gs 2678/23 – nach 
+erneuter Festnahme am 31. August 2023 seitdem wieder 
+in Untersuchungshaft in der JVA Moabit, Buchnr. 
+2210/23/3 - 
+ 
+Die konkreten Formulierungen zu den Haftverhältnissen weichen in der Praxis teilweise 
+voneinander ab, sodass insofern sprachlicher Gestaltungsspielraum besteht. Hierbei sollte 
+allerdings beachtet werden, dass es – auch wenn das Ergebnis sprachlich nicht zufriedenstellen 
+vermag – üblich ist, mit nur einem Satz auszukommen. In diesem Satz sollten sämtliche 
+Angaben zu den Haftverhältnissen enthalten sein. 
+ 
+c) Haft in anderer Sache 
+ 
+Befindet sich der Beschuldigte für ein anderes Verfahren in Untersuchungs - oder Strafhaft, so 
+sollte hierauf in der Kopfzeile durch die Formulierung „ Haft i. a. S.! “ hingewiesen werden. 
+Dies bezweckt, dem Gericht von vornherein zu verdeutlichen, dass die Sache ggf. eilbedürftig 
+ist, was insbesondere dann der Fall sein dürfte, wenn es sich um einen Beschuldigten handelt, 
+der nur aufgrund seiner Haft eine ladungsfähige Anschrift (nämlich in der JVA) hat, die mit 
+seiner Haftentlassung entfällt. Diese ist dann – einschließlich der Gefangenenbuch-Nr. – in die 
+Angaben zum „Wohnort“ aufzunehmen. 
+ 
+ 
+8. Verteidigungsverhältnisse 
+ 
+Hat der Beschuldigte zum Zeitpunkt der Anklageerhebung einen Verteidiger, wird dies in der 
+nächsten Zeile unter Angabe dessen Namen und der Kanzleianschrift vermerkt: 
+ 
+„Verteidigerin: Rechtsanwältin ...“. 
+ 
+
+===== SEITE 8 =====
+Seite 8 von 20 OStA Rebentisch - November 2023 
+ 
+Maßgeblich hierfür ist im Falle der Wahlverteidigung grundsätzlich die schriftliche Vollmacht 
+des Beschuldigten, deren Blattzahl links neben den Verteidigungsverhältnissen anzugeben ist; 
+falls keine schriftliche Vollmacht vorliegt, reicht als Nachweis in der Regel auch der Schriftsatz 
+aus, mit dem die Verteidigerin ihre Vertretung anzeigt. Bezieht sich die Vollmacht auf mehrere 
+Rechtsanwälte, so sind diese alle zu bezeichnen. Hinweise darauf, ob es sich um einen 
+Wahlverteidigerin oder einen Pflichtverteidiger handelt, erfolgen nicht. Die Zahl der 
+Verteidiger:innen darf drei nicht übersteigen (vgl. § 137 Abs. 1 S. 2 StPO). 
+ 
+Ist bereits im Vorverfahren ein Pflichtverteidiger bestellt worden, befindet sich in den Akten 
+der entsprechende Gerichtsbeschluss, auf dessen Blattzahl dann hinzuweisen ist. Hinsichtlich 
+der Bestellung eines Pflichtverteidigers sind die Regelungen insbesondere der §§ 141, 142 StPO 
+zu beachten. 
+ 
+ 
+II. ÜBERLEITUNG 
+ 
+Nach der Einleitung folgt die Überleitung zum sog. abstrakten Anklagesatz, und zwar durch die 
+Formulierung „wird angeklagt“ sowie die Angaben zum Tatort und der Tatzeit. Handelt es sich 
+bei der Beschuldigten um eine Jugendliche oder Heranwachsende, wird dieser Hinweis in eine 
+neue Zeile nach der Wendung „wird angeklagt“ eingefügt; soweit die Beschuldigte aufgrund  
+des Zeitablaufs mittlerweile älter als 18 bzw. 21 Jahre ist, erfolgt eine Ergänzung um die Worte 
+„zur Tatzeit“ (also z.B.: als Jugendliche zur Tatzeit ). Für jede Angabe wird eine neue Zeile 
+benutzt, also etwa 
+ 
+wird angeklagt, 
+ 
+als Jugendliche mit Verantwortungsreife 
+in Berlin 
+am 19. August 2023 
+ 
+Sind mehrere Tatorte gegeben, werden diese nur komplett aufgezählt, soweit die Auflistung 
+hierbei noch übersichtlich bleibt; mehr als drei Orte sollten nicht namentlich benannt werden. 
+In diesem Fall bietet sich die Formulierung „in Berlin und anderenorts“  an, die auch gewählt 
+werden kann, wenn bis auf einen Ort keine Klarheit besteht, wo die Tat verwirklicht wurde, 
+was etwa bei einem Verstoß gegen das Aufenthaltsgesetz durch illegalen Aufenthalt im 
+Bundesgebiet der Fall sein kann. Die Bezeichnung des Tator ts erfolgt in der Regel durch den 
+Städtenamen; für Berlin kann diese durch Beifügung des Verwaltungsbezirks oder Ortsteils 
+(z.B. Berlin -Hermsdorf) konkretisiert werden; die Angaben hierzu finden sich in der 
+polizeilichen Strafanzeige. 
+ 
+Auch hinsichtlich der Tatzeiten ist eine Einschränkung geboten, sobald zu viele Einzeldaten zu 
+nennen wären. Sind mehr als zwei Tattage Gegenstand der Anklage, sollte hierfür die gesamte 
+Zeitspanne angegeben werden, also etwa „zwischen dem  29. Dezember 2022 und dem 3. Juni 
+2023“. 
+ 
+ 
+III. ABSTRAKTER ANKLAGESATZ 
+ 
+Nach der Überleitung folgt der sog. abstrakte Anklagesatz, in dem der Gesetzestext der 
+verletzten Strafvorschrift(en) wörtlich wiedergegeben wird. Hierbei sind lediglich die Teile der 
+Normen zu zitieren, die im konkreten Fall einschlägig sind, bei einer Urkundenfälschung also 
+z.B. 
+
+===== SEITE 9 =====
+Seite 9 von 20 OStA Rebentisch - November 2023 
+ 
+ 
+zur Täuschung im Rechtsverkehr eine unechte Urkunde 
+gebraucht zu haben. 
+ 
+Der Gesetzeswortlaut sollte angepasst werden, sofern dies der konkrete Tatvorwurf erfordert, 
+aus einem „oder“ kann also ein „und“, aus „einer anderen Person“ können „andere Personen“ 
+werden etc. Allerdings darf hierbei grundsätzlich keine Umstellung von einzelnen Worten oder 
+Satzteilen des Gesetzestextes erfolgen. Für das sprachliche Verständnis erforderliche  
+Abwandlungen sind so restriktiv wie möglich zu handhaben (bei  einer Anklage von § 315b 
+Abs. 1 Nr. 3 StGB könnten Sie also etwa formulieren: „...einen dem Hindernisbereiten 
+ähnlichen, ebenso gefährlichen Eingriff vorgenommen zu haben und dadurch...“). 
+ 
+Der abstrakte Anklagesatz muss erkennen lassen, welche Delikte in welcher Beteiligungsform 
+dem (jeweiligen) Beschuldigten zur Last gelegt werden, einschließlich der 
+Konkurrenzverhältnisse. Dies kann – bei mehreren Taten und / oder Beschuldigten – mitunter 
+sehr kompliziert werden. 
+ 
+In welcher Form (insbesondere komplizierte) abstrakte Anklagesätze aufzubauen sind, kann 
+allgemeingültig nicht gesagt werden. In jedem Fall ist jedoch auf Verständlichkeit zu achten, 
+der in einem gewissen Maße durch Komprimierung Rechnung getragen werden k ann, etwa 
+durch das Zusammenfassen mehrerer gleichartiger Delikte, beispielsweise durch die 
+Formulierung „in drei Fällen ...“ . Zudem sollte bei umfangreichen Anklagesätzen mit 
+römischen und arabischen Ziffern sowie ggf. mit Kleinbuchstaben für Übersichtlichkeit gesorgt 
+werden. Wichtig ist, dass für jeden einzelnen Beschuldigten die Gesamtzahl der angeklagten  
+Taten (in Form von selbstständigen Handlungen) benannt wird bzw. eindeutig erkennbar ist, 
+was auch dann beachtet werden muss, wenn nur ein Beschuldigter anzuklagen ist. 
+ 
+Werden mehrere Beschuldigte in unterschiedlicher Tatbeteiligung angeklagt, kann etwa mit 
+römischen Zahlen für jeden Beschuldigten gearbeitet werden, bei gleichartiger Tatbegehung 
+auch unter Erfassung mehrerer Personen unter derselben römischen Ziffer (vgl.  das Beispiel 
+unten). Hierbei sollten die Beschuldigten auf jeden Fall namentlich bezeichnet werden. 
+ 
+Unmittelbar danach bietet sich, ggf. in einer gesonderten Zeile, der Hinweis auf die 
+Tatbeteiligung (bei Mittäterschaft) an. Auch insoweit sollten die Namen der Mittäter:innen 
+bezeichnet werden, selbst wenn diese im konkreten Verfahren nicht angeklagt sind, etwa durch 
+die Formulierung „gemeinschaftlich handelnd mit dem gesondert verfolgten Müller“ oder 
+„ ... mit einem unbekannten Mittäter“. 
+ 
+Die einzelnen Tatbestände werden i.d.R. mit arabischen Ziffern bezeichnet. In jedem Fall muss 
+jedoch erkennbar sein, wie viele (selbstständige) Handlungen insgesamt vorliegen bzw. wie 
+sich die Gesamtzahl der ggf. zu Anfang zahlenmäßig bezeichneten Taten konkret berechnet. 
+ 
+Darzustellen sind auch in vollem Umfang die tateinheitlich verwirklichten Delikte, soweit diese 
+zur Anklage gelangen. Der Hinweis hierauf erfolgt beispielsweise durch die Formulierung 
+„und hierbei zugleich“. Entscheidend ist jedoch auch hier weniger die konkrete Wortwahl (die 
+Geschmackssache ist) als vielmehr die unmissverständliche Verdeutlichung, dass Tateinheit 
+vorliegt. 
+ 
+Weiterhin ist zu beachten, dass bei Delikten mit Vorsatz -Fahrlässigkeitskombinationen (vgl. 
+insbes. §§ 315 ff. StGB) die jeweilige Begehungsform benannt werden muss: immer, wenn 
+auch fahrlässiges Handeln mit Strafe bedroht ist, hat ein entsprechender Hinweis im abstrakten 
+Anklagesatz zu folgen (also etwa: „  …vorsätzlich ein Kraftfahrzeug geführt zu haben , 
+obwohl… “ im Falle des § 21 Abs. 1 Nr. 1 StVG). Ebenso muss auf die Fälle der versuchten 
+Tat (selbstverständlich nur bei deren Strafbarkeit) hingewiesen werden, wofür sich die dem 
+
+===== SEITE 10 =====
+Seite 10 von 20 OStA Rebentisch - November 2023 
+ 
+übrigen Gesetzestext vorangestellte Formulierung „versucht zu haben, ...“ empfiehlt. 
+ 
+Im Gegensatz zum Strafbefehl, bei dem aufgrund seines Urteilscharakters bei Eintritt der 
+Rechtskraft mehr Normen als in die auf vorläufiger Einschätzung beruhende Anklage 
+aufzunehmen sind, dürfen im abstrakten Anklagesatz keine Angaben zur erheblich 
+verminderten Schuldfähigkeit i.S.d. § 21 StGB erfolgen, da  für die entsprechende Beurteilung 
+grundsätzlich die Beweisaufnahme unabdingbar ist. 
+ 
+Ein Beispiel für einen abstrakten Anklagesatz: 
+ 
+die Angeschuldigte Müller durch insgesamt fünf selbstständige Handlungen, 
+der Angeschuldigte Meier durch drei selbstständige Handlungen, 
+der Angeschuldigte Schulz durch zwölf selbstständige Handlungen 
+ 
+I.  die Angeschuldigten Müller und Meier 
+gemeinschaftlich handelnd 
+in drei Fällen (Fall 1, 3 und 6) 
+ 
+a) in der Absicht, sich einen rechtswidrigen Vermögensvorteil 
+zu verschaffen, das Vermögen eines anderen dadurch beschädigt 
+zu haben, dass sie durch Vorspiegelung falscher Tatsachen einen 
+Irrtum erregten 
+ 
+und dabei in zwei Fällen zugleich (Fall 3 und 6) 
+ 
+b) zur Täuschung im Rechtsverkehr eine unechte Urkunde gebraucht 
+zu haben 
+ 
+II. die Angeschuldigte Müller 
+ 
+in zwei weiteren Fällen (Fall 2 und 7) 
+ 
+eine andere Person körperlich misshandelt und an der Gesundheit 
+geschädigt zu haben 
+ 
+und hierbei in einem Fall zugleich (Fall 7) 
+ 
+die Körperverletzung mittels einer Waffe und einer das Leben 
+gefährdenden Behandlung begangen zu haben 
+ 
+III. der Angeschuldigte Schulz 
+in zwei Fällen (Fall 3 und 6) 
+vorsätzlich anderen zu deren vorsätzlich begangenen rechtswidrigen 
+Taten, nämlich der Taten zu I.) a), Hilfe geleistet zu haben 
+ 
+sowie in zehn Fällen (Fall 4, 5, 8 bis 15) 
+ 
+fremde bewegliche Sachen einem anderen in der Absicht weg- 
+genommen zu haben, die Sachen sich rechtswidrig zuzueignen. 
+ 
+
+===== SEITE 11 =====
+Seite 11 von 20 OStA Rebentisch - November 2023 
+ 
+Soweit in vorgenanntem Beispiel auf einzelne „Fälle“ hingewiesen wird, ist dies der Bezug auf 
+die Taten i.S.d. nachfolgenden konkreten Anklagesatzes. Sollten zur Gliederung des abstrakten 
+Anklagesatzes (arabische) Ziffern gewählt werden, brauchen diese nicht zwingend 
+zahlenmäßig mit der Anzahl der Tatkomplexe bzw. deren Reihenfolge einherzugehen. 
+ 
+Wie bereits oben ausgeführt, weichen die in der Praxis benutzten Formulierungen zu Aufbau 
+und Darstellung des (insbesondere umfangreichen) abstrakten Anklagesatzes teilweise 
+erheblich voneinander ab, sodass man sich in Zweifelsfällen bevorzugt an den „Vorlieben“ der 
+Ausbilderin bzw. des Ausbilders orientieren sollte. In jedem Fall muss jedoch der abstrakte 
+Anklagesatz in vollem Umfang mit den angeklagten Handlungen sowie den später in der §§ -
+Kette aufgelisteten Normen übereinstimmen und eine klare Zuordnung  zum konkreten 
+Anklagesatz ermöglichen. Was bereits zuvor im Rahmen der Konkurrenzen, insbesondere bei 
+Konsumtion und Subsidiarität, wegfällt, gehört nicht in den abstrakten Anklagesatz (und auch 
+nicht in die §§- Kette). 
+ 
+ 
+IV. KONKRETER ANKLAGESATZ 
+ 
+Der sog. konkrete Anklagesatz ist mit einem Standardsatz einzuleiten, auf den in keinem Fall 
+verzichtet werden sollte, nämlich mit der Formulierung: 
+ 
+Dem Angeschuldigten wird Folgendes zur Last gelegt: 
+ 
+Zwar ist der Beschuldigte – formal gesehen – zum Zeitpunkt der Formulierung der 
+Anklageschrift noch kein „Angeschuldigter“ (vgl. die Legaldefinition in § 157 StPO), da die 
+öffentliche Klage erst durch Einreichung der Anklageschrift an das Gericht mit dem A ntrag, 
+das Hauptverfahren zu eröffnen, erhoben wird. Jedoch wird, gewissermaßen in Vorwegnahme 
+für den Empfänger, bereits die Bezeichnung für den Beschuldigten gewählt, die dieser ab 
+Übersendung der Anklage zunächst trägt. Er ist daher im gesamten konkreten Anklagesatz auch 
+als „Angeschuldigter“ zu bezeichnen. Gibt es mehrere Beschuldigte, so sollten diese auch im 
+konkreten Anklagesatz jeweils unter Beifügung ihres Namens (und nicht durch „Nummern“) 
+bezeichnet werden. 
+ 
+Im konkreten Anklagesatz wird der Tatvorwurf, wie er sich aus dem abstrakten Anklagesatz 
+ergibt, in Form eines Lebenssachverhaltes dargestellt. Er beinhaltet dasjenige tatsächliche 
+Geschehen, das sich – nach vorläufiger Bewertung – unter Berücksichtigung d es gesamten 
+Akteninhaltes ereignet hat, soweit sich hieraus die objektiven und subjektiven Merkmale für 
+den Tatvorwurf ergeben. Die strikt und konsequent einzuhaltende Zeitform ist das Imperfekt. 
+ 
+Wie beim Abfassen des abstrakten Anklagesatzes, ist auch im konkreten Anklagesatz auf eine 
+verständliche Darstellungsweise zu achten. Der Beschuldigte soll – auch als juristischer Laie – 
+in der Lage sein, beim Lesen der Anklageschrift zu erkennen, welches konkrete Verhalten und 
+ggf. welche seiner Absichten zu der Anklage geführt haben. Zu bevorzugen ist grammatikalisch 
+die Darstellung des Geschehens im Aktiv. 
+ 
+Wesentlich für den konkreten Anklagesatz ist im Hinblick auf § 200 Abs. 1 StPO eine möglichst 
+genaue Bezeichnung von Tatort, Tatzeit und dem vorgeworfenen Verhalten, die keinerlei 
+Zweifel offenlässt. Ansonsten besteht die Gefahr des Strafklageverbrauchs oder einer 
+Verfahrenseinstellung wegen des Verfahrenshindernisses einer unwirksamen Anklage (§ 260 
+Abs. 3 StPO), der unbedingt von vornherein zu begegnen ist. Damit nichts vergessen wird, 
+sollten die wesentlichen Angaben möglichst bereits in den ersten Satz aufgenommen werden: 
+wer, wann, wo, (und ggf. auch schon) was? 
+ 
+Zu beachten ist zum einen, dass der konkrete Anklagesatz mit dem abstrakten Anklagesatz 
+
+===== SEITE 12 =====
+Seite 12 von 20 OStA Rebentisch - November 2023 
+ 
+sowie der §§-Kette in vollem Umfang korrespondieren muss. Zum anderen dürfen nur solche 
+Umstände benannt werden, die auch durch die nachfolgend angegebenen Beweismittel 
+beweisbar sind bzw. von der Anklageverfasserin oder dem Anklageverfasser als in der 
+Hauptverhandlung nachweisbar angesehen werden. Im Übrigen sollten sämtliche Ausführungen 
+kurz, präzise und sachlich sein. Was nicht  zwingend für die  Tatbeschreibung im  Sinne der 
+angeklagten Strafvorschriften bzw. die  Individualisierung benötigt wird, gehört nicht in den 
+konkreten Anklagesatz (z.B. die Farbe des gestohlenen Pkw). 
+ 
+Bei der Darstellung des konkreten Anklagesatzes ist größtmögliche Sorgfalt aufzuwenden, da 
+etwaige Unklarheiten oder Auslassungen in der Hauptverhandlung kaum noch zu „heilen“ sind 
+und Beschuldigte insoweit ggf. (unbeabsichtigt) begünstigen würden. 
+ 
+Auch wenn es von der Systematik her streng genommen nicht in den konkreten Anklagesatz 
+gehört, werden dort auch Angaben über Rechtsfolgen aufgenommen, welche der Allgemeine 
+Teil des StGB in bestimmten Fällen ausweist. Namentlich betrifft dies insbesondere Hinweise 
+auf die Maßregeln der Besserung und Sicherung (insbesondere relevant für die Fälle des 
+Entziehens einer Fahrerlaubnis gem. § 69 StGB) sowie der gesetzlich vorgesehenen 
+Einziehungsvorschriften (§§ 73 ff. StGB). Dies hat den Zweck, Beschuldigte bere its mit der 
+Anklageschrift darauf hinzuweisen, dass ihnen (abgesehen von der Strafe im eigentlichen 
+Sinne) auch noch weitere Sanktionen drohen, die der Gesetzgeber als Folgen bestimmter 
+Tatumstände vorgesehen hat. 
+ 
+Insoweit sollte ganz am Ende des konkreten Anklagesatzes – unmittelbar vor der Liste der 
+angewandten Vorschriften – für eine zu erwartende Entziehung der Fahrerlaubnis gemäß § 69 
+StGB (und die daraus resultierende Sperre für die Neuerteilung einer Fahrerlaubnis gemäß 
+§ 69a StGB, auf welche allerdings lediglich in der Liste der angewandten Vorschriften 
+hingewiesen wird) noch folgender Hinweis angebracht werden: 
+ 
+Der Angeschuldigte ist hiernach als ungeeignet zum Führen von Kraftfahrzeugen 
+anzusehen. 
+ 
+Entsprechendes ist für die Einziehung von Taterträgen i.S.d. §§  73-73e StGB von erheblicher 
+praktischer Relevanz, etwa in Fällen des Diebstahls oder Betruges, wo – je nach 
+Fallkonstellation – etwa folgende Formulierung gewählt werden sollte: 
+ 
+Die Angeschuldigte hat durch die ihr zur Last gelegten Taten einen Betrag in Höhe von 
+insgesamt 2.450,- Euro erlangt. In Höhe dieses Betrages ist die Einziehung des Wertes des 
+Erlangten anzuordnen. 
+ 
+bzw. 
+ 
+Der Angeschuldigte hat durch die ihm zur Last gelegte Tat eine Uhr der Marke Rolex im 
+Wert von 11.250, - Euro erlangt. In Höhe dieses Betrages ist die Einziehung des Wertes 
+des Erlangten anzuordnen. 
+ 
+Oder im Falle der Einziehung von Gegenständen als Tatmittel gem. § 74 StGB: 
+ 
+Das bei dem Angeschuldigten sichergestellte Messer unterliegt der Einziehung. 
+ 
+bzw. – etwa im Fall der Beschlagnahme von Erlösen aus illegalen Drogenverkäufen – als 
+Erlangtes i.S.d. § 73 StGB: 
+ 
+Der bei dem Angeschuldigten beschlagnahmte Geldbetrag in Höhe von 270,- Euro 
+unterliegt der Einziehung. 
+
+===== SEITE 13 =====
+Seite 13 von 20 OStA Rebentisch - November 2023 
+ 
+ 
+ 
+Zu beachten ist, dass in den vorgenannten Fällen die entsprechenden Normen aus dem 
+Allgemeinen Teil des StGB vollständig in die Liste der angewandten Vorschriften 
+aufgenommen werden (im Falle von § 73 StGB ggf. auch §§ 73c, 73d StGB). 
+ 
+ 
+V. LISTE DER ANGEWANDTEN VORSCHRIFTEN 
+ 
+Nach dem konkreten Anklagesatz werden in der sog. §§ -Kette sämtliche Normen aufgeführt, 
+aus denen sich die Strafbarkeit der Beschuldigten sowie die etwaigen Nebenfolgen ergeben. 
+Hinsichtlich der Frage, was in die §§-Kette aufzunehmen ist, sollte man sich vergegenwärtigen, 
+dass ein  wesentlicher Zweck der Auflistung darin besteht, den Beschuldigten mitzuteilen, 
+welche Folgen eine Verurteilung für sie haben kann, falls sich der Anklagevorwurf bestätigt. 
+Die Beschuldigten sollen also in die Lage versetzt werden , durch Nachlesen der zitierten 
+Vorschriften nicht nur zu erkennen, welches Strafmaß ihnen droht, sondern auch, dass ihnen 
+beispielsweise als „Nebenfolge“ die Fahrerlaubnis entzogen und eine Sperre für die 
+Neuerteilung einer Fahrerlaubnis verhängt, das von  ihnen zur Tatbegehung benutzte 
+Kraftfahrzeug als Tatwerkzeug entschädigungslos eingezogen werden oder die Einziehung des 
+Wertes des Tatertrages erfolgen kann. Auch auf solche (möglichen) Folgen einer Verurteilung 
+müssen sie sich vorbereiten und darauf ggf. ihre Verteidigung ausrichten können. 
+ 
+Die Auflistung wird mit dem Hinweis begonnen, ob es sich um ein Verbrechen oder Vergehen 
+(bzw. beides) handelt. Bei den Vorschriften sollten nicht nur die Paragraphen als solche, 
+sondern auch diejenigen Absätze, Sätze und ggf. Nummern bezeichnet werden, aus denen sich 
+der Anklagevorwurf und dessen Folgen ergeben. Resultiert die Strafbarkeit aus verschiedenen 
+Gesetzen, werden diese in jeweils einer neuen Zeile aufgeführt, wobei jedoch immer mit den 
+Normen aus dem StGB begonnen werden sollte, also etwa: 
+ 
+Verbrechen und Vergehen, strafbar nach §§ 223 Abs. 1, 224 Abs. 1 Nr. 2 und 5, 242 
+Abs. 1, 243 Abs. 1 Nr. 1, 249, 22, 23, 25 
+Abs. 2, 52, 53, 69, 69a, 73, 73c, 74 StGB 
+§ 21 Abs. 1 Nr. 1, Abs. 3 Nr. 1 StVG 
+§§ 1, 6 PflVG 
+ 
+ 
+Hinsichtlich der Reihenfolge der Auflistung der Vorschriften gibt es unterschiedliche 
+Möglichkeiten. Zu bevorzugen ist m.E. diejenige Variante, bei der mit dem Besonderen Teil 
+des StGB in aufsteigender numerischer Reihenfolge begonnen wird und anschließend  die 
+Vorschriften des Allgemeinen Teils in gleicher Weise folgen. Dies hat den Vorteil, dass  
+Vorschriften, die sich aufeinander beziehen, in einer logisch nachvollziehbaren Weise 
+aufgelistet sind, was insbesondere bei Antragsdelikten oder Qualifikationen augenfällig ist (z.B. 
+§§ 303, 303c; §§ 242, 248a StGB). Gibt es keine Konkurrenzverhältnisse, wird § 52 StGB nicht 
+zitiert; ansonsten sind immer auch die Konkurrenz -Vorschriften (§ 52 und / oder § 53 StGB) 
+aufzuführen. Egal für welche Möglichkeit der Reihenfolge man sich entscheidet, sollte 
+allerdings immer eine innerhalb der §§ -Kette nachvollziehbare Logik erkennbar sein, der es 
+widerspräche, die Vorschriften etwa an der Abfolge der Taten orientiert aufzulisten. 
+ 
+Unabhängig von der Zahl der Tatkomplexe sowie der Zahl der Beschuldigten wird jeweils nur 
+eine §§-Kette notiert. Eine Ausnahme bei mehreren Beschuldigten mag allenfalls dann gelten, 
+wenn einer von ihnen einen erheblich geringeren Anteil an Gesetzesverstößen aufweist. 
+ 
+Erfolgt eine Anklageerhebung gegen (zur Tatzeit) Jugendliche oder Heranwachsende, endet die 
+§§-Kette mit den §§ 1, 3 JGG bzw. §§ 1, 105 ff. JGG. 
+
+===== SEITE 14 =====
+Seite 14 von 20 OStA Rebentisch - November 2023 
+ 
+ 
+Zu beachten ist, dass auch die Vorschriften zu den Strafanträgen bzw. deren Ersetzung durch 
+das besondere öffentliche Interesse an der Strafverfolgung zu zitieren sind, falls es sich um 
+Antragsdelikte handelt. Dies erfolgt sowohl durch die Benennung des einschlägigen 
+Paragraphen des Besonderen Teils als auch durch Zitieren der Strafantragsvorschriften aus dem 
+Allgemeinen Teil des StGB (sofern Strafantrag gestellt ist), z.B. „Vergehen, strafbar nach 
+§§ 223 Abs. 1, 230, 77, 77b StGB“. 
+ 
+Wie bereits oben erwähnt, werden die Vorschriften zur verminderten Schuldfähigkeit nicht 
+genannt. Steht indes bereits bei Anklageerhebung mit hinreichender Wahrscheinlichkeit fest, 
+dass der Beschuldigte im Zustand der Schuldunfähigkeit  gehandelt hat und deshalb ein 
+Vollrausch gemäß § 323a StGB vorliegt, wird ein solcher auch angeklagt und insoweit allein 
+die entsprechende Strafvorschrift zitiert. Hierbei ist jedoch zu beachten, dass eine 
+Blutalkoholkonzentration von mehr als 3,0 o/oo nicht zwangsläufig zur Schuldunfähigkeit führt; 
+im Zweifelsfall sollte deshalb immer die  „normale“ Anklageform gewählt werden, die in der 
+Hauptverhandlung durch einen entsprechenden rechtlichen Hinweis (§ 265 StPO) ohne 
+Weiteres auf Vollrausch umgestellt werden kann. 
+ 
+Bei anderen Gesetzen als dem StGB ist darauf zu achten, dass diejenigen Vorschriften zitiert 
+werden, die zum Verständnis des einschlägigen Tatbestandes unabdingbar sind, d.h. in denen 
+die Merkmale der einschlägigen Vorschrift erläutert sind. Dies ist beisp ielsweise im 
+Waffengesetz oder dem Aufenthaltsgesetz relevant, wo teilweise ausdrücklich auf andere 
+Paragraphen Bezug genommen wird, die dann ebenfalls zitiert werden sollten. 
+ 
+Unmittelbar an die Auflistung der angewandten Vorschriften anschließend wird bei 
+Antragsdelikten – auch falls diese in Tateinheit mit Offizialdelikten angeklagt werden – auf die 
+Stellung des Strafantrags ausdrücklich hingewiesen, in der Regel durch die Formulierung 
+ 
+Strafantrag ist form- und fristgerecht gestellt. 
+ 
+Erfolgt die Anklageerhebung bei (relativen) Antragsdelikten allein aufgrund eines besonderen 
+öffentlichen Interesses an der Strafverfolgung, würde auch hierauf an gleicher Stelle 
+entsprechend hingewiesen werden. 
+ 
+ 
+VI. BEWEISMITTEL 
+ 
+Die Beweismittel werden immer nach der §§ -Kette und vor den ggf. erforderlichen 
+Ausführungen zu den Ermittlungen (vgl. oben zu V. und unten zu VII.) aufgeführt. Sie sind für 
+jede Anklage zwingend. Aufzunehmen ist alles, was zum Zeitpunkt der Anklageerhebung 
+erforderlich erscheint, um den Tatnachweis führen zu können. Dabei sollen nicht nur belastende 
+Beweismittel benannt werden, sondern auch entlastende, damit sich das Gericht einen 
+umfassenden Überblick über die Beweissituation verschaffen kann (wobei zwangsläufig aus 
+Sicht der Anklagebehörde die entlastenden Momente als widerlegbar erscheinen). 
+ 
+Inwieweit die aufgeführten Beweismittel tatsächlich im Prozess Verwendung finden, obliegt 
+zwar dem Gericht. Allerdings ist es gerade in umfangreichen Verfahren unabdingbar, die 
+Beweismittel sorgfältig auszuwählen, um insoweit Sorge dafür zu tragen, dass be i der 
+Hauptverhandlung alles berücksichtigt werden kann, was zur Aufklärung des angeklagten 
+Sachverhalts beiträgt. Hierzu zählt in gleicher Weise die Vernachlässigung solcher 
+„Beweismittel“, die ohne Relevanz sind (z.B. Zeugen, die zum Tatgeschehen bzw. de n 
+Tatumständen keinerlei Angaben machen können, was sich häufig erst aus deren Aussage im 
+Ermittlungsverfahren ergibt ). Handelt es sich hierbei allerdings um Beweismittel, welche 
+Beschuldigte ausdrücklich benannt haben, sollten auch diese Beweismittel angegeben werden. 
+
+===== SEITE 15 =====
+Seite 15 von 20 OStA Rebentisch - November 2023 
+ 
+ 
+Die Beweismittel werden nacheinander mit römischen Zahlen bezeichnet, die Einleitung erfolgt 
+mit dem Wort 
+ 
+Beweismittel: 
+ 
+Die zwingend erforderlichen Blattangaben a m linken Seitenrand sollten sich jeweils auf die  
+kompletten Fundstellen beziehen – bei Zeugen, die mehrere Vernehmungen hatten, also auf 
+sämtliche Hinweise zu dem, was sie (bislang) zu der Sache ausgesagt haben, unabhängig davon, 
+ob hierbei Widersprüche auftreten. 
+ 
+Bei Auflistung der Beweismittel erfolgt grundsätzlich keine Unterteilung in Tatkomplexe. Eine 
+Ausnahme hiervon sollte zwecks Unterstützung des Gerichts für die  Vorbereitung der 
+Hauptverhandlung allerdings bei sehr umfangreichen Beweismitteln im Falle zahlreicher 
+Tatkomplexe gemacht werden. 
+ 
+An erster Stelle stehen immer die Angaben der Beschuldigten  (insoweit bezeichnet als 
+„Einlassung“), vorausgesetzt, dass sich diese während des Ermittlungsverfahrens in ihrer 
+prozessualen Funktion als Beschuldigte mündlich oder schriftlich geäußert haben. Also 
+ 
+I. Einlassung des Angeschuldigten 
+ 
+Soweit Beschuldigte im Rahmen ihrer verantwortlichen Vernehmung von dem Recht Gebrauch 
+machen, sich nicht zum Tatvorwurf zu äußern und gegenüber der Polizei  nur ihre Personalien 
+nennen, würde es demzufolge heißen: „Einlassung des Angeschuldigten (nur zur Person)“. 
+ 
+Soweit eine sog. „geständige Einlassung“ des Beschuldigten vorliegt, könnte zwar auf weitere 
+Beweismittel verzichtet werden, falls allein das mutmaßliche (glaubhafte) Geständnis vor 
+Gericht dessen Überführung erwarten lässt. Allerdings werden auch in einem solchen Fall die 
+weiteren Beweismittel regelmäßig bezeichnet, zumal nicht zu vermeiden ist, dass ein zunächst 
+geständiger Beschuldigter später eine andere Verteidigungsstrategie wählt und der Prozess 
+ohne die Verfügbarkeit weiterer Beweismittel (vorerst) „platzen“ würde. Hat ein Beschuldigter 
+das (zwingend erforderliche) Angebot des rechtlichen Gehörs demgegenüber nicht 
+wahrgenommen, ist sogleich zu dem nächsten Beweismittel überzugehen. 
+ 
+An zweiter Stelle folgen diejenigen Beweismittel, die fast immer vorhanden sind, nämlich 
+ 
+II. Zeugen: 
+ 
+Hinsichtlich der Zeuginnen und Zeugen ist nicht deren vollständige ladungsfähige (Privat -) 
+Anschrift zu benennen, sondern die Angaben sind auf Namen und Vornamen sowie deren 
+Wohnort (z.B.: „Berlin“) zu beschränken. 
+ 
+Soweit Zeuginnen bzw. Zeugen in ihrer Eigenschaft als Amtsträger:innen Kenntnis vom 
+Sachverhalt erlangt haben  – insbesondere Polizeibeamtinnen und Polizeibeamte , aber auch 
+Mitarbeiter:innen von Bezirksämtern, dem JobCenter, dem Landesamt für Bürger - und 
+Ordnungsangelegenheiten (LABO) o.ä. –, wird neben dem Namen der Zeuginnen bzw. Zeugen 
+zugleich deren Dienststelle angegeben. 
+ 
+Stehen mehrere Zeugen für einen Lebenssachverhalt zur Verfügung, den alle in 
+übereinstimmender Weise erlebt haben, kann ggf. eine Beschränkung auf die wesentlichen 
+Zeugen erfolgen; im Zweifelsfall sollten jedoch eher mehr als weniger Zeugen benannt werden, 
+zumal sich oftmals erst aus verschiedenen Darstellungen eines identischen Lebenssachverhaltes 
+ein aussagekräftiges Bild von dem tatsächlichen Geschehen ergibt. Allerdings obliegt es allein  
+
+===== SEITE 16 =====
+Seite 16 von 20 OStA Rebentisch - November 2023 
+ 
+der richterlichen Entscheidung, welche Zeuginnen und Zeugen zur Hauptverhandlung geladen 
+werden, sodass der Auflistung eine lediglich vorschlagende Bedeutung zukommt. 
+ 
+Die einzelnen Zeuginnen und Zeugen werden nacheinander unter Verwendung arabischer 
+Zahlen aufgelistet, und zwar vorzugsweise in der Reihenfolge, wie sie im Prozess benötigt 
+werden. Ein Hinweis darauf, zu welcher der angeklagten Taten diese Angaben machen können, 
+erfolgt in der Regel nicht (ein solcher Hinweis bietet sich indes bei sehr umfangreichen und 
+unübersichtlichen Verfahren durchaus an). 
+ 
+Auch eine Ladung von im Ausland lebenden Zeugen ist möglich. Da diese aber grundsätzlich 
+im Wege der (mitunter langwierigen) Rechtshilfe erfolgen muss, sollten solche Zeugen nur 
+dann benannt werden, wenn sie für die Hauptverhandlung unverzichtbar sind. 
+ 
+Sofern es sich bei Zeugen um sog. sachverständige Zeugen handelt, werden diese als Zeugen, 
+und nicht als Sachverständige benannt. 
+ 
+Ist für die Hauptverhandlung ein Sachverständigengutachten erforderlich und liegen bereits 
+Äußerungen dieser Sachverständigen im Ermittlungsverfahren vor, folgt als nächstes 
+Beweismittel 
+ 
+III. Sachverständige: 
+ 
+Zu beachten ist hierbei zunächst, dass zwar in den Akten oftmals Sachverständige benannt sind, 
+die für das Verfahren bereits entsprechende schriftliche Gutachten erstattet haben. Deren 
+Anwesenheit in der Hauptverhandlung ist jedoch wegen der Möglichkeit zur Verlesung von 
+Urkunden gemäß § 256 StPO unter Umständen entbehrlich, sodass die Verfass er:innen der 
+Gutachten in solchen Fällen weder als Sachverständige noch als Zeugen ben ötigt werden. 
+Beispiele hierfür sind etwa die Verfasser:innen von Feststellungen zur 
+Blutalkoholkonzentration oder eines waffenrechtlichen Gutachtens. Beinhaltet das Gutachten 
+demgegenüber medizinische Ausführungen, die sich detailliert mit der Person de s 
+Beschuldigten auseinandersetzen, w erden Gutachter:innen als Sachverständige benannt, 
+insbesondere wenn das Gutachten aufgrund des anhängigen Verfahrens veranlasst wurde.  
+ 
+Soweit in Fällen mutmaßlicher Schuldunfähigkeit bzw. erheblich verminderter Schuldfähigkeit 
+gem. §§ 20, 21 StGB eine medizinische Sachverständige für die Hauptverhandlung benötigt 
+wird, erfolgt eine Benennung in der Anklageschrift nur, falls diese bereits vor Anklageerhebung 
+– in der Regel durch ein schriftliches psychiatrisches Gutachten – tätig geworden ist. 
+ 
+IV. Urkunden: 
+ 
+Als nächstes Beweismittel folgen – selbstverständlich nur, soweit vorhanden – die Urkunden. 
+Auch hier erfolgt eine Auflistung mit arabischen Zahlen, wobei die Relevanz einer Urkunde im 
+Strafverfahren aus ihrer Verlesbarkeit resultiert. Unter Urkunden fallen nicht nur solche im 
+klassischen Sinne, wie etwa ein Reisepass oder ein Vertrag, sondern auch die oben unter III. 
+genannten Gutachten, soweit diese verlesbar sind. Es ist grundsätzl ich nicht erforderlich, dass 
+Urkunden im Original vorliegen; in einem solchen Fall bietet es sich jedoch an, durch einen 
+entsprechenden Zusatz bei dem Beweismittel – (in Kopie) – darauf hinzuweisen. Weitere 
+Urkunden sind beispielsweise auch Gerichtsurteile  oder Schriftstücke. Bei Letzteren ist zu 
+beachten, dass diese unter Umständen nicht als „Urkunde“ relevant sind, sondern sich aus ihnen 
+nur der Hinweis auf ein vorrangiges Beweismittel ergibt, so etwa das Schreiben einer Zeugin 
+an die Polizei, die dann – anstatt des Schriftstücks – als Zeugin aufgeführt würde. Hinsichtlich 
+der Frage nach der Verlesbarkeit von Schriftstücken, bei denen es sich nicht um „Urkunden“ 
+im strafprozessualen Sinne handelt, ist § 256 StPO zu beachten.  
+ 
+
+===== SEITE 17 =====
+Seite 17 von 20 OStA Rebentisch - November 2023 
+ 
+Liegt ein Blutalkoholprotokoll vor, so ist bei den Beweismitteln nicht nur dieses, sondern immer 
+auch der ärztliche Bericht zur Blutentnahme unter den Urkunden aufzulisten. 
+ 
+Bei Bezeichnung der Urkunden können ggf. auch schlagwortartige Zusätze zum Inhalt der 
+Urkunde gemacht werden, insbesondere bei kurzen Anklagen, um die Relevanz der Urkunde 
+auf einen Blick erkennen zu können, z.B. 
+ 
+1. Reisepass Nr. 123456789 des Angeschuldigten (in Kopie) 
+ 
+2. Kontoauszug für das Konto Nr. 123456 bei der A-Bank vom 03.08.2023 
+ 
+3. BAK-Gutachten des LKA KTI, Nr. 245/23 vom 02.05.2023 
+(BAK am 30.04.2023 um 23:55 Uhr: 2,74 o/oo) 
+ 
+4. ärztlicher Bericht zur Blutentnahme vom 30.04.2023 
+ 
+ 
+Nach den Urkunden folgen als weitere (mögliche) Beweismittel 
+ 
+V.  Augenscheinsobjekte: 
+ 
+Darunter sind solche Beweismittel zu verstehen, die entweder in den Akten eingesehen werden 
+können (etwa Lichtbilder oder Skizzen) oder deren Asservierung für das Verfahren erfolgt ist 
+und die – nach vom Gericht veranlasster Herbeischaffung aus der Asservatenkammer – 
+während der Hauptverhandlung in Augenschein genommen werden können. Hierzu müssen die 
+Beweisgegenstände allerdings immer auch tatsächlich verfügbar sein. 
+ 
+Unter die Begrifflichkeit der  Augenscheinsobjekte fallen auch Tatwerkzeuge, die 
+gleichermaßen als „Überführungsstücke“ bezeichnet werden können, z.B. 
+ 
+1. ein Schraubendreher 
+ 
+2. ein Navigationsgerät Marke ABC, Geräte-Nr. 7654321 
+ 
+ 
+Zuletzt folgen 
+ 
+VI. Beiakten bzw. Beistücke: 
+ 
+wobei als Beiakten nur Akten der Staatsanwaltschaft oder Gerichtsakten bezeichnet werden 
+sollten, während ein Band mit Ablichtungen aus derartigen Akten ein „Beistück“ ist. Weitere 
+Beispiele für „Beistücke“ (korrekt wäre die Bezeichnung „Sonderbände“) sind 
+Beweismittelbände oder auch einfach abgeheftete Unterlagen, die zuvor bei der Beschuldigten 
+beschlagnahmt worden sein können, Auszüge aus Akten des Jobcenters, Ausländerakten etc. 
+ 
+Insoweit orientieren Sie sich bevorzugt an der konkreten Bezeichnung der Beistücke bzw. 
+Sonderbände oder -hefte auf dem jeweiligen Aktendeckel. 
+ 
+ 
+In Examens- und Übungsklausuren ist im Falle der Anklageerhebung die Niederschrift 
+der Beweismittelaufstellung in der Regel erlassen. Achten Sie aber immer auf den 
+konkreten Bearbeitungsvermerk. 
+ 
+
+===== SEITE 18 =====
+Seite 18 von 20 OStA Rebentisch - November 2023 
+ 
+ 
+VII. WESENTLICHES ERMITTLUNGSERGEBNIS 
+ 
+Nach den Beweismitteln folgt das wesentliche Ergebnis der Ermittlungen  (vgl. § 200 Abs. 2 
+StPO), von dem (ausschließlich) im Fall einer Strafrichteranklage abgesehen werden kann. In 
+der Praxis wird von der normierten Ausnahme jedenfalls in den jenigen Fällen regelmäßig 
+Gebrauch gemacht, bei denen der Sachverhalt übersichtlich ist. 
+ 
+Demgegenüber sollte immer dann ein 
+ 
+Wesentliches Ergebnis der Ermittlungen: 
+ 
+geschrieben werden, wenn einander widersprechende Angaben vorliegen oder aus anderen 
+Gründen der vorläufigen Beweiswürdigung und ggf. dem Verfahren als solchem eine besondere 
+Bedeutung zukommt, andererseits aber auch, wenn die Akten für eine Strafrichteranklage 
+ungewöhnlich umfangreich und unübersichtlich sind. Im Zweifel bietet es sich hierbei an, zur 
+Vermeidung unnötiger Arbeit die Ausbilderin bzw. den Ausbilder zu fragen, ob ein 
+„Wesentliches Ergebnis der Ermittlungen“ erwünscht ist. 
+ 
+Das sog. „WE“ hat weder den Zweck, den konkreten Anklagesatz zu wiederholen, noch die 
+Aufgabe, den Gang der Ermittlungen chronologisch darzustellen. Es soll vielmehr dem Gericht 
+aufzeigen, welche tatsächlichen und ggf. auch rechtlichen Umstände (zumal bei komplexen 
+Hintergründen aus dem Zivil - oder Wirtschaftsrecht) für das vorliegende Verfahren relevant 
+sind und worauf sich (zum Zeitpunkt der Anklageverfassung) die Überzeugung stützt, dass der 
+Beschuldigte – nach Beseitigung etwaiger bei Anklageerhebung noch bestehender Zweifel – in 
+der Hauptverhandlung der angeklagten Tat überführt werden wird. Gleichzeitig kann sich dieser 
+ein Bild darüber machen, mit welcher Beweislage er voraussichtlich in der Hauptverhandlung 
+konfrontiert werden wird. 
+ 
+Sofern ein einfacher Sachverhalt zum Schöffengericht oder zur Strafkammer angeklagt wird 
+und mithin ein "WE" zwingend geboten ist, kann dieses auf das Notwendigste beschränkt 
+werden, wobei wenige Sätze ggf. genügen mögen.  
+ 
+Konkretisiert werden sollte jedoch alles, was für die rechtliche oder tatsächliche Beurteilung 
+sowie im Hinblick auf das Strafmaß von Relevanz sein dürfte. Hierzu zählen ausführliche 
+Angaben zu den Vorstrafen ebenso wie Ausführungen zu einer zivilrechtlichen Einordnung von 
+Eigentumsverhältnissen, es sollte erläutert werden, warum eine gefährliche Körperverletzung 
+zur Strafkammer oder andererseits ein schwerer Raub zum Schöffengericht angeklagt wird. 
+ 
+Beim Abfassen des „WE“ besteht ein derart großer Gestaltungsspielraum, dass hier von 
+allgemeinen Ausführungen abgesehen werden soll. Als Standard allerdings sollten zumindest 
+zwei „Rubriken“ angesehen werden, die nahezu ausnahmslos angeführt werden, nämlich 
+ 
+I. Zur Person: 
+ 
+Hierzu zählen Beruf, Familienstand, Zahl der Kinder und Vorstrafen, ggf. auch ein etwaiger 
+Ausländerstatus. Sofern sich aus dem Bundeszentralregister Vorstrafen ergeben, werden diese 
+in der Regel vollständig und chronologisch in Form der Eintragungen aufgelistet. Möglich sind 
+notfalls auch Zusammenfassungen, wie etwa „Der Angeschuldigte ist seit 20 06 vielfach 
+strafrechtlich in Erscheinung getreten, darunter in 12 Fällen wegen Betruges. Zuletzt 
+verurteilte ihn das Amtsgericht Tiergarten am 1. Juni 202 1 – 241 Ds 564/ 21 - wegen 
+Diebstahls zu einer Freiheitsstrafe von 2 Jahren, die der Angeschuldigte am 5. September 
+2023 verbüßt hatte.“ 
+ 
+
+===== SEITE 19 =====
+Seite 19 von 20 OStA Rebentisch - November 2023 
+ 
+ 
+II. Zur Sache: 
+ 
+Unter diese Rubrik fallen sämtliche weiteren Ausführungen, insbesondere auch Hinweise auf 
+vorläufige Einstellungen bzw. Beschränkungen gem. §§ 154, 154a StPO. Soweit derartige – 
+teils zwingend erforderliche, vgl. etwa Nr. 110 Abs. 2 e) RiStBV – Hinweise de r alleinige 
+Grund für die Abfassung eines „WE“ wären, kann stattdessen die Angabe, was zwar ebenfalls 
+Gegenstand des Verfahrens war, nicht aber in die Anklage aufgenommen wurde, in Kurzform 
+zwischen §§-Kette und die Beweismittel gesetzt werden. 
+ 
+Da im „Wesentlichen Ergebnis“ auch der Tatvorwurf als solcher nicht unerwähnt bleiben soll, 
+dieser aber bereits konkretisiert ist, kann etwa folgende Formulierung verwandt werden: 
+ 
+Zur Vermeidung von Wiederholungen wird in vollem Umfang auf den konkreten 
+Anklagesatz Bezug genommen. Darüber hinaus ist Folgendes auszuführen: 
+ 
+Das „WE“ endet in der Regel mit folgender Standardformulierung: 
+ 
+Der Angeschuldigte wird aufgrund der angegebenen Beweismittel (insbesondere der ...) 
+überführt werden. 
+ 
+Nach dem wesentlichen Ergebnis der Ermittlungen, dessen Darstellung in den Examens- und 
+Übungsklausuren nicht erforderlich  ist (vgl. insoweit aber immer den dortigen 
+Bearbeitungsvermerk), folgen die Anträge für das Zwischenverfahren. 
+ 
+ 
+VIII. ANTRÄGE 
+ 
+Die abschließenden Anträge, mindestens darunter der Antrag, wo das Verfahren eröffnet werden 
+soll, werden mit folgender Standardformulierung – die nicht abgeändert werden sollte (vgl. 
+insoweit den Gesetzeswortlaut des § 207 Abs. 1 StPO) – eingeleitet: 
+ 
+Es wird beantragt, 
+ 
+das Hauptverfahren zu eröffnen und die Anklage zur 
+Hauptverhandlung vor dem Amtsgericht Tiergarten 
+– Schöffengericht – zuzulassen. 
+ 
+Der Antrag als solcher wird hierbei eingerückt und enthält die Benennung desjenigen Gerichts, 
+das für die Hauptverhandlung zuständig ist. Wird ausnahmsweise (zugleich) ein Erwachsener 
+vor einem Jugendgericht angeklagt, sollte der Antrag wegen § 103 JGG entsprechend ergänzt 
+werden (... und zwar gemäß § 103 JGG auch bezüglich des Angeschuldigten Müller ). In 
+diesem Fall gehört auch § 103 JGG in die §§-Kette. 
+ 
+Sofern sich ein Beschuldigter in Untersuchungshaft für das vorliegende Verfahren befindet, 
+wird zudem ein Antrag auf Haftfortdauer gestellt (vgl. § 207 Abs. 4 StPO). Bei einer inhaltlich 
+vom Haftbefehl abweichenden Anklage, die beispielsweise zusätzliche Tatvorwürfe beinhaltet, 
+würde bei fortdauernder Untersuchungshaft – vorausgesetzt es besteht auch hinsichtlich der 
+weiteren Vorwürfe ein dringender Tatverdacht – etwa beantragt werden, 
+ 
+2. den Haftbefehl nach Maßgabe des An- 
+klagesatzes abzuändern und Haftfort - 
+dauer anzuordnen. 
+ 
+
+===== SEITE 20 =====
+Seite 20 von 20 OStA Rebentisch - November 2023 
+ 
+ 
+Weitere Anträge werden – allerdings grundsätzlich nicht in Examens- und Übungsklausuren 
+– häufig auch im Hinblick auf die Vorbereitung der Hauptverhandlung gestellt, wie etwa eine 
+Verteidigerbestellung gemäß §§ 140, 141 StPO (soweit diese ausnahmsweise nicht bereits vor 
+der Anklageerhebung erfolgt ist) oder ein Antrag auf Zuziehung eines Dolmetschers gemäß 
+§ 185 GVG, wobei insoweit in der Regel auch die entsprechenden Normen benannt werden. Beispiele 
+für weitere Anträge sind etwa vorläufige Sicherstellungsmaßnahmen  und die Einbeziehung von 
+Drittbegünstigten / Einziehungsbeteiligten, niemals jedoch Anträge für eine abschließende 
+Entscheidung, die erst am Schluss einer Hauptverhandlung gestellt werden und daher dem Plädoyer 
+vorbehalten sind. 
+ 
+ 
+Die Anklageschrift endet mit dem Namen der unterzeichnenden Staatsanwältin. bzw. des 
+Staatsanwalts. 

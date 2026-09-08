@@ -1,0 +1,2891 @@
+===== SEITE 1 =====
+Rechtsanwalt Konstantin Weinholz 
+Die zivilrechtliche Anwaltsklausur 
+ 
+ 
+Inhaltsübersicht:  
+ 
+I. Vorbemerkung ......................................................................................... Seite      1 
+II. Sprachliche Hinweise ............................................................................... Seite      2 
+III. Gemeinsamkeiten der verschiedenen Klausurtypen ................................. Seite      3 
+IV. Die Behandlung des Tatsachenstoffs ……….…………………………………………….. Seite      5 
+V. Die Klausurbearbeitung………………………………………………………………………….. Seite      8 
+VI. Besonderheiten des Beweisrechts in der Anwaltsklausur ......................... Seite    30 
+VII. Beteiligung Dritter am Verfahren ............................................................. Seite    52 
+VIII. Kautelarklausuren.................................................................................... Seite    63 
+IX. Rechtsbehelfe in der Zwangsvollstreckung………………………………………………. Seite    67 
+ 
+ 
+ 
+I. Vorbemerkung1   
+ 
+Dieses Skript sowie sämtliche sonstigen durch das Kammergericht zur Verfügung gestellten Skripte 
+werden von erfahrenen Leiterinnen und Leitern von Arbeitsgemeinschaften erstellt. In ihnen werden 
+Fragen der Klausurbearbeitung behandelt und mögliche Lösungen aufgezeigt. Die Skripte bieten 
+indes keine abschließende Aufbereitung des Prüfungsstoffes und möglicher Lösungswege bzw. 
+Darstellungsformen für die Klausuren. Ziel ist es vielmehr, Referendarinnen und Referendaren 
+bestimmte Strukturen und Formulierungen an die Hand zu geben, die das Schreiben der 
+Examensklausuren unterstützen. Die hier vorgeschlagenen  Bearbeitungs- und Lösungswege sind 
+vertretbar und liegen innerhalb des Antwortspielraums der Klausurschreibenden. 
+ 
+Es ist grundsätzlich zu unterscheiden zwischen den Anwaltsklausuren, deren praktische Leistung die 
+Fertigung eines Schriftsatzes darstellt, und (seit 2014) den Kautelarklausuren, deren Schwerpunkte 
+ein außergerichtliches Vorgehen, eine schriftliche Beratungsleistung  oder die Vertragsgestaltung 
+(einschließlich einseitiger Rechtsgeschäfte) sind. Eine Kombination der verschiedenen Klausurtypen 
+in inhaltlicher Hinsicht ist möglich.  
+ 
+1 Soweit in diesem Skript das generische Maskulinum verwendet wird, dient dies lediglich der besseren 
+Lesbarkeit. Sämtliche (Personen-)Bezeichnungen beziehen sich – sofern nicht anders kenntlich gemacht – auf 
+alle Geschlechteridentitäten.  
+
+===== SEITE 2 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 2 
+Bei den Klausuren mit gerichtlichem Bezug sind Klausuren nach der einzunehmenden Perspektive 
+zu unterscheiden ; zum einen nach  Klausuren aus Klägersicht (Angriffsklausur) oder nach 
+Beklagtensicht (Verteidigungsklausur). Die Sichtweise bestimmt  das notwendige Vorgehen und 
+auch den Aufbau der Klausur. Denkbar ist eine Kombination beider Sichtweisen, wenn ein 
+Verteidigungsschriftsatz kombiniert mit einer Widerklage nach der Aktenlage geboten erscheint.  
+Generell ist nach der Konflikt - und Verfahrenslage zu unterscheiden: Ist noch kein Klageverfahren 
+anhängig, stellt sich die Frage nach einem außergerichtlichen oder gerichtlichen Vorgehen. Gibt es 
+bereits eine prozessuale Ausgangslage, ist in der Regel der Aktionsradius vorgegeben, der jedoch 
+unter Umständen erweiterbar ist.  
+ 
+ 
+II. Sprachliche Hinweise  
+ 
+Das Gesamtbild der Klausur wird durch sprachliche Feinheiten verbessert. Manche sprachliche 
+Unsitte schleift sich im Laufe der Zeit ein und ist – wie viele schlechte Angewohnheiten – sehr schwer 
+wieder loszuwerden. Die Lesbarkeit der Ausführungen in der Klausur kann durch Beachtung der 
+nachstehenden kurzen Hinweise unterstützt werden.  
+ 
+1. Mehr Verben an Stelle von Substantiven und Adverbien 
+ 
+Benutzen Sie nach Möglichkeit direkt das betreffende Verb, um den gewünschten Inhalt zu formulieren. 
+Beispiel: Statt etwas „einer Prüfung zu unterziehen“ könnte es schlicht heißen „etwas prüfen“.  
+ 
+2. Hinweise für die sprachliche Gestaltung:  
+ 
+Verwenden Sie nach Möglichkeit kurze Sätze und überprüfen Sie Wortwahl und Satzbau. Je weniger 
+verschachtelt der Text gestaltet wird, desto besser lesbar ist er.  
+ 
+In einem Satz sollte nur ein Gedanke untergebracht werde n. Der Kerngedanke sollte am Satzanfang 
+stehen.  
+ 
+Häufig ist Folgendes zu lesen: „Es wird darauf hingewiesen, dass …“ . Versuchen Sie stattdessen, ihre 
+Formulierungen im Aktiv niederzuschreiben und vermeiden Sie das Passiv: „Ich weise darauf hin, dass…“.  
+ 
+
+===== SEITE 3 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 3 
+Bei dieser Gelegenheit folgender Hinweis: Schreiben Sie in der ersten Person Singular. D.h. auch wenn die 
+Ausbildungskanzlei in Ihrem Aktenstück auf mehrere Sozien verweisen kann, verfallen Sie lieber nicht in 
+den „Pluralis majestatis“.  
+ 
+Wenig sinnvolle Verknüpfungen und Verlegenheitsausdrücke wie „beziehungsweise“ sollten Sie 
+vermeiden.  
+ 
+Geschlechtsneutrale Formulierungen sind wünschenswert. Im Vordergrund steht aber immer die 
+Verständlichkeit des Textes. Es bietet sich also durchaus an, Bezeichnungen wie „Studierende“, 
+„Beschäftigte“ etc. zu verwenden und auf eine gendergerechte Sprache zu achten. Dies sollte aber nicht zu 
+Lasten des Zeitmanagements in der Klausur gehen.  
+Wenn es Ihnen schwerfällt, geschlechtsneutral zu formulieren, bleiben Sie bei Ihrer gewohnten 
+Schreibweise und verwenden Sie, ähnlich wie der Autor des Skripts, einen „Disclaimer“.  
+ 
+ 
+III. Gemeinsamkeiten der verschiedenen Klausurtypen  
+ 
+Allen Klausurtypen ist gemeinsam, dass sich aus einem Vermerk mit Inhalten des 
+Mandantengespräches sowie einem Aktenauszug, ggf. mit Urkunden und Korrespondenz eine 
+Fragestellung oder ein Anliegen des Mandanten ergeben, das herauszuarbeiten und zu prüfen ist.  
+Der jeweiligen Klausursituation ist immanent, dass ihr eine bestimmte Vorgehensweise und ein 
+bestimmter Aufbau zu folgen haben. Der Bearbeitervermerk gibt die Richtung der Prüfung vor. Hier 
+haben wir es in der Regel mit folgenden Formulierungen zu tun:  
+ 
+1. Sie sind Frau Rechtsanwältin/ Herrn Rechtsanwalt (…) als Referendar/ -in zur Ausbildung 
+zugewiesen. Sie/er bittet Sie, die Aufträge gemäß Vermerk vom (…) zu erledigen.  
+ 
+Alternativ:  
+ 
+1. Beurteilen Sie in einem Gutachten/Vermerk die Rechtslage und erläutern Sie das zur 
+Wahrnehmung der Interessen der Mandantin/ des Mandanten erforderliche Vorgehen. Hierbei 
+sind alle im Sachverhalt angesprochenen Probleme -ggf. hilfsgutachterlich- umfassend zu prüfen.  
+ 
+2. Entwerfen Sie den nach dem Ergebnis Ihres Gutachtens/Vermerkes erforderlichen Schriftsatz an 
+das Gericht, oder,  falls ein solcher nicht angezeigt ist, ein entsprechendes Mandantenschreiben. 
+Soweit ein gerichtliches Vorgehen -auch nur teilweise - für erfolgversprechend gehalten und der 
+Schriftsatz entworfen wird, ist ein gesondertes Schreiben an die Mandantschaft entbehrlich. Nur 
+
+===== SEITE 4 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 4 
+wenn ein gerichtliches Vorgehen insgesamt nicht für erfolgversprechend gehalten wird, ist dies in 
+einem Schreiben an die Mandantschaft mit Begründung darzulegen.   
+ 
+Alternativ:  
+ 
+2. Entwerfen Sie das nach dem Ergebnis Ihres Gutachtens/Vermerkes erforderliche außergerichtliche, 
+oder, falls ein solche s nicht angezeigt ist, ein entsprechendes Mandantenschreiben.  Soweit ein 
+außergerichtliches Vorgehen -auch nur teilweise - für erfolgversprechend gehalten und ein 
+Schreiben entworfen wird, ist ein gesondertes Schreiben an die Mandantschaft entbehrlich. Nur 
+wenn ein außergerichtliches Vorgehen insgesamt nicht für erfolgversprechend gehalten wird, ist 
+dies in einem Schreiben an die Mandantschaft mit Begründung darzulegen. 
+ 
+3. Sollte eine Frage für beweiserheblich gehalten werden, ist eine Prognose zur Beweislage zu 
+erstellen.  
+ 
+4. Eine Sachverhaltsdarstellung ist nicht erforderlich.  
+ 
+5. Soweit im Sachverhalt auf Anlagen Bezug genommen wird, von deren Abdruck abgesehen wurde, 
+ist zu unterstellen, dass sie den genannten Inhalt haben.  
+ 
+6. Ordnungsgemäße Vollmachten sind erteilt.  Die Formalien  (Ladungen, Zustellungen,  
+Rechtsmittelbelehrungen etc.) sind in Ordnung , soweit sich aus dem Sachverhalt nichts anderes 
+ergibt.  
+ 
+7. xxx liegt im Bezirk des Amtsgerichts (…), des Landgerichts (…) und des Oberlandesgerichts (…).  
+ 
+8. Es ist davon auszugehen, dass 
+a.) die Mandantin/ der Mandant oder Dritte keine weiteren Angaben zum Sachverhalt machen 
+können   
+ 
+und 
+ 
+b.) von der Möglichkeit des § 44 BRAO kein Gebrauch gemacht werden kann. 
+ 
+9. Der Bearbeitung ist der zur Zeit der Prüfung geltende Rechtszustand zugrunde zu legen. 
+Übergangsvorschriften sind nicht zu prüfen.  
+ 
+10. Zugelassene Hilfsmittel sind: (...) 
+
+===== SEITE 5 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 5 
+ 
+Im Bearbeitervermerk müssen nicht alle der vorstehenden Punkte  ausdrücklich genannt sein , um 
+zum Bearbeitungsumfang zu gehören:  
+ 
+• Es wird auch ohne ausdrücklichen Hinweis zu erwarten sein, dass sämtliche rechtlichen 
+Fragen erörtert werden, es sei denn, der Bearbeitungsumfang wäre insoweit eingeschränkt.  
+• Erörterungen zur Beweisprognose sind stets angezeigt . Diese beinhalten Ausführungen zur 
+Beweislast, den zur Verfügung stehenden Beweismitteln sowie deren Gewichtung.  
+• Enthält der Bearbeitervermerk einen Hinweis auf die örtliche Zuständigkeit, wäre es in jedem 
+Falle fahrlässig, diese nicht zu prüfen. Aber auch ohne einen solchen Hinweis gehört die 
+Untersuchung der Zuständigkeit zum Prüfungsumfang.  
+• Der Hinweis auf die Entbehrlichkeit der Sachverhaltsdarstellung  (im Bereich des GJPA 
+Berlin/Brandenburg unüblich) betrifft nicht die Darstellung der Tatsachen im Schriftsatz!  
+ 
+IV. Die Behandlung des Tatsachenstoffs und die Anforderungen an die Klausurleistung  
+ 
+Die der Erfassung des Bearbeitervermerks folgende  Leistung ist die sorgfältige Erfassung des 
+Tatsachenstoffes, insbesondere im Hinblick auf dessen Relevanz. Vo n Klausurbearbeiterinnen und 
+Klausurbearbeitern wird erwartet, dass sie erkennen, welcher Teil der mitgeteilten Tatsachen für die 
+Zielvorstellung der Mandantschaft entscheidend sein wird. Die Sachverhaltsarbeit ist die essentielle 
+Grundlage für eine erfolgreiche Klausurleistung.  
+ 
+Nach der Synthese des Tatsachenstoffes folgen alle Klausurtypen einem grundsätzlichen Schema, 
+wobei allerdings –je nach Fragestellung und Ausgangssituation - die Reihenfolge z.B. innerhalb des 
+Gutachtens variieren kann. Vereinfacht kann dieses Schema wie folgt dargestellt werden:  
+ 
+1. Mandantenbegehren  
+2. Gutachten  
+3. Zweckmäßigkeitserwägungen/ prozessuales Gutachten/prozesstaktische Erwägungen  
+4. Praktische Leistung   
+ 
+Es ist nicht unbedingt erforderlich, diese Formulierungen zu wählen oder in Überschriften zu fassen. 
+Wesentlich ist jedoch, in etwa diesen Aufbau einzuhalten oder zumindest  eine entsprechende 
+Gliederung zu liefern.  
+ 
+
+===== SEITE 6 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 6 
+Theoretisch könnte eine gesonderte Sachverhaltsdarstellung zu den Klausuranforderungen gehören, 
+die ggf. dem materiellen Gutachten voranzustellen wäre. Hierbei handelt es sich um eine Art „case 
+summary“, welche dem Umfang nach über das Mandantenbegehren, das nur aus etwa ein bis drei 
+Sätzen bestehen sollte, hinaus geht und in den Sachstand einleitend einführt. Im Bereich Berlin/ 
+Brandenburg ist dieses Erfordernis in der Regel unüblich, was sich häufig im Bearbeitervermerk 
+niederschlägt. Dieser enthält dann den Hinweis: „Ein Sachbericht ist nicht zu fertigen.“  
+Hiermit ist nicht gemeint, dass im Rahmen der praktischen schriftsätzlichen Leistung der 
+Tatsachenvortrag unterbleiben kann. Dies wäre grob fehlerhaft. Nur in Fällen, in denen der 
+Bearbeitervermerk dies ausdrücklich gestattet, können Ausführungen zum Tatsächlichen 
+weggelassen werden.  
+ 
+Der Sachverhalt ist exakt zu erfassen. Es sind alle denkbaren Vorgehensweisen und somit alle in 
+Betracht kommenden Ansprüche und Verteidigungsmittel zu prüfen. Anknüpfungspunkt ist stets der 
+seitens der Mandantschaft geäußerte Wille. Hierdurch bestimmt sich das Vorgehen, was jedoch nicht 
+ausschließt, dass die Mandantschaft Aspekte übersieht, deren Relevanz erst im Zuge der 
+Begutachtung zutage tritt.  
+ 
+Aus dem Tatsachenstoff ergeben sich:  
+ 
+• die Verfahrenssituation 
+• die Konfliktsituation  
+• die Zielvorstellung der Mandantschaft 
+• der Sachvortrag der Mandantschaft  
+• Der Inhalt des Auftrages an die Anwältin/ den Anwalt (also die konkrete Leistung, die die 
+Mandantschaft in Bezug auf ihre Zielvorstellung erwartet, i.d.R. mindestens Beratung über 
+die Rechtslage und die Möglichkeiten der Verwirklichung ihrer Zielvorstellung; weiter : 
+Vertretung und Einleitung der erforderlichen Schritte)  
+ 
+Von der Richtigkeit der Angaben der Mandantschaft darf man ausgehen. Sie können dem Gutachten 
+und der praktischen Leistung zugrunde gelegt werden. Dies gilt nicht für Rechtstatsachen oder 
+Rechtsbegriffe. Wenn die Mandantschaft  von einer Kündigung spricht, kann sie auch eine 
+Anfechtung oder einen Rücktritt meinen – diese Angaben sind kritisch zu hinterfragen.  
+ 
+Tatsachen, die die Mandantschaft  nur vermutet , dürfen grundsätzlich als wahr zugrunde gelegt 
+werden; etwaige Beweisprobleme sind im Rahmen des Gutachtens und der vorzunehmenden 
+Beweisprognose zu erörtern.  
+
+===== SEITE 7 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 7 
+Lücken im Sachvortrag dürfen nur (bei Unterstellung einer Anfrage an die Mandantschaft  mit 
+positiver Beantwortung) ergänzt werden, wenn es dafür konkrete Anhaltspunkte  gibt (z.B. 
+hinsichtlich des Namens oder der Anschrift eines in Betracht kommenden Zeugen, zur Bestimmtheit 
+einer herauszugebenden Sache oder zu einem Zinsschaden bei Inanspruchnahme von Bankkredit). 
+Möglich ist auch, in diesem geringen Umfang auf die noch erforderliche Anfrage zu verweisen.  
+Es ist in jedem Falle aber darauf zu achten, den Sachverhalt nicht willkürlich zu verändern . 
+Unterstellungen sind stets gut zu begründen.  
+Es gilt der Grundsatz : Ergänzungen sind –von vorgenannten Ausnahmen abgesehen - nicht zulässig. 
+Stößt man auf vermeintliche Sachverhaltslücken, liegt der Fehler eher beim Bearbeiter der Klausur.  
+Nicht zugrunde zu legen sind selbstverständlich Angaben ins Blaue und –aufgrund der prozessualen 
+Wahrheitspflicht- bewusst unrichtig aufgestellte Angaben (hierfür wird es im Sachverhalt jedoch nur 
+selten Anhaltspunkte geben, die übersehen werden könnten).   
+Weitere Informationen ergeben sich aus den vom Mandanten eingereichten oder sonst vorhandenen 
+Unterlagen, etwa Vorkorrespondenz, Urkunden, Registerauszüge, interne Aktenvermerke.  
+ 
+Diese Klausuranforderungen spiegeln die berufliche Praxis: Die Anwältin/ der Anwalt ist zur 
+umfassenden rechtlichen Prüfung des seitens der Mandantschaft mitgeteilten Sachverhalts 
+verpflichtet.  
+ 
+Es folgt dann die Synthese des erfassten Stoffs:  
+ 
+Nach der Ordnung des Stoffs wird sich neben den unterschiedlichen Zielvorstellungen der Parteien 
+eine konkrete Prozess - oder zumindest Konfliktsituation ergeben. Möglicherweise wird es sich 
+anbieten, die Mandantschaft auf weitere Möglichkeiten hinzuweisen, an die sie selbst noch nicht 
+gedacht hat.   
+Neben dem möglichen Tatsachenvortrag ergeben sich aus der Sichtung des Stoffs auch die 
+möglichen Beweismittel. Bereits jetzt dürfte sich aus den vorliegenden Informationen auch ergeben 
+haben, welche Tatsachen streitig werden bzw. schon sind, wo also der Schwerpunkt der 
+anzustellenden Beweisprognose liegen wird.  
+ 
+Rechtliche Ausführungen der Beteiligten –auch des Gegners - sind ebenfalls beachtlich, jedoch zu 
+hinterfragen. Aus ihnen können sich Hinweise für einen Falleinstieg ergeben. Von bewussten 
+Irreführungen des Klausurstellers ist nicht auszugehen.  
+ 
+ 
+ 
+
+===== SEITE 8 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 8 
+V. Die Klausurbearbeitung:  
+ 
+Aus dem Vorgenannten folgt sodann die Erarbeitung des  
+ 
+1. Mandantenbegehrens:    
+ 
+Dieses ist eingangs zu formulieren und stellt die „Visitenkarte“ der Klausur dar. Die sich aus dem 
+gesammelten und untersuchten Tatsachenstoff ergebenden Aspekte sind in kurzen Worten und 
+ergebnisoffen wiederzugeben, d.h. es sind ein bis zwei Sätze zu formulieren. Auch aussichtslose 
+Wünsche sind hier wiederzugeben, ebenso wie finanzielle Aspekte (ggf. könnte auf Grundlage der 
+Situation des Mandanten z.B. Prozesskostenhilfe beantragt werden).  
+Alternative Ziele oder Prioritäten der Mandantschaft sollten Eingang in das Mandantenbegehren 
+finden. Auch wenn die Mandantschaft ein Ziel als absolut nachrangig oder nicht eilbedürftig 
+betrachtet, sollte dieses im Mandantenbegehren auftauchen. Ob die Einschätzung der 
+Mandantschaft die richtige ist, zeigt dann das Gutachten.  
+ 
+In der Klausur aus Beklagtensicht wird in aller Regel die Abwehr der klägerischen Ansprüche 
+wesentlicher Teil der Zielsetzung sein. Da dies recht selbstverständlich ist, sollte in knappen Worten 
+das klägerische Begehren dargestellt werden.  
+ 
+Das Mandantenbegehren soll nicht enthalten: Das vermeintlich gefundene Endergebnis, Vorstellung 
+der Parteien mit Namen und/ oder Anschrift, vollstreckungsfähige Tenorinhalte (etwa die 
+Fahrgestellnummer eines herauszugebenden Kfz o.Ä.).  
+ 
+Die Leistung des Mandantenbegehrens besteht darin, die Zielvorstellung präzise aus dem 
+Sachverhaltskontext herauszuarbeiten und diese sodann prägnant zusammenzufassen. 
+Rechtsbegriffe sind weitgehend zu vermeiden, es sei denn, es handelte sich um Bezeichnungen wie 
+„Kaufvertrag“, „Mietvertrag“ etc., die in den allgemeinen Sprachgebrauch übergegangen sind. 
+Ebenfalls zu vermeiden ist die wortwörtliche Wiedergabe der Formulierung des Mandanten.  
+ 
+Es folgt nun:  
+ 
+2. Das Gutachten:  
+ 
+Das Gutachten als Kern der Klausurleistung dient der Untersuchung, ob die Zielvorstellung der 
+Mandantschaft mit Erfolg erreicht werden kann. Mithin ist hier zu klären, ob etwa eine Klage 
+
+===== SEITE 9 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 9 
+Aussicht auf Erfolg hat oder die Rechtsverteidigung möglich ist; im Bereich der Kautelarklausur 
+vielleicht, inwieweit eine Vertragsgestaltung geändert werden sollte, ob Kündigungsgründe bestehen 
+etc.  
+ 
+Ob es sich hier zunächst um eine prozessrechtliche Beurteilung handelt oder an erster Stelle 
+materiellrechtliche Fragestellungen zu erörtern sind, hängt vom Klausurtypus ab.  
+ 
+Bei einem in der Klausur aus anwaltlicher Sicht zu erstellenden Gutachten ermöglicht der 
+Gutachtenstil eine umfassende Prüfung sämtlicher rechtlicher Probleme, die die Voraussetzung 
+dafür schafft, in den Zweckmäßigkeitserwägungen das weitere Vorgehen abzuwägen. 
+Unproblematisches kann im knapperen Urteilsstil bearbeitet werden. Den Bearbeiterinnen und 
+Bearbeitern wird ein weiter Spielraum gewährt, was die Gestaltung des Gutachtens angeht, da es 
+hier keinen definierten professionellen Standard gibt. Wesentlich ist die Verständlichkeit des 
+Textes. Zudem ist entscheidend, wie die Bearbeiterin/ der Bearbeiter die Spitzklammern einsetzt, 
+die wörtlich in den Schriftsatz passen müssen. Von zentraler Bedeutung ist letztlich die praktische 
+Leistung und deren Gestaltung. Im Rahmen der Ausführungen sollte beachtet werden, dass die 
+gutachterlichen Ausführungen im Wege der Spitzklammertechnik oder durch „copy & paste“ in den 
+Schriftsatz übertragbar sein sollten. Es muss in diesem Zusammenhang darauf geachtet werden, 
+dass die entsprechenden Formulierungen für einen Schriftsatz geeignet sind, also möglichst nicht 
+die Wortwahl „könnte“ oder „möglicherweise“ oder „wäre zu prüfen“ o.Ä. enthalten sollten. Dieser 
+Hinweis gilt für die weiterhin handschriftlich verfassten Klausuren. Nach derzeitigem Kenntnisstand 
+wird trotz der Einführung der elektronischen Klausurfertigung in der Zweiten Juristischen 
+Staatsprüfung während einer längeren Übergangsphase die handschriftliche Fertigung weiterhin 
+möglich sein. In der E -Klausur, die im Dezember 2023 erstmals ermöglicht wird, bietet die 
+Textverarbeitung bessere Möglichkeiten, Passagen aus dem Gutachten in den Schriftsatz zu 
+übernehmen, so dass die Spitzklammertechnik mittelfristig in den Hintergrund tritt.  
+ 
+Im Rahmen des Gutachtens muss auch auf Beweisfragen eingegangen und müssen entsprechende 
+Prognosen getroffen werden. Obwohl es möglich und durchaus stringent wäre, wie in der Relation 
+eine Beweisstation an die materiellrechtliche Prüfung anzufügen, wird in Berlin von diesem 
+Umgang mit Beweisfragen abgeraten. Eine isolierte Beweisstation wird nicht erwartet oder führt 
+auch nicht zu einer privilegierten Bewertung. Es sollte daher punktuell im Zusammenhang mit der 
+jeweils streitigen Tatbestandsvoraussetzung die Darlegungslast, Beweislast und Beweisprognose 
+erörtert werden.  
+Zur Beweisprognose im Detail siehe Abschnitt VI.  
+ 
+
+===== SEITE 10 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 10 
+Zitate aus Entscheidungen sind grundsätzlich nicht in das Gutachten aufzunehmen, denn sie können 
+nur der Sekundärliteratur entnommen worden sein. Auch Zitate des bei der Fertigung der Klausur 
+vorliegenden Kommentars sind nicht angezeigt. Sehr wohl können jedoch prägnante von der 
+Rechtsprechung etablierte Formulierungen wiedergegeben werden.  
+ 
+Weiter muss auf die Parteibezeichnungen geachtet werden: In der Beklagtenklausur sind die Rollen 
+zwar von Anfang an klar verteilt, da die Konfliktsituation ihren Ausgang in einer bereits gegen den 
+Mandanten erhobenen Klage nimmt. Dennoch ist er im Gutachten nicht zwingend als „Beklagter“ 
+oder der Gegner entsprechend als „Kläger“ zu bezeichnen. Dennoch kann die Parteibezeichnung 
+noch Modifikationen erfahren.  
+ 
+a. Das Gutachten in der Klausur aus Klägersicht  
+ 
+Die Klausur aus Klägersicht wird häufig als Angriffsklausur bezeichnet. Der Aktenauszug bezieht sich 
+häufig auf eine vorprozessuale Lage. Selten kommt ein Mandant und hat bereits selbst Maßnahmen 
+eingeleitet, die aufzunehmen sind. Dies ist dennoch z.B denkbar, wenn ein Mahnverfahren vom 
+Mandanten eingeleitet wurde und der Gegner Widerspruch eingelegt hat. Parallel gilt dies für einen 
+Vollstreckungsbescheid und den Einspruch. Es sollte aber nicht um jeden Preis an der Maßnahme 
+festgehalten werden. So hat es schon Klausuren gegeben, wo die Maßnahme schlicht 
+zurückzunehmen war und eine andere Maßnahme zu empfehlen war. Versuchte Umdeutungen 
+führten häufig zu keinen guten Ergebnissen.  
+Im Rahmen dieser Klausurstellung ist vorrangig zu prüfen, ob dem Mandanten ein Anspruch zustehen 
+kann. Prozessuale Erwägungen sind hier nicht anzustellen. Diese folgen in der 
+Zweckmäßigkeitsprüfung. Daher ist hier nicht die Zulässigkeit einer Klage oder sonstiger prozessualer 
+Schritte zu erörtern. Der Einstieg erfolgt direkt mit der materiellen Prüfung. Ausnahme: Die Einlegung 
+von Rechtsmitteln sollte mit einer Zulässigkeitsprüfung im Gutachten beginnen.  
+Das materielle Gutachten dient der Feststellung der Tatsache, ob die Zielvorstellung des Mandanten 
+mit Erfolg erreicht werden kann. Mithin ist hier zu klären, ob etwa die Klage Aussicht auf Erfolg hat.  
+ 
+Aus Klägersicht ist z.B. zu klären,  
+• ob ein Anspruch schlüssig dargelegt werden kann,  
+• auf welche –insbesondere streitigen- Tatsachen es für eine Erfolgsprognose ankommt,  
+• ob die voraussichtlich bestrittenen Tatsachen bewiesen werden können,  
+• ob Einwendungen des Gegners (oder auch Einreden wie die der Verjährung) erheblich sein 
+werden oder nicht,  
+• ob die Ansprüche vollumfänglich durchgesetzt werden können.  
+
+===== SEITE 11 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 11 
+ 
+Einige Modifikationen gegenüber der Urteilsklausur sind zu beachten. Die Begutachtung dient nicht 
+dem Ziel, zu einer Entscheidung zu kommen, sondern zu einer sachgemäßen Beratung sowie der 
+Vorbereitung der praktischen Leistung, d.h. in der Regel also des Schriftsatzes. Anders als im Urteil 
+handelt es sich nicht um die Beurteilung eines abgeschlossenen Sachverhalts, sondern um eine 
+Erfolgsprognose in tatsächlicher und rechtlicher Hinsicht.  
+Die Schlüssigkeit des später zu fertigenden Vortrages hängt davon ab, ob alle 
+Anspruchsvoraussetzungen der der Geltendmachung des Anspruches zugrunde - gelegten 
+Anspruchsgrundlagen dargetan werden können. Der Mandantenvortrag ist daraufhin zu 
+überprüfen, ob er Grundlage für substantiierten Vortrag sein kann. Vom Mandanten vorgebrachte 
+Umstände können allerdings auch zu vage sein, um als ausreichend substantiierter Vortrag zu 
+dienen. Dies muss der Anwalt unbedingt in seine Bewertung mit einbeziehen. Der 
+Bearbeitungsvermerk gibt insoweit regelmäßig vor, dass auch auf Nachfrage der Mandant und 
+Dritte keine weiteren Angaben machen können. 
+Die Untersuchung muss hierbei vor allem objektiv sein. Ein Gefälligkeitsgutachten führt weder zu 
+einem guten Ergebnis in der Klausur noch zu einer erfolgreichen Prozessführung in der Praxis.  
+Grundlage ist der vorliegende Vortrag (der IST - Zustand), auch wenn er  für die Mandantschaft 
+ungünstig ist. Hinsichtlich der Mandantschaft ist auch zu klären, was noch vorgetragen oder erklärt 
+werden kann. Auch der noch mögliche Vortrag des Gegners oder weitere rechtsgestaltende 
+Handlungen sind in die Überlegungen einzubeziehen.  
+Eine umfassende Prüfung sämtlicher in Betracht kommender Anspruchsgrundlagen mit Hilfs - und 
+Zusatzerwägungen ist vorzunehmen.  
+ 
+Bei der rechtlichen Beurteilung ist primär obergerichtliche Rechtsprechung zugrunde zu legen. Fehlt 
+eine solche, ist herauszufinden, ob es eine herrschende Auffassung in der Rechtsprechung gibt. Fehlt 
+auch diese, ist die herrschende Auffassung in der Literatur zu fokussieren. Steht also eine eindeutige 
+Rechtsprechung der Bejahung des Anspruchs entgegen, ist die Erfolgsaussicht zu verneinen. Der 
+Sachverhalt sollte nicht lebensfremd interpretiert oder verbogen werden, um das Ergebnis passend 
+zu machen. Aber grundsätzlich gilt:  
+Bei mehreren vertretbaren Ansichten ist grundsätzlich die dem Mandanten günstigere vorzuziehen 
+und auf diese r Ansicht die weitere Untersuchung aufzubauen . Sicherheitshalber sind 
+Alternativüberlegungen anzustellen, ob auch unter Berücksichtigung der Gegenauffassung das 
+gleiche Ergebnis erzielt werden kann.  
+Dass zugunsten der Mandantschaft stets der sicherste Weg eingeschlagen werden muss  (siehe auch 
+nachstehende Ausführungen) , darf in der Klausur in fast allen Fällen nicht dazu führen, dass vom 
+gerichtlichen Vorgehen abgeraten wird. Die Hauptaufgabe besteht darin, gute Gründe für die 
+
+===== SEITE 12 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 12 
+Annahme zu finden, dass das Gericht der Beurteilung der Rechtsfrage folgen wird ( Erfolgsprognose – 
+aus Erfahrung sollte diese weniger einer Misserfolgsprognose ähneln).  
+Naheliegende oder im Aktenstück sogar angedeutete Verteidigungsmöglichkeiten der Gegenseite 
+sollten aufgrund der Vorgabe des sichersten Weges in die Bewertung einbezogen werden, etwa die 
+drohende Verjährung der fraglichen Ansprüche.  
+Auch in diesem Zusammenhang kann es darauf ankommen, inwiefern die Angaben der 
+Mandantschaft für einen substantiierten Vortrag ausreichen. Häufig ist schon aus der Akte 
+erkennbar, was der Gegner vortragen wird. Es ergibt sich häufig eine Substantiierungslast auf 
+einfaches Bestreiten hin.  
+Dazu gilt der gesetzliche Anknüpfungspunkt in § 138 Abs. 2 ZPO: 
+„Jede Partei hat sich über die vom Gegner behaupteten Tatsachen zu erklären.“ 
+Die Substantiierungslast ist stets abhängig vom Grad der Substantiierung des gegnerischen 
+Vorbringens. Zunächst muss der Kläger Tatsachen schlüssig vortragen, die den Anspruch stützen. Eine 
+nähere Konkretisierung ist zunächst nicht erforderlich. Als Reaktion reicht ein einfaches Bestreiten 
+aus. Daraufhin muss der Darlegungspflichtige konkreter vortragen. Erfüllt er diese 
+Substantiierungslast, muss sich auch der Gegner substantiiert äußern.  
+Zu beachten ist, dass unbestrittener Vortrag gemäß § 138 Abs. 3 ZPO als zugestanden gilt.  
+Allerdings: Ersichtlich ins Blaue hinein aufgestellte Behauptungen, die den Gegner lediglich zur 
+Preisgabe von fehlenden Informationen bewegen sollen, lösen keine Pflicht zur substantiierten 
+Erwiderung aus. 
+ 
+b. Das Gutachten in der Klausur aus Beklagtensicht 
+ 
+Einiges zur Klausur aus Klägersicht Ausgeführte gilt sinngemäß auch für die Bearbeitung aus der 
+Perspektive der Beklagtenseite.  
+Während in der Klausur aus Klägersicht zuerst  die materielle Rechtslage geprüft wird , ist in der 
+Klausur aus Beklagtensicht eine Zulässigkeitsprüfung  voranzustellen. Hier finden wir eine 
+Prozesssituation vor, die eine Rechtsverteidigung erfordert. Diese setzt naturgemäß schon bei der 
+Prüfung ein, ob die gegen den Mandanten eingereichte Klage überhaupt zulässig ist. Ist das nicht der 
+Fall, kann die weitere materiellrechtliche Prüfung zwar nicht unterbleiben, aber ein wichtiges 
+Zwischenziel ist erreicht. Außerdem prüft das Prozessgericht ebenfalls in dieser Reihenfolge, und 
+letztlich ist das anwaltliche Vorgehen ja in gewisser Weise der Spiegel dieser Prüfung. Die 
+Klausurbearbeiterin/ der Klausurbearbeiter muss prognostisch beurteilen, wie das Gericht mit dem 
+Anliegen der Mandantschaft umgehen wird.  
+Kommt man z.B. als Beklagtenvertreter zum Ergebnis, dass die Klage unzulässig ist, ist gleichwohl zur 
+Begründetheit vorzutragen.  
+
+===== SEITE 13 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 13 
+Sieht der Beklagtenvertreter ein Schlüssigkeitsproblem, ist dennoch vorsorglich erheblich 
+einzuwenden. Erstens ist nicht sicher, ob das Gericht den Bedenken gegen die Schlüssigkeit folgt. 
+Zweitens können bei Zurückhalten des Sachvortrages aus taktischen Gründen Verspätungsprobleme 
+auftreten, insbesondere wenn die Gegenseite auf gerichtlichen Hinweis weiter vorträgt . In der 
+Klausur ist ohnehin in der Regel vom Zurückhalten möglichen Vortrages abzuraten.  
+ 
+Im Anschluss an die Zulässigkeitsprüfung und die Untersuchung der Begründetheit der Klage können 
+etwaige Gegenansprüche der Mandantschaft materiellrechtlich geprüft werden. Hierzu erfolgen im 
+Gutachten -ähnlich wie bei der Klausur aus Klägersicht - keine prozessualen Erörterungen. Diese 
+bleiben den Zweckmäßigkeitserwägungen vorbehalten.  
+ 
+Aus Beklagtensicht ist also zu untersuchen,  
+• ob gegenüber einem Anspruch für den Mandanten eine erfolgreiche Rechtsverteidigung in 
+Gestalt einer erheblichen Einlassung aufgebaut werden kann,  
+• ob die Erwiderung mit erfolgreichen Beweisantritten ausgestattet werden kann, ferner  
+• ob ggf. unbedingt oder hilfsweise aufgerechnet oder ein Zurückbehaltungsrecht geltend 
+gemacht werden kann,  
+• bzw. ob Gegenansprüche die des Klägers sogar übersteigen, mithin vielleicht eine Widerklage 
+in Betracht käme.  
+ 
+Die umfassende Prüfung erspart in der Regel das Hilfsgutachten. Allerdings ist z.B. nach Bejahung der 
+Anspruchsvoraussetzungen aus einem rechtlichen Gesichtspunkt zu erläutern, wieso die Prüfung 
+fortgesetzt wird.  
+ 
+c. Zur Beweisprognose:  
+ 
+Es stellt sich –anders als in der Urteilsklausur - die Beweisfrage dahingehend, wie das Gericht 
+voraussichtlich die Tatsachenfrage entscheiden wird.  
+ 
+Primär ist die Beweislast zu klären: Bei eigener Beweislast ergibt sich eine Erfolgsaussicht nur, wenn 
+die Prognose ergibt, dass das Gericht von der zu beweisenden Tatsache überzeugt werden wird; 
+maßgebend ist der Spielraum, den § 286 ZPO lässt.   
+Bei Beweislast des Gegners hat das eigene Begehren Erfolg, wenn es erstens dem Gegner schon 
+aufgrund der eigenen Beweismittel nicht gelingen dürfte, die notwendige Überzeugung 
+herbeizuführen und zweitens, wenn der Mandantschaft Beweismittel für einen Gegenbeweis zur 
+Verfügung stehen.  
+
+===== SEITE 14 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 14 
+ 
+Wichtig ist, auf gesetzliche oder tatsächliche Vermutungen zu achten, die für oder gegen den 
+Mandanten sprechen können.  
+ 
+Soweit –ausnahmsweise- bereits eine Beweisaufnahme durchgeführt wurde, liegt bereits ein 
+Beweisergebnis vor, dessen Würdigung durch das Gericht nunmehr zu prognostizieren und zu 
+beeinflussen ist. Im Gutachten können die negativen Gesichtspunkte auftauchen, im Schriftsatz an 
+das Gericht natürlich nicht mehr.  
+ 
+Es ist zu prüfen, welche Beweismittel der Mandant bereits mitbringt. Da die Hinweise und 
+Unterlagen des Mandanten i.d.R. abschließend sind, muss nicht über weitere Beweismittel 
+nachgedacht werden. Hierfür müsste im Sachverhalt ein Anhaltspunkt bestehen. Es kann aber ggf. 
+über eine Konstruktion nachgedacht werden, die dem Mandanten eine Zeugenstellung verschafft.  
+Es müssen auch Überlegungen zur Verfügbarkeit und Verwertbarkeit von Beweismitteln angestellt 
+werden.   
+Bei der Prognose über Ergiebigkeit und Überzeugungskraft von Beweismitteln ist von den 
+allgemeinen Beweiswürdigungsgrundsätzen auszugehen. Die Beweismittel sind in einer 
+Gesamtbetrachtung zu beurteilen; auch die dem Gegner zur Verfügung stehenden Beweise sind 
+einzubeziehen. Auch hier kann taktisch gedacht werden, indem etwa gegnerische Zeugen durch 
+Einbeziehung in den Rechtsstreit als Zeugen „ausgeschaltet“ werden.  
+  
+Bei streitigen Hilfstatsachen ist die doppelte Überlegung anzustellen, ob die Indiztatsache selbst zu 
+beweisen sein wird und die Indiztatsache(n) wiederum genügen werden, um die Haupttatsache zu 
+beweisen.  
+ 
+Beruft sich der Gegner auf einen Dritten als Zeugen, ist in jedem Falle zumindest auf eine Anhörung 
+des Mandanten gemäß § 141 ZPO hinzuwirken, um die „Waffengleichheit im Prozess“ zu 
+gewährleisten (die Anhörung des Mandanten ist dann zwingend geboten).  
+ 
+Näheres zum Beweisrecht in der Anwaltsklausur siehe Ziffer IV.  
+ 
+Die Begutachtung sollte insgesamt einen roten Faden verfolgen, der für den Leser erkennbar ist. Es 
+sollte ein Eingangssatz gewählt werden, z.B.  
+ 
+„Die Mandantin hat einen Anspruch auf Zahlung der im Antrag zu 1. genannten Beträge aus eigenem 
+Recht. Der Gegner ist der Mandantin gegenüber gemäß §§ 280 I, 241 II BGB  schadensersatzpflichtig. 
+
+===== SEITE 15 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 15 
+Der Vertrag zwischen den Parteien wurde seitens des Gegners unter Verstoß gegen dessen 
+vertragliche Verpflichtungen gekündigt. ...“  
+ 
+Es wird schwer durchzuhalten sein, jeden Satz in dieser Weise einzureihen. Im Großen und Ganzen 
+gehört zu einer erfolgreichen Klausurleistung aber die stringente, nachvollziehbare Erörterung der 
+wesentlichen Rechtsfragen.  
+ 
+Nach der Begutachtung in materiellrechtlicher (und ggf. , in der Klausur aus Beklagtensicht, 
+prozessualer) Hinsicht folgen nun die  
+ 
+3. Zweckmäßigkeitserwägungen/prozesstaktischen Ausführungen:   
+ 
+Ausgehend von der gutachterlichen Leistung sind dann unter Zweckmäßigkeitsgesichtspunkten 
+Vorschläge für das weitere Vorgehen zu erarbeiten. Neben den rechtlichen Gesichtspunkten ist –
+insbesondere bei Hinweisen aus dem Mandantengespräch oder sonstigen Umständen - noch auf 
+wirtschaftliche Erwägungen oder Kostenfragen oder ein etwaiges Eilbedürfnis einzugehen.  
+ 
+Dieser Prüfungsteil ist von großer Wichtigkeit, da er eine Art Brücke zwischen den gutachterlichen 
+Ausführungen und der praktischen Leistung bildet. Die Klausurbearbeiterin / der Klausurbearbeiter 
+teilt hier dem Prüfer mit, warum sie/ er sich für ein bestimmtes Vorgehen entscheidet. Sie/ er erklärt 
+seine Taktik, führt aus, weshalb sie/ er z.B. bestimmten Vortrag zurückhält, stellt ggf. Prognosen über 
+künftige Reaktionen der Gegenseite an und ermöglicht dadurch Einblicke in die wesentliche 
+Umsetzung der gutachterlichen Erkenntnisse.  
+ 
+In diesem Klausurabschnitt ist in der Klausur aus Klägersicht die Zulässigkeit eines noch 
+einzulegenden Angriffsmittels zu prüfen, was in der Klausur aus Beklagtensicht in der Regel 
+schon im Gutachten geschehen ist.  Es sind dabei die üblichen Zulässigkeitsvoraussetzungen 
+festzustellen bzw. zu erörtern. Dabei sollte besonderes Augenmerk auf die für die Fertigung 
+des Schriftsatzes notwendigen Voraussetzungen gelenkt werden. Dazu gehört insbesondere 
+die Zuständigkeit des anzurufenden Gerichts oder das für die Zulässigkeit einer 
+Feststellungsklage notwendige Feststellungsinteresse.  Hinweis: die Zulässigkeit eines 
+Einspruchs bzw. einer Berufung ist bereits im Gutachten zu leisten, weil ander enfalls die 
+Rechtskraft der anzugreifenden Entscheidung jegliche weitere Überlegung entbehrlich 
+machen würde 
+ 
+ 
+
+===== SEITE 16 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 16 
+Es sind prozesstaktische Erwägungen aus Anwaltssicht anzustellen, indem die Möglichkeiten 
+anwaltlicher Einflussnahme auf die Erfolgsaussichten des Vorgehens geprüft werden. Die 
+prozesstaktischen Erwägungen sind ein Sammelbecken für verschiedene Aspekte. Zu Beginn der 
+prozesstaktischen Erwägungen sollte die empfohlene Vorgehensweise mitgeteilt werden. Taktische 
+Erwägungen können unterschiedlicher Art sein. So ist z.B. daran zu denken, ob ein  Geschäftsführer 
+einer GmbH abberufen werden soll, damit er als Zeuge benannt werden kann oder ein Anspruch 
+zum Gewinn eines Zeugen abgetreten werden soll. Zwar kann eine solche Taktik von Richtern auch 
+misstrauisch betrachtet werden, andererseits liegt nach BGH sogar ein Anwaltsverschulden vor, 
+wenn eine vertretene GmbH nicht darauf hingewiesen wird, dass der Geschäftsführer auf diesem 
+Wege eine Zeugenstellung erhalten könnte.  
+Das Erheben nur einer Teilklage zur Minderung des Kostenrisikos oder das Stellen eines PKH-Antrages 
+mit Schriftsatzentwurf zum „Testen“ des Gerichts gehören hierher. Welche Aspekte denkbar sind, 
+kann nicht abschließend aufgezählt werden. Es sollte bei jeder Klausur nach taktischen 
+Gesichtspunkten gesucht werden. Sofern ein taktisches Vorgehen erwogen wird, ist jedoch zu 
+beachten, dass eine Anwältin/ ein Anwalt nicht nur Interessenvertreter/-in, sondern auch Organ der 
+Rechtspflege ist. Versuche, der Mandantschaft „trickreich“ mehr zu verschaffen, als ihr zusteht, wird 
+daher negativ zu bewerten sein.  
+ 
+Ganz wesentlich ist jedenfalls, die taktischen Erwägungen konsequent an den Ergebnissen des 
+Gutachtens zu orientieren und sie entsprechend zu gestalten. Die im Gutachten gefundenen 
+Ergebnisse sollten aus den vorgenannten Gründen nicht umgangen werden.  
+Soweit die schriftsätzliche Leistung in Einzelheiten –etwa aus taktischen Gründen - von den 
+Ergebnissen des Gutachtens abweicht, muss dies an dieser Stelle genau erklärt und begründet 
+werden.  
+ 
+Gibt es ein erkennbares Eilbedürfnis, ist einstweiliger Rechtsschutz in Betracht zu ziehen, auf dessen 
+Besonderheiten natürlich hinzuweisen ist (etwa Glaubhaftmachung statt Beweisantritt). Darauf ist 
+insbesondere bei den Rechtsmitteln in der Zwangsvollstreckung zu achten (einstweilige Einstellung 
+der Zwangsvollstreckung bei den Mandanten belastenden Titeln).  
+ 
+Der Vorschlag für das praktische Vorgehen kann auch in der Einleitung eines selbständigen 
+Beweisverfahrens bestehen, wenn die Interessenlage des Mandanten dies gebietet. Die Erörterung 
+der Voraussetzungen hierfür gehört in die Zweckmäßigkeitserwägungen.  
+ 
+Es ist darauf zu achten, dass hier keine materiellrechtlichen Fragen erörtert werden. Stellt die 
+Bearbeiterin/der Bearbeiter fest, dass zeitnah der Eintritt der Verjährung droht, sollte diese Frage 
+
+===== SEITE 17 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 17 
+nachträglich in das materielle Gutachten eingefügt werden. In den Zweckmäßigkeitserwägungen sind 
+dann Vorschläge zu unterbreiten, wie die Hemmung der Verjährung erreicht werden kann.  
+ 
+Zu den Zweckmäßigkeitserwägungen gehören auch Vorschläge zur Kommunikation mit 
+Mandantschaft oder Dritten. Ist ein Rechtsschutzversicherer vorhanden, sollte auch dieser über die 
+jeweils geplanten oder durchgeführten Schritte unterrichtet werden, insbesondere vor 
+kostenauslösenden Maßnahmen.  
+ 
+4. Praktische Leistung  
+ 
+Im Rahmen der praktischen Leistung werden die vorherige Gutachterarbeit sowie die Erwägungen 
+zur Zweckmäßigkeit durch das hierzu passende Vorgehen gekrönt.  
+ 
+In der Klausur mit schriftsätzlicher Leistung kann dies z.B. eine Klageerhebung oder Klageerwiderung 
+mit Widerklage sein oder auch die Formulierung einer Gestaltungserklärung, an die unmittelbar e 
+Rechtsfolgen geknüpft sind.  
+ 
+Die Kautelarklausur wird hier in der Regel eine Kontaktaufnahme mit dem Gegner fordern, vielleicht 
+den Entwurf einer Vertragsvereinbarung, deren Ergänzung oder lediglich ein Beratungsschreiben an 
+den Mandanten. Näheres hierzu im Abschnitt zur Kautelarklausur.  
+ 
+Es ist davon auszugehen, dass die praktische Leistung für das Erreichen eines ausreichenden 
+Ergebnisses unverzichtbar ist. Eine andere Gewichtung kann sich von Klausurstellerseite durchaus 
+ergeben, wo etwa die gutachterliche Leistung besonders umfangreich ist.  
+ 
+Das GJPA stellt hier Klausuraufgaben aus Kläger - und aus Beklagtensicht (Angriffs - oder 
+Verteidigungsklausur, wobei Letztere auch mit einer Gegenmaßnahme kombiniert sein kann). Beide 
+Typen begegnen den Kandidatinnen und Kandidaten in etwa mit der gleichen Wahrscheinlichkeit. Die 
+Klausurbearbeiterin/ der  Klausurbearbeiter findet eine bestimmte Situation vor, etwa ein bereits 
+laufendes Verfahren oder eine noch nicht rechtshängige Angelegenheit.  
+ 
+Der Bearbeitungsvermerk gibt regelmäßig vor, wann ein Schriftsatz an das Gericht bzw. wann ein 
+Mandantenschreiben zu fertigen ist (s.o. zum Beispiel eines Bearbeitungsvermerks). Die Klausur soll 
+die praktischen Fertigkeiten des Kandidaten abfragen. Es gibt für verschiedene meist 
+verfahrensbestimmende Schriftsätze formale und inhaltliche Vorgaben, die unbedingt einzuhalten 
+sind. Die ZPO gibt, abgesehen von § 253 ZPO , wenig Anhaltspunkte für formale Vorgaben. In der 
+
+===== SEITE 18 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 18 
+Praxis häufig verwendete Vorlagen liefern die gängigen Formularbücher. Auch wenn diese nicht alle 
+Konstellationen erfassen, können sie als Grundlage dienen. Die Formulare sind zwar nicht 
+unumstritten, enthalten aber im Zweifel die wesentlichen Formvorgaben und schützten vor 
+Anfängerfehlern. Zur Vorbereitung der Klausuren sind die Formularbücher auch deshalb 
+empfehlenswert, weil die einzelnen Formvorgaben meist kommentiert werden und daher 
+nachvollziehbarer sind. Da die Klausuren von Richter innen und Richtern  oder Anwält innen und 
+Anwälten korrigiert werden, welche äußerst erfahren im Lesen und schnellen Bewerten von 
+Schriftsätzen sind, sollten die gängigen Standards beim Fertigen von Anträgen beherrscht und 
+eingehalten werden. Dazu zählen auch Kleinigkeiten wie das richtige Nummerieren von Anlagen mit 
+K1, K2 usw. für den Kläger und B1, B2 usw. für den Beklagten sowie der Hinweis bezüglich der 
+notwendigen beigefügten Abschriften am Ende eines  Schriftsatzes. Auch sind die korrekten 
+Parteibezeichnungen für die jeweilige Verfahrensart wesentlich. Im Schriftsatz dürfen zum Beispiel 
+die Bezeichnungen „Mandantin“ und „Gegner“ oder die Klarnamen der Beteiligten nicht auftauchen.  
+Im ordentlichen Verfahren sind die Bezeichnung „Kläger/ -in“ und „Beklagte/ -r“ zu nutzen. Im 
+einstweiligen Verfügungsverfahren jedoch „Antragsteller/-in“ und „Antragsgegner/ -in“. Wird im 
+einstweiligen Rechtsschutz auf Widerspruch des Antragsgegners hin mündlich verhandelt, sind die 
+Bezeichnungen „Verfügungskläger/-in“ und „Verfügungsbeklagte/-r“ üblich.  
+ 
+Wie bereits angesprochen: Nur sehr selten (!) wird das Ergebnis der Klausur sein, nicht schriftsätzlich 
+vorzugehen, sondern der Mandantschaft  z.B. die Aussichtslosigkeit ihres Anliegens mitzuteilen. 
+Möglich ist allerdings, dass dem Mandantenbegehren nicht in vollem Umfang Rechnung getragen 
+werden kann. Dies ist der Mandantschaft mitzuteilen, wobei im Falle knapper Zeitressourcen eine 
+entsprechende Bemerkung in den Zweckmäßigkeitserwägungen ausreichend sein dürfte. Es is t in 
+diesem Zusammenhang in besonderem Maße auf den Bearbeitervermerk zu achten.  
+ 
+Keinesfalls darf unnötig auf das Mandantenschreiben ausgewichen werden. Ebenso wenig darf auf 
+noch einzuholende Informationen abgestellt werden. Es sollen keine Fristverlängerungsanträge 
+gestellt werden, um der Bearbeitung zu entgehen. Die Klausur findet im Hier und Jetzt statt. Das mag 
+eine Binsenweisheit sein, aber die Korrekturerfahrungen zeigen, dass ausweichende Wege bereits 
+durch Prüfungskandidatinnen und Prüfungskandidaten gegangen worden sind.  
+Aus demselben Grund darf die Empfehlung auch nicht dahingehend lauten, das Ergebnis eines etwa 
+parallel geführten Strafverfahrens abzuwarten.  
+ 
+Neben dem in der Regel erforderlichen Schriftsatz ist zu beachten, dass ggf. noch Willenserklärungen 
+im Schriftsatz unterzubringen sind (z.B. bislang falsch oder unzureichend formulierte  Rücktritts-, 
+
+===== SEITE 19 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 19 
+Kündigungs- oder Widerrufserklärungen bzw. Tilgungsbestimmungen für Leistungen der eigenen 
+Partei).  
+ 
+Die praktische Leistung beginnt  mit dem ordentlichen Rubrum unter Beachtung aller Formalien, 
+enthält (als Sollvorschrift)  eine Bemerkung zum Inhalt des Verfahrens („wegen: ...“) und ggf. zum 
+Streitwert und setzt sich mit den –vollstreckungsfähigen- Anträgen fort.  
+ 
+Zum Rubrum folgen hier einige Beispiele:  
+ 
+Kanzlei (…)2  
+ 
+Per beA3 
+Landgericht Berlin  
+ 
+10617 Berlin  
+Berlin, den 20. Dezember 2023 
+ 
+ 
+Klage  
+ 
+des Herrn Johannes Hufland, Güntzelstraße 55, 10717 Berlin,  
+Klägers,  
+Prozessbevollmächtigter:  
+Kanzlei (…)  
+ 
+gegen  
+ 
+1. Roberto La Rossa, Uhlandstraße 186, 10707 Berlin,  
+ 
+Beklagten zu 1.,  
+2. Karl- Heinz Emmerich, (…),  
+Beklagten zu 2.,  
+ 
+ 
+voraussichtlicher Prozessbevollmächtigter:  
+(…) 
+ 
+- wegen: Schadensersatzes - 
+- voraussichtlicher Streitwert: 10.000,00 € - 
+ 
+Hiermit erhebe ich namens und in Vollmacht des Klägers Klage und werde beantragen, wie folgt zu 
+erkennen:  
+ 
+(…) Sachantrag 
+ 
+ 
+ 
+2 Hier ist die Ausbildungskanzlei aus dem Aktenstück als Absender kurz einzufügen  
+3 Der Hinweis auf die Zustellung per beA empfiehlt sich.  
+
+===== SEITE 20 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 20 
+(…) VU- Antrag  
+ 
+ 
+Ferner verkünden wir Herrn … den Streit, verbunden mit der Aufforderung, dem Rechtsstreit auf 
+Seiten des Klägers beizutreten.  
+ 
+ 
+Ferner erklären wir namens und in Vollmacht des Klägers die außerordentliche Kündigung des 
+Wartungsvertrages vom (…). 
+ 
+ 
+ 
+Es handelt sich hier um das Standardrubrum  mit Einleitung der Anträge (zu diesen später). Ferner ist 
+ein Beispiel für die Einbeziehung einer Streitverkündung sowie einer in den Schriftsatz zu 
+integrierenden Gestaltungserklärung enthalten.  
+ 
+Alternativ kann das Rubrum mit den Worten eingeleitet werden:  
+ 
+ 
+In dem Rechtsstreit 
+ 
+des Herrn Johannes Hufland, Güntzelstraße 55, 10717 Berlin,  
+Klägers,  
+ 
+In diesem Fall muss bei der Einleitung des Klageantrages jedoch entsprechend grammatikalisch 
+angeknüpft werden:  
+ 
+„erhebe ich hiermit namens und in Vollmacht des Klägers Klage und werde beantragen, wie folgt zu 
+erkennen:“  
+ 
+ 
+Im Schriftsatz aus Beklagtensicht ist in der Regel nur ein Kurzrubrum zu verfassen, etwa wie folgt:  
+ 
+Landgericht Berlin  
+ 
+10617 Berlin 
+ 
+Berlin, den 20. Dezember 2023 
+In dem Rechtsstreit  
+ 
+Hufland ./. La Rossa und Emmerich  
+ 
+Geschäftszeichen (…) 
+ 
+zeige ich die rechtliche Vertretung der Beklagten und deren Verteidigungsbereitschaft an.  
+
+===== SEITE 21 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 21 
+ 
+ 
+Namens und in Vollmacht der Beklagten werde ich beantragen,  
+ 
+die Klage abzuweisen.  
+ 
+ 
+ 
+Lediglich im Falle einer Drittwiderklage, in die ja Personen einbezogen werden, die bislang nicht 
+Prozesspartei waren, ist ein volles Rubrum zu verwenden, wie zum Beispiel:  
+ 
+Klageerwiderung und Widerklage 
+ 
+In dem Rechtsstreit 
+ 
+1. des Herrn Johannes Hufland, Güntzelstraße 55, 10717 Berlin,  
+Klägers und Widerbeklagten zu 1.,  
+2. der Frau Johanna Stein, wohnhaft ebendort,  
+ 
+Widerbeklagte zu 2.,  
+Prozessbevollmächtigter:  
+Kanzlei (…)  
+ 
+gegen  
+ 
+1. Roberto La Rossa, Uhlandstraße 186, 10707 Berlin,  
+Beklagten und Widerkläger zu 1.,  
+2. Karl- Heinz Emmerich, (…),  
+Beklagten und Widerkläger zu 2., 
+ 
+zeige ich die rechtliche Vertretung der Beklagten an und beantrage namens und in Vollmacht der 
+Beklagten,  
+die Klage abzuweisen.   
+ 
+Hiermit erhebe ich namens und in Vollmacht der Beklagten  
+ 
+Widerklage … 
+und kündige folgende Anträge an:  
+(…) 
+ 
+ 
+Die Formulierung der Klageanträge hat sich an der Vollstreckbarkeit zu orientieren. Es empfiehlt sich 
+also, die eigene Antragsformulierung dahingehend kritisch zu überprüfen, ob hinreichend bestimmt 
+formuliert wurde, was die Verpflichtung der Beklagtenseite gegenüber der Klägerseite genau 
+beinhaltet.  
+Bei Zahlungsklagen sollte ein bestimmter Betrag genannt sein. Die Herausgabeklage erfordert die 
+unverwechselbare Bezeichnung des herauszugebenden Gegenstandes. Im Rahmen eines 
+
+===== SEITE 22 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 22 
+Unterlassungsbegehrens muss d ie Handlung, die künftig unterbleiben soll, genau benannt werden. 
+Die Feststellungsklage muss das Rechtsverhältnis, über das Streit und/ oder Unsicherheit besteht, 
+exakt bezeichnen.  
+ 
+Zudem ist § 308 ZPO maßgeblich: Was man nicht beantragt, bekommt man auch nicht. Fehlt etwa 
+der Zinsantrag, wird das Gericht auch keine Zinsen zusprechen.  
+ 
+Nachfolgend einige Beispiele für Anträge im Zivilprozess:  
+ 
+a. Zahlungsklage:  
+ 
+Namens und in Vollmacht der Klägerin  erhebe ich Klage und werde beantragen, wie folgt zu 
+erkennen:  
+1. Der Beklagte wird verurteilt, an die Klägerin 8.500,00  € nebst Zinsen in Höhe von 
+fünf Prozentpunkten über dem jeweiligen Basiszinssatz seit (Rechtshängigkeit/ Datum) 
+zu zahlen.   
+2. (Der Beklagte wird verurteilt, die vorprozessualen Rechtsanwaltsgebühren der Klägerin 
+in Höhe von 887,03 € nebst Zinsen in Höhe von fünf Prozentpunkten über dem jeweiligen 
+Basiszinssatz seit (Rechtshängigkeit/ Datum) zu zahlen, ferner die Mahnkosten der 
+Klägerin in Höhe von 5,00 €.  
+ 
+Für den Fall der Säumnis im Sinne des § 331 Abs. 3 ZPO wird bereits jetzt beantragt,  
+den Beklagten antragsgemäß durch Versäumnisurteil zu verurteilen.4 
+ 
+ 
+b. Verurteilung Zug um Zug 
+ 
+Namens und in Vollmacht der Klägerin  erhebe ich Klage und werde beantragen, wie folgt zu 
+erkennen:  
+1. Der Beklagte wird verurteilt, an den Kläger 8.500,00 € nebst Zinsen in Höhe von 
+fünf Prozentpunkten über dem jeweiligen Basiszinssatz seit (Rechtshängigkeit/ 
+Datum) zu zahlen, Zug um Zug gegen Übergabe und Übereignung  des Kfz 
+Volkswagen, Golf VII mit der Fahrzeug-Ident-Nr. WVWZZZ123059825723.   
+ 
+4 Der Antrag auf Erlass eines Versäumnisurteils ist stets zu stellen  
+
+===== SEITE 23 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 23 
+2. Es wird weiter festgestellt, dass sich der Beklagte mit der Rückgabe des im Antrag 
+zu 1. genannten Kfz im Verzug der Annahme befindet.)5 
+ 
+Für den Fall der Säumnis im Sinne des § 331 Abs. 3 ZPO wird bereits jetzt beantragt,  
+den Beklagten antragsgemäß durch Versäumnisurteil zu verurteilen.  
+ 
+ 
+ 
+c. Auskunftsklage  
+ 
+Namens und in Vollmacht des Klägers erhebe ich Klage und werde beantragen, wie folgt zu 
+erkennen:  
+Die Beklagte wird verurteilt , der Klägerin Auskunft darüber zu erteilen, welchen 
+Gesamtkaufpreis sie für die Wohnung in der Konstanzer Straße 59, 10707 Berlin, 
+Vorderhaus 4. OG rechts , bestehend aus  vier Zimmern, zwei Bädern, einer 
+Einbauküche sowie einem Balkon, (Gemarkung Wilmersdorf, Flur 4, Flurstück 
+4/37, Wohnungsgrundbuchnummer 98 365), mit den Verkäufern, den Eheleuten 
+Pauline und Sergej Kolbe, vereinbart hat. 
+ 
+Für den Fall der Säumnis im Sinne des § 331 Abs. 3 ZPO wird bereits jetzt beantragt,  
+die Beklagte antragsgemäß durch Versäumnisurteil zu verurteilen 
+ 
+ 
+ 
+d. Stufenklage6  
+ 
+Namens und in Vollmacht des Klägers erhebe ich Klage und werde beantragen, wie folgt zu 
+erkennen:  
+1) die Beklagte zu verurteilen, der Klägerin Auskunft darüber zu erteilen, welchen 
+ 
+5 Wichtig für Zug- um- Zug- Verurteilungen aufgrund von § 756 ZPO  
+6 Der Vorteil der Stufenklage gegenüber der Auskunftsklage liegt u.a. darin, dass Letztere die Verjährung des 
+Zahlunganspruchs nicht hemmt. Diese Wirkung kommt der Stufenklage aber zu. Sie muss dazu dienen, den 
+Zahlungsanspruch bestimmbar zu machen; ansonsten fehlt das Rechtsschutzbedürfnis.  
+Im Termin wird zunächst der Auskunftsantrag gestellt. Erst wenn über diesen entschieden ist, kann der Antrag 
+auf der nächsten Stufe gestellt werden. Der Leistungsantrag kann mit der Klageschrift gestellt werden, auch 
+wenn er erst nach Erteilung der Auskunft Bedeutung erlangt.  
+Für den Zuständigkeitsstreitwert wird der Wert aller drei Stufen zusammengerechnet. Der Auskunftsanspruch 
+wird mit 10- 25 % des Werts des Leistungsanspruchs angesetzt.  
+
+===== SEITE 24 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 24 
+Gesamtkaufpreis sie für den Hof Reckhausen in Wolterslage, bestehend aus  ca. 15 
+ha Weideland, einem Fachwerkhaus, Nebengebäuden nebst Pferdeboxen, Remise, 
+Kleintierställen, Gartenhaus, Holzschuppen, Weideunterständen, Reitplatz mit 
+Bewässerung und die Baugenehmigung für eine Reithalle mit den Verkäufern, den 
+Eheleuten Karoline und Theo Wurzel, vereinbart hat. 
+ 
+2) die Beklagte zu verurteilen, an die Klägerin eine Courtage in Höhe von 5 % des sich 
+aus der Auskunft ergebenden Kaufpreises zzgl. 19 % Mehrwertsteuer zzgl. 5 %  
+Zinsen über dem Basiszinssatz seit dem 01. Dezember 2023 zu zahlen. 
+ 
+ 
+e. Einspruch gegen Versäumnisurteil (gilt sinngemäß auch für Vollstreckungsbescheid)  
+ 
+In dem Rechtsstreit  
+ 
+Seidel ./. Romanchuk 7 
+Geschäftszeichen 37 O 450/23 
+ 
+lege ich namens und in Vollmacht der Beklagten gegen das Versäumnisurteil des Landgerichts Berlin 
+vom 7. Dezember 2023 zum Geschäftszeichen 37.O.450/23 
+Einspruch 
+ein und beantrage,  
+ 
+die Klage abzuweisen. 
+ 
+Weiter beantrage ich  
+ 
+die Zwangsvollstreckung aus dem Versäumnisurteil ohne, hilfsweise gegen 
+Sicherheitsleistung einstweilen bis zum Erlass des Urteils in der Hauptsache einzustellen.  
+ 
+ 
+f. Antrag, Versäumnisurteil aufrechtzuerhalten 
+ 
+In dem Rechtsstreit  
+ 
+Seidel ./. Romanchuk  
+Geschäftszeichen 37 O 450/23 
+ 
+7 Ein kurzes Rubrum genügt hier, außer es kommt eine Drittwiderklage hinzu.  
+
+===== SEITE 25 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 25 
+ 
+beantrage ich,  
+ 
+das Versäumnisurteil d  das Versäumnisurteil des Landgerichts Berlin vom 7. Dezember 2023  zum 
+Geschäftszeichen 37.O.450/23 aufrechtzuerhalten.8  
+ 
+ 
+ 
+ 
+g. (Dritt-)Widerklage  
+ 
+In dem Rechtstreit 
+der  
+1. Winkel und Schott Rechtsanwälte, Anschrift (…) 
+Klägerin und Widerbeklagte zu 1. 
+Prozessbevollmächtigte: ... 
+ 
+2. Herrn Rechtsanwalt KL, ebd.,      Widerbeklagter zu 2.,  
+3. Herrn Rechtsanwalt MN, ebd.,     Widerbeklagter zu 3., 
+4. Herrn Rechtsanwalt Dr. T, Anschrift,    Widerbeklagter zu 4.,  
+5. Herrn Rechtsanwalt Dr. M, ebd.,    Widerbeklagter zu 5.,  
+6. Herrn Rechtsanwalt H, ebd.,     Widerbeklagter zu 6., 
+ 
+-sämtlichst geschäftsansässig wie folgt: ... - 
+ 
+gegen  
+ 
+Freunde des Polosports - Verwaltungs GmbH, vertreten durch den Geschäftsführer Wolfgang Z, 
+Anschrift  
+Beklagte und Widerklägerin,  
+ 
+- Gz.: 20 O 360/09  - 
+ 
+beantrage ich namens und in Vollmacht der Beklagten und Widerklägerin, 
+die Klage abzuweisen. 
+ 
+Weiter erhebe ich Widerklage gegen die Widerbeklagten und werde beantragen, 
+ 
+8 Ein Sachantrag ist hier nicht notwendig, da bereits ein Versäumnisurteil mit einem Tenor vorliegt.  
+
+===== SEITE 26 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 26 
+die Klägerin und die Widerbeklagten als Gesamtschuldner zu verurteilen, an die Beklagte 
+63.000,00 € zzgl. Zinsen in Höhe von neun Prozentpunkten über dem jeweiligen Basiszinssatz 
+seit Rechtshängigkeit zu zahlen, 
+ 
+Für den Fall der Säumnis wird bereits jetzt beantragt,  
+die Widerbeklagten antragsgemäß durch Versäumnisurteil bzw. (Teil -)Versäumnisurteil zu 
+verurteilen. 
+ 
+ 
+ 
+ 
+ 
+h. Vollstreckungsabwehrklage  
+ 
+Namens und in Vollmacht der Klägerin  erhebe ich Klage und werde beantragen, wie folgt zu 
+erkennen:  
+Die Zwangsvollstreckung aus dem Urteil des Amtsgerichts Schöneberg vom 8. 12.2023 zum 
+Geschäftszeichen 13 C 212/23 wird für unzulässig erklärt.  
+Ferner beantrage ich, im Wege des einstweiligen Rechtsschutzes, der Dringlichkeit halber ohne 
+mündliche Verhandlung, wie folgt zu entscheiden:9  
+ 
+Die Zwangsvollstreckung aus dem Urteil des Amtsgerichts Schöneberg vom 8.6.2010 zum 
+Geschäftszeichen 13 C 212/10 wird bis zum Erlass des Urteils in der Hauptsache einstweilen 
+ohne, hilfsweise gegen Sicherheitsleistung eingestellt.  
+ 
+ 
+i. Unterlassungsklage  
+ 
+Namens und in Vollmacht der Klägerin  erhebe ich Klage und werde beantragen, wie folgt zu 
+erkennen:  
+1) Der Beklagte wird verurteilt, es zu unterlassen, die an seinem Carport in (…) installierte 
+Überwachungskamera auf das Grundstück der Klägerin  in (…) zu richten und de ren 
+Eingangs- und Gartenbereich zu filmen.  
+ 
+9 § 769 ZPO: Bis zum Erlass der Entscheidung in der Hauptsache kann viel Zeit vergehen, die der Titelgläubiger 
+für Vollstreckungsversuche nutzen kann . Um Schaden von der Mandantschaft abzuwenden, muss die 
+einstweilige Einstellung der Zwangsvollstreckung aktiv beantragt werden.  
+
+===== SEITE 27 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 27 
+2) Dem Beklagten wird angedroht, dass für jeden Fall der Zuwiderhandlung ein 
+Ordnungsgeld bis zur Höhe von 250.000,00 € und für den Fall, dass dieses nicht 
+beigetrieben werden kann, eine Ordnungshaft oder Ordnungshaft bis zu sechs Monaten 
+gegen ihn festgesetzt wird.  
+3) (Der Beklagte wird verurteilt, die vorprozessualen Rechtsanwaltsgebühren der Klägerin 
+in Höhe von ... nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen 
+Basiszinssatz seit (Rechtshängigkeit/ Datum) zu zahlen, ferner die Mahnkosten der 
+Klägerin in Höhe von (...).)10 
+Für den Fall der Säumnis wird bereits jetzt beantragt,  
+den Beklagten antragsgemäß durch Versäumnisurteil zu verurteilen. 
+ 
+j. Duldungsklage 
+ 
+Namens und in Vollmacht des Klägers erhebe ich Klage und werde beantragen, wie folgt zu 
+erkennen:  
+1) Der Beklagte wird verurteilt, es zu dulden, dass der Kläger eine Abwasserleitung über das 
+Grundstück des Beklagten in (…) zum Hauptabwasserrohr des Bezirkes Charlottenburg - 
+Wilmersdorf von Berlin in einer vom Gericht zu bestimmenden Richtung verlegt und 
+unterhält.  
+2) Dem Beklagten wird angedroht, dass für jeden Fall der Zuwiderhandlung ein 
+Ordnungsgeld bis zur Höhe von 250.000,00 € und für den Fall, dass dieses nicht 
+beigetrieben werden kann, eine Ordnungshaft oder Ordnung shaft bis zu sechs Monaten 
+gegen ihn festgesetzt wird.  
+3) (Der Beklagte wird verurteilt, die vorprozessualen Rechtsanwaltsgebühren des Klägers in 
+Höhe von ... nebst Zinsen in Höhe von 5 Prozentpunkten über dem jeweiligen 
+Basiszinssatz seit (Rechtshängigkeit/ Datum) zu zahlen, ferner die Mahnkosten des 
+Klägers in Höhe von (...).) 
+Für den Fall der Säumnis wird bereits jetzt beantragt,  
+den Beklagten antragsgemäß durch Versäumnisurteil zu verurteilen. 
+ 
+k. Einstweiliger Rechtsschutz  
+ 
+Hiermit beantragen wir, im Wege der einstweiligen Verfügung wie folgt zu erkennen:  
+ 
+ 
+10 Es handelt sich hier nicht um ein Begehren des einstweiligen Rechtsschutzes, sondern um eine ordentliche 
+Unterlassungsklage. Daher können hier vorgerichtliche Rechtsanwaltskosten geltend gemacht werden. Für den 
+Fall der Geltendmachung dieses Begehrens im einstweiligen Rechtsschutz ist die Geltendmachung nicht 
+möglich, da für den Gebührenerstattungsanspruch kein Eilbedürfnis besteht.  
+
+===== SEITE 28 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 28 
+1) Der Antragsgegner hat es zu unterlassen, sich der Antragstellerin auf weniger als 20 
+Meter zu nähern und für den Fall einer sich zufällig ergebenden Verringerung dieser 
+Distanz diesen Abstand umgehend wiederherzustellen.  
+ 
+2) Der Antragsgegner hat es zu unterlassen, den Wohnsitz der Antragstellerin aufzusuchen 
+oder sich diesem auf weniger als 100 m zu nähern sowie für den Fall einer sich 
+ergebenden Verringerung dieser Distanz diese nicht umgehend wiederherzustellen.  
+ 
+3) Der Antragsgegner hat es zu unterlassen, sich dem Fahrzeug der Antragstellerin auf 
+weniger als 50 m zu nähern und für den Fall einer sich ergebenden Verringerung dieser 
+Distanz diese nicht umgehend wiederherzustellen.  
+ 
+4) Der Antragsgegner hat es zu unterlassen, die Antragstellerin –gleich aus welcher 
+Motivation- verbal oder über Telekommunikationsmittel anzusprechen, anzuschreiben 
+und insbesondere mit den Worten (…) zu beleidigen.   
+ 
+5) Dem Antragsgegner wird angedroht, dass für jeden Fall der Zuwiderhandlung gegen die 
+Unterlassungspflichten nach den Anträgen Ziffer 1. – 4. ein Ordnungsgeld bis zur Höhe 
+von 250.000,00 € und für den Fall, dass dieses nicht beigetrieben werden kann, eine 
+Ordnungshaft oder Ordnungshaft bis zu sechs Monaten gegen ihn festgesetzt wird.  
+ 
+l. Schadensersatz aus Verkehrsunfall mit Personenschaden und Vorbehalt für Zukunftsschäden 
+ 
+1) Der Beklagte wird verurteilt, an den Kläger ein angemessenes Schmerzensgeld, das in 
+das Ermessen des Gerichts gestellt wird, 40.000,00 € jedoch nicht unterschreiten sollte, 
+zuzüglich Zinsen in Höhe von fünf Prozentpunkten über dem jeweiligen Basiszinssatz seit 
+Rechtshängigkeit  zu zahlen. 
+ 
+2) Es wird festgestellt, dass der Beklagte verpflichtet ist, dem Kläger 50 % aller materiellen 
+und immateriellen Schäden zu ersetzen, die dem Kläger aus dem Unfallgeschehen vom 
+22. Juli 2023 entstanden sind und noch entstehen werden. 
+ 
+3) Der Beklagte wird verurteilt, an den Kläger weitere 2.151,60 € zuzüglich Zinsen in Höhe 
+von fünf Prozentpunkten über dem jeweiligen Basiszinssatz seit Rechtshängigkeit zu 
+zahlen.  
+ 
+4) Der Beklagte wird verurteilt, den Kläger von den vorgerichtlichen Anwaltsgebühren in 
+Höhe von 1.751,80 € zuzüglich Zinsen in Höhe von fünf Prozentpunkten über dem 
+jeweiligen Basiszinssatz seit Rechtshängigkeit freizustellen.  
+ 
+Den Anträgen folgt der Tatsachenvortrag.  
+ 
+Der Sachverhalt ist  chronologisch darzustellen. Der Verfahrenssituation muss Rechnung getragen 
+werden. Die Aufgabenstellung bezieht also hauptsächlich die Darstellung des (voraussichtlich) 
+Unstreitigen und Streitigen ein. Vertritt man die Position des Klägers, ist der streitige 
+Beklagtenvortrag in einer Weise einzubeziehen, dass dieser direkt beim streitigen klägerischen 
+Vortrag dargestellt wird, um ihn an dieser Stelle auch wieder zu entkräften (ggf. mit Beweisantritt).  
+ 
+
+===== SEITE 29 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 29 
+Umgekehrt ist –bei Vertretung des Beklagten - die Situation einfacher, da bereits streitiger 
+Klägervortrag vorliegt: Hier bestimmt der Bearbeiter selbst, was unstreitig bleibt und was streitig 
+wird. Jedoch ist eine abschließende Wertung nicht möglich, da nicht klar ist, wie der Kläger wiederum 
+auf die Replik reagieren wird. Im Zweifel sollte bestritten werden, was bestritten werden kann und 
+nicht vollkommen unsinniges Bestreiten ist.  
+ 
+Einleitend sind die Beteiligten vorzustellen.  
+ 
+Etwa:  
+ 
+„Die Parteien sind Zahnärzte. Der Kläger begehrt vom Beklagten die Zahlung einer Abfindung 
+aufgrund vorzeitiger Kündigung des Gemeinschaftspraxisvertrages. (...)“ 
+ 
+Oder:  
+ 
+„Die Klägerin vermietet dem Beklagten eine Wohnung in der Pallasstraße 57 in 10829 Berlin - 
+Schöneberg und macht mit dieser Klage Mietrückstände für die Monate August bis November 2023 
+geltend.“ 
+ 
+Oder:  
+ 
+„Der Kläger nimmt den Beklagten auf Zahlung von Schmerzensgeld sowie wegen Folgeansprüchen 
+aus einem Verkehrsunfall unter Beteiligung eines Einsatzfahrzeuges der Polizei Berlin in Anspruch. 
+Geltend gemacht werden 50 % der bei dem Unfall entstandenen Schäden.“  
+ 
+In der Einleitung können weitere Angaben zum Streitinhalt oder den persönlichen Daten gemacht 
+werden, bevor man zum Tatsachenvortrag übergeht.  
+Die Tatsachen sind  chronologisch und im Imperfekt darzustellen, im Perfekt hingegen für zeitlich 
+zurückliegende, aber noch in die Gegenwart fortwirkende Vorgänge.  
+ 
+Aspekte, die aus taktischen Gründen nicht erwähnt werden, sollten dem Mandanten (oder dem 
+Korrektor) gesondert mitgeteilt werden: Das zeigt, dass man sie nicht vergessen hat, ohne dass die 
+Sachverhaltsschilderung falsch oder ungeschickt wirkt.  
+Selten kommt es zum Erfordernis der Darstellung der Prozessgeschichte, etwa bei einem 
+vorausgegangenen Versäumnisurteil.  
+
+===== SEITE 30 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 30 
+Wie im Urteil ist eine knappe Darstellungsform zu wählen. Auf Einzelheiten darf –sofern konkret 
+genug- verwiesen werden.  
+ 
+Der Tatsachenvortrag muss vollständig, substantiiert, klar und im Hinblick auf die 
+Tatbestandsvoraussetzungen der zur Begründung des Klageantrages herangezogenen 
+Anspruchsgrundlagen vollständig und damit schlüssig sein. Für alle Tatsachen, für die der Kläger 
+beweispflichtig ist, sollte auch Beweis angeboten werden. Es sollten die oben unter III. bezüglich der 
+Dichte des Vortrages und des Verbotes des Vortrages „ins Blaue hinein“ gemachten Hinweise 
+beachtet werden.  
+Eine Bezugnahme auf Schriftstücke, die als Anlagen K 1, K 2 usw., zu kennzeichnen sind, ist zulässig. 
+Zur hinreichenden Bestimmung ist es aber erforderlich, mit genauer Seitenangabe, unter Umständen 
+mit der Wiedergabe von Passagen im Wortlaut, auf das Schriftstück Bezug zu nehmen. Es kann 
+zusätzlich zum Ausdruck gebracht werden, dass der gesamte Inhalt zum Vortrag gemacht werden 
+soll. Das Gericht ist allerdings nicht gehalten, unverständliche Darstellungen in Anlagen als 
+hinreichenden Vortrag anzuerkennen. Vielfach folgt auf unzureichenden Vortrag der Hinweis des 
+Gerichts, es sei nicht dessen Ausgabe, sich den Sachvortrag aus den Anlagen zusammenzusuchen. Es 
+ist daher entsprechende Zurückhaltung geboten und auf die wesentlichen Passagen zur Sicherheit 
+konkret Bezug zu nehmen . Beim Tatsachenvortrag ist unbedingt zu beachten, dass das erkennende 
+Gericht vom Sachverhalt überhaupt nichts weiß, also vollständig unterrichtet werden muss 
+ 
+Die Sachverhaltsdarstellung in der Klageerwiderung ist in der Regel  weniger umfangreich. 
+Insbesondere ist nur noch zu differenzieren, welcher Teil des klägerischen Vortrages als zugestanden 
+betrachtet, also unstreitig gestellt wird und wo der Klägervortrag bestritten wird. Zu beachten ist 
+beim Bestreiten, dass in der Regel das einfache Bestreiten nicht ausreicht, sondern stattdessen 
+substantiiert bestritten werden muss. Einfach bestritten ist eine Tatsache, wenn schlichtes Bestreiten 
+des gegnerischen Tatsachenvortrages vorliegt, qualifiziert bestritten dann, wenn der 
+Tatsachenvortrag der Parteien voneinander abweicht.  
+ 
+In der Klausur aus Beklagtensicht sollte in jedem Falle vermieden werden, die 
+Sachverhaltsdarstellung zu wiederholen . Auch müssen nicht die Beweismittel, die die Klägerseite 
+bereits in der Klageschrift benannt hat, erneut eingebracht werden.  
+ 
+Wesentliche Leistung aus Beklagtensicht ist es, punktuell zu bestreiten, den Sachverhalt 
+richtigzustellen (wo es erforderlich ist) und eigene Beweismittel anzubieten.  
+ 
+V. Besonderheiten des Beweisrechts in der Anwaltsklausur  
+
+===== SEITE 31 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 31 
+ 
+1. Einführung und Grundsätze der Beweiswürdigung   
+ 
+Will das Gericht im Zivilprozess eine Entscheidung treffen, muss es eine Anspruchsgrundlage suchen, 
+die auf der Rechtsfolgenseite das Begehren des Klägers ausfüllt.  
+ 
+Auf eine Rechtsfolge kann das Gericht nur erkennen, wenn es feststellen kann, dass der Tatbestand 
+eines Rechtssatzes im tatsächlichen Geschehen verwirklicht worden ist.  
+ 
+Der mit einem Mandantenbegehren befasste Rechtsanwalt stellt ähnliche Erwägungen an, allerdings 
+nicht feststellender, sondern prognostischer Natur: Wird das Vorbringen des Mandanten für die 
+Zielvorstellung ausreichend sein und –noch wichtiger- wird es beweisbar sein? Der Bearbeiter der 
+Klausur muss sich ebenso wie der Anwalt des Beibringungsgrundsatzes bewusst sein: Was er nicht 
+vorträgt, wird nicht Prozessstoff. Vertritt er den Kläger, muss er schlüssig vortragen, was dessen 
+Anspruch begründet. Er trägt die Darlegungs - und Beweislast für die ihm günstigen Tatsachen. Das 
+wird nur virulent, wo ein Bestreiten bereits erfolgt ist oder zu erwarten steht (zur Erinnerung: Prinzip 
+der formellen Wahrheit nach § 288 ZPO: bei übereinstimmendem Vortrag der Parteien ist auch der 
+Richter gebunden).  
+ 
+Der Bearbeiter muss eine Prognoseentscheidung dahingehend anstellen, ob bei dem ihm zu Gebote 
+stehenden Tatsachen und Beweismitteln der Richter wohl zur freien Überzeugung nach § 286 ZPO 
+gelangen wird, dass der Vortrag des Mandanten wahr ist.  
+ 
+Um zu erkennen, ob ein angebotenes Beweismittel zur hinreichenden Überzeugung des Gerichts 
+führen kann, muss deren Bildung dem Klausurbearbeiter auch in der Anwaltsklausur klar sein.  
+ 
+Der Richter muss zur freien Überzeugung gelangen, dass eine tatsächliche Behauptung für wahr oder 
+nicht wahr zu erachten sei, § 286 I ZPO. Dies betrifft den Hauptbeweis. Der Gegenbeweis gilt dann als 
+geführt, wenn der Gegner die durch den Hauptbeweis hergestellte Überzeugung des Gerichts ins 
+Wanken bringt, da Zweifel an der Wahrheit der Haupttatsache bereits dazu führen, dass diese als 
+nicht bewiesen und damit nicht als vorliegend zu behandeln ist.  
+ 
+Die Formulierung des § 286 deutet ein subjektives Element an, da die Feststellung der objektiven 
+Wahrheit so gut wie nie möglich ist. Nach der Rspr. des BGH genügt ein für das praktische Leben 
+brauchbarer Grad an Gewissheit, ein für einen vernünftigen Menschen so hoher Grad von 
+Wahrscheinlichkeit, dass er den Zweifeln Schweigen gebietet, ohne sie vollständig auszuschließen.  
+
+===== SEITE 32 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 32 
+ 
+Die Grenzen sind durch die Verletzung rechtlichen Gehörs und das Willkürverbot abgesteckt. Sobald 
+eine Entscheidung nicht mehr nachvollziehbar ist und offenbar auf sachfremden Erwägungen beruht, 
+ist der Rahmen überschritten.  
+ 
+Der Richter beruft sich hierbei nicht auf einen hohen Grad an Wahrscheinlichkeit. Die 
+Wahrscheinlichkeit ist ein objektiver Befund, der sich auf empirischer Basis für die Richtigkeit einer 
+bestimmten Hypothese hinsichtlich der Häufigkeit eines bestimmten Ereignisses ergibt.  
+ 
+Bei der Tatsachenwürdigung hat sich der Richter an objektiven Richtwerten zu orientieren, 
+insbesondere dem Erfahrungswissen, in jedem Falle den Naturgesetzen. Diese gehen der subjektiven 
+Überzeugungsbildung des Richters vor. Auch bei nicht sofort dem Betrachter einleuchtenden 
+Naturgesetzen, etwa dem anthropologisch - erbbiologischen Gutachten, darf der Richter sich nicht 
+über das Ergebnis hinwegsetzen. Wo derartige Gutachten keine 100 % - ige Sicherheit bieten (wie 
+meistens), muss die Schätzung des Sachverständigen der richterlichen Würdigung zugrunde  gelegt 
+werden.  
+ 
+Zusammenfassend: Der Richter hat bei der Tatsachenwürdigung Wahrscheinlichkeiten zu bewerten, 
+indem er die vorgetragenen Tatsachen und Beweise mit den Erkenntnissen des Erfahrungswissens 
+vergleicht. Enthält ein Erfahrungssatz Merkmale, die im Einzelfall nicht vorkommen, trifft seine 
+Aussage konkret nicht zu. Weist er gegenüber dem Erfahrungssatz weitere Merkmale auf, prüft der 
+Richter, ob er hierdurch zu einem neuen Fall wird. Die Wahrscheinlichkeit aufgrund von 
+Erfahrungssätzen gibt ein subjektives Urteil darüber wieder, dass ein Satz wohl der Wahrheit 
+entspricht, letzte Sicherheit darüber aber nicht zu erlangen ist.  
+ 
+Eine Verminderung der Wahrscheinlichkeitsanforderungen findet sich z.B. in § 287 ZPO: Hier genügt 
+nach herrschender Auffassung eine erhebliche Wahrscheinlichkeit für die Schadensermittlung. 
+Gleichwohl sollte man dieses Erfordernis auch in der Klausur nicht unterschätzen. Z.B. sind gerade bei 
+Berechnungen von Verdienstausfallschäden (bei denen § 287 ZPO häufig zur Anwendung kommt), 
+immer noch recht hohe Anforderungen an den Vortrag von Anknüpfungstatsachen zu stellen.  
+„π x Daumen“ genügt also nicht.  
+ 
+In Fällen, in denen eine derartige Schadensberechnung erforderlich wird, sind im Aktenstück die 
+entsprechenden Anknüpfungstatsachen zu benennen.  
+Geht es etwa um einen durch ein Sanitärunternehmen verursachten Wasserschaden in einer 
+Zahnarztpraxis, der zum einmonatigen Stillstand des Praxisbetriebes führt, wird kaum nachweisbar 
+
+===== SEITE 33 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 33 
+sein, welche Einnahmen mit welchen Patienten im fraglichen Zeitraum realisiert worden wären. Das 
+Bestellbuch könnte hier Indizien liefern, die aber für substantiierten Sachvortrag zur Darlegung des 
+Schadens in der Regel nicht ausreichen dürften. Für die Berechnung des Verdienstausfallschadens 
+lassen sich jedoch Zahlen aus den Vergleichszeiträumen heranziehen, etwa aus dem Vorjahr des 
+Schadensfalls.  
+ 
+Die leitenden Gründe und wesentlichen Gesichtspunkte der Überzeugungsbildung sind seitens des 
+Gerichts im Urteil darzulegen. Grundlage ist der gesamte Inhalt der Verhandlung, das 
+Parteivorbringen, Handlungen, Unterlassungen, persönlicher Eindruck von den Prozessbeteiligten 
+und ihren Vertretern einschließlich einer Beweisaufnahme.  
+ 
+Damit gibt es für die Klausurbearbeitung aus Anwaltssicht eine Orientierung, wie das Gericht die 
+beigebrachten Beweismittel gewichten wird.  
+ 
+Grundsätzlich sind sämtliche Beweismittel gleichwertig zu behandeln. Das Gericht (und damit auch 
+die Anwältin oder der Anwalt)  wird und muss jedoch die spezifischen Fehlerquellen kennen und 
+berücksichtigen:  
+ 
+Der Zeugenbeweis ist als das unzuverlässigste Beweismittel zu betrachten.  
+ 
+Darin wird er (in der Regel!) nur durch die Parteivernehmung übertroffen (es sei denn, die Partei 
+macht z.B. ihr erkennbar ungünstige Angaben, auch neben günstigen).  
+ 
+Ein Sachverständigengutachten ist grundsätzlich im Rahmen einer eigenverantwortlichen, kritischen 
+Prüfung frei zu würdigen. Da der Richter eine Abweichung besonders begründen und dabei auch 
+eigenes, abweichendes Fachwissen belegen muss, wird eine Abweichung vom Gutachten in der Regel 
+nicht zu erwarten sein. Allerdings ist auch die Möglichkeit nicht ganz unbeachtet zu lassen, dass der 
+Richter ein Zweitgutachten einholen kann, wenn er das erste für unzureichend hält (§ 412 ZPO).  
+ 
+Der Augenscheinsbeweis ist sehr zuverlässig, wenn von Echtheit und Unverfälschtheit des 
+Gegenstandes ausgegangen werden kann.  
+ 
+Urkunde: Die §§ 415 ff. ZPO enthalten eine Reihe von Beweisregeln, die die freie Beweiswürdigung 
+ausschließen (siehe unten). Ist die Echtheit der Urkunde zweifelhaft, hat die Partei den Beweis der 
+Echtheit zu führen, die sich auf die Urkunde als Beweismittel stützt.  
+ 
+
+===== SEITE 34 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 34 
+In rechtswidriger Weise erlangte Beweismittel  sind nur eingeschränkt verwertbar: Bestand eine 
+Vorlegungspflicht nach §§ 422 ZPO, 810 BGB, ist auch das lediglich rechtswidrig erlangte 
+Beweismittel verwertbar. Ein Verstoß gegen das allgemeine Persönlichkeitsrecht macht eine 
+Interessenabwägung erforderlich. Heimliche Tonbandaufnahmen sind –ebenso wie heimlich 
+entwendete Tagebuchaufzeichnungen - unverwertbar. Mitgehörte Gespräche am Telefon sind 
+verwertbar, jedenfalls dann, wenn das Gegenüber hiervon in Kenntnis gesetzt wurde.  
+ 
+Der Klärung, ob eine streitige Tatsache wahr ist oder nicht, dient das Beweisverfahren.  
+Die Beweisaufnahme ist Teil des Haupttermins, nicht aber der Güteverhandlung und der streitigen 
+Verhandlung. Der Haupttermin kann beides verbinden. Die mündliche Verhandlung und die 
+Güteverhandlung obliegt den Parteien, die Beweisaufnahme dem Gericht.  
+Das Gericht darf nur zulässigen Beweis im Sinne der §§ 355 - 484 ZPO erheben. D.h. nur zulässige 
+Beweismittel und zulässiges Verfahren. Unzulässiger Beweis darf im Urteil nicht verwertet werden, 
+wenn die betroffene Partei den Prozessfehler spätestens in der nächsten mündlichen Verhandlung 
+rügt: Führt zur Wiederholung der Beweisaufnahme oder –falls nicht möglich - auf Beweisverzicht. 
+Meistens erfolgt Heilung durch Rügeverzicht oder Rügeverlust, § 295 ZPO. Nach § 295 II ZPO sind 
+aber nicht alle Verfahrensfehler heilbar (absolute Verbote).  
+Das Gericht erhebt nur den notwendigen Beweis, d.h. den Beweis über streitige, erhebliche 
+Tatsachen. Unstreitige stehen fest; unerhebliche tragen nichts zur Schlüssigkeits - oder 
+Erheblichkeitsprüfung bei. Offenkundige Tatsachen stehen schon ohne Beweis fest (vgl. unten).  
+ 
+2. Formelles Beweisrecht  
+ 
+a. Beweisverfahren  
+ 
+Das Beweisverfahren beginnt mit dem Beweisantrag = der Antrag, das Gericht solle über eine 
+bestimmte Behauptung (Beweisthema/ Beweistatsache, § 359 ZPO/ Beweisfrage, § 377 III 1 ZPO) 
+einen bestimmten Beweis erheben (auch Beweisantritt oder Beweisangebot).  
+ 
+Der Antrag muss Beweisthema und –mittel nennen und beides aufeinander beziehen. Im Schriftsatz 
+heißt das, den entsprechenden Sachvortrag zu liefern und darunter das darauf bezogene 
+Beweismittel zu liefern.  
+ 
+Die Art des Beweisantritts hängt vom Beweismittel ab (Sachverständigenbeweis, Augenschein, 
+Urkundsbeweis, Zeugenbeweis, Parteivernehmung):  
+ 
+
+===== SEITE 35 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 35 
+Der Urkundsbeweis erfordert Vorlage der Urkunde bei Gericht (§ 420 ZPO; sonst §§ 421, 424, 428, 
+430, 432 ZPO).  
+ 
+Für den Beweisantritt beim Zeugenbeweis sind der v olle Name und eine ladungsfähige Anschrift 
+erforderlich.  
+ 
+Der Beweis durch einen gerichtlich bestellten Sachverständigen wird durch das Angebot angetreten: 
+„Beweis:  Sachverständigengutachten“.  
+ 
+Der Augenscheinsbeweis durch die Formulierung „Beweis: Augenschein“.  
+ 
+Soll eine Partei vernommen werden, erfordert der Beweisantritt insbesondere die Benennung,  
+welche Partei vernommen werden soll.  
+ 
+Der Beweisantrag ist Angriffs- oder auch Verteidigungsmittel. Jederzeitige Rücknahme möglich, aber: 
+Sobald die Urkunde vorliegt oder der Zeuge vor Gericht erschienen ist, kann der Gegner den Beweis 
+erzwingen (§§ 399, 436 ZPO).  
+ 
+Nur der Zeugenbeweis erfordert ausnahmslos einen Beweisantrag. Über die übrigen 
+Beweiserhebungen kann das Gericht von Amts wegen entscheiden. Nach BGH muss der Tatrichter 
+zur Beurteilung schwieriger (z.B. medizinischer) Sachfragen auch ohne Beweisantrag Beweis erheben. 
+In der Klausur empfiehlt sich natürlich immer der Beweisantritt, am besten durch die Benennung 
+mehrerer Beweismittel, wenn vorhanden.  
+ 
+Die Ablehnung des Beweisantrages ist in der ZPO nicht geregelt und wird aus §  244 III StPO analog 
+entnommen (UNZULÄSSIGER, ÜBERFLÜSSIGER ODER UNERHEBLICHER BEWEISANTRAG).  
+Das Gericht hat in der Regel die Pflicht, auf die beabsichtigte Ablehnung des Beweisantrages 
+hinzuweisen. 
+Unzulässig ist z.B. Beweisermittlungsantrag (Ausforschungsbeweis), der kein bestimmtes 
+Beweisthema oder –mittel nennt.  
+Überflüssig ist der Beweis, wenn das Gericht von einer Tatsache schon überzeugt oder diese 
+offenkundig ist.  
+Unerheblich ist der Beweis, wenn die zu beweisende Tatsache für Schlüssigkeit oder Erheblichkeit 
+nichts hergibt.  
+ 
+
+===== SEITE 36 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 36 
+Das Gericht darf den Beweisantrag nicht mit der Begründung ablehnen, der Beweis sei bereits in 
+einem anderen Verfahren, etwa einem Strafverfahren erhoben worden. Der 
+Unmittelbarkeitsgrundsatz steht dem entgegen : Gemäß § 355 ZPO erfolgt die Beweisaufnahme vor 
+dem Prozessgericht. Grund hierfür ist der Grundsatz der freien Beweiswürdigung nach § 286 ZPO , da 
+die sachgerechte Bewertung der Beweismittel in der Regel einen unmittelbaren Eindruck erfordert. 
+Ausnahmen sind Beweisaufnahmen durch einen beauftragten oder ersuchten Richter (§§ 361, 362 
+ZPO).  
+Die Beweisanordnung erfolgt in der Regel formlos. Ein Beweisbeschluss ist zwar möglich (§§ 358, 
+359 ZPO); zwingend aber nur im schriftlichen Vorverfahren (§ 358a  ZPO), für die Parteivernehmung 
+(§ 450 I ZPO) oder bei besonderen Verfahren (§ 358 ZPO).  
+Für Rechtsfolgen und Rechtsbegriff des deutschen Rechts ist eine Beweiserhebung nicht möglich 
+(damit auch kein Beweisantrag!). Anders kann dies bezüglich ausländischen Rechts, besonderer 
+Regeln in Handwerk, Gewerbe, Handel und Verkehr (§ 293 ZPO) aussehen.  
+ 
+Zu beachten ist, dass in der Klausurstellung eine Beweisaufnahme möglicherweise schon 
+stattgefunden hat, etwa im selbständigen Beweisverfahren. Das Gericht verwendet das 
+Beweisergebnis ohne weiteres als Entscheidungsgrundlage. ABER: Wurde die Beweisaufnahme vor 
+dem beauftragten oder ersuchten Richter durchgeführt, muss das Beweisergebnis dem 
+Prozessgericht vorgetragen werden, damit es im Urteil verwertet werden kann (§ 285 II ZPO).  
+ 
+Ein weiterer allgemeiner Grundsatz ist die Parteiöffentlichkeit der Beweisaufnahme nach § 357 ZPO : 
+Den Parteien ist es gestattet, an der Beweisaufnahme teilzunehmen. Dieser Grundsatz wird zum Teil 
+eingeschränkt: § 357 ZPO gewährt den Parteien nicht das Recht auf den Zutritt zu einer Wohnung 
+oder einem Grundstück. Je nach Konstellation muss die Beweisaufnahme in diesen Fällen 
+äußerstenfalls unterbleiben. Wird der Zutritt ohne sachlichen Grund verweigert, kommt auch eine 
+Beweisvereitelung in Betracht.  
+Eine weitere Ausnahme stellt die ärztliche Untersuchung durch einen Sachverständigen (in der Regel 
+in einem Arzthaftungsverfahren) dar. Auch hier nimmt die Rechtsprechung überwiegend an, dass 
+kein Anwesenheitsrecht des Gegners besteht.  
+ 
+Beweiseinreden sind gegen Beweisantritte des Gegners ohne weiteres möglich ( hierbei handelt es 
+sich um  Tatsachenbehauptungen für die Unzulässigkeit des Beweises oder den Unwert eines 
+Beweismittels).  
+ 
+b. Beweismittel  
+ 
+
+===== SEITE 37 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 37 
+Augenschein => Die A ugenscheinnahme ist jede unmittelbare sinnliche Wahrnehmung des 
+Prozessgerichts, sei es optischer, akustischer, olfaktorischer oder haptischer Natur.  
+Der Beweiswert ist gut, da dem Augenschein eine verlässliche eigene Wahrnehmung zugrunde liegt. 
+Die Beweislast für die Unversehrtheit und Unverändertheit des AS - Objektes trägt der 
+Beweisbelastete; die Anordnung der Beweiserhebung erfolgt auf Antrag des Beweisführers (§ 371) 
+oder auf Veranlassung des Prozessgerichts (§ 144 ZPO).  
+ 
+Zeugenbeweis: Der Zeuge sagt über vergangene Tatsachen aus, ohne rechtliche Schlüsse zu ziehen 
+oder Willenserklärungen auszulegen;  
+Zeuge ist jeder, den das Gesetz nicht zur Parteivernehmung zulässt. Zeuge ist z.B. der nicht 
+vertretungsberechtigte OHG - Gesellschafter, nicht aber der Geschäftsführer; Zeuge ist auch der 
+Zedent, der vor dem Prozess abgetreten hat ( dieses Vorgehen ist nicht rechtsmissbräuchlich, auch 
+wenn es aus taktischen Gründen erfolgt ). Vernehmungsfähig sind grundsätzlich auch Kinder, soweit 
+sie der Vernehmung körperlich und geistig folgen können.  
+Im Falle der Vernehmung Minderjähriger ist darauf zu achten, dass der Verzicht auf das 
+Zeugnisverweigerungsrecht in einem Verfahren, an dem ihre Erziehungsberechtigten beteiligt sind, 
+nicht durch diese erklärt werden kann. Die oder der Minderjährige benötigt aufgrund der dieser 
+Konstellation innenwohnenden Interessenkollision einen Verfahrenspfleger, der über den Verzicht 
+auf das Zeugnisverweigerungsrecht entscheidet und dabei ausschließlich die Interessen der/des 
+Minderjährigen berücksichtigt.  
+Beim Beweisantritt in der Klausur ist auch im Übrigen zu berücksichtigen, ob sich ein Zeuge 
+möglicherweise auf Aussageverweigerungsrechte (§ 383 ZPO) oder sein 
+Auskunftsverweigerungsrecht (§ 384 ZPO) berufen wird. § 385 ZPO ist zu beachten! Diese Fragen sind 
+im Rahmen der Beweisprognose zu erörtern.  
+Für den Zeugenbeweis  ist ausnahmslos ein Beweisantrag erforderlich (§ 373 ZPO). Ist ein Termin in 
+der Klausur kurzfristig anberaumt, d.h. können die Ladungsfristen möglicherweise nicht eingehalten 
+werden, kann der Zeuge der eigenen Partei im Termin gestellt werden.  
+ 
+Sachverständigenbeweis: Der SV vermittelt dem Gericht Spezialkenntnisse auf einem Gebiet, das 
+dieses nicht beherrscht, und wendet diese Kenntnisse auf den Streitfall an. Er ermittelt auch 
+Tatsachen, die der Richter als Laie nicht feststellen kann.  
+Thema kann (auch deutsches) Satzungsrecht sein; ansonsten nur ausländisches Recht.  
+Die Sachverhaltsermittlung ist nicht die Arbeit des Sachverständigen. Das bleibt Aufgabe des 
+Gerichts, das hierbei auf den Parteivortrag (und ggf. eine Beweisaufnahme über die 
+„Anschlusstatsachen“) angewiesen ist. Allerdings sind Konstellationen denkbar, in denen gerade ein 
+
+===== SEITE 38 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 38 
+Teil der Sachverhaltsermittlung durch den Sachverständigen erfolgt, etwa durch Messungen , 
+Probeentnahmen oder Analysen.  
+Soweit es die Klausursituation hergibt, sollte bekannt sein, dass ein Sachverständiger aus den 
+gleichen Gründen abgelehnt werden kann wie ein Richter (§§ 406, 41 ff. ZPO).  
+Die Beweiserhebung erfolgt auf Antrag oder von Amts wegen (§§ 403, 144 I, 273 II Nr. 4, 287 I 2, 
+372 I ZPO).  
+Der Beweiswert ist gut. In der Klausurkonstellation kann davon ausgegangen werden, dass die 
+Beweisaufnahme zum gewünschten Erfolg führt. In der Praxis hängt an ihr in der Regel der Ausgang 
+des Verfahrens, da das Prozessgericht den Ergebnissen des Sachverständigengutachtens in der Regel 
+folgt.  
+  
+Urkundsbeweis => Nur schriftliche Äußerungen  unterfallen dem Urkund enbegriff. Es kann sich im 
+Übrigen um Absichts- oder Zufallsurkunden handeln; über die Bedeutung der Urkunde entscheidet 
+das Gericht durch Auslegung. Ansonsten darf das Gericht den Urkundsbeweis nicht frei würdigen. 
+Gesetzliche Beweisregeln bestimmen, was er wert ist: §§ 415 - 418, 286 II ZPO. Gesetzliche 
+Vermutungen ändern die Beweislast, §§ 437 I, 440 II ZPO. Auch von Relevanz ist die tatsächliche 
+Vermutung, eine Vertragsurkunde gebe die Vertragserklärungen richtig und vollständig wieder. D.h. 
+wer mündliche Nebenabreden behauptet, muss plausibel machen, wieso sie nicht in die 
+Vertragsurkunde aufgenommen wurden.  
+ 
+Das Gericht unterscheidet die echten von den unechten und die öffentlichen von den privaten 
+Urkunden:  
+ 
+Echt ist die Urkunde, wenn derjenige sie ausstellt, den die Urkunde als Aussteller angibt. Der 
+Beweiswert richtet sich gegen sich gegen den Aussteller.  
+ 
+Öffentlich ist die Urkunde, wenn eine Behörde oder eine Urkundsperson öffentlichen Glaubens sie 
+ausstellt (§ 415 I ZPO).  
+ 
+Volle Beweiskraft entfaltet nur die echte, fehlerfreie Urkunde. Sichtbare Mängel machen die Urkunde 
+zwar nicht wertlos, schließen jedoch die besonderen gesetzlichen Beweisregeln aus und geben dem 
+Gericht die volle Freiheit der Beweiswürdigung zurück. Hierfür ist ausreichend, dass der Mangel den 
+Verdacht der nachträglichen Änderung weckt.  
+ 
+Öffentliche Urkunden  sind von Behörden oder Personen öff entlichen Glaubens ausgestellt 
+(§ 437 I ZPO). Verweisen Form oder Inhalt auf diese, wird die Echtheit vermutet. Zweifel klärt das 
+
+===== SEITE 39 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 39 
+Gericht durch Rückfragen beim Aussteller (§ 437 II  ZPO). Das bezieht sich nicht auf ausländische 
+Urkunden (der Verweis in § 438 I ZPO führt zur freien Beweiswürdigung des § 286 ZPO).  
+ 
+Die echte und mangelfreie Urkunde hat nach §§ 415, 417 und 418 ZPO gesetzliche Beweiskraft.  
+§ 415 ZPO bezieht sich auf Willenserklärungen und Prozesshandlungen. Es ist damit bewiesen, dass 
+die Erklärung zur angegebenen Zeit und am angegebenen Ort vor der Urkundsperson abgegeben 
+wurde, nicht aber, ob die beurkundete Erklärung wahr ist und ob derjenige sie abgegeben hat, dem 
+die Urkunde sie zuschreibt. Es gilt § 286 ZPO. Ob die Erklärung wirksam ist oder was sie bedeutet, ist 
+keine Beweis-, sondern eine Rechtsfrage.  
+§ 415 II ZPO bestimmt, dass der Nachweis der unrichtigen Beurkundung möglich ist. Ausnahmen sind: 
+§§ 165 S. 2, 314 S. 2 ZPO. Es ist ein voller Gegenbeweis erforderlich, der mit Parteivernehmung 
+jedoch nicht erbringbar ist (§ 445 II ZPO).  
+§ 417 ZPO begründet die Beweiskraft öffentlicher Urkunden über amtliche Entscheidungen (Urteile, 
+Beschlüsse, Verwaltungsakte, Widerspruchsbescheide); ob die Entscheidung zutrifft, ist keine 
+Beweis-, sondern eine Rechtsfrage.  
+Öffentliche Zeugnisurkunden nach § 418 I ZPO bezeugen tatsächliche Vorgänge (Eingangsstempel, 
+Zustellungsurkunden, Empfangsbekenntnisse, Grundbuchauszüge). Sie begründen vollen Beweis, 
+wenn die Urkundsperson eine eigene Wahrnehmung bezeugt. Beurkundet die Urkundsperson eine 
+fremde Wahrnehmung, gilt nach § 418 III der § 286 I ZPO.  
+ 
+Privaturkunden sind nur als echte Urkunde beweiskräftig. Die Echtheit steht fest, wenn sie unstreitig 
+(§ 439 III ZPO) oder bewiesen ist. Der Gegner des Beweisführers hat sich nach § 138 ZPO über die 
+Echtheit zu erklären. Der Beweisführer hat die Echtheit ggf. zu beweisen, § 440 I ZPO. Es gilt die 
+Vermutung nach § 440 II ZPO. Äußere Mängel können die Vermutung der Echtheit zerstören. Nicht 
+vermutet wird die Wahrheit des Urkundeninhalts.  
+Die Vermutung der Echtheit gilt auch für den Text, der über eine Blankounterschrift gesetzt wird. Der 
+Beweis des Gegenteils ist nach § 292 ZPO zulässig. Es wird nicht vermutet, auch spätere Änderungen 
+oder Ergänzungen der vollständigen Urkunde seien echt. § 419 ZPO  weist hier wieder den Weg zur 
+freien Beweiswürdigung.  
+Die echte und mangelfreie Privaturkunde beweist, dass der Aussteller die schriftliche Erklärung 
+abgegeben hat. Nicht, dass die Erklärung wahr ist und den Adressaten erreicht hat. Dafür spricht die 
+allgemeine Lebenserfahrung, notfalls bleibt die freie Beweiswürdigung.  
+ 
+Den Urkundsbeweis erhebt das Gericht auf Beweisantrag oder von Amts wegen (§§ 142, 143, 273 II 
+Nr. 1, 2 ZPO). Die Beweisaufnahme besteht darin, dass das Gericht die Urkunde liest und auswertet.  
+ 
+
+===== SEITE 40 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 40 
+Der Beweisantrag richtet sich danach, wer die Urkunde in Händen hält:  
+ 
+Besitz des Beweisführers: Die Vorlage erfolgt gemäß  § 420 ZPO. Privaturkunden sind im 
+Original vorzulegen, von öffentlichen Urkunden genügen beglaubigte Abschriften oder 
+Fotokopien (§ 435 ZPO). Unbeglaubigte Fotokopien sind nur Parteivorbringen, begründen 
+aber keinen Beweis. Per beA wird natürlich der Scan einer Urkunde beigefügt. Jedoch sollte 
+das Original unaufgefordert zur mündlichen Verhandlung zur Verfügung stehen. In der Regel 
+ergehen im Vorfeld entsprechende Anordnungen des Gerichts, das Original vorzulegen, etwa 
+im Arzthaftungsprozess: Hier wird die Patientenakte zumeist im Original angefordert, auch 
+zur Weitergabe an einen Sachverständigen.  
+ 
+Besitz des Beweisgegners: Die Vorlage erfolgt nach §§ 421, 424 ZPO; im Falle des § 425 ZPO 
+und der Vorlegungspflicht des Gegners (§ 422 ZPO) ordnet das Gericht durch Beschluss an, 
+dass der Gegner die Urkunde vorlege (§ 425 ZPO). Eine prozessrechtliche Vorlegungspflicht 
+des Gegners besteht nur im Falle des § 423 ZPO ( dies bestimmt sich nach materiellem Recht, 
+z.B. §§ 259 I, 371, 402, 716, 809, 810, 985, 1144 BGB; 118, 157 III, 166 HGB). Wenn der 
+Gegner den Urkundenbesitz bestreitet, beschließt das Gericht, ihn als Partei zu vernehmen (§ 
+426 ZPO) und ordnet die Vorlegung nach § 426 S. 4 ZPO an. Legt der Gegner nicht vor, gilt § 
+427 ZPO.  
+ 
+Beweis eines Dritten : Das Beweisangebot erfolgt mit dem Antrag, das Gericht solle dem 
+Beweisführer erlauben, die Urkunde binnen einer  zu setzenden Frist zu beschaffen (§§ 428, 
+430 ZPO). Ungenügend ist der Antrag, den Dritten als Zeugen zu laden, damit er die Urkunde 
+mitbringe. Das Gericht entspricht dem Beweisantrag nach § 431 ZPO, wenn dieser korrekt 
+gestellt ist (§ 430 ZPO) und der Dritte zivilrechtlich verpflichtet ist, die Urkunde dem 
+Beweisführer vorzulegen (§ 429, § 422 ZPO).  
+ 
+Besitz einer Behörde: Behauptet der Beweisführer, die Urkunde sei im Gewahrsam einer 
+Behörde und kann er sie nicht selbst beschaffen, tritt er Beweis an mit dem Antrag, die 
+Behörde um Amtshilfe und Übermittlung der Urkunde zu ersuchen (§ 432 ZPO). Befindet sich 
+die Urkunde in anderen Akten (z.B. Gerichtsakten), muss der Beweisführer die Akte genau 
+bezeichnen. Der Antrag, die gesamte Akte beizuziehen, ist noch kein Beweisantrag!  
+ 
+Augenscheins- und Vernehmungsprotokolle sowie Sachverständigengutachten aus anderen 
+Verfahren sind als Urkundsbeweisstücke zu behandeln, auch gegen den Widerspruch der anderen 
+Partei. Erst wenn diese gegenbeweislich Beweis durch Zeugen-, Augenscheins - oder 
+
+===== SEITE 41 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 41 
+Sachverständigenbeweis antritt, wird diese Form des Urkundsbeweises unzulässig  (siehe oben: 
+Unmittelbarkeitsgrundsatz).  
+ 
+Ein schriftliches Gutachten im Auftrag einer Partei  ist im Übrigen nicht stets reiner Parteivortrag, 
+sondern kann als Urkundsbeweis angesehen , sollte aber nicht mit einem gerichtlichen 
+Sachverständigengutachten verwechselt werden ; sofern der Gegner Sachverständigenbeweis 
+beantragt, hat das Gericht dem nachzukommen.  
+ 
+Parteivernehmung: Diese ist zunächst zu unterscheiden von der Parteianhörung (§§ 141, 273 II Nr. 3, 
+278 I 2 ZPO): Letztere soll lückenhaftes Parteivorbringen ergänzen. Die Parteiangaben sind nur 
+streitiger oder unstreitiger Parteivortrag, den der Richter nicht als Beweis würdigen darf. Die 
+Parteivernehmung wird stets durch Beweisbeschluss angeordnet und protokolliert. § 455 ZPO regelt, 
+wer als Partei vernommen werden kann.  
+ 
+Die Parteivernehmung kann auf Antrag des Gegners (§ 445 ZPO), auf eigenen Antrag (§ 447 ZPO), von 
+Amts wegen (§§ 448, 613 ZPO) oder als Schätzungsvernehmung (§ 287 I 3 ZPO) angeordnet werden.  
+Nicht zulässig ist die Parteivernehmung zum Gegenbeweis (§ 445 II ZPO), im Urkundenprozess zum 
+Beweis der Anspruchsvoraussetzungen (§§ 592, 595 III ZPO) und im Wiederaufnahmeverfahren 
+(§ 581 II ZPO).  
+ 
+Zur Zulässigkeit des Beweisantrittes  nach § 448 ZPO  wird gefordert, die Beweistatsache müsse 
+„anbewiesen“ sein. Für die Klausur bedeutet dies, dass die Parteivernehmung als unsicher(st)es 
+Beweismittel gelten sollte, das ohne weitere Beweismittel nicht für die ganz 
+entscheidungserheblichen Fragen angeboten werden kann. Letztlich würdigt das Gericht die 
+Parteiaussage jedoch frei wie alle anderen Beweismittel. Von Amts wegen wird die 
+Parteivernehmung i.d.R. nur angeordnet, „um die letzten Zweifel zu zerstreuen“, d.h. wenn die 
+bestrittene Behauptung dem Gericht bereits wahrscheinlich erscheint.  
+Bietet der Beweisführer neben der Parteivernehmung auch Zeugenvernehmung an, ist zuerst dieser 
+Beweis zu erheben.  
+ 
+3. Selbständiges Beweisverfahren   
+ 
+Dieses dient  einer vorsorglichen Beweisaufnahme während oder außerhalb des Prozesses (§ 485 I 
+ZPO). Es beginnt mit einem Beweisantrag und endet mit der Beweisaufnahme oder der Ablehnung 
+des Antrags.  
+
+===== SEITE 42 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 42 
+Zulässig sind hier nur  Augenscheins-, Zeugen - und Sachverständigenbeweis (§ 485 I ZPO). Es kann 
+auch ein schriftliches Sachverständigengutachten eingeholt werden (§485 I, II ZPO); bei Bedarf erfolgt 
+die mündliche Erläuterung durch den Sachverständigen (§§ 492 I, 411 ZPO). 
+ 
+Als Beweisthema eignet sich jede Behauptung (§ 487 Nr. 2 ZPO). Ob streitig oder nicht, spielt erst im 
+Prozess eine Rolle.  
+ 
+Im Prozessverfahren ist dieses Verfahren  zulässig, wenn der Gegner zustimmt oder die Besorgnis 
+besteht, dass der Beweis verloren gehe oder erschwert werde (§ 485 I ZPO).  
+ 
+Außerhalb des Prozesses , eher der Regelfall der Klausurkonstellation,  ist ein rechtliches Interesse 
+notwendig für die schriftliche Begutachtung des Zustandes einer Person, des Zustandes oder des 
+Wertes einer Sache, der Ursache eines Schadens oder Sachmangels und des Aufwandes für die 
+Beseitigung eines Schadens oder Mangels (§ 485 II ZPO). Ein häufiger Fall sind Gebäude- und sonstige 
+Sachschäden, u.a. die Grundstücksabsenkung §§ 909, 823 II BGB).  
+ 
+Verfahren:  
+Es ist ein Beweisantrag nach § 487 ZPO  zu stellen. Die Hinzuziehung einer Rechtsanwältin oder eines 
+Rechtsanwalts ist nicht notwendig, § 486 IV, 78 III ZPO. Einen Sachverständigen wählt das Gericht aus 
+(normal nach § 404 ZPO).  Zuständig ist das (evtl.) Prozessgericht, § 486 I II ZPO, § 486 III ZPO.  Das 
+Verfahren wird schriftlich durchgeführt, § 490 I ZPO, aber § 492 III ZPO ist zu beachten.  
+Die beabsichtigte Ablehnung des Sachverständigen ist schon im selbständigen Beweisverfahren 
+möglich, §§ 492 I, 406 ZPO. Die Ablehnung muss erfolgen, wenn der Ablehnungsgrund schon bekannt 
+ist. Anderenfalls droht der Verlust des Ablehnungsrechts.  
+Auf zulässigen Antrag ordnet das Gericht den Beweis durch Beschluss an (§ 490 II 1 ZPO).  Die 
+Beweisaufnahme erfolgt nach den allgemeinen Regeln, § 492 I ZPO, § 493 II ZPO. 
+ 
+Den unzulässigen Antrag lehnt das Gericht durch Beschluss ab ( falls die Voraussetzungen der §§ 485-
+487 ZPO nicht vorliegen).  
+§ 493 I ZPO gilt im Prozess hinsichtlich der Kosten. Ohne Hauptprozess gibt es jedenfalls keine 
+prozessuale Kostenerstattung. Hier ist § 494 a ZPO zu beachten: Es droht die Kostenlast, wenn der 
+Gegner nach Abschluss des Beweisverfahrens beantragt, dem Antragsteller eine Frist zur 
+Klageerhebung zu setzen.  
+Das Verfahren endet schließlich mit dem letzten Akt der Beweisaufnahme: der Protokollierung des 
+Augenscheins, der Zeugen – oder Sachverständigenvernehmung. Jede Partei darf den selbständigen 
+
+===== SEITE 43 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 43 
+Beweis im Prozess benutzen. Seine Verwendung wirkt wie eine Beweisaufnahme des Prozessgerichts 
+(§ 493 I ZPO). Das Beweisergebnis ist u nverwertbar, wenn der Beweis nicht korrekt erhoben wurde, 
+§ 493 II ZPO. 
+Die Zustellung des Antrages auf Einleitung des selbständigen Beweisverfahrens hemmt nach § 204 
+Abs. 1 Nr. 7 BGB die Verjährung. Die Hemmung endet jedoch sechs Monate nach Zustellung des 
+Gutachtens bzw. dessen ergänzender Erläuterung, § 204 Abs. 2 BGB.  
+ 
+4. Beweislast 
+ 
+Der Richter hat stets über den prozessualen Anspruch sachlich mit Verbindlichkeit für die Parteien zu 
+entscheiden (§ 322 ZPO). Im Falle der Beweisfälligkeit beruht die Sachentscheidung des Richters auf 
+den materiellen Beweislastregeln.  
+ 
+ 
+a. Behauptungslast:  
+ 
+Diese d eckt sich grundsätzlich mit der Beweislast , was dem  Beibringungsgrundsatz entspricht. Der 
+Richter muss nach der erweiterten Pflicht nach § 139 ZPO in erhöhtem Maße auf die vollständige 
+Erklärung der Parteien hinwirken. Die Folgen der Behauptungslast treffen die betreffende Partei erst, 
+wenn sie trotz Belehrung ihre Behauptungen nicht vervollständigt: Die Klage wird  dann als 
+unschlüssig abgewiesen. Im Anwaltsprozess kann die Hinweispflicht bei entsprechendem Vortrag der 
+Gegenseite etwas zurücktreten.  
+ 
+b. Beweisführungslast:  
+ 
+Die abstrakte Beweisführungslast gibt an, welche Partei Beweisanträge stellen darf und muss, wenn 
+sie nicht wegen Beweisfälligkeit den Prozess verlieren will.  
+Eine Einschränkung erfährt dies aufgrund der prozessualen Aufklärungspflicht des Gegners: Auch die 
+nicht beweisbelastete Partei schuldet jede zumutbare Auskunft über rechtserhebliche 
+Sachverhaltskomplexe und über die Existenz von Beweismitteln.  
+Dem wird auch  dadurch genüge getan , dass das Gericht alle Beweismittel –außer dem 
+Zeugenbeweis- auch von Amts wegen heranziehen kann.  
+ 
+Tritt die beweisführungspflichtige Partei keinen Beweis an, wird sie dem Gesagten zufolge als 
+beweisfällig behandelt, wenn der Gegner nicht aufklärungspflichtig ist , das Gericht eine mögliche 
+
+===== SEITE 44 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 44 
+Beweisaufnahme von Amts wegen pflichtgemäß ablehnt oder die Partei im Rahmen der gerichtlichen 
+Aufklärungspflicht nach § 139 ZPO zum Beweisantritt aufgefordert worden ist.  
+ 
+In der Klausur sollte man sich keinesfalls auf diese Einschränkungen verlassen, sondern alle Beweise 
+in den Ring schicken, die zu Gebote stehen!  
+ 
+Die konkrete Beweisführungslast  betrifft die Verfahrenssituation, in der sich das Gericht eine 
+vorläufige Überzeugung von der Wahrheit einer Tatsachenbehauptung gebildet hat. Der Gegner 
+muss dann versuchen, die Grundlage dieser Überzeugung durch weitere Beweisführung zu 
+entziehen, wenn er mit dem Beweisergebnis nicht zufrieden ist. Zu Beginn des Prozesses deckt sie 
+sich mit der abstrakten Beweislast, später wechselt sie je nach Verfahrenslage.  
+ 
+b. Objektive Beweislast:  
+ 
+Ihr Gegenstand ist die Frage, zu wessen Gunsten oder Ungunsten eine misslungene Beweisaufnahme 
+zu berücksichtigen ist. Je nach Beweislastregel wird die behauptete Tatsache, die unbewiesen 
+geblieben ist, als gegeben oder nicht gegeben fingiert. Wer im Prozess von einem anderen eine 
+Leistung verlangt, muss die Voraussetzungen dieses Anspruchs behaupten und im Bestreitensfall 
+beweisen. Non liquet bedeutet –als Grundregel verstanden- für den Beweisbelasteten also: Nein.  
+Der Kläger trägt die Beweislast nur für die ihm günstigen Tatsachen. Rechtsvernichtende 
+Einwendungen, rechtshemmende Einreden und Gegenrechte hat der Beklagte zu beweisen. Diese 
+Zuordnung ergibt sich aus dem materiellen Recht selbst, in vielen Fällen aus dem Aufbau einer 
+gesetzlichen Bestimmung (daher die Bezeichnung der herrschenden Theorie als „Satzbaulehre“).  
+Ausdrückliche Regelungen zur Beweislast finden sich z.B. in §§ 363, 2336 Abs. 3, 932 oder auch in 
+§ 280 Abs. 1 S. 2 BGB. Der Gesetzgeber hat in diesen Vorschriften Abweichungen vom erläuterten 
+Grundsatz durch Formulierungen wie „es sei denn das ...“ kenntlich gemacht. Außerdem sind zum 
+Teil Tatsachen- und Rechtsvermutungen (z.B. §§ 891, 1006 BGB) geregelt. Tatsachen- und 
+Rechtsvermutungen sind nach § 292 ZPO grundsätzlich widerlegbar. Zudem hat der Anwalt in 
+wichtigen Fallgruppen die gesetzliche Beweislastverteilung nach dem Regel-Ausnahme- Verhältnis zu 
+beachten. Im Bereich der Produkthaftung und im Arzthaftungsrecht (z.B. für den 
+Kausalzusammenhang bei groben Behandlungsfehlern) ist eine Beweislastumkehr für einzelne oder 
+mehrere Anspruchsvoraussetzungen zu beachten (zum Arzthaftungsrecht beachte aber die 
+gesetzlichen Regelungen der §§ 630 a - h BGB - zur Beweislast finden sich Sonderreglungen in § 630 h 
+BGB). Davon zu unterscheiden sind sogenannte „tatsächliche Vermutungen“. Dazu zählt der 
+Rückschluss auf die verwerfliche Gesinnung bei einem auffälligen Missverhältnis zwischen Leistung 
+
+===== SEITE 45 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 45 
+und Gegenleistung oder Vermutung der Wiederholungsgefahr bei einmaligem Verstoß  im 
+Wettbewerbsrecht.  
+ 
+ 
+5. Prozessuale Beweiserleichterungen  
+ 
+a. Offenkundige Tatsachen  
+ 
+Nach § 291 ZPO bedürfen diese keines Beweises. Hierbei handelt es sich nicht um eine 
+Beweiserleichterung im engeren Sinne –dies nur im Ergebnis -sondern § 291 ZPO grenzt die 
+beweisbedürftigen von den nicht beweisbedürftigen Tatsachen ab. Abzugrenzen sind die 
+offenkundigen Tatsachen von den dem Gericht unbekannten Tatsachen, die eine Beweisaufnahme 
+erforderlich machen.  
+Es handelt sich um  
+ 
+Allgemeinkundige Tatsachen  
+Diese sind einer beliebigen Personenzahl bekannt oder aus allgemein zugänglichen Quellen 
+ermittelbar (z.B. Suchmaschinen im Internet). Es wird auf die Kenntnis „verständiger“ oder 
+„besonnener“ Kreise abgestellt. In erster Linie geht es hier um  geographische, geschichtliche , 
+aber auch naturwissenschaftliche  Fakten sowie in den Medien widerspruchslos veröffentlichte 
+glaubhafte Mitteilungen. Es genügt, wenn sich da s Gericht hierüber erst durch Nachforschungen 
+Gewissheit verschafft.  
+ 
+Gerichtskundige Tatsachen 
+Diese sind dem Gericht in seiner bisherigen amtlichen Tätigkeit bekannt geworden 
+(Beweisaufnahme aus einem früheren Verfahren, Sachverständigengutachten, dienstliche 
+Erklärungen, amtliche Auskünfte).  
+ 
+Aktenkundige Tatsachen  
+Hier geht es um solche Tatsachen, die für das Gericht ohne weiteres aus anderen Akten 
+desselben Gerichts feststellbar oder aus Eintragungen in einem bei diesem Gericht geführten 
+Register abzulesen  sind; dies sind nach h.M. keine offenkundigen Tatsachen, werden aber so 
+behandelt  
+ 
+Formlos bewiesene Tatsachen  
+
+===== SEITE 46 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 46 
+Formlos bewiesene Tatsachen sind dem Richter z.B. auf dem Weg zur Arbeit bekannt geworden; 
+sie können keine Beweisaufnahme ersetzen, da die Grundsätze der Parteiöffentlichkeit verletzt 
+würden, was durch § 291 ZPO nicht gedeckt ist. Allerdings kann das Einbringen solcher Tatsachen 
+durch den Richter dazu führen, dass die entsprechenden Tatsachen unstreitig werden und es 
+deshalb keiner Beweisaufnahme mehr bedarf.  
+ 
+Privatkundige Tatsachen  
+Dies sind dem Richter als Privatmann bekannt geworden; auch hier ist eine Beweisaufnahme 
+erforderlich, aus denselben Gründen wir bei den formlos bewiesenen Tatsachen.  
+ 
+Das Gericht hat darauf hinzuweisen, dass und welche Tatsachen als offenkundig behandelt 
+werden sollen. § 291 ZPO betrifft den Hauptbeweis, d.h. dem Gegner steht der Gegenbeweis 
+offen. Für diesen gelten die allgemeinen Grundsätze der Beweisaufnahme.  
+ 
+In der Klausurbearbeitung sollte transparent gemacht werden, ob die Bearbeiterin/ der 
+Bearbeiter eine Tatsache für eine offenkundige Tatsache hält, damit dies für die 
+Klausurkorrektorinnen und -korrektoren erkennbar ist. Rein vorsorglich sollte in der 
+Beweisprognose die Möglichkeit ins Spiel gebracht werden, dennoch Sachverständigengutachten 
+anzubieten. Auch in den Zweckmäßigkeitserwägungen sollte ein entsprechender Hinweis nicht 
+fehlen.  
+ 
+b. Indizienbeweis  
+ 
+Entscheidungserheblich (d.h. zu beweisen ) sind grundsätzlich nur Tatsachen mit unmittelbarem 
+Bezug zum Streitgegenstand. Nicht immer kann jedoch die Haupttatsache direkt bewiesen werden. 
+Die volle Überzeugung des Gerichts lässt sich jedoch nicht nur durch einen unmittelbar auf die 
+Haupttatsache gerichteten Beweis gewinnen. Möglich ist auch, dass das Gericht einen 
+Lebenssachverhalt feststellt, der bei vernünftiger Würdigung aller Umstände nur den Schluss zulässt, 
+dass die Haupttatsache vorliegen muss. Diese Umstände nennt man Indizien. Die Indizien müssen 
+von den Parteien vorgetragen sein. Sie müssen feststehen und geeignet sein, den Schluss auf die 
+Haupttatsache zuzulassen. Liegt die Schlüssigkeit der Indizien vor, kann überlegt werden, ob die aus 
+ihnen gefolgerte Haupttatsache geeignet ist, das geltend gemacht Recht als entstanden erscheinen 
+zu lassen.  
+Kern des Indizienbeweises ist die vom Gericht zu ziehende oben genannte Schlussfolgerung, die 
+andere Möglichkeiten nicht ernsthaft in Betracht kommen lässt. Am Ende steht die volle richterliche 
+Überzeugung von der Haupttatsache.  
+
+===== SEITE 47 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 47 
+Hier spielen Erfahrungssätze eine noch größere Rolle als bei der „normalen“ Beweiswürdigung; die 
+Überzeugungskraft des Indizienbeweises hängt von der Validität des zugrundeliegenden 
+Erfahrungssatzes ab.  
+Sind die Indizien selbst streitig, können sie selbst Gegenstand einer Beweisaufnahme sein (hier ist der 
+Vollbeweis zu erbringen, da die Indizien nach Überzeugung des Gerichts feststehen müssen).  
+ 
+Der Zeuge des Hörensagens  kann Indizien liefern. Der Beweiswert seiner Aussage ist allerdings 
+geringer als der der Aussage eines Zeugen, der das Geschehen unmittelbar wahrgenommen hat.  
+ 
+Eine wichtige Rolle spielt der Indizienbeweis im Privatversicherungsrecht - insbesondere im Bereich 
+der Vollkasko- und Diebstahlsversicherung:  
+Zum Nachweis des Versicherungsfalles genügt es zunächst, dass der VN einen Sachverhalt nachweist, 
+der nach der Lebenserfahrung mit hinreichender Wahrscheinlichkeit den Schluss auf eine 
+Entwendung zulässt.  
+Nun muss der Versicherer Tatsachen beweisen, die die erhebliche Wahrscheinlichkeit dafür 
+begründen, dass die naheliegende Möglichkeit der Vortäuschung des Versicherungsfalles besteht. Ist 
+auch das gelungen, tritt wieder die beweisrechtliche Normalsituation (zu Lasten des 
+Anspruchstellers, d.h. des Versicherungsnehmers) ein.  
+ 
+ 
+ 
+c. Anscheinsbeweis  
+ 
+Ein in Klausuren beliebtes Thema ist der Anscheinsbeweis. Das Institut ist nicht gesetzlich 
+geregelt und bietet die Möglichkeit, anhand einer durch die Rechtsprechung entwickelten 
+Struktur die Beweisnot einer Partei zu überwinden. Die „Dogmatik“ des Anscheinsbeweises ist 
+allerdings recht vielschichtig und bietet daher die Chance zu einer fundierten Darstellung. Häufig 
+wird der Anscheinsbeweis jedoch viel zu oberflächlich behandelt. Eine große Bedeutung hat der 
+Anscheinsbeweis im Straßenverkehrsrecht bei Unfällen.  
+Der Anscheinsbeweis kann strukturiert geprüft werden. Klassischer Anwendungsfall ist der 
+bestrittene Kausalzusammenhang. Wenn die vermeintliche Ursache und die entsprechende 
+vermeintliche Folge unstreitig sind, kann die hinsichtlich des Kausalzusammenhangs bestehende 
+Beweislücke durch einen Anscheinsbeweis geschlossen werden (z.B. ein Feuerwerkskörper wird 
+in Kopfhöhe gezündet. Es liegt eine Knalltraumasymptomatik vor). Die Rechtsprechung hat 
+allerdings auch Rückschlüsse als beweisfähig zugelassen. So kann von einem Verletzungsbild auf 
+die Ursache und den Kausalzusammenhang rückgeschlossen werden.  
+
+===== SEITE 48 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 48 
+Beim Anscheinsbeweis wird vom Vorliegen einzelner, an sich nicht erheblicher Tatsachen auf das 
+Vorhandensein anderer, zu den Voraussetzungen einer Rechtsnorm gehörender Haupttatsachen 
+geschlossen. Steht ein Sachverhalt fest, bei dem die behauptete, zur Ausfüllung einer 
+Rechtsnorm erforderliche Haupttatsache typischerweise gegeben ist, so spricht der erste 
+Anschein für das Vorliegen der Haupttatsache. Der Zusammenhang der feststehenden und der 
+angenommenen Tatsachen ist derartig typisch, dass sich der daraus abzuleitende Schluss 
+gleichsam aufdrängt, von seinem Vorliegen ausgegangen werden kann und das ausnahmsweise 
+Nichtvorliegen im Prozess dargetan werden muss.  
+Typisch ist ein Vorgang, wenn er regelmäßig gewöhnlich so abläuft wie im Prozess dargetan. Zu 
+viele Details lassen die Typizität eher entfallen.  
+Diese Typizität ist abzuleiten. Bei Vorschriften, die dem Schutz vor spezifischen Gefahren dienen, 
+kann vom Bestehen der Vorschrift auf die Typizität der Kausalität für den eingetretenen Schaden 
+bei Verletzung der entsprechenden Vorschrift geschlossen werden . Dies gilt nach der 
+Rechtsprechung insbesondere für die Verletzung von Schutzgesetzen im Sinne des § 823 II BGB.  
+In den Fällen, in denen kein Verstoß gegen ein Schutzgesetz vorliegt, ist die Typizität der in Frage 
+stehenden Umstände sorgfältig zu begründen. Nicht jeder auf  den ersten Blick bestehende 
+Erfahrungssatz reicht aus. Auf eine Verseuchung von verabreichten Muscheln etwa kann vom 
+Bestehen einer Hepatitis Infektion nicht im Sinne einer Typizität geschlossen werden. Es handelt 
+sich „nur“ um Indizien. So muss stets genau abgegrenzt werden, ob ein Anscheinsbeweis oder 
+ein Indizienbeweis bzw. Rückschluss aufgrund von Hilfstatsachen angezeigt ist.  
+Die Validität der Erfahrungssätze spielt eine besondere Rolle.  
+Werden die Anknüpfungstatsachen bestritten, müssen sie voll bewiesen werden.  
+Wo das materielle Recht den Nachweis der Haupttatsache verlangt, kommt der Anscheinsbeweis 
+natürlich nicht zur Anwendung: § 130 I BGB : kein Anscheinsbeweis für den Zugang eines Briefes 
+bei feststehender Absendung (Wertungsfrage ist, ob eine Norm dies verlangt).  
+Der Gegner kann Tatsachen vortragen, aus denen sich die ernsthafte Möglichkeit eines vom 
+gewöhnlichen abweichenden Geschehensablaufes ergibt.  
+Eine weitere Möglichkeit ist, den Anscheinsbeweis durch einen vollständigen Gegenbeweis zu 
+widerlegen.  
+Zusammenfassend scheitert der Anscheinsbeweis also, wenn die Typizität abgelehnt wird oder 
+der Gegenbeweis gelingt.  
+ 
+Ein Scheitern ist auch möglich, wenn der Beweisgegner  schuldhaft daran gehindert wird, die 
+erschütternden Umstände aufklären und vortragen zu können.  
+ 
+d. Gesetzliche Vermutungen  
+
+===== SEITE 49 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 49 
+ 
+Auch hier liegt die Beweiserleichterung in einer Verlagerung des Beweisthemas. Bewiesen 
+werden muss nicht die als Voraussetzung einer Rechtsnorm dienende Haupttatsache, sondern 
+eine an sich unerhebliche, häufig aber einfacher zu beweisende andere Tatsache, an die die 
+gesetzliche Vermutung der Haupttatsache anknüpft. Im Ergebnis wird die freie richterliche 
+Beweiswürdigung durch eine bindende Beweiswürdigungsregel ersetzt.  
+ 
+In erster Linie handelt es sich Vermutungen, die Tatsachen betreffen: § 1117 III BGB (Vermutung, 
+dass Besitz am Hypothekenbrief durch Übergabe vom Eigentümer erlangt wurde); weitere 
+Beispiele: §§ 938, 1253 II, 1377 I, III, 1600 o II BGB, 437 I, 440 II ZPO.  
+Es gibt aber auch Vermutungen hinsichtlich gegenwärtiger Rechtszustände: Z.B. §§ 891, 921, 
+1006, 1362, 2365 BGB, 739 ZPO.  
+ 
+Die Vermutung ist von der  Fiktion zu unterscheiden : Bei dieser werden unterschiedliche 
+Sachverhalte mit gleichen Rechtsfolgen verknüpft.  
+ 
+Dies hat Einfluss auf die Darlegungslast: Im Prozess genügt der Vortrag des 
+Anknüpfungstatbestandes. Aufgrund der Vermutung gilt auch die Haupttatsache als vorgetragen. 
+D.h. es ist auch bedeutungslos, wenn die Haupttatsache vom Gegner bestritten wird! 
+Ausreichend ist der Beweis der Anknüpfungstatsache.  
+ 
+Gesetzliche Vermutungen sind nach § 292 ZPO grundsätzlich widerleglich. Erforderlich ist der 
+Beweis des Gegenteils (nicht identisch mit dem Gegenbeweis!), der dann geführt ist, wenn die 
+Unwahrheit der vermuteten Tatsache sicher feststeht.  
+ 
+Kraft Gesetzes unwiderleglich sind nur wenige Vermutungen: Z.B: §§ 267  ZPO, 1566 
+(Zerrüttungsvermutung) BGB. Hier wollte der Gesetzgeber keine Beweiserleichterung, sondern 
+die Identität zwischen Vermutungstatbestand und Rechtsfolge.  
+ 
+e. Schätzung  
+ 
+Nach § 287 ZPO entscheidet das Gericht unter Würdigung aller Umstände nach freier 
+Überzeugung darüber, ob ein Schaden entstanden ist und wie hoch dieser Schaden ist. Dies ist 
+eine Ausnahme vom Grundsatz des Strengbeweises (keine förmliche Beweisaufnahme) und vom 
+Grundsatz des Vollbeweises (die Tatsache wird schon zugrunde gelegt, wenn das Gericht nicht 
+völlig von der Richtigkeit der Schätzung überzeug ist, sondern sie nur für wahrscheinlich hält).  
+
+===== SEITE 50 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 50 
+ 
+§ 28 7 ZPO f indet Anwendung auf alle Schadensersatzansprüche. Wesentlich ist das Vorliegen 
+sämtlicher haftungsbegründenden Voraussetzungen des Anspruchs - mit Ausnahme des 
+Schadens selbst.  
+Die Schadenshöhe muss streitig und nicht ohne weiteres ermittelbar sein. Ferner muss die 
+beweisbelastete Partei „Schätztatsachen“ vortragen, damit das Gericht an die Schätzung 
+anknüpfen kann.  
+ 
+Hierzu siehe auch oben unter V.1. zum Beweismaß.   
+ 
+f. Freibeweis  
+ 
+Hierbei handelt es sich um die vom Beweisantritt einer Partei unabhängige, auf die gesetzlichen 
+Beweismittel nicht beschränkte und von den zwingenden Verfahrensvorschriften des 
+Beweisrechts befreite Tatsachenermittlung von Amts wegen.  
+ 
+Der Freibeweis findet bei der Klärung von Tatsachen Anwendung, die das Verfahren selbst 
+betreffen und die das Gericht von Amts wegen zu prüfen hat (etwa Partei - oder Prozessfähigkeit 
+gemäß § 56 ZPO, Zulässigkeit von Rechtsbehelfen, PKH- Voraussetzungen, Erfahrungssätze, FGG- 
+Sachen).  
+ 
+Dass Tatsachen der Möglichkeit des Freibeweises zugänglich sind, entbindet die 
+Klausurbearbeiterin/ den Klausurbearbeiter nicht von  der Prüfungspflicht etwa hinsichtlich 
+Partei- oder Prozessfähigkeit oder gerichtlicher Zuständigkeit. Hierzu ist auszuführen und im 
+Zweifel auch im Schriftsatz vorzutragen.  
+ 
+g. Glaubhaftmachung  
+ 
+Nach § 294 ZPO wird kein Strengbeweis benötigt. Außerdem genügt zur Glaubhaftmachung ein 
+deutlich geringerer Grad an Wahrscheinlichkeit: die bloß überwiegende Wahrscheinlichkeit.  
+ 
+Alle Beweismittel der ZPO stehen zur Verfügung. Das Gericht kann aber auch weitere Mittel zur 
+Glaubhaftmachung heranziehen: Unbeglaubigte Kopien, anwaltliche Versicherung, Versicherung 
+an Eides Statt.  
+ 
+Alle Beweismittel müssen in der mündlichen Verhandlung sofort präsent sein, § 294 II ZPO.  
+
+===== SEITE 51 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 51 
+ 
+Die Glaubhaftmachung hat Bedeutung  für Verfahren mit summarischer Tatsachenfeststellung: 
+z.B. Eilverfahren der ZPO (§§ 920 II, 96, 620 a II 3, 640 d II 2, 487 Nr. 4)  oder e instweilige 
+Regelungen der Zwangsvollstreckung (§§ 714 II, 707 I 2, 719 I 2, 769 I 2, 805 IV, 815 II 1) 
+ 
+Der Gegner kann mit den gleichen Mitteln der Glaubhaftmachung kontern. Zu beachten ist auch 
+hier eine Abstufung der Mittel zur Glaubhaftmachung (z.B. Urkunden vor eidesstattlichen 
+Versicherungen) 
+ 
+h. Beweisvereitelung  
+ 
+Hat eine Partei die Beweisführung des Gegners vereitelt, darf sie hieraus keine prozessualen 
+Vorteile ziehen, d.h. den Prozess nicht allein wegen der von ihr verursachten Beweisfälligkeit des 
+Gegners gewinnen. Daher gibt es für diese Fälle Beweiserleichterungen für den Beweisführer.  
+Es gibt neben den gesetzlich geregelten Fällen (§§ 421 ff., 427, 441 III 3, 444, 446, 453 ii, 454 I 
+ZPO) ein allgemeines Institut der Beweisvereitelung. Voraussetzungen sind die Zurechenbarkeit 
+und ein Verschulden. Fälle sind die Vernichtung von dem Gegner günstigen Beweismitteln, die 
+Unterlassung prozessual gebotener Mitwirkungshandlungen, die Nichtentbindung von zum 
+eigenen Schutz bestehenden Schweigepflichten des Gegners, das Nichtzugänglichmachen von 
+Beweismitteln für Gericht oder Sachverständige.  
+ 
+Die Beweisvereitelung ist auch schon vor Rechtshängigkeit möglich.  
+ 
+Folgen sind nach einer Ansicht die Beweislastumkehr, nach anderer Ansicht die Berücksichtigung 
+im Rahmen des § 286 I ZPO.  
+ 
+Sinnvoll erscheint eine Differenzierung nach dem Grad des Verschuldens:  
+Bei Vorsatz etwa erscheint es angemessen, die Tatsache auch ohne Beweis als wahr zu 
+behandeln.  
+Bei Fahrlässigkeit gibt es z.B. die Möglichkeit von Beweiserleichterungen wie dem Zulassen der 
+eigenen Parteivernehmung über die Zulassung von Glaubhaftmachungen bis hin zur völligen 
+Beweislastumkehr bei Unerweislichkeit der Tatsache.  
+ 
+6. Materiellrechtlich orientierte Beweiserleichterungen (Überblick) 
+ 
+a. Beweislastverteilung nach Gefahrenbereichen  
+
+===== SEITE 52 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 52 
+ 
+Bei abgegrenztem Herrschafts - oder Organisationsbereich, den eine Partei allein beherrscht, 
+verteilen Rechtsprechung und Literatur die Beweislast nicht nach der Normen - oder 
+Satzbautheorie, sondern nach Gefahrenbereichen: Dies bezieht sich hier auf die Beweislast für 
+das Verschulden bei einer objektiven Pflichtverletzung.  
+ 
+Diese Grundsätze werden nahezu auf alle Vertragstypen ausgedehnt, ebenso auf 
+vertragsunabhängige Schutzpflichten.  
+ 
+b. Richterrechtliche Beweislastverschiebungen  
+ 
+Neben der schon erörterten Beweisvereitelung wäre hier die grobe Verletzung von 
+Berufspflichten zu nennen, die den Schutz des Körpers und der Gesundheit anderer Personen 
+bezwecken. In diesen Fällen kehrt sich die Beweislast dafür um, dass die Pflichtverletzung für den 
+Schaden ursächlich war (Obhuts - und Schutzverhältnisse, Arztvertrag); Ähnliches wurde auch 
+schon für Vermögenssorgepflichten entschieden.  
+ 
+c. Produzentenhaftung  
+ 
+Für Fehler, Schaden und Ursächlichkeit des Fehlers für den Schaden trägt der Geschädigte die 
+Beweislast. Ausnahmsweise finden hier Beweiserleichterungen bis hin zur Umkehr der Beweislast 
+statt für Fehlerfreiheit des Produkts bei Inverkehrbringen und Ursächlichkeit der unterlassenen 
+Sicherung des Prüfungsbefundes für den entstandenen Schaden. Hier gelten auch die Grundsätze 
+des Anscheinsbeweises. Der Hersteller hat demgegenüber zu beweisen, dass ihm kein objektiver 
+Pflichtenverstoß im Herstellungsbereich zur Last fällt.  
+ 
+VII. Beteiligung Dritter am Verfahren 
+ 
+1. Widerklage, Beteiligung Dritter am Prozess  
+ 
+a. Widerklage:  
+ 
+Bei Gegenforderungen des Mandanten (Vertretung des Beklagten) ist die Widerklage in Erwägung zu 
+ziehen, wenn die Erfolgsaussichten der Rechtsverteidigung nicht gut sind, mithin Gefahr besteht, 
+dass der Kläger obsiegt; ferner, wenn die Ausübung eines Zurückbehaltungsrechts nicht durchgreift 
+(diese wäre am ungefährlichsten, da über den Anspruch nicht rechtskräftig entschieden wurde; von 
+
+===== SEITE 53 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 53 
+Nachteil ist allerdings, dass bei Erreichen einer Zug - um- Zug- Verurteilung zwar die Forderung, nicht 
+jedoch die Gegenforderung des Mandanten vollstreckbar ist - dies wäre nur über die Widerklage zu 
+erreichen; ist nur ein Zurückbehaltungsrecht erfolgversprechend, hat ein Anerkenntnis Zug um Zug 
+gegen die Gegenleistung zu erfolgen; das Zurückbehaltungsrecht  hemmt nicht die Gegenleistung);  
+weiter, wenn die Aufrechnung nicht durchdringt: Primäraufrechnung ist zu erwägen, wenn keine 
+Hilfsaufrechnung, d.h. wenn sonst kein erfolgreiches Verteidigungsvorbringen; Vorteil: keine 
+Streitwerterhöhung, Verjährungshemmung).  
+ 
+Wenn alles nichts hilft oder die Aufrechnung nur einen Teil der Klageforderung umfasst bzw. der 
+Aufrechnung die fehlende Gleichartigkeit der Forderung entgegensteht, ist Widerklage einzureichen.  
+Die Möglichkeit der Hilfsaufrechnung mit Hilfswiderklage besteht in dem  Falle, dass diese wegen 
+Durchgreifens der Primärforderung –oder auch wegen Unzulässigkeit der Aufrechnung - zum Tragen 
+kommt. Unbedingte Widerklage ist zu erheben, wenn die Gegenforderung nur durch die Widerklage, 
+nicht auch durch Aufrechnung geltend gemacht wird. Oder teils unbedingt, teils hilfsweise (bei 
+Überschießen).  
+Es ist eine volle Überprüfung der Erfolgsaussichten erforderlich!  
+ 
+Die Widerklage ist eine echte Klage besonderer Art und somit auch eine Form des Angriffs. 
+Entsprechend müssen wie bei einer „normalen“ Klage grundsätzlich alle entsprechenden 
+Voraussetzungen eingehalten werden.  
+Da die Widerklage als echte Klage kein Angriffsmittel oder Verteidigungsmittel im eigentlichen Sinn 
+ist, unterfällt sie nicht der Präklusion nach §§ 282, 296 ZPO. Die Widerklage kann somit bis zur 
+letzten mündlichen Verhandlung erhoben werden. Selbst in der Berufungsinstanz ist die Erhebung 
+der Widerklage nur eingeschränkt durch § 533 ZPO bezüglich der in der Berufung zulässigen 
+Tatsachen möglich. Die Widerklage kann daher die Einführung bereits präkludierter 
+Verteidigungsmittel, sofern sie nicht wegen offensichtlicher Aussichtslosigkeit 
+rechtsmissbräuchlich ist, möglich machen. Wenn eine Widerklage auch deshalb erhoben wird, um 
+präkludierte Verteidigungsmittel doch einführen zu können, wird von einer „Flucht in die 
+Widerklage“ gesprochen. 
+ 
+Die Erhebung der Widerklage löst nach § 12 Abs. 2 Nr. 1 GKG keine Pflicht zur Einzahlung eines 
+Gerichtskostenvorschusses aus. Dennoch sind die Gerichtskosten zu zahlen. Die Widerklage hat im 
+Gegensatz zur Aufrechnung den Vorteil, dass sie durch Aufrechnungsverbote nicht ausgeschlossen 
+wird 
+ 
+
+===== SEITE 54 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 54 
+Grundsätzlich fordert § 33 ZPO die Konnexität der Widerklage. Der Zusammenhang wird hergestellt, 
+wenn die Voraussetzungen desselben Gerichts, desselben Verfahrens, verschiedener Anspr üche (im 
+Sinne des selbständigen Streitgegenstandes)  zu bejahen sind . PRIVILEGIERUNG des Beklagten/ 
+Widerklägers. Der Zusammenhang im Anspruch  ist zu bejahten , wenn die geltend gemachten 
+Forderungen auf ein gemeinsames Rechtsverhältnis zurückzuführen sind. Rein tatsächlich e oder 
+wirtschaftliche Zusammenhänge  genügt nicht ; Anders wird dies bei einheitlich innerlich 
+zusammenhängenden Lebensverhältnis gesehen  (sehr streitig) . Ein Zusammenhang mit dem 
+Verteidigungsvorbringen ist ausreichend (insbesondere überschießender Rest einer zur Aufrechnung 
+gestellten Gegenforderung).  
+Die Konnexität ist nach der Rechtsprechung eine besondere Sachurteilsvoraussetzung. Fehlt sie, ist 
+die Widerklage unzulässig. Auf eine fehlende Verfahrensrüge nach § 295 ZPO sollte man sich in der 
+Klausur lieber nicht verlassen.  
+Nach der Gegenauffassung begründet § 33 ZPO nur einen Gerichtsstand und stellt keine 
+Zulässigkeitsvoraussetzung dar. Dies ist mit Vorsicht zu genießen. Sicherer ist, sich hier nach der 
+Rechtsprechung zu richten.  
+ 
+Die Klage muss mindestens rechtshängig sein. Die Widerklage kann in der ersten Instanz bis zum 
+Schluss der mündlichen Verhandlung erhoben werden , auch wenn der Kläger nicht erscheint. Noch 
+im Nachverfahren nach Zwischen-, Grund- oder Vorbehaltsurteil möglich. In der Berufungsinstanz ist 
+die Widerklage nur zulässig, wenn der Kläger zustimmt (rügelose Einlassung genügt) oder das Gericht 
+die Geltendmachung für sachdienlich hält sowie der Streitstoff durch die Widerklage nicht erweitert 
+wird (siehe oben).  
+ 
+Das Gericht, bei dem die Widerklage erhoben wird, muss für diese sachlich zuständig sein. 
+Abweichung der Zuständigkeiten möglich. I.d.R. ist das Gericht der Klage zuständig. Die Widerklage 
+muss ferner in derselben Prozessart wie die Hauptklage erhoben und in dieser zulässig sein.  
+Unzulässig ist sie im Urkunds- und Wechselprozess (§ 595 I ZPO).  
+ 
+Unzulässig ist die Gegenangriff - Widerklage auf Unterlassung von Behauptungen der die Klage 
+begründenden Tatsachen. Hierbei handelt es sich nicht um einen Fall des § 261 III Nr. 1 ZPO, denn es 
+geht nicht um das kontradiktorische Gegenteil des Klageanspruchs; jedoch fehlt das 
+Rechtsschutzbedürfnis für diese Form der Widerklage 
+ 
+a. Streitgenössische und isolierte Drittwiderklage  
+ 
+
+===== SEITE 55 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 55 
+I.d.R. muss die Widerklage vom Beklagten der Vorklage erhoben werden und sich gegen die Person 
+richten, welche die Klage erhoben hat. Widerkläger und Widerbeklagter können auch Streitgenossen 
+und Hauptintervenienten sein. Widerbeklagte können auch Nebenintervenienten sein. Unzulässig ist 
+die Widerklage eines Nebenintervenienten im eigenen Namen.  
+ 
+In der neueren Rspr. und Lit. Wird auch eine Parteierweiterung mit Hilfe der Widerklage zugelassen 
+(§ 33, 263 ZPO als Voraussetzungen).  
+ 
+Dritte können auch Streitverkündete, selbst wenn sie dem Beklagten als Streithelfer beigetreten sind.  
+ 
+Streitgenössische Drittwiderklage: Der Beklagte erhebt eine mit der Klage konnexe Widerklage 
+gegen den Kläger und zugleich gegen einen bisher am Rechtsstreit nicht beteiligten Dritten als 
+Streitgenossen i.S. §§ 59, 60 ZPO . Der Kläger und der Dritte stehen in einem Haftungsverband, so 
+dass sie dann auch gesamtschuldnerisch zusammen in Anspruch genommen werden. Die 
+ladungsfähige Anschrift des Drittwiderbeklagten ist im Schriftsatz zu nennen, da die Widerklage eine 
+echte Klage ist. Z.B. Widerklage gegen GbR oder OHG und die bisher nicht klagenden Gesellschafter 
+oder Widerklage gegen Kläger und seine bisher nicht klagende Pkw- Haftpflichtversicherung. Bei der 
+Inanspruchnahme einer GbR oder OHG gilt auch im Fall der streitgenössischen Drittwiderklage, dass 
+durch die parallele Inan spruchnahme der Gesellschaft und der Gesellschafter die Haftungsmasse 
+erweitert wird. Erstreitet ein Kläger bzw. in dieser Konstellation ein Widerkläger nur ein Urteil gegen 
+die Gesellschaft (OHG oder GbR), kann auch nur in das Gesellschaftsvermögen vollstreckt werden. 
+Materiellrechtlich haften auch die Gesellschafter wie Gesamtschuldner. Dies nützt aber nur etwas, 
+wenn auch ein Titel gegenüber diesen besteht. Die streitgenössische Drittwiderklage schaltet in 
+einigen Konstellationen auch gleich die Gesellschafter als Zeugen aus.  Dieser Fall ist seit längerem 
+unter den Voraussetzungen der als Klageänderung behandelten Parteierweiterung in gefestigter 
+Rspr. anerkannt.: D.h. bei Einwilligung des Drittwiderbeklagten (rügelose Einlassung genügt) oder bei 
+Sachdienlichkeit der subjektiven Klagehäufung. Bei Erhebung in der Berufungsinstanz ist stets die 
+Einwilligung des Drittwiderbeklagten erforderlich, außer bei rechtsmissbräuchlicher Weigerung (nicht 
+im Wege der Anschlussberufung).  
+ 
+Isolierte Drittwiderklage: Der Beklagte erhebt die mit der Klage zusammenhängende Drittwiderklage 
+NUR gegen einen am Rechtsstreit bisher nicht beteiligten Dritten, ohne den Kläger mit  zu verklagen. 
+Hier ist auch der Fall einzuordnen, dass im Wege des Parteiwechsels anstelle des zunächst 
+widerbeklagten Klägers (z.B. Personenhandelsgesellschaft) später einer oder mehrere Dritte (z.B. die 
+Gesellschafter) widerverklagt werden sollen.  
+ 
+
+===== SEITE 56 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 56 
+Von der Rechtsprechung wurden bisher nur bestimmte Fallgestaltungen als ausnahmsweise 
+zulässige isolierte Drittwiderklagen angenommen. Es empfiehlt sich im Hinblick auf den „sichersten 
+Weg“, sich an diesen Fallgestaltungen zu orientieren und den eigenen Fall entsprechend 
+einzuordnen. Mit einer Übertragung auf bisher noch nicht entschiedene Gestaltungen sollte 
+zurückhaltend umgegangen werden. Wer in einer Klausur eine neue Fallkonstellation vorfindet, kann 
+die Frage eines solchen Vorgehens in den prozessualen Erwägungen aufwerfen und mit 
+entschiedenen Konstellationen abgleichen. Eine Entscheidung gegen eine Übertragung der 
+Rechtsprechung auf eine noch nicht höchstrichterlich entschiedene Fallgestaltung dürfte in der Regel 
+dann nicht nachteilig sein, weil die Voraussetzungen im prozessualen Teil sehr wohl erörtert 
+wurden. Den meisten anerkannten Fallgestaltungen liegt eine Zession zugrunde. 
+Drittwiderbeklagter ist dann der Zedent. 
+ 
+Folgende Fallgestaltungen sind vom BGH als zulässig angesehen worden: 
+ 
+• Die klagende Gesellschaft verklagt die Erbin eines Mitgesellschafters auf Rückzahlung eines 
+Darlehens. Die Beklagte verklagt die Gesellschafter der Klägerin isoliert auf Feststellung, 
+dass sie selbst durch den Erbfall Gesellschafterin der Klägerin geworden sei. Der BGH hat 
+diese recht exotische Variante der isolierten Drittwiderklage als zulässig angesehen, weil 
+das auf die Drittwiderklage ergehende Urteil für die klagende Gesellschaft verbindlich ist 
+und damit für die Zahlungsklage vorgreiflich sein kann. Diese Fallgestaltung ist später 
+anders als die folgenden Zedentenkonstellationen nicht wieder aufgetreten.  
+• Der Architekt tritt seine Honoraransprüche ab. Der Zessionar klagt diese ein. Der Beklagte 
+beantragt Klageabweisung und erhebt gegen den Architekten wegen 
+Schadensersatzansprüchen wegen mangelhafter Leistung isolierte  Drittwiderklage mit 
+einem Leistungsantrag.  
+• Ein Vater tritt seine vermeintlichen Ersatzansprüche aus einem Verkehrsunfall gegen den 
+Unfallverursacher an seinen minderjährigen ebenfalls verletzten Sohn ab. Diesen lässt er , 
+gestützt auf Ansprüche aus eigenem und fremdem Recht , klagen. Der Beklagte beantragt 
+Klageabweisung und klagt gegen den Vater als Drittwiderbeklagten auf Schadensersatz. 
+Der Vater wendet ein, dass dies unzulässig sei, da er nun aufgrund der entstandenen 
+Parteistellung nicht mehr als Zeuge aussagen könne.  Der BGH sah die isolierte 
+Drittwiderklage als zulässig an. Der Vater wird mit seinem Einwand nicht gehört, da er 
+seine Zeugenstellung erst durch die Abtretung ermöglicht ha be. Es ist dennoch Vorsicht 
+geboten. Die isolierte Drittwiderklage wird als Ausnahmekonstellation eng ausgelegt. Einen 
+Zeugen auf Unterlassung belastender Aussagen rückzuverklagen ist versucht, aber bisher 
+nicht als zulässig angesehen worden.  
+
+===== SEITE 57 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 57 
+• In einem weiteren Zedentenfall klagt der Zessionar auf vertraglicher Grundlage 
+Schadensersatz ein. Der Beklagte beantragt Klageabweisung und verklagt den Zedenten als 
+Drittwiderbeklagten jedoch seinerseits nicht auf Leistung , sondern begehrt Feststellung, 
+dass die vom Kläger geltend  gemachten Ansprüche auch in der Person des Zedenten nie 
+bestanden haben. Interessant ist in dieser Konstellation, dass der Drittwiderkläger nicht 
+primär einen Zeugen ausschalten will. Vielmehr möchte er verhindern, dass bei einer 
+Klageabweisung der Zedent erneut klagen kann. Das Gericht erkennt sehr wohl, dass § 325 
+ZPO zu einer Rechtskrafterstreckung auch gegenüber dem Zedenten führen kann. Dies 
+spricht aber dennoch nicht gegen ein Rechtsschutzbedürfnis für die erhobene isolierte 
+Drittwiderklage. Die subjektive Rechtskrafterstreckung erfasst nämlich nach dem BGH nicht 
+den Fall, dass die Erstabtretung anfechtbar oder von vornherein unerkannt nichtig sein 
+könnte. Beides würde dann zur Möglichkeit eines neuen Prozesses führen. Daher soll der 
+Beklagte im Wege der negativen Feststellungsklage in Form der isolierten Drittwiderklage  
+haben. 
+ 
+Als formelle Voraussetzungen für eine isolierte Drittwiderklage prüft die Rechtsprechung folgende 
+Aspekte:  
+Ausnahmsweise ist eine isolierte Drittwiderklage in Form der Klageänderung zulässig, wenn  
+ 
+erstens die Klageänderung vorbehaltlich einer Zustimmung sachdienlich ist, die Widerklage 
+also eine Vervielfältigung und Zersplitterung von Prozessen verhindert, wofür spricht, dass 
+die Umstände von Klage und Drittwiderklage rechtlich und tatsächlich eng miteinander 
+verknüpft sind,  
+ 
+zweitens die Interessen des Drittwiderbeklagten nicht verletzt werden und  
+ 
+drittens keine hilfsweise Geltendmachung erfolgt.  
+ 
+Widerklage durch Dritte:  Ein Dritter oder Streithelfer des Beklagten erhebt eine mit der Klage 
+zusammenhängende „Widerklage“ gegen den Kläger allein oder gegen den Kläger und einen am 
+Rechtsstreit bisher nicht beteiligten Dritten. Diese Form ist nach BGH nicht zulässig; jedoch bleibt die 
+Möglichkeit offen, eine Prozessverbindung nach § 147 ZPO herbeizuführen. Im Schrifttum wird diese 
+parteierweiternde Widerklage teilweise in größerem Umfang zugelassen.  
+Die Frage ist noch nicht abschließend geklärt, ob bei konnexer und sachdienlicher Drittwiderklage das 
+Gericht der Klage gemäß §  33 ZPO auch für die Drittwiderklage örtlich zuständig ist. Ursprünglich 
+bejahte der BGH diese Frage, hielt später jedoch eine Gerichtsstandsbestimmung gemäß § 36 I Nr. 3 
+
+===== SEITE 58 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 58 
+ZPO für erforderlich. Nach neuerer Rspr. ist der Weg über § 36 I Nr. 3 nicht gangbar. M.a.W. ist die 
+Frage offen.  
+ 
+Auch in einem anhängigen Rechtsstreit können sowohl der Kläger als auch der Beklagte durch 
+gewöhnliche Klagen weitere Personen zu Beteiligten machen (§  261 III, 253). Dritte können 
+zusammen mit selbständiger Klageerhebung die Verbindung zu einem anhängigen Verfahren 
+beantragen. Ob es zu einer einheitlichen Verhandlung und Entscheidung kommt, entscheiden die 
+Regeln über die Streitgenossenschaft (§§ 59, 60) und die Prozessverbindung/ -trennung (§§ 145, 
+147). I.R.d. § 147 muss die als Beklagte in den Prozess hineinzuziehende Partei beim Gericht des 
+Hauptprozesses ihren allgemeinen oder einen besonderen Gerichtsstand haben. Ist das nicht 
+„zufällig“ der Fall, scheidet die Zuständigkeitsbestimmung aus, da ein Fall des § 36 I Nr. 3 nicht 
+vorliegt. § 33 ZPO wiederum trifft jedoch oft auf den Dritten zu. Entscheidend für die Beurteilung ist 
+die Zumutbarkeit für den Dritten (z.B. im Falle der früheren Rechtsinhaberschaft des Dritten oder bei 
+Geltendmachung des eingeklagten Rechts in gewillkürter Prozessstandschaft).  
+In der Anwaltsklausur kann dies aufgrund des unklaren Streitstandes diskutiert und mit guter 
+Begründung gutachterlich und schriftsätzlich umgesetzt werden.  
+ 
+Unzulässig ist die Hilfswiderklage gegen einen Dritten. Als Fall einer echten Widerklage kann sie nicht 
+unter einer Bedingung erhoben werden. Die Einbeziehung einer weiteren Partei unter einer 
+Bedingung ist nicht zulässig, da das gegen sie begründete Prozessrechtsverhältnis nicht in der 
+Schwebe gelassen werden darf.  
+ 
+Exkurs: Eventualklagehäufung als Fall des § 260 ZPO? Hier geht es nicht um mehrere in einer 
+Klage parallel geltend gemachte Ansprüche, sondern um solche, die im Stufenverhältnis nur 
+bedingt geltend gemacht werden. Hilfsanträge sind nach einhelliger Meinung zulässig und 
+begründen auflösend bedingte Rechtshängigkeit in der Form, dass eine Sachentscheidung 
+nur im Falle der Erfolglosigkeit des Hauptantrages ergeht. Die Rechtshängigkeit endet 
+rückwirkend ohne besonderen Ausspruch mit Eintritt der auflösenden Bedingung.  
+Die „normale“ Klagehäufung i.S.d. § 260 liegt nur vor bei einer Mehrheit von 
+Streitgegenständen, also nicht, wo ein einheitliches Klagebegehren auf mehrfache rechtliche 
+Begründung gestützt wird.  
+ 
+b. Streitgenossenschaft  
+ 
+Diese liegt vor bei einer g emeinschaftlichen Klage oder Verteidigung  bei Rechtsgemeinschaft 
+hinsichtlich des Streitgegenstandes oder bei Berechtigung/ Verpflichtung aus demselben rechtlichen 
+
+===== SEITE 59 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 59 
+und tatsächlichen Grund (§ 59 ZPO) bzw. einem im Wesentlichen gleichartigen tatsächlichen und 
+rechtlichen Grund (§ 60 ZPO).  
+Streitgenossenschaft besteht, wenn mindestens auf einer Seite mehrere Parteien stehen. Sie 
+entsteht durch eine Klage durch oder gegen mehrere Parteien, parteierweiternde Widerklage, 
+Eintritt eines weiteren Klägers oder Beklagten während des Prozesses, durch Eintritt mehrerer 
+Gesamtrechtsnachfolger an die Stelle einer Partei oder durch Verbindung mehrerer Prozesse oder im 
+Falle des. § 856 II ZPO.  
+ 
+Die Voraussetzungen sind aus Gründen der Prozessökonomie weit auszulegen.  
+ 
+Rechtsgemeinschaft hins. Streitgegenstand i.S.d. materiellen Rechts, d.h. Miteigentum, sonstige 
+Rechtsgemeinschaften, Gesamthandsgemeinschaften, Gesamtschuld, Teilschuld, akzessorische 
+Haftung.  
+ 
+Erforderlich ist die Identität des tatsächlichen und rechtlichen Grundes zumindest hinsichtlich eines 
+präjudiziellen Rechtsverhältnisses, z.B. im Sinne eines einheitlichen Vertrages.  
+ 
+Gleichartigkeit „im Wesentlichen“ bedeutet, dass keine Teilidentität vorliegen muss. Ein i nnerer 
+Zusammenhang mehrerer Sachverhalte  reicht aus:  Ein Bauwerk, ein Unfall, mehrere 
+Unterhaltsgläubiger eines Unterhaltsschuldners, mehrere Mitglieder einer Bauherrengemeinschaft.  
+ 
+Ist zu Unrecht gemeinsame Klage erhoben worden, hat das Gericht auf Rüge die Verfahren zu 
+trennen, wenn § 147 keine Verbindung zulässt.  
+ 
+Die Wirkung der einfachen Streitgenossenschaft  ist nach § 61 ZPO, dass die Streitgenossen dem 
+Gegner als einzelne gegenüberstehen, d.h. Prozesshandlungen der anderen ihnen nicht zum Vor- und 
+Nachteil gereichen; wobei die Möglichkeit eines einheitlichen Urteils besteht. Keiner kann Zeuge des 
+anderen sein.  
+ 
+Anders bei der notwendigen Streitgenossenschaft : Hier kann das streitige Rechtsverhältnis allen 
+Streitgenossen gegenüber nur einheitlich entschieden werden: Hier macht § 62 ZPO eine Ausnahme 
+von § 61, aus materiellrechtlichen oder prozessualen Gründen. Es ist eine einheitliche Entscheidung 
+notwendig.  
+Insbesondere handelt es sich Fälle der Rechtskrafterstreckung (§§ 326, 327 ZPO - Vor- und Nacherbe, 
+Erbe und Testamentsvollstrecker; § 856 II ZPO - mehrere Pfändungsgläubiger), Gestaltungsklagen 
+zugunsten mehrerer Interessenten.  
+
+===== SEITE 60 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 60 
+ 
+Die OHG und ihre Gesellschafter sind nur einfache Streitgenossen; ebenso Bürge und Hauptschuldner 
+sowie Schuldner und Eigentümer der dinglich haftenden beweglichen Sache (§ 1211 BGB) oder 
+unbeweglichen Sache (§ 1137 BGB); dito Pflichtversicherer und Versicherungsnehmer (obwohl ihnen 
+wechselseitig die Klagabweisung gegen den anderen Verpflichteten zugutekommt (§ 3 Nr. 8 
+PflVersG).  
+ 
+Es liegt also  dort prozessual notwendige Streitgenossenschaft vor,  wo nicht nur materielles Recht 
+oder Gründe der Logik, sondern prozessuale Notwendigkeit die einheitliche Entscheidung erzwingen.  
+ 
+Als gedankliche Hilfe mag die Vorstellung dienen: Wo bei nacheinander geführten Prozessen die 
+Rechtswirkung für die anderen Streitgenossen nicht bindend ist, liegt kein Fall der notwendigen 
+Streitgenossenschaft vor. Anders nur bei Identität oder Unteilbarkeit des Streitgegenstandes. KEINE 
+notwendige Streitgenossenschaft liegt  dort vor, wo gegenüber mehreren Streitgenossen lediglich 
+über eine einheitliche Vorfrage zu befinden ist, so bei Klagen gegen mehrere Gesamtschuldner. Aus 
+materiell- rechtlichen Gründen notwendige Streitgenossenschaft liegt vor, wenn eine Klage nur Erfolg 
+haben kann, wenn sie durch oder gegen mehrere Parteien erhoben wird, ansonsten unzulässig 
+mangels Prozessführungsbefugnis wäre.  
+Beispiele: Aktivprozesse von Gesamthändern, Passivprozesse dito.  
+ 
+c. Streitverkündung, Haupt- und Nebenintervention  
+ 
+Nimmt ein Dritter den Gegenstand eines Rechtsstreits ganz oder teilweise für sich in Anspruch, muss 
+er klagen. Nach § 64 ZPO ist es möglich, diese Klage gegen die beiden Parteien des schon 
+schwebenden Hauptprozesses beim Gericht des Letzteren zu erheben  
+(Hauptintervention: sehr, sehr selten): Zu unterscheiden ist zwischen Haupt - und 
+Interventionsprozess; Letzterer ist die Einmischungsklage; der Interventionskläger muss eine mit der 
+des Hauptprozesses unvereinbare Rechtsposition geltend machen. Für die Inanspruchnahme des 
+Rechts ist die Identität der Klageforderung, abgesehen vom Subjekt, erforderlich. In dem 
+Interventionsprozess werden beide Beklagte Streitgenossen.  
+ 
+Hat ein Dritter ein rechtliches Interesse daran, dass in einem Rechtsstreit anderer Parteien eine 
+Partei obsiegt, so kann er diesem als Streithelfer/ Nebenintervenient beitreten, §§ 66 – 71 ZPO:  
+-Anhängigkeit genügt- analoge Anwendung im selbständigen Beweisverfahren-  
+-Streitigkeit ANDERER Personen-  
+-Streitgenossen können einander beitreten, da die Prozesse ja selbständig bleiben-  
+
+===== SEITE 61 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 61 
+-Rechtliches Interesse liegt vor, wenn die Entscheidung des Hauptrechtsstreits mittelbar oder 
+unmittelbar auf die privat - oder öffentlich - rechtlichen Verhältnisse rechtlich günstige oder 
+ungünstige Auswirkungen hat-  
+-zu prüfen sind die normalen Prozesshandlungsvoraussetzungen- 
+-Prozess muss schon und noch anhängig sein, auch in höherer Instanz -auch nach Schluss mündlicher 
+Verhandlung mit dem Ziel ihrer Wiedereröffnung nach § 156 ZPO-  
+-Rechtsstellung nach § 67 ZPO: NI darf alles, nur dürfen seine Prozesshandlungen nicht mit denen der 
+Hauptpartei in Widerspruch stehen, d.h. deren Willen steht im Vordergrund (es darf kein 
+entgegenstehender Wille der Hauptpartei erkennbar sein); ferner natürlich Bindung an die 
+Prozesslage; keine Änderungen des Prozessgegenstandes, keine Widerklage- 
+NEBENINTERVENTIONSWIRKUNG: Entscheidend für späteren Rechtsstreit. Rechtskraftähnliche 
+Bindungswirkung im Folgeprozess an das im Hauptprozess ergangene Urteil. Von Amts wegen zu 
+beachtende Urteilswirkung! Hierfür muss ein wirksamer, nicht zurückgewiesener Beitritt erfolgt sein, 
+ein rechtskräftiges Sachurteil zuungunsten der Hauptpartei vorliegen-  
+Wirkung zwischen Nebenintervention und der vom Intervenienten unterstützten Hauptpartei!-  
+Interventionswirkung nur zuungunsten  des Nebenintervenienten , niemals zuungunsten der 
+unterstützten Hauptpartei. 
+Die Nebeninterventionswirkung ist beschränkt auf tragende Feststellungen des Ersturteils- 
+Streitgenössische Nebenintervention: Erstreckung der Urteilswirkung auf Gegner der Hauptpartei 
+führt zum Vorliegen des § 61 ZPO: Regelmäßig sogar notwendige Streitgenossen nach § 62 ZPO; führt 
+BGB oder Verfahrensrecht zur Rechtskrafterstreckung auf Gegner und liegen im Übrigen die 
+Nebeninterventions- Voraussetzungen vor, wird Streitgenossenschaft angenommen.  
+ 
+Erfolgt von selbst kein Beitritt, hat die Hauptpartei die Möglichkeit, den Dritten (am Rechtsstreit 
+Interessierten) zum Beitritt durch Streitverkündung zu veranlassen (§§ 72 ff  ZPO):  
+ 
+Eine Streitverkündung hat Benachrichtigungscharakter und soll dem Dritten die Möglichkeit zur 
+Prozessbeteiligung oder –übernahme geben. Die Nebeninterventionswirkung wird über §§ 74 III, 68 
+ZPO erzielt.  Die Zulässigkeitsprüfung hinsichtlich der Streitverkündung erfolgt nicht im 
+Hauptverfahren, sondern im Folgeprozess.  Zulässig ist die Streitverkündung bis zur rechtskräftigen 
+Entscheidung im Hauptprozess.  
+Die genannten Ansprüche sind nur eine beispielhafte Umschreibung. Wesentlich ist allein, dass der 
+Drittanspruch mit dem im Erstprozess (vom Streitverkünder) geltend gemachten Anspruch in einem 
+Alternativverhältnis steht (mithin wechselseitiger Ausschluss).  
+Anwendungsbereich sind vor allem  Gewährleistungs- und Regressansprüche (§§ 774; 670, 677, 683  
+BGB); ebenfalls ist die Streitverkündung relevant bei potentiellen anwaltlichen Pflichtverletzungen.  
+
+===== SEITE 62 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 62 
+Jede Partei kann dem Dritten den Streit verkünden-  
+ 
+d. Parteierweiterungen 
+ 
+Ein neuer Kläger oder Beklagter tritt an die Stelle oder neben die bisherige Partei. Gesetzlich  ist dies 
+z.B. in § 239 ZPO  geregelt: Tod der Partei und Rechtsnachfolge; Insolvenzverfahren, § 240; § 266 
+(Grundstücksveräußerung). Gewillkürt möglich; wird vom BGH grundsätzlich als Klageänderung 
+behandelt, wobei die herrschende Lehre sie als prozessuales Institut sui generis behandelt. Das kann 
+man erwähnen, um die erheblichen Modifikationen im Verhältnis zur Klageänderung zu erklären. 
+§ 263 ZPO gibt nur eine Groborientierung.  
+ 
+Parteierweiterung auf Beklagtenseite:  Einreichen eines Schriftsatzes, der dem neuen 
+Beklagten zugestellt wird. Die Zulässigkeitsvoraussetzungen richten sich nach §§ 263 ff. ZPO 
+analog.  
+ 
+Parteiwechsel auf Beklagtenseite : Der neue Beklagte wird wie oben in den Rechtsstreit 
+einbezogen. Hinsichtlich des alten Beklagten wird wie bei Klagerücknahme nach § 269 ZPO 
+verfahren. Der Beklagtenwechsel bedarf, sofern bereits mündlich verhandelt wurde, der 
+Einwilligung des alten Beklagten. Die Zustimmung des neuen Beklagten  ist nur in 2. Instanz  
+erforderlich. Der alte Beklagte kann wegen seiner Kosten einen Beschluss nach § 269 III ZPO 
+beantragen.  
+ 
+Parteierweiterung auf der Klägerseite :  Der neue Kläger tritt schriftsätzlich bei, der alte 
+Kläger teilt den Beitritt dem Gericht schriftsätzlich mit. Die Erklärungen sind dem Beklagten 
+zuzustellen, da ein neues Prozessrechtsverhältnis begründet wird. Daher kann der Eintritt 
+nicht nach § 261 II Alt. 1 erfolgen; der Beklagte benötigt in jedem Falle eine Erwiderungsfrist. 
+Keine besonderen Voraussetzungen, nur die der Streitgenossenschaft sowie die allgemeinen 
+Prozessvoraussetzungen.  
+ 
+Parteiwechsel auf der Klägerseite : Das Verfahren gestaltet sich  wie bei der 
+Parteierweiterung auf der Beklagtenseite: Nach mündlicher Verhandlung bedarf es der 
+Einwilligung des Beklagten, die nicht durch Sachdienlicherklärung ersetzbar ist. In der 
+Berufung setzt der Wechsel voraus, dass der bisherige Kläger eine zulässige Berufung 
+eingelegt hat. Der Kostenbeschluss auf Antrag richtet sich nach Ausscheiden des alten Klägers 
+nach § 269 III ZPO. 
+ 
+
+===== SEITE 63 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 63 
+VIII. Kautelarklausuren  
+ 
+1. Hintergründe und Klausurformen 
+ 
+Der Begriff wird aus dem Lateinischen hergeleitet.  Cautela bedeutet „Schutzmittel“, cavere „sich 
+vorsehen, sich hüten, sichern“. Diese allgemein gehaltene Definition liefert noch keine Erkenntnisse 
+für die Bearbeitung des Klausurtyps.  
+Auch hier soll das Anliegen des Mandanten nach seinen Aussagen und der Auswertung der Akte 
+verstanden werden. Der Bearbeiter soll die Ziele heraus arbeiten und die Rechtslage erörtern , daher 
+muss er auch hier einen gutachterlichen Vermerk verfassen.  
+Der wesentliche Unterschied zur forensischen Klausur besteht darin, dass hier kein Schriftsatz zu 
+fertigen ist,  sondern ein Schreiben zu fertigen ist, häufig einzelne Vertragsklauseln, seltener ein 
+ganzer Vertrag. Es wird auch daran zu denken sein, dass die praktische Bearbeitung in dem Verfassen 
+bzw. Entwerfen einseitiger Erklärungen gestalterischer Natur bestehen wird. Die Aufgabe kann hier 
+eine Kündigung, ein Widerruf, eine Anfechtungserklärung oder auch ein Testament sein.  
+Optional soll dem Mandanten auch einfach nur die Rechtslage vermittelt werden. Ein bloßes 
+Belehrungsschreiben als alleinige praktische Leistung wird aber eher untergeordnet vorkommen.  
+ 
+Zumeist wird an gegenseitigen Verträgen, Formulierung einer Einigung, einer 
+Ratenzahlungsvereinbarung, einem Gesellschaftsvertrag oder einer Satzung, einem Rücktritt, einer 
+Kündigung, einer Abmahnung oder auch an einem Testament zu arbeiten sein, gern auch an einer 
+AGB. Es ist nicht ausgeschlossen, dass hier ein vollständiger eigener Entwurf zu erstellen ist. Zumeist 
+wird sich die Arbeit an einem Vertrag aber auf einzelne Abschnitte und Passage beschränken - oder 
+auf die Prüfung eines Entwurfs des Vertragspartners. In einem solchen Fall wird erwartet, 
+Kritikpunkte aufzuzeigen und eigene Gegenformulierungen oder Ergänzungen zu finden. Denkbar ist 
+auch, einen Vorvertrag, Letter of Intent oder eine Geheimhaltungsvereinbarung zu verfassen.  
+ 
+Sämtliche Formulierungen müssen hinreichend bestimmt und transparent sein, die Risiken und 
+Konsequenzen berücksichtigen und im Auge behalten, welche Konsequenzen sich aus einer 
+möglichen Eskalation ergeben.  
+ 
+Wesentlich ist hier, den Mandanten in die eigenen Überlegungen einzubeziehen und ein ergänzendes 
+Mandantenschreiben zu verfassen bzw. zumindest vorzuschlagen.  
+ 
+ 
+ 
+
+===== SEITE 64 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 64 
+2. Zielbestimmung und Mandantenbegehren  
+ 
+Entweder bringt der Mandant seine eigene Zielvorstellung bereits mit („Entwerfen Sie mir …“) oder 
+er hat keine genaue Vorstellung, wie das Vorgehen auszusehen hat. Dann muss der Bearbeiter die 
+Zielvorstellung herausarbeiten und damit umgehen.  
+ 
+Liegt ein Entwurf (oder Korrespondenz) des Gegners vor, ist die Ausgangslage in der Regel daran 
+orientiert, darauf zu reagieren und eigene Leistungen dagegenzustellen.  
+ 
+Der Bearbeiter begutachtet also die Rechtslage, schlägt das Vorgehen vor und setzt dieses 
+konsequent um. Und erklärt es in der Regel dem Mandanten.  
+ 
+3. Prinzipien  
+ 
+a. Aufbau von Verträgen:  
+ 
+Das Rubrum sollte, ebenso wie im Schriftsatz, die Parteien detailliert erfassen. Es bietet sich an, zur 
+Vereinfachung der weiteren Vertragsgestaltung einheitliche Bezeichnungen zu wählen, etwa:  
+ 
+Die XY GmbH & Co. KG, vertreten durch die Komplementärin, die XY GmbH, diese vertreten durch den 
+Geschäftsführer Z, Anschrift ..., nachfolgend bezeichnet als die „Verkäuferin“ 
+ 
+Dies vermeidet ständige Wiederholungen der kompletten Parteibezeichnung im Fließtext, 
+gewährleistet aber gleichzeitig, dass die Vertragsparteien einschließlich der Vertretungsverhältnisse 
+einmal korrekt erfasst sind.  
+ 
+Beim Vertragsaufbau ist weiter zu beachten, dass man „vom Allgemeinen zum Besonderen“ arbeiten 
+sollte. Hier gilt das Klammerprinzip. Allgemeine Vereinbarungen und Grundsätze, auf die man immer 
+wieder im Spezielleren verweisen kann, sollten eingangs Platz finden, ebenso wie 
+Begriffsbestimmungen. Es gilt auch hier die Regel, dass stets nach oben zu verweisen ist, nach 
+Möglichkeit nie nach unten.  
+ 
+Bewährt ist, mit einer Präambel zu beginnen, die die allgemeine Situation darstellt und damit schon 
+einmal eine Art „Geschäftsgrundlage“ hinterlegt. Es muss anschließend möglichst früh im Text der 
+Vertragsgegenstand möglichst präzise bestimmt werden (bei zweiseitigen Rechtsgeschäften kurz und 
+präzise, was vereinbart werden soll), flankiert von einer exakten Formulierung von Leistung und 
+
+===== SEITE 65 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 65 
+Gegenleistung. Einen wesentlichen Aspekt bildet der Komplex Haftung/ Gewährleistung. Ebenfalls 
+nicht fehlen dürfen Bestimmungen zur Vertragsbeendigung, sonstige Regelungen und 
+Schlussbestimmungen (Gerichtsstand, Schriftform, salvatorische Klausel).  
+ 
+b. Zivilrechtliche Prinzipien  
+ 
+Die Bearbeiterin / der Bearbeiter muss sich stets vor Augen führen, welche gesetzlichen Regelungen 
+unter der vertraglichen Regelung liegen.  Passt die gesetzliche Regelung zum Anliegen und zur 
+Zielsetzung des Mandanten, kann auf diese verwiesen werden. Dies gilt natürlich besonders, wo die 
+gesetzliche Regelung nicht umgangen werden darf (d.h. es ist sauber zwischen disponiblem und nicht 
+disponiblem Recht zu differenzieren) . Ferner ist zu beachten, wie die Auslegung der eigenen 
+Formulierungen nach dem objektiven Empfängerhorizont aussieht.  
+Gesetzliche Verbote und möglicher Dissens sind ebenso zu beachten wie die AGB- Inhaltskontrolle.  
+ 
+c. Praktische Umsetzung  
+ 
+Die Möglichkeiten in der Praxis sind natürlich andere, als dem Klausurbearbeiter zur Verfügung 
+stehen. Es kann auf Formularbücher oder eigene bzw. fremde Verträge zurückgegriffen werden, 
+eigene Vorlagen können individuell angepasst werden. Vertragswerke wie die  VOB/B können 
+einbezogen werden, ggf., wenn auch mit Vorsicht mit Modifikationen. Ganz gelegentlich wird völlig 
+neu und frei ausformuliert. Dieser Weg ist bei sehr einfachen Sachverhaltskonstellationen zu 
+empfehlen.  
+ 
+In der Klausur hilft das alles nicht. Entweder wird also sehr umsichtig gearbeitet oder man hat 
+entsprechende Formulierungen im Zuge der Examensvorbereitung z.B. aus Formularbüchern gezogen 
+und sich einigermaßen gemerkt.  
+ 
+Die Einhaltung der Aufbauprinzipien hilft jedoch schon ein gutes Stück weiter.  
+ 
+4. AGB-Regelungen in der Vertragsgestaltung 
+ 
+Zu Allgemeinen Geschäftsbedingungen ergeben etliche folgende Fragen bei der  Vertragsgestaltung, 
+nämlich zum Beispiel, ob die reine Eignung für die Mehrfachverwendung vorliegt, inwieweit eine 
+Individualvereinbarung gegeben ist, die mehr Möglichkeiten bietet – und ob diese von der AGB 
+abzugrenzen ist. Auch ist zu klären, welche Folgen ein Verstoß hat.  
+
+===== SEITE 66 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 66 
+Sind Unternehmer beteiligt, ist ebenfalls zu differenzieren, inwieweit die Inhaltskontrolle hier 
+einschlägig ist.  
+Auch bei einseitigen Rechtsgeschäften können die Besonderheiten der AGB durchgreifen und zu 
+beachten sein.   
+ 
+Auch wenn der Bearbeiter eigentlich keine AGB formulieren will, kann die objektive Bewertung der 
+Regelungen ergeben, dass sie vorliegen. Die Grundsätze des Anscheinsbeweises sind anzuwenden, 
+wenn zum Beispiel der Vertrag zahlreiche formelhafte Klauseln enthält und nicht auf die individuelle 
+Vertragssituation abgestimmt ist. Dies wurde vom BGH insbesondere für den Bauträgervertrag 
+entschieden. Die Geltung für den Bauvertrag kann angenommen werden. Bei der Typizität der 
+Regelungen ist insbesondere darauf abzustellen, ob diese gerade die konfliktträchtigen 
+Konstellationen betreffen oder zum Beispiel nur den Vertragspartner des Verwenders betreffen.  
+ 
+Demgegenüber ist der Nachweis einer Individualvereinbarung sehr schwierig: Nach der 
+Rechtsprechung des BGH erfordert Aushandeln gem. § 305 I 3 BGB  mehr als Verhandeln. Von einem 
+Aushandeln in diesem Sinne kann nur dann  gesprochen werden, wenn der Verwender zunächst 
+den in seinen AGB  enthaltenen gesetzesfremden Kerngehalt, also die den wesentlichen Inhalt 
+der gesetzlichen Regelung ändernden oder ergänzenden Bestimmungen, inhaltlich ernsthaft  zur 
+Disposition stellt und dem Verhandlungspartner Gestaltungsfreiheit zur Wahrung  eigener Interessen 
+einräumt mit zumindest der realen Möglichkeit, die inhaltliche Ausgestaltung der 
+Vertragsbedingungen zu beeinflussen. Der Verwender  muss sich also deutlich und ernsthaft  zur 
+gewünschten Änderung einzelner Klauseln bereit erklären.  
+ 
+Nach dem sogenannten Blue Pencil Test muss man davon ausgehen, dass inhaltlich voneinander 
+trennbare, isoliert verständliche Regelungen auch dann Gegenstand einer gesonderten 
+Wirksamkeitsprüfung sein können, wenn sie in einem äußeren sprachlichen Zusammenhang mit 
+anderen, unwirksamen Regelungen stehen. Wenn der als unwirksam anzusehende Rest im 
+Gesamtkontext des Vertrages nicht mehr sinnvoll erscheint, insbesondere von einer abweichenden 
+Vertragsgestaltung gesprochen werden kann, ergreift die Unwirksamkeit einer Teilklausel auch die 
+Gesamtklausel. Aber bei einer rein formalen Bindung der Regelungen, also wo sich ein 
+gegenständlich zulässiger von einem unzulässigen Regelungsteil trennen lässt, meint der BGH, den 
+zulässigen Teil erhalten zu können.   
+ 
+Eine inhaltlich unwirksame Klausel fällt weg. Man kann sie nicht geltungserhaltend reduzieren, um 
+ihre Wirksamkeit zu erhalten. Ist eine Klausel unwirksam, dann ist zunächst nach dem die Lücke 
+füllenden dispositiven Recht zu fragen.  
+
+===== SEITE 67 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 67 
+ 
+Steht Gesetzesrecht nicht zur Verfügung, ist auf eine ergänzende Vertragsauslegung  nach den 
+Grundsätzen der  §§ 133, 157 BGB zurückzugreifen. Im Prinzip hat man es erst hier mit der 
+geltungserhaltenden Reduktion bzw. ihrem Verbot zu tun. 
+ 
+Eine salvatorische Klausel kann so formuliert werden:  
+„Sollten Bestimmungen dieser Allgemeinen Geschäftsbedingungen und/oder des  Vertrages 
+unwirksam sein oder werden, so berührt dies die Wirksamkeit der übrigen  Bestimmungen nicht. 
+Vielmehr gilt anstelle jeder unwirksamen Bestimmung eine dem Zweck  der Vereinbarung 
+entsprechende oder zumindest nahekommende Ersatzbestimmung, wie  sie die  Parteien zur 
+Erreichung des gleichen wirtschaftlichen Ergebnisses vereinbart hätten, wenn sie die 
+Unwirksamkeit der Bestimmung gekannt hätten. Entsprechendes gilt für Unvollständigkeiten.“ 
+ 
+Vermieden werden sollte im Lichte der vorgenannten Rechtsprechung ein Bestandteil wie „soweit 
+gesetzlich zulässig“. Auch dies dürfte intransparent und damit unwirksam sein, ebenso wie eine 
+Ersetzungsverpflichtung der Parteien , die diese dadurch verpflichtet, die für unwirksam erklärte 
+Klausel durch eine zu ersetzen, die dem wirtschaftlichen Zweck der ursprünglichen Bestimmung 
+möglichst nahe kommt.   
+ 
+5. Hybridklausuren  
+ 
+Denkbar ist eine Klausurstellung, die sich nicht am klassischen Aufbau anlehnt, sondern Elemente aus 
+außerprozessualen Handlungen und z.B. der Formulierung von Anträgen fordert. In der Regel bildet 
+bei diesen Klausuren die Begutachtung einer materiellen Rechtsfrage den Schwerpunkt , der durch 
+Zusatzleistungen flankiert wird.  
+ 
+IX. Klagen und Rechtsbehelfe in der Zwangsvollstreckung  
+ 
+Klagen und Rechtsbehelfe in der Zwangsvollstreckung im engeren Sinne sind solche, die erhoben 
+werden können, während die Vollstreckung noch bevorsteht, andauert, aber noch nicht 
+abgeschlossen ist. Zentral bei der Frage, wann die Zwangsvollstreckung abgeschlossen ist, ist die 
+Auskehr des Erlöses. Daneben treten die Vollstreckungserinnerung und die sofortige Beschwerde. 
+ 
+Es folgt ein kurzer Überblick über die zentralen Instrumente, um Rechtsschutz in der 
+Zwangsvollstreckung zu erlangen. Die Inhalte sind jedoch noch zu vertiefen. 
+ 
+
+===== SEITE 68 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 68 
+1. Klagen gegen die Zwangsvollstreckung:  
+ 
+Zunächst gibt es sechs Klageformen, von denen drei gesetzlich geregelt sind und eine nicht ganz ins 
+System passt. Die Vollstreckungsabwehrklage nach § 767 ZPO, die Drittwiderspruchsklage nach § 771 
+ZPO und die Klage auf vorzugsweise Befriedigung nach § 805 ZPO. Hinzutreten die 
+Titelherausgabeklage analog § 371 BGB, die Titelgegenklage analog § 767 ZPO und eine Klage aus § 
+826 BGB, die sich auch gegen einen Titel richtet.  
+ 
+a. Vollstreckungsabwehrklage nach § 767 ZPO  
+ 
+Mit der Vollstreckungsabwehrklage macht die Klägerin oder der Kläger materiellrechtliche 
+Einwendungen gegen den vollstreckten Anspruch geltend. Entsprechend ist der Antrag (siehe auch 
+oben zu dem Musteranträgen) auf Unzulässigerklärung der Zwangsvollstreckung gerichtet.  
+ 
+Essenziell ist (im Falle des Urteils), die Präklusionswirkung des § 767 Abs. 2 ZPO zu kennen. Danach 
+können grundsätzlich nur Einwendungen geltend gemacht werden, die nach Schluss der 
+mündlichen Verhandlung entstanden sind. Standardfall ist die Zahlung nach Erlass des Urteils. Dann 
+ist § 362 BGB maßgebend. Bei einer Aufrechnung ist Vorsicht geboten, da nicht auf den Zeitpunkt 
+der Aufrechnungserklärung sondern nach § 389 BGB auf den Zeitpunkt abzustellen ist, als sich die 
+Forderungen erstmals aufrechenbar gegenüberstanden. Dies kann vor dem nach § 767 Abs. 2 ZPO 
+maßgeblichen Zeitpunkt sein. Bei mehreren Klagen hintereinander erweitert § 767 Abs. 3 ZPO die 
+Präklusionswirkung. Was bereits zuvor hätte geltend gemacht werden können, kann nicht mehr 
+später mit Erfolg in einer weiteren Vollstreckungsabwehrklage mit Erfolg eingewendet werden.  
+ 
+Vollstreckung findet jedoch nicht nur aus Urteilen sondern z.B. auch aus Vergleichen, notariellen 
+Urkunden oder Kostenfestsetzungsbeschlüssen statt. Nach § 797 Abs. 4 ZPO findet die Vorschrift 
+des § 767 Abs. 2 ZPO auf Titel, die keine Urteile sind, keine Anwendung. Für gerichtliche Vergleiche 
+ist dies auch anerkannt. Bei gerichtlichen Vergleichen muss darauf geachtet werden, dass 
+Einwendungen, die den Vergleich suspendieren z.B. die Anfechtung mit der „ex tunc“-Wirkung nach 
+§ 142 Abs. 1 BGB  eine Fortführung des beendeten Prozesses nach sich ziehen. Für eine Klage nach 
+§ 767 ZPO ist dann grundsätzlich kein Raum. Der Prozessvergleich hat eine Doppelnatur und ist 
+zivilrechtlicher (vgl. § 779 BGB) und prozessualer Vertrag, der eine prozessbeendigende Wirkung 
+hat.  
+ 
+§§ 769, 770 ZPO lassen zudem Schutzanträge im Wege der einstweiligen Anordnung zu. So kann 
+eine Vollstreckung auch bis zu einer Entscheidung gestoppt oder erschwert werden. Dies ist 
+
+===== SEITE 69 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 69 
+wichtig, da eine Entscheidung in der Hauptsache zu lange dauern kann. Dem Mandanten nützt es 
+nicht, wenn erst Jahre später etwas rechtskräftig entschieden wird, während die Vollstreckung 
+bereits läuft.  
+ 
+b. Drittwiderspruchsklage nach § 771 ZPO  
+ 
+Wird in das falsche Vermögen vollstreckt, so kann die/ der Dritte sich gegen die Vollstreckung 
+wehren. Maßgebend ist „ein die Vollstreckung hinderndes“ Recht. 
+ 
+Ein Beispielsfall ist die Vollstreckung in schuldnerfremdes Eigentum: Der Gerichtsvollzieher pfändet 
+die vom Schuldner nur geliehene Uhr einer dritten Person.  
+ 
+Zu beachten ist in diesem Zusammenhang, dass die Pfändung in das Eigentum z.B. der Ehefrau aus 
+einem Titel, der nur den Ehemann verpflichtet, zunächst wirksam sein kann, da § 739 ZPO eine 
+Gewahrsamsvermutung normiert. Der Gerichtsvollzieher ist nicht verpflichtet, die 
+Eigentumsverhältnisse vor Ort zu überprüfen. Daher bietet eine Erinnerung nach § 766 ZPO keine 
+Aussicht auf Erfolg. Der Weg führt nur über die Drittwiderspruchsklage.  
+ 
+Es gibt jedoch zahlreiche Varianten, die jeweils einer gesonderten Wertung zuzuführen sind. So 
+kann der Erwerb von Anwartschaftsrechten wie dem Eigentumsvorbehalt oder eine 
+Sicherungsübereignung Konstellationen schaffen, die sorgfältig zu betrachten sind. Das 
+Anwendungsfeld ist überraschend weit . Der Antrag würde hier lauten, die Zwangsvollstreckung in 
+(genaue Bezeichnung des Gegenstandes) für unzulässig zu erklären. Auch in diesem Falle  ist ein 
+Eilantrag nach §§ 771 Abs. 3, 769, 770 ZPO möglich. 
+ 
+c. Klage auf vorzugsweise Befriedigung nach § 805 ZPO  
+ 
+Steht einem Dritten ein vorrangiges Pfandrecht an einer in der Verwertung befindlichen Sache zu, 
+kann er seinen Vorrang gerichtlich durchsetzen. Dabei geht es ihm darum, aus dem Erlös vor dem 
+eigentlichen Vollstreckungsgläubiger befriedigt zu werden. Entsprechend ist zu beantragen: 
+ 
+„Der Kläger ist vor dem Beklagten aus dem Reinerlös aus der Vollstreckung in folgenden Gegenstand 
+(genau bezeichnen) wegen einer Forderung des Klägers in Höhe von € ... zu befriedigen.“ 
+ 
+d. Titelherausgabeklage analog § 371 BGB (keine Klage gegen die Zwangsvollstreckung, sondern 
+allgemeine Leistungsklage nach ZPO!) 
+
+===== SEITE 70 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 70 
+ 
+Selbst wenn der Schuldner über eine Vollstreckungsabwehrklage nach § 767 ZPO die laufende 
+Zwangsvollstreckung für unzulässig erklären kann, weil der Anspruch untergegangen ist, hat der 
+Gläubiger noch den Titel in den Händen. Mit der vollstreckbaren Ausfertigung des Titels kann eine 
+weitere Vollstreckung veranlasst werden, auch wenn schon erfüllt ist, da das Vollstreckungsorgan 
+dies zunächst nicht wissen kann. Ist der titulierte Anspruch vollständig erfüllt, muss der Gläubiger 
+den Titel entwerten und an sich an den Schuldner herausgeben. Unterbleibt dies, stellt sich für den 
+Schuldner die Frage nach einer gerichtlichen Durchsetzung. Um eine Herausgabe des Titels zu 
+erreichen, wird auf § 371 BGB, der die Rückgabe eines Schuldscheins regelt, zurückgegriffen. Die 
+Herausgabe kann in der Regel nur parallel zur Vollstreckungsabwehrklage geltend gemacht werden. 
+Die Titelherausgabeklage ist daher auch den Beschränkungen des § 767 Abs. 2 ZPO unterworfen.  
+Anderenfalls könnte der Schuldner die Vollstreckung durch den Entzug des Titels allein stoppen.  
+Achten Sie darauf, dass die Zulässigkeit hier regelmäßig nicht „leer“ ist.  
+ 
+ 
+e. Titelgegenklage analog § 767 ZPO  
+ 
+Ist eine vollstreckbare notarielle Urkunde fehlerhaft oder zu unbestimmt, kann die Vollstreckung 
+ebenfalls für unzulässig erklärt werden. Es ist auf die Verletzung des Konkretisierungsgebots 
+abzustellen. Da der Fall in § 767 ZPO nicht erfasst ist, wird eine analoge Anwendung angenommen. 
+Die Titelgegenklage argumentiert mit einem Einwand gegen die Bestimmtheit des titulierten 
+Anspruchs. Bei Unwirksamkeit der Unterwerfungserklärung ist die Vollstreckung aus der Urkunde 
+schlechthin für unzulässig zu erklären. D ieses Ergebnis wäre mit den Rechtsbehelfen gegen die 
+Erteilung der Vollstreckungsklausel nicht zu erreichen. Mit diesen kann nur eine Entscheidung über 
+die Unzulässigkeit der Zwangsvollstreckung aus der erteilten Klausel herbeigeführt werden.  
+ 
+Ähnliches gilt für ein Urteil, das aufgrund der Unbestimmtheit des Streitgegenstandes zwar 
+möglicherweise formell rechtskräftig, aber der materiellen Rechtskraft nicht fähig ist.  
+ 
+f. Klage aus § 826 BGB – Durchbrechung der Rechtskraft  
+ 
+In sehr engen Grenzen lässt die Rechtsprechung auch ein Vorgehen gegen bestimmte Titel zu, die 
+entweder erschlichen wurden oder sittenwidrig ausgenutzt werden. Zentral ist die Unrichtigkeit des 
+Titels. Es kann dann auch auf Herausgabe des Titels als Schadensersatz geklagt werden. Die 
+Anforderungen sind jedoch sehr hoch und beschränken sich auf schwerwiegende Ausnahmefälle, 
+damit nicht die Rechtskraft ausgehöhlt und die Rechtssicherheit somit beeinträchtigt wird. Diese 
+
+===== SEITE 71 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 71 
+Klage kann zum Erfolg führen, wenn es mit dem Gerechtigkeitsgedanken schlechthin unvereinbar 
+wäre, dass der Titelgläubiger seine formelle Rechtsstellung unter Missachtung der materiellen 
+Rechtslage zu Lasten des Schuldners ausnutzt.  
+ 
+2. Sofortige Beschwerde und Erinnerung  
+ 
+Neben die Klagen treten als Rechtsbehelfe in der Zwangsvollstreckung die Beschwerde und die 
+Erinnerung.  
+ 
+a. Sofortige Beschwerde nach § 793 ZPO 
+ 
+Die sofortige Beschwerde richtet sich gegen Entscheidungen. Dies können nur solche eines Gerichts 
+sein. Davon erfasst sind z.B. Entscheidungen des Vollstreckungsgerichts im Rahmen der Pfändung 
+von Rechten oder Forderungen. Die sofortige Beschwerde kommt also für den 
+Vollstreckungsschuldner aber auch für den Gläubiger in Frage. 
+ 
+b. Erinnerung nach § 766 ZPO 
+ 
+Die Erinnerung richtet sich hingegen gegen die Art und Weise der Zwangsvollstreckung. Davon sind 
+grundsätzlich Maßnahmen des Gerichtsvollziehers umfasst, da es sich dabei nicht um 
+Entscheidungen i.S.d. des § 793 ZPO handelt. Auch hier kann eine Erinnerung sowohl für den 
+Vollstreckungsschuldner als auch für den Gläubiger in Frage komme. Die Anträge können lauten: 
+ 
+„Die Zwangsvollstreckung ist insoweit für unzulässig zu erklären, als ...“ 
+ 
+oder 
+ 
+„Der Gerichtsvollzieher wird angewiesen, …“ 
+ 
+3. Vorgehen im Anschluss an die Zwangsvollstreckung  
+ 
+Nach Abschluss der Zwangsvollstreckung, der mit der Erlösauskehr einhergeht, sind noch 
+Leistungsklagen denkbar. Diese stützen sich auf Bereicherungsrecht. Anknüpfungspunkt kann § 817 
+Abs. 4 ZPO und die dort geregelte Befreiung von der Barzahlungspflicht sein, wenn der 
+Vollstreckungsgläubiger selbst den gepfändeten Gegenstand ersteigert. Zu beachten ist auch, dass 
+andere Regelungen für das Pfändungspfandrecht und das Pfandrecht nach BGB gelten. Für das 
+
+===== SEITE 72 =====
+Die zivilrechtliche Klausur aus Anwaltssicht in der II. Juristischen Staatsprüfung  
+ 72 
+Pfandrecht nach BGB finden im Rahmen der Verwertung zum Teil die Vorschriften des gutgläubigen 
+Erwerbs Anwendung, was beim Pfändungspfandrecht hinsichtlich des Zuschlages nicht der Fall ist. 
+ 

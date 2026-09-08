@@ -1,0 +1,3067 @@
+===== SEITE 1 =====
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Die Assessorklausur 
+im Verwaltungsrecht 
+(staatliche Sicht) 
+ 
+ 
+Berliner Skript 
+ 
+ 
+ 
+ 
+ 
+Stand: Dezember 2025 
+
+===== SEITE 2 =====
+Berliner Skript 
+2 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+Inhalt 
+ 
+ 
+A. An die Leserinnen und Leser .......................................................................... 5 
+B. Die Elemente zur Gestaltung eines Rubrums .................................................. 6 
+C. Tenorierung verwaltungsgerichtlicher Urteile .............................................. 14 
+1. Klageabweisung (für alle Klagearten) ................................ ................. 14 
+2. Anfechtungsklage, Stattgabe ................................ ............................ 15 
+3. Anfechtungsklage, Stattgabe, Ausspruch nach § 162 II 2 VwGO ............. 15 
+4. Anfechtungsklage, Teilstattgabe ................................ ........................ 16 
+5. Verpflichtungsklage, Stattgabe ................................ .......................... 17 
+6. Verpflichtungsklage, Stattgabe als Bescheidungsurteil ........................... 17 
+7. Leistungsklage, Stattgabe ................................ ................................  18 
+8. Anfechtungsklage, Beteiligung eines Beigeladenen ............................... 18 
+9. Stattgabe Fortsetzungsfeststellungsklage ................................ ............ 20 
+a) Anfechtungskonstellation ........................................................................................ 20 
+b) Verpflichtungskonstellation ..................................................................................... 20 
+10. Teilstattgabe Fortsetzungsfeststellungsklage (Verpflichtung) ................ 21 
+11. Anfechtungsklage, Abweisung, Teilerledigung ................................ .... 21 
+12. Feststellungsklage bei Erledigungserklärung d. Klägers, Var. 1 .............. 22 
+13. Feststellungsklage bei Erledigungserklärung d. Klägers, Var. 2 .............. 23 
+14. Anfechtungsklage, Abweisung, Teilrücknahme ................................ .... 24 
+15. Anfechtungsklage, Stattgabe, Teilrücknahme ................................ ..... 24 
+16. Anmerkung: Zulassung der Berufung ................................ ................ 25 
+17. Streitwert ................................ ................................ ................... 255 
+D. Der Tatbestand ............................................................................................. 27 
+1. Überschrift ................................ ................................ ..................... 27 
+2. Einleitungssatz ................................ ................................ ............... 27 
+3. Geschichtserzählung/Unstreitiger Sachverhalt ................................ ...... 28 
+4. Verwaltungsverfahren ................................ ................................ ...... 28 
+5. Klageerhebung/Prozessgeschichte ................................ ..................... 29 
+6. Behauptungen und Rechtsausführungen des Klägers ............................. 30 
+7. Änderungen des Streitgegenstandes vor den Anträgen mitteilen ............. 30 
+
+===== SEITE 3 =====
+Berliner Skript 
+3 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+8. Antrag des Klägers ................................ ................................ .......... 31 
+9. Antrag des Beklagten................................ ................................ ....... 32 
+10. Behauptungen und Rechtsausführungen des Beklagten ........................ 32 
+11. Antrag und Vorbringen des Beigeladenen ................................ .......... 33 
+12. Weitere Prozessgeschichte ................................ .............................. 33 
+13. Der Pauschalverweis („salvatorische Klausel“) ................................ .... 34 
+E. Die Entscheidungsgründe ............................................................................. 35 
+1. Einleitende Formulierungen zur Entscheidungsart ................................ . 35 
+2. Die Formulierung von Obersätzen ................................ ...................... 36 
+a) Zulässige und unbegründete Anfechtungsklage .......................................................... 36 
+b) Zulässige und teilweise begründete Anfechtungsklage ................................................ 36 
+c) Unbegründete Verpflichtungsklage ........................................................................... 37 
+d) Unbegründete Verpflichtungsklage, Bescheidungsklage ............................................... 38 
+e) Begründete Fortsetzungsfeststellungsklage ............................................................... 38 
+f) Begründete Bescheidungs-Fortsetzungsfeststellungsklage ........................................... 39 
+g) Zulässige und begründete Feststellungsklage ............................................................ 39 
+h) Zulässige und begründete allgemeine Leistungsklage ................................................. 40 
+3. Urteilsstil und Methodik ................................ ................................ .... 40 
+F. Vorläufiger Rechtsschutz nach § 123 Abs. 1 VwGO ....................................... 45 
+1. Vorbemerkung  ................................ ................................ ...........  45 
+2. Aufbau ................................ ................................ ........................  45 
+a. Zulässigkeit  ................................ ................................ ................................ .. 45 
+aa. Statthaftigkeit  (§ 123 Abs. 5, 80 Abs. 5, 80a Abs. 3 VwGO) .........................  46 
+bb. Antragsbefugnis (§ 42 Abs. 2 VwGO analog)  ................................ ..............  47 
+cc. Rechtsschutzbedürfnis  ................................ ................................ ............  47 
+b. Begründetheit  ................................ ................................ ...............................  47 
+aa. Anordnungsanspruch  ................................ ................................ ..............  47 
+bb. Anordnungsgrund  ................................ ................................ ..................  48 
+cc. Entscheidung des Gerichts und Vorwegnahme  der Hauptsache  ......................  49 
+3. Obersätze und Tenorierung  ................................ ..........................  51 
+a. Obersätze  ................................ ................................ ................................ ..... 51 
+b. Tenorierung  ................................ ................................ ................................ .. 52 
+aa. Stattgabe  ................................ ................................ .............................  52 
+bb. Zurückweisung  ................................ ................................ ......................  53 
+G. Vorläufiger Rechtsschutz nach § 80 Abs. 5 Satz 1 VwGO .............................. 54 
+1. Zulässigkeit ................................ ................................ ................... 54 
+2. Begründetheit ................................ ................................ ................ 55 
+a) § 80 Abs. 5 Satz 1, 1. Alt. VwGO, gesetzlicher Ausschluss der aufschiebenden Wirkung 
+nach § 80 Abs. 2 Satz 1 Nr. 1 bis 3 und Satz 2 VwGO .............................................. 56 
+
+===== SEITE 4 =====
+Berliner Skript 
+4 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+aa) Ernstliche Zweifel an der Rechtmäßigkeit  der Grundverfügung  ......................  56 
+bb) Offensichtliche Rechtmäßigkeit  der Grundverfügung  ................................ ... 57 
+cc) Erfolgsaussichten des Rechtsbehelfs  sind offen ................................ ...........  58 
+b) § 80 Abs. 5 Satz 1, 2. Alt. VwGO, Anordnung der sofortigen Vollziehung durch die 
+Behörde nach 80 Abs. 2 Satz 1 Nr. 4 VwGO ............................................................ 59 
+aa) Ernstliche Zweifel an der Rechtmäßigkeit  der Grundverfügung  ......................  59 
+bb) Offensichtliche Rechtmäßigkeit  der Grundverfügung  ................................ ... 60 
+cc) Rechtmäßigkeit der Grundverfügung  offen ................................ .................  61 
+3. Sonderfälle ................................ ................................ .................... 62 
+a) Entsprechende Anwendung des § 80 Abs. 5 VwGO bei Missachtung der aufschiebenden 
+Wirkung eines Widerspruchs durch die Behörde („Faktischer Vollzug“) ....................... 62 
+b) § 80 Abs. 5 Satz 3 VwGO, Rückgängigmachung der Vollziehung ................................ 63 
+c) § 80 Abs. 5 VwGO und formelle Rechtswidrigkeit der Vollziehungsanordnung nach § 80 
+Abs. 3 Satz 1 VwGO ............................................................................................ 64 
+H. Die Klausur aus behördlicher Sicht ............................................................... 66 
+1. Zur Aufgabenstellung ................................ ................................ ....... 66 
+2. Muster eines Widerspruchsbescheides mit Begleitverfügung ................... 72 
+J. Klausurbearbeitung: Zwölf goldene Regeln ................................................... 77 
+
+===== SEITE 5 =====
+Berliner Skript 
+5 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+A. An die Leserinnen und Leser 
+ 
+ 
+Die durch das Kammergericht zur Verfügung gestellten Skripte werden von 
+erfahrenen Leiterinnen und Leitern von Arbeitsgemeinschaften erstellt. In 
+ihnen werden Fragen der Klausurbearbeitung behandelt und mögliche Lö - 
+sungen aufgezeigt. Die Skripte bieten indes keine abschließende Aufberei - 
+tung des Prüfungsstoffes und möglicher Lösungswege bzw. Darstellungsfor- 
+men für die Klausuren. Ziel ist es vielmehr, Referendarinnen und Referen - 
+daren bestimmte Strukturen und Formulierungen an die Hand zu geben, die 
+das Schreiben der Examensklausuren unterstützen. Die hier vorgeschlage- 
+nen Lösungswege und Formulierungen sind vertretbar und liegen innerhalb 
+des Antwortspielraums der Klausurschreibenden. 
+ 
+Die vorliegende Neuauflage zum Verwaltungsrecht (staatliche Sicht) wird 
+verantwortet von VRiLSG Hutschenreuther und RiLSG Lietzmann. Die Vor - 
+auflagen wurden langjährig von RiVG Dr. Mueller -Thuns und VRiVG Schu - 
+bert betreut. In Form von Einzelbeiträgen haben mitgewirkt RiSG Baum, 
+VRiVG Groscurth, VRiLSG Dr. Kärcher sowie LSenR Richard. Anregungen 
+und Kommentare nehmen die unter axel.hutschenreuther@lsg.brandenburg.de 
+und andre.lietzmann@lsg.brandenburg.de erreichbaren Herausgeber gerne ent- 
+gegen. 
+ 
+In diesem Skript sind durchweg alle Geschlechter gemeint, auch wenn ver- 
+einzelt das generische Maskulinum verwendet wird. 
+ 
+Potsdam, im Dezember 2025 
+ 
+André Lietzmann 
+Axel Hutschenreuther 
+
+===== SEITE 6 =====
+Berliner Skript 
+6 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+B. Die Elemente zur Gestaltung eines Rubrums und 
+Entscheidungseingangs, § 117 Abs. 1 und 2 Nr. 1 
+und 2 VwGO 
+ 
+ 
+VG 27 K 1137.16 Aktenzeichen, sofern im Akten- 
+auszug ersichtlich 
+ 
+Verwaltungsgericht Berlin 
+ 
+Bezeichnung des entscheidenden 
+Gerichts 
+ 
+Urteil 
+ 
+Bezeichnung der Entscheidungs- 
+form; 
+alternativ: 
+Gerichtsbescheid oder 
+Beschluss 
+ 
+Im Namen des Volkes 
+ 
+nur bei Urteil und Gerichtsbe- 
+scheid 
+ 
+In der Verwaltungsstreitsache 
+ 
+stets in dieser Formulierung 
+ 
+des Herrn Bernhard Müller, 
+Maindamm 20, 10777 Berlin, 
+ 
+Identifizierung der Klägerseite; 
+ggf. den Beruf oder einen Vertre- 
+tungsberechtigten nennen; 
+Klägers, Beteiligtenbezeichnung; 
+in Beschlüssen: Antragstellers 
+ 
+Prozessbevollmächtigter: Rechts- 
+anwalt Bernd Jäger, Rosastraße 
+27, 10987 Berlin, 
+ 
+in Beschlüssen: Verfahrensbe- 
+vollmächtigter 
+ 
+gegen 
+ 
+… 
+
+===== SEITE 7 =====
+Berliner Skript 
+7 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+das Land Berlin, vertreten durch 
+die Polizei Berlin, Platz der Luft- 
+brücke 7, 19888 Berlin, 
+ 
+Identifizierung der Beklagten- 
+seite, auch hier auf den Vertre- 
+tungsberechtigten achten; 
+bloße Terminsvertreter gehören 
+nicht ins Rubrum 
+ 
+Beklagten, 
+ 
+Beteiligtenbezeichnung; 
+in Beschlüssen: 
+Antragsgegner 
+ 
+beigeladen: Frau Anne Roth, 
+Elmweg 7, 14343 Berlin, 
+ 
+sofern eine Beiladung vorliegt, ist 
+sie hier zu erwähnen; 
+ggf. den Prozessbevollmäch- 
+tigten nennen 
+ 
+hat das Verwaltungsgericht Berlin, 
+27. Kammer, 
+ 
+Bezeichnung des entscheidenden 
+Spruchkörpers 
+ 
+aufgrund der mündlichen Ver- 
+handlung 
+ 
+sofern eine mündliche Verhand- 
+lung stattgefunden hat; 
+ 
+vom 1. Februar 2025 
+ 
+Tag der Urteilsfindung; alterna- 
+tiv: 
+ 
+im Wege schriftlicher Ent- 
+scheidung am 1. Februar 2025 
+(§ 101 Abs. 2 VwGO) 
+ 
+alternativ: 
+ 
+bei Gerichtsbescheiden und Be- 
+schlüssen, die nicht auf eine 
+mündliche Verhandlung 
+
+===== SEITE 8 =====
+Berliner Skript 
+8 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ ergehen, fehlt diese Passage 
+ 
+durch die Vorsitzende Richterin 
+am Verwaltungsgericht A, 
+den Richter am Verwaltungsge- 
+richt B, 
+die Richterin C, 
+die ehrenamtliche Richterin D 
+sowie 
+den ehrenamtlichen Richter E 
+ 
+Nennung der Gerichtsbesetzung 
+unter genauer Wiedergabe der 
+jeweiligen Amtsbezeichnung; 
+alternativ: 
+ 
+bei Gerichtsbescheiden und Be- 
+schlüssen, die nicht auf eine 
+mündliche Verhandlung ergehen, 
+ohne ehrenamtliche Richter, 
+§ 5 Abs. 3 VwGO 
+ 
+alternativ für alle Entscheidungs- 
+formen: 
+ 
+durch den Richter am Verwal- 
+tungsgericht A als Einzelrich- 
+ter 
+bei Übertragung nach § 6 VwGO 
+ 
+durch den Richter am Verwal- 
+tungsgericht A als Berichter- 
+statter anstelle der Kammer 
+im Falle von § 87a Abs. 2/3 
+VwGO 
+ 
+für Recht erkannt: 
+ 
+so im Urteil; 
+ 
+im Gerichtsbescheid lautet dieser 
+Teil: am 1. Februar 2025 
+entschieden: 
+
+===== SEITE 9 =====
+Berliner Skript 
+9 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+im Beschluss lautet dieser Teil: 
+am 1. Februar 2025 
+beschlossen: 
+
+===== SEITE 10 =====
+Berliner Skript 
+10 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Beispiel für Urteilsrubrum und -tenor 
+ 
+ 
+VG 13 K 18.22  
+ 
+VERWALTUNGSGERICHT BERLIN 
+URTEIL 
+IM NAMEN DES VOLKES 
+ 
+ 
+In der Verwaltungsstreitsache 
+ 
+ 
+des Herrn Fridolin Menke, 
+Mainzer Straße 17, 14109 Berlin, 
+Klägers, 
+ 
+ 
+Prozessbevollmächtigter: 
+Rechtsanwalt Hans-Jochen Jung, 
+Nassauische Straße 17, 10715 Berlin, 
+ 
+g e g e n 
+ 
+ 
+das Land Berlin, 
+vertreten durch Bezirksamt Zehlendorf-Steglitz von Berlin, 
+Bau- und Wohnungsaufsichtsamt, 
+Kirchstraße 1-3, 14999 Berlin, 
+ 
+beigeladen: 
+Frau Anne Roth, 
+Elmweg 7, 14343 Berlin, 
+ 
+ 
+ 
+ 
+ 
+Beklagten, 
+ 
+hat das Verwaltungsgericht Berlin, 13. Kammer, aufgrund der mündlichen Ver- 
+handlung vom 1. Februar 2025 durch 
+
+
+===== SEITE 11 =====
+Berliner Skript 
+11 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+die Vorsitzenden Richterin am Verwaltungsgericht Meier, 
+den Richter am Verwaltungsgericht Katermann, 
+die Richterin am Verwaltungsgericht Heisiger, 
+den ehrenamtlichen Richter Biechle, 
+die ehrenamtliche Richterin Gelfrich 
+für Recht erkannt: 
+Die Klage wird abgewiesen. 
+ 
+Der Kläger trägt die Kosten des Verfahrens mit Ausnahme der außerge- 
+richtlichen Kosten der Beigeladenen, die diese selbst trägt. 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Kläger darf 
+die Vollstreckung durch Sicherheitsleistung in Höhe von 110 Prozent des 
+aufgrund des Urteils vollstreckbaren Betrages abwenden, wenn nicht der 
+Beklagte vor der Vollstreckung Sicherheit in Höhe von 110 Prozent des 
+jeweils zu vollstreckenden Betrages leistet. 
+
+===== SEITE 12 =====
+Berliner Skript 
+12 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Beispiel für Beschlussrubrum und –tenor 
+ 
+ 
+VG 27 L 13.25  
+ 
+VERWALTUNGSGERICHT BERLIN 
+BESCHLUSS 
+ 
+In der Verwaltungsstreitsache 
+ 
+des Schülers Mark Fontane, 
+gesetzlich vertreten durch seine Eltern 
+Manuela und Michael Fontane, 
+sämtlich wohnhaft Weimarische Straße 16, 10715 Berlin, 
+ 
+ 
+Antragstellers, 
+g e g e n 
+ 
+das Land Berlin, 
+vertreten durch das Landesschulamt 
+- ZS E - 
+Beuthstr. 6-8, 10117 Berlin, 
+ 
+ 
+Antragsgegner, 
+ 
+ 
+hat das Verwaltungsgericht Berlin, 27. Kammer, durch 
+ 
+die Vorsitzende Richterin am Verwaltungsgericht Schmidt, 
+den Richter am Verwaltungsgericht Niebuhr, 
+die Richterin Drescher 
+ 
+am 1. Februar 2025 beschlossen: 
+
+
+===== SEITE 13 =====
+Berliner Skript 
+13 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+Der Antrag auf Gewährung vorläufigen Rechtsschutzes vom 
+8. Januar 2025 wird zurückgewiesen. 
+ 
+Der Antragsteller trägt die Kosten des Verfahrens. 
+ 
+Der Wert des Verfahrensgegenstandes wird auf 2.500 Euro festgesetzt. 
+
+===== SEITE 14 =====
+Berliner Skript 
+14 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+C. Tenorierung verwaltungsgerichtlicher Urteile 
+ 
+Allen Fällen liegt, soweit nichts Anderes vermerkt ist, ein Bescheid des Be - 
+zirksamts Mitte von Berlin vom 1. Februar 2017 in der Gestalt des Wider - 
+spruchsbescheides dieser Behörde vom 1. April 2017 zugrunde (zur Zustän- 
+digkeit vgl. § 67 ASOG und § 27 AZG sowie Mueller -Thuns/Schubert, LKV 
+1999, 213 ff. <216>). 
+ 
+1. Klageabweisung (für alle Klagearten) 
+ 
+Die Klage wird abgewiesen. 
+ 
+Der Kläger trägt die Kosten des Verfahrens.1 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Kläger 
+darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 Pro- 
+zent des aufgrund des Urteils vollstreckbaren Betrages abwenden, 
+wenn nicht der Beklagte vor der Vollstreckung Sicherheit in Höhe von 
+110 Prozent des jeweils zu vollstreckenden Betrages leistet.2 
+ 
+oder sofern es - je nach Streitwert - um die Vollstreckung von Gerichts- 
+und Anwaltsgebühren von mehr als 1.500 € (in der Regel bereits unter 
+Zugrundelegung des sog. Auffangstreitwerts gemäß § 52 Abs. 2 GKG von 
+5.000,00 €!) geht und ausnahmsweise auf der Beklagtenseite ein Anwalt 
+aufgetreten ist: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 § 154 Abs. 1 VwGO. 
+2 § 167 Abs. 2 VwGO, direkt nur bei Anfechtungs- und Verpflichtungsklagen; 
+§ 167 Abs. 1 Satz 1 VwGO i.V.m. §§ 708 Nr. 11, 711, 709 S. 2 ZPO. 
+
+===== SEITE 15 =====
+Berliner Skript 
+15 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Das Urteil ist wegen der Kosten gegen Sicherheitsleistung in Höhe von 
+110 Prozent des jeweils zu vollstreckenden Betrages vorläufig voll - 
+streckbar3. 
+ 
+2. Anfechtungsklage, Stattgabe 
+ 
+Der Bescheid des Bezirksamts Mitte von Berlin vom 1. Februar 2017 
+in der Gestalt des Widerspruchsbescheides dieser Behörde vom 1. Ap- 
+ril 2017 wird aufgehoben.4 
+ 
+Der Beklagte trägt die Kosten des Verfahrens. 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Beklagte 
+darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 
+Prozent des aufgrund des Urteils vollstreckbaren Betrages abwen- 
+den, wenn nicht der Kläger vor der Vollstreckung Sicherheit in Höhe 
+von 110 Prozent des jeweils zu vollstreckenden Betrages leistet. 
+ 
+3. Anfechtungsklage, Stattgabe, Ausspruch nach § 162 Abs. 2 Satz 
+2 VwGO 
+ 
+Der Bescheid des Bezirksamts Mitte von Berlin vom 1. Februar 2017 
+in der Gestalt des Widerspruchsbescheides dieser Behörde vom 1. Ap- 
+ril 2017 wird aufgehoben. 
+ 
+Der Beklagte trägt die Kosten des Verfahrens. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 § 709 Satz 1 und 2 ZPO. 
+ 
+4 § 113 Abs. 1 Satz 1 VwGO; wegen der Formulierung vgl. auch § 79 Abs. 1 Nr. 1 
+VwGO. 
+
+===== SEITE 16 =====
+Berliner Skript 
+16 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Die Hinzuziehung eines Bevollmächtigten für das Vorverfahren wird 
+für notwendig erklärt.5 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Beklagte 
+darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 Pro- 
+zent des aufgrund des Urteils vollstreckbaren Betrages abwenden, 
+wenn nicht der Kläger vor der Vollstreckung Sicherheit in Höhe von 
+110 Prozent des jeweils zu vollstreckenden Betrages leistet. 
+ 
+4. Anfechtungsklage, Teilstattgabe 
+ 
+(Gebührenbescheid über 200 €; zur Hälfte rechtswidrig) 
+ 
+Der Bescheid des Bezirksamts Mitte von Berlin vom 1. Februar 2017 
+in der Gestalt des Widerspruchsbescheides dieser Behörde vom 1. Ap- 
+ril 2017 wird aufgehoben, soweit die Gebührenforderung 100 € über- 
+steigt; im Übrigen wird die Klage abgewiesen.6 
+ 
+Die Beteiligten tragen die Kosten des Verfahrens jeweils zur Hälfte.7 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der jeweilige 
+Schuldner darf die Vollstreckung durch Sicherheitsleistung in Höhe 
+von 110 Prozent des aufgrund des Urteils vollstreckbaren Betrages 
+abwenden, wenn nicht der jeweilige Gläubiger vor der Vollstreckung 
+Sicherheit in Höhe von 110 Prozent des jeweils zu vollstreckenden 
+Betrages leistet. 
+ 
+ 
+ 
+5 Ein Ausspruch hierüber erfolgt nur bei einem entsprechendem Antrag (h.M.) und 
+bei einer Kostengrundentscheidung zu Lasten des Beklagten. Sofern bei einer 
+solchen positiven Kostengrundentscheidung die Zuziehung nicht für notwendig 
+gehalten wird, unterbleibt diesbezüglich eine Tenorierung; die Erklärung erfolgt 
+dann lediglich bei der Begründung der Nebenentscheidungen zu den Kosten.  
+6 § 113 Abs. 1 Satz 1 VwGO: „soweit“. 
+7 § 155 Abs. 1 Satz 1 VwGO. 
+
+===== SEITE 17 =====
+Berliner Skript 
+17 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+5. Verpflichtungsklage, Stattgabe 
+ 
+(Antrag vom 1. November 2016 auf Erteilung einer Sondernutzungserlaub- 
+nis für einen Imbisswagen vor der Kirchstraße 7 in Berlin-Moabit) 
+ 
+Der Beklagte wird unter Aufhebung des Bescheides des Bezirksamts 
+Mitte von Berlin vom 1. Februar 2017 in der Gestalt des Widerspruchs- 
+bescheides dieser Behörde vom 1. April 2017 verpflichtet, dem Kläger 
+die am 1. November 2016 beantragte Sondernutzungserlaubnis für 
+einen Imbisswagen vor der Kirchstraße 7 in Berlin-Moabit zu erteilen.8 
+ 
+Der Beklagte trägt die Kosten des Verfahrens. 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Beklagte 
+darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 
+Prozent des aufgrund des Urteils vollstreckbaren Betrages abwen- 
+den, wenn nicht der Kläger vor der Vollstreckung Sicherheit in Höhe 
+von 110 Prozent des jeweils zu vollstreckenden Betrages leistet. 
+ 
+6. Verpflichtungsklage, Stattgabe als Bescheidungsurteil 
+(wie Fall 5) 
+ 
+Der Beklagte wird unter Aufhebung des Bescheides des Bezirksamts 
+Mitte von Berlin vom 1. Februar 2017 in der Gestalt des Widerspruchs- 
+bescheides dieser Behörde vom 1. April 2017 verpflichtet, über den 
+Antrag des Klägers vom 1. November 2016 auf Erteilung einer Son - 
+dernutzungserlaubnis für einen Imbisswagen vor der Kirchstraße 7 in 
+Berlin-Moabit unter Beachtung der Rechtsauffassung des Gerichts er- 
+neut zu entscheiden; im Übrigen wird die Klage abgewiesen.9 
+ 
+ 
+ 
+8 § 113 Abs. 5 Satz 1 VwGO. 
+9 § 113 Abs. 5 Satz 2 VwGO. 
+
+===== SEITE 18 =====
+Berliner Skript 
+18 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Die Beteiligten tragen die Kosten des Verfahrens je zur Hälfte.10 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der jeweilige 
+Schuldner darf die Vollstreckung durch Sicherheitsleistung in Höhe 
+von 110 Prozent des aufgrund des Urteils vollstreckbaren Betrages 
+abwenden, wenn nicht der jeweilige Gläubiger vor der Vollstreckung 
+Sicherheit in Höhe von 110 Prozent des jeweils zu vollstreckenden 
+Betrages leistet. 
+ 
+7. Leistungsklage, Stattgabe 
+(Klage der Behörde auf Zahlung von 6.000 €) 
+ 
+Der Beklagte wird verurteilt, an den Kläger 6.000 € nebst Zinsen in 
+Höhe von 5 Prozentpunkten über dem Basiszinssatz seit dem (Datum 
+der Rechtshängigkeit = Klageerhebung) zu zahlen.11 
+ 
+Der Beklagte trägt die Kosten des Verfahrens. 
+ 
+Das Urteil ist gegen Sicherheitsleistung in Höhe von 110 Prozent des 
+jeweils zu vollstreckenden Betrages vorläufig vollstreckbar.12 
+ 
+8. Anfechtungsklage, Beteiligung eines Beigeladenen 
+ 
+(Klage des Nachbarn gegen eine dem Bauherrn erteilte Baugenehmigung; 
+das Gericht lädt den Bauherrn bei, der sich anwaltlich vertreten lässt und 
+Klageabweisung beantragt; [a] die Klage hat keinen Erfolg, [b] die Klage 
+hat Erfolg) 
+ 
+[a] Die Klage wird abgewiesen. 
+ 
+ 
+10 § 155 Abs. 1 Satz 1 VwGO; andere Quote denkbar. 
+11 §§ 291 und 288 BGB, die als allgemeiner Rechtsgedanke auch im öffentlichen Recht 
+gelten; § 90 VwGO. 
+12 § 167 Abs. 1 Satz 1 VwGO i.V.m. § 709 Satz 1 und 2 ZPO. 
+
+===== SEITE 19 =====
+Berliner Skript 
+19 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+Der Kläger trägt die Kosten des Verfahrens einschließlich der außer - 
+gerichtlichen Kosten des Beigeladenen.13 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Kläger 
+darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 Pro- 
+zent des aufgrund des Urteil vollstreckbaren Betrages abwenden, 
+wenn nicht der jeweilige Gläubiger vor der Vollstreckung Sicherheit in 
+Höhe von 110 Prozent des jeweils zu vollstreckenden Betrages leistet. 
+ 
+[b] Die Baugenehmigung des Bezirksamts Mitte von Berlin vom 1. Feb - 
+ruar 2017 in der Gestalt des Widerspruchsbescheides dieser Behörde 
+vom 1. April 2017 wird aufgehoben. 
+ 
+Die Gerichtskosten und die außergerichtlichen Kosten des Klägers tra- 
+gen der Beklagte und der Beigeladene je zur Hälfte; ihre außerge - 
+richtlichen Kosten tragen der Beklagte und der Beigeladene selbst. 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Beklagte 
+und der Beigeladene dürfen die Vollstreckung durch Sicherheitsleis - 
+tung in Höhe von 110 Prozent des aufgrund des Urteils jeweils voll - 
+streckbaren Betrages abwenden, wenn nicht der Kläger vor der Voll - 
+streckung Sicherheit in Höhe von 110 Prozent des jeweils zu vollstre- 
+ckenden Betrages leistet. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+13 §§ 154 Abs. 1, 162 Abs. 3 VwGO. 
+
+===== SEITE 20 =====
+Berliner Skript 
+20 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+9. Stattgabe Fortsetzungsfeststellungsklage 
+ 
+a) Anfechtungskonstellation 
+ 
+Es wird festgestellt, dass der Bescheid des Beklagten vom 1. Februar 
+2017 in der Gestalt des Widerspruchsbescheides vom 1. April 2017 
+rechtswidrig war.14 
+ 
+Der Beklagte trägt die Kosten des Verfahrens. 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Beklagte 
+darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 Pro- 
+zent des aufgrund des Urteils vollstreckbaren Betrages abwenden, 
+wenn nicht der Kläger vor der Vollstreckung Sicherheit in Höhe von 
+110 Prozent des jeweils zu vollstreckenden Betrages leistet.15 
+ 
+b) Verpflichtungskonstellation 
+(wie Fall 5) 
+ 
+Es wird festgestellt, dass der Bescheid des Beklagten vom 1. Februar 
+2017 in der Gestalt des Widerspruchsbescheides vom 1. April 2017 
+rechtswidrig und der Beklagte verpflichtet war, dem Kläger die am 1. 
+November 2016 beantragte Sondernutzungserlaubnis für einen Im - 
+bisswagen vor der Kirchstraße 7 in Berlin-Moabit zu erteilen.16 
+ 
+Der Beklagte trägt die Kosten des Verfahrens. 
+ 
+ 
+ 
+ 
+ 
+14 § 113 Abs. 1 Satz 4 VwGO; die Formulierung „rechtswidrig gewesen ist“, ist wegen 
+Übereinstimmung mit dem Gesetzeswortlaut selbstverständlich auch vertretbar. 
+15 § 167 Abs. 2 VwGO analog, § 167 Abs. 1 Satz 1 VwGO i.V.m. §§ 708 Nr. 11, 
+711 Satz 1 und 2, 709 Satz 2 ZPO. 
+16 § 113 Abs. 1 Satz 4 VwGO analog. 
+
+===== SEITE 21 =====
+Berliner Skript 
+21 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Beklagte 
+darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 Pro- 
+zent des aufgrund des Urteils vollstreckbaren Betrages abwenden, 
+wenn nicht der Kläger vor der Vollstreckung Sicherheit in Höhe von 
+110 Prozent des jeweils zu vollstreckenden Betrages leistet. 
+ 
+10. Teilstattgabe Fortsetzungsfeststellungsklage 
+(Verpflichtungs-/Neubescheidungskonstellation) 
+(es bestand kein Anspruch, doch die Versagung war ermessensfehlerhaft; 
+ähnlich Fall 6) 
+ 
+Es wird festgestellt, dass der Bescheid des Beklagten vom 1. Feb- 
+ruar 2017 in der Gestalt des Widerspruchsbescheides vom 1. April 
+2017 rechtswidrig und der Beklagte verpflichtet war, den Antrag des 
+Klägers vom 1. November 2016 auf Erteilung einer Sondernutzungs- 
+erlaubnis für einen Imbisswagen vor der Kirchstraße 7 in Berlin-Mo- 
+abit unter Beachtung der Rechtsauffassung des Gerichts erneut zu 
+bescheiden; im Übrigen wird die Klage abgewiesen. 
+ 
+Die Beteiligten tragen die Kosten des Verfahrens jeweils zur Hälfte. 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der jeweilige 
+Schuldner darf die Vollstreckung durch Sicherheitsleistung in Höhe 
+von 110 Prozent des aufgrund des Urteils vollstreckbaren Betrages 
+abwenden, wenn nicht der jeweilige Gläubiger vor der Vollstreckung 
+Sicherheit in Höhe von 110 Prozent des jeweils zu vollstreckenden 
+Betrages leistet. 
+ 
+11. Anfechtungsklage, Abweisung, Teilerledigung 
+(VA 1 und VA 2, einheitlicher Widerspruchsbescheid für beide Bescheide 
+vom 1. April 2017, bezüglich VA 1 erklären die Beteiligten den Rechtsstreit 
+vor dem Termin übereinstimmend für erledigt, weil der Beklagte insoweit 
+
+===== SEITE 22 =====
+Berliner Skript 
+22 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+klaglos gestellt hat, oder das Gericht ist nach § 161 Abs. 2 Satz 2 VwGO 
+vorgegangen, bezüglich VA 2 hat die Klage keinen Erfolg.) 
+ 
+Die Klage wird abgewiesen. 
+ 
+ 
+oder: 
+ 
+ 
+Die Klage wird abgewiesen, soweit die Beteiligten den Rechtsstreit 
+nicht übereinstimmend für erledigt erklärt haben (bzw. soweit der 
+Rechtsstreit nicht als erledigt gilt17). 
+ 
+Die Kosten des Verfahrens tragen der Kläger zu 3/4 und der Beklagte 
+zu 1/4.18 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Kläger 19 
+darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 Pro- 
+zent des aufgrund des Urteils vollstreckbaren Betrages abwenden, 
+wenn nicht der Beklagte vor der Vollstreckung Sicherheit in Höhe von 
+110 Prozent des jeweils zu vollstreckenden Betrages leistet. 
+ 
+12. Feststellungsklage bei Erledigungserklärung d. Klägers, Var. 1 
+(Der Beklagte gibt keine Erledigungserklärung ab, weil seiner rechtsirrigen 
+Auffassung nach keine Erledigung eingetreten ist) 
+ 
+Es wird festgestellt, dass der Rechtsstreit in der Hauptsache erledigt 
+ist. 
+ 
+17 § 161 Abs. 2 Satz 2 VwGO. 
+18 § 154 Abs. 1 VwGO; § 161 Abs. 2 VwGO; die Quote ist stark abhängig vom konkre- 
+ten Einzelfall und hat die Verringerung der anwaltlichen Terminsgebühr bei Erledi - 
+gung vor dem Termin sowie die jeweiligen Einzelstreitwerte zu berücksichtigen. 
+19 Nicht: „der jeweilige Vollstreckungsschuldner“, denn dem Kostengläubiger des  über- 
+einstimmend für erledigt erklärten Teils soll nicht der Vorteil genommen werden, 
+dass er ohne weiteres vollstrecken kann. 
+
+===== SEITE 23 =====
+Berliner Skript 
+23 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+Der Beklagte trägt die Kosten des Verfahrens. 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Beklagte 
+darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 Pro- 
+zent des aufgrund des Urteils vollstreckbaren Betrages abwenden, 
+wenn nicht der Kläger vor der Vollstreckung Sicherheit in Höhe von 
+110 Prozent des jeweils zu vollstreckenden Betrages leistet. 
+ 
+13. Feststellungsklage bei Erledigungserklärung d. Klägers, Var. 2 
+(Der Beklagte gibt keine Erledigungserklärung ab, weil er trotz Erledigung 
+wegen Wiederholungsgefahr ein Interesse an einer Sachentscheidung des 
+Gerichts hat; der angefochtene Bescheid ist [a] rechtmäßig, [b] rechtswid- 
+rig.) 
+ 
+[a] Die Klage wird abgewiesen. 
+ 
+Der Kläger trägt die Kosten des Verfahrens. 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. 
+Der Kläger darf die Vollstreckung durch Sicherheitsleistung in Höhe 
+von 110 Prozent des aufgrund des Urteils vollstreckbaren Betrages 
+abwenden, wenn nicht der Beklagte vor der Vollstreckung Sicherheit 
+in Höhe von 110 Prozent des jeweils zu vollstreckenden Betrages leis- 
+tet. 
+ 
+[b] Es wird festgestellt, dass der Rechtsstreit in der Hauptsache erledigt 
+ist. 
+ 
+Der Beklagte trägt die Kosten des Verfahrens. 
+
+===== SEITE 24 =====
+Berliner Skript 
+24 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Beklagte 
+darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 Pro- 
+zent des aufgrund des Urteils vollstreckbaren Betrages abwenden, 
+wenn nicht der Kläger vor der Vollstreckung Sicherheit in Höhe von 
+110 Prozent des jeweils zu vollstreckenden Betrages leistet. 
+ 
+14. Anfechtungsklage, Abweisung, Teilrücknahme 
+(VA 1 und VA 2, einheitlicher Widerspruchsbescheid für beide Bescheide 
+vom 1. April 2017, bezüglich VA 1 nimmt Kläger zurück, bezüglich VA 2 hat 
+die Klage keinen Erfolg.) 
+ 
+Soweit der Kläger die Klage zurückgenommen hat, wird das Verfahren 
+eingestellt. Im Übrigen wird die Klage abgewiesen.20 
+ 
+Der Kläger trägt die Kosten des Verfahrens.21 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Kläger 
+darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 Pro- 
+zent des aufgrund des Urteils vollstreckbaren Betrages abwenden, 
+wenn nicht der Beklagte vor der Vollstreckung Sicherheit in Höhe von 
+110 Prozent des jeweils zu vollstreckenden Betrages leistet. 
+ 
+15. Anfechtungsklage, Stattgabe, Teilrücknahme 
+(VA 1 und VA 2, einheitlicher Widerspruchsbescheid für beide Bescheide 
+vom 1. April 2017, bezüglich VA 1 nimmt Kläger vor Termin zurück, bezüg- 
+lich VA 2 hat die Klage Erfolg.) 
+ 
+Der Bescheid des Bezirksamts Mitte von Berlin vom 1. Februar 2017 
+VA 2 in der Gestalt des Widerspruchsbescheides dieser Behörde vom 
+ 
+ 
+ 
+ 
+20 § 92 Abs. 3 VwGO. 
+21 § 154 Abs. 1 VwGO; § 155 Abs. 2 VwGO. 
+
+===== SEITE 25 =====
+Berliner Skript 
+25 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+1. April 2017 wird aufgehoben. Soweit der Kläger die Klage zurückge- 
+nommen hat, wird das Verfahren eingestellt.22 
+ 
+Die Kosten des Verfahrens tragen der Kläger zu 1/4 und der Beklagte 
+zu 3/4.23 
+ 
+Das Urteil ist wegen der Kosten vorläufig vollstreckbar. Der Beklagte24 
+darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 Pro- 
+zent des aufgrund des Urteils vollstreckbaren Betrages abwenden, 
+wenn nicht der Kläger vor der Vollstreckung Sicherheit in Höhe von 
+110 Prozent des jeweils zu vollstreckenden Betrages leistet. 
+ 
+ 
+16. Anmerkung: Zulassung der Berufung 
+ 
+Nach § 124 Abs. 1 VwGO steht den Beteiligten gegen erstinstanzliche Urteile 
+die Berufung zu, wenn sie vom Verwaltungsgericht oder dem Oberver- 
+waltungsgericht zugelassen wird. 
+ 
+Damit stellt sich für das Verwaltungsgericht in Klageverfahren stets die 
+Frage nach der Zulassung der Berufung. Für die Klausurbearbeitung bedeu- 
+tet dies: Sofern der Sachverhalt hierfür Anhaltspunkte bietet ( was kaum 
+je der Fall ist ), vor allem in Gestalt entsprechenden Beteiligtenvorbrin - 
+gens, muss über die Zulassung der Berufung nachgedacht werden, vgl. § 
+124a Abs. 1 i.V.m. § 124 Abs. 2 Nr. 3 und 4 VwGO. Gegebenenfalls wird 
+zusätzlich tenoriert: 
+ 
+Die Berufung wird zugelassen. 
+ 
+ 
+ 
+22 § 92 Abs. 3 VwGO. 
+23 § 154 Abs. 1 VwGO; § 155 Abs. 2 VwGO; die Quote ist stark abhängig vom konkreten 
+Einzelfall und hat die Verringerung der anwaltlichen Terminsgebühr bei Rücknahme 
+vor dem Termin sowie die jeweiligen Einzelstreitwerte zu berücksichtigen. 
+24 Siehe Fußnote 19. 
+
+===== SEITE 26 =====
+Berliner Skript 
+26 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+Sofern die Voraussetzungen für die Berufungszulassung nicht vorliegen, 
+wovon in der Klausur in der Regel ausgegangen werden kann, findet die 
+Nichtzulassung der Berufung keinen Eingang in den Tenor, vgl. § 124a Abs. 
+1 Satz 3 VwGO. Stattdessen kann in den Nebenentscheidungen kurz 
+angesprochen werden, dass Zulassungsgründe nicht vorliegen25: 
+ 
+Die Berufung war nicht zuzulassen, weil keiner der gesetzlichen Zu- 
+lassungsgründe gegeben ist (§ 124 Abs. 2 Nr. 3 oder 4 VwGO). 
+ 
+ 
+17. Streitwert: 
+ 
+Eine Streitwertentscheidung gehört nie in ein Urteil oder einen Gerichtsbe- 
+scheid, denn über den Streitwert entscheidet das Gericht durch Beschluss 
+(§ 63 GKG). In Klageverfahren wird in Examensklausuren eine gesonderte 
+Streitwertfestsetzung regelmäßig nicht verlangt. 
+ 
+Anders ist es in Verfahren vorläufigen Rechtsschutzes, in denen durch Be - 
+schluss entschieden wird. Hier wird in der Praxis im Tenor zu 3 regelmäßig 
+der Streitwert festgesetzt; oft ist aber auch dies in Klausuren erlassen. 
+ 
+Bekannt sein muss insoweit die Regelung in § 52 Abs. 2 GKG: Auffangstreit- 
+wert von 5.000 € (im Eilverfahren i.d.R. die Hälfte), wenn der Sach - und 
+Streitstand für eine konkrete Bezifferung des Streitwerts keine genügenden 
+Anhaltspunkte bietet. Näheres findet sich im Streitwertkatalog (vgl. 
+Kopp/Schenke, VwGO, Anh § 164 Rn. 14). 
+ 
+Tenor dann z.B.: Der Streitwert wird auf 2.500 € festgesetzt. 
+ 
+ 
+ 
+25 Teilweise (z.B. Seibert, NVwZ 2002, 265 ff. <266>) wird angenommen, eine Begrün - 
+dung sei wegen § 124a Abs. 1 Satz 3 VwGO unzulässig, jedoch ist auch die Nichtzu - 
+lassung in der Sache eine (nicht ausgesprochene) Entscheidung und damit der Be- 
+gründung zugänglich (vgl. OVG NRW, B. v. 20.11.2007 - 14 A 2571.06 - juris Rn. 2). 
+
+===== SEITE 27 =====
+Berliner Skript 
+27 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+D. Der Tatbestand 
+ 
+... ist die gedrängte Darstellung des Sach- und Streitstandes 
+(§ 117 Abs. 3 VwGO). Er sollte in Klausurbearbeitungen die nötigen Infor - 
+mationen liefern, ohne übermäßig lang zu geraten. 
+ 
+Literatur: siehe hierzu und auch sonst vor allem Groscurth, Examenskurs 
+VwGO für Studium und Referendariat, 2. Aufl. 2020, S. 107 ff. 
+ 
+Die Struktur des Tatbestandes ist in Urteil und Beschluss gleich. Beachte 
+aber die teilweise andere Terminologie im Beschluss: Die Überschrift lautet 
+„Gründe I.“ und die Beteiligten sind mit „Antragsteller“ bzw. „Antragsgeg - 
+ner“ zu bezeichnen. 
+ 
+Ein Urteilstatbestand weist folgende Elemente auf: 
+ 
+1. Überschrift 
+ 
+Tatbestand 
+ 
+Kein Doppelpunkt, keine Nummerierung. 
+ 
+2. Einleitungssatz 
+ 
+Der Einleitungssatz dient dem Verständnis und ist kurz zu fassen, jedenfalls 
+darf er nicht überfrachtet werden. Er sollte die prozessrechtliche Situation 
+(Abwehr/Verpflichtung/Feststellung), das Sachgebiet und den Kern des 
+Streitgegenstandes bezeichnen. 
+ 
+Der Kläger begehrt die Erteilung einer Waffenbesitzkarte. 
+Die Klägerin wendet sich gegen eine Beseitigungsverfügung. 
+
+===== SEITE 28 =====
+Berliner Skript 
+28 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+3. Geschichtserzählung/Unstreitiger Sachverhalt 
+ 
+Die Situation, auf der das Verwaltungsverfahren aufbaut, ist kurz zu schil - 
+dern. Hier werden oft sachwidrig wichtige Details weggelassen (z.B. Mitei - 
+gentum der Ehefrau am Grundstück bei einer an den Ehemann als Hand - 
+lungsstörer gerichteten Beseitigungsverfügung; bei einer Nachbarklage we- 
+gen Verstoßes gegen das Rücksichtnahmegebot der Umfang der störenden 
+Hundepension - 30 Tiere im Normalbetrieb und 50 in den Ferien -). Ande- 
+rerseits darf der Sachverhalt nicht überfrachtet werden. Verweisungen auf 
+konkrete Aktenbestandteile gemäß § 117 Abs. 3 Satz 2 VwGO werden in 
+den Bearbeitervermerken hin und wieder ausgeschlossen und sind ansons- 
+ten nur ganz ausnahmsweise erlaubt; auch in diesem Fall muss der Tatbe - 
+stand aber aus sich heraus verständlich sein. Regelmäßig ausgeschlossen 
+wird dagegen der Verweis auf die angefochtenen Bescheide nach § 117 Abs. 
+5 VwGO. Der Aufbau ist grundsätzlich chronologisch. Verbform: Indikativ, 
+Imperfekt oder ggf. auch Präsens (etwa bei Situationsbeschreibungen). 
+ 
+Streitige Details können - als solche sprachlich gekennzeichnet - auch im 
+Unstreitigen untergebracht werden, wenn anderenfalls die Verständlichkeit 
+der Sachverhaltsdarstellung leidet. Dies gilt umgekehrt auch für den Streit- 
+stand. 
+ 
+Der Kläger erwarb nach eigenen Angaben am 4. Juli 2016, nach An- 
+gabe des Beklagten am 12. Juli 2016, eine Pistole der Marke ... 
+ 
+4. Verwaltungsverfahren 
+ 
+Verbform: Indikativ, Imperfekt. 
+Die Begründung von Bescheiden wird in indirekter Rede (Konjunktiv I) kurz 
+(!) dargestellt. 
+ 
+- Antrag bei der Behörde 
+
+===== SEITE 29 =====
+Berliner Skript 
+29 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+- Ausgangsbescheid mit konkreter Regelung, ggf. Bekanntgabedatum 
+- Widerspruch 
+- Widerspruchsbescheid mit konkreter Regelung, ggf. Zustellungsda - 
+tum (nur, wenn die Rechtzeitigkeit der Klageerhebung problematisch 
+ist) 
+ 
+Die wesentliche Begründung der Bescheide ist jeweils darzustellen. 
+ 
+Mit Bescheid der Polizei Berlin vom 23. September 2025 lehnte der 
+Beklagte die Erteilung einer Waffenbesitzkarte ab. Zur Begründung 
+führte die Behörde aus, ... 
+ 
+Hiergegen erhob der Kläger am 18. Oktober 2025 Widerspruch. Zur 
+Begründung ... 
+ 
+Mit Bescheid der Polizei Berlin vom 20. November 2025, zugestellt am 
+27. November 2025, wies der Beklagte den Widerspruch zurück und 
+führte zur Begründung im Wesentlichen aus … 
+ 
+5. Klageerhebung/Prozessgeschichte 
+ 
+Verbform: Indikativ, Perfekt bzw. Präsens 
+ 
+Die Klageerhebung ist immer und ihr Zeitpunkt (Eingangsstempel!) nur 
+dann mitzuteilen, wenn die Wahrung der Klagefrist (§ 74 VwGO) geprüft 
+werden soll, weil sie problematisch ist (in letzterem Fall Zustellungsdatum 
+des Widerspruchsbescheids im Verwaltungsverfahren nicht vergessen). Die- 
+ser Satz leitet das Vorbringen des Klägers ein. Formulierungen z.B.: 
+ 
+Hiergegen wendet sich der Kläger mit seiner am 18. Juni 2022 erho- 
+benen Klage, zu deren Begründung er im Wesentlichen ausführt ... 
+(Anfechtungsklage) 
+
+===== SEITE 30 =====
+Berliner Skript 
+30 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+Mit seiner am 18. Juni 2022 erhobenen Klage verfolgt der Kläger sein 
+Begehren weiter. Zur Begründung trägt er im Wesentlichen vor: ... 
+(z.B. Verpflichtungsklage) 
+ 
+Im Anschluss an diese Stelle werden prozessrelevante tatsächliche Um - 
+stände aus der Geschichtserzählung mitgeteilt, die sich erst nach der Kla- 
+geerhebung ereignet haben, z.B. Teilrücknahme oder Teilerledigung. 
+ 
+6. Behauptungen und Rechtsausführungen des Klägers 
+ 
+Verbform: Konjunktiv I, Präsens. 
+ 
+Der Kläger „behauptet“ streitige Tatsachen (wie im Zivilprozess); Klausu - 
+ren, in denen die Beteiligten um Tatsachen streiten und daher eine Beweis- 
+würdigung oder Beweislastentscheidung erfolgen muss, sind im öffentlichen 
+Recht jedoch sehr selten. Im Mittelpunkt des Vorbringens bei der verwal - 
+tungsrechtlichen Urteilsklausur stehen in aller Regel  Rechtsausführungen: 
+„Der  Kläger  meint“, „macht  geltend“,  „ist  der  Auffassung“, „führt aus“, 
+„rügt“. Die Rechtsausführungen des Klägers müssen kurz (!), aber besten- 
+falls aufbaumäßig entsprechend der Gliederung in den Entscheidungsgrün- 
+den geordnet wiedergegeben werden. Zulässigkeitsargumente vor Argu - 
+menten zur Begründetheit; Argumente zum Tatbestand vor denen zur 
+Rechtsfolge etc. 
+ 
+Die Erfassung der Rechtsansichten der Beteiligten ist in der verwaltungs - 
+rechtlichen Urteilsklausur von zentraler Bedeutung, weil die wichtigen Prob- 
+leme der Klausur meist ausdrücklich im Vorbringen der Beteiligten oder in- 
+direkt durch das Beifügen von sonstigem Material (z.B. Mietvertrag mit ei - 
+ner wichtigen Vereinbarung) angesprochen werden („Zutatentheorie“). 
+7. Änderungen des Streitgegenstandes vor den Anträgen mitteilen 
+
+===== SEITE 31 =====
+Berliner Skript 
+31 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Prozessgeschichte wie Klageänderung, teilweise Rücknahme oder teilweise 
+Hauptsachenerledigungserklärung ist spätestens vor den Anträgen darzule- 
+gen, weil nur so der möglicherweise geänderte Inhalt des noch zur Disposi- 
+tion des Gerichts gestellten Antrags verstanden bzw. hinreichend deutlich 
+dargestellt werden kann. 
+ 
+Nachdem der Kläger zunächst angekündigt hat zu beantragen ... , 
+beantragt er nunmehr, ... 
+ 
+Nachdem der Kläger die Klage insoweit zurückgenommen hat, als die 
+Beseitigungsverfügung den Stellplatz betraf, beantragt er nunmehr, 
+... 
+ 
+Nachdem die Beteiligten den Rechtsstreit hinsichtlich der gestorbenen 
+Pitbull-Terrier-Hündin übereinstimmend für erledigt erklärt haben, 
+beantragt der Kläger nunmehr, ... 
+ 
+8. Antrag des Klägers 
+ 
+Verbform: Indikativ, Präsens. 
+ 
+Die Kläger beantragen, 
+ 
+den Bescheid des Bezirksamts Mitte von Berlin vom … in der 
+Gestalt des Widerspruchsbescheides derselben Behörde vom … 
+aufzuheben. 
+ 
+Der Antrag muss eingerückt (§ 117 Abs. 3 Satz 1 VwGO: „Hervorhebung 
+der gestellten Anträge“) werden. Häufig kann in der Klausur der im Schrift- 
+satz formulierte Antrag übernommen werden. Ist ein Antrag protokolliert 
+worden, ist dieser zu übernehmen. Ist eine Auslegung - § 88 VwGO - erfor- 
+derlich, ist das wahre Klageziel bei der Statthaftigkeit der Klage zu erörtern. 
+
+===== SEITE 32 =====
+Berliner Skript 
+32 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+In diesem Fall ist es sinnvoll, dem Prüfer das Ergebnis der später darzustel- 
+lenden Auslegung im Tatbestand gleich mitzuteilen: 
+ 
+Die Kläger beantragen sinngemäß, … 
+ 
+Man kann auch den Antrag im Tatbestand wörtlich wiedergeben; dann muss 
+man ihn nach erfolgter Auslegung in der Zulässigkeit aber noch einmal aus- 
+formulieren. Im Tatbestand heißt es dann: 
+ 
+Der Kläger beantragt wörtlich, ... 
+ 
+Der Kostenantrag oder ein eventueller Antrag die Berufung zuzulassen wer- 
+den nicht wiedergegeben (darüber entscheidet das Gericht von Amts we - 
+gen), wohl aber der Antrag, die Hinzuziehung eines Bevollmächtigten für 
+das Vorverfahren für notwendig zu erklären (§ 162 Abs. 2 Satz 2 VwGO). 
+ 
+9. Antrag des Beklagten 
+ 
+Verbform: Indikativ, Präsens. 
+ 
+Der Beklagte (ggf.: hat schriftsätzlich) beantragt, 
+die Klage abzuweisen. 
+10. Behauptungen und Rechtsausführungen des Beklagten 
+ 
+Verbform: Konjunktiv I, Präsens. 
+ 
+Er verweist auf die Gründe der angefochtenen Bescheide und führt 
+ergänzend an, die Klage sei schon unzulässig, denn die Klagefrist sei 
+versäumt ... 
+
+===== SEITE 33 =====
+Berliner Skript 
+33 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Er bezieht sich auf die angefochtenen Bescheide und führt ergänzend 
+aus, die Unzuverlässigkeit des Klägers ergebe sich auch schon aus 
+den rückständigen Sozialversicherungsbeiträgen ... 
+ 
+11. Antrag und Vorbringen des Beigeladenen 
+ 
+... soweit eine Beiladung vorliegt und der Beigeladene einen Antrag gestellt 
+bzw. sich geäußert hat. 
+ 
+12. Weitere Prozessgeschichte 
+ 
+... ist im Bedarfsfall am Schluss des Tatbestandes darzustellen. Verbform: 
+Indikativ, Perfekt. 
+ 
+Beweiserhebungen: Beweisthema und Beweismittel sind kurz zu nennen, 
+wegen des Ergebnisses der Beweisaufnahme darf auf den Aktenauszug ver- 
+wiesen werden. 
+ 
+Das Gericht hat Beweis erhoben durch die uneidliche Vernehmung des 
+Zeugen X. Wegen des Ergebnisses wird auf die Sitzungsniederschrift 
+Bezug genommen. 
+ 
+Das Gericht hat Beweis erhoben durch die Einholung einer Auskunft 
+der Zahnärztekammer Ostwestfalen -Lippe. Wegen des Ergebnisses 
+wird auf das Schreiben der Zahnärztekammer vom ... Bezug genom- 
+men. 
+ 
+Einverständnis nach § 101 Abs. 2 VwGO: 
+ 
+Die Beteiligten haben sich schriftlich mit einer Entscheidung ohne 
+mündliche Verhandlung einverstanden erklärt. 
+
+===== SEITE 34 =====
+Berliner Skript 
+34 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Einzelrichterübertragung nach § 6 VwGO: 
+ 
+Mit Beschluss vom … hat die Kammer den Rechtstreit dem Bericht - 
+erstatter als Einzelrichter zur Entscheidung übertragen. 
+ 
+Einverständnis nach § 87a Abs. 2, 3 VwGO: 
+ 
+Die Beteiligten haben mit Schriftsätzen vom … ihr Einverständnis zu 
+einer Entscheidung durch die Berichterstatterin anstelle der Kammer 
+erklärt. 
+ 
+Eine gesonderte Erwähnung der Beiladung ist in der Regel nicht erforder- 
+lich, weil sie sich schon aus dem Rubrum ergibt. 
+ 
+13. Der Pauschalverweis („salvatorische Klausel“) 
+ 
+... ist in der Klausur überflüssig, weil alle für die rechtliche Würdigung we- 
+sentlichen Tatsachen niederzuschreiben sind. 
+
+===== SEITE 35 =====
+Berliner Skript 
+35 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+E. Die Entscheidungsgründe 
+ 
+Die Entscheidungsgründe sind die Hauptsache einer jeden Klausur. Hier 
+liegt für die Bearbeitenden das Gros der Punkte auf dem Tisch und das fünf- 
+stündige Zeitbudget sollte so gehandhabt werden, dass für die Entschei - 
+dungsgründe der Großteil der Schreibzeit verwendet wird. 
+ 
+Im Beschluss werden die Entscheidungsgründe mit „II.“ überschrieben. 
+ 
+Literatur: vgl. wiederum Groscurth, Examenskurs VwGO für Studium und 
+Referendariat, 2. Aufl. 2020, S. 116 ff. 
+ 
+1. Einleitende Formulierungen zur Entscheidungsart 
+ 
+Folgende Formulierungen sind vorab gegebenenfalls erforderlich: 
+ 
+Das Gericht hat durch den Berichterstatter als Einzelrichter entschie- 
+den, weil ihm die Kammer den Rechtsstreit durch Beschluss gemäß § 
+6 Abs. 1 VwGO übertragen hat. 
+ 
+Das Gericht konnte gemäß § 101 Abs. 2 VwGO ohne mündliche Ver - 
+handlung entscheiden, weil sich die Beteiligten hiermit einverstanden 
+erklärt haben. 
+ 
+Gemäß § 84 Abs. 1 Satz 1 VwGO kann über die Klage ohne mündliche 
+Verhandlung durch Gerichtsbescheid entschieden werden, weil die 
+Kammer der Auffassung ist, dass die Sache keine besonderen Schwie- 
+rigkeiten tatsächlicher oder rechtlicher Art aufweist und der Sachver- 
+halt geklärt ist. Die Beteiligten hatten Gelegenheit, hierzu Stellung zu 
+nehmen. 
+
+===== SEITE 36 =====
+Berliner Skript 
+36 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Das Gericht konnte in Abwesenheit des Klägers entscheiden, da dieser 
+in der Ladung ausdrücklich auf diese Möglichkeit hingewiesen worden 
+ist (§ 102 Abs. 2 VwGO). 
+ 
+2. Die Formulierung von Obersätzen 
+ 
+... ist unbedingt erforderlich und dient der Vorstrukturierung der nachfol- 
+genden rechtlichen Würdigung. Formulierungsbeispiele: 
+ 
+a) Zulässige und unbegründete Anfechtungsklage 
+ 
+Die Klage hat keinen Erfolg. 
+Sie ist zulässig ... 
+Die Klage ist jedoch unbegründet. Die angefochtene Beseitigungsver- 
+fügung ist rechtmäßig und verletzt den Kläger nicht in seinen Rechten 
+(§ 113 Abs. 1 Satz 1 VwGO). 
+ 
+Rechtsgrundlage ist ... 
+Danach kann die Baubehörde ... 
+Diese Voraussetzungen liegen hier vor ... 
+ 
+b) Zulässige und teilweise begründete Anfechtungsklage 
+ 
+Die Klage hat in dem aus dem Tenor ersichtlichen Umfang Erfolg. 
+ 
+Die als Anfechtungsklage statthafte Klage ist zulässig, insbesondere 
+ist sie innerhalb der Monatsfrist des § 74 Abs. 1 Satz 1 VwGO erhoben 
+worden … 
+
+===== SEITE 37 =====
+Berliner Skript 
+37 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Die Klage ist nur teilweise begründet. Der angefochtene Bescheid ist 
+hinsichtlich der Ausweisung des Klägers rechtmäßig (unten 1.); hin - 
+sichtlich der Abschiebungsandrohung ist er jedoch rechtswidrig und 
+verletzt den Kläger in seinen Rechten (unten 2.) (§ 113 Abs. 1 Satz 1 
+VwGO)... 
+ 
+1. a. Die Ausweisung ist formell26 rechtmäßig ... 
+ 
+b. Die Ausweisung ist auch materiell rechtmäßig. 
+Rechtsgrundlage ist ... 
+Danach kann die Ausländerbehörde ... 
+Diese Voraussetzungen liegen hier vor ... 
+ 
+2. Die Abschiebungsandrohung ist materiell rechtswidrig ... 
+ 
+c) Unbegründete Verpflichtungsklage 
+ 
+Die Klage ist als Verpflichtungsklage zulässig, aber unbegründet. 
+ 
+Der Kläger hat keinen Anspruch gegen den Beklagten auf die be- 
+gehrte Baugenehmigung (§ 113 Abs. 5 Satz 1 VwGO). 
+ 
+Anspruchsgrundlage für eine solche Genehmigung ist ... 
+Danach muss die Baubehörde ... 
+Diese Voraussetzungen liegen nicht vor ... 
+ 
+ 
+ 
+ 
+ 
+ 
+26 Anmerkung zum Aufbau: Die Ermächtigungsgrundlage für den Verwaltungsakt sollte 
+aus Gründen der Lesbarkeit in der Regel erst bei der materiellen und nicht vor der 
+formellen Rechtmäßigkeit angegeben werden. Nur wenn die Rechtsgrundlage selbst 
+formelle Anforderungen wie etwa die zuständige Behörde oder ein besonderes Anhö- 
+rungserfordernis regelt, oder es keiner Ausführungen zur formellen Rechtmäßigkeit 
+bedarf, kann die Norm bereits vor der formellen Rechtmäßigkeit genannt werden.  
+
+===== SEITE 38 =====
+Berliner Skript 
+38 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+d) Unbegründete Verpflichtungsklage, Bescheidungsklage 
+ 
+Die Klage hat in dem aus dem Tenor ersichtlichen Umfang Erfolg. 
+Die Klage ist zulässig ... 
+Die Klage ist jedoch nur teilweise begründet. Der Kläger hat zwar kei- 
+nen Anspruch gegen den Beklagten auf Erteilung der begehrte Son - 
+dernutzungserlaubnis (§ 113 Abs. 5 Satz 1 VwGO, dazu unten 1.), er 
+hat jedoch einen Anspruch auf erneute Bescheidung seines Antrags 
+vom 13. Mai 2017 (§ 113 Abs. 5 Satz 2 VwGO, dazu unten 2.). 
+ 
+1. Anspruchsgrundlage für eine Sondernutzungserlaubnis ist ... Da - 
+nach kann die Straßenbehörde ... Vorliegend erfüllt der Kläger zwar 
+die Tatbestandsvoraussetzungen der Vorschrift (unten a.), das Er- 
+messen der Behörde ist jedoch nicht dahingehend reduziert, dass ein- 
+zig die Erteilung der Sondernutzungserlaubnis ermessensfehlerfrei ist 
+(unten b.) ... 
+ 
+2. Der Kläger hat jedoch einen Anspruch auf erneute Bescheidung 
+seines Antrags auf Erteilung einer Sondernutzungserlaubnis unter Be- 
+achtung der Rechtsauffassung des Gerichts, denn die Tatbestandsvo- 
+raussetzungen des § ... liegen - wie oben ausgeführt - vor und die 
+Straßenbehörde hat seinen Antrag in dem Bescheid vom ... ermes - 
+sensfehlerhaft abgelehnt ...“ 
+ 
+e) Begründete Fortsetzungsfeststellungsklage 
+ 
+Die Klage ist begründet. Die angefochtene Beseitigungsverfügung des 
+Bezirksamts Reinickendorf von Berlin vom … in der Gestalt des Wider- 
+spruchsbescheides derselben Behörde vom … war rechtswidrig und 
+verletzte den Kläger in seinen Rechten (§ 113 Abs. 1 Satz 4 VwGO). 
+
+===== SEITE 39 =====
+Berliner Skript 
+39 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+f) Begründete Bescheidungs-Fortsetzungsfeststellungsklage 
+ 
+Die Klage hat Erfolg. 
+ 
+Sie ist zulässig, insbesondere als Fortsetzungsfeststellungsklage ana- 
+log § 113 Abs. 1 Satz 4 VwGO statthaft ... 
+ 
+Die Klage ist auch begründet. Der Ablehnungsbescheid des Beklagten 
+war rechtswidrig. Der Kläger hatte im Zeitpunkt des erledigenden Er- 
+eignisses einen Anspruch auf erneute Bescheidung seines Antrags 
+vom ... unter Beachtung der Rechtsauffassung des Gerichts. Die Tat- 
+bestandsvoraussetzungen des einzig als Anspruchsgrundlage in Be - 
+tracht kommenden § ... lagen nämlich vor und die Behörde hat den 
+Antrag in dem Bescheid vom ... ermessensfehlerhaft abgelehnt. Nach 
+§ ... kann die Straßenbehörde ... 
+ 
+g) Zulässige und begründete Feststellungsklage 
+ 
+Die Klage hat Erfolg. 
+ 
+Sie ist als Feststellungsklage gemäß § 43 Abs. 1 Alt. ... VwGO zuläs - 
+sig27 ... 
+ 
+Die Klage ist auch begründet. Der Kläger benötigt für die angestrebte 
+Tätigkeit keine Erlaubnis nach § 34a GewO. Nach dieser Vorschrift 
+bedarf derjenige, der gewerbsmäßig Leben oder Eigentum fremder 
+Personen bewachen will, einer Erlaubnis der Behörde. Die vom Kläger 
+ 
+ 
+27 Beachte für die Zulässigkeit: Rechtsverhältnis i.S.v. § 43 Abs. 1 Alt. 1 und 2 VwGO; 
+Subsidiarität nach § 43 Abs. 2 VwGO; Feststellungsinteresse; ob zur Vermeidung der 
+Popularklage zusätzlich eine Klagebefugnis analog § 42 Abs. 2 VwGO vorliegen muss, 
+ist umstritten. 
+
+===== SEITE 40 =====
+Berliner Skript 
+40 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+angestrebte Tätigkeit stellt kein Bewachungsgewerbe im Sinne dieser 
+Vorschrift dar ... 
+ 
+h) Zulässige und begründete allgemeine Leistungsklage 
+ 
+Die Klage ist als allgemeine Leistungsklage zulässig28 ... 
+ 
+Die Klage ist auch begründet. Der Kläger hat gegen die Beklagte einen 
+Anspruch aus ... auf Unterlassung der geplanten Veröffentlichung der 
+sog. Transparenzliste ... 
+ 
+3. Urteilsstil und Methodik 
+ 
+Urteilsstil: Ein häufiger Klausurmangel besteht darin, dass der Urteilsstil 
+in den Entscheidungsgründen nicht konsequent durchgehalten wird: Erst 
+das Ergebnis, dann die Begründung! Gliedernde Überschriften sind 
+zu unterlassen!29 Das gilt sowohl für das Gesamtergebnis („Die Klage ist 
+nicht begründet.“), als auch für Zwischenergebnisse („Der Kläger hat einen 
+Anspruch auf Erteilung eines Waffenscheins aus § 4 WaffG.“). Dieses Denk- 
+schema - Es verhält sich so. Warum? Weil soundso - soll die gesamten 
+Entscheidungsgründe durchziehen und es bestimmt ihren Aufbau. Formu - 
+lierungsbeispiel: 
+ 
+Die Klage ist begründet. (Warum?) Der angefochtene Bescheid ist 
+rechtswidrig (a.) (Warum?) und verletzt den Kläger in seinen Rechten 
+(b.) (Warum?) (§ 113 Abs. 1 Satz 1 VwGO). 
+ 
+ 
+ 
+ 
+ 
+28 Beachte für die Zulässigkeit: § 42 Abs. 2 VwGO analog; mögliche Anspruchsgrund - 
+lage nennen! 
+ 
+29 Hilfestellung: Sollten Sie dennoch Impuls verspüren, eine gliedernde Überschrift zu 
+setzen, lassen Sie es und verwenden Sie stattdessen einen Obersatz im Indikativ mit 
+Subjekt, Prädikat und Objekt. 
+
+===== SEITE 41 =====
+Berliner Skript 
+41 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+a. Einzige in Betracht kommende Rechtsgrundlage für die Verhinde - 
+rung der Fortsetzung des Betriebes ist § 15 Abs. 2 Satz 1 GastG (O- 
+der: Rechtsgrundlage für die Verhinderung der Fortsetzung des Be - 
+triebes ist ...). Danach kann die zuständige Behörde die Fortsetzung 
+des Betriebes verhindern, wenn ein Gewerbe, zu dessen Ausübung 
+eine Zulassung erforderlich ist, ohne diese Zulassung betrieben wird. 
+Diese Voraussetzungen liegen nicht vor. (Warum?) Bei dem vom Klä- 
+ger ausgeübten Mensabetrieb handelt es sich nämlich nicht um einen 
+zulassungspflichtigen Kantinenbetrieb. (Warum?) Gemäß § 2 Nr. 2 
+GastG bedarf einer gaststättenrechtlichen Erlaubnis nicht, wer Ge - 
+tränke oder zubereitete Speisen in Betrieben an dort Beschäftigte ver- 
+abreicht. Diese Voraussetzungen liegen hier vor. (Warum?) Bei der 
+vom Kläger betriebenen Mensa in der Gesamtschule Walsrode handelt 
+es sich zunächst um einen Betrieb. Des Weiteren sind nicht nur die 
+dortigen Lehrkräfte, sondern auch die Schüler „in dem Betrieb Be - 
+schäftigte“ im Sinne des § 2 Nr. 2 GastG. (Warum?) Der Begriff Be- 
+schäftigte ist nämlich nach Sinn und Zweck der Regelung auszulegen. 
+Es sollen solche Bewirtschaftungsbetriebe erlaubnisfrei gestellt wer- 
+den, bei denen mit dem Eintritt der dem Gaststättengewerbe eigen - 
+tümlichen Ordnungsstörungen wegen der Einbindung des Kantinen - 
+betriebes und seines Benutzerkreises in den Betrieb regelmäßig nicht 
+gerechnet zu werden braucht. Das ist hinsichtlich der Schüler einer 
+Gesamtschule in einer Schulmensa der Fall. (Warum?) Wegen der Ein- 
+bindung der Mensa und der Schüler in die Schule ist nicht zu befürch- 
+ten, dass die Schüler unkontrolliert Alkohol trinken, dass sie ausge - 
+beutet werden oder dass in der Mensa der Unsittlichkeit Vorschub ge- 
+leistet würde. 
+ 
+b. Durch den rechtswidrigen Verwaltungsakt ist der Kläger auch in 
+seinen Rechten verletzt. (Warum?) Denn die gaststättenrechtlichen 
+Vorschriften dienen ... 
+
+===== SEITE 42 =====
+Berliner Skript 
+42 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Konkrete Rechtsfolge 
+ abstrakte Rechtsfolge und abstrakter Tatbestand der Norm 
+ konkreter Lebenssachverhalt bzw. Subsumtionsergebnis 
+ Auslegung des Tatbestandsmerkmals 
+ konkreter Lebenssachverhalt. 
+ 
+ 
+ 
+Juristische Methodik: Der Weg der Subsumtion ist sorgfältig nachzu- 
+zeichnen. Hier sind genaue Normhandhabung und intensive Auswertung des 
+Sachverhalts gefragt, hier zeigt sich die Qualität sorgfältigen juristischen 
+Vorgehens. Ganz allgemein hat das folgende gedankliche Reihenfolge: 
+ 
+• Wie ist das Regelungsgefüge, was genau ist der Inhalt der maßgeb- 
+lichen Normen, wie sind Tatbestandsmerkmale zu definieren, welche 
+Rechtsfolge sehen die Normen vor ? 
+ 
+• Auf der nächsten Ebene ist der Sachverhalt zu würdigen und in Be - 
+ziehung zu setzen zu einzelnen maßgeblichen Tatbestandsmerkma- 
+len. 
+ 
+Es stellt eine besondere Herausforderung dar, die Methode der juristischen 
+Subsumtion mit der Darstellungsart des Urteilsstils zu verbinden. 
+ 
+Überblick: 
+ 
+ 
+Der häufigste Klausurmangel besteht darin, dass methodisch unzu - 
+reichend ohne ausreichenden Normenbezug geprüft wird! Zur Verdeutli - 
+chung: 
+ 
+(Konkrete Rechtsfolge:) Der Beklagte durfte die Fortsetzung des Be - 
+triebes des Klägers nicht verhindern. Einzige in Betracht kommende 
+Rechtsgrundlage für eine solche Maßnahme ist § 15 Abs. 2 Satz 1 
+
+===== SEITE 43 =====
+Berliner Skript 
+43 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+GewO. (Subsumtionsergebnis:) Die Voraussetzungen dieser Vor - 
+schrift sind jedoch nicht erfüllt. (Abstrakte Rechtsfolge und abstrakter 
+Tatbestand der Norm: ) Nach dieser Vorschrift kann die zuständige 
+Behörde die Fortsetzung des Betriebes verhindern, wenn ein Ge - 
+werbe, zu dessen Ausübung eine Zulassung erforderlich ist, ohne 
+diese Zulassung betrieben wird. (Konkreter Lebenssachverhalt:) Bei 
+dem vom Kläger ausgeübten Mensabetrieb in der Gesamtschule Wals- 
+rode (Subsumtionszwischenergebnis:) handelt es sich jedoch nicht 
+um einen zulassungspflichtigen Kantinenbetrieb. (Abstrakte Rechts- 
+folge und abstrakter Tatbestand der Norm: ) Gemäß § 2 Nr. 2 GastG 
+bedarf einer gaststättenrechtlichen Erlaubnis nicht, wer Getränke o - 
+der zubereitete Speisen in Betrieben an dort Beschäftigte verabreicht. 
+(Subsumtionsergebnis:) Diese Voraussetzungen liegen hier vor. (Abs- 
+trakte Auslegung von Tatbestandsmerkmalen zugeschnitten auf den  
+konkreten Lebenssachverhalt:) Der Begriff Betrieb erfasst auch Schu- 
+len. Nicht nur die dortigen Lehrkräfte, sondern auch die Schüler sind 
+„in dem Betrieb Beschäftigte“ im Sinne des § 2 Nr. 2 GastG. Der Be - 
+griff Beschäftigte ist nämlich nach Sinn und Zweck der Regelung aus- 
+zulegen. Es sollen nämlich solche Bewirtschaftungsbetriebe erlaubnis- 
+frei gestellt werden, bei denen mit dem Eintritt der dem Gaststätten- 
+gewerbe eigentümlichen Ordnungsstörungen wegen der Einbindung 
+des Kantinenbetriebes und seines Benutzerkreises in den Betrieb re - 
+gelmäßig nicht gerechnet zu werden braucht. Das ist hinsichtlich der 
+Schüler in einer Schulmensa der Fall. Wegen der Einbindung der 
+Mensa und der Schüler in die Schule ist nicht zu befürchten, dass die 
+Schüler unkontrolliert Alkohol trinken, dass sie ausgebeutet werden 
+oder dass in der Mensa der Unsittlichkeit Vorschub geleistet würde. 
+... 
+ 
+(Konkrete Rechtsfolge:) Die Untersagung der Ausübung eines Gewer- 
+bes ist rechtmäßig. (Abstrakte Rechtsfolge und abstrakter Tatbestand 
+der Norm:) Gemäß § 35 Abs. 1 Satz 1 GewO ist die Ausübung eines 
+
+===== SEITE 44 =====
+Berliner Skript 
+44 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Gewerbes von der zuständigen Behörde ganz oder teilweise zu unter- 
+sagen, wenn Tatsachen vorliegen, welche die Unzuverlässigkeit des 
+Gewerbetreibenden in Bezug auf dieses Gewerbe dartun, sofern die 
+Untersagung zum Schutze der Allgemeinheit oder der im Betrieb Be - 
+schäftigten erforderlich ist. (Subsumtionsergebnis:) Diese Vorausset- 
+zungen liegen vor. (Subsumtionszwischenergebnis:) Der Kläger ist in 
+Bezug auf sein Gewerbe unzuverlässig. (Abstrakte Auslegung einer  
+Tatbestandsvoraussetzung:) Unzuverlässig ist, wer nach Charakter 
+und persönlichem Verhalten nicht die Gewähr für eine ordnungs- und 
+gesetzmäßige Führung des Betriebs bietet. Indizwirkung haben er - 
+hebliche, gewerberechtlich relevante Straftaten oder Ordnungswidrig- 
+keiten, aber auch viele unbedeutendere Verletzungen von Vorschrif - 
+ten, wenn sie einen Hang zur Nichtbeachtung geltender Vorschriften 
+erkennen lassen. (Subsumtionszwischenergebnis:) Das ist hier der 
+Fall: (Konkreter Lebenssachverhalt:) Der Kläger ist in den letzten fünf 
+Jahren bereits siebenmal wegen gewerberechtlich relevanten Strafta- 
+ten verurteilt worden: dreimal wegen Steuerhinterziehung und vier - 
+mal wegen Hehlerei. (Subsumtionszwischenergebnis:) Die Untersa - 
+gung ist auch zum Schutze der Allgemeinheit erforderlich. ... 
+ 
+Zu beachten ist, dass Meinungsstreitigkeiten bei der abstrakten Auslegung 
+eines bestimmten Tatbestandsmerkmals („in dem Betrieb Beschäftigte“ 
+„Unzuverlässigkeit“) an Hand von Wortlaut, Systematik, Entstehungsge - 
+schichte sowie Sinn und Zweck der Norm zu entscheiden sind und nicht 
+durch eine ungeordnete Aneinanderreihung von Argumenten für und gegen 
+ein bestimmtes Auslegungsergebnis. 
+
+===== SEITE 45 =====
+Berliner Skript 
+45 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+F. Vorläufiger Rechtsschutz nach § 123 Abs. 1 
+VwGO 
+ 
+1. Vorbemerkung  
+ 
+Im Zentrum der Fallprüfung stehen Anordnungsanspruch, Anordnungs - 
+grund und ggf. die Vorwegnahme der Hauptsache. Vgl. zu den Einzel - 
+heiten Groscurth, Examenskurs VwGO für Studium und Referendariat, 2. 
+Aufl. 2020, S. 216 ff. 
+ 
+2. Aufbau 
+ 
+Art. 19 Abs. 4 S. 1 GG fordert wirksamen Rechtsschutz in angemessener 
+Zeit. Dem dient der vorläufige Rechtsschutz nach § 123 VwGO, indem  
+er durch vorläufige Maßnahmen sicherstellt, dass die Hauptsache sich 
+nicht praktisch erledigt. Der Prüfungsaufbau orientiert sich deshalb 
+grundsätzlich an der Hauptsache; hinzu kommen Prüfungspunkte, die 
+sich aus den Besonderheiten des Eilrechtsschutzes  ergeben. 
+ 
+a. Zulässigkeit  
+ 
+Ausführungen zum Eilbedürfnis (Anordnungsgrund) und zur Statthaf - 
+tigkeit der Vorwegnahme der Hauptsache gehören nicht in die Zulässig - 
+keitsprüfung. 
+ 
+Zu drei Punkten ist in einer Klausur dagegen stets etwas zu sagen, ggf. 
+in aller Kürze (insoweit besteht aufbaumäßig eine Parallele zum Verfah- 
+ren nach § 80 Abs. 5 VwGO): 
+
+===== SEITE 46 =====
+Berliner Skript 
+46 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+aa. Statthaftigkeit (§ 123 Abs. 5, 80 Abs. 5, 80a Abs. 3 VwGO) 
+ 
+ 
+Hier ist der vorläufige Rechtsschutz nach § 123 Abs. 1 VwGO zunächst 
+gemäß § 123 Abs. 5 VwGO vom spezielleren § 80 Abs. 5 VwGO abzu - 
+grenzen und dann zwischen Sicherungs- und Regelungsanordnung nach 
+§ 123 Abs. 1 Satz 1 oder 2 VwGO zu unterscheiden. Die Sicherungsan - 
+ordnung ist dabei auf die Abwehr belastender Eingriffe, also den Erhalt des 
+Status quo gerichtet und wird in der Regel durch ein Unterlassen erfüllt. 
+Typische Fallkonstellationen der Sicherungsanordnung sind der 
+beamtenrechtliche Konkurrentenstreit und die Unterlassung behördli - cher 
+Äußerungen. Die Regelungsanordnung ist auf die Erweiterung des 
+Rechtskreises bei Verpflichtungs-, Leistungs- und Feststellungsbegeh- ren 
+gerichtet und wird durch ein positives Handeln oder eine vorläufige 
+Feststellung erfüllt. Fälle der Regelungsanordnung sind z.B. die Zulas - 
+sung zu öffentlichen Einrichtungen, das Einschreiten gegen materiell il - 
+legale genehmigungsfreie Bauvorhaben und ausländerrechtliche Dul - 
+dungen. Häufiger ist hier der Antrag nach §§ 88, 122 Abs. 1 VwGO aus - 
+zulegen. 
+ 
+In der Regel reicht hier folgender  Satz: 
+ 
+Der Antrag ist nach § 123 Abs. 5 VwGO als einstweilige Anordnung 
+in Form der Sicherungs -/Regelungsanordnung gemäß § 123 Abs.  
+1 Satz 1/2 VwGO statthaft, denn das Begehren des Antragstellers, 
+nämlich …, ist nicht auf die Suspendierung eines belastenden Ver- 
+waltungsaktes nach § 80 Abs. 5 VwGO, sondern auf die Siche- 
+rung/Erweiterung seines Rechtskreises  gerichtet. 
+
+===== SEITE 47 =====
+Berliner Skript 
+47 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+bb. Antragsbefugnis (§ 42 Abs. 2 VwGO analog) 
+ 
+ 
+Wie im Hauptsacheverfahren; in der Regel ist hier die Anspruchsgrund - 
+lage zu nennen, aus der sich der geltend gemachte Anspruch möglich - 
+erweise ergibt. 
+ 
+cc. Rechtsschutzbedürfnis 
+ 
+ 
+Grundsätzlich muss vor dem Rechtsschutzverfahren ein Antrag bei der 
+Behörde gestellt werden; das kann anders sein, wenn die Sache sehr 
+eilig ist oder die Behörde dem Begehren erkennbar nicht nachgeben  will. 
+Das Hauptsacheverfahren muss noch nicht eingeleitet, darf aber 
+nicht offensichtlich etwa wegen Verfristung unzulässig sein . Bei 
+vorbeugendem vorläufigen Rechtsschutz muss es unzumutbar sein, die 
+drohende Maßnahme abzuwarten und erst dagegen vorläufigen Rechts - 
+schutz zu beantragen; das kann etwa dann der Fall sein, wenn die Be- 
+hörde aus einem nicht wirksam zugestellten Verwaltungsakt vorgehen 
+will. 
+ 
+b. Begründetheit  
+ 
+aa. Anordnungsanspruch 
+ 
+ 
+Der Schwerpunkt der Klausur liegt regelmäßig bei der Prüfung des An- 
+ordnungsanspruchs. Dieser ist, wie auch der Anordnungsgrund, vom An - 
+tragsteller glaubhaft zu machen (§ 123 Abs. VwGO i.V.m. § 920 Abs. 2 
+ZPO). Dabei geht es um die Frage, ob dem Antragsteller der materielle 
+Anspruch zusteht, zu dessen Sicherung er den vorläufigen Rechtsschutz 
+begehrt. Hier muss begrifflich nicht mehr zwischen Sicherungs - und Re - 
+gelungsanordnung unterschieden, sondern es kann allgemein vom An - 
+ordnungsanspruch geredet werden. Vom Bestehen eines Anordnungsan- 
+
+===== SEITE 48 =====
+Berliner Skript 
+48 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+spruchs ist dann auszugehen, wenn das Gericht im Rahmen einer „sum- 
+marischen Prüfung“ zu der Auffassung gelangt, dass der Antragsteller  
+im Hauptsacheverfahren mit überwiegender Wahrscheinlichkeit obsie- 
+gen wird. Die summarische Prüfung bezieht sich allerdings nur auf den 
+vereinfachten Nachweis von - in einer Klausur regelmäßig unstreitigen - 
+Tatsachen; die Rechtsfragen sind dagegen jedenfalls in einer Klausur 
+vollständig zu klären. Im Rahmen der Prüfung ist dann grundsätzlich die 
+Begründetheit des denkbaren Hauptsacherechtsbehelfs wie in einem Ur- 
+teil zu erörtern. Der maßgebliche Zeitpunkt der Beurteilung der Sach- 
+und Rechtslage ist derjenige der Hauptsache.  
+ 
+Ein Sonderfall ist die Bescheidungskonstellation. Hier sind zwar Einzel - 
+heiten umstritten, doch gut vertretbar ist es anzunehmen, dass auch ein 
+Anspruch auf ermessensfehlerfreie Bescheidung durch eine einstweilige 
+Anordnung sicherbar ist, da Art. 19 Abs. 4 S. 1 GG ein Gebot effektiven 
+Rechtsschutzes enthält und zwischen Anordnungsanspruch und Inhalt der 
+Anordnung strikt zu trennen ist; der Tenor enthält dann in der Regel nur 
+eine Verpflichtung der Behörde zur vorläufigen Neubescheidung bin - nen 
+einer sehr kurzen Frist. 
+ 
+ 
+bb. Anordnungsgrund 
+ 
+ 
+Der Erfolg des Eilantrags setzt weiter voraus, dass dem Antragsteller 
+nicht zugemutet  werden kann, seinen Anspruch ausschließlich  im Haupt- 
+sacheverfahren geltend zu machen, weil die Gefahr einer Rechtsverei - 
+telung bzw. Erschwerung (§ 123 Abs. 1 Satz 1 VwGO) besteht oder ein 
+Absehen von vorläufigem Rechtsschutz zu wesentlichen Nachteilen 
+und/oder drohender Gewalt in Bezug auf den Anspruch führen würde (§ 
+123 Abs. 1 Satz 2 VwGO). Bei der Prüfung des Anordnungsgrundes  steht 
+damit die Frage der Eilbedürftigkeit im Mittelpunkt. Bei dieser  Prüfung 
+
+===== SEITE 49 =====
+Berliner Skript 
+49 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+findet eine umfassende Güter - und Interessenabwägung statt. Zu be - 
+rücksichtigen sind hierbei vor allem die Bedeutung des geltend gemach - 
+ten Anspruchs für den Antragsteller, der Grad der Erfolgsprognose in 
+Bezug auf das Hauptsacheverfahren, die Intensität der Rechtsgefähr - 
+dung, die Irreparabilität drohender Schäden und die entgegenstehenden 
+öffentlichen Interessen oder die Interessen Dritter. In Examensklausu- ren 
+spielt der Anordnungsgrund regelmäßig eine untergeordnete Rolle, der 
+Schwerpunkt liegt vielmehr beim Anordnungsanspruch. 
+ 
+Die Ausführungen zum Anordnungsgrund können daher meist kurz ge - 
+fasst werden und zum Beispiel wie folgt lauten: 
+ 
+Die Antragstellerin hat auch einen Anordnungsgrund gemäß § 123 
+Abs. 1 Satz 1/2 VwGO glaubhaft gemacht, denn der Erlass einer 
+einstweiligen Anordnung ist notwendig, um zu verhindern, dass die 
+Verwirklichung eines Rechts wesentlich erschwert wird (Satz 
+1)/wesentliche Nachteile abzuwenden (Satz 2) . Der Antragstellerin 
+ist es nicht zumutbar, den Ausgang des Hauptsacheverfahrens ab - 
+zuwarten, denn ihr geltend gemachter Anspruch auf … ist eilbe - 
+dürftig; er würde ohne vorläufige Regelung wegen des nahen Ver - 
+anstaltungstermins und der erkennbar ablehnenden Haltung der 
+Behörde endgültig vereitelt. … 
+ 
+ 
+cc. Entscheidung des Gerichts und Vorwegnahme der Hauptsache 
+ 
+ 
+Sind Anordnungsanspruch und -grund glaubhaft gemacht, d.h. überwie - 
+gend wahrscheinlich, muss das Gericht eine einstweilige Anordnung er - 
+lassen. Nach § 123 Abs. 3 VwGO i.V.m. § 938 Abs. 1 ZPO bestimmt das 
+Gericht jedoch nach „freiem Ermessen, welche Anordnungen zur Errei - 
+chung des Zwecks erforderlich sind.“ Das ist bei der Sicherungsanord - 
+nung regelmäßig die vorläufige Verpflichtung zum Unterlassen des je- 
+
+===== SEITE 50 =====
+Berliner Skript 
+50 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+weiligen Eingriffs. Bei der Regelungsanordnung ist mehr praktische ju - 
+ristische Phantasie gefragt, da hier der Rechtskreis des Antragstellers 
+vorläufig erweitert wird; es wird etwa einem Schüler vorläufig der Be - 
+such in einer höheren Klasse gestattet, die Bauaufsichtsbehörde zum 
+Einschreiten gegen ein materiell illegales genehmigungsfreies Bauvor - 
+haben verpflichtet oder die vorläufige Zulassung zu einem gewerbe - 
+rechtlichen Volksfest ausgesprochen. 
+ 
+Grundsätzlich soll durch den Erlass der einstweiligen Anordnung die 
+Hauptsache nicht vorweggenommen werden. Dieser Punkt hängt in- 
+haltlich eng mit der Frage nach dem Anordnungsgrund und dem Rechts- 
+schutzbedürfnis zusammen, sollte aber, wenn feststeht, dass der be- 
+gehrte Ausspruch zu einer Vorwegnahme der Hauptsache führen würde 
+(das ist regelmäßig der Fall, da bei einer Stattgabe die Hauptsache je- 
+denfalls zeitweise tatsächlich vorweggenommen wird), gesondert ge- 
+prüft werden. Es widerspricht nach ganz herrschender Auffassung, der 
+in der Klausur in aller Regel gefolgt sollten sollte, dem Wesen und dem 
+Zweck des vorläufigen  Rechtsschutzes,  wenn dem Antragsteller  im Wege 
+des lediglich summarischen Eilverfahrens nach § 123 VwGO schon das- 
+jenige gewährt werden würde, das er nur im Hauptsacheverfahren er- 
+reichen kann. Ausnahmsweise kann vom Verbot der Vorwegnahme der 
+Hauptsache aber aus Gründen des effektiven Rechtsschutzes (Art. 19 
+Abs. 4 GG) abgesehen werden, wenn dem Antragsteller andernfalls ir- 
+reparable, nicht hinnehmbare Nachteile entstünden; der Verweis auf 
+eine nur vorläufige Regelung muss für den Antragsteller quasi zum 
+Rechtsverlust führen und unzumutbar erscheinen. Dies ist in der Regel 
+der Fall, wenn Anordnungsanspruch  und -grund in einem Maße glaubhaft 
+gemacht sind, welches bereits einer Überzeugung des Gerichts (an Si - 
+cherheit grenzende Wahrscheinlichkeit)  gleichkommt.  
+ 
+Im Fall einer Vorwegnahme der Hauptsache kann wie folgt formuliert 
+werden: 
+
+===== SEITE 51 =====
+Berliner Skript 
+51 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+Dem Erlass einer einstweiligen Anordnung steht auch nicht das 
+Verbot einer hier durch … bewirkten Vorwegnahme der Hauptsache 
+entgegen. Von diesem Verbot ist im Hinblick auf das Gebot effek - 
+tiven Rechtsschutzes aus Art. 19 Abs. 4 GG eine Ausnahme zu  ma- 
+chen, weil die sonst zu erwartenden Nachteile für die Antragstel - 
+lerin, nämlich … unzumutbar und im Hauptsacheverfahren nicht 
+mehr zu beseitigen wären und ein hoher Grad an Wahrscheinlich - 
+keit für einen Erfolg auch in der Hauptsache spricht. 
+ 
+Dem Antragsteller darf grundsätzlich nicht mehr gewährt werden als im 
+Hauptsacheverfahren. Auch hier können aber Ausnahmen erforderlich 
+werden, wenn andernfalls effektiver Rechtsschutz ausgeschlossen wäre. 
+ 
+3. Obersätze und Tenorierung  
+ 
+a. Obersätze 
+ 
+Der Obersatz für einen begründeten Antrag kann wie folgt formuliert 
+werden: 
+ 
+Der Antrag auf Erlass einer einstweiligen Anordnung ist begründet, 
+denn der Antragsteller hat die tatsächlichen Voraussetzungen ei- nes 
+Anordnungsanspruches und eines Anordnungsgrundes in ei- nem die 
+Vorwegnahme der Hauptsache rechtfertigenden Maße glaubhaft 
+gemacht (§§ 123 Abs. 1 und 3 VwGO, 920 Abs. 2, 294 ZPO). 
+ 
+Dieser Satz kann dann für einen unbegründeten Antrag je nach Bedarf 
+abgewandelt werden: 
+
+===== SEITE 52 =====
+Berliner Skript 
+52 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Der Antrag auf Erlass einer einstweiligen Anordnung ist unbegrün- 
+det, denn der Antragsteller hat zwar die tatsächlichen Vorausset - 
+zungen eines Anordnungsanspruches/ -grundes nicht jedoch dieje - 
+nigen eines Anordnungsgrundes/ -anspruchs in einem die Vorweg- 
+nahme der Hauptsache rechtfertigenden Maße glaubhaft gemacht 
+(§§ 123 Abs. 1 und 3 VwGO, 920 Abs. 2, 294 ZPO). 
+ 
+b. Tenorierung  
+ 
+aa. Stattgabe 
+ 
+ 
+Bei der Stattgabe muss die Vorläufigkeit der Entscheidung deutlich zum 
+Ausdruck gebracht werden (Der Antragsgegner wird im Wege der einst - 
+weiligen Anordnung verpflichtet ... vorläufig bis zur rechtskräftigen Ent - 
+scheidung in der Hauptsache ...). 
+ 
+Ein stattgebender Tenor kann wie folgt lauten: 
+ 
+Der Antragsgegner wird im Wege der einstweiligen Anord - 
+nung verpflichtet, den Antrag des Antragsstellers vom 13. 
+Oktober 2016 auf Zulassung seines Geschäfts zum „Früh - 
+lingsdom“ 2017 binnen einer Woche nach Zustellung dieser 
+Entscheidung unter Beachtung der Rechtsauffassung des 
+Gerichts vorläufig erneut zu bescheiden. 
+ 
+Der Antragsgegner trägt die Kosten des  Verfahrens.  
+ 
+Der Wert des Verfahrensgegenstandes wird auf 2.500 € 
+festgesetzt. 
+
+===== SEITE 53 =====
+Berliner Skript 
+53 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+bb. Zurückweisung: 
+ 
+ 
+Für alle Varianten des Eilrechtsschutzes – also auch im Verfahren nach 
+§ 80 Abs. 5 Satz 1 VwGO – lautet der zurückweisende Tenor regelmäßig 
+wie folgt: 
+ 
+Der Antrag auf Gewährung vorläufigen Rechtsschutzes wird 
+zurückgewiesen. 
+(auch vertretbar: „abgelehnt“; „abgewiesen“ werden nur Klagen)  
+ 
+Der Antragsteller trägt die Kosten des Verfahrens. 
+ 
+Der Wert des Verfahrensgegenstandes wird auf 2.500 € 
+festgesetzt. 
+(halber Auffangwert nach § 52 Abs. 2 GKG; bei begehrter Vorweg - 
+nahme der Hauptsache ggf. auch voller Auffangwert)  
+ 
+ 
+In Verfahren des Eilrechtsschutzes verbietet sich eine Tenorierung der 
+vorläufigen Vollstreckbarkeit , denn Eilbeschlüsse nach § 80 Abs. 5 
+Satz 1 VwGO und nach § 123 Abs. 1 VwGO sind aus sich heraus mit 
+Bekanntgabe und auch schon vor Ablauf der Rechtsmittelfrist unmittel - 
+bar wirksam und auch vollstreckbar (vgl. § 168 Abs. 1 Nr. 2 VwGO). 
+
+===== SEITE 54 =====
+Berliner Skript 
+54 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+G. Vorläufiger Rechtsschutz nach 
+§ 80 Abs. 5 Satz 1 VwGO: 
+ 
+1. Zulässigkeit 
+ 
+Auch hier sind regelhaft die drei Kriterien Statthaftigkeit, Antragsbefugnis 
+und Rechtsschutzbedürfnis zu behandeln. 
+ 
+Im Rahmen der Statthaftigkeit ist herauszuarbeiten, warum Rechtsschutz 
+nach dem (spezielleren) § 80 Abs. 5 Satz 1 VwGO und nicht nach § 123 
+Abs. 1 VwGO zu gewähren ist; entscheidend ist dabei nach § 123 Abs. 5 
+VwGO, ob es sich um einen Fall des § 80 oder § 80a VwGO, also die Sus - 
+pendierung eines belastenden Verwaltungsakt handelt. Außerdem ist anzu- 
+geben, ob ein Fall des § 80 Abs. 5 Satz 1 Alt. 1 oder 2 VwGO vorliegt; hier 
+ist in der Regel zu unterscheiden zwischen für sofort vollziehbar erklärter 
+Grundverfügung und von Gesetzes wegen sofort vollziehbarer Zwangsmit - 
+telandrohung. Formulierungsbeispiel: 
+ 
+Der Antrag ist nach § 123 Abs. 5, § 80 Abs. 5 Satz 1 Alt. 1/2 VwGO 
+statthaft, denn es geht um die Vollziehung eines belastenden Verwal - 
+tungsakts. Dem Widerspruch des Antragstellers kommt keine aufschie- 
+bende Wirkung zu, weil der Antragsgegner im Hinblick auf die Schlie - 
+ßungsverfügung die sofortige Vollziehung angeordnet hat (§ 80 Abs. 2 
+Satz 1 Nr. 4 VwGO) und die Zwangsgeldandrohung von Gesetzes we - 
+gen sofort vollziehbar ist (§ 80 Abs. 2 Satz 1 Nr. 3 VwGO i.V.m. § 63 
+Abs. 1 Satz 1 JustG Bln). 
+ 
+Im Rahmen der Antragsbefugnis, § 42 Abs. 2 VwGO analog, kann in der 
+Regel mit der Adressatenstellung des Antragstellers gearbeitet werden; an- 
+ders in Dreiecksfällen nach § 80a VwGO, hier sind drittschützende Normen 
+anzuführen. 
+
+===== SEITE 55 =====
+Berliner Skript 
+55 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+Gesonderter Prüfung bedarf das Rechtsschutzbedürfnis. Hauptfrage ist 
+hier stets, ob der Hauptsacherechtsbehelf, um dessen aufschiebenden Wir- 
+kung es geht, ggf. offensichtlich unzulässig ist. Hier ist inzident die Monats- 
+frist nach § 70 oder § 74 VwGO zu prüfen. 
+ 
+§ 80 Abs. 6 Satz 1 VwGO enthält nur für die Fälle von § 80 Abs. 2 Satz 1 
+Nr. 1 VwGO (Anforderung öffentlicher Abgaben und Kosten) ein besonderes 
+Zulässigkeitskriterium: Zwingend vorab erforderlicher Antrag auf behördli - 
+che Aussetzung der Vollziehung i.S.v. § 80 Abs. 4 VwGO. Ein Eingehen auf 
+diese Frage in allen anderen Fällen des § 80 Abs. 2 VwGO erübrigt sich 
+daher. 
+ 
+ 
+2. Begründetheit 
+ 
+Bei der Begründetheitsprüfung von Anträgen nach § 80 Abs. 5 Satz 1 VwGO 
+geht es zentral um eine Interessenabwägung (Aussetzungsinteresse vs. 
+Vollziehungsinteresse). Systematisch zu unterscheiden sind die Fälle ge - 
+setzlicher sofortiger Vollziehung (§ 80 Abs. 2 Satz 1 Nr. 1 bis 3 und Satz 2 
+VwGO) von den Fällen behördlich angeordneter sofortiger Vollziehung (§ 80 
+Abs. 2 Satz 1 Nr. 4 VwGO). Damit einher geht unterschiedliche Terminologie 
+(Anordnung bzw. Wiederherstellung der aufschiebenden Wirkung). Im Fall 
+von § 80 Abs. 2 Satz 1 Nr. 4 VwGO ist stets auch die formelle Rechtmäßig- 
+keit der Vollziehungsanordnung zu prüfen (§ 80 Abs. 3 Satz 1 VwGO). Im 
+Rahmen der Interessenabwägung ist die Rechtmäßigkeit der Grundverfü - 
+gung der zentrale Aspekt; hier liegt in der Regel der Schwerpunkt der Klau- 
+sur. 
+ 
+Vgl. zu den Einzelheiten des komplexen Prüfungsaufbaus Groscurth, Exa- 
+menskurs VwGO für Studium und Referendariat, 2. Aufl. 2020, S. 195 ff. 
+
+===== SEITE 56 =====
+Berliner Skript 
+56 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+a) § 80 Abs. 5 Satz 1 Alt. 1 VwGO, gesetzlicher Ausschluss der 
+aufschiebenden Wirkung nach § 80 Abs. 2 Satz 1 Nr. 1 bis 3 
+und Satz 2 VwGO 
+ 
+Bei der Antragstellung bzw. Tenorierung ist für diese Fallgruppe zu beachten 
+und auszusprechen, dass es um die Anordnung, nicht um die Wiederher- 
+stellung der aufschiebenden Wirkung geht. Nach herrschender Meinung und 
+Praxis kann hier der Prüfungsmaßstab des § 80 Abs. 4 Satz 3 VwGO heran- 
+gezogen werden und zwar nicht nur, wenn es um Fälle der Forderung von 
+Abgaben und Kosten (§ 80 Abs. 2 Satz 1 Nr. 1 VwGO) geht, sondern auch 
+in den Fällen des § 80 Abs. 2 Satz 1 Nr. 2 und 3 VwGO. 
+ 
+aa) Ernstliche Zweifel an der Rechtmäßigkeit der Grundverfügung 
+ 
+ 
+Das Suspendierungsinteresse des Antragstellers überwiegt, wenn ernstliche 
+Zweifel an der Rechtmäßigkeit der Grundverfügung bestehen (vgl. die For- 
+mulierung in § 80 Abs. 4 Satz 3 VwGO). Formulierungsbeispiel: 
+ 
+Der Antrag ist begründet. Das Interesse des Antragstellers am einst - 
+weiligen Nichtvollzug der Maßnahme überwiegt das öffentliche Inte - 
+resse an der sofortigen Vollziehung, denn nach summarischer Prüfung 
+bestehen ernstliche Zweifel an der Rechtmäßigkeit der angefochtenen 
+Verfügung. 
+ 
+Es folgt die Prüfung der Rechtmäßigkeit der Grundverfügung mit Nennung 
+der Rechtsgrundlage und Subsumtion unter eingehender Würdigung des 
+vorgegebenen Sachverhalts wie in der Klage. Außer dem Hinweis, dass 
+grundsätzlich kein (gesetzliches) öffentliches Interesse am Sofortvollzug 
+von rechtswidrigen Verwaltungsakten besteht, sind weitergehende Ausfüh- 
+rungen zur Interessenabwägung entbehrlich. 
+
+===== SEITE 57 =====
+Berliner Skript 
+57 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Tenor: Die aufschiebende Wirkung des Widerspruchs vom 23. 
+Mai 2017 gegen den Bescheid der Polizei Berlin vom 2. Mai 
+2017 wird angeordnet. 
+ 
+bb) Offensichtliche Rechtmäßigkeit der Grundverfügung 
+ 
+ 
+Aufgrund der gesetzlichen Wertung überwiegt in aller Regel das Vollzie - 
+hungsinteresse, wenn sich keine ernstlichen Zweifel an der Rechtmäßigkeit 
+der Grundverfügung ergeben; dann ist der Wille des Gesetzgebers zum So- 
+fortvollzug zur Geltung zu bringen. Hat der Sofortvollzug jedoch (atypische) 
+Auswirkungen, die nicht schon als regelmäßige Folge der gesetzlichen An - 
+ordnung des Sofortvollzugs in der gesetzgeberischen Grundentscheidung 
+Berücksichtigung gefunden haben (vgl. die unbillige Härte in § 80 Abs. 4 S. 
+3 VwGO), kann ausnahmsweise die Abwägung zu Gunsten des Antrag - 
+stellers ausfallen und die aufschiebende Wirkung angeordnet werden. Prü - 
+fungsschwerpunkt ist aber auch beim gesetzlichen Sofortvollzug regelmäßig 
+die Rechtmäßigkeit des Bescheids. Formulierungsbeispiel: 
+ 
+Der Antrag ist unbegründet. Das öffentliche Interesse an der sofortigen 
+Vollziehung der Maßnahme überwiegt das Interesse des Antragstellers, 
+von der Vollziehung vorerst verschont zu bleiben, denn nach summa - 
+rischer Prüfung bestehen keine ernstlichen Zweifel an der Rechtmäßig- 
+keit der angefochtenen Verfügung und es liegt keine unbillige Härte 
+vor. 
+ 
+Tenor: Der Antrag auf Gewährung vorläufigen Rechtsschutzes 
+vom 25. Mai 2017 wird zurückgewiesen. 
+
+===== SEITE 58 =====
+Berliner Skript 
+58 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+cc) Erfolgsaussichten des Rechtsbehelfs sind offen 
+ 
+ 
+Achtung: Grundsätzlich sollten sich die Klausurbearbeitenden auf 
+den Standpunkt stellen, die Erfolgsaussichten in der Hauptsache 
+sehr wohl beurteilen zu können. Nur bei expliziten Hinweisen etwa 
+im Beteiligtenvorbringen bzw. wenn die Frage, wie bei offenen Er - 
+folgsaussichten zu verfahren ist, ausdrücklich aufgeworfen ist, 
+sollte von offenen Erfolgsaussichten ausgegangen werden! 
+ 
+Aufgrund der gesetzlichen Wertung überwiegt das Vollziehungsinteresse in 
+der Regel auch, wenn die Erfolgsaussichten des Rechtsbehelfs offen sind. 
+Diese Variante ist allerdings mehr praxis - als klausurrelevant, denn der 
+Sachverhalt ist in aller Regel unstreitig und der Klausurbearbeiter soll sich 
+zu der Frage der Rechtmäßigkeit eines Bescheides entscheiden. Formulie- 
+rungsbeispiel: 
+ 
+Der Antrag ist unbegründet. Das öffentliche Interesse an der sofortigen 
+Vollziehung der Maßnahme überwiegt das Interesse des Antragstellers, 
+von der Vollziehung vorerst verschont zu bleiben. Die angefochtene 
+Verfügung erweist sich bei summarischer Prüfung nämlich weder als 
+offensichtlich rechtmäßig noch als offensichtlich rechtswidrig. (Es folgt 
+die materielle Prüfung) Vor diesem Hintergrund ergibt sich das über - 
+wiegende Vollziehungsinteresse hier aus der § 80 Abs. 2 Satz 1 Nr. 1 
+bis 3 i.V.m. Abs. 4 Satz 3 VwGO zugrundeliegenden gesetzlichen Wer- 
+tung. Der Antragsteller hat nicht dargetan, dass die sofortige Vollzie - 
+hung für ihn eine unbillige, nicht durch überwiegende öffentliche Inte- 
+ressen gebotene Härte zur Folge hätte. 
+
+===== SEITE 59 =====
+Berliner Skript 
+59 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+b) § 80 Abs. 5 Satz 1 Alt. 2 VwGO, Anordnung der sofortigen Voll- 
+ziehung durch die Behörde nach 80 Abs. 2 Satz 1 Nr. 4 VwGO 
+ 
+Je nach Befund zur Rechtmäßigkeit der Grundverfügung ist wiederum zu 
+unterscheiden: 
+ 
+aa) Ernstliche Zweifel an der Rechtmäßigkeit der Grundverfügung 
+ 
+Auch hier überwiegt das Suspendierungsinteresse des Antragstellers, wenn 
+ernstliche Zweifel (insoweit wird die Terminologie aus § 80 Abs. 4 S. 3 
+VwGO in entsprechender Anwendung entnommen) an der Rechtmäßigkeit 
+der Grundverfügung bestehen, denn an der Vollziehung eines rechtswidri - 
+gen Verwaltungsakts besteht grundsätzlich kein öffentliches Interesse. For- 
+mulierungsbeispiel: 
+ 
+Der Antrag hat Erfolg. Das Interesse des Antragstellers am einstweili - 
+gen Nichtvollzug der Maßnahme überwiegt das öffentliche Interesse an 
+der sofortigen Vollziehung, denn nach summarischer Prüfung bestehen 
+ernstliche Zweifel an der Rechtmäßigkeit der angefochtenen Verfü - 
+gung. 
+ 
+Tenor: Die aufschiebende Wirkung des Widerspruchs vom 23. 
+Mai 2017 gegen den Bescheid des Polizeipräsidenten in Berlin 
+vom 2. Mai 2017 wird wiederhergestellt. 
+ 
+Beachte: Häufig kombinieren insbesondere Verfügungen zur Gefahrenab - 
+wehr eine für sofort vollziehbar erklärte Grundverfügung mit einer Zwangs- 
+mittelandrohung; letztere ist von Gesetzes wegen sofort vollziehbar, § 63 
+Abs. 1 Satz 1 JustG Bln. Hier ist differenziert zu prüfen und im Falle der 
+vollständigen Stattgabe wie folgt zu tenorieren: 
+ 
+Die aufschiebende Wirkung des Widerspruchs vom 23. Mai 
+2017 gegen den Bescheid des Polizeipräsidenten in Berlin vom 
+
+===== SEITE 60 =====
+Berliner Skript 
+60 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+2. Mai 2017 wird bzgl. des darin enthaltenen Aufenthaltsver - 
+bots wiederhergestellt und bzgl. der darin enthaltenen Zwangs- 
+geldandrohung angeordnet. 
+ 
+bb) Offensichtliche Rechtmäßigkeit der Grundverfügung 
+ 
+Sofern keine ernstlichen Zweifel an der Rechtmäßigkeit der Grundverfügung 
+bestehen, bedarf es in einem weiteren, kumulativen Schritt der Prüfung, ob 
+gemäß § 80 Abs. 2 Satz 1 Nr. 4 VwGO ein überwiegendes öffentliches Inte- 
+resse an der sofortigen Vollziehung der Grundverfügung besteht; dieser 
+Schritt ist dogmatisch wichtig, weil die Grundaussage in § 80 Abs. 1 Satz 1 
+VwGO dahin geht, dass Rechtsbehelfe auch gegen rechtmäßige Verwal - 
+tungsakte grundsätzlich aufschiebende Wirkung entfalten sollen. Die Inte - 
+ressenabwägung hat das Verwaltungsgericht nach eigenem Ermessen und 
+unabhängig vom Vorbringen der Beteiligten vorzunehmen. Zu fragen ist 
+letztlich, ob ein besonderes öffentliches Interesse an der sofortigen Vollzie- 
+hung besteht. Formulierungsbeispiel: 
+ 
+Der Antrag ist unbegründet. Das öffentliche Interesse an der formell 
+ordnungsgemäß angeordneten (dazu unten 1.) sofortigen Vollziehung 
+der Maßnahme überwiegt das Interesse des Antragstellers, von der 
+Vollziehung vorerst verschont zu bleiben. Nach summarischer Prüfung 
+bestehen keine ernstlichen Zweifel an der Rechtmäßigkeit der ange - 
+fochtenen Verfügung (dazu unten 2.a) und es liegt ein besonderes öf - 
+fentliches Interesse an der sofortigen Vollziehung der Nutzungsunter - 
+sagung vor (dazu unten 2.b). 
+ 
+Ein besonderes öffentliches Interesse an der sofortigen Vollziehung liegt 
+vor, wenn nicht nur ein Interesse am Erlass des Verwaltungsakts, sondern 
+auch an seiner alsbaldigen Verwirklichung vor der Entscheidung über den 
+Rechtsbehelf besteht. Das Erlassinteresse kann aber mit dem sofortigen 
+
+===== SEITE 61 =====
+Berliner Skript 
+61 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Vollziehungsinteresse zusammenfallen; das ist insbesondere im Gefahren - 
+abwehrrecht der Fall. Formulierungsbeispiel: 
+ 
+Der Antrag ist unbegründet. Das öffentliche Interesse an der formell 
+ordnungsgemäß angeordneten (dazu unten 1) sofortigen Vollziehung 
+der Maßnahme überwiegt das Interesse des Antragstellers, von der 
+Vollziehung vorerst verschont zu bleiben. Nach summarischer Prüfung 
+bestehen keine ernstlichen Zweifel an der Rechtmäßigkeit der ange - 
+fochtenen Verfügung (dazu unten 2.a) und es liegt ein besonderes öf - 
+fentliches Interesse an der sofortigen Vollziehung der Nutzungsunter - 
+sagung vor (dazu unten 2.b) ... 
+2.a. Rechtsgrundlage für die angefochtene Maßnahme ist § 80 Satz 2 
+BauO Bln. Danach ... Diese Voraussetzungen liegen hier offensichtlich 
+vor. (Es folgt die Prüfung der Rechtmäßigkeit der Verfügung) b. Vor 
+diesem Hintergrund überwiegt das öffentliche Vollziehungsinteresse, 
+denn es besteht grundsätzlich ein besonderes öffentliches Interesse an 
+der sofortigen Vollziehung der Nutzungsuntersagung, um die Effektivi- 
+tät des bauaufsichtlichen Genehmigungsverfahrens zu wahren. Der An- 
+tragsteller hat nicht dargetan, dass die sofortige Vollziehung für ihn 
+eine unbillige, nicht durch überwiegende öffentliche Interessen gebo - 
+tene Härte zur Folge hätte (vgl. § 80 Abs. 4 Satz 3 VwGO). 
+ 
+ 
+cc) Rechtmäßigkeit der Grundverfügung offen 
+ 
+ 
+Auch hier gilt: In der Regel ist abschließend Stellung zu nehmen zur 
+Rechtmäßigkeit der Grundverfügung, siehe oben oben a) cc)! 
+ 
+Ist die Frage nach der Rechtmäßigkeit der Grundverfügung offen, weil ent- 
+scheidungserhebliche Tatsachen nicht geklärt sind (auch hier mehr praxis - 
+als klausurrelevant), so ist eine von den Erfolgsaussichten der Hauptsache 
+
+===== SEITE 62 =====
+Berliner Skript 
+62 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+unabhängige Interessenabwägung vorzunehmen. Dabei ist zu berücksichti- 
+gen, dass anders als in den Fällen des gesetzlichen Sofortvollzuges in der 
+vorliegenden Fallgestaltung wegen der gesetzlichen Grundentscheidung für 
+die aufschiebende Wirkung (§ 80 Abs. 1 S. 1 VwGO), die nach der ständigen 
+Rechtsprechung des Bundesverfassungsgerichts Verfassungsrang hat, der 
+Antrag schon dann Erfolg hat, wenn nicht festgestellt werden kann, dass 
+die öffentlichen Interessen am Sofortvollzug überwiegen (auch bei Gleich - 
+wertigkeit der öffentlichen und privaten Interessen muss die aufschiebende 
+Wirkung wiederhergestellt werden.). Formulierungsbeispiel: 
+ 
+Der Antrag ist begründet. Es kann nicht festgestellt werden, dass das 
+öffentliche Interesse an der sofortigen Vollziehung der Maßnahme das 
+Interesse des Antragstellers, von der Vollziehung vorerst verschont zu 
+bleiben, überwiegt. Die angefochtene Verfügung erweist sich bei sum- 
+marischer Prüfung nämlich weder als offensichtlich rechtmäßig noch 
+als offensichtlich rechtswidrig. (Hier muss die Rechtmäßigkeit  der 
+Grundverfügung eingehend - wenn auch ohne endgültiges Ergebnis - 
+geprüft werden.) Die vor diesem Hintergrund vorzunehmende Interes- 
+senabwägung ergibt nicht, dass das Vollziehungsinteresse überwiegt, 
+denn ... (Folgeabwägung - jeweils Konsequenzen aufzeigen und ge - 
+wichten). 
+ 
+3. Sonderfälle 
+ 
+a) Entsprechende Anwendung des § 80 Abs. 5 VwGO bei Missach- 
+tung der aufschiebenden Wirkung eines Widerspruchs durch 
+die Behörde („Faktischer Vollzug“) 
+ 
+Ein Antrag auf Gewährung vorläufigen Rechtsschutzes gemäß § 80 Abs. 5 
+VwGO analog hat Erfolg, wenn die Behörde die aufschiebende Wirkung eines 
+Rechtsbehelfs missachtet, indem sie den Bescheid ohne Anordnung der so- 
+fortigen Vollziehung bzw. in der irrigen Annahme, es liege ein Fall des § 80 
+
+===== SEITE 63 =====
+Berliner Skript 
+63 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Abs. 2 Satz 1 Nr. 1 bis 3 oder Satz 2 VwGO vor, faktisch vollzieht. Achtung: 
+wenn der Eilantrag analog § 80 Abs. 5 VwGO zulässig ist (insbesondere 
+wenn das Rechtsschutzinteresse besteht, weil die Behörde offensichtlich 
+vollziehen will), ist der Antrag auch automatisch begründet. Auf die Recht- 
+mäßigkeit des Bescheides kommt es wegen der bestehenden aufschieben - 
+den Wirkung nicht an. Wegen dieses relativ überschaubaren Fallaufbaus ist 
+diese Fallvariante häufig in Aktenvorträgen anzutreffen. Die Rechtmäßigkeit 
+der Grundverfügung muss dann, falls im Bearbeitervermerk gefordert, in 
+einem Hilfsgutachten geprüft werden. Formulierungsbeispiel: 
+ 
+Der nach § 80 Abs. 5 VwGO analog zulässige Antrag ist begründet. 
+Hierfür ist ausschlaggebend, dass dem gegen die angefochtene Verfü- 
+gung eingelegten Widerspruch des Antragstellers vom ... bei summa - 
+rischer Prüfung gemäß § 80 Abs. 1 Satz 1 VwGO aufschiebende Wir - 
+kung zukommt, denn weder hat die Behörde die sofortige Vollziehung 
+nach § 80 Abs. 2 Satz 1 Nr. 4 VwGO angeordnet, noch liegt ein Fall des 
+§ 80 Abs. 2 Satz 1 Nr. 1 bis 3 oder Satz 2 VwGO vor. Zur Vermeidung 
+einer Rechtsschutzlücke ist deshalb die Feststellung geboten, dass der 
+Widerspruch aufschiebende Wirkung entfaltet und die Verfügung nicht 
+vollzogen werden darf. 
+ 
+Tenor: Es wird festgestellt, dass der Widerspruch vom 23. Mai 
+2017 gegen den Bescheid der Polizei Berlin vom 2. Mai 2017 
+aufschiebende Wirkung hat. 
+ 
+b) § 80 Abs. 5 Satz 3 VwGO, Rückgängigmachung der Vollziehung 
+ 
+Über § 80 Abs. 5 Satz 3 VwGO kann vorläufiger Rechtsschutz nach § 80 
+Abs. 5 Satz 1 VwGO („erste Stufe“) mit einer Rückgängigmachung der Voll- 
+ziehung verbunden werden (Vollzugsfolgenbeseitigung). Sofern die Vollzie- 
+hung, die ein Realakt ist, sich als Folge eines Verwaltungsakts darstellt (Bei- 
+spiel: Einziehung eines Leseausweises als Vollziehung des Verwaltungsakts 
+
+===== SEITE 64 =====
+Berliner Skript 
+64 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+„Ausschluss von der Nutzung einer öffentlichen Bibliothek“), kann die Rück- 
+gängigmachung der Vollziehung im Wege vorläufigen Rechtsschutzes auf 
+der „zweiten Stufe“ über § 80 Abs. 5 Satz 3 VwGO erreicht werden, wonach 
+die Aufhebung der Vollziehung des Verwaltungsakts angeordnet werden 
+kann. Achtung: In der Klausurpraxis werden derartige Anträge gerne als 
+scheinbare Anträge nach § 123 VwGO formuliert, sind aber nach § 80 Abs. 
+5 Satz 3 VwGO als Annex zu § 80 Abs. 5 Satz 1 VwGO zu behandeln. Nur 
+wenn sich ein belastender Realakt nicht als Vollziehung eines Verwaltungs- 
+akts darstellt, ist Rechtsschutz nach § 123 Abs. 1 VwGO zu gewähren, vgl. 
+§ 123 Abs. 5 VwGO. 
+ 
+Tenor: Die aufschiebende Wirkung des Widerspruchs vom 23. 
+Mai 2017 gegen den Bescheid des Bezirksamts Steglitz-Zehlen- 
+dorf von Berlin vom 2. Mai 2017 wird wiederhergestellt. 
+ 
+Dem Antragsgegner wird aufgegeben, dem Antragsteller seinen 
+am 2. Mai 2017 eingezogenen Leseausweis herauszugeben. 
+ 
+ 
+c) § 80 Abs. 5 VwGO und formelle Rechtswidrigkeit der Vollzie- 
+hungsanordnung nach § 80 Abs. 3 Satz 1 VwGO 
+ 
+Nach § 80 Abs. 3 Satz 1 VwGO ist in den Fällen des § 80 Abs. 2 Satz 1 Nr. 
+4 VwGO das besondere Interesse an der sofortigen Vollziehung des Verwal- 
+tungsakts schriftlich zu begründen. Hierbei handelt es sich um eine Form - 
+vorschrift, die im Rahmen der Klausurbearbeitung nicht übergewichtet wer- 
+den sollte; es kommt allein darauf an, ob eine gesonderte schriftliche Be- 
+gründung der Vollziehungsanordnung vorliegt. Ob das Vollziehungsinte - 
+resse überwiegt, ist eine Frage der vom Gericht anzustellenden Interessen- 
+abwägung. 
+
+===== SEITE 65 =====
+Berliner Skript 
+65 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+§ 80 Abs. 3 Satz 1 VwGO erlangt nur entscheidungserhebliche Bedeutung, 
+wenn die Vollziehungsanordnung nicht schriftlich begründet ist; sie ist dann 
+bereits formell rechtswidrig. An das Vorliegen einer schriftlichen Begrün - 
+dung sollten keine überspitzten Anforderungen gestellt werden; insbeson - 
+dere kommt es nicht darauf an, ob die Begründung überzeugt. Letztlich 
+genügt, dass die Behörde zu erkennen gibt, sich des besonderen Begrün - 
+dungserfordernisses bewusst gewesen zu sein (Warnfunktion). 
+ 
+(Dieser Erklärungsansatz soll die Fallbearbeitung vereinfachen und ist je - 
+denfalls „gut vertretbar“. Einzelheiten sind in Literatur und Rechtsprechung 
+teilweise stark umstritten. Teilweise werden aus § 80 Abs. 3 Satz 1 VwGO 
+strengere Anforderungen abgeleitet; vgl. etwa BVerwG, B. v. 18.9.01 - 1 
+DB 26.01 - RÜ 3/2002, 141.) 
+ 
+Wenn die Interessenabwägung zu Lasten des Antragstellers ausginge, je - 
+doch eine schriftliche Begründung im Sinne von § 80 Abs. 3 Satz 1 VwGO 
+fehlt, ist folgende Tenorierung zu empfehlen: 
+ 
+Die Anordnung der sofortigen Vollziehung in dem Bescheid des 
+Bezirksamts Wilmersdorf vom 9. Februar 2017 wird aufgeho - 
+ben; im Übrigen wird der Antrag auf Gewährung vorläufigen 
+Rechtsschutzes zurückgewiesen. 
+ 
+Wenn die Vollziehungsanordnung unter einem Begründungsmangel leidet 
+und die Interessenabwägung zugunsten des Antragstellers ausgeht, ist bei- 
+des in der rechtlichen Würdigung des Beschlusses zu erklären, aber nur wie 
+üblich zu tenorieren: 
+ 
+Die aufschiebende Wirkung des Widerspruchs vom 23. Mai 
+2017 gegen den Bescheid des Bezirksamts Steglitz -Zehlendorf 
+von Berlin vom 2. Mai 2017 wird wiederhergestellt. 
+
+===== SEITE 66 =====
+Berliner Skript 
+66 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+H. Die Klausur aus behördlicher Sicht 
+ 
+1. Zur Aufgabenstellung 
+ 
+Neben der Fallbearbeitung aus gerichtlicher (oder aus anwaltlicher) Sicht 
+gibt es auch Aufgabenstellungen, die eine Bearbeitung aus behördlicher 
+Sicht verlangen. Hier sind verschiedene Ansätze denkbar, insbesondere der 
+Entwurf eines Ausgangsbescheides, die Bearbeitung eines Widerspruchs mit 
+Entwurf eines Widerspruchsbescheides oder die Bearbeitung einer behörd - 
+lichen Erwiderung im Rahmen eines anhängigen Klage- und/oder Eilverfah- 
+rens. Der Bearbeitervermerk ist stets genau zu beachten, um der Aufgabe 
+gerecht zu werden. 
+ 
+Häufig zu beobachten ist die Aufgabe, einen Ausgangsbescheid zu ferti- 
+gen. Voranzustellen ist dann – vorbehaltlich eines anderslautenden Bear - 
+beitungsvermerks bzw. Prüfauftrags – in der Regel ein Gutachten, das die 
+Rechtmäßigkeit behördlichen Vorgehens umfassend beleuchtet. Verbunden 
+ist die Aufgabe regelmäßig mit dem Bemerken, es möge „effektiv“ einge - 
+schritten werden. Das deutet auf Vollziehungsanordnung und Zwangsmit - 
+telandrohung. Dessen ungeachtet sollte auch ohne dezidierte Hinweise kurz 
+überlegt werden, welche weiteren behördlichen Schritte sich aufdrängen, 
+um das mit dem Bescheid verfolgte Ziel effektiv zu erreichen. Zentral für 
+die Güte der Bearbeitung ist dann vor allem auch der Verfügungssatz/Tenor 
+des zu entwerfenden Bescheides, der typischer Weise in seinen drei Ele - 
+menten Grundverfügung/Vollziehungsanordnung/Zwangsmittelandrohung 
+lauten könnte: 
+
+===== SEITE 67 =====
+Berliner Skript 
+67 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Ihnen wird aufgegeben, den Betrieb des Friseursalons im Al - 
+tenwohnheim x umgehend einzustellen. 
+ 
+Die sofortige Vollziehung dieser Verfügung wird angeordnet. 
+ 
+Für den Fall, dass Sie diese Verfügung nicht binnen dreier Tage 
+nach Zustellung befolgen, drohe ich hiermit ein Zwangsgeld in 
+Höhe von 1.000 € an. 
+ 
+Denkbar ist auch eine Aufgabenstellung, derzufolge ohne vorangestelltes 
+Gutachten lediglich ein Ausgangsbescheid zu fertigen ist, in welchem dann 
+auf alle aufgeworfenen Fragen einzugehen ist. 
+ 
+Die Widerspruchsklausur erfordert im Gutachten die Prüfung von Zuläs- 
+sigkeit und Begründetheit des Rechtsbehelfs. Denkbar ist auch eine Aufga- 
+benstellung, derzufolge ohne vorangestelltes Gutachten lediglich ein Wider- 
+spruchsbescheid zu fertigen ist, in welchem dann auf alle aufgeworfenen 
+Fragen einzugehen ist. 
+ 
+Im Rahmen der Zulässigkeit kann grundsätzlich auf die aus der Zulässig- 
+keitsprüfung der Klage bekannten Kriterien zurückgegriffen werden, soweit 
+sie passen und ein Eingehen erforderlich ist (z.B. § 79 VwVfG i.V.m. § 42 
+Abs. 2 VwGO). 
+ 
+Im Rahmen der Begründetheit wird zum einen geprüft, ob der angegriffene 
+Bescheid rechtmäßig ist und den Widerspruchsführer nicht in seinen Rech - 
+ten verletzt (§ 79 VwVfG i.V.m. § 113 Abs. 1 oder Abs. 5 VwGO). Maßgeb- 
+licher Zeitpunkt für die Beurteilung der Sach - und Rechtslage ist dabei 
+grundsätzlich derjenige der Entscheidung über den Widerspruch (Ausnah - 
+men sind denkbar, z.B. im Baurecht). Form - und Verfahrensfehler sind 
+grundsätzlich heilbar (vgl. § 45 VwVfG), wenn der Betroffene die Möglich - 
+keit zur Stellungnahme hatte und die Widerspruchsbehörde sich mit dem 
+
+===== SEITE 68 =====
+Berliner Skript 
+68 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Vorbringen auseinandergesetzt hat. Liegen die Voraussetzungen des § 46 
+VwVfG vor, muss die Widerspruchsbehörde den Widerspruch zurückweisen. 
+Zum anderen muss grundsätzlich die Zweckmäßigkeit des angegriffenen 
+Bescheids aus Sicht der Widerspruchsbehörde überprüft werden (vgl. § 68 
+Abs. 1 Satz 1 VwGO). In diesem Fall muss (sofern eine Ermessensvorschrift 
+zugrunde liegt) Ermessen ausgeübt werden. Die Einschränkungen der Kon- 
+trolle nach § 114 Satz 1 VwGO und der Ergänzung des Ermessens gemäß § 
+114 Satz 2 VwGO gilt nicht. Der erweiterte Prüfungsmaßstab muss unter 
+Nennung der genannten Normen erläutert werden! 
+ 
+Klausurrelevant sind in der Klausur aus widerspruchsbehördlicher 
+Sicht insbesondere folgende Problemkreise: 
+ 
+- Vollständigkeit des Widerspruchbescheides (vgl. das folgende Mus - 
+ter), 
+- Austausch der Rechtsgrundlage, 
+- Widerspruchsfrist, Zustellungsfragen, 
+- (heilbare) Verfahrens- und Formfehler, 
+- (zu behebende) Ermessensfehler der Ausgangsbehörde, 
+- (zu behebender) Fehler bei der Anordnung der sofortigen Vollziehung 
+nach § 80 Abs. 2 Satz 1 Nr. 4 VwGO, insbesondere Fehlen einer Be- 
+gründung gemäß § 80 Abs. 3 Satz 1 VwGO, 
+- erstmalige Anordnung der sofortigen Vollziehung durch die Wider - 
+spruchsbehörde 
+ 
+Die „reformatio in peius“ ist in Widerspruchsklausuren recht häufig an - 
+zutreffen. Sie liegt nur vor, wenn der Tenor eines Verwaltungsakts zu Lasten 
+des Widerspruchsführers geändert wird. Eine „Verböserung“ liegt daher 
+nicht vor, wenn ein begünstigender Verwaltungsakt auf den Widerspruch 
+eines belasteten Dritten zu Lasten des Begünstigten verschärft wird, also 
+etwa die Baugenehmigung auf den Widerspruch des Nachbarn hin aufgeho- 
+
+===== SEITE 69 =====
+Berliner Skript 
+69 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ben wird. Eine reformatio in peius ist dagegen gegeben, wenn der den Ad - 
+ressaten begünstigende Verwaltungsakt auf den Widerspruch des belaste - 
+ten Dritten zu dessen Lasten sogar noch verschärft wird, also etwa die Bau- 
+genehmigung auf den Widerspruch des Nachbarn hin die Abstandsflächen 
+noch verkürzt. Da nur eine reformatio in peius vorliegt, wenn der Entschei- 
+dungsausspruch geändert wird, reicht allein eine Änderung der Entschei - 
+dungsgründe nicht. Die ganz herrschende Ansicht sieht die reformatio in 
+peius inzwischen grundsätzlich auch außerhalb des Anwendungsbereichs 
+des § 50 VwVfG als zulässig an. Allerdings ist die Zulässigkeit der reformatio 
+in peius weder positiv noch negativ in der VwGO geregelt (vgl. aber das 
+Anhörungsgebot in § 71 VwGO). Vielmehr handelt es sich um eine 
+Frage, die im Einzelfall aus dem einschlägigen Organisationsrecht 
+und aus dem materiellen Recht zu beantworten ist. Unter folgenden 
+Voraussetzungen ist eine reformatio in peius unbedenklich: 
+ 
+1. Die Widerspruchsbehörde muss zuständig sein, vgl. § 73 Abs. 1 Satz 2 
+VwGO. Kein Problem besteht (wie meistens in Berlin, §§ 27 AZG, 67 ASOG) 
+bei Identität von Ausgangs - und Widerspruchsbehörde. Bei fehlender Be - 
+hördenidentität ergibt sich die Zuständigkeit mangels spezieller Regelung 
+als Annex aus der funktionalen Zuständigkeit und der fachaufsichtlichen 
+Kompetenz der Widerspruchsbehörde. 
+ 
+2. Ermächtigungsgrundlage für die Verböserung sind nicht §§ 68 ff. VwGO, 
+die mangels bundesgesetzlicher Regelungskompetenz eine Verböserung le- 
+diglich nicht verbieten. Die Ermächtigungsgrundlage für die Verböserung ist 
+vielmehr in der sachlichen (spezialgesetzlichen) Rechtsgrundlage zu su - 
+chen. Griffiges Beispiel: Die Ausgangsbehörde erlässt eine einfache Gewer- 
+beuntersagung nach § 35 Abs. 1 Satz 1 GewO, die Widerspruchsbehörde 
+macht daraus die erweiterte Gewerbeuntersagung nach § 35 Abs. 1 Satz 2 
+GewO. 
+
+===== SEITE 70 =====
+Berliner Skript 
+70 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Anderer Ansatz: Auch die Heranziehung von § 48 VwVfG kann nötig sein. 
+Beispiel: Theatergruppe beantragt Subvention i.H.v. 20.000 Euro. Aus - 
+gangsbehörde spricht nur 10.000 Euro zu. Auf den hiergegen erhobenen 
+Widerspruch verringert die Widerspruchsbehörde die Subvention auf 5.000 
+Euro. Hier ist zum einen materiellrechtlich zu klären, welcher Betrag der 
+Theatergruppe zusteht und zum anderen, ob die Teilaufhebung des Aus - 
+gangsbescheides durch die Widerspruchsbehörde den Erfordernissen von 
+§ 48 VwVfG standhält. 
+ 
+In allen Fällen der reformatio in peius empfiehlt es sich, Rechtmäßigkeit des 
+Ausgangsbescheides und Zulässigkeit der reformatio in peius bzw. Recht - 
+mäßigkeit der im Widerspruchsbescheid getroffenen Regelung getrennt 
+voneinander zu untersuchen. 
+ 
+Die Verböserung ist grundsätzlich zulässig, denn wer einen ihn belastenden 
+Verwaltungsakt anficht, muss grundsätzlich mit der Verschlechterung seiner 
+Position rechnen, weil mit der Anfechtung der Verwaltungsakt nicht mehr 
+Grundlage für Vertrauensschutz sein kann; ausnahmsweise „sperrt“ Ver - 
+trauensschutz, wenn die Verböserung zu „untragbaren Zuständen führen 
+würde” (BVerwG, B. v. 17.06.1996 - 1 B 100.96 - DVBl. 1996, 1318). Ob 
+der Widerspruchsführer einer Verböserung die Grundlage dadurch entzie - 
+hen kann, dass er den Widerspruch nach Erlass des Widerspruchsbescheids 
+zurücknimmt oder auf den Widerspruch verzichtet, ist streitig. 
+ 
+Keine reformatio in peius, sondern einen sog. Selbsteintritt stellt der Erlass 
+einer zusätzlichen, qualitativ andersartigen, ggf. auf einer weiteren Rechts- 
+grundlage beruhenden Regelung durch die Widerspruchsbehörde dar. Teil - 
+weise wird auch von einer reformatio in peius im engeren bzw. im weiteren 
+Sinne gesprochen. Die Abgrenzung kann im Einzelfall schwierig, aber ggf. 
+auch unerheblich sein, denn bei (wie in Berlin) anzutreffender Behör - 
+denidentität ist auch der Selbsteintritt im Hinblick auf die Zuständigkeits- 
+
+===== SEITE 71 =====
+Berliner Skript 
+71 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+frage unproblematisch. Bei Verschiedenheit von Ausgangs - und Wider - 
+spruchsbehörde dürfte der Selbsteintritt aber mangels sachlicher (funktio - 
+naler) Kompetenz der Widerspruchsbehörde (es trat insofern kein Devolu - 
+tiveffekt ein) rechtswidrig sein. Bei Rechtswidrigkeit des Selbsteintritts ist 
+die im Tenor eines Widerspruchsbescheides hinzutretende Regelung im 
+Rahmen einer Anfechtungsklage aufzuheben, und zwar selbst wenn die 
+Klage im Übrigen unbegründet ist. 
+ 
+ 
+Die im folgenden Musterbescheid gewählten Formulierungsvorschläge 
+sind weniger „dogmatisch“ zu sehen als die obigen Formulierungen zu 
+Rubrum, Eingang, Tenor und Tatbestand eines Urteils, denn angesichts der 
+Behördenvielfalt ist es nicht zur Herausbildung einheitlicher Formulierungen 
+wie am Verwaltungsgericht gekommen. In der Klausur kommt es darauf an, 
+die hier genannten Strukturelemente eines Widerspuchsbescheides nieder- 
+zulegen und sprachliche Klarheit zu üben. Zu bedenken ist stets, ob im Wi- 
+derspruchsbescheid auf alle Fragen einzugehen ist, die im internen Vermerk 
+bzw. Gutachten problematisiert worden sind. Gegebenenfalls müssen nicht 
+alle Erwägungen „nach außen“ dringen, die die Sachbearbeiterin (etwa zur 
+Zulässigkeit des Widerspruchs) „intern“ angestellt hat. Sofern Elemente aus 
+dem Vermerk allerdings übernommen werden sollen, ist von der "Spitz - 
+klammertechnik" bzw. von copy & paste Gebrauch zu machen. 
+ 
+Zum Verfügungssatz (= Tenorierung): Ihm ist dieselbe Sorgfalt zu wid - 
+men wie in einem Urteil oder einem Beschluss. 
+ 
+- Die Hauptsacheentscheidung muss hinreichend klar sein. 
+- Die Kostenentscheidung nach § 73 Abs. 3 Satz 3 VwGO i.V.m. § 80 
+VwVfG richtet sich nach dem Ergebnis der Hauptsache. Dies bezieht 
+sich i.d.R. nur auf angefallene Anwaltskosten; über etwaige Verwal- 
+tungsgebühren muss nicht entschieden werden, da entsprechendes 
+
+===== SEITE 72 =====
+Berliner Skript 
+72 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+Landesrecht, aus dem sich das Entstehen einer Gebühr bzw. ihre 
+Höhe ergibt, bei der Klausurbearbeitung i.d.R. nicht zugänglich ist. 
+- Bei einer Kostengrundentscheidung zu Gunsten des Widerspruchsfüh- 
+rers ist, sofern ein Anwalt im Vorverfahren beteiligt war, gemäß § 80 
+Abs. 3 Satz 2 VwVfG von Amts wegen über die Notwendigkeit von 
+dessen Hinzuziehung zu entscheiden. 
+- Zu erwägen ist stets, ob eine Entscheidung zur sofortigen Vollzieh - 
+barkeit zu treffen ist. 
+ 
+ 
+2. Muster eines Widerspruchsbescheides mit Begleitverfügung 
+ 
+ 
+Absender Bezirksamt Steglitz -Zehlendorf von 
+Berlin, Bau - und Wohnungsaufsichts - 
+amt, Kirchstraße 29, 14134 Berlin, 
+ 
+Aktenzeichen 
+ 
+Az. 14109/3453/17 
+ 
+Ort, Datum 
+ 
+Berlin, den 1. April 2017 
+ 
+Zustellungsart 
+ 
+Mit Postzustellungsurkunde 
+ 
+Empfänger 
+(§ 7 VwZG beachten!) 
+ 
+Herrn Heinz Sommer, von-Luck-Straße 
+34, 14129 Berlin 
+ 
+Betreff 
+ 
+Ungenehmigte Errichtung einer unter- 
+kellerten Garage 
+ 
+Bezug 
+ 
+Ihr Widerspruch vom 5. März 2017 ge- 
+gen die Abrissverfügung vom 1. Februar 
+2017 
+
+===== SEITE 73 =====
+Berliner Skript 
+73 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+Überschrift Widerspruchsbescheid 
+ 
+höfliche Anrede 
+ 
+Sehr geehrter Herr Sommer! 
+ 
+Verfügungssatz 
+Hauptsache 
+ 
+ 
+ 
+ 
+ 
+ 
+§ 80 II S. 1 Nr. 4 VwGO 
+ 
+ 
+ 
+Kosten 
+ 
+ 
+ 
+Ihr Widerspruch vom 5. März 2017 ge - 
+gen den Bescheid des Bezirksamts 
+Steglitz-Zehlendorf von Berlin, Bau - 
+und Wohnungsaufsichtsamt, vom 1. 
+Februar 2017 wird zurückgewiesen. 
+ 
+Die sofortige Vollziehung der Abrissver- 
+fügung wird angeordnet. 
+ 
+Die Kosten des Widerspruchsverfahrens 
+sind von Ihnen zu tragen. 
+  
+ 
+Gründe 
+ 
+Sachverhalt 
+ 
+I. 
+ 
+Unstreitige Tatsachen 
+ 
+Am 20. Juni 2016 stellten Mitarbeiter 
+des Bau- und Wohnungsaufsichtsamtes 
+fest, dass Sie auf Ihrem  Grundstück 
+entlang der Grenze zum Nachbarn Holz- 
+hausen eine massive unterkellerte Ga - 
+rage errichtet haben, ohne hierfür eine 
+Baugenehmigung beantragt oder erhal- 
+ten zu haben. 
+
+===== SEITE 74 =====
+Berliner Skript 
+74 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+Ausgangsbescheid, Tenor 
+wesentliche Gründe 
+Nach vorheriger Anhörung hat das Bau- 
+und Wohnungsaufsichtsamt Ihnen mit 
+Bescheid vom 1. Februar 2017 aufgege- 
+ben, die Garage nebst Unterkellerung 
+binnen dreier Wochen nach Erhalt der 
+Verfügung abzureißen und den vorheri- 
+gen Zustand wieder herzustellen. Zur 
+Begründung heißt es darin, ... 
+ 
+Widerspruch, wesentliche 
+Gründe 
+ 
+Hiergegen richtet sich Ihr Widerspruch 
+vom 5. März 2017. Zur Begründung 
+führen Sie an, ... 
+ 
+Rechtliche Würdigung 
+ 
+II. 
+ 
+Zuständigkeit 
+ 
+Ihr Widerspruch, zu dessen Entschei - 
+dung ich gemäß § 73 Abs. 1 Satz 2 Nr. 
+2 VwGO in Verbindung mit § 67 Satz 2 
+ASOG berufen bin, ist zulässig,  aber 
+nicht begründet. 
+ 
+Zulässigkeit 
+ 
+(nur, soweit problematisch; insbeson- 
+dere: Widerspruchsfrist) 
+ 
+Begründetheit 
+ 
+Die Abrissverfügung hat ihre Rechts - 
+grundlage in § 80 Satz 1 BauOBln. Da - 
+nach ... Die Voraussetzungen dieser 
+Vorschrift sind erfüllt, denn Ihre unter- 
+kellerte Garage ist sowohl formell als 
+
+===== SEITE 75 =====
+Berliner Skript 
+75 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ auch materiell illegal ... Angesichts die- 
+ser Umstände war ein bauaufsichtliches 
+Einschreiten dringend geboten; bei Ab - 
+wägung aller Umstände des Einzelfalles 
+kam keine andere Maßnahme als die 
+Abrissverfügung in Betracht. Nur sie ist 
+zweckmäßig und wahrt die Interessen 
+der betroffenen Grundstücksnachbarn 
+hinlänglich ... 
+ 
+sof. Vollziehung 
+ 
+Ich ordne hiermit die sofortige Vollzie- 
+hung der Abrissverfügung nach § 80 
+Abs. 2 Satz 1 Nr. 4 VwGO an, so dass 
+eine etwa von Ihnen erhobene Klage 
+keine aufschiebende Wirkung entfalten 
+wird. Diese Anordnung ist im Ausgangs- 
+bescheid irrtümlich unterblieben. Sie 
+erscheint jedoch zweckgemäß und im 
+Interesse der Wiederherstellung bau - 
+rechtsgemäßer Zustände dringend ge - 
+boten ... 
+ 
+Kostenentscheidung 
+ 
+Die  Kostenentscheidung beruht auf § 
+73 Abs. 3 Satz 3 VwGO in Verbindung 
+mit § 80 Abs. 1 Satz 3 VwVfG. 
+ 
+Grußformel 
+ 
+Hochachtungsvoll 
+ 
+Unterschrift 
+ 
+i.A. von Knobelsdorff 
+ 
+Rechtsbehelfsbelehrung (meist nur Angabe der §§ erforderlich, 
+hier §§ 74, 78, 81, 82 VwGO) 
+
+===== SEITE 76 =====
+Berliner Skript 
+76 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+Ob eine Begleitverfügung zu fertigen ist, ist dem Bearbeitervermerk zu 
+entnehmen (meist erlassen): 
+ 
+V. 
+ 
+1. Fertige und stelle zu gegen EB (Anwalt)/PZU (anwaltlich nicht 
+vertretene Person) 
+ 
+ 
+Widerspruchsbescheid 
+(s.o.) 
+ 
+2. 6 Wochen (Klageerhebung?) 
+ 
+oder: 
+ 
+2. Akten an Ausgangsbehörde gegen EB mit der Bitte über Klageer- 
+hebung zu berichten. 
+ 
+Handzeichen 
+
+===== SEITE 77 =====
+Berliner Skript 
+77 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+J. Klausurbearbeitung: Zwölf goldene Regeln 
+ 
+Examensklausuren weisen erfahrungsgemäß typische Fehler auf, die bei 
+Einhaltung der zwölf goldenen Regeln vermeidbar sind. Die Einhaltung die- 
+ser Regeln ist wesentlich wichtiger als das konkrete Ergebnis der entworfe- 
+nen Entscheidung. 
+ 
+ 
+1. Zeithaushalt Bewusster Umgang mit den zur Verfü - 
+gung stehenden fünf Stunden; früh mit 
+dem Schreiben beginnen (zahlreiche Ar - 
+beiten werden nicht zu Ende geführt oder 
+werden zum Ende hin oberflächlich); den 
+Großteil der Zeit auf problemorientierte 
+juristische Arbeit verwenden (mit seiten- 
+langen Ausführungen zu unproblemati - 
+schen Aspekten der Zulässigkeit etwa 
+wird nicht „gepunktet“, ebenso wenig mit 
+einer übertrieben langen Darstellung des 
+Sachverhalts im Rahmen der gerichtli - 
+chen Entscheidung). 
+Vorschlag: In der Klausur aus gerichtli - 
+cher Sicht sollten Rubrum und Tatbe - 
+stand nach 90 Minuten fertiggestellt sein. 
+Dann folgt eine Stunde zur Erstellung der 
+Lösungsskizze, hierauf zweieinhalb Stun- 
+den zur Niederschrift der Entscheidungs - 
+gründe. In der Anwalts - und Behörden - 
+klausur sollte jeweils etwa eine Stunde 
+am Ende zur Verfügung stehen, um den 
+Schriftsatz bzw. den Bescheid niederzu- 
+schreiben. 
+
+===== SEITE 78 =====
+Berliner Skript 
+78 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+ 
+2. Sachverhalt und 
+Bearbeitervermerk 
+Den Sachverhalt in Ruhe und genau lesen 
+und erfassen; keine „Sachverhaltsquet - 
+sche“, also nichts in den Fall hineininter - 
+pretieren; Bearbeitervermerk genau ana- 
+lysieren; später kein Wort zu im Bearbei- 
+tervermerk ausdrücklich erlassenen Fra - 
+gen. 
+ 
+3. 
+ 
+Schwerpunktbil- 
+dung 
+ 
+Nach Erfassung des Sachverhalts ermit - 
+teln: Wo liegen die rechtlichen Schwer - 
+punkte der Klausur? Das verhindert un - 
+nötig ausführliche Behandlung von Ne - 
+bensächlichem. 
+ 
+4. 
+ 
+Zielkoordinaten 
+ 
+Welches Ergebnis wird dem Fall gerecht? 
+Klausurtaktik: Welcher Lösungsweg ver - 
+wertet alle Argumente des Falles („Zu - 
+tatentheorie“), ohne dass Hilfserwägun - 
+gen notwendig werden? Welcher Gesamt- 
+aufbau erscheint plausibel? 
+ 
+5. 
+ 
+Sprache 
+ 
+Sehr viele Klausuren leiden unter unzu - 
+reichender sprachlicher Sorgfalt. Inhaltli- 
+che juristische Qualität ist aber ohne 
+Textqualität nicht denkbar. Deshalb: Erst 
+denken, dann schreiben; kurze Sätze, 
+denn klarer Stil führt zu klaren Gedan - 
+ken; im Aktivstil schreiben, kein Pas - 
+sivstil, kein „Substantivismus“, keine lan- 
+gen Einschübe. 
+
+===== SEITE 79 =====
+Berliner Skript 
+79 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+6. Urteilsstil Ergebnis voranstellen, Normen genau 
+nennen, Inhalt der Norm vollständig wie- 
+dergeben, keine Interpretation der Norm 
+bei der Wiedergabe. 
+ 
+7. 
+ 
+Normanwendung 
+ 
+Zu prüfende Anspruchsnorm bzw. 
+Rechtsgrundlage in Tatbestand und 
+Rechtsfolge gliedern, ggf. Tatbestands - 
+merkmale in weitere Unterpunkte glie - 
+dern; Feinstruktur: Alle Argumente der 
+Beteiligten in diese Struktur einpassen 
+(wo passt welches Argument: Zulässig - 
+keit, Begründetheit, formell, materiell, 
+Tatbestand, Rechtsfolge etc.). 
+ 
+8. 
+ 
+Begriffsbestim- 
+mung 
+ 
+Unbestimmte Rechtsbegriffe sind vor der 
+eigentlichen Subsumtion zu definieren. 
+ 
+9. 
+ 
+Juristische Ana- 
+lyse 
+ 
+Nicht nur bloße Tatbestandswiederholung 
+bei der rechtlichen Würdigung; Arbeit mit 
+konkretem Normbezug und dem Ziel, 
+klare rechtliche Wertungen unter Aus - 
+schöpfung des Sachverhalts zu treffen. 
+ 
+10. 
+ 
+„Nebensachen“ 
+ 
+Ist das Rubrum vollständig? Sind die Ne- 
+benentscheidungen hinreichend begrün - 
+det? 
+ 
+11. 
+ 
+Plausibilität 
+ 
+Ist das Ergebnis in sich stimmig und ge- 
+recht bzw. lebensnah? Überzeugen meine 
+Argumente den unterlegenen Beteiligten? 
+
+===== SEITE 80 =====
+Berliner Skript 
+80 | Die Assessorklausur im Verwaltungsrecht 
+ 
+ 
+ 
+12. Widerspruchsfrei- 
+heit 
+Stimmt der Tenor mit den Gründen über- 
+ein? Ggf. den Tenor den Gründen anpas- 
+sen, nie umgekehrt. 
+ 

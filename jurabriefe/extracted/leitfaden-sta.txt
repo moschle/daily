@@ -1,0 +1,1906 @@
+===== SEITE 1 =====
+1  
+ 
+ 
+ 
+ 
+ 
+ 
+Die Pflichtstation im Strafrecht 
+ 
+ 
+Leitfaden für Referendar*innen 
+bei der Staatsanwaltschaft Berlin 
+
+===== SEITE 2 =====
+2  
+Inhaltsübersicht 
+ 
+I. Vorbemerkung S. 5 
+II. Aufbau und Organisation der Strafverfolgungsbehörden S. 5 
+1. Übersicht über die Strafverfolgungsbehörden in Berlin S. 5 
+2. Das Amt der Staatsanwält*innen S. 5 
+3.  Zuständigkeiten S. 6 
+a) Örtliche Zuständigkeit S. 6 
+b) Sachliche Zuständigkeit S. 6 
+c) Struktur und Zuständigkeit innerhalb der StA Berlin S. 6 
+4. Weisungsgebundenheit der Staatsanwält*innen S. 7 
+III. Das Ermittlungsverfahren S. 7 
+1. Einleitung, Erfassung S. 7 
+2.  Sachbearbeitung S. 9 
+a) Verfügungen S. 9 
+b) Prüfung der Neueingänge S. 10 
+c) Ermittlungen S. 11 
+d) Haftsachen S. 12 
+IV. Abschluss des Ermittlungsverfahrens S. 13 
+1. Einstellung nach den §§ 153 ff. StPO S. 13 
+a) § 153 StPO S. 13 
+b) § 153 a StPO S. 14 
+c) § 154 StPO S. 14 
+d) § 154 a StPO S. 15 
+e) § 154 f StPO S. 15 
+2. Einstellung nach § 170 Abs. 2 StPO S. 16 
+a) Der Einstellungsbescheid S. 16 
+b) Die Rechtsbehelfsbelehrung S. 16 
+c) Weitere Verfügungspunkte S. 16 
+d) Die Beschwerde S. 17 
+e) Beispiel für einen Einstellungsbescheid S. 17 
+3. Erhebung der öffentlichen Klage S. 18 
+a) Die Anklageschrift/Wesentliches Ergebnis der Ermittlungen S. 18 
+
+===== SEITE 3 =====
+3  
+b) Antrag Erlass eines Strafbefehls S. 21 
+ 
+ 
+V. Sitzungsvertretung in Strafsachen gegen Erwachsene S. 22 
+1. Einführung S. 22 
+2. Vorbereitung der Hauptverhandlung S. 22 
+3. Die Hauptverhandlung S. 23 
+a) Allgemeines S. 23 
+b) Vor Aufruf der Sache S. 24 
+c) Nach Aufruf der Sache S. 24 
+(1) Ablauf der Hauptverhandlung S. 24 
+(2) Anwesenheitspflichten S. 24 
+(a) Fehlen des/der Angeklagten S. 24 
+(b) Fehlen der Verteidiger*innen S. 26 
+(c) Fehlen der Dolmetscher*innen S. 27 
+d) Erörterung der Personalien S. 27 
+e) Verlesung der Anklageschrift S. 28 
+f) Verständigung S. 29 
+g) Belehrung und Vernehmung des/der Angeklagten zur Sache S. 30 
+h) Beweisaufnahme S. 30 
+(1) Vernehmungen der Zeug*innen S. 31 
+(2) Anhaltspunkte für strafbare Handlungen S. 31 
+(3) Keine vollständige Beweisaufnahme S. 32 
+(4) Antragsdelikte S. 32 
+(5) Beweisanregungen/Beweisanträge S. 33 
+(6) Abweichungen in tatsächlicher oder rechtlicher Hinsicht S. 34 
+i) Weitere Anträge, Erklärungen vor dem Schließen der Beweisaufnahme S. 34 
+(1) Teileinstellungen nach §§ 153, 153 a, 154, 154 a StPO S. 34 
+(2) Erklärungen zu beschlagnahmten Gegenständen S. 35 
+j) Der Schlussvortrag S. 36 
+(1) Anrede S. 36 
+(2) Darstellung des Ergebnisses der Beweisaufnahme S. 36 
+(3) Rechtliche Würdigung S. 38 
+(4) Strafzumessung S. 38 
+(a) Bestimmung des Strafrahmens S. 38 
+(b) Strafzumessung i.e.S. S. 40 
+
+===== SEITE 4 =====
+4  
+(c) Bildung der Strafe S. 42 
+(d) Geldstrafe S. 42 
+(e) Freiheitsstrafe S. 42 
+(f) Gesamtstrafenbildung S. 45 
+(5) Bewährung S. 46 
+(6) Nebenentscheidungen S. 48 
+(a) Kompensationsentscheidung bei rechtsstaatswirdriger 
+Verfahrensverzögerung 
+S. 48 
+(b) Einziehung von Tatprodukten, Tatmitteln und Tatobjekten S. 48 
+(c) Haft S. 48 
+(d) Fahrverbot/Entziehung der Fahrerlaubnis S. 49 
+k) Schlussvortrag mit dem Ziel eines Freispruchs S. 50 
+l) Nach dem Urteil S. 51 
+(1) Rechtsmittelverzicht S. 51 
+(2) Haftfragen S. 51 
+m) Nachbereitung S. 51 
+(1) Fertigung des Terminsvermerks S. 51 
+(2) Empfehlung eines Rechtsmittels S. 52 
+(3) Fortsetzungstermine S. 53 
+(4) Haft S. 53 
+(5) Statistische Erfassung der Sitzungsstunden S. 53 
+(6) Muster eines Terminsvermerks S. 55 
+
+===== SEITE 5 =====
+5  
+I. Vorbemerkung 
+ 
+Dieser Leitfaden dient dazu, Ihnen im Rahmen Ihrer Strafrechtspflichtstation einen 
+Überblick über Aufbau, Organisation und die Arbeitsabläufe im Geschäftsbereich der 
+Staatsanwaltschaft Berlin zu geben und  erhebt nicht den Anspruch, die Lektüre von 
+Fachliteratur im Straf- und Strafprozessrecht zu ersetzen. 
+ 
+II. Aufbau und Organisation der Strafverfolgungsbehörden 
+ 
+1. Übersicht über die Strafverfolgungsbehörden in Berlin 
+Staatsanwaltschaften sollen gemäß § 141 GVG bei jedem Gericht bestehen. Nach § 8 Abs. 
+1 des Gesetzes über die Ausführung des Gerichtsverfassungsgesetzes (AGGVG) bestehen 
+Staatsanwaltschaften bei den Oberlandesgerichten und bei den Landgerichten. 
+Beim Amtsgericht  nimmt die staatsanwaltschaftlichen Aufgaben allerdings  die 
+Staatsanwaltschaft des übergeordneten Landgerichts wahr, da § 141 GVG seinem Sinn 
+nach nur verlangt, dass für jedes Gericht eine Staatsanwaltschaft als Anklagebehörde 
+zuständig ist (§ 8 Abs. 2 AGGVG). 
+Neben der Generalstaatsanwaltschaft und der Staatsanwaltschaft gibt es in Berlin auch 
+noch die Amtsanwaltschaft als weitere Strafverfolgungsbehörde. 
+Zuständigkeiten und Organisation dieser Behörden sind geregelt durch § 8 AGGVG sowie 
+durch die aufgrund dieser Norm ergangene Verwaltungsvorschrift über Organisation und 
+Dienstbetrieb der Staatsanwaltschaften und der Amtsanwaltschaft (OrgStA1). 
+ 
+2. Das Amt der Staatsanwält*innen 
+Das Amt der Staatsanwaltschaft wird bei den Oberlandesgerichten und den Landgerichten 
+ausgeübt durch einen oder mehrere Staatsanwält*innen (§ 142 Abs. 1 Nr. 2 GVG), bei den 
+Amtsgerichten durch einen oder mehrere Staatsanwält*innen oder Amtsanwält*innen (§ 142 
+Abs. 2 Nr. 3 GVG). 
+Referendar*innen kann die Wahrnehmung der Aufgaben der Amtsanwält*i nnen und im 
+Einzelfall unter  Aufsicht auch die  Wahrnehmung der  Aufgaben der Staatsanwält*innen  
+übertragen werden (§ 142 Abs. 3 GVG). 
+ 
+ 
+                                                
+1 Abrufbar unter: https://www.berlin.de/sen/justiz/vorschriften/vorschrift.450838.php (zuletzt abgerufen 
+am 07.08.2025) 
+
+===== SEITE 6 =====
+6  
+3. Zuständigkeit 
+ 
+a) Örtliche Zuständigkeit 
+Die örtliche Zuständigkeit der Staatsanwaltschaft wird durch die örtliche Zuständigkeit 
+des zugehörigen Gerichts bestimmt (§§ 143 GVG, 7-14 StPO). 
+b) Sachliche Zuständigkeit der Strafverfolgungsbehörden des Landes Berlin 
+Die Generalstaatsanwaltschaft Berlin ist zuständig für die Verfahren, für die im Fall der 
+Anklageerhebung das Kammergericht im ersten Rechtszug zuständig wäre. 
+Die Staatsanwaltschaft Berlin ist für die Verfahren zuständig, bei denen vor dem Landgericht 
+Berlin und dem Amtsgericht Tiergarten Anklage zu erheben wäre. 
+Die Amtsanwaltschaft Berlin ist nach VI. 17. der O rgStA zuständig für die Bearbeitung von 
+Ermittlungsverfahren, die eine Reihe von dort aufgezählten Vergehenstatbeständen zum 
+Gegenstand haben, wenn Anklage vor dem Strafrichter zu erheben wäre. Der Richter beim 
+Amtsgericht entscheidet als Strafrichter bei Vergehen, wenn eine höhere Strafe als eine 
+Freiheitsstrafe von zwei Jahren nicht zu erwarten ist (§ 25 Abs. 1 Nr. 2 GVG). 
+c) Sachliche Zuständigkeit 
+Die Generalstaatsanwaltschaft Berlin ist zuständig für die Verfahren, für die im Fall der 
+Anklage das Kammergericht im ersten Rechtszug zuständig wäre. 
+Die Staatsanwaltschaft Berlin ist für die Verfahren zuständig, bei denen vor dem Landgericht 
+Berlin und dem Amtsgericht Tiergarten Anklage zu erheben wäre. 
+Die Amtsanwaltschaft Berlin ist nach VI. 17. der bereits erwähnten OrgStA zuständig für die 
+Bearbeitung von Ermittlungsverfahren, die eine Reihe von dort aufgezählten 
+Vergehenstatbeständen zum Gegenstand haben, wenn  Anklage vor dem Strafrichter  zu 
+erheben wäre, das heißt wenn die Straferwartung nicht höher als zwei Jahre ist (§ 25 Abs. 
+1 Nr. 2 GVG). 
+d) Struktur und Zuständigkeiten innerhalb der Staatsanwaltschaft Berlin 
+Die Staatsanwaltschaft Berlin weist eine hierarchische Struktur auf: 
+Die Leitung der Behörde obliegt dem Leitenden Oberstaatsanwalt in Berlin u nd seinem 
+Vertreter. Auf der nächsten Hierarchieebene  ist die Behörde in sieben (Ermittlungs-
+)Hauptabteilungen und eine Vollstreckungshauptabteilung  gegliedert, welche jeweils aus 
+mehreren Abteilu ngen bestehen. Jede Abteilung besteht wiederum aus mehreren 
+
+===== SEITE 7 =====
+7  
+Dezernaten. Jedes Dezernat wird von einer/einem Dezernent*in (Staatsanwält*in) geführt. 
+Die Zuständigkeit der einzelnen Hauptabteilungen, Abteilungen und Dezernate ergibt sich 
+aus dem Geschäftsverteilungsplan der Staatsanwaltschaft Berlin. Dort findet auch die unter 
+IV. 9. OrgStA angeordnete Schaffung von Sonderzuständigkeiten  für bestimmte 
+Angelegenheiten ihren Niederschlag. So gibt es beispielsweise Sonderzuständigkeiten für 
+Betäubungsmittelstrafsachen, für Verfahren, die die Organisierte Kriminalität betreffen, 
+Verfahren wegen Straftaten gegen die sexuelle Selbstbestimmung oder 
+Wirtschaftsstrafsachen. 
+ 
+4. Weisungsgebundenheit der Staatsanwält*innen 
+Staatsanwält*innen sind weisungsgebunden (§§ 146, 147 GVG). Sie haben den dienstlichen 
+Anweisungen ihrer Vorgesetzten Folge zu leisten. Wem das Recht der Aufsicht und Leitung 
+zusteht, ergibt sich aus § 147 GVG. 
+Die Grenzen des Weisungsrechts ergeben sich zum einen aus dem Legalitätsprinzip (§ 152 
+Abs. 2 StPO) und zum anderen aus den Vorschriften der §§ 258a (Strafvereitelung im Amt), 
+339 (Rechtsbeugung) und 344 StGB (Verfolgung Unschuldiger). Bedenken gegen die 
+Rechtmäßigkeit einer Weisung haben Staatsanwält*innen unverzüglich auf dem Dienstweg, 
+das heißt bei den zuständigen vorgesetzten Personen geltend zu machen (§ 36 Abs. 2 
+Beamtenstatusgesetz). Hält sie/er die Weisung für rechtswidrig, so ist sie/er berechtigt, 
+gegebenenfalls sogar verpflichtet, ihre Befolgung abzulehnen. 
+III. Das Ermittlungsverfahren 
+1. Einleitung, Erfassung 
+Ein Ermittlungsverfahren wird eingeleitet bei Eingang einer Strafanzeige, das heißt der 
+Mitteilung des Verdachts einer Straftat. Strafanzeigen können mündlich oder schriftlich bei 
+der Staatsanwaltschaft, bei der Polizei und bei den Amtsgerichten erstattet werden (§ 158 
+Abs. 1 StPO). Die meisten Strafanzeigen gehen bei der Polizei ein. Diese führt alle keinen 
+Aufschub gestattenden Ermittlungen selbst und übersendet dann die Akten unverzüglich der 
+Staatsanwaltschaft (§ 163 StPO). 
+Auch ohne Strafanzeige leitet die Staatsanwaltschaft von Amts wegen ein 
+Ermittlungsverfahren ein, wenn sie von dem Verdacht einer Straftat Kenntnis erhält (§ 160 
+Abs. 1 StPO). 
+Jeder Neueingang wird in ein Register eingetragen (§ 2 Aktenordnung für die Gerichte der 
+ordentlichen Gerichtsbarkeit und Staatsanwaltschaften, AktO Berlin ). Das Register und 
+
+===== SEITE 8 =====
+8  
+andere Verzeichnisse werden bei der Generalstaatsanwaltschaft Berlin, der 
+Staatsanwaltschaft Berlin und der Amtsanwaltschaft Berlin mittels des IT-Fachverfahrens 
+MESTA geführt. 
+Mit der Eingabe in das System erhält jeder Neueingang ein 
+Aktenzeichen. Das Aktenzeichen – z.B. 271 Js 114/19 – setzt sich 
+zusammen aus: 
+271 Nummer der Geschäftsstelle/Abteilung 
+Js Bezeichnung des Registers (Ermittlungsverfahren) 
+114 laufende Nummer im Js-Register der Geschäftsstelle 
+19 Jahreszahl des Registers 
+ 
+Die Geschäftsstelle verwaltet die Akten entsprechend der Bearbeitungsrichtlinien für die 
+Serviceeinheiten der Staatsanwaltschaft Berlin. Sie legt die Eingänge mit den betreffenden 
+Akten den Dezernent*innen vor, sie führt Verfügungen aus, sie führt die vorg eschriebenen 
+Listen (z.B. Haftlisten) und legt sie vor  und sie überwacht die Fristen und den Verbleib der 
+Akten mit Hilfe des Systems MESTA.  
+Werden Akten der Staatsanwaltschaft dem Gericht vorgelegt oder an andere Behörden wie 
+z.B. die Polizei oder die Ge neralstaatsanwaltschaft übersandt, so müssen nach § 41 AktO 
+Berlin Handakten angelegt werden, die stets in den Händen der Staatsanwaltschaft 
+verbleiben. Aus ihnen ergibt sich, wann und an wen die Akten übersandt worden sind. Bei 
+Anklageerhebung werden eine Abschrift der Anklage sowie die Ablichtungen aus der 
+Sachakte, die für die Sitzungsvertretung benötigt werden , zu den Handakten genommen . 
+Ferner gehören zu den Handakten alle innerdienstlichen Vorgänge (z.B. Berichte an die 
+Generalstaatsanwaltschaft oder an die Senatsverwaltung für Justiz  und 
+Verbraucherschutz). 
+Aktenführende Behörde bleibt die Staatsanwaltschaft im Ermittlungsverfahren bis zu der 
+durch sie zu treffenden verfahrensabschließenden Entscheidung (z.B. Erhebung der 
+öffentlichen Klage) bis zur Vorlage der an das Gericht erster Instanz (§ 39 Abs. 2 Nr. 1 AktO 
+Berlin). Nach Beendigung der gerichtlichen Aktenführung (s. auch § 39 Abs. 2 Nr. 2 AktO 
+Berlin, bis zur Beendigung der Instanz) wird die Akte wieder von der Staatsanwaltschaft 
+geführt (§ 39 Abs. 2 Nr. 3 AktO Berlin). 
+Geht die Aktenführung auf das Gericht über, erhält die Akte zusätzlich ein gerichtliches 
+Aktenzeichen.  
+
+===== SEITE 9 =====
+9  
+Beispielsweise setzt sich das gerichtliche Aktenzeichen (511) 258 Js 17/19 KLs (5/19) wie 
+folgt zusammen: 
+ 
+511 Nummer der Strafkammer des Landgerichts, hier 11. große 
+Strafkammer 
+258 Js 17/19 Aktenzeichen der Staatsanwaltschaft 
+KLs Hauptverfahren vor der großen Strafkammer 
+5 laufende Nummer in der Aktenkontrolliste der 11. Strafkammer 
+19 Jahreszahl der Aktenkontrollliste der Strafkammer. 
+ 
+Beim Amtsgericht Tiergarten werden die Aktenzeichen mit den Registerzeichen Cs für 
+Strafbefehlssachen, Ds für Strafrichtersachen  (Anklagen) und Ls für Schöffensachen  
+(Anklagen) gebildet. 
+Beispielsweise setzt sich das Aktenzeichen 263 Cs 195/19 wie folgt zusammen: 
+ 
+263 Nummer der Abteilung des Amtsgerichts Tiergarten 
+Cs Strafbefehl 
+195 lfd. Nr. im Strafprozessregister der Abt. 263 des AG 
+19 Jahreszahl des Strafprozessregisters 
+ 
+Nach Rechtskraft des Urteils führt die Staatsanwaltschaft die Vollstreckung durch. Dem Js-
+Aktenzeichen wird die Kennzeichnung des zuständigen Vollstreckungsdezernats beigefügt, 
+zum Beispiel: 253 Js 1234/13 (29103) V. 
+2. Sachbearbeitung: 
+a) Verfügungen 
+Ermittlungs- und Strafverfahren werden hauptsächlich in Form von Verfügungen bearbeitet. 
+Jedes für die Akten bestimmte neue Blatt wird links oben mit dem Aktenzeichen versehen, 
+um so die Zuordnung  der Verfügung zu der Sachakte zu gewährleisten. Sämtliche 
+Verfügungen werden überdies mit Datum, Unterschrift und Namensstem pel versehen. Die 
+Verfügungen können handschriftlich, mithilfe von Word-Vorlagen oder in dem hauptsächlich 
+genutzten Fachverfahren S@M erstellt werden. 
+Die Verfügungen enthalten weitestgehend Weisungen an die Geschäftsstelle. Sie müssen 
+eine arbeitstechnis ch geordnete Reihenfolge einhalten, damit die Geschäftsstelle einen 
+
+===== SEITE 10 =====
+10  
+Punkt nach dem anderen erledigen kann. Jede Verfügung endet,  sofern nicht mit ihr das 
+Verfahren für die Dezernent*innen erledigt oder eine weitere gesonderte Verfügung 
+auszuführen ist, mit der Anordnung einer Frist. 
+Nach deren Ablauf hat die Geschäftsstelle den Vorgang spätestens wieder vorzulegen, auch 
+wenn einzelne Punkte der Verfügung noch nicht erledigt sind, z.B. wenn die angeforderten 
+Akten noch nicht eingegangen sind. Sind die Akten versandt, werden die Handakten 
+vorgelegt. 
+b) Prüfung der Neueingänge 
+Die erste Prüfung gilt der Zuständigkeit. Die Dezernent*innen haben zu prüfen, ob eine 
+sachliche bzw. örtliche Bearbeitungszuständigkeit besteht und gegebenenfalls die Abgabe 
+des Verfahre ns an die zuständige Ermittlungsbehörde zu veranlassen. In diesem 
+Zusammenhang sind auch die durch den Geschäftsverteilungsplan zugewiesenen 
+Sonderzuständigkeiten zu beachten. Ergibt die Prüfung beispielsweise, dass das Verfahren 
+einen Verstoß gegen das Be täubungsmittelgesetz zum Gegenstand hat, so wäre das 
+Verfahren an eine der für die Bearbeitung von Betäubungsmittelstrafsachen zuständigen 
+Abteilungen abzugeben. 
+Ist die Zuständigkeit gegeben, wird die Sache inhaltlich geprüft. Ohne Ermittlungen sofort 
+einzustellen ist das Verfahren, 
+• wenn der angezeigte Sachverhalt keinen Straftatbestand erfüllt (z.B. Beschädigung 
+von Gegenständen, die zum Eigentum des Täters gehören), 
+• wenn der angezeigte Sachverhalt keinen Anfangsverdacht begründet, da es keine 
+zureichenden tatsächlichen Anhaltspunkte für das Vorliegen einer 
+konkretisierbaren Straftat gibt, 
+• wenn Verfahrensvoraussetzungen fehlen, (z. B. der erforderliche Strafantrag bei 
+absoluten Antragsdelikten wie der Beleidigung nach §§ 185, 194 StGB), 
+• wenn Verfahrenshindernisse bestehen (z. B. Eintritt der Verfolgungsverjährung). 
+Der anzeigenden Person ist unter den Voraussetzungen des § 171 StPO ein Bescheid zu 
+erteilen. 
+Ist der Täter/die Täterin unbekannt, so muss geprüft werden, ob Anhaltspunkte für weitere 
+Ermittlungen vorliegen. Ist das nicht der Fall, wird das Verfahren ebenfalls gemäß § 170 
+Abs. 2 StPO eingestellt. Die anzeigende Person erhält einen formularmäßigen Bescheid, in 
+
+===== SEITE 11 =====
+11  
+dem ihr mitgeteilt wird, dass das Verfahren eingestellt worden ist, weil ein*e Täter*in nicht 
+zu ermitteln war. 
+In den Fällen, in welchen der Täter /die Täterin  später ermittelt wird, wird das Verfahren 
+wieder aufgenommen. 
+c) Ermittlungen 
+Bevor das Ermittlungsverfahren durch Einstellung oder Erhebung der öffentlichen Klage zu 
+beenden ist, ist in d er Regel die Durchführung von Ermittlungen erforderlich. Auch die 
+Verfahren, in denen die Polizei bereits selbstständige Ermittlungen angestellt hat, müssen 
+darauf geprüft werden, ob der Sachverhalt vollständig aufgeklärt worden ist. Zu ermitteln 
+sind nicht nur die belastenden, sondern auch die entlastenden Umstände (§ 160 Abs. 2 
+StPO). Gemäß § 160 Abs. 3 StPO sind ferner die Umstände von Bedeutung, die für die 
+Bestimmung der Rechtsfolgen der Tat erheblich sind (vgl. hierzu §§ 46, 46a, 47 und 56 
+StGB). Die Ermittlungen sind beschleunigt und konzentriert durchzuführen. Daher sind alle 
+sich anbietenden Ermittlungen möglichst in einer Verfügung einzuleiten. 
+Als Beweismittel kommen Aussagen von Zeug*innen , Sachverständigengutachten, 
+Urkunden und Augenscheinsobjekte, aber auch die Angaben des/der Beschuldigten – 
+gegebenenfalls durch eine Einlassung über den/die Verteidiger*in - in Betracht. Zwar ist 
+der/die Beschuldigte nicht verpflichtet, zur Sache auszusa gen (§ 136 StPO), ihm/ihr muss 
+aber vor der Erhebung der öffentlichen Klage Gelegenheit gegeben werden, sich zu den 
+Tatvorwürfen zu äußern (§ 163 a StPO). Ein Geständnis des/der Beschuldigten lässt weitere 
+Ermittlungen nicht obsolet werden, da de r/die Besc huldigte in jedem Stadium des 
+Verfahrens das Recht hat, sein/ihr Geständnis zu widerrufen oder sich zur Sache nicht 
+weiter einzulassen. Aus diesem Grunde sollten vorsorglich die Angaben des/der 
+Beschuldigten durch andere Beweismittel bestätigt werden. Wenn diese nicht zur Verfügung 
+stehen, sollte das Protokoll über die Vernehmung des/der Beschuldigten nach Möglichkeit 
+wortgetreu angefertigt werden und möglichst viele Einzelheiten enthalten, die nur dem/der 
+Beschuldigten bekannt sind. 
+Vernehmungen des/der Beschuldigten in Verfahren, denen ein Tötungsdelikt zugrunde liegt, 
+sind in Bild und Ton aufzuzeichnen, wenn der Aufzeichnung weder die äußeren Umstände 
+noch die besondere Dringlichkeit der Vernehmung entgegenstehen  (§ 136 Abs. 4 Nr. 1 
+StPO). Ferner ist die Beschuldigtenvernehmung aufzuzeichnen, wenn die schutzwürdigen 
+Interessen von beschuldigten Personen, die erkennbar unter eingeschränkten geistigen 
+Fähigkeiten oder einer schwerwiegenden seelischen Störung leiden, durch die 
+Aufzeichnung besser gewahrt werden können (§ 136 Abs. 4 Nr. 2 StPO).   
+
+===== SEITE 12 =====
+12  
+Staatsanwält*innen können die Ermittlungen selbst durchführen. Das werden 
+Staatsanwält*innen vor allem in schwierigen oder bedeutsamen Sachen tun oder dann, 
+wenn diese von ihren Zwangsmitteln nach den §§ 161a Abs. 2, 163a Abs. 3 StPO Gebrauch 
+machen müssen. Das Ergebnis der Ermittlungen ist durch Vermerke oder Protokolle 
+aktenkundig zu machen (§ 168b StPO). 
+In der Regel werden die Staatsanwält*innen jedoch die Polizei beauftragen, die Ermittlungen 
+durchzuführen (§§ 161 StPO, 152 GVG). Dabei sollte der Rahmen der Ermittlungen 
+abgesteckt werden, indem in einem Vermerk niederlegt wird, welche Straftaten in Betracht 
+kommen und in welcher Richtung, in welchem Umfang, durch welche Beweismittel und in 
+welcher Reihenfolge ermittelt werden soll (Nr. 11 RiStBV). 
+Das Ersuchen um Weiterführung der Ermittlungen ist grundsätzlich an die zuständige 
+Dienststelle der Polizei Berlin zu richten. Wenn diese nicht bekannt ist, leitet eine eigene 
+Verteilerstelle der Polizei die Akt en an diese weiter. Die Ermittlungsverfügung ist mit einer 
+Frist zu versehen, innerhalb derer mit der Erledigung der angeordneten 
+Ermittlungshandlungen zu rechnen ist. 
+d) Haftsachen 
+Haftsachen (darunter versteht man Ermittlungsverfahren, bei welchen sich mind estens 
+eine/r der beschuldigten Personen in Haft befindet) sind stets mit besonderer 
+Beschleunigung zu bearbeiten. Haftsachen sind als solche gekennzeichnet. Außerdem sind 
+gesonderte Haftlisten zu führen. 
+Die Staatsanwält*innen haben in jeder Lage des Verfahrens darauf zu achten, 
+1. ob die Voraussetzungen der Untersuchungshaft noch vorliegen (dringender Tatver- 
+dacht und Haftgrund, vgl. §§ 112 Abs. 1 S. 1, 120 Abs. 1 S. 1 StPO), 
+2. ob die Verhältnismäßigkeit noch gewahrt ist (§§ 112 Abs. 1 S. 2, 120 Abs. 1 S. 1 
+StPO), 
+3. ob Haftverschonung in Betracht kommt (§ 116 StPO). Gegebenenfalls muss er/sie 
+entsprechende Anträge stellen (Nr. 54 RiStBV), 
+4. dass die/der Beschuldigte/Angeklagte verteidigt ist (§ 140 Abs. 1 Nr. 4 StPO). 
+Der Haftbefehl ist seitens des Ger ichts aufzuheben, wenn der Staatsanwalt/die 
+Staatsanwältin es vor Erhebung der öffentlichen Klage beantragt (§ 120 Abs. 3 S. 1 StPO).  
+
+===== SEITE 13 =====
+13  
+Gleichzeitig hat er/sie in diesem Falle die Freilassung des /der Beschuldigten anzuordnen 
+(vgl. § 120 Abs. 3 S. 2 StPO sowie Nr. 55 Abs. 3 S. 1 RiStBV). 
+IV. Abschluss des Ermittlungsverfahrens 
+Ziel des Ermittlungsverfahrens ist die Entscheidung, ob die öffentliche Klage zu erheben ist 
+(§ 170 Abs. 1 StPO). Bietet das Ergebnis der Ermittlungen keinen genügenden Anlass dazu, 
+ist das Verfahren einzustellen (§ 170 Abs. 2 StPO). Außer diesen beiden Al ternativen gibt 
+es noch die Einstellung des Verfahrens bei vorübergehenden Hindernissen nach § 154f 
+StPO sowie die verschiedenen Möglichkeiten der Verfahrenseinstellung gemäß den §§ 153 
+ff. StPO. 
+1. Einstellung nach den §§ 153 ff. StPO 
+Das sogenannte Opportunitätsprinzip, die Ausnahme vom Verfolgungszwang trotz an sich 
+bestehender Verfolgungsvoraussetzungen, kommt in den §§ 153 ff. StPO und den §§ 45, 
+47 JGG zum Ausdruck. 
+Folgendes ist zu den wichtigsten der genannten Vorschriften anzumerken: 
+a) § 153 StPO 
+Gemäß § 153 Abs. 1 StPO kann die Staatsanwaltschaft mit Zustimmung des für die 
+Eröffnung des Hauptverfahrens zuständigen Gerichts von der Verfolgung absehen, wenn 
+die Schuld des Täters/der Täterin als gering anzusehen wäre und kein öffentliches Interesse 
+an der Verfolgung besteht. 
+Unter bestimmten Voraussetzungen ist die Zustimmung des Gerichts nicht erforderlich (vgl. 
+§ 153 Abs. 1 S. 2 StPO). 
+Beispiel: 
+Die Beschuldigte Meier hat ausweislich des Blutalkoholgutachtens im alkoholisierten 
+Zustand (2,1 ‰ Blutalkoholkonzentration) im Kaufhaus des Westens einen Lippenstift 
+im Wert von 3,50 € gestohlen (§§ 242 Abs. 1, 248a StGB). Das Kaufhaus des Westens 
+hat Strafantrag gestellt. Die Beschuldigte ist nicht vorbestraft, geständig und bedauert 
+die Tat. 
+Die Verfahrenseinstellung kann sowohl während des Ermittlungsverfahrens als auch nach 
+Anklageerhebung (vgl. insoweit § 153 Abs. 2 StPO) vorgenommen werden. 
+Liegt ein Privatklagedelikt i.S. des § 374 Abs. 1 StPO vor, muss gem. § 376 StPO bei 
+
+===== SEITE 14 =====
+14  
+Bejahung des öffentlichen Interesses Anklage erhoben, bei Verneinung desselben nach § 
+170 Abs. 2 StPO eingestellt und auf den Privatklageweg verwiesen werden. Eine Einstellung 
+nach § 153 StPO ist demnach bei diesen Delikten denklogisch ausgeschlossen. 
+b) § 153a StPO 
+Gemäß § 153a Abs. 1 StPO kann die Staatsanwaltschaft mit Zustimmung des für die 
+Eröffnung des Hauptverfahrens zuständigen Gerichts und der beschuldigten Person bei 
+einem Vergehen das Verfahren vorläufig einstellen und dem /der Beschuldigten die in der 
+Vorschrift unter A bsatz 1 Satz 2 Ziffern 1 bis 7 aufgeführten oder andere Auflagen und 
+Weisungen erteilen, wenn diese geeignet sind, das öffentliche Interesse an der 
+Strafverfolgung zu beseitigen und die Schwere der Schuld nicht entgegensteht. 
+Erfüllt die/der Beschuldigte d ie Auflagen und Weisungen, so kann die Tat nicht mehr als 
+Vergehen verfolgt werden, § 153 a Abs. 1 S. 5 StPO. Es tritt also Strafklageverbrauch ein. 
+Auch hier kann die Verfahrenseinstellung nach Anklageerhebung erfolgen (vgl. § 153a Abs. 
+2 StPO). 
+c) § 154 StPO 
+Gemäß § 154 Abs. 1 StPO kann die Staatsanwaltschaft aus Gründen der 
+Verfahrensökonomie von der Verfolgung der Tat absehen, 
+• wenn die Strafe oder die Maßregel der Besserung und Sicherung, zu der die 
+Verfolgung führen kann, neben der Strafe oder Maßregel der Besserung und 
+Sicherung, die gegen die beschuldigte Person  wegen einer anderen Tat 
+rechtskräftig verhängt worden ist oder d ie sie wegen einer anderen Tat zu 
+erwarten hat, nicht beträchtlich ins Gewicht fällt 
+oder 
+• wenn ein Urteil wegen dieser Tat in angemessener Frist nicht zu erwarten ist und 
+wenn eine Strafe oder Maßregel der Besserung und Sicherung, die gegen die 
+beschuldigte Person rechtskräftig verhängt worden ist oder die sie wegen einer 
+anderen Tat zu erwarten hat, zur Einwirkung auf den Täter /die Täterin und zur 
+Verteidigung der Rechtsordnung ausreichend erscheint. 
+Die Einstellung des Verfahrens gemäß § 154 StPO ist eben falls nach Erhebung der 
+öffentlichen Klage möglich (§ 154 Abs. 2 StPO). 
+
+===== SEITE 15 =====
+15  
+Weiterhin besteht auch die Möglichkeit, innerhalb desselben Ermittlungs - oder 
+Strafverfahrens bei einzelnen von mehreren selbstständigen Taten im prozessualen Sinne 
+gemäß § 154 StPO zu verfahren. 
+Ist in dem sogenannten Bezugsverfahren eine geringere Bestrafung als erwartet erfolgt, 
+kann das gem. § 154 StPO eingestellte Verfahren binnen 3 Monaten nach rechtskräftigem 
+Abschluss des Bezugsverfahrens wieder aufgenommen werden (vgl. § 154 Ab s. 4 StPO). 
+Hat das Gericht das Verfahren vorläufig eingestellt, so bedarf es zur Wiederaufnahme eines 
+Gerichtsbeschlusses (§ 154 Abs. 5 StPO). 
+d) § 154a StPO 
+Liegt nur eine Tat im prozessualen Sinne vor, ist eine Beschränkung der Strafverfolgung 
+gemäß § 154a StPO möglich, wenn einzelne abtrennbare Teile einer Tat oder einzelne von 
+mehreren Gesetzesverletzungen, die durch dieselbe Tat begangen worden sind, neben der 
+für den anzuklagenden Teil zu erwartenden Strafe oder Maßregel der Besserung und 
+Sicherung nicht beträchtlich ins Gewicht fallen. 
+Von der Verfahrenseinstellung ist jeweils der/die Anzeigeerstatter/in zu unterrichten. 
+e) § 154f StPO 
+Gemäß § 154f StPO wird das Verfahren vorläufig eingestellt bei unbekanntem Aufenthalt 
+des/der Beschuldigten oder bei  anderen in seiner/ihrer Person liegenden Hindernissen (z. 
+B. Vernehmungsunfähigkeit), bei mehreren beschuldigten Personen aber nur, soweit das 
+Verfahren sich gegen diese/n eine/n Beschuldigten richtet. 
+Richtet sich das Verfahren gegen weitere beschuldigte Personen, deren Aufenthalt bekannt 
+ist, so ist das Verfahren gegen diese beschuldigten Personen  abzutrennen. Vor der 
+vorläufigen Einstellung sind die Ermittlungen so umfassend wie möglich durchzuführen. 
+Liegen die Voraussetzungen für die Beantragung eines  Haftbefehls vor, so ist dieser zu 
+erwirken. Ferner sind die notwendigen Fahndungsmaßnahmen zu betreiben. 
+Der/die Anzeigeerstatter/in erhält über die vorläufige Einstellung des Verfahrens eine 
+entsprechende Mitteilung. 
+Wird der Aufenthalt des/der Beschuldi gten bekannt oder entfällt das Hindernis, muss das 
+Verfahren wieder aufgenommen werden. 
+ 
+
+===== SEITE 16 =====
+16  
+2. Einstellung nach § 170 Abs. 2 StPO 
+Aus der Einstellungsverfügung muss hervorgehen, aus welchem Grund die Einstellung 
+erfolgt, ob beispielsweise ein Verfahrenshindernis  besteht oder der hinreichende 
+Tatverdacht verneint wird. Wird das Verfahren nur teilweise eingestellt (z.B. nur hinsichtlich 
+eines von mehreren beschuldigten Personen oder hinsichtlich eines Teils der Vorwürfe), so 
+muss das in der Verfügung zum Ausdruck gebracht werden (z.B. „Das Verfahren gegen den 
+Beschuldigten Schmidt wird gemäß § 170 Abs. 2 StPO eingestellt.“ oder „Das Verfahren 
+wird gemäß § 170 Abs. 2 StPO eingestellt, soweit Betrug zum Nachteil des Zeugen Meier 
+in Betracht kommt.“). 
+Ist das Verfahren nicht auf eine Strafanzeige, sondern von Amts wegen eingeleitet worden, 
+sind die Gründe für die Einstellung in einem Vermerk niederzulegen.  
+a) Der Einstellungsbescheid 
+Ist Strafanzeige erstattet worden, so muss die Einstellung dem/der Anzeigenden in eine m 
+Bescheid unter Angabe der Gründe mitgeteilt werden (§ 171 StPO), sofern er/sie nicht 
+eindeutig hierauf verzichtet hat. 
+Nicht selten kommt es vor, dass sich die Angaben des/der Anzeigeerstattenden und des/der 
+Beschuldigten widersprechen und weitere Beweismittel nicht vorhanden sind. Diese 
+Sachlage wird häufig die Einstellung rechtfertigen, doch ist stets sorgfältig zu prüfen, ob 
+unter Berücksichtigung aller Umstände und nach der Lebenserfahrung die Aussage des/der 
+Anzeigeerstattenden glaubhafter ist als die des/der Beschuldigten. 
+b) Die Rechtsbehelfsbelehrung 
+Liegen die Voraussetzungen des Klageerzwingungsverfahrens vor (§ 172 Abs. 1 und 2 
+StPO), so ist der Einstellungsbescheid an die Anzeigeerstatter*innen, die zugleich Verletzte 
+sind, mit einer Rechtsbehelfsbelehrung zu versehen. Daneben steht jedem/jeder 
+Anzeigeerstatter/in die nicht an eine Frist gebundene (sachliche) 
+Dienstaufsichtsbeschwerde zu. 
+Eine Belehrung hierüber erfolgt allerdings nicht. 
+c) Weitere Verfügungspunkte 
+Bei Einstellung des Verfahrens erhält der/die Beschuldigte unter den Voraussetzungen des 
+§ 170 Abs. 2 S. 2 StPO eine Einstellungsnachricht, in der Regel formularmäßig und ohne 
+Gründe. 
+
+===== SEITE 17 =====
+17  
+Liegt ein entschädigungsfähiger Tatbestand nach dem Gesetz über die Entschädigung  für 
+Strafverfolgungsmaßnahmen (StrEG) vor, so ist die Belehrung nach § 9 StrEG förmlich 
+zuzustellen. 
+Bevor die Dezernent*innen das Weglegen der Akten verfügen, müssen zum einen etwa 
+vorhandene Beiakten getrennt und über etwaig sichergestellte Gegenstände (sog. 
+Asservate) verfügt werden. 
+d) Die Beschwerde 
+Geht eine Beschwerde gegen den Einstellungsbescheid ein, ist zu prüfen, ob diese Anlass 
+gibt, die Ermittlungen wiederaufzunehmen. Die Wiederaufnahme muss sodann dem/der 
+Anzeigenden und dem/der Beschuldigten mitgeteilt werden. 
+Wenn dies nicht der Fall ist, ist die Beschwerde mit den Akten der vorgesetzten 
+Staatsanwaltschaft vorzulegen. Hierbei kommt es nicht darauf an, ob es sich um eine 
+fristgebundene Beschwerde handelt (vgl. insoweit § 172 Abs. 1 S. 3 StPO ) und ob die 
+Beschwerdefrist eingehalten worden ist (vgl. § 172 Abs. 1 S. 1 StPO). 
+Die vorgesetzte Staatsanwaltschaft – für die Staatsanwaltschaft Berlin ist das die 
+Generalstaatsanwaltschaft Berlin – prüft die Beschwerde und weist sie entweder mit einem 
+Bescheid zurück oder weist die Staatsanwaltschaft an, die Ermittlungen 
+wiederaufzunehmen. Gegen ablehnende Bescheide der Generalstaatsanwaltschaft ist nach 
+Maßgabe des § 172 Abs. 2 -4 StPO das Klageerzwingungsverfahren eröffnet. Daneben 
+besteht die Möglichkeit der Erhebung einer (sachlichen) Dienstaufsichtsbeschwerde gegen 
+die Entscheidung der Generalstaatsanwaltschaft, über die die für Justiz zuständige 
+Senatsverwaltung zu entscheiden hat. 
+e) Beispiel für einen Einstellungsbescheid 
+265 Js 96/19         7. Augus t 2019  
+(= Az. des Verfahrens)                   (= Verfügungsdatum) 
+      V. 
+1. Einstellung des Verfahrens gemäß § 170 Abs. 2 StPO aus den Gründen des 
+Einstellungsbescheides. 
+2. Zu schreiben: An den Anzeigeerstatter Richard Schmidt <Bl. 1>  
+Sehr geehrter Herr Schmidt,   
+
+===== SEITE 18 =====
+18  
+das auf Ihre Strafanzeige vom 02. Mai 2025 gegen Albrecht Mustermann wegen Diebstahls 
+eingeleitete Ermittlungsverfahren habe ich eingestellt (§ 170 Abs. 2 der 
+Strafprozessordnung).  
+Hierfür waren folgende Gründe maßgeblich: Der Beschuldigte bestreitet, in Ihre Gartenlaube 
+eingestiegen zu sein und daraus einen Rasenmäher entwendet zu haben. 
+Bei einer Durchsuchung seiner Wohnung und seiner Laube wurde der Rasenmäher nicht 
+gefunden. 
+Der von Ihnen als Zeuge benannte Wilhelm Müller glaubt zwar, in der Person, die er in der 
+Nacht zum 29. April 2018 auf Ihrem Laubengrundstück beobachtet hat, den Beschuldigten 
+erkannt zu haben. Er ist sich dessen aber wegen der Entfernung und der Dunkelheit nicht 
+sicher. Weitere Beweismittel sind nicht ersichtlich. Be i dieser Sachlage lässt sich dem 
+Beschuldigten ein Diebstahl nicht mit der für eine Anklageerhebung erforderlichen 
+Wahrscheinlichkeit nachweisen. 
+Beschwerdebelehrung 
+Gegen diesen Bescheid können Sie bei der hiesigen Behörde oder bei der 
+Generalstaatsanwaltschaft Berlin, Elßholzstraße 30 - 33, 10781 Berlin, Beschwerde 
+einlegen. Die Frist gemäß § 172 Abs. 1 Satz 1 der Strafprozessordnung wird nur gewahrt, 
+wenn die Beschwerde binnen zwei Wochen nach der Bekanntmachung des Bescheides 
+eingeht. Die Beschwerde muss in deutscher Sprache verfasst sein. 
+Die Berücksichtigungsfähigkeit elektronischer Dokumente hängt von der Einhaltung der 
+Voraussetzungen des § 32a der Strafprozessordnung ab.  
+Mit freundlichen Grüßen 
+3. Einstellungsnachricht an den Beschuldigten Mustermann <<Bl. 6>>. 
+4. Weglegen (5 Jahre). 
+Berlin, 7. August 2019 
+ 
+(Redlich)  
+Staatsanwältin 
+ 
+
+===== SEITE 19 =====
+19  
+3. Erhebung der öffentlichen Klage 
+Die öffentliche Klage ist zu erheben, wenn hinreichender Tatverdacht besteht (vgl. § 170 
+Abs. 1 StPO). Es muss nach dem gesamten Akteninhalt bei vorläufiger Tatbewertung die 
+Verurteilung des/der Beschuldigten mit Wahrscheinlichkeit zu erwarten sein. Der Grundsatz 
+„in dubio pro reo“ findet dabei keine Anwendung! 
+Hält der Staatsanwalt/die Staatsanwältin die Sache für  abschlussreif und erwägt er/sie die 
+Erhebung der öffentlichen Klage, prüft er/sie zunächst, ob dem/der Beschuldigten 
+rechtliches Gehör gewährt worden ist (§ 163a Abs. 1 StPO). Wenn das der Fall ist, vermerkt 
+er/sie den Abschluss der Ermittlungen in den Ak ten (§ 169a StPO). Dieser Vermerk ist 
+bedeutsam für die Bestellung einer Verteidigung und für deren Akteneinsicht (vgl. insoweit 
+die §§ 141 Abs. 3 und 147 Abs. 2 und 6 StPO). 
+a) Die Anklageschrift/Wesentliches Ergebnis der Ermittlungen (WE) 
+An dieser Stelle darf auf das „KG-Strafrechtsskript“ verwiesen werden, das auf der Website 
+des Kammergerichts zum Download zur Verfügung steht: 
+Ergänzend wird hier lediglich das „Wesentliche Ergebnis der Ermittlungen“ (vgl. § 200 Abs. 
+2 StPO, Nr. 112 RiStBV) behandelt, d as im KG-Strafrechtsskript nicht angesprochen wird, 
+da seine Fertigung bei den Examensklausuren zumeist erlassen ist. Es gehört zwischen die 
+Beweismittel und die Anträge: 
+Von der Darstellung des wesentlichen Ermittlungsergebnisses darf nur in Anklagen bei dem 
+Jugend- und Strafrichter abgesehen werden (vgl. § 200 Abs. 2 S. 2 StPO). 
+Stets anzugeben sind - unter Berücksichtigung des Begriffes „wesentlich“ - zum einen alle 
+Umstände, die für die Beweisführung von Bedeutung sind, zum anderen aber auch alle 
+Umstände, die für  die Rechtsfolgen der Tat (also für die Strafe, eine mögliche 
+Strafaussetzung zur Bewährung, eine Verwarnung mit Strafvorbehalt, Tagessatzhöhe sowie 
+etwaige Maßregeln der Besserung und Sicherung, Nebenstrafen und Nebenfolgen) von 
+Bedeutung sind, ohne dass sie unmittelbar tatbestandsrelevant sein müssen. 
+Die Fundstellen in der Akte sind – anders als im konkreten Anklagesatz – mit Blattzahlen 
+anzugeben, um gerade in umfangreichen Verfahren das Navigieren in den (Hand-)Akten zu 
+erleichtern, nicht zuletzt in der Hauptverhandlung. 
+Praktisch bewährt hat sich der Aufbau des WE nach dem folgenden einfachen, am Aufbau 
+eines Urteils orientierten Schema: 
+
+===== SEITE 20 =====
+20  
+ I. Angaben zur Person 
+ II. Angaben zur Sache 
+Zu beachten ist ferner – sofern Jugendliche angeklagt sind  – dass die Staatsanwältin/der 
+Staatsanwalt das wesentliche Ergebnis der Ermittlungen in der Anklageschrift so darstellen 
+soll, dass die Kenntnisnahme durch die/den Angeschuldigte/n möglichst keine Nachteile für 
+ihre/seine Erziehung verursacht, § 46 JGG. 
+aa.      Zur Person 
+In diesen Bereich gehören insbesondere personenbezogene Angaben, die den/die 
+Angeschuldigte/n betreffen. Es handelt sich dabei quasi um Ausführungen zu seinem/ihrem 
+„Lebenslauf“ – inklusive etwaige r Vorstrafen , also alle Umstände, die für  die 
+Strafbemessung und Sanktionsentscheidung von Bedeutung sind. 
+Soweit aus den Akten ersichtlich sollten hier sowohl Angaben zu seiner/ihrer schulischen/ 
+beruflichen Entwicklung als auch familiären Situation (Ehepartner *innen, Kinder) erfolgen. 
+Erkenntnisse hierzu sind mitunter aus der verantwortlichen Vernehmung zu gewinnen, 
+finden sich vielfach aber auch in früheren Urteilen (so der /die Angeklagte vorbestraft ist – 
+s.u.), aus Beiakten oder gar aus einem über ihn /sie erstellten medizinisch-psychiatrischen 
+Gutachten. 
+Ist der/die Angeschuldigte vor der verfahrensgegenständlichen Tat bereits strafrechtlich in 
+Erscheinung getreten, so gehören Angaben zu Art und Anzahl etwaiger Vorstrafe n/ 
+Vorbelastungen zwingend in diesen Bereich des WE. 
+Informationen dazu lassen sich in erster Linie aus dem BZR und ausländischen 
+Registermitteilungen, aber auch aus beigezogenen Urteilen früherer Verurteilungen 
+gewinnen. 
+bb.     Zur Sache 
+In diesen Bereich gehören Angaben zur Vorgeschichte der Tat, zu weiteren (nicht i n den 
+konkreten Anklagesatz gehörenden) Einzelheiten des Tathergangs sowie zum Verhalten 
+des/der Angeschuldigten nach der Tat und zu den Tatfolgen für das Opfer (Höhe des 
+eingetretenen Schadens, Art und Umfang etwaiger Verletzungen inklusiver möglicherweise 
+noch andauernder Beeinträchtigungen, sofern erörterungsbedürftig). 
+Sofern der/die Angeschuldigte zum Zeitpunkt der verfahrensgegenständlichen Tat unter 
+Alkohol- oder Drogeneinfluss gestanden oder sich im Zustand einer akuten Psychose 
+
+===== SEITE 21 =====
+21  
+befunden hat, so sollten dies unter der Rubrik „Zur Sache“ geschildert werden. 
+Ebenso sollten hier wichtige Angaben zur Verfahrensgeschichte aufgenommen werden, 
+wenn sie für den Gesamteindruck bedeutsam erscheinen. 
+Auch die Ergebnisse medizinischer Untersuchungen sowohl des/d er Angeschuldigten (an 
+erster Stelle sei das medizinisch -psychiatrische Gutachten zur Frage der Schuldfähigkeit 
+bzw. etwaiger in Betracht kommender Maßregeln genannt) als auch des/der geschädigten 
+Zeug*innen (z.B. 1.Hilfe-Berichte, ärztliche Atteste) gehören in das WE. 
+Rechtliche Ausführungen sollten nur ausnahmsweise - insbesondere zu strittigen und 
+bedeutsamen Rechtsfragen - im WE erscheinen. Das bedeutet, dass die routinemäßige 
+Behandlung von Rechtsfragen, die jeder Strafjuristin/jedem Strafjuristen gelä ufig sind, zu 
+unterbleiben haben. Veranlassung zu näheren Erörterungen kann aber immer dann 
+bestehen, wenn im Zuge der Ermittlungen neue, bislang nicht entschiedene Rechtsfragen 
+aufgetaucht sind. 
+Angaben zur Beweiswürdigung können, wenn der/die Angeschuldi gte geständig oder die 
+Beweislage „eindeutig“ ist, sehr kurz ausfallen, müssen aber bei einem/einer ggfls. sogar 
+dezidiert die Tat bestreitenden Angeschuldigten ausführlicher ausfallen und sollten sich mir 
+den wesentlichen Beweismitteln auseinandersetzen. 
+Machen insbesondere Zeug*innen voneinander abweichende Angaben, die sich in Teilen 
+mit der Einlassung decken, so ist auch dazu Stellung zu nehmen, warum man diesen 
+Angaben keinen Glauben schenkt (oftmals können Zeugenaussagen durch objektive 
+Beweismittel, wie Tatortspuren, Verbindungsdaten etc. widerlegt bzw. relativiert werden). 
+b) Antrag auf Erlass eines Strafbefehls 
+Kommen bei einem  Verfahren, das in die Zuständigkeit des Amtsgerichts 
+(Strafrichter/Schöffengericht) fällt und lediglich Vergehen zum Gegenstand hat, die in § 407 
+Abs. 2 StPO angeführten Rechtsfolgen in Betracht und erscheint eine Hauptverhandlung 
+nicht erforderlich, so kann der Erlass eines Strafbefehls beantragt werden  (§ 407 Abs. 1 
+StPO). 
+Der Inhalt des Strafbefehls ergibt sich aus § 409 Ab s. 1 StPO. Er entspricht weitgehend 
+einer Anklage beim Strafrichter, enthält aber auch die Festsetzung der Rechtsfolgen. 
+Die Staatsanwältin/der Staatsanwalt stellt den Antrag, indem sie/er mit Hilfe eines Vordrucks 
+einen Strafbefehl mit der erstrebten Stra fe entwirft und dem Gericht übersendet mit dem 
+Antrag, diesen nach anliegendem Entwurf zu erlassen. 
+
+===== SEITE 22 =====
+22  
+Zugleich ist für den Fall der Anberaumung der Hauptverhandlung (§§ 408, 411 StPO) der 
+Antrag zu stellen, die Hauptverhandlung vor dem Strafrichter stattfinden zu lassen. 
+Es besteht auch die Möglichkeit, nach Eröffnung des Hauptverfahrens im Verfahren vor dem 
+Strafrichter bzw. dem Schöffengericht in das Strafbefehlsverfahren überzugehen, wenn die 
+Staatsanwaltschaft dies beantragt, die Voraussetzungen des § 407 Abs. 1 S. 1 und 2 StPO 
+vorliegen und wenn der Durchführung einer Hauptverhandlung das Ausbleiben oder die 
+Abwesenheit der/des Angeklagten oder ein anderer wichtiger Grund entgegen steht (§ 408a 
+StPO). 
+V. Sitzungsvertretung in Strafverfahren gegen Erwachsene 
+1. Einführung 
+Die Sitzungsvertretung in der Hauptverhandlung stellt einen wesentlichen Teil der 
+staatsanwaltschaftlichen Tätigkeit dar und ist die staatsanwaltschaftliche Tätigkeit mit der 
+größten unmittelbaren Außenwirkung. 
+2. Vorbereitung vor der Hauptverhandlung 
+In Vorbereitung auf die von Ihnen selbst wahrzunehmenden Sitzungsvertretungen ist es 
+angezeigt, spätestens zu Beginn Ihrer Stationsausbildung als Teil der Öffentlichkeit an 
+mehreren Hauptverhandlungen teilzunehmen, was lediglich dann problematisch werden 
+kann, wenn die Öffentlichkeit ausgeschlossen ist (z.B. bei Verfahren gegen Jugendliche 
+oder bei Unterbrechung der Hauptverhandlung). In diesen Fällen müsste mit der 
+Vorsitzenden/dem Vorsitzenden besprochen werden, ob die Teilnahme zu 
+Ausbildungszwecken gestattet werden kann. 
+Ferner sollten Sie Ihren/Ihre Ausbilder*in zu seinen/ihren Sitzungen begleiten, nachdem Sie 
+zuvor die Sitzungshandakten gründlich studiert haben. 
+Als Sitzungsvertreter*in erhalten Sie rechtzeitig vor dem Termin – in der Regel in der Mitte 
+der Vorwoche – die Handakten zu den von Ihnen zu verhandelnden Verfahren. Diese 
+Handakten sollten Sie in  die Lage versetzen, sich auf die Hauptverhandlung sorgfältig 
+vorzubereiten, also insbesondere die Anklage, die Einlassung der/d es Angeklagten, die 
+wesentlichen Aussagen und die Dokumentation verfahrensrechtlicher Maßnahmen in Kopie 
+enthalten. Auch etwaige nach Anklageerhebung erfolgten Stellungnahmen, Einlassungen, 
+Vermerke und die vom Gericht seitdem erlassenen Beschlüsse – insbesondere 
+Eröffnungsbeschluss und Pflichtverteidigerbestellung – sollten vorliegen. 
+Es ist darauf zu achten, dass sich in den Handakten auch ein aktueller Auszug aus dem 
+
+===== SEITE 23 =====
+23  
+Bundeszentralregister sowie ein e aktuelle MESTA-Verfahrensliste befinden. Sollte dies 
+nicht der Fall sin, bitten Sie Ihren/Ihre Ausbilder*in darum, diese in MESTA zu erfordern und 
+auszudrucken. 
+Sollten die Handakten erkennbar nicht vollständig sein, sollten Anhaltspunkte dafür 
+vorliegen, dass sich nach Anklageerhebung noch entscheidende Verän derungen ergeben 
+haben (z.B. begründeter Einspruch gegen einen Strafbefehl, eine schriftliche Äußerung 
+des/der Angeklagten zum Verfahrensgegenstand etc.) oder sollte weiterer Klärungsbedarf 
+bestehen, können die Hauptakten bei Gericht eingesehen werden. Zu diesem Zweck 
+vereinbaren Sie einen Termin mit der Geschäftsstelle der zuständigen Abteilung des 
+Amtsgerichts. 
+3. Die Hauptverhandlung 
+• Allgemeines 
+Der Gang der Hauptverhandlung richtet sich nach den §§ 243 ff. StPO. 
+Die Aufgaben der Staatsanwält*innen in der Hauptverhandlung sind darüber hinaus auch in 
+den Nr. 123 ff. RiStBV umrissen. 
+Vereinzelt wird bereits vor oder unmittelbar nach Aufruf der Sache vom Gericht oder der 
+Verteidigung eine Verfahrensbeendigung nach §§ 153, 153a StPO erörtert. Sollten im 
+Verlauf des Zwischenverfahrens keine wesentlichen Änderungen im Sachstand eingetreten 
+sein, sollte zumindest der Beginn der Beweisaufnahme sowie die Einlassung des/der 
+Angeklagten abgewartet werden, bevor entsprechende Erörterungen begonnen werden. Bei 
+unverändertem Sachstand ist nämlich davon auszugehen, dass der/die Anklageverfasser*in 
+die Möglichkeit der §§ 153, 153a StPO geprüft und verworfen hat. Diese Entscheidung sollte 
+daher durch den/die Sitzungsvertreter*in nicht unterlaufen werden (im Übrigen siehe zu §§ 
+153, 153a StPO unten). 
+Bei Anfragen von Pressevertreter *innen ist in der Regel an den Pressesprecher zu 
+verweisen. 
+Die Ordnung in der Hauptverhandlung hat immer das Gericht zu wahren. Der/die 
+Sitzungsvertreter/in hat kein förmliches Recht, Ordnungsmaßnahm en nach §§ 177, 178 
+GVG zu beantragen. Er/sie ist aber gehalten, ungebührliches Verhalten zu rügen und die 
+Verhängung von Ordnungsmitteln anzuregen  (vgl. Nr. 128 RiStBV). Oft wird dies zwar 
+notwendig, aber auch ausreichend sein, um weitere Störungen zu verhindern. 
+ 
+
+===== SEITE 24 =====
+24  
+• Vor Aufruf der Sache 
+Bei Eintritt in den Saal sollte man sich sowohl dem/der Richter *in als auch dem/der 
+Protokollführer*in namentlich vorstellen und dabei auch den Namen der Vorsitzenden/des 
+Vorsitzenden (für den späteren Terminsvermerk  relevant) erfragen. Ist man erstmalig zur 
+Sitzungsvertretung eingeteilt, schadet es nicht, das Gericht darauf hinzuweisen. 
+• Nach Aufruf der Sache 
+(1) Ablauf der Hauptverhandlung 
+Die Vorschriften hinsichtlich des Ablaufs einer Hauptverhandlung sind im Wesentliche n in 
+den §§ 226 ff. StPO geregelt, wobei die allgemeinen Vorschriften des 1. Buches der StPO, 
+insbesondere zu Zeug*innen (§§ 48 ff. StPO), Sachverständigen und Augenscheinsbeweis 
+(§§ 72 ff. StPO), Beschuldigtenvernehmung (§§ 133 ff. StPO), Verteidigung (§§ 137 ff. StPO) 
+aber auch zu den Befugnissen weiterer Verfahrensbeteiligter (z.B. Adhäsionsverfahren, §§ 
+403 ff. StPO; Nebenklage, §§ 395 ff. StPO) auch in der Hauptverhandlung gelten. 
+Kernvorschrift zum Gang der Hauptverhandlung ist § 243 StPO. Demzufolge beginnt die 
+Hauptverhandlung mit dem Aufruf der Sache. Dieser dient auch dazu, die Öffentlichkeit der 
+Verhandlung zu garantieren (vgl. § 338 Ziff. 6 StPO: Ungerechtfertigte Nichtöffentlichkeit 
+stellt einen absoluten Revisionsgrund dar). 
+(2) Anwesenheitspflichten 
+Anschließend stellt der/die Vorsitzende, der/dem gemäß § 238 StPO die 
+Verhandlungsleitung obliegt, die Anwesenheit fest. Zwingend erforderlich ist neben der 
+vollständigen Gerichtsbesetzung (evtl. müssen Schöff*innen noch unmittelbar nach Aufruf 
+der Sache vereidigt werden) der/die Vertreter/in der Staatsanwaltschaft und der/die 
+Angeklagte, vgl. hierzu aber auch §§ 231 ff. StPO. 
+(a) Fehlen des/der Angeklagten 
+Ist der/die Angeklagte bei Aufruf der Sache nicht zugegen und nicht ausreichend 
+entschuldigt, wird in der Regel 15 Minuten gewartet. Diese Zeitspanne kann – nach dem 
+Ermessen des Gerichts – auch länger ausfallen, zum Beispiel bei kurzfristigen 
+Saalverlegungen. 
+Ist der/die Angeklagte dann nicht erschienen, ist durch Verlesen der Zustellungsurkunde zu 
+überprüfen, ob sie/er ordnungsgemäß geladen wurde. 
+
+===== SEITE 25 =====
+25  
+Ist dies nicht der Fall, wird die Hauptverhandlung ausgesetzt und ein neuer Termin von Amts 
+wegen bestimmt. Zwangsmittel kommen dann nicht in Betracht. 
+Lag eine ordnungsgemäße Ladung vor, ist zu prüfen, ob Entschuldigungsgründe vorliegen 
+(beispielsweise Krankheit). Der Entschuldigungsgrund ist entsprechend glaubhaft zu 
+machen, in der Regel durch Vorlage eines Attestes. Eine Arbeitsunfähigkeitsbescheinigung, 
+wie sie üblicherweise ausgestellt wird, reicht n icht aus; erforderlich ist vielmehr eine 
+Verhandlungs- und Reiseunfähigkeitsbescheinigung ( Beispiel: E in Mitarbeitender eines 
+Sekretariats, der sich die Hand gebrochen hat, kann nicht mehr arbeiten, aber dennoch 
+einen Gerichtstermin wahrnehmen). 
+Bei möglic her, aber nicht ausreichend nachgewiesener Entschuldigung, hat das Gericht 
+verschiedene Möglichkeiten. Bei Vorlage eines (unzureichenden, s.o.) 
+Arbeitsunfähigkeitsattests besteht die Möglichkeit, mit der behandelnden Ärztin/dem 
+behandelnden Arzt telefonisch zu der Erkrankung Rücksprache zu nehmen. Die Einreichung 
+eines Attests ist nach ständiger Rechtsprechung zugleich eine konkludente 
+Schweigepflichtsentbindung. Ist eine Klärung nicht möglich, ist die Hauptverhandlung wiede- 
+rum auszusetzen, Zwangsmittel können dann vorbehalten bleiben. 
+Schließlich besteht in den Fällen des Nichterscheinens trotz ordnungsgemäßer Ladung in 
+geeigneten Fällen die Möglichkeit, gemäß § 408a StPO in das Strafbefehlsverfahren 
+überzugehen. 
+Übergang ins Strafbefehlsverfahren 
+Ob im Falle des Ausbleibens der Angeklagten/des Angeklagten ein Antrag auf Übergang in 
+das Strafbefehlsverfahren gestellt und welche Strafe/Maßnahmen gegebenenfalls beantragt 
+werden sollen, ist von Referendar*innen vorab mit den Ausbilder*innen zu besprechen. Da 
+der Staatsanwaltschaft gegen den antragsgemäß erlassenen Strafbefehl – anders als gegen 
+ein Urteil – keine Rechtsmittel zustehen, sind an das Rückspracheerfordernis die gleichen 
+Maßstäbe anzulegen wie bei der Zustimmung zu einer Einstellung nach §§ 153 Abs. 2, 153a 
+Abs. 2 StPO. 
+Von einer ordnungsgemäßen Ladung des/der unentschuldigt ausbleibenden Angeklagten  
+hängt die Wirksamkeit des Strafbefehls nicht ab (vgl. Schmitt/Köhler, 68. Auflage 2025, § 
+408a, Rn. 4). 
+Der Strafbefehlsantrag kann mündlich gestellt w erden und wird protokolliert. Auf die 
+Verlesung des Tatvorwurfs wird verzichtet, es erfolgt lediglich eine Bezugnahme auf die 
+Anklage. 
+
+===== SEITE 26 =====
+26  
+Der Antrag lautet dann: 
+Zwangsmittel 
+Kommt auch dies nicht in Betracht, sind Zwangsmittel zu beantragen: 
+In Betracht kommt entweder die polizeiliche Vorführung oder der Haftbefehl (§ 230 StPO). 
+Grundsätzlich ist – jedenfalls bei erstmaligem Nichterscheinen – wegen des Gebots der 
+Verhältnismäßigkeit und des Übermaßverbots das mildere Mittel der polizeilichen 
+Vorführung zu wählen. 
+Die Beantragung eines Haftbefehls gemäß § 230 StPO kommt in Betracht, wenn: 
+• die Vorführung bereits früher erfolglos gewesen ist, 
+• die Vorführung nicht erfolgversprechend erscheint (z.B. unsichere Wohnverhältnisse, 
+Rauschgifthintergrund, Erwartung einer höheren Freiheits - oder Jugendstrafe bei 
+einem/einer gerichtserfahrenen Angeklagten). 
+Hat das Gericht zunächst den Antrag auf Erlass eines Strafbefehls abgelehnt und eine 
+Hauptverhandlung für erforderlich gehalten, kann es diese Entscheidung bei 
+Nichterscheinen des/der Angeklagten nicht mehr revidieren und in das 
+Strafbefehlsverfahren übergehen. Dann bleiben nur noch die Zwangsmittel. 
+Sollte Anklage gegen mehrere Personen erhoben worden sein, ist ggf. – insofern das 
+sachdienlich ist – vor den Zwangsmitteln zu beantragen, dass das Verfahren gegen den 
+Abwesenden/die Abwesende abgetrennt wird. 
+(b) Fehlen der Verteidiger*innen (§§ 145, 228 Abs. 2 StPO, Nr. 137 RiStBV) 
+Erscheint ein*e Verteidiger*in nicht zur Hauptverhandlung, ist zunächst festzustellen, ob ein 
+Fall der notwendigen Verteidigung i.S.d. § 140 StPO vorliegt: 
+Ist dies der Fall, ist die Hauptverhandlung auszusetzen und neuer Termin von Amts wegen 
+zu bestimmen. In seltenen Einzelfällen – einfacher Sachverhalt und geständige 
+Angeklagte/geständiger Angeklagter – kann auch die sofortige Bestellung einer/eines 
+anderen Pflic htverteidigerin/Pflichtverteidigers erfolgen (telefonisch oder aus dem 
+Anwaltszimmer). In der Regel dürfte dies aber bereits aus Gründen einer ordnungsgemäßen 
+„Unter Bezugnahme auf die ordnungsgemäße Ladung wird 
+beantragt, gemäß §  408 a  StPO einen der  Anklage ent - 
+sprechenden Strafbefehl zu erlassen und die Strafe auf … festzu- 
+setzen.“ 
+
+===== SEITE 27 =====
+27  
+Verteidigung nicht möglich sein. 
+Zwangsmittel gegen eine Verteidigerin/einen Verteidiger sind nic ht vorgesehen. Eine 
+Kostentragungspflicht trifft die Verteidigerin/den Verteidiger nur im Rahmen des § 145 Abs. 
+4 StPO – also nur im Falle der Aussetzung, nicht bloß der Unterbrechung. 
+Liegt kein Fall der notwendigen Verteidigung vor, kann die Hauptverhand lung auch ohne 
+Verteidiger*in stattfinden. Der Grundsatz des fairen Verfahrens kann jedoch gebieten, nicht 
+ohne den/die Wahlverteidiger*in zu verhandeln, so dass wiederum die Hauptverhandlung 
+auszusetzen und neuer Termin von Amts wegen zu bestimmen ist. 
+(c) Fehlen des/der Dolmetscher*in 
+Ob dem/der Dolmetscher*in bei Nichterscheinen trotz ordnungsgemäßer Ladung die Kosten 
+des Verfahrens gemäß §§ 77 StPO, 185 GVG auferlegt werden können, ist umstritten. Ist 
+das Verfahren ohne Dolmetscher*in nicht durchführbar , ist ein Antrag auf Aussetzung zu 
+stellen. 
+d) Erörterung der Personalien 
+Die Sitzung beginnt – nach Aufruf der Sache – damit, dass der/die Angeklagte von der/dem 
+Vorsitzenden zu seinen/ihren persönlichen Verhältnissen vernommen wird. Dies umfasst 
+zunächst die Feststellung der Personalien, wobei diese Angaben nicht vom allgemeinen 
+Auskunftsverweigerungsrecht des/der Angeklagten umfasst sind (vgl. § 111 OWiG, der auch 
+bei Gerichten gilt).  
+Sollten sich dabei im Verhältnis zur Anklage Änderungen in den Person alien ergeben, so 
+sollte dies in der in der Handakte befindlichen Abschrift der Anklageschrift und im 
+Terminsvermerk niedergelegt werden. Insbesondere bei angeklagten Personen, die ihren 
+ständigen Wohnsitz im Ausland haben, ist im Interesse der späteren Vo llstreckung darauf 
+zu achten, dass auch die ausländische Anschrift im Protokoll erfasst wird. 
+Diese Befragung zur Person dient ausschließlich der Identifizierung der/des erschienenen 
+Angeklagten. Fragen zum Lebenslauf, der beruflichen und privaten Lebenssi tuation oder 
+gar nach Einkommensverhältnissen haben an dieser Stelle noch nicht s zu suchen, da sie 
+zur Sache gehören. 
+Dennoch erfolgt häufig bereits zu diesem Zeitpunkt eine Befragung des/der Angeklagten zu 
+seinen/ihren Einkommensverhältnissen. Da die Beantwortung dieser Fragen beispielsweise 
+Einfluss auf die Höhe einer Geldstrafe hat, ist ggf. darauf hinzuwirken, dass der/die 
+Angeklagte zuvor über ihr/sein Schweigerecht zu belehren ist. 
+
+===== SEITE 28 =====
+28  
+In der Regel werden auch die Haftverhältnisse erörtert, dies ist jedoc h nicht zwingend und 
+kann auch zu einem späteren Zeitpunkt der Hauptverhandlung erfolgen. Da im Plädoyer 
+auch ein Antrag zur Haft gestellt werden sollte, empfiehlt es sich auch hier, zur Vorbereitung 
+des entsprechenden Antrages die aktuelle Haftsituation u nd die bisherige Dauer einer 
+Untersuchungshaft zu notieren. 
+Nach dem Gericht erhält die Staatsanwaltschaft und schließlich die Verteidigung die 
+Gelegenheit, weitere Fragen zu den persönlichen Verhältnissen zu stellen. Diese 
+Reihenfolge der Befragung stellt  – auch bei der Vernehmung von Zeug*innen oder 
+Sachverständigen – die Regel dar, zumal sie in § 240 StPO Niederschlag findet. Sie ist aber 
+nicht verbindlich, sondern unterliegt der Sitzungsleitung des/der Vorsitzenden. 
+e) Verlesung der Anklage 
+Auf Aufforderung des Gerichts verliest der/die Sitzungsvertreter*in die Anklage (im Stehen). 
+Die Verlesung beginnt mit dem Namen der Angeklagten/des Angeklagten und endet mit 
+dem Verlesen der aufgeführten Paragraphenkette nach dem konkreten Anklagesatz. 
+Etwaige nachfolgende Sätze wie etwa „Strafantrag wurde form - und fristgerecht gestellt“ 
+müssen nicht vorgelesen werden. 
+Hierbei ist Folgendes zu beachten: 
+Die Personalien werden – außer dem Namen – nicht mehr verlesen, da diese ja gerade 
+zuvor erst Gegenstand der Erörterung waren. Gleiches gilt für die Haftverhältnisse, sofern 
+diese erörtert worden sind. Diese werden daher durch den Passus „wie soeben erörtert“ 
+ersetzt. 
+Da der/die Angeschuldigte durch den Eröffnungsbeschluss des Gerichts zum/zur 
+Angeklagten geworden ist, § 157 StPO, wird er/sie auch bei Anklageverlesung nunmehr als 
+solche*r bezeichnet. Abweichend von dem Text in der Anklage wird daher im gesamten 
+konkreten Anklagesatz der Begriff „Angeschuldigte *r“ durch den Begriff „Angeklagte *r“ 
+ersetzt. 
+ 
+„Karl Herrmann – Personalien (und Haftverhältnisse) wie soeben erörtert – 
+wird angeklagt, in Berlin am...“ 
+„Dem Angeklagten wird Folgendes zur Last gelegt: 
+Am 10. Mai 2010 schoss der Angeklagte auf öffentlichem Straßenland...“ 
+
+===== SEITE 29 =====
+29  
+Sofern Anklage gegen mehrere Personen erhoben worden ist, in der Hauptverhandlung 
+aber nicht gegen alle verhandelt wird, gilt: Alle Angeklagten, gegen die nicht verhandelt wird, 
+werden nun bei Verlesung als „gesondert Verfolgte“ bezeichnet: 
+Sowohl aus dem abstrakten als auch dem konkreten Anklagesatz und der Paragraphenkette 
+sind nur die Taten und Vorschriften, die den Anwesenden betreffen, vorzulesen. 
+Im Einspruchsverfahren gegen einen Strafbefehl kann entweder unverändert vorgelesen 
+werden:  
+oder im Stile einer Anklageschrift in die dritte Person umgewandelt werden: 
+Das Gericht stellt daraufhin im Falle der Anklage das ordnungsgemäße Vorliegen des 
+Eröffnungsbeschlusses, im Falle eines Strafbefehlsverfahrens den form- und fristgerechten 
+Einspruch gegen den Strafbefehl fest. 
+f) Verständigung 
+Im Anschluss teilt die Vorsitzende/der Vorsitzende mit, ob Erörterungen nach den §§ 202a, 
+212 StPO stattgefunden haben, wenn deren Gegenstand die Möglichkeit einer 
+Verständigung im Sinne von § 257 c StPO gewesen ist und wenn ja, deren wesentlichen 
+Inhalt, § 243 Abs. 4 StPO. 
+Die Verständigung im Strafverfahren richtet sich nach § 257c StPO und wird 
+umgangssprachlich auch als „Deal“ bezeichnet. Entgegen dieser Bezeichnung sind strenge 
+Voraussetzungen einzuhalten und Verständigungen außerhalb des geset zlich geregelten 
+Verfahrens schlechthin unzulässig. 
+Eine Verständigung ist kompliziert und birgt viele Risiken. 
+Referendar*innen werden daher nur ausnahmsweise und nach ausführlicher Rücksprache 
+mit den Ausbilder*innen an einer Verständigung mitwirken können. 
+Das Gesetz schließt ausdrücklich eine Absprache über den Schuldspruch (also welches 
+„Dem Angeklagten wird Folgendes zur Last gelegt: Am 10. Mai 2010 schoss 
+der Angeklagte Karl Herrmann einem gemeinsamen Tatplan mit dem geson- 
+dert Verfolgten Friedrich Wilhelm folgend auf öffentlichem Straßenland...“ 
+„Ihnen wird Folgendes zur Last gelegt: 
+Am 10. Mai 2010 schossen Sie auf öffentlichem Straßenland...“ 
+„Dem Angeklagten wird Folgendes zur Last gelegt: Am 10. Mai 2010 schoss 
+der Angeklagte auf öffentlichem Straßenland...“ 
+
+===== SEITE 30 =====
+30  
+Delikt wie begangen wurde) und Maßregeln der Sicherung und Besserung aus, § 257 c Abs. 
+2 S. 3 StPO. 
+Der wichtigste Gegenstand einer Verständigung ist regelmäßig die Ein igung über den 
+Rechtsfolgenausspruch. Das bedeutet, es wird sich über die zu erwartende Strafe geeinigt. 
+Dabei ist es unzulässig, eine sogenannte Punktstrafe, also eine konkrete Strafe zu 
+vereinbaren. Zulässig ist allenfalls, dass das Gericht einen Strafrahmen vorschlägt, also eine 
+denkbare Unter - und Obergrenze bei der Strafzumessung bestimmt. Weitere zulässige 
+Gegenstände der Verständigung können außerdem sein: 
+• Aussetzung der Freiheitsstrafe zur Bewährung 
+• Bewährungsauflagen 
+• Verhängung von Nebenstrafen (z.B. ein Fahrverbot nach § 44 StGB) 
+• Nebenfolgen wie die Einziehung nach den §§ 73 ff. StGB 
+• Anrechnung der Untersuchungshaft nach § 51 StGB 
+Bestandteil jeder Verständigung soll ferner ein Geständnis sein, § 257c Abs. 2 S. 2 StPO. 
+g) Belehrung und Vernehmung des/der Angeklagten zur Sache 
+Anschließend erhält der/die Angeklagte Gelegenheit, sich zu dem Tatvorwurf zu äußern, wobei 
+er/sie zuvor gemäß § 136 Abs. 1 S. 2 StPO entsprechend zu belehren und § 136 Abs. 2 zu 
+beachten ist. 
+h) Beweisaufnahme 
+Anschließend erfolgt nach § 244 StPO die Beweisaufnahme. Diese erstreckt sich von Amts 
+wegen grundsätzlich auf alle Beweismittel, die für die Entscheidung von Bedeutung sind, 
+wobei § 245 StPO den Umfang der Beweisaufnahme modifiziert. 
+Im Rahmen dessen sorgt die Staatsa nwältin/der Staatsanwalt durch geeignete Anträge, 
+Fragen und Anregungen dafür, dass die Tat, die persönlichen und wirtschaftlichen 
+Verhältnisse des/der Angeklagten und alle Umstände erörtert werden, die für die Bestimmung 
+der Rechtsfolgen von Bedeutung sei n können. Sie/er soll auch darauf hinwirken, dass 
+ungeeignete oder nicht zur Sache gehörende Fragen zurückgewiesen werden, vgl. Nr. 127 
+RiStBV. 
+ 
+
+===== SEITE 31 =====
+31  
+(1) Vernehmung der Zeug*innen 
+Zeug*innen werden in der Regel nicht (mehr) vereidigt (§ 59 Absatz 1StPO). 
+Zeug*innen unter 18 Jahren sind nur von der/dem Vorsitzenden zu befragen, § 241a Abs. 1 
+StPO. Hat der/die Sitzungsvertreter*in noch Fragen, formuliert sie/er diese gegenüber dem 
+Gericht aus und bittet den/die Vorsitzende*n, die Frage an den/die Zeug*in zu richten. Der/die 
+Vorsitzende kann den in § 240 Abs. 1 und Abs. 2 S. 1 StPO bezeichneten Personen auch eine 
+unmittelbare Befragung des/der Zeug*in gestatten, wenn nach pflichtgemäßem Ermessen ein 
+Nachteil für das Wohl des/der Zeug*in nicht zu befürchten ist (§ 241a Abs. 2 StPO). 
+Trotz ordnungsgemäßer Ladung unentschuldigt nicht erschienen en Zeug*innen oder 
+Sachverständigen werden die durch das Ausbleiben verursachten Kosten des Verfahrens 
+auferlegt. 
+Gegen ausgebliebene Zeug*innen wird gemäß § 51 Abs. 1 S. 2 StPO zudem ein 
+Ordnungsgeld, ersatzweise Ordnungshaft festgesetzt. Gleiches gilt im Falle von erschienen 
+Zeug*innen, die grundlos die Aussage oder den Eid verweigern, § 70 Abs. 1 StPO. Ferner 
+kann zur Erzwingung des Zeugnisses die Haft angeordnet werden, § 70 Abs. 2 StPO 
+Die näheren Regelungen zu Ordnungsgeld und Zwangsmitteln finden sich in §§ 5 ff. EGStGB. 
+Gemäß § 6 EGStGB beträgt das Mindestmaß eines Ordnungsgeldes 5,- Euro, das Höchstmaß 
+1.000,- Euro. 
+In einem entsprechenden Antrag ist die Höhe des Ordnungsgeldes pro Ordnungshafttag 
+festzulegen und entsprechend d er für angemessen gehalten Ordnungshaftdauer zu 
+multiplizieren. Der Antrag könnte beispielsweise lauten: 
+Sollte ohne die nicht erschienen Zeug*innen das Verfahren nicht beendet werden können, ist 
+in der Regel mit dem Antrag auf Ordnungsgeld zugleich zu bea ntragen, dass der /die 
+Zeuge/Zeugin zum nächsten Termin polizeilich vorgeführt werden soll, § 51 Abs. 1 S. 3 StPO. 
+(2) Anhaltspunkte für strafbare Handlungen im Laufe der Beweisaufnahme 
+Ergeben sich in der Hauptverhandlung Anhaltspunkte für strafbare Handlungen – unabhängig 
+davon, ob es sich um in der Hauptverhandlung begangene Straftaten (z. B. Falschaussagen, 
+Beleidigungen) oder um Taten handelt, die lediglich in der Hauptverhandlung bekannt werden 
+„Es wird beantragt, gegen den trotz ordnungsgemäßer Ladung 
+unentschuldigt nicht erschienenen Zeugen Müller ein 
+Ordnungsgeld von 150,- Euro, ersatzweise drei Tage Ord- 
+nungshaft zu verhängen“. 
+
+===== SEITE 32 =====
+32  
+(z. B. weitere Straftaten des /der Angeklagten, falsche Ver dächtigungen, Benennung von 
+bisher nicht bekannten Mittätern etc.) - ist ein ausführlicher Vermerk zu den Handakten zu 
+fertigen und die Einleitung eines neuen Ermittlungsverfahrens anzuregen. Bei Straftaten in der 
+Hauptverhandlung sollte darüber hinaus eine wörtliche Protokollierung erfolgen (§§ 183 GVG, 
+273 Abs. 3 StPO – ggf. auf Antrag). 
+(3) Keine vollständige Beweisaufnahme 
+Kann das Verfahren nicht zu Ende geführt werden, weil z.B. ein*e Zeug*in fehlt oder die 
+Beweisaufnahme die Ladung weiterer Zeug*innen erfordert, so sollte die 
+Sitzungsvertreterin/der Sitzungsvertreter anregen, die Hauptverhandlung zu unterbrechen, § 
+229 StPO. Fortsetzungstermine sind im Terminsvermerk zu notieren. 
+Kann die Sitzungsvertreterin/der Sitzungsvertreter den Fortsetz ungstermin nicht selbst 
+wahrnehmen, legt sie/er die Ergebnisse der bisherigen Beweisaufnahme in einem 
+ausführlichen Vermerk nieder.  Dieser sollte künftige Sitzungsvertreter*innen in die Lage 
+versetzen, künftige Hauptverhandlungstermine in derselben Sache w ahrzunehmen und ggf. 
+einen Abschlussvortrag zu halten. 
+Fortsetzungstermine sind außerdem dem Sitzungsdienst unverzüglich persönlich, per e -Mail 
+oder telefonisch mitzuteilen (e-Mail: sta-sitzungsdienst-referendariat@sta.berlin.de). Sollte 
+eine Fortsetzung innerhalb der Fristen des § 229 StPO nicht möglich sein, so sind wiederum 
+die Aussetzung und ein neuer Termin von Amts wegen zu beantragen. Bereits festgelegte 
+neue Termine sind ebenfalls im Terminsvermerk zu notieren. 
+(4) Antragsdelikte 
+Bei Antragsdelikten  können sich Schwierigkeiten ergeben, wenn ursprünglich gestellte 
+Strafanträge in der Hauptverhandlung zurückgenommen werden. Hierbei ist zwischen 
+relativen und absoluten Antragsdelikten zu unterscheiden: 
+(a) Bei absoluten Antragsdelikten stellt der fehlen de Strafantrag ein 
+Verfahrenshindernis dar, weshalb das Verfahren durch Prozessurteil gemäß § 260 
+Abs. 3 StPO einzustellen ist. Ggf. können dem /der Antragsteller*in dann die 
+Verfahrenskosten auferlegt werden, vgl. § 470 StPO. 
+(b) Bei relativen Antragsdelik ten besteht die Möglichkeit, einen fehlenden 
+Strafantrag durch das besondere öffentliche Interesse an der Strafverfolgung zu 
+ersetzen. Zumeist ist dies bereits vorsorglich geschehen und in der Anklageschrift 
+hinter der Paragraphenkette vermerkt. 
+
+===== SEITE 33 =====
+33  
+Ist dies nicht erfolgt, so hat der/die Sitzungsvertreter *in bei Vorliegen der Voraussetzungen 
+das besondere öf fentliche Interesse an der Strafverfolgung in der Hauptverhandlung zu 
+bejahen. 
+Eine Definition hat der Begriff des „besonderen öffentlichen Interesses an der Strafverfolgung“ 
+bislang weder durch den Gesetzgeber noch durch die Rechtsprechung erfahren. Lediglich für 
+einzelne Antragsdelikte findet sich eine Definition in den Richtlinien für das Straf - und 
+Bußgeldverfahren (RiStBV). Ob das besondere öffentliche Interesse der Strafverfolgung 
+bejaht wird, soll allerdings eine konkret -individuell vorzunehmende Ermessensentscheidung 
+sein, die die Staatsanwält*innen pflichtgemäß ausüben und die gerichtlich nicht überprüfbar 
+ist. 
+Für den Fall der Körperverletzung regelt die RiStBV in Nr. 234 beispielsweise Folgendes: 
+„Ein besonderes öffentliches Interesse an der Verfo lgung von Körperverletzungen wird 
+namentlich dann anzunehmen sein, wenn  der Täter einschlägig vorbestraft ist, roh oder 
+besonders leichtfertig oder aus rassistischen, fremdenfeindlichen oder sonstigen 
+menschenverachtenden Beweggründen gehandelt hat, [und] durch die Tat eine erhebliche 
+Verletzung verursacht wurde oder dem Opfer wegen seiner persönlichen Beziehung zum Täter 
+nicht zugemutet werden kann, Strafantrag zu stellen, und die Strafverfolgung ein 
+gegenwärtiges Anliegen der Allgemeinheit ist. 
+Andererseits kann auch der Umstand beachtlich sein, dass der Verletzte auf Bestrafung keinen 
+Wert legt.“ 
+(5) Beweisanregungen/Beweisanträge 
+Ein Beweisantrag liegt vor, wenn die antragstellende Person ernsthaft verlangt, Beweis über 
+eine bestimmt behauptete konkrete Tatsache, die die Schuld- oder Rechtsfolgenfrage betrifft, 
+durch ein bestimmt bezeichnetes Beweismittel zu erheben und dem Antrag zu entnehmen ist, 
+weshalb das bezeichnete Beweismittel die behauptete Tatsache belegen können soll. Eine 
+bloße Beweisanregung ist demgegenüber gegeben, wenn die Bewei serhebung in das 
+Ermessen des Gerichts gestellt wird (legaldefiniert in § 244 Abs. 3 S. 1 StPO). 
+Der erforderliche Strafantrag wurde form- und fristgerecht gestellt, vorsorglich wird 
+das besondere öffentliche Interesse an der Strafverfolgung bejaht. 
+„ Es wird beantragt, Herrn X, wohnhaft..., als Zeugen zum Beweis dafür 
+zu vernehmen, dass der Angeklagte sich am ... um ... in der Gaststätte 
+Y aufgehalten hat. Der Zeuge X wird hierzu Angaben machen können, 
+da…“ 
+
+===== SEITE 34 =====
+34  
+In der Regel wird es nicht erforderlich sein, einen den Anforderungen des § 244 Abs. 3 S. 1 
+StPO genügenden Beweisantrag zu stellen; das Gericht hat nämlich ohnehin zur Erforschung 
+der Wahrheit die Beweisaufnahme von Amts wegen auf alle Tatsachen und Bewei smittel zu 
+erstrecken, die für die Entscheidung von Bedeutung sind (§ 244 Abs. 2 StPO).  
+In der Praxis ist es zumeist ausreichend, für erforderlich gehaltene Beweiserhebungen 
+anzuregen, ohne einen förmlichen Beweisantrag zu stellen. 
+Sollte es im Einzelfall  dennoch erforderlich werden, einen den Voraussetzungen des § 244 
+Abs. 3 StPO entsprechenden Beweisantrag zu stellen, bitten Sie den/die Vorsitzende*n um 
+eine kurze Unterbrechung der Hauptverhandlung und begeben Sie sich zu Ihren 
+Ausbilder*innen, die Sie – so erforderlich – bei der Verfassung eines Beweisantrags 
+unterstützen. 
+(6) Abweichungen von der Anklage in tatsächlicher oder rechtlicher Hinsicht 
+Sollte der Sachverhalt sich in der Beweisaufnahme anders darstellen als in der Anklage, 
+einschließlich eines ggf. ergänzenden Eröffnungsbeschlusses, kann entweder ein rechtlicher 
+oder tatsächlicher Hinweis von Nöten, aber auch ausreichend sein, um zu einer Verurteilung 
+zu gelangen, vgl. insoweit § 265 StPO. 
+Sollte dies wegen des prozessualen Tatbegriffs nicht au sreichend sein, ist eine 
+Nachtragsanklage zu erheben. Allerdings ist vorab im Hinblick auf § 266 Absatz 1 StPO zu 
+klären, ob der Angeklagte zustimmt. Im Hinblick auf das Zustimmungserfordernis hat die 
+prozessuale Möglichkeit der Nachtragsanklage keine große praktische Relevanz. 
+Referendar*innen müssen vor Erhebung einer Nachtragsanklage mit ihren Ausbilder*innen 
+Rücksprache halten! 
+Sollte nach dem Ergebnis der Beweisaufnahme die sachliche Zuständigkeit des erkennenden 
+Gerichts nicht mehr gegeben sein, erfolgt die Verweisung an ein höheres Gericht gem. § 270 
+Absatz 1 StPO. 
+i) Weitere Klärungen vor Schließung der Beweisaufnahme 
+(1)  (Teil-)Einstellungen nach § 153, 153a, 154, 154a StPO 
+Einstellungen/Beschränkungen der Strafverfolgung in der Hauptverhandlung bedürfen immer 
+der Zustimmung bzw. eines Antrages (§ 154 Abs. 2 StPO) der Staatsanwaltschaft. 
+ 
+
+===== SEITE 35 =====
+35  
+ 
+Grundsätzlich sollten zwischen Erhebung der Anklage bzw. der letztmaligen Vorlage an 
+den/die ordentliche/n Dezernent*in (z.B. durch Übersendung der Akten im Zwischenverfahren) 
+und dem Entscheidungszeitpunkt neue, für eine Einstellung/Beschränkung der Strafverfolgung 
+sprechende Umstände hinzugekommen sein, die der/die Anklageverfasser *in noch nicht hat 
+berücksichtigen können (beispielsweise bei §§ 153, 153a StPO eine zwischenzeitlich erfolgte 
+Schadenswiedergutmachung oder bei §§ 154, 154 a StPO ein/e nicht erreichbare/r Zeug*in zu 
+einem vergleichsweise untergeordnetem Tatvorwurf). 
+Ist die Sachlage unverändert, ist  – wie bereits dargestellt – davon auszugehen, dass die 
+Möglichkeit einer Einstellung/Beschränkung der Strafverfolgung bereits geprüft und verworfen 
+wurde. Diese Entscheidung sollte nicht ohne tragfähige Gründe unterlaufen werden. 
+Im Terminsvermerk sind die Gründe, die für eine Einstellung aus 
+Opportunitätsgesichtspunkten maßgeblich gewesen sind, nachvollziehbar darzulegen. 
+(2) Erklärungen zu beschlagnahmten oder sichergestellten Gegenständen 
+Sämtliche Entscheidungen und Klärungen, die bezüglich der Asservate in der 
+Hauptverhandlung erfolgen, ersparen später viel Zeit und Arbeit und liegen im Interesse einer 
+ressourcenschonenden Verfahrensbearbeitung. In aller Reg el ist die/der Angeklagte auch 
+während der Hauptverhandlung einer Entscheidung über einen Verzicht auf Rückgabe 
+beispielsweise eines Tatwerkzeuges sehr viel zugänglicher , als nach Abschluss des 
+Verfahrens. 
+Ob Asservate vorliegen, ist der Anklageschrift sow ie dem übrigen Inhalt der Handakten zu 
+entnehmen. 
+Geklärt werden kann nicht nur, ob der/die Angeklagte sich mit der außergerichtlichen 
+Einziehung einverstanden erklärt, sondern beispielsweise auch: 
+• Einverständnis mit der Rückgabe an Zeug*innen 
+• Zuordnung von Gegenständen bei mehreren Zeug*innen 
+• Klärung der Eigentumsverhältnisse. 
+Für Referendar*innen ist eine vorherige Rücksprache mit  ihren Ausbildender*innen 
+notwendig. Sofern Sie in der Sitzung erstmalig eine Einstellung erwägen, müssen  Sie um 
+eine Unterbrechung bitten und Ihre/n Ausbilder*in kontaktieren. Sollte dies nicht gelingen, 
+können Sie die jeweilige Abteilungsleitung oder den Tagesdienst anrufen. Bitte besprechen 
+Sie das Vorgehen zuvor mit Ihrem/Ihrer Ausbilder*in! 
+
+===== SEITE 36 =====
+36  
+Alle Erklärungen zu Asservaten müssen in das Protokoll aufgenommen werden. 
+Sollte keine Einigung erzielt werden, ist, soweit die rechtlichen Voraussetzungen vorliegen, die 
+Einziehung der Gegenstände im Plädoyer zu beantragen. 
+j) Schlussvortrag 
+Schlussvortrag (§ 258 StPO, Nr. 138, 139 RiStBV) mit dem Ziel der Verurteilung 
+Nach Abschluss der Beweisaufnahme hat der/die Sitzungsvertreter *in seinen/ihren 
+Schlussvortrag zu halten, in welchem das Gesamtergebnis der Hauptverhandlung zu erörtern 
+und tatsächlich und rechtlich zu würdigen ist. 
+Sollte zur Vorbereitung des Schlussvortrags bei umfangreicher Sachlage noch Zeit benötigt 
+werden, kann das Gericht um eine Unterbrechung der Hauptverhandlung gebeten werden. 
+Der Schlussvortrag sollte in freier Rede gehalten werden. Der/die Sitzungsvertreter *in sollte 
+sich bemühen, in einfachen und klaren Sätzen zu sprechen, die auch Laien wie den /die 
+Angeklagte*n, den Schöff*innen und auch der Öffentlichkeit verständlich sind. 
+(1)  Anrede 
+Ob auch der/die Angeklagte direkt angesprochen wird, ist allein Sache des/der jeweiligen 
+Sitzungsvertreter*in. Verbindliche Regelungen h ierzu gibt es nicht. Dagegen spricht, dass 
+Adressat der im Schlussvortrag gestellten Anträge ausschließlich das erkennende Gericht ist, 
+weshalb bereits die Einbeziehung der Verteidigung in die Anrede ohnehin nur kollegialiter 
+erfolgt. 
+Andererseits spricht neben allgemeinen Höflichkeitserwägungen auch der Umstand, dass 
+letztlich der/dem Angeklagten das von ihr/ihm begangene Unrecht verdeutlicht werden soll, für 
+eine direkte Anrede. 
+Behelfsweise kann man auch nach der Anrede des Gerichts und der Verteidigung mit einem 
+allgemeinen „Werte Anwesende!“ alle übrigen im Gerichtssaal befindlichen Personen in seinen 
+Adressatenkreis einbeziehen. 
+(2) Darstellung des Ergebnisses der Beweisaufnahme (erwiesener Sachverhalt) 
+In unproblematischen Fällen (geständige/r Angekla gte/r; Anklagevorwurf, der sich 
+vollumfänglich be stätigt hat) kann die Zusammenfassung des tatsächlichen Geschehens 
+„Frau/Herr Vorsitzender“ oder „Hohes Gericht, Frau/Herr Verteidiger(in)“ 
+
+===== SEITE 37 =====
+37  
+durch einfache Bezugnahme auf den konkreten Anklagesatz erfolgen. Dabei sollte jedoch 
+deutlich werden, dass und warum dieses Geständnis als glaubhaft erachtet worden ist, 
+beispielsweise durch folgende Formulierung: 
+In allen anderen Fällen ist kurz zu schildern, welcher Sachverhalt nach dem Ergebnis der 
+Beweisaufnahme feststeht und woraus sich diese Feststellungen ergeben. Auch bei 
+geständigen Angeklagten sind Bezugnahmen auf weitere Beweismittel insbesondere dann 
+erforderlich, wenn der /die Angeklagte zu den entsprechenden Tatsachen keine Angaben 
+machen kann (z.B. dauerhafte Verletzungsfolgen beim Tatopfer, Schadenshöhen gestohlener 
+Gegenstände, Blutalkoholkonzentration). 
+Bestreitet der/die Angeklagte den Tatvorwurf, ist eine Beweiskette zu entwickeln, die dem 
+Aufbau eines Klausurgutachtens oder aber auch einem wesentlichen Ergebnis der 
+Ermittlungen entspricht. Das heißt: 
+(a) Zusammenfassung und Würdigung der Einlassung des/der Angeklagten 
+(b) Zusammenfassung und Würdigung der übrigen Beweisaufnahme 
+• Einlassung des/der Mitangeklagten 
+• Bekundungen von Zeug*innen: Es folgt eine kurze Zusammenfassung der Aussagen 
+der Zeug*innen und ggf. eine (kurze) Stellungnahme, warum diese Aussage (bzw. die 
+Aussage des/der Mitangeklagten) glaubh aft und die Zeug*innen selbst glaubwürdig 
+waren oder eben gerade nicht. 
+Das Urteil des Bundesgerichtshofs vom 30. Juli 1999 – 1 StR 618/99 setzt sich mit den 
+wissenschaftlichen Anforderungen an ein Glaubhaftigkeitsgutachten auseinander und 
+empfiehlt sich a ls Lektüre  zur Vorbereitung der selbständigen Wahrnehmung des 
+Sitzungsdienstes, s ollte sich im Rahmen der Vorbereitung der Sitzungsvertretung 
+andeuten, dass es Probleme bei der Würdigung von Aussagen von Zeug*innen geben 
+könnte. 
+„Aufgrund des glaubhaften Geständnisses des Angeklagten, das 
+durch das übrige Ergebnis der Beweisaufnahme bestätigt worden ist, 
+steht fest, dass sich der Sachverhalt wie in der Anklageschrift be- 
+schrieben zugetragen hat.“ 
+„Der Angeklagte hat sich zu dem Tatvorwurf nicht geäußert.“; 
+„Der Angeklagte hat sich dahingehend eingelassen, dass...“ 
+„Diese Einlassung wird bestätigt/widerlegt durch...“ 
+
+===== SEITE 38 =====
+38  
+• Sachverständige 
+• Sonstige Beweismittel (Urkunden, Augenscheinsobjekte, allgemeine Lebenserfahrung, 
+Sonstiges) 
+(3) Rechtliche Würdigung 
+Bei einfachen Sachverhalten ist es ausreichend, das verwirklichte Delikt zu benennen: 
+Bei schwierig gelagerten Fällen nennt man zweckmäßigerweise die verletzte Strafvorschrift 
+und legt, soweit erforderlich, dar, inwiefern der für erwiesen erachtete Sachverhalt den 
+Tatbestand dieser Vorschrift erfüllt. Dabei sollte der subjekt ive Tatbestand nicht vergessen 
+werden. 
+Insbesondere wenn der Sachverhalt in seiner rechtlichen Würdigung von der Anklage 
+abweicht oder sich aus dem Verlauf der Hauptverhandlung ergeben hat, dass das Gericht 
+einer abweichenden rechtlichen Bewertung zuneigt, ist eine ausführliche rechtliche Würdigung 
+erforderlich. 
+(4) Strafzumessung 
+(a) Bestimmung des Strafrahmens 
+Zunächst erfolgt im Rahmen der Strafzumessung die Bestimmung des Strafrahmens. 
+Beispiel: „Für den Diebstahl ist ein Strafrahmen von Geldstrafe oder Freiheitsstrafe bis zu fünf 
+Jahren vorgesehen.“ 
+Dieser Rahmen kann jedoch auch verschoben werden und zwar durch Strafmilderung und 
+Straferhöhung. 
+Im Bereich der Strafmilderung sind vertypte Strafmilderungsgründe nach § 49 StGB und 
+minder schwere Fälle zu berücksichtigen. 
+Die Strafmilderungsgründe sind wiederum in obligatorische und fakultative Milderungsgründe 
+zu unterteilen. Beispiele für obligatorische Milderungen im Rahmen der Strafzumessung sind 
+§ 27 Abs. 2 S. 2 StGB (Strafe für den Gehilfen) und § 30 Abs. 1 S. 2 StGB (Strafe für den 
+Versuch der Beteiligung). 
+Beispiele für fakultative Milderungen im Rahmen der Strafzumessung sind § 23 Abs. 2 StGB 
+(Versuchsstrafbarkeit) und § 21 StGB (Strafe bei verminderter Schuldfähigkeit). 
+„...damit hat die Angeklagte einen Diebstahl gemäß § 242 StGB begangen“. 
+
+===== SEITE 39 =====
+39  
+Minder schwere Fälle sind beispielsweise beim Raub (§ 249 Abs. 2 StGB), bei der gefährlichen 
+Körperverletzung (224 Abs. 1 StGB) sowie beim schweren Raub vorgesehen (§ 250 Abs. 3 
+StGB). Sieht das Gesetz den Sonderstrafrahmen eines minder schweren Falls vor und 
+ist zugleich ein vertypt er Milderungsgrund gegeben, so ist vorrangig der minder 
+schwere Fall zu prüfen. 
+Bei einem minder schweren Fall ist entscheidend, „ob das gesamte Tatbild einschließlich aller 
+subjektiven Momente und der Tatpersönlichkeit vom Durchschnitt der erfahrungsgemäß  
+vorkommenden Fälle in einem Maße abweicht, dass die Anwendung des 
+Ausnahmestrafrahmens geboten erscheint. Für die Prüfung dieser Frage ist eine 
+Gesamtbetrachtung erforderlich, bei der alle Umstände heranzuziehen und zu würdigen sind, 
+die für die Wertung d er Tat und des Täters in Betracht kommen, gleichgültig, ob sie der Tat 
+selbst innewohnen, sie begleiten, ihr vorausgehen oder ihr nachfolgen“ (so ständige 
+Rechtsprechung des BGH, vgl. nur NStZ 91, 529). 
+Zu beachten gilt es in diesem Zusammenhang ferner, da ss gemäß § 50 StGB ein Umstand, 
+der allein oder mit anderen Umständen die Annahme eines minder schweren Falles begründet 
+und der zugleich ein besonderer gesetzlicher Milderungsgrund nach § 49 StGB ist, nur einmal 
+berücksichtigt werden darf. 
+Eine Straferhöhung kommt bei Vorliegen eines besonders schweren Falles in Betracht. 
+Besonders schwere Fälle hat der Gesetzgeber größtenteils als Regelbeispiele ausgestaltet, 
+vgl. beispielsweise die §§ 243 Abs. 2, 263 Abs.3, 113 Abs. 2 StGB. 
+Hinsichtlich jeder angeklagten  Tat ist zunächst der Strafrahmen einzeln zu bestimmen und 
+eine Einzelstrafe zu beantragen. 
+Im Plädoyer könnte man seine Erwägungen zum Strafrahmen beispielsweise so formulieren: 
+„Somit hat sich die Angeklagte im Fall 1) der Anklage eines Raubes und im Fall 2) 
+eines Diebstahls mit Waffen schuldig gemacht. 
+Hinsichtlich des Raubes ist hier allerdings gemäß § 249 Abs. 2 StGB von einem 
+minder schweren Fall auszugehen: Die Tatbeute war mit 8 Euro denkbar gering, es 
+sind keine Verletzungen entstanden, die vollumfänglich geständige Ange - klagte 
+hat mittlerweile den Schaden wieder gutgemacht und sich auch im Rahmen der 
+heutigen Hauptverhandlung bei der  Zeugin entschuldigt. Der Strafrahmen ver- 
+schiebt sich daher zunächst auf Freiheitsstrafe von sechs Monaten bis zu fünf 
+Jahren. 
+ 
+ 
+ 
+
+===== SEITE 40 =====
+40  
+(b) Strafzumessung i. e. Sinne 
+Innerhalb des konkret anzuwendenden Strafrahmens ist auf eine auf tat - und 
+schuldangemessene Strafe zu erkennen, wobei die Wirkungen, die von der Strafe für das 
+künftige Leben des / Täters/Täterin in der Gesellschaft zu erwarten sind, zu berücksichtigen 
+sind, § 46 Abs. 1 StGB. 
+An dieser Stelle des Schlussvortrags sind dann die für und gegen die/den Angeklagte *n 
+sprechenden Umstände zu erörtern, § 46 Abs. 2 StGB. § 46 Abs. 2 Satz 2 enthält eine 
+enumerative Aufzählung von Umständen, die in Betracht kommen; si e ist allerdings nicht 
+abschließend. 
+Folgende Strafzumessungserwägungen finden häufig Erwähnung in Schlussvorträgen:  
+ 
+Pro Contra 
+Geständnis Vorstrafen 
+Straffreies Vorleben Bewährungsversagen 
+Unverschuldete Notlage als Beweggrund für 
+die Tat 
+Hohe Rückfallgeschwindigkeit 
+Ungünstige Einflüsse anderer (Mitläufertum, 
+Verleitung, Mitverschulden anderer 
+Personen) 
+Besondere Rücksichtslosigkeit 
+Alkohol-/drogeninduzierte Enthemmung 
+(unterhalb der Voraussetzungen des § 21 
+StGB) 
+Missbrauch von Vertrauensverhältnissen 
+Geringe kriminelle Energie Hohe kriminelle Energie 
+Geringer Tatbeitrag Hoher Schaden 
+Langes Zurückliegen der Tat Schwere körperliche/psychische Folgen auf 
+Seiten des/der Verletzten 
+Lange Dauer des Verfahrens (sofern sie 
+nicht zu einer Kompensationsentscheidung 
+Hohe Allgemeingefährlichkeit 
+Zu beachten ist ferner, dass die Angeklagte bei der Tatbegehung erheblich unter 
+dem Einfluss von Drogen stand und die Tat auch aufgrund Suchtdrucks begangen 
+hat: Sie wollte nach seinem glaubhaften Bekunden die Beute unmitt elbar zum Er- 
+werb neuer Drogen verwenden. 
+ 
+Es ist daher – auch nach den nachvollziehbaren und von Sachkunde getragenen 
+Ausführungen des Sachverständigen – zu Gunsten der Angeklagten davon 
+auszugehen, dass ihre Fähigkeit, das Unrecht ihrer Tat einzusehen und 
+entsprechend zu handeln, erheblich vermindert war. Es kommt folglich § 21 StGB 
+zur Anwendung, weshalb die Strafe erneut zu mildern ist. Es ist folglich aufgrund 
+dieser insgesamt doppelten Strafrahmenverschiebung ein Strafrahmen von einem 
+Monat bis zu 3 Jahren und neun Monaten anzuwenden.  
+ 
+Hinsichtlich des Diebstahls mit Waffen sind Gründe für eine Strafrahmenver - 
+schiebung nicht ersichtlich, weshalb hier der Regelstrafrahmen zugrunde zu legen 
+ist, der Freiheitsstrafe von sechs Monaten bis zu zehn Jahren vorsieht.“ 
+ 
+ 
+
+===== SEITE 41 =====
+41  
+führt, s.u.) 
+Geringer Schaden/Wert des Erlangten Verstoß gegen mehrere Straftatbestände 
+oder Verwirklichung mehrerer 
+Regelbeispiele/Qualifikationen durch eine 
+Handlung 
+Erheblicher Eigenschaden (Verlust des 
+Arbeitsplatzes, dienstrechtliche Nachteile) 
+Haupttäter, Verleitung Unbescholtener zur 
+Tat 
+Wiedergutmachung/Entschuldigung Generalprävention: Nachahmungsgefahr, 
+gemeinschaftsgefährliche Zunahme der 
+gleichen/ähnlicher Taten 
+Strafempfindlichkeit, -empfänglichkeit  
+Angeklagte*r ist erkennbar beeindruckt 
+durch verbüßte Untersuchungshaft  
+ 
+ 
+Folgendes ist in diesem Zusammenhang zu beachten 
+Ein Geständnis hat nur geringes (milderndes) Gewicht, wenn es allein aus prozesstaktischen 
+Gründen abgelegt wird, wenn Leugnen ganz aussichtslos wäre (StV 91, 108; 3 StR 920/97) 
+oder wenn sich das Geständnis jeweils nur auf Tatsachen erstreckt, die anderweitig schon 
+erwiesen sind. 
+Unzulässig ist es aber, umgekehrt das Fehlen eines Geständnisses strafschärfend zu 
+berücksichtigen (vgl. 3 StR 192/10, NStZ RR 14, 205). 
+Zulässiges Verteidigungsverhalten, z.B. die pauschale Angabe, andere hätten die Tat 
+begangen oder die wahrheitswidrige Behauptung, ein Alibi zu haben, darf dem/der 
+Angeklagten nicht angelastet werden (NStZ-RR 04, 105, 106; StV 92, 259). 
+Gemäß § 46 Abs. 3 StGB dürfen Umstände, die schon Merkmale des gesetzlichen 
+Tatbestandes sind, bei der Strafzumessung nicht berücksichtigt werden (Verbot der 
+Doppelverwertung). Beispiel: Bei einer gefährlichen Körperverletzung im Sinne von § 224 Abs. 
+1 Nr. 2 StGB darf nicht strafschärfend berücksichtigt werden, dass der/die Angeklagte bei der 
+Tat ein Messer verwendete. 
+(c) Bildung der Strafe 
+Es ist zunächst für jede angeklagte Tat zunächst eine tat - und schuldangemessene 
+Einzelstrafe zu beantragen, bei Geldstrafen auch jeweils unter Nennung der Tagessatzanzahl 
+und Tagessatzhöhe, bei Freiheitsstrafen unter Beachtung von § 47 StGB. 
+„Unter Abwägung dieser Umstände – insbesondere aufgrund der bisheri- 
+gen Unbestraftheit der Angeklagten und ihrer reuigen und geständigen 
+Einlassung – erscheint für den Raub (Fall 1 der Anklage) eine Geldstrafe 
+von 120 Tagessätzen zu je 15,- Euro tat- und schuldangemessen, für Fall 
+2 der Anklage, den Diebstahl mit Waffen, eine Freiheitsstrafe  von acht 
+Monaten.“ 
+
+===== SEITE 42 =====
+42  
+(d) Geldstrafe 
+Geldstrafen werden in Tagessätzen verhängt und betragen mindestens fünf und höchstens 
+360 volle Tagessätze, § 40 Abs. 1 StGB. Die Höhe des einzelnen Tagessatzes beträgt 
+mindestens einen und höchstens 30.000 Euro, § 40 Abs. 2 StGB. 
+In einem ersten Schritt ist die Anzahl der Tagessätze zu beantragen, wobei das oben zu den 
+Strafzumessungsgesichtspunkten Ausgeführte gilt. 
+In der Praxis hat der/die Angeklagte häufig ein Interesse daran, dass die gegen ihn/sie 
+verhängte Geldstrafe nicht mehr als 90 Tagessätze beträgt. Das hat folgenden Hintergrund: 
+Sofern der Täter/die Täterin unbestraft ist, werden Verurteilungen bis zu 90 Tagessätzen/drei 
+Monaten nach § 32 Abs. 2 Nr. 5 BZRG nicht in ein polizeiliches Führungszeugnis 
+aufgenommen. Der/die Verurteilte darf sich daher grundsätzlich als unbestraft bezeichnen, § 
+53 BZRG, allerdings nicht gegenüber Gerichten und Behörden, die ein uneingeschränktes 
+Auskunftsrecht haben. 
+Die Bestimmung der Höhe der Tagessätze erfolgt in einem zweiten Schritt. Die Tagessatzhöhe 
+richtet sich nach den persönlichen und wirtschaftlichen Verhältnissen des/der Angeklagten, § 
+40 Abs. 2 S. 1 StGB. Grundlage für die Festsetzung der Tagessatzhöhe ist das 
+Nettoeinkommen als Saldo der anzurechnenden Einkünfte und der abziehbaren Belastungen. 
+Dies bedeutet beispielsweise, dass die Tagessatzhöhe bei einem /einer Angeklagten, der/die 
+über ein monatliches Nettoeinkommen von 1.500, - Euro verfügt, 50, - Euro beträgt (1.500, - 
+Euro: 30 (Tage) = 50,- Euro). 
+Komplizierter wird diese Berechnung , wenn von diesem Einkommen nicht nur der/die 
+Angeklagte allein, sondern auch seine/ihre Familie den Lebensunterhalt bestreitet, die ja nicht 
+mitbestraft werden soll. Hier müssen dann entsprechende Abschläge vorgenommen werden. 
+Anhaltspunkte geben insoweit die Regelunterhaltsverordnung sowie die Unterhaltstabelle des 
+Kammergerichts; es kommt aber auch ein pauschaler prozentualer Abzug in Betracht (KG, 
+Beschluss vom 10.03.2014 – (3) 121 Ss 23/14 (20/14); z. B. 25 % für den nicht berufstätigen 
+Ehepartner, ca. 15 % für jedes unterhaltspflichtige Kind; insgesamt aber nicht mehr als 50%). 
+Besonderheiten sind auch bei Empfänger*innen von Bürgergeld zu beachten. Diese erhalten 
+– wenn sie allein leben – den Regelsatz von 563,- Euro. Zudem werden die Kosten für Miete, 
+Heizung und Strom von der Agentur für Arbeit übernommen. Daher könnte man grundsätz - 
+lich argumentieren, dass aus Gründen der Gleichbehandlung – von dem Nettoeinkommen 
+eines Arbeitnehmers müssen schließlich auch noch die Kosten für Miete, Heizung und Strom 
+
+===== SEITE 43 =====
+43  
+bezahlt werden – auch die von der Agentur für Arbeit übernommenen Wohnkosten als 
+Nettoeinkommen angesetzt werden müssen (z.B. 432 Euro + 300 Euro Wohnung = 
+Nettoeinkommen: 732,- Euro/30 = 24,- Euro Tagessatzhöhe). 
+Dabei verkennt man aber, dass das Bürgergeld lediglich der Grundsicherung dient: Dem/der 
+Angeklagten sind – im Gegensatz zum Arbeitnehmer*innen – die Möglichkeiten genommen, 
+Rücklagen zu bilden, aus denen er/sie die Geldstrafe bezahlen könnte, oder beispielsweise in 
+Kauf zu nehmen, mit der Miet zahlung in Verzug zu kommen, da ihm/ihr dieses Geld nie 
+tatsächlich zur Verfügung steht. Entsprechend kann der Mietzuschuss nicht vollumfänglich 
+einbezogen werden. Bei der Beantragung der Tagessatzhöhe sind diese Umstände unter 
+Berücksichtigung der höchstrichterlichen Rechtsprechung zu beachten (§ 40 Abs. 2 StGB).  
+Bei einkommensschwachen Personen kann überdies bei Geldstrafen, die die Anzahl von 90 
+Tagessätzen übersteigen, eine Herabsetzung geboten sein, um der progressiven Steigerung 
+des Strafübels entgeg enzuwirken (KG, Beschluss vom 02.11.2012 - (4) 121 Ss 146/12 
+(265/12). 
+(e) Freiheitsstrafe 
+Wenn Freiheitsstrafe nicht ausdrücklich als lebenslang angedroht ist, ist sie zeitig, § 38 Abs. 1 
+StGB. 
+Gemäß § 38 Abs. 2 StGB beträgt das Mindestmaß einer zeitigen Freiheitsstrafe einen Monat, 
+das Höchstmaß 15 Jahre. Diese Mindestmaß - bzw. Höchstmaßandrohung ergänzt die 
+Strafandrohung der gesetzlichen Tatbestände, in denen der gesetzliche Strafrahmen zum Teil 
+nur nach der Obergrenze (z. B. bei § 242 StGB „Freiheitsstrafe bis zu fünf Jahren) oder nach 
+der Untergrenze (z. B. bei § 249 StGB: „Freiheitsstrafe nicht unter einem Jahr“) bestimmt wird. 
+Beim Raub reicht also der gesetzliche Strafrahmen von 1 Jahr bis 15 Jahren, beim Diebstahl 
+von 1 Monat bis 5 Jahren (wenn nicht Geldstrafe in Betracht kommt). 
+Zur Bestimmung der tat- und schuldangemessenen Einzelfreiheitsstrafe die oben genannten 
+Strafzumessungskriterien. 
+Zu beachten ist in diesem Zusammenhang, dass nach dem Willen des Gesetzgeber 
+Freiheitsstrafen unter sechs Mo naten nur ausnahmsweise verhängt werden sollen  (§ 47 
+StGB). 
+Nicht entscheidend ist dabei die Frage, ob der/die Angeklagte selbst die Verhängung einer 
+kurzzeitigen Freiheitsstrafe auf Bewährung der Verurteilung zu einer Geldstrafe vorziehen 
+würde. Auch wenn er/sie selbst die Bezahlung der Geldstrafe als größeres Übel empfände, 
+
+===== SEITE 44 =====
+44  
+gilt die eindeutige gesetzgeberische Wertung, wonach die Geldstrafe die mildere Sanktion ist. 
+Gemäß § 47 Abs. 1 StGB darf eine Freiheitsstrafe unter sechs Monaten statt einer möglichen 
+Geldstrafe nur dann verhängt und damit auch beantragt werden, wenn 
+• besondere Umstände entweder in der konkreten Tat oder in der konkreten 
+Täterpersönlichkeit gegeben sind 
+und 
+• die Verhängung der Freiheitsstrafe zur Einwirkung auf den Täter (= spezialpräventive 
+Gründe) oder zur Verteidigung der Rechtsordnung (= generalpräventive Gründe) 
+unerlässlich sind. 
+Besondere Umstände sind solche, welche die Tat oder die Persönlichkeit des Täters aus dem 
+Durchschnitt abzuurteilender Fälle herausheben (Fischer, StGB, 72. Auflage 2025, § 47 Rn 6). 
+Zur Einwirkung auf den Täter /die Täterin unerlässlich ist eine Freiheitsstrafe nur dann, wenn 
+auch eine hohe Geldstrafe nicht ausreicht, den Täter /die Täterin  so zu beeindrucken und 
+ihm/ihr das Unrecht seiner/ihrer Tat vor Augen zu führen, dass er/sie sich voraussichtlich nicht 
+mehr strafbar macht. Das Gesetz stellt hier also ausschließlich auf die spezialpräventive 
+Funktion der Strafe ab. 
+Spezialpräventiv kann eine kurze Freiheitsstrafe unerlässlich sein, wenn der Täter/die Täterin 
+wegen einer (oder mehrere) ähnlicher Taten früher schon zu Geldstrafen verurteilt wurde und 
+jetzt auch eine spürbar höhere Geldstrafe nicht ausreicht, um auf ihn/sie in der erforderlichen 
+Weise einzuwirken. 
+Bei dem Gesichtspunkt der Verte idigung der Rechtsordnung kommt es darauf an, welche 
+Bedeutung die Tat und Taten dieser Art für den Rechtsgüterschutz haben, ob Wiederholungs- 
+und Nachahmungsgefahr bestehen und wie die Allgemeinheit auf eine Geldstrafe reagieren 
+würde (vgl. OLG Celle StV 93, 196). 
+In den Fällen, in denen das Gesetz ausschließlich Freiheitsstrafe als Sanktion vorsieht, 
+verweist § 47 Abs. 2 StGB für die Fälle, in denen eine Freiheitsstrafe unter sechs Monate 
+verhängt werden soll, auf die Voraussetzungen des § 47 Abs. 1 StGB. 
+(f) Gesamtstrafenbildung  
+Gesamtstrafenbildung im Urteil 
+Maßgeblich für die Gesamtstrafenbildung sind die Vorschriften §§ 52 ff. StGB. 
+
+===== SEITE 45 =====
+45  
+In den Fällen der gleichartigen und der ungleichartigen Tateinheit (vgl. Fischer, StGB, 72. 
+Auflage 2025,  § 52 Rn. 1)  ist auf eine einheitliche Strafe zu erkennen, eine 
+Gesamtstrafenbildung scheidet also aus. 
+Nimmt der Eröffnungsbeschluss Tateinheit an, soll aber am Ende der Verhandlung nicht 
+wegen aller angeklagten Delikte verurteilt werden, erfolgt kein (Teil -)Freispruch. Der 
+Strafrahmen wird von dem schwersten verwirklichten Delikt vorgegeben, § 52 Abs. 2 StGB. 
+Sind mehrere Delikte angeklagt worden, die in Tatmehrheit (§ 53 StGB) zueinander stehen 
+und sollen auch wegen aller Taten Anträge gestellt werden, ist eine Gesamtstrafe gemäß §§ 
+53, 54 StGB zu beantragen. 
+Dabei ist „unter erneuter Abwägung der für und gegen die/den Angeklagte/n sprechenden 
+Umstände“ aus den zuvor dargelegten Einzelstrafen eine tat - und schuldangemessene 
+Gesamtgeldstrafe/Gesamtfreiheitsstrafe zu bilden. 
+Zu beachten ist, dass die Gesamtstrafe die Summe der Einzelstrafen nicht erreichen darf, § 
+54 Abs. 2 S. 1 StGB. Wenn zwischen den einzelnen Taten ein enger zeitlicher, sachlicher und 
+situativer Zusammenhang besteht, kann die Erhöhung der Einsatzstrafe verhältnismäßig 
+gering ausfallen. Demgegenüber sprechen zeitlich weit auseinander liegende Taten gegen 
+verschiedene Rechtsgüter eher für eine deutlich Erhöhung der Einsatzstrafe (Fischer, StGB 
+72. Auflage 2025, § 54 Rn. 10). 
+Auch zu beachten ist, dass durc haus Geldstrafen und Freiheitsstrafen zunächst als 
+Einzelstrafen beantragt werden können, diese dann aber gemäß § 53 Abs. 2 StGB meist zu 
+einer Gesamtfreiheitsstrafe zusammengefasst werden. Das Nebeneinander von (Gesamt -
+)Geld- und (Gesamt-)Freiheitsstrafe ist zwar möglich, vgl. § 41 StGB, aber nicht die Regel.  
+Allerdings kann ausnahmsweise auf die Bildung einer Gesamtstrafe verzichtet werden (§ 53 
+Abs. 2 S. 2 StGB), wenn die Sanktion der zu verhängenden Geldstrafe im Rahmen der 
+Gesamtfreiheitsstrafe nicht zum Tragen kommen würde. 
+Nachträgliche Gesamtstrafenbildung ( § 55 StGB) 
+Wenn sich aus dem Bundeszentralregisterauszug oder ansonsten aus der Hauptverhandlung 
+ergibt, dass der/die Angeklagte nach der Begehung der angeklagten Tat wegen einer anderen 
+Tat rechtskräftig verurteilt worden ist, ist eine nachträgliche Gesamtstrafe zu bilden. Das Urteil 
+„Unter erneuter Abwägung aller für und gegen die Angeklagte spre - 
+chenden Strafzumessungsumstände ist aus diesen beiden Einzelstrafen 
+eine tat- und schuldangemessene Gesamtfreiheitsstrafe von zehn Mo - 
+naten zu bilden.“ 
+
+===== SEITE 46 =====
+46  
+darf jedoch noch nicht vollständig vollstreckt und muss in die Hauptverhandlung durch 
+Verlesung eingeführt worden sein. Ist auch im einzubeziehenden Urteil auf eine Gesamtstrafe 
+erkannt worden, so muss diese aufgelöst werden. 
+Aktenzeichen und das Strafmaß des einbezogenen Verfahrens, einschließlich etwaiger 
+Einzelstrafen, sind in dem Sitzungsvermerk zu notieren. 
+Ist das Urteil bere its vollstreckt, wird die durch Bildung der Gesamtstrafe eintretende 
+Reduzierung des Strafmaßes im Wege des Härteausgleiches (auch sog. „fiktive 
+Gesamtstrafenbildung“) bei der Strafzumessung berücksichtigt, da es dem /der Angeklagten 
+nicht zum Nachteil gereichen darf, dass er/sie eine Geldstrafe so rechtzeitig bezahlt hat, dass 
+eine Gesamtstrafenbildung nicht (mehr) möglich ist. 
+Bei mehreren Vorverurteilungen und mehreren angeklagten Taten (möglicherweise auch aus 
+Verbindung mehrerer Einzelanklagen durch das  Gericht) ist es möglich, dass die nun 
+angeklagten Taten zum Teil vor einer dann gesamtstrafenfähigen Vorverurteilung liegen und 
+zum Teil danach. Zur dann entstehenden Problematik der Zäsurwirkung vgl. Fischer, StGB, 
+72. Auflage 2025, Rn. 9 zu § 55 StGB. 
+(5) Bewährung 
+Im Anschluss an die Beantragung einer Freiheitsstrafe sind Ausführungen zur Bewährung 
+erforderlich. Die gesetzliche Grundlage ist § 56 StGB. Verlangt wird zunächst, dass dem /der 
+Verurteilten eine positive Sozialprognose gestellt werden kann. 
+Bei Freiheitsstrafen bis zu einem Jahr gilt insoweit die gesetzgeberische Vermutung des § 56 
+Abs. 1 StGB. 
+Nach den strengeren Voraussetzungen des § 56 Abs. 2 StGB müssen bei Freiheitsstrafen von 
+mehr als einem Jahr bis zu zwei Jahren noch besondere Gründe h inzukommen, um die 
+Strafaussetzung zur Bewährung zu rechtfertigen. 
+Freiheitsstrafen über zwei Jahren können nicht mehr zur Bewährung ausgesetzt werden. 
+Die Bewährungszeit beträgt gemäß § 56a StGB mindestens zwei Jahre und höchstens fünf 
+Jahre. Innerhalb dieser Spanne sind unter anderem die Höhe der verhängten Strafe und bei 
+„Wegen des Diebstahls beantrage ich, auf eine FHS von sechs Mo- 
+naten zu erkennen. 
+Weiterhin beantrage ich, die Angeklagte wegen ... unter Auflösung der 
+mit Urteil des ... vom ... verhängten Gesamtstrafe und unter 
+Einbeziehung der dortigen Einzelstrafen zu einer Gesamtfrei - 
+heitsstrafe von ... zu verurteilen.“ 
+
+===== SEITE 47 =====
+47  
+überdurchschnittlich langer Verfahrensdauer auch die seit der Tat straffrei gebliebene Zeit zu 
+berücksichtigen. 
+Zudem besteht die Möglichkeit, gemäß §§ 56b, 56c StGB die Bewährung an die Erfüllung von 
+Auflagen oder Weisungen zu knüpfen. Diese dienen einerseits dazu, den /die Angeklagte*n 
+auch mit einer unmittelbar spürbaren Maßnahme zu treffen (Geldauflage als Zahlung an die 
+Justizkasse/gemeinnützige Einrichtung, vorzugsweise durch Zuweisung an den Sammelfonds 
+der Berliner Justiz für Geldauflagen (SamBA), Ableistung gemeinnütziger Arbeit etc.) oder den 
+Genugtuungsinteressen der Verletzten (Zahlung an das Opfer zur 
+Schadenswiedergutmachung oder als „Schmerzensgeld“) andererseits dazu, dem /der 
+Angeklagten Hilfe zur Führung eines straffreien Lebens zu geben (Unterstellung unter die 
+Aufsicht und Leitung eines /einer hauptamtlichen Bewährungshelfer *in; 
+Therapie/Entziehungskur, allerdings nur mit Einwilligung des/der Angeklagten, vgl. § 56c Abs. 
+3 StGB). 
+Die Verhältnismäßigkeit ist bei Festlegung der Auflagen zu wahren, § 56b Abs. 1 S. 2 StGB, 
+die Auflage muss also erfüllbar sein. So kommen Arbeitsstunden bei voll berufstätigen oder 
+bei einer psychisch erkrankten Person in aller Regel nicht in Betra cht. Umgekehrt können 
+Arbeitsstunden auch einer isoliert lebenden Person, die auch aufgrund von Depressionen zur 
+Begehung von Straftaten neigt, zugutekommen, wenn so der Kontakt zur Außenwelt 
+hergestellt wird. Letztlich kommt es auf eine Betrachtung des Einzelfalls an. 
+Die Arbeitsauflage wird in Stunden beantragt und verhängt, wobei sechs Stunden einem 
+Arbeitstag entsprechen (180 gemeinnütziger Arbeit entsprechen also beispielsweise 30 
+Tagen). 
+„Die Vollstreckung dieser Freiheitsstrafe kann zur Bewährung ausge - 
+setzt werden. Die Angeklagte ist bislang strafrechtlich nicht in Erschei- 
+nung getreten, weshalb zu erwarten ist, dass sie sich bereits die Ver - 
+hängung einer Freiheitsstrafe hinreichend zur Warnung dienen lässt, um 
+zukünftig von der Begehung weiterer Straftaten Abstand zu nehmen. 
+Die Dauer der Bewährungszeit sollte drei Jahre betragen. Zudem sollte 
+die Angeklagte zum einen für die Dauer der Bewährungszeit der A uf- 
+sicht und Leitung eines hauptamtlichen Bewährungshelfers unterstellt 
+werden, damit ihr Hilfe bei der Stabilisierung seiner Lebensverhält - 
+nisse, insbesondere bei der Suche nach einer Therapiestelle und einer 
+geeigneten Einrichtung des betreuten Wohnens zur Verfügung steht. 
+ 
+Zum anderen wird beantragt, der Angeklagten die Ableistung von 120 
+Stunden gemeinnütziger Arbeit binnen sechs Monaten nach Rechts - 
+kraft des Urteils aufzuerlegen, damit ihr das von ihr begangene Unrecht 
+auch durch eine unmittelbar spürbare Sanktion noch einmal vor Augen 
+geführt wird.“ 
+
+===== SEITE 48 =====
+48  
+(6) Nebenentscheidungen 
+(a) Kompensationsentscheidung bei rechtsstaatswidriger Verfahrensverzögerung 
+Aus dem Rechtsstaatsprinzip folgt das Beschleunigungsgebot, bei dessen Verletzung eine 
+rechtsstaatswidrige Verfahrensverzögerung vorliegen kann. Liegen dafür Anhaltspunkte vor, 
+sind deren Umstände in der Hauptverhandlung zu klären, indem anhand des Akteninhalts 
+insbesondere die Zeiten bestimmt werden, in denen das Verfahren aus Gründen nicht 
+gefördert wurde, die in der Verantwortung des Staates liegen. Wird dabei eine überlange 
+Verfahrensdauer festgestellt, wirkt diese sich nicht unmittelbar auf die Strafhöhe aus, sondert 
+führt dazu, dass ein Teil der Strafe in analoger Anwendung des § 51 Abs. 1 StGB für vollstreckt 
+erklärt wird (vgl. Fischer, StGB, 72. Auflage 2025, § 46 Rn. 131 ff). 
+(b) Einziehung von Tatprodukten, Tatmitteln und Tatobjekten 
+Ist ein Tatwerkzeug beschlagnahmt, das eingezogen werden soll (Waffen, z.B. aber auch 
+komplette Computer bei Verstößen gegen das Urhebergesetz), und hat sich der/die 
+Angeklagte nicht bereits zuvor mit der außergerichtlichen Einziehung einverstanden erklärt, 
+worauf sowohl das Gericht als auch der/die Sitzungsvertreter/in der Staatsanwaltschaft 
+hinwirken sollten, ist auch diese Einziehung zu beantragen. Erläuterungen der 
+Voraussetzungen von § 74  ff: StGB sind nur bei Unstimmigkeiten über die Ei - 
+gentumsverhältnisse oder die Verhältnismäßigkeit erforderlich. In der Regel lautet der Antrag 
+unkompliziert: 
+ (c) Haft 
+Befindet sich der/die Angeklagte zum Zeitpunkt der Hauptverhandlung in Untersuchungshaft 
+oder ist er/sie vom Vollzug der Untersuchungshaft verschont, sind auch Anträge zur weiteren 
+Haftsituation zu stellen. 
+Bestehen die Haftgründe unverändert fort, ist der Antrag auf Anordnung der Haftfortdauer zu 
+stellen. Dabei ist der Antrag ggf. dahingehend zu ergänzen, dass der Haftbefehl nach 
+Maßgabe des Urteils abzuändern ist, wenn nach dem Ergebnis der Beweisaufnahme zu 
+erwarten ist, dass der Urteilstenor von dem im Haftbefehl aufgeführten Tatvorwurf abweichen 
+wird. Der Antrag auf Anordnung der Haftfortdauer ist zu begründen. Dabei ist insbesondere 
+darzustellen, welche Umstände die Annahme rechtfertigen, dass ein Haftgrund fortbesteht. 
+Liegen keine Haftgründe mehr vor, so ist die Aufhebung des Haftbefehls zu beantragen. War 
+der/die Angeklagte vom Vollzug der Untersuchungshaft verschont, so ist auch die Aufhebung 
+„Es wird beantragt, das zur Ausführung der Tat 
+verwendete  Messer einzuziehen.“ 
+
+===== SEITE 49 =====
+49  
+des Haftverschonungsbeschlusses zu beantragen. 
+Wurde auf die Verhängung einer Bewährungsstrafe plädiert, ist ebenfalls der Antrag zu stellen, 
+den Haftbefehl und gegebenenfalls den Haftverschonungsbeschluss aufzuheben. 
+Folgende Anträge sind denkbar: 
+• (Neu-)Erlass eines Haftbefehls, § 112 StPO 
+• Aufhebung eines Haftverschonungsbeschlusses (erneute Haft) 
+• Haftfortdauer bei bereits bestehendem Haftbefehl, gegebenenfalls nach Anpassung an 
+den Urteilstenor oder als Unterbringungsbefehl 
+• Haftverschonung unter Aufrechterhaltung eines bestehenden Haftbefehls 
+• Aufhebung eines Haftbefehls (einschließlich eines evtl. bestehenden 
+Haftverschonungsbeschlusses) 
+Ein Haftbefehl gemäß § 230 Abs. 2 StPO wird mit Ende der Hauptverhandlung 
+gegenstandslos. Anträge und Entscheidungen sind daher lediglich deklaratorisch. 
+Es ist auf jeden Fall darauf zu achten, dass der/die Richter *in auch die so g. 
+Entlassungsanordnung erteilt. Sollte der/die Angeklagte auf einer sog. Saalentlassung 
+bestehen, ist darauf hinzuwirken, dass der/die Richter*in sich vergewissert, dass kein anderer 
+Haftbefehl notiert ist. 
+(d) Fahrverbot/Entziehung der Fahrerlaubnis 
+Insbesondere bei Verkehrsdelikten kommt zudem die Verhängung eines Fahrverbotes oder 
+eine Entziehung der Fahrerlaubnis mit Sperre in Betracht. 
+Das Fahrverbot ist in § 44 StGB geregelt und beträgt zwischen einem und sechs Monaten, die 
+gesetzlichen Voraussetzung  für die Entziehung der Fahrerlaubnis mit Sperre bzw. der 
+Verhängung einer isolierten Sperre in §§ 69 ff . StGB. Der Unterschied zwischen Fahrverbot 
+und Entziehung der Fahrerlaubnis ist nicht nur hinsichtlich der Dauer der Nebenstrafe bzw. 
+Maßregel bedeutend: Bei einem Fahrverbot bleibt der /die Angeklagte im Besitz seiner /ihrer 
+Fahrerlaubnis, muss aber zu einem – auch manchmal flexibel zu gestaltenden – bestimmten 
+Zeitpunkt seinen/ihren Führerschein abgeben und darf dann in der Folgezeit und für die Dauer 
+des verhängten Fahrverbots kein Fahrzeug mehr führen. 
+Bei der Entziehung der Fahrerlaubnis wird diese dem/der Angeklagten mit Rechtskraft des 
+
+===== SEITE 50 =====
+50  
+Urteils komplett entzogen. Eine neue Fahrerlaubnis muss beantragt werden, entsprechende – 
+mit Kosten verbundene – Schulungsmaßnahmen und Prüfungen müssen absolviert werden, 
+um die Fahrerlaubnis wieder zu bekommen. Vor diesem Hintergrund ist auch die Sperre zu 
+sehen: Um zu verhindern, dass der/die Angeklagte sich unmittelbar nach dem Entzug der 
+Fahrerlaubnis wieder um eine neue bemüht und diese zeitnah erhält, erfolgt die Anweisung an 
+die Verwaltungsbehörde, nicht vor Ablauf einer bestimmten Zeit eine neue Fahrerlaubnis 
+auszustellen. 
+Kurz: Der/die Angeklagte, dem/der die Fahrerlaubnis entzogen worden ist und gegen den eine 
+Sperre von einem Jahr verhängt worden ist, erhält frühestens nach Ablauf dieses Jahres 
+erneut seine/ihre Fahrerlaubnis. 
+Eine Sperre für die Erteilung der Fahrerlaubnis kann auch dann ausgesprochen werden, wenn 
+der/die Angeklagte keine Fahrerlaubnis (mehr) hatte, die ihm/ihr entzogen werden kann (sog. 
+isolierte/weitere Sperre). § 69a Abs. 3 StGB ist dabei zu beachten. 
+k) Schlussvortrag mit dem Ziel eines Freispruchs 
+Sollte sich der Anklagevorwurf durch die Beweisaufnahme nicht oder nur teilweise bestätigen, 
+so ist ein (Teil-) Freispruch aus tatsächlichen Gründen zu beantragen. Auch in diesem Fall ist 
+zumindest kurz darzulegen, was dem/der Angeklagten zur Last gelegt wurde und aus welchen 
+Gründen (Beweiswürdigung) er/sie nicht überführt werden konnte. 
+Ein Freispruch aus rechtlichen Gründen ist zu beantragen, wenn sich herausstellen sollte, 
+dass die angeklagte Tat nicht strafbar war. 
+Ob die Beweisaufnahme den Tatvorwurf bestätigen konnt e, entscheiden Sie in eigener 
+Verantwortung, da ja auch nur Sie den unmittelbaren Eindruck aus der Hauptverhandlung 
+haben. Sollten Sie zu dem Ergebnis gelangen, dass ein Freispruch zu erfolgen hat, muss 
+demgemäß keine Rücksprache mit Ihrem/Ihrer Ausbilder*in erfolgen. Es ist jedoch darauf zu 
+achten, dass sämtliche Beweismittel ausgeschöpft sind. Ein Verzicht auf in der Anklageschrift 
+aufgeführte Beweismittel sollte wiederum nur nach Rücksprache erfolgen. 
+„Durch diese Taten hat sich der Angeklagte zudem als ungeeignet zum 
+Führen von Kraftfa hrzeugen erwiesen. Ich beantrage daher,  dem 
+Angeklagten die Fahrerlaubnis zu entziehen, den Führerschein 
+einzuziehen und die Verwaltungsbehörde anzuweisen, ihm vor Ablauf 
+einer Sperre von zwei Jahren keine neue Fahrerlaubnis zu erteilen.“ 
+
+===== SEITE 51 =====
+51  
+Im Falle eines Freispruchs muss ggf. eine Stellungnahme dazu abgegeben werden, ob nach 
+dem Gesetz über die Entschädigung für Strafverfolgungsmaßnahmen (StrEG) für die erlittenen 
+Strafverfolgungsmaßnahmen eine Entschädigung in Betracht kommt. Das Gericht entscheidet 
+über die Verpflichtung zur Entschädigung gem. § 8 StrEG in dem Urteil oder in dem Beschluss, 
+der das Verfahren abschließt. Daher hat  der/die Sitzungsvertreter*in unter Berücksichtigung 
+der §§ 3-6 StrEG einen entsprechenden Antrag zu stellen. 
+Weicht das Gericht von dem StrEG -Antrag ab, so muss dies im Sitzungsvermerk besonders 
+hervorgehoben werden, da die Einlegung der sofortigen Beschwerde zu prüfen ist. 
+l) Nach dem Urteil 
+(1) Rechtsmittelverzicht 
+Rechtsreferendar*innen sind zur Erklärung eines Rechtsmittelverzichts nicht befugt! 
+(2) Haftfragen 
+Ist im Falle einer Haftentlassung von Seiten des Gerichts nicht deutlich mitgeteilt worden, dass 
+die sogenannte Entlassungsanordnung erteilt worden ist, ist entsprechend nachzufragen. Die 
+Erteilung der Entlassungsanordnung ist im Terminsvermerk zu notieren. 
+Da bei einer entfallenen Meldeauflage auch der Polizeiabschnitt, bei dem der/die Ange klagte 
+sich melden musste, zu informieren ist, ist in Erfahrung zu bringen, bei welchem Abschnitt 
+er/sie sich gemeldet hat. 
+m) Nachbereitung 
+(1) Fertigung des Terminsvermerks 
+Im Anschluss an die Wahrnehmung der Sitzungsvertretung müssen Sie den sogenannten  
+Terminsvermerk auf dem hinteren Handakteninnendeckel bzw. auf dem der Handakte 
+beigefügten Vordruck fertigen. Auch hier ist es ratsam, die ersten Terminsvermerke 
+gemeinsam mit Ihren Ausbilder*innenzu fertigen. 
+Im Einzelnen ist Folgendes zu beachten:  
+ 
+„Ich beantrage daher, den Angeklagten freizusprechen und festzu- 
+stellen, dass der Angeklagte für die erlittene Untersuchungshaft zu 
+entschädigen ist.“ 
+
+===== SEITE 52 =====
+52  
+Angaben zu den Verfahrensbeteiligten 
+Anzugeben sind der Name des/der Richters/Richterin sowie Ihr eigener Name nebst 
+Dienstbezeichnung (z. B. Referendar*in Müller). 
+Antrag und Urteil 
+Sodann sind der Antrag und der Urteilstenor einzutragen. Bei einer antragsge mäßen 
+Entscheidung ist es ausreichend, den Antrag einzutragen und als Urteil zu vermerken. Hierzu 
+tragen Sie im vorgesehenen Feld „Entscheidung“ auf der rechten Seite „n.A.“ (= nach Antrag) 
+ein. 
+Änderungen/Abweichungen zur Anklage 
+Sollten sich Änderungen in der rechtlichen Würdigung zur Anklage ergeben haben, sind diese 
+kurz in Vermerkform niederzulegen. 
+Alle im Plädoyer gestellten Anträge (also nicht nur zur Strafe, sondern auch zu 
+Nebenentscheidungen) sind im Terminsvermerk zu notieren! Hat das Gericht ei nem Antrag 
+nicht stattgegeben oder ist hiervon abgewichen, so ist deutlich zu machen, welche Umstände 
+den/die Sitzungsvertreter*in zur Antragsstellung bewogen haben, mit welcher Argumentation 
+das Gericht diesem Antrag nicht gefolgt ist und ob dies für vert retbar oder nicht vertretbar 
+erachtet wird. 
+(Teil-)Einstellungen 
+(Teil-)Einstellungen nach §§ 153, 153a, 154, 154a StPO sind unter Angabe der für die 
+Einstellung maßgeblichen Gründe zu vermerken. Bei Einstellungen nach § 154 StPO ist das 
+Bezugsverfahren mit Aktenzeichen zu notieren. Auch hier sind die Gründe zu vermerken, die 
+für die Einstellung maßgeblich gewesen sind. Liegt in dem Bezugsverfahren bereits ein Urteil 
+vor, so ist das Datum des Urteils sowie die verhängte Strafe zu notieren. Auch ist anzugeben, 
+ob das Urteil bereits rechtskräftig ist. 
+(2) Empfehlung eines Rechtsmittels 
+Weicht das Urteil erheblich von Ihrem Antrag ab, so müssen Sie gemeinsam mit Ihrer/Ihrem 
+Ausbilder*in prüfen, ob die Gründe des Gerichts überzeugend und vertretbar sind oder ob die 
+Einlegung eines Rechtsmittels empfohlen werden soll. 
+Die vom Gericht angeführten Gründe für die Abweichung von Ihrem Antrag sind ebenso wie 
+die Gründe für die Empfehlung oder Nicht -Empfehlung eines Rechtsmittels kurz und 
+
+===== SEITE 53 =====
+53  
+übersichtlich im Vermerk darzus tellen. Dieser Vermerk bildet für die zuständige 
+Hauptabteilungsleitung die Grundlage für die Entscheidung, ob der angeregten 
+Rechtmittelempfehlung gefolgt werden soll. 
+Wegen der kurzen Rechtsmittelfristen sind die Handakten sodann unverzüglich auf den Weg 
+zur zuständigen Hauptabteilungsleitung zu bringen. 
+(3) Fortsetzungstermine 
+Fortsetzungstermine sind dem Sitzungsdienst unverzüglich persönlich, per e -Mail oder 
+telefonisch mitzuteilen (s.o.). Sollten Sie den Fortsetzungstermin nicht selbst wahrnehmen 
+können, ist das bisherige Ergebnis der Hauptverhandlung für den/die nächste 
+Sitzungsvertreter*in in einem Vermerk niederzulegen. Dabei ist insbesondere der Inhalt der 
+Aussage der bereits gehörten Zeug*innen dazulegen, wobei auch auszuführen ist, ob und aus 
+welchen Gründen Sie die Aussage für glaubhaft oder nicht glaubhaft halten. Darüber hinaus 
+ist es in diesen Fällen auch empfehlenswert, mit dem/der nächsten Sitzungsvertrete r*in in 
+Kontakt zu treten, um zusätzlich in einem persönlichen Gespräch Ihre Eindrücke aus der 
+Hauptverhandlung zu schildern, da im Schlussvortrag unter anderem ja auch Ihre Eindrücke 
+aus der Hauptverhandlung wiedergeben werden müssen. 
+(4) Haft 
+Im Fall einer Haftentlassung ist im Sitzungsvermerk festzuhalten, ob das Gericht die 
+Entlassungsanordnung erteilt hat. Auch bei Aufhebung eines Haftverschonungsbeschlusses 
+ist der entsprechende Polizeiabschnitt unverzüglich zu unterrichten. Über den hierzu 
+erforderlichen Vordruck sowie über den Vordruck zur Ergänzung der Haftliste verfügen Ihre 
+Ausbilder*innen. 
+(5) Statistische Erfassung der Sitzungsstunden 
+Schließlich ist unbedingt darauf zu achten, dass vom Sitzungsdienst der Terminshandakte 
+beigefügte Formular zur Erfassung der Sitzungsstunden auch in Fortsetzungsterminen für 
+jeden Sitzungstag gesondert auszufüllen. 
+ 
+Bearbeitet und aktualisiert im August 2025 durch: 
+ 
+StAin Miriam Starke, Abt. 213 
+StA Aljoscha Leder, Abt. 213 
+ 
+
+===== SEITE 54 =====
+54  
+<Aktenzeichen> 
+ 
+Hauptverhandlung am      ,       Uhr, Saal       Referendar(in)    ja  nein  
+ vor dem Landgericht Berlin      vor dem Amtsgericht Tiergarten 
+       Vorsitzender:       
+ 
+T e r m i n s v e r m e r k 
+(auch zur Vermögensabschöpfung/ Einziehung gem. §§73ff., 74ff. StGB und Verfahren gem. §§ 421, 423, 425 StPO 
+sowie von Asservaten) 
+  gegen (Name der/des Angeklagten angeben) 
+ 
+Zur Hauptsache 
+ 
+Antrag (auch ggf. zur Vermögensabschöpfung) Entscheidung 
+  
+ 
+MESTA-Erledigungskennziffer 
+ MESTA       
+ Termin aufgehoben, MESTA 740 
+ Neuer Termin von Amts wegen, MESTA 741 
+ 
+Weitere Verfügung 
+ Aufhebung des HB/UnterbringungsB, STA 12 Haftmerkzettel erledigt 
+ Entlassungsanordnung erteilt bzw. 
+ Löschung der Überhaftnotierung veranlasst 
+ Aufhebung des Haftverschonungsbeschlusses 
+ PolAbschnitt       fernmündlich benachrichtigt 
+ PolAbschnitt schriftlich mit STA 73 benachrichtigt 
+ Berufung in einer Haftsache der Amtsanwaltschaft: 
+Amtsanwaltschaft per E-Mail (Haftkontrolle@aa.berlin.de) über die 
+Haftverhältnisse und den Verfahrensausgang informiert 
+ Führerschein-Beschlagnahme aufgehoben 
+ Führerschein ausgehändigt 
+ STA 38 Führerscheinrückgabe in der HV, STA 41 KBA-
+Mitteilung erledigt 
+ 
+ 
+ 
+ 
+ Rüchnahme der Berufung, MESTA 372 
+ Verwerfung der Berufung, MESTA 370 
+ Verwerfung des Einspruchs, MESTA 001 
+ 
+ 
+ Urteil (Unterbringung) rechtskräftig, allseitiger 
+Rechtsmittelverzicht am heutigen Tage 
+ Haft erledigt (Verfügung gesondert) 
+ STA 74 Organisationshaft: Mitteilung einer 
+angeordneten Unterbringung abgesandt 
+ 
+Rechtsmittel wird empfohlen 
+ ja (sofortige Vorlage bei HAL) 
+ nein (bei Unterbringung und Rechtsmittelverzicht siehe 
+oben) 
+ Frau/Herrn CV  
+ Frau/Herrn HAL 
+ Geschäftsstelle:  
+ Haftbefehl gemäß § 230 StPO löschen. 
+ Frau/Herrn AL 
+ Frau/Herrn Dez. 
+ 
+ 
+ 
+  
+(Name) 
+     Staatsanwältin 
+D 16.4 (08.2023) 
