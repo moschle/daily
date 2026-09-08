@@ -1,6 +1,12 @@
 {
-  "done": ["zr-001"],
-  "last_id": "zr-001",
-  "seen_slugs": ["olgdres-2021-11-16-4-u-116821"],
+  "done": [
+    "zr-001",
+    "zr-002"
+  ],
+  "last_id": "zr-002",
+  "seen_slugs": [
+    "olgdres-2021-11-16-4-u-116821",
+    "kg--2020-09-30-3-161-ss-4920-48"
+  ],
   "next_index": 1
 }
