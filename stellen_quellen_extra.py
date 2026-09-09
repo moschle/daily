@@ -189,39 +189,52 @@ def ist_leiche(text, heute=None):
     return False
 
 
-# ─── Quelle: interamt.de ───
-# Öffentlicher Dienst Bund/Länder/Kommunen mit echter Fristenfilterung.
-# Suchprofil per URL steuerbar. Falls interamt die Trefferliste umstellt,
-# hier die URL anpassen — der Parser erntet generisch /stellenangebot?id=.
-INTERAMT_SUCHEN = [
-    ("interamt Islamwiss/Orient",
-     "https://interamt.de/koop/app/trefferliste?"
-     "suchbegriff=Islamwissenschaft&umkreis=bundesweit"),
-    ("interamt Verfassungsschutz",
-     "https://interamt.de/koop/app/trefferliste?"
-     "suchbegriff=Verfassungsschutz+Auswertung&umkreis=bundesweit"),
-    ("interamt Wissenschaft/Kultur",
-     "https://interamt.de/koop/app/trefferliste?"
-     "suchbegriff=wissenschaftlicher+Mitarbeiter+Kultur&umkreis=bundesweit"),
-]
-
-
-def fetch_interamt():
-    jobs = []
-    for name, url in INTERAMT_SUCHEN:
-        jobs.extend(_harvest(name, url, r"stellenangebot\?id=|/stellenangebot/", "interamt"))
-    return jobs
+# ─── Quelle: interamt.de — DEAKTIVIERT ───
+# Befund 09.09.2026: interamt läuft auf Apache Wicket. /trefferliste
+# schickt ohne Session einen 302 auf sich selbst (?0). Mit Cookie-Jar
+# kommt zwar die Seite (95 KB), aber leer — die Ergebnistabelle
+# (data-field="StellenangebotId", "Stellenbezeichnung", "Behoerde",
+# "Bewerbungsfrist") wird erst nach einem Wicket-POST befüllt, dessen
+# Komponentenpfade sich bei jedem UI-Release ändern.
+# Nicht scrapebar mit vertretbarem Aufwand.
+# Stattdessen: bei interamt registrieren und 2–3 Suchaufträge mit
+# E-Mail-Benachrichtigung anlegen. Null Code, keine Wartung, und die
+# Fristenfilterung ist dort echt.
 
 
 # ─── Quelle: bpb-Infodienst Radikalisierungsprävention ───
-def fetch_bpb_infodienst():
+BPB_URL = "https://www.bpb.de/themen/infodienst/304029/stellenangebote/"
+
+# Das Muster /themen/infodienst/ war zu breit — es hat die Navigation
+# eingesammelt. Welcher Pfad die Ausschreibungen trägt, lässt sich von
+# außen nicht raten; der Diagnoselauf unten probiert drei Kandidaten
+# durch und zeigt, welcher echte Stellen liefert.
+BPB_KANDIDATEN = [
+    ("intern, tiefer Pfad", r"/themen/infodienst/\d{6,}/[a-z0-9-]{15,}"),
+    ("externe Links",       r"^https?://(?!www\.bpb\.de)"),
+    ("PDF-Ausschreibungen", r"\.pdf$"),
+]
+
+
+def fetch_bpb_infodienst(pattern=None):
     return _harvest(
         "bpb Infodienst",
-        "https://www.bpb.de/themen/infodienst/304029/stellenangebote/",
-        r"/themen/infodienst/",
+        BPB_URL,
+        pattern or BPB_KANDIDATEN[0][1],
         "bpb",
-        min_titel_len=20,
+        min_titel_len=25,
     )
+
+
+def bpb_diagnose():
+    """Zeigt, welches href-Muster auf der bpb-Seite echte Stellen trifft."""
+    print("\n=== bpb-Diagnose ===")
+    for label, muster in BPB_KANDIDATEN:
+        jobs = fetch_bpb_infodienst(muster)
+        print(f"\n-- {label}: {len(jobs)} Treffer")
+        for j in jobs[:6]:
+            print(f"   {j['title'][:85]}")
+            print(f"     {j['url'][:100]}")
 
 
 # ─── Quelle: Deutscher Museumsbund ───
@@ -238,43 +251,23 @@ def fetch_museumsbund():
     )
 
 
-# ─── Quelle: Landesportale ───
-LANDESPORTALE = [
-    ("karriere.sachsen", "https://www.karriere.sachsen.de/stellenmarkt.html",
-     r"stellenangebot|/stelle/|stellenausschreibung"),
-    ("Stellenmarkt Hessen", "https://stellenmarkt.hessen.de/",
-     r"/stellenangebot|/jobs?/"),
-    ("Karriere Niedersachsen", "https://www.karriere.niedersachsen.de/stellenangebote/",
-     r"/stellenangebote/"),
-]
-
-
-def fetch_landesportale():
-    jobs = []
-    for name, url, pattern in LANDESPORTALE:
-        jobs.extend(_harvest(name, url, pattern, name.split(".")[0].lower()))
-    return jobs
-
-
-# ─── Quelle: GIZ ───
-def fetch_giz():
-    return _harvest(
-        "jobs.giz.de",
-        "https://jobs.giz.de/index.php?ac=search_result",
-        r"ac=jobad|jobad&|/jobad/",
-        "giz",
-    )
+# ─── Landesportale und GIZ — DEAKTIVIERT ───
+# Befund 09.09.2026:
+#   karriere.sachsen.de/stellenmarkt.html  → 404, Seite umgezogen
+#   stellenmarkt.hessen.de                 → SAP UI5, Liste per JS
+#   karriere.niedersachsen.de              → HTML ohne Stellen-hrefs
+#   jobs.giz.de                            → SPA, im HTML stehen nur
+#                                            ZZZZZ_JS_-Platzhalter
+# Alle vier liefern still 0 Treffer — dieselbe Sackgasse wie die
+# Schweizer Unis und die onapply-Portale von BfV und LfV Bayern.
+# Für diese Häuser ist ein Suchauftrag per E-Mail der richtige Weg.
 
 
 # ─── Selbsttest ───
 def selbsttest():
     """python3 stellen_quellen_extra.py — prüft jede Quelle einzeln."""
     for label, fn in [
-        ("interamt", fetch_interamt),
         ("museumsbund", fetch_museumsbund),
-        ("bpb", fetch_bpb_infodienst),
-        ("Landesportale", fetch_landesportale),
-        ("GIZ", fetch_giz),
     ]:
         try:
             jobs = fn()
@@ -291,6 +284,7 @@ def selbsttest():
 
 if __name__ == "__main__":
     selbsttest()
+    bpb_diagnose()
 
 
 # ─── Einbau in stellen_check.py ────────────────────────────────────────
@@ -298,17 +292,13 @@ if __name__ == "__main__":
 # 1) Oben bei den Imports ergänzen:
 #
 #        from stellen_quellen_extra import (
-#            fetch_interamt, fetch_bpb_infodienst, fetch_museumsbund,
-#            fetch_landesportale, fetch_giz, ist_leiche,
+#            fetch_museumsbund, fetch_bpb_infodienst, ist_leiche,
 #        )
 #
 # 2) In main() die sources-Liste erweitern:
 #
-#        ("interamt.de", fetch_interamt),
 #        ("museumsbund", fetch_museumsbund),
 #        ("bpb Infodienst", fetch_bpb_infodienst),
-#        ("Landesportale", fetch_landesportale),
-#        ("jobs.giz.de", fetch_giz),
 #
 # 3) In der Scoring-Schleife von main(), direkt nach
 #    `full_text = f"{job['title']} {job.get('summary','')}"`:
