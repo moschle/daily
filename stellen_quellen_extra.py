@@ -73,6 +73,10 @@ class LinkHarvester(HTMLParser):
     def handle_endtag(self, tag):
         if tag == "a" and self._href is not None:
             text = re.sub(r"\s+", " ", " ".join(self._buf)).strip()
+            # title-Attribut und Linktext sind oft identisch -> Dopplung weg
+            haelfte = len(text) // 2
+            if len(text) > 20 and text[:haelfte].strip() == text[haelfte:].strip():
+                text = text[:haelfte].strip()
             if text:
                 self.hits.append((self._href, unescape(text)))
             self._href = None
