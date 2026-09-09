@@ -1,304 +1,321 @@
 #!/usr/bin/env python3
 """
-Stellen-Monitor — Scoring v3
+Stellen-Monitor — Zusatzquellen (v2.1)
 
-Behebt zwei Fehler von v2.0:
+Ergänzt stellen_check.py um:
+  - interamt.de   (Bund/Länder/Kommunen, ersetzt den Google-Umweg)
+  - bpb-Infodienst Radikalisierungsprävention
+  - Landesportale (Sachsen, Hessen, Niedersachsen)
+  - jobs.giz.de
 
-(1) ZU VIEL: `behörden_kern` gab 4 Punkte allein für den Arbeitgebernamen.
-    Jede BfV-/BND-/LfV-Ausschreibung löste damit für sich aus — auch
-    Fachinformatiker, Objektschutz, Elektroniker. Jetzt zählt der
-    Arbeitgeber nur noch 2 Punkte und braucht ein zweites, fachliches
-    Signal. Zusätzlich zieht ein Technik-Veto Punkte ab.
+Dazu ein Altlasten-Filter (`ist_leiche`), der offensichtlich abgelaufene
+Ausschreibungen aussortiert — das Problem, das Google und RapidJob erzeugen.
 
-(2) ZU WENIG: Wissenschaftskommunikation, Kulturvermittlung und
-    Kulturvermittlung kamen im Raster gar nicht vor. Die DHMD-Stelle
-    („Wissenschaftliche Mitarbeit für Diskurs und Wissenschafts-
-    kommunikation") hätte Score 0 bekommen.
-
-Einbau: Datei neben stellen_check.py legen, dann dort in main()
-    from stellen_scoring_extra import score_v3 as score_text
-statt der lokalen Funktion verwenden. Sonst ändert sich nichts.
+Einbinden: Datei neben stellen_check.py legen, dann in stellen_check.py
+in main() die sources-Liste erweitern (siehe README-Kommentar am Dateiende).
 """
 
 import re
+import sys
+import urllib.request
+from datetime import datetime
+from html import unescape
+from html.parser import HTMLParser
+from urllib.parse import urljoin
 
-from stellen_check import CATEGORIES as BASIS_KATEGORIEN, HARD_BLACKLIST
-
-MIN_SCORE = 3
+USER_AGENT = "StellenMonitor/2.1 (+https://github.com/moschle/daily)"
 
 
-# ─── (1) Arbeitgeber vom Fachthema trennen ───
-# Ersetzt die alte Kategorie "behörden_kern".
-BEHOERDEN_SPLIT = {
-    # Reiner Arbeitgebername: löst NICHT mehr allein aus.
-    "behörden_arbeitgeber": {
-        "weight": 2,
-        "terms": [
-            r"verfassungsschutz", r"bundesnachrichten\w*",
-            r"nachrichtendienst\w*", r"militärisch\w* abschirmdienst",
-            r"auswärtig\w*", r"auswartig\w*", r"auswaertig\w*",
-            r"bundeskriminalamt", r"bundesamt für migration",
-        ],
-    },
-    # Fachliches Thema: löst weiterhin allein aus.
-    "behörden_fachlich": {
-        "weight": 4,
-        "terms": [
-            r"extremism\w*", r"islamismus", r"islamistisch\w*",
-            r"radikalis\w*", r"deradikalis\w*", r"terrorismus\w*",
-            r"salafis\w*", r"dschihadis\w*", r"jihadis\w*",
-            r"hybride bedrohung\w*", r"desinformation\w*",
-            r"lageanalyse", r"lagebild", r"osint",
-            r"politischer islam", r"ausländerextremismus",
-        ],
-    },
+# ─── HTTP ───
+def _fetch(url, timeout=30):
+    req = urllib.request.Request(url, headers={
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "de-DE,de;q=0.9",
+    })
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        raw = resp.read()
+    for enc in ("utf-8", "iso-8859-1"):
+        try:
+            return raw.decode(enc)
+        except UnicodeDecodeError:
+            continue
+    return raw.decode("utf-8", errors="replace")
+
+
+# ─── Generischer Link-Ernter ───
+class LinkHarvester(HTMLParser):
+    """Sammelt <a href>-Elemente, deren href auf ein Muster passt,
+    zusammen mit dem sichtbaren Linktext."""
+
+    def __init__(self, href_pattern):
+        super().__init__()
+        self.pattern = re.compile(href_pattern, re.I)
+        self.hits = []
+        self._href = None
+        self._buf = []
+        self._depth = 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag != "a":
+            if self._href is not None:
+                self._depth += 1
+            return
+        d = dict(attrs)
+        href = d.get("href", "")
+        if href and self.pattern.search(href):
+            self._href = href
+            self._buf = []
+            if d.get("title"):
+                self._buf.append(d["title"])
+            self._depth = 0
+
+    def handle_endtag(self, tag):
+        if tag == "a" and self._href is not None:
+            text = re.sub(r"\s+", " ", " ".join(self._buf)).strip()
+            # title-Attribut und Linktext sind oft identisch -> Dopplung weg
+            haelfte = len(text) // 2
+            if len(text) > 20 and text[:haelfte].strip() == text[haelfte:].strip():
+                text = text[:haelfte].strip()
+            if text:
+                self.hits.append((self._href, unescape(text)))
+            self._href = None
+            self._buf = []
+
+    def handle_data(self, data):
+        if self._href is not None:
+            s = data.strip()
+            if s:
+                self._buf.append(s)
+
+
+def _harvest(name, url, href_pattern, id_prefix, min_titel_len=12, timeout=30):
+    """Holt eine HTML-Seite und erntet passende Stellenlinks."""
+    try:
+        html = _fetch(url, timeout=timeout)
+    except Exception as e:
+        print(f"{name} Fehler: {e}", file=sys.stderr)
+        return []
+
+    p = LinkHarvester(href_pattern)
+    try:
+        p.feed(html)
+    except Exception as e:
+        print(f"{name} Parse-Fehler: {e}", file=sys.stderr)
+        return []
+
+    jobs, gesehen = [], set()
+    for href, text in p.hits:
+        if len(text) < min_titel_len:
+            continue                      # "mehr", "Details", Navigation
+        full = urljoin(url, href)
+        jid = f"{id_prefix}-{re.sub(r'[^A-Za-z0-9]+', '', full)[-40:]}"
+        if jid in gesehen:
+            continue
+        gesehen.add(jid)
+        jobs.append({
+            "source": name,
+            "id": jid,
+            "title": text[:250],
+            "url": full,
+            "summary": "",
+            "updated": "",
+        })
+    print(f"{name}: {len(jobs)} Stellen geladen", file=sys.stderr)
+    return jobs
+
+
+# ─── Altlasten-Filter ───
+_MONATE = {
+    "januar": 1, "februar": 2, "märz": 3, "maerz": 3, "april": 4, "mai": 5,
+    "juni": 6, "juli": 7, "august": 8, "september": 9, "oktober": 10,
+    "november": 11, "dezember": 12,
 }
 
 
-# ─── (2) Fehlende Felder ───
-ZUSATZ_KATEGORIEN = {
-    # Wissenschaftskommunikation — das DHMD-Loch: 3 Punkte
-    "wissenschaftskommunikation": {
-        "weight": 3,
-        "terms": [
-            r"wissenschaftskommunikation", r"wissenschaftsvermittlung",
-            r"science communication", r"public engagement",
-            r"wissensvermittlung", r"wissenstransfer",
-            r"bürgerdialog\w*", r"buergerdialog\w*",
-            r"partizipative\w* format\w*", r"diskursive\w* format\w*",
-            r"dialogische\w* format\w*", r"veranstaltungsformat\w*",
-            r"kinder-?universität", r"kinder-?uni\b",
-            r"museumskommunikation", r"vermittlungsformat\w*",
-            r"bildungsprogramm\w*", r"diskursprogramm\w*",
-        ],
-    },
-    # Kulturarbeit, Programm, Moderation: 2 Punkte
-    "kulturarbeit_programm": {
-        "weight": 2,
-        "terms": [
-            r"kulturvermittlung", r"kulturmanagement",
-            r"programmkuration", r"programmleitung",
-            r"festivalleitung", r"festivalorganisation",
-            r"veranstaltungskonzeption", r"veranstaltungsprogramm\w*",
-            r"lesungsreihe", r"literaturfestival", r"literaturprogramm",
-            r"moderation\w* von veranstaltungen",
-            r"kulturelle bildung",
-        ],
-    },
-}
+def ist_leiche(text, heute=None):
+    """True, wenn die Ausschreibung erkennbar abgelaufen ist.
 
-
-# ─── (2b) Literaturbetrieb: Zeitungen, Verlage, Feuilleton — 3 Punkte ───
-LITERATUR_KATEGORIEN = {
-    "literaturbetrieb": {
-        "weight": 3,
-        "terms": [
-            r"feuilleton\w*", r"kulturredaktion", r"kulturressort",
-            r"kulturjournalis\w*", r"literaturredaktion",
-            r"literaturkritik\w*", r"rezensent\w*", r"rezensionsteil",
-            r"literaturzeitschrift\w*", r"literarische zeitschrift",
-            r"zeitschriftenredaktion", r"literaturbetrieb",
-            r"literarisches colloquium", r"literaturwerkstatt",
-            r"schreibwerkstatt", r"literarisches schreiben",
-            r"creative writing", r"poetik\w*",
-            r"poesiefestival", r"lyrikfestival", r"literaturfestival",
-            r"autorenförderung", r"autorenbetreuung",
-            r"verlagsleitung", r"programmleitung verlag",
-            r"buchmesse", r"literaturarchiv\w*",
-            r"hörfunkredaktion", r"radiofeature",
-        ],
-    },
-}
-
-# ─── (2c) Erweiterungen bestehender Kategorien ───
-# Lyrik/Übersetzung von 3 auf 4: soll allein auslösen.
-UEBERSETZUNG_LYRIK_NEU = {
-    "weight": 4,
-    "terms": [
-        r"literarische übersetzung", r"literarisches übersetzen",
-        r"literary translation", r"poetry translation",
-        r"lyrikübersetzung", r"lyrikuebersetzung", r"nachdichtung\w*",
-        r"übersetzerwerkstatt", r"uebersetzerwerkstatt",
-        r"übersetzerhaus", r"übersetzerresidenz",
-        r"übersetzungswiss\w*", r"übersetzungswerkstatt",
-        r"lyrik\w*", r"poesie", r"poet\w*", r"dichtung\w*",
-        r"gegenwartslyrik", r"versform", r"freie vers\w*",
-        r"poetry", r"poetics",
-    ],
-}
-
-# Iran/Afghanistan/Tadschikistan schärfen — "iranisch" fiel bisher durch,
-# weil \biran\b nur den nackten Ländernamen trifft.
-IRAN_ZUSATZ = [
-    r"iranisch\w*", r"iranian", r"irans",
-    r"afghanistan", r"tadschikistan", r"tajikistan",
-    r"\bdari\b", r"paschtu\w*", r"pashto", r"\bfarsi\b",
-    r"hazara\w*", r"belutsch\w*", r"baloch\w*",
-    r"kabul", r"herat", r"masar-i-scharif",
-    r"teheran", r"tehran", r"isfahan", r"maschhad", r"mashhad",
-    r"duschanbe", r"dushanbe", r"chudschand", r"khujand",
-    r"chorasan", r"khorasan", r"transoxanien", r"transoxania",
-    r"samarkand", r"buchara", r"bukhara", r"usbek\w*", r"uzbek\w*",
-    r"sogdisch\w*", r"pamir\w*", r"badachschan", r"badakhshan",
-    r"persianate", r"neupersisch\w*",
-]
-
-
-# Volontär/Volontärin fiel durch: das Raster hing an "volontariat".
-# "Wissenschaftliche/n Volontär/in" bekam 0, "wissenschaftliches
-# Volontariat" 3. Beide Schreibweisen zaehlen jetzt gleich.
-VOLONTAER_ZUSATZ = [r"volontär\w*", r"volontaer\w*"]
-
-
-# ─── (3) Technik-Veto: zieht Punkte ab statt hart zu sperren ───
-# Negativ statt Blacklist, damit eine echte Grenzstelle
-# („OSINT-Auswertung Iran") nicht mit rausfliegt.
-VETO_KATEGORIEN = {
-    "technik_veto": {
-        "weight": -4,
-        "terms": [
-            r"fachinformatiker\w*", r"informatiker\w*",
-            r"softwareentwickl\w*", r"software-entwickl\w*",
-            r"anwendungsentwickl\w*", r"systemadministrat\w*",
-            r"netzwerkadministrat\w*", r"datenbankadministrat\w*",
-            r"it-sicherheit", r"it-security", r"cyber-?sicherheit",
-            r"penetrationstest\w*", r"rechenzentrum",
-            r"nachrichtentechnik", r"fernmelde\w*",
-            r"elektroniker\w*", r"elektrotechnik",
-            r"mechatronik\w*", r"kraftfahrer\w*", r"berufskraftfahrer\w*",
-            r"objektschutz", r"wachdienst", r"sicherheitsdienst",
-            r"haustechnik", r"gebäudemanagement", r"gebaeudemanagement",
-            r"schreinerei", r"schlosserei",
-            r"\bsap\b", r"devops", r"cloud-?architekt\w*",
-            r"data engineer\w*", r"\bkerntechnik\w*",
-        ],
-    },
-    # Sprachdienstleistung als Beruf: nicht das Niveau, das gesucht wird.
-    # Literarisches Übersetzen bleibt unberührt (eigene Kategorie).
-    "sprachdienst_veto": {
-        "weight": -3,
-        "terms": [
-            r"sprachendienst", r"sprachmittl\w*", r"sprachmittler\w*",
-            r"dolmetsch\w*", r"simultandolmetsch\w*",
-            r"bundessprachenamt", r"sprachsachverständig\w*",
-            r"sprachanalyst\w*", r"terminologiearbeit",
-            r"muttersprachlich\w* niveau",
-        ],
-    },
-    "verwaltung_veto": {
-        "weight": -3,
-        "terms": [
-            r"buchhaltung", r"rechnungswesen", r"controlling",
-            r"vergabestelle", r"vergaberecht", r"beschaffungsstelle",
-            r"personalsachbearbeit\w*", r"lohnbuchhaltung",
-            r"haushaltssachbearbeit\w*", r"reisekostenabrechnung",
-            r"fuhrpark\w*", r"poststelle", r"registratur",
-            r"materialverwaltung", r"liegenschaftsverwaltung",
-        ],
-    },
-}
-
-
-# ─── Zusammenbau ───
-def _baue_kategorien():
-    kat = dict(BASIS_KATEGORIEN)
-    kat.pop("behörden_kern", None)          # ersetzt durch den Split
-    kat.update(BEHOERDEN_SPLIT)
-    kat.update(ZUSATZ_KATEGORIEN)
-    kat.update(LITERATUR_KATEGORIEN)
-    kat["übersetzung_lyrik"] = UEBERSETZUNG_LYRIK_NEU
-    kern = dict(kat["iran_islam_kern"])
-    kern["terms"] = list(kern["terms"]) + IRAN_ZUSATZ
-    kat["iran_islam_kern"] = kern
-    for name in ("kuratorisch_wiss_volo", "schwach_methodisch"):
-        eintrag = dict(kat[name])
-        eintrag["terms"] = list(eintrag["terms"]) + VOLONTAER_ZUSATZ
-        kat[name] = eintrag
-    kat.update(VETO_KATEGORIEN)
-    return kat
-
-
-ALLE_KATEGORIEN = _baue_kategorien()
-
-
-def _kompiliere(kategorien):
-    out = {}
-    for name, data in kategorien.items():
-        muster = []
-        for term in data["terms"]:
-            if r"\b" in term:
-                muster.append(re.compile(term, re.IGNORECASE))
-            else:
-                muster.append(re.compile(r"\b" + term + r"\b", re.IGNORECASE))
-        out[name] = (data["weight"], muster)
-    return out
-
-
-_COMPILED = _kompiliere(ALLE_KATEGORIEN)
-
-
-def score_v3(text):
-    """Wie score_text in v2.0, aber mit Split, Veto und neuen Kategorien.
-
-    Rückgabe: (score, [kategorien]) — identische Signatur, damit main()
-    unverändert bleibt. Negative Summen werden auf 0 geklemmt.
+    Greift die vier Tells auf, die bei Google/RapidJob auffielen:
+    Jahreszahl in der Kennziffer, Frist in der Vergangenheit,
+    Befristungsende in der Vergangenheit, alte Gesetzesfassung.
+    Konservativ: im Zweifel False, damit nichts Gutes wegfällt.
     """
-    t_lower = text.lower()
-    if any(b in t_lower for b in HARD_BLACKLIST):
-        return (0, [])
+    heute = heute or datetime.now()
+    t = text.lower()
 
-    summe = 0
-    treffer = []
-    for name, (gewicht, muster) in _COMPILED.items():
-        if any(p.search(text) for p in muster):
-            summe += gewicht
-            treffer.append(name)
+    # 1) Kennziffer mit Jahreszahl: "AWV-2019-048", "A 9 / 2019", "Kz 12/2021"
+    for m in re.finditer(r"(?:kennziffer|kz\.?|az\.?|ausschreibung)\D{0,12}(20\d{2})", t):
+        if int(m.group(1)) < heute.year - 1:
+            return True
+    for m in re.finditer(r"\b[a-z]{2,4}[-/\s](20\d{2})[-/]\d{2,4}\b", t):
+        if int(m.group(1)) < heute.year - 1:
+            return True
 
-    return (max(summe, 0), treffer)
+    # 2) Bewerbungsfrist explizit in der Vergangenheit
+    for m in re.finditer(
+        r"(?:frist|bewerbungsschluss|bewerben sie sich bis|bis zum)\D{0,20}"
+        r"(\d{1,2})\.\s*(\d{1,2})\.\s*(20\d{2})", t):
+        try:
+            frist = datetime(int(m.group(3)), int(m.group(2)), int(m.group(1)))
+        except ValueError:
+            continue
+        if frist < heute:
+            return True
+    for m in re.finditer(
+        r"(?:frist|bewerbungsschluss|bis zum)\D{0,20}"
+        r"(\d{1,2})\.\s*([a-zä]+)\s*(20\d{2})", t):
+        mon = _MONATE.get(m.group(2))
+        if not mon:
+            continue
+        try:
+            frist = datetime(int(m.group(3)), mon, int(m.group(1)))
+        except ValueError:
+            continue
+        if frist < heute:
+            return True
+
+    # 3) Befristung endet in der Vergangenheit
+    for m in re.finditer(r"befristet bis\D{0,15}(?:\d{1,2}\.\s*\d{1,2}\.\s*)?(20\d{2})", t):
+        if int(m.group(1)) < heute.year:
+            return True
+
+    # 4) Gesetzesfassung mit altem Stand
+    for m in re.finditer(
+            r"i\.\s?d\.\s?f\.[^\d]{0,12}(?:\d{1,2}\.\s?\d{1,2}\.\s?)?(19|20)?(\d{2})\b", t):
+        jahr = int(f"{m.group(1) or '20'}{m.group(2)}")
+        if jahr < heute.year - 5:
+            return True
+    for m in re.finditer(r"in der fassung vom[^\d]{0,12}(?:\d{1,2}\.\s?\d{1,2}\.\s?)?(20\d{2})", t):
+        if int(m.group(1)) < heute.year - 5:
+            return True
+
+    return False
 
 
-# ─── Selbsttest: reale Fälle aus der bisherigen Pipeline ───
-_FAELLE = [
-    # (Text, soll durchkommen?)
-    ("Wissenschaftliche Mitarbeit (m/w/d) für Diskurs und Wissenschaftskommunikation, "
-     "Abteilung Diskurs & Wissen, Kinder-Universität mit der TU Dresden", True),
-    ("Referent/in (m/w/d) Auswertung Islamismus beim Bundesamt für Verfassungsschutz", True),
-    ("Fachinformatiker (m/w/d) Systemintegration beim Bundesamt für Verfassungsschutz", False),
-    ("Elektroniker (m/w/d) für den Bundesnachrichtendienst", False),
-    ("Sachbearbeitung Haushalt und Beschaffung beim Verfassungsschutz", False),
-    ("Wissenschaftliche Volontärin (m/w/d) Gedenkstätte Buchenwald", True),
-    ("Sprachmittler (m/w/d) Persisch/Dari beim Bundessprachenamt", False),
-    ("Übersetzerwerkstatt persische Lyrik, literarisches Übersetzen", True),
-    ("Kuratorisches Volontariat Ausstellungskonzeption Museum", True),
-    ("Projektleitung Prävention und Deradikalisierung, AwareNet Hannover", True),
-    ("Berufskraftfahrer (m/w/d) im Fuhrpark einer Bundesbehörde", False),
-    ("Online Marketing Manager (m/w/d)", False),
-    ("Lektorat Belletristik in einem unabhängigen Verlag", True),  # Verlagsschiene bleibt drin
-    ("OSINT-Auswertung Naher Osten, Cyber-Sicherheit als Teilaspekt", True),
-    ("Redakteur (m/w/d) Feuilleton, Schwerpunkt Literaturkritik", True),
-    ("Lektorat Lyrik und Nachdichtung in einem unabhängigen Verlag", True),
-    ("Wissenschaftliche Mitarbeit, Projekt zur iranischen Gegenwartsliteratur", True),
-    ("Programmkoordination Übersetzerwerkstatt, Literarisches Colloquium", True),
-    ("Landesreferent (m/w/d) Afghanistan und Tadschikistan, Entwicklungszusammenarbeit", True),
-    ("Sachbearbeitung Fuhrparkverwaltung, Feuilletonabo inklusive", False),
-    ("Wissenschaftliche/n Volontär/in (m/w/d) am Stadtmuseum", True),
-    ("Wissenschaftlicher Volontär (m/w/d) Sammlung", True),
-    ("Wissenschaftliches Volontariat (m/w/d)", True),
+# ─── Quelle: interamt.de — DEAKTIVIERT ───
+# Befund 09.09.2026: interamt läuft auf Apache Wicket. /trefferliste
+# schickt ohne Session einen 302 auf sich selbst (?0). Mit Cookie-Jar
+# kommt zwar die Seite (95 KB), aber leer — die Ergebnistabelle
+# (data-field="StellenangebotId", "Stellenbezeichnung", "Behoerde",
+# "Bewerbungsfrist") wird erst nach einem Wicket-POST befüllt, dessen
+# Komponentenpfade sich bei jedem UI-Release ändern.
+# Nicht scrapebar mit vertretbarem Aufwand.
+# Stattdessen: bei interamt registrieren und 2–3 Suchaufträge mit
+# E-Mail-Benachrichtigung anlegen. Null Code, keine Wartung, und die
+# Fristenfilterung ist dort echt.
+
+
+# ─── Quelle: bpb-Infodienst Radikalisierungsprävention ───
+BPB_URL = "https://www.bpb.de/themen/infodienst/304029/stellenangebote/"
+
+# Das Muster /themen/infodienst/ war zu breit — es hat die Navigation
+# eingesammelt. Welcher Pfad die Ausschreibungen trägt, lässt sich von
+# außen nicht raten; der Diagnoselauf unten probiert drei Kandidaten
+# durch und zeigt, welcher echte Stellen liefert.
+BPB_KANDIDATEN = [
+    ("intern, tiefer Pfad", r"/themen/infodienst/\d{6,}/[a-z0-9-]{15,}"),
+    ("externe Links",       r"^https?://(?!www\.bpb\.de)"),
+    ("PDF-Ausschreibungen", r"\.pdf$"),
 ]
 
 
+# Solange kein Muster echte Ausschreibungen trifft: aus.
+# bpb_diagnose() laeuft unabhaengig davon weiter.
+BPB_AKTIV = False
+
+
+def fetch_bpb_infodienst(pattern=None):
+    if not BPB_AKTIV and pattern is None:
+        print("bpb Infodienst: deaktiviert (Muster ungeklaert)", file=sys.stderr)
+        return []
+    return _harvest(
+        "bpb Infodienst",
+        BPB_URL,
+        pattern or BPB_KANDIDATEN[0][1],
+        "bpb",
+        min_titel_len=25,
+    )
+
+
+def bpb_diagnose():
+    """Zeigt, welches href-Muster auf der bpb-Seite echte Stellen trifft."""
+    print("\n=== bpb-Diagnose ===")
+    for label, muster in BPB_KANDIDATEN:
+        jobs = fetch_bpb_infodienst(muster)
+        print(f"\n-- {label}: {len(jobs)} Treffer")
+        for j in jobs[:6]:
+            print(f"   {j['title'][:85]}")
+            print(f"     {j['url'][:100]}")
+
+
+# ─── Quelle: Deutscher Museumsbund ───
+# Fundort der DHMD-Stelle. Deckt Volontariate, Kuratorisches und
+# Wissenschaftskommunikation an Museen ab — kommt über keinen der
+# bisherigen Feeds rein.
+def fetch_museumsbund():
+    return _harvest(
+        "museumsbund",
+        "https://www.museumsbund.de/stellenangebote/",
+        r"/stellenangebote/[a-z0-9-]{12,}",
+        "mbund",
+        min_titel_len=15,
+    )
+
+
+# ─── Landesportale und GIZ — DEAKTIVIERT ───
+# Befund 09.09.2026:
+#   karriere.sachsen.de/stellenmarkt.html  → 404, Seite umgezogen
+#   stellenmarkt.hessen.de                 → SAP UI5, Liste per JS
+#   karriere.niedersachsen.de              → HTML ohne Stellen-hrefs
+#   jobs.giz.de                            → SPA, im HTML stehen nur
+#                                            ZZZZZ_JS_-Platzhalter
+# Alle vier liefern still 0 Treffer — dieselbe Sackgasse wie die
+# Schweizer Unis und die onapply-Portale von BfV und LfV Bayern.
+# Für diese Häuser ist ein Suchauftrag per E-Mail der richtige Weg.
+
+
+# ─── Selbsttest ───
 def selbsttest():
-    fehler = 0
-    for text, soll in _FAELLE:
-        score, kats = score_v3(text)
-        ist = score >= MIN_SCORE
-        ok = "OK  " if ist == soll else "FAIL"
-        if ist != soll:
-            fehler += 1
-        print(f"{ok} score={score:>2} soll={'JA ' if soll else 'NEIN'} | {text[:64]}")
-        print(f"          {', '.join(kats) or '—'}")
-    print(f"\n{len(_FAELLE) - fehler}/{len(_FAELLE)} korrekt")
+    """python3 stellen_quellen_extra.py — prüft jede Quelle einzeln."""
+    for label, fn in [
+        ("museumsbund", fetch_museumsbund),
+    ]:
+        try:
+            jobs = fn()
+            print(f"\n### {label}: {len(jobs)} Treffer")
+            for j in jobs[:5]:
+                mark = "LEICHE" if ist_leiche(j["title"]) else "ok"
+                print(f"  [{mark}] {j['title'][:90]}")
+                print(f"         {j['url']}")
+            if not jobs:
+                print("  ⚠ 0 Treffer — URL oder href-Muster stimmt nicht mehr.")
+        except Exception as e:
+            print(f"\n### {label}: FEHLER {e}")
 
 
 if __name__ == "__main__":
     selbsttest()
+    bpb_diagnose()
+
+
+# ─── Einbau in stellen_check.py ────────────────────────────────────────
+#
+# 1) Oben bei den Imports ergänzen:
+#
+#        from stellen_quellen_extra import (
+#            fetch_museumsbund, fetch_bpb_infodienst, ist_leiche,
+#        )
+#
+# 2) In main() die sources-Liste erweitern:
+#
+#        ("museumsbund", fetch_museumsbund),
+#        ("bpb Infodienst", fetch_bpb_infodienst),
+#
+# 3) In der Scoring-Schleife von main(), direkt nach
+#    `full_text = f"{job['title']} {job.get('summary','')}"`:
+#
+#        if ist_leiche(full_text):
+#            continue
+#
+# ──────────────────────────────────────────────────────────────────────
