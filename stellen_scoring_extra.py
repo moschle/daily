@@ -1,5 +1,24 @@
 #!/usr/bin/env python3
-"""Stellen-Monitor — Scoring v3."""
+"""
+Stellen-Monitor — Scoring v3
+
+Behebt zwei Fehler von v2.0:
+
+(1) ZU VIEL: `behörden_kern` gab 4 Punkte allein für den Arbeitgebernamen.
+    Jede BfV-/BND-/LfV-Ausschreibung löste damit für sich aus — auch
+    Fachinformatiker, Objektschutz, Elektroniker. Jetzt zählt der
+    Arbeitgeber nur noch 2 Punkte und braucht ein zweites, fachliches
+    Signal. Zusätzlich zieht ein Technik-Veto Punkte ab.
+
+(2) ZU WENIG: Wissenschaftskommunikation, Kulturvermittlung und
+    Kulturvermittlung kamen im Raster gar nicht vor. Die DHMD-Stelle
+    („Wissenschaftliche Mitarbeit für Diskurs und Wissenschafts-
+    kommunikation") hätte Score 0 bekommen.
+
+Einbau: Datei neben stellen_check.py legen, dann dort in main()
+    from stellen_scoring_extra import score_v3 as score_text
+statt der lokalen Funktion verwenden. Sonst ändert sich nichts.
+"""
 
 import re
 
@@ -7,7 +26,11 @@ from stellen_check import CATEGORIES as BASIS_KATEGORIEN, HARD_BLACKLIST
 
 MIN_SCORE = 3
 
+
+# ─── (1) Arbeitgeber vom Fachthema trennen ───
+# Ersetzt die alte Kategorie "behörden_kern".
 BEHOERDEN_SPLIT = {
+    # Reiner Arbeitgebername: löst NICHT mehr allein aus.
     "behörden_arbeitgeber": {
         "weight": 2,
         "terms": [
@@ -17,6 +40,7 @@ BEHOERDEN_SPLIT = {
             r"bundeskriminalamt", r"bundesamt für migration",
         ],
     },
+    # Fachliches Thema: löst weiterhin allein aus.
     "behörden_fachlich": {
         "weight": 4,
         "terms": [
@@ -30,7 +54,10 @@ BEHOERDEN_SPLIT = {
     },
 }
 
+
+# ─── (2) Fehlende Felder ───
 ZUSATZ_KATEGORIEN = {
+    # Wissenschaftskommunikation — das DHMD-Loch: 3 Punkte
     "wissenschaftskommunikation": {
         "weight": 3,
         "terms": [
@@ -45,6 +72,7 @@ ZUSATZ_KATEGORIEN = {
             r"bildungsprogramm\w*", r"diskursprogramm\w*",
         ],
     },
+    # Kulturarbeit, Programm, Moderation: 2 Punkte
     "kulturarbeit_programm": {
         "weight": 2,
         "terms": [
@@ -59,6 +87,8 @@ ZUSATZ_KATEGORIEN = {
     },
 }
 
+
+# ─── (2b) Literaturbetrieb: Zeitungen, Verlage, Feuilleton — 3 Punkte ───
 LITERATUR_KATEGORIEN = {
     "literaturbetrieb": {
         "weight": 3,
@@ -80,6 +110,8 @@ LITERATUR_KATEGORIEN = {
     },
 }
 
+# ─── (2c) Erweiterungen bestehender Kategorien ───
+# Lyrik/Übersetzung von 3 auf 4: soll allein auslösen.
 UEBERSETZUNG_LYRIK_NEU = {
     "weight": 4,
     "terms": [
@@ -95,6 +127,8 @@ UEBERSETZUNG_LYRIK_NEU = {
     ],
 }
 
+# Iran/Afghanistan/Tadschikistan schärfen — "iranisch" fiel bisher durch,
+# weil \biran\b nur den nackten Ländernamen trifft.
 IRAN_ZUSATZ = [
     r"iranisch\w*", r"iranian", r"irans",
     r"afghanistan", r"tadschikistan", r"tajikistan",
@@ -109,6 +143,10 @@ IRAN_ZUSATZ = [
     r"persianate", r"neupersisch\w*",
 ]
 
+
+# ─── (3) Technik-Veto: zieht Punkte ab statt hart zu sperren ───
+# Negativ statt Blacklist, damit eine echte Grenzstelle
+# („OSINT-Auswertung Iran") nicht mit rausfliegt.
 VETO_KATEGORIEN = {
     "technik_veto": {
         "weight": -4,
@@ -129,6 +167,8 @@ VETO_KATEGORIEN = {
             r"data engineer\w*", r"\bkerntechnik\w*",
         ],
     },
+    # Sprachdienstleistung als Beruf: nicht das Niveau, das gesucht wird.
+    # Literarisches Übersetzen bleibt unberührt (eigene Kategorie).
     "sprachdienst_veto": {
         "weight": -3,
         "terms": [
@@ -153,9 +193,10 @@ VETO_KATEGORIEN = {
 }
 
 
+# ─── Zusammenbau ───
 def _baue_kategorien():
     kat = dict(BASIS_KATEGORIEN)
-    kat.pop("behörden_kern", None)
+    kat.pop("behörden_kern", None)          # ersetzt durch den Split
     kat.update(BEHOERDEN_SPLIT)
     kat.update(ZUSATZ_KATEGORIEN)
     kat.update(LITERATUR_KATEGORIEN)
@@ -187,20 +228,30 @@ _COMPILED = _kompiliere(ALLE_KATEGORIEN)
 
 
 def score_v3(text):
+    """Wie score_text in v2.0, aber mit Split, Veto und neuen Kategorien.
+
+    Rückgabe: (score, [kategorien]) — identische Signatur, damit main()
+    unverändert bleibt. Negative Summen werden auf 0 geklemmt.
+    """
     t_lower = text.lower()
     if any(b in t_lower for b in HARD_BLACKLIST):
         return (0, [])
+
     summe = 0
     treffer = []
     for name, (gewicht, muster) in _COMPILED.items():
         if any(p.search(text) for p in muster):
             summe += gewicht
             treffer.append(name)
+
     return (max(summe, 0), treffer)
 
 
+# ─── Selbsttest: reale Fälle aus der bisherigen Pipeline ───
 _FAELLE = [
-    ("Wissenschaftliche Mitarbeit (m/w/d) für Diskurs und Wissenschaftskommunikation, Abteilung Diskurs & Wissen, Kinder-Universität mit der TU Dresden", True),
+    # (Text, soll durchkommen?)
+    ("Wissenschaftliche Mitarbeit (m/w/d) für Diskurs und Wissenschaftskommunikation, "
+     "Abteilung Diskurs & Wissen, Kinder-Universität mit der TU Dresden", True),
     ("Referent/in (m/w/d) Auswertung Islamismus beim Bundesamt für Verfassungsschutz", True),
     ("Fachinformatiker (m/w/d) Systemintegration beim Bundesamt für Verfassungsschutz", False),
     ("Elektroniker (m/w/d) für den Bundesnachrichtendienst", False),
@@ -212,7 +263,7 @@ _FAELLE = [
     ("Projektleitung Prävention und Deradikalisierung, AwareNet Hannover", True),
     ("Berufskraftfahrer (m/w/d) im Fuhrpark einer Bundesbehörde", False),
     ("Online Marketing Manager (m/w/d)", False),
-    ("Lektorat Belletristik in einem unabhängigen Verlag", True),
+    ("Lektorat Belletristik in einem unabhängigen Verlag", True),  # Verlagsschiene bleibt drin
     ("OSINT-Auswertung Naher Osten, Cyber-Sicherheit als Teilaspekt", True),
     ("Redakteur (m/w/d) Feuilleton, Schwerpunkt Literaturkritik", True),
     ("Lektorat Lyrik und Nachdichtung in einem unabhängigen Verlag", True),
