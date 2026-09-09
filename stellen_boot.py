@@ -10,10 +10,8 @@ import sys
 
 import stellen_check as sc
 from stellen_quellen_extra import (
-    fetch_interamt,
+    fetch_museumsbund,
     fetch_bpb_infodienst,
-    fetch_landesportale,
-    fetch_giz,
     ist_leiche,
 )
 from stellen_scoring_extra import score_v3
@@ -32,10 +30,8 @@ def main() -> None:
         ("jobs.ac.uk Languages", sc.fetch_jobsacuk_languages),
         ("jobs.ac.uk History", sc.fetch_jobsacuk_history),
         ("jobs.ac.uk Politics", sc.fetch_jobsacuk_politics),
-        ("interamt.de", fetch_interamt),
+        ("museumsbund", fetch_museumsbund),
         ("bpb Infodienst", fetch_bpb_infodienst),
-        ("Landesportale", fetch_landesportale),
-        ("jobs.giz.de", fetch_giz),
     ]
     all_jobs = []
     sources_status = {}
