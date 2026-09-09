@@ -32,7 +32,7 @@ SEEN_FILE = Path(__file__).parent / "stellen_seen.json"
 SEEN_TTL_DAYS = 90
 
 # ─── Filter-Konfiguration: Score-basiert mit Wortgrenzen ───
-MIN_SCORE = 3
+MIN_SCORE = 4
 
 CATEGORIES = {
     # ── Kerngebiet: 4 Punkte (löst alleine aus) ──
@@ -319,10 +319,35 @@ def mark_seen(seen, job_id, source, title, url, score=0, categories=None):
 
 
 # ─── HTTP Helper ───
-def fetch_url(url, timeout=20):
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+BROWSER_UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/127.0 Safari/537.36"
+)
+
+
+def _get(url, ua, timeout):
+    req = urllib.request.Request(url, headers={
+        "User-Agent": ua,
+        "Accept": "application/rss+xml, application/xml, text/xml, text/html;q=0.8",
+        "Accept-Language": "de,en;q=0.8",
+    })
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read().decode("utf-8", errors="replace")
+
+
+def fetch_url(url, timeout=20):
+    """Holt eine URL. Bei 403/429 einmal mit Browser-UA nachfassen.
+
+    Cloudflare & Co. sperren den Default-UA von GitHub-Actions-Runnern —
+    das war der stille Grund fuer '0 geladen' bei jobs.ac.uk.
+    """
+    try:
+        return _get(url, USER_AGENT, timeout)
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403, 429):
+            print(f"  {url} -> HTTP {e.code}, Retry mit Browser-UA", file=sys.stderr)
+            return _get(url, BROWSER_UA, timeout)
+        raise
 
 
 # ─── Generischer RSS/Atom-Parser ───
@@ -395,15 +420,37 @@ def parse_rss_or_atom(data, source_name, base_url=""):
 
 
 def fetch_feed(url, source_name):
-    """Generische Feed-Abfrage mit Fehlerbehandlung."""
-    try:
-        data = fetch_url(url, timeout=30)
-    except Exception as e:
-        print(f"{source_name} Fehler: {e}", file=sys.stderr)
-        return []
+    """Eine Feed-URL. Fehler werden GEWORFEN, nicht verschluckt.
+
+    Vorher gab ein 403 oder 404 hier eine leere Liste zurueck und die Mail
+    meldete '0 geladen' — nicht unterscheidbar von einem wirklich leeren
+    Feed. Genau daran sind jobs.ac.uk und UniBwM wochenlang unbemerkt
+    ausgefallen.
+    """
+    data = fetch_url(url, timeout=30)
     jobs = parse_rss_or_atom(data, source_name, base_url=url)
-    print(f"{source_name}: {len(jobs)} Stellen geladen", file=sys.stderr)
+    print(f"{source_name}: {len(jobs)} Stellen geladen ({url})", file=sys.stderr)
     return jobs
+
+
+def fetch_feed_any(urls, source_name):
+    """Probiert mehrere Feed-URLs, nimmt die erste, die Eintraege liefert.
+
+    Portale bauen ihre Feed-Pfade um; so ueberlebt der Monitor das,
+    ohne stillzulegen. Erst wenn ALLE Kandidaten scheitern, fliegt ein
+    Fehler — und der landet sichtbar in der Mail.
+    """
+    fehler = []
+    for url in urls:
+        try:
+            jobs = fetch_feed(url, source_name)
+        except Exception as e:
+            fehler.append(f"{url}: {e}")
+            continue
+        if jobs:
+            return jobs
+        fehler.append(f"{url}: 0 Eintraege")
+    raise RuntimeError("; ".join(fehler))
 
 
 # ─── Quelle: H-Soz-Kult Atom ───
@@ -433,23 +480,38 @@ def fetch_arthist():
 
 
 # ─── Quelle: jobs.ac.uk RSS-Feeds ───
-def fetch_jobsacuk_languages():
-    return fetch_feed(
+# Der alte Pfad /jobs/<slug>/?format=rss liefert nichts mehr. jobs.ac.uk
+# fuehrt seine Feeds inzwischen unter /feeds/subject-areas/<slug>.
+# Beide Varianten stehen drin, die erste, die Eintraege bringt, gewinnt.
+JOBSACUK_FEEDS = {
+    "jobs.ac.uk Languages": [
+        "https://www.jobs.ac.uk/feeds/subject-areas/languages-literature-and-culture",
         "https://www.jobs.ac.uk/jobs/languages-literature-and-culture/?format=rss",
-        "jobs.ac.uk Languages"
-    )
+    ],
+    "jobs.ac.uk History": [
+        "https://www.jobs.ac.uk/feeds/subject-areas/historical-and-philosophical-studies",
+        "https://www.jobs.ac.uk/jobs/historical-and-philosophical-studies/?format=rss",
+    ],
+    "jobs.ac.uk Politics": [
+        "https://www.jobs.ac.uk/feeds/subject-areas/politics-and-government",
+        "https://www.jobs.ac.uk/jobs/politics-and-government/?format=rss",
+    ],
+}
+
+
+def fetch_jobsacuk_languages():
+    name = "jobs.ac.uk Languages"
+    return fetch_feed_any(JOBSACUK_FEEDS[name], name)
+
 
 def fetch_jobsacuk_history():
-    return fetch_feed(
-        "https://www.jobs.ac.uk/jobs/historical-and-philosophical-studies/?format=rss",
-        "jobs.ac.uk History"
-    )
+    name = "jobs.ac.uk History"
+    return fetch_feed_any(JOBSACUK_FEEDS[name], name)
+
 
 def fetch_jobsacuk_politics():
-    return fetch_feed(
-        "https://www.jobs.ac.uk/jobs/politics-and-government/?format=rss",
-        "jobs.ac.uk Politics"
-    )
+    name = "jobs.ac.uk Politics"
+    return fetch_feed_any(JOBSACUK_FEEDS[name], name)
 
 
 # ─── Quelle: kultweet.de HTML ───
@@ -578,17 +640,16 @@ class UniBwMParser(HTMLParser):
 
 def fetch_unibwm():
     url = "https://www.unibw.de/stellenausschreibungen/wissenschaftliche-mitarbeiter"
-    try:
-        html = fetch_url(url, timeout=30)
-    except Exception as e:
-        print(f"UniBwM Fehler: {e}", file=sys.stderr)
-        return []
+    html = fetch_url(url, timeout=30)   # Fehler wirft, statt still 0 zu melden
     parser = UniBwMParser()
-    try:
-        parser.feed(html)
-    except Exception as e:
-        print(f"UniBwM Parse-Fehler: {e}", file=sys.stderr)
-        return []
+    parser.feed(html)
+    if not parser.jobs:
+        # Seite kam an, Parser fand nichts: fast immer geaendertes Markup.
+        # Als Fehler melden, sonst sieht die Mail aus wie 'nichts Neues'.
+        raise RuntimeError(
+            f"Seite geladen ({len(html)} Zeichen), aber 0 Treffer im Markup — "
+            "Parser gegen die aktuelle Seitenstruktur pruefen"
+        )
     print(f"UniBwM: {len(parser.jobs)} Stellen geladen", file=sys.stderr)
     return parser.jobs
 
@@ -614,7 +675,8 @@ def build_html_mail(scored_hits, total_seen, sources_status):
             parts.append(
                 f"<div style='margin-bottom:1.2em;padding:0.4em;border-left:3px solid {score_color};'>"
                 f"<div style='font-size:0.8em;color:{score_color};'>"
-                f"<strong>{job['source']}</strong> · Score {score} · {cats_label}"
+                f"<strong>{' + '.join(job.get('sources') or [job['source']])}</strong>"
+                f" · Score {score} · {cats_label}"
                 f"</div>"
                 f"<a href='{url_safe}'><strong>{title_safe}</strong></a>"
                 + (f"<br><span style='color:#555;font-size:0.9em;'>{summary_safe}</span>" if summary_safe else "")
@@ -622,10 +684,22 @@ def build_html_mail(scored_hits, total_seen, sources_status):
             )
     parts.append("<hr style='margin-top:2em;'>")
     parts.append("<p style='color:#888;font-size:0.85em;'>Quellen-Status:<br>")
-    for s, count in sources_status.items():
-        parts.append(f"{s}: {count} geladen<br>")
+    for s, status in sources_status.items():
+        if isinstance(status, int) and status > 0:
+            parts.append(f"{s}: {status} geladen<br>")
+        elif isinstance(status, int) and status == 0:
+            parts.append(
+                f"<span style='color:#b8860b;'>{s}: 0 geladen — verdaechtig, "
+                "Feed pruefen</span><br>"
+            )
+        else:
+            grund = "Fehler" if status in (-1, None) else str(status)
+            grund = grund.replace("<", "&lt;").replace(">", "&gt;")[:200]
+            parts.append(
+                f"<span style='color:#b00;'><strong>{s}: AUSFALL</strong> — {grund}</span><br>"
+            )
     parts.append(f"Insgesamt im Gedächtnis: {total_seen} Stellen<br>")
-    parts.append(f"Min-Score: {MIN_SCORE} (Skript-Version: 2.0)<br>")
+    parts.append(f"Min-Score: {MIN_SCORE} (Skript-Version: 2.2)<br>")
     parts.append("</p></body></html>")
     return "\n".join(parts)
 
