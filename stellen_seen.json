@@ -3972,5 +3972,160 @@
       "kuratorisch_wiss_volo",
       "schwach_methodisch"
     ]
+  },
+  "https://www.hsozkult.de/job/id/job-164359": {
+    "first_seen": "2026-09-09T09:55:19.891561+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: 1 Wiss. Volontariat (m/w/d) \"Wissenschaft, Ausstellung & Sammlung\" (Stiftung Freilichtmuseum am Kiekeberg, Rosengarten-Ehestorf)",
+    "url": "https://www.hsozkult.de/job/id/job-164359",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.hsozkult.de/job/id/job-164365": {
+    "first_seen": "2026-09-09T09:55:19.893110+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: Wiss. Volontariat (m/w/d) \"Sauerland-Museum\" (Hochsauerlandkreis, Arnsberg)",
+    "url": "https://www.hsozkult.de/job/id/job-164365",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.hsozkult.de/job/id/job-164327": {
+    "first_seen": "2026-09-09T09:55:19.908513+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: 1 Wiss Volontär:in (m/w/d) \"Kommunikation- und Öffentlichkeitsarbeit\" (Landschaftsverband Rheinland, Köln)",
+    "url": "https://www.hsozkult.de/job/id/job-164327",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.hsozkult.de/job/id/job-164281": {
+    "first_seen": "2026-09-09T09:55:19.911665+00:00",
+    "source": "H-Soz-Kult",
+    "title": "Job: Wiss. Volontär:in (m/w/d) \"Outreach und Bildung\" (Brücke-Museum, Berlin)",
+    "url": "https://www.hsozkult.de/job/id/job-164281",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-253233": {
+    "first_seen": "2026-09-09T09:55:20.054926+00:00",
+    "source": "kultweet",
+    "title": "wissenschaftliches Volontariat (m/w/d) | Mannheim​‌‌‌‌​‌‌‌​‌​​‌‌​​​‌ - Stadt Mannheim",
+    "url": "https://www.mannheim.de/sites/default/files/Angebotsdetails%20-%20Wissenschaftliches%20Volontariat.pdf",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-253216": {
+    "first_seen": "2026-09-09T09:55:20.116000+00:00",
+    "source": "kultweet",
+    "title": "Re­fe­ren­tin / Re­fe­rent (m/w/d) Sprach­tech­no­lo­gie, Vollzeit, unbefristet | Köln-Hürth​‌‌‌‌​‌‌‌​‌​​‌​​​​​ - Bundessprachenamt",
+    "url": "https://bewerbung.bundeswehr-karriere.de/erece/portal/index.html#/JobDetail/none/ThreeColumnsEndExpanded/FA163EC863931FE1AAF22D854692CEAB/",
+    "score": 5,
+    "categories": [
+      "übersetzung_lyrik",
+      "digital_humanities",
+      "schwach_methodisch",
+      "sprachdienst_veto"
+    ]
+  },
+  "kultweet-253213": {
+    "first_seen": "2026-09-09T09:55:20.130007+00:00",
+    "source": "kultweet",
+    "title": "Volontärin/Volontär (w/m/d) für die Presse- und Öffentlichkeitsarbeit | Stuttgart​‌‌‌‌​‌‌‌​‌​​​‌‌‌​‌ - Ministerium für Verkehr Baden-Württemberg",
+    "url": "https://vm.baden-wuerttemberg.de/de/service/stellen-und-ausbildung/stellenangebote/stellenangebot-einzelansicht/job/volontaerinvolontaer-wmd",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "kultweet-253210": {
+    "first_seen": "2026-09-09T09:55:20.142430+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliches Volontariat   in der Restaurierung (m/w/d) für Gemälde/Rahmen | Berlin​‌‌‌‌​‌‌‌​‌​​​‌‌​‌​ - Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg",
+    "url": "https://www.spsg.de/stiftung/karriere/stellenangebote-detailseiten/stellenausschreibung-vorlage-6-2-1-1-4-1-6",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1489719.html": {
+    "first_seen": "2026-09-09T09:55:20.205732+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliches Volontariat in der Restaurierung (m/w/d) für Gemälde/Rahmen",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1489719.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Stadt-Kempten-Allgaeu/2026/09/6631269.html": {
+    "first_seen": "2026-09-09T09:55:20.582872+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliche/n Volontär/ Volontärin (m/w/d) - Befristet auf zwei Jahre in Vollzeit",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Stadt-Kempten-Allgaeu/2026/09/6631269.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Bundesarbeitsgemeinschaft-fuer-Rehabilitation-eV/2026/09/6631376.html": {
+    "first_seen": "2026-09-09T09:55:20.611133+00:00",
+    "source": "service.bund.de",
+    "title": "Fachreferent Weiterbildung und Öffentlichkeitsarbeit (m/w/d) mit Schwerpunkt Social Media & digitale Wissensvermittlung",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Bundesarbeitsgemeinschaft-fuer-Rehabilitation-eV/2026/09/6631376.html#track=feed-jobs",
+    "score": 3,
+    "categories": [
+      "wissenschaftskommunikation"
+    ]
+  },
+  "mbund-taerinmwdbefristetaufzweijahreinvollzeit": {
+    "first_seen": "2026-09-09T09:55:20.767158+00:00",
+    "source": "museumsbund",
+    "title": "Wissenschaftliche/n Volontär/ Volontärin (m/w/d) – Befristet auf zwei Jahre in Vollzeit",
+    "url": "https://www.museumsbund.de/stellenangebote/wissenschaftliche-n-volontaer-volontaerin-m-w-d-befristet-auf-zwei-jahre-in-vollzeit/",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "mbund-gebotewissenschaftlichesvolontariatmwd18": {
+    "first_seen": "2026-09-09T09:55:20.767398+00:00",
+    "source": "museumsbund",
+    "title": "wissenschaftliches Volontariat (m/w/d)",
+    "url": "https://www.museumsbund.de/stellenangebote/wissenschaftliches-volontariat-m-w-d-18/",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "mbund-nangebotewissenschaftlichesvolontariat16": {
+    "first_seen": "2026-09-09T09:55:20.771936+00:00",
+    "source": "museumsbund",
+    "title": "wissenschaftliches Volontariat",
+    "url": "https://www.museumsbund.de/stellenangebote/wissenschaftliches-volontariat-16/",
+    "score": 3,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
   }
 }
