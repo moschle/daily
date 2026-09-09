@@ -11,7 +11,6 @@ import sys
 import stellen_check as sc
 from stellen_quellen_extra import (
     fetch_museumsbund,
-    fetch_bpb_infodienst,
     ist_leiche,
 )
 from stellen_scoring_extra import score_v3
@@ -31,7 +30,12 @@ def main() -> None:
         ("jobs.ac.uk History", sc.fetch_jobsacuk_history),
         ("jobs.ac.uk Politics", sc.fetch_jobsacuk_politics),
         ("museumsbund", fetch_museumsbund),
-        ("bpb Infodienst", fetch_bpb_infodienst),
+        # bpb ist aus, bis das href-Muster sitzt: die Seite liefert
+        # Artikel statt Ausschreibungen, und Titel wie "Zeichen von
+        # Radikalisierung" holen sich über behörden_fachlich 4 Punkte.
+        # Sie kaemen also als Treffer durch und landen im Seen-Store.
+        # Wieder aktivieren: fetch_bpb_infodienst importieren und
+        # hier eintragen.
     ]
     all_jobs = []
     sources_status = {}
