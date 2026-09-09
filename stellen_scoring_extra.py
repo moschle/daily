@@ -144,6 +144,12 @@ IRAN_ZUSATZ = [
 ]
 
 
+# Volontär/Volontärin fiel durch: das Raster hing an "volontariat".
+# "Wissenschaftliche/n Volontär/in" bekam 0, "wissenschaftliches
+# Volontariat" 3. Beide Schreibweisen zaehlen jetzt gleich.
+VOLONTAER_ZUSATZ = [r"volontär\w*", r"volontaer\w*"]
+
+
 # ─── (3) Technik-Veto: zieht Punkte ab statt hart zu sperren ───
 # Negativ statt Blacklist, damit eine echte Grenzstelle
 # („OSINT-Auswertung Iran") nicht mit rausfliegt.
@@ -204,6 +210,10 @@ def _baue_kategorien():
     kern = dict(kat["iran_islam_kern"])
     kern["terms"] = list(kern["terms"]) + IRAN_ZUSATZ
     kat["iran_islam_kern"] = kern
+    for name in ("kuratorisch_wiss_volo", "schwach_methodisch"):
+        eintrag = dict(kat[name])
+        eintrag["terms"] = list(eintrag["terms"]) + VOLONTAER_ZUSATZ
+        kat[name] = eintrag
     kat.update(VETO_KATEGORIEN)
     return kat
 
@@ -271,6 +281,9 @@ _FAELLE = [
     ("Programmkoordination Übersetzerwerkstatt, Literarisches Colloquium", True),
     ("Landesreferent (m/w/d) Afghanistan und Tadschikistan, Entwicklungszusammenarbeit", True),
     ("Sachbearbeitung Fuhrparkverwaltung, Feuilletonabo inklusive", False),
+    ("Wissenschaftliche/n Volontär/in (m/w/d) am Stadtmuseum", True),
+    ("Wissenschaftlicher Volontär (m/w/d) Sammlung", True),
+    ("Wissenschaftliches Volontariat (m/w/d)", True),
 ]
 
 
