@@ -18,6 +18,7 @@ in main() die sources-Liste erweitern (siehe README-Kommentar am Dateiende).
 import re
 import sys
 import urllib.request
+import urllib.error
 from datetime import datetime
 from html import unescape
 from html.parser import HTMLParser
@@ -27,14 +28,32 @@ USER_AGENT = "StellenMonitor/2.1 (+https://github.com/moschle/daily)"
 
 
 # ─── HTTP ───
-def _fetch(url, timeout=30):
+BROWSER_UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/127.0 Safari/537.36"
+)
+
+
+def _hole(url, ua, timeout):
     req = urllib.request.Request(url, headers={
-        "User-Agent": USER_AGENT,
+        "User-Agent": ua,
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "de-DE,de;q=0.9",
     })
     with urllib.request.urlopen(req, timeout=timeout) as resp:
-        raw = resp.read()
+        return resp.read()
+
+
+def _fetch(url, timeout=30):
+    """Wie stellen_check.fetch_url: bei 401/403/429 einmal mit Browser-UA
+    nachfassen. Runner-IPs werden von Cloudflare-Seiten geblockt."""
+    try:
+        raw = _hole(url, USER_AGENT, timeout)
+    except urllib.error.HTTPError as e:
+        if e.code not in (401, 403, 429):
+            raise
+        print(f"  {url} -> HTTP {e.code}, Retry mit Browser-UA", file=sys.stderr)
+        raw = _hole(url, BROWSER_UA, timeout)
     for enc in ("utf-8", "iso-8859-1"):
         try:
             return raw.decode(enc)
@@ -89,20 +108,33 @@ class LinkHarvester(HTMLParser):
                 self._buf.append(s)
 
 
-def _harvest(name, url, href_pattern, id_prefix, min_titel_len=12, timeout=30):
-    """Holt eine HTML-Seite und erntet passende Stellenlinks."""
+def _harvest(name, url, href_pattern, id_prefix, min_titel_len=12, timeout=30,
+             strikt=True):
+    """Holt eine HTML-Seite und erntet passende Stellenlinks.
+
+    strikt=True (Normalbetrieb): Fehler werden GEWORFEN, damit ein 404 oder
+    ein verschobenes href-Muster in der Mail als AUSFALL sichtbar wird statt
+    als '0 geladen'. Genau daran sind Sachsen, Hessen, Niedersachsen und GIZ
+    still gestorben.
+    strikt=False: nur fuer bpb_diagnose(), die Muster reihum durchprobiert
+    und dabei 0 Treffer als normales Ergebnis braucht.
+    """
     try:
         html = _fetch(url, timeout=timeout)
     except Exception as e:
-        print(f"{name} Fehler: {e}", file=sys.stderr)
-        return []
+        if not strikt:
+            print(f"{name} Fehler: {e}", file=sys.stderr)
+            return []
+        raise RuntimeError(f"Abruf fehlgeschlagen: {e}") from e
 
     p = LinkHarvester(href_pattern)
     try:
         p.feed(html)
     except Exception as e:
-        print(f"{name} Parse-Fehler: {e}", file=sys.stderr)
-        return []
+        if not strikt:
+            print(f"{name} Parse-Fehler: {e}", file=sys.stderr)
+            return []
+        raise RuntimeError(f"Parse-Fehler ({len(html)} Zeichen): {e}") from e
 
     jobs, gesehen = [], set()
     for href, text in p.hits:
@@ -121,6 +153,11 @@ def _harvest(name, url, href_pattern, id_prefix, min_titel_len=12, timeout=30):
             "summary": "",
             "updated": "",
         })
+    if not jobs and strikt:
+        raise RuntimeError(
+            f"Seite geladen ({len(html)} Zeichen, {len(p.hits)} Links), aber 0 "
+            f"Treffer fuer Muster {href_pattern!r} — Muster oder URL pruefen"
+        )
     print(f"{name}: {len(jobs)} Stellen geladen", file=sys.stderr)
     return jobs
 
@@ -235,6 +272,7 @@ def fetch_bpb_infodienst(pattern=None):
         pattern or BPB_KANDIDATEN[0][1],
         "bpb",
         min_titel_len=25,
+        strikt=pattern is None,   # Diagnoselauf darf 0 Treffer melden
     )
 
 
@@ -318,4 +356,4 @@ if __name__ == "__main__":
 #        if ist_leiche(full_text):
 #            continue
 #
-# ──────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────
