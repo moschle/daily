@@ -220,7 +220,15 @@ BPB_KANDIDATEN = [
 ]
 
 
+# Solange kein Muster echte Ausschreibungen trifft: aus.
+# bpb_diagnose() laeuft unabhaengig davon weiter.
+BPB_AKTIV = False
+
+
 def fetch_bpb_infodienst(pattern=None):
+    if not BPB_AKTIV and pattern is None:
+        print("bpb Infodienst: deaktiviert (Muster ungeklaert)", file=sys.stderr)
+        return []
     return _harvest(
         "bpb Infodienst",
         BPB_URL,
