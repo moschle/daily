@@ -21,9 +21,8 @@ jobs:
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          # Optional: separate Empfangsadresse, sonst geht die Mail an GMAIL_ADDRESS selbst
           STELLEN_RECIPIENT: ${{ secrets.STELLEN_RECIPIENT }}
-        run: python stellen_check.py
+        run: python stellen_boot.py
 
       - name: State committen
         run: |
