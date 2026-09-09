@@ -103,7 +103,7 @@ def _harvest(name, url, href_pattern, id_prefix, min_titel_len=12, timeout=30):
     jobs, gesehen = [], set()
     for href, text in p.hits:
         if len(text) < min_titel_len:
-            continue
+            continue                      # "mehr", "Details", Navigation
         full = urljoin(url, href)
         jid = f"{id_prefix}-{re.sub(r'[^A-Za-z0-9]+', '', full)[-40:]}"
         if jid in gesehen:
@@ -130,10 +130,17 @@ _MONATE = {
 
 
 def ist_leiche(text, heute=None):
-    """True, wenn die Ausschreibung erkennbar abgelaufen ist."""
+    """True, wenn die Ausschreibung erkennbar abgelaufen ist.
+
+    Greift die vier Tells auf, die bei Google/RapidJob auffielen:
+    Jahreszahl in der Kennziffer, Frist in der Vergangenheit,
+    Befristungsende in der Vergangenheit, alte Gesetzesfassung.
+    Konservativ: im Zweifel False, damit nichts Gutes wegfällt.
+    """
     heute = heute or datetime.now()
     t = text.lower()
 
+    # 1) Kennziffer mit Jahreszahl: "AWV-2019-048", "A 9 / 2019", "Kz 12/2021"
     for m in re.finditer(r"(?:kennziffer|kz\.?|az\.?|ausschreibung)\D{0,12}(20\d{2})", t):
         if int(m.group(1)) < heute.year - 1:
             return True
@@ -141,6 +148,7 @@ def ist_leiche(text, heute=None):
         if int(m.group(1)) < heute.year - 1:
             return True
 
+    # 2) Bewerbungsfrist explizit in der Vergangenheit
     for m in re.finditer(
         r"(?:frist|bewerbungsschluss|bewerben sie sich bis|bis zum)\D{0,20}"
         r"(\d{1,2})\.\s*(\d{1,2})\.\s*(20\d{2})", t):
@@ -163,10 +171,12 @@ def ist_leiche(text, heute=None):
         if frist < heute:
             return True
 
+    # 3) Befristung endet in der Vergangenheit
     for m in re.finditer(r"befristet bis\D{0,15}(?:\d{1,2}\.\s*\d{1,2}\.\s*)?(20\d{2})", t):
         if int(m.group(1)) < heute.year:
             return True
 
+    # 4) Gesetzesfassung mit altem Stand
     for m in re.finditer(
             r"i\.\s?d\.\s?f\.[^\d]{0,12}(?:\d{1,2}\.\s?\d{1,2}\.\s?)?(19|20)?(\d{2})\b", t):
         jahr = int(f"{m.group(1) or '20'}{m.group(2)}")
@@ -179,6 +189,10 @@ def ist_leiche(text, heute=None):
     return False
 
 
+# ─── Quelle: interamt.de ───
+# Öffentlicher Dienst Bund/Länder/Kommunen mit echter Fristenfilterung.
+# Suchprofil per URL steuerbar. Falls interamt die Trefferliste umstellt,
+# hier die URL anpassen — der Parser erntet generisch /stellenangebot?id=.
 INTERAMT_SUCHEN = [
     ("interamt Islamwiss/Orient",
      "https://interamt.de/koop/app/trefferliste?"
@@ -199,6 +213,7 @@ def fetch_interamt():
     return jobs
 
 
+# ─── Quelle: bpb-Infodienst Radikalisierungsprävention ───
 def fetch_bpb_infodienst():
     return _harvest(
         "bpb Infodienst",
@@ -209,6 +224,21 @@ def fetch_bpb_infodienst():
     )
 
 
+# ─── Quelle: Deutscher Museumsbund ───
+# Fundort der DHMD-Stelle. Deckt Volontariate, Kuratorisches und
+# Wissenschaftskommunikation an Museen ab — kommt über keinen der
+# bisherigen Feeds rein.
+def fetch_museumsbund():
+    return _harvest(
+        "museumsbund",
+        "https://www.museumsbund.de/stellenangebote/",
+        r"/stellenangebote/[a-z0-9-]{12,}",
+        "mbund",
+        min_titel_len=15,
+    )
+
+
+# ─── Quelle: Landesportale ───
 LANDESPORTALE = [
     ("karriere.sachsen", "https://www.karriere.sachsen.de/stellenmarkt.html",
      r"stellenangebot|/stelle/|stellenausschreibung"),
@@ -226,6 +256,7 @@ def fetch_landesportale():
     return jobs
 
 
+# ─── Quelle: GIZ ───
 def fetch_giz():
     return _harvest(
         "jobs.giz.de",
@@ -235,9 +266,12 @@ def fetch_giz():
     )
 
 
+# ─── Selbsttest ───
 def selbsttest():
+    """python3 stellen_quellen_extra.py — prüft jede Quelle einzeln."""
     for label, fn in [
         ("interamt", fetch_interamt),
+        ("museumsbund", fetch_museumsbund),
         ("bpb", fetch_bpb_infodienst),
         ("Landesportale", fetch_landesportale),
         ("GIZ", fetch_giz),
@@ -257,3 +291,29 @@ def selbsttest():
 
 if __name__ == "__main__":
     selbsttest()
+
+
+# ─── Einbau in stellen_check.py ────────────────────────────────────────
+#
+# 1) Oben bei den Imports ergänzen:
+#
+#        from stellen_quellen_extra import (
+#            fetch_interamt, fetch_bpb_infodienst, fetch_museumsbund,
+#            fetch_landesportale, fetch_giz, ist_leiche,
+#        )
+#
+# 2) In main() die sources-Liste erweitern:
+#
+#        ("interamt.de", fetch_interamt),
+#        ("museumsbund", fetch_museumsbund),
+#        ("bpb Infodienst", fetch_bpb_infodienst),
+#        ("Landesportale", fetch_landesportale),
+#        ("jobs.giz.de", fetch_giz),
+#
+# 3) In der Scoring-Schleife von main(), direkt nach
+#    `full_text = f"{job['title']} {job.get('summary','')}"`:
+#
+#        if ist_leiche(full_text):
+#            continue
+#
+# ──────────────────────────────────────────────────────────────────────
