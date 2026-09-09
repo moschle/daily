@@ -625,7 +625,7 @@ def build_html_mail(scored_hits, total_seen, sources_status):
     for s, count in sources_status.items():
         parts.append(f"{s}: {count} geladen<br>")
     parts.append(f"Insgesamt im Gedächtnis: {total_seen} Stellen<br>")
-    parts.append(f"Min-Score: {MIN_SCORE} (Skript-Version: 2.1, Scoring v3)<br>")
+    parts.append(f"Min-Score: {MIN_SCORE} (Skript-Version: 2.0)<br>")
     parts.append("</p></body></html>")
     return "\n".join(parts)
 
@@ -652,14 +652,6 @@ def send_mail(html_body, subject, count):
 
 # ─── Main ───
 def main():
-    # Zusatzmodule erst hier importieren: stellen_scoring_extra importiert
-    # CATEGORIES aus dieser Datei, ein Top-Level-Import wäre zirkulär.
-    from stellen_quellen_extra import (
-        fetch_interamt, fetch_museumsbund, fetch_bpb_infodienst,
-        fetch_landesportale, fetch_giz, ist_leiche,
-    )
-    from stellen_scoring_extra import score_v3
-
     seen = load_seen()
     print(f"State geladen: {len(seen)} bekannte Stellen", file=sys.stderr)
 
@@ -672,11 +664,6 @@ def main():
         ("jobs.ac.uk Languages", fetch_jobsacuk_languages),
         ("jobs.ac.uk History", fetch_jobsacuk_history),
         ("jobs.ac.uk Politics", fetch_jobsacuk_politics),
-        ("interamt.de", fetch_interamt),
-        ("museumsbund", fetch_museumsbund),
-        ("bpb Infodienst", fetch_bpb_infodienst),
-        ("Landesportale", fetch_landesportale),
-        ("jobs.giz.de", fetch_giz),
     ]
     all_jobs = []
     sources_status = {}
@@ -692,9 +679,7 @@ def main():
     scored_hits = []
     for job in all_jobs:
         full_text = f"{job['title']} {job.get('summary', '')}"
-        if ist_leiche(full_text):
-            continue
-        score, cats = score_v3(full_text)
+        score, cats = score_text(full_text)
         if score < MIN_SCORE:
             continue
         if job["id"] in seen:
