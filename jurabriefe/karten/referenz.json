@@ -1,22 +1,26 @@
 {
- "gesamt": 181,
+ "gesamt": 179,
  "je_skript": {
   "aktenvortrag": 5,
   "anklage": 4,
   "kautelar": 45,
   "leitfaden-sta": 15,
-  "revision": 9,
+  "revision": 8,
   "sr-anwalt": 2,
   "sr-staat": 12,
   "verwr-anwalt": 3,
   "verwr-staat": 18,
-  "zr-anwalt": 9,
+  "zr-anwalt": 8,
   "zr-staat": 59
  },
  "je_typ": {
-  "formulierung": 171,
+  "formulierung": 169,
   "fall": 7,
   "fehler": 2,
   "aufbau": 1
- }
+ },
+ "zuordnung_bekannt": [
+  "revision:fall:019",
+  "verwr-staat:form:020"
+ ]
 }

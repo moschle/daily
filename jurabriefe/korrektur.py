@@ -9,6 +9,7 @@ import os
 import re
 import smtplib
 import sys
+from datetime import date, timedelta
 from email.header import decode_header, make_header
 from email.message import EmailMessage
 from pathlib import Path
@@ -18,6 +19,7 @@ from fsrs_scheduler import _load, _save, parse_note, review, review_punkte
 
 HERE = Path(__file__).resolve().parent
 MIN_KLAUSUR = 400
+FENSTER = 14             # Tage, die rueckwaerts nach Antworten gesucht wird
 ID = re.compile(r"\[([a-z]{2,4}-\d{3})\]", re.I)
 ZITAT = re.compile(r"^\s*(>|Am .+ schrieb|On .+ wrote|Von:|Gesendet:|-{2,}\s*$|_{5,})", re.I)
 
@@ -98,25 +100,67 @@ def _text_aus(msg) -> str:
     return ""
 
 
-def hole_antworten() -> list[dict]:
+def hole_antworten(erledigt: set[str], tage: int = FENSTER) -> list[dict]:
+    """Alle Jurabrief-Mails der letzten Tage, unabhaengig vom Gelesen-Status.
+
+    Das Gelesen-Flag taugt nicht als Gedaechtnis: die Mail liegt im eigenen
+    Postfach und wird beilaeufig geoeffnet. Gemerkt wird stattdessen die
+    Message-ID in state.json."""
     adresse = (os.environ.get("GMAIL_ADDRESS") or "").strip()
     pw = (os.environ.get("GMAIL_APP_PASSWORD") or "").strip()
     if not adresse or not pw:
         raise SystemExit("GMAIL_ADDRESS / GMAIL_APP_PASSWORD fehlen")
+    seit = (date.today() - timedelta(days=tage)).strftime("%d-%b-%Y")
     gefunden = []
     with imaplib.IMAP4_SSL("imap.gmail.com") as M:
         M.login(adresse, pw)
         M.select("INBOX")
-        _, daten = M.search(None, '(UNSEEN SUBJECT "Jurabrief")')
+        _, daten = M.search(None, f'(SUBJECT "Jurabrief" SINCE {seit})')
         for num in (daten[0].split() if daten and daten[0] else []):
             _, roh = M.fetch(num, "(RFC822)")
             msg = email.message_from_bytes(roh[0][1])
+            mid = (msg.get("Message-ID") or "").strip()
+            if not mid or mid in erledigt:
+                continue
+            if adresse.lower() in (msg.get("From") or "").lower():
+                continue                      # eigener Brief, keine Antwort
             subject = str(make_header(decode_header(msg.get("Subject", ""))))
             eintrag = einordnen(subject, _text_aus(msg))
-            if eintrag:
-                gefunden.append(eintrag)
-            M.store(num, "+FLAGS", "\\Seen")
+            if not eintrag:
+                print(f"verworfen: {subject!r}", file=sys.stderr)
+                continue
+            eintrag["mid"] = mid
+            gefunden.append(eintrag)
     return gefunden
+
+
+def aufraeumen(mids: set[str], tage: int = FENSTER) -> int:
+    """Verarbeitete Antworten aus der INBOX nehmen.
+
+    Laeuft erst, wenn progress.json und state.json geschrieben sind — bricht der
+    Lauf vorher ab, bleibt die Mail liegen und wird beim naechsten Mal geholt.
+    Bei Gmail wandert eine aus der INBOX expungte Mail in "Alle Nachrichten"."""
+    if not mids:
+        return 0
+    adresse = (os.environ.get("GMAIL_ADDRESS") or "").strip()
+    pw = (os.environ.get("GMAIL_APP_PASSWORD") or "").strip()
+    seit = (date.today() - timedelta(days=tage)).strftime("%d-%b-%Y")
+    n = 0
+    with imaplib.IMAP4_SSL("imap.gmail.com") as M:
+        M.login(adresse, pw)
+        M.select("INBOX")
+        _, daten = M.search(None, f'(SUBJECT "Jurabrief" SINCE {seit})')
+        for num in (daten[0].split() if daten and daten[0] else []):
+            _, roh = M.fetch(num, "(BODY.PEEK[HEADER.FIELDS (MESSAGE-ID)])")
+            kopf = roh[0][1].decode("utf-8", "replace") if roh and roh[0] else ""
+            mid = kopf.split(":", 1)[1].strip() if ":" in kopf else ""
+            if mid and mid in mids:
+                M.store(num, "+FLAGS", "\\Deleted")
+                n += 1
+        if n:
+            M.expunge()
+    print(f"{n} Antwortmail(s) aus der INBOX geraeumt", file=sys.stderr)
+    return n
 
 
 def send_mail(betreff: str, body: str) -> None:
@@ -221,9 +265,13 @@ def main() -> int:
     state_pfad = HERE / "state.json"
     state = json.loads(state_pfad.read_text(encoding="utf-8")) if state_pfad.exists() else {}
 
-    antworten = hole_antworten()
+    erledigt = set(state.get("erledigte_mails") or [])
+    frisch: set[str] = set()
+    antworten = hole_antworten(erledigt)
     print(f"{len(antworten)} Antworten", file=sys.stderr)
     for a in antworten:
+        erledigt.add(a["mid"])
+        frisch.add(a["mid"])
         case = cases.get(a["case_id"])
         if not case:
             print(f"unbekannter Fall {a['case_id']}", file=sys.stderr)
@@ -237,9 +285,12 @@ def main() -> int:
             print(f"{a['case_id']} {a['punkte']} Punkte (selbst)", file=sys.stderr)
             continue
 
-        offen = state.get("offen") or {}
-        pack = offen.get("karten") or []
-        if pack and offen.get("case_id") == case["id"]:
+        packs = state.setdefault("offene_packs", {})
+        eintrag = packs.get(case["id"])
+        if not eintrag and (state.get("offen") or {}).get("case_id") == case["id"]:
+            eintrag = state["offen"]          # Uebergang vom alten Einzelslot
+        pack = (eintrag or {}).get("karten") or []
+        if pack:
             k = korrigiere_karten(pack, a["text"])
             nach_nr = {c["nr"]: c for c in pack}
             for b in k["karten"]:
@@ -250,8 +301,9 @@ def main() -> int:
             send_mail(f"Auswertung — {case['gebiet']} [{case['id']}] {k['gesamt']} Punkte",
                       karten_mail(case, pack, k, progress["cards"][case["id"]].get("schnitt")))
             print(f"{case['id']} {len(k['karten'])} Karten, Schnitt {k['gesamt']}", file=sys.stderr)
-            state["offen"] = {}
-            state_pfad.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+            packs.pop(case["id"], None)
+            if (state.get("offen") or {}).get("case_id") == case["id"]:
+                state["offen"] = {}
             continue
 
         aufgabe = case.get("bearbeitervermerk") or case.get("gebiet", "")
@@ -261,7 +313,12 @@ def main() -> int:
                   als_mail(case, k, progress["cards"][case["id"]].get("schnitt")))
         print(f"{case['id']} {k['punkte']} Punkte -> +{res['interval']}d", file=sys.stderr)
 
+    progress["letzter_korrekturlauf"] = date.today().isoformat()
     _save(progress)
+    state["erledigte_mails"] = sorted(erledigt)[-300:]
+    state_pfad.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+    if frisch and os.environ.get("JURABRIEF_AUFRAEUMEN", "1") != "0":
+        aufraeumen(frisch)
     return 0
 
 

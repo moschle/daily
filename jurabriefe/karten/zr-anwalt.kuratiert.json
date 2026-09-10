@@ -63,16 +63,6 @@
   },
   {
    "typ": "formulierung",
-   "frage": "Der Vollstreckungsschuldner will sich gegen eine Maßnahme des Gerichtsvollziehers wenden. Formulieren Sie den Antrag im Rahmen der Erinnerung nach § 766 ZPO, der auf Unzulässigerklärung der Zwangsvollstreckung gerichtet ist.",
-   "loesung": "Sollten Bestimmungen dieser Allgemeinen Geschäftsbedingungen und/oder des Vertrages unwirksam sein oder werden, so berührt dies die Wirksamkeit der übrigen Bestimmungen nicht. Vielmehr gilt anstelle jeder unwirksamen Bestimmung eine dem Zweck der Vereinbarung entsprechende oder zumindest nahekommende Ersatzbestimmung, wie sie die Parteien zur Erreichung des gleichen wirtschaftlichen Ergebnisses vereinbart hätten, wenn sie die Unwirksamkeit der Bestimmung gekannt hätten. Entsprechendes gilt für Unvollständigkeiten.",
-   "id": "zr-anwalt:form:017",
-   "skript": "zr-anwalt",
-   "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › IX. Klagen und Rechtsbehelfe in der Zwangsvollstreckung › 2. Sofortige Beschwerde und Erinnerung › b. Erinnerung nach § 766 ZPO",
-   "rn": "71",
-   "gewicht": 3
-  },
-  {
-   "typ": "formulierung",
    "frage": "Ihr Mandant ist Inhaber eines vorrangigen Pfandrechts an einer Sache, die sich in der Verwertung durch einen anderen Gläubiger befindet. Er möchte seinen Vorrang gerichtlich durchsetzen. Formulieren Sie den Klageantrag nach § 805 ZPO.",
    "loesung": "Der Kläger ist vor dem Beklagten aus dem Reinerlös aus der Vollstreckung in folgenden Gegenstand (genau bezeichnen) wegen einer Forderung des Klägers in Höhe von € ... zu befriedigen.",
    "id": "zr-anwalt:form:018",

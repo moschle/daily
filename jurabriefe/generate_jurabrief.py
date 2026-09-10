@@ -362,7 +362,8 @@ def main():
     rules = load_skript_section(case)
 
     alle = lade(case.get("skript_id") or "")
-    zuletzt = [k["id"] for k in (state.get("offen") or {}).get("karten", [])]
+    zuletzt = [k["id"] for p in (state.get("offene_packs") or {}).values()
+               for k in p.get("karten", [])]
     heutige = waehle(alle, progress, meiden=zuletzt)
     aufgabe = brieftext(heutige)
     related = search_related_case(case, state.get("seen_slugs", []))
@@ -386,7 +387,11 @@ def main():
     markiere_gezeigt(progress, case["id"])
     for k in heutige:
         markiere_gezeigt(progress, k["id"])
-    state["offen"] = zurueckhalten(heutige, case["id"])
+    packs = state.setdefault("offene_packs", {})
+    packs[case["id"]] = zurueckhalten(heutige, case["id"])
+    for alt in list(packs)[:-3]:              # hoechstens drei Briefe offen halten
+        packs.pop(alt)
+    state["offen"] = {}
     save_progress(progress)
     save_state(state)
     print(f"Fall {case['id']} ({grund}), {len(heutige)} Karten: "

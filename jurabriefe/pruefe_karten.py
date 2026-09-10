@@ -6,6 +6,11 @@
 
 Vor jedem Commit ausfuehren. Exit 0 = committen, Exit 1 = nicht committen.
 
+Geprueft wird auch, ob Frage und Loesung einer kuratierten Karte aus derselben
+Rohkarte stammen. Abschnitt und Randnummer reisen mit der Loesung mit; weichen
+sie von der Rohkarte mit demselben Loesungstext ab, sind Frage und Loesung
+auseinandergelaufen.
+
 Hintergrund: der zweite Kurationslauf hat den Bestand von 145 auf 105 Karten
 gesenkt und alle Fehler- und Aufbaukarten verloren — bemerkt hat es niemand,
 weil die Dateien ueberschrieben wurden. Diese Pruefung macht so etwas sichtbar,
@@ -43,15 +48,20 @@ def kennzahlen(bestand: dict[str, list[dict]]) -> dict:
     }
 
 
-def maengel(bestand: dict[str, list[dict]]) -> list[str]:
+def maengel(bestand: dict[str, list[dict]], bekannt: set[str] | None = None) -> list[str]:
     """Harte Fehler im Bestand — unabhaengig vom Vergleich mit der Referenz."""
     import kuratieren as ku
     from karten import EXTRACTED, clean
 
+    bekannt = bekannt or set()
     fehler = []
     for sid, karten in bestand.items():
         pfad = EXTRACTED / f"{sid}.txt"
         skript = clean(pfad.read_text(encoding="utf-8", errors="replace")) if pfad.exists() else ""
+        roh_pfad = KARTEN / f"{sid}.json"
+        roh = {r["loesung"]: (r.get("abschnitt"), r.get("rn"))
+               for r in json.loads(roh_pfad.read_text(encoding="utf-8")).get("karten", [])
+               if r.get("loesung")} if roh_pfad.exists() else {}
         ids = set()
         for k in karten:
             wo = f"{sid}/{k.get('id', '?')}"
@@ -71,6 +81,11 @@ def maengel(bestand: dict[str, list[dict]]) -> list[str]:
             from karten import ohne_fussnoten
             if ohne_fussnoten(k.get("loesung") or "") != (k.get("loesung") or ""):
                 fehler.append(f"{wo}: Fussnotenziffer in der Loesung")
+            herkunft = roh.get(k.get("loesung"))
+            if (herkunft and herkunft != (k.get("abschnitt"), k.get("rn"))
+                    and k.get("id") not in bekannt):
+                fehler.append(f"{wo}: Loesung stammt aus {herkunft[0]!r} Rn {herkunft[1]}, "
+                              f"Karte behauptet {k.get('abschnitt')!r} Rn {k.get('rn')}")
     return fehler
 
 
@@ -102,11 +117,16 @@ def main() -> int:
     print("  je Skript: " + ", ".join(f"{s} {n}" for s, n in sorted(jetzt["je_skript"].items())))
 
     if "--setzen" in sys.argv:
+        alt = json.loads(REFERENZ.read_text(encoding="utf-8")) if REFERENZ.exists() else {}
+        jetzt["zuordnung_bekannt"] = alt.get("zuordnung_bekannt") or []
         REFERENZ.write_text(json.dumps(jetzt, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"\nReferenz gesetzt: {REFERENZ}")
         return 0
 
-    probleme = maengel(bestand)
+    bekannt = set()
+    if REFERENZ.exists():
+        bekannt = set(json.loads(REFERENZ.read_text(encoding="utf-8")).get("zuordnung_bekannt") or [])
+    probleme = maengel(bestand, bekannt)
     if probleme:
         print(f"\n{len(probleme)} Maengel im Bestand:", file=sys.stderr)
         for p in probleme[:20]:

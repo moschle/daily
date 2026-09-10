@@ -13,94 +13,48 @@
     "zr-011": 1.0,
     "zr-012": 1.0
   },
-  "feedback": [
-    {
-      "date": "2026-09-09",
-      "case_id": "zr-006",
-      "note": "unbeantwortet",
-      "grade": null,
-      "interval": 3,
-      "detail": ""
-    },
-    {
-      "date": "2026-09-09",
-      "case_id": "zr-anwalt:form:012",
-      "note": "unbeantwortet",
-      "grade": null,
-      "interval": 3,
-      "detail": ""
-    },
-    {
-      "date": "2026-09-09",
-      "case_id": "zr-anwalt:form:013",
-      "note": "unbeantwortet",
-      "grade": null,
-      "interval": 3,
-      "detail": ""
-    },
-    {
-      "date": "2026-09-09",
-      "case_id": "zr-anwalt:form:014",
-      "note": "unbeantwortet",
-      "grade": null,
-      "interval": 3,
-      "detail": ""
-    },
-    {
-      "date": "2026-09-09",
-      "case_id": "zr-anwalt:form:011",
-      "note": "unbeantwortet",
-      "grade": null,
-      "interval": 3,
-      "detail": ""
-    }
-  ],
+  "feedback": [],
   "letzte_anpassung": null,
   "cards": {
     "zr-006": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-12",
+      "due": null,
       "last": null,
       "gezeigt": "2026-09-08",
-      "reps": 0,
-      "unbeantwortet": 1
+      "reps": 0
     },
     "zr-anwalt:form:012": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-12",
+      "due": null,
       "last": null,
       "gezeigt": "2026-09-08",
-      "reps": 0,
-      "unbeantwortet": 1
+      "reps": 0
     },
     "zr-anwalt:form:013": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-12",
+      "due": null,
       "last": null,
       "gezeigt": "2026-09-08",
-      "reps": 0,
-      "unbeantwortet": 1
+      "reps": 0
     },
     "zr-anwalt:form:014": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-12",
+      "due": null,
       "last": null,
       "gezeigt": "2026-09-08",
-      "reps": 0,
-      "unbeantwortet": 1
+      "reps": 0
     },
     "zr-anwalt:form:011": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-12",
+      "due": null,
       "last": null,
       "gezeigt": "2026-09-08",
-      "reps": 0,
-      "unbeantwortet": 1
+      "reps": 0
     },
     "zr-004": {
       "stability": 0.0,
@@ -142,5 +96,6 @@
       "gezeigt": "2026-09-09",
       "reps": 0
     }
-  }
+  },
+  "letzter_korrekturlauf": null
 }

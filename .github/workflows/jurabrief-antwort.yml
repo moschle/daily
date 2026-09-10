@@ -2,7 +2,7 @@ name: Jurabrief-Korrektur
 
 on:
   schedule:
-    - cron: '0 17 * * 2,4,6'
+    - cron: '0 17 * * *'
   workflow_dispatch:
 
 permissions:
@@ -20,7 +20,7 @@ jobs:
         run: pip install -r requirements.txt
       - name: Auswerten
         env:
-          PYTHONPATH: ${{ github.workspace }}/jurabriefe
+          PYTHONPATH: ${{ github.workspace }}:${{ github.workspace }}/jurabriefe
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "Jurabrief Bot"
           git config user.email "jurabrief@users.noreply.github.com"
-          git add jurabriefe/progress.json
+          git add jurabriefe/progress.json jurabriefe/state.json
           git diff --cached --quiet || git commit -m "jurabrief korrektur $(date -u +%F)"
           git pull --rebase --autostash
           git push

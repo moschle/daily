@@ -19,6 +19,7 @@ NOTE_NAME = {1: "wieder", 2: "schwer", 3: "gut", 4: "leicht"}
 PUNKTE_NOTE = [(0, 3, 1), (4, 5, 2), (6, 8, 3), (9, 18, 4)]
 START_STABILITAET = {1: 1.0, 2: 2.0, 3: 4.0, 4: 8.0}
 MIN_INTERVALL, MAX_INTERVALL = 1, 180
+GNADENFRIST = 3          # Tage, die eine Aufgabe Zeit hat, bevor sie als unbeantwortet gilt
 
 
 def heute() -> date:
@@ -128,15 +129,24 @@ def review_punkte(progress: dict, case_id: str, punkte: float, detail: str = "",
     return res
 
 
-def offene_wertung(progress: dict, case_id: str) -> bool:
+def offene_wertung(progress: dict, case_id: str, tag: date | None = None) -> bool:
+    """Offen ist eine Aufgabe erst, wenn die Gnadenfrist abgelaufen ist UND
+    danach mindestens ein Korrekturlauf sie nicht gefunden hat. Ohne die zweite
+    Bedingung verbucht ein spaet verschickter Brief sich selbst als unbeantwortet."""
+    tag = tag or heute()
     c = (progress.get("cards") or {}).get(case_id) or {}
     gezeigt, bewertet = c.get("gezeigt"), c.get("last")
-    return bool(gezeigt and (not bewertet or bewertet < gezeigt))
+    if not gezeigt or (bewertet and bewertet >= gezeigt):
+        return False
+    if (tag - date.fromisoformat(gezeigt)).days < GNADENFRIST:
+        return False
+    lauf = progress.get("letzter_korrekturlauf")
+    return bool(lauf and lauf > gezeigt)
 
 
 def auto_wertung(progress: dict, case_id: str, tag: date | None = None) -> dict | None:
     tag = tag or heute()
-    if not offene_wertung(progress, case_id):
+    if not offene_wertung(progress, case_id, tag):
         return None
     c = card(progress, case_id)
     c["unbeantwortet"] = int(c.get("unbeantwortet") or 0) + 1

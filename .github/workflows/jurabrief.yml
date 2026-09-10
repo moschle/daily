@@ -20,7 +20,7 @@ jobs:
         run: pip install -r requirements.txt
       - name: Senden
         env:
-          PYTHONPATH: ${{ github.workspace }}/jurabriefe
+          PYTHONPATH: ${{ github.workspace }}:${{ github.workspace }}/jurabriefe
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           JURABRIEF_TO: ${{ secrets.JURABRIEF_TO }}

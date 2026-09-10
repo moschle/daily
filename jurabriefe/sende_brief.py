@@ -34,15 +34,15 @@ def main() -> int:
     pack = waehle(case.get("skript_id") or "", progress)
     if pack:
         aufgabe = als_aufgabe(pack)
-        state["offen"] = {
+        state.setdefault("offene_packs", {})[case["id"]] = {
             "case_id": case["id"],
-            "karten": [{"id": k["id"], "frage": k["frage"],
-                         "loesung": k["loesung"], "typ": k.get("typ")}
-                        for k in pack],
+            "karten": [{"nr": n, "id": k["id"], "frage": k["frage"],
+                        "loesung": k["loesung"], "typ": k.get("typ"),
+                        "gewicht": k.get("gewicht", 2)}
+                       for n, k in enumerate(pack, 1)],
         }
     else:
         aufgabe = FALLBACK.get(case["id"]) or case.get("aufgabe") or AKTE
-        state["offen"] = {"case_id": case["id"], "karten": []}
     rules = load_skript_section(case)
     related = search_related_case(case, state.get("seen_slugs", []))
     if related and related.get("slug"):
