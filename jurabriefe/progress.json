@@ -5,56 +5,141 @@
     "zr-003": 1.0,
     "zr-004": 1.0,
     "zr-005": 1.0,
-    "zr-006": 1.0,
+    "zr-006": 0.8,
     "zr-007": 1.0,
     "zr-008": 1.0,
     "zr-009": 1.0,
     "zr-010": 1.0,
     "zr-011": 1.0,
-    "zr-012": 1.0
+    "zr-012": 1.0,
+    "zr-anwalt:form:012": 0.8,
+    "zr-anwalt:form:013": 1.7,
+    "zr-anwalt:form:014": 1.7,
+    "zr-anwalt:form:011": 0.8
   },
-  "feedback": [],
+  "feedback": [
+    {
+      "date": "2026-09-10",
+      "case_id": "zr-anwalt:form:012",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "'Bis zum Erlass des Urteils in der Hauptsache' ist die präzisere Formulierung gegenüber 'bis zur rechtskräftigen Entscheidung', da § 769 ZPO auf den Erlass des Urteils abstellt, nicht auf Rechtskraft.",
+      "punkte": 12.0
+    },
+    {
+      "date": "2026-09-10",
+      "case_id": "zr-anwalt:form:013",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 1,
+      "detail": "Aufgabe verlangte die einleitende Parteivorstellung (wer sind die Parteien, was ist der Streitgegenstand), nicht eine Anzeige der Mandatierung; die Antwort liefert stattdessen Kanzleiformular-Bausteine ohne jeden inhaltlichen Bezug zum Zahnarzt-Abfindungsstreit.",
+      "punkte": 2.0
+    },
+    {
+      "date": "2026-09-10",
+      "case_id": "zr-anwalt:form:014",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 1,
+      "detail": "Keine eigenständige Antwort zu Aufgabe 3; die Bearbeiterin hat 2 und 3 zusammengefasst und dabei den konkreten Sachverhalt (Mietrückstände, Pallasstraße, Zeitraum) vollständig übergangen.",
+      "punkte": 0.0
+    },
+    {
+      "date": "2026-09-10",
+      "case_id": "zr-anwalt:form:011",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Das Rubrum war bereits vorgegeben und sollte nicht wiederholt werden; außerdem lautet die korrekte Fortsetzung 'werde beantragen, wie folgt zu erkennen' (Zukunftsform, gerichtet an das Gericht), nicht 'beantrage' — die Skriptformulierung ist insoweit präziser, weil sie dem prozessualen Ablauf entspricht.",
+      "punkte": 10.0
+    },
+    {
+      "date": "2026-09-10",
+      "case_id": "zr-006",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Üben Sie die Parteivorstellung anhand von drei verschiedenen Sachverhalten schriftlich: schreiben Sie in je zwei Sätzen, wer die Parteien sind und was mit der Klage geltend gemacht wird, ohne Kanzleibausteine zu verwenden.",
+      "punkte": 18.0
+    }
+  ],
   "letzte_anpassung": null,
   "cards": {
     "zr-006": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-09-18",
+      "last": "2026-09-10",
       "gezeigt": "2026-09-08",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-10",
+          "wert": 18.0
+        }
+      ],
+      "schnitt": 18.0
     },
     "zr-anwalt:form:012": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-09-18",
+      "last": "2026-09-10",
       "gezeigt": "2026-09-08",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-10",
+          "wert": 12.0
+        }
+      ],
+      "schnitt": 12.0
     },
     "zr-anwalt:form:013": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 1.0,
+      "difficulty": 5.3,
+      "due": "2026-09-11",
+      "last": "2026-09-10",
       "gezeigt": "2026-09-08",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-10",
+          "wert": 2.0
+        }
+      ],
+      "schnitt": 2.0
     },
     "zr-anwalt:form:014": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 1.0,
+      "difficulty": 5.3,
+      "due": "2026-09-11",
+      "last": "2026-09-10",
       "gezeigt": "2026-09-08",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-10",
+          "wert": 0.0
+        }
+      ],
+      "schnitt": 0.0
     },
     "zr-anwalt:form:011": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-09-18",
+      "last": "2026-09-10",
       "gezeigt": "2026-09-08",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-10",
+          "wert": 10.0
+        }
+      ],
+      "schnitt": 10.0
     },
     "zr-004": {
       "stability": 0.0,
@@ -97,5 +182,5 @@
       "reps": 0
     }
   },
-  "letzter_korrekturlauf": null
+  "letzter_korrekturlauf": "2026-09-10"
 }
