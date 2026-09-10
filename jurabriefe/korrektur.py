@@ -181,7 +181,7 @@ def send_mail(betreff: str, body: str) -> None:
 def korrigiere(aufgabe: str, regeln: str, bearbeitung: str) -> dict:
     roh = complete(PROMPT.format(aufgabe=aufgabe[:6000], regeln=(regeln or "\u2014")[:8000],
                                  raster=RASTER, bearbeitung=bearbeitung[:20000]),
-                   max_tokens=2000)
+                   max_tokens=6000)
     roh = re.sub(r"^```(?:json)?|```$", "", roh.strip(), flags=re.M).strip()
     d = json.loads(roh)
     d["punkte"] = max(0, min(18, int(d.get("punkte", 0))))
@@ -227,7 +227,7 @@ def korrigiere_karten(pack: list[dict], antwort: str) -> dict:
     aufgaben = "\n\n".join(
         f"{k['nr']}. {k['frage']}\n   SKRIPTLOESUNG: {k['loesung']}" for k in pack)
     roh = complete(KARTEN_PROMPT.format(aufgaben=aufgaben[:9000], antwort=antwort[:9000]),
-                   max_tokens=2500)
+                   max_tokens=8000)
     roh = re.sub(r"^```(?:json)?|```$", "", roh.strip(), flags=re.M).strip()
     d = json.loads(roh)
     for k in d.get("karten", []):
