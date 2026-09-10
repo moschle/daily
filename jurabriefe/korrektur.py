@@ -234,8 +234,10 @@ def korrigiere_karten(pack: list[dict], antwort: str) -> dict:
         k["punkte"] = max(0, min(18, int(k.get("punkte", 0))))
     if not d.get("karten"):
         raise ValueError("Korrektur ohne Kartenbewertung")
-    d["gesamt"] = max(0, min(18, int(d.get("gesamt") or
-                       round(sum(k["punkte"] for k in d["karten"]) / len(d["karten"])))))
+    # Der Schnitt wird immer selbst gerechnet. Das Modell liefert hier sonst eine
+    # Zahl, die seinen eigenen Einzelwertungen widerspricht (18 bei 12/2/0/10).
+    d["gesamt"] = max(0, min(18, round(
+        sum(k["punkte"] for k in d["karten"]) / len(d["karten"]))))
     return d
 
 

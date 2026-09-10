@@ -5,7 +5,7 @@
     "zr-003": 1.0,
     "zr-004": 1.0,
     "zr-005": 1.0,
-    "zr-006": 0.8,
+    "zr-006": 1.1,
     "zr-007": 1.0,
     "zr-008": 1.0,
     "zr-009": 1.0,
@@ -57,29 +57,29 @@
     {
       "date": "2026-09-10",
       "case_id": "zr-006",
-      "note": "leicht",
-      "grade": 4,
-      "interval": 8,
-      "detail": "Üben Sie die Parteivorstellung anhand von drei verschiedenen Sachverhalten schriftlich: schreiben Sie in je zwei Sätzen, wer die Parteien sind und was mit der Klage geltend gemacht wird, ohne Kanzleibausteine zu verwenden.",
-      "punkte": 18.0
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Schnitt der vier Einzelwertungen (12/2/0/10)",
+      "punkte": 6.0
     }
   ],
   "letzte_anpassung": null,
   "cards": {
     "zr-006": {
-      "stability": 8.0,
-      "difficulty": 4.85,
-      "due": "2026-09-18",
+      "stability": 4.0,
+      "difficulty": 5.0,
+      "due": "2026-09-14",
       "last": "2026-09-10",
       "gezeigt": "2026-09-08",
       "reps": 1,
       "punkte": [
         {
           "date": "2026-09-10",
-          "wert": 18.0
+          "wert": 6.0
         }
       ],
-      "schnitt": 18.0
+      "schnitt": 6.0
     },
     "zr-anwalt:form:012": {
       "stability": 8.0,

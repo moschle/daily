@@ -12,7 +12,7 @@ import sys
 import urllib.error
 import urllib.request
 
-MODELS = [
+MODELS = [m.strip() for m in os.environ.get("JURABRIEF_MODELL", "").split(",") if m.strip()] or [
     "claude-sonnet-5",
     "claude-sonnet-4-6",
     "claude-sonnet-4-5",
@@ -46,7 +46,10 @@ def complete(prompt: str, max_tokens: int = 3000) -> str:
         try:
             with urllib.request.urlopen(req, timeout=60) as resp:
                 data = json.loads(resp.read())
-            text = data["content"][0]["text"]
+            text = next((b["text"] for b in data.get("content", [])
+                         if b.get("type") == "text" and b.get("text")), None)
+            if text is None:
+                raise ValueError("Antwort ohne Textblock")
             if model != MODELS[0]:
                 print(f"Claude: Fallback-Modell {model}", file=sys.stderr)
             return text
