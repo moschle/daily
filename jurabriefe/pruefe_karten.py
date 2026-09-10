@@ -36,7 +36,7 @@ MAX_LOESUNG = 2000
 def _laden() -> dict[str, list[dict]]:
     return {p.stem.replace(".kuratiert", ""):
             json.loads(p.read_text(encoding="utf-8")).get("karten", [])
-            for p in sorted(KARTEN.glob("*.kuratiert.json"))}
+            for p in sorted((q for q in KARTEN.glob("*.kuratiert.json") if q.stem != "lesetexte.kuratiert"))}
 
 
 def kennzahlen(bestand: dict[str, list[dict]]) -> dict:

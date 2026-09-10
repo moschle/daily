@@ -24,14 +24,38 @@ PRO_BRIEF = 4
 LOESUNG_MAX = 1200
 
 
-def lade(skript_id: str) -> list[dict]:
-    pfad = KARTEN / f"{skript_id}.kuratiert.json"
+LESETEXTE = KARTEN / "lesetexte.kuratiert.json"
+
+
+def _lies(pfad: Path) -> list[dict]:
     if not pfad.exists():
         return []
     try:
         return json.loads(pfad.read_text(encoding="utf-8")).get("karten", [])
     except json.JSONDecodeError:
         return []
+
+
+def lade(skript_id: str) -> list[dict]:
+    """Kuratierte Karten des Skripts plus die Fragen aus frueheren Lesetexten."""
+    return _lies(KARTEN / f"{skript_id}.kuratiert.json") + [
+        k for k in _lies(LESETEXTE) if k.get("skript") == skript_id]
+
+
+def kurz_ort(k: dict) -> str:
+    """Letzte brauchbare Ueberschrift plus Randnummer.
+
+    Die Ueberschriftenerkennung des Extraktors haelt auch Rubrumszeilen und
+    Satzfragmente fuer Ueberschriften. Was auf Komma oder Punkt endet oder
+    laenger als 60 Zeichen ist, ist keine."""
+    teile = [t.strip().rstrip(":") for t in (k.get("abschnitt") or "").split("›")]
+    kopf = ""
+    for t in reversed([t for t in teile if t]):
+        if len(t) <= 60 and not t.endswith((",", ".")):
+            kopf = t
+            break
+    rn = f"Rn {k['rn']}" if k.get("rn") else ""
+    return " › ".join(x for x in (kopf, rn) if x)
 
 
 def waehle(karten: list[dict], progress: dict, tag: date | None = None,
@@ -48,23 +72,35 @@ def waehle(karten: list[dict], progress: dict, tag: date | None = None,
     neu_vorhanden = unseen(progress, ids)
     platz_fuer_faellige = anzahl - 1 if neu_vorhanden else anzahl
 
+    # Hoechstens eine Karte je Randnummer: sonst steht dieselbe Formulierung
+    # zweimal im Brief und wird als eine Antwort zurueckgeschickt.
+    belegt: set[tuple] = set()
+
+    def frei(i: str) -> bool:
+        k = by_id[i]
+        schl = (k.get("skript"), k.get("rn"))
+        if not k.get("rn") or schl not in belegt:
+            belegt.add(schl)
+            return True
+        return False
+
     gewaehlt: list[str] = []
     for i in due_today(progress, ids, tag):
         if len(gewaehlt) >= platz_fuer_faellige:
             break
-        if i not in gewaehlt:
+        if i not in gewaehlt and frei(i):
             gewaehlt.append(i)
     for i in neu_vorhanden:
         if len(gewaehlt) >= anzahl:
             break
-        if i not in gewaehlt:
+        if i not in gewaehlt and frei(i):
             gewaehlt.append(i)
     if len(gewaehlt) < anzahl:
         cards = progress.get("cards") or {}
         rest = sorted((i for i in ids if i not in gewaehlt),
                       key=lambda i: (-int(by_id[i].get("gewicht") or 2),
                                      (cards.get(i) or {}).get("due") or "0000", i))
-        gewaehlt += rest[: anzahl - len(gewaehlt)]
+        gewaehlt += [i for i in rest if frei(i)][: anzahl - len(gewaehlt)]
 
     # schwer zuerst — was am wenigsten sitzt, wird zuerst geschrieben
     ausgewaehlt = [by_id[i] for i in gewaehlt[:anzahl]]
@@ -80,7 +116,7 @@ def brieftext(karten: list[dict]) -> str:
               "Antworte auf diese Mail. Pro Aufgabe eine Zeile, nummeriert.",
               ""]
     for n, k in enumerate(karten, 1):
-        ort = " › ".join(x for x in (k.get("abschnitt"), f"Rn {k['rn']}" if k.get("rn") else "") if x)
+        ort = kurz_ort(k)
         zeilen.append(f"{n}. {k['frage'].strip()}")
         if ort:
             zeilen.append(f"   ({ort})")

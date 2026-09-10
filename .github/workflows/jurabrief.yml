@@ -29,7 +29,7 @@ jobs:
         run: |
           git config user.name "Jurabrief Bot"
           git config user.email "jurabrief@users.noreply.github.com"
-          git add jurabriefe/state.json jurabriefe/progress.json
+          git add jurabriefe/state.json jurabriefe/progress.json jurabriefe/karten/lesetexte.kuratiert.json
           git diff --cached --quiet || git commit -m "jurabrief state $(date -u +%F)"
           git pull --rebase --autostash
           git push

@@ -320,9 +320,56 @@ def search_related_case(case, seen_slugs):
                     "aktenzeichen": az,
                     "entscheidungstyp": (detail or {}).get("typ") or r.get("decision_type") or "Urteil",
                     "text": shaped,
+                    "roh": raw[:12000],
                     "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
                     "slug": slug}
     return None
+
+
+def lesetext_aufbereiten(related):
+    """Tenor, zwei Saetze Sachverhalt und eine Frage, die als Karte weiterlebt.
+
+    Ohne Frage ist der Lesetext Dekoration: sie liest im Referendariat ohnehin
+    den ganzen Tag Urteile. Schlaegt der Aufruf fehl, bleibt es beim rohen
+    Auszug — ein magerer Brief ist besser als keiner."""
+    from claude_client import complete
+    roh = (related.get("roh") or related.get("text") or "")[:12000]
+    prompt = (
+        "Du bereitest eine Entscheidung als Lesetext fuer das zweite juristische "
+        "Staatsexamen auf. Antworte NUR mit JSON, ohne Vorrede und ohne Codefence:\n"
+        '{"tenor": "...", "sachverhalt": "...", "frage": "...", "loesung": "..."}'"\n\n"
+        "tenor: das Ergebnis der Entscheidung in einem Satz.\n"
+        "sachverhalt: genau zwei Saetze — was geschehen ist und worum gestritten wird.\n"
+        "frage: eine Frage zur tragenden Rechtsfrage, ein Satz, ohne die Antwort zu verraten.\n"
+        "loesung: die Antwort in zwei bis vier Saetzen, gestuetzt auf die Entscheidung.\n\n"
+        f"Entscheidung: {related.get('gericht')}, {related.get('aktenzeichen')}\n\n{roh}")
+    try:
+        antwort = complete(prompt, max_tokens=4000).strip()
+        antwort = re.sub(r"^```(?:json)?|```$", "", antwort, flags=re.M).strip()
+        d = json.loads(antwort)
+        for feld in ("tenor", "sachverhalt", "frage", "loesung"):
+            if not (d.get(feld) or "").strip():
+                raise ValueError(f"{feld} fehlt")
+        return d
+    except Exception as e:
+        print(f"Lesetext-Aufbereitung fehlgeschlagen: {e}", file=sys.stderr)
+        return None
+
+
+def merke_lesetext_karte(karte):
+    """Die Frage wandert in einen eigenen Stapel und damit in die Wiederholung."""
+    from kartenbrief import LESETEXTE
+    bestand = {"karten": []}
+    if LESETEXTE.exists():
+        try:
+            bestand = json.loads(LESETEXTE.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            pass
+    if any(k.get("id") == karte["id"] for k in bestand.get("karten", [])):
+        return
+    bestand.setdefault("karten", []).append(karte)
+    bestand["karten"] = bestand["karten"][-200:]
+    LESETEXTE.write_text(json.dumps(bestand, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def send_mail(subject, body, to_addr):
@@ -365,7 +412,6 @@ def main():
     zuletzt = [k["id"] for p in (state.get("offene_packs") or {}).values()
                for k in p.get("karten", [])]
     heutige = waehle(alle, progress, meiden=zuletzt)
-    aufgabe = brieftext(heutige)
     related = search_related_case(case, state.get("seen_slugs", []))
     if related and related.get("slug"):
         state.setdefault("seen_slugs", []).append(related["slug"])
@@ -373,16 +419,30 @@ def main():
         lesen = (f"I. Lesetext\n{related['gericht']}, {related['entscheidungstyp']} vom "
                  f"{related['datum']}, {related['aktenzeichen']}\n")
         if related.get("url"):
-            lesen += related["url"] + "\n"
-        lesen += "\n" + related["text"] + "\n"
+            lesen += related["url"].rstrip("/") + "\n"
+        auf = lesetext_aufbereiten(related)
+        if auf:
+            lesen += (f"\nTenor: {auf['tenor'].strip()}\n"
+                      f"\nSachverhalt: {auf['sachverhalt'].strip()}\n"
+                      f"\n{related['text']}\n")
+            karte = {"id": f"lesetext:{related.get('slug') or case['id']}",
+                     "typ": "fall", "gewicht": 2, "skript": case["skript_id"],
+                     "rn": "", "frage": auf["frage"].strip(),
+                     "loesung": auf["loesung"].strip(),
+                     "abschnitt": f"Lesetext {related['gericht']} {related['aktenzeichen']}"}
+            merke_lesetext_karte(karte)
+            heutige.append(karte)
+        else:
+            lesen += "\n" + related["text"] + "\n"
     else:
         lesen = "I. Lesetext\nKein Urteil der passenden Gerichtsbarkeit.\n"
-    body = (f"Jurabrief — {now_berlin().strftime('%A, %d. %B %Y')}\n{case['gebiet']}\n\n"
+    aufgabe = brieftext(heutige)
+    body = (f"Jurabrief — {now_berlin().strftime('%A, %d. %B %Y')}\n\n"
             f"{lesen}\n\n{aufgabe}\n"
             f"Quelle: {case.get('quelle', '')}\n")
-    if rules:
-        body += "\n--- Skript (Regeln) ---\n" + rules + "\n"
-    send_mail(f"Jurabrief — {case['gebiet']} [{case['id']}] ({now_berlin().strftime('%d.%m.')})",
+    # Der Skript-Rohblock ist raus: die Musterloesung steht in der Auswertung,
+    # nach dem eigenen Versuch. Davor nimmt sie nur die Gelegenheit zu formulieren.
+    send_mail(f"Jurabrief [{case['id']}] ({now_berlin().strftime('%d.%m.')})",
               body, resolve_to())
     markiere_gezeigt(progress, case["id"])
     for k in heutige:
