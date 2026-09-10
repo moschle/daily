@@ -243,12 +243,13 @@ def slice_urteil(text):
     if _bad(text):
         return None
     low = text.lower()
-    start = 0
-    for m in ("im namen des volkes", "in dem rechtsstreit", "tatbestand", "gründe"):
-        i = low.find(m)
-        if i != -1:
-            start = i
-            break
+    treffer = []
+    for m in ("im namen des volkes", "in dem rechtsstreit", "tatbestand",
+              "entscheidungsgründe", "gründe"):
+        hit = re.search(r"\b" + re.escape(m) + r"\b", low)
+        if hit:
+            treffer.append(hit.start())
+    start = min(treffer) if treffer else 0
     chunk = text[start:start + 3500].strip()
     return chunk if len(chunk) >= 180 and not _bad(chunk) else None
 
@@ -320,7 +321,7 @@ def search_related_case(case, seen_slugs):
                     "aktenzeichen": az,
                     "entscheidungstyp": (detail or {}).get("typ") or r.get("decision_type") or "Urteil",
                     "text": shaped,
-                    "roh": raw[:12000],
+                    "roh": clean_ocr(raw)[:12000],
                     "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
                     "slug": slug}
     return None

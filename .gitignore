@@ -7,4 +7,6 @@ generate_morgenbrief_broken.py
 # lokales / Verlagsmaterial — nicht ins öffentliche Repo
 private/
 jurabriefe/karten/*.json
+!jurabriefe/karten/*.kuratiert.json
+!jurabriefe/karten/referenz.json
 !jurabriefe/karten/INDEX.md

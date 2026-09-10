@@ -251,7 +251,8 @@ def karten_mail(case: dict, pack: list[dict], k: dict, schnitt=None) -> str:
               f"   {b['punkte']} Punkte — {b.get('treffer', '')}"]
         if b.get("fehlt"):
             z.append(f"   fehlt: {b['fehlt']}")
-        z += [f"   Skript: {c.get('loesung', '')}", ""]
+        quelle = "Musterloesung" if str(c.get("id", "")).startswith("lesetext:") else "Skript"
+        z += [f"   {quelle}: {c.get('loesung', '')}", ""]
     z += [f"Naechster Schritt: {k.get('naechster_schritt', '')}"]
     if schnitt is not None:
         z += ["", f"Schnitt in diesem Gebiet: {schnitt} Punkte"]
