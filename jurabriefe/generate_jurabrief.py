@@ -406,7 +406,7 @@ def main():
     state.setdefault("done", []).append(case["id"])
     state["done"] = state["done"][-40:]
     state["last_id"] = case["id"]
-    rules = load_skript_section(case)
+    # load_skript_section wird weiterhin von korrektur.py benutzt, im Brief nicht mehr
 
     alle = lade(case.get("skript_id") or "")
     zuletzt = [k["id"] for p in (state.get("offene_packs") or {}).values()
@@ -416,7 +416,8 @@ def main():
     if related and related.get("slug"):
         state.setdefault("seen_slugs", []).append(related["slug"])
     if related:
-        lesen = (f"I. Lesetext\n{related['gericht']}, {related['entscheidungstyp']} vom "
+        lesen = (f"I. Lesetext — {case['gebiet']}\n"
+                 f"{related['gericht']}, {related['entscheidungstyp']} vom "
                  f"{related['datum']}, {related['aktenzeichen']}\n")
         if related.get("url"):
             lesen += related["url"].rstrip("/") + "\n"
