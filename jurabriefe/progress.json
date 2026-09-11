@@ -5,7 +5,7 @@
     "zr-003": 1.0,
     "zr-004": 1.0,
     "zr-005": 1.0,
-    "zr-006": 1.1,
+    "zr-006": 0.8,
     "zr-007": 1.0,
     "zr-008": 1.0,
     "zr-009": 1.0,
@@ -15,7 +15,8 @@
     "zr-anwalt:form:012": 0.8,
     "zr-anwalt:form:013": 1.7,
     "zr-anwalt:form:014": 1.7,
-    "zr-anwalt:form:011": 0.8
+    "zr-anwalt:form:011": 0.8,
+    "lesetext:bgh-2024-05-16-ix-zr-3823": 1.1
   },
   "feedback": [
     {
@@ -62,39 +63,92 @@
       "interval": 4,
       "detail": "Schnitt der vier Einzelwertungen (12/2/0/10)",
       "punkte": 6.0
+    },
+    {
+      "date": "2026-09-11",
+      "case_id": "zr-anwalt:form:012",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 36,
+      "detail": "",
+      "punkte": 18.0
+    },
+    {
+      "date": "2026-09-11",
+      "case_id": "zr-anwalt:form:014",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 1,
+      "detail": "Adresse (Pallasstraße 57, 10829 Berlin-Schöneberg) und Streitgegenstand (Mietrückstände August bis November 2023) fehlen vollständig; zudem Genusfehler 'dessen' statt 'deren'; Antwort bleibt inhaltsleer ohne Bezug zum konkreten Fall.",
+      "punkte": 3.0
+    },
+    {
+      "date": "2026-09-11",
+      "case_id": "zr-anwalt:form:011",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 36,
+      "detail": "",
+      "punkte": 18.0
+    },
+    {
+      "date": "2026-09-11",
+      "case_id": "lesetext:bgh-2024-05-16-ix-zr-3823",
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Keine Auseinandersetzung mit der BGH-Kritik, dass das Berufungsgericht die Aussichtslosigkeit nur unterstellt statt festgestellt hat, keine Erwähnung der ungeklärten Rechtsfragen zum Versicherungsschutz, keine Konsequenz für die Beweislast (Klägerin muss Kausalität einzeln darlegen und beweisen); Antwort bleibt auf Ergebnisebene ohne Subsumtion.",
+      "punkte": 7.0
+    },
+    {
+      "date": "2026-09-11",
+      "case_id": "zr-006",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 18,
+      "detail": "Übung zur vollständigen Sachverhaltsverarbeitung: bei Einleitungssätzen und Gutachten stets alle im Sachverhalt genannten Fakten (Adresse, Zeitraum, Streitgegenstand) und die tragenden Argumentationsschritte des Gerichts (hier: BGH-Kritik an der bloßen Unterstellung) einarbeiten statt nur das Ergebnis zu nennen.",
+      "punkte": 12.0
     }
   ],
   "letzte_anpassung": null,
   "cards": {
     "zr-006": {
-      "stability": 4.0,
-      "difficulty": 5.0,
-      "due": "2026-09-14",
-      "last": "2026-09-10",
+      "stability": 17.97,
+      "difficulty": 4.85,
+      "due": "2026-09-29",
+      "last": "2026-09-11",
       "gezeigt": "2026-09-11",
-      "reps": 1,
+      "reps": 2,
       "punkte": [
         {
           "date": "2026-09-10",
           "wert": 6.0
+        },
+        {
+          "date": "2026-09-11",
+          "wert": 12.0
         }
       ],
-      "schnitt": 6.0
+      "schnitt": 9.0
     },
     "zr-anwalt:form:012": {
-      "stability": 8.0,
-      "difficulty": 4.85,
-      "due": "2026-09-18",
-      "last": "2026-09-10",
+      "stability": 35.7,
+      "difficulty": 4.7,
+      "due": "2026-10-17",
+      "last": "2026-09-11",
       "gezeigt": "2026-09-11",
-      "reps": 1,
+      "reps": 2,
       "punkte": [
         {
           "date": "2026-09-10",
           "wert": 12.0
+        },
+        {
+          "date": "2026-09-11",
+          "wert": 18.0
         }
       ],
-      "schnitt": 12.0
+      "schnitt": 15.0
     },
     "zr-anwalt:form:013": {
       "stability": 1.0,
@@ -113,33 +167,41 @@
     },
     "zr-anwalt:form:014": {
       "stability": 1.0,
-      "difficulty": 5.3,
-      "due": "2026-09-11",
-      "last": "2026-09-10",
+      "difficulty": 5.6,
+      "due": "2026-09-12",
+      "last": "2026-09-11",
       "gezeigt": "2026-09-11",
-      "reps": 1,
+      "reps": 2,
       "punkte": [
         {
           "date": "2026-09-10",
           "wert": 0.0
+        },
+        {
+          "date": "2026-09-11",
+          "wert": 3.0
         }
       ],
-      "schnitt": 0.0
+      "schnitt": 1.5
     },
     "zr-anwalt:form:011": {
-      "stability": 8.0,
-      "difficulty": 4.85,
-      "due": "2026-09-18",
-      "last": "2026-09-10",
+      "stability": 35.7,
+      "difficulty": 4.7,
+      "due": "2026-10-17",
+      "last": "2026-09-11",
       "gezeigt": "2026-09-11",
-      "reps": 1,
+      "reps": 2,
       "punkte": [
         {
           "date": "2026-09-10",
           "wert": 10.0
+        },
+        {
+          "date": "2026-09-11",
+          "wert": 18.0
         }
       ],
-      "schnitt": 10.0
+      "schnitt": 14.0
     },
     "zr-004": {
       "stability": 0.0,
@@ -214,13 +276,20 @@
       "reps": 0
     },
     "lesetext:bgh-2024-05-16-ix-zr-3823": {
-      "stability": 0.0,
+      "stability": 4.0,
       "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "due": "2026-09-15",
+      "last": "2026-09-11",
       "gezeigt": "2026-09-11",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-11",
+          "wert": 7.0
+        }
+      ],
+      "schnitt": 7.0
     }
   },
-  "letzter_korrekturlauf": "2026-09-10"
+  "letzter_korrekturlauf": "2026-09-11"
 }
