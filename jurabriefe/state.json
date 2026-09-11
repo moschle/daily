@@ -9,9 +9,10 @@
     "zr-002",
     "zr-003",
     "zr-006",
-    "zr-004"
+    "zr-004",
+    "zr-005"
   ],
-  "last_id": "zr-004",
+  "last_id": "zr-005",
   "seen_slugs": [
     "olgdres-2021-11-16-4-u-116821",
     "kg--2020-09-30-3-161-ss-4920-48",
@@ -20,7 +21,8 @@
     "lg-duisburg-2024-05-13-3-o-17123",
     "olgmuen-2022-02-22-18-u-317620",
     "olgce-2020-12-16-14-u-8720",
-    "bgh-2019-02-21-vii-zr-10518"
+    "bgh-2019-02-21-vii-zr-10518",
+    "olghe-2019-05-08-13-u-21017"
   ],
   "next_index": 1,
   "offen": {},
@@ -70,9 +72,56 @@
           "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 3. Streitgenossen"
         }
       ]
+    },
+    "zr-005": {
+      "case_id": "zr-005",
+      "datum": "2026-09-11",
+      "karten": [
+        {
+          "nr": 1,
+          "id": "zr-anwalt:form:016",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie den Beweisantritt für den Sachverstaendigenbeweis.",
+          "loesung": "Beweis: Sachverständigengutachten",
+          "gewicht": 3,
+          "skript": "zr-anwalt",
+          "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › 2. Formelles Beweisrecht › a. Beweisverfahren"
+        },
+        {
+          "nr": 2,
+          "id": "zr-anwalt:form:018",
+          "typ": "formulierung",
+          "frage": "Ihr Mandant ist Inhaber eines vorrangigen Pfandrechts an einer Sache, die sich in der Verwertung durch einen anderen Gläubiger befindet. Er möchte seinen Vorrang gerichtlich durchsetzen. Formulieren Sie den Klageantrag nach § 805 ZPO.",
+          "loesung": "Der Kläger ist vor dem Beklagten aus dem Reinerlös aus der Vollstreckung in folgenden Gegenstand (genau bezeichnen) wegen einer Forderung des Klägers in Höhe von € ... zu befriedigen.",
+          "gewicht": 3,
+          "skript": "zr-anwalt",
+          "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › IX. Klagen und Rechtsbehelfe in der Zwangsvollstreckung › 1. Klagen gegen die Zwangsvollstreckung: › c. Klage auf vorzugsweise Befriedigung nach § 805 ZPO"
+        },
+        {
+          "nr": 3,
+          "id": "zr-anwalt:form:019",
+          "typ": "formulierung",
+          "frage": "Ihr Mandant will im Wege der Erinnerung nach § 766 ZPO gegen eine Maßnahme des Gerichtsvollziehers vorgehen. Formulieren Sie einen der möglichen Anträge (Anweisungsantrag).",
+          "loesung": "Der Gerichtsvollzieher wird angewiesen, …",
+          "gewicht": 3,
+          "skript": "zr-anwalt",
+          "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › IX. Klagen und Rechtsbehelfe in der Zwangsvollstreckung › 2. Sofortige Beschwerde und Erinnerung › b. Erinnerung nach § 766 ZPO"
+        },
+        {
+          "nr": 4,
+          "id": "zr-anwalt:form:013",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie die einleitende Parteivorstellung im Schriftsatz (Zahnarzt-Abfindungsstreit).",
+          "loesung": "Die Parteien sind Zahnärzte. Der Kläger begehrt vom Beklagten die Zahlung einer Abfindung aufgrund vorzeitiger Kündigung des Gemeinschaftspraxisvertrages. (...)",
+          "gewicht": 2,
+          "skript": "zr-anwalt",
+          "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden."
+        }
+      ]
     }
   },
   "erledigte_mails": [
     "<DDD4AD8A-8468-4A24-BC1F-91A6381C5787@web.de>"
-  ]
+  ],
+  "letzter_brief": "2026-09-11"
 }
