@@ -26,7 +26,8 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 KARTEN = HERE / "karten"
 REFERENZ = KARTEN / "referenz.json"
-TYPEN = ("formulierung", "fall", "fehler", "aufbau")
+TYPEN = ("formulierung", "fall", "fehler", "aufbau",
+         "voraussetzungen", "abgrenzung", "frist")
 
 TOLERANZ = 0.02          # 2 % Schwund sind Rauschen, mehr nicht
 MIN_FRAGE = 15
@@ -105,6 +106,32 @@ def vergleich(jetzt: dict, referenz: dict) -> list[str]:
     return warnungen
 
 
+def belege_pruefen() -> list[str]:
+    """Erzeugte Karten fuehren ihre Fundstelle woertlich mit.
+
+    Geprueft wird nicht die Loesung — die ist beim Lesen entstanden und steht
+    so nicht im Skript —, sondern der Beleg. Eine erfundene Fundstelle
+    uebersteht die Teilstringpruefung nicht.
+    """
+    from karten import EXTRACTED, clean
+    fehler = []
+    for q in sorted(KARTEN.glob("*.gen.json")):
+        sid = q.stem.replace(".gen", "")
+        pfad = EXTRACTED / f"{sid}.txt"
+        if not pfad.exists():
+            fehler.append(f"{sid}: Skripttext fehlt, Belege nicht pruefbar")
+            continue
+        skript = " ".join(
+            clean(pfad.read_text(encoding="utf-8", errors="replace")).split())
+        for k in json.loads(q.read_text(encoding="utf-8")).get("karten", []):
+            beleg = " ".join((k.get("beleg") or "").split())
+            if not beleg:
+                fehler.append(f"{k.get('id')}: kein Beleg")
+            elif beleg not in skript:
+                fehler.append(f"{k.get('id')}: Beleg steht nicht im Skript")
+    return fehler
+
+
 def main() -> int:
     if not KARTEN.exists():
         print("kein karten/-Verzeichnis — erst python jurabriefe/karten.py", file=sys.stderr)
@@ -127,6 +154,7 @@ def main() -> int:
     if REFERENZ.exists():
         bekannt = set(json.loads(REFERENZ.read_text(encoding="utf-8")).get("zuordnung_bekannt") or [])
     probleme = maengel(bestand, bekannt)
+    probleme += belege_pruefen()
     if probleme:
         print(f"\n{len(probleme)} Maengel im Bestand:", file=sys.stderr)
         for p in probleme[:20]:

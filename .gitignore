@@ -8,5 +8,7 @@ generate_morgenbrief_broken.py
 private/
 jurabriefe/karten/*.json
 !jurabriefe/karten/*.kuratiert.json
+!jurabriefe/karten/*.gen.json
+!jurabriefe/karten/llm_manifest.json
 !jurabriefe/karten/referenz.json
 !jurabriefe/karten/INDEX.md

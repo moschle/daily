@@ -37,9 +37,10 @@ def _lies(pfad: Path) -> list[dict]:
 
 
 def lade(skript_id: str) -> list[dict]:
-    """Kuratierte Karten des Skripts plus die Fragen aus frueheren Lesetexten."""
-    return _lies(KARTEN / f"{skript_id}.kuratiert.json") + [
-        k for k in _lies(LESETEXTE) if k.get("skript") == skript_id]
+    """Kuratierte Karten, erzeugte Karten und die Fragen aus frueheren Lesetexten."""
+    return (_lies(KARTEN / f"{skript_id}.kuratiert.json")
+            + _lies(KARTEN / f"{skript_id}.gen.json")
+            + [k for k in _lies(LESETEXTE) if k.get("skript") == skript_id])
 
 
 def kurz_ort(k: dict) -> str:
