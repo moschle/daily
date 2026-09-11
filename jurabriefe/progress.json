@@ -71,7 +71,7 @@
       "difficulty": 5.0,
       "due": "2026-09-14",
       "last": "2026-09-10",
-      "gezeigt": "2026-09-08",
+      "gezeigt": "2026-09-11",
       "reps": 1,
       "punkte": [
         {
@@ -86,7 +86,7 @@
       "difficulty": 4.85,
       "due": "2026-09-18",
       "last": "2026-09-10",
-      "gezeigt": "2026-09-08",
+      "gezeigt": "2026-09-11",
       "reps": 1,
       "punkte": [
         {
@@ -116,7 +116,7 @@
       "difficulty": 5.3,
       "due": "2026-09-11",
       "last": "2026-09-10",
-      "gezeigt": "2026-09-08",
+      "gezeigt": "2026-09-11",
       "reps": 1,
       "punkte": [
         {
@@ -131,7 +131,7 @@
       "difficulty": 4.85,
       "due": "2026-09-18",
       "last": "2026-09-10",
-      "gezeigt": "2026-09-08",
+      "gezeigt": "2026-09-11",
       "reps": 1,
       "punkte": [
         {
@@ -206,6 +206,14 @@
       "reps": 0
     },
     "zr-anwalt:form:019": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-11",
+      "reps": 0
+    },
+    "lesetext:bgh-2024-05-16-ix-zr-3823": {
       "stability": 0.0,
       "difficulty": 5.0,
       "due": null,

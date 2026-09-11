@@ -1,3 +1,14 @@
 {
- "karten": []
+ "karten": [
+  {
+   "id": "lesetext:bgh-2024-05-16-ix-zr-3823",
+   "typ": "fall",
+   "gewicht": 2,
+   "skript": "zr-anwalt",
+   "rn": "",
+   "frage": "Kann sich der Rechtsschutzversicherer für den Nachweis, dass seine Versicherungsnehmer bei ordnungsgemäßer Aufklärung von der Rechtsverfolgung abgesehen hätten, auf einen Anscheinsbeweis für beratungsgerechtes Verhalten stützen, wenn die Erfolgsaussichten der Rechtsverfolgung tatsächlich nicht eindeutig zu verneinen waren?",
+   "loesung": "Der Anscheinsbeweis für ein beratungsgerechtes Verhalten setzt voraus, dass bei zutreffender Aufklärung nur eine bestimmte Reaktion des Mandanten als vernünftig in Betracht gekommen wäre, was insbesondere bei einer eindeutig aussichtslosen Rechtsverfolgung der Fall ist. Der Bundesgerichtshof beanstandet, dass das Berufungsgericht die Aussichtslosigkeit der geführten Verfahren nicht rechtsfehlerfrei festgestellt, sondern lediglich unterstellt hat, ohne die maßgeblichen und seinerzeit ungeklärten Rechtsfragen zur Reichweite des Versicherungsschutzes hinreichend zu würdigen. Da die Rechtslage nicht derart eindeutig war, dass jede Erfolgsaussicht zu verneinen gewesen wäre, kommt der Klägerin kein Anscheinsbeweis zugute, sodass sie die Kausalität zwischen Pflichtverletzung und Schaden im Einzelnen darlegen und beweisen muss.",
+   "abschnitt": "Lesetext Bundesgerichtshof bgh IX ZR 38/23"
+  }
+ ]
 }
