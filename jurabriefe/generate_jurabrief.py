@@ -110,6 +110,7 @@ def load_json(path, default):
 def save_state(state):
     state["done"] = (state.get("done") or [])[-20:]
     state["seen_slugs"] = (state.get("seen_slugs") or [])[-40:]
+    state["letzter_brief"] = now_berlin().strftime("%Y-%m-%d")
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
@@ -394,6 +395,10 @@ def main():
     if not cases:
         sys.exit(1)
     state = load_json(STATE_FILE, {"done": [], "seen_slugs": []})
+    heute = now_berlin().strftime("%Y-%m-%d")
+    if state.get("letzter_brief") == heute:
+        print(f"Brief fuer {heute} ist schon raus — nichts zu tun", file=sys.stderr)
+        return 0
     progress = load_progress()
     for c in cases:
         auto_wertung(progress, c["id"])
