@@ -1,0 +1,125 @@
+{
+ "karten": [
+  {
+   "id": "sr-anwalt:vora:f688e80b15",
+   "typ": "voraussetzungen",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "3. Die Begutachtung der Erfolgsaussichten einer Revision › B) Gutachten / anwaltliche Leistung",
+   "frage": "In der Anwalts-Gutachtenklausur im Strafrecht liegt eine Anklage, ein Haftbefehl oder ein Strafbefehl vor. Welche Straftatbestände sind im Gutachten grundsätzlich zu prüfen – nur die dort genannten oder auch andere?",
+   "loesung": "Zu prüfen sind in erster Linie alle Tatbestände, die angeklagt sind bzw. hinsichtlich derer dringender/hinreichender Tatverdacht bejaht wurde. Daneben sind aber – für die Mandantenberatung – auch nicht erwähnte Tatbestände zu prüfen, wenn die Gefahr einer Bestrafung deswegen besteht. Eine ausführliche Prüfung von im Gutachten letztlich verneinten, nicht erwähnten Tatbeständen ist aber eher die Ausnahme (z.B. bei angekündigter Haftbefehlserweiterung mit Akteneinsicht).",
+   "beleg": "Im Gutachten sollten in erster Linie sämtliche Straftatbestände erörtert werden, die angeklagt worden sind bzw. hinsichtlich derer in einer Anklage, einem Haftbefehl oder einem Strafbefehl dringender, bzw. hinreichender Tatverdacht bejaht worden ist."
+  },
+  {
+   "id": "sr-anwalt:fehl:af869cdc2d",
+   "typ": "fehler",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "3. Die Begutachtung der Erfolgsaussichten einer Revision › B) Gutachten / anwaltliche Leistung",
+   "frage": "In einem Haftbefehl wird Verdunkelungsgefahr allein damit begründet, dass bei einem Betrugsvorwurf generell eine Verdunkelungsgefahr bestehe. Ist diese Begründung rechtlich tragfähig?",
+   "loesung": "Nein. Nach allgemeiner Ansicht kann allein aus der Verwirklichung eines Tatbestandes nicht auf die Verdunkelungsgefahr geschlossen werden. Es bedarf konkreter, auf den Einzelfall bezogener Anhaltspunkte für Verdunkelungshandlungen.",
+   "beleg": "Zum anderen sind die Argumente, mit denen die Haftgründe bejaht werden, überholt (Fluchtgefahr) bzw. rechtlich nicht haltbar (Verdunkelungsgefahr), da nach allgemeiner Ansicht allein aus der Verwirklichung eines Tatbestandes nicht auf die Verdunkelungsgef ahr geschlossen werden kann"
+  },
+  {
+   "id": "sr-anwalt:vora:f469648cfe",
+   "typ": "voraussetzungen",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "3. Die Begutachtung der Erfolgsaussichten einer Revision › B) Gutachten / anwaltliche Leistung",
+   "frage": "Gegen Ihren nicht vorbestraften Mandanten ergeht ein Haftbefehl wegen gewerbsmäßigen Betrugs; die Fluchtgefahr wird mit fehlender Meldeanschrift begründet. Nach Erlass des Haftbefehls schließt der Mandant einen Mietvertrag und meldet sich beim Bürgeramt an. Ihre Prüfung ergibt zudem, dass nur ein Tatverdacht wegen einfachen Betrugs besteht. Welche zwei Argumentationslinien ergeben sich daraus gegen die Fluchtgefahr?",
+   "loesung": "Erstens kann der Tatvorwurf materiell-rechtlich „heruntendefiniert“ werden (einfacher statt gewerbsmäßiger Betrug), wodurch sich die Straferwartung reduziert – das wirkt sich unmittelbar auf die Prognose der Fluchtgefahr aus. Zweitens ist das ursprüngliche Argument der fehlenden Meldeanschrift durch die zwischenzeitliche Anmeldung und den Mietvertrag überholt.",
+   "beleg": "Zum einen kann der Tatvorwurf „herunterdefiniert“ werden, wodurch sich die Straferwartung reduziert, was wiederum Auswirkungen auf die Prüfung der Fluchtgefahr hat."
+  },
+  {
+   "id": "sr-anwalt:aufb:c84a3a63d9",
+   "typ": "aufbau",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "I. Der Aufbau des Gutachtens › II. Die anwaltliche Leistung",
+   "frage": "In einer Strafrechtsklausur aus Verteidigersicht werden dem Mandanten in der Anklageschrift drei Taten vorgeworfen. Sollten Sie im Gutachten zunächst nacheinander alle drei angeklagten Tatbestände prüfen und erst danach gesondert auf eventuell übersehene weitere Straftatbestände eingehen, oder wie sonst ist vorzugehen?",
+   "loesung": "Empfohlen wird stattdessen die chronologische und vollständige Prüfung jeder prozessualen Tat: Jede Tat wird einzeln vollständig durchgeprüft (einschließlich etwaiger übersehener Tatbestände), bevor die nächste Tat behandelt wird. Beim Aufteilen in 'angeklagte Tatbestände zuerst, übersehene später' besteht die Gefahr, dass später unvermittelt auf einen bereits abgeschlossenen Sachverhalt zurückgekommen wird, was von Korrektoren kritisiert wird.",
+   "beleg": "empfehlen wir die chronologische und vollständige Prüfung jeder prozessualen Tat. Anderenfalls besteht"
+  },
+  {
+   "id": "sr-anwalt:aufb:e54aab1f10",
+   "typ": "aufbau",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "I. Der Aufbau des Gutachtens › II. Die anwaltliche Leistung",
+   "frage": "Wie sollten Beweiswürdigungsfragen und Beweisverwertungsverbote im materiell-rechtlichen Gutachten einer strafrechtlichen Verteidigerklausur grundsätzlich verortet werden – in einem eigenen, vorangestellten prozessualen Teil oder anders?",
+   "loesung": "Sie sollten tatbestandsmerkmalbezogen erörtert werden, also nicht in einem gesonderten prozessualen Teil getrennt von der materiell-rechtlichen Prüfung, sondern jeweils an der Stelle, an der sich die Frage für ein konkretes Tatbestandsmerkmal stellt. So wird die Bedeutung der Rechtsfrage für die Lösung des Falls unmittelbar deutlich.",
+   "beleg": "die immer tatbestandsmerkmalbezogen erörtert werden sollten. Es sollte also insoweit keinen prozessualen und einen hiervon getrennten materiell - rechtlichen Teil im Gutachten geben."
+  },
+  {
+   "id": "sr-anwalt:abgr:b65e910519",
+   "typ": "abgrenzung",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "I. Der Aufbau des Gutachtens › II. Die anwaltliche Leistung",
+   "frage": "Der Mandant wurde vor seiner polizeilichen Vernehmung nicht über sein Schweigerecht belehrt und legte ein Geständnis ab; die Körperverletzung lässt sich aber ohnehin durch mehrere Zeugenaussagen sicher nachweisen. Bei einer weiteren Tat (Hehlerei) lässt sich die Kenntnis von der rechtswidrigen Vortat nur durch ein richterliches Geständnis nachweisen, wobei die Verteidigerbenachrichtigung nach § 168c Abs. 5 StPO unterblieben ist. Wie ist mit den beiden möglichen Beweisverwertungsverboten im Gutachten einerseits und im Schriftsatz/Plädoyer andererseits umzugehen?",
+   "loesung": "Im Gutachten sind beide Verwertungsverbote zu erörtern; hinsichtlich des ersten ist darzulegen, dass es wegen des sicheren anderweitigen Tatnachweises durch Zeugen nicht entscheidungserheblich ist. Im Schriftsatz/Plädoyer wird das erste Verwertungsverbot dann nicht mehr ausführlich behandelt, weil es darauf nicht mehr ankommt; das zweite Verwertungsverbot (§ 168c Abs. 5 StPO) ist dagegen ausführlich darzustellen, weil es dazu führen kann, dass der Mandant nicht wegen Hehlerei verurteilt wird.",
+   "beleg": "Die ausführliche Erörterung des ersten Verwertungsverbotes ist jedoch auf Grund des sicheren Tatnachweises durch andere Beweismittel im Schriftsatz oder Plädoyer überflüssig."
+  },
+  {
+   "id": "sr-anwalt:aufb:39c0495f3e",
+   "typ": "aufbau",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "I. Der Aufbau des Gutachtens › II. Die anwaltliche Leistung",
+   "frage": "Sie verfassen als Verteidiger einen Schriftsatz. Im Gutachten haben Sie mehrere rechtliche Aspekte geprüft, von denen manche für den Mandanten nachteilig sind. Wie gehen Sie bei der Abfassung des Schriftsatzes mit diesen nachteiligen Aspekten um?",
+   "loesung": "Im Schriftsatz und Plädoyer der Verteidigung dürfen nur solche gutachterlichen Überlegungen auftauchen, die dem Mandanten nutzen, weil die anwaltliche Tätigkeit durch die einseitige Wahrnehmung der Interessen des Mandanten gekennzeichnet ist. Längere Ausführungen zu für den Mandanten nachteiligen rechtlichen Aspekten wirken sich nachteilig auf die Bewertung der Klausur aus.",
+   "beleg": "Das verlangt, dass nur jene (gutachterlichen) Überlegungen im Schriftsatz und im Plädoyer der Verteidigung auftauchen, die dem Mandanten auch nutzt."
+  },
+  {
+   "id": "sr-anwalt:aufb:77fd5de84e",
+   "typ": "aufbau",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "I. Der Aufbau des Gutachtens › II. Die anwaltliche Leistung",
+   "frage": "Nach welchem Grundsatz wählt man aus, welche Tatbestandsmerkmale, Vorsatzfragen, Rechtfertigungs-, Entschuldigungs- oder Strafaufhebungsgründe man in einem anwaltlichen Schriftsatz (z.B. einer Schutzschrift) erörtert?",
+   "loesung": "Man beschränkt sich im Schriftsatz auf die Prüfung genau der Aspekte, die die Strafbarkeit ausschließen bzw. das Strafmaß für den Mandanten positiv beeinflussen. Alle übrigen, für den Mandanten ungünstigen oder neutralen Punkte werden nicht erörtert, auch wenn sie im Gutachten vollständig zu prüfen wären.",
+   "beleg": "Es ist zu empfehlen, sich im Schriftsatz auf die Prüfung der Aspekte zu beschränken (Tatbestandsmerkmale / Vorsatz / Rechtfertigungsgründe / Entschuldigungs - und Schuldausschließungsgründe / Strafaufhebungsgründe / Absehen von Strafe) , die die Strafbarkeit ausschließen bzw. das Strafmaß für den Mandanten positiv beeinflussen."
+  },
+  {
+   "id": "sr-anwalt:form:23560a5a4f",
+   "typ": "formulierung",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "I. Der Aufbau des Gutachtens › II. Die anwaltliche Leistung",
+   "frage": "Dem Mandanten wird schwerer Raub gemäß §§ 249, 250 Abs. 2 Nr. 1 StGB vorgeworfen, weil er einem Zeugen mit Gewalt das Smartphone entwendet haben soll. Der objektive Tatbestand des Raubes lässt sich problemlos nachweisen. Zu verneinen sind jedoch der Vorsatz hinsichtlich der Rechtswidrigkeit der Zueignung sowie die Verwendung eines gefährlichen Werkzeugs. Formulieren Sie den entsprechenden Passus für eine Schutzschrift.",
+   "loesung": "Eine Eröffnung des Hauptverfahrens scheitert daran, dass der Vorsatz bezüglich der rechtswidrigen Zueignung des Smartphones nicht nachgewiesen werden kann. Unwiderlegbar hat nämlich mein Mandant dazu ausgeführt, irrtümlich davon ausgegangen zu sein, einen Anspruch auf Übergabe des Gerätes zu haben. Aber selbst wenn man einen Tatverdacht wegen Raubes annähme, käme allenfalls eine Eröffnung des Hauptverfahrens wegen eines einfachen und nicht wegen schweren Raubes in Betracht. Denn jedenfalls hat mein Mandant kein gefährliches Werkzeug verwendet.",
+   "beleg": "Eine Eröffnung des Hauptverfahrens scheitert daran, dass der Vorsatz bezüglich der rechtswidrigen Zueignung des Smartphones nicht nachgewiesen werden kann."
+  },
+  {
+   "id": "sr-anwalt:form:cebb68e1b0",
+   "typ": "formulierung",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "I. Der Aufbau des Gutachtens › II. Die anwaltliche Leistung",
+   "frage": "Dem Mandanten wird ein Betrug vorgeworfen. Es fehlt am Vermögensschaden, während Täuschung, Irrtum und Vermögensverfügung unterstellt werden können. Formulieren Sie den entsprechenden Passus für eine Schutzschrift.",
+   "loesung": "Die Tat ist nicht als Betrug strafbar. Selbst wenn vom Vorliegen einer Täuschung, eines täuschungsbedingten Irrtums und einer irrtumsbedingten Vermögensverfügung ausgegangen werden muss, so liegt doch erkennbar kein Vermögensschaden vor.",
+   "beleg": "Die Tat ist nicht als Betrug strafbar. Selbst wenn die vom Vorliegen einer Täuschung, eines täuschungsbedingten Irrtums, und einer irrtumsbedingten Vermögensverfügung ausgegangenen werden muss, so liegt doch erkennbar kein Vermögensschaden vor."
+  },
+  {
+   "id": "sr-anwalt:abgr:a583de5d5a",
+   "typ": "abgrenzung",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "I. Der Aufbau des Gutachtens › II. Die anwaltliche Leistung",
+   "frage": "Worin unterscheidet sich die inhaltliche Zielrichtung des vollständigen Gutachtens von der eines anschließend zu verfassenden Schriftsatzes, und was ändert sich, wenn umgekehrt zunächst ein Schriftsatz und danach noch ein ergänzendes Gutachten verlangt wird?",
+   "loesung": "Das Gutachten prüft grundsätzlich alle Aspekte umfassend und ergebnisoffen, auch belastende. Der Schriftsatz stellt daraus interessengerecht nur den für den Mandanten günstigen Ausschnitt dar. Wird dagegen zuerst ein Schriftsatz und danach ein ergänzendes Gutachten verlangt, das nur noch die Aspekte behandeln soll, die dem Mandanten nicht nur nützen, müssen Referendar*innen die klassische Herangehensweise gedanklich umkehren.",
+   "beleg": "In jenen Fällen, in denen zunächst ein Schriftsatz angefertigt und sodann in einem ergänzenden Gutachten nur noch jene Aspekte erörtert werden sollen, die dem Mandanten nicht nur n ützen, m üssen die Referendar*innen die klassische Herangehensweise (und das Denken) auf den Kopf stellen."
+  }
+ ]
+}
