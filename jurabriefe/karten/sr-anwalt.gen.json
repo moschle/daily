@@ -120,6 +120,116 @@
    "frage": "Worin unterscheidet sich die inhaltliche Zielrichtung des vollständigen Gutachtens von der eines anschließend zu verfassenden Schriftsatzes, und was ändert sich, wenn umgekehrt zunächst ein Schriftsatz und danach noch ein ergänzendes Gutachten verlangt wird?",
    "loesung": "Das Gutachten prüft grundsätzlich alle Aspekte umfassend und ergebnisoffen, auch belastende. Der Schriftsatz stellt daraus interessengerecht nur den für den Mandanten günstigen Ausschnitt dar. Wird dagegen zuerst ein Schriftsatz und danach ein ergänzendes Gutachten verlangt, das nur noch die Aspekte behandeln soll, die dem Mandanten nicht nur nützen, müssen Referendar*innen die klassische Herangehensweise gedanklich umkehren.",
    "beleg": "In jenen Fällen, in denen zunächst ein Schriftsatz angefertigt und sodann in einem ergänzenden Gutachten nur noch jene Aspekte erörtert werden sollen, die dem Mandanten nicht nur n ützen, m üssen die Referendar*innen die klassische Herangehensweise (und das Denken) auf den Kopf stellen."
+  },
+  {
+   "id": "sr-anwalt:form:74ab57639e",
+   "typ": "formulierung",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "II. Die anwaltliche Leistung › III. Das Verteidigungsziel",
+   "frage": "Ihr Mandant wurde wegen eines Betrugs zu einer Freiheitsstrafe von acht Monaten verurteilt. Die Tat liegt vier Jahre zurück, er ist seitdem nicht wieder straffällig geworden und war zuvor unbestraft. Er hat ein Geständnis abgelegt und den Schaden vollständig wiedergutgemacht. Formulieren Sie einen Argumentationsabsatz, der die Strafaussetzung zur Bewährung nach § 56 Abs. 2 StGB aus Verteidigungsperspektive begründet.",
+   "loesung": "Ein möglicher Musterabsatz lautet: 'Die Strafaussetzung zur Bewährung ist nach § 56 Abs. 2 StGB gerechtfertigt, weil sowohl eine positive Prognose als auch besondere Umstände vorliegen. Die positive Prognose ergibt sich daraus, dass die Tat nunmehr vier Jahre zurückliegt und der Angeklagte seitdem nicht weiter straffällig geworden und auch zuvor unbestraft war. Die besonderen Umstände stützen sich auf das Geständnis und die vollständige Wiedergutmachung des Schadens, mit denen der Angeklagte deutlich macht, dass er Verantwortung für sein Handeln übernommen hat.'",
+   "beleg": "Die Strafaussetzung zur Bewährung ist nach § 56 Abs. 2 StGB gerechtfertigt, weil sowohl eine positive Prognose sowie besondere Umstände vorliegen. Die positive Prognose begründet sich vorliegend schon allein daraus, dass die Tat nunmehr vier Jahre zurück liegt und der Angekl. seitdem nicht weiter straffällig geworden und auch zuvor unbestraft war… Die besonderen Umstände können sich auf das Geständnis und die Wiedergutmachungsleistungen stützen, mit denen der Angeklagte deutlich macht, dass er Verantwortung übernommen hat…"
+  },
+  {
+   "id": "sr-anwalt:form:e209e2373d",
+   "typ": "formulierung",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "1. Aufgabenstellung › 2. Aufbau - Gliederung - Formalien",
+   "frage": "Rechtsanwältin Tanja Stein verteidigt Peter Kantich in einem Strafverfahren vor dem Amtsgericht Tiergarten (Strafrichter), Az. 253 Ds 101/22. Sie ist nach Akteneinsicht der Auffassung, dass hinsichtlich der angeklagten Unterschlagung kein hinreichender Tatverdacht besteht, da Beweismittel für den Vorsatz bezüglich der Fremdheit des Buches fehlen. Formulieren Sie den Antrag zu Beginn der Schutzschrift sowie den einleitenden Satz der Begründung.",
+   "loesung": "Beantragt wird: 'das Hauptverfahren nicht zu eröffnen.' Die Begründung beginnt mit dem Satz: 'Aus dem Inhalt der Ermittlungsakte ergibt sich, dass kein hinreichender Tatverdacht hinsichtlich der in der Anklageschrift erhobenen Vorwürfe angenommen werden kann.' Anschließend werden die einzelnen Vorwürfe in gegliederten Abschnitten (I., II., III.) abgehandelt.",
+   "beleg": "beantrage ich, das Hauptverfahren nicht zu eröffnen. Begründung: Aus dem Inhalt der Ermittlungsakte ergibt sich, dass kein hinreichender Tatverdacht hinsichtlich der in der Anklageschrift erhobenen Vorwürfe angenommen werden kann."
+  },
+  {
+   "id": "sr-anwalt:aufb:9f73f15237",
+   "typ": "aufbau",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "1. Aufgabenstellung › 2. Aufbau - Gliederung - Formalien",
+   "frage": "In welcher Reihenfolge sollten die einzelnen Tatvorwürfe innerhalb der Begründung einer Schutzschrift im Zwischenverfahren abgehandelt werden, wenn die Anklage mehrere Vorwürfe enthält?",
+   "loesung": "Es bietet sich an, die Vorwürfe grundsätzlich in der Reihenfolge zu prüfen, die bereits die Anklageschrift gewählt hat. Alternativ kann man - insbesondere bei deutlich voneinander abweichenden Strafrahmen - zunächst die schwerwiegendsten Vorwürfe erörtern, oder man beginnt mit denjenigen Tatvorwürfen, bei denen der hinreichende Tatverdacht verneint wird.",
+   "beleg": "Es bietet sich an, die Vorwürfe in der Reihenfolge zu prüfen, die in der Anklageschrift gewählt worden ist. Alternativ können entweder - bei deutlich voneinander abweichenden Strafrahmen - zuerst die schwerwiegendst en Vorwürfe erörtert werden oder diejenigen Tatvorwürfe, hinsichtlich derer der hinreichende Tatverdacht verneint wird."
+  },
+  {
+   "id": "sr-anwalt:vora:97dcd1e0d0",
+   "typ": "voraussetzungen",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "1. Aufgabenstellung › 2. Aufbau - Gliederung - Formalien",
+   "frage": "Beim Studium der Ermittlungsakte stellt die Verteidigerin fest, dass die Staatsanwaltschaft in der Anklageschrift ein Delikt übersehen hat, das sich aus dem Sachverhalt ebenfalls ergeben könnte. Darf sie dieses in der Schutzschrift im Zwischenverfahren dennoch ansprechen und prüfen, obwohl es nicht angeklagt ist?",
+   "loesung": "Ja, das ist jedenfalls vertretbar. Im Ermittlungs- und im Zwischenverfahren findet § 265 StPO (Hinweispflicht auf veränderte rechtliche Gesichtspunkte) keine Anwendung, sodass die Verteidigung nicht angeklagte Delikte prüfen kann. Im Rahmen einer umfassenden Auseinandersetzung mit einem Vorwurf, der eine rechtlich abweichende Bewertung zulässt, kann es sogar geboten sein, übersehene rechtliche Wertungen anzusprechen - in der Praxis spielen solche übersehenen Wertungen aber eher im Plädoyer eine Rolle.",
+   "beleg": "Im Ermittlungs- und im Zwischenverfahren findet § 265 StPO keine Anwendung , so dass es jedenfalls vertretbar ist, nicht angeklagte Delikte zu prüfen."
+  },
+  {
+   "id": "sr-anwalt:aufb:2e6030d0d4",
+   "typ": "aufbau",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "1. Aufgabenstellung › 2. Aufbau - Gliederung - Formalien",
+   "frage": "Gegen den Mandanten wurde im Ermittlungsverfahren vorläufig die Fahrerlaubnis entzogen (§ 111a StPO). In § 207 Abs. 4 StPO, der die Nebenentscheidungen im Eröffnungsbeschluss regelt, wird die vorläufige Entziehung der Fahrerlaubnis nicht ausdrücklich erwähnt. Kann die Verteidigung dennoch bereits im Zwischenverfahren einen Antrag auf Aufhebung dieser Maßnahme stellen?",
+   "loesung": "Ja. Dass die vorläufige Entziehung der Fahrerlaubnis und sonstige vorläufig angeordnete Zwangsmaßnahmen in § 207 Abs. 4 StPO nicht erwähnt werden, sollte die Verteidigung nicht davon abhalten, bereits im Zwischenverfahren entsprechende Aufhebungsanträge zu stellen. Das zuständige Gericht ist befugt, derartige Maßnahmen im Zwischenverfahren aufzuheben.",
+   "beleg": "Zwangsmaßnahmen in § 207 Abs. 4 StPO nicht erwähnt werden, sollte die Verteidigung nicht davon abhalten, bereits im Zwischenverfahren entsprechende Aufhebungsanträge zu stellen. Das zuständige Gericht ist befugt, derartige Maßnahmen im Zwischenverfahren aufzuheben."
+  },
+  {
+   "id": "sr-anwalt:fehl:87957d6044",
+   "typ": "fehler",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "2. Aufbau - Gliederung - Formalien › 3. Die Anträge",
+   "frage": "Ein Referendar formuliert in einer Schutzschrift im Zwischenverfahren den Antrag, 'die Eröffnung der Hauptverhandlung abzulehnen'. Welcher Fehler liegt hier vor und wie muss der Antrag richtig formuliert werden?",
+   "loesung": "Im Zwischenverfahren geht es nicht um die Hauptverhandlung, sondern um die Eröffnung des Hauptverfahrens. Der Antrag muss sich auf die Nichteröffnung des Hauptverfahrens beziehen, z.B. nach § 204 StPO. Die Verwechslung von Hauptverfahren und Hauptverhandlung ist ein in Klausuren häufig zu lesender Fehler.",
+   "beleg": "In der Schutzschrift sollte zuerst ein Antrag zur Frage der Eröffnung des Hauptverfahrens - nicht der Hauptverhandlung (!), wie man hin und wieder in Klausuren liest - gestellt werden."
+  },
+  {
+   "id": "sr-anwalt:form:400610d336",
+   "typ": "formulierung",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "2. Aufbau - Gliederung - Formalien › 3. Die Anträge",
+   "frage": "Ihrem Mandanten wird in der Anklageschrift im Fall 1 ein Widerstand gegen Vollstreckungsbeamte am 02.01.2023, im Fall 2 eine Körperverletzung in Tatmehrheit mit einem Diebstahl am 15.01.2023 und im Fall 3 eine falsche Verdächtigung am 27.01.2023 vorgeworfen. In Ihrem Schriftsatz vertreten Sie die Ansicht, dass sich nur der Tatverdacht hinsichtlich der Körperverletzung bestätigt hat. Wie formulieren Sie den Antrag?",
+   "loesung": "Ich beantrage, bezüglich der Tatvorwürfe zu 1. und 3. das Hauptverfahren nicht zu eröffnen und bezüglich des Tatvorwurfs zu 2. abweichend von der Anklageschrift lediglich wegen des Vorwurfes der Körperverletzung zu eröffnen. Damit wird für die nicht bestätigten Vorwürfe die Nichteröffnung nach § 207 Abs. 1 Nr. 1 StPO beantragt, während für den teilweise bestätigten, aber tatmehrheitlich angeklagten Vorwurf eine modifizierte Eröffnung nach § 207 Abs. 2 StPO erfolgt.",
+   "beleg": "Ich beantrage, bezüglich der Tatvorwürfe zu 1. und 3. das Hauptverfahren nicht zu eröffnen und bezüglich des Tatvorwurfs zu 3. abweichend von der Anklageschrift lediglich wegen des Vorwurfes der Körperverletzung zu eröffnen."
+  },
+  {
+   "id": "sr-anwalt:form:7730cbcc06",
+   "typ": "formulierung",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "2. Aufbau - Gliederung - Formalien › 3. Die Anträge",
+   "frage": "Ihrem Mandanten wird in der Anklageschrift eine schwere Körperverletzung vorgeworfen. Ihre Auswertung der Beweismittel rechtfertigt jedoch nach Ansicht der Verteidigung nur die Annahme eines hinreichenden Tatverdachtes wegen einer einfachen Körperverletzung. Wie formulieren Sie den Eröffnungsantrag?",
+   "loesung": "Ich beantrage, das Hauptverfahren mit der Maßgabe zu eröffnen, dass abweichend von der Anklageschrift anstatt eines hinreichenden Tatverdachtes wegen schwerer Körperverletzung lediglich ein hinreichender Tatverdacht wegen einfacher Körperverletzung bejaht wird. Dies ist der Fall des § 207 Abs. 2 Nr. 3 StPO, bei dem eine Tat rechtlich abweichend von der Anklageschrift bewertet und der hinreichende Tatverdacht hinsichtlich anderer Delikte bejaht wird.",
+   "beleg": "Ich beantrage, das Hauptverfahren mit der Maßgabe zu eröffnen, dass abweichend von der Anklag eschrift anstatt eines hinreichenden Tatverdachtes wegen schwerer Körperverletzung lediglich ein hinreichender Tatverdacht wegen einfacher Körperverletzung bejaht wird."
+  },
+  {
+   "id": "sr-anwalt:vora:81029d20c5",
+   "typ": "voraussetzungen",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "2. Aufbau - Gliederung - Formalien › 3. Die Anträge",
+   "frage": "Unter welchen Voraussetzungen kann nach § 209 Abs. 1 StPO das Gericht höherer Ordnung das Hauptverfahren vor einem Gericht niedrigerer Ordnung eröffnen, und was ist dabei speziell im Verhältnis Schöffengericht zu Strafrichter zu beachten?",
+   "loesung": "Eine Eröffnung vor dem Gericht niedrigerer Ordnung kommt in Betracht, wenn sich durch eine von der Verteidigung abweichend beurteilte Tatverdachtslage die Straferwartung zugunsten des Mandanten ändert (vgl. §§ 24 Abs. 2, 25 Nr. 2, 74 Abs. 1 Satz 2 GVG) oder wenn die Verneinung eines hinreichenden Tatverdachts dazu führt, dass die Zuständigkeit des ursprünglich angegangenen Gerichts bzw. Spruchkörpers entfällt (vgl. § 74 Abs. 2 GVG, § 209a Nr. 1 StPO). Beim Übergang vom Schöffengericht zum Strafrichter ist zusätzlich zu beachten, dass die Straferwartung nicht über zwei Jahren liegen darf und kein hinreichender Tatverdacht wegen eines Verbrechens (§ 25 GVG) bejaht wird - dieser Punkt wird häufig übersehen.",
+   "beleg": "Denn die Norm erlaubt auch die Eröffnung des Hauptverfahrens durch das Schöffengericht vor dem Strafrichter, wenn die Straferwartung nicht über 2 Jahren liegt und - was hin und wieder übersehen wird - kein hinreichender Tatverdacht wegen eines Verbrechens (§ 25 GVG) bejaht wird."
+  },
+  {
+   "id": "sr-anwalt:abgr:bffe83ea62",
+   "typ": "abgrenzung",
+   "gewicht": 2,
+   "skript": "sr-anwalt",
+   "rn": "",
+   "abschnitt": "2. Aufbau - Gliederung - Formalien › 3. Die Anträge",
+   "frage": "Ihr Mandant befindet sich im Zwischenverfahren in Untersuchungshaft. In welchem Fall beantragen Sie in der Anwaltsklausur die Aufhebung des Haftbefehls und wann beantragen Sie stattdessen (nur) dessen Außervollzugsetzung?",
+   "loesung": "Die Aufhebung des Haftbefehls ist zu beantragen, wenn der dringende Tatverdacht oder ein Haftgrund verneint wird oder wenn die Anordnung der Untersuchungshaft insgesamt unverhältnismäßig ist - der Haftbefehl also seine Grundlage verliert. Die Außervollzugsetzung des Haftbefehls (§ 116 StPO) ist demgegenüber der richtige Antrag, wenn dringender Tatverdacht und Haftgrund zwar fortbestehen, der Haftzweck aber durch mildere Mittel wie Weisungen erreicht werden kann.",
+   "beleg": "Die Aufhebung des Haftbefehles wird beantragt, wenn der dringende Tatverdacht oder ein Haftgrund verneint wird oder die Anordnung der Untersuchungshaft unverhältnismäßig ist. Die Außervollzugsetzung des Haft befehls wird beantragt, wenn durch Weisungen oder"
   }
  ]
 }
