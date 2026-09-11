@@ -242,6 +242,7 @@ def lauf(sid: str, limit: int | None, trocken: bool, neu: bool) -> dict:
     bestand = lies_json(ziel, {"karten": []})
     bekannt = bekannte_ids(sid)
 
+    hintereinander = 0
     stat = {"abschnitte": 0, "vorgeschlagen": 0, "angenommen": 0,
             "verworfen": {}, "typen": {}, "prompt_zeichen": 0}
 
@@ -254,8 +255,18 @@ def lauf(sid: str, limit: int | None, trocken: bool, neu: bool) -> dict:
         stat["abschnitte"] += 1
         try:
             vorschlaege, zeichen = (frage_trocken if trocken else frage_modell)(sid, a)
+            hintereinander = 0
         except Exception as e:
-            print(f"  [{i}] FEHLER: {e}", file=sys.stderr)
+            meldung = str(e)
+            print(f"  [{i}] FEHLER: {meldung}", file=sys.stderr)
+            if "401" in meldung or "authentication" in meldung.lower():
+                sys.exit("ABBRUCH: der API-Schluessel wird nicht akzeptiert. "
+                         "ANTHROPIC_API_KEY pruefen, dann neu starten — "
+                         "das Manifest sorgt dafuer, dass nichts doppelt laeuft.")
+            hintereinander += 1
+            if hintereinander >= 3:
+                sys.exit("ABBRUCH: drei Fehlschlaege hintereinander. Ursache klaeren, "
+                         "dann neu starten; erledigte Abschnitte werden uebersprungen.")
             continue
         stat["prompt_zeichen"] += zeichen
         stat["vorgeschlagen"] += len(vorschlaege)
