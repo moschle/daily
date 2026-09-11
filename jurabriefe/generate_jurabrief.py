@@ -134,6 +134,8 @@ def pick_case(cases, state, progress):
 
 def clean_ocr(text):
     text = html.unescape(text)
+    text = text.replace("\xa0", " ")          # geschuetzte Leerzeichen aus dem HTML
+    text = re.sub(r"[ \t]{2,}", " ", text)
     text = TAG.sub("\n", text)
     text = re.sub(r"(?m)^\s*\d{1,3}(?=[A-ZÄÖÜ])", "", text)
     text = re.sub(r"(?<=\n)\d{1,3}(?=[A-Za-zÄÖÜäöü])", "", text)
@@ -312,7 +314,7 @@ def search_related_case(case, seen_slugs):
                 raw = "\n".join(s.get("text", "") for s in (r.get("snippets") or []) if isinstance(s, dict))
             if _bad(raw, slug):
                 continue
-            shaped = slice_urteil(raw)
+            shaped = clean_ocr(raw)[:60000]
             if not shaped:
                 continue
             az = (detail or {}).get("file_number") or slug
@@ -321,40 +323,53 @@ def search_related_case(case, seen_slugs):
                     "aktenzeichen": az,
                     "entscheidungstyp": (detail or {}).get("typ") or r.get("decision_type") or "Urteil",
                     "text": shaped,
-                    "roh": clean_ocr(raw)[:12000],
                     "url": f"https://de.openlegaldata.io/case/{slug}/" if slug else "",
                     "slug": slug}
     return None
 
 
 def lesetext_aufbereiten(related):
-    """Tenor, zwei Saetze Sachverhalt und eine Frage, die als Karte weiterlebt.
+    """Drei Fragen zum Urteil, erzeugt aus dem vollstaendigen Text.
 
-    Ohne Frage ist der Lesetext Dekoration: sie liest im Referendariat ohnehin
-    den ganzen Tag Urteile. Schlaegt der Aufruf fehl, bleibt es beim rohen
-    Auszug — ein magerer Brief ist besser als keiner."""
+    Kein mechanischer Schnitt: das Urteil geht vollstaendig an die API, und die
+    Fragen richten sich nach dem, was darin tatsaechlich entschieden wurde.
+    Bewusst keine Zusammenfassung — der Lesetext soll gelesen werden, das
+    Erfassen unter Zeitdruck ist der Zweck der Uebung.
+    """
     from claude_client import complete
-    roh = (related.get("roh") or related.get("text") or "")[:12000]
+    text = related.get("text") or ""
     prompt = (
-        "Du bereitest eine Entscheidung als Lesetext fuer das zweite juristische "
-        "Staatsexamen auf. Antworte NUR mit JSON, ohne Vorrede und ohne Codefence:\n"
-        '{"tenor": "...", "sachverhalt": "...", "frage": "...", "loesung": "..."}'"\n\n"
-        "tenor: das Ergebnis der Entscheidung in einem Satz.\n"
-        "sachverhalt: genau zwei Saetze — was geschehen ist und worum gestritten wird.\n"
-        "frage: eine Frage zur tragenden Rechtsfrage, ein Satz, ohne die Antwort zu verraten.\n"
-        "loesung: die Antwort in zwei bis vier Saetzen, gestuetzt auf die Entscheidung.\n\n"
-        f"Entscheidung: {related.get('gericht')}, {related.get('aktenzeichen')}\n\n{roh}")
+        "Du stellst Aufgaben zu einer Gerichtsentscheidung fuer die Vorbereitung "
+        "auf das zweite juristische Staatsexamen.\n\n"
+        "Antworte NUR mit JSON, ohne Vorrede und ohne Codefence:\n"
+        '{"fragen": [{"frage": "...", "loesung": "..."}, ...]}\n\n'
+        "Genau drei Fragen, in dieser Reihenfolge:\n"
+        "1. Erfassen: wer klagt gegen wen woraus, wie haben die Vorinstanzen "
+        "entschieden, worum geht der Streit im Kern. Eine Frage, die sich nur "
+        "beantworten laesst, wenn man den Sachverhalt und den Prozessverlauf "
+        "gelesen hat.\n"
+        "2. Die tragende Rechtsfrage: woran haengt die Entscheidung, welcher "
+        "Massstab wird angelegt.\n"
+        "3. Anwaltliche oder richterliche Konsequenz: was folgt daraus fuer die "
+        "eigene Arbeit — was haette anders laufen muessen, worauf ist im "
+        "naechsten vergleichbaren Fall zu achten.\n\n"
+        "Die Fragen duerfen die Antwort nicht verraten und sollen in zwei bis "
+        "vier Saetzen zu beantworten sein. Die Loesung nennt die tragenden "
+        "Erwaegungen der Entscheidung, nicht nur das Ergebnis.\n\n"
+        f"Entscheidung: {related.get('gericht')}, {related.get('aktenzeichen')} "
+        f"vom {related.get('datum')}\n\n{text}")
     try:
-        antwort = complete(prompt, max_tokens=4000).strip()
+        antwort = complete(prompt, max_tokens=8000).strip()
         antwort = re.sub(r"^```(?:json)?|```$", "", antwort, flags=re.M).strip()
-        d = json.loads(antwort)
-        for feld in ("tenor", "sachverhalt", "frage", "loesung"):
-            if not (d.get(feld) or "").strip():
-                raise ValueError(f"{feld} fehlt")
-        return d
+        fragen = json.loads(antwort).get("fragen") or []
+        fragen = [f for f in fragen
+                  if (f.get("frage") or "").strip() and (f.get("loesung") or "").strip()]
+        if not fragen:
+            raise ValueError("keine brauchbaren Fragen")
+        return fragen[:3]
     except Exception as e:
         print(f"Lesetext-Aufbereitung fehlgeschlagen: {e}", file=sys.stderr)
-        return None
+        return []
 
 
 def merke_lesetext_karte(karte):
@@ -416,30 +431,28 @@ def main():
     alle = lade(case.get("skript_id") or "")
     zuletzt = [k["id"] for p in (state.get("offene_packs") or {}).values()
                for k in p.get("karten", [])]
-    heutige = waehle(alle, progress, meiden=zuletzt)
+    heutige = waehle(alle, progress, anzahl=2, meiden=zuletzt)
     related = search_related_case(case, state.get("seen_slugs", []))
     if related and related.get("slug"):
         state.setdefault("seen_slugs", []).append(related["slug"])
     if related:
+        text = related["text"]
+        minuten = max(5, round(len(text) / 1400))      # ~1400 Zeichen je Minute
         lesen = (f"I. Lesetext — {case['gebiet']}\n"
                  f"{related['gericht']}, {related['entscheidungstyp']} vom "
-                 f"{related['datum']}, {related['aktenzeichen']}\n")
+                 f"{related['datum']}, {related['aktenzeichen']}\n"
+                 f"Lesezeit: etwa {minuten} Minuten\n")
         if related.get("url"):
             lesen += related["url"].rstrip("/") + "\n"
-        auf = lesetext_aufbereiten(related)
-        if auf:
-            lesen += (f"\nTenor: {auf['tenor'].strip()}\n"
-                      f"\nSachverhalt: {auf['sachverhalt'].strip()}\n"
-                      f"\n{related['text']}\n")
-            karte = {"id": f"lesetext:{related.get('slug') or case['id']}",
+        lesen += "\n" + text + "\n"
+        for nr, f in enumerate(lesetext_aufbereiten(related), 1):
+            karte = {"id": f"lesetext:{related.get('slug') or case['id']}:{nr}",
                      "typ": "fall", "gewicht": 2, "skript": case["skript_id"],
-                     "rn": "", "frage": auf["frage"].strip(),
-                     "loesung": auf["loesung"].strip(),
+                     "rn": "", "frage": f["frage"].strip(),
+                     "loesung": f["loesung"].strip(),
                      "abschnitt": f"Lesetext {related['gericht']} {related['aktenzeichen']}"}
             merke_lesetext_karte(karte)
             heutige.append(karte)
-        else:
-            lesen += "\n" + related["text"] + "\n"
     else:
         lesen = "I. Lesetext\nKein Urteil der passenden Gerichtsbarkeit.\n"
     aufgabe = brieftext(heutige)
