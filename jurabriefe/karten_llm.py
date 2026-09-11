@@ -148,7 +148,7 @@ Erlaubte Typen: formulierung (ein Mustersatz ist zu formulieren), aufbau (Reihen
 Regeln:
 - Hoechstens {max_karten} Karten. WENIGER IST RICHTIG. Eine leere Liste ist eine gueltige und oft die richtige Antwort — ein Abschnitt mit Vorwort, Literaturhinweisen oder allgemeinen Ermahnungen gibt keine Karte her. Erfinde nichts, um die Liste zu fuellen.
 - Die Frage muss ohne das Skript beantwortbar sein. Sie bringt ihren Sachverhalt selbst mit, in ganzen Saetzen. Ein Klammerzusatz aus acht Woertern ersetzt keinen Sachverhalt. Falsch: "Formulieren Sie die Parteivorstellung (Mietrueckstaende, Pallasstrasse 57)." Richtig: "Ihre Mandantin vermietet eine Wohnung in der Pallasstrasse 57 in Berlin-Schoeneberg. Der Mieter hat die Miete fuer August bis November 2023 nicht gezahlt. Formulieren Sie die einleitende Parteivorstellung im Schriftsatz."
-- Die Loesung steht fuer sich und nennt die tragenden Punkte, nicht nur ein Stichwort.
+- Die Loesung steht fuer sich und nennt die tragenden Punkte vollstaendig, nicht nur ein Stichwort. Lieber ein Satz mehr als ein abgeschnittener Gedanke; bis zu 2000 Zeichen sind in Ordnung, wenn der Stoff es hergibt.
 - beleg: eine woertliche, zusammenhaengende Passage AUS DEM OBIGEN ABSCHNITT, mindestens 40 Zeichen, die die Loesung traegt. Zeichengenau abschreiben, nichts umformulieren, keine Auslassungszeichen. Der Beleg wird maschinell gegen den Abschnitt geprueft; stimmt er nicht, wird die Karte verworfen.
 - Keine zwei Karten zur selben Aussage.
 """
@@ -192,7 +192,7 @@ def annehmen(karten, abschnitt, sid, bekannt: set[str]) -> tuple[list[dict], lis
             verworfen.append(f"Typ {typ!r}"); continue
         if not (15 <= len(frage) <= 600):
             verworfen.append("Fragenlaenge"); continue
-        if not (10 <= len(loesung) <= 1500):
+        if not (10 <= len(loesung) <= 2500):
             verworfen.append("Loesungslaenge"); continue
         if len(beleg) < 40:
             verworfen.append("Beleg zu kurz"); continue

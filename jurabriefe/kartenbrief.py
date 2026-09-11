@@ -21,7 +21,7 @@ HERE = Path(__file__).resolve().parent
 KARTEN = HERE / "karten"
 
 PRO_BRIEF = 4
-LOESUNG_MAX = 1200
+LOESUNG_MAX = 2500
 
 
 LESETEXTE = KARTEN / "lesetexte.kuratiert.json"

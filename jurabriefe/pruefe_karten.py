@@ -31,7 +31,7 @@ TYPEN = ("formulierung", "fall", "fehler", "aufbau",
 
 TOLERANZ = 0.02          # 2 % Schwund sind Rauschen, mehr nicht
 MIN_FRAGE = 15
-MAX_LOESUNG = 2000
+MAX_LOESUNG = 2500
 
 
 def _laden() -> dict[str, list[dict]]:
