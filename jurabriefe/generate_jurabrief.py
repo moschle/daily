@@ -110,7 +110,6 @@ def load_json(path, default):
 def save_state(state):
     state["done"] = (state.get("done") or [])[-20:]
     state["seen_slugs"] = (state.get("seen_slugs") or [])[-40:]
-    state["letzter_brief"] = now_berlin().strftime("%Y-%m-%d")
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
@@ -449,8 +448,17 @@ def main():
             f"Quelle: {case.get('quelle', '')}\n")
     # Der Skript-Rohblock ist raus: die Musterloesung steht in der Auswertung,
     # nach dem eigenen Versuch. Davor nimmt sie nur die Gelegenheit zu formulieren.
-    send_mail(f"Jurabrief [{case['id']}] ({now_berlin().strftime('%d.%m.')})",
-              body, resolve_to())
+    # Sperre VOR dem Senden festschreiben. Bricht der Lauf danach ab, ist das
+    # Schlimmste ein fehlender Brief — nicht zwei Briefe bei ihr im Postfach.
+    state["letzter_brief"] = heute
+    save_state(state)
+    try:
+        send_mail(f"Jurabrief [{case['id']}] ({now_berlin().strftime('%d.%m.')})",
+                  body, resolve_to())
+    except Exception:
+        state["letzter_brief"] = None      # nichts gesendet, also auch nicht sperren
+        save_state(state)
+        raise
     markiere_gezeigt(progress, case["id"])
     for k in heutige:
         markiere_gezeigt(progress, k["id"])
