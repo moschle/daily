@@ -1,0 +1,62 @@
+name: Karten erzeugen
+
+# Laeuft von Hand, nicht nach Plan. Der Schluessel liegt als Secret vor, also
+# gehoert der Lauf hierher statt auf den Rechner. Das Manifest in
+# jurabriefe/karten/llm_manifest.json sorgt dafuer, dass ein zweiter Lauf nur
+# die noch offenen Abschnitte kostet.
+
+on:
+  workflow_dispatch:
+    inputs:
+      skript:
+        description: 'Skript-ID (z.B. sr-anwalt) oder "alle"'
+        required: true
+        default: 'sr-anwalt'
+      limit:
+        description: 'nur die ersten N Abschnitte (leer = alle)'
+        required: false
+        default: '3'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: karten
+  cancel-in-progress: false
+
+jobs:
+  karten:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Abhaengigkeiten
+        run: pip install -r requirements.txt
+      - name: Erzeugen
+        env:
+          PYTHONPATH: ${{ github.workspace }}:${{ github.workspace }}/jurabriefe
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          ZIEL="${{ github.event.inputs.skript }}"
+          ARGS=""
+          if [ "$ZIEL" = "alle" ]; then ARGS="--alle"; else ARGS="$ZIEL"; fi
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"
+          fi
+          python jurabriefe/karten_llm.py $ARGS
+      - name: Bestand pruefen
+        env:
+          PYTHONPATH: ${{ github.workspace }}:${{ github.workspace }}/jurabriefe
+        run: python jurabriefe/pruefe_karten.py
+      - name: Sichern
+        if: always()
+        run: |
+          git config user.name "Jurabrief Bot"
+          git config user.email "jurabrief@users.noreply.github.com"
+          git add jurabriefe/karten/
+          git diff --cached --quiet || git commit -m "karten: erzeugt $(date -u +%F)"
+          git pull --rebase --autostash
+          git push
