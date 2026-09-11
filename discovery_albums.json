@@ -23,7 +23,7 @@
     {
       "artist": "Jlin",
       "album": "Black Origami",
-      "suggested": false
+      "suggested": true
     },
     {
       "artist": "Yazz Ahmed",
@@ -86,5 +86,5 @@
       "suggested": false
     }
   ],
-  "generated_at": "2026-09-08T09:34:48.076269+02:00"
+  "generated_at": "2026-09-11T09:36:01.577448+02:00"
 }
