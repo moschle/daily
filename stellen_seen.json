@@ -1,15 +1,4 @@
 {
-  "https://arthist.net/archive/52704": {
-    "first_seen": "2026-06-14T10:38:08.299470+00:00",
-    "source": "arthist.net",
-    "title": "JOB: Wiss. Volontariat, Bildung/Vermittlung, Lenbachhaus, München",
-    "url": "https://arthist.net/archive/52704",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
   "kultweet-249373": {
     "first_seen": "2026-06-15T13:30:31.398651+00:00",
     "source": "kultweet",
@@ -3816,6 +3805,18 @@
     "url": "https://www.museumsbund.de/stellenangebote/wissenschaftliches-volontariat-16/",
     "score": 3,
     "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Stiftung-niedersaechsische-Gedenkstaetten/2026/09/6636699.html": {
+    "first_seen": "2026-09-12T11:41:20.435070+00:00",
+    "source": "service.bund.de",
+    "title": "Wissenschaftliche*r Volontär*in (m/w/d) (Kennziffer: SnG 2026-4)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Stiftung-niedersaechsische-Gedenkstaetten/2026/09/6636699.html#track=feed-jobs",
+    "score": 5,
+    "categories": [
+      "erinnerungskultur",
       "kuratorisch_wiss_volo",
       "schwach_methodisch"
     ]
