@@ -134,9 +134,9 @@
       "word": "نویسنده",
       "meaning": "Autor",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-09-10T09:40:18.708851+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-09-12T09:28:52.319472+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "روان",
@@ -238,71 +238,111 @@
       "word": "شخصیت",
       "meaning": "Charakter",
       "first_seen": "2026-05-27T08:56:35.666016+02:00",
-      "last_review": "2026-09-10T09:40:18.708851+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-09-12T09:28:52.319472+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "نگرانی",
       "meaning": "Sorge",
       "first_seen": "2026-05-27T08:56:35.666016+02:00",
-      "last_review": "2026-09-10T09:40:18.708851+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-09-12T09:28:52.319472+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "مشهود",
       "meaning": "sichtbar",
       "first_seen": "2026-05-27T08:56:35.666016+02:00",
-      "last_review": "2026-09-10T09:40:18.708851+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-09-12T09:28:52.319472+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "هواشناس",
       "meaning": "Meteorologe",
       "first_seen": "2026-09-10T09:40:18.708246+02:00",
-      "last_review": "2026-09-10T09:40:18.708246+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-09-12T09:28:52.319472+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "شتابان",
       "meaning": "beschleunigt, rasant",
       "first_seen": "2026-09-10T09:40:18.708246+02:00",
-      "last_review": "2026-09-10T09:40:18.708246+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-09-12T09:28:52.319472+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "اقلیم",
       "meaning": "Klima",
       "first_seen": "2026-09-10T09:40:18.708246+02:00",
-      "last_review": "2026-09-10T09:40:18.708246+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-09-12T09:28:52.319472+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "زیست‌محیطی",
       "meaning": "umweltbezogen",
       "first_seen": "2026-09-10T09:40:18.708246+02:00",
-      "last_review": "2026-09-10T09:40:18.708246+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-09-12T09:28:52.319472+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "مستند",
       "meaning": "dokumentiert",
       "first_seen": "2026-09-10T09:40:18.708246+02:00",
-      "last_review": "2026-09-10T09:40:18.708246+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-09-12T09:28:52.319472+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "وجدان",
       "meaning": "Gewissen",
       "first_seen": "2026-09-10T09:40:18.708246+02:00",
-      "last_review": "2026-09-10T09:40:18.708246+02:00",
+      "last_review": "2026-09-12T09:28:52.319472+02:00",
+      "interval": 2,
+      "times_reviewed": 1
+    },
+    {
+      "word": "برجسته",
+      "meaning": "hervorragend, bedeutend",
+      "first_seen": "2026-09-12T09:28:52.318730+02:00",
+      "last_review": "2026-09-12T09:28:52.318730+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "کوشیدن",
+      "meaning": "sich bemühen",
+      "first_seen": "2026-09-12T09:28:52.318730+02:00",
+      "last_review": "2026-09-12T09:28:52.318730+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "تأمل",
+      "meaning": "Nachsinnen, Betrachtung",
+      "first_seen": "2026-09-12T09:28:52.318730+02:00",
+      "last_review": "2026-09-12T09:28:52.318730+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "فشرده",
+      "meaning": "kompakt, dicht",
+      "first_seen": "2026-09-12T09:28:52.318730+02:00",
+      "last_review": "2026-09-12T09:28:52.318730+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "استوار",
+      "meaning": "fest, beständig",
+      "first_seen": "2026-09-12T09:28:52.318730+02:00",
+      "last_review": "2026-09-12T09:28:52.318730+02:00",
       "interval": 1,
       "times_reviewed": 0
     }
