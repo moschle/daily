@@ -92,39 +92,143 @@
       "word": "الشَّعْبِيُّ",
       "meaning": "der Volksmarkt",
       "first_seen": "2026-09-11T09:37:29.558798+02:00",
-      "last_review": "2026-09-11T09:37:29.558798+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-09-13T09:49:21.029941+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "الشِّرَائِيَّةُ",
       "meaning": "Kaufkraft",
       "first_seen": "2026-09-11T09:37:29.558798+02:00",
-      "last_review": "2026-09-11T09:37:29.558798+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-09-13T09:49:21.029941+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "جَرَّاءَ",
       "meaning": "infolge von",
       "first_seen": "2026-09-11T09:37:29.558798+02:00",
-      "last_review": "2026-09-11T09:37:29.558798+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-09-13T09:49:21.029941+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "تَدَابِيرَ",
       "meaning": "Maßnahmen ergreifen",
       "first_seen": "2026-09-11T09:37:29.558798+02:00",
-      "last_review": "2026-09-11T09:37:29.558798+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-09-13T09:49:21.029941+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "تَجَاوُزُ",
       "meaning": "Überwindung",
       "first_seen": "2026-09-11T09:37:29.558798+02:00",
-      "last_review": "2026-09-11T09:37:29.558798+02:00",
+      "last_review": "2026-09-13T09:49:21.029941+02:00",
+      "interval": 2,
+      "times_reviewed": 1
+    },
+    {
+      "word": "يَزْخَرُ",
+      "meaning": "wimmelt von / ist gefüllt mit",
+      "first_seen": "2026-09-13T09:49:21.028986+02:00",
+      "last_review": "2026-09-13T09:49:21.028986+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "الْبَضَائِعُ",
+      "meaning": "Waren",
+      "first_seen": "2026-09-13T09:49:21.028986+02:00",
+      "last_review": "2026-09-13T09:49:21.028986+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "الزَّبَائِنُ",
+      "meaning": "Kunden",
+      "first_seen": "2026-09-13T09:49:21.028986+02:00",
+      "last_review": "2026-09-13T09:49:21.028986+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "مُوَاكَبَةُ",
+      "meaning": "Schritt halten mit / mithalten",
+      "first_seen": "2026-09-13T09:49:21.028986+02:00",
+      "last_review": "2026-09-13T09:49:21.028986+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "تَكَالِيفُ",
+      "meaning": "Kosten",
+      "first_seen": "2026-09-13T09:49:21.028986+02:00",
+      "last_review": "2026-09-13T09:49:21.028986+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "الْبَلَدِيَّةُ",
+      "meaning": "Stadtverwaltung",
+      "first_seen": "2026-09-13T09:49:21.028986+02:00",
+      "last_review": "2026-09-13T09:49:21.028986+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "الشَّرَائِحُ",
+      "meaning": "Bevölkerungsschichten",
+      "first_seen": "2026-09-13T09:49:21.028986+02:00",
+      "last_review": "2026-09-13T09:49:21.028986+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "الْفَجْوَةُ",
+      "meaning": "Kluft",
+      "first_seen": "2026-09-13T09:49:21.028986+02:00",
+      "last_review": "2026-09-13T09:49:21.028986+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "مَطْرُوحٌ",
+      "meaning": "vorliegend / ungelöst / auf dem Tisch liegend",
+      "first_seen": "2026-09-13T09:49:21.028986+02:00",
+      "last_review": "2026-09-13T09:49:21.028986+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "يَمْزُجُ",
+      "meaning": "verbindet / mischt",
+      "first_seen": "2026-09-13T09:49:21.028986+02:00",
+      "last_review": "2026-09-13T09:49:21.028986+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "الْمَوْرُوثُ",
+      "meaning": "das Erbe",
+      "first_seen": "2026-09-13T09:49:21.028986+02:00",
+      "last_review": "2026-09-13T09:49:21.028986+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "التَّجْدِيدُ",
+      "meaning": "Erneuerung",
+      "first_seen": "2026-09-13T09:49:21.028986+02:00",
+      "last_review": "2026-09-13T09:49:21.028986+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "مُتَوَاصِلٌ",
+      "meaning": "beständig / ununterbrochen",
+      "first_seen": "2026-09-13T09:49:21.028986+02:00",
+      "last_review": "2026-09-13T09:49:21.028986+02:00",
       "interval": 1,
       "times_reviewed": 0
     }
