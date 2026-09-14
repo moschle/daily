@@ -108,6 +108,86 @@
       "interval": 18,
       "detail": "Übung zur vollständigen Sachverhaltsverarbeitung: bei Einleitungssätzen und Gutachten stets alle im Sachverhalt genannten Fakten (Adresse, Zeitraum, Streitgegenstand) und die tragenden Argumentationsschritte des Gerichts (hier: BGH-Kritik an der bloßen Unterstellung) einarbeiten statt nur das Ergebnis zu nennen.",
       "punkte": 12.0
+    },
+    {
+      "date": "2026-09-14",
+      "case_id": "zr-004",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-14",
+      "case_id": "zr-005",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-14",
+      "case_id": "zr-anwalt:form:013",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-14",
+      "case_id": "zr-staat:aufb:076",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-14",
+      "case_id": "zr-staat:form:001",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-14",
+      "case_id": "zr-staat:form:002",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-14",
+      "case_id": "zr-staat:form:003",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-14",
+      "case_id": "zr-anwalt:form:016",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-14",
+      "case_id": "zr-anwalt:form:018",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-14",
+      "case_id": "zr-anwalt:form:019",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
     }
   ],
   "letzte_anpassung": null,
@@ -153,7 +233,7 @@
     "zr-anwalt:form:013": {
       "stability": 1.0,
       "difficulty": 5.3,
-      "due": "2026-09-11",
+      "due": "2026-09-17",
       "last": "2026-09-10",
       "gezeigt": "2026-09-11",
       "reps": 1,
@@ -163,7 +243,8 @@
           "wert": 2.0
         }
       ],
-      "schnitt": 2.0
+      "schnitt": 2.0,
+      "unbeantwortet": 1
     },
     "zr-anwalt:form:014": {
       "stability": 1.0,
@@ -206,74 +287,83 @@
     "zr-004": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-09-17",
       "last": null,
       "gezeigt": "2026-09-09",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "zr-staat:aufb:076": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-09-17",
       "last": null,
       "gezeigt": "2026-09-09",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "zr-staat:form:001": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-09-17",
       "last": null,
       "gezeigt": "2026-09-09",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "zr-staat:form:002": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-09-17",
       "last": null,
       "gezeigt": "2026-09-09",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "zr-staat:form:003": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-09-17",
       "last": null,
       "gezeigt": "2026-09-09",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "zr-005": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-09-17",
       "last": null,
       "gezeigt": "2026-09-11",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "zr-anwalt:form:016": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-09-17",
       "last": null,
       "gezeigt": "2026-09-11",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "zr-anwalt:form:018": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-09-17",
       "last": null,
       "gezeigt": "2026-09-11",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "zr-anwalt:form:019": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-09-17",
       "last": null,
       "gezeigt": "2026-09-11",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "lesetext:bgh-2024-05-16-ix-zr-3823": {
       "stability": 4.0,
@@ -289,6 +379,54 @@
         }
       ],
       "schnitt": 7.0
+    },
+    "zr-001": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-14",
+      "reps": 0
+    },
+    "zr-staat:form:004": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-14",
+      "reps": 0
+    },
+    "zr-staat:form:005": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-14",
+      "reps": 0
+    },
+    "lesetext:olgdres-2022-07-20-13-u-208021:1": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-14",
+      "reps": 0
+    },
+    "lesetext:olgdres-2022-07-20-13-u-208021:2": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-14",
+      "reps": 0
+    },
+    "lesetext:olgdres-2022-07-20-13-u-208021:3": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-14",
+      "reps": 0
     }
   },
   "letzter_korrekturlauf": "2026-09-13"
