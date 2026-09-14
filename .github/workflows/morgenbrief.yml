@@ -1,11 +1,12 @@
 name: Morgenbrief
 
 on:
-  schedule:
-    # Ziel: Zustellung bis 06:00 MESZ
-    # GH Actions hat ~30-60 Min. Delay + Workflow ~5 Min.
-    # 03:00 UTC = 05:00 MESZ → mit Delay ca. 05:30-06:00
-    - cron: '0 3 * * *'
+  # schedule temporaer deaktiviert (2026-09-14)
+  # schedule:
+  #   # Ziel: Zustellung bis 06:00 MESZ
+  #   # GH Actions hat ~30-60 Min. Delay + Workflow ~5 Min.
+  #   # 03:00 UTC = 05:00 MESZ → mit Delay ca. 05:30-06:00
+  #   - cron: '0 3 * * *'
   workflow_dispatch:
 
 jobs:
