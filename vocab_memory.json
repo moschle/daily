@@ -278,9 +278,9 @@
       "word": "اثر",
       "meaning": "Werk",
       "first_seen": "2026-05-23T08:00:05.576686+02:00",
-      "last_review": "2026-09-10T09:40:18.708851+02:00",
-      "interval": 4,
-      "times_reviewed": 2
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 8,
+      "times_reviewed": 3
     },
     {
       "word": "منتقدان",
@@ -302,9 +302,9 @@
       "word": "حرفه",
       "meaning": "Beruf",
       "first_seen": "2026-05-25T09:04:45.184688+02:00",
-      "last_review": "2026-09-10T09:40:18.708851+02:00",
-      "interval": 4,
-      "times_reviewed": 2
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 8,
+      "times_reviewed": 3
     },
     {
       "word": "کردن",
@@ -318,17 +318,17 @@
       "word": "تغییرات",
       "meaning": "Veränderungen",
       "first_seen": "2026-05-25T09:04:45.184688+02:00",
-      "last_review": "2026-09-10T09:40:18.708851+02:00",
-      "interval": 4,
-      "times_reviewed": 2
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 8,
+      "times_reviewed": 3
     },
     {
       "word": "دقت",
       "meaning": "Genauigkeit",
       "first_seen": "2026-05-25T09:04:45.184688+02:00",
-      "last_review": "2026-09-10T09:40:18.708851+02:00",
-      "interval": 4,
-      "times_reviewed": 2
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 8,
+      "times_reviewed": 3
     },
     {
       "word": "بودن",
@@ -366,57 +366,57 @@
       "word": "هواشناس",
       "meaning": "Meteorologe",
       "first_seen": "2026-09-10T09:40:18.708246+02:00",
-      "last_review": "2026-09-12T09:28:52.319472+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "شتابان",
       "meaning": "beschleunigt, rasant",
       "first_seen": "2026-09-10T09:40:18.708246+02:00",
-      "last_review": "2026-09-12T09:28:52.319472+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "اقلیم",
       "meaning": "Klima",
       "first_seen": "2026-09-10T09:40:18.708246+02:00",
-      "last_review": "2026-09-12T09:28:52.319472+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "زیست‌محیطی",
       "meaning": "umweltbezogen",
       "first_seen": "2026-09-10T09:40:18.708246+02:00",
-      "last_review": "2026-09-12T09:28:52.319472+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "مستند",
       "meaning": "dokumentiert",
       "first_seen": "2026-09-10T09:40:18.708246+02:00",
-      "last_review": "2026-09-12T09:28:52.319472+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "وجدان",
       "meaning": "Gewissen",
       "first_seen": "2026-09-10T09:40:18.708246+02:00",
-      "last_review": "2026-09-12T09:28:52.319472+02:00",
-      "interval": 2,
-      "times_reviewed": 1
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 4,
+      "times_reviewed": 2
     },
     {
       "word": "برجسته",
       "meaning": "hervorragend, bedeutend",
       "first_seen": "2026-09-12T09:28:52.318730+02:00",
-      "last_review": "2026-09-12T09:28:52.318730+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "کوشیدن",
@@ -430,23 +430,63 @@
       "word": "تأمل",
       "meaning": "Nachsinnen, Betrachtung",
       "first_seen": "2026-09-12T09:28:52.318730+02:00",
-      "last_review": "2026-09-12T09:28:52.318730+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "فشرده",
       "meaning": "kompakt, dicht",
       "first_seen": "2026-09-12T09:28:52.318730+02:00",
-      "last_review": "2026-09-12T09:28:52.318730+02:00",
-      "interval": 1,
-      "times_reviewed": 0
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 2,
+      "times_reviewed": 1
     },
     {
       "word": "استوار",
       "meaning": "fest, beständig",
       "first_seen": "2026-09-12T09:28:52.318730+02:00",
-      "last_review": "2026-09-12T09:28:52.318730+02:00",
+      "last_review": "2026-09-14T10:20:22.302952+02:00",
+      "interval": 2,
+      "times_reviewed": 1
+    },
+    {
+      "word": "با",
+      "meaning": "sich abfinden mit / umgehen mit",
+      "first_seen": "2026-09-14T10:20:22.302291+02:00",
+      "last_review": "2026-09-14T10:20:22.302291+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "انکارناپذیر",
+      "meaning": "unbestreitbar",
+      "first_seen": "2026-09-14T10:20:22.302291+02:00",
+      "last_review": "2026-09-14T10:20:22.302291+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "حوزه",
+      "meaning": "Bereich, Feld",
+      "first_seen": "2026-09-14T10:20:22.302291+02:00",
+      "last_review": "2026-09-14T10:20:22.302291+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "به",
+      "meaning": "verknüpft sein mit",
+      "first_seen": "2026-09-14T10:20:22.302291+02:00",
+      "last_review": "2026-09-14T10:20:22.302291+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "شدن",
+      "meaning": "aufgebaut werden, gegründet sein",
+      "first_seen": "2026-09-14T10:20:22.302291+02:00",
+      "last_review": "2026-09-14T10:20:22.302291+02:00",
       "interval": 1,
       "times_reviewed": 0
     }
