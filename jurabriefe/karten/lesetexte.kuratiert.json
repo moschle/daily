@@ -39,6 +39,36 @@
    "frage": "Was folgt aus dieser Entscheidung fuer die anwaltliche Praxis im Hinblick auf die Ueberwachung von Fristen und die Formulierung von Antraegen bei mehreren Streithelfern, wenn im Urteil eine Kostenentscheidung zu Lasten oder Gunsten mehrerer Nebenintervenienten versehentlich unterblieben ist?",
    "loesung": "Anwaelte mehrerer Streithelfer muessen jeweils eigenstaendig und fristwahrend (innerhalb von zwei Wochen ab Zustellung an den jeweils vertretenen Mandanten) einen eigenen Ergaenzungsantrag nach § 321 ZPO stellen, da sie sich nicht auf den Antrag eines anderen Streithelfers verlassen koennen, selbst wenn dieser inhaltlich auch die Kosten aller Streithelfer betrifft. Ein blosser spaeterer Anschluss an einen fremden Antrag genuegt nicht, wenn die eigene Frist bereits abgelaufen ist; es ist daher unbedingt geboten, im Rubrum und Antrag klarzustellen, in wessen Namen und Auftrag der Antrag gestellt wird, und die individuelle Zustellungsfrist strikt zu ueberwachen.",
    "abschnitt": "Lesetext Oberlandesgericht Dresden olgdres 13 U 2080/21"
+  },
+  {
+   "id": "lesetext:lg-duisburg-2025-07-22-6-o-10325:1",
+   "typ": "fall",
+   "gewicht": 2,
+   "skript": "zr-anwalt",
+   "rn": "",
+   "frage": "Wer verlangt von wem welche Leistung, aus welchem Versicherungsverhältnis, und warum steht der Zeitpunkt der Zustellung der Klageschrift im Zentrum des Rechtsstreits statt der eigentlichen Deckungsfrage zur Betriebsschließung?",
+   "loesung": "Der Kläger, Betreiber einer Shisha-Gastronomie, verlangt von seinem Sach- und Betriebsunterbrechungsversicherer Zahlung von 10.542,60 EUR wegen der coronabedingten Betriebsschließung ab November 2020, nachdem der Versicherer die Regulierung wegen erhaltener staatlicher Hilfen abgelehnt hatte. Es gibt keine Vorinstanz, da es sich um ein erstinstanzliches Urteil des LG Duisburg handelt; entscheidend wurde nicht die materielle Deckungsfrage, sondern ob die am 30.12.2024 eingereichte, aber erst am 22.03.2025 zugestellte Klage die zum 31.12.2024 drohende Verjährung noch rechtzeitig gehemmt hat. Der Streit dreht sich also im Kern um die Rückwirkungsfiktion des § 167 ZPO und wem die Zustellungsverzögerung zuzurechnen ist.",
+   "abschnitt": "Lesetext Landgericht Duisburg lg-duisburg 6 O 103/25"
+  },
+  {
+   "id": "lesetext:lg-duisburg-2025-07-22-6-o-10325:2",
+   "typ": "fall",
+   "gewicht": 2,
+   "skript": "zr-anwalt",
+   "rn": "",
+   "frage": "Anhand welches Maßstabs beurteilt das Gericht, ob die verzögerte Zustellung der Klageschrift dem Kläger zuzurechnen ist und die Rückwirkungsfiktion des § 167 ZPO deshalb nicht greift?",
+   "loesung": "Maßgeblich ist die wertende Betrachtung, ob die Zustellung noch 'demnächst' im Sinne des § 167 ZPO erfolgte; nicht die reine Zeitdauer zählt, sondern ob die Partei oder ihr Prozessbevollmächtigter die Verzögerung bei gewissenhafter Prozessführung hätte vermeiden können. Verzögerungen aus der Sphäre der Gerichtsorganisation sind der Partei nicht zuzurechnen, wohl aber Verzögerungen, die auf eigenen Verfahrenshandlungen wie einem Verweisungsantrag beruhen. Nach der Rechtsprechung bleiben nur Verzögerungen bis zu 14 Tagen ab Fristablauf als geringfügig unschädlich; hier lag die zurechenbare Verzögerung durch den vom Kläger selbst veranlassten Gerichtsstandswechsel bei 15 Tagen und damit über dieser Grenze.",
+   "abschnitt": "Lesetext Landgericht Duisburg lg-duisburg 6 O 103/25"
+  },
+  {
+   "id": "lesetext:lg-duisburg-2025-07-22-6-o-10325:3",
+   "typ": "fall",
+   "gewicht": 2,
+   "skript": "zr-anwalt",
+   "rn": "",
+   "frage": "Welche prozessuale Lehre sollte ein Prozessbevollmächtigter aus diesem Fall für den Umgang mit der Gerichtsstandswahl bei drohender Verjährung ziehen?",
+   "loesung": "Ein Prozessbevollmächtigter muss bei drohendem Verjährungsablauf von jeglicher nachträglichen Änderung der ursprünglich gewählten Zuständigkeit absehen, sobald das Gericht auf die Möglichkeit eines alternativen Gerichtsstands hinweist, da jede Abgabe des Verfahrens die Zustellung verzögert und diese Verzögerung ihm zugerechnet wird. Stattdessen sollte er die Klage beim ursprünglich gewählten Gericht zustellen lassen und die Kosten- bzw. Vorschusszahlung zügig veranlassen, um die 14-Tage-Geringfügigkeitsgrenze nicht zu überschreiten; im Zweifel ist der eigenen Verzögerung durch zeitnahes Nachfassen bei Gericht entgegenzuwirken, ohne durch eigene Anträge weitere vermeidbare Verzögerungen zu verursachen.",
+   "abschnitt": "Lesetext Landgericht Duisburg lg-duisburg 6 O 103/25"
   }
  ]
 }
