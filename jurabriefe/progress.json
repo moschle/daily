@@ -1,10 +1,10 @@
 {
   "gewichte": {
-    "zr-001": 1.0,
+    "zr-001": 1.1,
     "zr-002": 1.0,
     "zr-003": 1.0,
     "zr-004": 1.0,
-    "zr-005": 1.0,
+    "zr-005": 1.1,
     "zr-006": 0.8,
     "zr-007": 1.0,
     "zr-008": 1.0,
@@ -16,7 +16,15 @@
     "zr-anwalt:form:013": 1.7,
     "zr-anwalt:form:014": 1.7,
     "zr-anwalt:form:011": 0.8,
-    "lesetext:bgh-2024-05-16-ix-zr-3823": 1.1
+    "lesetext:bgh-2024-05-16-ix-zr-3823": 1.1,
+    "zr-staat:form:004": 1.7,
+    "zr-staat:form:005": 0.8,
+    "lesetext:olgdres-2022-07-20-13-u-208021:1": 1.1,
+    "lesetext:olgdres-2022-07-20-13-u-208021:2": 1.1,
+    "lesetext:olgdres-2022-07-20-13-u-208021:3": 1.1,
+    "lesetext:lg-duisburg-2025-07-22-6-o-10325:1": 0.8,
+    "lesetext:lg-duisburg-2025-07-22-6-o-10325:2": 0.8,
+    "lesetext:lg-duisburg-2025-07-22-6-o-10325:3": 1.7
   },
   "feedback": [
     {
@@ -268,6 +276,114 @@
       "grade": null,
       "interval": 4,
       "detail": ""
+    },
+    {
+      "date": "2026-09-16",
+      "case_id": "zr-staat:form:004",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 1,
+      "detail": "Die Formulierung 'vertreten durch ihre Inhaberin' ist ein substantieller Fehler: Die Firma ist keine Rechtsperson, die vertreten werden kann – Partei ist die Kauffrau selbst, die unter der Firma handelt (§ 17 HGB), nicht die Firma vertreten durch sie; die Skriptlösung stellt richtig die natürliche Person als Rechtsträgerin voran.",
+      "punkte": 3.0
+    },
+    {
+      "date": "2026-09-16",
+      "case_id": "zr-staat:form:005",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Einleitung 'In dem Insolvenzverfahren' ist unpassend, da es sich um einen Zivilprozess der Insolvenzverwalterin handelt, nicht um das Insolvenzverfahren selbst; ansonsten keine inhaltlichen Abstriche.",
+      "punkte": 11.0
+    },
+    {
+      "date": "2026-09-16",
+      "case_id": "lesetext:olgdres-2022-07-20-13-u-208021:1",
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Die konkreten Daten (Antrag vom 10.06.2022, Anschluss erst am 21.06.2022) fehlen vollständig; diese sind aber gerade die Tatsachengrundlage für den späteren Streit, ob der Antrag des Streithelfers zu 1) auch die Streithelferin zu 2) begünstigen kann – die Skriptlösung stellt den eigentlichen Streitpunkt (wessen Antrag wirkt für wen) klar heraus, die Antwort bleibt hier vage.",
+      "punkte": 6.0
+    },
+    {
+      "date": "2026-09-16",
+      "case_id": "lesetext:olgdres-2022-07-20-13-u-208021:2",
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Es fehlt der Hinweis, dass die Frist für jeden Beteiligten gesondert mit der Zustellung an ihn selbst beginnt (nicht einheitlich ab 'Zustellung des Urteils'), sowie die Ausnahme, dass ein Streithelfer erkennbar auch im Auftrag des anderen handeln kann.",
+      "punkte": 8.0
+    },
+    {
+      "date": "2026-09-16",
+      "case_id": "lesetext:olgdres-2022-07-20-13-u-208021:3",
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Die praktisch wichtige Konsequenz, im Rubrum und Antrag ausdrücklich klarzustellen, in wessen Namen und Auftrag der Antrag gestellt wird, fehlt vollständig.",
+      "punkte": 7.0
+    },
+    {
+      "date": "2026-09-16",
+      "case_id": "zr-001",
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Übungsfälle zur Rubrumsbildung bei Einzelkaufleuten (Abgrenzung zur Vertretung bei Gesellschaften) wiederholen, insbesondere die Formulierung 'der unter der Firma ... handelnden Kauffrau/des Kaufmanns'.",
+      "punkte": 7.0
+    },
+    {
+      "date": "2026-09-16",
+      "case_id": "zr-anwalt:form:012",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 160,
+      "detail": "Die Alternative 'ohne, hilfsweise gegen Sicherheitsleistung' fehlt vollständig – das ist ein Standardbestandteil bei § 707 ZPO-Anträgen und in der Skriptlösung zentral.",
+      "punkte": 9.0
+    },
+    {
+      "date": "2026-09-16",
+      "case_id": "zr-anwalt:form:014",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 1,
+      "detail": "Die Parteirollen sind vertauscht ('Der Beklagte vermietet' statt 'Die Klägerin vermietet dem Beklagten'), der Satz ist unvollständig abgebrochen, Adresse und Streitgegenstand (Mietrückstände August-November 2023) fehlen komplett.",
+      "punkte": 2.0
+    },
+    {
+      "date": "2026-09-16",
+      "case_id": "lesetext:lg-duisburg-2025-07-22-6-o-10325:1",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Die konkrete Klagesumme (10.542,60 EUR), die entscheidenden Daten (Einreichung 30.12.2024, Zustellung 22.03.2025, Verjährung 31.12.2024) sowie die explizite Begründung, warum die Zustellungsfrage die materielle Deckungsfrage verdrängt, fehlen; die Instanz (LG Duisburg) wird nicht genannt.",
+      "punkte": 10.0
+    },
+    {
+      "date": "2026-09-16",
+      "case_id": "lesetext:lg-duisburg-2025-07-22-6-o-10325:2",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Die Differenzierung zwischen gerichtsorganisatorischen (nicht zurechenbaren) und durch eigene Verfahrenshandlungen (zurechenbaren) Verzögerungen sowie die konkrete 14-Tage-Grenze und die Subsumtion (15 Tage durch Verweisungsantrag) fehlen.",
+      "punkte": 11.0
+    },
+    {
+      "date": "2026-09-16",
+      "case_id": "lesetext:lg-duisburg-2025-07-22-6-o-10325:3",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 1,
+      "detail": "Keine Antwort gegeben – die gesamte Lehre zur Vermeidung von Gerichtsstandswechseln bei drohender Verjährung fehlt.",
+      "punkte": 0.0
+    },
+    {
+      "date": "2026-09-16",
+      "case_id": "zr-005",
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Übung: Vollstreckungsschutzanträge mit Sicherheitsleistungsalternativen sowie vollständige Parteivorstellungen (Kläger/Beklagter korrekt zuordnen) unter Zeitdruck einüben; zusätzlich Falllösungen zu § 167 ZPO mit konkreter Fristenberechnung (14-Tage-Grenze) trainieren.",
+      "punkte": 6.0
     }
   ],
   "letzte_anpassung": null,
@@ -292,12 +408,12 @@
       "schnitt": 9.0
     },
     "zr-anwalt:form:012": {
-      "stability": 35.7,
-      "difficulty": 4.7,
-      "due": "2026-10-17",
-      "last": "2026-09-11",
+      "stability": 160.44,
+      "difficulty": 4.55,
+      "due": "2027-02-23",
+      "last": "2026-09-16",
       "gezeigt": "2026-09-16",
-      "reps": 2,
+      "reps": 3,
       "punkte": [
         {
           "date": "2026-09-10",
@@ -306,9 +422,13 @@
         {
           "date": "2026-09-11",
           "wert": 18.0
+        },
+        {
+          "date": "2026-09-16",
+          "wert": 9.0
         }
       ],
-      "schnitt": 15.0
+      "schnitt": 13.0
     },
     "zr-anwalt:form:013": {
       "stability": 1.0,
@@ -328,11 +448,11 @@
     },
     "zr-anwalt:form:014": {
       "stability": 1.0,
-      "difficulty": 5.6,
-      "due": "2026-09-12",
-      "last": "2026-09-11",
+      "difficulty": 5.9,
+      "due": "2026-09-17",
+      "last": "2026-09-16",
       "gezeigt": "2026-09-16",
-      "reps": 2,
+      "reps": 3,
       "punkte": [
         {
           "date": "2026-09-10",
@@ -341,9 +461,13 @@
         {
           "date": "2026-09-11",
           "wert": 3.0
+        },
+        {
+          "date": "2026-09-16",
+          "wert": 2.0
         }
       ],
-      "schnitt": 1.5
+      "schnitt": 1.7
     },
     "zr-anwalt:form:011": {
       "stability": 35.7,
@@ -410,13 +534,20 @@
       "unbeantwortet": 2
     },
     "zr-005": {
-      "stability": 0.0,
+      "stability": 4.0,
       "difficulty": 5.0,
       "due": "2026-09-20",
-      "last": null,
+      "last": "2026-09-16",
       "gezeigt": "2026-09-16",
-      "reps": 0,
-      "unbeantwortet": 2
+      "reps": 1,
+      "unbeantwortet": 2,
+      "punkte": [
+        {
+          "date": "2026-09-16",
+          "wert": 6.0
+        }
+      ],
+      "schnitt": 6.0
     },
     "zr-anwalt:form:016": {
       "stability": 0.0,
@@ -461,77 +592,140 @@
       "schnitt": 7.0
     },
     "zr-001": {
-      "stability": 0.0,
+      "stability": 4.0,
       "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "due": "2026-09-20",
+      "last": "2026-09-16",
       "gezeigt": "2026-09-14",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-16",
+          "wert": 7.0
+        }
+      ],
+      "schnitt": 7.0
     },
     "zr-staat:form:004": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 1.0,
+      "difficulty": 5.3,
+      "due": "2026-09-17",
+      "last": "2026-09-16",
       "gezeigt": "2026-09-14",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-16",
+          "wert": 3.0
+        }
+      ],
+      "schnitt": 3.0
     },
     "zr-staat:form:005": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-09-24",
+      "last": "2026-09-16",
       "gezeigt": "2026-09-14",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-16",
+          "wert": 11.0
+        }
+      ],
+      "schnitt": 11.0
     },
     "lesetext:olgdres-2022-07-20-13-u-208021:1": {
-      "stability": 0.0,
+      "stability": 4.0,
       "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "due": "2026-09-20",
+      "last": "2026-09-16",
       "gezeigt": "2026-09-14",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-16",
+          "wert": 6.0
+        }
+      ],
+      "schnitt": 6.0
     },
     "lesetext:olgdres-2022-07-20-13-u-208021:2": {
-      "stability": 0.0,
+      "stability": 4.0,
       "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "due": "2026-09-20",
+      "last": "2026-09-16",
       "gezeigt": "2026-09-14",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-16",
+          "wert": 8.0
+        }
+      ],
+      "schnitt": 8.0
     },
     "lesetext:olgdres-2022-07-20-13-u-208021:3": {
-      "stability": 0.0,
+      "stability": 4.0,
       "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "due": "2026-09-20",
+      "last": "2026-09-16",
       "gezeigt": "2026-09-14",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-16",
+          "wert": 7.0
+        }
+      ],
+      "schnitt": 7.0
     },
     "lesetext:lg-duisburg-2025-07-22-6-o-10325:1": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-09-24",
+      "last": "2026-09-16",
       "gezeigt": "2026-09-16",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-16",
+          "wert": 10.0
+        }
+      ],
+      "schnitt": 10.0
     },
     "lesetext:lg-duisburg-2025-07-22-6-o-10325:2": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-09-24",
+      "last": "2026-09-16",
       "gezeigt": "2026-09-16",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-16",
+          "wert": 11.0
+        }
+      ],
+      "schnitt": 11.0
     },
     "lesetext:lg-duisburg-2025-07-22-6-o-10325:3": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 1.0,
+      "difficulty": 5.3,
+      "due": "2026-09-17",
+      "last": "2026-09-16",
       "gezeigt": "2026-09-16",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-16",
+          "wert": 0.0
+        }
+      ],
+      "schnitt": 0.0
     }
   },
-  "letzter_korrekturlauf": "2026-09-15"
+  "letzter_korrekturlauf": "2026-09-16"
 }
