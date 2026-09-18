@@ -80,67 +80,12 @@
           "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 3. Streitgenossen"
         }
       ]
-    },
-    "zr-002": {
-      "case_id": "zr-002",
-      "datum": "2026-09-18",
-      "karten": [
-        {
-          "nr": 1,
-          "id": "zr-staat:form:004",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie das Rubrum für einen Kaufmann, bei dem Firmeninhaber und Firmenbezeichnung nicht identisch sind: Firma Agathe Teufel, Inhaberin Wilhelmina Zufall, Peststraße 14, 12345 Berlin, Klägerin.",
-          "loesung": "der unter der Firma Agathe Teufel handelnden Kauffrau Wilhelmina Zufall, Peststraße 14, 12345 Berlin, Klägerin,",
-          "gewicht": 1,
-          "skript": "zr-staat",
-          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 4. Kaufleute"
-        },
-        {
-          "nr": 2,
-          "id": "zr-staat:form:006",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie das Rubrum für eine GmbH als Klägerin: Bonus GmbH, Sonnenallee 93, 12199 Berlin, gesetzlich vertreten durch die Geschäftsführer Holger Fahls und Maria Herbst.",
-          "loesung": "der Bonus GmbH, gesetzlich vertreten durch die Geschäftsführer Holger Fahls und Maria Herbst, Sonnenallee 93, 12199 Berlin, Klägerin,",
-          "gewicht": 1,
-          "skript": "zr-staat",
-          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter"
-        },
-        {
-          "nr": 3,
-          "id": "lesetext:olgbamb-2022-09-06-10-u-5722:1",
-          "typ": "fall",
-          "frage": "Wer verlangt von wem welche Zahlung und aus welchem Lebenssachverhalt, wie hat das Landgericht Aschaffenburg entschieden, und worauf richtete sich die Berufung im Kern?",
-          "loesung": "Die Klagepartei nimmt als Käuferin eines Fahrzeugs den Fahrzeughersteller wegen der Verwendung einer angeblich unzulässigen Abschalteinrichtung im sog. Diesel-Abgasskandal auf Schadensersatz in Anspruch, verlangt Rückzahlung des Kaufpreises abzüglich Nutzungsentschädigung Zug um Zug gegen Rückgabe des Fahrzeugs, Feststellung des Annahmeverzugs sowie Ersatz vorgerichtlicher Anwaltskosten. Das Landgericht Aschaffenburg hatte die Klage abgewiesen, weil es die Voraussetzungen eines Anspruchs aus § 826 BGB nicht als erfüllt ansah. Die Klagepartei verfolgte mit der Berufung ihr erstinstanzliches Klageziel unverändert weiter, hilfsweise beantragte sie Zurückverweisung an das Landgericht.",
-          "gewicht": 2,
-          "skript": "zr-staat",
-          "abschnitt": "Lesetext Oberlandesgericht Bamberg olgbamb 10 U 57/22"
-        },
-        {
-          "nr": 4,
-          "id": "lesetext:olgbamb-2022-09-06-10-u-5722:2",
-          "typ": "fall",
-          "frage": "An welcher rechtlichen Voraussetzung entscheidet sich der Ausgang des Rechtsstreits, und welchen Prüfungsmaßstab legt der Senat bei der Zurückweisung nach § 522 Abs. 2 ZPO an?",
-          "loesung": "Entscheidend ist, ob die Klagepartei die Voraussetzungen einer vorsätzlichen sittenwidrigen Schädigung nach § 826 BGB, insbesondere eine zurechenbare Kenntnis bzw. ein zurechenbares Verhalten verfassungsmäßig berufener Vertreter des Herstellers hinsichtlich der beanstandeten Motorsteuerungssoftware, substantiiert dargelegt hat. Der Senat prüft im Beschlussverfahren nach § 522 Abs. 2 ZPO, ob die Berufung offensichtlich keine Erfolgsaussicht hat, der Rechtssache keine grundsätzliche Bedeutung zukommt und weder Rechtsfortbildung noch Sicherung einheitlicher Rechtsprechung eine mündliche Verhandlung erfordern; maßgeblich ist damit, ob die vom Landgericht vorgenommene rechtliche und tatsächliche Würdigung tragfähig ist und die Berufungsangriffe hiergegen nicht durchgreifen.",
-          "gewicht": 2,
-          "skript": "zr-staat",
-          "abschnitt": "Lesetext Oberlandesgericht Bamberg olgbamb 10 U 57/22"
-        },
-        {
-          "nr": 5,
-          "id": "lesetext:olgbamb-2022-09-06-10-u-5722:3",
-          "typ": "fall",
-          "frage": "Welche prozessuale Lehre ergibt sich aus dem Verfahrensablauf – insbesondere aus dem vorausgehenden Hinweisbeschluss und dem Ausbleiben einer Gegenerklärung – für die Vertretung in vergleichbaren Berufungsverfahren?",
-          "loesung": "Erhält die Partei einen Hinweis des Berufungsgerichts nach § 522 Abs. 2 ZPO, muss sie innerhalb der gesetzten Frist substantiiert und mit konkreten neuen Argumenten reagieren, da das Gericht ansonsten ohne weitere Sachprüfung durch Beschluss zurückweist. Im vorliegenden Fall unterblieb eine Gegenerklärung, sodass der Senat sich auf den bereits erteilten Hinweis stützen und ohne mündliche Verhandlung entscheiden konnte. Für die eigene Praxis folgt daraus, in Diesel-Fällen frühzeitig konkreten Tatsachenvortrag zur Kenntnis und Verantwortlichkeit der Organe des Herstellers zu halten und auf Hinweisbeschlüsse zwingend fristgerecht und inhaltlich fundiert zu erwidern, um eine Zurückweisung im schriftlichen Verfahren zu vermeiden.",
-          "gewicht": 2,
-          "skript": "zr-staat",
-          "abschnitt": "Lesetext Oberlandesgericht Bamberg olgbamb 10 U 57/22"
-        }
-      ]
     }
   },
   "erledigte_mails": [
     "<5800FA05-F219-452C-91B9-CBF62C397468@web.de>",
     "<73BB208E-39F9-464C-BC20-A68DC3D79027@web.de>",
+    "<D40DBD9C-1A77-4806-9C9F-85F523FCE05C@web.de>",
     "<DDD4AD8A-8468-4A24-BC1F-91A6381C5787@web.de>",
     "<EE1DD304-AC61-4BA7-8DE0-18634AB30494@web.de>"
   ],
