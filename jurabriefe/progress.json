@@ -384,6 +384,78 @@
       "interval": 4,
       "detail": "Übung: Vollstreckungsschutzanträge mit Sicherheitsleistungsalternativen sowie vollständige Parteivorstellungen (Kläger/Beklagter korrekt zuordnen) unter Zeitdruck einüben; zusätzlich Falllösungen zu § 167 ZPO mit konkreter Fristenberechnung (14-Tage-Grenze) trainieren.",
       "punkte": 6.0
+    },
+    {
+      "date": "2026-09-18",
+      "case_id": "zr-004",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 5,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-18",
+      "case_id": "zr-anwalt:form:013",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 5,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-18",
+      "case_id": "zr-staat:aufb:076",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 5,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-18",
+      "case_id": "zr-staat:form:001",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 5,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-18",
+      "case_id": "zr-staat:form:002",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 5,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-18",
+      "case_id": "zr-staat:form:003",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 5,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-18",
+      "case_id": "zr-anwalt:form:016",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 5,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-18",
+      "case_id": "zr-anwalt:form:018",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 5,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-18",
+      "case_id": "zr-anwalt:form:019",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 5,
+      "detail": ""
     }
   ],
   "letzte_anpassung": null,
@@ -433,7 +505,7 @@
     "zr-anwalt:form:013": {
       "stability": 1.0,
       "difficulty": 5.3,
-      "due": "2026-09-20",
+      "due": "2026-09-23",
       "last": "2026-09-10",
       "gezeigt": "2026-09-11",
       "reps": 1,
@@ -444,7 +516,7 @@
         }
       ],
       "schnitt": 2.0,
-      "unbeantwortet": 2
+      "unbeantwortet": 3
     },
     "zr-anwalt:form:014": {
       "stability": 1.0,
@@ -491,47 +563,47 @@
     "zr-004": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-20",
+      "due": "2026-09-23",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 2
+      "unbeantwortet": 3
     },
     "zr-staat:aufb:076": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-20",
+      "due": "2026-09-23",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 2
+      "unbeantwortet": 3
     },
     "zr-staat:form:001": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-20",
+      "due": "2026-09-23",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 2
+      "unbeantwortet": 3
     },
     "zr-staat:form:002": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-20",
+      "due": "2026-09-23",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 2
+      "unbeantwortet": 3
     },
     "zr-staat:form:003": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-20",
+      "due": "2026-09-23",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 2
+      "unbeantwortet": 3
     },
     "zr-005": {
       "stability": 4.0,
@@ -552,29 +624,29 @@
     "zr-anwalt:form:016": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-20",
+      "due": "2026-09-23",
       "last": null,
       "gezeigt": "2026-09-11",
       "reps": 0,
-      "unbeantwortet": 2
+      "unbeantwortet": 3
     },
     "zr-anwalt:form:018": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-20",
+      "due": "2026-09-23",
       "last": null,
       "gezeigt": "2026-09-11",
       "reps": 0,
-      "unbeantwortet": 2
+      "unbeantwortet": 3
     },
     "zr-anwalt:form:019": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-20",
+      "due": "2026-09-23",
       "last": null,
       "gezeigt": "2026-09-11",
       "reps": 0,
-      "unbeantwortet": 2
+      "unbeantwortet": 3
     },
     "lesetext:bgh-2024-05-16-ix-zr-3823": {
       "stability": 4.0,
@@ -611,7 +683,7 @@
       "difficulty": 5.3,
       "due": "2026-09-17",
       "last": "2026-09-16",
-      "gezeigt": "2026-09-14",
+      "gezeigt": "2026-09-18",
       "reps": 1,
       "punkte": [
         {
@@ -725,6 +797,46 @@
         }
       ],
       "schnitt": 0.0
+    },
+    "zr-002": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-18",
+      "reps": 0
+    },
+    "zr-staat:form:006": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-18",
+      "reps": 0
+    },
+    "lesetext:olgbamb-2022-09-06-10-u-5722:1": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-18",
+      "reps": 0
+    },
+    "lesetext:olgbamb-2022-09-06-10-u-5722:2": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-18",
+      "reps": 0
+    },
+    "lesetext:olgbamb-2022-09-06-10-u-5722:3": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-18",
+      "reps": 0
     }
   },
   "letzter_korrekturlauf": "2026-09-17"
