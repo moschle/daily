@@ -3512,5 +3512,15 @@
       "digital_humanities",
       "schwach_methodisch"
     ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/stellenmarkt_nrw/2026/09/ddca7c58-c717-45b1-a75d-47f388295f10.html": {
+    "first_seen": "2026-09-19T11:59:57.989295+00:00",
+    "source": "service.bund.de",
+    "title": "Beschäftige/r im Bereich Radikalisierungsprävention im Justizvollzug",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/stellenmarkt_nrw/2026/09/ddca7c58-c717-45b1-a75d-47f388295f10.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "behörden_fachlich"
+    ]
   }
 }
