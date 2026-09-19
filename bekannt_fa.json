@@ -1,0 +1,5990 @@
+[
+ {
+  "word": "نِماییراه",
+  "meaning": "Mittelschule"
+ },
+ {
+  "word": "کُشتی",
+  "meaning": "Ringen (košti) – Schiff = کَشتی (kašti)"
+ },
+ {
+  "word": "آتش روشن کردن",
+  "meaning": "Feuer anzünden (auch: آتش درست کردن)"
+ },
+ {
+  "word": "آشپزی کردن",
+  "meaning": "kochen (die Tätigkeit)"
+ },
+ {
+  "word": "ناهار درست کردم",
+  "meaning": "Ich habe Mittagessen gemacht."
+ },
+ {
+  "word": "کمپ کردن",
+  "meaning": "zelten, campen"
+ },
+ {
+  "word": "غذای چینی",
+  "meaning": "chinesisches Essen"
+ },
+ {
+  "word": "غذای بیرون‌بر",
+  "meaning": "Essen zum Mitnehmen"
+ },
+ {
+  "word": "سفارش",
+  "meaning": "Bestellung"
+ },
+ {
+  "word": "سفارش گرفتن",
+  "meaning": "eine Bestellung aufnehmen"
+ },
+ {
+  "word": "دیشب خسته بودم، از بیرون غذا سفارش دادم",
+  "meaning": "Gestern Abend war ich müde, ich habe Essen bestellt."
+ },
+ {
+  "word": "سرو کردن",
+  "meaning": "servieren"
+ },
+ {
+  "word": "معمولاً غذا رو همون‌جا سرو می‌کنن",
+  "meaning": "Normalerweise servieren sie das Essen gleich dort."
+ },
+ {
+  "word": "ثبت‌نام کردن",
+  "meaning": "sich anmelden, sich einschreiben"
+ },
+ {
+  "word": "ثبت‌نام شدن",
+  "meaning": "angemeldet werden (Passiv zu ثبت‌نام کردن)"
+ },
+ {
+  "word": "… کردن ↔ … شدن",
+  "meaning": "Verbpaar: کردن = aktiv/transitiv, شدن = passiv/intransitiv (ثبت‌نام کردن → ثبت‌نام شدن)"
+ },
+ {
+  "word": "… دادن ↔ … گرفتن",
+  "meaning": "Verbpaar in Funktionsverbgefügen: دادن = geben/erteilen, گرفتن = nehmen/erhalten (سفارش دادن → سفارش گرفتن)"
+ },
+ {
+  "word": "جمعیت",
+  "meaning": "Menschenmenge; Bevölkerung"
+ },
+ {
+  "word": "ورزشگاه",
+  "meaning": "Stadion"
+ },
+ {
+  "word": "مردم آلمان",
+  "meaning": "das deutsche Volk (مردم + Land direkt; mit Ort dagegen مردم در برلین)"
+ },
+ {
+  "word": "مردم در ورزشگاه",
+  "meaning": "die Leute im Stadion"
+ },
+ {
+  "word": "طبیعتاً",
+  "meaning": "natürlich, selbstverständlich"
+ },
+ {
+  "word": "مطمئناً",
+  "meaning": "sicherlich, bestimmt"
+ },
+ {
+  "word": "قورباغه",
+  "meaning": "Frosch"
+ },
+ {
+  "word": "حشرات",
+  "meaning": "Insekten (arab. Plural von حشره; persisch auch حشره‌ها)"
+ },
+ {
+  "word": "تند",
+  "meaning": "scharf (Schärfe); schnell"
+ },
+ {
+  "word": "غذای تند",
+  "meaning": "scharfes Essen"
+ },
+ {
+  "word": "تند و تیز",
+  "meaning": "scharf und würzig (feste Wendung)"
+ },
+ {
+  "word": "ترش",
+  "meaning": "sauer"
+ },
+ {
+  "word": "ملس",
+  "meaning": "süßsauer (ترش + شیرین)"
+ },
+ {
+  "word": "تلخ",
+  "meaning": "bitter"
+ },
+ {
+  "word": "شور",
+  "meaning": "salzig"
+ },
+ {
+  "word": "چای کبود",
+  "meaning": "grüner Tee (tadschikisch; im Farsi چای سبز)"
+ },
+ {
+  "word": "نامیدن / نام",
+  "meaning": "nennen, benennen"
+ },
+ {
+  "word": "مردم تاجیکستان چای سبز رو چای کبود می‌نامند",
+  "meaning": "Die Leute in Tadschikistan nennen grünen Tee „čoi kabud\"."
+ },
+ {
+  "word": "به چیزی … گفتن",
+  "meaning": "etwas … nennen (مردم تاجیکستان به چای سبز، چای کبود می‌گویند)"
+ },
+ {
+  "word": "می‌آیم / میام",
+  "meaning": "ich komme (schriftsprachlich / umgangssprachlich)"
+ },
+ {
+  "word": "قدیمی",
+  "meaning": "alt (von Dingen, Gebäuden)"
+ },
+ {
+  "word": "تعمیر",
+  "meaning": "Reparatur"
+ },
+ {
+  "word": "اجرا",
+  "meaning": "Aufführung; Durchführung"
+ },
+ {
+  "word": "آیا سازماندهی همان اجراست؟",
+  "meaning": "Ist Organisation dasselbe wie Durchführung?"
+ },
+ {
+  "word": "یه‌کم عجیب بودند",
+  "meaning": "Sie waren etwas seltsam."
+ },
+ {
+  "word": "این تنها برنامه‌ای است که …",
+  "meaning": "Das ist das einzige Programm, das … (indefinites ـی + Relativsatz mit که)"
+ },
+ {
+  "word": "مصاحبه",
+  "meaning": "Interview; Vorstellungsgespräch (statt اینترویو)"
+ },
+ {
+  "word": "من اینجام که فارسی یاد بگیرم",
+  "meaning": "Ich bin hier, um Persisch zu lernen. (که/تا + Konjunktiv)"
+ },
+ {
+  "word": "من اینجام برای یاد گرفتنِ فارسی",
+  "meaning": "Ich bin hier zum Persischlernen. (برای + nominalisierter Infinitiv)"
+ },
+ {
+  "word": "من می‌خوام فارسی یاد بگیرم، برای همین اینجام",
+  "meaning": "Ich will Persisch lernen, deshalb bin ich hier."
+ },
+ {
+  "word": "به دلیل اینکه می‌خوام فارسی یاد بگیرم، اینجا هستم",
+  "meaning": "Weil ich Persisch lernen will, bin ich hier."
+ },
+ {
+  "word": "همه‌چیز دو زبانه هست",
+  "meaning": "Alles ist zweisprachig. (auch: همه‌چیز به دو زبان است)"
+ },
+ {
+  "word": "می‌تونم سوال‌های زیادی از او بپرسم",
+  "meaning": "Ich kann ihm/ihr viele Fragen stellen."
+ },
+ {
+  "word": "اون نمی‌خواد شهر دوشنبه رو در وضعیت کنونی ببینه",
+  "meaning": "Er/sie will Duschanbe nicht im gegenwärtigen Zustand sehen."
+ },
+ {
+  "word": "راه زیاد بود و من خسته شدم",
+  "meaning": "Der Weg war weit und ich wurde müde."
+ },
+ {
+  "word": "من نمی‌دونم این کتاب دربارهٔ چیه",
+  "meaning": "Ich weiß nicht, worum es in diesem Buch geht."
+ },
+ {
+  "word": "بهخوردَن",
+  "meaning": "stoßen gegen / an"
+ },
+ {
+  "word": "شِناختَن / شِناس",
+  "meaning": "kennen"
+ },
+ {
+  "word": "فِکر کردَن",
+  "meaning": "denken"
+ },
+ {
+  "word": "کُشتَن / کُش",
+  "meaning": "töten, umbringen"
+ },
+ {
+  "word": "لازِم بودَن",
+  "meaning": "notwendig sein"
+ },
+ {
+  "word": "مَجبور بودَن",
+  "meaning": "müssen, gezwungen sein"
+ },
+ {
+  "word": "مُمکِن بودَن",
+  "meaning": "möglich sein"
+ },
+ {
+  "word": "مِیل داشتَن",
+  "meaning": "mögen, möchten, wünschen"
+ },
+ {
+  "word": "اُتریش",
+  "meaning": "Österreich"
+ },
+ {
+  "word": "اگَر",
+  "meaning": "wenn, falls"
+ },
+ {
+  "word": "ایتالیا",
+  "meaning": "Italien"
+ },
+ {
+  "word": "که استاین",
+  "meaning": "daher"
+ },
+ {
+  "word": "اینکهبِدون",
+  "meaning": "ohne dass"
+ },
+ {
+  "word": "اینکه ازبَعد",
+  "meaning": "nachdem"
+ },
+ {
+  "word": "زَحمَت به",
+  "meaning": "mit Mühe"
+ },
+ {
+  "word": "بِهتَر",
+  "meaning": "besser"
+ },
+ {
+  "word": "بیشتَر",
+  "meaning": "mehr"
+ },
+ {
+  "word": "پُشت",
+  "meaning": "hinter"
+ },
+ {
+  "word": "اینکهازپیش",
+  "meaning": "bevor"
+ },
+ {
+  "word": "جِلوی",
+  "meaning": "vor (lok.)"
+ },
+ {
+  "word": "سوئیس",
+  "meaning": "Schweiz"
+ },
+ {
+  "word": "لابُد",
+  "meaning": "vermutlich"
+ },
+ {
+  "word": "مُتَشَکِّر، مَمنون",
+  "meaning": "dankbar"
+ },
+ {
+  "word": "مُتَشَکِّرَم؛ مَمنونَم",
+  "meaning": "danke!"
+ },
+ {
+  "word": "آهسته",
+  "meaning": "leise, langsam"
+ },
+ {
+  "word": "بِسیار",
+  "meaning": "viel, sehr"
+ },
+ {
+  "word": "بُلَند",
+  "meaning": "laut, hoch, lang"
+ },
+ {
+  "word": "بیدار",
+  "meaning": "wach"
+ },
+ {
+  "word": "تاریک",
+  "meaning": "dunkel"
+ },
+ {
+  "word": "جِلو",
+  "meaning": "vorn"
+ },
+ {
+  "word": "آپارتِمان",
+  "meaning": "Wohnung"
+ },
+ {
+  "word": "آزادی",
+  "meaning": "Freiheit"
+ },
+ {
+  "word": "آزادیخواه",
+  "meaning": "Lieberaler, freiheitsliebender"
+ },
+ {
+  "word": "ابر",
+  "meaning": "Wolke"
+ },
+ {
+  "word": "اِجازه",
+  "meaning": "Erlaubnis, Genehmigung"
+ },
+ {
+  "word": "اِعتِقاد",
+  "meaning": "Glaube, Überzeugung, Gesinnung"
+ },
+ {
+  "word": "بار",
+  "meaning": "Mal"
+ },
+ {
+  "word": "پاککُن",
+  "meaning": "Radiergummi"
+ },
+ {
+  "word": "پَرَنده",
+  "meaning": "Vogel"
+ },
+ {
+  "word": "تَعطیلات",
+  "meaning": "Ferien"
+ },
+ {
+  "word": "جُغرافیا",
+  "meaning": "Geografie"
+ },
+ {
+  "word": "حوصِله",
+  "meaning": "Lust, Geduld"
+ },
+ {
+  "word": "دارخانه",
+  "meaning": "Hausfrau/-mann"
+ },
+ {
+  "word": "داریخانه",
+  "meaning": "Haushalt"
+ },
+ {
+  "word": "خداحافظی",
+  "meaning": "Abschied"
+ },
+ {
+  "word": "خودبین",
+  "meaning": "Egozentriker"
+ },
+ {
+  "word": "خودرو",
+  "meaning": "Kraftfahrzeug"
+ },
+ {
+  "word": "دانِش",
+  "meaning": "Wissen"
+ },
+ {
+  "word": "ریاضی",
+  "meaning": "Mathematik"
+ },
+ {
+  "word": "زیر",
+  "meaning": "unter; unterer Teil"
+ },
+ {
+  "word": "سیاسَت",
+  "meaning": "Politik"
+ },
+ {
+  "word": "سیگار",
+  "meaning": "Zigarette"
+ },
+ {
+  "word": "صُبح",
+  "meaning": "Morgen"
+ },
+ {
+  "word": "صُبحانه",
+  "meaning": "Frühstück"
+ },
+ {
+  "word": "فُروشگاه",
+  "meaning": "Kaufhaus, größeres Geschäft"
+ },
+ {
+  "word": "قُرآن",
+  "meaning": "Koran"
+ },
+ {
+  "word": "قَرار",
+  "meaning": "Vereinbarung, Abmachung"
+ },
+ {
+  "word": "قَصد",
+  "meaning": "Absicht"
+ },
+ {
+  "word": "کَفش",
+  "meaning": "Schuh"
+ },
+ {
+  "word": "کُنِش",
+  "meaning": "Handlung"
+ },
+ {
+  "word": "گوشی",
+  "meaning": "Telefonhöhrer, umgspr. Handy"
+ },
+ {
+  "word": "مَرز",
+  "meaning": "Grenze"
+ },
+ {
+  "word": "مُسَلمان",
+  "meaning": "Muslim, muslimisch"
+ },
+ {
+  "word": "مُعَلِّمی",
+  "meaning": "Lehrerberuf"
+ },
+ {
+  "word": "موضوع",
+  "meaning": "Thema"
+ },
+ {
+  "word": "وارِدات",
+  "meaning": "Import"
+ },
+ {
+  "word": "مَگَرچِطور",
+  "meaning": "wieso denn?"
+ },
+ {
+  "word": "ظاهِرا",
+  "meaning": "anscheinend, offenbar"
+ },
+ {
+  "word": "فِعلا",
+  "meaning": "zurzeit"
+ },
+ {
+  "word": "کامِل",
+  "meaning": "vollständig, absolut"
+ },
+ {
+  "word": "بهداشتَن اِعتِقاد",
+  "meaning": "glauben an"
+ },
+ {
+  "word": "پَذیرُفتَن / پَذیر",
+  "meaning": "akzeptieren"
+ },
+ {
+  "word": "پوشیدَن / پوش",
+  "meaning": "(Kleidung) anziehen, tragen"
+ },
+ {
+  "word": "تَرسیدَن / تَرس",
+  "meaning": "fürchten, Angst haben"
+ },
+ {
+  "word": "حِساب کردَن",
+  "meaning": "rechnen, ausrechnen"
+ },
+ {
+  "word": "ازکردَنخداحافظی",
+  "meaning": "sich verabschieden von"
+ },
+ {
+  "word": "سوختَن / سوز",
+  "meaning": "brennen, verbrennen"
+ },
+ {
+  "word": "کشیدَنسیگار",
+  "meaning": "rauchen"
+ },
+ {
+  "word": "صادِر کردَن",
+  "meaning": "exportieren (nach, in)"
+ },
+ {
+  "word": "کوشیدَن / کوش",
+  "meaning": "anstrengen"
+ },
+ {
+  "word": "گِرِفتَن / گیر",
+  "meaning": "nehmen, greifen, erhalten"
+ },
+ {
+  "word": "نِشَستَن / نِشین",
+  "meaning": "sitzen, sich setzen"
+ },
+ {
+  "word": "وارِد کردَن",
+  "meaning": "importieren"
+ },
+ {
+  "word": "وَقت کردَن",
+  "meaning": "zu etw. kommen; Zeit haben"
+ },
+ {
+  "word": "آزاد",
+  "meaning": "frei"
+ },
+ {
+  "word": "ادَبی",
+  "meaning": "literarisch"
+ },
+ {
+  "word": "الکُلی",
+  "meaning": "alkoholisch, Alkoholiker"
+ },
+ {
+  "word": "حوصِلهبی",
+  "meaning": "lustlos, ungeduldig"
+ },
+ {
+  "word": "پولدار",
+  "meaning": "reich, Reicher"
+ },
+ {
+  "word": "سیاسی",
+  "meaning": "politisch"
+ },
+ {
+  "word": "کَج",
+  "meaning": "schief, schräg, krumm"
+ },
+ {
+  "word": "مَخصوصا",
+  "meaning": "besonders, speziell"
+ },
+ {
+  "word": "نابینا",
+  "meaning": "blind"
+ },
+ {
+  "word": "نیز",
+  "meaning": "auch"
+ },
+ {
+  "word": "آرامگاه",
+  "meaning": "Grab"
+ },
+ {
+  "word": "زیارت",
+  "meaning": "Besuch, Wallfahrt"
+ },
+ {
+  "word": "همانطور",
+  "meaning": "auf gleiche Art und Weise"
+ },
+ {
+  "word": "آفرین",
+  "meaning": "1. Bravo, Ausgezeichnet; 2. Beifall, Lob"
+ },
+ {
+  "word": "اثَر",
+  "meaning": "Schriftwerk, Denkmal; Eindruck, Fußspur"
+ },
+ {
+  "word": "تُخم",
+  "meaning": "Saat, Samen"
+ },
+ {
+  "word": "رای",
+  "meaning": "Meinung, Weisheit, Idee"
+ },
+ {
+  "word": "رَنج",
+  "meaning": "Mühe, Last"
+ },
+ {
+  "word": "عَجَم",
+  "meaning": "Perser, Iraner, Nichtaraber"
+ },
+ {
+  "word": "لَحظه",
+  "meaning": "Moment, Augenblick"
+ },
+ {
+  "word": "مُجَسَمه",
+  "meaning": "Statue, Denkmal"
+ },
+ {
+  "word": "مَرمَر",
+  "meaning": "Marmor"
+ },
+ {
+  "word": "مو",
+  "meaning": "Haar"
+ },
+ {
+  "word": "هُش",
+  "meaning": "Verstand, Vernunft, Bewusstsein, Sinn"
+ },
+ {
+  "word": "به دُنیا آمدن",
+  "meaning": "auf die Welt kommen"
+ },
+ {
+  "word": "زیستَن / زی",
+  "meaning": "leben"
+ },
+ {
+  "word": "مُردَن / میر",
+  "meaning": "sterben"
+ },
+ {
+  "word": "مانَند",
+  "meaning": "wie"
+ },
+ {
+  "word": "وِی",
+  "meaning": "er, sie (veraltet)"
+ },
+ {
+  "word": "پادِشاه",
+  "meaning": "König"
+ },
+ {
+  "word": "حِیوان",
+  "meaning": "Tier, Lebewesen"
+ },
+ {
+  "word": "زَمان",
+  "meaning": "Zeit"
+ },
+ {
+  "word": "سَرزَمین",
+  "meaning": "Gebiet, Territorium, Reich"
+ },
+ {
+  "word": "شُهرَت",
+  "meaning": "Bekanntheit, Berühmtheit"
+ },
+ {
+  "word": "فُرم",
+  "meaning": "Formular"
+ },
+ {
+  "word": "گُذَشته",
+  "meaning": "Vergangenheit"
+ },
+ {
+  "word": "گوشت",
+  "meaning": "Fleisch"
+ },
+ {
+  "word": "مَنزِل",
+  "meaning": "Heim"
+ },
+ {
+  "word": "مِی",
+  "meaning": "Wein"
+ },
+ {
+  "word": "نَماینده",
+  "meaning": "Vertreter; Abgeordneter"
+ },
+ {
+  "word": "پُر کردَن",
+  "meaning": "(aus)füllen"
+ },
+ {
+  "word": "حُکومَت کردَن",
+  "meaning": "herrschen; regieren"
+ },
+ {
+  "word": "خَرج کردَن",
+  "meaning": "ausgeben"
+ },
+ {
+  "word": "دَرس دادَن",
+  "meaning": "Unterricht geben"
+ },
+ {
+  "word": "دُزدیدن / دُزد",
+  "meaning": "stehlen"
+ },
+ {
+  "word": "مُهِمّ",
+  "meaning": "wichtig"
+ },
+ {
+  "word": "جَوان",
+  "meaning": "junger Mann"
+ },
+ {
+  "word": "!مُواظِب باش",
+  "meaning": "Pass auf!; Sei vorsichtig!"
+ },
+ {
+  "word": "...روزی روزگاری",
+  "meaning": "Es war einmal..."
+ },
+ {
+  "word": "اِفتِخار",
+  "meaning": "Ehre"
+ },
+ {
+  "word": "اندیشه",
+  "meaning": "Gedanke, Sorge"
+ },
+ {
+  "word": "پِزِشکی",
+  "meaning": "Medizin, Heilkunde"
+ },
+ {
+  "word": "پیرمَرد",
+  "meaning": "Greis, alter Mann"
+ },
+ {
+  "word": "پیشرفت",
+  "meaning": "Erfolg, Fortschritt"
+ },
+ {
+  "word": "تَجرُبه",
+  "meaning": "Erfahrung"
+ },
+ {
+  "word": "تَحقیق",
+  "meaning": "Untersuchung, Erforschung, Studium"
+ },
+ {
+  "word": "جاحِل",
+  "meaning": "Unwissender; unverständig"
+ },
+ {
+  "word": "خهان",
+  "meaning": "Welt"
+ },
+ {
+  "word": "داروشناسی",
+  "meaning": "Pharmazie"
+ },
+ {
+  "word": "دانِشمَند",
+  "meaning": "Gelehrter, Wissenschaftler"
+ },
+ {
+  "word": "دَرمان",
+  "meaning": "Arznei, Medizin, Heilung, Behandlung"
+ },
+ {
+  "word": "دَم",
+  "meaning": "Atem, Hauch"
+ },
+ {
+  "word": "ریاضیّات",
+  "meaning": "Mathematik (Wissenschaft)"
+ },
+ {
+  "word": "ستارمشناسی",
+  "meaning": "Astronomie, Astrologie"
+ },
+ {
+  "word": "سُرعَت",
+  "meaning": "Schnelligkeit, Eile"
+ },
+ {
+  "word": "شیوَن",
+  "meaning": "Trauerklage"
+ },
+ {
+  "word": "طب",
+  "meaning": "Medizin, Heilkunde"
+ },
+ {
+  "word": "طبیب",
+  "meaning": "Arzt"
+ },
+ {
+  "word": "عِشق",
+  "meaning": "Liebe"
+ },
+ {
+  "word": "عَصر",
+  "meaning": "Zeitalter, Epoche"
+ },
+ {
+  "word": "عَلاقه",
+  "meaning": "Interesse"
+ },
+ {
+  "word": "عِلَّت",
+  "meaning": "Grund, Ursache"
+ },
+ {
+  "word": "عُمر",
+  "meaning": "Leben, Lebensalter"
+ },
+ {
+  "word": "گور",
+  "meaning": "Grab"
+ },
+ {
+  "word": "مَسئَله / مَسائِل",
+  "meaning": "Frage, Thema, Problem, Aufgabe, Gegenstand"
+ },
+ {
+  "word": "مُطالَعه",
+  "meaning": "Studium, Lesen"
+ },
+ {
+  "word": "مُعالِجه",
+  "meaning": "Heilung, Krankenbehandlung"
+ },
+ {
+  "word": "نَتیجه",
+  "meaning": "Resultat"
+ },
+ {
+  "word": "نَفَس",
+  "meaning": "Atem(-zug), (Luft-)Hauch"
+ },
+ {
+  "word": "نِگاه",
+  "meaning": "Blick, Beaufsichtigung, Schutz"
+ },
+ {
+  "word": "اندوختَن / اندوز",
+  "meaning": "sammeln, erwerben"
+ },
+ {
+  "word": "بر خاستن / بر خیز",
+  "meaning": "aufstehen, sich erheben"
+ },
+ {
+  "word": "پَرداختَن / پَرداز",
+  "meaning": "sich an etw. machen; zahlen"
+ },
+ {
+  "word": "جویا شدن",
+  "meaning": "sich erkundigen (nach); من از این موضوع جویا شدم = ich habe mich danach erkundigt"
+ },
+ {
+  "word": "دَرمان کردَن",
+  "meaning": "behandeln"
+ },
+ {
+  "word": "نام را گُذاشتَن",
+  "meaning": "jmd. einen Namen geben"
+ },
+ {
+  "word": "وَرزیدن / وَرز",
+  "meaning": "sich beschäftigen, sich kümmern, üben; den Boden bestellen"
+ },
+ {
+  "word": "پِیوَسته",
+  "meaning": "beständig, fortdauernd; vereinigt"
+ },
+ {
+  "word": "رایِگان",
+  "meaning": "umsonst"
+ },
+ {
+  "word": "گوناگون",
+  "meaning": "verschieden; verschiedenfarbig, bunt; verschiedenartig"
+ },
+ {
+  "word": "مُحتاج",
+  "meaning": "arm, bedürftig"
+ },
+ {
+  "word": "نِگَران",
+  "meaning": "beunruhigt, aufgeregt, ängstlich"
+ },
+ {
+  "word": "اکنون",
+  "meaning": "jetzt, nun"
+ },
+ {
+  "word": "با دِق َّت",
+  "meaning": "aufmerksam, sorgfältig, genau"
+ },
+ {
+  "word": "با ناراحَتی",
+  "meaning": "verärgert"
+ },
+ {
+  "word": "به تَدریج",
+  "meaning": "allmählich, nach und nach"
+ },
+ {
+  "word": "سِپَس",
+  "meaning": "dann, darauf, danach"
+ },
+ {
+  "word": "سَراسیمه",
+  "meaning": "Hals über Kopf, bestürzt, überrascht"
+ },
+ {
+  "word": "فُرو",
+  "meaning": "herab, nach unten, hinunter"
+ },
+ {
+  "word": "مُختِلِف",
+  "meaning": "verschieden"
+ },
+ {
+  "word": "غمگین",
+  "meaning": "traurig, betrübt, kummervoll"
+ },
+ {
+  "word": "پهلوان",
+  "meaning": "Recke, Held, Meister, Athlet, Kämpfer"
+ },
+ {
+  "word": "اسب",
+  "meaning": "Pferd; Springer (Schach)"
+ },
+ {
+  "word": "آهنگ",
+  "meaning": "Laut, Ton, Melodie"
+ },
+ {
+  "word": "شکار",
+  "meaning": "Jagd, Fang, Beute"
+ },
+ {
+  "word": "غزاره",
+  "meaning": "große Menge"
+ },
+ {
+  "word": "خر‌ّم",
+  "meaning": "frisch, blühend; froh, freudig"
+ },
+ {
+  "word": "گورخر",
+  "meaning": "Wildesel"
+ },
+ {
+  "word": "بریان کردن",
+  "meaning": "rösten"
+ },
+ {
+  "word": "...باشد که",
+  "meaning": "Möge..."
+ },
+ {
+  "word": "دل",
+  "meaning": "Herz, Gemüt; ugs. auch Bauch"
+ },
+ {
+  "word": "همانگاه",
+  "meaning": "Unverzüglich"
+ },
+ {
+  "word": "پنهان",
+  "meaning": "verborgen"
+ },
+ {
+  "word": "پایتخت",
+  "meaning": "Hauptstadt"
+ },
+ {
+  "word": "تصادف",
+  "meaning": "Unfall"
+ },
+ {
+  "word": "شک‌ داشتن",
+  "meaning": "zweifeln"
+ },
+ {
+  "word": "نگه دشتن",
+  "meaning": "behalten, speichern"
+ },
+ {
+  "word": "راندَن / ران",
+  "meaning": "fahren, lenken (Auto fahren = رانندگی کردن)"
+ },
+ {
+  "word": "کامیون",
+  "meaning": "Truck"
+ },
+ {
+  "word": "فرستادن، ارسال کردن",
+  "meaning": "schicken, senden"
+ },
+ {
+  "word": "شرط",
+  "meaning": "Wette, Bedingung"
+ },
+ {
+  "word": "!به‌به",
+  "meaning": "lecker!, wow!"
+ },
+ {
+  "word": "معمولاً",
+  "meaning": "normalerweise, meistens, gewöhnlich"
+ },
+ {
+  "word": "ساکت",
+  "meaning": "still, ruhig"
+ },
+ {
+  "word": "بی‌نقص",
+  "meaning": "perfekt"
+ },
+ {
+  "word": "تقریباً",
+  "meaning": "fast"
+ },
+ {
+  "word": "دنبال کردن",
+  "meaning": "folgen, verfolgen"
+ },
+ {
+  "word": "هنگام",
+  "meaning": "wenn (temp.)"
+ },
+ {
+  "word": "فراموش کردن",
+  "meaning": "vergessen"
+ },
+ {
+  "word": "هُل بدهید",
+  "meaning": "schließ! drück!"
+ },
+ {
+  "word": "بالاخره",
+  "meaning": "letztendlich, schließlich, am Ende"
+ },
+ {
+  "word": "انجام دادن",
+  "meaning": "machen, tun, erledigen"
+ },
+ {
+  "word": "دروغ گفتن",
+  "meaning": "lügen"
+ },
+ {
+  "word": "گیج",
+  "meaning": "durcheinander, schwindelig"
+ },
+ {
+  "word": "حفظ",
+  "meaning": "Schutz"
+ },
+ {
+  "word": "رایانه",
+  "meaning": "Computer"
+ },
+ {
+  "word": "امتحان کردن",
+  "meaning": "probieren, testen"
+ },
+ {
+  "word": "در حال",
+  "meaning": "(dabei sein etw. zu tun)"
+ },
+ {
+  "word": "جرم",
+  "meaning": "Verbrechen"
+ },
+ {
+  "word": "امن",
+  "meaning": "sicher"
+ },
+ {
+  "word": "سریع",
+  "meaning": "schnell"
+ },
+ {
+  "word": "شبیه",
+  "meaning": "ähnlich"
+ },
+ {
+  "word": "انتخاب کردن",
+  "meaning": "auswählen"
+ },
+ {
+  "word": "برق",
+  "meaning": "Strom, Blitz"
+ },
+ {
+  "word": "سیاره",
+  "meaning": "Planet"
+ },
+ {
+  "word": "کره",
+  "meaning": "Globus, Kreis; Planet"
+ },
+ {
+  "word": "زمین",
+  "meaning": "Erde; Land; Boden"
+ },
+ {
+  "word": "دسترس",
+  "meaning": "nahe, verfügbar"
+ },
+ {
+  "word": "قرار دادن",
+  "meaning": "etw. hinlegen, arrangieren"
+ },
+ {
+  "word": "جمع‌آوری کردن",
+  "meaning": "sammeln"
+ },
+ {
+  "word": "شواهد",
+  "meaning": "Beweise"
+ },
+ {
+  "word": "عبور کردن",
+  "meaning": "überqueren"
+ },
+ {
+  "word": "احتیاط",
+  "meaning": "Vorsichtig(keit)"
+ },
+ {
+  "word": "جدی",
+  "meaning": "ernst"
+ },
+ {
+  "word": "سپری کردن",
+  "meaning": "(be)enden"
+ },
+ {
+  "word": "قانون (Pl. قوانین)",
+  "meaning": "Regel, Gesetz"
+ },
+ {
+  "word": "زیر پا گذاشتن",
+  "meaning": "zu brechen, zu missachten"
+ },
+ {
+  "word": "(به‌صورتِ) نَقد",
+  "meaning": "(im Form von) Bargeld"
+ },
+ {
+  "word": "مراقب باش",
+  "meaning": "sei vorsichtig"
+ },
+ {
+  "word": "وظیفه",
+  "meaning": "Verantwortung"
+ },
+ {
+  "word": "سفارش دادن",
+  "meaning": "bestellen"
+ },
+ {
+  "word": "پرورش دادن",
+  "meaning": "anbauen"
+ },
+ {
+  "word": "کندن",
+  "meaning": "herausreißen, rupfen, graben"
+ },
+ {
+  "word": "سینه",
+  "meaning": "Brust"
+ },
+ {
+  "word": "خشم",
+  "meaning": "Zorn"
+ },
+ {
+  "word": "بخشنده",
+  "meaning": "großzügig, Spender"
+ },
+ {
+  "word": "لرزیدن",
+  "meaning": "zittern, beben, wackeln, rütteln"
+ },
+ {
+  "word": "رؤیا",
+  "meaning": "Traum"
+ },
+ {
+  "word": "اخلاق",
+  "meaning": "Moral"
+ },
+ {
+  "word": "عادات",
+  "meaning": "Gewohnheiten"
+ },
+ {
+  "word": "احساسات",
+  "meaning": "Gefühle"
+ },
+ {
+  "word": "پیری",
+  "meaning": "Alter"
+ },
+ {
+  "word": "ناخوشی",
+  "meaning": "Krankheit"
+ },
+ {
+  "word": "خستگی",
+  "meaning": "Müdigkeit"
+ },
+ {
+  "word": "معنویات",
+  "meaning": "Spiritualität"
+ },
+ {
+  "word": "آسمان خراش",
+  "meaning": "Wolkenkratzer"
+ },
+ {
+  "word": "روشنایی",
+  "meaning": "Licht"
+ },
+ {
+  "word": "جاده",
+  "meaning": "Straße (Landstraße)"
+ },
+ {
+  "word": "ماشین",
+  "meaning": "Maschine"
+ },
+ {
+  "word": "رادیو",
+  "meaning": "Radio"
+ },
+ {
+  "word": "طبیعت",
+  "meaning": "Natur"
+ },
+ {
+  "word": "علم",
+  "meaning": "Wissenschaft"
+ },
+ {
+  "word": "فلسفه",
+  "meaning": "Philosophie"
+ },
+ {
+  "word": "روح",
+  "meaning": "Seele"
+ },
+ {
+  "word": "شهوت",
+  "meaning": "Begierde"
+ },
+ {
+  "word": "سروم",
+  "meaning": "Serum"
+ },
+ {
+  "word": "خودکشی",
+  "meaning": "Selbstmord"
+ },
+ {
+  "word": "جنون",
+  "meaning": "Wahnsinn"
+ },
+ {
+  "word": "آرامش",
+  "meaning": "Ruhe"
+ },
+ {
+  "word": "زجر",
+  "meaning": "Qual"
+ },
+ {
+  "word": "تخریب",
+  "meaning": "Zerstörung"
+ },
+ {
+  "word": "حشره",
+  "meaning": "Insekt"
+ },
+ {
+  "word": "مجسمه سازی",
+  "meaning": "Bildhauerei"
+ },
+ {
+  "word": "عطر",
+  "meaning": "Duft"
+ },
+ {
+  "word": "موسیقی",
+  "meaning": "Musik"
+ },
+ {
+  "word": "شاعرانه",
+  "meaning": "poetisch"
+ },
+ {
+  "word": "شورش",
+  "meaning": "Aufstand"
+ },
+ {
+  "word": "فرار",
+  "meaning": "Flucht"
+ },
+ {
+  "word": "بیابان",
+  "meaning": "Wüste"
+ },
+ {
+  "word": "احتیاج",
+  "meaning": "Bedürfnis"
+ },
+ {
+  "word": "کیف",
+  "meaning": "Freude"
+ },
+ {
+  "word": "غم",
+  "meaning": "Trauer"
+ },
+ {
+  "word": "شکنجه",
+  "meaning": "Folter"
+ },
+ {
+  "word": "تخیل",
+  "meaning": "Phantasie"
+ },
+ {
+  "word": "سایه",
+  "meaning": "Schatten"
+ },
+ {
+  "word": "ملکوت آسمان",
+  "meaning": "Himmelreich"
+ },
+ {
+  "word": "روشنایی غیر مرئی",
+  "meaning": "unsichtbares Licht"
+ },
+ {
+  "word": "جاده متحرک",
+  "meaning": "bewegliche Straße"
+ },
+ {
+  "word": "سروم ضِد شهوت",
+  "meaning": "Anti-Begierde-Serum"
+ },
+ {
+  "word": "خودکشی عمومی",
+  "meaning": "kollektiver Selbstmord"
+ },
+ {
+  "word": "جنون عمومی",
+  "meaning": "kollektiver Wahnsinn"
+ },
+ {
+  "word": "حشره دمدمی",
+  "meaning": "Ephemeres Insekt"
+ },
+ {
+  "word": "عشق افلاطونی",
+  "meaning": "platonische Liebe"
+ },
+ {
+  "word": "طبیعت خفه شده",
+  "meaning": "unterdrückte Natur"
+ },
+ {
+  "word": "شهوت کشته شده",
+  "meaning": "getötete Begierde"
+ },
+ {
+  "word": "روح موروثی",
+  "meaning": "vererbte Seele"
+ },
+ {
+  "word": "تخریب خودخواسته",
+  "meaning": "selbstgewählte Zerstörung"
+ },
+ {
+  "word": "عطر شهوت انگیز",
+  "meaning": "erotischer Duft"
+ },
+ {
+  "word": "سایه روح",
+  "meaning": "Schatten der Seele"
+ },
+ {
+  "word": "مرگ شیرین",
+  "meaning": "süßer Tod"
+ },
+ {
+  "word": "شهوت کشته شده بود",
+  "meaning": "Die Begierde war getötet"
+ },
+ {
+  "word": "روح موروثی شورش کرد",
+  "meaning": "Die vererbte Seele rebellierte"
+ },
+ {
+  "word": "عشق ورزی به آسمان رسانیده بود",
+  "meaning": "Der Sex war in den Himmel erhoben worden"
+ },
+ {
+  "word": "شهر خفه شده بود",
+  "meaning": "Die Stadt war erstickt"
+ },
+ {
+  "word": "روح شیدره به ستاره خیره شده بود",
+  "meaning": "Die verzückte Seele starrte auf den Stern"
+ },
+ {
+  "word": "عشق کشته شده بود",
+  "meaning": "Die Liebe war getötet"
+ },
+ {
+  "word": "زندگی خانوادگی متروک",
+  "meaning": "Das Familienleben war verlassen"
+ },
+ {
+  "word": "احتیاجات برطرف شده بود",
+  "meaning": "Die Bedürfnisse waren erfüllt"
+ },
+ {
+  "word": "شهوت سلب شده بود",
+  "meaning": "Die Begierde war entzogen"
+ },
+ {
+  "word": "ساختمان های بزرگ",
+  "meaning": "große Gebäude"
+ },
+ {
+  "word": "کَندویِ عَسَل",
+  "meaning": "Bienenstock"
+ },
+ {
+  "word": "بی هدف",
+  "meaning": "ohne Ziel"
+ },
+ {
+  "word": "تاریکی",
+  "meaning": "Dunkelheit"
+ },
+ {
+  "word": "شهر خفه",
+  "meaning": "erstickte Stadt"
+ },
+ {
+  "word": "موسیقی شاعرانه",
+  "meaning": "poetische Musik"
+ },
+ {
+  "word": "عصبانی",
+  "meaning": "wütend, nervös"
+ },
+ {
+  "word": "بازداشت",
+  "meaning": "Haft, Festnahme"
+ },
+ {
+  "word": "یادگیری",
+  "meaning": "Lernen"
+ },
+ {
+  "word": "باعث",
+  "meaning": "Grund"
+ },
+ {
+  "word": "شوخی",
+  "meaning": "Witz"
+ },
+ {
+  "word": "آویزان‌ کردن",
+  "meaning": "(auf-)hängen"
+ },
+ {
+  "word": "تنها",
+  "meaning": "allein, ein, lediglich, einsam"
+ },
+ {
+  "word": "صمیم قلب",
+  "meaning": "von ganzem Herzen"
+ },
+ {
+  "word": "بیایید",
+  "meaning": "„Let‘s (come)“"
+ },
+ {
+  "word": "دست از",
+  "meaning": "Stop! Hör auf!"
+ },
+ {
+  "word": "ناگهان، یکدفعه",
+  "meaning": "plötzlich"
+ },
+ {
+  "word": "جستجو کردن",
+  "meaning": "suchen allg."
+ },
+ {
+  "word": "کوبیدن / کوب",
+  "meaning": "klopfen"
+ },
+ {
+  "word": "شکست می‌خوردن",
+  "meaning": "(Spiel) verlieren"
+ },
+ {
+  "word": "فرار کردن",
+  "meaning": "fliehen"
+ },
+ {
+  "word": "نشانی",
+  "meaning": "Adresse"
+ },
+ {
+  "word": "اسلحه",
+  "meaning": "Waffe"
+ },
+ {
+  "word": "دعوَت کردن",
+  "meaning": "einladen"
+ },
+ {
+  "word": "لازم نیست / نیازی نیست",
+  "meaning": "Es ist nicht nötig"
+ },
+ {
+  "word": "مهمان ما شدی",
+  "meaning": "Du bist unser Gast / Du bist eingeladen."
+ },
+ {
+  "word": "موقع ضَرورت",
+  "meaning": "Notfall"
+ },
+ {
+  "word": "وضع",
+  "meaning": "Lage, Zustand, Situation"
+ },
+ {
+  "word": "بکلی",
+  "meaning": "gänzlich, völlig, absolut"
+ },
+ {
+  "word": "عقاید",
+  "meaning": "Überzeugungen, Glaubensansichten"
+ },
+ {
+  "word": "مذهب / مذاهب",
+  "meaning": "Religion, Konfession, Rechtsschule"
+ },
+ {
+  "word": "چقدر طول می‌کشد؟",
+  "meaning": "Wie lange dauert?"
+ },
+ {
+  "word": "اشتباه برداشت کردم",
+  "meaning": "Ich habe falsch verstanden"
+ },
+ {
+  "word": "نوشته",
+  "meaning": "Geschriebenes, Text"
+ },
+ {
+  "word": "وقت گرفتن",
+  "meaning": "Einen Termin machen"
+ },
+ {
+  "word": "وقت گذاشتن",
+  "meaning": "sich Zeit nehmen"
+ },
+ {
+  "word": "کاش",
+  "meaning": "Ach, würde doch (Wunschpartikel), gern mit Konjunktiv II bspw. می‌نستیم"
+ },
+ {
+  "word": "تصمیم گرفته‌ام",
+  "meaning": "ich habe beschlossen"
+ },
+ {
+  "word": "باید خارج شوم",
+  "meaning": "ich muss ausreisen"
+ },
+ {
+  "word": "مهربانی‌هایتان",
+  "meaning": "eure Gastfreundschaft"
+ },
+ {
+  "word": "بستگی دارد",
+  "meaning": "Das hängt davon ab"
+ },
+ {
+  "word": "چقدر سریع",
+  "meaning": "Wie schnell..."
+ },
+ {
+  "word": "شَبِکِه‌هایِ اِجْتِماعِی",
+  "meaning": "Soziale Netzwerke"
+ },
+ {
+  "word": "فَوائِد",
+  "meaning": "Vorteil"
+ },
+ {
+  "word": "اِرْتِباط",
+  "meaning": "Kontakt, Verbindung"
+ },
+ {
+  "word": "در دسترس قرار دادن",
+  "meaning": "zur Verfügung stellen"
+ },
+ {
+  "word": "اَز طَرَفِ دیگَر",
+  "meaning": "andererseits"
+ },
+ {
+  "word": "از یک طرف",
+  "meaning": "einerseits"
+ },
+ {
+  "word": "به طور کلی",
+  "meaning": "im Allgemeinen, insgesamt"
+ },
+ {
+  "word": "علاوه بر این",
+  "meaning": "außerdem"
+ },
+ {
+  "word": "به همین دلیل",
+  "meaning": "aus diesem Grund"
+ },
+ {
+  "word": "اگرچه...اما",
+  "meaning": "obwohl..."
+ },
+ {
+  "word": "به نظر می‌رسد که...",
+  "meaning": "Es scheint, dass"
+ },
+ {
+  "word": "به عبارت دیگر",
+  "meaning": "Mit anderen Worten"
+ },
+ {
+  "word": "مناسب",
+  "meaning": "geeignet"
+ },
+ {
+  "word": "مُوَفَّق",
+  "meaning": "erfolgreich"
+ },
+ {
+  "word": "شهود",
+  "meaning": "Intuition"
+ },
+ {
+  "word": "اندوه",
+  "meaning": "Leid, Unglück"
+ },
+ {
+  "word": "انجیر",
+  "meaning": "Feige"
+ },
+ {
+  "word": "وهم",
+  "meaning": "Illusion"
+ },
+ {
+  "word": "یکنواخت",
+  "meaning": "monoton"
+ },
+ {
+  "word": "خاموش",
+  "meaning": "ausgeschaltet, aus; still, stumm"
+ },
+ {
+  "word": "مُسَلَّط",
+  "meaning": "beherrschend, dominant; einer Sprache mächtig"
+ },
+ {
+  "word": "ثَبت",
+  "meaning": "Registrierung"
+ },
+ {
+  "word": "انتشار",
+  "meaning": "Veröffentlichung"
+ },
+ {
+  "word": "رشک",
+  "meaning": "Eifersucht"
+ },
+ {
+  "word": "تیز",
+  "meaning": "scharf, spitz (Klinge) – scharf i.S.v. würzig = تند"
+ },
+ {
+  "word": "متروک",
+  "meaning": "verlassen"
+ },
+ {
+  "word": "غوغا",
+  "meaning": "Lärm, Tumult, Aufruhr"
+ },
+ {
+  "word": "سرشار",
+  "meaning": "randvoll, überströmend (von etw.)"
+ },
+ {
+  "word": "سکوت",
+  "meaning": "Stille"
+ },
+ {
+  "word": "شتابیدن",
+  "meaning": "hasten"
+ },
+ {
+  "word": "کار را به انجام برسانم",
+  "meaning": "die Arbeit zu Ende bringen"
+ },
+ {
+  "word": "فُرصَت",
+  "meaning": "Chance"
+ },
+ {
+  "word": "در ارتباط هستیم",
+  "meaning": "Wir sind in Kontakt"
+ },
+ {
+  "word": "توضیح دادن",
+  "meaning": "erklären"
+ },
+ {
+  "word": "ناچاراً",
+  "meaning": "notgedrungen, zwangsläufig (نا + چاره = ohne Ausweg)"
+ },
+ {
+  "word": "خلبان",
+  "meaning": "Pilot"
+ },
+ {
+  "word": "تشخیص دادن",
+  "meaning": "erkennen"
+ },
+ {
+  "word": "به درد خوردن",
+  "meaning": "nützlich sein"
+ },
+ {
+  "word": "برخوردن به",
+  "meaning": "auf etw./jdn. stoßen, treffen"
+ },
+ {
+  "word": "آگاه کردن",
+  "meaning": "informieren, Bescheid geben"
+ },
+ {
+  "word": "سوء تفاهم پیش آمد",
+  "meaning": "Es gab ein Missverständnis"
+ },
+ {
+  "word": "پیشنهاد",
+  "meaning": "Vorschlag / Angebot"
+ },
+ {
+  "word": "گَزیدن",
+  "meaning": "stechen"
+ },
+ {
+  "word": "بی‌نهایت زیبا",
+  "meaning": "unendlich schön"
+ },
+ {
+  "word": "اِحتِمال",
+  "meaning": "Möglichkeit"
+ },
+ {
+  "word": "زردآلو",
+  "meaning": "Aprikose"
+ },
+ {
+  "word": "عبارت",
+  "meaning": "Phrase, Ausdruck, Wendung"
+ },
+ {
+  "word": "آتشنشان",
+  "meaning": "Feuerwehrmann"
+ },
+ {
+  "word": "آتش رو خاموش کردن",
+  "meaning": "Feuer löschen"
+ },
+ {
+  "word": "آتش رو روشن کن",
+  "meaning": "Mach Feuer an"
+ },
+ {
+  "word": "آسمان / آسمون",
+  "meaning": "Himmel"
+ },
+ {
+  "word": "آمریکایی",
+  "meaning": "Amerikaner / amerikanisch"
+ },
+ {
+  "word": "آیا در این ماه در این هاستل ها جا پیدا میشه؟",
+  "meaning": "Findet sich in diesem Monat ein Platz in diesen Hostels?"
+ },
+ {
+  "word": "ابری",
+  "meaning": "bewölkt"
+ },
+ {
+  "word": "اتفاق افتاده بود",
+  "meaning": "war passiert"
+ },
+ {
+  "word": "ادامه پیدا کردن",
+  "meaning": "fortgesetzt werden / andauern"
+ },
+ {
+  "word": "اصالتا",
+  "meaning": "ursprünglich / eigentlich"
+ },
+ {
+  "word": "اگر مشکل دیگه ای داشته باشم",
+  "meaning": "wenn ich ein anderes Problem habe"
+ },
+ {
+  "word": "اقیانوس",
+  "meaning": "Ozean"
+ },
+ {
+  "word": "الان",
+  "meaning": "jetzt"
+ },
+ {
+  "word": "انتقاد کردن",
+  "meaning": "kritisieren"
+ },
+ {
+  "word": "انتظار داشتن",
+  "meaning": "erwarten"
+ },
+ {
+  "word": "انتظارش رو نداشتم",
+  "meaning": "das hatte ich nicht erwartet"
+ },
+ {
+  "word": "انگیز",
+  "meaning": "-erregend, -auslösend (Suffix von انگیختن)"
+ },
+ {
+  "word": "اوکی. گفتم شاید اشتباهی شده. میبینمت جمعه",
+  "meaning": "OK, ich dachte vielleicht ein Fehler. Bis Freitag."
+ },
+ {
+  "word": "ایتالیایی",
+  "meaning": "Italiener / italienisch"
+ },
+ {
+  "word": "ایراد",
+  "meaning": "Fehler / Problem"
+ },
+ {
+  "word": "ایراد گرفتن",
+  "meaning": "Fehler finden / bemängeln"
+ },
+ {
+  "word": "برنامه رو برگزار کردن",
+  "meaning": "die Veranstaltung durchführen (ایونت = Anglizismus)"
+ },
+ {
+  "word": "با دقت انجام دادن کاری",
+  "meaning": "eine Aufgabe sorgfältig erledigen"
+ },
+ {
+  "word": "بانفوذ",
+  "meaning": "einflussreich"
+ },
+ {
+  "word": "باریدن",
+  "meaning": "regnen"
+ },
+ {
+  "word": "بازه زمانی",
+  "meaning": "Zeitraum / Zeitspanne"
+ },
+ {
+  "word": "باید ۱۰ یورو پول بدم / بپردازم",
+  "meaning": "ich muss 10 Euro zahlen"
+ },
+ {
+  "word": "بالا رفتن",
+  "meaning": "hinaufgehen / steigen"
+ },
+ {
+  "word": "بعد از پنج روز",
+  "meaning": "nach fünf Tagen"
+ },
+ {
+  "word": "بستگی داره",
+  "meaning": "kommt darauf an"
+ },
+ {
+  "word": "بعد",
+  "meaning": "später / nach"
+ },
+ {
+  "word": "بعضی وقت ها",
+  "meaning": "manchmal"
+ },
+ {
+  "word": "بعد از",
+  "meaning": "nach (zeitlich)"
+ },
+ {
+  "word": "بچه گاو گوساله است",
+  "meaning": "Das Kalb ist das Baby der Kuh."
+ },
+ {
+  "word": "بچه سگ توله سگ است",
+  "meaning": "Der Welpe ist der Babyhund."
+ },
+ {
+  "word": "بنفش",
+  "meaning": "violett (Farbe)"
+ },
+ {
+  "word": "بین پروجا و گوبیو",
+  "meaning": "zwischen Perugia und Gubbio"
+ },
+ {
+  "word": "بیماری مادرزادی",
+  "meaning": "angeborene Krankheit"
+ },
+ {
+  "word": "پاراگراف",
+  "meaning": "Absatz"
+ },
+ {
+  "word": "پارس کردن",
+  "meaning": "bellen (Hund)"
+ },
+ {
+  "word": "پانصد",
+  "meaning": "fünfhundert"
+ },
+ {
+  "word": "پدرخوانده",
+  "meaning": "Pate / Patenonkel"
+ },
+ {
+  "word": "پرستار",
+  "meaning": "Krankenpfleger / Pflegerin"
+ },
+ {
+  "word": "پرچم اسپانیا قرمز و زرد است",
+  "meaning": "Die Flagge Spaniens ist rot und gelb."
+ },
+ {
+  "word": "پرتغال",
+  "meaning": "Portugal"
+ },
+ {
+  "word": "پرتقال",
+  "meaning": "Orange (Frucht)"
+ },
+ {
+  "word": "پرتقالی",
+  "meaning": "orange (Farbe) – gebräuchlicher: نارنجی"
+ },
+ {
+  "word": "پیشنهاد دادن",
+  "meaning": "vorschlagen / anbieten"
+ },
+ {
+  "word": "پیانو زدن / پیانو نواختن",
+  "meaning": "Klavier spielen"
+ },
+ {
+  "word": "تجاوز کردن",
+  "meaning": "vergewaltigen"
+ },
+ {
+  "word": "تصادفی",
+  "meaning": "zufällig / versehentlich"
+ },
+ {
+  "word": "توصیف",
+  "meaning": "Beschreibung"
+ },
+ {
+  "word": "توانایی",
+  "meaning": "Fähigkeit"
+ },
+ {
+  "word": "توسط",
+  "meaning": "durch, von (Passiv-Agens; tavassot)"
+ },
+ {
+  "word": "تولید کردن",
+  "meaning": "produzieren"
+ },
+ {
+  "word": "ثبت نام",
+  "meaning": "Anmeldung / Registrierung"
+ },
+ {
+  "word": "جا پیدا میشه؟",
+  "meaning": "Findet sich ein Platz?"
+ },
+ {
+  "word": "جزئیات",
+  "meaning": "Details"
+ },
+ {
+  "word": "جنگ جهانی دوم",
+  "meaning": "Zweiter Weltkrieg"
+ },
+ {
+  "word": "جهت دار",
+  "meaning": "voreingenommen (z.B. Zeitung)"
+ },
+ {
+  "word": "چاپ کردن",
+  "meaning": "drucken (publizieren)"
+ },
+ {
+  "word": "چراغ",
+  "meaning": "Lampe / Licht"
+ },
+ {
+  "word": "حاضر بودن",
+  "meaning": "anwesend sein"
+ },
+ {
+  "word": "حضور داشتن / در جایی بودن",
+  "meaning": "anwesend sein / sich an einem Ort aufhalten"
+ },
+ {
+  "word": "حیوانات",
+  "meaning": "Tiere"
+ },
+ {
+  "word": "خاکستری",
+  "meaning": "grau"
+ },
+ {
+  "word": "خبرنگار",
+  "meaning": "Reporter / Journalist"
+ },
+ {
+  "word": "خرس",
+  "meaning": "Bär"
+ },
+ {
+  "word": "خرس قطبی",
+  "meaning": "Eisbär"
+ },
+ {
+  "word": "خرس ها",
+  "meaning": "Bären"
+ },
+ {
+  "word": "خروپف کردن",
+  "meaning": "schnarchen (خروپف = das Schnarchen)"
+ },
+ {
+  "word": "خنده دار",
+  "meaning": "lustig"
+ },
+ {
+  "word": "خواه",
+  "meaning": "Futurmarker: Präsensstamm von خواستن + Endung + Kurzinfinitiv"
+ },
+ {
+  "word": "خورشید",
+  "meaning": "Sonne"
+ },
+ {
+  "word": "خورشید زرد است",
+  "meaning": "Die Sonne ist gelb."
+ },
+ {
+  "word": "خیالی",
+  "meaning": "imaginär / eingebildet"
+ },
+ {
+  "word": "خود",
+  "meaning": "selbst"
+ },
+ {
+  "word": "داشتن",
+  "meaning": "haben"
+ },
+ {
+  "word": "در روز / روزانه",
+  "meaning": "pro Tag / täglich"
+ },
+ {
+  "word": "در کنار",
+  "meaning": "neben"
+ },
+ {
+  "word": "خاکستری دودی",
+  "meaning": "rauchgrau"
+ },
+ {
+  "word": "دورهمی",
+  "meaning": "geselliges Beisammensein"
+ },
+ {
+  "word": "دوست های دیگه ام",
+  "meaning": "meine anderen Freunde"
+ },
+ {
+  "word": "دهه",
+  "meaning": "Jahrzehnt"
+ },
+ {
+  "word": "راست گفتن / دروغ گفتن",
+  "meaning": "die Wahrheit sagen / lügen"
+ },
+ {
+  "word": "راجب",
+  "meaning": "umgangssprachlich für „über“ (standardsprachlich: راجع به)"
+ },
+ {
+  "word": "راجع به",
+  "meaning": "über (formeller)"
+ },
+ {
+  "word": "رمان",
+  "meaning": "Roman"
+ },
+ {
+  "word": "روزانه",
+  "meaning": "täglich"
+ },
+ {
+  "word": "روزنامه جهت دار بود",
+  "meaning": "die Zeitung war voreingenommen"
+ },
+ {
+  "word": "روس",
+  "meaning": "Russe (Person) – Sprache = روسی"
+ },
+ {
+  "word": "روسیه",
+  "meaning": "Russland"
+ },
+ {
+  "word": "روستا",
+  "meaning": "Dorf"
+ },
+ {
+  "word": "ریه",
+  "meaning": "Lunge"
+ },
+ {
+  "word": "ریه اش عفونت کرده",
+  "meaning": "seine/ihre Lunge ist infiziert"
+ },
+ {
+  "word": "زندگی اش",
+  "meaning": "sein/ihr Leben"
+ },
+ {
+  "word": "زندگیش",
+  "meaning": "dasselbe, umgangssprachlich"
+ },
+ {
+  "word": "سبک / ژانر",
+  "meaning": "Stil / Genre"
+ },
+ {
+  "word": "سرخ",
+  "meaning": "rot (poetisch)"
+ },
+ {
+  "word": "سفید",
+  "meaning": "weiß"
+ },
+ {
+  "word": "سگ های خیابونی",
+  "meaning": "Straßenhunde"
+ },
+ {
+  "word": "سلام. ما چهارشنبه کلاس نداریم؟",
+  "meaning": "Hallo, haben wir am Mittwoch keinen Unterricht?"
+ },
+ {
+  "word": "سوم",
+  "meaning": "dritter"
+ },
+ {
+  "word": "شخص",
+  "meaning": "Person"
+ },
+ {
+  "word": "شخص دارای معلولیت",
+  "meaning": "Person mit Behinderung"
+ },
+ {
+  "word": "شخص کم توان",
+  "meaning": "Person mit eingeschränkter Fähigkeit"
+ },
+ {
+  "word": "شخص ناتوان",
+  "meaning": "behinderte Person"
+ },
+ {
+  "word": "شرجی / مرطوب",
+  "meaning": "schwül / feucht"
+ },
+ {
+  "word": "شروع به انجام کاری کردن",
+  "meaning": "mit etwas anfangen / etwas zu tun beginnen"
+ },
+ {
+  "word": "شوروی",
+  "meaning": "Sowjetunion"
+ },
+ {
+  "word": "شونزده",
+  "meaning": "sechzehn (umgangssprachlich)"
+ },
+ {
+  "word": "صورتی",
+  "meaning": "rosa"
+ },
+ {
+  "word": "ضربه",
+  "meaning": "Schlag / Stoß"
+ },
+ {
+  "word": "طنز",
+  "meaning": "Satire / Humor"
+ },
+ {
+  "word": "طوسی",
+  "meaning": "grau (dunkelgrau)"
+ },
+ {
+  "word": "عافیت باشه",
+  "meaning": "Gesundheit! (nach Niesen/Essen)"
+ },
+ {
+  "word": "عجیب",
+  "meaning": "seltsam"
+ },
+ {
+  "word": "عقب",
+  "meaning": "hinten"
+ },
+ {
+  "word": "غذا سفارش دادن",
+  "meaning": "Essen bestellen"
+ },
+ {
+  "word": "فرانسه",
+  "meaning": "Frankreich"
+ },
+ {
+  "word": "فرستادن",
+  "meaning": "senden"
+ },
+ {
+  "word": "فقط برای هاستل ها استفاده میشه؟",
+  "meaning": "Wird es nur für Hostels verwendet?"
+ },
+ {
+  "word": "قبل از اینکه..... بردارد،... اتفاق افتاده بود",
+  "meaning": "Bevor jemand ... nahm, war ... passiert"
+ },
+ {
+  "word": "قبرستان",
+  "meaning": "Friedhof"
+ },
+ {
+  "word": "قتل غیرعمد",
+  "meaning": "fahrlässige Tötung / Totschlag"
+ },
+ {
+  "word": "قرن",
+  "meaning": "Jahrhundert"
+ },
+ {
+  "word": "قرن دهم میلادی",
+  "meaning": "10. Jahrhundert n. Chr."
+ },
+ {
+  "word": "قرمز",
+  "meaning": "rot"
+ },
+ {
+  "word": "قله",
+  "meaning": "Gipfel"
+ },
+ {
+  "word": "قهوه ای",
+  "meaning": "braun"
+ },
+ {
+  "word": "کارآموزی",
+  "meaning": "Praktikum / Ausbildung"
+ },
+ {
+  "word": "کشاورزی",
+  "meaning": "Landwirtschaft"
+ },
+ {
+  "word": "کشور پرتغال",
+  "meaning": "das Land Portugal"
+ },
+ {
+  "word": "کلمات / کلمه ها",
+  "meaning": "Wörter"
+ },
+ {
+  "word": "کمدی",
+  "meaning": "Komödie"
+ },
+ {
+  "word": "کوهنوردی",
+  "meaning": "Bergsteigen"
+ },
+ {
+  "word": "کیسه خواب",
+  "meaning": "Schlafsack"
+ },
+ {
+  "word": "گاو",
+  "meaning": "Kuh"
+ },
+ {
+  "word": "گرفتن",
+  "meaning": "nehmen"
+ },
+ {
+  "word": "گفتن",
+  "meaning": "sagen"
+ },
+ {
+  "word": "گویش",
+  "meaning": "Dialekt"
+ },
+ {
+  "word": "گیتاریست",
+  "meaning": "Gitarrist"
+ },
+ {
+  "word": "لازم بودن",
+  "meaning": "nötig sein"
+ },
+ {
+  "word": "لازم بود به تعطیلات برم",
+  "meaning": "Ich musste in den Urlaub fahren."
+ },
+ {
+  "word": "لهجه",
+  "meaning": "Akzent"
+ },
+ {
+  "word": "ماهی",
+  "meaning": "Fisch"
+ },
+ {
+  "word": "متن",
+  "meaning": "Text"
+ },
+ {
+  "word": "متنی",
+  "meaning": "ein Text"
+ },
+ {
+  "word": "متوقف کردن",
+  "meaning": "stoppen / anhalten"
+ },
+ {
+  "word": "مجارستان",
+  "meaning": "Ungarn"
+ },
+ {
+  "word": "مرغ",
+  "meaning": "Huhn"
+ },
+ {
+  "word": "مزرعه",
+  "meaning": "Bauernhof / Farm"
+ },
+ {
+  "word": "مسیر",
+  "meaning": "Strecke / Route"
+ },
+ {
+  "word": "مسیرم رو عوض میکنم / از یک راه دیگه میرم",
+  "meaning": "Ich ändere meine Route / gehe einen anderen Weg"
+ },
+ {
+  "word": "مشکی / سیاه",
+  "meaning": "schwarz"
+ },
+ {
+  "word": "معلول",
+  "meaning": "behindert (oft abwertend)"
+ },
+ {
+  "word": "من نیاز دارم که غذا بخورم",
+  "meaning": "Ich muss essen."
+ },
+ {
+  "word": "من توی بار بودم برای اینکه چیزی بخورم",
+  "meaning": "Ich war in der Bar, um etwas zu essen."
+ },
+ {
+  "word": "من توی بار بودم که یک چیزی بخورم",
+  "meaning": "Ich war in der Bar, um etwas zu essen."
+ },
+ {
+  "word": "من توی بار بودم تا یک چیزی بخورم",
+  "meaning": "Ich war in der Bar, um etwas zu essen."
+ },
+ {
+  "word": "به آهنگ گوش دادم",
+  "meaning": "Ich hörte Musik."
+ },
+ {
+  "word": "منتقد",
+  "meaning": "Kritiker"
+ },
+ {
+  "word": "منتقد ادبی",
+  "meaning": "Literaturkritiker"
+ },
+ {
+  "word": "منتقد فیلم",
+  "meaning": "Filmkritiker"
+ },
+ {
+  "word": "منتقدان",
+  "meaning": "Kritiker (Plural)"
+ },
+ {
+  "word": "مواد",
+  "meaning": "Material / Substanz"
+ },
+ {
+  "word": "موسسه",
+  "meaning": "Institut / Organisation"
+ },
+ {
+  "word": "می بارد",
+  "meaning": "es regnet"
+ },
+ {
+  "word": "میبینم",
+  "meaning": "ich sehe / werde sehen"
+ },
+ {
+  "word": "ناپدری",
+  "meaning": "Stiefvater"
+ },
+ {
+  "word": "نارنجی",
+  "meaning": "orange (Farbe)"
+ },
+ {
+  "word": "ناتوان",
+  "meaning": "unfähig / behindert"
+ },
+ {
+  "word": "نخستین",
+  "meaning": "erster"
+ },
+ {
+  "word": "نقد کردن",
+  "meaning": "rezensieren / kritisieren"
+ },
+ {
+  "word": "نمی دونستم",
+  "meaning": "ich wusste nicht"
+ },
+ {
+  "word": "نوشته ای",
+  "meaning": "ein Geschriebenes / ein Text"
+ },
+ {
+  "word": "نوشیدنی گیاهی",
+  "meaning": "pflanzliches Getränk"
+ },
+ {
+  "word": "نویسنده",
+  "meaning": "Schriftsteller / Autor"
+ },
+ {
+  "word": "نوازنده پیانو",
+  "meaning": "Pianist"
+ },
+ {
+  "word": "نیاز به تعطیلات داشتم / نیاز داشتم به تعطیلات برم",
+  "meaning": "Ich brauchte Urlaub / musste verreisen"
+ },
+ {
+  "word": "نیاز داشتن",
+  "meaning": "brauchen / benötigen"
+ },
+ {
+  "word": "هدف",
+  "meaning": "Ziel"
+ },
+ {
+  "word": "هزاره",
+  "meaning": "Jahrtausend"
+ },
+ {
+  "word": "هستند",
+  "meaning": "sind"
+ },
+ {
+  "word": "هیجان انگیز",
+  "meaning": "aufregend (Eigenschaft)"
+ },
+ {
+  "word": "هیجان زده",
+  "meaning": "aufgeregt (Zustand)"
+ },
+ {
+  "word": "هیجان",
+  "meaning": "Aufregung"
+ },
+ {
+  "word": "هیچ کاری نمی کنم",
+  "meaning": "Ich mache nichts."
+ },
+ {
+  "word": "هیچ کدوم",
+  "meaning": "keiner von beiden / keine von denen"
+ },
+ {
+  "word": "هیچکس توسط خرس کشته نشده",
+  "meaning": "Niemand wurde von einem Bären getötet."
+ },
+ {
+  "word": "واقعی",
+  "meaning": "wirklich / real"
+ },
+ {
+  "word": "واضح",
+  "meaning": "deutlich / klar"
+ },
+ {
+  "word": "وصف کردن",
+  "meaning": "beschreiben"
+ },
+ {
+  "word": "واقعه",
+  "meaning": "Ereignis / Begebenheit"
+ },
+ {
+  "word": "یک زن کشته شد",
+  "meaning": "Eine Frau wurde getötet."
+ },
+ {
+  "word": "یهودیان آلمان",
+  "meaning": "die Juden Deutschlands"
+ },
+ {
+  "word": "یک ساعت از برلین فاصله داره",
+  "meaning": "ist eine Stunde von Berlin entfernt"
+ },
+ {
+  "word": "در یک ساعتی برلینه",
+  "meaning": "ist eine Stunde von Berlin entfernt"
+ },
+ {
+  "word": "دریاچه",
+  "meaning": "See (Gewässer)"
+ },
+ {
+  "word": "باغچه",
+  "meaning": "kleiner Garten / Blumenbeet"
+ },
+ {
+  "word": "جامون رو عوض کنیم",
+  "meaning": "lass uns die Plätze tauschen (ugs.)"
+ },
+ {
+  "word": "هوا اونجا چطوره",
+  "meaning": "Wie ist das Wetter dort?"
+ },
+ {
+  "word": "جایی که هستی هوا چطوره؟",
+  "meaning": "Wie ist das Wetter an dem Ort, wo du bist?"
+ },
+ {
+  "word": "باد شدیدی می‌وزه",
+  "meaning": "starker Wind weht (ugs.; schriftspr. می‌وزد)"
+ },
+ {
+  "word": "بارون شدیدی میاد",
+  "meaning": "starker Regen fällt"
+ },
+ {
+  "word": "تشک",
+  "meaning": "Matratze"
+ },
+ {
+  "word": "چراغ قوه",
+  "meaning": "Taschenlampe"
+ },
+ {
+  "word": "زیرنویس",
+  "meaning": "Untertitel"
+ },
+ {
+  "word": "بیدار شدن",
+  "meaning": "aufwachen"
+ },
+ {
+  "word": "جرم سنگین",
+  "meaning": "Schwerverbrechen, schwere Straftat"
+ },
+ {
+  "word": "دهکده",
+  "meaning": "Dorf (Synonym: روستا; ugs. kurz: ده)"
+ },
+ {
+  "word": "سنگین",
+  "meaning": "schwer (Gewicht) – Gegenteil: سبک"
+ },
+ {
+  "word": "ارسال کردن",
+  "meaning": "senden, verschicken (Synonym: فرستادن)"
+ },
+ {
+  "word": "سبک",
+  "meaning": "leicht (Gewicht) – Gegenteil: سنگین"
+ },
+ {
+  "word": "از تاجیکستان به هند",
+  "meaning": "von Tadschikistan nach Indien"
+ },
+ {
+  "word": "کتاب‌خوانی",
+  "meaning": "Buchlesung, Lesen von Büchern"
+ },
+ {
+  "word": "پیانو زدن",
+  "meaning": "Klavier spielen (auch: پیانو نواختن)"
+ },
+ {
+  "word": "درمورد",
+  "meaning": "über, bezüglich (= درباره)"
+ },
+ {
+  "word": "صفت",
+  "meaning": "Adjektiv"
+ },
+ {
+  "word": "کپسول آتش‌نشانی",
+  "meaning": "Feuerlöscher"
+ },
+ {
+  "word": "باید ۱۰ یورو بدم",
+  "meaning": "ich muss 10 Euro zahlen (auch: بپردازم)"
+ },
+ {
+  "word": "هاستل خصوصی شبی ۱۷ تا ۲۰ یورو است",
+  "meaning": "Ein privates Hostel kostet 17–20 Euro pro Nacht."
+ },
+ {
+  "word": "بخوابم",
+  "meaning": "dass ich schlafe (Konjunktiv von خوابیدن)"
+ },
+ {
+  "word": "نیاز به تعطیلات داشتم",
+  "meaning": "ich brauchte Urlaub"
+ },
+ {
+  "word": "شرجی",
+  "meaning": "schwül (Synonym: مرطوب = feucht)"
+ },
+ {
+  "word": "رد شدن",
+  "meaning": "durchfallen, abgelehnt werden; vorbeikommen"
+ },
+ {
+  "word": "رفتار کردن",
+  "meaning": "sich verhalten"
+ },
+ {
+  "word": "رفتار عجیبی داشتن",
+  "meaning": "sich seltsam verhalten"
+ },
+ {
+  "word": "گذروندم",
+  "meaning": "ich habe verbracht (Zeit; ugs. von گذراندن)"
+ },
+ {
+  "word": "مسیرم رو عوض می‌کنم",
+  "meaning": "ich ändere meine Route"
+ },
+ {
+  "word": "مه بود",
+  "meaning": "es war neblig"
+ },
+ {
+  "word": "مه گرفته بود",
+  "meaning": "es war neblig / diesig"
+ },
+ {
+  "word": "قلب",
+  "meaning": "Herz (anatomisch; vgl. دل = Herz, Gemüt)"
+ },
+ {
+  "word": "برگزارکننده",
+  "meaning": "Veranstalter"
+ },
+ {
+  "word": "همسایه",
+  "meaning": "Nachbar"
+ },
+ {
+  "word": "همسایگی",
+  "meaning": "Nachbarschaft (Verhältnis)"
+ },
+ {
+  "word": "تعرض کردن",
+  "meaning": "belästigen, angreifen"
+ },
+ {
+  "word": "قطب",
+  "meaning": "Pol"
+ },
+ {
+  "word": "برانگیختن",
+  "meaning": "erregen, hervorrufen, auslösen"
+ },
+ {
+  "word": "این فیلم احساسات من رو برانگیخت",
+  "meaning": "Dieser Film hat meine Gefühle geweckt."
+ },
+ {
+  "word": "برای همین",
+  "meaning": "deshalb, darum"
+ },
+ {
+  "word": "طولانی",
+  "meaning": "lang (zeitlich), langwierig"
+ },
+ {
+  "word": "هوا خنکه",
+  "meaning": "das Wetter ist kühl (ugs.)"
+ },
+ {
+  "word": "به اتوبوس نرسیدم",
+  "meaning": "ich habe den Bus verpasst (wörtl.: nicht erreicht)"
+ },
+ {
+  "word": "غذای اینجا از نان و گوشت تشکیل شده",
+  "meaning": "Das Essen hier besteht aus Brot und Fleisch."
+ },
+ {
+  "word": "تو گوشت نمی‌خوری؟ چرا، گوشت می‌خورم",
+  "meaning": "Isst du kein Fleisch? – Doch, ich esse Fleisch."
+ },
+ {
+  "word": "می‌خوام برم ایتالیا",
+  "meaning": "ich will nach Italien (ugs.; schriftspr. می‌خواهم به ایتالیا بروم)"
+ },
+ {
+  "word": "استراحت کردن",
+  "meaning": "sich ausruhen"
+ },
+ {
+  "word": "بلندترین ارتفاعی بود که توش کوهنوردی کردم",
+  "meaning": "Es war die größte Höhe, in der ich gewandert bin."
+ },
+ {
+  "word": "اتفاق افتاد",
+  "meaning": "es passierte, es geschah"
+ },
+ {
+  "word": "میانگین",
+  "meaning": "Durchschnitt"
+ },
+ {
+  "word": "فوت",
+  "meaning": "Atem, Hauch (Homonym: فوت = Tod)"
+ },
+ {
+  "word": "فوت کردن",
+  "meaning": "pusten, blasen (auch: versterben)"
+ },
+ {
+  "word": "شمع رو فوت کردن",
+  "meaning": "eine Kerze auspusten"
+ },
+ {
+  "word": "دفن کردن",
+  "meaning": "begraben, beerdigen"
+ },
+ {
+  "word": "مراسم تشییع جنازه",
+  "meaning": "Beerdigungszeremonie"
+ },
+ {
+  "word": "مامان‌بزرگ",
+  "meaning": "Großmutter (ugs.; formell: مادربزرگ)"
+ },
+ {
+  "word": "اجرا کردن",
+  "meaning": "aufführen, durchführen"
+ },
+ {
+  "word": "بازیگر در یک فیلم بازی کرد",
+  "meaning": "Der Schauspieler spielte in einem Film."
+ },
+ {
+  "word": "دیروز یکی از برادرهایم کنسرتی اجرا کرد",
+  "meaning": "Gestern gab einer meiner Brüder ein Konzert."
+ },
+ {
+  "word": "دیروز به کنسرتی رفتم که برادرم توش اجرا می‌کرد",
+  "meaning": "Gestern ging ich zu einem Konzert, wo mein Bruder auftrat."
+ },
+ {
+  "word": "توش",
+  "meaning": "darin, drin (ugs. = تو + ش)"
+ },
+ {
+  "word": "درون",
+  "meaning": "innen, im Inneren (formell)"
+ },
+ {
+  "word": "درونم",
+  "meaning": "in mir"
+ },
+ {
+  "word": "درونت",
+  "meaning": "in dir"
+ },
+ {
+  "word": "درونش",
+  "meaning": "in ihm / in ihr"
+ },
+ {
+  "word": "ساز",
+  "meaning": "Musikinstrument"
+ },
+ {
+  "word": "ساز زدن",
+  "meaning": "ein Instrument spielen"
+ },
+ {
+  "word": "دنبال چیزی گشتن",
+  "meaning": "nach etwas suchen"
+ },
+ {
+  "word": "فرق داشتن",
+  "meaning": "sich unterscheiden, anders sein"
+ },
+ {
+  "word": "درس خواندن",
+  "meaning": "lernen, studieren (Schule/Uni)"
+ },
+ {
+  "word": "جواب دادن",
+  "meaning": "antworten"
+ },
+ {
+  "word": "کلاس برگزار کردن",
+  "meaning": "einen Kurs abhalten (برگزار, nicht برگذار)"
+ },
+ {
+  "word": "آب شدن",
+  "meaning": "schmelzen"
+ },
+ {
+  "word": "شرایط",
+  "meaning": "Bedingungen, Umstände"
+ },
+ {
+  "word": "موقعیت",
+  "meaning": "Position, Situation, Gelegenheit"
+ },
+ {
+  "word": "حقوق",
+  "meaning": "Gehalt; Rechte (Pl. von حق)"
+ },
+ {
+  "word": "راستش را بخواهی",
+  "meaning": "um ehrlich zu sein"
+ },
+ {
+  "word": "چه ربطی داره؟",
+  "meaning": "Was hat das damit zu tun?"
+ },
+ {
+  "word": "مربوط",
+  "meaning": "betreffend, zugehörig"
+ },
+ {
+  "word": "ربط داشتن",
+  "meaning": "zusammenhängen mit"
+ },
+ {
+  "word": "تو غذا نخوردی؟",
+  "meaning": "Hast du nicht gegessen?"
+ },
+ {
+  "word": "قلعه",
+  "meaning": "Burg, Festung"
+ },
+ {
+  "word": "قلعهٔ الموت",
+  "meaning": "die Burg Alamut"
+ },
+ {
+  "word": "دژ",
+  "meaning": "Festung, Zitadelle (gehoben, Synonym: قلعه)"
+ },
+ {
+  "word": "اسماعیلیان",
+  "meaning": "die Ismailiten"
+ },
+ {
+  "word": "عمدتاً",
+  "meaning": "hauptsächlich, überwiegend"
+ },
+ {
+  "word": "محفل",
+  "meaning": "Zirkel, Kreis (Plural: محافل)"
+ },
+ {
+  "word": "محافل دانشگاهی",
+  "meaning": "akademische Kreise"
+ },
+ {
+  "word": "علاقه‌مند",
+  "meaning": "interessiert (an); علاقه‌مندان = die Interessierten"
+ },
+ {
+  "word": "به ویژه",
+  "meaning": "insbesondere, vor allem"
+ },
+ {
+  "word": "تا پیش از این",
+  "meaning": "bis dahin, bis zu diesem Zeitpunkt"
+ },
+ {
+  "word": "فهرست",
+  "meaning": "Liste, Verzeichnis"
+ },
+ {
+  "word": "میراث",
+  "meaning": "Erbe, Vermächtnis"
+ },
+ {
+  "word": "میراث جهانی",
+  "meaning": "Welterbe"
+ },
+ {
+  "word": "میراث مشترک بشریت",
+  "meaning": "gemeinsames Erbe der Menschheit"
+ },
+ {
+  "word": "بشریت",
+  "meaning": "Menschheit"
+ },
+ {
+  "word": "مجموعه",
+  "meaning": "Ensemble, Komplex, Sammlung"
+ },
+ {
+  "word": "آثار تاریخی",
+  "meaning": "historische Denkmäler"
+ },
+ {
+  "word": "به‌عنوان",
+  "meaning": "als, in der Eigenschaft als"
+ },
+ {
+  "word": "ارزش",
+  "meaning": "Wert"
+ },
+ {
+  "word": "برجسته",
+  "meaning": "herausragend, hervorstehend"
+ },
+ {
+  "word": "ارزش برجستهٔ جهانی",
+  "meaning": "außergewöhnlicher universeller Wert (UNESCO-Kriterium)"
+ },
+ {
+  "word": "به رسمیت شناختن",
+  "meaning": "anerkennen; به رسمیت شناخته شدن = anerkannt werden"
+ },
+ {
+  "word": "رسمیت",
+  "meaning": "Offizialität, Anerkennung"
+ },
+ {
+  "word": "به این ترتیب",
+  "meaning": "auf diese Weise, somit"
+ },
+ {
+  "word": "صرفاً",
+  "meaning": "lediglich, bloß"
+ },
+ {
+  "word": "متعلق به",
+  "meaning": "gehörend zu"
+ },
+ {
+  "word": "بلکه",
+  "meaning": "sondern"
+ },
+ {
+  "word": "به دلیل",
+  "meaning": "wegen, aufgrund von"
+ },
+ {
+  "word": "مشترک",
+  "meaning": "gemeinsam, geteilt"
+ },
+ {
+  "word": "به شمار آمدن",
+  "meaning": "gelten als, gezählt werden zu"
+ },
+ {
+  "word": "بافت قدیمی",
+  "meaning": "Altstadt, historischer Stadtkern (بافت = Gewebe, Bausubstanz)"
+ },
+ {
+  "word": "نژاد",
+  "meaning": "Rasse, Abstammung"
+ },
+ {
+  "word": "گربه‌های من از نژادهای مختلف هستند",
+  "meaning": "Meine Katzen sind von verschiedenen Rassen."
+ },
+ {
+  "word": "اختلاف",
+  "meaning": "Unterschied, Differenz; Meinungsverschiedenheit"
+ },
+ {
+  "word": "متفاوت",
+  "meaning": "unterschiedlich, andersartig"
+ },
+ {
+  "word": "تفاوت",
+  "meaning": "der Unterschied"
+ },
+ {
+  "word": "وابسته",
+  "meaning": "abhängig; zugehörig, verbunden"
+ },
+ {
+  "word": "بچه به مادرش وابسته است",
+  "meaning": "Das Kind ist von seiner Mutter abhängig."
+ },
+ {
+  "word": "جریان",
+  "meaning": "Strömung, Fluss, Verlauf"
+ },
+ {
+  "word": "جریان آب تند است",
+  "meaning": "Die Strömung ist stark."
+ },
+ {
+  "word": "رویداد",
+  "meaning": "Ereignis, Veranstaltung"
+ },
+ {
+  "word": "رویداد کتاب‌خوانی",
+  "meaning": "Lesungsveranstaltung"
+ },
+ {
+  "word": "دربارهٔ اون اینترویو باهات صحبت کردم",
+  "meaning": "Ich habe mit dir über dieses Interview gesprochen. (auch: درمورد … با تو)"
+ },
+ {
+  "word": "ساعت رو ندیدم",
+  "meaning": "Ich habe die Uhr nicht gesehen / die Zeit übersehen."
+ },
+ {
+  "word": "نمی‌توانستم بخوابم",
+  "meaning": "Ich konnte nicht einschlafen."
+ },
+ {
+  "word": "خوابیدن سخت بود",
+  "meaning": "Das Einschlafen war schwer."
+ },
+ {
+  "word": "پایان‌نامه",
+  "meaning": "Abschlussarbeit (auch: تز)"
+ },
+ {
+  "word": "ناشر",
+  "meaning": "Verleger, Verlag"
+ },
+ {
+  "word": "سؤال پرسیدن از کسی",
+  "meaning": "jemandem eine Frage stellen"
+ },
+ {
+  "word": "می‌تونم سؤال‌های زیادی از او بپرسم",
+  "meaning": "Ich kann ihm/ihr viele Fragen stellen."
+ },
+ {
+  "word": "تاریخی",
+  "meaning": "historisch (von تاریخ = Geschichte)"
+ },
+ {
+  "word": "هنری",
+  "meaning": "künstlerisch (von هنر = Kunst)"
+ },
+ {
+  "word": "جغرافیایی",
+  "meaning": "geographisch (von جغرافیا)"
+ },
+ {
+  "word": "کنونی",
+  "meaning": "gegenwärtig, derzeitig"
+ },
+ {
+  "word": "وضعیت",
+  "meaning": "Zustand, Lage"
+ },
+ {
+  "word": "وضعیت کنونی",
+  "meaning": "die derzeitige Lage"
+ },
+ {
+  "word": "اون نمی‌خواد که شهر دوشنبه رو در وضعیت کنونی ببینه",
+  "meaning": "Er/sie will Duschanbe nicht in seinem jetzigen Zustand sehen."
+ },
+ {
+  "word": "پیتزا توسط من خورده شد",
+  "meaning": "Die Pizza wurde von mir gegessen. (Passiv: توسط + Partizip + شدن)"
+ },
+ {
+  "word": "ساختمان",
+  "meaning": "Gebäude"
+ },
+ {
+  "word": "شرکت",
+  "meaning": "Firma, Unternehmen"
+ },
+ {
+  "word": "این ساختمان‌ها توسط شرکت‌های چینی ساخته شدند",
+  "meaning": "Diese Gebäude wurden von chinesischen Firmen gebaut."
+ },
+ {
+  "word": "رانندگی کردن",
+  "meaning": "Auto fahren"
+ },
+ {
+  "word": "راننده",
+  "meaning": "Fahrer"
+ },
+ {
+  "word": "خسته کردن",
+  "meaning": "ermüden, müde machen"
+ },
+ {
+  "word": "خسته شدن",
+  "meaning": "müde werden"
+ },
+ {
+  "word": "من از راه زیاد خسته شدم",
+  "meaning": "Ich bin von dem langen Weg müde geworden."
+ },
+ {
+  "word": "دکترا",
+  "meaning": "Doktorat, Promotion"
+ },
+ {
+  "word": "فروخته شدن",
+  "meaning": "verkauft werden"
+ },
+ {
+  "word": "من نمی‌دونم این کتاب دربارهٔ چی است",
+  "meaning": "Ich weiß nicht, worum es in diesem Buch geht."
+ },
+ {
+  "word": "دویست",
+  "meaning": "zweihundert"
+ },
+ {
+  "word": "گشتن",
+  "meaning": "umhergehen, herumlaufen; suchen"
+ },
+ {
+  "word": "من توی شهر گشتم",
+  "meaning": "Ich bin in der Stadt herumgelaufen."
+ },
+ {
+  "word": "من دنبال کار می‌گردم",
+  "meaning": "Ich suche Arbeit."
+ },
+ {
+  "word": "درخواست دادن",
+  "meaning": "sich bewerben, einen Antrag stellen (ugs. اپلای کردن)"
+ },
+ {
+  "word": "من برای پنجاه تا کار درخواست دادم",
+  "meaning": "Ich habe mich auf fünfzig Stellen beworben."
+ },
+ {
+  "word": "جست‌وجو کردن",
+  "meaning": "suchen, recherchieren (ugs. سرچ کردن)"
+ },
+ {
+  "word": "تابلو",
+  "meaning": "Schild, Tafel; Gemälde"
+ },
+ {
+  "word": "سنتی",
+  "meaning": "traditionell (sonnati)"
+ },
+ {
+  "word": "یک لباس سنتی خاص داشت",
+  "meaning": "Er/sie trug ein besonderes traditionelles Gewand."
+ },
+ {
+  "word": "بقیه",
+  "meaning": "der Rest, die Übrigen"
+ },
+ {
+  "word": "لباس بقیه چی شد؟",
+  "meaning": "Was ist aus der Kleidung der anderen geworden?"
+ },
+ {
+  "word": "به زبان آلمانی حرف می‌زنند",
+  "meaning": "Sie sprechen Deutsch. (به + Sprache + حرف زدن)"
+ },
+ {
+  "word": "به دلیل اینکه",
+  "meaning": "weil, aus dem Grund, dass"
+ },
+ {
+  "word": "مذهبی",
+  "meaning": "religiös"
+ },
+ {
+  "word": "جشن‌های مذهبی",
+  "meaning": "religiöse Feste"
+ },
+ {
+  "word": "منطقه",
+  "meaning": "Region, Gebiet"
+ },
+ {
+  "word": "منطقهٔ خاص",
+  "meaning": "eine bestimmte Region"
+ },
+ {
+  "word": "دوزبانه",
+  "meaning": "zweisprachig"
+ },
+ {
+  "word": "همه چیز دوزبانه هست",
+  "meaning": "Alles ist zweisprachig. (auch: همه چیز به دو زبان هست)"
+ },
+ {
+  "word": "الفبا",
+  "meaning": "Alphabet"
+ },
+ {
+  "word": "خط میخی",
+  "meaning": "Keilschrift"
+ },
+ {
+  "word": "خط",
+  "meaning": "Schrift, Handschrift; Linie"
+ },
+ {
+  "word": "خوش گذشتن",
+  "meaning": "sich amüsieren, eine gute Zeit haben"
+ },
+ {
+  "word": "امروز خیلی خوش گذشت",
+  "meaning": "Heute war es sehr schön. (خوش گذشتن = eine gute Zeit haben)"
+ },
+ {
+  "word": "یکی از دریاچه‌هایی که کنار اینجا هستند",
+  "meaning": "einer der Seen, die hier in der Nähe liegen (Relativsatz mit -ی + که)"
+ },
+ {
+  "word": "متن‌هایی دربارهٔ سیاست افغانستان",
+  "meaning": "Texte über die Politik Afghanistans"
+ },
+ {
+  "word": "بین‌المللی",
+  "meaning": "international"
+ },
+ {
+  "word": "سازمان",
+  "meaning": "Organisation, Institution"
+ },
+ {
+  "word": "دولتی",
+  "meaning": "staatlich"
+ },
+ {
+  "word": "این سازمان یک سازمان دولتی هست",
+  "meaning": "Diese Organisation ist eine staatliche Organisation."
+ },
+ {
+  "word": "من از هیچ‌کدوم جوابی نگرفتم",
+  "meaning": "Von keinem habe ich eine Antwort bekommen."
+ },
+ {
+  "word": "خارج شدن از جایی",
+  "meaning": "einen Ort verlassen"
+ },
+ {
+  "word": "وارد شدن به جایی",
+  "meaning": "einen Ort betreten"
+ },
+ {
+  "word": "مهاجرت",
+  "meaning": "Migration, Auswanderung"
+ },
+ {
+  "word": "مهاجرت کردن به جایی",
+  "meaning": "in ein Land einwandern"
+ },
+ {
+  "word": "مهاجرت کردن از جایی",
+  "meaning": "aus einem Ort auswandern"
+ },
+ {
+  "word": "جدا شدن",
+  "meaning": "sich trennen, getrennt werden"
+ },
+ {
+  "word": "نمی‌دونم که این تولد بیرون هست یا نه",
+  "meaning": "Ich weiß nicht, ob dieser Geburtstag draußen stattfindet."
+ },
+ {
+  "word": "این تنها برنامه‌ای است",
+  "meaning": "Das ist die einzige Veranstaltung"
+ },
+ {
+  "word": "هوا خیلی بد بود",
+  "meaning": "Das Wetter war sehr schlecht. (nicht: هوای بد داشتیم)"
+ },
+ {
+  "word": "مجوز",
+  "meaning": "Genehmigung, Lizenz"
+ },
+ {
+  "word": "تئاتر بازی کردن",
+  "meaning": "Theater spielen (als Schauspieler; eine Aufführung geben = تئاتر اجرا کردن)"
+ },
+ {
+  "word": "تئاتر اجرا کردن",
+  "meaning": "Theater aufführen"
+ },
+ {
+  "word": "هر اجرای تئاتر نیاز به مجوز دارد",
+  "meaning": "Jede Theateraufführung braucht eine Genehmigung."
+ },
+ {
+  "word": "خاص",
+  "meaning": "besonders, speziell"
+ },
+ {
+  "word": "مخصوص",
+  "meaning": "speziell für, eigens bestimmt"
+ },
+ {
+  "word": "جشن",
+  "meaning": "Fest, Feier"
+ },
+ {
+  "word": "جشن تولد",
+  "meaning": "Geburtstagsfeier"
+ },
+ {
+  "word": "آدم عجیبی بود",
+  "meaning": "Er war ein seltsamer Mensch."
+ },
+ {
+  "word": "یکم عجیب بودند",
+  "meaning": "Sie waren ein bisschen seltsam. (ugs. für کمی)"
+ },
+ {
+  "word": "همون احساسی",
+  "meaning": "dasselbe Gefühl"
+ },
+ {
+  "word": "جای سوزن انداختن نبود",
+  "meaning": "Es war brechend voll. (wörtl. „kein Platz, eine Nadel fallen zu lassen\")"
+ },
+ {
+  "word": "شگفتی",
+  "meaning": "Wunder, Staunen"
+ },
+ {
+  "word": "شگفت‌انگیز",
+  "meaning": "erstaunlich, verblüffend"
+ },
+ {
+  "word": "من یک نمایش اجرا کردم",
+  "meaning": "Ich habe eine Aufführung gemacht."
+ },
+ {
+  "word": "سازماندهی",
+  "meaning": "das Organisieren, Organisation (Vorgang)"
+ },
+ {
+  "word": "آیا سازماندهی و اجرا یکی هستند؟",
+  "meaning": "Sind Organisation und Durchführung dasselbe?"
+ },
+ {
+  "word": "برنامه‌ریزی",
+  "meaning": "Planung"
+ },
+ {
+  "word": "هماهنگی",
+  "meaning": "Abstimmung, Koordination"
+ },
+ {
+  "word": "جلسه",
+  "meaning": "Sitzung, Treffen"
+ },
+ {
+  "word": "پاییز",
+  "meaning": "Herbst"
+ },
+ {
+  "word": "ما امشب یک جلسه داریم که در اون برای برنامه‌های کتاب‌خوانی پاییز برنامه‌ریزی می‌کنیم",
+  "meaning": "Wir haben heute Abend ein Treffen, in dem wir die Lesungen für den Herbst planen."
+ },
+ {
+  "word": "قهرمان",
+  "meaning": "Champion, Held"
+ },
+ {
+  "word": "جام جهانی",
+  "meaning": "Weltmeisterschaft"
+ },
+ {
+  "word": "اسپانیا قهرمان جام جهانی شد",
+  "meaning": "Spanien wurde Weltmeister."
+ },
+ {
+  "word": "عنوان",
+  "meaning": "Titel, Bezeichnung"
+ },
+ {
+  "word": "اختیار",
+  "meaning": "Verfügung, Vollmacht"
+ },
+ {
+  "word": "چیزی را در اختیار داشتن",
+  "meaning": "über etwas verfügen"
+ },
+ {
+  "word": "خیره شدن",
+  "meaning": "starren, anstarren"
+ },
+ {
+  "word": "رده",
+  "meaning": "Kategorie, Rang, Klasse"
+ },
+ {
+  "word": "رده سنی",
+  "meaning": "Altersgruppe, Altersfreigabe"
+ },
+ {
+  "word": "ماجرا",
+  "meaning": "Vorfall, Geschichte, Abenteuer"
+ },
+ {
+  "word": "ماجراجو",
+  "meaning": "abenteuerlustig; Abenteurer"
+ },
+ {
+  "word": "تعمیر کردن",
+  "meaning": "reparieren (تعمیر = Reparatur)"
+ },
+ {
+  "word": "تونستم",
+  "meaning": "ich konnte (ugs. von توانستم)"
+ },
+ {
+  "word": "می‌تونستم",
+  "meaning": "ich konnte (dauernd/wiederholt; ugs. von می‌توانستم)"
+ },
+ {
+  "word": "از جایی رد شدن",
+  "meaning": "an einem Ort vorbeikommen, etw. passieren"
+ },
+ {
+  "word": "شاخه",
+  "meaning": "Zweig, Ast"
+ },
+ {
+  "word": "شاخهٔ درخت",
+  "meaning": "Ast des Baums"
+ },
+ {
+  "word": "درخت‌ها تو جاده افتاده بودن",
+  "meaning": "Die Bäume waren auf die Straße gefallen."
+ },
+ {
+  "word": "درخت‌ها رو کنار جاده بگذاریم",
+  "meaning": "Lass uns die Bäume an den Straßenrand legen."
+ },
+ {
+  "word": "اومدن",
+  "meaning": "kommen (ugs. von آمدن)"
+ },
+ {
+  "word": "میام",
+  "meaning": "ich komme (ugs. von می‌آیم)"
+ },
+ {
+  "word": "ماندن",
+  "meaning": "bleiben"
+ },
+ {
+  "word": "باغ وحش",
+  "meaning": "Zoo"
+ },
+ {
+  "word": "وحشی",
+  "meaning": "wild"
+ },
+ {
+  "word": "حیوانات وحشی",
+  "meaning": "wilde Tiere"
+ },
+ {
+  "word": "سیمان",
+  "meaning": "Zement"
+ },
+ {
+  "word": "فولاد",
+  "meaning": "Stahl"
+ },
+ {
+  "word": "هست",
+  "meaning": "ist (ugs.; schriftspr. است)"
+ },
+ {
+  "word": "خواستن",
+  "meaning": "wollen"
+ },
+ {
+  "word": "خواهم بود",
+  "meaning": "ich werde sein"
+ },
+ {
+  "word": "خواهد بود",
+  "meaning": "er/sie wird sein"
+ },
+ {
+  "word": "خواهم رفت",
+  "meaning": "ich werde gehen (Futur: خواه + Endung + Kurzinfinitiv)"
+ },
+ {
+  "word": "خواهم گفت",
+  "meaning": "ich werde sagen"
+ },
+ {
+  "word": "کلاً",
+  "meaning": "insgesamt, im Großen und Ganzen"
+ },
+ {
+  "word": "قدیمی‌ترین",
+  "meaning": "der/die/das älteste"
+ },
+ {
+  "word": "لباسم کهنه شده",
+  "meaning": "Meine Kleidung ist abgenutzt."
+ },
+ {
+  "word": "کهن",
+  "meaning": "alt, altehrwürdig"
+ },
+ {
+  "word": "باستانی",
+  "meaning": "antik, uralt"
+ },
+ {
+  "word": "پِیمودَن / پِیما",
+  "meaning": "durchqueren, zurücklegen (einen Weg)"
+ },
+ {
+  "word": "لُطفاََ",
+  "meaning": "bitte"
+ },
+ {
+  "word": "گُذَشتَن / گُذَر",
+  "meaning": "vorbeigehen"
+ },
+ {
+  "word": "کار داشتَن",
+  "meaning": "zu tun haben"
+ },
+ {
+  "word": "مَگَر",
+  "meaning": "denn, etwa"
+ },
+ {
+  "word": "بَخشیدَن / بَخش",
+  "meaning": "verzeihen"
+ },
+ {
+  "word": "نِشان دادن",
+  "meaning": "zeigen"
+ },
+ {
+  "word": "تَوَلُّد",
+  "meaning": "Geburtstag"
+ },
+ {
+  "word": "پیاده‌رَوی کردَن",
+  "meaning": "wandern, spazieren"
+ },
+ {
+  "word": "در حُدود",
+  "meaning": "gegen (temp.)"
+ },
+ {
+  "word": "سر تا سر",
+  "meaning": "überall"
+ },
+ {
+  "word": "یِک دُنیا دوست داشتن",
+  "meaning": "über alles lieben"
+ },
+ {
+  "word": "پُشت",
+  "meaning": "Rücken"
+ },
+ {
+  "word": "خَطَر",
+  "meaning": "Gefahr"
+ },
+ {
+  "word": "دُزد",
+  "meaning": "Dieb"
+ },
+ {
+  "word": "صِدا",
+  "meaning": "Stimme, Geräusch, Laut"
+ },
+ {
+  "word": "فِکر",
+  "meaning": "Gedanke, Idee"
+ },
+ {
+  "word": "گُربه",
+  "meaning": "Katze"
+ },
+ {
+  "word": "مِیل",
+  "meaning": "Neigung, Vorliebe, Wunsch"
+ },
+ {
+  "word": "اُمید داشتَن",
+  "meaning": "Hoffnung haben, hoffen"
+ },
+ {
+  "word": "ازبالا رفتن",
+  "meaning": "hinaufgehen, klettern auf"
+ },
+ {
+  "word": "بُریدَن / بُر",
+  "meaning": "schneiden"
+ },
+ {
+  "word": "تَوانِستَن / توان",
+  "meaning": "können"
+ },
+ {
+  "word": "حال داشتَن",
+  "meaning": "Lust haben"
+ },
+ {
+  "word": "فشار",
+  "meaning": "Druck"
+ },
+ {
+  "word": "تسلیم",
+  "meaning": "Unterwerfung, Kapitulation, (Brief-)Zustellung"
+ },
+ {
+  "word": "اراده",
+  "meaning": "Wille"
+ },
+ {
+  "word": "ویژه",
+  "meaning": "speziell, besondere/r/s"
+ },
+ {
+  "word": "شدت",
+  "meaning": "Intensität, Schwere"
+ },
+ {
+  "word": "سرشار",
+  "meaning": "Übervoll, Begeistert, Berauscht"
+ },
+ {
+  "word": "منجمد",
+  "meaning": "gefroren"
+ },
+ {
+  "word": "چِطور؟",
+  "meaning": "wie?"
+ },
+ {
+  "word": "کِی؟",
+  "meaning": "wann?"
+ },
+ {
+  "word": "پایین",
+  "meaning": "unten"
+ },
+ {
+  "word": "آوَردَن / آوَر",
+  "meaning": "bringen"
+ },
+ {
+  "word": "گاهی",
+  "meaning": "manchmal"
+ },
+ {
+  "word": "حال",
+  "meaning": "Zustand, Gegenwart"
+ },
+ {
+  "word": "خوش گُذَشتَن به",
+  "meaning": "jmdm. gefallen, eine schöne Zeit haben"
+ },
+ {
+  "word": "بَیت",
+  "meaning": "Vers"
+ },
+ {
+  "word": "دَبِستان",
+  "meaning": "Grundschule"
+ },
+ {
+  "word": "دست",
+  "meaning": "Hand; Arm"
+ },
+ {
+  "word": "رَنگ",
+  "meaning": "Farbe"
+ },
+ {
+  "word": "پنبه",
+  "meaning": "Cotton"
+ },
+ {
+  "word": "بافتَن",
+  "meaning": "weben"
+ },
+ {
+  "word": "پارچه",
+  "meaning": "Stoff, Material"
+ },
+ {
+  "word": "دانِشجو",
+  "meaning": "Student"
+ },
+ {
+  "word": "مُعَرِّفی کَردَن",
+  "meaning": "vorstellen"
+ },
+ {
+  "word": "تَدریس",
+  "meaning": "Lehren, Unterrichten"
+ },
+ {
+  "word": "پِیدا",
+  "meaning": "sichtbar"
+ },
+ {
+  "word": "دَر آوَردَن",
+  "meaning": "herausnehmen, herausholen"
+ },
+ {
+  "word": "گوش کَردَن",
+  "meaning": "hören, zuhören"
+ },
+ {
+  "word": "انداختَن / انداز",
+  "meaning": "werfen"
+ },
+ {
+  "word": "رَئیس",
+  "meaning": "Chef, Direktor"
+ },
+ {
+  "word": "زَحمَت",
+  "meaning": "Mühe"
+ },
+ {
+  "word": "کِلاس",
+  "meaning": "Klasse"
+ },
+ {
+  "word": "بودَن / باش",
+  "meaning": "sein"
+ },
+ {
+  "word": "وان",
+  "meaning": "Wanne"
+ },
+ {
+  "word": "اهل",
+  "meaning": "Bürger, Einwohner"
+ },
+ {
+  "word": "زِمِستان",
+  "meaning": "Winter"
+ },
+ {
+  "word": "سَگ",
+  "meaning": "Hund"
+ },
+ {
+  "word": "شاعِر",
+  "meaning": "Dichter"
+ },
+ {
+  "word": "میان",
+  "meaning": "Mitte; zwischen, unter"
+ },
+ {
+  "word": "شُدَن / شو",
+  "meaning": "werden"
+ },
+ {
+  "word": "دَبیرِستان",
+  "meaning": "Gymnasium"
+ },
+ {
+  "word": "بَر داشتَن",
+  "meaning": "nehmen"
+ },
+ {
+  "word": "مَحَلّه",
+  "meaning": "Viertel, Nachbarschaft"
+ },
+ {
+  "word": "اِطمینان داشتَن",
+  "meaning": "sicher sein"
+ },
+ {
+  "word": "سر حال",
+  "meaning": "munter, gut gelaunt"
+ },
+ {
+  "word": "دَرس داشتَن",
+  "meaning": "Unterricht haben"
+ },
+ {
+  "word": "بُستان",
+  "meaning": "(Obst-)Garten"
+ },
+ {
+  "word": "بایَد",
+  "meaning": "müssen"
+ },
+ {
+  "word": "پَریدَن / پَر",
+  "meaning": "springen, abfliegen"
+ },
+ {
+  "word": "مجروح",
+  "meaning": "verwundet"
+ },
+ {
+  "word": "ابریشم",
+  "meaning": "Seide"
+ },
+ {
+  "word": "شُغل",
+  "meaning": "Beruf"
+ },
+ {
+  "word": "مِلَّت",
+  "meaning": "Volk, Nation"
+ },
+ {
+  "word": "گُذاشتَن / گُذار",
+  "meaning": "erlauben, lassen, zulassen"
+ },
+ {
+  "word": "ازشدن بیدار",
+  "meaning": "aufwachen von"
+ },
+ {
+  "word": "رهبر",
+  "meaning": "Führung"
+ },
+ {
+  "word": "نان کسی را آجر کردن",
+  "meaning": "Jemandes Brot zum Ziegel machen. (Redewendung: jmdm. die Lebensgrundlage nehmen)"
+ },
+ {
+  "word": "زنده",
+  "meaning": "lebendig"
+ },
+ {
+  "word": "سُرخ؛ قِرمِز",
+  "meaning": "rot (احمر ist arabisch, im Persischen ungebräuchlich)"
+ },
+ {
+  "word": "اِجازه داشتَن",
+  "meaning": "dürfen"
+ },
+ {
+  "word": "آجر",
+  "meaning": "Ziegel"
+ },
+ {
+  "word": "کاخ",
+  "meaning": "Palast"
+ },
+ {
+  "word": "سَبزی",
+  "meaning": "Gemüse"
+ },
+ {
+  "word": "کارخانه",
+  "meaning": "Fabrik"
+ },
+ {
+  "word": "مُتَأَسِّف بودَن",
+  "meaning": "bedauern"
+ },
+ {
+  "word": "خواستَن / خواه",
+  "meaning": "wollen"
+ },
+ {
+  "word": "جیب",
+  "meaning": "Tasche"
+ },
+ {
+  "word": "جارو",
+  "meaning": "Besen"
+ },
+ {
+  "word": "جوراب",
+  "meaning": "Strumpf"
+ },
+ {
+  "word": "تَحصیل کردَن",
+  "meaning": "studieren"
+ },
+ {
+  "word": "خانِگی",
+  "meaning": "häuslich"
+ },
+ {
+  "word": "اِمتِحان",
+  "meaning": "Klausur, Test"
+ },
+ {
+  "word": "گِران",
+  "meaning": "teuer"
+ },
+ {
+  "word": "فَرهَنگ",
+  "meaning": "Kultur; Wörterbuch"
+ },
+ {
+  "word": "شُما",
+  "meaning": "ihr"
+ },
+ {
+  "word": "وَقتی که",
+  "meaning": "wenn; als; während"
+ },
+ {
+  "word": "دادَن / ده",
+  "meaning": "geben"
+ },
+ {
+  "word": "یِکشَنبه",
+  "meaning": "Sonntag"
+ },
+ {
+  "word": "خالی",
+  "meaning": "leer, frei"
+ },
+ {
+  "word": "مَقاله",
+  "meaning": "Artikel, Essay"
+ },
+ {
+  "word": "کَشتی",
+  "meaning": "Schiff (kašti) – Ringen = کُشتی (košti)"
+ },
+ {
+  "word": "تابِستان",
+  "meaning": "Sommer"
+ },
+ {
+  "word": "سَر",
+  "meaning": "Kopf"
+ },
+ {
+  "word": "سَوار...شدن",
+  "meaning": "(Verkehrsmittel) besteigen"
+ },
+ {
+  "word": "نَقّاشی",
+  "meaning": "Gemälde, Bild, Zeichnung, Porträt"
+ },
+ {
+  "word": "بَر گَشتَن",
+  "meaning": "zurückkehren, sich umdrehen"
+ },
+ {
+  "word": "نَخِیر",
+  "meaning": "nein (förmlich)"
+ },
+ {
+  "word": "بَچِّگی",
+  "meaning": "Kindheit"
+ },
+ {
+  "word": "ازکردن دیدار",
+  "meaning": "jmdn. besuchen"
+ },
+ {
+  "word": "خوبی",
+  "meaning": "Güte"
+ },
+ {
+  "word": "مُحَصِّل",
+  "meaning": "Schüler"
+ },
+ {
+  "word": "آموختَن / آموز",
+  "meaning": "jmdm. etw. beibringen"
+ },
+ {
+  "word": "پِیدا کَردَن",
+  "meaning": "finden"
+ },
+ {
+  "word": "دَرس",
+  "meaning": "Lektion, Unterricht"
+ },
+ {
+  "word": "شَبها",
+  "meaning": "nachts, abends"
+ },
+ {
+  "word": "آسان",
+  "meaning": "leicht, einfach"
+ },
+ {
+  "word": "تَمام",
+  "meaning": "ganz, vollständig, fertig; Ende"
+ },
+ {
+  "word": "اِطِلاعات",
+  "meaning": "Informationen"
+ },
+ {
+  "word": "دانایی",
+  "meaning": "Weisheit"
+ },
+ {
+  "word": "کُهنه",
+  "meaning": "alt, abgenutzt (von Dingen)"
+ },
+ {
+  "word": "شیرین",
+  "meaning": "süß"
+ },
+ {
+  "word": "خانه",
+  "meaning": "Haus"
+ },
+ {
+  "word": "هَوا",
+  "meaning": "Wetter; Luft"
+ },
+ {
+  "word": "اِ؟",
+  "meaning": "Wirklich?/Echt?"
+ },
+ {
+  "word": "پِدَر و مادَر",
+  "meaning": "Eltern"
+ },
+ {
+  "word": "هَمیشه",
+  "meaning": "immer"
+ },
+ {
+  "word": "دانِشگاه",
+  "meaning": "Universität"
+ },
+ {
+  "word": "بیمارِستان",
+  "meaning": "Krankenhaus"
+ },
+ {
+  "word": "نانوا",
+  "meaning": "Bäcker"
+ },
+ {
+  "word": "...نه...نه",
+  "meaning": "weder...noch..."
+ },
+ {
+  "word": "اَست",
+  "meaning": "ist"
+ },
+ {
+  "word": "شیر",
+  "meaning": "Milch"
+ },
+ {
+  "word": "نُه",
+  "meaning": "neun"
+ },
+ {
+  "word": "بَچّه",
+  "meaning": "Kind"
+ },
+ {
+  "word": "هَنوز",
+  "meaning": "noch"
+ },
+ {
+  "word": "خَر",
+  "meaning": "Esel"
+ },
+ {
+  "word": "ایرانی",
+  "meaning": "Iraner"
+ },
+ {
+  "word": "پا",
+  "meaning": "Fuß"
+ },
+ {
+  "word": "دوش",
+  "meaning": "Dusche"
+ },
+ {
+  "word": "دوست",
+  "meaning": "Freund"
+ },
+ {
+  "word": "زِندِگی",
+  "meaning": "Leben"
+ },
+ {
+  "word": "ادَبیات",
+  "meaning": "Literatur"
+ },
+ {
+  "word": "بَدی",
+  "meaning": "Bosheit"
+ },
+ {
+  "word": "خَری",
+  "meaning": "Dummheit"
+ },
+ {
+  "word": "آبی",
+  "meaning": "blau"
+ },
+ {
+  "word": "باران",
+  "meaning": "Regen"
+ },
+ {
+  "word": "اینها",
+  "meaning": "diese"
+ },
+ {
+  "word": "شاه",
+  "meaning": "König"
+ },
+ {
+  "word": "تا",
+  "meaning": "bis; damit, um zu"
+ },
+ {
+  "word": "صِفر",
+  "meaning": "null"
+ },
+ {
+  "word": "شِش",
+  "meaning": "sechs"
+ },
+ {
+  "word": "عَدَد",
+  "meaning": "Zahl"
+ },
+ {
+  "word": "آمدَن / آ",
+  "meaning": "kommen"
+ },
+ {
+  "word": "با",
+  "meaning": "mit"
+ },
+ {
+  "word": "مَن",
+  "meaning": "ich"
+ },
+ {
+  "word": "زود",
+  "meaning": "früh"
+ },
+ {
+  "word": "کِلید",
+  "meaning": "Schlüssel"
+ },
+ {
+  "word": "میوه",
+  "meaning": "Obst, Frucht"
+ },
+ {
+  "word": "آقا",
+  "meaning": "Herr"
+ },
+ {
+  "word": "شیرینی",
+  "meaning": "Süßigkeit"
+ },
+ {
+  "word": "نه",
+  "meaning": "nein"
+ },
+ {
+  "word": "سَبز",
+  "meaning": "grün"
+ },
+ {
+  "word": "پَنج",
+  "meaning": "fünf"
+ },
+ {
+  "word": "چیز",
+  "meaning": "Sache, Ding"
+ },
+ {
+  "word": "خُدا",
+  "meaning": "Gott"
+ },
+ {
+  "word": "بود",
+  "meaning": "war"
+ },
+ {
+  "word": "تَمیز",
+  "meaning": "sauber"
+ },
+ {
+  "word": "...هَم... هَم",
+  "meaning": "sowohl... als auch..."
+ },
+ {
+  "word": "بیمار",
+  "meaning": "krank"
+ },
+ {
+  "word": "هَفت",
+  "meaning": "sieben"
+ },
+ {
+  "word": "پَنجِره",
+  "meaning": "Fenster"
+ },
+ {
+  "word": "بَدمَزه",
+  "meaning": "schlecht schmeckend"
+ },
+ {
+  "word": "آلمان",
+  "meaning": "Deutschland"
+ },
+ {
+  "word": "پُست",
+  "meaning": "Post"
+ },
+ {
+  "word": "آشپَزی",
+  "meaning": "Kochen"
+ },
+ {
+  "word": "روزنامه نویس",
+  "meaning": "Journalist"
+ },
+ {
+  "word": "چوبی",
+  "meaning": "hölzern"
+ },
+ {
+  "word": "وَرزِش کَردَن",
+  "meaning": "Sport machen"
+ },
+ {
+  "word": "جیپ",
+  "meaning": "Jeep"
+ },
+ {
+  "word": "خیابان",
+  "meaning": "Straße"
+ },
+ {
+  "word": "یِک",
+  "meaning": "eins"
+ },
+ {
+  "word": "دُوشَنبه",
+  "meaning": "Montag"
+ },
+ {
+  "word": "خواهَر",
+  "meaning": "Schwester"
+ },
+ {
+  "word": "مُعَلِّم",
+  "meaning": "Lehrer"
+ },
+ {
+  "word": "کودَکان",
+  "meaning": "Kinder"
+ },
+ {
+  "word": "اِطِلاع",
+  "meaning": "Information"
+ },
+ {
+  "word": "به عُنوان... کار کردَن",
+  "meaning": "arbeiten als..."
+ },
+ {
+  "word": "بَلَد بودَن",
+  "meaning": "können, beherrschen"
+ },
+ {
+  "word": "هابی",
+  "meaning": "Hobby"
+ },
+ {
+  "word": "شَب بِخِیر",
+  "meaning": "gute Nacht!"
+ },
+ {
+  "word": "جَنگَل",
+  "meaning": "Wald"
+ },
+ {
+  "word": "نانوایی",
+  "meaning": "Bäckerei"
+ },
+ {
+  "word": "روز",
+  "meaning": "Tag"
+ },
+ {
+  "word": "کُدام؟",
+  "meaning": "welcher?"
+ },
+ {
+  "word": "پِزِشک",
+  "meaning": "Arzt"
+ },
+ {
+  "word": "پُستخانه",
+  "meaning": "Post(-amt)"
+ },
+ {
+  "word": "نَوازَنده",
+  "meaning": "Musiker"
+ },
+ {
+  "word": "دیدَنی",
+  "meaning": "sehenswert, Sehenswürdigkeit"
+ },
+ {
+  "word": "تَخته نَرد",
+  "meaning": "Backgammon"
+ },
+ {
+  "word": "(جان)بابا",
+  "meaning": "Papa"
+ },
+ {
+  "word": "هَم",
+  "meaning": "auch"
+ },
+ {
+  "word": "دیروز",
+  "meaning": "gestern"
+ },
+ {
+  "word": "چَهارشَنبه",
+  "meaning": "Mittwoch"
+ },
+ {
+  "word": "خِیلی",
+  "meaning": "sehr, viel"
+ },
+ {
+  "word": "خَبَر",
+  "meaning": "Nachricht"
+ },
+ {
+  "word": "گُفتَن / گو",
+  "meaning": "sagen"
+ },
+ {
+  "word": "فَهمیدن / فَهم",
+  "meaning": "verstehen"
+ },
+ {
+  "word": "قَهوه",
+  "meaning": "Kaffee"
+ },
+ {
+  "word": "پُختَن / پَز",
+  "meaning": "kochen"
+ },
+ {
+  "word": "اِنقِلاب",
+  "meaning": "Revolution"
+ },
+ {
+  "word": "گُمان",
+  "meaning": "Vermutung"
+ },
+ {
+  "word": "خوابیدن / خواب",
+  "meaning": "schlafen"
+ },
+ {
+  "word": "یَعنی",
+  "meaning": "das heißt, das bedeutet"
+ },
+ {
+  "word": "به",
+  "meaning": "in Richtung (Nicht-Lebewesen)"
+ },
+ {
+  "word": "اُتاق",
+  "meaning": "Zimmer"
+ },
+ {
+  "word": "حَرف",
+  "meaning": "Rede, Buchstabe"
+ },
+ {
+  "word": "حِساب",
+  "meaning": "Rechnen, Konto"
+ },
+ {
+  "word": "سینِما",
+  "meaning": "Kino"
+ },
+ {
+  "word": "جَدید",
+  "meaning": "neu, modern"
+ },
+ {
+  "word": "پائیز",
+  "meaning": "Herbst"
+ },
+ {
+  "word": "عَرَب",
+  "meaning": "Araber"
+ },
+ {
+  "word": "ایستادَن / ایست",
+  "meaning": "stehen bleiben; sich hinstellen"
+ },
+ {
+  "word": "قایِق سَواری کردیم",
+  "meaning": "eine Bootsfahrt machen"
+ },
+ {
+  "word": "پَریروز",
+  "meaning": "vorgestern"
+ },
+ {
+  "word": "چَپ",
+  "meaning": "links"
+ },
+ {
+  "word": "گیتار",
+  "meaning": "Gitarre"
+ },
+ {
+  "word": "مُهَندِسین",
+  "meaning": "Ingenieure"
+ },
+ {
+  "word": "دانا",
+  "meaning": "weise"
+ },
+ {
+  "word": "آخِر\\آخَر",
+  "meaning": "letzter, Ende"
+ },
+ {
+  "word": "به فارسی",
+  "meaning": "auf Persisch"
+ },
+ {
+  "word": "پُلیس",
+  "meaning": "Polizei"
+ },
+ {
+  "word": "چِشم",
+  "meaning": "Auge"
+ },
+ {
+  "word": "کودَکِستان",
+  "meaning": "Kindergarten"
+ },
+ {
+  "word": "نیمه",
+  "meaning": "Hälfte"
+ },
+ {
+  "word": "سَر",
+  "meaning": "an, bei, auf"
+ },
+ {
+  "word": "شُروع کردن",
+  "meaning": "beginnen, anfangen"
+ },
+ {
+  "word": "فَرانسَوی",
+  "meaning": "französisch / Franzose"
+ },
+ {
+  "word": "ماشین",
+  "meaning": "Auto"
+ },
+ {
+  "word": "جُستَن / جو",
+  "meaning": "suchen"
+ },
+ {
+  "word": "غَرب",
+  "meaning": "Westen"
+ },
+ {
+  "word": "زیاد",
+  "meaning": "viel"
+ },
+ {
+  "word": "شایَد",
+  "meaning": "vielleicht"
+ },
+ {
+  "word": "آتَش",
+  "meaning": "Feuer"
+ },
+ {
+  "word": "باز کَردَن",
+  "meaning": "öffnen"
+ },
+ {
+  "word": "هَدیّه",
+  "meaning": "Geschenk"
+ },
+ {
+  "word": "شام",
+  "meaning": "Abendessen"
+ },
+ {
+  "word": "بَخت",
+  "meaning": "Glück"
+ },
+ {
+  "word": "نام",
+  "meaning": "Name"
+ },
+ {
+  "word": "سَرما",
+  "meaning": "Kälte"
+ },
+ {
+  "word": "دوست داشتَن",
+  "meaning": "lieben, mögen"
+ },
+ {
+  "word": "شِکَر",
+  "meaning": "Zucker"
+ },
+ {
+  "word": "دُرُست",
+  "meaning": "richtig, genau"
+ },
+ {
+  "word": "چون",
+  "meaning": "weil; wie (Vergleich)"
+ },
+ {
+  "word": "مِلّی",
+  "meaning": "national"
+ },
+ {
+  "word": "وَرزِش",
+  "meaning": "Sport"
+ },
+ {
+  "word": "بَدبَخت",
+  "meaning": "unglücklich, Unglücklicher"
+ },
+ {
+  "word": "بُرج",
+  "meaning": "Turm"
+ },
+ {
+  "word": "پارک",
+  "meaning": "Park"
+ },
+ {
+  "word": "کوهِستان",
+  "meaning": "Gebirge, Hochland"
+ },
+ {
+  "word": "اُفتادَن / اُفت",
+  "meaning": "fallen, hinfallen"
+ },
+ {
+  "word": "سَفَر رَفتَن؛ مُسافِرَت کردَن",
+  "meaning": "reisen"
+ },
+ {
+  "word": "شِنا کردن",
+  "meaning": "schwimmen"
+ },
+ {
+  "word": "ساعَت",
+  "meaning": "Uhr, Stunde"
+ },
+ {
+  "word": "! بِبَخش",
+  "meaning": "Entschuldigen Sie!"
+ },
+ {
+  "word": "هَر دو",
+  "meaning": "beide"
+ },
+ {
+  "word": "تِلِفُن هَمراه",
+  "meaning": "Handy"
+ },
+ {
+  "word": "کامپیوتِر",
+  "meaning": "Computer"
+ },
+ {
+  "word": "وَقت داشتَن",
+  "meaning": "Zeit haben"
+ },
+ {
+  "word": "بَرَنده شُدَن",
+  "meaning": "gewinnen"
+ },
+ {
+  "word": "صَحرا",
+  "meaning": "Wüste; Steppe"
+ },
+ {
+  "word": "فُرودگاه",
+  "meaning": "Flughafen"
+ },
+ {
+  "word": "جین",
+  "meaning": "Jeans"
+ },
+ {
+  "word": "یا... یا",
+  "meaning": "entweder...oder..."
+ },
+ {
+  "word": "تِشنه",
+  "meaning": "durstig"
+ },
+ {
+  "word": "جَنوب",
+  "meaning": "Süden"
+ },
+ {
+  "word": "مُتَأَسِّفَم",
+  "meaning": "es tut mir leid"
+ },
+ {
+  "word": "اِسم",
+  "meaning": "Name"
+ },
+ {
+  "word": "گَرما",
+  "meaning": "Wärme"
+ },
+ {
+  "word": "یَخچال",
+  "meaning": "Kühlschrank"
+ },
+ {
+  "word": "هَمه",
+  "meaning": "alle/s"
+ },
+ {
+  "word": "پُرسیدَن (از) / پُرس",
+  "meaning": "jmd. fragen"
+ },
+ {
+  "word": "عَکس",
+  "meaning": "Foto, Bild"
+ },
+ {
+  "word": "چِقَدر",
+  "meaning": "aber [Adv., in Ausrufesätzen]; wie; wie viel/ weit/lange?"
+ },
+ {
+  "word": "رود",
+  "meaning": "Fluss"
+ },
+ {
+  "word": "سَفَر",
+  "meaning": "Reise"
+ },
+ {
+  "word": "گُل",
+  "meaning": "Blume"
+ },
+ {
+  "word": "بُردَن / بَر",
+  "meaning": "transportieren, bringen, (weg-)tragen"
+ },
+ {
+  "word": "بله",
+  "meaning": "ja"
+ },
+ {
+  "word": "بَرادَر",
+  "meaning": "Bruder"
+ },
+ {
+  "word": "خواهَر و بَرادَر",
+  "meaning": "Geschwister"
+ },
+ {
+  "word": "شُمال",
+  "meaning": "Norden"
+ },
+ {
+  "word": "مُهَندِس",
+  "meaning": "Ingenieur"
+ },
+ {
+  "word": "اتوبوس",
+  "meaning": "Autobus"
+ },
+ {
+  "word": "شَب",
+  "meaning": "Nacht, Abend"
+ },
+ {
+  "word": "اوَّل",
+  "meaning": "erster"
+ },
+ {
+  "word": "کَم",
+  "meaning": "wenig"
+ },
+ {
+  "word": "پیش",
+  "meaning": "in Richtung (Lebewesen)"
+ },
+ {
+  "word": "روزنامه",
+  "meaning": "Zeitung"
+ },
+ {
+  "word": "قَلَم",
+  "meaning": "Stift"
+ },
+ {
+  "word": "مَرگ",
+  "meaning": "Tod"
+ },
+ {
+  "word": "تِلِفُن کَردَن (به)",
+  "meaning": "anrufen"
+ },
+ {
+  "word": "بانک",
+  "meaning": "Bank"
+ },
+ {
+  "word": "سِریال",
+  "meaning": "(Fernseh-)Serie"
+ },
+ {
+  "word": "با هَم",
+  "meaning": "zusammen"
+ },
+ {
+  "word": "رَقصیدَن / رَقص",
+  "meaning": "tanzen"
+ },
+ {
+  "word": "گُذاشتَن",
+  "meaning": "legen"
+ },
+ {
+  "word": "بَهار",
+  "meaning": "Frühling"
+ },
+ {
+  "word": "کِشوَر",
+  "meaning": "Land"
+ },
+ {
+  "word": "عَزیز",
+  "meaning": "lieb, geschätzt, verehrt"
+ },
+ {
+  "word": "مادَر",
+  "meaning": "Mutter"
+ },
+ {
+  "word": "خوش",
+  "meaning": "gut, angenehm, glücklich"
+ },
+ {
+  "word": "کوچِک",
+  "meaning": "klein"
+ },
+ {
+  "word": "دوستی",
+  "meaning": "Freundschaft"
+ },
+ {
+  "word": "پروبلِم",
+  "meaning": "Problem"
+ },
+ {
+  "word": "روبِروی",
+  "meaning": "gegenüber von"
+ },
+ {
+  "word": "سُخَن",
+  "meaning": "Rede"
+ },
+ {
+  "word": "کِتابدار",
+  "meaning": "Bibliothekar"
+ },
+ {
+  "word": "تازه",
+  "meaning": "frisch, neu; soeben, kürzlich"
+ },
+ {
+  "word": "گُرُسنه",
+  "meaning": "hungrig"
+ },
+ {
+  "word": "کِشیدن / کِش",
+  "meaning": "malen"
+ },
+ {
+  "word": "دُشمَن",
+  "meaning": "Feind"
+ },
+ {
+  "word": "مَرکَز",
+  "meaning": "Zentrum; Mittelpunkt"
+ },
+ {
+  "word": "سیر",
+  "meaning": "Knoblauch; satt"
+ },
+ {
+  "word": "نور",
+  "meaning": "Licht"
+ },
+ {
+  "word": "چَهار",
+  "meaning": "vier"
+ },
+ {
+  "word": "کی؟",
+  "meaning": "wer?"
+ },
+ {
+  "word": "تَدریس کردن",
+  "meaning": "unterrichten"
+ },
+ {
+  "word": "هَمیشِگی",
+  "meaning": "ewig"
+ },
+ {
+  "word": "دَبیر",
+  "meaning": "Gymnasiallehrer"
+ },
+ {
+  "word": "پُر",
+  "meaning": "voll"
+ },
+ {
+  "word": "دَر",
+  "meaning": "in"
+ },
+ {
+  "word": "روبِرو",
+  "meaning": "gegenüber"
+ },
+ {
+  "word": "پول",
+  "meaning": "Geld"
+ },
+ {
+  "word": "شِناگَر",
+  "meaning": "Schwimmer"
+ },
+ {
+  "word": "میز",
+  "meaning": "Tisch"
+ },
+ {
+  "word": "چَمِدان",
+  "meaning": "Koffer"
+ },
+ {
+  "word": "فَرهَنگی",
+  "meaning": "kulturell"
+ },
+ {
+  "word": "بی",
+  "meaning": "ohne"
+ },
+ {
+  "word": "دارو",
+  "meaning": "Medikament"
+ },
+ {
+  "word": "اِمروز",
+  "meaning": "heute"
+ },
+ {
+  "word": "پَنجشَنبه",
+  "meaning": "Donnerstag"
+ },
+ {
+  "word": "زَن",
+  "meaning": "Frau"
+ },
+ {
+  "word": "کِتاب فُروشی",
+  "meaning": "Buchladen"
+ },
+ {
+  "word": "نامه",
+  "meaning": "Brief"
+ },
+ {
+  "word": "آرام",
+  "meaning": "ruhig, still"
+ },
+ {
+  "word": "ارزان",
+  "meaning": "billig"
+ },
+ {
+  "word": "نَزدیک",
+  "meaning": "nahe, in der Nähe von; neben"
+ },
+ {
+  "word": "شُمارهٔ تِلِفُن",
+  "meaning": "Telefonnummer"
+ },
+ {
+  "word": "صَندَلی",
+  "meaning": "Stuhl"
+ },
+ {
+  "word": "کیلومِتر",
+  "meaning": "Kilometer"
+ },
+ {
+  "word": "ساحِل",
+  "meaning": "Strand; Küste"
+ },
+ {
+  "word": "کُنسِرت دادَن",
+  "meaning": "ein Konzert geben"
+ },
+ {
+  "word": "دور",
+  "meaning": "entfernt"
+ },
+ {
+  "word": "سوپ",
+  "meaning": "Suppe"
+ },
+ {
+  "word": "آبِجو",
+  "meaning": "Bier"
+ },
+ {
+  "word": "تَمرین",
+  "meaning": "Übung"
+ },
+ {
+  "word": "خواب",
+  "meaning": "Schlaf"
+ },
+ {
+  "word": "از",
+  "meaning": "von, aus"
+ },
+ {
+  "word": "تِلِفُن هوشمَند",
+  "meaning": "Smartphone"
+ },
+ {
+  "word": "عِینَک",
+  "meaning": "Brille"
+ },
+ {
+  "word": "کوچِک کَردَن",
+  "meaning": "verkleinern"
+ },
+ {
+  "word": "هَر وَقت که",
+  "meaning": "immer wenn"
+ },
+ {
+  "word": "تَمام کردَن",
+  "meaning": "fertigstellen, beenden"
+ },
+ {
+  "word": "عَجَله داشتن",
+  "meaning": "in Eile sein"
+ },
+ {
+  "word": "خَرابه",
+  "meaning": "Ruine"
+ },
+ {
+  "word": "آب",
+  "meaning": "Wasser"
+ },
+ {
+  "word": "ناهار",
+  "meaning": "Mittagessen"
+ },
+ {
+  "word": "سَرد",
+  "meaning": "kalt"
+ },
+ {
+  "word": "حافِظ",
+  "meaning": "Beschützer"
+ },
+ {
+  "word": "کَس",
+  "meaning": "Person"
+ },
+ {
+  "word": "نَظَر",
+  "meaning": "Meinung, Ansicht"
+ },
+ {
+  "word": "مِثل همیشه",
+  "meaning": "wie immer"
+ },
+ {
+  "word": "تَرس",
+  "meaning": "Angst"
+ },
+ {
+  "word": "موش",
+  "meaning": "Maus"
+ },
+ {
+  "word": "حَرف زَدَن",
+  "meaning": "reden, sprechen"
+ },
+ {
+  "word": "عَجَله",
+  "meaning": "Eile"
+ },
+ {
+  "word": "بَرای چه؟",
+  "meaning": "wozu? / weshalb?"
+ },
+ {
+  "word": "سیاه",
+  "meaning": "schwarz"
+ },
+ {
+  "word": "خَریدَن / خَر",
+  "meaning": "kaufen"
+ },
+ {
+  "word": "او",
+  "meaning": "er, sie, es"
+ },
+ {
+  "word": "دین",
+  "meaning": "Religion"
+ },
+ {
+  "word": "نان",
+  "meaning": "Brot"
+ },
+ {
+  "word": "دیر",
+  "meaning": "spät"
+ },
+ {
+  "word": "دُو",
+  "meaning": "zwei"
+ },
+ {
+  "word": "سِتاره",
+  "meaning": "Stern"
+ },
+ {
+  "word": "کار کردَن",
+  "meaning": "arbeiten"
+ },
+ {
+  "word": "دُختَر",
+  "meaning": "Tochter, Mädchen"
+ },
+ {
+  "word": "کِتابخانه",
+  "meaning": "Bibliothek"
+ },
+ {
+  "word": "قَبلاََ",
+  "meaning": "früher"
+ },
+ {
+  "word": "بیرون",
+  "meaning": "draußen"
+ },
+ {
+  "word": "آن",
+  "meaning": "jener"
+ },
+ {
+  "word": "جا",
+  "meaning": "Stelle"
+ },
+ {
+  "word": "بارانی",
+  "meaning": "Regenmantel"
+ },
+ {
+  "word": "خانِواده",
+  "meaning": "Familie"
+ },
+ {
+  "word": "دیروزی",
+  "meaning": "gestrige"
+ },
+ {
+  "word": "خواندَن / خوان",
+  "meaning": "lesen, singen"
+ },
+ {
+  "word": "حالا",
+  "meaning": "jetzt"
+ },
+ {
+  "word": "پِسَر",
+  "meaning": "Sohn"
+ },
+ {
+  "word": "گُفتُگو",
+  "meaning": "Gespräch, Konversation, Unterhaltung"
+ },
+ {
+  "word": "گوش",
+  "meaning": "Ohr"
+ },
+ {
+  "word": "خَراب",
+  "meaning": "kaputt, defekt"
+ },
+ {
+  "word": "آنجا",
+  "meaning": "dort"
+ },
+ {
+  "word": "هَشت",
+  "meaning": "acht"
+ },
+ {
+  "word": "مِرسی",
+  "meaning": "Danke!"
+ },
+ {
+  "word": "کوتاه",
+  "meaning": "kurz"
+ },
+ {
+  "word": "کثیف",
+  "meaning": "dreckig"
+ },
+ {
+  "word": "اَعداد",
+  "meaning": "Zahlen"
+ },
+ {
+  "word": "مَرد",
+  "meaning": "Mann"
+ },
+ {
+  "word": "هَفته",
+  "meaning": "Woche"
+ },
+ {
+  "word": "مِثل",
+  "meaning": "wie, so wie"
+ },
+ {
+  "word": "عِیبی نَدارَد",
+  "meaning": "das macht nichts"
+ },
+ {
+  "word": "بَسته",
+  "meaning": "Paket, Packung; geschlossen"
+ },
+ {
+  "word": "خوب",
+  "meaning": "gut"
+ },
+ {
+  "word": "کِتاب",
+  "meaning": "Buch"
+ },
+ {
+  "word": "زِندِگی کردَن",
+  "meaning": "leben"
+ },
+ {
+  "word": "ماه",
+  "meaning": "Monat"
+ },
+ {
+  "word": "به نَظَر من",
+  "meaning": "meiner Meinung nach"
+ },
+ {
+  "word": "مَدرِسه",
+  "meaning": "Schule"
+ },
+ {
+  "word": "جو",
+  "meaning": "Gerste"
+ },
+ {
+  "word": "سَخت",
+  "meaning": "schwer, schwierig"
+ },
+ {
+  "word": "آتَش نِشانی",
+  "meaning": "Feuerwehr"
+ },
+ {
+  "word": "تِلِفُن",
+  "meaning": "Telefon"
+ },
+ {
+  "word": "کِیک",
+  "meaning": "Kuchen"
+ },
+ {
+  "word": "اِمشَب",
+  "meaning": "heute Abend"
+ },
+ {
+  "word": "دیشَب",
+  "meaning": "gestern Abend / gestern Nacht"
+ },
+ {
+  "word": "اینجا",
+  "meaning": "hier"
+ },
+ {
+  "word": "بوس",
+  "meaning": "Kuss"
+ },
+ {
+  "word": "وَ",
+  "meaning": "und"
+ },
+ {
+  "word": "راه",
+  "meaning": "Weg / Route"
+ },
+ {
+  "word": "نیست",
+  "meaning": "ist nicht"
+ },
+ {
+  "word": "شَهر",
+  "meaning": "Stadt"
+ },
+ {
+  "word": "نوشیدَن / نوش",
+  "meaning": "trinken"
+ },
+ {
+  "word": "اِمروزی",
+  "meaning": "heutige"
+ },
+ {
+  "word": "بابا",
+  "meaning": "Vater"
+ },
+ {
+  "word": "این",
+  "meaning": "dieser"
+ },
+ {
+  "word": "باز",
+  "meaning": "offen"
+ },
+ {
+  "word": "پِدَر",
+  "meaning": "Vater"
+ },
+ {
+  "word": "کیف",
+  "meaning": "(Hand-)Tasche"
+ },
+ {
+  "word": "گَشتَن / گَرد",
+  "meaning": "spazieren gehen, sich drehen"
+ },
+ {
+  "word": "مَزه",
+  "meaning": "Geschmack"
+ },
+ {
+  "word": "تَحصیل",
+  "meaning": "Studium, Ausbildung"
+ },
+ {
+  "word": "پُشتی کوله",
+  "meaning": "Rucksack"
+ },
+ {
+  "word": "خُداحافِظ!",
+  "meaning": "Auf Wiedersehen!"
+ },
+ {
+  "word": "بُزُرگ",
+  "meaning": "groß"
+ },
+ {
+  "word": "داشتَن / دار",
+  "meaning": "haben"
+ },
+ {
+  "word": "داستان",
+  "meaning": "Erzählung/Geschichte"
+ },
+ {
+  "word": "هَمواره",
+  "meaning": "ständig, dauernd"
+ },
+ {
+  "word": "باغ",
+  "meaning": "Garten"
+ },
+ {
+  "word": "خاک",
+  "meaning": "Erde"
+ },
+ {
+  "word": "کارگَر",
+  "meaning": "Arbeiter"
+ },
+ {
+  "word": "شِعر",
+  "meaning": "Gedicht"
+ },
+ {
+  "word": "ایران",
+  "meaning": "Iran"
+ },
+ {
+  "word": "یا",
+  "meaning": "oder"
+ },
+ {
+  "word": "پیر",
+  "meaning": "alt"
+ },
+ {
+  "word": "گَرم",
+  "meaning": "warm"
+ },
+ {
+  "word": "پَس",
+  "meaning": "also, folglich, dann"
+ },
+ {
+  "word": "آشپَز",
+  "meaning": "Koch"
+ },
+ {
+  "word": "چوب",
+  "meaning": "Holz"
+ },
+ {
+  "word": "ساختَن / ساز",
+  "meaning": "(auf)bauen, errichten, konstruieren"
+ },
+ {
+  "word": "قَطار",
+  "meaning": "Zug"
+ },
+ {
+  "word": "شَهرمَرکَز",
+  "meaning": "Stadtzentrum"
+ },
+ {
+  "word": "ریش",
+  "meaning": "Bart"
+ },
+ {
+  "word": "دَه",
+  "meaning": "zehn"
+ },
+ {
+  "word": "جُمعِه \\ آدینه",
+  "meaning": "Freitag"
+ },
+ {
+  "word": "وَلی",
+  "meaning": "aber"
+ },
+ {
+  "word": "دانِستَن / دان",
+  "meaning": "wissen"
+ },
+ {
+  "word": "مَردُم",
+  "meaning": "Leute, Bevölkerung, Volk"
+ },
+ {
+  "word": "بالا",
+  "meaning": "oben"
+ },
+ {
+  "word": "غَذا خوردَن",
+  "meaning": "essen (intr.)"
+ },
+ {
+  "word": "فُروختَن / فُروش",
+  "meaning": "verkaufen"
+ },
+ {
+  "word": "کیلو",
+  "meaning": "Kilo"
+ },
+ {
+  "word": "مِتر",
+  "meaning": "Meter"
+ },
+ {
+  "word": "تَعریف کردَن",
+  "meaning": "erzählen, beschreiben"
+ },
+ {
+  "word": "کَنیسه",
+  "meaning": "Synagoge"
+ },
+ {
+  "word": "آنها",
+  "meaning": "sie (Plural); jene"
+ },
+ {
+  "word": "بازار",
+  "meaning": "Markt"
+ },
+ {
+  "word": "سه شَنبه",
+  "meaning": "Dienstag"
+ },
+ {
+  "word": "اُستاد",
+  "meaning": "Professor"
+ },
+ {
+  "word": "دَر آمَدَن",
+  "meaning": "herauskommen"
+ },
+ {
+  "word": "کُمَک کردن",
+  "meaning": "helfen"
+ },
+ {
+  "word": "قَطارایستگاه",
+  "meaning": "Bahnhof"
+ },
+ {
+  "word": "بَندَر",
+  "meaning": "Hafen"
+ },
+ {
+  "word": "شَراب",
+  "meaning": "Wein"
+ },
+ {
+  "word": "موزه",
+  "meaning": "Museum"
+ },
+ {
+  "word": "فَردا",
+  "meaning": "morgen"
+ },
+ {
+  "word": "وَقت",
+  "meaning": "Zeit"
+ },
+ {
+  "word": "طَلا",
+  "meaning": "Gold"
+ },
+ {
+  "word": "ساله",
+  "meaning": "jährig"
+ },
+ {
+  "word": "فَقَط",
+  "meaning": "nur"
+ },
+ {
+  "word": "این است که",
+  "meaning": "deshalb, daher"
+ },
+ {
+  "word": "تاس ریختَن / تاس ریز",
+  "meaning": "würfeln"
+ },
+ {
+  "word": "دوچَرخه",
+  "meaning": "Fahrrad"
+ },
+ {
+  "word": "سیب",
+  "meaning": "Apfel"
+ },
+ {
+  "word": "تو",
+  "meaning": "du"
+ },
+ {
+  "word": "نوش",
+  "meaning": "zum Wohl"
+ },
+ {
+  "word": "چه؟",
+  "meaning": "was?"
+ },
+ {
+  "word": "چِرا؟ / چِرا!",
+  "meaning": "warum? / doch! (Widerspruch gegen eine verneinte Frage)"
+ },
+ {
+  "word": "زیبا",
+  "meaning": "schön"
+ },
+ {
+  "word": "کَردَن / کُن",
+  "meaning": "machen"
+ },
+ {
+  "word": "خوردَن / خور",
+  "meaning": "essen, trinken"
+ },
+ {
+  "word": "دِرَخت",
+  "meaning": "Baum"
+ },
+ {
+  "word": "تَحصیلی",
+  "meaning": "studien-"
+ },
+ {
+  "word": "بُزُرگ کَردَن",
+  "meaning": "vergrößern"
+ },
+ {
+  "word": "گَرم کَردَن",
+  "meaning": "warm machen"
+ },
+ {
+  "word": "دَویدَن / دَو",
+  "meaning": "laufen, rennen, joggen"
+ },
+ {
+  "word": "دِه",
+  "meaning": "Dorf"
+ },
+ {
+  "word": "کافه",
+  "meaning": "Café"
+ },
+ {
+  "word": "کِلیسا",
+  "meaning": "Kirche"
+ },
+ {
+  "word": "هَواپِیما",
+  "meaning": "Flugzeug"
+ },
+ {
+  "word": "پِسته",
+  "meaning": "Pistazie"
+ },
+ {
+  "word": "دَرویش",
+  "meaning": "Derwisch"
+ },
+ {
+  "word": "غَذا",
+  "meaning": "Essen"
+ },
+ {
+  "word": "دیدَن / بین",
+  "meaning": "sehen"
+ },
+ {
+  "word": "خانُم",
+  "meaning": "Frau, Ehefrau, Dame"
+ },
+ {
+  "word": "تاریخ",
+  "meaning": "Geschichte"
+ },
+ {
+  "word": "کار",
+  "meaning": "Arbeit"
+ },
+ {
+  "word": "دَربارهٔ",
+  "meaning": "über, in Bezug auf"
+ },
+ {
+  "word": "گُمان کَردَن",
+  "meaning": "vermuten"
+ },
+ {
+  "word": "آخِر هفته",
+  "meaning": "Wochenende"
+ },
+ {
+  "word": "آیَنده",
+  "meaning": "Zukunft"
+ },
+ {
+  "word": "زَرد",
+  "meaning": "gelb"
+ },
+ {
+  "word": "کوه",
+  "meaning": "Berg"
+ },
+ {
+  "word": "سِه",
+  "meaning": "drei"
+ },
+ {
+  "word": "کُجا؟",
+  "meaning": "wo?"
+ },
+ {
+  "word": "خوردَنی",
+  "meaning": "essbar, Essbares"
+ },
+ {
+  "word": "بازی کردَن",
+  "meaning": "(ein Spiel) spielen"
+ },
+ {
+  "word": "مَسجِد",
+  "meaning": "Moschee"
+ },
+ {
+  "word": "نَمایِش",
+  "meaning": "Vorführung; Aufführung"
+ },
+ {
+  "word": "روی",
+  "meaning": "auf"
+ },
+ {
+  "word": "دوربین",
+  "meaning": "Fernrohr"
+ },
+ {
+  "word": "خَسته",
+  "meaning": "müde"
+ },
+ {
+  "word": "رِشته",
+  "meaning": "Fach(-richtung)"
+ },
+ {
+  "word": "سَرما خوردَن",
+  "meaning": "sich erkälten"
+ },
+ {
+  "word": "پَنیر",
+  "meaning": "Käse"
+ },
+ {
+  "word": "تِئاتر",
+  "meaning": "Theater"
+ },
+ {
+  "word": "گُذَرنامه",
+  "meaning": "Reisepass"
+ },
+ {
+  "word": "بِرِنج",
+  "meaning": "Reis"
+ },
+ {
+  "word": "شَنبه",
+  "meaning": "Samstag"
+ },
+ {
+  "word": "رَفتَن / رو",
+  "meaning": "gehen"
+ },
+ {
+  "word": "نِوِشتَن / نِویس",
+  "meaning": "schreiben"
+ },
+ {
+  "word": "زَبان",
+  "meaning": "Sprache, Zunge"
+ },
+ {
+  "word": "دُرُست کَردَن",
+  "meaning": "in Ordnung bringen, kochen"
+ },
+ {
+  "word": "سر و صدا",
+  "meaning": "Lärm"
+ },
+ {
+  "word": "آشپَزخانه",
+  "meaning": "Küche"
+ },
+ {
+  "word": "دَر",
+  "meaning": "Tür"
+ },
+ {
+  "word": "ظُهر",
+  "meaning": "Mittag"
+ },
+ {
+  "word": "هَر",
+  "meaning": "jede/r"
+ },
+ {
+  "word": "تِلِویزیون",
+  "meaning": "Fernseher; Fernsehen"
+ },
+ {
+  "word": "جَوان",
+  "meaning": "jung"
+ },
+ {
+  "word": "خوشمَزه",
+  "meaning": "wohlschmeckend"
+ },
+ {
+  "word": "چَند",
+  "meaning": "einige; wie viele?"
+ },
+ {
+  "word": "شَرق",
+  "meaning": "Osten"
+ },
+ {
+  "word": "رِسیدَن / رِس",
+  "meaning": "ankommen, erreichen"
+ },
+ {
+  "word": "ما",
+  "meaning": "wir"
+ },
+ {
+  "word": "هُتِل",
+  "meaning": "Hotel"
+ },
+ {
+  "word": "بِفَرمایید",
+  "meaning": "bitte sehr; bitte schön; nehmen Sie Platz; was darf es sein?"
+ },
+ {
+  "word": "گالِری",
+  "meaning": "Galerie"
+ },
+ {
+  "word": "بوسیدَن / بوس",
+  "meaning": "küssen"
+ },
+ {
+  "word": "فُروشَنده",
+  "meaning": "Verkäufer"
+ },
+ {
+  "word": "نَواختَن / نَواز",
+  "meaning": "spielen (Instrument)"
+ },
+ {
+  "word": "زَدَن / زَن",
+  "meaning": "schlagen"
+ },
+ {
+  "word": "شِنیدَن / شِنو",
+  "meaning": "hören"
+ },
+ {
+  "word": "دَر خانه",
+  "meaning": "zu Hause"
+ },
+ {
+  "word": "دیوار",
+  "meaning": "Wand, Mauer"
+ },
+ {
+  "word": "شُماره",
+  "meaning": "Nummer"
+ },
+ {
+  "word": "رِستوران",
+  "meaning": "Restaurant"
+ },
+ {
+  "word": "دُکتُر",
+  "meaning": "Doktor"
+ },
+ {
+  "word": "بَرای",
+  "meaning": "für"
+ },
+ {
+  "word": "بَرف",
+  "meaning": "Schnee"
+ },
+ {
+  "word": "آب سیب",
+  "meaning": "Apfelsaft"
+ },
+ {
+  "word": "(جان) مامان",
+  "meaning": "Mama"
+ },
+ {
+  "word": "الجَزایِری",
+  "meaning": "algerisch"
+ },
+ {
+  "word": "که",
+  "meaning": "dass; welcher (Relativpronomen)"
+ },
+ {
+  "word": "میهَن",
+  "meaning": "Heimat"
+ },
+ {
+  "word": "ماندَن / مان",
+  "meaning": "bleiben"
+ },
+ {
+  "word": "قَشَنگ",
+  "meaning": "schön"
+ },
+ {
+  "word": "مِهرَبان",
+  "meaning": "liebevoll"
+ },
+ {
+  "word": "پاک",
+  "meaning": "rein"
+ },
+ {
+  "word": "مَشهور",
+  "meaning": "berühmt"
+ },
+ {
+  "word": "دوباره",
+  "meaning": "wieder, nochmals"
+ },
+ {
+  "word": "آفتابی",
+  "meaning": "sonnig"
+ },
+ {
+  "word": "آگوست",
+  "meaning": "August"
+ },
+ {
+  "word": "اما",
+  "meaning": "aber"
+ },
+ {
+  "word": "راست",
+  "meaning": "rechts"
+ },
+ {
+  "word": "بَستَن / بَند",
+  "meaning": "schließen, binden, packen"
+ },
+ {
+  "word": "حَتّی",
+  "meaning": "sogar"
+ },
+ {
+  "word": "کَمی",
+  "meaning": "ein wenig"
+ }
+]

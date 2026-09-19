@@ -26,6 +26,13 @@
 - [ ] **ZLB Berlin, Kulturgutschutz und Sammlungsmanagement — Frist 30.09.2026**, E11 TV-L unbefristet, mind. 75 %, Kontakt Elisabeth Feß +49 30 90226-514. Kein Anschreiben gebaut — fachlicher Kern (präventive Konservierung, Materialkunde, Notfallmanagement) liegt neben dem Profil.
 - Brücke-Museum Outreach und Bildung: Frist war 10.09.2026, abgelaufen.
 
+### Promotionsfinanzierung — geprüft am 16.09.2026
+- [ ] **Elsa-Neumann-Stipendium des Landes Berlin (NaföG) — Bewerbungsrunde 16.09.–11.11.2026, 12:00 Uhr mittags (Ausschlussfrist).** 1.350 €/Monat plus 100 € Sachkostenpauschale, zunächst bis zu zwei Jahre, Ende spätestens nach drei Jahren; Förderbeginn 1. April. Gefördert werden Promotionen an den vier Berliner Universitäten, Einschreibung und Betreuung dort nötig; zur Antragstellung genügt, dass der Zulassungsantrag eingereicht ist. Geschäftsstelle für die wissenschaftlichen Fächer über die Berliner Universitäten (FU/DRS-NaföG). **Konflikt: Das Gespräch mit Manja Stephan ist erst „ab November" verabredet — für diese Runde muss es in die erste Novemberwoche und der Zulassungsantrag unmittelbar danach raus. Sonst April-Runde 2027.**
+- [ ] **Böll-Promotionsstipendium — Portal 15.01.–01.03.2027.** Voraussetzung: Zulassung zur Promotion an einer staatlichen Hochschule, erste Vorarbeiten abgeschlossen, überzeugendes Exposé. Als Alumnus starke Passung. Dieselbe Abhängigkeit von der Betreuungszusage wie Elsa-Neumann, nur mit vier Monaten mehr Luft.
+- [ ] **Landesgraduiertenförderung MLU Halle** (Purnaqcheband-Rückfall): Vergabe jeweils zum 1. April, Antrag über die Fakultät, deren interne Frist deutlich früher liegen kann — bei der Philosophischen Fakultät I nach der Frist für den 01.04.2027 fragen. Betreuung durch eine/n nicht im Ruhestand befindliche/n MLU-Hochschullehrer/in erforderlich (Rzehak geht in Pension, scheidet aus).
+- [ ] ASEEES-Vollmitgliedschaft läuft am 31.12.2026 aus — Verlängerung nötig für REECAS NW 2027 (Seattle, 15.–17.04.2027). CESS-Mitgliedschaftsentscheidung war auf November 2026 vertagt.
+- Überholt: lyrikline-Aufnahmen waren für September 2026 in Tadschikistan geplant — Reise verschoben, Termin mit Heiko Strunk neu ansetzen. DAAD-Lehrassistenz: Zyklus 2027/28 ist das letzte sichere Fenster, Master darf bei Antritt keine zwei Jahre alt sein.
+
 ### Entwürfe liegen vor, Versand unklar (Stand 03.09.2026)
 - BfV AWV-2026-062 (Referent Islamismus/islamistischer Terrorismus) — Anschreiben datiert 02.09.2026
 - DFG GRK 3125 Bonn, Kennziffer 2026/333 — durch das neue Paket vom 07.09.2026 ersetzt

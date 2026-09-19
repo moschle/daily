@@ -519,6 +519,18 @@ def save_vocab_memory(m):
     with open(VOCAB_FILE,"w",encoding="utf-8") as f:
         json.dump(m, f, ensure_ascii=False, indent=2)
 
+BEKANNT_FILE = Path(__file__).parent / "bekannt_fa.json"
+
+def load_bekannt(lc):
+    """Woerter, die er aus Anki schon kann. Die sollen nicht als neu eingefuehrt werden."""
+    if lc != "fa" or not BEKANNT_FILE.exists():
+        return []
+    try:
+        with open(BEKANNT_FILE, "r", encoding="utf-8") as f:
+            return [e["word"] for e in json.load(f) if e.get("word")]
+    except Exception:
+        return []
+
 def get_due_vocab(lc, m):
     today = now_berlin().date()
     return [e for e in m.get(lc,[]) if (today - datetime.fromisoformat(e["last_review"]).date()).days >= e.get("interval",1)]
@@ -547,7 +559,7 @@ def generate_language_exercise():
     doy = today.timetuple().tm_yday
     dss = max(0, (today - LANG_START).days)
     week = dss // 7
-    language, lc = ("Arabisch","ar") if doy%2==0 else ("Persisch","fa")
+    language, lc = ("Persisch", "fa")   # nur noch Persisch, Arabisch entfaellt
     if week<2:
         level, instr = "A2 (einfach)", "Sehr einfache Sätze. Grundvokabular: Familie, Essen, Wetter, Tagesablauf. Präsens und einfache Vergangenheit."
     elif week<6:
@@ -559,6 +571,7 @@ def generate_language_exercise():
 
     mem = load_vocab_memory()
     due = get_due_vocab(lc, mem)
+    bekannt = load_bekannt(lc)
     rep = ""
     if due:
         vl = "\n".join([f"  - {v['word']} ({v['meaning']})" for v in due])
@@ -578,7 +591,7 @@ def generate_language_exercise():
             "topic":topics[dss%len(topics)],"headline":headline,"news_text":news_content,
             "week":week,"repetition_prompt":rep,
             "new_vocab_instruction":"\nWICHTIG: Neue Vokabeln inline glossieren. Am Ende eine Zeile: \"NEUE VOKABELN: Wort (Bedeutung), Wort (Bedeutung)\"\n",
-            "memory":mem,"due_vocab":due}
+            "memory":mem,"due_vocab":due,"bekannt":bekannt}
 
 # ─── Claude aufrufen ───
 def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exercise):
@@ -601,10 +614,19 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     else:
         news_p = "NACHRICHTEN:\nKeine aktuellen Nachrichten verfügbar. Schreibe einen kurzen Satz auf Deutsch."
 
+    bek = lang.get("bekannt") or []
+    if bek:
+        probe = ", ".join(bek[:400])
+        bekannt_p = ("BEKANNTER WORTSCHATZ: Diese Woerter kennt er bereits aus seinem Anki-Deck. "
+                     "Verwende sie gern im Text, fuehre sie aber NICHT als neue Vokabel auf. "
+                     "Neue Vokabeln muessen ausserhalb dieser Liste liegen:\n" + probe + "\n")
+    else:
+        bekannt_p = ""
     lang_p = (f"SPRACHÜBUNG - TEXT (RTL, in Originalschrift):\n"
               f"Schreibe einen kurzen Übungstext auf {lang['language']} zum Thema \"{lang['topic']}\".\n"
               f"Regeln:\n- 5-8 Sätze in {script} Schrift. {vok}\n- {lang['instructions']}\n- {dialect}\n"
               f"- {lang['new_vocab_instruction']}\n{lang['repetition_prompt']}\n"
+              f"{bekannt_p}\n"
               f"SPRACHÜBUNG - FRAGEN (LTR, auf Deutsch):\n"
               f"2-3 Verständnisfragen auf Deutsch zum obigen Text. Jede Frage in einer neuen Zeile.\n"
               f"Keine Originalschrift in diesem Abschnitt.")
