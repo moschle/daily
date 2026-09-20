@@ -1,16 +1,22 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 16. September 2026*
+*Letzte Aktualisierung: 20. September 2026*
+
+**Standort: derzeit Zürich, Arbeit im Kunstfelsenbau. Wohnsitz Leipzig.** Der Morgenbrief richtet sich nach /automat/standort.txt auf netcup; dort steht aktuell `zuerich`.
+
+## ERLEDIGT, abgeschickt (Stand 20.09.2026)
+
+- [x] Jobcenter Leipzig, Mitwirkung — hochgeladen
+- [x] GRK Bonn, Kennziffer 2026/333 — abgeschickt
+- [x] Gropius Bau / KBB, Volontariat kuratorische Abteilung — abgeschickt
+- [x] DÜF Reisestipendium, Herbstvergabe — abgeschickt
+- Uni Leipzig 119/2026 — Frist am 15.09. verstrichen, bewusst gelassen
 
 ## DRINGEND (diese Woche)
 
-- [ ] **Jobcenter Leipzig, Mitwirkung — Frist 02.10.2026**, BG-Nr. 07502//0145200, Zeichen 566. Paket liegt fertig vor (15.09.): Antwortschreiben, Anlage EKS künstlerische Tätigkeit 09/2026–02/2027, Anlage EKS ZEDAR Silk, Kontoauszug Trade Republic, PayPal-Übersicht, Nachweis VRK (939,34 € statt 9.656.575 €), Antrag Einstiegsgeld § 16b + § 16c für ZEDAR. Unterschreiben (Antwortschreiben, beide EKS auf S. 2 und S. 9, Antrag) und über jobcenter.digital hochladen — vor der Abfahrt am 20.09. Danach: Termin bei der Integrationsfachkraft, Gewerbeanmeldung erst im Oktober nach Abstimmung.
 - [ ] **AOK PLUS, Service-Nr. 2002205498**: Antrag freiwillige Mitgliedschaft mit ergänztem Punkt 3 zurücksenden; Ummeldung nach Leipzig beim Bürgeramt nachholen und Meldebestätigung nachreichen.
 
-- [ ] **DÜF Herbstvergabe — Frist 15.09.2026 (HEUTE)**, verifiziert am 15.09. im Bewerbungsportal bewerbung.uebersetzerfonds.de: Arbeitsstipendium und Aufenthaltsstipendien (Visby/Arles/Straelen) setzen zwingend einen Verlagsvertrag voraus — **ohne hochroth-Vertrag dieses Jahr nicht möglich, entfällt.** Offen bleibt allein das **Reisestipendium in der Variante „allgemein landeskundlich"** (kein Verlagsvertrag nötig). Anlagen dafür: Kurzbiographie (max. 1 Normseite), Veröffentlichungsverzeichnis (max. 1 Normseite), 10 Normseiten einer in Arbeit befindlichen Übersetzung mit Paginierung, ausführliche Begründung des Reiseprojekts (ca. 1 S.), Kostenkalkulation, Kopie der entsprechenden Stelle des Originals — alles in EINER PDF, Upload erst nach Absenden des Onlineformulars über den Link in der Eingangsbestätigung. Die Reise darf bei der Jurysitzung (max. 8 Wochen nach Frist) noch nicht angetreten sein. Stipendienhöhe nach tatsächlichen Reisekosten, i. d. R. 500–4.000 €.
 - [ ] **DÜF Initiativstipendium — Frist 30.11.2026**, am 15.09.2026 im Portal verifiziert (Bewerbungszeitraum „Herbst", Einreichungsfrist 30.11.), nicht 15.09. 2.000 €, ohne Verlagsvertrag möglich. Anlagen: 3 Normseiten Übersetzung, Projektbeschreibung inkl. erstem Exposé (ca. 1 S.), Kurzbiographie, Veröffentlichungsverzeichnis, Kopie der Originalstelle. Kurzbiographie, Veröffentlichungsverzeichnis und Originalseiten sind aus dem Reisestipendien-PDF übernehmbar; neu zu schreiben ist nur die Projektbeschreibung.
-- [ ] **GRK Bonn — Frist 17.09.2026**: DFG-Graduiertenkolleg 3125 „Versöhnung und ihre Äquivalente im transkulturellen Vergleich", 12 Stellen, 65 % E13, 01.02.2027–31.01.2031, Sprecherin Prof. Dr. Christine Krüger, Auswahlgespräche in der ersten Oktoberhälfte. **Bewerbung als EINE PDF per E-Mail an ckrueger@uni-bonn.de unter Angabe der Kennziffer 2026/333** — kein Online-Portal. Gefordert: Zeugnisse, Lebenslauf, 2-seitiges Motivationsschreiben, 5-seitige Projektskizze, Englischnachweis (bis Stellenantritt nachreichbar), Empfehlungsschreiben (bei Einladung nachreichbar). Englisch B2 genügt, da die Dissertation auf Deutsch geschrieben wird. **Paket fertig (14 S., Stand 16.09.2026): Anschreiben, Exposé „Ungesagtes nach dem Vertrag", Lebenslauf, MA-Zeugnis, BA-Zeugnis, Abitur als vorläufiger Englischnachweis. Anschreiben und Exposé neu gesetzt — ANOR jetzt „angenommen, im Erscheinen" statt „peer-reviewed 2026", C1-Satz ersetzt durch Dissertation auf Deutsch plus B2-Nachweis bis Stellenantritt. Gegen das Original gediffelt: nur die gewollten Änderungen plus ein korrigierter Trennfehler („Nicht-Gekommensein"). Conermann als Professor für Islamwissenschaften im Kollegsteam bestätigt.**
-- [ ] **Uni Leipzig, Dezernat 5 Finanzen, Kennziffer 119/2026 — Frist 15.09.2026 (HEUTE)**: Mitarbeiter/-in Unterstützungstätigkeiten Finanzen, EG 3 TV-L geringfügig, bis zu 9 Wochenstunden, befristet bis 30.09.2028 (§ 14 Abs. 2 TzBfG), Beginn 01.10.2026, adressiert an Frau Diana Richter, Dezernentin Finanzen. **Einreichung ausschließlich über das Online-Bewerbungsportal (uni-leipzig.b-ite.careers), nicht per Mail.** Inhaltliche Rückfragen: Verena Janoske, 0341/97-31002. **Gesamt-PDF liegt fertig vor (5 S.: Anschreiben, Lebenslauf, MA-Zeugnis), Anschreiben auf den 15.09. datiert — nur noch hochladen.**
 - [ ] **BAMF-2026-300, Entscheider Landesasylstelle Berlin** (Interamt, Beginn 04.01.2027, SÜ1, kein Anschreiben zulässig) — Hilfstexte für die Freitextfelder liegen vor
 - [ ] **flaschenpost Leipzig**: Probearbeiten als Fahrer/Kurier steht an. Midijob-Vertrag statt Minijob prüfen.
 - [ ] **Gastdozenturen des DÜF — Frist 30.09.2026**: Sommersemester 2027, 10.000 € plus Reisekosten. **Unterlagen fertig (3 S., 16.09.2026): biografische Angaben, Sprachen, Publikationen und Lehrerfahrung, Seminaridee „Übersetzen ohne Tradition", Zielgruppe, drei Wunschuniversitäten (DLL Leipzig, MLU Halle, HU Berlin Zentralasien-Seminar).** Zwei Vorbehalte: Die Ausschreibung verlangt Übersetzer·innen, die ihre Einkünfte überwiegend aus literarischen Tätigkeiten erzielen; und wer für das SoSe 2027 ausgewählt wird, ist von der DÜF-Ausschreibung vom 15.01.2027 ausgeschlossen — kollidiert also mit einem Arbeitsstipendium, falls der Verlagsvertrag bis dahin steht.
@@ -19,7 +25,6 @@
 ## Bewerbungspipeline (Stand 07.09.2026)
 
 ### Anschreiben fertig, Versand offen (Stand 16.09.2026)
-- [ ] **Gropius Bau / KBB, Volontariat kuratorische Abteilung — Frist 18.09.2026**, Beginn 01.11.2026, 12 Monate plus angestrebte 6, Gespräche KW 40. Online über kbbjobs.softgarden.io, Kontakt Sonja Borstner info-jobs@kbb.eu. Noch nötig: Lebenslauf und Zeugnisse ans Anschreiben hängen.
 - [ ] **Museum Ratingen, Wissenschaftliches Volontariat — Frist 25.09.2026**, Beginn 01.01.2027, 2 Jahre, halbes EG 13 Stufe 1 TVöD, 39 h. Über das Bewerbungsportal stadt-ratingen.de unter dem Kennwort „Wissenschaftliches Volontariat im Museum Ratingen". Fachlich Frau Siever 02102/550-4183. Der Master wird verlangt und liegt vor — die früher notierte „Master-Hürde" existiert nicht mehr.
 - [ ] **Literaturhaus Thurgau / Bodmanhaus, Programmleitung — Frist 30.09.2026**, ca. 30 %, 5 Jahre plus Option, Beginn 01.01.2027. Per Mail an sekretariat@bodmanhaus.ch, Rückfragen Lorenz Zubler +41 79 948 99 49. Einzige Stelle im Stapel, die sich mit einer Promotion verträgt. Anschreiben nutzt den Schweizbezug: Schweizer Eltern, Kenntnis der jüngeren Schweizer Literatur über die unabhängigen Lesereihen, Kontakt zu Mohammad Abbas Salhei, der aus dem Persischen exklusiv für den Schweizer Raum überträgt — **Schreibweise des Namens vor dem Absenden prüfen, nicht verifizierbar.**
 - [ ] **Bundessprachenamt Hürth, Referent sprachtechnologische Fachanwendungen — Frist 06.10.2026**, E13 TVöD unbefristet, Voll- oder Teilzeit, Homeoffice möglich. PDF-Druckversion über bewerbung.bundeswehr-karriere.de. Anschreiben argumentiert über die Masterarbeit als translationswissenschaftliche Arbeit plus die eigenen Werkzeuge (tajikpoemanalyzer, GND-Abgleich, Morgenbrief-Pipeline, Stellenscraper, Persisch-Englisch-Wörterbuch) und benennt die fehlende CAT-Praxis im Behördenbetrieb offen. Kollidiert als unbefristete Vollzeitstelle mit einer Promotion.
@@ -84,7 +89,6 @@
 - Antwort 31.07.2026: keine Zu-/Absage, inhaltlich offen. Forschungsfreisemester ab Mitte August, bis Ende Oktober nicht in Berlin — **Gespräch über mögliche Themen ab November**.
 - Themenrichtung Stephan: „Alltagsleben" des freien Verses — wer schreibt für wen und warum, unter welchen Bedingungen; Verhältnis zur klassischen Dichtung; Migration/Diaspora, Geschlechterverhältnisse, Nation-Building, Social Media und KI
 - Purnaqcheband (MLU Halle) als Zweitgutachter bzw. Halle als reibungsloser Rückfall
-- [ ] **GRK Bonn — Frist 17.09.2026**
 - [ ] GRK Heidelberg „Ambivalent Enmity"
 - [ ] Uni Bayreuth Promotionsstelle Islamwissenschaft
 - [ ] Exposé Dissertation (1 Seite Lentz/Draesner, 10–15 S. Böll)
