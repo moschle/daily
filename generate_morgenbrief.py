@@ -69,6 +69,9 @@ def _parse_ical_events(data, today_berlin, horizon):
 
 # Nur diese iCloud-Kalender einbeziehen (Shirin ausschließen)
 CALDAV_ALLOWED_CALENDARS = {"SM", "Moritz", "Arbeit", "Familie", "Geburtstag", "Preply"}
+# Nur diese Kalender enthalten seine eigenen Verpflichtungen. Der Rest dient
+# allein der Abstimmung und darf nicht als sein Termin dargestellt werden.
+EIGENE_KALENDER = {"Moritz", "SM"}
 
 def _fetch_caldav_events(today_berlin, horizon):
     """Holt Events via CalDAV (iCloud mit app-spezifischem Passwort)."""
@@ -92,7 +95,8 @@ def _fetch_caldav_events(today_berlin, horizon):
                 for event in results:
                     ical_data = event.data
                     if ical_data:
-                        events.extend(_parse_ical_events(ical_data, today_berlin, horizon))
+                        for zeile in _parse_ical_events(ical_data, today_berlin, horizon):
+                            events.append(f"{zeile}\t@{cal_name}")
                 print(f"CalDAV: {cal_name} — {len(results)} Events", file=sys.stderr)
             except Exception as e:
                 print(f"CalDAV Kalender-Fehler ({cal_name}): {e}", file=sys.stderr)
@@ -133,7 +137,18 @@ def fetch_calendar(ical_urls):
         all_events.extend(_fetch_ical_urls(ical_urls, today_berlin, horizon))
     # Deduplizieren (gleicher Text = gleicher Termin)
     all_events = sorted(set(all_events))
-    return "\n".join(all_events) if all_events else "[Keine Termine in den nächsten 3 Tagen]"
+    eigene, fremde = [], []
+    for zeile in all_events:
+        if "\t@" in zeile:
+            text, kal = zeile.rsplit("\t@", 1)
+            (eigene if kal in EIGENE_KALENDER else fremde).append(f"{text}  [{kal}]")
+        else:
+            eigene.append(zeile)
+    teile = []
+    teile.append("DEINE TERMINE:\n" + ("\n".join(eigene) if eigene else "  [keine]"))
+    if fremde:
+        teile.append("NUR ZUR ABSTIMMUNG (nicht deine Termine):\n" + "\n".join(fremde))
+    return "\n\n".join(teile) if (eigene or fremde) else "[Keine Termine in den nächsten 3 Tagen]"
 
 # ─── Wetter (unverändert) ───
 def fetch_weather_for_location(lat, lon, name):
@@ -181,15 +196,43 @@ def fetch_weather_for_location(lat, lon, name):
     except Exception as e:
         return f"{name}: [nicht verfügbar: {e}]"
 
+ORTE = {
+    "leipzig":  (51.34, 12.37, "Leipzig"),
+    "roitzsch": (51.62, 12.30, "Roitzsch"),
+    "zuerich":  (47.37,  8.54, "Zürich"),
+    "zürich":   (47.37,  8.54, "Zürich"),
+    "berlin":   (52.52, 13.40, "Berlin"),
+    "halle":    (51.48, 11.97, "Halle (Saale)"),
+    "dresden":  (51.05, 13.74, "Dresden"),
+}
+
+def aktueller_ort():
+    """Wo er gerade ist. Voreinstellung Leipzig.
+
+    Umschalten ueber die Datei /automat/standort.txt (eine Zeile, z. B. "zuerich")
+    oder die Umgebungsvariable STANDORT. Unbekannte Orte fallen auf Leipzig zurueck.
+    """
+    wahl = os.environ.get("STANDORT", "").strip().lower()
+    if not wahl:
+        for kandidat in ("/automat/standort.txt", str(Path(__file__).parent / "standort.txt")):
+            try:
+                wahl = Path(kandidat).read_text(encoding="utf-8").strip().lower()
+                if wahl:
+                    break
+            except Exception:
+                continue
+    return ORTE.get(wahl, ORTE["leipzig"])
+
 def fetch_weather():
-    result = fetch_weather_for_location(51.34, 12.37, "Leipzig/Roitzsch")
+    lat, lon, name = aktueller_ort()
+    result = fetch_weather_for_location(lat, lon, name)
     if "nicht verfügbar" in result:
         # Fallback: wttr.in
         try:
-            req = urllib.request.Request("https://wttr.in/Leipzig?format=%t+%C+%p&lang=de", headers={"User-Agent": "curl/7.0"})
+            req = urllib.request.Request(f"https://wttr.in/{name}?format=%t+%C+%p&lang=de", headers={"User-Agent": "curl/7.0"})
             with urllib.request.urlopen(req, timeout=10) as resp:
                 wttr = resp.read().decode("utf-8").strip()
-            result = f"Leipzig: {wttr} (Quelle: wttr.in, Open-Meteo nicht erreichbar)"
+            result = f"{name}: {wttr} (Quelle: wttr.in, Open-Meteo nicht erreichbar)"
         except Exception:
             pass
     return result
@@ -462,45 +505,74 @@ def _select_discovery_album():
     return (pick["artist"], pick["album"])
 
 # ─── Tagesimpuls ───
+VORSCHLAEGE_FILE = Path(__file__).parent / "vorschlaege.json"
+
+def _lade_vorschlagsquellen():
+    try:
+        with open(VORSCHLAEGE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
 def generate_impulse():
+    """Genau ein konkreter Vorschlag fuer heute - kurz, benannt, machbar.
+
+    Die Vorschlaege stammen aus seinem eigenen Bestand: Buecher aus der
+    Calibre-Bibliothek, Karten aus dem Anki-Deck, Alben aus der Mediathek.
+    Nichts wird erfunden. Die Kategorie wechselt mit dem Wochentag, damit
+    nicht jeden Tag dasselbe kommt.
+    """
     today = now_berlin()
     day_de = {"Monday":"Montag","Tuesday":"Dienstag","Wednesday":"Mittwoch","Thursday":"Donnerstag",
               "Friday":"Freitag","Saturday":"Samstag","Sunday":"Sonntag"}.get(today.strftime("%A"), today.strftime("%A"))
+    q = _lade_vorschlagsquellen()
+    wd = today.weekday()   # 0 = Montag
 
-    creative_pool = [
-        "Entwickle einen Film oder scanne Negative.",
-        "Schau einen persischen Film (z. B. von Panahi, Kiarostami, Farhadi oder Rasoulof).",
-        "Nimm eine Mixtape-Seite auf.", "Schreibe handschriftlich einen Brief.",
-        "Mache Skizzen oder zeichne.", "Übersetze ein Gedicht, das nicht für hochroth ist.",
-        "Mach einen langen Spaziergang mit der Kamera.",
-        "Improvisiere am Klavier – ganz ohne Übungsziel.",
-        "Lies einen alten Text von dir und mache dir Notizen dazu.",
-        "Koche etwas Neues – ein Rezept aus einer anderen Küche.",
-        "Schicke eine Postkarte an jemanden.",
-        "Mache Field Recordings (im Garten oder in der Umgebung).",
-    ]
+    vorschlag = None
 
+    if wd in (0, 3) and q.get("buecher"):
+        b = random.choice(q["buecher"])
+        titel = b.get("titel", "").strip()
+        autor = b.get("autor", "").strip()
+        wie = autor and f"{titel} von {autor}" or titel
+        vorschlag = f"Lies eine einzige Seite: {wie}. Eine Seite, nicht mehr."
+
+    elif wd in (1, 4) and q.get("vokabeln"):
+        drei = random.sample(q["vokabeln"], min(3, len(q["vokabeln"])))
+        liste = ", ".join(f"{v['word']} ({v['meaning'][:40]})" for v in drei)
+        vorschlag = f"Fünf Minuten Persisch: {liste}. Nur diese drei, laut lesen."
+
+    elif wd == 2 and q.get("filme"):
+        f = random.choice(q["filme"])
+        vorschlag = f"Sieh heute Abend etwas: {f}."
+
+    elif wd == 5:
+        vorschlag = "Nimm dir dreißig Minuten und geh mit der Kamera raus. Zehn Bilder, dann Schluss."
+
+    else:
+        vorschlag = "Schreib heute zehn Zeilen, egal worüber. Handschriftlich, kein Bildschirm."
+
+    # Album kommt zusaetzlich, das laeuft nebenbei
     if random.random() < 0.25:
         artist, album = _select_discovery_album()
-        album_line = f"Album des Tages: {artist} — {album} (Entdeckung – nicht in deiner Bibliothek)"
+        album_line = f"{artist} — {album} (Entdeckung, nicht in deiner Bibliothek)"
     else:
         entry = _select_album_of_the_day()
         if entry:
-            album_line = f"Album des Tages: {entry['artist']} — {entry['album']}"
-            if entry["plays"]==0:
-                album_line += " (Noch nie gehört!)"
-            elif entry["rating"]>=80:
-                album_line += " (Du magst diesen Künstler – hör mal wieder rein!)"
-            elif entry["last_played"] and (today.date()-entry["last_played"]).days > 90:
-                album_line += " (Lange nicht gehört.)"
+            album_line = f"{entry['artist']} — {entry['album']}"
+            if entry["plays"] == 0:
+                album_line += " (noch nie gehört)"
+            elif entry["last_played"] and (today.date() - entry["last_played"]).days > 90:
+                album_line += " (lange nicht gehört)"
         else:
             a, b = _select_discovery_album()
-            album_line = f"Album des Tages: {a} — {b}"
+            album_line = f"{a} — {b}"
 
-    return (f"Heute ist {day_de}. Kleine Ideen für den Tag (wähle höchstens eine, wenn Zeit ist):\n"
-            f"– Kreativ: {random.choice(creative_pool)}\n"
-            f"– {album_line}\n"
-            f"Passe die Auswahl an deine Termine und das Wetter an. Wenn der Tag voll ist, lass die Vorschläge einfach weg.")
+    return (f"Heute ist {day_de}.\n"
+            f"EINE SACHE für heute: {vorschlag}\n"
+            f"Nebenbei zu hören: {album_line}\n"
+            f"Gib genau diesen einen Vorschlag wieder, formuliere ihn kurz und ohne Alternativen. "
+            f"Biete nichts zusätzlich an. Wenn der Tag voll ist, sag das in einem Halbsatz.")
 
 # ─── Sprachübung (mit Vokabelgedächtnis) ───
 LANG_START = datetime(2026, 4, 5, tzinfo=BERLIN_TZ)
