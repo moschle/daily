@@ -314,7 +314,7 @@ def search_related_case(case, seen_slugs):
                 raw = "\n".join(s.get("text", "") for s in (r.get("snippets") or []) if isinstance(s, dict))
             if _bad(raw, slug):
                 continue
-            shaped = clean_ocr(raw)[:60000]
+            shaped = clean_ocr(raw)[:25000]  # gleicher Ausschnitt fuer Mail und Fragegeneration
             if not shaped:
                 continue
             az = (detail or {}).get("file_number") or slug
@@ -343,19 +343,27 @@ def lesetext_aufbereiten(related):
         "auf das zweite juristische Staatsexamen.\n\n"
         "Antworte NUR mit JSON, ohne Vorrede und ohne Codefence:\n"
         '{"fragen": [{"frage": "...", "loesung": "..."}, ...]}\n\n'
+        "WICHTIG — SELBSTTRAGENDE FRAGEN:\n"
+        "Jede Frage muss vollstaendig lesbar sein, ohne dass die Entscheidung "
+        "daneben liegt. Das bedeutet: Die Frage nennt Gericht, Datum und "
+        "Aktenzeichen. Sie fasst in zwei bis drei Saetzen den Kern des Sachverhalts "
+        "zusammen, den sie voraussetzt. Dann erst kommt die eigentliche Aufgabe.\n"
+        "Falsch: \"Was hat das Gericht zur Klagefrist entschieden?\"\n"
+        "Richtig: \"Im Urteil des OVG Muenster vom 12.03.2024 (4 A 1234/23) "
+        "hatte der Klaeger gegen einen Planfeststellungsbeschluss geklagt. "
+        "Die Vorinstanz hatte die Klage wegen Verspаetung abgewiesen. "
+        "Unter welchen Voraussetzungen beginnt die Klagefrist in solchen Faellen "
+        "erneut zu laufen?\n\n"
         "Genau drei Fragen, in dieser Reihenfolge:\n"
-        "1. Erfassen: wer klagt gegen wen woraus, wie haben die Vorinstanzen "
-        "entschieden, worum geht der Streit im Kern. Eine Frage, die sich nur "
-        "beantworten laesst, wenn man den Sachverhalt und den Prozessverlauf "
-        "gelesen hat.\n"
-        "2. Die tragende Rechtsfrage: woran haengt die Entscheidung, welcher "
-        "Massstab wird angelegt.\n"
-        "3. Anwaltliche oder richterliche Konsequenz: was folgt daraus fuer die "
-        "eigene Arbeit — was haette anders laufen muessen, worauf ist im "
-        "naechsten vergleichbaren Fall zu achten.\n\n"
-        "Die Fragen duerfen die Antwort nicht verraten und sollen in zwei bis "
-        "vier Saetzen zu beantworten sein. Die Loesung nennt die tragenden "
-        "Erwaegungen der Entscheidung, nicht nur das Ergebnis.\n\n"
+        "1. Sachverhalt und Prozessverlauf: nenne die wesentlichen Fakten (Parteien, "
+        "Streitgegenstand, Vorinstanzen) IN DER FRAGE selbst und frage dann, "
+        "wie das Gericht entschieden hat und warum.\n"
+        "2. Die tragende Rechtsfrage: fasse den rechtlichen Kern kurz zusammen "
+        "und frage nach dem anzulegenden Massstab.\n"
+        "3. Anwaltliche oder richterliche Konsequenz: nenne die Situation aus "
+        "der Entscheidung und frage, was daraus fuer die eigene Arbeit folgt.\n\n"
+        "Die Loesung nennt die tragenden Erwaegungen der Entscheidung, nicht "
+        "nur das Ergebnis. Lieber ein Satz mehr als abgeschnitten.\n\n"
         f"Entscheidung: {related.get('gericht')}, {related.get('aktenzeichen')} "
         f"vom {related.get('datum')}\n\n{text}")
     try:
@@ -451,7 +459,7 @@ def main():
                      "rn": "", "frage": f["frage"].strip(),
                      "loesung": f["loesung"].strip(),
                      "abschnitt": f"Lesetext {related['gericht']} {related['aktenzeichen']}"}
-            merke_lesetext_karte(karte)
+            # Lesetext-Karte nur einmalig stellen, nicht speichern
             heutige.append(karte)
     else:
         lesen = "I. Lesetext\nKein Urteil der passenden Gerichtsbarkeit.\n"

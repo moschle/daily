@@ -37,10 +37,15 @@ def _lies(pfad: Path) -> list[dict]:
 
 
 def lade(skript_id: str) -> list[dict]:
-    """Kuratierte Karten, erzeugte Karten und die Fragen aus frueheren Lesetexten."""
+    """Kuratierte und erzeugte Karten.
+
+    Lesetext-Karten werden hier bewusst NICHT geladen: Sie wurden zusammen
+    mit einem bestimmten Urteil generiert und sind ohne diesen Text
+    nicht sinnvoll beantwortbar. Sie kommen einmalig in dem Brief, in dem
+    das Urteil gezeigt wird, und danach nicht mehr.
+    """
     return (_lies(KARTEN / f"{skript_id}.kuratiert.json")
-            + _lies(KARTEN / f"{skript_id}.gen.json")
-            + [k for k in _lies(LESETEXTE) if k.get("skript") == skript_id])
+            + _lies(KARTEN / f"{skript_id}.gen.json"))
 
 
 def kurz_ort(k: dict) -> str:
