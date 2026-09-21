@@ -14,9 +14,10 @@
     "zr-006",
     "zr-001",
     "zr-005",
-    "zr-002"
+    "zr-002",
+    "zr-003"
   ],
-  "last_id": "zr-002",
+  "last_id": "zr-003",
   "seen_slugs": [
     "olgdres-2021-11-16-4-u-116821",
     "kg--2020-09-30-3-161-ss-4920-48",
@@ -30,7 +31,8 @@
     "bgh-2024-05-16-ix-zr-3823",
     "olgdres-2022-07-20-13-u-208021",
     "lg-duisburg-2025-07-22-6-o-10325",
-    "olgbamb-2022-09-06-10-u-5722"
+    "olgbamb-2022-09-06-10-u-5722",
+    "olgk-2023-04-26-15-u-2423"
   ],
   "next_index": 1,
   "offen": {},
@@ -80,6 +82,32 @@
           "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 3. Streitgenossen"
         }
       ]
+    },
+    "zr-003": {
+      "case_id": "zr-003",
+      "datum": "2026-09-21",
+      "karten": [
+        {
+          "nr": 1,
+          "id": "lesetext:olgbamb-2022-09-06-10-u-5722:1",
+          "typ": "fall",
+          "frage": "Wer verlangt von wem welche Zahlung und aus welchem Lebenssachverhalt, wie hat das Landgericht Aschaffenburg entschieden, und worauf richtete sich die Berufung im Kern?",
+          "loesung": "Die Klagepartei nimmt als Käuferin eines Fahrzeugs den Fahrzeughersteller wegen der Verwendung einer angeblich unzulässigen Abschalteinrichtung im sog. Diesel-Abgasskandal auf Schadensersatz in Anspruch, verlangt Rückzahlung des Kaufpreises abzüglich Nutzungsentschädigung Zug um Zug gegen Rückgabe des Fahrzeugs, Feststellung des Annahmeverzugs sowie Ersatz vorgerichtlicher Anwaltskosten. Das Landgericht Aschaffenburg hatte die Klage abgewiesen, weil es die Voraussetzungen eines Anspruchs aus § 826 BGB nicht als erfüllt ansah. Die Klagepartei verfolgte mit der Berufung ihr erstinstanzliches Klageziel unverändert weiter, hilfsweise beantragte sie Zurückverweisung an das Landgericht.",
+          "gewicht": 2,
+          "skript": "zr-staat",
+          "abschnitt": "Lesetext Oberlandesgericht Bamberg olgbamb 10 U 57/22"
+        },
+        {
+          "nr": 2,
+          "id": "zr-staat:form:007",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie das Rubrum für eine AG als Klägerin: Mega AG, Hainerpfad 7, 15299 Müllrose, gesetzlich vertreten durch ihre Vorstandsmitglieder Heike Müller, Jenny Golz und Sabine Erbs.",
+          "loesung": "der Mega AG, gesetzlich vertreten durch ihre Vorstandsmitglieder Heike Müller, Jenny Golz und Sabine Erbs, Hainerpfad 7, 15299 Müllrose, Klägerin,",
+          "gewicht": 1,
+          "skript": "zr-staat",
+          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter"
+        }
+      ]
     }
   },
   "erledigte_mails": [
@@ -89,5 +117,5 @@
     "<DDD4AD8A-8468-4A24-BC1F-91A6381C5787@web.de>",
     "<EE1DD304-AC61-4BA7-8DE0-18634AB30494@web.de>"
   ],
-  "letzter_brief": "2026-09-18"
+  "letzter_brief": "2026-09-21"
 }
