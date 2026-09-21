@@ -314,7 +314,7 @@ def search_related_case(case, seen_slugs):
                 raw = "\n".join(s.get("text", "") for s in (r.get("snippets") or []) if isinstance(s, dict))
             if _bad(raw, slug):
                 continue
-            shaped = clean_ocr(raw)[:25000]  # gleicher Ausschnitt fuer Mail und Fragegeneration
+            shaped = clean_ocr(raw)[:60000]
             if not shaped:
                 continue
             az = (detail or {}).get("file_number") or slug
