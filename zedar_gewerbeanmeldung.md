@@ -6,7 +6,7 @@ Stand 22.09.2026. Ziel: anmeldefähig sein, bevor am 06.10.2026 über die Produk
 - Online über das Gewerbeportal der Stadt Leipzig oder persönlich im Gewerbeamt; Gebühr im Bereich von etwa 20–30 €.
 - Mitzubringen: Personalausweis, Meldeadresse Leipzig. Die Ummeldung nach Leipzig ist erledigt (22.09.2026); die Meldebestätigung liegt damit vor und wird auch von der AOK noch gebraucht.
 - Tätigkeitsbeschreibung bewusst weit fassen, etwa: Import und Handel mit Textilien und Bekleidung, insbesondere Seidenwaren, sowie deren Gestaltung und Vertrieb. Zu eng formuliert heißt: später kostenpflichtig ändern.
-- Betriebsart: Hauptgewerbe (passend zur geplanten Führung als hauptberuflich, mindestens 15 Wochenstunden).
+- Betriebsart: Haupterwerb (deckt sich mit der im §-16b-Antrag erklärten hauptberuflichen Tätigkeit, mindestens 15 Wochenstunden).
 - Keine Erlaubnispflicht für Textilhandel, keine Handwerksrolle.
 
 ## 2. Finanzamt (innerhalb eines Monats)
@@ -26,6 +26,6 @@ Stand 22.09.2026. Ziel: anmeldefähig sein, bevor am 06.10.2026 über die Produk
 
 ## Zwei Punkte, die vorher geklärt sein müssen
 
-**Einstiegsgeld § 16b SGB II.** Das setzt laufenden Bürgergeldbezug voraus und wird nur bei Aufnahme der Tätigkeit gewährt, also vor deren Beginn beantragt. Du hast dich zum 31.07.2026 vom Bürgergeld abgemeldet und bist in die freiwillige Krankenversicherung gewechselt. In dieser Konstellation gibt es kein Einstiegsgeld. Wenn du es willst, musst du zuerst wieder Bürgergeld beantragen und den Antrag stellen, bevor das Gewerbe läuft. Vor der Gewerbeanmeldung beim Jobcenter Leipzig klären, sonst verfällt die Option endgültig.
+**Einstiegsgeld § 16b SGB II — erledigt.** Der Antrag auf Einstiegsgeld, Leistungen nach § 16c und den AVGS für die Gründungsberatung ist am 15.09.2026 gestellt, vor Aufnahme der Tätigkeit. Die Reihenfolge stimmt damit, die Gewerbeanmeldung kann folgen. Im GewA 1 gleich Haupterwerb eintragen, passend zur im Antrag erklärten Hauptberuflichkeit — das erspart die spätere Ummeldung und die Rückfrage vom Jobcenter. Offen bleiben die Unterlagen für die Tragfähigkeitsprüfung (Businessplan, Kapitalbedarfs- und Finanzierungsplan, Umsatz- und Rentabilitätsvorschau über drei Jahre, größtenteils aus dem InnoStartBonus-Material).
 
 **Verhältnis zur UG.** Wenn die UG im Oktober kommt, ist das Einzelunternehmen nur eine Brücke von wenigen Wochen. EORI, Geschäftskonto, Steuernummer und Lieferantenverträge hängen jeweils am Rechtsträger und müssten für die UG neu aufgesetzt werden. Zwei Wege: entweder Einzelunternehmen als dauerhafte Importstruktur behalten und die UG nur für Marke und Vertrieb nutzen, oder die UG vorziehen und die Erstcharge direkt über sie bestellen. Die Entscheidung gehört vor den 06.10., weil sie festlegt, wer die Ware kauft und bezahlt.

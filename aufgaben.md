@@ -88,12 +88,12 @@
 
 In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getroffen. Bis dahin müssen die folgenden Punkte geklärt sein.
 
-- [ ] **Importgewerbe anmelden** (Leipzig, auf Moritz allein) — Voraussetzung für alles Weitere; danach EORI-Nummer beantragen und Geschäftskonto eröffnen. War für September 2026 geplant, steht noch aus.
+- [ ] **Importgewerbe anmelden** (Leipzig, auf Moritz allein), Betriebsart Haupterwerb — Voraussetzung für alles Weitere; danach EORI-Nummer beantragen und Geschäftskonto eröffnen. Ablauf in zedar_gewerbeanmeldung.md.
 - [ ] **Website zedarsilk.com weiterentwickeln**: Fotos und Blog vorbereiten, Produktdarstellung der Launch-Linie, Shop-Funktion für den Verkaufsstart 2026.
 - [ ] **Import- und Zollfragen klären** (IHK Leipzig): Einfuhrabgaben und Zolltarifnummern für Seidenbekleidung, Einfuhrumsatzsteuer, Ursprungsnachweise, Textilkennzeichnung.
 - [ ] **Vermarktungsfragen klären**: Preisfindung gegen den USD-Einkauf (Wechselkursrisiko liegt bei ZEDAR), Verkaufskanal, Versand- und Retourenabwicklung, Kommunikation der Fair-Wear-Position.
 - [ ] **Rechtliches vor der Bestellung**: GbR-Innenvertrag mit Greta, UG-Gründung (Oktober 2026), Impressum/AGB/Widerruf auf die tatsächliche Rechtsform ziehen.
-- [ ] **Finanzierung sichern**: zweckgebundenes Darlehen 7.500 € (Eingang voraussichtlich Oktober), Einstiegsgeld § 16b und Leistungen § 16c SGB II beim Jobcenter Leipzig beantragen.
+- [ ] **Finanzierung**: zweckgebundenes Darlehen 7.500 € (Eingang voraussichtlich Oktober). Antrag auf Einstiegsgeld § 16b, Leistungen § 16c und AVGS Gründungsberatung ist am 15.09.2026 beim Jobcenter Leipzig gestellt — offen sind die Unterlagen für die Tragfähigkeitsprüfung (Businessplan, Kapitalbedarfs- und Finanzierungsplan, Umsatz- und Rentabilitätsvorschau über drei Jahre).
 - [ ] Erste Produktionscharge im November 2026 bestellen und bezahlen — hängt an der Entscheidung vom 06.10.
 
 ## Promotion
