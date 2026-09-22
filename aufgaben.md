@@ -14,7 +14,7 @@
 
 ## DRINGEND (diese Woche)
 
-- [ ] **AOK PLUS, Service-Nr. 2002205498**: Antrag freiwillige Mitgliedschaft mit ergänztem Punkt 3 zurücksenden; Ummeldung nach Leipzig beim Bürgeramt nachholen und Meldebestätigung nachreichen.
+- [ ] **AOK PLUS, Service-Nr. 2002205498**: Antrag freiwillige Mitgliedschaft mit ergänztem Punkt 3 zurücksenden; Ummeldung nach Leipzig beim Bürgeramt erledigt (22.09.2026), Meldebestätigung noch nachreichen.
 
 - [ ] **DÜF Initiativstipendium — Frist 30.11.2026**, am 15.09.2026 im Portal verifiziert (Bewerbungszeitraum „Herbst", Einreichungsfrist 30.11.), nicht 15.09. 2.000 €, ohne Verlagsvertrag möglich. Anlagen: 3 Normseiten Übersetzung, Projektbeschreibung inkl. erstem Exposé (ca. 1 S.), Kurzbiographie, Veröffentlichungsverzeichnis, Kopie der Originalstelle. Kurzbiographie, Veröffentlichungsverzeichnis und Originalseiten sind aus dem Reisestipendien-PDF übernehmbar; neu zu schreiben ist nur die Projektbeschreibung.
 - [ ] **BAMF-2026-300, Entscheider Landesasylstelle Berlin** (Interamt, Beginn 04.01.2027, SÜ1, kein Anschreiben zulässig) — Hilfstexte für die Freitextfelder liegen vor
