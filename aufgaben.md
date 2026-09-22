@@ -1,6 +1,6 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 20. September 2026*
+*Letzte Aktualisierung: 22. September 2026*
 
 **Standort: derzeit Zürich, Arbeit im Kunstfelsenbau. Wohnsitz Leipzig.** Der Morgenbrief richtet sich nach /automat/standort.txt auf netcup; dort steht aktuell `zuerich`.
 
@@ -20,6 +20,7 @@
 - [ ] **BAMF-2026-300, Entscheider Landesasylstelle Berlin** (Interamt, Beginn 04.01.2027, SÜ1, kein Anschreiben zulässig) — Hilfstexte für die Freitextfelder liegen vor
 - [ ] **flaschenpost Leipzig**: Probearbeiten als Fahrer/Kurier steht an. Midijob-Vertrag statt Minijob prüfen.
 - [ ] **Gastdozenturen des DÜF — Frist 30.09.2026**: Sommersemester 2027, 10.000 € plus Reisekosten. **Unterlagen fertig (3 S., 16.09.2026): biografische Angaben, Sprachen, Publikationen und Lehrerfahrung, Seminaridee „Übersetzen ohne Tradition", Zielgruppe, drei Wunschuniversitäten (DLL Leipzig, MLU Halle, HU Berlin Zentralasien-Seminar).** Zwei Vorbehalte: Die Ausschreibung verlangt Übersetzer·innen, die ihre Einkünfte überwiegend aus literarischen Tätigkeiten erzielen; und wer für das SoSe 2027 ausgewählt wird, ist von der DÜF-Ausschreibung vom 15.01.2027 ausgeschlossen — kollidiert also mit einem Arbeitsstipendium, falls der Verlagsvertrag bis dahin steht.
+- [ ] **Uni Leipzig / ReCentGlobe, Mitarbeiter/-in Wissenschaftskommunikation und IT — Frist 05.10.2026**, Kennziffer 126/2026, E9b TV-L, 50 %, befristet bis 30.09.2031 (ERC-Projekt „Conspiracy Theorizing from South Asia"), Bewerbung über das Online-Bewerbungsportal, adressiert an Prof. Dr. Nadin Heé; inhaltliche Fragen an Antje Zettler (Geschäftsführerin ReCentGlobe). Dienstort Leipzig, lässt sich mit Promotion und ZEDAR vereinbaren. Anschreiben über Korpusaufbau (tajikpoemanalyzer, gndmatch), Scraping- und Workflow-Praxis (Stellenmonitor als GitHub Action, Morgenbrief-Pipeline), Python-Auswertung der Langenstein-Häftlingsdaten, Radio mephisto für Audio/Öffentlichkeitsarbeit; offen benennen: kein Ethnologie-Abschluss, kein ausgewiesener Südasien-Bezug, keine Videoproduktion.
 - [ ] **Polizei Berlin, LKA 5 und 7, OSINT-Analyst/in mit besonderen Ermittlungsaufgaben — Frist 14.10.2026**, Kennziffer 155-26, gehobener Dienst, unbefristet, Dienstort Berlin, Kontakt Frau Kohls +49 30/4664-791264. Bewerbung über karriereportal-stellen.berlin.de (j69721). Zugangsvoraussetzung ist ein Bachelor in Sozial- oder Politikwissenschaften **oder einem vergleichbaren Studiengang** — damit formal offen. Gefordert: OSINT-/SOCMINT-Methoden, Grundkenntnisse des Datenverkehrs (IP, Mail-Header), gezielte Rechercheanfragen; erwünscht Analyse-/Auswertesoftware. Passt zum bereits verfolgten Profil (AWV-038 OSINT, BfV, SenInnSport) und zu den eigenen Scraping- und Auswertungswerkzeugen. Korrigiert den früheren Vermerk, LKA Berlin nehme Quereinsteiger nur für IT/Cyber und Wirtschaft.
 
 ## Bewerbungspipeline (Stand 07.09.2026)
@@ -82,6 +83,18 @@
 - [ ] **Erasmus+ Praktikumsförderung** — bis ~März 2027 nutzbar, Priorität. Schweizer Praktika laut Leonardo-Büro Magdeburg nicht förderfähig; vor einem CH-Track Rückfrage bei Anna Kostov, MLU International Office, +49 345 55 21579. Favoriten: Droschl Graz, Verdier Lagrasse.
 - [ ] Mercator-Kolleg — Frist ~15. Juni jährlich, erfordert bestehenden Arbeitsvertrag
 - [ ] ZfA-BPLK: MA-Anerkennung („vergleichbar" zu Master DaF) klären, ZfA +49 22899 358-74209
+
+## ZEDAR Silk — Entscheidungspunkt 06.10.2026
+
+In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getroffen. Bis dahin müssen die folgenden Punkte geklärt sein.
+
+- [ ] **Importgewerbe anmelden** (Leipzig, auf Moritz allein) — Voraussetzung für alles Weitere; danach EORI-Nummer beantragen und Geschäftskonto eröffnen. War für September 2026 geplant, steht noch aus.
+- [ ] **Website zedarsilk.com weiterentwickeln**: Fotos und Blog vorbereiten, Produktdarstellung der Launch-Linie, Shop-Funktion für den Verkaufsstart 2026.
+- [ ] **Import- und Zollfragen klären** (IHK Leipzig): Einfuhrabgaben und Zolltarifnummern für Seidenbekleidung, Einfuhrumsatzsteuer, Ursprungsnachweise, Textilkennzeichnung.
+- [ ] **Vermarktungsfragen klären**: Preisfindung gegen den USD-Einkauf (Wechselkursrisiko liegt bei ZEDAR), Verkaufskanal, Versand- und Retourenabwicklung, Kommunikation der Fair-Wear-Position.
+- [ ] **Rechtliches vor der Bestellung**: GbR-Innenvertrag mit Greta, UG-Gründung (Oktober 2026), Impressum/AGB/Widerruf auf die tatsächliche Rechtsform ziehen.
+- [ ] **Finanzierung sichern**: zweckgebundenes Darlehen 7.500 € (Eingang voraussichtlich Oktober), Einstiegsgeld § 16b und Leistungen § 16c SGB II beim Jobcenter Leipzig beantragen.
+- [ ] Erste Produktionscharge im November 2026 bestellen und bezahlen — hängt an der Entscheidung vom 06.10.
 
 ## Promotion
 
