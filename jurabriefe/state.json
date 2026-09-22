@@ -82,35 +82,10 @@
           "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 3. Streitgenossen"
         }
       ]
-    },
-    "zr-003": {
-      "case_id": "zr-003",
-      "datum": "2026-09-21",
-      "karten": [
-        {
-          "nr": 1,
-          "id": "lesetext:olgbamb-2022-09-06-10-u-5722:1",
-          "typ": "fall",
-          "frage": "Wer verlangt von wem welche Zahlung und aus welchem Lebenssachverhalt, wie hat das Landgericht Aschaffenburg entschieden, und worauf richtete sich die Berufung im Kern?",
-          "loesung": "Die Klagepartei nimmt als Käuferin eines Fahrzeugs den Fahrzeughersteller wegen der Verwendung einer angeblich unzulässigen Abschalteinrichtung im sog. Diesel-Abgasskandal auf Schadensersatz in Anspruch, verlangt Rückzahlung des Kaufpreises abzüglich Nutzungsentschädigung Zug um Zug gegen Rückgabe des Fahrzeugs, Feststellung des Annahmeverzugs sowie Ersatz vorgerichtlicher Anwaltskosten. Das Landgericht Aschaffenburg hatte die Klage abgewiesen, weil es die Voraussetzungen eines Anspruchs aus § 826 BGB nicht als erfüllt ansah. Die Klagepartei verfolgte mit der Berufung ihr erstinstanzliches Klageziel unverändert weiter, hilfsweise beantragte sie Zurückverweisung an das Landgericht.",
-          "gewicht": 2,
-          "skript": "zr-staat",
-          "abschnitt": "Lesetext Oberlandesgericht Bamberg olgbamb 10 U 57/22"
-        },
-        {
-          "nr": 2,
-          "id": "zr-staat:form:007",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie das Rubrum für eine AG als Klägerin: Mega AG, Hainerpfad 7, 15299 Müllrose, gesetzlich vertreten durch ihre Vorstandsmitglieder Heike Müller, Jenny Golz und Sabine Erbs.",
-          "loesung": "der Mega AG, gesetzlich vertreten durch ihre Vorstandsmitglieder Heike Müller, Jenny Golz und Sabine Erbs, Hainerpfad 7, 15299 Müllrose, Klägerin,",
-          "gewicht": 1,
-          "skript": "zr-staat",
-          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter"
-        }
-      ]
     }
   },
   "erledigte_mails": [
+    "<277DBF85-AA8A-4A05-9CF0-01037CAC9333@web.de>",
     "<5800FA05-F219-452C-91B9-CBF62C397468@web.de>",
     "<73BB208E-39F9-464C-BC20-A68DC3D79027@web.de>",
     "<D40DBD9C-1A77-4806-9C9F-85F523FCE05C@web.de>",

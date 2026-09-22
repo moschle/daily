@@ -2,7 +2,7 @@
   "gewichte": {
     "zr-001": 1.1,
     "zr-002": 1.1,
-    "zr-003": 1.0,
+    "zr-003": 0.8,
     "zr-004": 1.0,
     "zr-005": 1.1,
     "zr-006": 0.8,
@@ -28,7 +28,8 @@
     "zr-staat:form:006": 0.8,
     "lesetext:olgbamb-2022-09-06-10-u-5722:1": 1.7,
     "lesetext:olgbamb-2022-09-06-10-u-5722:2": 0.8,
-    "lesetext:olgbamb-2022-09-06-10-u-5722:3": 1.4
+    "lesetext:olgbamb-2022-09-06-10-u-5722:3": 1.4,
+    "zr-staat:form:007": 0.8
   },
   "feedback": [
     {
@@ -586,6 +587,33 @@
       "grade": null,
       "interval": 6,
       "detail": ""
+    },
+    {
+      "date": "2026-09-22",
+      "case_id": "lesetext:olgbamb-2022-09-06-10-u-5722:1",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 1,
+      "detail": "Völlig falscher Sachverhalt: Bearbeiterin behandelt einen Fall zu Doppelgängerwerbung/Recht am eigenen Bild (OLG Bamberg) statt des Diesel-Abgasskandal-Falls aus der Skriptlösung; weder Kläger, Beklagter, Anspruchsgrundlage, landgerichtliche Entscheidung noch Berufungsgegenstand stimmen überein – Verwechslung des Aktenzeichens/Falls.",
+      "punkte": 0.0
+    },
+    {
+      "date": "2026-09-22",
+      "case_id": "zr-staat:form:007",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "",
+      "punkte": 18.0
+    },
+    {
+      "date": "2026-09-22",
+      "case_id": "zr-003",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Vor Bearbeitung stets Fallbezeichnung/Aktenzeichen der konkreten Aufgabe mit dem Sachverhalt abgleichen, um Verwechslungen zwischen verschiedenen Übungsfällen zu vermeiden.",
+      "punkte": 9.0
     }
   ],
   "letzte_anpassung": null,
@@ -964,18 +992,22 @@
     },
     "lesetext:olgbamb-2022-09-06-10-u-5722:1": {
       "stability": 1.0,
-      "difficulty": 5.3,
-      "due": "2026-09-19",
-      "last": "2026-09-18",
+      "difficulty": 5.6,
+      "due": "2026-09-23",
+      "last": "2026-09-22",
       "gezeigt": "2026-09-21",
-      "reps": 1,
+      "reps": 2,
       "punkte": [
         {
           "date": "2026-09-18",
           "wert": 2.0
+        },
+        {
+          "date": "2026-09-22",
+          "wert": 0.0
         }
       ],
-      "schnitt": 2.0
+      "schnitt": 1.0
     },
     "lesetext:olgbamb-2022-09-06-10-u-5722:2": {
       "stability": 8.0,
@@ -1008,21 +1040,35 @@
       "schnitt": 4.0
     },
     "zr-003": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-09-30",
+      "last": "2026-09-22",
       "gezeigt": "2026-09-21",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-22",
+          "wert": 9.0
+        }
+      ],
+      "schnitt": 9.0
     },
     "zr-staat:form:007": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-09-30",
+      "last": "2026-09-22",
       "gezeigt": "2026-09-21",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-22",
+          "wert": 18.0
+        }
+      ],
+      "schnitt": 18.0
     }
   },
-  "letzter_korrekturlauf": "2026-09-21"
+  "letzter_korrekturlauf": "2026-09-22"
 }
