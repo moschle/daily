@@ -9,7 +9,8 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
    "rn": "26",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -19,7 +20,9 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
    "rn": "28",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verlangt das Verlesen eines konkreten Anklagesatzes, dessen Inhalt (Tatvorwurf, Datum, Ort, Geschehen) nur im Skript-Beispielfall bekannt ist und nicht aus der Frage selbst entnommen werden "
   },
   {
    "typ": "formulierung",
@@ -29,7 +32,8 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
    "rn": "31",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -39,7 +43,9 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
    "rn": "33",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Lösung enthält einen Beweisantrag auf Zeugenvernehmung, der mit der Frage (Rücknahme des Strafantrags und Erklärung zum öffentlichen Interesse) inhaltlich nicht übereinstimmt, sodass Frage und Lös"
   },
   {
    "typ": "formulierung",
@@ -49,7 +55,8 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
    "rn": "36",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -59,7 +66,8 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
    "rn": "37",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -69,7 +77,8 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
    "rn": "37",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -79,7 +88,8 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
    "rn": "37",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -89,7 +99,9 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
    "rn": "38",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Lösung enthält eine Formulierung zu einem Diebstahl nach § 242 StGB, die offensichtlich nicht zur gestellten Frage nach der Strafrahmendarlegung beim Raub mit doppelter Verschiebung passt, sodass "
   },
   {
    "typ": "formulierung",
@@ -99,7 +111,8 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
    "rn": "41",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -109,7 +122,9 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 3. Die Hauptverhandlung",
    "rn": "45",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Lösung enthält nur einen unvollständigen Satzteil ohne den eigentlichen Kernsatz zur Gesamtstrafenbildung, sodass die Karte keine verwertbare Antwort liefert."
   },
   {
    "typ": "formulierung",
@@ -119,7 +134,9 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, § 54 Rn. 10).",
    "rn": "45",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage erwähnt ein einzubeeziehendes Vorurteil, ohne dessen Art, Höhe oder Einzelheiten zu nennen, die für eine konkrete Formulierung des Gesamtstrafantrags erforderlich wären."
   },
   {
    "typ": "formulierung",
@@ -129,7 +146,9 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, Rn. 9 zu § 55 StGB.",
    "rn": "47",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Lösung bricht mitten im Satz ab und ist damit unvollständig, sodass die Karte keine vollständige Musterformulierung enthält."
   },
   {
    "typ": "formulierung",
@@ -139,7 +158,9 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, Rn. 9 zu § 55 StGB.",
    "rn": "50",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Lösung enthält einen Fahrerlaubnisentzugsantrag, der mit der Frage nach einem Freispruchsantrag mit StrEG-Antrag nicht übereinstimmt, sodass Frage und Lösung offensichtlich nicht zusammenpassen."
   },
   {
    "typ": "formulierung",
@@ -149,7 +170,8 @@
    "skript": "leitfaden-sta",
    "abschnitt": "V. Sitzungsvertretung in Strafverfahren gegen Erwachsene › 72. Auflage 2025, Rn. 9 zu § 55 StGB.",
    "rn": "51",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   }
  ]
 }

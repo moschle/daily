@@ -9,7 +9,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einleitung › IV. Begründetheit › 2. Hauptanspruch › b. Unbegründete Klage",
    "rn": "139",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -19,7 +20,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 2. Grammatik der Parteibezeichnungen",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -29,7 +31,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 2. Grammatik der Parteibezeichnungen",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -39,7 +42,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 3. Streitgenossen",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -49,7 +53,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 4. Kaufleute",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -59,7 +64,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 5. Parteien kraft Amtes",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -69,7 +75,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -79,7 +86,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -89,7 +97,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -99,7 +108,8 @@
    "skript": "zr-staat",
    "abschnitt": "V. Streithelfer › VII. Angabe des letzten Tages und des Klagegrundes",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -109,7 +119,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einführung › 2. Kostenentscheidung",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -119,7 +130,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einführung › 2. Kostenentscheidung",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -129,7 +141,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einführung › 3. Entscheidung über Vollstreckbarkeit",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -139,7 +152,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einführung › 3. Entscheidung über Vollstreckbarkeit",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -149,7 +163,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einführung › 4. Zulassung von Rechtsmitteln",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -489,7 +504,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -499,7 +515,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -509,7 +526,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -519,7 +537,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -529,7 +548,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -539,7 +559,9 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 1. Einführung",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verlangt zunächst einen Einleitungssatz für eine vollständig begründete Klage, aber die Lösung zeigt nur die teilweise begründete Variante, sodass die Aufgabe nicht vollständig aus sich selb"
   },
   {
    "typ": "formulierung",
@@ -549,7 +571,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 2. Unklare Anträge",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -559,7 +582,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einleitung › II. Aufbau der Entscheidungsgründe › 3. Prüfung eines Rechtsbehelfs/Rechtsmittels",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -569,7 +593,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einleitung › III. Sachurteilsvoraussetzungen › 2. Kein Zulässigkeitsproblem",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -579,7 +604,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einleitung › III. Sachurteilsvoraussetzungen › 4. Besondere Sachurteilsvoraussetzungen",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -589,7 +615,9 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einleitung › IV. Begründetheit › 2. Hauptanspruch › a. Begründete Klage",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage nennt keinen konkreten Betrag, kein Datum und keine weiteren Vertragsdetails, die für eine mustergültige Formulierung des Einleitungssatzes erforderlich sind, sodass die Lösung nicht vollstä"
   },
   {
    "typ": "formulierung",
@@ -599,7 +627,8 @@
    "skript": "zr-staat",
    "abschnitt": "I. Einleitung › IV. Begründetheit › 3. Nebenforderungen",
    "rn": "139",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -609,7 +638,8 @@
    "skript": "zr-staat",
    "abschnitt": "V. Prozessuale Nebenentscheidungen › 1. Kostenentscheidung",
    "rn": "139",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -619,7 +649,9 @@
    "skript": "zr-staat",
    "abschnitt": "V. Prozessuale Nebenentscheidungen › 1. Kostenentscheidung",
    "rn": "139",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage enthält keine Angaben zu den konkreten Streitgegenständen (z. B. Fensteraustausch, Terrassenabdichtung), die in der Lösung genannt werden und für eine sachgerechte Formulierung notwendig sin"
   }
  ]
 }
