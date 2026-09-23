@@ -1,6 +1,6 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 22. September 2026*
+*Letzte Aktualisierung: 23. September 2026*
 
 **Standort: derzeit Zürich, Arbeit im Kunstfelsenbau. Wohnsitz Leipzig.** Der Morgenbrief richtet sich nach /automat/standort.txt auf netcup; dort steht aktuell `zuerich`.
 
@@ -21,6 +21,7 @@
 - [ ] **flaschenpost Leipzig**: Probearbeiten als Fahrer/Kurier steht an. Midijob-Vertrag statt Minijob prüfen.
 - [ ] **Gastdozenturen des DÜF — Frist 30.09.2026**: Sommersemester 2027, 10.000 € plus Reisekosten. **Unterlagen fertig (3 S., 16.09.2026): biografische Angaben, Sprachen, Publikationen und Lehrerfahrung, Seminaridee „Übersetzen ohne Tradition", Zielgruppe, drei Wunschuniversitäten (DLL Leipzig, MLU Halle, HU Berlin Zentralasien-Seminar).** Zwei Vorbehalte: Die Ausschreibung verlangt Übersetzer·innen, die ihre Einkünfte überwiegend aus literarischen Tätigkeiten erzielen; und wer für das SoSe 2027 ausgewählt wird, ist von der DÜF-Ausschreibung vom 15.01.2027 ausgeschlossen — kollidiert also mit einem Arbeitsstipendium, falls der Verlagsvertrag bis dahin steht.
 - [ ] **Uni Leipzig / ReCentGlobe, Mitarbeiter/-in Wissenschaftskommunikation und IT — Frist 05.10.2026**, Kennziffer 126/2026, E9b TV-L, 50 %, befristet bis 30.09.2031 (ERC-Projekt „Conspiracy Theorizing from South Asia"), Bewerbung über das Online-Bewerbungsportal, adressiert an Prof. Dr. Nadin Heé; inhaltliche Fragen an Antje Zettler (Geschäftsführerin ReCentGlobe). Dienstort Leipzig, lässt sich mit Promotion und ZEDAR vereinbaren. Anschreiben über Korpusaufbau (tajikpoemanalyzer, gndmatch), Scraping- und Workflow-Praxis (Stellenmonitor als GitHub Action, Morgenbrief-Pipeline), Python-Auswertung der Langenstein-Häftlingsdaten, Radio mephisto für Audio/Öffentlichkeitsarbeit; offen benennen: kein Ethnologie-Abschluss, kein ausgewiesener Südasien-Bezug, keine Videoproduktion.
+- [ ] **Bundespolizeidirektion 11, OSINT-Sachbearbeiter/-in Berlin — Frist 14.10.2026**, TVöD E 11 plus Stellenzulage 110 €, unbefristet, Dienstort Berlin; bei Verbeamteten extern nur bis A 11 BBesO. Zugang: Laufbahnbefähigung gehobener nichttechnischer Verwaltungsdienst **oder** Bachelor Politik-/Sozial-/Kriminalistik-/Informationswissenschaften plus 18 Monate einschlägige Berufserfahrung (laut Ausschreibung beim Arbeitgeber nachholbar). Gefordert: Analyse offener Quellen, phänomenologische Kenntnisse Terrorismus/Extremismus, Englisch B2, Französisch und/oder Arabisch, Bereitschaft zu mehrtägigen Dienstreisen; Sicherheitsüberprüfung. Bewerbung über komm-zur-bundespolizei.de. Gefunden über den bpb-Infodienst (#OSINTBer). Nicht zu verwechseln mit Polizei Berlin LKA 155-26, gleiche Frist, anderer Arbeitgeber.
 - [ ] **Polizei Berlin, LKA 5 und 7, OSINT-Analyst/in mit besonderen Ermittlungsaufgaben — Frist 14.10.2026**, Kennziffer 155-26, gehobener Dienst, unbefristet, Dienstort Berlin, Kontakt Frau Kohls +49 30/4664-791264. Bewerbung über karriereportal-stellen.berlin.de (j69721). Zugangsvoraussetzung ist ein Bachelor in Sozial- oder Politikwissenschaften **oder einem vergleichbaren Studiengang** — damit formal offen. Gefordert: OSINT-/SOCMINT-Methoden, Grundkenntnisse des Datenverkehrs (IP, Mail-Header), gezielte Rechercheanfragen; erwünscht Analyse-/Auswertesoftware. Passt zum bereits verfolgten Profil (AWV-038 OSINT, BfV, SenInnSport) und zu den eigenen Scraping- und Auswertungswerkzeugen. Korrigiert den früheren Vermerk, LKA Berlin nehme Quereinsteiger nur für IT/Cyber und Wirtschaft.
 
 ## Bewerbungspipeline (Stand 07.09.2026)
@@ -53,7 +54,7 @@
 - [x] Uni Hildesheim E13 50%, Kennziffer 2026/76 — eingereicht 15.05.2026
 
 ### Aktiv zu bewerben
-- [ ] **SenInnSport Berlin III 15/2026** — Frist 01.10.2026 (siehe DRINGEND)
+- [ ] **SenInnSport Berlin III 15/2026** — bereits eingereicht am 07.09.2026. Der bpb-Infodienst führt die Stelle am 23.09.2026 weiterhin mit Frist 01.10.2026 (Karriereportal j69631) — prüfen, ob das dieselbe Ausschreibung ist; falls es eine zweite Runde ist, erneut bewerben.
 - [ ] Tier 1 aus dem Mai-Stand, **Fristen vor Bearbeitung einzeln prüfen**: zenith Magazin Berlin, De Gruyter/Brill Volontariat, UniBw München Arabistik E14, GEI Braunschweig, sujet Verlag Bremen, Bundessprachenamt Hürth
 - [ ] Tier 2 aus dem Mai-Stand, ebenfalls Fristen prüfen: Matthes & Seitz, Jena LfbA Persisch, GIZ Tadschikistan, Haus für Poesie, LfV NRW, FU Berlin Islamwissenschaft WiMi 50% (Frist unklar, service.bund.de prüfen)
 - [ ] FU Berlin Arabisch-Lehrkraft (LfbA, 50%, E13, Mutterschutz) — Ausschreibungsstand prüfen
