@@ -72,7 +72,9 @@ def hole(tage: int) -> list[dict]:
                     zeit = None
                 mails.append({
                     "zeit": zeit,
-                    "eigen": adresse.lower() in (msg.get("From") or "").lower()
+                    # Brief = kein "Re:" und kein Antwortbezug. Die Absenderadresse taugt
+                    # nicht: googlemail.com und gmail.com sind dasselbe Postfach.
+                    "eigen": not re.match(r"\s*(re|aw|antw)\s*:", str(msg.get("Subject", "")), re.I)
                              and not (msg.get("In-Reply-To") or msg.get("References")),
                     "subject": str(make_header(decode_header(msg.get("Subject", "")))),
                     "text": _text_aus(msg),

@@ -72,6 +72,32 @@ def erste_zeile(body: str) -> str:
     return ""
 
 
+AZ = re.compile(r"\b\d{1,3}\s+[A-Za-z]{1,4}\s+\d{1,5}/\d{2}\b")
+
+
+def pack_nach_inhalt(packs: dict, text: str) -> str | None:
+    """Welches offene Paket beantwortet die Mail wirklich?
+
+    Die Bearbeiterin arbeitet Rueckstaende ab und antwortet dabei im obersten
+    Mailverlauf — am 22.09. standen in der Antwort auf den Brief vom 21.09. die
+    Fragen vom 18.09. Entscheidend ist deshalb der Inhalt: das Aktenzeichen des
+    Lesetexts und woertlich uebernommene Fragen."""
+    norm = re.sub(r"\s+", " ", text or "").lower()
+    beste, punkte = None, 0
+    for key, p in packs.items():
+        wert = 0
+        for c in p.get("karten", []):
+            for az in AZ.findall(c.get("abschnitt") or ""):
+                if az.lower() in norm:
+                    wert += 3
+            anfang = re.sub(r"\s+", " ", (c.get("frage") or "")[:50]).lower()
+            if len(anfang) > 30 and anfang in norm:
+                wert += 1
+        if wert > punkte:
+            beste, punkte = key, wert
+    return beste
+
+
 def einordnen(subject: str, body: str) -> dict | None:
     m = ID.search(subject or "")
     if not m:
@@ -306,6 +332,11 @@ def main() -> int:
 
         packs = state.setdefault("offene_packs", {})
         schluessel = f"{case['id']}@{a.get('datum', '')}"
+        treffer = pack_nach_inhalt(packs, a.get("text", ""))
+        if treffer and treffer not in (schluessel, case["id"]):
+            print(f"Antwort im Verlauf {schluessel}, inhaltlich zu {treffer}", file=sys.stderr)
+            schluessel = treffer
+            case = cases.get(packs[treffer].get("case_id")) or case
         eintrag = packs.get(schluessel) or packs.get(case["id"])   # alter Schluessel
         if not eintrag:                         # juengstes Paket zum Fall
             passende = [v for key, v in packs.items() if key.startswith(case["id"] + "@")]
