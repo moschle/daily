@@ -1,36 +1,4 @@
 {
-  "kultweet-249864": {
-    "first_seen": "2026-06-25T10:25:20.028033+00:00",
-    "source": "kultweet",
-    "title": "Wissenschaftliches Volontariat (m/w/d) | Stade​‌‌‌‌​‌​​​​​​​​‌​​​ - Museen Stade",
-    "url": "https://www.museumsbund.de/stellenangebote/wissenschaftliches-volontariat-m-w-d-14/",
-    "score": 3,
-    "categories": [
-      "kuratorisch_wiss_volo",
-      "schwach_methodisch"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1461783.html": {
-    "first_seen": "2026-06-25T10:25:21.597104+00:00",
-    "source": "service.bund.de",
-    "title": "Projektassistentin / Projektassistent (m/w/d) in der Entwicklungszusammenarbeit",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1461783.html#track=feed-jobs",
-    "score": 3,
-    "categories": [
-      "migration_ez"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Thueringer-Innenministerium/2026/06/6551021.html": {
-    "first_seen": "2026-06-25T10:25:21.613206+00:00",
-    "source": "service.bund.de",
-    "title": "Sachbearbeiter/-in \"Auswertung\"",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Thueringer-Innenministerium/2026/06/6551021.html#track=feed-jobs",
-    "score": 5,
-    "categories": [
-      "behörden_kern",
-      "schwach_methodisch"
-    ]
-  },
   "https://www.hsozkult.de/job/id/job-163195": {
     "first_seen": "2026-06-26T10:36:00.295676+00:00",
     "source": "H-Soz-Kult",
@@ -3373,6 +3341,28 @@
     "score": 4,
     "categories": [
       "kuratorisch_wiss_volo",
+      "kulturarbeit_programm"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1494075.html": {
+    "first_seen": "2026-09-23T12:56:06.094113+00:00",
+    "source": "service.bund.de",
+    "title": "Sprach- und Kulturmittlung der Sprachen Dari/Farsi/Pashtu (m/w/d)",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/09/1494075.html#track=feed-jobs",
+    "score": 4,
+    "categories": [
+      "iran_islam_kern"
+    ]
+  },
+  "kultweet-253733": {
+    "first_seen": "2026-09-23T12:56:06.566409+00:00",
+    "source": "kultweet",
+    "title": "Referatsleitung Veranstaltungen (m/w/d), unbefristet, Vollzeit | Potsdam​‌‌‌‌​‌‌‌‌‌​​‌​​‌​‌ - Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg",
+    "url": "https://www.spsg.de/stiftung/karriere/stellenangebote-detailseiten/referatsleiterin-veranstaltungen-m/w/d",
+    "score": 5,
+    "categories": [
+      "kuratorisch_wiss_volo",
+      "schwach_methodisch",
       "kulturarbeit_programm"
     ]
   }
