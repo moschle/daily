@@ -208,7 +208,8 @@ def main() -> int:
     nur_pruefen = "--pruefen" in sys.argv
     additiv = "--neu" not in sys.argv
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    ids = (sorted(p.stem for p in OUT.glob("*.json") if ".kuratiert" not in p.name)
+    ids = (sorted(p.stem for p in OUT.glob("*.json") if ".kuratiert" not in p.name
+                  and (EXTRACTED / f"{p.stem}.txt").exists())
            if "--alle" in sys.argv else args)
     if not ids:
         print(__doc__.strip(), file=sys.stderr)
