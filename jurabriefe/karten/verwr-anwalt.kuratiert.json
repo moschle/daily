@@ -9,7 +9,8 @@
    "skript": "verwr-anwalt",
    "abschnitt": "21. September 2022, Aktenzeichen XII ZB 264/22). Danach bedarf es zur",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -19,7 +20,8 @@
    "skript": "verwr-anwalt",
    "abschnitt": "01. Juli 2004 den Aufbau des Gerichtskostengesetzes (GKG) grundlegend geändert und",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -29,7 +31,8 @@
    "skript": "verwr-anwalt",
    "abschnitt": "2. Schreiben",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   }
  ]
 }

@@ -21,7 +21,7 @@
   {
    "typ": "formulierung",
    "frage": "Tenorieren Sie. Situation laut Skript: Januar 2025 wird zurückgewiesen. Der Antragsteller trägt die Kosten des Verfahrens.",
-   "loesung": "Der Wert des Verfahrensgegenstandes wird auf 2. Euro festgesetzt.",
+   "loesung": "Der Wert des Verfahrensgegenstandes wird auf 2.500 Euro festgesetzt.",
    "id": "verwr-staat:form:003",
    "skript": "verwr-staat",
    "abschnitt": "B. Die Elemente zur Gestaltung eines Rubrums und › 8. Januar 2025 wird zurückgewiesen.",
@@ -56,8 +56,8 @@
   },
   {
    "typ": "formulierung",
-   "frage": "Tenorieren Sie. Situation laut Skript: Der jeweilige\nSchuldner darf die Vollstreckung durch Sicherheitsleistung in Höhe\nvon 110 Prozent des aufgrund des Urteils vollstreckbaren Betrages\nabwenden, wenn nicht der jeweilige Gläubiger vor der Vollstreckung\nSicherheit in Höhe von 110 Prozent des jeweils zu vollstreckenden\nBetrages leistet. Leistungsklage, Stattgabe\n(Klage der Behörde auf Zahlung von 6.",
-   "loesung": "Der Beklagte wird verurteilt, an den Kläger 6. € nebst Zinsen in Höhe von 5 Prozentpunkten über dem Basiszinssatz seit dem (Datum der Rechtshängigkeit = Klageerhebung) zu zahlen.",
+   "frage": "Tenorieren Sie. Situation laut Skript: Der jeweilige\nSchuldner darf die Vollstreckung durch Sicherheitsleistung in Höhe\nvon 110 Prozent des aufgrund des Urteils vollstreckbaren Betrages\nabwenden, wenn nicht der jeweilige Gläubiger vor der Vollstreckung\nSicherheit in Höhe von 110 Prozent des jeweils zu vollstreckenden\nBetrages leistet. Leistungsklage, Stattgabe\n(Klage der Behörde auf Zahlung von 6.000 €)",
+   "loesung": "Der Beklagte wird verurteilt, an den Kläger 6.000 € nebst Zinsen in Höhe von 5 Prozentpunkten über dem Basiszinssatz seit dem (Datum der Rechtshängigkeit = Klageerhebung) zu zahlen.",
    "id": "verwr-staat:form:010",
    "skript": "verwr-staat",
    "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 7. Leistungsklage, Stattgabe",
@@ -93,7 +93,7 @@
   {
    "typ": "formulierung",
    "frage": "Tenorieren Sie. Situation laut Skript: Die Klage wird abgewiesen, soweit die Beteiligten den Rechtsstreit\nnicht übereinstimmend für erledigt erklärt haben (bzw. soweit der\nRechtsstreit nicht als erledigt gilt).",
-   "loesung": "Die Kosten des Verfahrens tragen der Kläger zu 3/4 und der Beklagte zu 1/4.",
+   "loesung": "Die Kosten des Verfahrens tragen der Kläger zu 3/4 und der Beklagte zu 1/4.18",
    "id": "verwr-staat:form:017",
    "skript": "verwr-staat",
    "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 11. Anfechtungsklage, Abweisung, Teilerledigung",
@@ -120,7 +120,7 @@
   {
    "typ": "formulierung",
    "frage": "Tenorieren Sie. Situation laut Skript: April 2017 wird aufgehoben. Soweit der Kläger die Klage zurückge-\nnommen hat, wird das Verfahren eingestellt.",
-   "loesung": "Die Kosten des Verfahrens tragen der Kläger zu 1/4 und der Beklagte zu 3/4.",
+   "loesung": "Die Kosten des Verfahrens tragen der Kläger zu 1/4 und der Beklagte zu 3/4.23",
    "id": "verwr-staat:form:024",
    "skript": "verwr-staat",
    "abschnitt": "C. Tenorierung verwaltungsgerichtlicher Urteile › 1. April 2017 wird aufgehoben. Soweit der Kläger die Klage zurückge-",
@@ -165,7 +165,7 @@
   {
    "typ": "formulierung",
    "frage": "Tenorieren Sie. Situation laut Skript: Oktober 2016 auf Zulassung seines Geschäfts zum „Früh -\nlingsdom“ 2017 binnen einer Woche nach Zustellung dieser\nEntscheidung unter Beachtung der Rechtsauffassung des\nGerichts vorläufig erneut zu bescheiden. Der Antragsgegner trägt die Kosten des Verfahrens.",
-   "loesung": "Der Wert des Verfahrensgegenstandes wird auf 2. € festgesetzt.",
+   "loesung": "Der Wert des Verfahrensgegenstandes wird auf 2.500 € festgesetzt.",
    "id": "verwr-staat:form:029",
    "skript": "verwr-staat",
    "abschnitt": "E. Die Entscheidungsgründe › 3. Obersätze und Tenorierung › b. Tenorierung",

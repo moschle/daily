@@ -9,7 +9,8 @@
    "skript": "zr-anwalt",
    "abschnitt": "V. Die Klausurbearbeitung: › 2. Karl- Heinz Emmerich, (…),",
    "rn": "20",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -19,7 +20,9 @@
    "skript": "zr-anwalt",
    "abschnitt": "V. Die Klausurbearbeitung: › 6. Herrn Rechtsanwalt H, ebd., Widerbeklagter zu 6., › h. Vollstreckungsabwehrklage",
    "rn": "26",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verweist auf einen konkreten Beispielfall mit Aktenzeichen und Gericht, ohne zu erläutern, wer gegen wen was will und welcher Sachverhalt der Vollstreckungsabwehrklage zugrunde liegt."
   },
   {
    "typ": "formulierung",
@@ -29,7 +32,9 @@
    "skript": "zr-anwalt",
    "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden.",
    "rn": "29",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verweist auf einen im Skript geschilderten 'Zahnarzt-Abfindungsstreit', ohne den Sachverhalt (Parteien, Anspruch, Umstände) selbst darzustellen."
   },
   {
    "typ": "formulierung",
@@ -39,7 +44,8 @@
    "skript": "zr-anwalt",
    "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden.",
    "rn": "29",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -49,7 +55,8 @@
    "skript": "zr-anwalt",
    "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden.",
    "rn": "29",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -59,7 +66,8 @@
    "skript": "zr-anwalt",
    "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › 2. Formelles Beweisrecht › a. Beweisverfahren",
    "rn": "35",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -69,7 +77,8 @@
    "skript": "zr-anwalt",
    "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › IX. Klagen und Rechtsbehelfe in der Zwangsvollstreckung › 1. Klagen gegen die Zwangsvollstreckung: › c. Klage auf vorzugsweise Befriedigung nach § 805 ZPO",
    "rn": "69",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -79,7 +88,8 @@
    "skript": "zr-anwalt",
    "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › IX. Klagen und Rechtsbehelfe in der Zwangsvollstreckung › 2. Sofortige Beschwerde und Erinnerung › b. Erinnerung nach § 766 ZPO",
    "rn": "71",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   }
  ]
 }

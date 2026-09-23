@@ -9,7 +9,9 @@
    "skript": "sr-staat",
    "abschnitt": "A. Teileinstellung",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verweist auf eine im Skript genannte Formulierung, ohne den vollständigen Kontext der Einstellungsvoraussetzungen zu liefern, sodass ohne Skriptkenntnis unklar bleibt, welcher konkrete Fehle"
   },
   {
    "typ": "formulierung",
@@ -19,7 +21,8 @@
    "skript": "sr-staat",
    "abschnitt": "I. Deliktsprüfung",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -29,7 +32,9 @@
    "skript": "sr-staat",
    "abschnitt": "I. Deliktsprüfung › IV. Konkurrenzen",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verlangt, einen Obersatz zu formulieren, aber die Lösung enthält nur das Fragment 'hinreichenden Tatverdachts' ohne vollständigen Satz, sodass die Karte unvollständig und nicht prüfbar ist."
   },
   {
    "typ": "formulierung",
@@ -39,7 +44,8 @@
    "skript": "sr-staat",
    "abschnitt": "I. Dringender Tatverdacht, § 112 Abs. 1 S. 1 StPO",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -49,7 +55,8 @@
    "skript": "sr-staat",
    "abschnitt": "I. Oben › III. Rechts oben › 1. die Haftverhältnisse – in Kurzform (Nr. 52 RiStBV):",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -59,7 +66,8 @@
    "skript": "sr-staat",
    "abschnitt": "I. Einleitung mit den Personalien (Nr. 110 Abs. 2a) RiStBV) › II. Verteidiger (Nr. 110 Abs. 2 b) RiStBV)",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -69,7 +77,8 @@
    "skript": "sr-staat",
    "abschnitt": "I. Einleitung mit den Personalien (Nr. 110 Abs. 2a) RiStBV) › IV. Konkreter Anklagesatz",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -79,7 +88,8 @@
    "skript": "sr-staat",
    "abschnitt": "I. Einleitung mit den Personalien (Nr. 110 Abs. 2a) RiStBV) › IV. Konkreter Anklagesatz",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -89,7 +99,8 @@
    "skript": "sr-staat",
    "abschnitt": "I. Einleitung mit den Personalien (Nr. 110 Abs. 2a) RiStBV) › IV. Konkreter Anklagesatz",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -99,7 +110,8 @@
    "skript": "sr-staat",
    "abschnitt": "D. Die Anträge",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -109,7 +121,8 @@
    "skript": "sr-staat",
    "abschnitt": "V. schwerer Raub mit Todesfolge › IX. Gefährdung des Straßenverkehrs – hinsichtlich der Gefährdung nur Fahrlässigkeit",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -119,7 +132,8 @@
    "skript": "sr-staat",
    "abschnitt": "V. schwerer Raub mit Todesfolge › IX. Gefährdung des Straßenverkehrs – hinsichtlich der Gefährdung nur Fahrlässigkeit",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   }
  ]
 }

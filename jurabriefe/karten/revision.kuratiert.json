@@ -9,7 +9,8 @@
    "skript": "revision",
    "abschnitt": "I. Rechtsmittelberechtigte › III. Anfechtungserklärung",
    "rn": "6",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "fall",
@@ -19,7 +20,8 @@
    "skript": "revision",
    "abschnitt": "B. Revisionsbegründung, § 344 Abs. 1, Abs. 2 StPO › 3. Abgrenzung Sach-/Verfahrensrüge",
    "rn": "18",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "fall",
@@ -29,7 +31,8 @@
    "skript": "revision",
    "abschnitt": "I. Wichtige Verfahrenshindernisse › 1. Mängel bei der sachlichen Zuständigkeit, insbesondere",
    "rn": "22",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "fall",
@@ -39,7 +42,8 @@
    "skript": "revision",
    "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO)",
    "rn": "27",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "fall",
@@ -49,7 +53,8 @@
    "skript": "revision",
    "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO)",
    "rn": "28",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "fall",
@@ -59,7 +64,8 @@
    "skript": "revision",
    "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
    "rn": "33",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -69,7 +75,9 @@
    "skript": "revision",
    "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
    "rn": "35",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verlangt eine revisionsrechtliche Bewertung des Verfahrensablaufs, ohne zu sagen, worum es in der Verhandlung ging, wer die Zeugin ist und warum der Beschluss erlassen wurde – der relevante "
   },
   {
    "typ": "formulierung",
@@ -79,7 +87,9 @@
    "skript": "revision",
    "abschnitt": "I. absolute Revisionsgründe (§ 338 StPO) › 2. Abwegig oder willkürlich kann die Entscheidung allenfalls dann sein, wenn",
    "rn": "35",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Lösung enthält bereits den vollständig ausformulierten Beschlusstext, den die Bearbeiterin formulieren soll, sodass die Karte die gesuchte Antwort wortwörtlich preisgibt."
   }
  ]
 }

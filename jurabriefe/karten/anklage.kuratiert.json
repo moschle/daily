@@ -9,7 +9,8 @@
    "skript": "anklage",
    "abschnitt": "I. RUBRUM › 1. Kopfzeile",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -19,7 +20,9 @@
    "skript": "anklage",
    "abschnitt": "I. RUBRUM › 8. Verteidigungsverhältnisse",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verweist ohne nähere Angaben auf 'die Verteidigerin' aus einem Beispielsfall im Skript, ohne den Fall oder die Person zu benennen."
   },
   {
    "typ": "formulierung",
@@ -29,7 +32,8 @@
    "skript": "anklage",
    "abschnitt": "I. Einlassung des Angeschuldigten",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -39,7 +43,8 @@
    "skript": "anklage",
    "abschnitt": "I. Zur Person:",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   }
  ]
 }

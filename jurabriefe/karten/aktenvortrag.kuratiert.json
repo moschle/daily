@@ -9,7 +9,9 @@
    "skript": "aktenvortrag",
    "abschnitt": "I. Ziel › IV. Aufbau › 1. Der einleitende Satz soll vorab darüber informieren, ob ein Sachverhalt aus",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage nennt weder Parteien noch Streitgegenstand oder Gericht, sodass der einleitende Satz ohne Kenntnis eines konkreten Falls nicht formuliert werden kann."
   },
   {
    "typ": "formulierung",
@@ -19,7 +21,8 @@
    "skript": "aktenvortrag",
    "abschnitt": "I. Ziel › IV. Aufbau › 1. Der einleitende Satz soll vorab darüber informieren, ob ein Sachverhalt aus",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -29,7 +32,8 @@
    "skript": "aktenvortrag",
    "abschnitt": "I. Ziel › IV. Aufbau › 1. Der einleitende Satz soll vorab darüber informieren, ob ein Sachverhalt aus",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -39,7 +43,8 @@
    "skript": "aktenvortrag",
    "abschnitt": "I. Ziel › IV. Aufbau › 1. Der einleitende Satz soll vorab darüber informieren, ob ein Sachverhalt aus",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -49,7 +54,8 @@
    "skript": "aktenvortrag",
    "abschnitt": "I. Ziel › IV. Aufbau › 1. Der einleitende Satz soll vorab darüber informieren, ob ein Sachverhalt aus",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   }
  ]
 }

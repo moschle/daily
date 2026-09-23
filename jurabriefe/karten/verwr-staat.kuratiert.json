@@ -159,7 +159,9 @@
    "skript": "verwr-staat",
    "abschnitt": "E. Die Entscheidungsgründe › 3. Urteilsstil und Methodik",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage nennt keinen Sachverhalt zu einem Waffenschein-Fall, sodass der geforderte Obersatz nur mit Kenntnis eines im Skript geschilderten Beispielfalls beantwortet werden kann."
   },
   {
    "typ": "formulierung",
@@ -169,7 +171,8 @@
    "skript": "verwr-staat",
    "abschnitt": "E. Die Entscheidungsgründe › 3. Obersätze und Tenorierung › b. Tenorierung",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -179,7 +182,8 @@
    "skript": "verwr-staat",
    "abschnitt": "E. Die Entscheidungsgründe › 3. Obersätze und Tenorierung › b. Tenorierung",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   }
  ]
 }

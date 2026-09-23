@@ -9,7 +9,8 @@
    "skript": "kautelar",
    "abschnitt": "I. Aufbau › IV. Umgang mit streitigen Tatsachen › 2. Beweismittel (Merkwort: S A P U Z)",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -19,7 +20,9 @@
    "skript": "kautelar",
    "abschnitt": "I. Aufbau › III. Prüfung der materiellen Rechtslage im Rahmen des Gutachtens › 2. Verteidigungsmöglichkeiten des Gegners",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verlangt nur die Wiedergabe eines BGH-Leitsatzes anhand eines Aktenzeichens, ohne dass Examenswissen geprüft wird, und die Lösung ist im Wesentlichen schon durch das bloße Zitat erschöpft."
   },
   {
    "typ": "formulierung",
@@ -29,7 +32,9 @@
    "skript": "kautelar",
    "abschnitt": "I. Aufbau › IV. Umgang mit streitigen Tatsachen › 2. Beweismittel (Merkwort: S A P U Z)",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verlangt nur die wörtliche Wiedergabe eines BGH-Leitsatzes anhand einer Fundstelle, was kein eigenständiges juristisches Prüfungswissen erfordert und die Lösung bereits im Wesentlichen vorgi"
   },
   {
    "typ": "formulierung",
@@ -39,7 +44,9 @@
    "skript": "kautelar",
    "abschnitt": "I. Aufbau › IV. Umgang mit streitigen Tatsachen › 2. Beweismittel (Merkwort: S A P U Z)",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verlangt nur die wörtliche Wiedergabe eines BGH-Leitsatzes anhand einer Fundstelle, was kein eigenständiges juristisches Prüfungswissen erfordert und die Lösung bereits im Wesentlichen vorgi"
   },
   {
    "typ": "formulierung",
@@ -49,7 +56,9 @@
    "skript": "kautelar",
    "abschnitt": "I. Aufbau › IV. Umgang mit streitigen Tatsachen › 2. Beweismittel (Merkwort: S A P U Z)",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verlangt nur die wörtliche Wiedergabe eines BGH-Leitsatzes anhand einer Fundstelle, was kein eigenständiges juristisches Prüfungswissen erfordert und die Lösung bereits im Wesentlichen vorgi"
   },
   {
    "typ": "formulierung",
@@ -59,7 +68,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 2. Urkunden- und Wechselprozess § 592 ff ZPO",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -69,7 +79,9 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 2. Urkunden- und Wechselprozess § 592 ff ZPO",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verlangt nur die wörtliche Wiedergabe eines BGH-Leitsatzes anhand einer Fundstelle, was kein eigenständiges juristisches Prüfungswissen erfordert und die Lösung bereits im Wesentlichen vorgi"
   },
   {
    "typ": "formulierung",
@@ -79,7 +91,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 2. Urkunden- und Wechselprozess § 592 ff ZPO",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -89,7 +102,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 2. Urkunden- und Wechselprozess § 592 ff ZPO",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -99,7 +113,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 3. Einstweiliger Rechtsschutz",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -109,7 +124,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 3. Einstweiliger Rechtsschutz",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -119,7 +135,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 3. Einstweiliger Rechtsschutz",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -129,7 +146,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › 2. In Vollziehung des Antrages zu 1 wird die Haft gegen den",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -139,7 +157,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 5. Unbezifferter Klagantrag",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -149,7 +168,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 6. Positive und negative Feststellungsklage nach § 256 Abs. 1 ZPO und",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -159,7 +179,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 6. Positive und negative Feststellungsklage nach § 256 Abs. 1 ZPO und",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -169,7 +190,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 6. Positive und negative Feststellungsklage nach § 256 Abs. 1 ZPO und",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -179,7 +201,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 6. Positive und negative Feststellungsklage nach § 256 Abs. 1 ZPO und",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -189,7 +212,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 7. Freistellungsantrag (Freihaltungs-, Befreiungs- bzw. Freistellungsanspruch)",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -199,7 +223,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 7. Freistellungsantrag (Freihaltungs-, Befreiungs- bzw. Freistellungsanspruch)",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -209,7 +234,9 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VI. Der Umgang mit Varianten der Leistungsklage › 7. Freistellungsantrag (Freihaltungs-, Befreiungs- bzw. Freistellungsanspruch)",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verweist nur auf eine externe Quelle (lexetius.com/2004,191), ohne den zugrundeliegenden Sachverhalt oder die Parteien des BGH-Falls in der Frage selbst darzustellen."
   },
   {
    "typ": "formulierung",
@@ -219,7 +246,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VII. Streitverkündung gem. § 72-74 ZPO › a. E., wohl eher beiläufig in Kauf nehmen wollen; vgl. indessen dazu etwa Wieser,",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -229,7 +257,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › VII. Streitverkündung gem. § 72-74 ZPO › a. E., wohl eher beiläufig in Kauf nehmen wollen; vgl. indessen dazu etwa Wieser,",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -239,7 +268,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 2. Eingangsformulierung",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -249,7 +279,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 2. Eingangsformulierung",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -259,7 +290,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 2. Eingangsformulierung",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -269,7 +301,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 3. Anträge",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -279,7 +312,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 3. Anträge",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -289,7 +323,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 3. Anträge",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -299,7 +334,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 3. Anträge",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -309,7 +345,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 3. Anträge",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -319,7 +356,9 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 4. Begründung der Klage",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Frage und Lösung passen nicht zusammen: Die Frage beschreibt einen Mietrechtsfall, die Lösung formuliert einen Einleitungssatz für einen Verkehrsunfall-Fall, sodass die Karte in sich widersprüchlich u"
   },
   {
    "typ": "formulierung",
@@ -329,7 +368,9 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 4. Begründung der Klage",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Frage und Lösung sind vertauscht: Die Lösung beschreibt einen Mietzinsrückstandsfall, nicht den in der Frage geschilderten Unterlassungsfall."
   },
   {
    "typ": "formulierung",
@@ -339,7 +380,9 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 4. Begründung der Klage",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Lösung enthält Formulierungen aus einem anderen Sachverhalt (Baumaßnahmen) und ist nicht auf den in der Frage genannten Unterlassungsfall ehrverletzender Aussagen abgestimmt, was auf vertauschte K"
   },
   {
    "typ": "formulierung",
@@ -349,7 +392,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Bestimmung der Verfahrensart in den prozesstaktischen Erwägungen › IX. Anforderungen an die Klageschrift › 4. Begründung der Klage",
    "rn": "",
-   "gewicht": 1
+   "gewicht": 1,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -359,7 +403,8 @@
    "skript": "kautelar",
    "abschnitt": "I. Mandantenziel › IV. Prozessuales Gutachten und Prozesstaktische Erwägungen › 1. Widerklage, Drittwiderklage, Aufrechnung, Hilfsaufrechnung, Hilfswiderklage",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -369,7 +414,9 @@
    "skript": "kautelar",
    "abschnitt": "I. Mandantenziel › IV. Prozessuales Gutachten und Prozesstaktische Erwägungen › 1. Widerklage, Drittwiderklage, Aufrechnung, Hilfsaufrechnung, Hilfswiderklage",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Lösung enthält offensichtlich falschen Inhalt (einen Satz über Verfahrenszumutbarkeit statt der verlangten Formulierung zur Hilfsaufrechnung und Hilfswiderklage), sodass Frage und Lösung nicht zus"
   },
   {
    "typ": "formulierung",
@@ -379,7 +426,8 @@
    "skript": "kautelar",
    "abschnitt": "I. Mandantenziel › IV. Prozessuales Gutachten und Prozesstaktische Erwägungen › 2. Umgang mit Versäumnisurteil und Vollstreckungsbescheid/",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -389,7 +437,8 @@
    "skript": "kautelar",
    "abschnitt": "I. Mandantenziel › IV. Prozessuales Gutachten und Prozesstaktische Erwägungen › 3. (Teil-)anerkenntnis und Vertretungsanzeige",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -399,7 +448,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Vollstreckungsschutzantrag › VI. Klageerwiderung",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -409,7 +459,8 @@
    "skript": "kautelar",
    "abschnitt": "V. Vollstreckungsschutzantrag › VI. Klageerwiderung",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -419,7 +470,8 @@
    "skript": "kautelar",
    "abschnitt": "I. Klagen gegen die Zwangsvollstreckung › 3. Klage auf vorzugsweise Befriedigung nach § 805 ZPO",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -429,7 +481,8 @@
    "skript": "kautelar",
    "abschnitt": "I. Klagen gegen die Zwangsvollstreckung › II. Sofortige Beschwerde und Erinnerung › 2. Erinnerung nach § 766 ZPO",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": true
   },
   {
    "typ": "formulierung",
@@ -439,7 +492,9 @@
    "skript": "kautelar",
    "abschnitt": "I. Allgemeine Standards › IV. Begründungstiefe",
    "rn": "",
-   "gewicht": 2
+   "gewicht": 2,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verlangt, einen Prüfungspunkt mit 'niedriger Begründungstiefe' zu formulieren, enthält aber keinen konkreten mangelhaften Ausgangstext, den die Bearbeiterin verbessern soll, sodass unklar is"
   },
   {
    "typ": "formulierung",
@@ -449,7 +504,9 @@
    "skript": "kautelar",
    "abschnitt": "V. Klare Sprache und klarer Aufbau",
    "rn": "",
-   "gewicht": 3
+   "gewicht": 3,
+   "selbsttragend": false,
+   "grund_nicht_selbsttragend": "Die Frage verweist auf ein 'nachfolgendes Negativbeispiel', das in der Karte selbst nicht enthalten ist, sodass die Aufgabe ohne das Skript nicht lösbar ist."
   }
  ]
 }
