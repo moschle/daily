@@ -150,7 +150,61 @@ def kuratiere(sid: str, nur_pruefen: bool = False, additiv: bool = True) -> dict
     return {"skript": sid, "karten": fertig}
 
 
+PRUEF_PROMPT = """Pruefe Uebungskarten fuer die zweite juristische Staatspruefung.
+Die Bearbeiterin bekommt NUR die Frage, nicht das Ausbildungsskript.
+
+Eine Karte ist selbsttragend, wenn jemand mit Examenswissen sie beantworten kann,
+ohne das Skript zu kennen: alle Tatsachen, Parteien und Umstaende, auf die es
+fuer die Antwort ankommt, stehen in der Frage selbst. Nicht selbsttragend ist
+eine Karte, die auf einen im Skript geschilderten Beispielfall verweist
+(Adresse, Aktenzeichen, "im Fall X"), ohne zu sagen, wer gegen wen was will.
+Ebenfalls nicht selbsttragend: die Frage enthaelt die Loesung schon woertlich.
+
+KARTEN (JSON, Frage und Loesung):
+{karten}
+
+Nur JSON-Liste ohne Markdown:
+[{{"id": "<id>", "selbsttragend": true|false, "grund": "<ein Satz, nur wenn false>"}}]"""
+
+
+def pruefe_selbsttragend(sid: str) -> int:
+    """Markiert Karten, die ohne Skript nicht loesbar sind. Loesungen bleiben unberuehrt,
+    nichts wird geloescht — kartenbrief.waehle() ueberspringt nur die markierten."""
+    pfad = OUT / f"{sid}.kuratiert.json"
+    daten = json.loads(pfad.read_text(encoding="utf-8"))
+    karten = daten.get("karten", [])
+    offen = [k for k in karten if "selbsttragend" not in k]
+    nein = 0
+    for i in range(0, len(offen), 15):
+        stapel = [{"id": k["id"], "frage": k["frage"], "loesung": k["loesung"][:400]}
+                  for k in offen[i:i + 15]]
+        antwort = complete(PRUEF_PROMPT.format(karten=json.dumps(stapel, ensure_ascii=False)),
+                           max_tokens=2000)
+        antwort = re.sub(r"^```(?:json)?|```$", "", antwort.strip(), flags=re.M).strip()
+        try:
+            urteile = {u["id"]: u for u in json.loads(antwort)}
+        except (json.JSONDecodeError, TypeError, KeyError):
+            print(f"{sid}: Pruefstapel {i} unlesbar", file=sys.stderr)
+            continue
+        for k in offen[i:i + 15]:
+            u = urteile.get(k["id"])
+            if u is None:
+                continue
+            k["selbsttragend"] = bool(u.get("selbsttragend", True))
+            if not k["selbsttragend"]:
+                k["grund_nicht_selbsttragend"] = (u.get("grund") or "")[:200]
+                nein += 1
+    pfad.write_text(json.dumps(daten, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"{sid}: {len(offen)} geprueft, {nein} nicht selbsttragend", file=sys.stderr)
+    return nein
+
+
 def main() -> int:
+    if "--selbsttragend" in sys.argv:
+        ids = sorted(p.stem.replace(".kuratiert", "") for p in OUT.glob("*.kuratiert.json"))
+        for sid in ids:
+            pruefe_selbsttragend(sid)
+        return 0
     nur_pruefen = "--pruefen" in sys.argv
     additiv = "--neu" not in sys.argv
     args = [a for a in sys.argv[1:] if not a.startswith("--")]

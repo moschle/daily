@@ -23,7 +23,7 @@ for _p in (_REPO, _HERE):
 
 from adaptive_plan import pick
 from fsrs_scheduler import _load as load_progress, _save as save_progress, auto_wertung, markiere_gezeigt
-from kartenbrief import brieftext, lade, waehle, waehle_fall, zurueckhalten
+from kartenbrief import pack_schluessel, brieftext, lade, waehle, waehle_fall, zurueckhalten
 
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 STATE_FILE = _HERE / "state.json"
@@ -484,8 +484,8 @@ def main():
     for k in heutige:
         markiere_gezeigt(progress, k["id"])
     packs = state.setdefault("offene_packs", {})
-    packs[case["id"]] = zurueckhalten(heutige, case["id"])
-    for alt in list(packs)[:-3]:              # hoechstens drei Briefe offen halten
+    packs[pack_schluessel(case["id"])] = zurueckhalten(heutige, case["id"])
+    for alt in list(packs)[:-6]:              # zwei Wochen Briefe offen halten
         packs.pop(alt)
     state["offen"] = {}
     save_progress(progress)

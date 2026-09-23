@@ -68,7 +68,9 @@ def waehle(karten: list[dict], progress: dict, tag: date | None = None,
            anzahl: int = PRO_BRIEF, meiden: list[str] | None = None) -> list[dict]:
     """Faellige zuerst, dann ungesehene, dann nach Gewicht auffuellen."""
     tag = tag or heute()
-    meiden = set(meiden or [])
+    meiden = set(meiden or []) | set(progress.get("gesperrt") or [])
+    # Karten, die ohne das Skript nicht loesbar sind, gehen nicht raus
+    karten = [k for k in karten if k.get("selbsttragend", True) is not False]
     by_id = {k["id"]: k for k in karten}
     ids = [k["id"] for k in karten if k["id"] not in meiden]
 
@@ -120,6 +122,7 @@ def brieftext(karten: list[dict]) -> str:
         return "Heute keine Karten fuer dieses Skript.\n"
     zeilen = ["II. Aufgaben",
               "Antworte auf diese Mail. Pro Aufgabe eine Zeile, nummeriert.",
+              "Frage ohne Skript nicht loesbar? Schreib z. B. \"2. streichen\" — sie kommt nie wieder.",
               ""]
     for n, k in enumerate(karten, 1):
         ort = kurz_ort(k)
@@ -128,6 +131,13 @@ def brieftext(karten: list[dict]) -> str:
             zeilen.append(f"   ({ort})")
         zeilen.append("")
     return "\n".join(zeilen)
+
+
+def pack_schluessel(case_id: str, tag: date | None = None) -> str:
+    """Ein offenes Paket je Brief, nicht je Fall. Frueher ueberschrieb ein
+    neuer Brief zum selben Fall das alte Paket — eine spaete Antwort auf den
+    alten Brief wurde dann gegen die falschen Fragen korrigiert."""
+    return f"{case_id}@{(tag or heute()).strftime('%d.%m.')}"
 
 
 def zurueckhalten(karten: list[dict], case_id: str, tag: date | None = None) -> dict:

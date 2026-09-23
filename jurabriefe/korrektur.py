@@ -21,6 +21,8 @@ HERE = Path(__file__).resolve().parent
 MIN_KLAUSUR = 400
 FENSTER = 14             # Tage, die rueckwaerts nach Antworten gesucht wird
 ID = re.compile(r"\[([a-z]{2,4}-\d{3})\]", re.I)
+DATUM = re.compile(r"\((\d{2}\.\d{2}\.)\)")
+STREICHEN = re.compile(r"(?im)^\s*(?:streichen|raus|weg)\s*:?\s*([\d,\s und]+)\s*$|^\s*(\d{1,2})\s*[.):]\s*(?:streichen|raus)\b")
 ZITAT = re.compile(r"^\s*(>|Am .+ schrieb|On .+ wrote|Von:|Gesendet:|-{2,}\s*$|_{5,})", re.I)
 
 RASTER = """Gewichtung:
@@ -75,9 +77,16 @@ def einordnen(subject: str, body: str) -> dict | None:
     if not m:
         return None
     case_id = m.group(1).lower()
+    d = DATUM.search(subject or "")
+    datum = d.group(1) if d else ""
     eigen = ohne_zitat(body)
+    streichen = sorted({int(n) for g1, g2 in STREICHEN.findall(eigen)
+                        for n in re.findall(r"\d{1,2}", g1 or g2)})
     if len(eigen) >= MIN_KLAUSUR:
-        return {"art": "klausur", "case_id": case_id, "text": eigen}
+        return {"art": "klausur", "case_id": case_id, "text": eigen,
+                "datum": datum, "streichen": streichen}
+    if streichen:                              # kurze Antwort, nur Streichwunsch
+        return {"art": "streichen", "case_id": case_id, "datum": datum, "streichen": streichen}
     kopf = erste_zeile(body)
     p = re.match(r"\s*(?:SCORE:\s*)?(\d{1,2})\s*(?:punkte|p)?\b", kopf, re.I)
     if p:
@@ -279,6 +288,13 @@ def main() -> int:
         if not case:
             print(f"unbekannter Fall {a['case_id']}", file=sys.stderr)
             continue
+        if a["art"] == "streichen":
+            packs = state.get("offene_packs") or {}
+            eintrag = packs.get(f"{case['id']}@{a.get('datum', '')}") or packs.get(case["id"]) or {}
+            weg = [c["id"] for c in eintrag.get("karten", []) if c["nr"] in a["streichen"]]
+            progress["gesperrt"] = sorted(set(progress.get("gesperrt") or []) | set(weg))
+            print(f"gestrichen: {weg}", file=sys.stderr)
+            continue
         if a["art"] == "note":
             review(progress, a["case_id"], a["note"], a.get("detail", ""))
             print(f"{a['case_id']} Note {a['note']}", file=sys.stderr)
@@ -289,10 +305,25 @@ def main() -> int:
             continue
 
         packs = state.setdefault("offene_packs", {})
-        eintrag = packs.get(case["id"])
+        schluessel = f"{case['id']}@{a.get('datum', '')}"
+        eintrag = packs.get(schluessel) or packs.get(case["id"])   # alter Schluessel
+        if not eintrag:                         # juengstes Paket zum Fall
+            passende = [v for key, v in packs.items() if key.startswith(case["id"] + "@")]
+            eintrag = passende[-1] if passende else None
+            if eintrag and a.get("datum"):
+                print(f"{case['id']}: kein Paket fuer {a['datum']}, nehme {eintrag.get('datum')}",
+                      file=sys.stderr)
         if not eintrag and (state.get("offen") or {}).get("case_id") == case["id"]:
             eintrag = state["offen"]          # Uebergang vom alten Einzelslot
         pack = (eintrag or {}).get("karten") or []
+        # "streichen 2" in der Antwort: Frage nie wieder stellen, nicht werten
+        if pack and a.get("streichen"):
+            gesperrt = set(progress.get("gesperrt") or [])
+            weg = [c for c in pack if c["nr"] in a["streichen"]]
+            gesperrt |= {c["id"] for c in weg}
+            progress["gesperrt"] = sorted(gesperrt)
+            pack = [c for c in pack if c["nr"] not in a["streichen"]]
+            print(f"gestrichen: {[c['id'] for c in weg]}", file=sys.stderr)
         if pack:
             k = korrigiere_karten(pack, a["text"])
             nach_nr = {c["nr"]: c for c in pack}
@@ -304,6 +335,7 @@ def main() -> int:
             send_mail(f"Auswertung — {case['gebiet']} [{case['id']}] {k['gesamt']} Punkte",
                       karten_mail(case, pack, k, progress["cards"][case["id"]].get("schnitt")))
             print(f"{case['id']} {len(k['karten'])} Karten, Schnitt {k['gesamt']}", file=sys.stderr)
+            packs.pop(schluessel, None)
             packs.pop(case["id"], None)
             if (state.get("offen") or {}).get("case_id") == case["id"]:
                 state["offen"] = {}

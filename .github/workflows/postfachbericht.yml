@@ -1,0 +1,24 @@
+name: Jurabrief-Postfachbericht
+
+on:
+  workflow_dispatch:
+    inputs:
+      tage:
+        description: 'Wie viele Tage zurueck'
+        default: '21'
+
+jobs:
+  bericht:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Bericht an den Betreiber
+        env:
+          PYTHONPATH: ${{ github.workspace }}:${{ github.workspace }}/jurabriefe
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python jurabriefe/postfachbericht.py ${{ github.event.inputs.tage }}
