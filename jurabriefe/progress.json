@@ -5,7 +5,7 @@
     "zr-003": 0.8,
     "zr-004": 1.0,
     "zr-005": 1.1,
-    "zr-006": 0.8,
+    "zr-006": 1.1,
     "zr-007": 1.0,
     "zr-008": 1.0,
     "zr-009": 1.0,
@@ -29,7 +29,11 @@
     "lesetext:olgbamb-2022-09-06-10-u-5722:1": 1.7,
     "lesetext:olgbamb-2022-09-06-10-u-5722:2": 0.8,
     "lesetext:olgbamb-2022-09-06-10-u-5722:3": 1.4,
-    "zr-staat:form:007": 0.8
+    "zr-staat:form:007": 0.8,
+    "zr-anwalt:form:016": 0.8,
+    "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:1": 1.1,
+    "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:2": 1.4,
+    "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:3": 1.1
   },
   "feedback": [
     {
@@ -686,17 +690,71 @@
       "grade": null,
       "interval": 7,
       "detail": ""
+    },
+    {
+      "date": "2026-09-23",
+      "case_id": "zr-anwalt:form:016",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Skriptlösung ist die knappere, in der Praxis übliche Kurzform ('Beweis: Sachverständigengutachten'), inhaltlich aber keine Abweichung, da Tatsachenbezug ebenfalls zulässig und sogar präziser ist.",
+      "punkte": 16.0
+    },
+    {
+      "date": "2026-09-23",
+      "case_id": "zr-anwalt:form:014",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 1,
+      "detail": "Keine Antwort gegeben.",
+      "punkte": 0.0
+    },
+    {
+      "date": "2026-09-23",
+      "case_id": "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:1",
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Zentraler Punkt fehlt: Die Entscheidung erging nicht durch Berufungsurteil nach §§ 513, 529, 546 ZPO, sondern als angekündigter Zurückweisungsbeschluss nach § 522 Abs. 2 ZPO mangels Erfolgsaussicht und grundsätzlicher Bedeutung; zudem fehlen die Ausführungen zu Treu und Glauben (Kenntnis des Schadensabwicklungsunternehmens unschädlich), zum Anscheinsbeweis für die Kausalität und zur Verjährung (Be",
+      "punkte": 7.0
+    },
+    {
+      "date": "2026-09-23",
+      "case_id": "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:2",
+      "note": "schwer",
+      "grade": 2,
+      "interval": 2,
+      "detail": "Die eigentliche gefragte abstrakte Rechtsfrage (Maßstab nach BGH IX ZR 165/19: umfassende Beratungspflicht, ex-ante-Sicht, Bedeutung höchstrichterlicher Rechtsprechung, Definition 'praktisch aussichtslos', Fortbestehen der Aufklärungspflicht bei Änderung der Rechtslage während des Verfahrens) wird nicht beantwortet, stattdessen nur Fallfakten wiederholt.",
+      "punkte": 4.0
+    },
+    {
+      "date": "2026-09-23",
+      "case_id": "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:3",
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Keine Nennung der konkreten Indikatoren (Vorlagebeschlüsse, Schlussanträge des Generalanwalts, BGH-Pressemitteilungen), keine Klarstellung, dass keine rückwirkende Haftung für spätere, zum Beratungszeitpunkt nicht vorhersehbare Entwicklungen besteht, sowie fehlender Hinweis auf Dokumentationspflicht zu Beweiszwecken im Regressprozess.",
+      "punkte": 8.0
+    },
+    {
+      "date": "2026-09-23",
+      "case_id": "zr-006",
+      "note": "gut",
+      "grade": 3,
+      "interval": 60,
+      "detail": "Übe gezielt das Herausarbeiten der prozessualen Entscheidungsform (§ 522 Abs. 2 ZPO vs. Berufungsurteil) anhand weiterer OLG-Beschlüsse und trainiere, abstrakte Rechtsfragen getrennt von der Subsumtion des Einzelfalls zu beantworten.",
+      "punkte": 7.0
     }
   ],
   "letzte_anpassung": null,
   "cards": {
     "zr-006": {
-      "stability": 17.97,
+      "stability": 59.71,
       "difficulty": 4.85,
-      "due": "2026-09-29",
-      "last": "2026-09-11",
+      "due": "2026-11-22",
+      "last": "2026-09-23",
       "gezeigt": "2026-09-23",
-      "reps": 2,
+      "reps": 3,
       "punkte": [
         {
           "date": "2026-09-10",
@@ -705,9 +763,13 @@
         {
           "date": "2026-09-11",
           "wert": 12.0
+        },
+        {
+          "date": "2026-09-23",
+          "wert": 7.0
         }
       ],
-      "schnitt": 9.0
+      "schnitt": 8.3
     },
     "zr-anwalt:form:012": {
       "stability": 160.44,
@@ -750,11 +812,11 @@
     },
     "zr-anwalt:form:014": {
       "stability": 1.0,
-      "difficulty": 5.9,
-      "due": "2026-09-17",
-      "last": "2026-09-16",
+      "difficulty": 6.2,
+      "due": "2026-09-24",
+      "last": "2026-09-23",
       "gezeigt": "2026-09-23",
-      "reps": 3,
+      "reps": 4,
       "punkte": [
         {
           "date": "2026-09-10",
@@ -767,9 +829,13 @@
         {
           "date": "2026-09-16",
           "wert": 2.0
+        },
+        {
+          "date": "2026-09-23",
+          "wert": 0.0
         }
       ],
-      "schnitt": 1.7
+      "schnitt": 1.2
     },
     "zr-anwalt:form:011": {
       "stability": 35.7,
@@ -852,13 +918,20 @@
       "schnitt": 6.0
     },
     "zr-anwalt:form:016": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": "2026-09-30",
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-01",
+      "last": "2026-09-23",
       "gezeigt": "2026-09-23",
-      "reps": 0,
-      "unbeantwortet": 5
+      "reps": 1,
+      "unbeantwortet": 5,
+      "punkte": [
+        {
+          "date": "2026-09-23",
+          "wert": 16.0
+        }
+      ],
+      "schnitt": 16.0
     },
     "zr-anwalt:form:018": {
       "stability": 0.0,
@@ -1142,31 +1215,52 @@
       "schnitt": 18.0
     },
     "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:1": {
-      "stability": 0.0,
+      "stability": 4.0,
       "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "due": "2026-09-27",
+      "last": "2026-09-23",
       "gezeigt": "2026-09-23",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-23",
+          "wert": 7.0
+        }
+      ],
+      "schnitt": 7.0
     },
     "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:2": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 2.0,
+      "difficulty": 5.15,
+      "due": "2026-09-25",
+      "last": "2026-09-23",
       "gezeigt": "2026-09-23",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-23",
+          "wert": 4.0
+        }
+      ],
+      "schnitt": 4.0
     },
     "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:3": {
-      "stability": 0.0,
+      "stability": 4.0,
       "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "due": "2026-09-27",
+      "last": "2026-09-23",
       "gezeigt": "2026-09-23",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-23",
+          "wert": 8.0
+        }
+      ],
+      "schnitt": 8.0
     }
   },
-  "letzter_korrekturlauf": "2026-09-22",
+  "letzter_korrekturlauf": "2026-09-23",
   "gesperrt": [
     "zr-anwalt:form:014"
   ]

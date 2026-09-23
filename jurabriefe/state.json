@@ -84,68 +84,13 @@
           "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 3. Streitgenossen"
         }
       ]
-    },
-    "zr-006": {
-      "case_id": "zr-006",
-      "datum": "2026-09-23",
-      "karten": [
-        {
-          "nr": 1,
-          "id": "zr-anwalt:form:016",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie den Beweisantritt für den Sachverstaendigenbeweis.",
-          "loesung": "Beweis: Sachverständigengutachten",
-          "gewicht": 3,
-          "skript": "zr-anwalt",
-          "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › 2. Formelles Beweisrecht › a. Beweisverfahren"
-        },
-        {
-          "nr": 2,
-          "id": "zr-anwalt:form:014",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie die einleitende Parteivorstellung im Schriftsatz (Mietrückstände August bis November 2023, Pallasstraße 57, Berlin-Schöneberg).",
-          "loesung": "Die Klägerin vermietet dem Beklagten eine Wohnung in der Pallasstraße 57 in 10829 Berlin - Schöneberg und macht mit dieser Klage Mietrückstände für die Monate August bis November 2023 geltend.",
-          "gewicht": 2,
-          "skript": "zr-anwalt",
-          "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden."
-        },
-        {
-          "nr": 3,
-          "id": "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:1",
-          "typ": "fall",
-          "frage": "Im Beschluss des OLG München vom 19.11.2025 (15 U 2525/25) ging es um einen Regressprozess: Eine Rechtsschutzversicherung (Klägerin) hatte ihrer Versicherungsnehmerin Deckungsschutz für eine Schadensersatzklage gegen die VW AG wegen des Dieselmotors EA189 gewährt, obwohl das Fahrzeug erst im April 2017 – also nach Bekanntwerden des Dieselskandals – gekauft worden war. Die Versicherungsnehmerin unterlag in diesem Vorprozess vollständig und musste die Kosten tragen; die Versicherung erstattete diese Kosten und nahm nun die Rechtsanwaltsgesellschaft, die die Versicherungsnehmerin im Vorprozess vertreten hatte, aus übergegangenem Recht auf Regress in Anspruch. Das Landgericht München hatte der Klage überwiegend stattgegeben. Wie hat das OLG München über die Berufung der beklagten Anwaltsgesellschaft entschieden, und mit welcher zentralen Begründung?",
-          "loesung": "Das OLG München kündigte an, die Berufung gemäß § 522 Abs. 2 ZPO einstimmig durch Beschluss zurückzuweisen, da sie offensichtlich keine Aussicht auf Erfolg habe und auch keine grundsätzliche Bedeutung, Rechtsfortbildung oder Sicherung einheitlicher Rechtsprechung eine mündliche Verhandlung erfordere. In der Sache bestätigte der Senat, dass der Klägerin aus gemäß § 86 Abs. 1 VVG übergegangenem Recht ein Schadensersatzanspruch gegen die beklagte Anwaltsgesellschaft aus § 280 Abs. 1, § 675 Abs. 1 BGB zusteht: Die Beklagte habe ihre Beratungspflicht verletzt, indem sie die Versicherungsnehmerin nicht über die von Anfang an bestehende Aussichtslosigkeit der Klage gegen die Fahrzeugherstellerin aufgeklärt habe. Denn bereits bei Mandatsübernahme im Oktober 2020 (BGH-Urteil vom 30.07.2020) und erst recht bei Klageeinreichung im April 2021 (BGH-Beschluss vom 09.03.2021) war höchstrichterlich geklärt, dass Käufern, die das Fahrzeug erst nach dem 22.09.2015 erworben hatten, kein sittenwidriges Verhalten der Herstellerin vorzuwerfen war und auch Ansprüche aus § 823 Abs. 2 BGB i.V.m. EG-FGV bzw. VO (EG) 715/2007 nicht bestanden. Die Geltendmachung des Regressanspruchs verstoße auch nicht gegen Treu und Glauben, selbst wenn das Schadensabwicklungsunternehmen der Klägerin die Aussichtslosigkeit zunächst erkannt, aber dennoch Deckungsschutz gewährt habe, da es allein Sache des Rechtsanwalts sei, seine Tätigkeit so auszurichten, dass der Mandant nicht geschädigt wird. Zudem greife zugunsten der Klägerin der Anscheinsbeweis, dass die Versicherungsnehmerin bei pflichtgemäßer Aufklärung von der Rechtsverfolgung abgesehen hätte, da die Rechtslage im maßgeblichen Beratungszeitpunkt eindeutig geklärt war und erst später (durch Schlussanträge des Generalanwalts vom 02.06.2022 und die BGH-Pressemitteilung vom 01.07.2022) neue Zweifel entstanden, mit denen bei der hier relevanten Beratung nicht zu rechnen war. Der Anspruch sei auch nicht verjährt, da die Verjährungsfrist erst mit rechtskräftigem Abschluss des Vorprozesses (Berufungsurteil OLG Frankfurt vom 22.02.2022) zu laufen begann und durch die 2024 erhobene Regressklage rechtzeitig gehemmt wurde.",
-          "gewicht": 2,
-          "skript": "zr-anwalt",
-          "abschnitt": "Lesetext Oberlandesgericht München olgmuen 15 U 2525/25 Rae e"
-        },
-        {
-          "nr": 4,
-          "id": "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:2",
-          "typ": "fall",
-          "frage": "Die tragende Rechtsfrage des Beschlusses betrifft den Umfang der anwaltlichen Aufklärungspflicht über die Erfolgsaussichten einer beabsichtigten Rechtsverfolgung, insbesondere in Bezug auf die Bedeutung höchstrichterlicher Rechtsprechung für den maßgeblichen Beurteilungszeitpunkt. Welchen Maßstab legt das OLG München unter Bezugnahme auf die Rechtsprechung des BGH an, um zu beurteilen, ob eine Klage aus anwaltlicher Sicht als 'aussichtslos' einzustufen ist und der Rechtsanwalt daher ausdrücklich von der Rechtsverfolgung abraten muss?",
-          "loesung": "Nach den vom Senat unter Bezugnahme auf die BGH-Rechtsprechung (Urteil vom 16.09.2021 – IX ZR 165/19) dargelegten Grundsätzen muss der Rechtsanwalt den Mandanten umfassend und erschöpfend beraten, sofern dieser nicht eindeutig nur einen begrenzten Rat wünscht. Bezüglich der Erfolgsaussichten eines Rechtsstreits reicht es nicht aus, bloß auf Risiken hinzuweisen; der Anwalt muss das ungefähre Ausmaß der Risiken abschätzen und dem Mandanten mitteilen. Ist die Klage danach praktisch aussichtslos, muss der Anwalt dies klar herausstellen und darf sich nicht mit dem Hinweis auf 'offene Erfolgsaussichten' begnügen, sondern muss gegebenenfalls ausdrücklich von der Rechtsverfolgung abraten. Maßgeblich für die Beurteilung ist stets die Sicht ex ante im Zeitpunkt der jeweiligen Beratung, wobei der aktuellen höchstrichterlichen Rechtsprechung überragende Bedeutung zukommt – der Anwalt muss seine Empfehlungen danach ausrichten, selbst wenn er die Rechtsprechung für unzutreffend hält. Eine Klage ist danach objektiv aussichtslos, wenn eine streitentscheidende Rechtsfrage höchstrichterlich abschließend geklärt ist, wobei im Schrifttum geäußerte, von der Rechtsprechung noch nicht behandelte Bedenken Anlass geben können, eine Änderung der Rechtsprechung für möglich zu halten; die bloße theoretische Möglichkeit einer für den Mandanten günstigen Fehlentscheidung genügt hingegen nicht, um die Aussichtslosigkeit auszuschließen. Zudem besteht die Aufklärungspflicht fort: Verändert sich die rechtliche oder tatsächliche Ausgangslage während des laufenden Verfahrens (etwa durch Klärung einer bislang offenen Rechtsfrage in einem Parallelverfahren), muss der Anwalt den Mandanten über die veränderten Erfolgsaussichten informieren und gegebenenfalls von der Fortführung des Rechtsstreits abraten.",
-          "gewicht": 2,
-          "skript": "zr-anwalt",
-          "abschnitt": "Lesetext Oberlandesgericht München olgmuen 15 U 2525/25 Rae e"
-        },
-        {
-          "nr": 5,
-          "id": "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:3",
-          "typ": "fall",
-          "frage": "Im vorliegenden Fall stellte das OLG München fest, dass die beklagte Anwaltsgesellschaft die Erfolgsaussichten der Klage gegen VW im Hinblick auf mehrere zeitlich gestaffelte höchstrichterliche Entscheidungen (BGH vom 30.07.2020, BGH vom 09.03.2021) hätte einschätzen und die Mandantin entsprechend beraten müssen, während spätere Entwicklungen (Schlussanträge des Generalanwalts vom 02.06.2022, BGH-Pressemitteilung vom 01.07.2022, EuGH-Urteil vom 21.03.2023, BGH-Grundsatzurteil vom 26.06.2023 zum Differenzschadensersatz) erst nach Abschluss der maßgeblichen Beratungssituation eintraten und daher nicht mehr relevant waren. Welche praktische Konsequenz folgt aus dieser zeitlichen Differenzierung für die anwaltliche Arbeit bei der laufenden Begleitung von Mandaten, insbesondere im Hinblick auf die Beobachtung der Rechtsprechungsentwicklung?",
-          "loesung": "Für die anwaltliche Praxis folgt daraus, dass der Rechtsanwalt die Erfolgsaussichten eines Mandats nicht nur bei Mandatsübernahme und vor Klageeinreichung, sondern fortlaufend während des gesamten Verfahrens im Blick behalten und aktuelle höchstrichterliche Entwicklungen sowie erkennbare Anzeichen für eine mögliche Rechtsprechungsänderung (z. B. Vorlagebeschlüsse, Schlussanträge von Generalanwälten in EuGH-Verfahren, Pressemitteilungen des BGH zu bevorstehenden Entscheidungen) sorgfältig beobachten muss. Sobald sich eine Änderung der rechtlichen Ausgangslage abzeichnet, muss der Mandant hierüber informiert werden, damit er seine ursprüngliche Entscheidung überdenken und die Chancen und Risiken der Fortführung des Verfahrens neu bewerten kann. Umgekehrt darf und muss der Anwalt seine Beratung strikt an der zum jeweiligen Beratungszeitpunkt geltenden höchstrichterlichen Rechtsprechung ausrichten, ohne spätere, zum damaligen Zeitpunkt noch nicht vorhersehbare Entwicklungen antizipieren zu müssen – eine Haftung wegen fehlerhafter Einschätzung der Erfolgsaussichten kommt nur in Betracht, wenn zum maßgeblichen Zeitpunkt bereits hinreichend konkrete Anhaltspunkte für eine Rechtsprechungsänderung vorlagen (wie hier ab dem Zeitpunkt der Schlussanträge des Generalanwalts bzw. der BGH-Pressemitteilung im Sommer 2022), nicht aber rückwirkend aufgrund später ergangener Entscheidungen. Dies verdeutlicht zugleich die Bedeutung einer sorgfältigen Dokumentation des Beratungszeitpunkts und der zu diesem Zeitpunkt verfügbaren Rechtsprechungslage, um im Fall eines späteren Regressprozesses den Nachweis pflichtgemäßen Verhaltens führen zu können.",
-          "gewicht": 2,
-          "skript": "zr-anwalt",
-          "abschnitt": "Lesetext Oberlandesgericht München olgmuen 15 U 2525/25 Rae e"
-        }
-      ]
     }
   },
   "erledigte_mails": [
     "<277DBF85-AA8A-4A05-9CF0-01037CAC9333@web.de>",
     "<5800FA05-F219-452C-91B9-CBF62C397468@web.de>",
     "<73BB208E-39F9-464C-BC20-A68DC3D79027@web.de>",
+    "<B577A288-D614-438A-9C7A-1DEF4E0515D1@web.de>",
     "<D40DBD9C-1A77-4806-9C9F-85F523FCE05C@web.de>",
     "<DDD4AD8A-8468-4A24-BC1F-91A6381C5787@web.de>",
     "<EE1DD304-AC61-4BA7-8DE0-18634AB30494@web.de>"
