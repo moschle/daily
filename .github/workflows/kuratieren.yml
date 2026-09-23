@@ -2,6 +2,15 @@ name: Karten kuratieren
 
 on:
   workflow_dispatch:
+    inputs:
+      kuration:
+        description: 'Volle Kuration neuer Rohkarten (API-Kosten)'
+        type: boolean
+        default: false
+      selbsttragend:
+        description: 'Karten pruefen: ohne Skript loesbar?'
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -21,10 +30,17 @@ jobs:
       - name: Woertlichkeit
         run: python jurabriefe/kuratieren.py --alle --pruefen
       - name: Kuration
+        if: ${{ inputs.kuration }}
         env:
           PYTHONPATH: ${{ github.workspace }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python jurabriefe/kuratieren.py --alle
+      - name: Selbsttragend
+        if: ${{ inputs.selbsttragend }}
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python jurabriefe/kuratieren.py --selbsttragend
       - name: Bestand pruefen
         run: python jurabriefe/pruefe_karten.py
       - name: Commit
