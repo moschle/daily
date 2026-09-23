@@ -93,7 +93,8 @@ def bericht(mails: list[dict], state: dict) -> str:
     for m in mails:
         wann = m["zeit"].strftime("%d.%m. %H:%M") if m["zeit"] else "?"
         if m["eigen"]:
-            fragen = re.findall(r"(?m)^\s*(\d)\.\s+(.{0,90})", m["text"])
+            aufgaben = m["text"].split("II. Aufgaben", 1)[-1] if "II. Aufgaben" in m["text"] else ""
+            fragen = re.findall(r"(?m)^\s*(\d)\.\s+(.{0,90})", aufgaben)
             z.append(f"→ {wann}  BRIEF  {m['subject']}")
             z += [f"      {n}. {f}" for n, f in fragen[:6]]
         else:

@@ -75,7 +75,7 @@ def erste_zeile(body: str) -> str:
 AZ = re.compile(r"\b\d{1,3}\s+[A-Za-z]{1,4}\s+\d{1,5}/\d{2}\b")
 
 
-def pack_nach_inhalt(packs: dict, text: str) -> str | None:
+def pack_nach_inhalt(packs: dict, text: str, bevorzugt: str | None = None) -> str | None:
     """Welches offene Paket beantwortet die Mail wirklich?
 
     Die Bearbeiterin arbeitet Rueckstaende ab und antwortet dabei im obersten
@@ -83,8 +83,10 @@ def pack_nach_inhalt(packs: dict, text: str) -> str | None:
     Fragen vom 18.09. Entscheidend ist deshalb der Inhalt: das Aktenzeichen des
     Lesetexts und woertlich uebernommene Fragen."""
     norm = re.sub(r"\s+", " ", text or "").lower()
+    # Das Paket aus dem Betreff zuerst werten: bei Gleichstand bleibt es dabei.
+    reihe = sorted(packs.items(), key=lambda kv: kv[0] != bevorzugt)
     beste, punkte = None, 0
-    for key, p in packs.items():
+    for key, p in reihe:
         wert = 0
         for c in p.get("karten", []):
             for az in AZ.findall(c.get("abschnitt") or ""):
@@ -332,7 +334,8 @@ def main() -> int:
 
         packs = state.setdefault("offene_packs", {})
         schluessel = f"{case['id']}@{a.get('datum', '')}"
-        treffer = pack_nach_inhalt(packs, a.get("text", ""))
+        bevorzugt = schluessel if schluessel in packs else (case["id"] if case["id"] in packs else None)
+        treffer = pack_nach_inhalt(packs, a.get("text", ""), bevorzugt)
         if treffer and treffer not in (schluessel, case["id"]):
             print(f"Antwort im Verlauf {schluessel}, inhaltlich zu {treffer}", file=sys.stderr)
             schluessel = treffer
