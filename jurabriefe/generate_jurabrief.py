@@ -9,7 +9,7 @@ import smtplib
 import sys
 import urllib.parse
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from email.mime.text import MIMEText
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -21,7 +21,6 @@ for _p in (_REPO, _HERE):
     if s not in sys.path:
         sys.path.insert(0, s)
 
-from adaptive_plan import pick
 from fsrs_scheduler import _load as load_progress, _save as save_progress, auto_wertung, markiere_gezeigt
 from kartenbrief import pack_schluessel, brieftext, lade, waehle, waehle_fall, zurueckhalten
 
@@ -50,51 +49,6 @@ FOOT = re.compile(r"(?m)^\d{1,3}\s{2}\S")
 HEAD = re.compile(r"(?m)^[A-ZÄÖÜIVX][^\n]{0,60}?\s+\d{1,3}\s*$")
 TAG = re.compile(r"<[^>]+>")
 
-AKTE = """Akte 12 C 310/24 — Amtsgericht Neukoelln, Abteilung 12
-Letzte muendliche Verhandlung: 3. April 2025, Richter am Amtsgericht Dr. Mueller.
-
-Parteien
-Klaegerin und Widerbeklagte: Rabe Schneedienst GmbH, Kochstrasse 34, 12047 Berlin,
-gesetzlich vertreten durch den Geschaeftsfuehrer Martin Mueller, ebenda.
-Prozessbevollmaechtigte: Rechtsanwaelte Martina Klage und Karl Meier, Parkstrasse 101, 12165 Berlin.
-
-Streithelferin der Klaegerin: Mega AG (Subunternehmerin, Werklohn an Klaegerin erstattet),
-gesetzlich vertreten durch Herbert Mueller und Ralf Schubert, Sonnenallee 93, 12199 Berlin.
-
-Beklagter zu 1) und Widerklaeger: der unter der Firma Dieter Teufel handelnde Kaufmann
-Rainer Zufall, Peststrasse 14, 12345 Berlin.
-
-Beklagte zu 2) und Widerklaegerin: die am 12. Dezember 2015 geborene Erika Hage,
-Sanderweg 2, 12047 Berlin, gesetzlich vertreten durch Maria und Lutz Hage, ebenda.
-
-Unstreitig
-Winterdienstvertrag 2. November 2023 mit dem Beklagten zu 1). Rechnung 2.559,45 EUR
-vom 10. Dezember 2024 unbezahlt. Hage hat nicht unterzeichnet.
-
-Streitig
-Klaegerin: maengelfrei; Gesamtschuld; Haftung Hage aus konkludentem Mitschluss und GoA.
-Beklagte: Hage nicht Vertragspartnerin; Aufrechnung 800 EUR Lackschaden; Widerklage Wucher,
-hilfsweise Rueckzahlung 200 EUR.
-
-Unternehmensgeschichte in der Klageschrift unerheblich.
-"""
-
-FALLBACK = {
-    "zr-001": "Bearbeitervermerk\nFertigen Sie den Urteilskopf. Im Namen des Volkes.\n\n" + AKTE,
-    "zr-002": "Bearbeitervermerk\nFertigen Sie die Urteilsformel. § 308, § 709 ZPO. Gesamtschuld. Widerklage abweisen.\n\n" + AKTE,
-    "zr-003": "Bearbeitervermerk\nFertigen Sie den Tatbestand. Indikativ/Konjunktiv. Keine Unternehmensgeschichte.\n\n" + AKTE,
-    "zr-004": "Bearbeitervermerk\nFertigen Sie die Entscheidungsgruende im Urteilsstil. § 68 ZPO zur Streithelferin.\n\n" + AKTE,
-    "zr-005": (
-        "Bearbeitervermerk\nAnwaltliche Sicht. Ein Sachbericht ist nicht zu fertigen.\n"
-        "Gliederung: Mandantenbegehren, Gutachten, Zweckmaessigkeit, Schriftsatz.\n"
-        "Zweckmaessigkeit: Beitritt Mega AG.\n\nMandantin: Rabe Schneedienst GmbH.\n\n" + AKTE
-    ),
-    "zr-008": "Bearbeitervermerk\nVollstreckungsabwehrklage § 767 ZPO. Kein Sachbericht.\n\n" + AKTE,
-    "zr-009": "Bearbeitervermerk\nTenor Anfechtung und Bescheidungsurteil Verpflichtungsklage.",
-    "zr-010": "Bearbeitervermerk\nAntrag § 80 Abs. 5 VwGO.",
-}
-
-
 def now_berlin():
     return datetime.now(BERLIN_TZ)
 
@@ -111,25 +65,6 @@ def save_state(state):
     state["done"] = (state.get("done") or [])[-20:]
     state["seen_slugs"] = (state.get("seen_slugs") or [])[-40:]
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
-
-
-def pick_case(cases, state, progress):
-    recent = []
-    for cid in reversed(state.get("done", [])):
-        if cid not in recent:
-            recent.append(cid)
-        if len(recent) >= 4:
-            break
-    try:
-        res = pick(cases, load_json(LERNPLAN_FILE, {"phasen": []}), progress, exclude_ids=recent)
-        case, grund = res["case"], res.get("grund", "adaptiv")
-    except Exception as e:
-        print(f"Plan: {e}", file=sys.stderr)
-        remaining = [c for c in cases if c["id"] not in recent] or cases
-        case, grund = remaining[0], "zyklus"
-    state.setdefault("done", []).append(case["id"])
-    state["last_id"] = case["id"]
-    return case, grund
 
 
 def clean_ocr(text):
@@ -485,6 +420,10 @@ def main():
         markiere_gezeigt(progress, k["id"])
     packs = state.setdefault("offene_packs", {})
     packs[pack_schluessel(case["id"])] = zurueckhalten(heutige, case["id"])
+    grenze = (now_berlin().date() - timedelta(days=14)).isoformat()   # IMAP-Fenster
+    for alt in list(packs):
+        if (packs[alt].get("datum") or grenze) < grenze:
+            packs.pop(alt)
     for alt in list(packs)[:-6]:              # zwei Wochen Briefe offen halten
         packs.pop(alt)
     state["offen"] = {}

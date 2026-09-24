@@ -38,54 +38,7 @@
   ],
   "next_index": 1,
   "offen": {},
-  "offene_packs": {
-    "zr-004": {
-      "case_id": "zr-004",
-      "datum": "2026-09-09",
-      "karten": [
-        {
-          "nr": 1,
-          "id": "zr-staat:aufb:076",
-          "typ": "aufbau",
-          "frage": "Die Klage ist abzuweisen. Bringen Sie die folgenden Anspruchsgrundlagen in die nach dem Skript vorgesehene Prüfungsreihenfolge und ergänzen Sie die fehlende Kategorie: Vertrag – dingliche Ansprüche – ungerechtfertigte Bereicherung – quasivertragliche Ansprüche.",
-          "loesung": "1. Vertrag\n2. quasivertragliche Ansprüche\n3. dingliche Ansprüche\n4. ungerechtfertigte Bereicherung",
-          "gewicht": 3,
-          "skript": "zr-staat",
-          "abschnitt": "I. Einleitung › IV. Begründetheit › 2. Hauptanspruch › b. Unbegründete Klage"
-        },
-        {
-          "nr": 2,
-          "id": "zr-staat:form:001",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie das Rubrum für folgende Konstellation: Klägerin ist Frau Lare Heise, Jonasstraße 12, 12345 Berlin; Beklagter ist Herr Jonas Jonathan, Jonasstraße 13, 12345 Berlin. Beachten Sie Grammatik und Kommasetzung.",
-          "loesung": "der Frau Lare Heise, Jonasstraße 12, 12345 Berlin, Klägerin, gegen Herrn Jonas Jonathan, Jonasstraße 13, 12345 Berlin, Beklagten,",
-          "gewicht": 1,
-          "skript": "zr-staat",
-          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 2. Grammatik der Parteibezeichnungen"
-        },
-        {
-          "nr": 3,
-          "id": "zr-staat:form:002",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie das Rubrum für folgende Konstellation: Kläger ist Herr Werner Heise, Abtstraße 12, 14469 Berlin; Beklagter ist das Land Berlin, vertreten durch die Senatsverwaltung für Justiz und Verbraucherschutz, diese vertreten durch die Senatorin Dr. Felor Badenberg, Salzburger Straße 21-25, 10825 Berlin. Beachten Sie das grammatische Geschlecht des Landes Berlin.",
-          "loesung": "Herrn Werner Heise, Abtstraße 12, 14469 Berlin, Kläger, gegen Land Berlin, vertreten durch die Senatsverwaltung für Justiz und Verbraucherschutz, diese vertreten durch die Senatorin für Justiz und Verbraucherschutz Dr. Felor Badenberg, Salzburger Straße 21-25, 10825 Berlin Beklagter,",
-          "gewicht": 1,
-          "skript": "zr-staat",
-          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 2. Grammatik der Parteibezeichnungen"
-        },
-        {
-          "nr": 4,
-          "id": "zr-staat:form:003",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie das Rubrum für zwei Streitgenossen auf Klägerseite (Werner Müller und Gabriele Müller, beide Hauptstraße 3, 15890 Eisenhüttenstadt) mit gemeinsamer Prozessbevollmächtigter. Nutzen Sie die Klammerwirkung.",
-          "loesung": "1. Werner Müller, 2. Gabriele Müller, beide Hauptstraße 3, 15890 Eisenhüttenstadt, Kläger, - Prozessbevollmächtigte: Rechtsanwältin ... –",
-          "gewicht": 1,
-          "skript": "zr-staat",
-          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 3. Streitgenossen"
-        }
-      ]
-    }
-  },
+  "offene_packs": {},
   "erledigte_mails": [
     "<277DBF85-AA8A-4A05-9CF0-01037CAC9333@web.de>",
     "<5800FA05-F219-452C-91B9-CBF62C397468@web.de>",
