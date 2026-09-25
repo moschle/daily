@@ -6,9 +6,10 @@ Quellen:
   Internationale Erweiterung: arthist.net (RSS), jobs.ac.uk × 3 Fachbereiche (RSS),
   ASPS (Association for the Study of Persianate Societies, RSS, nur Job-Beiträge)
 v2.3 (25.09.2026): Fehlertexte statt '-1' in der Mail, Mail auch bei Quellen-Ausfall,
-  quellenübergreifende Dubletten zusammengeführt, kultweet wirft Fehler sichtbar,
+  kultweet wirft Fehler sichtbar, jobs.ac.uk über Suchseiten statt toter RSS-Feeds,
   Filter um Sicherheit/OSINT, Dari/Paschtu und Promotions-/Forschungsstellen erweitert,
-  Fehlalarm 'Sonntag' entfernt.
+  Fehlalarm 'Sonntag' entfernt. Produktiver Einstieg der Action ist stellen_boot.py
+  (Dubletten, Scoring v3, museumsbund); dieses Modul liefert Quellen und Kategorien.
 Filter: Score-basiert mit Wortgrenzen-Matching + Hard-Blacklist.
 Output: HTML-Mail an GMAIL_ADDRESS, wenn neue Treffer da sind.
 State: stellen_seen.json mit gesehenen IDs (Aufräumen nach 90 Tagen).
@@ -496,39 +497,38 @@ def fetch_arthist():
     return jobs  # Fallback: nichts vorgefiltert
 
 
-# ─── Quelle: jobs.ac.uk RSS-Feeds ───
-# Der alte Pfad /jobs/<slug>/?format=rss liefert nichts mehr. jobs.ac.uk
-# fuehrt seine Feeds inzwischen unter /feeds/subject-areas/<slug>.
-# Beide Varianten stehen drin, die erste, die Eintraege bringt, gewinnt.
-JOBSACUK_FEEDS = {
-    "jobs.ac.uk Languages": [
-        "https://www.jobs.ac.uk/feeds/subject-areas/languages-literature-and-culture",
-        "https://www.jobs.ac.uk/jobs/languages-literature-and-culture/?format=rss",
-    ],
-    "jobs.ac.uk History": [
-        "https://www.jobs.ac.uk/feeds/subject-areas/historical-and-philosophical-studies",
-        "https://www.jobs.ac.uk/jobs/historical-and-philosophical-studies/?format=rss",
-    ],
-    "jobs.ac.uk Politics": [
-        "https://www.jobs.ac.uk/feeds/subject-areas/politics-and-government",
-        "https://www.jobs.ac.uk/jobs/politics-and-government/?format=rss",
-    ],
-}
+# ─── Quelle: jobs.ac.uk über die Suchseiten ───
+# Die RSS-Feeds (alt: /jobs/<slug>/?format=rss, neu: /feeds/subject-areas/<slug>)
+# liefern seit September 2026 nur noch 404/500. Die Suchseiten enthalten die
+# Stellen als Links /job/<ID>/<slug>. Gescort wird nur der Titel: die Volltextsuche
+# findet auch Marketing- oder Jura-Stellen an Golf-Universitäten.
+JOBSACUK_KEYWORDS = [
+    "persian", "iranian", "tajik", "central asia", "afghanistan",
+    "islamic studies", "arabic", "middle east", "terrorism",
+]
 
 
-def fetch_jobsacuk_languages():
-    name = "jobs.ac.uk Languages"
-    return fetch_feed_any(JOBSACUK_FEEDS[name], name)
-
-
-def fetch_jobsacuk_history():
-    name = "jobs.ac.uk History"
-    return fetch_feed_any(JOBSACUK_FEEDS[name], name)
-
-
-def fetch_jobsacuk_politics():
-    name = "jobs.ac.uk Politics"
-    return fetch_feed_any(JOBSACUK_FEEDS[name], name)
+def fetch_jobsacuk():
+    from urllib.parse import quote_plus
+    jobs, ids = [], set()
+    for kw in JOBSACUK_KEYWORDS:
+        html = fetch_url("https://www.jobs.ac.uk/search/?keywords=" + quote_plus(kw), timeout=30)
+        for jid, slug in re.findall(r'href="/job/([A-Z0-9]+)/([^"?#]+)"', html):
+            if jid in ids:
+                continue
+            ids.add(jid)
+            jobs.append({
+                "source": "jobs.ac.uk",
+                "id": f"jobsacuk-{jid}",
+                "title": slug.replace("-", " ").strip().capitalize(),
+                "url": f"https://www.jobs.ac.uk/job/{jid}/{slug}",
+                "summary": "",
+                "updated": "",
+            })
+    if not jobs:
+        raise RuntimeError("Suchseiten geladen, aber 0 Treffer im Markup — Parser pruefen")
+    print(f"jobs.ac.uk: {len(jobs)} Stellen geladen", file=sys.stderr)
+    return jobs
 
 
 # ─── Quelle: ASPS (Persianate Societies) RSS ───
@@ -755,9 +755,7 @@ def main():
         ("UniBwM", fetch_unibwm),
         ("service.bund.de", fetch_servicebund),
         ("arthist.net", fetch_arthist),
-        ("jobs.ac.uk Languages", fetch_jobsacuk_languages),
-        ("jobs.ac.uk History", fetch_jobsacuk_history),
-        ("jobs.ac.uk Politics", fetch_jobsacuk_politics),
+        ("jobs.ac.uk", fetch_jobsacuk),
         ("ASPS", fetch_asps),
     ]
     all_jobs = []
@@ -770,19 +768,6 @@ def main():
         except Exception as e:
             print(f"Quelle {name} komplett gescheitert: {e}", file=sys.stderr)
             sources_status[name] = f"{type(e).__name__}: {e}"
-
-    # Quellenübergreifende Dubletten (gleiche Stelle auf mehreren Portalen) zusammenführen
-    by_title = {}
-    for job in all_jobs:
-        key = re.sub(r"[^a-z0-9äöüß]+", " ", job["title"].lower()).strip()
-        if key in by_title:
-            first = by_title[key]
-            if job["source"] not in first["sources"]:
-                first["sources"].append(job["source"])
-        else:
-            job["sources"] = [job["source"]]
-            by_title[key] = job
-    all_jobs = list(by_title.values())
 
     scored_hits = []
     for job in all_jobs:

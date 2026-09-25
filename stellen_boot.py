@@ -106,9 +106,8 @@ def main() -> None:
         ("UniBwM", sc.fetch_unibwm),
         ("service.bund.de", sc.fetch_servicebund),
         ("arthist.net", sc.fetch_arthist),
-        ("jobs.ac.uk Languages", sc.fetch_jobsacuk_languages),
-        ("jobs.ac.uk History", sc.fetch_jobsacuk_history),
-        ("jobs.ac.uk Politics", sc.fetch_jobsacuk_politics),
+        ("jobs.ac.uk", sc.fetch_jobsacuk),
+        ("ASPS", sc.fetch_asps),
         ("museumsbund", fetch_museumsbund),
         # bpb ist aus, bis das href-Muster sitzt: die Seite liefert
         # Artikel statt Ausschreibungen, und Titel wie "Zeichen von
@@ -153,13 +152,15 @@ def main() -> None:
     sc.save_seen(seen)
 
     debug = os.environ.get("DEBUG_STELLEN") == "1"
-    if scored_hits or debug:
+    ausfaelle = [s for s, v in sources_status.items() if not isinstance(v, int)]
+    if scored_hits or debug or ausfaelle:
         html = sc.build_html_mail(scored_hits, len(seen), sources_status)
-        subject = (
-            f"Stellen-Monitor: {len(scored_hits)} neue Treffer"
-            if scored_hits
-            else "Stellen-Monitor: keine Treffer (Debug)"
-        )
+        if scored_hits:
+            subject = f"Stellen-Monitor: {len(scored_hits)} neue Treffer"
+        elif ausfaelle:
+            subject = f"Stellen-Monitor: keine Treffer, AUSFALL {', '.join(ausfaelle)}"
+        else:
+            subject = "Stellen-Monitor: keine Treffer (Debug)"
         sc.send_mail(html, subject, len(scored_hits))
     else:
         print("Keine neuen Treffer, keine Mail.", file=sys.stderr)
