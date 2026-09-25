@@ -16,9 +16,10 @@
     "zr-005",
     "zr-002",
     "zr-003",
-    "zr-006"
+    "zr-006",
+    "zr-004"
   ],
-  "last_id": "zr-006",
+  "last_id": "zr-004",
   "seen_slugs": [
     "olgdres-2021-11-16-4-u-116821",
     "kg--2020-09-30-3-161-ss-4920-48",
@@ -34,11 +35,69 @@
     "lg-duisburg-2025-07-22-6-o-10325",
     "olgbamb-2022-09-06-10-u-5722",
     "olgk-2023-04-26-15-u-2423",
-    "olgmuen-2025-11-19-15-u-252525-rae-e"
+    "olgmuen-2025-11-19-15-u-252525-rae-e",
+    "olgnuer-2021-12-30-13-u-200821"
   ],
   "next_index": 1,
   "offen": {},
-  "offene_packs": {},
+  "offene_packs": {
+    "zr-004@25.09.": {
+      "case_id": "zr-004",
+      "datum": "2026-09-25",
+      "karten": [
+        {
+          "nr": 1,
+          "id": "zr-staat:form:004",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie das Rubrum für einen Kaufmann, bei dem Firmeninhaber und Firmenbezeichnung nicht identisch sind: Firma Agathe Teufel, Inhaberin Wilhelmina Zufall, Peststraße 14, 12345 Berlin, Klägerin.",
+          "loesung": "der unter der Firma Agathe Teufel handelnden Kauffrau Wilhelmina Zufall, Peststraße 14, 12345 Berlin, Klägerin,",
+          "gewicht": 1,
+          "skript": "zr-staat",
+          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 4. Kaufleute"
+        },
+        {
+          "nr": 2,
+          "id": "zr-staat:form:008",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie das Rubrum für eine GmbH & Co. KG als Klägerin: ... GmbH & Co. KG, Sonnenallee 93, 12199 Berlin, gesetzlich vertreten durch die ... GmbH, diese gesetzlich vertreten durch ihre Geschäftsführer Herbert Müller u. a.",
+          "loesung": "der ... GmbH & Co. KG, gesetzlich vertreten durch die ... GmbH, diese gesetzlich vertreten durch ihre Geschäftsführer Herbert Müller u. a., Sonnenallee 93, 12199 Berlin, Klägerin,",
+          "gewicht": 1,
+          "skript": "zr-staat",
+          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter"
+        },
+        {
+          "nr": 3,
+          "id": "lesetext:olgnuer-2021-12-30-13-u-200821:1",
+          "typ": "fall",
+          "frage": "Das OLG Nürnberg hatte mit Urteil vom 30.12.2021 (13 U 2008/21) über folgenden Fall zu entscheiden: Im Vorprozess vor dem LG Regensburg (61 O 1903/20) war der Kläger, der von den Beklagten ein Grundstück gekauft hatte, wegen fehlenden Kanalanschlusses im Süden des Grundstücks erfolgreich, das LG verurteilte die Beklagten zur Zahlung von 21.850 € (Nettobetrag nach Sachverständigenschätzung) und stellte zudem im Tenor fest, dass die Beklagten verpflichtet seien, 'sämtliche weiteren Schäden' aus dem fehlenden südlichen Kanalanschluss zu ersetzen; hinsichtlich des nördlichen Grundstücksteils wurde die Klage abgewiesen. Im nachfolgenden Prozess verlangte der Kläger nun weitere, über die titulierten 21.850 € hinausgehende tatsächlich angefallene Kosten von 82.415,66 € für die Herstellung des Kanalanschlusses. Das LG Regensburg wies diese Klage ab, weil es die Rechtskraft des Feststellungsurteils aus dem Vorprozess auf die Umsatzsteuer beschränkt sah. Wie hat das OLG Nürnberg über die Berufung des Klägers entschieden und mit welcher Begründung?",
+          "loesung": "Das OLG Nürnberg hob das landgerichtliche Urteil und das zugrundeliegende Verfahren auf und erließ ein Grundurteil: Der Klageanspruch sei dem Grunde nach gerechtfertigt, die Beklagten hafteten als Gesamtschuldner für sämtliche Schäden aus dem fehlenden südlichen Kanalanschluss. Zur Begründung führte der Senat aus, dass sich die Ersatzpflicht dem Grunde nach bereits aus der Rechtskraft von Nr. 2 des Tenors des Vorprozess-Urteils ergebe. Der Tenor sei eindeutig und spreche von der Pflicht zum Ersatz 'sämtlicher weiterer Schäden' ohne Beschränkung auf Umsatzsteuer; da der Tenor bereits eindeutig sei, komme ein Rückgriff auf die Entscheidungsgründe zur Einschränkung grundsätzlich nicht in Betracht. Auch die Entscheidungsgründe des Vorprozesses stützten im Übrigen keine Beschränkung, da sich die dortige Teilabweisung der Feststellungsklage ausschließlich auf Schäden aus der Nichterschließung des nördlichen Grundstücksteils bezog, nicht aber auf weitere Schäden hinsichtlich des südlichen Teils. Die Erwähnung der Mehrwertsteuer in den Gründen sei nur als Beispiel für einen typischerweise noch entstehenden weiteren Schaden zu verstehen gewesen. Da der Kläger zudem schlüssig vorgetragen und Rechnungen vorgelegt habe, aus denen sich mit hoher Wahrscheinlichkeit ein die geschätzten 21.850 € übersteigender Schaden ergebe (u.a. weil der Sachverständige im Vorprozess selbst nur eine grobe Schätzung abgegeben hatte und seither die Baupreise gestiegen sind), lagen die Voraussetzungen für ein Grundurteil vor. Zur Klärung der genauen Anspruchshöhe verwies der Senat die Sache zur weiteren Beweisaufnahme an das Landgericht zurück.",
+          "gewicht": 2,
+          "skript": "zr-staat",
+          "abschnitt": "Lesetext Oberlandesgericht Nürnberg olgnuer 13 U 2008/21"
+        },
+        {
+          "nr": 4,
+          "id": "lesetext:olgnuer-2021-12-30-13-u-200821:2",
+          "typ": "fall",
+          "frage": "Im Zentrum der Entscheidung des OLG Nürnberg vom 30.12.2021 (13 U 2008/21) stand die Frage, wie weit die materielle Rechtskraft eines Feststellungsurteils reicht, wenn der Urteilstenor eine Formulierung wie 'Ersatz sämtlicher weiterer Schäden' enthält, die Entscheidungsgründe aber nur einzelne Schadenspositionen (hier: Umsatzsteuer) exemplarisch erwähnen. Nach welchem Maßstab bestimmt sich der Umfang der Rechtskraft eines Urteils gemäß § 322 Abs. 1 ZPO, und unter welchen Voraussetzungen dürfen zur Auslegung des Tenors die Entscheidungsgründe herangezogen werden?",
+          "loesung": "Der Umfang der Rechtskraft nach § 322 Abs. 1 ZPO bestimmt sich in erster Linie nach der Urteilsformel (dem Tenor) selbst. Nur wenn die Urteilsformel allein nicht ausreicht, um den Rechtskraftgehalt der Entscheidung zu erfassen – etwa weil sie mehrdeutig oder unklar ist – dürfen ergänzend Tatbestand und Entscheidungsgründe, im Zweifel auch das Parteivorbringen, zur Auslegung herangezogen werden (unter Bezugnahme auf BGH, Urteil vom 14.02.2008 – I ZR 135/05). Ist der Tenor hingegen – wie im vorliegenden Fall durch die eindeutige Formulierung 'sämtliche weiteren Schäden' ohne jede Einschränkung – für sich genommen klar und ausreichend, ist ein Rückgriff auf die Entscheidungsgründe zur einschränkenden Auslegung grundsätzlich nicht veranlasst. Ein solcher Rückgriff kommt in einem solchen Fall nur ausnahmsweise in Betracht, wenn die Entscheidungsgründe hinreichend deutlich erkennen lassen, dass im Tenor versehentlich etwas anderes ausgesprochen wurde als vom Gericht beabsichtigt war. Maßgeblich ist dabei stets die objektive Auslegung aus der Sicht eines verständigen Lesers, nicht ein etwaiges davon abweichendes 'inneres Verständnis', das der erkennende Richter selbst nachträglich seiner eigenen Entscheidung beimisst.",
+          "gewicht": 2,
+          "skript": "zr-staat",
+          "abschnitt": "Lesetext Oberlandesgericht Nürnberg olgnuer 13 U 2008/21"
+        },
+        {
+          "nr": 5,
+          "id": "lesetext:olgnuer-2021-12-30-13-u-200821:3",
+          "typ": "fall",
+          "frage": "Das OLG Nürnberg (Urteil vom 30.12.2021, 13 U 2008/21) hat die Sache trotz eigener Entscheidungskompetenz gemäß § 538 Abs. 2 S. 1 Nr. 4 ZPO an das Landgericht Regensburg zurückverwiesen, obwohl der Anspruch dem Grunde nach bereits vom Berufungsgericht bejaht wurde und 'nur' noch die Anspruchshöhe zu klären war. Zur Begründung verwies der Senat unter anderem auf den Umfang der noch erforderlichen Beweisaufnahme (Zeugenvernehmungen im Raum Regensburg, Sachverständigengutachten, ggf. Ortstermin) sowie auf die zum Entscheidungszeitpunkt bestehende COVID-19-Pandemielage. Welche Kriterien sind bei der Ermessensentscheidung zwischen eigener Sachentscheidung des Berufungsgerichts und Zurückverweisung nach § 538 Abs. 2 ZPO zu berücksichtigen, und was folgt daraus für die Praxis bei der Antragstellung im Berufungsverfahren?",
+          "loesung": "Nach der vom Senat zugrunde gelegten Rechtsprechung (BGH, Urteil vom 10.03.2005 – VII ZR 220/03) steht die Entscheidung zwischen Zurückverweisung und eigener Sachentscheidung im pflichtgemäßen Ermessen des Berufungsgerichts. Dabei ist zu berücksichtigen, dass eine Zurückverweisung in aller Regel zu einer Verteuerung und Verzögerung des Rechtsstreits führt, was den schützenswerten Interessen der Parteien entgegenstehen kann; zugleich ist der Gesichtspunkt der Prozessökonomie zu beachten. Eine Zurückverweisung ist dann ermessensfehlerfrei und sachdienlich, wenn das Interesse an einer schnelleren Erledigung durch das Berufungsgericht selbst nicht das Interesse am Erhalt einer vollständigen Tatsacheninstanz überwiegt. Im konkreten Fall sprach für die Zurückverweisung, dass eine erstinstanzliche Beweisaufnahme bislang gar nicht stattgefunden hatte, die zu erwartende Beweisaufnahme umfangreich sein würde (mehrere ortsansässige Zeugen, Sachverständigengutachten, Ortstermin) und eine Durchführung vor dem Berufungsgericht faktisch den Verlust einer Tatsacheninstanz sowie erhebliche Erschwernisse für die Verfahrensbeteiligten (Anreisewege, zusätzlich verschärft durch die Pandemielage) bedeutet hätte, ohne dass dadurch eine Verfahrensbeschleunigung erzielt worden wäre. Für die anwaltliche Praxis folgt daraus, dass bei umfangreichem, noch ungeklärtem Beweisbedarf zur Anspruchshöhe ein ausdrücklicher Antrag auf Zurückverweisung nach § 538 Abs. 2 S. 1 Nr. 4 ZPO sinnvoll sein kann, insbesondere wenn die Vorinstanz – wie hier durch fehlerhafte Rechtsauffassung zur Rechtskraft – überhaupt keine Feststellungen zur Höhe getroffen hat; zudem sollte stets geprüft werden, ob das Gericht seiner Hinweispflicht aus § 139 ZPO nachgekommen ist, bevor es mangels Substantiierung abweist, da ein Unterlassen einen eigenständigen Verfahrensfehler begründen und ebenfalls zur Aufhebung führen kann.",
+          "gewicht": 2,
+          "skript": "zr-staat",
+          "abschnitt": "Lesetext Oberlandesgericht Nürnberg olgnuer 13 U 2008/21"
+        }
+      ]
+    }
+  },
   "erledigte_mails": [
     "<277DBF85-AA8A-4A05-9CF0-01037CAC9333@web.de>",
     "<5800FA05-F219-452C-91B9-CBF62C397468@web.de>",
@@ -48,5 +107,5 @@
     "<DDD4AD8A-8468-4A24-BC1F-91A6381C5787@web.de>",
     "<EE1DD304-AC61-4BA7-8DE0-18634AB30494@web.de>"
   ],
-  "letzter_brief": "2026-09-23"
+  "letzter_brief": "2026-09-25"
 }

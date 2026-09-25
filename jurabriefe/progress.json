@@ -744,6 +744,70 @@
       "interval": 60,
       "detail": "Übe gezielt das Herausarbeiten der prozessualen Entscheidungsform (§ 522 Abs. 2 ZPO vs. Berufungsurteil) anhand weiterer OLG-Beschlüsse und trainiere, abstrakte Rechtsfragen getrennt von der Subsumtion des Einzelfalls zu beantworten.",
       "punkte": 7.0
+    },
+    {
+      "date": "2026-09-25",
+      "case_id": "zr-004",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-25",
+      "case_id": "zr-anwalt:form:013",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-25",
+      "case_id": "zr-staat:aufb:076",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-25",
+      "case_id": "zr-staat:form:001",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-25",
+      "case_id": "zr-staat:form:002",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-25",
+      "case_id": "zr-staat:form:003",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-25",
+      "case_id": "zr-anwalt:form:018",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-25",
+      "case_id": "zr-anwalt:form:019",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
     }
   ],
   "letzte_anpassung": null,
@@ -797,7 +861,7 @@
     "zr-anwalt:form:013": {
       "stability": 1.0,
       "difficulty": 5.3,
-      "due": "2026-09-30",
+      "due": "2026-10-02",
       "last": "2026-09-10",
       "gezeigt": "2026-09-11",
       "reps": 1,
@@ -808,7 +872,7 @@
         }
       ],
       "schnitt": 2.0,
-      "unbeantwortet": 5
+      "unbeantwortet": 6
     },
     "zr-anwalt:form:014": {
       "stability": 1.0,
@@ -859,47 +923,47 @@
     "zr-004": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-30",
+      "due": "2026-10-02",
       "last": null,
-      "gezeigt": "2026-09-09",
+      "gezeigt": "2026-09-25",
       "reps": 0,
-      "unbeantwortet": 5
+      "unbeantwortet": 6
     },
     "zr-staat:aufb:076": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-30",
+      "due": "2026-10-02",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 5
+      "unbeantwortet": 6
     },
     "zr-staat:form:001": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-30",
+      "due": "2026-10-02",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 5
+      "unbeantwortet": 6
     },
     "zr-staat:form:002": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-30",
+      "due": "2026-10-02",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 5
+      "unbeantwortet": 6
     },
     "zr-staat:form:003": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-30",
+      "due": "2026-10-02",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 5
+      "unbeantwortet": 6
     },
     "zr-005": {
       "stability": 4.0,
@@ -936,20 +1000,20 @@
     "zr-anwalt:form:018": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-30",
+      "due": "2026-10-02",
       "last": null,
       "gezeigt": "2026-09-11",
       "reps": 0,
-      "unbeantwortet": 5
+      "unbeantwortet": 6
     },
     "zr-anwalt:form:019": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-09-30",
+      "due": "2026-10-02",
       "last": null,
       "gezeigt": "2026-09-11",
       "reps": 0,
-      "unbeantwortet": 5
+      "unbeantwortet": 6
     },
     "lesetext:bgh-2024-05-16-ix-zr-3823": {
       "stability": 4.0,
@@ -986,7 +1050,7 @@
       "difficulty": 5.15,
       "due": "2026-09-23",
       "last": "2026-09-18",
-      "gezeigt": "2026-09-18",
+      "gezeigt": "2026-09-25",
       "reps": 2,
       "punkte": [
         {
@@ -1258,6 +1322,38 @@
         }
       ],
       "schnitt": 8.0
+    },
+    "zr-staat:form:008": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-25",
+      "reps": 0
+    },
+    "lesetext:olgnuer-2021-12-30-13-u-200821:1": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-25",
+      "reps": 0
+    },
+    "lesetext:olgnuer-2021-12-30-13-u-200821:2": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-25",
+      "reps": 0
+    },
+    "lesetext:olgnuer-2021-12-30-13-u-200821:3": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-25",
+      "reps": 0
     }
   },
   "letzter_korrekturlauf": "2026-09-24",
