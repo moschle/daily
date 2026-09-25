@@ -1,6 +1,6 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 23. September 2026*
+*Letzte Aktualisierung: 25. September 2026*
 
 **Standort: derzeit Zürich, Arbeit im Kunstfelsenbau. Wohnsitz Leipzig.** Der Morgenbrief richtet sich nach /automat/standort.txt auf netcup; dort steht aktuell `zuerich`.
 
@@ -14,7 +14,7 @@
 
 ## DRINGEND (diese Woche)
 
-- [ ] **AOK PLUS, Service-Nr. 2002205498**: Antrag freiwillige Mitgliedschaft mit ergänztem Punkt 3 zurücksenden; Ummeldung nach Leipzig beim Bürgeramt erledigt (22.09.2026), Meldebestätigung noch nachreichen.
+- [x] **AOK PLUS, Service-Nr. 2002205498**: Antrag freiwillige Mitgliedschaft mit ergänztem Punkt 3 — abgeschickt (Stand 25.09.2026); Ummeldung nach Leipzig beim Bürgeramt erledigt (22.09.2026), Meldebestätigung noch nachreichen.
 
 - [ ] **DÜF Initiativstipendium — Frist 30.11.2026**, am 15.09.2026 im Portal verifiziert (Bewerbungszeitraum „Herbst", Einreichungsfrist 30.11.), nicht 15.09. 2.000 €, ohne Verlagsvertrag möglich. Anlagen: 3 Normseiten Übersetzung, Projektbeschreibung inkl. erstem Exposé (ca. 1 S.), Kurzbiographie, Veröffentlichungsverzeichnis, Kopie der Originalstelle. Kurzbiographie, Veröffentlichungsverzeichnis und Originalseiten sind aus dem Reisestipendien-PDF übernehmbar; neu zu schreiben ist nur die Projektbeschreibung.
 - [ ] **BAMF-2026-300, Entscheider Landesasylstelle Berlin** (Interamt, Beginn 04.01.2027, SÜ1, kein Anschreiben zulässig) — Hilfstexte für die Freitextfelder liegen vor
@@ -99,6 +99,8 @@ In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getr
 
 ## Promotion
 
+- [ ] **DRINGEND: Manja Stephan antworten** (Stand 25.09.2026)
+- Zweifel (25.09.2026): ob mit Stephan eine durchführbare und sinnvolle (anthropologische) Arbeit zustande kommt; Purnaqcheband würde ggf. flexibler betreuen. Wunsch: Übersetzen ins Zentrum stellen.
 - [x] Betreuungsanfrage an Manja Stephan abgeschickt (28.07.2026)
 - Antwort 31.07.2026: keine Zu-/Absage, inhaltlich offen. Forschungsfreisemester ab Mitte August, bis Ende Oktober nicht in Berlin — **Gespräch über mögliche Themen ab November**.
 - Themenrichtung Stephan: „Alltagsleben" des freien Verses — wer schreibt für wen und warum, unter welchen Bedingungen; Verhältnis zur klassischen Dichtung; Migration/Diaspora, Geschlechterverhältnisse, Nation-Building, Social Media und KI
@@ -121,6 +123,14 @@ In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getr
 - [ ] **hochroth Bielefeld, persophone Anthologie**: interne Beratung angekündigt, seit Juli keine Rückmeldung — nachfassen, laut Tillmann Severin hilft beharrliches Nachhaken. Verlagsvertrag schaltet DÜF-Arbeitsstipendium, Looren, LCB und VdÜ-Vollmitgliedschaft frei.
 - [ ] **Weitere Verlagsadressen für die Anthologie** (Empfehlung Severin, 07.09.2026): **hochroth Berlin**, berlin@hochroth.eu, unter den Standorten auf Übersetzungen spezialisiert; **Klak Verlag Berlin**, Verleger Jörg Becken, info@klak-verlag.de, Paul-Lincke-Ufer 44a — hat Übersetzungen aus dem Persischen im Programm. Verlagshaus Berlin scheidet aus — inhaltlich nicht passend, Severin steigt im nächsten Jahr als Verleger aus. Entwürfe für alle drei Mails plus Antwort an Severin liegen vor (15.09.2026).
 - [ ] Severin möchte mehr über das Anthologie-Projekt erfahren — Material schicken oder erzählen
+- [ ] **Übersetzungen veröffentlichen — Tipps Peter Sipos (20.09.2026)**, dranbleiben:
+  - [x] Peter hat Dagmara angeschrieben (Stand 25.09.2026)
+  - [x] Übersetzungsmappe als PDF (Garamond, Transliteration auf h-Stand) erstellt (25.09.2026)
+  - [ ] Edition Lyrik Kabinett bei Hanser anfragen (Hg. Michael Krüger, Piero Salabè, Holger Pils; zweisprachige Reihe)
+  - [ ] Roughbooks anfragen
+  - [ ] Yevgeniy Breyger, Michael Lentz, Kerstin Preiwuß ansprechen
+  - [ ] Werkstätten und Netzwerke unter Übersetzer:innen suchen; kleine Bewerbungen für Standing und Netzwerk
+  - [ ] Reiseberichte einbinden: eigenes Buch oder Nachwort zu den Übersetzungen
 - [ ] Gafforova: Übersetzung des Farzona-Gedichts weiterhin offen
 - [ ] lyrikline-Neuaufnahmen — hingen an der Tadschikistan-Reise, die auf unbestimmte Zeit verschoben ist. Alternative Aufnahmewege prüfen (Kontakt Heiko Strunk).
 - [ ] MA-Original an Dilorom übergeben — ebenfalls verschoben mit der Reise
@@ -133,6 +143,7 @@ In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getr
 - [ ] Texte platzieren (Lettre International u. a.) und Zeitungstexte schreiben
 - [ ] Morgenbrief: Arabisch-Nachrichten zu schwer — GLOSS-Integration ausbauen, eigenes Glossar, Inline-Glossierung A2/B1
 - [ ] Morgenbrief Public Version (generisches Repo)
+- [ ] **Morgenbrief per Mail statt Kindle zustellen** (Kindle wird kaum genutzt); FAZ-Ausgabe ebenfalls per Mail ausprobieren (25.09.2026)
 
 ## Herbst 2026
 
@@ -191,6 +202,7 @@ In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getr
 ## Stellenmonitoring
 
 - stellen_check.py v2.0 (Min-Score 3): H-Soz-Kult, kultweet, service.bund.de, arthist.net, jobs.ac.uk
+- [ ] **stellen_check.py überarbeiten** (25.09.2026) — dabei Quellen für Promotions-/Forschungsstellen prüfen (z. B. ASPS-Stellenseite, MESA)
 - bpb-Infodienst Radikalisierungsprävention, Stellenangebote: bpb.de/themen/infodienst/304029/stellenangebote/
 - Google und RapidJob geben veraltete Ausschreibungen fälschlich als neu aus (04.08.2026) — Datum immer gegenprüfen
 - [ ] BfV-Stellenportal monatlich, lfv.bayern.de/karriere monatlich
