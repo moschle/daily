@@ -1,36 +1,4 @@
 {
-  "kultweet-249975": {
-    "first_seen": "2026-06-27T09:37:51.919132+00:00",
-    "source": "kultweet",
-    "title": "Berater*in für PROvention, die Präventions- und Beratungsstelle gegen religiös begründeten Extremismus, 30-40h/Woche, befristet | Kiel​‌‌‌‌​‌​​​​​‌‌‌​‌‌‌ - Türkische Gemeinde in Schleswig-Holstein e. ",
-    "url": "https://provention.tgsh.de/wp-content/uploads/2026/06/Stellenausschreibung-PROvention-30-40-h-Praeventions-und-Beratungsstelle-30.06.2026.pdf",
-    "score": 8,
-    "categories": [
-      "iran_islam_kern",
-      "behörden_kern"
-    ]
-  },
-  "kultweet-249958": {
-    "first_seen": "2026-06-27T09:37:51.946269+00:00",
-    "source": "kultweet",
-    "title": "Vertragslehrkraft (m/w/d), Vollzeit, befristet | Rabat, Marokko​‌‌‌‌​‌​​​​​‌‌​​‌‌​ - Goethe-Institut Rabat",
-    "url": "https://www.goethe.de/de/kar/ovr/jpd.cfm?job_id=11525",
-    "score": 4,
-    "categories": [
-      "region_orient",
-      "schwach_methodisch"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1459905.html": {
-    "first_seen": "2026-06-27T09:37:53.623420+00:00",
-    "source": "service.bund.de",
-    "title": "mehrere Bürosachbearbeiter/innen (m/w/d) für den Bereich allgemeine Verwaltung in der Visaabteilung im (vergleichbaren) mittleren Dienst",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1459905.html#track=feed-jobs",
-    "score": 4,
-    "categories": [
-      "behörden_kern"
-    ]
-  },
   "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Thueringer-Innenministerium/2026/06/6555326.html": {
     "first_seen": "2026-06-29T12:15:48.343953+00:00",
     "source": "service.bund.de",
@@ -3312,6 +3280,28 @@
       "kuratorisch_wiss_volo",
       "schwach_methodisch",
       "kulturarbeit_programm"
+    ]
+  },
+  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/09/6648953.html": {
+    "first_seen": "2026-09-25T12:52:26.208326+00:00",
+    "source": "service.bund.de",
+    "title": "Referent/-in (m/w/d)  im Phänomenbereich Linksextremismus/-terrorismus - AWV-2026-123",
+    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/BVA-BFV/2026/09/6648953.html#track=feed-jobs",
+    "score": 6,
+    "categories": [
+      "behörden_arbeitgeber",
+      "behörden_fachlich"
+    ]
+  },
+  "kultweet-253821": {
+    "first_seen": "2026-09-25T12:52:26.792338+00:00",
+    "source": "kultweet",
+    "title": "Wissenschaftliche:r Mitarbeiter:in (w/d/m) als IT-Projektleitung, 39 h / Teilzeit möglich, befristet | Berlin​‌‌‌‌​‌‌‌‌‌​‌‌‌‌‌​‌ - Stiftung Preußischer Kulturbesitz",
+    "url": "https://karriere.preussischer-kulturbesitz.de/jobposting/89b20be06974eaf0cc95b846a492f15dbfe2b11c0?ref=homepage",
+    "score": 4,
+    "categories": [
+      "digital_humanities",
+      "schwach_methodisch"
     ]
   }
 }
