@@ -3,7 +3,12 @@
 Stellen-Monitor: tägliche Suche nach passenden Wissenschafts-/Behörden-Stellen.
 Quellen:
   DE: H-Soz-Kult (Atom), kultweet.de (HTML), UniBwM (HTML), service.bund.de (RSS)
-  Internationale Erweiterung: arthist.net (RSS), jobs.ac.uk × 3 Fachbereiche (RSS)
+  Internationale Erweiterung: arthist.net (RSS), jobs.ac.uk × 3 Fachbereiche (RSS),
+  ASPS (Association for the Study of Persianate Societies, RSS, nur Job-Beiträge)
+v2.3 (25.09.2026): Fehlertexte statt '-1' in der Mail, Mail auch bei Quellen-Ausfall,
+  quellenübergreifende Dubletten zusammengeführt, kultweet wirft Fehler sichtbar,
+  Filter um Sicherheit/OSINT, Dari/Paschtu und Promotions-/Forschungsstellen erweitert,
+  Fehlalarm 'Sonntag' entfernt.
 Filter: Score-basiert mit Wortgrenzen-Matching + Hard-Blacklist.
 Output: HTML-Mail an GMAIL_ADDRESS, wenn neue Treffer da sind.
 State: stellen_seen.json mit gesehenen IDs (Aufräumen nach 90 Tagen).
@@ -39,8 +44,9 @@ CATEGORIES = {
     "iran_islam_kern": {
         "weight": 4,
         "terms": [
-            r"iran", r"iranistik", r"iranist\w*", r"persisch\w*", r"persian",
+            r"iran\w*", r"persisch\w*", r"persian\w*",
             r"persophon\w*", r"tadschik\w*", r"tajik\w*", r"afghan\w*",
+            r"farsi", r"dari", r"pasch?t[uo]\w*", r"pashto", r"islamicate",
             r"zentralasien\w*", r"central asia\w*", r"indo-iran\w*",
             r"islamwiss\w*", r"islamic studies", r"islamistik",
             r"arabisch\w*", r"arabist\w*", r"arabic studies",
@@ -58,6 +64,9 @@ CATEGORIES = {
             r"auswärtiges amt", r"auswaertiges amt",
             r"nachrichtendienst\w*",
             r"extremism\w*", r"islamismus", r"radikalis\w*",
+            r"deradikalis\w*", r"terroris\w*", r"osint", r"socmint",
+            r"sicherheitsbehörde\w*", r"bundespolizei", r"bundeskriminalamt",
+            r"bamf", r"bundessprachenamt",
         ],
     },
     # ── Region Vorderer Orient/Mittlerer Osten: 3 Punkte ──
@@ -132,7 +141,6 @@ CATEGORIES = {
             r"verlag 8\. mai",
             r"melodie & rhythmus", r"melodie und rhythmus",
             r"stiftung aufarbeitung",
-            r"sonntag", r"der sonntag",
         ],
     },
     # ── Klassische Musik / Chormusik: 2 Punkte ──
@@ -174,6 +182,15 @@ CATEGORIES = {
             r"ausstellungskonzept\w*", r"sammlungsleitung",
             r"museumspädagog\w*", r"museumsvermittl\w*",
             r"museumsmanagement", r"museologie",
+        ],
+    },
+    # ── Promotion / Forschung: 1 Punkt (hebt Regionaltreffer nach oben) ──
+    "promotion_forschung": {
+        "weight": 1,
+        "terms": [
+            r"promotionsstelle\w*", r"doktorand\w*", r"promotionsstipend\w*",
+            r"graduiertenkolleg\w*", r"phd", r"doctoral", r"fellowship\w*",
+            r"postdoc\w*",
         ],
     },
     # ── Schwache Signale: 1 Punkt ──
@@ -514,6 +531,13 @@ def fetch_jobsacuk_politics():
     return fetch_feed_any(JOBSACUK_FEEDS[name], name)
 
 
+# ─── Quelle: ASPS (Persianate Societies) RSS ───
+# Allgemeiner Vereinsfeed; nur Beiträge mit 'Job Announcement'/'Fellowship' im Titel.
+def fetch_asps():
+    jobs = fetch_feed("https://www.persianatesocieties.org/feed/", "ASPS")
+    return [j for j in jobs if re.search(r"job announcement|fellowship|position", j["title"], re.I)]
+
+
 # ─── Quelle: kultweet.de HTML ───
 class KultweetParser(HTMLParser):
     def __init__(self):
@@ -560,17 +584,13 @@ class KultweetParser(HTMLParser):
 
 def fetch_kultweet():
     url = "https://www.kultweet.de/jobs.php"
-    try:
-        html = fetch_url(url, timeout=30)
-    except Exception as e:
-        print(f"kultweet Fehler: {e}", file=sys.stderr)
-        return []
+    html = fetch_url(url, timeout=30)   # Fehler wirft, wie bei den anderen Quellen
     parser = KultweetParser()
-    try:
-        parser.feed(html)
-    except Exception as e:
-        print(f"kultweet Parse-Fehler: {e}", file=sys.stderr)
-        return []
+    parser.feed(html)
+    if not parser.jobs:
+        raise RuntimeError(
+            f"Seite geladen ({len(html)} Zeichen), aber 0 Treffer im Markup — Parser pruefen"
+        )
     for j in parser.jobs:
         j["url"] = urljoin(url, j["url"])
     seen_ids = set()
@@ -699,7 +719,7 @@ def build_html_mail(scored_hits, total_seen, sources_status):
                 f"<span style='color:#b00;'><strong>{s}: AUSFALL</strong> — {grund}</span><br>"
             )
     parts.append(f"Insgesamt im Gedächtnis: {total_seen} Stellen<br>")
-    parts.append(f"Min-Score: {MIN_SCORE} (Skript-Version: 2.2)<br>")
+    parts.append(f"Min-Score: {MIN_SCORE} (Skript-Version: 2.3)<br>")
     parts.append("</p></body></html>")
     return "\n".join(parts)
 
@@ -738,6 +758,7 @@ def main():
         ("jobs.ac.uk Languages", fetch_jobsacuk_languages),
         ("jobs.ac.uk History", fetch_jobsacuk_history),
         ("jobs.ac.uk Politics", fetch_jobsacuk_politics),
+        ("ASPS", fetch_asps),
     ]
     all_jobs = []
     sources_status = {}
@@ -748,7 +769,20 @@ def main():
             all_jobs.extend(jobs)
         except Exception as e:
             print(f"Quelle {name} komplett gescheitert: {e}", file=sys.stderr)
-            sources_status[name] = -1
+            sources_status[name] = f"{type(e).__name__}: {e}"
+
+    # Quellenübergreifende Dubletten (gleiche Stelle auf mehreren Portalen) zusammenführen
+    by_title = {}
+    for job in all_jobs:
+        key = re.sub(r"[^a-z0-9äöüß]+", " ", job["title"].lower()).strip()
+        if key in by_title:
+            first = by_title[key]
+            if job["source"] not in first["sources"]:
+                first["sources"].append(job["source"])
+        else:
+            job["sources"] = [job["source"]]
+            by_title[key] = job
+    all_jobs = list(by_title.values())
 
     scored_hits = []
     for job in all_jobs:
@@ -765,9 +799,15 @@ def main():
     save_seen(seen)
 
     debug = os.environ.get("DEBUG_STELLEN") == "1"
-    if scored_hits or debug:
+    ausfaelle = [s for s, v in sources_status.items() if not isinstance(v, int)]
+    if scored_hits or debug or ausfaelle:
         html = build_html_mail(scored_hits, len(seen), sources_status)
-        subject = f"Stellen-Monitor: {len(scored_hits)} neue Treffer" if scored_hits else "Stellen-Monitor: keine Treffer (Debug)"
+        if scored_hits:
+            subject = f"Stellen-Monitor: {len(scored_hits)} neue Treffer"
+        elif ausfaelle:
+            subject = f"Stellen-Monitor: keine Treffer, AUSFALL {', '.join(ausfaelle)}"
+        else:
+            subject = "Stellen-Monitor: keine Treffer (Debug)"
         send_mail(html, subject, len(scored_hits))
     else:
         print("Keine neuen Treffer, keine Mail.", file=sys.stderr)

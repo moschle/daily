@@ -202,7 +202,7 @@ In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getr
 ## Stellenmonitoring
 
 - stellen_check.py v2.0 (Min-Score 3): H-Soz-Kult, kultweet, service.bund.de, arthist.net, jobs.ac.uk
-- [ ] **stellen_check.py überarbeiten** (25.09.2026) — dabei Quellen für Promotions-/Forschungsstellen prüfen (z. B. ASPS-Stellenseite, MESA)
+- [x] **stellen_check.py überarbeitet → v2.3** (25.09.2026): ASPS-Feed neu, Fehlertexte und Ausfall-Mail, Dubletten zusammengeführt, Filter um OSINT/Sicherheit, Dari/Paschtu, Promotion/Forschung erweitert, „Sonntag“-Fehlalarm raus. Offen: bpb-Infodienst, H-Net, academics.de und interamt bieten keinen maschinenlesbaren Feed — weiter manuell prüfen.
 - bpb-Infodienst Radikalisierungsprävention, Stellenangebote: bpb.de/themen/infodienst/304029/stellenangebote/
 - Google und RapidJob geben veraltete Ausschreibungen fälschlich als neu aus (04.08.2026) — Datum immer gegenprüfen
 - [ ] BfV-Stellenportal monatlich, lfv.bayern.de/karriere monatlich
