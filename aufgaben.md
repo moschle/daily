@@ -143,7 +143,7 @@ In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getr
 - [ ] Texte platzieren (Lettre International u. a.) und Zeitungstexte schreiben
 - [ ] Morgenbrief: Arabisch-Nachrichten zu schwer — GLOSS-Integration ausbauen, eigenes Glossar, Inline-Glossierung A2/B1
 - [ ] Morgenbrief Public Version (generisches Repo)
-- [ ] **Morgenbrief per Mail statt Kindle zustellen** (Kindle wird kaum genutzt); FAZ-Ausgabe ebenfalls per Mail ausprobieren (25.09.2026)
+- [x] **Morgenbrief per Mail statt Kindle** — umgestellt am 26.09.2026: Versand an MORGENBRIEF_TO (in /automat/zugang.env auf netcup), Text im Mailtext, ePub im Anhang; ohne die Variable fällt er auf den Kindle zurück. Offen: FAZ-Ausgabe ebenfalls per Mail ausprobieren (faztokindle)
 
 ## Herbst 2026
 

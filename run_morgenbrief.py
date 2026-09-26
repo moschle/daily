@@ -98,7 +98,7 @@ def main():
     lang_ex = g.generate_language_exercise()
     text = fallback_brief(wetter, kalender, impulse, lang_ex)
     epub = g.create_epub(text, g.now_berlin().strftime("%Y-%m-%d"))
-    g.send_to_kindle(epub)
+    g.send_to_kindle(epub, text)
 
 
 if __name__ == "__main__":

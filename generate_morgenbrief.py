@@ -812,16 +812,34 @@ def create_epub(text, date_str):
         f.write(buf.getvalue())
     return fn
 
-# ─── Mail an Kindle ───
-def send_to_kindle(epub_path):
-    ga, gp, ka = os.environ.get("GMAIL_ADDRESS"), os.environ.get("GMAIL_APP_PASSWORD"), os.environ.get("KINDLE_EMAIL")
+# ─── Versand: per Mail an MORGENBRIEF_TO, ohne diese Variable an den Kindle ───
+def _brief_html(text):
+    import html as _h
+    teile = []
+    for block in re.split(r"\n\s*\n", text.strip()):
+        zeilen = [_h.escape(z) for z in block.splitlines()]
+        teile.append('<p dir="auto">' + '<br>'.join(zeilen) + '</p>')
+    return ('<html><body style="font-family:Georgia,serif;font-size:17px;line-height:1.5;'
+            'max-width:40em;margin:auto">' + ''.join(teile) + '</body></html>')
+
+
+def send_to_kindle(epub_path, text=None):
+    ga, gp = os.environ.get("GMAIL_ADDRESS"), os.environ.get("GMAIL_APP_PASSWORD")
+    als_mail = bool(os.environ.get("MORGENBRIEF_TO"))
+    ka = os.environ.get("MORGENBRIEF_TO") or os.environ.get("KINDLE_EMAIL")
     if not all([ga,gp,ka]):
-        sys.exit("Gmail/Kindle Secrets nicht vollständig")
-    msg = MIMEMultipart()
+        sys.exit("Gmail-Zugang oder Empfänger fehlt")
+    msg = MIMEMultipart("mixed")
     msg["From"] = ga
     msg["To"] = ka
-    msg["Subject"] = "Morgenbrief"
-    msg.attach(MIMEText("","plain"))
+    msg["Subject"] = f"Morgenbrief {now_berlin().strftime('%d.%m.%Y')}" if als_mail else "Morgenbrief"
+    if als_mail and text:
+        alt = MIMEMultipart("alternative")
+        alt.attach(MIMEText(text, "plain", "utf-8"))
+        alt.attach(MIMEText(_brief_html(text), "html", "utf-8"))
+        msg.attach(alt)
+    else:
+        msg.attach(MIMEText("","plain"))
     with open(epub_path,"rb") as f:
         part = MIMEBase("application","epub+zip")
         part.set_payload(f.read())
@@ -869,7 +887,7 @@ def main():
         update_reviewed_vocab(lang_ex["lang_code"], reviewed, lang_ex["memory"])
 
     epub = create_epub(text, now_berlin().strftime("%Y-%m-%d"))
-    send_to_kindle(epub)
+    send_to_kindle(epub, text)
 
 if __name__ == "__main__":
     main()
