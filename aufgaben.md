@@ -141,7 +141,7 @@ In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getr
 - [ ] Musikpodcast (iranischer Jazz)
 - [ ] Schreibkollektiv mit Maja Maj und Yara Moritz (Konzept: PROJEKT_maja-maj-yara-moritz.md)
 - [ ] Texte platzieren (Lettre International u. a.) und Zeitungstexte schreiben
-- [ ] Morgenbrief: Arabisch-Nachrichten zu schwer — GLOSS-Integration ausbauen, eigenes Glossar, Inline-Glossierung A2/B1
+- [x] Morgenbrief: Leseübung zu schwer — umgebaut am 26.09.2026: Text aus dem Anki-Wortschatz (gelernte Karten, bekannt_fa.json), Prüfung auf mind. 95 % bekannte Wörter mit bis zu drei Versuchen, max. 5 neue Wörter pro Tag, glossiert, als .apkg im Mailanhang. Wortschatz auffrischen: `python3 bekannt_aktualisieren.py` am Mac, dann committen und deployen
 - [ ] Morgenbrief Public Version (generisches Repo)
 - [x] **Morgenbrief per Mail statt Kindle** — umgestellt am 26.09.2026: Versand an MORGENBRIEF_TO (in /automat/zugang.env auf netcup), Text im Mailtext, ePub im Anhang; ohne die Variable fällt er auf den Kindle zurück. Offen: FAZ-Ausgabe ebenfalls per Mail ausprobieren (faztokindle)
 
