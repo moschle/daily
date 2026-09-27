@@ -23,6 +23,9 @@ def sauber(s):
 def main():
     tmp = Path(tempfile.mkdtemp()) / "c.anki2"
     shutil.copy(SAMMLUNG, tmp)
+    wal = SAMMLUNG.with_name(SAMMLUNG.name + "-wal")
+    if wal.exists():  # noch nicht zurückgeschriebene Änderungen, wenn Anki offen ist
+        shutil.copy(wal, tmp.with_name(tmp.name + "-wal"))
     con = sqlite3.connect(tmp)
     con.create_collation("unicase", lambda a, b: (a.lower() > b.lower()) - (a.lower() < b.lower()))
     did = con.execute("select id from decks where name=?", (DECK,)).fetchone()[0]
