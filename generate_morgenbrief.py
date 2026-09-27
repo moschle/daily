@@ -823,7 +823,7 @@ def _brief_html(text):
             'max-width:40em;margin:auto">' + ''.join(teile) + '</body></html>')
 
 
-def send_to_kindle(epub_path, text=None):
+def send_to_kindle(epub_path, text=None, anhaenge=None):
     ga, gp = os.environ.get("GMAIL_ADDRESS"), os.environ.get("GMAIL_APP_PASSWORD")
     als_mail = bool(os.environ.get("MORGENBRIEF_TO"))
     ka = os.environ.get("MORGENBRIEF_TO") or os.environ.get("KINDLE_EMAIL")
@@ -846,6 +846,13 @@ def send_to_kindle(epub_path, text=None):
         encoders.encode_base64(part)
         part.add_header("Content-Disposition",f"attachment; filename={os.path.basename(epub_path)}")
         msg.attach(part)
+    for pfad in (anhaenge or []):
+        with open(pfad, "rb") as f:
+            teil = MIMEBase("application", "octet-stream")
+            teil.set_payload(f.read())
+        encoders.encode_base64(teil)
+        teil.add_header("Content-Disposition", f"attachment; filename={os.path.basename(str(pfad))}")
+        msg.attach(teil)
     with smtplib.SMTP_SSL("smtp.gmail.com",465) as smtp:
         smtp.login(ga,gp)
         smtp.sendmail(ga,ka,msg.as_string())

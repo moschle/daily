@@ -9,6 +9,9 @@ mit HTTP 400 stirbt, und schickt bei Totalausfall trotzdem einen Brief.
 from __future__ import annotations
 
 import sys
+from pathlib import Path
+
+_APKG = None
 
 import generate_morgenbrief as g
 from claude_client import complete
@@ -43,29 +46,30 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
             "NACHRICHTEN:\nKeine aktuellen Nachrichten verfügbar. "
             "Schreibe einen kurzen Satz auf Deutsch."
         )
-    lang_p = (
-        f"SPRACHÜBUNG - TEXT (RTL, in Originalschrift):\n"
-        f"Schreibe einen kurzen Übungstext auf {lang['language']} zum Thema \"{lang['topic']}\".\n"
-        f"Regeln:\n- 5-8 Sätze in {script} Schrift. {vok}\n- {lang['instructions']}\n- {dialect}\n"
-        f"- {lang['new_vocab_instruction']}\n{lang['repetition_prompt']}\n"
-        f"SPRACHÜBUNG - FRAGEN (LTR, auf Deutsch):\n"
-        f"2-3 Verständnisfragen auf Deutsch zum obigen Text. Jede Frage in einer neuen Zeile.\n"
-        f"Keine Originalschrift in diesem Abschnitt."
-    )
+    import sprachuebung
+    global _APKG
+    try:
+        ue = sprachuebung.erzeuge(lang, complete)
+        if ue["neue"]:
+            g.add_new_vocab("fa", ue["neue"], lang["memory"])
+            _APKG = sprachuebung.anki_paket(ue["neue"], Path("/tmp"))
+        sprachteil = ue["abschnitt"]
+        print(f"Leseübung: {round((1 - ue['quote']) * 100)} % bekannt, {len(ue['neue'])} neue Wörter")
+    except Exception as e:
+        print(f"Leseübung gescheitert: {e}", file=sys.stderr)
+        sprachteil = "SPRACHÜBUNG - TEXT\n[entfällt heute]\n"
     msg = (
         f"Heute ist {today}.\n\nWETTER:\n{wetter}\n\nTAGESIMPULS:\n{impulse}\n\n"
         f"KONTEXT (enthält Format und Regeln - befolge sie exakt):\n{kontext}\n\n"
         f"OFFENE AUFGABEN:\n{aufgaben}\n\nKALENDER (nächste 3 Tage):\n{kalender}\n\n"
-        f"FAHRPLAN (nur als Hintergrund):\n{fahrplan}\n\n{lang_p}\n\n{news_p}\n\n"
+        f"FAHRPLAN (nur als Hintergrund):\n{fahrplan}\n\n"
         f"AUFTRAG:\nSchreibe den Morgenbrief exakt in dieser Struktur:\n"
-        f"1. WETTER\n2. HEUTE\n3. IMPULS\n4. PROJEKTE\n5. ERLEDIGTES\n6. AUSBLICK\n"
-        f"7. SPRACHÜBUNG - TEXT (Übungstext in Originalschrift, RTL)\n"
-        f"8. SPRACHÜBUNG - FRAGEN (Verständnisfragen auf Deutsch, LTR)\n"
-        f"9. NACHRICHTEN (Schlagzeile + Zusammenfassung in Originalschrift, RTL)\n\n"
+        f"1. WETTER\n2. HEUTE\n3. IMPULS\n4. PROJEKTE\n5. ERLEDIGTES\n6. AUSBLICK\n\n"
+        f"Schreibe KEINE Sprachübung und KEINE Nachrichten; diese Teile werden separat angehängt.\n"
         f"WICHTIG: Verwende in Sektionstiteln immer einfache Bindestriche (-), NIEMALS Gedankenstriche.\n"
         f"Jede Sektion als Überschrift in Großbuchstaben. Kein Markdown. Sachlich."
     )
-    return complete(msg, max_tokens=3000)
+    return complete(msg, max_tokens=2500).rstrip() + "\n\n" + sprachteil
 
 
 def fallback_brief(wetter, kalender, impulse, lang_ex):
@@ -85,6 +89,9 @@ def fallback_brief(wetter, kalender, impulse, lang_ex):
 
 def main():
     g.call_claude = call_claude
+    _senden = g.send_to_kindle
+    g.send_to_kindle = lambda epub, text=None: _senden(
+        epub, text, anhaenge=[_APKG] if _APKG else None)
     try:
         g.main()
         return
