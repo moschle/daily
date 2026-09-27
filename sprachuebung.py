@@ -151,7 +151,7 @@ Antworte NUR mit JSON, ohne Markdown:
   "fragen": ["...", "..."],
   "nachricht": "Nacherzählung auf Persisch oder leer",
   "neue_vokabeln": [{{"fa": "Wort mit Kurzvokalzeichen", "de": "knappe deutsche Bedeutung, ohne persische Schrift"}}]}}
-In "neue_vokabeln" stehen alle neuen Wörter aus Text und Nachricht (Verben als Infinitiv)."""
+In "neue_vokabeln" stehen alle neuen Wörter aus Text und Nachricht (Verben als Infinitiv, Nomen im Singular)."""
 
 
 def _json(roh: str) -> dict:
