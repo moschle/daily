@@ -3,8 +3,8 @@
     "zr-001": 1.1,
     "zr-002": 1.1,
     "zr-003": 0.8,
-    "zr-004": 1.0,
-    "zr-005": 1.1,
+    "zr-004": 0.8,
+    "zr-005": 0.8,
     "zr-006": 1.1,
     "zr-007": 1.0,
     "zr-008": 1.0,
@@ -33,7 +33,15 @@
     "zr-anwalt:form:016": 0.8,
     "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:1": 1.1,
     "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:2": 1.4,
-    "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:3": 1.1
+    "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:3": 1.1,
+    "zr-staat:form:008": 0.8,
+    "lesetext:olgnuer-2021-12-30-13-u-200821:1": 1.1,
+    "lesetext:olgnuer-2021-12-30-13-u-200821:2": 0.8,
+    "lesetext:olgnuer-2021-12-30-13-u-200821:3": 0.8,
+    "zr-anwalt:form:015": 1.7,
+    "lesetext:kg--2019-02-19-21-u-4018:1": 0.8,
+    "lesetext:kg--2019-02-19-21-u-4018:2": 0.8,
+    "lesetext:kg--2019-02-19-21-u-4018:3": 0.8
   },
   "feedback": [
     {
@@ -912,6 +920,114 @@
       "grade": null,
       "interval": 3,
       "detail": ""
+    },
+    {
+      "date": "2026-09-29",
+      "case_id": "zr-staat:form:004",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 27,
+      "detail": "Skriptformulierung 'der unter der Firma ... handelnden Kauffrau' ist die im Rubrum gebräuchliche, präzisere Wendung, da sie klarstellt, dass die Firma nur Zusatz zur Bezeichnung der handelnden Person ist; 'Inhaberin der Firma' ist inhaltlich vertretbar, aber nicht die geforderte Standardformulierung",
+      "punkte": 13.0
+    },
+    {
+      "date": "2026-09-29",
+      "case_id": "zr-staat:form:008",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "'gesetzlich' vor der ersten Vertretung (GmbH & Co. KG, gesetzlich vertreten durch die GmbH) fehlt, ebenso 'u. a.' bei den Geschäftsführern",
+      "punkte": 12.0
+    },
+    {
+      "date": "2026-09-29",
+      "case_id": "lesetext:olgnuer-2021-12-30-13-u-200821:1",
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Die eigentliche Entscheidung des OLG (Aufhebung des Urteils und des Verfahrens, Erlass eines Grundurteils, Zurückverweisung zur Höhe) fehlt vollständig; ebenso fehlt die Würdigung der Schlüssigkeit des Klägervortrags/der Rechnungen und der Hinweis auf gestiegene Baupreise/grobe Schätzung des Sachverständigen",
+      "punkte": 7.0
+    },
+    {
+      "date": "2026-09-29",
+      "case_id": "lesetext:olgnuer-2021-12-30-13-u-200821:2",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Der Zusatz zur objektiven Auslegung aus Sicht eines verständigen Lesers im Gegensatz zum nachträglichen 'inneren Verständnis' des Richters fehlt",
+      "punkte": 13.0
+    },
+    {
+      "date": "2026-09-29",
+      "case_id": "lesetext:olgnuer-2021-12-30-13-u-200821:3",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Bezug wird fälschlich auf § 538 Abs. 2 Nr. 1 (Verfahrensmangel) statt auf die einschlägige Nr. 4 (Grundurteil) gelegt; die konkreten Fallumstände (COVID-Lage, Zeugen im Raum Regensburg) und der Hinweis aus dem Skript auf die Prüfung der Hinweispflicht nach § 139 ZPO fehlen",
+      "punkte": 12.0
+    },
+    {
+      "date": "2026-09-29",
+      "case_id": "zr-004",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Üben, bei Sachverhaltsfragen zur Entscheidung eines Gerichts stets zuerst den Tenor/die konkrete Entscheidung (Aufhebung, Grundurteil, Zurückverweisung) vollständig herauszuarbeiten, bevor auf die rechtliche Begründung eingegangen wird, und bei § 538 ZPO-Fragen die einschlägige Nummer des Abs. 2 S. 1 exakt zu benennen.",
+      "punkte": 11.0
+    },
+    {
+      "date": "2026-09-29",
+      "case_id": "zr-anwalt:form:016",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 38,
+      "detail": "Nichts Wesentliches, Zusatz 'Zum Beweis der behaupteten Tatsache' ist unschädlich.",
+      "punkte": 17.0
+    },
+    {
+      "date": "2026-09-29",
+      "case_id": "zr-anwalt:form:015",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 1,
+      "detail": "Die eigentlich verlangte einleitende Parteivorstellung ('Der Kläger nimmt den Beklagten auf Zahlung... in Anspruch, geltend gemacht werden 50%...') fehlt komplett; stattdessen Schriftsatzkopf und unvollständige Antragsentwürfe – Aufgabe nicht beantwortet.",
+      "punkte": 2.0
+    },
+    {
+      "date": "2026-09-29",
+      "case_id": "lesetext:kg--2019-02-19-21-u-4018:1",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Die entscheidende Voraussetzung der zusätzlichen ernsthaften und endgültigen Ablehnung fehlt; die Begründung der Reduzierung entspricht nicht der Skriptlösung (falscher Ansatz bei Trittschalldämmung 4./5. OG, 41.500€ statt 22.000€), stattdessen unbelegte Nettovorschuss-Rechnung; die AGB-Abnahmefiktion ist nicht Teil der Skriptlösung und wirkt konstruiert.",
+      "punkte": 9.0
+    },
+    {
+      "date": "2026-09-29",
+      "case_id": "lesetext:kg--2019-02-19-21-u-4018:2",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "BGH-Fundstellen (VII ZR 210/05, VII ZR 257/03) sowie der Hinweis, dass auch eine nur bestmögliche, nicht vollständig sichere Trockenlegung als Erfüllung ausreicht, fehlen.",
+      "punkte": 15.0
+    },
+    {
+      "date": "2026-09-29",
+      "case_id": "lesetext:kg--2019-02-19-21-u-4018:3",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Die explizite Abgrenzung zum fiktiven Schadensersatz (BGH VII ZR 251/02, dort nur Mindestbetrag) wird nicht erwähnt.",
+      "punkte": 14.0
+    },
+    {
+      "date": "2026-09-29",
+      "case_id": "zr-005",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 23,
+      "detail": "Üben: Schriftsatzeinleitungen (Parteivorstellung, Rubrum, Anträge) als eigenständige, klar abgegrenzte Textbausteine trainieren, damit die konkret gestellte Frage nicht mit anderen Schriftsatzelementen vermischt wird.",
+      "punkte": 11.0
     }
   ],
   "letzte_anpassung": null,
@@ -1025,13 +1141,20 @@
       "schnitt": 14.0
     },
     "zr-004": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": "2026-10-05",
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-07",
+      "last": "2026-09-29",
       "gezeigt": "2026-09-25",
-      "reps": 0,
-      "unbeantwortet": 7
+      "reps": 1,
+      "unbeantwortet": 7,
+      "punkte": [
+        {
+          "date": "2026-09-29",
+          "wert": 11.0
+        }
+      ],
+      "schnitt": 11.0
     },
     "zr-staat:aufb:076": {
       "stability": 0.0,
@@ -1070,36 +1193,44 @@
       "unbeantwortet": 7
     },
     "zr-005": {
-      "stability": 4.0,
-      "difficulty": 5.0,
-      "due": "2026-09-20",
-      "last": "2026-09-16",
+      "stability": 22.8,
+      "difficulty": 4.85,
+      "due": "2026-10-22",
+      "last": "2026-09-29",
       "gezeigt": "2026-09-28",
-      "reps": 1,
+      "reps": 2,
       "unbeantwortet": 2,
       "punkte": [
         {
           "date": "2026-09-16",
           "wert": 6.0
+        },
+        {
+          "date": "2026-09-29",
+          "wert": 11.0
         }
       ],
-      "schnitt": 6.0
+      "schnitt": 8.5
     },
     "zr-anwalt:form:016": {
-      "stability": 8.0,
-      "difficulty": 4.85,
-      "due": "2026-10-01",
-      "last": "2026-09-23",
+      "stability": 37.91,
+      "difficulty": 4.7,
+      "due": "2026-11-06",
+      "last": "2026-09-29",
       "gezeigt": "2026-09-28",
-      "reps": 1,
+      "reps": 2,
       "unbeantwortet": 5,
       "punkte": [
         {
           "date": "2026-09-23",
           "wert": 16.0
+        },
+        {
+          "date": "2026-09-29",
+          "wert": 17.0
         }
       ],
-      "schnitt": 16.0
+      "schnitt": 16.5
     },
     "zr-anwalt:form:018": {
       "stability": 0.0,
@@ -1150,12 +1281,12 @@
       "schnitt": 7.0
     },
     "zr-staat:form:004": {
-      "stability": 5.2,
-      "difficulty": 5.15,
-      "due": "2026-10-01",
-      "last": "2026-09-18",
+      "stability": 27.47,
+      "difficulty": 5.0,
+      "due": "2026-10-26",
+      "last": "2026-09-29",
       "gezeigt": "2026-09-25",
-      "reps": 2,
+      "reps": 3,
       "punkte": [
         {
           "date": "2026-09-16",
@@ -1164,9 +1295,13 @@
         {
           "date": "2026-09-18",
           "wert": 17.0
+        },
+        {
+          "date": "2026-09-29",
+          "wert": 13.0
         }
       ],
-      "schnitt": 10.0,
+      "schnitt": 11.0,
       "unbeantwortet": 1
     },
     "zr-staat:form:005": {
@@ -1429,75 +1564,131 @@
       "schnitt": 8.0
     },
     "zr-staat:form:008": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": "2026-10-01",
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-07",
+      "last": "2026-09-29",
       "gezeigt": "2026-09-25",
-      "reps": 0,
-      "unbeantwortet": 1
+      "reps": 1,
+      "unbeantwortet": 1,
+      "punkte": [
+        {
+          "date": "2026-09-29",
+          "wert": 12.0
+        }
+      ],
+      "schnitt": 12.0
     },
     "lesetext:olgnuer-2021-12-30-13-u-200821:1": {
-      "stability": 0.0,
+      "stability": 4.0,
       "difficulty": 5.0,
-      "due": "2026-10-01",
-      "last": null,
+      "due": "2026-10-03",
+      "last": "2026-09-29",
       "gezeigt": "2026-09-25",
-      "reps": 0,
-      "unbeantwortet": 1
+      "reps": 1,
+      "unbeantwortet": 1,
+      "punkte": [
+        {
+          "date": "2026-09-29",
+          "wert": 7.0
+        }
+      ],
+      "schnitt": 7.0
     },
     "lesetext:olgnuer-2021-12-30-13-u-200821:2": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": "2026-10-01",
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-07",
+      "last": "2026-09-29",
       "gezeigt": "2026-09-25",
-      "reps": 0,
-      "unbeantwortet": 1
+      "reps": 1,
+      "unbeantwortet": 1,
+      "punkte": [
+        {
+          "date": "2026-09-29",
+          "wert": 13.0
+        }
+      ],
+      "schnitt": 13.0
     },
     "lesetext:olgnuer-2021-12-30-13-u-200821:3": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": "2026-10-01",
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-07",
+      "last": "2026-09-29",
       "gezeigt": "2026-09-25",
-      "reps": 0,
-      "unbeantwortet": 1
+      "reps": 1,
+      "unbeantwortet": 1,
+      "punkte": [
+        {
+          "date": "2026-09-29",
+          "wert": 12.0
+        }
+      ],
+      "schnitt": 12.0
     },
     "zr-anwalt:form:015": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 1.0,
+      "difficulty": 5.3,
+      "due": "2026-09-30",
+      "last": "2026-09-29",
       "gezeigt": "2026-09-28",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-29",
+          "wert": 2.0
+        }
+      ],
+      "schnitt": 2.0
     },
     "lesetext:kg--2019-02-19-21-u-4018:1": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-07",
+      "last": "2026-09-29",
       "gezeigt": "2026-09-28",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-29",
+          "wert": 9.0
+        }
+      ],
+      "schnitt": 9.0
     },
     "lesetext:kg--2019-02-19-21-u-4018:2": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-07",
+      "last": "2026-09-29",
       "gezeigt": "2026-09-28",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-29",
+          "wert": 15.0
+        }
+      ],
+      "schnitt": 15.0
     },
     "lesetext:kg--2019-02-19-21-u-4018:3": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-07",
+      "last": "2026-09-29",
       "gezeigt": "2026-09-28",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-09-29",
+          "wert": 14.0
+        }
+      ],
+      "schnitt": 14.0
     }
   },
-  "letzter_korrekturlauf": "2026-09-27",
+  "letzter_korrekturlauf": "2026-09-28",
   "gesperrt": [
     "zr-anwalt:form:014"
   ]
