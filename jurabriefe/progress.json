@@ -808,6 +808,110 @@
       "grade": null,
       "interval": 7,
       "detail": ""
+    },
+    {
+      "date": "2026-09-28",
+      "case_id": "zr-004",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-28",
+      "case_id": "zr-anwalt:form:013",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-28",
+      "case_id": "zr-staat:aufb:076",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-28",
+      "case_id": "zr-staat:form:001",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-28",
+      "case_id": "zr-staat:form:002",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-28",
+      "case_id": "zr-staat:form:003",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-28",
+      "case_id": "zr-anwalt:form:018",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-28",
+      "case_id": "zr-anwalt:form:019",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-28",
+      "case_id": "zr-staat:form:004",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-28",
+      "case_id": "zr-staat:form:008",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-28",
+      "case_id": "lesetext:olgnuer-2021-12-30-13-u-200821:1",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-28",
+      "case_id": "lesetext:olgnuer-2021-12-30-13-u-200821:2",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-09-28",
+      "case_id": "lesetext:olgnuer-2021-12-30-13-u-200821:3",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
     }
   ],
   "letzte_anpassung": null,
@@ -861,7 +965,7 @@
     "zr-anwalt:form:013": {
       "stability": 1.0,
       "difficulty": 5.3,
-      "due": "2026-10-02",
+      "due": "2026-10-05",
       "last": "2026-09-10",
       "gezeigt": "2026-09-11",
       "reps": 1,
@@ -872,7 +976,7 @@
         }
       ],
       "schnitt": 2.0,
-      "unbeantwortet": 6
+      "unbeantwortet": 7
     },
     "zr-anwalt:form:014": {
       "stability": 1.0,
@@ -923,54 +1027,54 @@
     "zr-004": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-02",
+      "due": "2026-10-05",
       "last": null,
       "gezeigt": "2026-09-25",
       "reps": 0,
-      "unbeantwortet": 6
+      "unbeantwortet": 7
     },
     "zr-staat:aufb:076": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-02",
+      "due": "2026-10-05",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 6
+      "unbeantwortet": 7
     },
     "zr-staat:form:001": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-02",
+      "due": "2026-10-05",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 6
+      "unbeantwortet": 7
     },
     "zr-staat:form:002": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-02",
+      "due": "2026-10-05",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 6
+      "unbeantwortet": 7
     },
     "zr-staat:form:003": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-02",
+      "due": "2026-10-05",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 6
+      "unbeantwortet": 7
     },
     "zr-005": {
       "stability": 4.0,
       "difficulty": 5.0,
       "due": "2026-09-20",
       "last": "2026-09-16",
-      "gezeigt": "2026-09-16",
+      "gezeigt": "2026-09-28",
       "reps": 1,
       "unbeantwortet": 2,
       "punkte": [
@@ -986,7 +1090,7 @@
       "difficulty": 4.85,
       "due": "2026-10-01",
       "last": "2026-09-23",
-      "gezeigt": "2026-09-23",
+      "gezeigt": "2026-09-28",
       "reps": 1,
       "unbeantwortet": 5,
       "punkte": [
@@ -1000,20 +1104,20 @@
     "zr-anwalt:form:018": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-02",
+      "due": "2026-10-05",
       "last": null,
       "gezeigt": "2026-09-11",
       "reps": 0,
-      "unbeantwortet": 6
+      "unbeantwortet": 7
     },
     "zr-anwalt:form:019": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-02",
+      "due": "2026-10-05",
       "last": null,
       "gezeigt": "2026-09-11",
       "reps": 0,
-      "unbeantwortet": 6
+      "unbeantwortet": 7
     },
     "lesetext:bgh-2024-05-16-ix-zr-3823": {
       "stability": 4.0,
@@ -1048,7 +1152,7 @@
     "zr-staat:form:004": {
       "stability": 5.2,
       "difficulty": 5.15,
-      "due": "2026-09-23",
+      "due": "2026-10-01",
       "last": "2026-09-18",
       "gezeigt": "2026-09-25",
       "reps": 2,
@@ -1062,7 +1166,8 @@
           "wert": 17.0
         }
       ],
-      "schnitt": 10.0
+      "schnitt": 10.0,
+      "unbeantwortet": 1
     },
     "zr-staat:form:005": {
       "stability": 8.0,
@@ -1326,33 +1431,69 @@
     "zr-staat:form:008": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-10-01",
       "last": null,
       "gezeigt": "2026-09-25",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "lesetext:olgnuer-2021-12-30-13-u-200821:1": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-10-01",
       "last": null,
       "gezeigt": "2026-09-25",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "lesetext:olgnuer-2021-12-30-13-u-200821:2": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-10-01",
       "last": null,
       "gezeigt": "2026-09-25",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "lesetext:olgnuer-2021-12-30-13-u-200821:3": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-10-01",
       "last": null,
       "gezeigt": "2026-09-25",
+      "reps": 0,
+      "unbeantwortet": 1
+    },
+    "zr-anwalt:form:015": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-28",
+      "reps": 0
+    },
+    "lesetext:kg--2019-02-19-21-u-4018:1": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-28",
+      "reps": 0
+    },
+    "lesetext:kg--2019-02-19-21-u-4018:2": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-28",
+      "reps": 0
+    },
+    "lesetext:kg--2019-02-19-21-u-4018:3": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-09-28",
       "reps": 0
     }
   },

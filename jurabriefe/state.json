@@ -17,9 +17,10 @@
     "zr-002",
     "zr-003",
     "zr-006",
-    "zr-004"
+    "zr-004",
+    "zr-005"
   ],
-  "last_id": "zr-004",
+  "last_id": "zr-005",
   "seen_slugs": [
     "olgdres-2021-11-16-4-u-116821",
     "kg--2020-09-30-3-161-ss-4920-48",
@@ -36,7 +37,8 @@
     "olgbamb-2022-09-06-10-u-5722",
     "olgk-2023-04-26-15-u-2423",
     "olgmuen-2025-11-19-15-u-252525-rae-e",
-    "olgnuer-2021-12-30-13-u-200821"
+    "olgnuer-2021-12-30-13-u-200821",
+    "kg--2019-02-19-21-u-4018"
   ],
   "next_index": 1,
   "offen": {},
@@ -96,6 +98,62 @@
           "abschnitt": "Lesetext Oberlandesgericht Nürnberg olgnuer 13 U 2008/21"
         }
       ]
+    },
+    "zr-005@28.09.": {
+      "case_id": "zr-005",
+      "datum": "2026-09-28",
+      "karten": [
+        {
+          "nr": 1,
+          "id": "zr-anwalt:form:016",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie den Beweisantritt für den Sachverstaendigenbeweis.",
+          "loesung": "Beweis: Sachverständigengutachten",
+          "gewicht": 3,
+          "skript": "zr-anwalt",
+          "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › 2. Formelles Beweisrecht › a. Beweisverfahren"
+        },
+        {
+          "nr": 2,
+          "id": "zr-anwalt:form:015",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie die einleitende Parteivorstellung im Schriftsatz (Schmerzensgeld und Folgeansprüche aus Verkehrsunfall mit Polizeifahrzeug, 50 % Haftung).",
+          "loesung": "Der Kläger nimmt den Beklagten auf Zahlung von Schmerzensgeld sowie wegen Folgeansprüchen aus einem Verkehrsunfall unter Beteiligung eines Einsatzfahrzeuges der Polizei Berlin in Anspruch. Geltend gemacht werden 50 % der bei dem Unfall entstandenen Schäden.",
+          "gewicht": 2,
+          "skript": "zr-anwalt",
+          "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden."
+        },
+        {
+          "nr": 3,
+          "id": "lesetext:kg--2019-02-19-21-u-4018:1",
+          "typ": "fall",
+          "frage": "Im Urteil des Kammergerichts vom 19.02.2019 (21 U 40/18) klagte eine WEG gegen die Beklagte, die als Bauträgerin ein Altbaugebäude saniert und um vier Geschosse aufgestockt hatte, auf Kostenvorschuss zur Mängelbeseitigung am Gemeinschaftseigentum. Die Erwerber hatten der Beklagten ihre Mängelansprüche zur gerichtlichen Durchsetzung überlassen; die Werkleistung der Beklagten war unstreitig nicht förmlich abgenommen worden. Das Landgericht Berlin hatte der Klägerin einen Vorschuss von 275.217,25 € nebst Feststellung der weitergehenden Haftung zugesprochen. Wie hat das Kammergericht über die Berufung der Beklagten entschieden und mit welcher Begründung hat es trotz fehlender Abnahme einen Vorschussanspruch bejaht, den Betrag aber teilweise reduziert?",
+          "loesung": "Das Kammergericht hat die Berufung nur zu einem geringen Teil für begründet erklärt: Es hat den Vorschuss auf 249.691,75 € nebst Zinsen reduziert und die weitergehende Haftungsfeststellung entsprechend angepasst; im Übrigen hat es die Berufung zurückgewiesen. Zur Begründung des Vorschussanspruchs trotz fehlender Abnahme führte das Gericht aus, dass nach der Rechtsprechung des BGH (Urteile vom 19.01.2017) der Werkvertrag auch ohne Abnahme in ein Abrechnungsverhältnis übergehen kann, wenn der Besteller wirksam eine Nacherfüllungsfrist gesetzt hat (Voraussetzung: Fälligkeit der Werkleistung nach §§ 281 Abs. 1, 323 Abs. 1 BGB) und zusätzlich die Leistung des Unternehmers ernsthaft und endgültig ablehnt. Anders als bei Rücktritt oder Schadensersatz statt der Leistung, wo die rechtsgestaltende Wirkung bereits in der Erklärung selbst liegt, muss beim Vorschussverlangen die endgültige Ablehnung gesondert (ggf. konkludent) erklärt werden. Das Gericht sah eine solche konkludente Erklärung hier entweder im erstinstanzlichen Vorbringen oder jedenfalls in der Berufungserwiderung der Klägerin als gegeben an. Der Höhe nach wurde der Vorschuss reduziert, weil das Landgericht bei der Trittschalldämmung zwischen 4. und 5. OG versehentlich einen zu hohen, auf eine andere Wohnung bezogenen Betrag angesetzt hatte; statt 41.500 € waren nur 22.000 € anzusetzen, da dies der obere Rahmen der vom Sachverständigen prognostizierten Kosten war (§ 287 ZPO).",
+          "gewicht": 2,
+          "skript": "zr-anwalt",
+          "abschnitt": "Lesetext Kammergericht kg- 21 U 40/18"
+        },
+        {
+          "nr": 4,
+          "id": "lesetext:kg--2019-02-19-21-u-4018:2",
+          "typ": "fall",
+          "frage": "Die Baubeschreibung zum Bauträgervertrag bezeichnete das Gebäude E...-Straße als 'Neubauobjekt' und sah vor, dass der 'bereits bestehende Altbaukeller und EG' 'ebenfalls neu saniert' werden sollten, obwohl der Keller selbst zum historischen Altbestand von 1904 gehörte und nicht neu errichtet wurde. Der gerichtlich beauftragte Sachverständige hatte in seinem Gutachten zwischen einer kostengünstigeren 'Mindestmaßnahme' und einer teureren 'Maximalmaßnahme' zur Kellerabdichtung unterschieden, wobei nur die Maximalmaßnahme eine 'weitgehend vollständige' Trockenlegung aller Kellerräume ermöglichte. Welchen Maßstab hat das Kammergericht für die Bestimmung des Leistungssolls bei der Sanierung eines in ein Neubauprojekt integrierten Altbaukellers angelegt und wie ist die Beweisaufnahme unter diesem Maßstab zu würdigen?",
+          "loesung": "Das Kammergericht stellt entscheidend auf die Erwartung einer objektiven Vertragspartei ab, die sich aus der Baubeschreibung und dem Gesamtumfang der Bauleistungen ergibt. Da bei Sanierungsbeginn vom Altgebäude nur noch Keller und Erdgeschoss vorhanden waren und alle darüberliegenden Geschosse vollständig neu errichtet wurden, durften die Erwerber bei einer derart umfangreichen Neuerrichtung im Zweifel davon ausgehen, dass auch der verbleibende Altbaubestand vollständig saniert wird (unter Verweis auf BGH VII ZR 210/05 und VII ZR 257/03). Die ausdrückliche Bezeichnung als 'Neubauobjekt' sowie die Aussage, der Altbaukeller werde 'ebenfalls neu saniert', begründeten aus Sicht einer objektiven Vertragspartei die berechtigte Erwartung, dass der Keller dem Standard eines Neubaukellers so nahekommt, wie dies durch nachträgliche Baumaßnahmen in einem solchen Baubestand überhaupt möglich ist. Dieser Maßstab schlägt auf die Auswahl der Sanierungsmaßnahme durch: Da der Sachverständige angegeben hatte, dass nur die 'Maximalmaßnahme' eine weitgehend vollständige Trockenlegung aller Kellerräume ermöglicht, war diese – trotz höherer Kosten – als vertraglich geschuldete Leistung anzusehen und nicht die kostengünstigere Mindestmaßnahme. Das Gericht betont zugleich, dass selbst eine nur bestmögliche, nicht vollständig sichere Trockenlegung als Erfüllung der anerkannten Regeln der Technik ausreicht, wenn objektiv eine Aufwertung der Kellernutzbarkeit erreicht wird.",
+          "gewicht": 2,
+          "skript": "zr-anwalt",
+          "abschnitt": "Lesetext Kammergericht kg- 21 U 40/18"
+        },
+        {
+          "nr": 5,
+          "id": "lesetext:kg--2019-02-19-21-u-4018:3",
+          "typ": "fall",
+          "frage": "Bezüglich der Trittschalldämmung zwischen dem 4. und 5. OG hatte der Sachverständige im Rahmen der Beweisaufnahme angegeben, dass zur Mängelbeseitigung möglicherweise bereits ein kostengünstiges Freischneiden der Fußbodenrandfuge (ca. 500 €) ausreichen könnte, andernfalls aber eine flächige Sanierung mit Kosten von 22.000 € erforderlich würde; welche der beiden Maßnahmen tatsächlich zum Erfolg führt, stand zum Zeitpunkt der gerichtlichen Entscheidung noch nicht fest. Das Kammergericht musste daher entscheiden, welchen Betrag es innerhalb dieser Kostenspanne als Vorschuss zuspricht. Welche Kriterien hat das Gericht für die Ermessensausübung nach § 287 Abs. 1 ZPO bei ungewisser Schadenshöhe im Vorschussprozess entwickelt, und was folgt daraus für die anwaltliche Praxis bei der Antragstellung in vergleichbaren Fällen?",
+          "loesung": "Das Kammergericht stellt klar, dass bei einem Vorschussanspruch – anders als bei einem fiktiven Schadensersatzanspruch (vgl. BGH VII ZR 251/02, wonach nur der sicher anfallende Mindestbetrag zugesprochen werden darf) – das Gericht nicht zwingend auf die Untergrenze der Kostenspanne beschränkt ist, sondern nach § 287 Abs. 1 ZPO den Betrag nach freiem Ermessen auch bis zur Obergrenze des prognostizierten Rahmens festsetzen kann. Begründet wird dies mit der Dispositionsbindung des Vorschusses: Der Besteller muss den erhaltenen Vorschuss zweckgebunden zur Mängelbeseitigung verwenden, trägt die Beweislast für die tatsächliche Erforderlichkeit und muss nicht benötigte Beträge zurückzahlen; umgekehrt kann er bei einem zu niedrigen Vorschuss nachfordern. Als Abwägungskriterien für die Ausübung des Ermessens nennt das Gericht insbesondere die bisherige Verfahrensdauer (je länger der Prozess bereits gedauert hat, desto weniger zumutbar ist dem Besteller eine kurzfristige Nachforderung) sowie die Wahrscheinlichkeit, ob eher ein Nachforderungs- oder ein Rückzahlungsszenario zu erwarten ist. Im konkreten Fall sprach die lange Verfahrensdauer (einschließlich vorangegangenem selbständigem Beweisverfahren) und die hinreichende Wahrscheinlichkeit, dass die einfache Maßnahme nicht ausreicht, für die Zubilligung des oberen Betrags von 22.000 €. Für die anwaltliche Praxis folgt daraus, dass bei der Bezifferung von Vorschussanträgen in Fällen mit ungewisser Schadenshöhe nicht vorsorglich der Mindestbetrag anzusetzen ist, sondern unter Hinweis auf die Verfahrensdauer und die Wahrscheinlichkeitsprognose gezielt auf die Zusprechung des oberen Rahmenwerts hingewirkt werden sollte, um das Risiko einer späteren Nachforderung zu minimieren.",
+          "gewicht": 2,
+          "skript": "zr-anwalt",
+          "abschnitt": "Lesetext Kammergericht kg- 21 U 40/18"
+        }
+      ]
     }
   },
   "erledigte_mails": [
@@ -107,5 +165,5 @@
     "<DDD4AD8A-8468-4A24-BC1F-91A6381C5787@web.de>",
     "<EE1DD304-AC61-4BA7-8DE0-18634AB30494@web.de>"
   ],
-  "letzter_brief": "2026-09-25"
+  "letzter_brief": "2026-09-28"
 }
