@@ -1,6 +1,6 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 25. September 2026*
+*Letzte Aktualisierung: 29. September 2026*
 
 **Standort: derzeit Zürich, Arbeit im Kunstfelsenbau. Wohnsitz Leipzig.** Der Morgenbrief richtet sich nach /automat/standort.txt auf netcup; dort steht aktuell `zuerich`.
 
@@ -24,7 +24,17 @@
 - [ ] **Bundespolizeidirektion 11, OSINT-Sachbearbeiter/-in Berlin — Frist 14.10.2026**, TVöD E 11 plus Stellenzulage 110 €, unbefristet, Dienstort Berlin; bei Verbeamteten extern nur bis A 11 BBesO. Zugang: Laufbahnbefähigung gehobener nichttechnischer Verwaltungsdienst **oder** Bachelor Politik-/Sozial-/Kriminalistik-/Informationswissenschaften plus 18 Monate einschlägige Berufserfahrung (laut Ausschreibung beim Arbeitgeber nachholbar). Gefordert: Analyse offener Quellen, phänomenologische Kenntnisse Terrorismus/Extremismus, Englisch B2, Französisch und/oder Arabisch, Bereitschaft zu mehrtägigen Dienstreisen; Sicherheitsüberprüfung. Bewerbung über komm-zur-bundespolizei.de. Gefunden über den bpb-Infodienst (#OSINTBer). Nicht zu verwechseln mit Polizei Berlin LKA 155-26, gleiche Frist, anderer Arbeitgeber.
 - [ ] **Polizei Berlin, LKA 5 und 7, OSINT-Analyst/in mit besonderen Ermittlungsaufgaben — Frist 14.10.2026**, Kennziffer 155-26, gehobener Dienst, unbefristet, Dienstort Berlin, Kontakt Frau Kohls +49 30/4664-791264. Bewerbung über karriereportal-stellen.berlin.de (j69721). Zugangsvoraussetzung ist ein Bachelor in Sozial- oder Politikwissenschaften **oder einem vergleichbaren Studiengang** — damit formal offen. Gefordert: OSINT-/SOCMINT-Methoden, Grundkenntnisse des Datenverkehrs (IP, Mail-Header), gezielte Rechercheanfragen; erwünscht Analyse-/Auswertesoftware. Passt zum bereits verfolgten Profil (AWV-038 OSINT, BfV, SenInnSport) und zu den eigenen Scraping- und Auswertungswerkzeugen. Korrigiert den früheren Vermerk, LKA Berlin nehme Quereinsteiger nur für IT/Cyber und Wirtschaft.
 
+- [ ] **Gedenkstätte KZ Lichtenburg Prettin, wiss. Mitarbeit im Forschungsprojekt — Frist 04.10.2026 (Posteingang!)**. Projekt „Bauliche und erinnerungskulturelle Strategieentwicklung für erhaltene NS-Tatorte mit komplexer Überlagerungsgeschichte am Beispiel des Schlosses Lichtenburg“ (Kooperation FH Aachen), E13 TV-L, 20 h, 15.12.2026–31.10.2029, unter Vorbehalt der Zuwendungsbewilligung. Mit Promotion vereinbar. PDF max. 5 MB an personalstelle@erinnern.org — Ausschreibung schreibt „personnalstelle“, Adresse prüfen; Rückfragen Melanie Engler 035386 60 99 76. Gespräche vsl. KW 45. Anschreiben-Entwurf liegt vor (Belege: Python-Auswertung Langenstein, „Grab des unbekannten Häftlings“, Buchenwald-Bibliografie, „Typisch DDR“; Lücke Bauforschung offen benennen).
+
 ## Bewerbungspipeline (Stand 07.09.2026)
+
+### Neu im Stellenscan 29.09.2026 (Rangfolge: Dubnow · Lichtenburg · Buchenwald · VG Wort · LiteraturBasel · BPol OSINT · Bergen-Belsen)
+- [ ] **Dubnow-Institut Leipzig, Wissenschaftlicher Redakteur — Frist 28.10.2026**. Transferbereich Forschungslabor „Materialität jüdischer Kultur“, E13 TV-L, 40 h (Teilzeit möglich), 2 J. befristet, Entfristung vorgesehen, Beginn 01.01.2027. Eine PDF an bewerbung@dubnow.de; inhaltliche Rückfragen Dr. Petra Gamke-Breitschopf, Dr. Caroline Jessen. Beste Passung. Schwachstelle: mehrjährige Erfahrung mit wiss. Publikationsformaten.
+- [ ] **Gedenkstätte Buchenwald, Bildungsreferent:in — Frist 18.10.2026**. Unbefristet, VZ 40 h, ab 01.03.2027. Nur online über buchenwald.de/jobs-praktika; Praxisnachweis inkl. Social-Media-Portfolio oder Referenz. Gespräche vsl. KW 47.
+- [ ] **VG Wort München, Fachkraft Meldewesen (Abt. Audio/AV) — ohne Frist**. 53.200–58.800 €/J. (37 h), TZ ab 32 h, 2 Tage mobil. Plan: 32 h als Zwischenlösung, 2 Tage Leipzig / 2 Tage München. Vorher bei bewerbungen@vgwort.de klären, ob die mobilen Tage bei TZ gelten. Bewerbung mit Wochenarbeitszeit und frühestem Eintritt an vg-wort-jobs@m.personio.de.
+- [ ] **LiteraturBasel, Programmkuration ab 2027** — neu geschaffene Stelle, Frist und Details über die Medienmitteilung auf literaturhaus-basel.ch prüfen.
+- [ ] **Gedenkstätte Bergen-Belsen, wiss. Volontariat „Neue Dauerausstellung“ — Frist 18.10.2026**, Kennziffer SnG 2026-4, 50 % E13, 2 J., ab 01.12.2026, bewerbung@stiftung-ng.de. Nachrangig.
+- Langenstein-Zwieberge, Ko-Kuration Dauerausstellung (E13): war für 08/2026 ausgeschrieben, befristet bis 01/2027, Verlängerung bis 05/2028 möglich — bei der Gedenkstätte nach der Verlängerungsphase fragen.
 
 ### Anschreiben fertig, Versand offen (Stand 16.09.2026)
 - [ ] **Museum Ratingen, Wissenschaftliches Volontariat — Frist 25.09.2026**, Beginn 01.01.2027, 2 Jahre, halbes EG 13 Stufe 1 TVöD, 39 h. Über das Bewerbungsportal stadt-ratingen.de unter dem Kennwort „Wissenschaftliches Volontariat im Museum Ratingen". Fachlich Frau Siever 02102/550-4183. Der Master wird verlangt und liegt vor — die früher notierte „Master-Hürde" existiert nicht mehr.
