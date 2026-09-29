@@ -189,7 +189,6 @@ In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getr
 - [ ] Paul Celan Fellowship (Übersetzung geistes-/sozialwiss. Werke) — Frist 16.01.2027
 - [ ] Culture Moves Europe (Mobilität) — Frist 30.04.2027
 - [ ] Stuttgarter Schriftstellerhaus, Aufenthalt für Autor·innen-Übersetzer·innen — Frist 31.08.2027
-- [ ] Pro Helvetia / Looren / EÜK Straelen — nur mit Schweizer Pass oder Schweizer Literatur: klären
 - [ ] Kulturstiftung Sachsen — Bewerbungsphase ab Mai, Frist 01.07. (Max Uhlig für Yage)
 - [ ] Berliner Übersetzerwerkstatt — Frist 15.06.
 - [ ] Wien Angewandte PhD in Art / Wien Akademie PhD in Practice — voraussichtlich Februar 2027
