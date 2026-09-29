@@ -1,44 +1,4 @@
 {
-  "kultweet-250084": {
-    "first_seen": "2026-07-01T10:54:05.821349+00:00",
-    "source": "kultweet",
-    "title": "Junior-Berater*in und Datenanalyst*in im Sektorvorhaben \"Daten in der Entwicklungszusammenarbeit\", Voll- oder Teilzeit | Bonn​‌‌‌‌​‌​​​​‌‌‌​​‌​​ - Deutsche Gesellschaft für Internationale Zusammenarbe",
-    "url": "https://jobs.giz.de/index.php?ac=jobad&id=78558",
-    "score": 3,
-    "categories": [
-      "migration_ez"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1463627.html": {
-    "first_seen": "2026-07-01T10:54:07.230171+00:00",
-    "source": "service.bund.de",
-    "title": "Systemadministratorinnen bzw. Systemadministratoren (w/m/d)",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/interamt/2026/06/1463627.html#track=feed-jobs",
-    "score": 4,
-    "categories": [
-      "behörden_kern"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Deutsche-Gesellschaft-fuer-Auswaertige-Politik-e-V/2026/06/6555499.html": {
-    "first_seen": "2026-07-01T10:54:07.243594+00:00",
-    "source": "service.bund.de",
-    "title": "Co-Leitung für den Aufbau eines Tech-Zentrums (m/w/d)",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/editor/Deutsche-Gesellschaft-fuer-Auswaertige-Politik-e-V/2026/06/6555499.html#track=feed-jobs",
-    "score": 4,
-    "categories": [
-      "behörden_kern"
-    ]
-  },
-  "https://www.service.bund.de/IMPORTE/Stellenangebote/stellenmarkt_nrw/2026/06/5a7c432e-ecb3-4387-9f74-29a323168103.html": {
-    "first_seen": "2026-07-01T10:54:07.361161+00:00",
-    "source": "service.bund.de",
-    "title": "Sachbearbeiterin / Sachbearbeiter (m/w/d) für das Referat 601 „Nachrichtendienstliche Organisations- und Haushaltsangelegenheiten, Fachdateien“ in der Abteilung 6 - Verfassungsschutz",
-    "url": "https://www.service.bund.de/IMPORTE/Stellenangebote/stellenmarkt_nrw/2026/06/5a7c432e-ecb3-4387-9f74-29a323168103.html#track=feed-jobs",
-    "score": 4,
-    "categories": [
-      "behörden_kern"
-    ]
-  },
   "kultweet-250140": {
     "first_seen": "2026-07-02T10:18:35.190484+00:00",
     "source": "kultweet",
@@ -3267,6 +3227,17 @@
       "region_orient",
       "promotion_forschung",
       "schwach_regional"
+    ]
+  },
+  "kultweet-253957": {
+    "first_seen": "2026-09-29T14:14:41.239978+00:00",
+    "source": "kultweet",
+    "title": "Mitarbeiter:in (w/m/d) Digitales Sammlungsmanagement, Historisches Museum, Vollzeit, Teilzeit | Frankfurt am Main​‌‌‌‌‌​​​​​​​​​​‌​‌ - Stadt Frankfurt am Main",
+    "url": "https://stadtfrankfurtjobs.de/Mitarbeiterin-wmd-Digitales-Sammlungsmanagement-de-j11326.html",
+    "score": 5,
+    "categories": [
+      "digital_humanities",
+      "kuratorisch_wiss_volo"
     ]
   }
 }
