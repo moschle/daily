@@ -301,6 +301,38 @@ def fetch_museumsbund():
     )
 
 
+# ─── Quelle: Gesines Jobtipps, Region Halle-Leipzig ───
+# Handverlesene Stellen in Bildung, Kultur & NGOs, erscheint mittwochs.
+# Fundort der Dubnow-Stelle (29.09.2026). Die Titel verlinken direkt auf
+# die Ausschreibung beim Arbeitgeber, daher: alle externen Links.
+def fetch_gesine():
+    return _harvest(
+        "gesinesjobtipps",
+        "https://gesinesjobtipps.de/region/halle-leipzig/",
+        r"^https?://(?!(www\.)?gesinesjobtipps\.de)(?!.*(facebook|instagram|linkedin|wordpress|twitter|x\.com))",
+        "gesine",
+        min_titel_len=15,
+    )
+
+
+# ─── Quelle: Stiftung Gedenkstätten Sachsen-Anhalt ───
+# Lichtenburg, Langenstein-Zwieberge, Marienborn u.a. Die Ausschreibungen
+# liegen als PDF unter /Chancen/, der Linktext ist nur "hier" — Titel
+# deshalb aus dem Dateinamen.
+def fetch_stgs():
+    jobs = _harvest(
+        "stgs sachsen-anhalt",
+        "https://stgs.sachsen-anhalt.de/geschaeftsstelle/chancen",
+        r"/Chancen/.+\.pdf$",
+        "stgs",
+        min_titel_len=1,
+    )
+    for j in jobs:
+        name = j["url"].rsplit("/", 1)[-1].rsplit(".", 1)[0]
+        j["title"] = "Stiftung Gedenkstätten Sachsen-Anhalt: " + name.replace("_", " ")
+    return jobs
+
+
 # ─── Landesportale und GIZ — DEAKTIVIERT ───
 # Befund 09.09.2026:
 #   karriere.sachsen.de/stellenmarkt.html  → 404, Seite umgezogen
@@ -318,6 +350,8 @@ def selbsttest():
     """python3 stellen_quellen_extra.py — prüft jede Quelle einzeln."""
     for label, fn in [
         ("museumsbund", fetch_museumsbund),
+        ("gesinesjobtipps", fetch_gesine),
+        ("stgs sachsen-anhalt", fetch_stgs),
     ]:
         try:
             jobs = fn()
