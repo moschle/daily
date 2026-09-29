@@ -174,7 +174,7 @@ In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getr
 - [ ] DÜF Aufenthaltsstipendien Visby/Arles/Straelen — Frist 15.09.
 - [ ] DÜF Looren Aufenthalt — Frist 01.09. (verstrichen, nächste Runde vormerken)
 - [ ] GRK Bonn — 17.09.
-- [ ] Gastdozenturen des DÜF — 30.09.
+- Gastdozenturen des DÜF — 30.09. — **verzichtet (29.09.2026)**: Einkommensvoraussetzung nicht erfüllt; hält die DÜF-Runde 15.01.2027 frei.
 
 ### Oktober / November
 - [ ] DAAD-Lektorat Hauptausschreibung Oktober für 2027/28
@@ -182,8 +182,14 @@ In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getr
 - [ ] DÜF Initiativstipendium — **Frist 30.11.2026** (verifiziert 15.09.2026), 2.000 €, ohne Vertrag möglich
 - [ ] NRW Arbeits-/Recherchestipendien — Frist 30.11.
 - [ ] Kunststiftung Sachsen-Anhalt Arbeitsstipendium — Frist November (1.500 €/Monat)
+- [ ] Georges-Arthur-Goldschmidt-Programm (DE/FR/CH, Nachwuchs) — Frist 18.10.2026. Nur mit einem Projekt Französisch→Deutsch sinnvoll.
 
 ### 2027 und später
+- [ ] DÜF Arbeits-, Reise- und Bode-Stipendium (Mentorat) — Frist 15.01.2027 (frei, weil Gastdozentur nicht beantragt)
+- [ ] Paul Celan Fellowship (Übersetzung geistes-/sozialwiss. Werke) — Frist 16.01.2027
+- [ ] Culture Moves Europe (Mobilität) — Frist 30.04.2027
+- [ ] Stuttgarter Schriftstellerhaus, Aufenthalt für Autor·innen-Übersetzer·innen — Frist 31.08.2027
+- [ ] Pro Helvetia / Looren / EÜK Straelen — nur mit Schweizer Pass oder Schweizer Literatur: klären
 - [ ] Kulturstiftung Sachsen — Bewerbungsphase ab Mai, Frist 01.07. (Max Uhlig für Yage)
 - [ ] Berliner Übersetzerwerkstatt — Frist 15.06.
 - [ ] Wien Angewandte PhD in Art / Wien Akademie PhD in Practice — voraussichtlich Februar 2027
