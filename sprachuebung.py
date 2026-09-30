@@ -140,10 +140,11 @@ REGELN
 - Stufe {stufe_txt}
 - Thema: "{lang_ex['topic']}". 6–8 Sätze. Natürliches Persisch, wie es ein Iraner schreiben würde; keine Wörter nur um sie unterzubringen.
 - Neben Funktionswörtern nur Wörter aus der Liste, dazu GENAU {NEU_PRO_TAG} neue Wörter. Die neuen Wörter sollen häufig und nützlich sein und zum Thema passen.
-- Jedes neue Wort beim ersten Vorkommen direkt dahinter glossieren: Wort (deutsche Bedeutung). Sonst keine Glossen.
-- Ohne Vokalzeichen im Fließtext.
+- Jedes neue Wort beim ersten Vorkommen direkt hinter der VOLLSTÄNDIGEN Wortform (mit Plural- und Personalendungen) glossieren: سلاح‌ها (Waffen), nie سلاح (Waffe) ها. Sonst keine Glossen.
+- Ohne Kurzvokalzeichen im Fließtext, aber normale Rechtschreibung: Madde (آب, آمد, می‌آورد, آلودگی), Hamze und Halbabstand (ZWNJ) immer setzen.
+- Lieber ein schlichter Satz als ein seltenes, gehobenes oder unpassendes Wort. Keine Füllsätze, keine schiefen Aussagen, keine Substantivierungen, die kein Iraner so sagen würde (z. B. nicht „غمگینی می‌آورد“).
 {wh}- Danach 2–3 Verständnisfragen auf Deutsch.
-- Nachricht: in 3–4 einfachen Sätzen auf Persisch nacherzählen, ebenfalls fast nur mit bekannten Wörtern; höchstens 2 weitere neue Wörter, genauso glossiert.
+- Nachricht: in 3–4 einfachen Sätzen auf Persisch nacherzählen, ebenfalls fast nur mit bekannten Wörtern; höchstens 2 weitere neue Wörter, genauso glossiert. NUR Inhalte aus Schlagzeile und Meldungstext unten, nichts hinzufügen, keine Sätze wie „این خبر امروز آمد“.
 {nachricht}{feedback}
 Antworte NUR mit JSON, ohne Markdown:
 {{"titel": "persischer Titel",
@@ -151,7 +152,23 @@ Antworte NUR mit JSON, ohne Markdown:
   "fragen": ["...", "..."],
   "nachricht": "Nacherzählung auf Persisch oder leer",
   "neue_vokabeln": [{{"fa": "Wort mit Kurzvokalzeichen", "de": "knappe deutsche Bedeutung, ohne persische Schrift"}}]}}
-In "neue_vokabeln" stehen alle neuen Wörter aus Text und Nachricht (Verben als Infinitiv, Nomen im Singular)."""
+In "neue_vokabeln" stehen ALLE glossierten Wörter aus Text und Nachricht (Verben als Infinitiv, Nomen im Singular) und jedes weitere Wort, das nicht in der Wortschatzliste steht."""
+
+
+def _glossen_nachtragen(woerter, complete) -> list[tuple[str, str]]:
+    """Unbekannte, nicht deklarierte Wörter nachträglich übersetzen lassen."""
+    if not woerter:
+        return []
+    p = ("Gib für jedes dieser persischen Wörter die Grundform (Verben als Infinitiv, Nomen im Singular) "
+         "mit Kurzvokalzeichen und eine knappe deutsche Bedeutung. Antworte NUR mit JSON: "
+         '[{"fa": "...", "de": "..."}]\n' + "\n".join(woerter))
+    try:
+        roh = complete(p, max_tokens=800).strip()
+        roh = re.sub(r"^```(?:json)?|```$", "", roh, flags=re.M).strip()
+        liste = json.loads(roh[roh.find("["): roh.rfind("]") + 1])
+        return [((v.get("fa") or "").strip(), (v.get("de") or "").strip()) for v in liste]
+    except Exception:
+        return []
 
 
 def _json(roh: str) -> dict:
@@ -195,14 +212,24 @@ def erzeuge(lang_ex: dict, complete) -> dict:
         raise RuntimeError("Leseübung konnte nicht erzeugt werden")
 
     quote, d = bestes
-    neue = []
-    for v in d.get("neue_vokabeln", []):
-        fa, de = (v.get("fa") or "").strip(), (v.get("de") or "").strip()
-        if fa and de and not (_formen(fa) & alle):
+    liste = [((v.get("fa") or "").strip(), (v.get("de") or "").strip()) for v in d.get("neue_vokabeln", [])]
+    liste = [(fa, de) for fa, de in liste if fa and de]
+    # Was jetzt noch unbekannt ist, wurde weder ersetzt noch deklariert -> nachtragen
+    neu_formen = {w for fa, _ in liste for w in _formen(fa)}
+    _, rest = pruefe(d.get("text", "") + " " + d.get("nachricht", ""), K | neu_formen)
+    liste += [(fa, de) for fa, de in _glossen_nachtragen(rest, complete) if fa and de]
+    # Brief: alle Wörter; Anki: nur, was noch nicht vollständig im Deck steht
+    gesehen, anzeige, neue = set(), [], []
+    for fa, de in liste:
+        if norm(fa) in gesehen:
+            continue
+        gesehen.add(norm(fa))
+        im_deck = bool(_formen(fa)) and _formen(fa) <= alle
+        anzeige.append(f"{fa} – {de}" + (" (schon im Deck)" if im_deck else ""))
+        if not im_deck:
             neue.append((fa, de))
-
     fragen = "\n".join(f"{i}. {q}" for i, q in enumerate(d.get("fragen", []), 1))
-    woerter = "\n".join(f"{fa} – {de}" for fa, de in neue) or "–"
+    woerter = "\n".join(anzeige) or "–"
     abschnitt = (
         f"SPRACHÜBUNG - TEXT\n{d.get('titel', '')}\n\n{d.get('text', '')}\n\n"
         f"NEUE WÖRTER (Stufe {stufe_name}, {round((1 - quote) * 100)} % bekannt; Anki-Paket im Anhang)\n{woerter}\n\n"
