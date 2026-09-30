@@ -17,8 +17,8 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 BEKANNT_FILE = HERE / "bekannt_fa.json"
-NEU_PRO_TAG = 5
-MAX_UNBEKANNT = 0.05       # Anteil unbekannter Wörter, ab dem neu geschrieben wird
+NEU_PRO_TAG = 7
+MAX_UNBEKANNT = 0.08       # Anteil unbekannter Wörter, ab dem neu geschrieben wird
 VERSUCHE = 3
 
 # Notiztyp und Deck aus der eigenen Sammlung (IDs unverändert übernehmen,
@@ -131,7 +131,7 @@ def _prompt(lang_ex, bekannt_liste, stufe_txt, due, feedback):
                      f"{(lang_ex.get('news_text') or '')[:900]}\n")
     return f"""Du schreibst eine persische Leseübung (Farsi, Standardsprache, kein Slang) für einen deutschen Lerner.
 
-ZIEL: Er soll den Text ohne Wörterbuch lesen können. Mindestens 95 % der Wörter müssen aus seinem bekannten Wortschatz stammen.
+ZIEL: Er soll den Text ohne Wörterbuch lesen können. Mindestens 92 % der Wörter müssen aus seinem bekannten Wortschatz stammen.
 
 BEKANNTER WORTSCHATZ (Grundformen; Endungen, Plural, Ezafe und Konjugation sind erlaubt):
 {bekannt_liste}
