@@ -18,9 +18,10 @@
     "zr-003",
     "zr-006",
     "zr-004",
-    "zr-005"
+    "zr-005",
+    "zr-006"
   ],
-  "last_id": "zr-005",
+  "last_id": "zr-006",
   "seen_slugs": [
     "olgdres-2021-11-16-4-u-116821",
     "kg--2020-09-30-3-161-ss-4920-48",
@@ -38,11 +39,69 @@
     "olgk-2023-04-26-15-u-2423",
     "olgmuen-2025-11-19-15-u-252525-rae-e",
     "olgnuer-2021-12-30-13-u-200821",
-    "kg--2019-02-19-21-u-4018"
+    "kg--2019-02-19-21-u-4018",
+    "olgth-2020-06-26-4-u-27919"
   ],
   "next_index": 1,
   "offen": {},
-  "offene_packs": {},
+  "offene_packs": {
+    "zr-006@30.09.": {
+      "case_id": "zr-006",
+      "datum": "2026-09-30",
+      "karten": [
+        {
+          "nr": 1,
+          "id": "zr-anwalt:form:018",
+          "typ": "formulierung",
+          "frage": "Ihr Mandant ist Inhaber eines vorrangigen Pfandrechts an einer Sache, die sich in der Verwertung durch einen anderen Gläubiger befindet. Er möchte seinen Vorrang gerichtlich durchsetzen. Formulieren Sie den Klageantrag nach § 805 ZPO.",
+          "loesung": "Der Kläger ist vor dem Beklagten aus dem Reinerlös aus der Vollstreckung in folgenden Gegenstand (genau bezeichnen) wegen einer Forderung des Klägers in Höhe von € ... zu befriedigen.",
+          "gewicht": 3,
+          "skript": "zr-anwalt",
+          "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › IX. Klagen und Rechtsbehelfe in der Zwangsvollstreckung › 1. Klagen gegen die Zwangsvollstreckung: › c. Klage auf vorzugsweise Befriedigung nach § 805 ZPO"
+        },
+        {
+          "nr": 2,
+          "id": "zr-anwalt:form:015",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie die einleitende Parteivorstellung im Schriftsatz (Schmerzensgeld und Folgeansprüche aus Verkehrsunfall mit Polizeifahrzeug, 50 % Haftung).",
+          "loesung": "Der Kläger nimmt den Beklagten auf Zahlung von Schmerzensgeld sowie wegen Folgeansprüchen aus einem Verkehrsunfall unter Beteiligung eines Einsatzfahrzeuges der Polizei Berlin in Anspruch. Geltend gemacht werden 50 % der bei dem Unfall entstandenen Schäden.",
+          "gewicht": 2,
+          "skript": "zr-anwalt",
+          "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden."
+        },
+        {
+          "nr": 3,
+          "id": "lesetext:olgth-2020-06-26-4-u-27919:1",
+          "typ": "fall",
+          "frage": "Im Urteil des Thüringer OLG vom 26.06.2020 (4 U 279/19) stritten die Parteien über Invaliditätsleistungen aus einer privaten Unfallversicherung. Die Klägerin war 2012 in ihrem Badezimmer gestürzt und danach bewusstlos; streitig war, ob sie ausgerutscht ist oder infolge einer Bewusstseinsstörung stürzte, was nach Ziffer 5.1.1 AUB zum Leistungsausschluss führen würde. Das Landgericht Erfurt hatte die Klage nach umfangreicher Beweisaufnahme (Zeugen, zwei Sachverständigengutachten, Arztberichte) abgewiesen. Wie hat das OLG über die Berufung entschieden und mit welcher zentralen Begründung?",
+          "loesung": "Das OLG wies die Berufung zurück und bestätigte die Klageabweisung. Es sah sich gemäß § 529 Abs. 1 Nr. 1 ZPO an die landgerichtlichen Tatsachenfeststellungen gebunden, da keine konkreten Anhaltspunkte für deren Unrichtigkeit oder Unvollständigkeit bestanden. Das Landgericht hatte rechtsfehlerfrei festgestellt, dass die Beklagte den ihr obliegenden Vollbeweis (§ 286 ZPO) für eine Bewusstseinsstörung als Sturzursache erbracht hatte, gestützt auf die frühen, zeitnah nach dem Unfall gemachten Angaben der Klägerin gegenüber den behandelnden Ärzten (dokumentiert in mehreren Arztberichten: Sturz „ohne Vorgefühl“ bzw. Kollabieren aus voller Gesundheit) sowie die Aussagen der behandelnden Ärzte als Zeugen, wonach diese Angaben von der Klägerin bzw. ihrem Ehemann stammten. Die erst zwei Monate später und nach anwaltlicher Beratung vorgebrachte Version eines Ausrutschens erschien demgegenüber nicht plausibel, zumal die Klägerin nicht einmal behauptet hatte, den Ärzten gegenüber zeitnah von einem Ausrutschen berichtet zu haben, und die Wohnsituation (Hausschuhe, keine besondere Glätte, keine erhebliche Dynamik der Bewegung) gegen ein Ausrutschen sprach. Das Schreiben des Chefarztes vom 27.11.2013, das lediglich das Fehlen einer gesicherten Epilepsiediagnose bestätigte, entkräftete diese Würdigung nicht, da es keine Aussage zur tatsächlichen Sturzursache traf und ein Ausrutschen nur als mögliche, nicht als feststehende Erklärung nannte. Eine konkrete Benennung der Art der Bewusstseinsstörung war nicht erforderlich, da der Ausschlusstatbestand keine bestimmte Diagnose voraussetzt, sondern jede Störung der Aufnahme- und Reaktionsfähigkeit genügt, die den Versicherten der Gefahrenlage nicht mehr gewachsen sein lässt.",
+          "gewicht": 2,
+          "skript": "zr-anwalt",
+          "abschnitt": "Lesetext Thüringer Oberlandesgericht olgth 4 U 279/19"
+        },
+        {
+          "nr": 4,
+          "id": "lesetext:olgth-2020-06-26-4-u-27919:2",
+          "typ": "fall",
+          "frage": "Die zentrale Rechtsfrage im Verfahren 4 U 279/19 betraf den Beweiswert privatschriftlicher Arztberichte (hier: Anamnese-Angaben in Behandlungsunterlagen) im Rahmen der freien Beweiswürdigung nach § 286 ZPO, wenn ein Ausschlusstatbestand einer Unfallversicherung (Ziffer 5.1.1 AUB: Bewusstseinsstörung als Sturzursache) im Streit steht und die Versicherungsnehmerin sich später anders zum Unfallhergang äußert. Welchen Maßstab hat das OLG für die Bewertung solcher einseitig erstellter Privaturkunden und die Erschütterung ihres Beweiswerts angelegt?",
+          "loesung": "Das OLG differenzierte: Einseitig errichteten Privaturkunden kommt grundsätzlich nicht automatisch die volle Vermutungswirkung wie bei zweiseitigen Urkunden zu, da der Urheber sonst einseitig Vermutungstatbestände schaffen könnte. Jedoch können auch einseitige Privaturkunden im Rahmen der freien Beweiswürdigung eine erhebliche indizielle Wirkung entfalten, wenn dem Aussteller eine besondere Glaubwürdigkeit zukommt – wie bei ärztlichen Bescheinigungen aufgrund der regelmäßigen Neutralität und beruflichen Distanz des behandelnden Arztes zu den Beteiligten. Diese indizielle Wirkung führt aber nicht dazu, dass der Gegenseite der volle Beweis des Gegenteils auferlegt wird; es genügt, wenn sie die richterliche Überzeugung von der inhaltlichen Richtigkeit erschüttert. Als Beweismaß gilt für den Ausschlusstatbestand § 286 ZPO (Vollbeweis zugunsten der Versicherung als Anspruchsgegnerin), das heißt ein Grad an Gewissheit, der vernünftigen Zweifeln Schweigen gebietet, ohne sie völlig auszuschließen. Zudem ist zu berücksichtigen, dass den unmittelbar nach dem Versicherungsfall getätigten Angaben des Versicherungsnehmers eine besondere Bedeutung zukommt, da sie am ehesten frei von rechtlichen und taktischen Erwägungen sind – während später, insbesondere nach anwaltlicher Beratung, geänderte Darstellungen kritischer zu würdigen sind. Im konkreten Fall wurde der indizielle Beweiswert der Arztberichte durch die Angaben der Klägerin nicht erschüttert, insbesondere weil sie selbst nicht behauptet hatte, den Erstbehandlern gegenüber je ein Ausrutschen geschildert zu haben.",
+          "gewicht": 2,
+          "skript": "zr-anwalt",
+          "abschnitt": "Lesetext Thüringer Oberlandesgericht olgth 4 U 279/19"
+        },
+        {
+          "nr": 5,
+          "id": "lesetext:olgth-2020-06-26-4-u-27919:3",
+          "typ": "fall",
+          "frage": "In der Entscheidung des Thüringer OLG (4 U 279/19, 26.06.2020) wurde deutlich, dass die Klägerin ihre erste knapp gehaltene Unfallschilderung gegenüber der Versicherung erst rund zwei Monate nach dem Ereignis – und nach anwaltlicher Beratung – um die detaillierte Behauptung eines Ausrutschens ergänzte, während sämtliche zeitnahen ärztlichen Anamnese-Dokumentationen einen Sturz 'ohne Vorgefühl' bzw. ein Kollabieren beschrieben. Welche praktische Konsequenz sollte ein Rechtsanwalt, der einen Versicherungsnehmer nach einem Unfall mit möglichem Bewusstseinsstörungs-Ausschluss berät, aus dieser Entscheidung für die eigene Beratungs- und Prozessführungspraxis ziehen?",
+          "loesung": "Ein Rechtsanwalt sollte den Mandanten so früh wie möglich, idealerweise noch vor oder unmittelbar bei der ersten Kontaktaufnahme mit der Versicherung, umfassend und detailliert zum genauen Unfallhergang befragen und dokumentieren, da spätere, erst nach anwaltlicher Beratung nachgeschobene Präzisierungen des Sachverhalts vom Gericht besonders kritisch gewürdigt werden und den Verdacht prozesstaktisch motivierter Angaben begründen können. Zudem ist es essentiell, frühzeitig sämtliche verfügbaren zeitnahen Dokumente (insbesondere Notarzt- und Krankenhausberichte mit Anamnese-Angaben) zu sichten und mit dem Mandanten abzugleichen, um Widersprüche zwischen den ärztlich dokumentierten Erstangaben und der später im Rechtsstreit vertretenen Version zu vermeiden oder zumindest plausibel erklären zu können (z.B. durch Nachweis einer im Zeitpunkt der Erstangaben bestehenden Kommunikations- oder Erinnerungsunfähigkeit). Gelingt eine solche Erklärung nicht, drohen die frühen Angaben als gewichtiges Indiz gegen die später vorgetragene, für den Mandanten günstigere Sachverhaltsversion gewertet zu werden. Der Anwalt sollte den Mandanten daher auch darauf hinweisen, dass Ungenauigkeiten oder bewusste Verkürzungen in der ersten Schadensanzeige diesem später schaden können, und im Prozess frühzeitig auf eine lückenlose, in sich widerspruchsfreie Darstellung ab dem frühestmöglichen Zeitpunkt hinwirken. Schließlich zeigt die Entscheidung, dass gegen eine als Indiz gewertete Arztdokumentation nur mit konkreten, objektivierbaren Zweifeln (nicht bloß abweichender eigener Handhabung des Sachverhalts) angegangen werden kann, weshalb die Substantiierung solcher Zweifel bereits in der Klage- bzw. Berufungsbegründung entscheidend ist.",
+          "gewicht": 2,
+          "skript": "zr-anwalt",
+          "abschnitt": "Lesetext Thüringer Oberlandesgericht olgth 4 U 279/19"
+        }
+      ]
+    }
+  },
   "erledigte_mails": [
     "<1224C30F-9BFB-4F6F-8FF4-0A4E6CAB96B2@web.de>",
     "<277DBF85-AA8A-4A05-9CF0-01037CAC9333@web.de>",
@@ -54,5 +113,5 @@
     "<DDD4AD8A-8468-4A24-BC1F-91A6381C5787@web.de>",
     "<EE1DD304-AC61-4BA7-8DE0-18634AB30494@web.de>"
   ],
-  "letzter_brief": "2026-09-28"
+  "letzter_brief": "2026-09-30"
 }
