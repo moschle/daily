@@ -155,6 +155,30 @@ Antworte NUR mit JSON, ohne Markdown:
 In "neue_vokabeln" stehen ALLE glossierten Wörter aus Text und Nachricht (Verben als Infinitiv, Nomen im Singular) und jedes weitere Wort, das nicht in der Wortschatzliste steht."""
 
 
+def _lektorat(d: dict, K: set[str], quote: float, complete) -> dict:
+    """Zweiter Durchgang: ein iranischer Lektor glättet Text und Nacherzählung."""
+    p = f"""Du bist Lektor für Persisch (Muttersprachler, Teheran). Unten steht eine Leseübung für einen Lerner auf Stufe A2/B1.
+Überarbeite Text und Nacherzählung so, dass sie klingen, wie ein gebildeter Iraner einfach und natürlich schreibt.
+- Korrigiere schiefe Aussagen, unidiomatische Wendungen, falsche Kollokationen, Füllsätze und Rechtschreibung (Madde, Hamze, Halbabstand).
+- Behalte Inhalt, Satzzahl und Schwierigkeit bei. Ersetze kein einfaches Wort durch ein schwierigeres; neue Wörter nur, wenn es wirklich nicht anders geht.
+- Glossen in Klammern bleiben erhalten und stehen hinter der vollständigen Wortform. Wird ein glossiertes Wort ersetzt, passe die Glosse an.
+- Die Nacherzählung darf nichts enthalten, was nicht in der Meldung steht.
+Antworte NUR mit JSON im selben Format, Felder "titel", "text", "nachricht", "neue_vokabeln" (alle glossierten Wörter mit Kurzvokalen und deutscher Bedeutung).
+
+{json.dumps({k: d.get(k) for k in ("titel", "text", "nachricht", "neue_vokabeln")}, ensure_ascii=False)}"""
+    try:
+        neu = _json(complete(p, max_tokens=2500))
+        if not neu.get("text"):
+            return d
+        formen = {w for v in neu.get("neue_vokabeln", []) for w in _formen(v.get("fa", ""))}
+        q2, _ = pruefe(neu.get("text", "") + " " + neu.get("nachricht", ""), K | formen)
+        if q2 > quote + 0.03:          # Lektorat hat den Text deutlich schwerer gemacht
+            return d
+        return {**d, **{k: neu[k] for k in ("titel", "text", "nachricht", "neue_vokabeln") if neu.get(k) is not None}}
+    except Exception:
+        return d
+
+
 def _glossen_nachtragen(woerter, complete) -> list[tuple[str, str]]:
     """Unbekannte, nicht deklarierte Wörter nachträglich übersetzen lassen."""
     if not woerter:
@@ -212,6 +236,7 @@ def erzeuge(lang_ex: dict, complete) -> dict:
         raise RuntimeError("Leseübung konnte nicht erzeugt werden")
 
     quote, d = bestes
+    d = _lektorat(d, K, quote, complete)
     liste = [((v.get("fa") or "").strip(), (v.get("de") or "").strip()) for v in d.get("neue_vokabeln", [])]
     liste = [(fa, de) for fa, de in liste if fa and de]
     # Was jetzt noch unbekannt ist, wurde weder ersetzt noch deklariert -> nachtragen
