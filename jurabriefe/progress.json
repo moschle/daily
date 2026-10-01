@@ -5,7 +5,7 @@
     "zr-003": 0.8,
     "zr-004": 0.8,
     "zr-005": 0.8,
-    "zr-006": 1.1,
+    "zr-006": 0.8,
     "zr-007": 1.0,
     "zr-008": 1.0,
     "zr-009": 1.0,
@@ -38,10 +38,14 @@
     "lesetext:olgnuer-2021-12-30-13-u-200821:1": 1.1,
     "lesetext:olgnuer-2021-12-30-13-u-200821:2": 0.8,
     "lesetext:olgnuer-2021-12-30-13-u-200821:3": 0.8,
-    "zr-anwalt:form:015": 1.7,
+    "zr-anwalt:form:015": 0.8,
     "lesetext:kg--2019-02-19-21-u-4018:1": 0.8,
     "lesetext:kg--2019-02-19-21-u-4018:2": 0.8,
-    "lesetext:kg--2019-02-19-21-u-4018:3": 0.8
+    "lesetext:kg--2019-02-19-21-u-4018:3": 0.8,
+    "zr-anwalt:form:018": 0.8,
+    "lesetext:olgth-2020-06-26-4-u-27919:1": 1.1,
+    "lesetext:olgth-2020-06-26-4-u-27919:2": 0.8,
+    "lesetext:olgth-2020-06-26-4-u-27919:3": 0.8
   },
   "feedback": [
     {
@@ -1084,17 +1088,71 @@
       "grade": null,
       "interval": 7,
       "detail": ""
+    },
+    {
+      "date": "2026-10-01",
+      "case_id": "zr-anwalt:form:018",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Script spricht praeziser vom 'Reinerlös' (nach Abzug der Vollstreckungskosten), waehrend die Antwort nur 'Erlös' nennt.",
+      "punkte": 14.0
+    },
+    {
+      "date": "2026-10-01",
+      "case_id": "zr-anwalt:form:015",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 5,
+      "detail": "",
+      "punkte": 18.0
+    },
+    {
+      "date": "2026-10-01",
+      "case_id": "lesetext:olgth-2020-06-26-4-u-27919:1",
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Kein Bezug auf § 529 Abs. 1 Nr. 1 ZPO und die Bindung an die erstinstanzlichen Feststellungen; keine Nennung der konkreten Beweismittel (Arztberichte, Zeugenaussagen der Ärzte); kein Hinweis auf die zeitliche Abfolge (spaetere, nach anwaltlicher Beratung geaenderte Version); Chefarztschreiben und die Frage der fehlenden Diagnosenotwendigkeit fehlen komplett; Satzbau fehlerhaft ('wies die Berufung ",
+      "punkte": 6.0
+    },
+    {
+      "date": "2026-10-01",
+      "case_id": "lesetext:olgth-2020-06-26-4-u-27919:2",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Keine Definition des Vollbeweismassstabs (Grad an Gewissheit, der vernuenftigen Zweifeln Schweigen gebietet); kein Hinweis auf die besondere Bedeutung zeitnaher Angaben gegenueber spaeteren, nach anwaltlicher Beratung geaenderten Darstellungen; keine Anwendung auf den konkreten Fall (Indiz nicht erschuettert, da Klaegerin selbst kein fruehes Ausrutschen behauptet hatte).",
+      "punkte": 12.0
+    },
+    {
+      "date": "2026-10-01",
+      "case_id": "lesetext:olgth-2020-06-26-4-u-27919:3",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Kein konkreter Hinweis auf fruehzeitige Sichtung und Abgleich von Notarzt-/Krankenhausberichten; keine Erwaehnung der Warnung an den Mandanten bzgl. Ungenauigkeiten in der ersten Schadensanzeige; kein Hinweis auf die Notwendigkeit, Zweifel bereits in Klage-/Berufungsbegruendung substantiiert vorzutragen.",
+      "punkte": 12.0
+    },
+    {
+      "date": "2026-10-01",
+      "case_id": "zr-006",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 180,
+      "detail": "Uebe die vollstaendige Wiedergabe von Urteilsbegruendungen anhand der Pruefungsreihenfolge (Zulaessigkeit/Begruendetheit, Beweislastregeln, Bindungswirkung nach § 529 ZPO), insbesondere das praezise Benennen aller tragenden Erwaegungen und Beweismittel statt nur des Ergebnisses.",
+      "punkte": 12.0
     }
   ],
   "letzte_anpassung": null,
   "cards": {
     "zr-006": {
-      "stability": 59.71,
-      "difficulty": 4.85,
-      "due": "2026-11-22",
-      "last": "2026-09-23",
+      "stability": 266.73,
+      "difficulty": 4.7,
+      "due": "2027-03-30",
+      "last": "2026-10-01",
       "gezeigt": "2026-09-30",
-      "reps": 3,
+      "reps": 4,
       "punkte": [
         {
           "date": "2026-09-10",
@@ -1107,9 +1165,13 @@
         {
           "date": "2026-09-23",
           "wert": 7.0
+        },
+        {
+          "date": "2026-10-01",
+          "wert": 12.0
         }
       ],
-      "schnitt": 8.3
+      "schnitt": 9.2
     },
     "zr-anwalt:form:012": {
       "stability": 160.44,
@@ -1289,13 +1351,20 @@
       "schnitt": 16.5
     },
     "zr-anwalt:form:018": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": "2026-10-07",
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-09",
+      "last": "2026-10-01",
       "gezeigt": "2026-09-30",
-      "reps": 0,
-      "unbeantwortet": 8
+      "reps": 1,
+      "unbeantwortet": 8,
+      "punkte": [
+        {
+          "date": "2026-10-01",
+          "wert": 14.0
+        }
+      ],
+      "schnitt": 14.0
     },
     "zr-anwalt:form:019": {
       "stability": 0.0,
@@ -1684,19 +1753,23 @@
       "schnitt": 12.0
     },
     "zr-anwalt:form:015": {
-      "stability": 1.0,
-      "difficulty": 5.3,
-      "due": "2026-09-30",
-      "last": "2026-09-29",
+      "stability": 5.2,
+      "difficulty": 5.15,
+      "due": "2026-10-06",
+      "last": "2026-10-01",
       "gezeigt": "2026-09-30",
-      "reps": 1,
+      "reps": 2,
       "punkte": [
         {
           "date": "2026-09-29",
           "wert": 2.0
+        },
+        {
+          "date": "2026-10-01",
+          "wert": 18.0
         }
       ],
-      "schnitt": 2.0
+      "schnitt": 10.0
     },
     "lesetext:kg--2019-02-19-21-u-4018:1": {
       "stability": 8.0,
@@ -1744,31 +1817,52 @@
       "schnitt": 14.0
     },
     "lesetext:olgth-2020-06-26-4-u-27919:1": {
-      "stability": 0.0,
+      "stability": 4.0,
       "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "due": "2026-10-05",
+      "last": "2026-10-01",
       "gezeigt": "2026-09-30",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-10-01",
+          "wert": 6.0
+        }
+      ],
+      "schnitt": 6.0
     },
     "lesetext:olgth-2020-06-26-4-u-27919:2": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-09",
+      "last": "2026-10-01",
       "gezeigt": "2026-09-30",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-10-01",
+          "wert": 12.0
+        }
+      ],
+      "schnitt": 12.0
     },
     "lesetext:olgth-2020-06-26-4-u-27919:3": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-09",
+      "last": "2026-10-01",
       "gezeigt": "2026-09-30",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-10-01",
+          "wert": 12.0
+        }
+      ],
+      "schnitt": 12.0
     }
   },
-  "letzter_korrekturlauf": "2026-09-30",
+  "letzter_korrekturlauf": "2026-10-01",
   "gesperrt": [
     "zr-anwalt:form:014"
   ]
