@@ -1,6 +1,8 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 29. September 2026*
+*Letzte Aktualisierung: 1. Oktober 2026*
+
+- [x] Rechnung 1067 Atelier Thilo Krause (Pantanal, Zoo Zürich, 21.–29.09.2026) — verschickt 01.10.2026
 
 **Standort: derzeit Zürich, Arbeit im Kunstfelsenbau. Wohnsitz Leipzig.** Der Morgenbrief richtet sich nach /automat/standort.txt auf netcup; dort steht aktuell `zuerich`.
 
@@ -14,7 +16,7 @@
 
 ## DRINGEND (diese Woche)
 
-- [x] **AOK PLUS, Service-Nr. 2002205498**: Antrag freiwillige Mitgliedschaft mit ergänztem Punkt 3 — abgeschickt (Stand 25.09.2026); Ummeldung nach Leipzig beim Bürgeramt erledigt (22.09.2026), Meldebestätigung noch nachreichen.
+- [x] **AOK PLUS, Service-Nr. 2002205498**: Antrag freiwillige Mitgliedschaft mit ergänztem Punkt 3 — abgeschickt (Stand 25.09.2026); Ummeldung nach Leipzig beim Bürgeramt erledigt (22.09.2026), Meldebestätigung nachgereicht (01.10.2026).
 
 - [ ] **DÜF Initiativstipendium — Frist 30.11.2026**, am 15.09.2026 im Portal verifiziert (Bewerbungszeitraum „Herbst", Einreichungsfrist 30.11.), nicht 15.09. 2.000 €, ohne Verlagsvertrag möglich. Anlagen: 3 Normseiten Übersetzung, Projektbeschreibung inkl. erstem Exposé (ca. 1 S.), Kurzbiographie, Veröffentlichungsverzeichnis, Kopie der Originalstelle. Kurzbiographie, Veröffentlichungsverzeichnis und Originalseiten sind aus dem Reisestipendien-PDF übernehmbar; neu zu schreiben ist nur die Projektbeschreibung.
 - [ ] **BAMF-2026-300, Entscheider Landesasylstelle Berlin** (Interamt, Beginn 04.01.2027, SÜ1, kein Anschreiben zulässig) — Hilfstexte für die Freitextfelder liegen vor
