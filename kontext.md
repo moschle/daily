@@ -24,31 +24,19 @@ Moritz baut Routinen auf. Stetigkeit vor Perfektion.
 – McFit 2–3x/Woche, Laufen 1–2x/Woche
 – Morgens zuerst Bewegung, dann Bildschirm
 
-### Sprachtraining — ZUORDNUNG BEACHTEN
-
-Die Ressourcen sind STRIKT nach Sprache getrennt. Nicht verwechseln!
-
-ARABISCH-TAG (gerade Tage):
-– GLOSS Levantine Arabic (gloss.dliflc.edu) — 1 Lektion/Tag
-– Pimsleur Eastern Arabic (vorhanden, Teil 1–3) — 1 Lektion, 30 Min.
-– Arabic Today (John Mace, mit Tonbeispielen) — 1 Lektion/Woche
-– Easy Arabic Reader — 1 Kapitel/Woche
-
-PERSISCH-TAG (ungerade Tage):
+### Sprachtraining — nur Persisch
+Keine Arabisch-Tage mehr. Jeden Tag Persisch:
 – GLOSS Farsi (gloss.dliflc.edu) — 1 Lektion/Tag
-– Pimsleur Farsi (vorhanden, Teil 2 wiederholen) — 1 Lektion, 30 Min.
-– Glossika Persisch (vorhanden) — 20 Min.
+– Pimsleur Farsi — 1 Lektion, 30 Min.
+– Glossika Persisch — 20 Min.
 – Harry Potter auf Persisch — 10–15 Seiten abends
 – Once Upon a Time in Iran — 1–2 Episoden/Woche
-
-BEIDE TAGE:
-– Morgenbrief-Sprachübung (automatisch richtige Sprache)
-– Preply: Mi + Fr Arabisch (Libanesin, Shami), Do Persisch (Afghanin)
-
+– Morgenbrief-Sprachübung (Persisch) mit Anki-Paket
+– Preply: Persisch
 Anki: eigenes Deck „Persisch“; die neuen Wörter der Sprachübung kommen täglich als .apkg mit.
 
 ### Tagesablauf
-– Morgens: Morgenbrief → Bewegung → Pimsleur (30 Min.) → Frühstück → Lesen in Zielsprache (15 Min.)
+– Morgens: Morgenbrief → Bewegung → Pimsleur Farsi (30 Min.) → Frühstück → Lesen in Zielsprache (15 Min.)
 – Tagsüber: DNB — Arbeit. Mittags 20 Min. Lehrbuch. Nachmittags: Preply oder GLOSS-Lektion oder Fachbuch.
 – Abends: Frei — Belletristik, Film, Freunde, Kochen.
 
@@ -70,10 +58,7 @@ WICHTIG: Der Morgenbrief unterstützt, setzt nicht unter Druck. An vollen Tagen 
 1. WETTER — Leipzig/Roitzsch, Temperatur, Niederschlag, je ein Satz.
 
 2. HEUTE — Kalendertermine [HEUTE], 2–3 wichtigste Aufgaben, Deadlines.
-Darunter Sprachhinweis zur richtigen Sprache des Tages:
-– Arabisch-Tag: "Arabisch-Tag. Pimsleur Eastern + GLOSS Levantine. Arabic Today mittags."
-– Persisch-Tag: "Persisch-Tag. Pimsleur Farsi + GLOSS Farsi. Harry Potter abends."
-NIEMALS Harry Potter für einen Arabisch-Tag empfehlen (ist auf Persisch). NIEMALS Easy Arabic Reader oder Arabic Today für einen Persisch-Tag.
+Darunter ein kurzer Sprachhinweis (nur Persisch), z. B. "Pimsleur Farsi + GLOSS Farsi. Harry Potter abends."
 
 3. IMPULS — EINEN Vorschlag, beiläufig. Nicht die ganze Liste. Wenn Tag voll ist, weglassen.
 
@@ -83,9 +68,9 @@ NIEMALS Harry Potter für einen Arabisch-Tag empfehlen (ist auf Persisch). NIEMA
 
 6. AUSBLICK — [MORGEN]/[ÜBERMORGEN], nahende Deadlines. Max 2 Sätze.
 
-7. SPRACHÜBUNG — Text in Originalschrift. Arabisch: MIT VOLLSTÄNDIGER VOKALISIERUNG (tashkīl/harakat auf jedem Wort). Persisch: normale Schrift. Neue Vokabeln inline glossiert — Glossierung muss zum aktuellen Level passen (A2 = sehr einfache deutsche Erklärungen, nur Grundbedeutung). Am Ende 2–3 Verständnisfragen auf Deutsch.
+7. SPRACHÜBUNG — Text in Originalschrift. Persisch, normale Schrift. Neue Vokabeln inline glossiert — Glossierung muss zum aktuellen Level passen (A2 = sehr einfache deutsche Erklärungen, nur Grundbedeutung). Am Ende 2–3 Verständnisfragen auf Deutsch.
 
-8. NACHRICHTEN — EINE EINZIGE Schlagzeile (nicht mehrere) in Originalschrift. Arabisch: MIT VOKALISIERUNG. Glossierung niveauentsprechend — WICHTIG: auf aktuellem Sprachniveau (A2/B1) müssen ALLE inhaltlich wichtigen Vokabeln inline glossiert werden, nicht nur die schwierigsten. Ziel: Text vollständig lesbar ohne Wörterbuch. Jedes unbekannte Hauptwort, Verb und Adjektiv erhält eine knappe deutsche Übersetzung in Klammern direkt dahinter. 2–3 Sätze Zusammenfassung in der Zielsprache.
+8. NACHRICHTEN — EINE EINZIGE Schlagzeile (nicht mehrere) in Originalschrift. Glossierung niveauentsprechend — WICHTIG: auf aktuellem Sprachniveau (A2/B1) müssen ALLE inhaltlich wichtigen Vokabeln inline glossiert werden, nicht nur die schwierigsten. Ziel: Text vollständig lesbar ohne Wörterbuch. Jedes unbekannte Hauptwort, Verb und Adjektiv erhält eine knappe deutsche Übersetzung in Klammern direkt dahinter. 2–3 Sätze Zusammenfassung in der Zielsprache.
 
 ## Regeln
 
