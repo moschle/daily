@@ -2,9 +2,16 @@
 
 *Letzte Aktualisierung: 1. Oktober 2026*
 
+## STAND 01.10.2026
+- [ ] **SenInnSport III 15/2026 neu einreichen** (Karriereportal j69631): neues Anschreiben, Paket unter Bewerbungen/03_laufend/2026_SenInnSport_III-15/Bewerbung_Schlenstedt_III-15-2026.pdf; Hinweis, dass es die Fassung vom 07.09. ersetzt
+- [ ] **Literaturhaus Thurgau**: Mail an sekretariat@bodmanhaus.ch liegt als Entwurf in Apple Mail (Frist war 30.09.)
+- [x] Bewerbungsordner aufgeräumt: 03_laufend ein Ordner pro laufender Stelle, Erledigtes und Abgelaufenes in 04_abgeschlossen
+- [x] Jurabrief: Lesetexte nur noch aus AG/LG (Zivilrecht) bzw. VG (Verwaltungsrecht), keine OLG/BGH/OVG-Entscheidungen mehr
+
+
 - [x] Rechnung 1067 Atelier Thilo Krause (Pantanal, Zoo Zürich, 21.–29.09.2026) — verschickt 01.10.2026
 
-**Standort: derzeit Zürich, Arbeit im Kunstfelsenbau. Wohnsitz Leipzig.** Der Morgenbrief richtet sich nach /automat/standort.txt auf netcup; dort steht aktuell `zuerich`.
+**Standort: Leipzig** (zurück aus Zürich seit 30.09.2026).
 
 ## ERLEDIGT, abgeschickt (Stand 20.09.2026)
 

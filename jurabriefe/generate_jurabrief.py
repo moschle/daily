@@ -32,16 +32,19 @@ LERNPLAN_FILE = _HERE / "lernplan.json"
 EXTRACTED = _HERE / "extracted"
 OLD_BASE = "https://de.openlegaldata.io/api/cases/search/"
 OLD_CASE = "https://de.openlegaldata.io/api/cases/{}/"
-ZR_MARK = (
-    "landgericht", "oberlandesgericht", "bundesgerichtshof", "kammergericht",
-    "amtsgericht", "lg-", "olg-", "bgh", "kg-",
+# Nur Eingangs- und Berufungsinstanz, wie sie im Examen vorkommen:
+# Zivilrecht AG und LG (auch LG als Berufungsgericht), Verwaltungsrecht VG.
+# OLG/KG/BGH und OVG/VGH/BVerwG werden ausgeschlossen.
+HOCH_MARK = (
+    "oberlandesgericht", "bundesgerichtshof", "kammergericht",
+    "oberverwaltungsgericht", "bundesverwaltungsgericht", "verwaltungsgerichtshof",
+    "olg-", "kg-", "ovg-", "vgh-",
 )
-ZR_SLUG = ("lg", "olg", "bgh", "kg")
-VR_MARK = (
-    "verwaltungsgericht", "oberverwaltungsgericht", "bundesverwaltungsgericht",
-    "verwaltungsgerichtshof", "vg-", "ovg", "bverwg", "vgh",
-)
-VR_SLUG = ("vg", "ovg", "bverwg", "vgh")
+HOCH_SLUG = ("bverwg", "olg", "bgh", "ovg", "vgh", "kg")
+ZR_MARK = ("amtsgericht", "landgericht", "ag-", "lg-")
+ZR_SLUG = ("ag", "lg")
+VR_MARK = ("verwaltungsgericht", "vg-")
+VR_SLUG = ("vg",)
 STRAF = ("angeklagte", "staatsanwaltschaft", "strafkammer", "stpo", "-ss-")
 PLACEHOLDER = ("[kläger", "[beklag", "[name]", "[datum]", "firma/name")
 PAGE = re.compile(r"(?m)^=+ SEITE \d+ =+$")
@@ -154,7 +157,7 @@ def _court_name(court):
 
 def _slug_prefix(s: str) -> str:
     s = re.sub(r"[^a-z]", "", (s or "").lower())
-    for p in ZR_SLUG + VR_SLUG:
+    for p in HOCH_SLUG + ZR_SLUG + VR_SLUG:
         if s.startswith(p):
             return p
     return ""
@@ -168,6 +171,8 @@ def _is_verw(case):
 def _court_ok(court, case):
     c = court.lower()
     pref = _slug_prefix(c)
+    if pref in HOCH_SLUG or any(t in c for t in HOCH_MARK):
+        return False
     if _is_verw(case):
         return pref in VR_SLUG or any(t in c for t in VR_MARK)
     if pref in VR_SLUG or any(t in c for t in VR_MARK):
@@ -224,7 +229,8 @@ def search_related_case(case, seen_slugs):
     seen = set(seen_slugs or [])
     generic = [
         "Im Namen des Volkes Klaegerin Beklagte", "Landgericht Urteil Klaegerin",
-        "Oberlandesgericht Zivilsenat", "Landgericht Halle", "Landgericht Magdeburg"]
+        "Amtsgericht Urteil Klaegerin", "Landgericht Berufung Urteil",
+        "Landgericht Halle", "Landgericht Magdeburg", "Amtsgericht Berlin"]
     terms = list(case.get("suchbegriffe") or []) + generic
     if _is_verw(case):
         terms = list(case.get("suchbegriffe") or []) + ["Verwaltungsgericht Im Namen des Volkes"] + generic

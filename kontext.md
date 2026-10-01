@@ -1,20 +1,19 @@
 # Kontext für den Morgenbrief
 
 ## Wer ich bin
-
-Moritz Schlenstedt, Schriftsteller, Übersetzer (Persisch/Tadschikisch ins Deutsche), Kulturorganisator. MA MLU Halle-Wittenberg (Deutsche Literatur + Arabistik/Islamwissenschaft), B.A. Literarisches Schreiben DLL Leipzig. Böll-Alumnus. Winzerausbildung, Rettungssanitäter, Schöffe.
-
-Wohnt im Kleingarten in Roitzsch bei Bitterfeld. Partnerin: Shirin Martha Atef (Referendarin) in Leipzig. Stiefsohn Milan.
-
-Einkommen: Persönliche Assistenz (August) 12h/Woche, Dresden (ab Mai montags). Kindernachmittag Milan meist dienstags. August-Assistenz und Lift-Konzerte am selben Tag sind KEIN Konflikt.
+Moritz Schlenstedt, Schriftsteller, Übersetzer (Persisch/Tadschikisch ins Deutsche), Kulturorganisator. M.A. MLU Halle-Wittenberg (Arabistik/Islamwissenschaft + Deutsche Literatur und Kultur, 1,2; Masterarbeit 1,0), B.A. Literarisches Schreiben DLL Leipzig. Böll-Alumnus. Winzerausbildung, Rettungssanitäter, Schöffe am Landgericht Leipzig.
+Wohnt in Leipzig (Hermann-Liebmann-Straße), dazu Kleingarten in Roitzsch bei Bitterfeld. Partnerin: Shirin Martha Atef, Referendarin, bereitet sich auf das 2. Staatsexamen (Sachsen-Anhalt) vor; getrennte Wohnungen. Stiefsohn Milan.
+Einkommen: freiberuflich als Bildhauer (Kunstfelsenbau auf Montage, zuletzt Zoo Zürich, 21.–29.09.2026) und Sänger. Keine Anstellung. Die Persönliche Assistenz und die Hilfskraftstelle bei Stephan Pabst sind beendet.
 
 ## Laufende Engagements
-
-– Warte für Kultur und Debatte e.V. (Vorsitzender)
-– Niemerlang (Lesereihe Leipzig)
-– Lift (Ostrock-Band, privat)
-– Brodyer Nächte: 23.4. (Anja Kampmann, Passagekino), 21.5. (Yevgeniy Breyger, Ez-Chaim Synagoge), 18.6. (Slata Roschal, Klub der Kulturarbeiterinnen)
-– Hilfskraft bei Stephan Pabst (MLU Halle)
+– Bewerbungen: Stand und Fristen stehen in aufgaben.md
+– ZEDAR Silk (Seidenmarke mit Greta Ruppert): Gewerbeanmeldung Importgewerbe, Website zedarsilk.com, Storytelling; Entscheidungspunkt Produktion 06.10.2026
+– Monografie „stille stürme“ (ANOR-Reihe, De Gruyter Brill): Manuskript fertig, Buchvertrag in Vorbereitung
+– Promotion: Gespräch mit Manja Stephan (HU Berlin) ab November; Antwort an sie steht aus
+– Warte für Kultur und Debatte e.V. (Vorsitzender), Lesereihe Brodyer Nächte
+– Lift (Band, Sänger)
+– Chor: Generalprobe 07.11.2026, LandesChorwettbewerb Gera 08.11.2026
+– Jurabrief für Shirin (läuft automatisch)
 
 ## Tagesstruktur und Routinen
 
@@ -46,7 +45,7 @@ BEIDE TAGE:
 – Morgenbrief-Sprachübung (automatisch richtige Sprache)
 – Preply: Mi + Fr Arabisch (Libanesin, Shami), Do Persisch (Afghanin)
 
-NICHT verwenden: Anki selbst bauen. GLOSS-Anki-Decks sind erlaubt (kuratiert).
+Anki: eigenes Deck „Persisch“; die neuen Wörter der Sprachübung kommen täglich als .apkg mit.
 
 ### Tagesablauf
 – Morgens: Morgenbrief → Bewegung → Pimsleur (30 Min.) → Frühstück → Lesen in Zielsprache (15 Min.)
@@ -56,15 +55,13 @@ NICHT verwenden: Anki selbst bauen. GLOSS-Anki-Decks sind erlaubt (kuratiert).
 Samstag: Garten, offline. Sonntag: frei, 17:00 Wochenplanung.
 
 ### Reisen 2026
-– Griechenland mit Emilie (1 Woche): 2. Juliwoche (~8.–15.7.)
-– Italien mit Milan (1 Woche): Zeitpunkt offen, frühestens nach MA-Note
-– Camino (3 Wochen): Mitte Juli – Anfang August
-– Tajikistan (2–3 Wochen): September
-– Surfcamp Marokko Taghazout (2 Wochen): Oktober
+– Marseille, Anfang Oktober 2026: Kammerchorprojekt
+– Forschungsreise Tadschikistan/Afghanistan/Iran: geplant nach Neujahr 2027
+– Japan: ca. 19.–30.04.2027
 
 ## Persönliches Profil
 
-Moritz funktioniert mit Routinen. Ohne Struktur → Medienverhalten. Morgenbrief auf Kindle statt iPhone. Apple Watch als Pager. iPhone bis nach Sport weg.
+Moritz funktioniert mit Routinen. Ohne Struktur → Medienverhalten. Morgenbrief kommt per Mail. Apple Watch als Pager. iPhone bis nach Sport weg.
 
 WICHTIG: Der Morgenbrief unterstützt, setzt nicht unter Druck. An vollen Tagen nur kurzer Sprachhinweis. Keine Ermahnungen.
 
