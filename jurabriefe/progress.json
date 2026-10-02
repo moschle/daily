@@ -1142,6 +1142,54 @@
       "interval": 180,
       "detail": "Uebe die vollstaendige Wiedergabe von Urteilsbegruendungen anhand der Pruefungsreihenfolge (Zulaessigkeit/Begruendetheit, Beweislastregeln, Bindungswirkung nach § 529 ZPO), insbesondere das praezise Benennen aller tragenden Erwaegungen und Beweismittel statt nur des Ergebnisses.",
       "punkte": 12.0
+    },
+    {
+      "date": "2026-10-02",
+      "case_id": "zr-anwalt:form:013",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-02",
+      "case_id": "zr-staat:aufb:076",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-02",
+      "case_id": "zr-staat:form:001",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-02",
+      "case_id": "zr-staat:form:002",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-02",
+      "case_id": "zr-staat:form:003",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-02",
+      "case_id": "zr-anwalt:form:019",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
     }
   ],
   "letzte_anpassung": null,
@@ -1199,7 +1247,7 @@
     "zr-anwalt:form:013": {
       "stability": 1.0,
       "difficulty": 5.3,
-      "due": "2026-10-07",
+      "due": "2026-10-09",
       "last": "2026-09-10",
       "gezeigt": "2026-09-11",
       "reps": 1,
@@ -1210,7 +1258,7 @@
         }
       ],
       "schnitt": 2.0,
-      "unbeantwortet": 8
+      "unbeantwortet": 9
     },
     "zr-anwalt:form:014": {
       "stability": 1.0,
@@ -1277,38 +1325,38 @@
     "zr-staat:aufb:076": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-07",
+      "due": "2026-10-09",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 8
+      "unbeantwortet": 9
     },
     "zr-staat:form:001": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-07",
+      "due": "2026-10-09",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 8
+      "unbeantwortet": 9
     },
     "zr-staat:form:002": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-07",
+      "due": "2026-10-09",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 8
+      "unbeantwortet": 9
     },
     "zr-staat:form:003": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-07",
+      "due": "2026-10-09",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 8
+      "unbeantwortet": 9
     },
     "zr-005": {
       "stability": 22.8,
@@ -1369,11 +1417,11 @@
     "zr-anwalt:form:019": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-07",
+      "due": "2026-10-09",
       "last": null,
       "gezeigt": "2026-09-11",
       "reps": 0,
-      "unbeantwortet": 8
+      "unbeantwortet": 9
     },
     "lesetext:bgh-2024-05-16-ix-zr-3823": {
       "stability": 4.0,
@@ -1395,7 +1443,7 @@
       "difficulty": 5.0,
       "due": "2026-09-20",
       "last": "2026-09-16",
-      "gezeigt": "2026-09-14",
+      "gezeigt": "2026-10-02",
       "reps": 1,
       "punkte": [
         {
@@ -1434,7 +1482,7 @@
       "difficulty": 4.85,
       "due": "2026-09-24",
       "last": "2026-09-16",
-      "gezeigt": "2026-09-14",
+      "gezeigt": "2026-10-02",
       "reps": 1,
       "punkte": [
         {
@@ -1860,6 +1908,38 @@
         }
       ],
       "schnitt": 12.0
+    },
+    "zr-staat:form:011": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-10-02",
+      "reps": 0
+    },
+    "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:1": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-10-02",
+      "reps": 0
+    },
+    "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:2": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-10-02",
+      "reps": 0
+    },
+    "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:3": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-10-02",
+      "reps": 0
     }
   },
   "letzter_korrekturlauf": "2026-10-01",
