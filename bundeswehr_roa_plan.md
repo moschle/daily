@@ -1,5 +1,11 @@
 # ROA im Wehrdienst: Plan und Empfehlungen (Stand 03.10.2026)
 
+## Stand 03.10.2026, 14 Uhr
+- ROA i.d.W.: Einstieg als Oberfähnrich gilt derzeit schon ab Bachelor; Ziel CIR, Standort Köln/Bonn, alternativ Berlin (dort wohnen).
+- Offizier mit Master (längere Verpflichtung): erledigt.
+- Plan C: neuer Wehrdienst/kurzer SaZ, Mindestdauer 6 Monate, ca. 2.300–2.400 € netto als Mannschaft; wenig fachlicher Lerneffekt, Standort nicht wählbar.
+- Forum: Feldnachrichtenoffizier braucht gut 2 Jahre Ausbildung (Munster), mit 3 Jahren unrealistisch; CIR-Ausbildungsjahr unter der Woche auswärts (Dillingen/Gerolstein/Nienburg, Flensburg/Feldafing).
+
 ## Entscheidung
 Beratung und Einplanung für ROA i.d.W. mit 3 Jahren, Einstieg als Oberfähnrich mit Master. Einstellung frühestens Sommer 2027. Bis zur Ernennung bleibt eine Absage möglich, falls vorher eine passende Stelle kommt.
 
