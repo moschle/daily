@@ -3,7 +3,7 @@
 *Letzte Aktualisierung: 3. Oktober 2026*
 
 ## STAND 03.10.2026
-- [ ] **Lichtenburg Prettin — Frist 04.10.**: Anschreiben neu (Stilvorlagen, ohne Promotion), Gesamt-PDF unter Bewerbungen/03_laufend/2026_Lichtenburg_Prettin/Bewerbung_Schlenstedt_Lichtenburg.pdf (3 MB). Mail-Entwurf in Apple Mail an personalstelle@erinnern.org (BCC personnalstelle@) — nur noch absenden.
+- [x] **Lichtenburg Prettin — abgeschickt 03.10.2026**: Anschreiben neu (Stilvorlagen, ohne Promotion), Gesamt-PDF unter Bewerbungen/03_laufend/2026_Lichtenburg_Prettin/Bewerbung_Schlenstedt_Lichtenburg.pdf (3 MB). Mail-Entwurf in Apple Mail an personalstelle@erinnern.org (BCC personnalstelle@) — nur noch absenden.
 - ReCentGlobe 126/2026: nicht verfolgt (Entscheidung 03.10.2026).
 - [ ] **Bundessprachenamt — Frist 06.10.**: PDF vom 16.09. geprüft (keine veraltete SÜ-Angabe, keine Promotion) — über bewerbung.bundeswehr-karriere.de hochladen.
 - Literaturhaus Thurgau: nicht verfolgt (Entscheidung 03.10.2026).
@@ -113,7 +113,7 @@
 
 In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getroffen. Bis dahin müssen die folgenden Punkte geklärt sein.
 
-- [ ] **Importgewerbe anmelden** (Leipzig, auf Moritz allein), Betriebsart Haupterwerb — Voraussetzung für alles Weitere; danach EORI-Nummer beantragen und Geschäftskonto eröffnen. Ablauf in zedar_gewerbeanmeldung.md.
+- [ ] **Importgewerbe anmelden** (Ausfüllhilfe: zedar_gewa1_ausfuellhilfe.md, 03.10.2026) (Leipzig, auf Moritz allein), Betriebsart Haupterwerb — Voraussetzung für alles Weitere; danach EORI-Nummer beantragen und Geschäftskonto eröffnen. Ablauf in zedar_gewerbeanmeldung.md.
 - [ ] **Website zedarsilk.com weiterentwickeln**: Fotos und Blog vorbereiten, Produktdarstellung der Launch-Linie, Shop-Funktion für den Verkaufsstart 2026.
 - [ ] **Import- und Zollfragen klären** (IHK Leipzig): Einfuhrabgaben und Zolltarifnummern für Seidenbekleidung, Einfuhrumsatzsteuer, Ursprungsnachweise, Textilkennzeichnung.
 - [ ] **Vermarktungsfragen klären**: Preisfindung gegen den USD-Einkauf (Wechselkursrisiko liegt bei ZEDAR), Verkaufskanal, Versand- und Retourenabwicklung, Kommunikation der Fair-Wear-Position.
