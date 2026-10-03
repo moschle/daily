@@ -3272,7 +3272,7 @@
 {
 "word": "صادِر کردَن",
 "meaning": "exportieren (nach, in)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "کوشیدَن / کوش",
@@ -3817,7 +3817,7 @@
 {
 "word": "آهَنگ",
 "meaning": "Laut, Ton, Melodie",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "شِکار",
@@ -4012,7 +4012,7 @@
 {
 "word": "اِنتِخاب کَردَن",
 "meaning": "auswählen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بَرق",
@@ -6507,7 +6507,7 @@
 {
 "word": "رویدادِ کِتاب‌خوانی",
 "meaning": "Lesungsveranstaltung",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "دربارهٔ اون مصاحبه باهات صحبت کردم",
@@ -7077,7 +7077,7 @@
 {
 "word": "وَحشی",
 "meaning": "wild",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "حِیواناتِ وَحشی",
@@ -7352,7 +7352,7 @@
 {
 "word": "غَذای تُند",
 "meaning": "scharfes Essen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "تند و تیز",
@@ -7367,7 +7367,7 @@
 {
 "word": "مَلَس",
 "meaning": "süßsauer",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "تَلخ",
@@ -7437,7 +7437,7 @@
 {
 "word": "مُصاحِبه",
 "meaning": "Interview; Vorstellungsgespräch",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "من اینجام که فارسی یاد بگیرم",
@@ -8057,6 +8057,41 @@
 {
 "word": "صُلح",
 "meaning": "Frieden",
+"gelernt": false
+},
+{
+"word": "خاطِره",
+"meaning": "Erinnerung",
+"gelernt": false
+},
+{
+"word": "عَروسَک",
+"meaning": "Puppe",
+"gelernt": false
+},
+{
+"word": "توپ",
+"meaning": "Ball",
+"gelernt": false
+},
+{
+"word": "قِصّه",
+"meaning": "Geschichte",
+"gelernt": false
+},
+{
+"word": "دِلتَنگ",
+"meaning": "sehnsüchtig, vermissend",
+"gelernt": false
+},
+{
+"word": "پاسُخ",
+"meaning": "Antwort",
+"gelernt": false
+},
+{
+"word": "مُذاکِره",
+"meaning": "Verhandlung",
 "gelernt": false
 }
 ]
