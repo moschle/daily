@@ -1,10 +1,15 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 1. Oktober 2026*
+*Letzte Aktualisierung: 3. Oktober 2026*
+
+## STAND 03.10.2026
+- [ ] **Lichtenburg Prettin — Frist 04.10.**: Anschreiben neu (Stilvorlagen, ohne Promotion), Gesamt-PDF unter Bewerbungen/03_laufend/2026_Lichtenburg_Prettin/Bewerbung_Schlenstedt_Lichtenburg.pdf (3 MB). Mail-Entwurf in Apple Mail an personalstelle@erinnern.org (BCC personnalstelle@) — nur noch absenden.
+- [ ] **ReCentGlobe 126/2026 — Frist 05.10.**: Anschreiben überarbeitet (Lückenabsatz raus, Einarbeitung statt Defizit, ungesicherte Urdu/Hindi- und BA-Angabe gestrichen), Gesamt-PDF unter 03_laufend/2026_ReCentGlobe_126/Bewerbung_Schlenstedt_ReCentGlobe_126-2026.pdf — im Online-Portal hochladen.
+- [ ] **Bundessprachenamt — Frist 06.10.**: PDF vom 16.09. geprüft (keine veraltete SÜ-Angabe, keine Promotion) — über bewerbung.bundeswehr-karriere.de hochladen.
+- Literaturhaus Thurgau: nicht verfolgt (Entscheidung 03.10.2026).
 
 ## STAND 01.10.2026
 - [x] **SenInnSport III 15/2026 aktualisiert eingereicht am 01.10.2026** (Karriereportal j69631, dieselbe Stelle wie am 07.09.): neues Anschreiben, Paket unter Bewerbungen/03_laufend/2026_SenInnSport_III-15/Bewerbung_Schlenstedt_III-15-2026.pdf; Hinweis, dass es die Fassung vom 07.09. ersetzt
-- [ ] **Literaturhaus Thurgau**: Mail an sekretariat@bodmanhaus.ch liegt als Entwurf in Apple Mail (Frist war 30.09.)
 - [x] Bewerbungsordner aufgeräumt: 03_laufend ein Ordner pro laufender Stelle, Erledigtes und Abgelaufenes in 04_abgeschlossen
 - [x] Jurabrief: Lesetexte nur noch aus AG/LG (Zivilrecht) bzw. VG (Verwaltungsrecht), keine OLG/BGH/OVG-Entscheidungen mehr
 
