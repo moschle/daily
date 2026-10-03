@@ -5,7 +5,7 @@
 ## STAND 03.10.2026
 - [x] **Lichtenburg Prettin — abgeschickt 03.10.2026**: Anschreiben neu (Stilvorlagen, ohne Promotion), Gesamt-PDF unter Bewerbungen/03_laufend/2026_Lichtenburg_Prettin/Bewerbung_Schlenstedt_Lichtenburg.pdf (3 MB). Mail-Entwurf in Apple Mail an personalstelle@erinnern.org (BCC personnalstelle@) — nur noch absenden.
 - ReCentGlobe 126/2026: nicht verfolgt (Entscheidung 03.10.2026).
-- [ ] **Bundessprachenamt — Frist 06.10.**: PDF vom 16.09. geprüft (keine veraltete SÜ-Angabe, keine Promotion) — über bewerbung.bundeswehr-karriere.de hochladen.
+- [ ] **Bundessprachenamt — Frist 06.10.**: Anschreiben am 03.10. nach Ausschreibung neu (ohne private Werkzeuge), Lebenslauf um Sprachmodelle/GND/LaTeX ergänzt, Gesamt-PDF 11 S. — über bewerbung.bundeswehr-karriere.de hochladen.
 - Literaturhaus Thurgau: nicht verfolgt (Entscheidung 03.10.2026).
 
 ## STAND 01.10.2026
