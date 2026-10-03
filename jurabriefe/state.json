@@ -45,64 +45,7 @@
   ],
   "next_index": 1,
   "offen": {},
-  "offene_packs": {
-    "zr-001@02.10.": {
-      "case_id": "zr-001",
-      "datum": "2026-10-02",
-      "karten": [
-        {
-          "nr": 1,
-          "id": "zr-staat:form:011",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie die Einleitungsformel im Urteilskopf für den Fall, dass im schriftlichen Verfahren entschieden wird (Schriftsatzfrist bis zu einem bestimmten Datum).",
-          "loesung": "im schriftlichen Verfahren mit einer Schriftsatzfrist bis zum ...",
-          "gewicht": 3,
-          "skript": "zr-staat",
-          "abschnitt": "V. Streithelfer › VII. Angabe des letzten Tages und des Klagegrundes"
-        },
-        {
-          "nr": 2,
-          "id": "zr-staat:form:005",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie das Rubrum für eine Partei kraft Amtes: Rechtsanwältin Johanna Glücklich, Friedensweg 1, 15230 Frankfurt (Oder), als Insolvenzverwalterin über das Vermögen der Gesundheits- und Heil GmbH und Co. KG, Bergstr. 12, 15230 Frankfurt (Oder), Klägerin.",
-          "loesung": "der Rechtsanwältin Johanna Glücklich, Friedensweg 1, 15230 Frankfurt (Oder), als Insolvenzverwalterin über das Vermögen der Gesundheits- und Heil GmbH und Co. KG, Bergstr. 12, 15230 Frankfurt (Oder), Klägerin,",
-          "gewicht": 1,
-          "skript": "zr-staat",
-          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 5. Parteien kraft Amtes"
-        },
-        {
-          "nr": 3,
-          "id": "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:1",
-          "typ": "fall",
-          "frage": "Im Urteil des AG Mülheim an der Ruhr vom 21.09.2023 (10 C 559/23) klagten zwei Vermieterinnen gegen einen ehemaligen Mieter auf Räumung und Herausgabe einer Garage. Das Mietverhältnis war durch anwaltliches Kündigungsschreiben vom 18.07.2023 zum 31.08.2023 beendet worden, die Klägerinnen hatten ihre Eigentümerstellung durch einen Grundbuchauszug belegt. Das Gericht entschied im vereinfachten Verfahren nach § 495a ZPO ohne mündliche Verhandlung und ohne Tatbestand. Wie hat das Gericht entschieden und mit welcher Begründung?",
-          "loesung": "Das Gericht verurteilte den Beklagten antragsgemäß zur Räumung und Herausgabe der Garage und legte ihm die Kosten des Rechtsstreits auf; das Urteil wurde für vorläufig vollstreckbar erklärt. Grundlage war § 546 Abs. 1 BGB: Das Mietverhältnis war jedenfalls durch die wirksame Kündigung vom 18.07.2023 zum 31.08.2023 beendet worden. Die Klägerinnen hatten ihre Vermieterstellung durch Vorlage eines Grundbuchauszugs substantiiert dargelegt, sodass ihre Aktivlegitimation feststand. Die im Mietvertrag vereinbarte Kündigungsfrist von einem Monat war eingehalten. Die Klage war zudem zulässig, da die Garage durch Angabe der Nummer und der entsprechenden Bezeichnung auf dem Garagentor hinreichend bestimmt im Sinne von § 253 Abs. 2 ZPO bezeichnet war, sodass der Streitgegenstand und der Vollstreckungsgegenstand eindeutig identifizierbar waren. Die Kostenentscheidung beruhte auf § 91 Abs. 1 Satz 1 ZPO, die vorläufige Vollstreckbarkeit auf §§ 708 Nr. 7, 713 ZPO. Die Berufung wurde nicht zugelassen, da weder grundsätzliche Bedeutung noch Gründe der Rechtsfortbildung oder Einheitlichkeit der Rechtsprechung vorlagen.",
-          "gewicht": 2,
-          "skript": "zr-staat",
-          "abschnitt": "Lesetext Amtsgericht Mülheim an der Ruhr ag-mulheim-an-der-ruhr 10 C 559/23"
-        },
-        {
-          "nr": 4,
-          "id": "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:2",
-          "typ": "fall",
-          "frage": "Die Entscheidung verlangt für die Zulässigkeit der Räumungsklage, dass das Mietobjekt – hier eine Garage – 'hinreichend bestimmt' im Sinne von § 253 Abs. 2 ZPO bezeichnet ist. Welcher Maßstab ist bei der Bestimmtheit eines Herausgabe- bzw. Räumungsantrags anzulegen, insbesondere wenn es um Nebenräume wie Garagen oder Stellplätze geht, die nicht über eine postalische Adresse im engeren Sinne verfügen?",
-          "loesung": "Maßgeblich ist, dass der Streitgegenstand so konkret bezeichnet werden muss, dass für die Parteien und insbesondere für das Vollstreckungsorgan (Gerichtsvollzieher) ohne weitere Nachforschungen eindeutig erkennbar ist, welches Objekt geräumt und herausgegeben werden soll. Eine bloße Adressangabe genügt bei mehreren vergleichbaren Objekten (z. B. einer Garagenanlage) nicht; erforderlich ist eine individualisierende Kennzeichnung, etwa durch eine Nummer in Verbindung mit einer am Objekt selbst angebrachten, identischen Bezeichnung (hier: Garagennummer plus Beschriftung auf dem Garagentor). Das Gericht stellt damit klar, dass die Bestimmtheit nicht abstrakt-rechtlich, sondern praktisch-vollstreckungsbezogen zu prüfen ist: Es muss gewährleistet sein, dass bei der Zwangsvollstreckung keine Verwechslungsgefahr mit anderen, gleichartigen Objekten besteht.",
-          "gewicht": 2,
-          "skript": "zr-staat",
-          "abschnitt": "Lesetext Amtsgericht Mülheim an der Ruhr ag-mulheim-an-der-ruhr 10 C 559/23"
-        },
-        {
-          "nr": 5,
-          "id": "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:3",
-          "typ": "fall",
-          "frage": "Das Amtsgericht hat die Berufung nicht zugelassen und den Streitwert auf 'bis 500,00 €' festgesetzt, wobei es in der Begründung noch anmerkt, der Beklagte habe einer Mieterhöhung nicht zugestimmt – ein Satz, der im Kontext der Garagenräumung nicht ohne weiteres einleuchtet und auf eine mögliche Unstimmigkeit in der Begründung hindeutet. Welche Konsequenzen muss ein Prozessbevollmächtigter aus einer solchen Streitwertfestsetzung samt Nichtzulassung der Berufung für die weitere anwaltliche Bearbeitung ziehen?",
-          "loesung": "Da der Streitwert mit bis zu 500,00 € unterhalb der Berufungssumme von 600,00 € nach § 511 Abs. 2 Nr. 1 ZPO liegt und das Amtsgericht die Berufung auch nicht zugelassen hat, ist das Urteil grundsätzlich nicht mit der Berufung angreifbar; der unterlegenen Partei bleibt allenfalls die Möglichkeit, eine Anhörungsrüge zu erheben oder im Rahmen der Streitwertfestsetzung selbst (§ 63 Abs. 2 GKG) eine Korrektur zu erwirken, wenn die Streitwertbemessung – wie hier durch den unpassenden Hinweis auf eine Mieterhöhung – fehlerhaft erscheint. Für die anwaltliche Praxis folgt daraus, dass vor Klageerhebung und insbesondere bei der Begründung des Streitwerts genau zu prüfen ist, welche Tatsachen (hier: die monatliche Miete als Bezugsgröße für Räumungsklagen nach § 41 Abs. 2 GKG) tatsächlich einschlägig sind, um spätere Rechtsmittelbeschränkungen zu vermeiden oder bewusst einzukalkulieren. Zudem sollte der Prozessbevollmächtigte bei Unklarheiten in der Entscheidungsbegründung zeitnah eine Berichtigung nach § 319 ZPO oder eine Gegenvorstellung zur Streitwertfestsetzung erwägen, um die Rechtsmittelfähigkeit nicht ungewollt zu verlieren.",
-          "gewicht": 2,
-          "skript": "zr-staat",
-          "abschnitt": "Lesetext Amtsgericht Mülheim an der Ruhr ag-mulheim-an-der-ruhr 10 C 559/23"
-        }
-      ]
-    }
-  },
+  "offene_packs": {},
   "erledigte_mails": [
     "<1224C30F-9BFB-4F6F-8FF4-0A4E6CAB96B2@web.de>",
     "<277DBF85-AA8A-4A05-9CF0-01037CAC9333@web.de>",
@@ -112,6 +55,7 @@
     "<9970BF06-2AEF-4DFA-BE2D-4102088C62A2@web.de>",
     "<B577A288-D614-438A-9C7A-1DEF4E0515D1@web.de>",
     "<D40DBD9C-1A77-4806-9C9F-85F523FCE05C@web.de>",
+    "<DCCEE4FE-7D76-42DF-B431-BD6E9C387D5E@web.de>",
     "<DDD4AD8A-8468-4A24-BC1F-91A6381C5787@web.de>",
     "<EE1DD304-AC61-4BA7-8DE0-18634AB30494@web.de>"
   ],

@@ -1,6 +1,6 @@
 {
   "gewichte": {
-    "zr-001": 1.1,
+    "zr-001": 0.8,
     "zr-002": 1.1,
     "zr-003": 0.8,
     "zr-004": 0.8,
@@ -45,7 +45,11 @@
     "zr-anwalt:form:018": 0.8,
     "lesetext:olgth-2020-06-26-4-u-27919:1": 1.1,
     "lesetext:olgth-2020-06-26-4-u-27919:2": 0.8,
-    "lesetext:olgth-2020-06-26-4-u-27919:3": 0.8
+    "lesetext:olgth-2020-06-26-4-u-27919:3": 0.8,
+    "zr-staat:form:011": 0.8,
+    "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:1": 0.8,
+    "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:2": 0.8,
+    "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:3": 1.1
   },
   "feedback": [
     {
@@ -1190,6 +1194,60 @@
       "grade": null,
       "interval": 7,
       "detail": ""
+    },
+    {
+      "date": "2026-10-03",
+      "case_id": "zr-staat:form:011",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "",
+      "punkte": 18.0
+    },
+    {
+      "date": "2026-10-03",
+      "case_id": "zr-staat:form:005",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 43,
+      "detail": "Das Wort 'als' vor 'Insolvenzverwalterin' fehlt, was die Amtsstellung (Partei kraft Amtes) verwischt; zudem fehlen Kommata nach der Adresse und vor 'Klägerin', die im Skript die Aufzählung klar strukturieren.",
+      "punkte": 13.0
+    },
+    {
+      "date": "2026-10-03",
+      "case_id": "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:1",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Es fehlen die Rechtsgrundlage § 546 Abs. 1 BGB, die Kostenentscheidung (§ 91 ZPO), die vorläufige Vollstreckbarkeit (§§ 708 Nr. 7, 713 ZPO), die Begründung zur Nichtzulassung der Berufung sowie der Hinweis auf die Bestimmtheit durch Nummer plus Beschriftung auf dem Garagentor.",
+      "punkte": 10.0
+    },
+    {
+      "date": "2026-10-03",
+      "case_id": "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:2",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Die konkrete Methode der Individualisierung – Nummer in Verbindung mit identischer Beschriftung am Objekt selbst (Garagentor) – wird nur vage als 'Beschreibung' bezeichnet, nicht so präzise wie im Skript.",
+      "punkte": 13.0
+    },
+    {
+      "date": "2026-10-03",
+      "case_id": "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:3",
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Die Wertgrenze wird falsch angegeben (richtig: 600 €, nicht 1.000 €), die Aussage 'das AG muss zwingend zulassen' ist unzutreffend, und es fehlen die vom Skript genannten Rechtsbehelfe (Anhörungsrüge, § 63 Abs. 2 GKG, § 319 ZPO, Gegenvorstellung) sowie der Hinweis auf § 41 Abs. 2 GKG als korrekte Bemessungsgrundlage.",
+      "punkte": 6.0
+    },
+    {
+      "date": "2026-10-03",
+      "case_id": "zr-001",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 23,
+      "detail": "Rubrum-Formulierungen für Parteien kraft Amtes (Insolvenzverwalter, Nachlasspfleger) wiederholt einüben und die Berufungszulässigkeitsgrenzen nach § 511 ZPO samt aktueller Wertgrenze (600 €) und zugehörigen Rechtsbehelfen auswendig festigen.",
+      "punkte": 12.0
     }
   ],
   "letzte_anpassung": null,
@@ -1439,19 +1497,23 @@
       "schnitt": 7.0
     },
     "zr-001": {
-      "stability": 4.0,
-      "difficulty": 5.0,
-      "due": "2026-09-20",
-      "last": "2026-09-16",
+      "stability": 22.8,
+      "difficulty": 4.85,
+      "due": "2026-10-26",
+      "last": "2026-10-03",
       "gezeigt": "2026-10-02",
-      "reps": 1,
+      "reps": 2,
       "punkte": [
         {
           "date": "2026-09-16",
           "wert": 7.0
+        },
+        {
+          "date": "2026-10-03",
+          "wert": 12.0
         }
       ],
-      "schnitt": 7.0
+      "schnitt": 9.5
     },
     "zr-staat:form:004": {
       "stability": 27.47,
@@ -1478,19 +1540,23 @@
       "unbeantwortet": 1
     },
     "zr-staat:form:005": {
-      "stability": 8.0,
-      "difficulty": 4.85,
-      "due": "2026-09-24",
-      "last": "2026-09-16",
+      "stability": 42.76,
+      "difficulty": 4.7,
+      "due": "2026-11-15",
+      "last": "2026-10-03",
       "gezeigt": "2026-10-02",
-      "reps": 1,
+      "reps": 2,
       "punkte": [
         {
           "date": "2026-09-16",
           "wert": 11.0
+        },
+        {
+          "date": "2026-10-03",
+          "wert": 13.0
         }
       ],
-      "schnitt": 11.0
+      "schnitt": 12.0
     },
     "lesetext:olgdres-2022-07-20-13-u-208021:1": {
       "stability": 4.0,
@@ -1910,39 +1976,67 @@
       "schnitt": 12.0
     },
     "zr-staat:form:011": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-11",
+      "last": "2026-10-03",
       "gezeigt": "2026-10-02",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-10-03",
+          "wert": 18.0
+        }
+      ],
+      "schnitt": 18.0
     },
     "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:1": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-11",
+      "last": "2026-10-03",
       "gezeigt": "2026-10-02",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-10-03",
+          "wert": 10.0
+        }
+      ],
+      "schnitt": 10.0
     },
     "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:2": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-11",
+      "last": "2026-10-03",
       "gezeigt": "2026-10-02",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-10-03",
+          "wert": 13.0
+        }
+      ],
+      "schnitt": 13.0
     },
     "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:3": {
-      "stability": 0.0,
+      "stability": 4.0,
       "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "due": "2026-10-07",
+      "last": "2026-10-03",
       "gezeigt": "2026-10-02",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-10-03",
+          "wert": 6.0
+        }
+      ],
+      "schnitt": 6.0
     }
   },
-  "letzter_korrekturlauf": "2026-10-02",
+  "letzter_korrekturlauf": "2026-10-03",
   "gesperrt": [
     "zr-anwalt:form:014"
   ]
