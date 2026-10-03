@@ -3,7 +3,7 @@
 *Letzte Aktualisierung: 3. Oktober 2026*
 
 ## STAND 03.10.2026
-- [ ] **Mo 05.10.: Karriereberatung Bundeswehr anrufen** (0800 9800880, Ref-Nr. 13270-P00547648-1-S): Umstellung auf ROA i.d.W. / Offizier mit Master, 2 Jahre; Einstellungstermin 2027; Lehrgangsorte erstes Jahr; Dienstposten nahe Leipzig (Heimschläfer); fachliche Verwendung (MilNW, ZOpKomBw, Sprachen) schriftlich; Promotion nebenbei; Reisen Tadschikistan/SÜ; Nebentätigkeit ZEDAR; spätester Absagezeitpunkt.
+- [ ] **Mo 05.10.: BAPersBw Bewerbungsmanagement ROA anrufen** (Fr. Gombert 02203 105 2407 / Hr. Dicks 02203 105 2418, AC-Bewerbung-ROA@bundeswehr.org, Ref-Nr. 13270-P00547648-1-S). Kernfrage: gilt der Master-Einstieg als Oberfähnrich auch bei ROA i.d.W. mit 2-3 Jahren? Laut Ausschreibung SaZ 2 nur als Sicherungsoffizier. Weitere Punkte: Umstellung auf ROA i.d.W. / Offizier mit Master, 2 Jahre; Einstellungstermin 2027; Lehrgangsorte erstes Jahr; Dienstposten nahe Leipzig (Heimschläfer); fachliche Verwendung (MilNW, ZOpKomBw, Sprachen) schriftlich; Promotion nebenbei; Reisen Tadschikistan/SÜ; Nebentätigkeit ZEDAR; spätester Absagezeitpunkt.
 - [ ] **ZEDAR Rechtsform**: GbR (Testphase, Haftung beider) oder direkt UG — vorher Jobcenter (Einstiegsgeld, Leistungsberechtigung) und Greta klären; Entscheidung erst nach Klärung ROA i.d.W.
 - [x] **Lichtenburg Prettin — abgeschickt 03.10.2026**: Anschreiben neu (Stilvorlagen, ohne Promotion), Gesamt-PDF unter Bewerbungen/03_laufend/2026_Lichtenburg_Prettin/Bewerbung_Schlenstedt_Lichtenburg.pdf (3 MB). Mail-Entwurf in Apple Mail an personalstelle@erinnern.org (BCC personnalstelle@) — nur noch absenden.
 - ReCentGlobe 126/2026: nicht verfolgt (Entscheidung 03.10.2026).
