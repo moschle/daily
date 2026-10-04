@@ -274,7 +274,10 @@ In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getr
 
 ## Laufend
 
-- [ ] Website moritzschlenstedt.de pflegen (Carrd)
+- [ ] **Umzug Websites zu netcup (04.10.2026)** — neue Fassungen von warte.org, moritzschlenstedt.de und zedarsilk (Spiegel der Vercel-Seite) liegen in ~/Projects/websites und in den httpdocs auf netcup. Offen: Inhalte prüfen, Impressum-Anschriften ergänzen, Let's-Encrypt-Zertifikate ausstellen, DNS von warte.org und moritzschlenstedt.de von Carrd auf netcup (46.38.249.87) umstellen, danach Carrd und Vercel kündigen
+- [ ] **zedarsilk.com von Squarespace zu netcup transferieren** — Auth-Code über Greta; iCloud-Mail-Einträge (MX, TXT, DKIM) vorher sichern und bei netcup wieder eintragen
+- [ ] **manitu kündigen**, sobald Shirins und hanarhupkas alte Mails ins netcup-Postfach umgezogen sind
+- [x] Stellen-Monitor auf GitHub Actions deaktiviert (04.10.2026), läuft nur noch auf netcup
 - [x] VG Wort Anmeldung (03.04.2026)
 
 ## Erledigt (Juni–August 2026)
