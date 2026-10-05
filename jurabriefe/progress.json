@@ -1,7 +1,7 @@
 {
   "gewichte": {
     "zr-001": 0.8,
-    "zr-002": 1.1,
+    "zr-002": 1.7,
     "zr-003": 0.8,
     "zr-004": 0.8,
     "zr-005": 0.8,
@@ -1296,6 +1296,15 @@
       "grade": null,
       "interval": 7,
       "detail": ""
+    },
+    {
+      "date": "2026-10-06",
+      "case_id": "zr-002",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 2,
+      "detail": "selbst gemeldet",
+      "punkte": 2.0
     }
   ],
   "letzte_anpassung": null,
@@ -1697,19 +1706,23 @@
       "schnitt": 0.0
     },
     "zr-002": {
-      "stability": 4.0,
-      "difficulty": 5.0,
-      "due": "2026-09-22",
-      "last": "2026-09-18",
+      "stability": 1.6,
+      "difficulty": 5.3,
+      "due": "2026-10-08",
+      "last": "2026-10-06",
       "gezeigt": "2026-10-05",
-      "reps": 1,
+      "reps": 2,
       "punkte": [
         {
           "date": "2026-09-18",
           "wert": 8.0
+        },
+        {
+          "date": "2026-10-06",
+          "wert": 2.0
         }
       ],
-      "schnitt": 8.0
+      "schnitt": 5.0
     },
     "zr-staat:form:006": {
       "stability": 8.0,
@@ -2092,7 +2105,7 @@
       "reps": 0
     }
   },
-  "letzter_korrekturlauf": "2026-10-04",
+  "letzter_korrekturlauf": "2026-10-05",
   "gesperrt": [
     "zr-anwalt:form:014"
   ]
