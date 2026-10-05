@@ -3,7 +3,8 @@
 *Letzte Aktualisierung: 5. Oktober 2026*
 
 ## STAND 05.10.2026 — neue Stellen und Nebenjobs
-- [ ] **BfV Initiativbewerbung Farsi/Dari** (karriere@bfv.bund.de): Paket fertig in Bewerbungen/03_laufend/2026_BfV_Initiativ_Farsi, Versand offen
+- [x] **BfV Initiativbewerbung Farsi/Dari** (karriere@bfv.bund.de) ABGESCHICKT 05.10.2026
+- [ ] **Goethe-Institut Taschkent Praktikum** (min. 3 Monate, 450 EUR/Monat, Altersgrenze 30 -> Beginn vor 11.03.2027, Online-Formular + Referenzschreiben Hochschullehrer, Kontakt munira.rakhimdjanova@goethe.de)
 - [ ] **FZ Jülich, Referent:in Internationale Forschungskooperationen / PGSBstrong (Palestinian-German Science Bridge)** — E13 TVöD Bund, 20–39 h, ortsflexibel nach Abstimmung, befristet bis 31.03.2031. Frist nicht angegeben → zügig. Beste Passung des Stapels (Arabisch, Nahost, Geisteswiss. zugelassen). Lücken: formales Projekt-/Qualitätsmanagement, palästinensische Partner. Belege: Warte für Kultur (Förderpraxis, Berichtswesen).
 - [ ] **Jüdische Akademie Frankfurt (Zentralrat), Programmleitung Schwerpunkt Israel und Naher Osten** — angelehnt an TVöD E14, VZ 40 h, 1 Jahr befristet, Übernahme angestrebt. Frist nicht angegeben. Reach: Moderation/Veranstaltungen stark; Israel-Diskurse und jüdische Perspektive müssen im Anschreiben konkret belegt werden. Umzug Frankfurt.
 - CAU Kiel, Referent*in des Präsidenten (E13 TV-L, bis 31.10.2032, Frist 23.10.2026) — nicht verfolgen (Hochschulverwaltung/Promotion gefordert).
