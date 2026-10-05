@@ -1411,7 +1411,7 @@
 },
 {
 "word": "آوَردَن / آوَر",
-"meaning": "bringen",
+"meaning": "(her)bringen (zum Sprecher hin)",
 "gelernt": true
 },
 {
@@ -1581,7 +1581,7 @@
 },
 {
 "word": "اَهل",
-"meaning": "Bürger, Einwohner",
+"meaning": "Bewohner; stammend aus",
 "gelernt": true
 },
 {
@@ -2516,7 +2516,7 @@
 },
 {
 "word": "بُردَن / بَر",
-"meaning": "transportieren, bringen, (weg-)tragen",
+"meaning": "(weg)bringen, mitnehmen (vom Sprecher weg)",
 "gelernt": true
 },
 {
@@ -8092,6 +8092,441 @@
 {
 "word": "مُذاکِره",
 "meaning": "Verhandlung",
+"gelernt": false
+},
+{
+"word": "مَطَب",
+"meaning": "Arztpraxis",
+"gelernt": false
+},
+{
+"word": "مَطَبِ دَندان‌پِزِشک",
+"meaning": "Zahnarztpraxis",
+"gelernt": false
+},
+{
+"word": "سُرمه‌ای",
+"meaning": "dunkelblau, marineblau",
+"gelernt": false
+},
+{
+"word": "گُروه",
+"meaning": "Gruppe",
+"gelernt": false
+},
+{
+"word": "جامِعه",
+"meaning": "Gesellschaft",
+"gelernt": false
+},
+{
+"word": "رِشته‌کوه",
+"meaning": "Gebirgskette",
+"gelernt": false
+},
+{
+"word": "پُشتیبانی کَردَن از",
+"meaning": "unterstützen",
+"gelernt": false
+},
+{
+"word": "حِمایَت کَردَن از",
+"meaning": "unterstützen, schützen",
+"gelernt": false
+},
+{
+"word": "دَریافت کَردَن",
+"meaning": "erhalten, empfangen",
+"gelernt": false
+},
+{
+"word": "کُت و شَلوار",
+"meaning": "Anzug",
+"gelernt": false
+},
+{
+"word": "ثِروَتمَند",
+"meaning": "reich, wohlhabend",
+"gelernt": false
+},
+{
+"word": "هِندوستان",
+"meaning": "Indien",
+"gelernt": false
+},
+{
+"word": "دَمنوش",
+"meaning": "Kräutertee, Aufguss",
+"gelernt": false
+},
+{
+"word": "دَمنوشِ نَعنافِلفِلی",
+"meaning": "Pfefferminztee",
+"gelernt": false
+},
+{
+"word": "دَم کَردَن",
+"meaning": "(Tee) aufbrühen, ziehen lassen",
+"gelernt": false
+},
+{
+"word": "چایِ تازه‌دَم",
+"meaning": "frisch aufgebrühter Tee",
+"gelernt": false
+},
+{
+"word": "تَنَقُّلات",
+"meaning": "Snacks, Knabbereien",
+"gelernt": false
+},
+{
+"word": "آجیل",
+"meaning": "Nüsse und Trockenfrüchte (Knabbermischung)",
+"gelernt": false
+},
+{
+"word": "لَواشَک",
+"meaning": "Fruchtleder (getrocknetes, saures Fruchtmus)",
+"gelernt": false
+},
+{
+"word": "لَواش",
+"meaning": "Lavash (dünnes Fladenbrot)",
+"gelernt": false
+},
+{
+"word": "نِگَه‌داری کَردَن",
+"meaning": "aufbewahren; sich kümmern um",
+"gelernt": false
+},
+{
+"word": "کارهایِ خانه",
+"meaning": "Hausarbeit",
+"gelernt": false
+},
+{
+"word": "غَذایِ خانِگی",
+"meaning": "Hausmannskost, selbstgekochtes Essen",
+"gelernt": false
+},
+{
+"word": "بِهداشت",
+"meaning": "Hygiene; Gesundheitswesen",
+"gelernt": false
+},
+{
+"word": "مَوادِّ غَذایی",
+"meaning": "Lebensmittel",
+"gelernt": false
+},
+{
+"word": "سَختگیری",
+"meaning": "Strenge",
+"gelernt": false
+},
+{
+"word": "سَختگیر",
+"meaning": "streng (Person)",
+"gelernt": false
+},
+{
+"word": "آشنایی داشتَن با",
+"meaning": "vertraut sein mit",
+"gelernt": false
+},
+{
+"word": "اِفتِخار کَردَن به",
+"meaning": "stolz sein auf",
+"gelernt": false
+},
+{
+"word": "طَعم",
+"meaning": "Geschmack",
+"gelernt": false
+},
+{
+"word": "کِیفیَّت",
+"meaning": "Qualität",
+"gelernt": false
+},
+{
+"word": "اِحساسِ بیماری داشتَن",
+"meaning": "sich krank fühlen",
+"gelernt": false
+},
+{
+"word": "تَمام شُدَن / تَموم شُدَن",
+"meaning": "enden, zu Ende gehen",
+"gelernt": false
+},
+{
+"word": "دوست پِیدا کَردَن",
+"meaning": "Freunde finden",
+"gelernt": false
+},
+{
+"word": "تَفاوُتِ سِنّی",
+"meaning": "Altersunterschied",
+"gelernt": false
+},
+{
+"word": "هَم‌سِن",
+"meaning": "gleich alt",
+"gelernt": false
+},
+{
+"word": "دوقُلو",
+"meaning": "Zwilling",
+"gelernt": false
+},
+{
+"word": "تَتو",
+"meaning": "Tattoo",
+"gelernt": false
+},
+{
+"word": "تَتو زَدَن",
+"meaning": "tätowieren; sich tätowieren lassen",
+"gelernt": false
+},
+{
+"word": "تَتوکار",
+"meaning": "Tätowierer",
+"gelernt": false
+},
+{
+"word": "تَن",
+"meaning": "Körper, Leib",
+"gelernt": false
+},
+{
+"word": "هَر بار که",
+"meaning": "jedes Mal, wenn",
+"gelernt": false
+},
+{
+"word": "نَظَرِ کَسی را جَلب کَردَن",
+"meaning": "jemandem auffallen, jemandes Aufmerksamkeit wecken",
+"gelernt": false
+},
+{
+"word": "طَرح",
+"meaning": "Entwurf; Muster, Design",
+"gelernt": false
+},
+{
+"word": "چَمِدان جَمع کَردَن",
+"meaning": "Koffer packen",
+"gelernt": false
+},
+{
+"word": "بَسته‌بَندی",
+"meaning": "Verpackung",
+"gelernt": false
+},
+{
+"word": "بَسته‌بَندی کَردَن",
+"meaning": "verpacken",
+"gelernt": false
+},
+{
+"word": "شِرکَت کَردَن دَر",
+"meaning": "teilnehmen an",
+"gelernt": false
+},
+{
+"word": "مُسابِقه",
+"meaning": "Wettbewerb, Wettkampf",
+"gelernt": false
+},
+{
+"word": "مُسابِقه‌یِ دَو",
+"meaning": "Laufwettbewerb",
+"gelernt": false
+},
+{
+"word": "حومه‌یِ شَهر",
+"meaning": "Stadtrand, Vororte",
+"gelernt": false
+},
+{
+"word": "اَطراف",
+"meaning": "Umgebung",
+"gelernt": false
+},
+{
+"word": "حَدِّاَقَل",
+"meaning": "mindestens",
+"gelernt": false
+},
+{
+"word": "حَدِّاَکثَر",
+"meaning": "höchstens",
+"gelernt": false
+},
+{
+"word": "دوچَرخه‌سَواری کَردَن / دوچَرخه راندَن",
+"meaning": "Rad fahren",
+"gelernt": false
+},
+{
+"word": "تَرَدُّد کَردَن",
+"meaning": "verkehren, unterwegs sein",
+"gelernt": false
+},
+{
+"word": "رَفت و آمَد کَردَن",
+"meaning": "pendeln, hin- und herfahren",
+"gelernt": false
+},
+{
+"word": "جَواهِرات",
+"meaning": "Schmuck",
+"gelernt": false
+},
+{
+"word": "جِنسیَّت",
+"meaning": "Geschlecht (Gender)",
+"gelernt": false
+},
+{
+"word": "زیرزَمین",
+"meaning": "Keller",
+"gelernt": false
+},
+{
+"word": "زیرزَمینی",
+"meaning": "unterirdisch; Underground-",
+"gelernt": false
+},
+{
+"word": "ناشِناخته",
+"meaning": "unbekannt, unerforscht",
+"gelernt": false
+},
+{
+"word": "گُمنام",
+"meaning": "namenlos, unbekannt",
+"gelernt": false
+},
+{
+"word": "اُستان",
+"meaning": "Provinz",
+"gelernt": false
+},
+{
+"word": "مُتَوَجِّه شُدَن",
+"meaning": "verstehen, bemerken",
+"gelernt": false
+},
+{
+"word": "دیر کَردَن",
+"meaning": "sich verspäten",
+"gelernt": false
+},
+{
+"word": "نُخود",
+"meaning": "Kichererbse",
+"gelernt": false
+},
+{
+"word": "نُخودفَرَنگی",
+"meaning": "Erbse",
+"gelernt": false
+},
+{
+"word": "گوجه‌فَرَنگی",
+"meaning": "Tomate",
+"gelernt": false
+},
+{
+"word": "فَرَنگی",
+"meaning": "europäisch (veraltet: fränkisch)",
+"gelernt": false
+},
+{
+"word": "تَنبَل",
+"meaning": "faul",
+"gelernt": false
+},
+{
+"word": "کَدوتَنبَل",
+"meaning": "Kürbis",
+"gelernt": false
+},
+{
+"word": "زَنبور",
+"meaning": "Biene; Wespe",
+"gelernt": false
+},
+{
+"word": "دَر کُل",
+"meaning": "insgesamt, im Allgemeinen",
+"gelernt": false
+},
+{
+"word": "نِسبَت به",
+"meaning": "im Vergleich zu",
+"gelernt": false
+},
+{
+"word": "پِیدا کَردَنِ … سَخت است",
+"meaning": "… zu finden ist schwer (Infinitiv als Subjekt)",
+"gelernt": false
+},
+{
+"word": "پیش اَز رَسیدَن به …",
+"meaning": "bevor er … erreichte (vor + Infinitiv)",
+"gelernt": false
+},
+{
+"word": "به ایران سَفَر کَرده بود",
+"meaning": "er war nach Iran gereist (Plusquamperfekt)",
+"gelernt": false
+},
+{
+"word": "بیشتَرِ جَوان‌ها",
+"meaning": "die meisten jungen Leute",
+"gelernt": false
+},
+{
+"word": "فِکر می‌کُنَم که … باشَد",
+"meaning": "ich vermute, dass … ist (Konjunktiv bei Vermutung)",
+"gelernt": false
+},
+{
+"word": "تا پَنج سالِ آینده",
+"meaning": "in den nächsten fünf Jahren",
+"gelernt": false
+},
+{
+"word": "دو سال اَز مَن بُزُرگ‌تَر است",
+"meaning": "er ist zwei Jahre älter als ich",
+"gelernt": false
+},
+{
+"word": "قیمَتِ پیتزا دَر سوئیس نِسبَت به آلمان گِران‌تَر است",
+"meaning": "Pizza ist in der Schweiz teurer als in Deutschland.",
+"gelernt": false
+},
+{
+"word": "فَرقِ … با … چیست؟",
+"meaning": "Was ist der Unterschied zwischen … und …?",
+"gelernt": false
+},
+{
+"word": "هَمان‌طور بود که فِکر می‌کَردَم",
+"meaning": "es war so, wie ich gedacht hatte",
+"gelernt": false
+},
+{
+"word": "اَهلِ جایی بودَن",
+"meaning": "von irgendwo stammen",
+"gelernt": false
+},
+{
+"word": "بحران",
+"meaning": "Krise",
 "gelernt": false
 }
 ]
