@@ -1,6 +1,15 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 3. Oktober 2026*
+*Letzte Aktualisierung: 5. Oktober 2026*
+
+## STAND 05.10.2026 — neue Stellen und Nebenjobs
+- [ ] **FZ Jülich, Referent:in Internationale Forschungskooperationen / PGSBstrong (Palestinian-German Science Bridge)** — E13 TVöD Bund, 20–39 h, ortsflexibel nach Abstimmung, befristet bis 31.03.2031. Frist nicht angegeben → zügig. Beste Passung des Stapels (Arabisch, Nahost, Geisteswiss. zugelassen). Lücken: formales Projekt-/Qualitätsmanagement, palästinensische Partner. Belege: Warte für Kultur (Förderpraxis, Berichtswesen).
+- [ ] **Jüdische Akademie Frankfurt (Zentralrat), Programmleitung Schwerpunkt Israel und Naher Osten** — angelehnt an TVöD E14, VZ 40 h, 1 Jahr befristet, Übernahme angestrebt. Frist nicht angegeben. Reach: Moderation/Veranstaltungen stark; Israel-Diskurse und jüdische Perspektive müssen im Anschreiben konkret belegt werden. Umzug Frankfurt.
+- CAU Kiel, Referent*in des Präsidenten (E13 TV-L, bis 31.10.2032, Frist 23.10.2026) — nicht verfolgen (Hochschulverwaltung/Promotion gefordert).
+- [ ] **Nebenjob Fahrdienst/Haushaltshilfe Zentrum Ost** (dsble, 21.09.2026): älterer Herr, 80 J., PG 2; Arztfahrten 1–2x/Woche, Haushalt mittwochs ca. 1 h; Bezahlung über Verhinderungspflege/Entlastungsbetrag. Kontakt feliciter@gmx.de — sofort anschreiben.
+- [ ] **Hörstudie Uni Leipzig** (Talstraße 33): 4 Tage, 2+1+1+2 h, 10 €/h; Blöcke Mo–Do 13–17 Uhr oder Di–Fr 9–13 Uhr, Teilnahme in den nächsten 3 Wochen. Anmeldung paul.friedrich@uni-leipzig.de mit gewünschtem Block.
+- [ ] Berlitz DaF freiberuflich (ohne BAMF-Zulassung) — nur als Online-Zubrot, kein Standort Leipzig (nächster Dresden). Nachrangig.
+- dsble „Studentische Literatur- und Rechercheassistenz“ — nicht verfolgen (unseriös, für Studierende).
 
 ## STAND 03.10.2026
 - [ ] **Mo 05.10.: BAPersBw Bewerbungsmanagement ROA anrufen** (Fr. Gombert 02203 105 2407 / Hr. Dicks 02203 105 2418, AC-Bewerbung-ROA@bundeswehr.org, Ref-Nr. 13270-P00547648-1-S). Kernfrage: Gilt beim Master-Einstieg als Oberfähnrich (2 Jahre) auch die Regel des allgemeinen ROA-Infoblatts, dass 2 Jahre nur als Sicherungsoffizier gehen und spezialisierte Verwendungen 3 Jahre brauchen? Welche Verwendungen sind mit 2 bzw. 3 Jahren möglich? Weitere Punkte: Umstellung auf ROA i.d.W. / Offizier mit Master, 2 Jahre; Einstellungstermin 2027; Lehrgangsorte erstes Jahr; Dienstposten nahe Leipzig (Heimschläfer); fachliche Verwendung (MilNW, ZOpKomBw, Sprachen) schriftlich; Promotion nebenbei; Reisen Tadschikistan/SÜ; Nebentätigkeit ZEDAR; spätester Absagezeitpunkt.
