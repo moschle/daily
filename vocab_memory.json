@@ -1,4 +1,53 @@
 {
   "ar": [],
-  "fa": []
+  "fa": [
+    {
+      "word": "مِعماری",
+      "meaning": "Architektur",
+      "first_seen": "2026-09-27T08:46:28.855764+02:00",
+      "last_review": "2026-09-27T08:46:28.855764+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "مِیدان",
+      "meaning": "Platz (in der Stadt)",
+      "first_seen": "2026-09-27T08:46:28.855764+02:00",
+      "last_review": "2026-09-27T08:46:28.855764+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "جاذِبه",
+      "meaning": "Sehenswürdigkeit, Attraktion",
+      "first_seen": "2026-09-27T08:46:28.855764+02:00",
+      "last_review": "2026-09-27T08:46:28.855764+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "شُلوغ",
+      "meaning": "belebt, überfüllt",
+      "first_seen": "2026-09-27T08:46:28.855764+02:00",
+      "last_review": "2026-09-27T08:46:28.855764+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "تَنگه",
+      "meaning": "Meerenge, Straße (Wasserweg)",
+      "first_seen": "2026-09-27T08:46:28.855764+02:00",
+      "last_review": "2026-09-27T08:46:28.855764+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    },
+    {
+      "word": "اَمریکا",
+      "meaning": "Amerika",
+      "first_seen": "2026-09-27T08:46:28.855764+02:00",
+      "last_review": "2026-09-27T08:46:28.855764+02:00",
+      "interval": 1,
+      "times_reviewed": 0
+    }
+  ]
 }
