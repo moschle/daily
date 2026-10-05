@@ -16,7 +16,7 @@
 - [ ] **ZEDAR Rechtsform**: GbR (Testphase, Haftung beider) oder direkt UG — vorher Jobcenter (Einstiegsgeld, Leistungsberechtigung) und Greta klären; Entscheidung erst nach Klärung ROA i.d.W.
 - [x] **Lichtenburg Prettin — abgeschickt 03.10.2026**: Anschreiben neu (Stilvorlagen, ohne Promotion), Gesamt-PDF unter Bewerbungen/03_laufend/2026_Lichtenburg_Prettin/Bewerbung_Schlenstedt_Lichtenburg.pdf (3 MB). Mail-Entwurf in Apple Mail an personalstelle@erinnern.org (BCC personnalstelle@) — nur noch absenden.
 - ReCentGlobe 126/2026: nicht verfolgt (Entscheidung 03.10.2026).
-- [ ] **Bundessprachenamt — Frist 06.10.**: Anschreiben am 05.10. neu als Werdegang (Übersetzen → Sprachtechnologie für ressourcenarme Sprachen → Datenerschließung), MT/ASR/LLM und Linked Data explizit; CV korrigiert (Böll-Alumnus, Typisch-DDR-Titel, Praefectus, Technik ergänzt); Paket als ZIP im Ordner. Vorher: Anschreiben am 03.10. nach Ausschreibung neu (ohne private Werkzeuge), Lebenslauf um Sprachmodelle/GND/LaTeX ergänzt, Gesamt-PDF 11 S. — über bewerbung.bundeswehr-karriere.de hochladen.
+- [x] **Bundessprachenamt — ABGESCHICKT 05.10.2026** (Frist 06.10.): Anschreiben am 05.10. neu als Werdegang (Übersetzen → Sprachtechnologie für ressourcenarme Sprachen → Datenerschließung), MT/ASR/LLM und Linked Data explizit; CV korrigiert (Böll-Alumnus, Typisch-DDR-Titel, Praefectus, Technik ergänzt); Paket als ZIP im Ordner. Vorher: Anschreiben am 03.10. nach Ausschreibung neu (ohne private Werkzeuge), Lebenslauf um Sprachmodelle/GND/LaTeX ergänzt, Gesamt-PDF 11 S. — über bewerbung.bundeswehr-karriere.de hochladen.
 - Literaturhaus Thurgau: nicht verfolgt (Entscheidung 03.10.2026).
 
 ## STAND 01.10.2026
