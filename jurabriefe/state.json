@@ -1,6 +1,5 @@
 {
   "done": [
-    "zr-002",
     "zr-003",
     "zr-004",
     "zr-005",
@@ -19,9 +18,10 @@
     "zr-004",
     "zr-005",
     "zr-006",
-    "zr-001"
+    "zr-001",
+    "zr-002"
   ],
-  "last_id": "zr-001",
+  "last_id": "zr-002",
   "seen_slugs": [
     "olgdres-2021-11-16-4-u-116821",
     "kg--2020-09-30-3-161-ss-4920-48",
@@ -41,11 +41,39 @@
     "olgnuer-2021-12-30-13-u-200821",
     "kg--2019-02-19-21-u-4018",
     "olgth-2020-06-26-4-u-27919",
-    "ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923"
+    "ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923",
+    "lg-stuttgart-2024-12-04-19-s-2623"
   ],
   "next_index": 1,
   "offen": {},
-  "offene_packs": {},
+  "offene_packs": {
+    "zr-002@05.10.": {
+      "case_id": "zr-002",
+      "datum": "2026-10-05",
+      "karten": [
+        {
+          "nr": 1,
+          "id": "zr-staat:form:012",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie den Kostenpunkt im Tenor für den Fall, dass der Beklagte vollständig unterliegt.",
+          "loesung": "Der Beklagte hat die Kosten des Rechtsstreits zu tragen.",
+          "gewicht": 3,
+          "skript": "zr-staat",
+          "abschnitt": "I. Einführung › 2. Kostenentscheidung"
+        },
+        {
+          "nr": 2,
+          "id": "zr-staat:form:006",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie das Rubrum für eine GmbH als Klägerin: Bonus GmbH, Sonnenallee 93, 12199 Berlin, gesetzlich vertreten durch die Geschäftsführer Holger Fahls und Maria Herbst.",
+          "loesung": "der Bonus GmbH, gesetzlich vertreten durch die Geschäftsführer Holger Fahls und Maria Herbst, Sonnenallee 93, 12199 Berlin, Klägerin,",
+          "gewicht": 1,
+          "skript": "zr-staat",
+          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter"
+        }
+      ]
+    }
+  },
   "erledigte_mails": [
     "<1224C30F-9BFB-4F6F-8FF4-0A4E6CAB96B2@web.de>",
     "<277DBF85-AA8A-4A05-9CF0-01037CAC9333@web.de>",
@@ -59,5 +87,5 @@
     "<DDD4AD8A-8468-4A24-BC1F-91A6381C5787@web.de>",
     "<EE1DD304-AC61-4BA7-8DE0-18634AB30494@web.de>"
   ],
-  "letzter_brief": "2026-10-02"
+  "letzter_brief": "2026-10-05"
 }
