@@ -61,7 +61,9 @@
 
 **In jedem Fall:** Zweckklausel in den Gesellschaftsvertrag (Rücksicht auf Beschäftigte, Lieferanten, Umwelt, Gesellschaft) – Grundlage für B Corp nach 12 Monaten Betrieb und Gemeinwohl-Bilanz. Vertrag vor Gründung vom Steuerberater prüfen lassen (IHK Leipzig: kostenlose Gründungsberatung).
 
-**Offen:** Darlehenshöhe – Notiz sagt 7.500 €, im Gespräch am 06.10. 15.000 € genannt. Klären.
+**Darlehen:** rund 15.000 € für die erste Charge, Greta und Moritz tragen es je zur Hälfte. Bei UG: als Gesellschafterdarlehen an die UG geben (schriftlicher Vertrag, Zins, Tilgung), nicht als Stammkapital – Rückzahlung ist steuerfrei, im Insolvenzfall aber nachrangig (§ 39 InsO).
+
+**Gehalt und Ausschüttung (Option 3):** Gehalt als Geschäftsführer (Lohnsteuer + Sozialversicherung, mindert den Gewinn). Was danach als Gewinn bleibt, wird nach Anteilen ausgeschüttet (45/45/10), mit 25 % Kapitalertragsteuer + Soli. UG muss erst 25 % des Jahresüberschusses in die Rücklage stellen, bis 25.000 € Stammkapital erreicht sind. Gehalt muss angemessen sein. Beides zählt beim Jobcenter als Einkommen.
 
 ### E. Fair Wear und Zertifikate (06.10.)
 - Fair-Wear-Mitgliedschaft nicht möglich: Beitragstabelle 2025 beginnt bei 30 Mio. € Umsatz, Fair Wear nimmt derzeit vorrangig große Marken auf.
