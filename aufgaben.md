@@ -4,7 +4,7 @@
 
 ## STAND 06.10.2026
 - [x] Fahrdienst angeschrieben, Hörstudie angemeldet, BAPersBw angerufen
-- [ ] **ZEDAR Fair Wear**: Mitgliedschaft nicht möglich (Beiträge erst ab 30 Mio. € Umsatz, Fair Wear priorisiert große Marken) — Fair-Wear-Aussagen auf zedarsilk entfernen, Alternative wählen (Textilbündnis, GWÖ-Bilanz, später B Corp)
+- [ ] **ZEDAR Fair Wear**: Mitgliedschaft nicht möglich (Beiträge erst ab 30 Mio. € Umsatz, Fair Wear priorisiert große Marken) — Fair-Wear-Aussagen auf zedarsilk entfernen, Ziel jetzt: Textilbündnis + Sozialaudit bei FTS (BSCI/SMETA anfragen) + Grüner Knopf; Färberei Shenghong steht auf der bluesign-Partnerliste (01.08.2026). Rechtsform: gUG für den Handel nicht tragfähig — gemeinnützigen Teil separat klären
 - [ ] **ZEDAR Website-Texte** schreiben (Claim: feinste Seide für faire Preise), danach Deploy
 
 ## STAND 05.10.2026 — neue Stellen und Nebenjobs
