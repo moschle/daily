@@ -3991,7 +3991,7 @@
 },
 {
 "word": "جُرم",
-"meaning": "Verbrechen",
+"meaning": "Straftat, Delikt (allgemein)",
 "gelernt": false
 },
 {
@@ -8527,6 +8527,121 @@
 {
 "word": "بحران",
 "meaning": "Krise",
+"gelernt": false
+},
+{
+"word": "بازیگَر",
+"meaning": "Schauspieler",
+"gelernt": false
+},
+{
+"word": "ژانرِ دِرام",
+"meaning": "Drama (Genre)",
+"gelernt": false
+},
+{
+"word": "ژانرِ جِنایی",
+"meaning": "Krimi (Genre)",
+"gelernt": false
+},
+{
+"word": "ژانرِ جَنگی",
+"meaning": "Kriegsfilm (Genre)",
+"gelernt": false
+},
+{
+"word": "ژانرِ تاریخی",
+"meaning": "Historienfilm (Genre)",
+"gelernt": false
+},
+{
+"word": "جِنایَت",
+"meaning": "Gewaltverbrechen, schweres Verbrechen",
+"gelernt": false
+},
+{
+"word": "جَدیداً",
+"meaning": "neuerdings, in letzter Zeit",
+"gelernt": false
+},
+{
+"word": "کُلاهبَردار",
+"meaning": "Betrüger",
+"gelernt": false
+},
+{
+"word": "برای کَسی مُشکِل ایجاد کَردَن",
+"meaning": "jemandem Probleme bereiten",
+"gelernt": false
+},
+{
+"word": "حَمله کَردَن به",
+"meaning": "angreifen",
+"gelernt": false
+},
+{
+"word": "قَتل",
+"meaning": "Mord",
+"gelernt": false
+},
+{
+"word": "قاتِل",
+"meaning": "Mörder",
+"gelernt": false
+},
+{
+"word": "مَقتول",
+"meaning": "Ermordeter, Mordopfer",
+"gelernt": false
+},
+{
+"word": "فِعل",
+"meaning": "Verb",
+"gelernt": false
+},
+{
+"word": "فاعِل",
+"meaning": "Subjekt (Grammatik)",
+"gelernt": false
+},
+{
+"word": "مَفعول",
+"meaning": "Objekt (Grammatik)",
+"gelernt": false
+},
+{
+"word": "قاتِل ↔ مَقتول",
+"meaning": "Täter ↔ Opfer (Muster fāʿil ↔ mafʿūl)",
+"gelernt": false
+},
+{
+"word": "کُهَنسال",
+"meaning": "betagt, uralt",
+"gelernt": false
+},
+{
+"word": "دِرَختِ کُهَنسال",
+"meaning": "uralter Baum",
+"gelernt": false
+},
+{
+"word": "کارتون",
+"meaning": "Zeichentrickfilm",
+"gelernt": false
+},
+{
+"word": "اَنیمیشِن",
+"meaning": "Animationsfilm",
+"gelernt": false
+},
+{
+"word": "فیلمِ کودَک",
+"meaning": "Kinderfilm",
+"gelernt": false
+},
+{
+"word": "فیلم",
+"meaning": "Film",
 "gelernt": false
 }
 ]
