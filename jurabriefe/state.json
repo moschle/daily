@@ -47,39 +47,19 @@
   ],
   "next_index": 1,
   "offen": {},
-  "offene_packs": {
-    "zr-002@05.10.": {
-      "case_id": "zr-002",
-      "datum": "2026-10-05",
-      "karten": [
-        {
-          "nr": 1,
-          "id": "zr-staat:form:012",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie den Kostenpunkt im Tenor für den Fall, dass der Beklagte vollständig unterliegt.",
-          "loesung": "Der Beklagte hat die Kosten des Rechtsstreits zu tragen.",
-          "gewicht": 3,
-          "skript": "zr-staat",
-          "abschnitt": "I. Einführung › 2. Kostenentscheidung"
-        },
-        {
-          "nr": 2,
-          "id": "zr-staat:form:006",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie das Rubrum für eine GmbH als Klägerin: Bonus GmbH, Sonnenallee 93, 12199 Berlin, gesetzlich vertreten durch die Geschäftsführer Holger Fahls und Maria Herbst.",
-          "loesung": "der Bonus GmbH, gesetzlich vertreten durch die Geschäftsführer Holger Fahls und Maria Herbst, Sonnenallee 93, 12199 Berlin, Klägerin,",
-          "gewicht": 1,
-          "skript": "zr-staat",
-          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter"
-        }
-      ]
-    }
-  },
+  "offene_packs": {},
   "erledigte_mails": [
     "<1224C30F-9BFB-4F6F-8FF4-0A4E6CAB96B2@web.de>",
     "<277DBF85-AA8A-4A05-9CF0-01037CAC9333@web.de>",
     "<5800FA05-F219-452C-91B9-CBF62C397468@web.de>",
+    "<6ab610d5.bcf118e9.15e8fe.bf73@mx.google.com>",
+    "<6aba1163.0a7c1997.16b740.6b33@mx.google.com>",
+    "<6abcb175.eb3606a1.83f70.04de@mx.google.com>",
+    "<6abf57b1.dd336ca9.6cf16.3b8f@mx.google.com>",
+    "<6ac34da7.5ed50510.265e2c.8488@mx.google.com>",
+    "<6ac5f292.7ea8ac99.1cab9c.6dba@mx.google.com>",
     "<73BB208E-39F9-464C-BC20-A68DC3D79027@web.de>",
+    "<909052DD-0E5A-4610-8027-2D927F465F31@shirinatef.de>",
     "<96D4EEFB-9371-4297-B2F7-C7991F8C144F@web.de>",
     "<9970BF06-2AEF-4DFA-BE2D-4102088C62A2@web.de>",
     "<B577A288-D614-438A-9C7A-1DEF4E0515D1@web.de>",

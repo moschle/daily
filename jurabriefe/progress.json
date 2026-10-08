@@ -1,11 +1,11 @@
 {
   "gewichte": {
-    "zr-001": 0.8,
+    "zr-001": 1.7,
     "zr-002": 1.7,
-    "zr-003": 0.8,
-    "zr-004": 0.8,
-    "zr-005": 0.8,
-    "zr-006": 0.8,
+    "zr-003": 1.7,
+    "zr-004": 1.7,
+    "zr-005": 1.7,
+    "zr-006": 1.7,
     "zr-007": 1.0,
     "zr-008": 1.0,
     "zr-009": 1.0,
@@ -25,7 +25,7 @@
     "lesetext:lg-duisburg-2025-07-22-6-o-10325:1": 0.8,
     "lesetext:lg-duisburg-2025-07-22-6-o-10325:2": 0.8,
     "lesetext:lg-duisburg-2025-07-22-6-o-10325:3": 1.7,
-    "zr-staat:form:006": 0.8,
+    "zr-staat:form:006": 1.7,
     "lesetext:olgbamb-2022-09-06-10-u-5722:1": 1.7,
     "lesetext:olgbamb-2022-09-06-10-u-5722:2": 0.8,
     "lesetext:olgbamb-2022-09-06-10-u-5722:3": 1.4,
@@ -49,7 +49,8 @@
     "zr-staat:form:011": 0.8,
     "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:1": 0.8,
     "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:2": 0.8,
-    "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:3": 1.1
+    "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:3": 1.1,
+    "zr-staat:form:012": 1.7
   },
   "feedback": [
     {
@@ -1353,17 +1354,98 @@
       "grade": null,
       "interval": 7,
       "detail": ""
+    },
+    {
+      "date": "2026-10-08",
+      "case_id": "zr-004",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 3,
+      "detail": "Die Bearbeitung ist kein eigener Entwurf von Entscheidungsgründen, sondern ein wortwörtlich kopiertes OLG-Urteil samt Tatbestand aus einer Rechtsprechungsdatenbank (openlegaldata). Es fehlt jede eigenständige Prüfungsleistung, zudem verstößt der Text massiv gegen das Zitierverbot und die Vorgaben zu Form und Knappheit.",
+      "punkte": 0.0
+    },
+    {
+      "date": "2026-10-08",
+      "case_id": "zr-005",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 9,
+      "detail": "Die Bearbeitung besteht ausschließlich aus einem kopierten Gerichtsurteil ohne jegliche eigene anwaltliche Prüfung; es fehlt vollständig die geforderte Struktur aus Mandantenbegehren, Gutachten, Zweckmäßigkeitserwägungen und praktischer Leistung. Damit wird keine einzige der geforderten Klausuranforderungen auch nur ansatzweise erfüllt.",
+      "punkte": 0.0
+    },
+    {
+      "date": "2026-10-08",
+      "case_id": "zr-006",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 107,
+      "detail": "Die Bearbeitung besteht ausschließlich aus dem wörtlich kopierten Urteilstext des OLG Thüringen und enthält keinerlei eigene anwaltliche Begutachtung, keine Zweckmäßigkeitserwägungen und keine prozesstaktischen Ausführungen. Damit wird die gestellte Aufgabe (Anwaltsklausur zum Beweisrecht) überhaupt nicht bearbeitet.",
+      "punkte": 0.0
+    },
+    {
+      "date": "2026-10-08",
+      "case_id": "zr-001",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 9,
+      "detail": "Die Bearbeitung enthält keinerlei eigene Lösung zu den gestellten Aufgaben 1 und 2, sondern lediglich den Ausgangs-Lesetext und die Aufgabenstellung selbst nochmals wiedergegeben. Es fehlt jede Formulierung der verlangten Einleitungsformel und jede Formulierung des Rubrums für die Partei kraft Amtes.",
+      "punkte": 0.0
+    },
+    {
+      "date": "2026-10-08",
+      "case_id": "zr-staat:form:012",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 1,
+      "detail": "Die Antwort enthält keinen Tenor-Kostenpunkt, stattdessen irrelevanten Text zu einem LG-Stuttgart-Fall; Skriptlösung 'Der Beklagte hat die Kosten des Rechtsstreits zu tragen' fehlt vollständig",
+      "punkte": 0.0
+    },
+    {
+      "date": "2026-10-08",
+      "case_id": "zr-staat:form:006",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 3,
+      "detail": "Kein Rubrum für die Bonus GmbH formuliert, stattdessen themenfremder Fließtext; die geforderte Formulierung mit gesetzlicher Vertretung, Anschrift und Parteibezeichnung fehlt komplett",
+      "punkte": 0.0
+    },
+    {
+      "date": "2026-10-08",
+      "case_id": "zr-002",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 2,
+      "detail": "Beide Tenor- und Rubrum-Formulierungen als eigenständige, kurze Sätze nach Skriptmuster einüben, ohne unzusammenhängenden Zusatztext.",
+      "punkte": 0.0
+    },
+    {
+      "date": "2026-10-08",
+      "case_id": "zr-002",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 1,
+      "detail": "Die Bearbeitung enthält keine Hauptsacheentscheidung, verwechselt den Tenor mit dem Rubrum und bringt die Kostenentscheidung an die falsche Stelle; eine Entscheidung zur vorläufigen Vollstreckbarkeit fehlt vollständig. Der Streitstoff ist damit praktisch nicht erfasst.",
+      "punkte": 1.0
+    },
+    {
+      "date": "2026-10-08",
+      "case_id": "zr-003",
+      "note": "wieder",
+      "grade": 1,
+      "interval": 3,
+      "detail": "Die Bearbeitung enthält keinen eigens verfassten Tatbestand, sondern den vollständigen Urteilstext einer fremden Entscheidung samt Tenor und Entscheidungsgründen (rechtliche Würdigung, Streitstand der Rechtsprechung zu § 269 ZPO). Damit wird die Aufgabenstellung – Abfassung eines Tatbestandes nach den Vorgaben des § 313 Abs. 2 ZPO – vollständig verfehlt.",
+      "punkte": 0.0
     }
   ],
   "letzte_anpassung": null,
   "cards": {
     "zr-006": {
-      "stability": 266.73,
-      "difficulty": 4.7,
-      "due": "2027-03-30",
-      "last": "2026-10-01",
+      "stability": 106.69,
+      "difficulty": 5.0,
+      "due": "2027-01-23",
+      "last": "2026-10-08",
       "gezeigt": "2026-09-30",
-      "reps": 4,
+      "reps": 5,
       "punkte": [
         {
           "date": "2026-09-10",
@@ -1380,9 +1462,13 @@
         {
           "date": "2026-10-01",
           "wert": 12.0
+        },
+        {
+          "date": "2026-10-08",
+          "wert": 0.0
         }
       ],
-      "schnitt": 9.2
+      "schnitt": 7.4
     },
     "zr-anwalt:form:012": {
       "stability": 160.44,
@@ -1470,20 +1556,24 @@
       "schnitt": 14.0
     },
     "zr-004": {
-      "stability": 8.0,
-      "difficulty": 4.85,
-      "due": "2026-10-07",
-      "last": "2026-09-29",
+      "stability": 3.2,
+      "difficulty": 5.15,
+      "due": "2026-10-11",
+      "last": "2026-10-08",
       "gezeigt": "2026-09-25",
-      "reps": 1,
+      "reps": 2,
       "unbeantwortet": 7,
       "punkte": [
         {
           "date": "2026-09-29",
           "wert": 11.0
+        },
+        {
+          "date": "2026-10-08",
+          "wert": 0.0
         }
       ],
-      "schnitt": 11.0
+      "schnitt": 5.5
     },
     "zr-staat:aufb:076": {
       "stability": 0.0,
@@ -1522,12 +1612,12 @@
       "unbeantwortet": 11
     },
     "zr-005": {
-      "stability": 22.8,
-      "difficulty": 4.85,
-      "due": "2026-10-22",
-      "last": "2026-09-29",
+      "stability": 9.12,
+      "difficulty": 5.15,
+      "due": "2026-10-17",
+      "last": "2026-10-08",
       "gezeigt": "2026-09-28",
-      "reps": 2,
+      "reps": 3,
       "unbeantwortet": 2,
       "punkte": [
         {
@@ -1537,9 +1627,13 @@
         {
           "date": "2026-09-29",
           "wert": 11.0
+        },
+        {
+          "date": "2026-10-08",
+          "wert": 0.0
         }
       ],
-      "schnitt": 8.5
+      "schnitt": 5.7
     },
     "zr-anwalt:form:016": {
       "stability": 37.91,
@@ -1602,12 +1696,12 @@
       "schnitt": 7.0
     },
     "zr-001": {
-      "stability": 22.8,
-      "difficulty": 4.85,
-      "due": "2026-10-26",
-      "last": "2026-10-03",
+      "stability": 9.12,
+      "difficulty": 5.15,
+      "due": "2026-10-17",
+      "last": "2026-10-08",
       "gezeigt": "2026-10-02",
-      "reps": 2,
+      "reps": 3,
       "punkte": [
         {
           "date": "2026-09-16",
@@ -1616,9 +1710,13 @@
         {
           "date": "2026-10-03",
           "wert": 12.0
+        },
+        {
+          "date": "2026-10-08",
+          "wert": 0.0
         }
       ],
-      "schnitt": 9.5
+      "schnitt": 6.3
     },
     "zr-staat:form:004": {
       "stability": 27.47,
@@ -1754,34 +1852,46 @@
       "schnitt": 0.0
     },
     "zr-002": {
-      "stability": 4.0,
-      "difficulty": 5.0,
-      "due": "2026-09-22",
-      "last": "2026-09-18",
+      "stability": 1.0,
+      "difficulty": 5.6,
+      "due": "2026-10-09",
+      "last": "2026-10-08",
       "gezeigt": "2026-10-05",
-      "reps": 1,
+      "reps": 3,
       "punkte": [
         {
           "date": "2026-09-18",
           "wert": 8.0
+        },
+        {
+          "date": "2026-10-08",
+          "wert": 0.0
+        },
+        {
+          "date": "2026-10-08",
+          "wert": 1.0
         }
       ],
-      "schnitt": 8.0
+      "schnitt": 3.0
     },
     "zr-staat:form:006": {
-      "stability": 8.0,
-      "difficulty": 4.85,
-      "due": "2026-09-26",
-      "last": "2026-09-18",
+      "stability": 3.2,
+      "difficulty": 5.15,
+      "due": "2026-10-11",
+      "last": "2026-10-08",
       "gezeigt": "2026-10-05",
-      "reps": 1,
+      "reps": 2,
       "punkte": [
         {
           "date": "2026-09-18",
           "wert": 9.0
+        },
+        {
+          "date": "2026-10-08",
+          "wert": 0.0
         }
       ],
-      "schnitt": 9.0
+      "schnitt": 4.5
     },
     "lesetext:olgbamb-2022-09-06-10-u-5722:1": {
       "stability": 1.0,
@@ -1833,19 +1943,23 @@
       "schnitt": 4.0
     },
     "zr-003": {
-      "stability": 8.0,
-      "difficulty": 4.85,
-      "due": "2026-09-30",
-      "last": "2026-09-22",
+      "stability": 3.2,
+      "difficulty": 5.15,
+      "due": "2026-10-11",
+      "last": "2026-10-08",
       "gezeigt": "2026-10-07",
-      "reps": 1,
+      "reps": 2,
       "punkte": [
         {
           "date": "2026-09-22",
           "wert": 9.0
+        },
+        {
+          "date": "2026-10-08",
+          "wert": 0.0
         }
       ],
-      "schnitt": 9.0
+      "schnitt": 4.5
     },
     "zr-staat:form:007": {
       "stability": 8.0,
@@ -2141,12 +2255,19 @@
       "schnitt": 6.0
     },
     "zr-staat:form:012": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 1.0,
+      "difficulty": 5.3,
+      "due": "2026-10-09",
+      "last": "2026-10-08",
       "gezeigt": "2026-10-05",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-10-08",
+          "wert": 0.0
+        }
+      ],
+      "schnitt": 0.0
     },
     "zr-staat:form:013": {
       "stability": 0.0,
@@ -2181,7 +2302,7 @@
       "reps": 0
     }
   },
-  "letzter_korrekturlauf": "2026-10-07",
+  "letzter_korrekturlauf": "2026-10-08",
   "gesperrt": [
     "zr-anwalt:form:014"
   ]
