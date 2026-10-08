@@ -22,13 +22,16 @@ API = "https://api.anthropic.com/v1/messages"
 VERSION = "2023-06-01"
 
 
+_ABGESCHNITTEN: set[str] = set()
+
+
 def complete(prompt: str, max_tokens: int = 3000) -> str:
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         raise RuntimeError("ANTHROPIC_API_KEY nicht gesetzt")
 
     last_err = None
-    for model in MODELS:
+    for model in [m for m in MODELS if m not in _ABGESCHNITTEN] or MODELS:
         payload = json.dumps({
             "model": model,
             "max_tokens": max_tokens,
@@ -63,6 +66,9 @@ def complete(prompt: str, max_tokens: int = 3000) -> str:
                 text = next((b["text"] for b in data.get("content", [])
                              if b.get("type") == "text" and b.get("text")), None)
                 if data.get("stop_reason") == "max_tokens":
+                    # Fuer den Rest des Laufs direkt das naechste Modell nehmen,
+                    # statt bei jedem Aufruf erneut Minuten zu warten.
+                    _ABGESCHNITTEN.add(model)
                     raise ValueError("Antwort auch mit vierfachem Budget abgeschnitten")
             if text is None:
                 raise ValueError(f"Antwort ohne Textblock (stop_reason={data.get('stop_reason')})")
