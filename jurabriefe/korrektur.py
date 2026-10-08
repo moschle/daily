@@ -169,9 +169,14 @@ def hole_antworten(erledigt: set[str], tage: int = FENSTER) -> list[dict]:
             mid = (msg.get("Message-ID") or "").strip()
             if not mid or mid in erledigt:
                 continue
-            if adresse.lower() in (msg.get("From") or "").lower():
-                continue                      # eigener Brief, keine Antwort
+            if _eigene_mail(msg, adresse):
+                continue                      # eigener Brief oder eigene Auswertung
             subject = str(make_header(decode_header(msg.get("Subject", ""))))
+            # Nur Antworten werten. In "Alle Nachrichten" liegen auch die gesendeten
+            # Briefe; am 08.10.2026 wurden sie als Bearbeitungen gelesen, weil sie als
+            # @googlemail.com abgehen, GMAIL_ADDRESS aber @gmail.com lautet.
+            if not re.match(r"\s*(re|aw|antw|wg|fwd?)\s*:", subject, re.I):
+                continue
             eintrag = einordnen(subject, _text_aus(msg))
             if not eintrag:
                 print(f"verworfen: {subject!r}", file=sys.stderr)
@@ -184,6 +189,14 @@ def hole_antworten(erledigt: set[str], tage: int = FENSTER) -> list[dict]:
 
 
 VERWORFEN: list[dict] = []
+
+
+def _eigene_mail(msg, adresse: str) -> bool:
+    """Absender ist das Bot-Konto - gmail.com und googlemail.com sind dasselbe Postfach."""
+    lokal = adresse.lower().split("@")[0]
+    von = (msg.get("From") or "").lower()
+    return any(f"{lokal}@{d}" in von for d in ("gmail.com", "googlemail.com")) \
+        or adresse.lower() in von
 
 
 def _alle_nachrichten(M) -> str:
