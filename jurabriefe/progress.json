@@ -1,7 +1,7 @@
 {
   "gewichte": {
     "zr-001": 0.8,
-    "zr-002": 1.7,
+    "zr-002": 0.8,
     "zr-003": 0.8,
     "zr-004": 0.8,
     "zr-005": 0.8,
@@ -49,7 +49,8 @@
     "zr-staat:form:011": 0.8,
     "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:1": 0.8,
     "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:2": 0.8,
-    "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:3": 1.1
+    "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:3": 1.1,
+    "zr-staat:form:012": 0.8
   },
   "feedback": [
     {
@@ -1353,6 +1354,33 @@
       "grade": null,
       "interval": 7,
       "detail": ""
+    },
+    {
+      "date": "2026-10-08",
+      "case_id": "zr-staat:form:012",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "",
+      "punkte": 18.0
+    },
+    {
+      "date": "2026-10-08",
+      "case_id": "zr-staat:form:006",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 44,
+      "detail": "Reihenfolge weicht von der Konvention ab: im Rubrum steht die gesetzliche Vertretung direkt nach dem Namen, vor der Anschrift, nicht danach; zudem fehlt ein Leerzeichen nach dem Komma vor der Anschrift.",
+      "punkte": 12.0
+    },
+    {
+      "date": "2026-10-08",
+      "case_id": "zr-002",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 23,
+      "detail": "Mehrere Rubren für verschiedene Parteiformen (GmbH, OHG, natürliche Person, Behörde) in der festen Reihenfolge Name – Vertretung – Anschrift – Parteibezeichnung einüben.",
+      "punkte": 15.0
     }
   ],
   "letzte_anpassung": null,
@@ -1754,34 +1782,42 @@
       "schnitt": 0.0
     },
     "zr-002": {
-      "stability": 4.0,
-      "difficulty": 5.0,
-      "due": "2026-09-22",
-      "last": "2026-09-18",
+      "stability": 22.8,
+      "difficulty": 4.85,
+      "due": "2026-10-31",
+      "last": "2026-10-08",
       "gezeigt": "2026-10-05",
-      "reps": 1,
+      "reps": 2,
       "punkte": [
         {
           "date": "2026-09-18",
           "wert": 8.0
+        },
+        {
+          "date": "2026-10-08",
+          "wert": 15.0
         }
       ],
-      "schnitt": 8.0
+      "schnitt": 11.5
     },
     "zr-staat:form:006": {
-      "stability": 8.0,
-      "difficulty": 4.85,
-      "due": "2026-09-26",
-      "last": "2026-09-18",
+      "stability": 44.08,
+      "difficulty": 4.7,
+      "due": "2026-11-21",
+      "last": "2026-10-08",
       "gezeigt": "2026-10-05",
-      "reps": 1,
+      "reps": 2,
       "punkte": [
         {
           "date": "2026-09-18",
           "wert": 9.0
+        },
+        {
+          "date": "2026-10-08",
+          "wert": 12.0
         }
       ],
-      "schnitt": 9.0
+      "schnitt": 10.5
     },
     "lesetext:olgbamb-2022-09-06-10-u-5722:1": {
       "stability": 1.0,
@@ -2141,12 +2177,19 @@
       "schnitt": 6.0
     },
     "zr-staat:form:012": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-16",
+      "last": "2026-10-08",
       "gezeigt": "2026-10-05",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-10-08",
+          "wert": 18.0
+        }
+      ],
+      "schnitt": 18.0
     },
     "zr-staat:form:013": {
       "stability": 0.0,
@@ -2181,7 +2224,7 @@
       "reps": 0
     }
   },
-  "letzter_korrekturlauf": "2026-10-07",
+  "letzter_korrekturlauf": "2026-10-08",
   "gesperrt": [
     "zr-anwalt:form:014"
   ]
