@@ -1754,23 +1754,19 @@
       "schnitt": 0.0
     },
     "zr-002": {
-      "stability": 1.6,
-      "difficulty": 5.3,
-      "due": "2026-10-08",
-      "last": "2026-10-06",
+      "stability": 4.0,
+      "difficulty": 5.0,
+      "due": "2026-09-22",
+      "last": "2026-09-18",
       "gezeigt": "2026-10-05",
-      "reps": 2,
+      "reps": 1,
       "punkte": [
         {
           "date": "2026-09-18",
           "wert": 8.0
-        },
-        {
-          "date": "2026-10-06",
-          "wert": 2.0
         }
       ],
-      "schnitt": 5.0
+      "schnitt": 8.0
     },
     "zr-staat:form:006": {
       "stability": 8.0,

@@ -110,21 +110,28 @@ def einordnen(subject: str, body: str) -> dict | None:
     eigen = ohne_zitat(body)
     streichen = sorted({int(n) for g1, g2 in STREICHEN.findall(eigen)
                         for n in re.findall(r"\d{1,2}", g1 or g2)})
-    if len(eigen) >= MIN_KLAUSUR:
+    kopf = erste_zeile(body)
+    # Selbstwertung nur, wenn die Mail aus nichts als der Wertung besteht ("3",
+    # "9 Punkte", "SCORE: 4"). Am 05.10.2026 wurde die kurze Antwort "1. Die Kosten
+    # des Verfahrens traegt der Beklagte. 2. ..." als Selbstwertung "1" = 2 Punkte
+    # gelesen; die Bearbeitung wurde nie korrigiert.
+    p = re.fullmatch(r"\s*(?:SCORE:\s*)?(\d{1,2})\s*(?:punkte|p)?\.?\s*(?:[-–—:].*)?", kopf, re.I)
+    if p and not re.match(r"\s*\d{1,2}\s*[.)]\s*\S", kopf) and len(eigen) <= len(kopf) + 200:
+        wert = int(p.group(1))
+        punkte = wert if "punkt" in kopf.lower() or wert > 5 else {0: 0, 1: 2, 2: 4, 3: 7, 4: 10, 5: 13}[wert]
+        return {"art": "punkte", "case_id": case_id, "punkte": punkte}
+    wort = re.match(r"\s*([A-Za-zÄÖÜäöüß]+)", kopf)   # nur Woerter, "1." ist keine Note
+    if wort and parse_note(wort.group(1)) is not None and len(eigen) <= len(kopf) + 200:
+        rest = kopf[wort.end():].strip(" :,-\u2013\u2014")
+        return {"art": "note", "case_id": case_id, "note": wort.group(1).lower(), "detail": rest}
+    # Alles andere mit Inhalt ist eine Bearbeitung und wird korrigiert, auch kurz:
+    # Kartenantworten sind oft nur zwei, drei Zeilen.
+    nur_streichen = streichen and not re.sub(STREICHEN, "", eigen).strip()
+    if len(re.sub(r"\s+", "", eigen)) >= 15 and not nur_streichen:
         return {"art": "klausur", "case_id": case_id, "text": eigen,
                 "datum": datum, "streichen": streichen}
     if streichen:                              # kurze Antwort, nur Streichwunsch
         return {"art": "streichen", "case_id": case_id, "datum": datum, "streichen": streichen}
-    kopf = erste_zeile(body)
-    p = re.match(r"\s*(?:SCORE:\s*)?(\d{1,2})\s*(?:punkte|p)?\b", kopf, re.I)
-    if p:
-        wert = int(p.group(1))
-        punkte = wert if "punkt" in kopf.lower() or wert > 5 else {1: 2, 2: 4, 3: 7, 4: 10, 5: 13}[wert]
-        return {"art": "punkte", "case_id": case_id, "punkte": punkte}
-    wort = re.match(r"\s*([\wäöüß]+)", kopf)
-    if wort and parse_note(wort.group(1)) is not None:
-        rest = kopf[wort.end():].strip(" :,-\u2013\u2014")
-        return {"art": "note", "case_id": case_id, "note": wort.group(1).lower(), "detail": rest}
     return None
 
 
@@ -151,7 +158,10 @@ def hole_antworten(erledigt: set[str], tage: int = FENSTER) -> list[dict]:
     gefunden = []
     with imaplib.IMAP4_SSL("imap.gmail.com") as M:
         M.login(adresse, pw)
-        M.select("INBOX")
+        # In "Alle Nachrichten" suchen, nicht nur in der INBOX: eine einmal
+        # weggeraeumte oder von Hand archivierte Antwort bleibt so auffindbar.
+        # Ob sie schon bearbeitet ist, entscheidet allein state.json.
+        M.select(_alle_nachrichten(M), readonly=True)
         _, daten = M.search(None, f'(SUBJECT "Jurabrief" SINCE {seit})')
         for num in (daten[0].split() if daten and daten[0] else []):
             _, roh = M.fetch(num, "(RFC822)")
@@ -165,10 +175,27 @@ def hole_antworten(erledigt: set[str], tage: int = FENSTER) -> list[dict]:
             eintrag = einordnen(subject, _text_aus(msg))
             if not eintrag:
                 print(f"verworfen: {subject!r}", file=sys.stderr)
+                VERWORFEN.append({"mid": mid, "betreff": subject, "von": msg.get("From", ""),
+                                  "datum": msg.get("Date", "")})
                 continue
             eintrag["mid"] = mid
             gefunden.append(eintrag)
     return gefunden
+
+
+VERWORFEN: list[dict] = []
+
+
+def _alle_nachrichten(M) -> str:
+    try:
+        _, liste = M.list()
+        for z in liste or []:
+            z = z.decode("utf-8", "replace")
+            if "\\All" in z:
+                return z.split(' "/" ')[-1]
+    except Exception:
+        pass
+    return "INBOX"
 
 
 def aufraeumen(mids: set[str], tage: int = FENSTER) -> int:
@@ -381,6 +408,24 @@ def main() -> int:
         send_mail(f"Auswertung — {case['gebiet']} [{case['id']}] {k['punkte']} Punkte",
                   als_mail(case, k, progress["cards"][case["id"]].get("schnitt")))
         print(f"{case['id']} {k['punkte']} Punkte -> +{res['interval']}d", file=sys.stderr)
+
+    # Nichts still verwerfen: was sich nicht einordnen liess, geht als Hinweis an
+    # den Betreiber (GMAIL_ADDRESS), nicht an die Bearbeiterin, und wird nur einmal gemeldet.
+    if VERWORFEN:
+        betreiber = (os.environ.get("GMAIL_ADDRESS") or "").strip()
+        zeilen = ["Diese Antworten konnte die Korrektur nicht zuordnen und hat sie nicht bewertet:", ""]
+        zeilen += [f"- {v['datum']} | {v['von']} | {v['betreff']}" for v in VERWORFEN]
+        try:
+            msg = EmailMessage()
+            msg["From"], msg["To"] = betreiber, betreiber
+            msg["Subject"] = f"Jurabrief-Korrektur: {len(VERWORFEN)} Antwort(en) nicht zugeordnet"
+            msg.set_content("\n".join(zeilen))
+            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
+                s.login(betreiber, (os.environ.get("GMAIL_APP_PASSWORD") or "").strip())
+                s.send_message(msg)
+            erledigt |= {v["mid"] for v in VERWORFEN}
+        except Exception as e:
+            print(f"Hinweis-Mail gescheitert: {e}", file=sys.stderr)
 
     progress["letzter_korrekturlauf"] = date.today().isoformat()
     _save(progress)

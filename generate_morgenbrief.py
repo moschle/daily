@@ -530,8 +530,14 @@ def generate_impulse():
 
     vorschlag = None
 
-    if wd in (0, 3) and q.get("buecher"):
-        b = random.choice(q["buecher"])
+    # Nachschlagewerke, Zeitschriftenhefte und Harry Potter taugen nicht fuer
+    # "eine Seite lesen" (08.10.2026: Persian-English Wiktionary dictionary).
+    nicht_lesen = re.compile(r"dictionary|wiktionary|wörterbuch|lexikon|rowling|harry potter|"
+                             r"arabic today|newsnet|review \d", re.I)
+    buecher = [b for b in q.get("buecher", []) if not nicht_lesen.search(
+        f"{b.get('titel', '')} {b.get('autor', '')}")]
+    if wd in (0, 3) and buecher:
+        b = random.choice(buecher)
         titel = b.get("titel", "").strip()
         autor = b.get("autor", "").strip()
         wie = autor and f"{titel} von {autor}" or titel

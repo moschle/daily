@@ -73,62 +73,6 @@
           "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter"
         }
       ]
-    },
-    "zr-003@07.10.": {
-      "case_id": "zr-003",
-      "datum": "2026-10-07",
-      "karten": [
-        {
-          "nr": 1,
-          "id": "zr-staat:form:013",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie die Kostenentscheidung für den Fall, dass der Beklagte die Kosten seiner Säumnis trägt und der Kläger die übrigen Kosten.",
-          "loesung": "Der Beklagte hat die Kosten seiner Säumnis zu tragen; die übrigen Kosten des Rechtsstreits hat der Kläger zu tragen.",
-          "gewicht": 3,
-          "skript": "zr-staat",
-          "abschnitt": "I. Einführung › 2. Kostenentscheidung"
-        },
-        {
-          "nr": 2,
-          "id": "zr-staat:form:007",
-          "typ": "formulierung",
-          "frage": "Formulieren Sie das Rubrum für eine AG als Klägerin: Mega AG, Hainerpfad 7, 15299 Müllrose, gesetzlich vertreten durch ihre Vorstandsmitglieder Heike Müller, Jenny Golz und Sabine Erbs.",
-          "loesung": "der Mega AG, gesetzlich vertreten durch ihre Vorstandsmitglieder Heike Müller, Jenny Golz und Sabine Erbs, Hainerpfad 7, 15299 Müllrose, Klägerin,",
-          "gewicht": 1,
-          "skript": "zr-staat",
-          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter"
-        },
-        {
-          "nr": 3,
-          "id": "lesetext:lg-hamburg-2019-02-19-310-s-618:1",
-          "typ": "fall",
-          "frage": "Im Urteil des LG Hamburg vom 19.02.2019 (310 S 6/18) klagte eine Verwertungsgesellschaft gegen die Betreiberin einer Spielhalle auf Zahlung von Lizenzgebühren wegen angeblicher öffentlicher Wiedergabe von TV-Sendungen über einen Großbildfernseher. Nach Erwirkung eines Vollstreckungsbescheids und Einspruch der Beklagten fand vor dem Amtsgericht ein Termin 'zur mündlichen Verhandlung' statt, bei dem aus dem Protokoll jedoch keine ausdrückliche Antragstellung hervorging; später erklärte die Klägerin per Schriftsatz die Rücknahme der Klage, der die Beklagte widersprach. Das Amtsgericht entschied dennoch in der Sache und wies die Klage ab. Wie hat das Landgericht Hamburg über die Berufung entschieden und mit welcher zentralen Begründung?",
-          "loesung": "Das LG Hamburg hob das amtsgerichtliche Urteil auf und stellte fest, dass die Klage bereits durch Schriftsatz vom 13.02.2018 wirksam zurückgenommen worden war; im Übrigen (Antrag auf Bestätigung des Vollstreckungsbescheids) wurde die Berufung zurückgewiesen. Tragend war, dass die Klagerücknahme nach § 269 Abs. 1 ZPO ohne Einwilligung der Beklagten zulässig war, weil vor Erklärung der Rücknahme kein 'mündliches Verhandeln' der Beklagten stattgefunden hatte. Weder aus dem Protokoll noch aus dem Tatbestand des amtsgerichtlichen Urteils ließ sich entnehmen, dass die Parteien ausdrücklich Sachanträge gestellt hatten; nach § 314 S. 1 ZPO und § 164 S. 1, § 165 ZPO galt damit als bewiesen, dass diese Förmlichkeit nicht gewahrt wurde. Da die Klage somit wirksam zurückgenommen war, war die Sachentscheidungsbefugnis des Amtsgerichts entfallen (Parteimaxime), sodass das Sachurteil keinen Bestand haben konnte. Zugleich war der Vollstreckungsbescheid gemäß § 269 Abs. 3 S. 1 Hs. 2 ZPO kraft Gesetzes wirkungslos geworden, weshalb der Antrag auf dessen Aufrechterhaltung keinen Erfolg hatte.",
-          "gewicht": 2,
-          "skript": "zr-staat",
-          "abschnitt": "Lesetext Landgericht Hamburg lg-hamburg 310 S 6/18"
-        },
-        {
-          "nr": 4,
-          "id": "lesetext:lg-hamburg-2019-02-19-310-s-618:2",
-          "typ": "fall",
-          "frage": "Die Entscheidung des LG Hamburg (310 S 6/18, Urteil vom 19.02.2019) dreht sich um die Frage, ob und wann im Zivilprozess ein 'mündliches Verhandeln' im Sinne von § 269 Abs. 1 ZPO beginnt, wenn zwar ein Verhandlungstermin stattgefunden und möglicherweise eine Erörterung der Sach- und Rechtslage (einschließlich einer Anregung zur EuGH-Vorlage) stattgefunden hat, eine förmliche Antragstellung der Parteien aber nicht nachweisbar ist. Welchen rechtlichen Maßstab legt das Gericht an, um zu bestimmen, ob bereits 'mündlich verhandelt' wurde, und wie grenzt es diesen von der abweichenden Rechtsprechung des BGH in Familiensachen ab?",
-          "loesung": "Das LG Hamburg schließt sich der Auffassung an, dass im Zivilprozess ein mündliches Verhandeln im Sinne des § 269 Abs. 1 ZPO grundsätzlich erst mit der förmlichen Stellung der Sachanträge beginnt (§ 137 Abs. 1 ZPO als Leitbild), auch wenn zuvor bereits der Sach- und Streitstand erörtert wurde. Maßgeblich hierfür sind das Gebot der Rechtsklarheit (ein eindeutiger, feststellbarer Zeitpunkt ist erforderlich, da an den Beginn der mündlichen Verhandlung weitreichende Folgen wie der Ausschluss der freien Klagerücknahme, Präklusion nach § 296 ZPO und der Ausschluss der 'Flucht in die Säumnis' geknüpft sind) sowie das praktische Bedürfnis, dem Kläger nach Erörterung der Erfolgsaussichten noch eine freie Entscheidung über die Klagerücknahme zu ermöglichen, ohne dass der Beklagte die Einwilligung verweigern kann. Die gegenteilige Entscheidung des BGH (Beschluss vom 23.06.2004, XII ZB 212/01) zu einem Scheidungsverfahren, wonach ein Verhandeln zur Hauptsache auch ohne eigenen Antrag des Antragsgegners vorliegen kann, wird als nicht übertragbar angesehen, weil dort bereits ein Antrag der Gegenseite (Scheidungsantrag) ausdrücklich gestellt worden war und sich die Erklärung des Antragsgegners hierauf bezog; vorliegend fehlte es dagegen an jeder ausdrücklichen Antragstellung einer der Parteien. Auch die bloße Terminierung 'zur mündlichen Verhandlung' (statt zur Güteverhandlung) und die Anregung einer EuGH-Vorlage durch den Beklagtenvertreter genügen nicht, um ohne Antragstellung ein mündliches Verhandeln anzunehmen, da sonst die gesetzliche Abstufung zwischen Eröffnung der Verhandlung (§ 136 ZPO) und ihrem Beginn durch Antragstellung (§ 137 ZPO) unterlaufen würde.",
-          "gewicht": 2,
-          "skript": "zr-staat",
-          "abschnitt": "Lesetext Landgericht Hamburg lg-hamburg 310 S 6/18"
-        },
-        {
-          "nr": 5,
-          "id": "lesetext:lg-hamburg-2019-02-19-310-s-618:3",
-          "typ": "fall",
-          "frage": "Aus dem Urteil des LG Hamburg vom 19.02.2019 (310 S 6/18) ergibt sich, dass im erstinstanzlichen Verhandlungstermin keine förmlichen Sachanträge protokolliert wurden, obwohl dies nach § 160 Abs. 3 Nr. 2 ZPO erforderlich gewesen wäre, und dass sowohl das Amtsgericht als auch beide Parteien offenbar irrtümlich von einer bereits erfolgten Antragstellung bzw. fortbestehenden Rechtshängigkeit ausgingen (ersichtlich etwa daran, dass ein Verkündungstermin bestimmt und später die mündliche Verhandlung wiedereröffnet wurde). Welche praktische Konsequenz folgt aus dieser Entscheidung für die anwaltliche und richterliche Praxis hinsichtlich der Protokollierung und Antragstellung in der mündlichen Verhandlung?",
-          "loesung": "Die Entscheidung verdeutlicht, dass die ausdrückliche Stellung der Sachanträge in der mündlichen Verhandlung zwingend protokolliert werden muss, da nach § 164 S. 1 ZPO nur eine im Protokoll ausgewiesene Antragstellung als bewiesen gilt; fehlt der entsprechende Protokollvermerk, gilt umgekehrt als bewiesen, dass keine Antragstellung erfolgt ist, selbst wenn alle Beteiligten subjektiv von einer ordnungsgemäßen Verhandlung ausgegangen sind. Für die anwaltliche Praxis folgt daraus, dass Prozessbevollmächtigte im Termin stets auf eine ausdrückliche und im Protokoll festgehaltene Antragstellung hinwirken sollten, weil ansonsten die mit dem Beginn der mündlichen Verhandlung verknüpften Rechtsfolgen (z.B. Beschränkung der freien Klagerücknahme nach § 269 Abs. 1 ZPO, Präklusionswirkungen nach § 296 ZPO) nicht eintreten und im Nachhinein - etwa durch eine überraschende Klagerücknahme der Gegenseite - prozessuale Nachteile entstehen können. Für die richterliche Praxis folgt, dass bei der Protokollführung größte Sorgfalt auf die Dokumentation der Antragstellung zu verwenden ist, da andernfalls spätere Sachurteile trotz zwischenzeitlich wirksam gewordener Klagerücknahme ergehen können und dann wegen Fehlens der Sachentscheidungsbefugnis aufzuheben sind; zudem sollte vor Erlass eines Urteils stets geprüft werden, ob die Rechtshängigkeit der Klage (insbesondere bei zwischenzeitlichen Rücknahmeerklärungen) tatsächlich noch besteht.",
-          "gewicht": 2,
-          "skript": "zr-staat",
-          "abschnitt": "Lesetext Landgericht Hamburg lg-hamburg 310 S 6/18"
-        }
-      ]
     }
   },
   "erledigte_mails": [
@@ -136,7 +80,6 @@
     "<277DBF85-AA8A-4A05-9CF0-01037CAC9333@web.de>",
     "<5800FA05-F219-452C-91B9-CBF62C397468@web.de>",
     "<73BB208E-39F9-464C-BC20-A68DC3D79027@web.de>",
-    "<909052DD-0E5A-4610-8027-2D927F465F31@shirinatef.de>",
     "<96D4EEFB-9371-4297-B2F7-C7991F8C144F@web.de>",
     "<9970BF06-2AEF-4DFA-BE2D-4102088C62A2@web.de>",
     "<B577A288-D614-438A-9C7A-1DEF4E0515D1@web.de>",

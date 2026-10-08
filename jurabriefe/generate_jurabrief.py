@@ -196,6 +196,23 @@ def slice_urteil(text):
     return chunk if len(chunk) >= 180 and not _bad(chunk) else None
 
 
+# Nur erstinstanzliche Urteile (Wunsch der Bearbeiterin, 08.10.2026: zr-002 LG Stuttgart
+# 19 S 26/23 und zr-003 LG Hamburg 310 S 6/18 waren Berufungsurteile). Entscheidend ist
+# das Registerzeichen im Aktenzeichen: C (Amtsgericht, Zivil), O (Landgericht, erste
+# Instanz), K und A (Verwaltungsgericht). S, T, U, ZR usw. sind Rechtsmittelinstanzen.
+REGISTER = re.compile(r"\b\d{1,4}\s+([A-Z][A-Za-z]{0,3})\s+\d{1,6}/\d{2,4}\b")
+ERSTE_INSTANZ = {"C", "O", "OH", "K", "A"}
+RECHTSMITTEL = re.compile(r"auf die berufung|die berufung (?:der|des) |berufungsverfahren|"
+                          r"auf die revision|beschwerdeverfahren", re.I)
+
+
+def _erstinstanzlich(az: str, text: str) -> bool:
+    m = REGISTER.search(az or "") or REGISTER.search((text or "")[:3000])
+    if not m or m.group(1) not in ERSTE_INSTANZ:
+        return False
+    return not RECHTSMITTEL.search((text or "")[:4000])
+
+
 def _http_json(url):
     req = urllib.request.Request(url, headers={"User-Agent": "jurabrief/1.0"})
     with urllib.request.urlopen(req, timeout=20) as resp:
@@ -229,13 +246,15 @@ def search_related_case(case, seen_slugs):
     seen = set(seen_slugs or [])
     generic = [
         "Im Namen des Volkes Klaegerin Beklagte", "Landgericht Urteil Klaegerin",
-        "Amtsgericht Urteil Klaegerin", "Landgericht Berufung Urteil",
+        "Amtsgericht Urteil Klaegerin", "Landgericht Urteil erste Instanz",
         "Landgericht Halle", "Landgericht Magdeburg", "Amtsgericht Berlin"]
     terms = list(case.get("suchbegriffe") or []) + generic
     if _is_verw(case):
         terms = list(case.get("suchbegriffe") or []) + ["Verwaltungsgericht Im Namen des Volkes"] + generic
-    for q in terms:
-        hits = _old_search({"text": q, "page_size": "10"})
+    # Erste Instanz ist bei openlegaldata die Minderheit; deshalb je Begriff bis zu
+    # drei Seiten durchsehen statt nur der ersten zehn Treffer.
+    for q, seite in ((q, s) for q in terms for s in (1, 2, 3)):
+        hits = _old_search({"text": q, "page_size": "10", "page": str(seite)})
         print(f"OLD {q!r} {len(hits)} {[str(r.get('court')) for r in hits][:6]}", file=sys.stderr)
         for r in hits:
             slug = r.get("slug") or ""
@@ -259,6 +278,9 @@ def search_related_case(case, seen_slugs):
             if not shaped:
                 continue
             az = (detail or {}).get("file_number") or slug
+            if not _erstinstanzlich((detail or {}).get("file_number") or "", shaped):
+                print(f"OLD {slug}: keine erste Instanz ({az})", file=sys.stderr)
+                continue
             return {"gericht": court.strip() or slug,
                     "datum": (detail or {}).get("date") or r.get("date", ""),
                     "aktenzeichen": az,

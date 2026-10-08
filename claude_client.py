@@ -48,8 +48,11 @@ def complete(prompt: str, max_tokens: int = 3000) -> str:
                 data = json.loads(resp.read())
             text = next((b["text"] for b in data.get("content", [])
                          if b.get("type") == "text" and b.get("text")), None)
-            if text is None and data.get("stop_reason") == "max_tokens":
-                # Neuere Modelle denken zuerst nach; das Budget reichte nicht bis zum Text.
+            if data.get("stop_reason") == "max_tokens":
+                # Neuere Modelle denken zuerst nach. Reicht das Budget nicht, fehlt der
+                # Text ganz oder er bricht mitten im Satz ab (Morgenbrief 08.10.2026:
+                # PROJEKTE endete auf "nach", ERLEDIGTES und AUSBLICK fehlten).
+                # In beiden Faellen mit vierfachem Budget neu anfragen.
                 req = urllib.request.Request(
                     API,
                     data=json.dumps({"model": model, "max_tokens": max_tokens * 4,
@@ -59,6 +62,8 @@ def complete(prompt: str, max_tokens: int = 3000) -> str:
                     data = json.loads(resp.read())
                 text = next((b["text"] for b in data.get("content", [])
                              if b.get("type") == "text" and b.get("text")), None)
+                if data.get("stop_reason") == "max_tokens":
+                    raise ValueError("Antwort auch mit vierfachem Budget abgeschnitten")
             if text is None:
                 raise ValueError(f"Antwort ohne Textblock (stop_reason={data.get('stop_reason')})")
             if model != MODELS[0]:

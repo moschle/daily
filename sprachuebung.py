@@ -83,7 +83,14 @@ def ist_bekannt(tok: str, K: set[str]) -> bool:
     t = norm(tok)
     if not t or t in FUNKTION or t in K:
         return True
-    kandidaten = {t, t.replace(ZWNJ, ""), t.split(ZWNJ)[0]}
+    kandidaten = {t, t.replace(ZWNJ, "")}
+    # Vor dem Halbabstand steht der Stamm nur, wenn danach eine Endung folgt
+    # (کتاب‌ها, خانه‌ای). Bei Komposita wie تاب‌آوری ist der erste Teil (تاب)
+    # bekannt, das Wort aber nicht - so ist am 08.10.2026 "Resilienz" durchgerutscht.
+    if ZWNJ in t:
+        kopf, _, rest = t.partition(ZWNJ)
+        if rest.replace(ZWNJ, "") in SUFFIXE:
+            kandidaten.add(kopf)
     for k in list(kandidaten):
         for p in PRAEFIX:
             if k.startswith(p) and len(k) - len(p) >= 2:
@@ -113,9 +120,14 @@ def stufe(n_bekannt_eintraege: int) -> tuple[str, str]:
     if n_bekannt_eintraege < 800:
         return "A2+", ("Kurze Hauptsätze, höchstens ein einfacher Nebensatz pro Satz. "
                        "Präsens, einfache Vergangenheit, Perfekt. Alltagsnahe Sätze.")
+    b1 = ("Das ist echtes B1, kein A2: zusammenhängender Text mit eigener Meinung oder kleiner "
+          "Erzählung statt einer Aufzählung von Fakten. Pflicht: mindestens zwei Relativsätze mit که, "
+          "mindestens ein Subjunktiv (باید/شاید/اگر + Subjunktiv), mindestens ein Nebensatz mit چون, "
+          "وقتی oder با این که, Vergangenheit im Imperfekt (می‌رفتم) neben dem einfachen Präteritum. "
+          "Mittellange Sätze. Klare, natürliche Sprache.")
     if n_bekannt_eintraege < 1500:
-        return "B1", "Mittellange Sätze, Relativsätze und Konjunktiv erlaubt. Klare, natürliche Sprache."
-    return "B1+", "Auch längere Sätze und Passiv; weiterhin natürliche, keine gehobene Schriftsprache."
+        return "B1", b1
+    return "B1+", b1 + " Dazu Passiv und längere Satzgefüge; keine gehobene Schriftsprache."
 
 
 # ─── Claude-Aufruf ────────────────────────────────────────────────────────
@@ -144,7 +156,8 @@ REGELN
 - Ohne Kurzvokalzeichen im Fließtext, aber normale Rechtschreibung: Madde (آب, آمد, می‌آورد, آلودگی), Hamze und Halbabstand (ZWNJ) immer setzen.
 - Lieber ein schlichter Satz als ein seltenes, gehobenes oder unpassendes Wort. Keine Füllsätze, keine schiefen Aussagen, keine Substantivierungen, die kein Iraner so sagen würde (z. B. nicht „غمگینی می‌آورد“).
 {wh}- Danach 2–3 Verständnisfragen auf Deutsch.
-- Nachricht: in 3–4 einfachen Sätzen auf Persisch nacherzählen, ebenfalls fast nur mit bekannten Wörtern; höchstens 2 weitere neue Wörter, genauso glossiert. NUR Inhalte aus Schlagzeile und Meldungstext unten, nichts hinzufügen, keine Sätze wie „این خبر امروز آمد“.
+- Nachricht: in 3–4 einfachen Sätzen auf Persisch nacherzählen, ebenfalls fast nur mit bekannten Wörtern; höchstens 2 weitere neue Wörter, genauso glossiert. NUR Inhalte aus Schlagzeile und Meldungstext unten, nichts hinzufügen. Die Quelle bleibt erhalten: Wenn Medien oder eine Person etwas berichten oder behaupten, schreib das so (رسانه‌های آمریکا گزارش می‌دهند …), nicht als Tatsache und nicht als Aussage eines Staates. Aus „bereitet sich vor“ wird nicht „will“. Jeder Satz trägt eine Information aus der Meldung; keine Füllsätze wie „این خبر امروز آمد“ oder „مردم این خبر را می‌شنوند“.
+- Glossiere NUR die neuen Wörter. Wörter aus der Wortschatzliste bekommen keine Klammer.
 {nachricht}{feedback}
 Antworte NUR mit JSON, ohne Markdown:
 {{"titel": "persischer Titel",
@@ -195,6 +208,27 @@ def _glossen_nachtragen(woerter, complete) -> list[tuple[str, str]]:
         return []
 
 
+GLOSSE = re.compile(r"([\u0600-\u06FF\u200c]+)\s*\(([^)]*[A-Za-zÄÖÜäöüß][^)]*)\)")
+
+
+def _glossen_bereinigen(d: dict, K: set[str]) -> dict:
+    """Klammern hinter bekannten Woertern entfernen (08.10.: آسمان (Himmel), ابر (Wolke)).
+
+    Glossiert bleibt nur, was in neue_vokabeln steht oder nicht im Wortschatz ist."""
+    neu = {w for v in d.get("neue_vokabeln", []) for w in _formen(v.get("fa", ""))}
+
+    def ersetze(m):
+        wort = m.group(1)
+        if ist_bekannt(wort, K) and not ist_bekannt(wort, neu):
+            return wort
+        return m.group(0)
+
+    for feld in ("text", "nachricht"):
+        if d.get(feld):
+            d[feld] = GLOSSE.sub(ersetze, d[feld])
+    return d
+
+
 def _json(roh: str) -> dict:
     roh = roh.strip()
     roh = re.sub(r"^```(?:json)?|```$", "", roh, flags=re.M).strip()
@@ -212,7 +246,16 @@ def erzeuge(lang_ex: dict, complete) -> dict:
                      if e.get("gelernt", True)]
     eintraege += [norm(v["word"]) for v in mem.get("fa", [])]
     stufe_name, stufe_txt = stufe(len(eintraege))
-    bekannt_liste = ", ".join(dict.fromkeys(eintraege))
+    # Die Liste fuer das Modell in echter Schreibung (nur ohne Kurzvokale). norm()
+    # tilgt auch das Madde; mit dieser Liste vor Augen schrieb das Modell dann
+    # اسمان, امده, افتابی statt آسمان, آمده, آفتابی.
+    anzeige_eintraege = []
+    if BEKANNT_FILE.exists():
+        anzeige_eintraege = [HAR.sub("", e["word"]).strip()
+                             for e in json.loads(BEKANNT_FILE.read_text(encoding="utf-8"))
+                             if e.get("gelernt", True)]
+    anzeige_eintraege += [HAR.sub("", v["word"]).strip() for v in mem.get("fa", [])]
+    bekannt_liste = ", ".join(dict.fromkeys(anzeige_eintraege))
     due = lang_ex.get("due_vocab") or []
 
     bestes, feedback = None, ""
@@ -237,20 +280,39 @@ def erzeuge(lang_ex: dict, complete) -> dict:
 
     quote, d = bestes
     d = _lektorat(d, K, quote, complete)
+    d = _glossen_bereinigen(d, K)
     liste = [((v.get("fa") or "").strip(), (v.get("de") or "").strip()) for v in d.get("neue_vokabeln", [])]
     liste = [(fa, de) for fa, de in liste if fa and de]
     # Was jetzt noch unbekannt ist, wurde weder ersetzt noch deklariert -> nachtragen
     neu_formen = {w for fa, _ in liste for w in _formen(fa)}
     _, rest = pruefe(d.get("text", "") + " " + d.get("nachricht", ""), K | neu_formen)
     liste += [(fa, de) for fa, de in _glossen_nachtragen(rest, complete) if fa and de]
-    # Brief: alle Wörter; Anki: nur, was noch nicht vollständig im Deck steht
+    # Woerter aus dem Morgenbrief-Gedaechtnis gelten 60 Tage als bekannt und werden
+    # unglossiert wiederholt. Im Anki-Deck stehen sie damit aber noch nicht: die 28
+    # Woerter vom 20.09. (darunter تاب‌آوری) kamen vor dem Anki-Paket und fehlten im
+    # Deck. Massstab fuer "im Deck" ist deshalb allein der Anki-Stand (bekannt_fa.json).
+    deck = set()
+    if BEKANNT_FILE.exists():
+        for e in json.loads(BEKANNT_FILE.read_text(encoding="utf-8")):
+            deck |= _formen(e.get("word", ""))
+    neu_formen = {w for fa, _ in liste for w in _formen(fa)}
+    _, ohne_karte = pruefe(d.get("text", "") + " " + d.get("nachricht", ""), deck | neu_formen)
+    wiederholt = set()
+    for tok in ohne_karte:
+        for v in mem.get("fa", []):
+            if ist_bekannt(tok, _formen(v["word"])):
+                liste.append((v["word"], v.get("meaning", "")))
+                wiederholt.add(norm(v["word"]))
+                break
+    # Brief: alle Wörter; Anki: alles, was noch nicht im Deck steht
     gesehen, anzeige, neue = set(), [], []
     for fa, de in liste:
-        if norm(fa) in gesehen:
+        if norm(fa) in gesehen or not (fa and de):
             continue
         gesehen.add(norm(fa))
-        im_deck = bool(_formen(fa)) and _formen(fa) <= alle
-        anzeige.append(f"{fa} – {de}" + (" (schon im Deck)" if im_deck else ""))
+        im_deck = bool(_formen(fa)) and _formen(fa) <= deck
+        zusatz = " (schon im Deck)" if im_deck else (" (Wiederholung, neu im Anki-Paket)" if norm(fa) in wiederholt else "")
+        anzeige.append(f"{fa} – {de}" + zusatz)
         if not im_deck:
             neue.append((fa, de))
     fragen = "\n".join(f"{i}. {q}" for i, q in enumerate(d.get("fragen", []), 1))

@@ -26,10 +26,8 @@ Moritz baut Routinen auf. Stetigkeit vor Perfektion.
 
 ### Sprachtraining — nur Persisch
 Keine Arabisch-Tage mehr. Jeden Tag Persisch:
-– GLOSS Farsi (gloss.dliflc.edu) — 1 Lektion/Tag
 – Pimsleur Farsi — 1 Lektion, 30 Min.
 – Glossika Persisch — 20 Min.
-– Harry Potter auf Persisch — 10–15 Seiten abends
 – Once Upon a Time in Iran — 1–2 Episoden/Woche
 – Morgenbrief-Sprachübung (Persisch) mit Anki-Paket
 – Preply: Persisch
@@ -37,7 +35,7 @@ Anki: eigenes Deck „Persisch“; die neuen Wörter der Sprachübung kommen tä
 
 ### Tagesablauf
 – Morgens: Morgenbrief → Bewegung → Pimsleur Farsi (30 Min.) → Frühstück → Lesen in Zielsprache (15 Min.)
-– Tagsüber: DNB — Arbeit. Mittags 20 Min. Lehrbuch. Nachmittags: Preply oder GLOSS-Lektion oder Fachbuch.
+– Tagsüber: Arbeit. Mittags 20 Min. Lehrbuch. Nachmittags: Preply oder Fachbuch.
 – Abends: Frei — Belletristik, Film, Freunde, Kochen.
 
 Samstag: Garten, offline. Sonntag: frei, 17:00 Wochenplanung.
@@ -58,11 +56,11 @@ WICHTIG: Der Morgenbrief unterstützt, setzt nicht unter Druck. An vollen Tagen 
 1. WETTER — Leipzig/Roitzsch, Temperatur, Niederschlag, je ein Satz.
 
 2. HEUTE — Kalendertermine [HEUTE], 2–3 wichtigste Aufgaben, Deadlines.
-Darunter ein kurzer Sprachhinweis (nur Persisch), z. B. "Pimsleur Farsi + GLOSS Farsi. Harry Potter abends."
+Darunter ein kurzer Sprachhinweis (nur Persisch), z. B. "Pimsleur Farsi, Anki-Paket importieren." NIE Harry Potter oder GLOSS vorschlagen – beides nutzt er nicht.
 
 3. IMPULS — EINEN Vorschlag, beiläufig. Nicht die ganze Liste. Wenn Tag voll ist, weglassen.
 
-4. PROJEKTE — Kurz. Nach Wochentag und Terminen.
+4. PROJEKTE — Kurz. Nach Wochentag und Terminen. Vollständige Sätze.
 
 5. ERLEDIGTES — Nur wenn vorhanden.
 
