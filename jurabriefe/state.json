@@ -1,6 +1,5 @@
 {
   "done": [
-    "zr-004",
     "zr-005",
     "zr-001",
     "zr-002",
@@ -19,9 +18,10 @@
     "zr-006",
     "zr-001",
     "zr-002",
-    "zr-003"
+    "zr-003",
+    "zr-001"
   ],
-  "last_id": "zr-003",
+  "last_id": "zr-001",
   "seen_slugs": [
     "olgdres-2021-11-16-4-u-116821",
     "kg--2020-09-30-3-161-ss-4920-48",
@@ -43,11 +43,69 @@
     "olgth-2020-06-26-4-u-27919",
     "ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923",
     "lg-stuttgart-2024-12-04-19-s-2623",
-    "lg-hamburg-2019-02-19-310-s-618"
+    "lg-hamburg-2019-02-19-310-s-618",
+    "lg-koln-2025-06-25-28-o-3725"
   ],
   "next_index": 1,
   "offen": {},
-  "offene_packs": {},
+  "offene_packs": {
+    "zr-001@08.10.": {
+      "case_id": "zr-001",
+      "datum": "2026-10-08",
+      "karten": [
+        {
+          "nr": 1,
+          "id": "zr-staat:form:014",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie die Entscheidung über die vorläufige Vollstreckbarkeit gegen Sicherheitsleistung.",
+          "loesung": "Das Urteil ist gegen Sicherheitsleistung in Höhe des jeweils zu vollstreckenden Betrages zuzüglich 10 % vorläufig vollstreckbar.",
+          "gewicht": 3,
+          "skript": "zr-staat",
+          "abschnitt": "I. Einführung › 3. Entscheidung über Vollstreckbarkeit"
+        },
+        {
+          "nr": 2,
+          "id": "zr-staat:form:007",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie das Rubrum für eine AG als Klägerin: Mega AG, Hainerpfad 7, 15299 Müllrose, gesetzlich vertreten durch ihre Vorstandsmitglieder Heike Müller, Jenny Golz und Sabine Erbs.",
+          "loesung": "der Mega AG, gesetzlich vertreten durch ihre Vorstandsmitglieder Heike Müller, Jenny Golz und Sabine Erbs, Hainerpfad 7, 15299 Müllrose, Klägerin,",
+          "gewicht": 1,
+          "skript": "zr-staat",
+          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter"
+        },
+        {
+          "nr": 3,
+          "id": "lesetext:lg-koln-2025-06-25-28-o-3725:1",
+          "typ": "fall",
+          "frage": "Das LG Köln hatte am 20.02.2025 eine einstweilige Verfügung erlassen, gegen die die Aufhebungsklägerin Teil-Widerspruch einlegte. Im Hinblick auf eine außergerichtlich abgegebene Unterlassungsverpflichtungserklärung erklärte die Aufhebungsbeklagte den Rechtsstreit insoweit für erledigt; durch (nicht rechtskräftiges) Urteil vom 28.05.2025 wurde die Erledigung festgestellt. Während des Widerspruchsverfahrens war der Aufhebungsbeklagten zudem mit Beschluss vom 21.03.2025 eine Frist von sechs Wochen zur Erhebung der Hauptsacheklage nach § 926 Abs. 1 ZPO gesetzt worden, woraufhin sie fristgerecht eine Klage erhob, die primär auf Feststellung der Erledigung und hilfsweise auf Unterlassung gerichtet war. Die Aufhebungsklägerin beantragte daraufhin die Aufhebung der einstweiligen Verfügung nach § 926 Abs. 2 ZPO mit der Begründung, es sei keine ordnungsgemäße Hauptsacheklage erhoben worden, da eine Feststellungsklage dem Zweck des § 926 ZPO nicht genüge. Wie hat das LG Köln entschieden und mit welcher zentralen Begründung?",
+          "loesung": "Das LG Köln wies den Aufhebungsantrag als zulässig, aber unbegründet zurück. Zulässig war der Antrag, weil die einstweilige Verfügung weder rechtskräftig aufgehoben noch durch übereinstimmende Erledigungserklärungen beendet war, sondern formal fortbestand; solange dies der Fall ist, besteht ein Rechtsschutzbedürfnis für den Aufhebungsantrag. Unbegründet war der Antrag jedoch, weil die Aufhebungsbeklagte innerhalb der gesetzten Frist eine ordnungsgemäße Hauptsacheklage erhoben hatte. Die Kammer stellte klar, dass die Hauptsacheklage i.S.d. § 926 ZPO formal sowohl als Leistungs- als auch als Feststellungsklage erhoben werden kann; entscheidend ist allein, dass die Klage inhaltlich den gesicherten Anspruch betrifft und – und sei es nur inzident – zur Überprüfung der Rechtmäßigkeit der Eilmaßnahme führt. Die erhobene Feststellungsklage auf Feststellung der Erledigung erfüllte diese Voraussetzung, da das Gericht im Rahmen dieser Klage inzident prüfen muss, ob der Verfügungsanspruch bei Antragstellung bestand – eine Prüfung, die sich materiell-rechtlich nicht von der im Rahmen eines Leistungsantrags unterscheidet und die (anders als im Eilverfahren) nicht nur summarisch erfolgt, da es sich um ein reguläres Hauptsacheverfahren handelt. Zudem bestand ein Feststellungsinteresse der Aufhebungsbeklagten, weil ihr ein Vorgehen gegen die Wirkungen des § 926 Abs. 2 ZPO offenstehen musste und eine Leistungsklage mangels Wiederholungsgefahr von vornherein unbegründet gewesen wäre.",
+          "gewicht": 2,
+          "skript": "zr-staat",
+          "abschnitt": "Lesetext Landgericht Köln lg-koln 28 O 37/25"
+        },
+        {
+          "nr": 4,
+          "id": "lesetext:lg-koln-2025-06-25-28-o-3725:2",
+          "typ": "fall",
+          "frage": "Im Zentrum der Entscheidung des LG Köln vom 25.06.2025 (28 O 37/25) stand die Frage, welche Anforderungen an eine fristgerechte 'Klage in der Hauptsache' nach § 926 Abs. 1 ZPO zu stellen sind, wenn der zugrundeliegende Unterlassungsanspruch durch eine im Eilverfahren abgegebene Unterwerfungserklärung bereits erledigt sein könnte, die Erledigung aber noch nicht rechtskräftig oder übereinstimmend festgestellt ist. Welcher Massstab ist nach Auffassung des Gerichts bei der Prüfung anzulegen, ob eine erhobene Klage den Anforderungen des § 926 ZPO genügt, und wie unterscheidet sich dieser Massstab von einer rein formalen Betrachtung der Klageart?",
+          "loesung": "Das Gericht legt einen materiellen, funktionalen Massstab an: Entscheidend ist nicht die formale Bezeichnung der Klage als Leistungs- oder Feststellungsklage, sondern ob die erhobene Klage inhaltlich den Anspruch betrifft, den die einstweilige Verfügung sichern soll, und ob sie – auch nur inzident – zur gerichtlichen Überprüfung der Rechtmäßigkeit der Eilmaßnahme führt (unter Bezugnahme auf BGH NJW 2001, 157, 159). Dieser Massstab stellt sicher, dass im Hauptsacheverfahren eine vollwertige, nicht nur summarische Prüfung des materiell-rechtlichen Bestehens des Verfügungsanspruchs zum maßgeblichen Zeitpunkt erfolgt – anders als im Eilverfahren, wo lediglich eine summarische Prüfung stattfindet. Eine rein formale Betrachtung, die etwa eine Feststellungsklage per se als unzureichend ansehen würde, würde dem Schutzzweck des § 926 ZPO nicht gerecht, da auch eine Feststellungsklage – hier auf Feststellung der nachträglichen Erledigung gerichtet – die erforderliche inzidente Prüfung des ursprünglichen Bestehens des Anspruchs ermöglicht. Zugleich ist zu prüfen, ob ein Feststellungsinteresse besteht; dieses ist zu bejahen, wenn die Erledigungssituation noch nicht zweifelsfrei (durch Rechtskraft oder übereinstimmende Erklärungen) feststeht und der Gläubiger andernfalls gezwungen wäre, eine von vornherein unbegründete Leistungsklage zu erheben, nur um der Rechtsfolge des § 926 Abs. 2 ZPO zu entgehen.",
+          "gewicht": 2,
+          "skript": "zr-staat",
+          "abschnitt": "Lesetext Landgericht Köln lg-koln 28 O 37/25"
+        },
+        {
+          "nr": 5,
+          "id": "lesetext:lg-koln-2025-06-25-28-o-3725:3",
+          "typ": "fall",
+          "frage": "Nach der Entscheidung des LG Köln (28 O 37/25, Urteil vom 25.06.2025) ist zu unterscheiden zwischen der Konstellation, in der die Erledigung des Verfügungsanspruchs bereits rechtskräftig oder durch übereinstimmende Erklärungen feststeht, und der Konstellation, in der dies – wie im entschiedenen Fall – noch nicht der Fall ist. Welche praktische Konsequenz ergibt sich aus dieser Unterscheidung für die anwaltliche Beratung einer Partei, die nach erfolgreicher Erwirkung einer einstweiligen Verfügung mit einer Unterwerfungserklärung des Gegners konfrontiert ist und eine Fristsetzung nach § 926 Abs. 1 ZPO erhält?",
+          "loesung": "Für die anwaltliche Praxis folgt daraus, dass die Wahl der richtigen Klageart in der Frist des § 926 Abs. 1 ZPO von der prozessualen Lage im Eilverfahren abhängt: Steht die Erledigung des Verfügungsanspruchs noch nicht zweifelsfrei fest (keine Rechtskraft, keine übereinstimmenden Erledigungserklärungen), muss und darf die Partei eine Feststellungsklage auf Feststellung der nachträglichen Erledigung erheben, da eine Leistungsklage mangels fortbestehender Wiederholungsgefahr von vornherein unbegründet wäre und ihr Rechtsschutzinteresse dafür fehlen würde. Steht die Erledigung dagegen bereits rechtskräftig oder durch übereinstimmende Erklärungen fest, entfällt sowohl das Rechtsschutzbedürfnis für einen Aufhebungsantrag nach § 926 Abs. 2 ZPO als auch – korrespondierend – das Feststellungsinteresse für eine entsprechende Hauptsacheklage, sodass eine Klageerhebung in diesem Stadium nicht mehr erforderlich bzw. nicht mehr zulässig ist. Für die Beratungspraxis bedeutet dies, dass der Verfahrensstand im Eilverfahren (Widerspruch noch anhängig, Erledigungserklärung nur einseitig, Urteil noch nicht rechtskräftig) genau zu prüfen ist, bevor über Art und Notwendigkeit der fristwahrenden Hauptsacheklage entschieden wird, um weder eine unzulässige noch eine unbegründete Klage zu erheben und so die Rechtsfolgen des § 926 Abs. 2 ZPO (Aufhebung der einstweiligen Verfügung mangels fristgerechter Hauptsacheklage) sicher zu vermeiden.",
+          "gewicht": 2,
+          "skript": "zr-staat",
+          "abschnitt": "Lesetext Landgericht Köln lg-koln 28 O 37/25"
+        }
+      ]
+    }
+  },
   "erledigte_mails": [
     "<1224C30F-9BFB-4F6F-8FF4-0A4E6CAB96B2@web.de>",
     "<277DBF85-AA8A-4A05-9CF0-01037CAC9333@web.de>",
@@ -62,5 +120,5 @@
     "<DDD4AD8A-8468-4A24-BC1F-91A6381C5787@web.de>",
     "<EE1DD304-AC61-4BA7-8DE0-18634AB30494@web.de>"
   ],
-  "letzter_brief": "2026-10-07"
+  "letzter_brief": "2026-10-08"
 }
