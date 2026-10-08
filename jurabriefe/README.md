@@ -1,6 +1,6 @@
 # Jurabrief
 
-Mo/Mi/Fr-Brief zur Vorbereitung auf die zweite juristische Staatsprüfung
+Di/Do/Sa-Brief zur Vorbereitung auf die zweite juristische Staatsprüfung
 (Sachsen-Anhalt), Ziel April 2027. Grundlage sind die Berliner
 Ausbildungsskripte des Kammergerichts als Volltext.
 
