@@ -311,10 +311,11 @@ def erzeuge(lang_ex: dict, complete) -> dict:
             continue
         gesehen.add(norm(fa))
         im_deck = bool(_formen(fa)) and _formen(fa) <= deck
-        zusatz = " (schon im Deck)" if im_deck else (" (Wiederholung, neu im Anki-Paket)" if norm(fa) in wiederholt else "")
+        if im_deck:          # bekannte Grundformen (بودن, کردن …) nicht auflisten
+            continue
+        zusatz = " (Wiederholung, neu im Anki-Paket)" if norm(fa) in wiederholt else ""
         anzeige.append(f"{fa} – {de}" + zusatz)
-        if not im_deck:
-            neue.append((fa, de))
+        neue.append((fa, de))
     fragen = "\n".join(f"{i}. {q}" for i, q in enumerate(d.get("fragen", []), 1))
     woerter = "\n".join(anzeige) or "–"
     abschnitt = (
