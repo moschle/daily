@@ -8,7 +8,7 @@
 - [ ] **ZEDAR Website-Texte** schreiben (Claim: feinste Seide für faire Preise), danach Deploy
 
 ## STAND 05.10.2026 — neue Stellen und Nebenjobs
-- [x] **BfV Initiativbewerbung Farsi/Dari** (karriere@bfv.bund.de) ABGESCHICKT 05.10.2026
+- [x] **BfV Initiativbewerbung Farsi/Dari** (karriere@bfv.bund.de) ABGESCHICKT 05.10.2026 — Antwort 08.10.2026: Aufnahme in den Talentpool angeboten (Kennziffer Z34 - FSM-0088, Speicherung 2 Jahre); Einverständnis per Mail an karriere@bfv.bund.de offen
 - Goethe Taschkent Praktikum: nicht verfolgt (05.10., kollidiert mit Forschungsreise). Goethe Kasachstan Honorarlehrkraft: nicht verfolgen.
 - [ ] DAAD Lektorate/Lehrassistenz 2027/28: Herbst-Ausschreibung pruefen (Vorjahresfrist Lehrassistenz 25.11.), Entwuerfe Beijing/Belem/Alger liegen vor
 - [ ] **FZ Jülich, Referent:in Internationale Forschungskooperationen / PGSBstrong (Palestinian-German Science Bridge)** — E13 TVöD Bund, 20–39 h, ortsflexibel nach Abstimmung, befristet bis 31.03.2031. Frist nicht angegeben → zügig. Beste Passung des Stapels (Arabisch, Nahost, Geisteswiss. zugelassen). Lücken: formales Projekt-/Qualitätsmanagement, palästinensische Partner. Belege: Warte für Kultur (Förderpraxis, Berichtswesen).
