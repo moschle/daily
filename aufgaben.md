@@ -2,6 +2,13 @@
 
 *Letzte Aktualisierung: 9. Oktober 2026*
 
+## STAND 09.10.2026 — Nebenjob Nachtdienst
+- [ ] **Di 13.10.2026 Telefoninterview Häusliche Krankenpflege Silke Krüger GmbH**, Nachtdienst Demenz-WGs (Herbstzauber Böhlitz-Ehrenberg / Elsterpassage Plagwitz), 60 h/Monat — Stand 09.10.: doch offen dafür (Routine). Falls schon abgesagt: Mo 12.10. anrufen und wieder zusagen. Im Gespräch klären: Bereitschafts- oder Wachnacht (darf man schlafen?), Anteil Wochenenden, Nacht-/Sonntags-/Feiertagszuschläge, Stundenlohn, Vertragsart, Kündigungsfrist, Einarbeitung
+- [ ] **Achtung Stipendium**: 60 h/Monat passen NICHT zu KAS (max. 20 h/Monat Erwerbstätigkeit) und Studienstiftung (max. 5 h/Woche außerhalb Forschung/Lehre). Bis Förderbeginn (frühestens Sommer/Herbst 2027) unproblematisch, dann reduzieren oder kündigen — kurze Kündigungsfrist vereinbaren
+- Elsa-Neumann-Stipendium (Berlin) entfällt — Promotion jetzt in Halle
+- [ ] **19.10. zusätzlich**: Landesgraduiertenförderung Sachsen-Anhalt (Vergabe 01.04.) — fakultätsinterne Frist bei Phil. Fak. I erfragen
+- [ ] **Manja Stephan freundlich absagen** (Promotion in Halle literaturwissenschaftlich) — Kontakt für ANOR erhalten
+
 ## STAND 06.10.2026
 - [x] Fahrdienst angeschrieben, Hörstudie angemeldet, BAPersBw angerufen
 - [ ] **ZEDAR Fair Wear**: Mitgliedschaft nicht möglich (Beiträge erst ab 30 Mio. € Umsatz, Fair Wear priorisiert große Marken) — Fair-Wear-Aussagen auf zedarsilk entfernen, Ziel jetzt: Textilbündnis + Sozialaudit bei FTS (BSCI/SMETA anfragen) + Grüner Knopf; Färberei Shenghong steht auf der bluesign-Partnerliste (01.08.2026). Rechtsform: gUG für den Handel nicht tragfähig — gemeinnützigen Teil separat klären
