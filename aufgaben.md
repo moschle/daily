@@ -7,7 +7,10 @@
 - [ ] **Achtung Stipendium**: 60 h/Monat passen NICHT zu KAS (max. 20 h/Monat Erwerbstätigkeit) und Studienstiftung (max. 5 h/Woche außerhalb Forschung/Lehre). Bis Förderbeginn (frühestens Sommer/Herbst 2027) unproblematisch, dann reduzieren oder kündigen — kurze Kündigungsfrist vereinbaren
 - Elsa-Neumann-Stipendium (Berlin) entfällt — Promotion jetzt in Halle
 - [ ] **19.10. zusätzlich**: Landesgraduiertenförderung Sachsen-Anhalt (Vergabe 01.04.) — fakultätsinterne Frist bei Phil. Fak. I erfragen
-- [ ] **Manja Stephan freundlich absagen** (Promotion in Halle literaturwissenschaftlich) — Kontakt für ANOR erhalten
+- [ ] **Manja Stephan antworten** (NICHT absagen): Entscheidung für literaturwissenschaftliche Promotion in Halle bei Purnaqcheband erklären; fragen, ob sie **Zweitgutachterin** wird und das **zweite KAS-Gutachten** schreibt. Alternative Zweitgutachter: Rzehak (Ruhestand — in der Promotionsordnung Phil. Fak. I prüfen, ob Emeriti/Pensionierte begutachten dürfen)
+- [ ] **14.10. Polizei-Bewerbungen hochladen** (Pakete fertig 09.10.2026, je 10 S., 2,8 MB, ZIP im Ordner): LKA Berlin 155-26 → karriereportal-stellen.berlin.de (j69721), Datei `Bewerbung_Schlenstedt_LKA_155-26_v2.pdf`; Bundespolizei OSINT → komm-zur-bundespolizei.de, Datei `03_laufend/2026_BPol_OSINT_Berlin/Bewerbung_Schlenstedt_BPol_OSINT.pdf`. Rangfolge Stellen: Bundessprachenamt (E13) > LKA > BPol (beide gehobener Dienst, Berlin, Vollzeit)
+- Stelle statt Stipendium: Bei Zusage einer Vollzeitstelle entfallen KAS/Studienstiftung (Doppelförderung/Nebentätigkeit) → berufsbegleitend promovieren; Oxford dann über Sonderurlaub ohne Entgelt (§ 28 TVöD, nur wenn dienstliche Verhältnisse es gestatten) — im Vorstellungsgespräch nicht als Bedingung stellen
+- KAS-Grenze konkret: max. 20 h/Monat Erwerbstätigkeit = ca. 2 Nachtdienste à 10 h/Monat; Studienstiftung 5 h/Woche — ob monatlich gemittelt werden darf, bei der Stiftung erfragen
 
 ## STAND 06.10.2026
 - [x] Fahrdienst angeschrieben, Hörstudie angemeldet, BAPersBw angerufen
