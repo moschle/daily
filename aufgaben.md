@@ -1,6 +1,6 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 6. Oktober 2026*
+*Letzte Aktualisierung: 9. Oktober 2026*
 
 ## STAND 06.10.2026
 - [x] Fahrdienst angeschrieben, Hörstudie angemeldet, BAPersBw angerufen
@@ -142,6 +142,22 @@ In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getr
 
 ## Promotion
 
+### Promotionsstipendien + Oxford — Plan (Stand 09.10.2026)
+Entscheidung: Promotion in Halle (Phil. Fak. I, Purnaqcheband), Beginn 01.01.2027. Noch nirgends beworben. Reihenfolge **KAS → Studienstiftung → Böll**. Parallelbewerbungen erlaubt, aber nur ein Stipendium (keine Doppelförderung). Bei KAS und Studienstiftung **nur ein Versuch** — nach Ablehnung keine erneute Bewerbung.
+- [ ] **19.10.2026 Termin Purnaqcheband**: Antrag auf Annahme unterschreiben lassen; nach nächster Sitzung des Promotionsausschusses Phil. Fak. I fragen (entscheidet, ob KAS 15.01. klappt); Gutachten für KAS (formlos) + Studienstiftung (Betreuerfragebogen) + Böll (Fachgutachten-Formular) ankündigen; Oxford-Plan und Unterstützungsbrief ansprechen; Zweitgutachter:in für KAS-Gutachten klären
+- [ ] **Nebentätigkeit prüfen** vor jeder Bewerbung: Studienstiftung max. 5 h/Woche außerhalb Forschung/Lehre; KAS max. 20 h/Monat Erwerbstätigkeit. Gesang/Bildhauerei muss reinpassen
+- [ ] **Exposé** 5–10 S. (KAS-Format: Motiv, Problemaufriss, Lösungsansatz, Methoden, Arbeits-/Zeitplan, Literaturverzeichnis; Erstbetreuer im 1. Absatz) — Basis für alle drei Bewerbungen; fertig bis Mitte Dezember
+- [ ] **KAS — Frist 15.01.2027, 12:00 Uhr** (Portal campus.kas.de). Voraussetzung: Zulassung zur Promotion liegt vor, sonst **15.07.2027**. Unterlagen: ausformulierter Lebenslauf 3–5 S., tabellarischer CV, Abiturzeugnis, Masterzeugnis, Exposé, 2 Gutachten (eins vom Erstbetreuer, bei Frist max. 6 Monate alt). Auswahltagung ca. 4 Monate nach Frist (~Mai 2027). Werte-Nähe und Ehrenamt sind Pflichtkriterien (Warte für Kultur, Schöffenamt). 1.650 €/Monat + 100 € Forschungspauschale; Auslandsaufenthalte und Studiengebühren im Ausland auf Antrag bezuschussbar (6 Wochen vorher)
+- [ ] **Studienstiftung — Call 01.–14.02.2027**, per Post (einseitig, ungeheftet) an Studienstiftung, Team Promotionsförderung, Ahrstr. 41, 53175 Bonn. Auswahlsitzung ~Sept 2027, Beginn frühestens 01.10.2027. Zulassung erst zum Förderbeginn nötig. Betreuerfragebogen vom Erstgutachter. Bereits bezogenes Promotionsstipendium wird zu 100 % auf die Förderdauer angerechnet. Weitere Calls: 01.–14.06.2027, 01.–14.10.2027
+- [ ] **Böll — Frist 01.03.2027** (Portal öffnet ~6 Wochen vorher). Zulassung zur Promotion nötig; 2 Fachgutachten (Formular); Stufen: schriftlich → Gespräch Vertrauensdozent:in → digitales Auswahlgespräch. Nachrangig (Programm schwach, Ehrenamtsgutachten)
+- [ ] **Oxford Recognised Student, Hilary Term 2028** (Full Term 16.01.–11.03.2028; ggf. + Trinity 23.04.–17.06.2028; max. 3 Terms). Gebühr AMES 2026/27 £15.940/Jahr ≈ £5.300/Term, keine Unterkunft; Alternative OSGA (Middle East / Russian & East European Studies) £2.000/Term + £50 Bewerbungsgebühr. Kein Oxford-Abschluss — im CV: „Recognised Student, Faculty of Asian and Middle Eastern Studies, University of Oxford“. Unter 6 Monate: Visitor-Route
+  - [ ] Anfang 2027 (nach Annahme): Prof. Dominic Parviz Brookshaw (Soudavar Chair in Persian Studies; Dichterinnen der persischsprachigen Welt, moderne Lyrik) als Academic Advisor anfragen — Abstract, ANOR/De-Gruyter-Publikation, 2–3 Übersetzungen mitschicken; vorher Purnaqcheband einbinden
+  - [ ] Unterlagen (OSGA-Liste als Richtschnur): Bewerbungsschreiben, Unterstützungsbrief Halle, Zeugnisse, Forschungsvorhaben 500–1.000 Wörter Englisch, 2 Referenzen, CV
+  - [ ] Bewerbung spätestens **Mitte Oktober 2027** einreichen (≥3 Monate vor Ankunft; besser früher)
+  - [ ] Finanzierung: KAS-Auslandszuschuss + Studiengebührenzuschuss beantragen (6 Wochen vor Reise); MLU International Office fragen, ob ein Erasmus+-Abkommen mit Oxford kommt (UK ab 2027/28 wieder dabei; Doktorandenmobilität 2–12 Monate)
+  - Oxford Nizami Ganjavi Centre: Visiting Fellowship (£2.500/Monat, 3–9 Monate) erst **nach** der Promotion möglich (Doktorgrad + Heimatinstitution nötig) → Postdoc-Option merken
+- [ ] **MLU InGrA** nach Annahme kontaktieren: Qualifizierungsprogramm, Förderberatung (funding4docs)
+
 - [ ] **DRINGEND: Manja Stephan antworten** (Stand 25.09.2026)
 - Zweifel (25.09.2026): ob mit Stephan eine durchführbare und sinnvolle (anthropologische) Arbeit zustande kommt; Purnaqcheband würde ggf. flexibler betreuen. Wunsch: Übersetzen ins Zentrum stellen.
 - [x] Betreuungsanfrage an Manja Stephan abgeschickt (28.07.2026)
@@ -151,8 +167,7 @@ In zwei Wochen werden die Samples gesichtet und die Produktionsentscheidung getr
 - [ ] GRK Heidelberg „Ambivalent Enmity"
 - [ ] Uni Bayreuth Promotionsstelle Islamwissenschaft
 - [ ] Exposé Dissertation (1 Seite Lentz/Draesner, 10–15 S. Böll)
-- [ ] Studienstiftung Promotionsstipendium (laufend)
-- [ ] Böll Promotionsstipendium Frühjahrsrunde — 15.01.–01.03.2027 (Herbstfrist 01.09.2026 verstrichen)
+- Studienstiftung und Böll: siehe Plan oben (Stand 09.10.2026)
 
 ## ANOR / MA-Publikation „stille stürme"
 
