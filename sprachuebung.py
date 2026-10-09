@@ -158,6 +158,7 @@ REGELN
 {wh}- Danach 2–3 Verständnisfragen auf Deutsch.
 - Nachricht: in 3–4 einfachen Sätzen auf Persisch nacherzählen, ebenfalls fast nur mit bekannten Wörtern; höchstens 2 weitere neue Wörter, genauso glossiert. NUR Inhalte aus Schlagzeile und Meldungstext unten, nichts hinzufügen. Die Quelle bleibt erhalten: Wenn Medien oder eine Person etwas berichten oder behaupten, schreib das so (رسانه‌های آمریکا گزارش می‌دهند …), nicht als Tatsache und nicht als Aussage eines Staates. Aus „bereitet sich vor“ wird nicht „will“. Jeder Satz trägt eine Information aus der Meldung; keine Füllsätze wie „این خبر امروز آمد“ oder „مردم این خبر را می‌شنوند“.
 - Glossiere NUR die neuen Wörter. Wörter aus der Wortschatzliste bekommen keine Klammer.
+- Eigennamen (Personen, Orte, Länder, Organisationen) sind keine Vokabeln: nicht glossieren, nicht in "neue_vokabeln".
 {nachricht}{feedback}
 Antworte NUR mit JSON, ohne Markdown:
 {{"titel": "persischer Titel",
@@ -197,7 +198,7 @@ def _glossen_nachtragen(woerter, complete) -> list[tuple[str, str]]:
     if not woerter:
         return []
     p = ("Gib für jedes dieser persischen Wörter die Grundform (Verben als Infinitiv, Nomen im Singular) "
-         "mit Kurzvokalzeichen und eine knappe deutsche Bedeutung. Antworte NUR mit JSON: "
+         "mit Kurzvokalzeichen und eine knappe deutsche Bedeutung. Eigennamen (Personen, Orte, Länder) weglassen. Antworte NUR mit JSON: "
          '[{"fa": "...", "de": "..."}]\n' + "\n".join(woerter))
     try:
         roh = complete(p, max_tokens=800).strip()
@@ -206,6 +207,10 @@ def _glossen_nachtragen(woerter, complete) -> list[tuple[str, str]]:
         return [((v.get("fa") or "").strip(), (v.get("de") or "").strip()) for v in liste]
     except Exception:
         return []
+
+
+# Eigennamen gehoeren nicht ins Deck (09.10.: Putin, Wladimir, Masoud, Peseschkian).
+NAME = re.compile(r"eigenname|\bname\b|präsident|minister|politiker|hauptstadt|\((stadt|land|ort)\b", re.I)
 
 
 GLOSSE = re.compile(r"([\u0600-\u06FF\u200c]+)\s*\(([^)]*[A-Za-zÄÖÜäöüß][^)]*)\)")
@@ -282,11 +287,11 @@ def erzeuge(lang_ex: dict, complete) -> dict:
     d = _lektorat(d, K, quote, complete)
     d = _glossen_bereinigen(d, K)
     liste = [((v.get("fa") or "").strip(), (v.get("de") or "").strip()) for v in d.get("neue_vokabeln", [])]
-    liste = [(fa, de) for fa, de in liste if fa and de]
+    liste = [(fa, de) for fa, de in liste if fa and de and not NAME.search(de)]
     # Was jetzt noch unbekannt ist, wurde weder ersetzt noch deklariert -> nachtragen
     neu_formen = {w for fa, _ in liste for w in _formen(fa)}
     _, rest = pruefe(d.get("text", "") + " " + d.get("nachricht", ""), K | neu_formen)
-    liste += [(fa, de) for fa, de in _glossen_nachtragen(rest, complete) if fa and de]
+    liste += [(fa, de) for fa, de in _glossen_nachtragen(rest, complete) if fa and de and not NAME.search(de)]
     # Woerter aus dem Morgenbrief-Gedaechtnis gelten 60 Tage als bekannt und werden
     # unglossiert wiederholt. Im Anki-Deck stehen sie damit aber noch nicht: die 28
     # Woerter vom 20.09. (darunter تاب‌آوری) kamen vor dem Anki-Paket und fehlten im
