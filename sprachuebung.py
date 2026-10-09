@@ -340,7 +340,11 @@ def anki_paket(neue: list[tuple[str, str]], ziel_dir: Path) -> Path | None:
              "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}"},
             {"name": "Karte 2", "qfmt": "{{Rückseite}}",
              "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Vorderseite}}"},
-        ])
+        ],
+        # Gleiche MODELL_ID wie der Notiztyp im Deck: ohne css ersetzt der Import
+        # dessen Styling durch genankis Vorgabe ohne Zentrierung (09.10.2026).
+        css=".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n"
+            " color: black;\n background-color: white;\n}\n")
     deck = genanki.Deck(DECK_ID, "Persisch")
     tag = date.today().isoformat()
     for fa, de in neue:
