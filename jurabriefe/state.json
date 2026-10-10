@@ -1,6 +1,5 @@
 {
   "done": [
-    "zr-005",
     "zr-001",
     "zr-002",
     "zr-003",
@@ -19,9 +18,10 @@
     "zr-001",
     "zr-002",
     "zr-003",
-    "zr-001"
+    "zr-001",
+    "zr-004"
   ],
-  "last_id": "zr-001",
+  "last_id": "zr-004",
   "seen_slugs": [
     "olgdres-2021-11-16-4-u-116821",
     "kg--2020-09-30-3-161-ss-4920-48",
@@ -44,7 +44,8 @@
     "ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923",
     "lg-stuttgart-2024-12-04-19-s-2623",
     "lg-hamburg-2019-02-19-310-s-618",
-    "lg-koln-2025-06-25-28-o-3725"
+    "lg-koln-2025-06-25-28-o-3725",
+    "lg-koln-2026-03-31-37-o-25824"
   ],
   "next_index": 1,
   "offen": {},
@@ -104,6 +105,62 @@
           "abschnitt": "Lesetext Landgericht Köln lg-koln 28 O 37/25"
         }
       ]
+    },
+    "zr-004@10.10.": {
+      "case_id": "zr-004",
+      "datum": "2026-10-10",
+      "karten": [
+        {
+          "nr": 1,
+          "id": "zr-staat:form:015",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie die Entscheidung über die vorläufige Vollstreckbarkeit mit Abwendungsbefugnis des Beklagten.",
+          "loesung": "Das Urteil ist vorläufig vollstreckbar. Der Beklagte darf die Vollstreckung durch Sicherheitsleistung in Höhe des auf Grund des Urteils vollstreckbaren Betrages zuzüglich 10 % abwenden, wenn nicht die Klägerin vor der Vollstreckung Sicherheit in Höhe des jeweils zu vollstreckenden Betrages zuzüglich 10 % leistet.",
+          "gewicht": 3,
+          "skript": "zr-staat",
+          "abschnitt": "I. Einführung › 3. Entscheidung über Vollstreckbarkeit"
+        },
+        {
+          "nr": 2,
+          "id": "zr-staat:form:008",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie das Rubrum für eine GmbH & Co. KG als Klägerin: ... GmbH & Co. KG, Sonnenallee 93, 12199 Berlin, gesetzlich vertreten durch die ... GmbH, diese gesetzlich vertreten durch ihre Geschäftsführer Herbert Müller u. a.",
+          "loesung": "der ... GmbH & Co. KG, gesetzlich vertreten durch die ... GmbH, diese gesetzlich vertreten durch ihre Geschäftsführer Herbert Müller u. a., Sonnenallee 93, 12199 Berlin, Klägerin,",
+          "gewicht": 1,
+          "skript": "zr-staat",
+          "abschnitt": "I. Allgemeines › II. Bezeichnung der Parteien und ihrer Vertreter › 7. Gesetzliche Vertreter"
+        },
+        {
+          "nr": 3,
+          "id": "lesetext:lg-koln-2026-03-31-37-o-25824:1",
+          "typ": "fall",
+          "frage": "Im Beschluss des LG Köln vom 31.03.2026 (37 O 258/24) hatte der Kläger am 08.01.2026 beantragt, das zuvor am 11.11.2024 ergangene Anerkenntnisurteil 'um einen Tatbestand und Entscheidungsgründe zu ergänzen bzw. zu berichtigen'. Das Anerkenntnisurteil war ergangen, nachdem der Rechtsstreit von einem Amtsgericht an das Landgericht verwiesen worden war und der Kläger dort nicht vollumfänglich anwaltlich vertreten war; der Beklagte war der Ortsverband einer Partei. Wie hat das Landgericht Köln über den Antrag vom 08.01.2026 entschieden und mit welcher Begründung?",
+          "loesung": "Das LG Köln hat den Antrag zurückgewiesen. Es stützte dies auf drei selbständig tragende Erwägungen: (1) Der Antrag ist bereits unzulässig, weil vor dem Landgericht gemäß § 78 Abs. 1 ZPO Anwaltszwang besteht und die Ausnahme des § 78 Abs. 3 ZPO für Anträge nach §§ 319 ff. ZPO nicht greift; der Antrag vom 08.01.2026 war - anders als die beim Amtsgericht noch wirksam ohne Anwalt gestellten und nach Verweisung fortwirkenden Anträge, die das Anerkenntnisurteil getragen hatten - ein neuer, selbständig zu stellender Antrag, der dem Anwaltszwang unterliegt. (2) Der Antrag wäre auch in der Sache unbegründet, da das Urteil nicht fehlerhaft ist: Nach § 313b Abs. 1 S. 1 ZPO bedarf ein Anerkenntnisurteil keines Tatbestands und keiner Entscheidungsgründe, und die Ausnahme des § 313b Abs. 3 ZPO (Geltendmachung im Ausland) war weder bei Urteilserlass noch aktuell ersichtlich. (3) Schließlich fehlte es auch an einer rechtlichen Grundlage für die begehrte Ergänzung/Berichtigung: § 319 ZPO scheidet aus, da keine offenbare Unrichtigkeit (Unstimmigkeit zwischen Wille und Erklärung des Gerichts) vorlag; § 320 ZPO scheitert an der verstrichenen Drei-Monats-Frist des § 320 Abs. 2 S. 3 ZPO und daran, dass der erkennende Richter dem Spruchkörper nicht mehr angehört (§ 320 Abs. 3 S. 2 ZPO); § 321 ZPO ist nicht einschlägig, weil es dort um übergangene Haupt- oder Nebenansprüche bzw. den Kostenpunkt geht, was hier nicht in Rede stand.",
+          "gewicht": 2,
+          "skript": "zr-staat",
+          "abschnitt": "Lesetext Landgericht Köln lg-koln 37 O 258/24"
+        },
+        {
+          "nr": 4,
+          "id": "lesetext:lg-koln-2026-03-31-37-o-25824:2",
+          "typ": "fall",
+          "frage": "Der Kernpunkt des Beschlusses des LG Köln vom 31.03.2026 (37 O 258/24) betrifft die Frage, ob ein nach Verweisung vom Amtsgericht an das Landgericht unvertreten gestellter Antrag des Klägers den Anwaltszwang des § 78 Abs. 1 ZPO 'aushebelt' und ob die Ausnahme des § 78 Abs. 3 ZPO auch für spätere Anträge nach §§ 319 ff. ZPO gilt. Welcher rechtliche Massstab ist anzulegen, um zu beurteilen, ob ein nach Verweisung gestellter Antrag vom Anwaltszwang befreit ist?",
+          "loesung": "Massgeblich ist zu unterscheiden zwischen fortwirkenden und neuen Prozesshandlungen: Prozesshandlungen, Anträge und Erklärungen, die vor dem verweisenden Amtsgericht wirksam - und dort mangels Anwaltszwangs auch ohne Anwalt zulässig - vorgenommen wurden, behalten nach der Verweisung an das Landgericht ihre prozessuale Bedeutung und wirken fort, ohne dass es einer erneuten (anwaltlichen) Wiederholung bedarf. Dies gilt jedoch nur für den bereits gestellten Sachantrag selbst, nicht für spätere, eigenständige neue Anträge, die erst nach der Verweisung gestellt werden. Für solche neuen Anträge greift die Ausnahme vom Anwaltszwang nach § 78 Abs. 3 ZPO nur, wenn es sich um eine Prozesshandlung handelt, die auch vor dem Urkundsbeamten der Geschäftsstelle vorgenommen werden könnte. Anträge nach §§ 319 ff. ZPO (Berichtigung, Ergänzung von Tatbestand und Entscheidungsgründen) fallen nicht darunter, sodass hierfür der allgemeine Anwaltszwang nach § 78 Abs. 1 ZPO uneingeschränkt gilt, unabhängig davon, ob frühere Anträge im selben Verfahren ausnahmsweise ohne Anwalt wirksam waren.",
+          "gewicht": 2,
+          "skript": "zr-staat",
+          "abschnitt": "Lesetext Landgericht Köln lg-koln 37 O 258/24"
+        },
+        {
+          "nr": 5,
+          "id": "lesetext:lg-koln-2026-03-31-37-o-25824:3",
+          "typ": "fall",
+          "frage": "Aus dem Beschluss des LG Köln vom 31.03.2026 (37 O 258/24) ergibt sich, dass ein unvertretener Kläger über ein Jahr nach Erlass eines Anerkenntnisurteils (vom 11.11.2024) beim Landgericht die Ergänzung um Tatbestand und Entscheidungsgründe sowie eine Berichtigung beantragte, ohne anwaltlich vertreten zu sein und ohne die Fristen der §§ 319 ff. ZPO zu beachten. Welche praktischen Konsequenzen folgen aus dieser Entscheidung für die Beratung eines Mandanten, der nach einem Anerkenntnisurteil eine 'Vervollständigung' des Urteils erreichen möchte?",
+          "loesung": "Für die eigene Praxis folgt zunächst, dass ein Mandant zwingend auf den Anwaltszwang vor dem Landgericht hinzuweisen ist: Anträge nach §§ 319 ff. ZPO sind keine Ausnahmefälle des § 78 Abs. 3 ZPO und müssen daher durch einen bei dem Gericht zugelassenen Rechtsanwalt gestellt werden, auch wenn frühere, vor der Verweisung beim Amtsgericht gestellte Anträge ausnahmsweise ohne Anwalt wirksam waren. Weiter ist zu prüfen, ob überhaupt eine Rechtsgrundlage für das Begehren besteht: Bei einem Anerkenntnisurteil ist gemäß § 313b Abs. 1 S. 1 ZPO von vornherein kein Tatbestand und keine Begründung vorgesehen, sodass eine 'Ergänzung' regelmäßig ins Leere geht, es sei denn, es ist konkret vorzutragen und glaubhaft zu machen, dass das Urteil im Ausland geltend gemacht werden soll (§ 313b Abs. 3 ZPO). Schließlich sind die engen Fristen zu beachten: Ein Tatbestandsberichtigungsantrag nach § 320 ZPO muss binnen drei Monaten seit Verkündung gestellt werden (§ 320 Abs. 2 S. 3 ZPO), und die Entscheidung darüber obliegt nur dem Richter, der das Urteil erlassen hat (§ 320 Abs. 3 S. 2 ZPO) - ein verspäteter oder bei geänderter Spruchkörperbesetzung gestellter Antrag ist von vornherein aussichtslos. Mandanten sollten daher zeitnah nach Zustellung eines Anerkenntnisurteils beraten werden, ob und mit welchem fristgerechten, anwaltlich gestellten Rechtsbehelf etwaige Mängel noch behoben werden können.",
+          "gewicht": 2,
+          "skript": "zr-staat",
+          "abschnitt": "Lesetext Landgericht Köln lg-koln 37 O 258/24"
+        }
+      ]
     }
   },
   "erledigte_mails": [
@@ -120,5 +177,5 @@
     "<DDD4AD8A-8468-4A24-BC1F-91A6381C5787@web.de>",
     "<EE1DD304-AC61-4BA7-8DE0-18634AB30494@web.de>"
   ],
-  "letzter_brief": "2026-10-08"
+  "letzter_brief": "2026-10-10"
 }
