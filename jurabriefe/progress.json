@@ -50,7 +50,11 @@
     "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:1": 0.8,
     "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:2": 0.8,
     "lesetext:ag-mulheim-an-der-ruhr-2023-09-21-10-c-55923:3": 1.1,
-    "zr-staat:form:012": 0.8
+    "zr-staat:form:012": 0.8,
+    "zr-staat:form:015": 0.8,
+    "lesetext:lg-koln-2026-03-31-37-o-25824:1": 1.1,
+    "lesetext:lg-koln-2026-03-31-37-o-25824:2": 0.8,
+    "lesetext:lg-koln-2026-03-31-37-o-25824:3": 1.1
   },
   "feedback": [
     {
@@ -1517,6 +1521,60 @@
       "grade": null,
       "interval": 3,
       "detail": ""
+    },
+    {
+      "date": "2026-10-10",
+      "case_id": "zr-staat:form:015",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Die Skriptformulierung 'auf Grund des Urteils vollstreckbarer Betrag zuzüglich 10%' ist präziser als '110% des vollstreckenden Betrages', da sie den Bezugspunkt (vollstreckbarer Betrag aus dem Urteil) klarstellt und der übliche Klauselwortlaut ist.",
+      "punkte": 15.0
+    },
+    {
+      "date": "2026-10-10",
+      "case_id": "zr-staat:form:008",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 40,
+      "detail": "Kommasetzung nach 'KG', nach 'u. a.' und vor 'Klägerin' fehlt, was im Rubrum formal dazugehört.",
+      "punkte": 16.0
+    },
+    {
+      "date": "2026-10-10",
+      "case_id": "lesetext:lg-koln-2026-03-31-37-o-25824:1",
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Die beiden weiteren selbständig tragenden Erwägungen fehlen vollständig: (1) materielle Unbegründetheit, da ein Anerkenntnisurteil nach § 313b Abs. 1 S. 1 ZPO keinen Tatbestand/keine Gründe benötigt und die Ausnahme des § 313b Abs. 3 ZPO nicht vorlag; (2) fehlende Rechtsgrundlage, da § 319 ZPO mangels offenbarer Unrichtigkeit, § 320 ZPO mangels Fristwahrung und richterlicher Zuständigkeit, § 321 Z",
+      "punkte": 6.0
+    },
+    {
+      "date": "2026-10-10",
+      "case_id": "lesetext:lg-koln-2026-03-31-37-o-25824:2",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 8,
+      "detail": "Das konkrete Abgrenzungskriterium des § 78 Abs. 3 ZPO - Ausnahme nur, wenn die Prozesshandlung auch vor dem Urkundsbeamten der Geschäftsstelle vorgenommen werden könnte - wird in der Antwort zu Frage 4 nicht genannt, obwohl genau danach gefragt war.",
+      "punkte": 10.0
+    },
+    {
+      "date": "2026-10-10",
+      "case_id": "lesetext:lg-koln-2026-03-31-37-o-25824:3",
+      "note": "gut",
+      "grade": 3,
+      "interval": 4,
+      "detail": "Es fehlen die beiden weiteren praktisch zentralen Beratungshinweise: fehlende Rechtsgrundlage bei Anerkenntnisurteilen wegen § 313b Abs. 1 S. 1 ZPO (Ausnahme nur bei Auslandsvollstreckung, § 313b Abs. 3 ZPO) sowie die engen Fristen des § 320 Abs. 2 S. 3 ZPO und die Zuständigkeit nur des erkennenden Richters nach § 320 Abs. 3 S. 2 ZPO.",
+      "punkte": 6.0
+    },
+    {
+      "date": "2026-10-10",
+      "case_id": "zr-004",
+      "note": "leicht",
+      "grade": 4,
+      "interval": 40,
+      "detail": "Übe das systematische Herausarbeiten mehrerer selbständig tragender Urteilsgründe (hier: Zulässigkeit, Begründetheit, Rechtsgrundlage) anhand von Beschlussmustern, statt sich auf den ersten tragenden Gesichtspunkt zu beschränken.",
+      "punkte": 11.0
     }
   ],
   "letzte_anpassung": null,
@@ -1634,16 +1692,20 @@
       "schnitt": 14.0
     },
     "zr-004": {
-      "stability": 8.0,
-      "difficulty": 4.85,
-      "due": "2026-10-07",
-      "last": "2026-09-29",
+      "stability": 40.11,
+      "difficulty": 4.7,
+      "due": "2026-11-19",
+      "last": "2026-10-10",
       "gezeigt": "2026-10-10",
-      "reps": 1,
+      "reps": 2,
       "unbeantwortet": 7,
       "punkte": [
         {
           "date": "2026-09-29",
+          "wert": 11.0
+        },
+        {
+          "date": "2026-10-10",
           "wert": 11.0
         }
       ],
@@ -2081,20 +2143,24 @@
       "schnitt": 8.0
     },
     "zr-staat:form:008": {
-      "stability": 8.0,
-      "difficulty": 4.85,
-      "due": "2026-10-07",
-      "last": "2026-09-29",
+      "stability": 40.11,
+      "difficulty": 4.7,
+      "due": "2026-11-19",
+      "last": "2026-10-10",
       "gezeigt": "2026-10-10",
-      "reps": 1,
+      "reps": 2,
       "unbeantwortet": 1,
       "punkte": [
         {
           "date": "2026-09-29",
           "wert": 12.0
+        },
+        {
+          "date": "2026-10-10",
+          "wert": 16.0
         }
       ],
-      "schnitt": 12.0
+      "schnitt": 14.0
     },
     "lesetext:olgnuer-2021-12-30-13-u-200821:1": {
       "stability": 4.0,
@@ -2397,39 +2463,67 @@
       "reps": 0
     },
     "zr-staat:form:015": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-18",
+      "last": "2026-10-10",
       "gezeigt": "2026-10-10",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-10-10",
+          "wert": 15.0
+        }
+      ],
+      "schnitt": 15.0
     },
     "lesetext:lg-koln-2026-03-31-37-o-25824:1": {
-      "stability": 0.0,
+      "stability": 4.0,
       "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "due": "2026-10-14",
+      "last": "2026-10-10",
       "gezeigt": "2026-10-10",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-10-10",
+          "wert": 6.0
+        }
+      ],
+      "schnitt": 6.0
     },
     "lesetext:lg-koln-2026-03-31-37-o-25824:2": {
-      "stability": 0.0,
-      "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "stability": 8.0,
+      "difficulty": 4.85,
+      "due": "2026-10-18",
+      "last": "2026-10-10",
       "gezeigt": "2026-10-10",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-10-10",
+          "wert": 10.0
+        }
+      ],
+      "schnitt": 10.0
     },
     "lesetext:lg-koln-2026-03-31-37-o-25824:3": {
-      "stability": 0.0,
+      "stability": 4.0,
       "difficulty": 5.0,
-      "due": null,
-      "last": null,
+      "due": "2026-10-14",
+      "last": "2026-10-10",
       "gezeigt": "2026-10-10",
-      "reps": 0
+      "reps": 1,
+      "punkte": [
+        {
+          "date": "2026-10-10",
+          "wert": 6.0
+        }
+      ],
+      "schnitt": 6.0
     }
   },
-  "letzter_korrekturlauf": "2026-10-09",
+  "letzter_korrekturlauf": "2026-10-10",
   "gesperrt": [
     "zr-anwalt:form:014"
   ]
