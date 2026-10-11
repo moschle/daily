@@ -130,6 +130,32 @@ def stufe(n_bekannt_eintraege: int) -> tuple[str, str]:
     return "B1+", b1 + " Dazu Passiv und längere Satzgefüge; keine gehobene Schriftsprache."
 
 
+# ─── B1-Prüfung ───────────────────────────────────────────────────────────
+# Die Stufe kam bisher nur aus der Größe des Wortschatzes. Am 11.10.2026 stand
+# "B1" über einem reinen A2-Präsens-Text ("شهر من"). Jetzt wird der Text auf die
+# B1-Pflichtmerkmale geprüft; fehlen sie, wird neu geschrieben bzw. ehrlich
+# als A2+ ausgewiesen.
+_ENDE = r"(?=[\s.،؛!؟:»)]|$)"
+VERGANGENHEIT = re.compile(
+    # Imperfekt: می‌ + Vergangenheitsstamm (+ Endung); می‌کند/می‌روند fallen nicht darunter
+    r"(?:^|\s)(?:می‌|نمی‌)\S+?(?:[دت](?:م|ی|یم|ید|ند)|ت)" + _ENDE +
+    # einfaches Präteritum häufiger Verben (nicht generisch: مردم ist ein Nomen)
+    r"|(?:^|\s)(?:می‌|نمی‌|ن)?(?:بود|شد|رفت|آمد|کرد|داشت|گفت|دید|خورد|خواند|نوشت|زد|ماند|گذشت|خرید|پرسید|شنید|خواست|توانست|دانست|گرفت|ساخت|شناخت|نشست|آورد|داد|فهمید|زندگی کرد)(?:م|ی|یم|ید|ند)?" + _ENDE)
+SUBJUNKTIV = re.compile(r"(?:^|\s)(?:باید|شاید|اگر|تا|می‌خواهم|می‌خواست|بهتر است)\s")
+
+
+def b1_maengel(text: str) -> list[str]:
+    t = re.sub(r"\([^)]*\)", " ", text or "")
+    m = []
+    if len(re.findall(r"(?:^|\s)که\s", t)) < 2:
+        m.append("mindestens zwei Relativsätze mit که")
+    if not SUBJUNKTIV.search(t):
+        m.append("mindestens ein Subjunktiv (باید/شاید/اگر/تا + Subjunktiv)")
+    if not VERGANGENHEIT.search(t):
+        m.append("Erzählung in der Vergangenheit: einfaches Präteritum UND Imperfekt (می‌رفتم), kein reiner Präsens-Beschreibungstext")
+    return m
+
+
 # ─── Claude-Aufruf ────────────────────────────────────────────────────────
 def _prompt(lang_ex, bekannt_liste, stufe_txt, due, feedback):
     wh = ""
@@ -169,9 +195,10 @@ Antworte NUR mit JSON, ohne Markdown:
 In "neue_vokabeln" stehen ALLE glossierten Wörter aus Text und Nachricht (Verben als Infinitiv, Nomen im Singular) und jedes weitere Wort, das nicht in der Wortschatzliste steht."""
 
 
-def _lektorat(d: dict, K: set[str], quote: float, complete) -> dict:
+def _lektorat(d: dict, K: set[str], quote: float, complete, stufe_name: str = "B1") -> dict:
     """Zweiter Durchgang: ein iranischer Lektor glättet Text und Nacherzählung."""
-    p = f"""Du bist Lektor für Persisch (Muttersprachler, Teheran). Unten steht eine Leseübung für einen Lerner auf Stufe A2/B1.
+    p = f"""Du bist Lektor für Persisch (Muttersprachler, Teheran). Unten steht eine Leseübung für einen Lerner auf Stufe {stufe_name}.
+Vereinfache die Grammatik NICHT: Relativsätze, Subjunktiv und Vergangenheitsformen bleiben erhalten.
 Überarbeite Text und Nacherzählung so, dass sie klingen, wie ein gebildeter Iraner einfach und natürlich schreibt.
 - Korrigiere schiefe Aussagen, unidiomatische Wendungen, falsche Kollokationen, Füllsätze und Rechtschreibung (Madde, Hamze, Halbabstand).
 - Behalte Inhalt, Satzzahl und Schwierigkeit bei. Ersetze kein einfaches Wort durch ein schwierigeres; neue Wörter nur, wenn es wirklich nicht anders geht.
@@ -188,6 +215,8 @@ Antworte NUR mit JSON im selben Format, Felder "titel", "text", "nachricht", "ne
         q2, _ = pruefe(neu.get("text", "") + " " + neu.get("nachricht", ""), K | formen)
         if q2 > quote + 0.03:          # Lektorat hat den Text deutlich schwerer gemacht
             return d
+        if stufe_name.startswith("B1") and len(b1_maengel(neu["text"])) > len(b1_maengel(d.get("text", ""))):
+            return d                   # Lektorat hat B1-Merkmale weggeglättet
         return {**d, **{k: neu[k] for k in ("titel", "text", "nachricht", "neue_vokabeln") if neu.get(k) is not None}}
     except Exception:
         return d
@@ -273,19 +302,28 @@ def erzeuge(lang_ex: dict, complete) -> dict:
             continue
         neu = {w for v in d.get("neue_vokabeln", []) for w in _formen(v.get("fa", ""))}
         quote, fremd = pruefe(d.get("text", "") + " " + d.get("nachricht", ""), K | neu)
-        if bestes is None or quote < bestes[0]:
-            bestes = (quote, d)
-        if quote <= MAX_UNBEKANNT:
+        maengel = b1_maengel(d.get("text", "")) if stufe_name.startswith("B1") else []
+        wert = quote + 0.05 * len(maengel)
+        if bestes is None or wert < bestes[2]:
+            bestes = (quote, d, wert)
+        if quote <= MAX_UNBEKANNT and not maengel:
             break
-        feedback = ("\nDER LETZTE ENTWURF WAR ZU SCHWER. Diese Wörter kennt er nicht und sie waren nicht "
-                    "als neu markiert. Ersetze sie durch Wörter aus der Liste oder einfache Umschreibungen:\n"
-                    + ", ".join(fremd[:40]) + "\n")
+        feedback = ""
+        if quote > MAX_UNBEKANNT:
+            feedback += ("\nDER LETZTE ENTWURF WAR ZU SCHWER. Diese Wörter kennt er nicht und sie waren nicht "
+                         "als neu markiert. Ersetze sie durch Wörter aus der Liste oder einfache Umschreibungen:\n"
+                         + ", ".join(fremd[:40]) + "\n")
+        if maengel:
+            feedback += ("\nDER LETZTE ENTWURF WAR NUR A2, NICHT B1. Es fehlte: " + "; ".join(maengel)
+                         + ". Schreib eine kleine Erzählung in der Vergangenheit zum Thema, nicht eine Beschreibung im Präsens.\n")
     if bestes is None:
         raise RuntimeError("Leseübung konnte nicht erzeugt werden")
 
-    quote, d = bestes
-    d = _lektorat(d, K, quote, complete)
+    quote, d, _ = bestes
+    d = _lektorat(d, K, quote, complete, stufe_name)
     d = _glossen_bereinigen(d, K)
+    if stufe_name.startswith("B1") and b1_maengel(d.get("text", "")):
+        stufe_name = "A2+ (Ziel B1 verfehlt)"   # Label nicht schönen
     liste = [((v.get("fa") or "").strip(), (v.get("de") or "").strip()) for v in d.get("neue_vokabeln", [])]
     liste = [(fa, de) for fa, de in liste if fa and de and not NAME.search(de)]
     # Was jetzt noch unbekannt ist, wurde weder ersetzt noch deklariert -> nachtragen
@@ -318,7 +356,7 @@ def erzeuge(lang_ex: dict, complete) -> dict:
         im_deck = bool(_formen(fa)) and _formen(fa) <= deck
         if im_deck:          # bekannte Grundformen (بودن, کردن …) nicht auflisten
             continue
-        zusatz = " (Wiederholung, neu im Anki-Paket)" if norm(fa) in wiederholt else ""
+        zusatz = " (Wiederholung, bisher ohne Anki-Karte)" if norm(fa) in wiederholt else ""
         anzeige.append(f"{fa} – {de}" + zusatz)
         neue.append((fa, de))
     fragen = "\n".join(f"{i}. {q}" for i, q in enumerate(d.get("fragen", []), 1))
