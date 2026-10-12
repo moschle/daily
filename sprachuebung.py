@@ -334,10 +334,13 @@ def erzeuge(lang_ex: dict, complete) -> dict:
     # unglossiert wiederholt. Im Anki-Deck stehen sie damit aber noch nicht: die 28
     # Woerter vom 20.09. (darunter تاب‌آوری) kamen vor dem Anki-Paket und fehlten im
     # Deck. Massstab fuer "im Deck" ist deshalb allein der Anki-Stand (bekannt_fa.json).
-    deck = set()
+    deck, deck_gelernt = set(), set()
     if BEKANNT_FILE.exists():
         for e in json.loads(BEKANNT_FILE.read_text(encoding="utf-8")):
-            deck |= _formen(e.get("word", ""))
+            f = _formen(e.get("word", ""))
+            deck |= f
+            if e.get("gelernt", True):
+                deck_gelernt |= f
     neu_formen = {w for fa, _ in liste for w in _formen(fa)}
     _, ohne_karte = pruefe(d.get("text", "") + " " + d.get("nachricht", ""), deck | neu_formen)
     wiederholt = set()
@@ -354,7 +357,11 @@ def erzeuge(lang_ex: dict, complete) -> dict:
             continue
         gesehen.add(norm(fa))
         im_deck = bool(_formen(fa)) and _formen(fa) <= deck
-        if im_deck:          # bekannte Grundformen (بودن, کردن …) nicht auflisten
+        if im_deck:
+            # Gelernte Karten nicht auflisten. Ungelernte Karten aber schon (12.10.2026:
+            # انضباط می‌طلبد stand im Deck, war aber nie gelernt und fehlte in der Liste).
+            if not (_formen(fa) <= deck_gelernt):
+                anzeige.append(f"{fa} – {de} (schon im Deck, noch nicht gelernt)")
             continue
         zusatz = " (Wiederholung, bisher ohne Anki-Karte)" if norm(fa) in wiederholt else ""
         anzeige.append(f"{fa} – {de}" + zusatz)
