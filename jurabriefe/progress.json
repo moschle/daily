@@ -1575,6 +1575,142 @@
       "interval": 40,
       "detail": "Übe das systematische Herausarbeiten mehrerer selbständig tragender Urteilsgründe (hier: Zulässigkeit, Begründetheit, Rechtsgrundlage) anhand von Beschlussmustern, statt sich auf den ersten tragenden Gesichtspunkt zu beschränken.",
       "punkte": 11.0
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "zr-001",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "zr-003",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 4,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "zr-anwalt:form:013",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "zr-staat:aufb:076",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "zr-staat:form:001",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "zr-staat:form:002",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "zr-staat:form:003",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "zr-anwalt:form:019",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 7,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "zr-staat:form:007",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "zr-staat:form:013",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 4,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "lesetext:lg-hamburg-2019-02-19-310-s-618:1",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 4,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "lesetext:lg-hamburg-2019-02-19-310-s-618:2",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 4,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "lesetext:lg-hamburg-2019-02-19-310-s-618:3",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 4,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "zr-staat:form:014",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "lesetext:lg-koln-2025-06-25-28-o-3725:1",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "lesetext:lg-koln-2025-06-25-28-o-3725:2",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
+    },
+    {
+      "date": "2026-10-13",
+      "case_id": "lesetext:lg-koln-2025-06-25-28-o-3725:3",
+      "note": "unbeantwortet",
+      "grade": null,
+      "interval": 3,
+      "detail": ""
     }
   ],
   "letzte_anpassung": null,
@@ -1632,7 +1768,7 @@
     "zr-anwalt:form:013": {
       "stability": 1.0,
       "difficulty": 5.3,
-      "due": "2026-10-17",
+      "due": "2026-10-20",
       "last": "2026-09-10",
       "gezeigt": "2026-09-11",
       "reps": 1,
@@ -1643,7 +1779,7 @@
         }
       ],
       "schnitt": 2.0,
-      "unbeantwortet": 13
+      "unbeantwortet": 14
     },
     "zr-anwalt:form:014": {
       "stability": 1.0,
@@ -1714,45 +1850,45 @@
     "zr-staat:aufb:076": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-17",
+      "due": "2026-10-20",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 13
+      "unbeantwortet": 14
     },
     "zr-staat:form:001": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-17",
+      "due": "2026-10-20",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 13
+      "unbeantwortet": 14
     },
     "zr-staat:form:002": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-17",
+      "due": "2026-10-20",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 13
+      "unbeantwortet": 14
     },
     "zr-staat:form:003": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-17",
+      "due": "2026-10-20",
       "last": null,
       "gezeigt": "2026-09-09",
       "reps": 0,
-      "unbeantwortet": 13
+      "unbeantwortet": 14
     },
     "zr-005": {
       "stability": 22.8,
       "difficulty": 4.85,
       "due": "2026-10-22",
       "last": "2026-09-29",
-      "gezeigt": "2026-09-28",
+      "gezeigt": "2026-10-13",
       "reps": 2,
       "unbeantwortet": 2,
       "punkte": [
@@ -1792,7 +1928,7 @@
       "difficulty": 4.85,
       "due": "2026-10-09",
       "last": "2026-10-01",
-      "gezeigt": "2026-09-30",
+      "gezeigt": "2026-10-13",
       "reps": 1,
       "unbeantwortet": 8,
       "punkte": [
@@ -1806,11 +1942,11 @@
     "zr-anwalt:form:019": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-17",
+      "due": "2026-10-20",
       "last": null,
       "gezeigt": "2026-09-11",
       "reps": 0,
-      "unbeantwortet": 13
+      "unbeantwortet": 14
     },
     "lesetext:bgh-2024-05-16-ix-zr-3823": {
       "stability": 4.0,
@@ -1830,7 +1966,7 @@
     "zr-001": {
       "stability": 22.8,
       "difficulty": 4.85,
-      "due": "2026-10-26",
+      "due": "2026-10-16",
       "last": "2026-10-03",
       "gezeigt": "2026-10-08",
       "reps": 2,
@@ -1844,7 +1980,8 @@
           "wert": 12.0
         }
       ],
-      "schnitt": 9.5
+      "schnitt": 9.5,
+      "unbeantwortet": 1
     },
     "zr-staat:form:004": {
       "stability": 27.47,
@@ -2069,7 +2206,7 @@
     "zr-003": {
       "stability": 8.0,
       "difficulty": 4.85,
-      "due": "2026-10-13",
+      "due": "2026-10-17",
       "last": "2026-09-22",
       "gezeigt": "2026-10-07",
       "reps": 1,
@@ -2080,12 +2217,12 @@
         }
       ],
       "schnitt": 9.0,
-      "unbeantwortet": 1
+      "unbeantwortet": 2
     },
     "zr-staat:form:007": {
       "stability": 8.0,
       "difficulty": 4.85,
-      "due": "2026-09-30",
+      "due": "2026-10-16",
       "last": "2026-09-22",
       "gezeigt": "2026-10-08",
       "reps": 1,
@@ -2095,7 +2232,8 @@
           "wert": 18.0
         }
       ],
-      "schnitt": 18.0
+      "schnitt": 18.0,
+      "unbeantwortet": 1
     },
     "lesetext:olgmuen-2025-11-19-15-u-252525-rae-e:1": {
       "stability": 4.0,
@@ -2215,7 +2353,7 @@
       "difficulty": 5.15,
       "due": "2026-10-06",
       "last": "2026-10-01",
-      "gezeigt": "2026-09-30",
+      "gezeigt": "2026-10-13",
       "reps": 2,
       "punkte": [
         {
@@ -2397,70 +2535,74 @@
     "zr-staat:form:013": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-13",
+      "due": "2026-10-17",
       "last": null,
       "gezeigt": "2026-10-07",
       "reps": 0,
-      "unbeantwortet": 1
+      "unbeantwortet": 2
     },
     "lesetext:lg-hamburg-2019-02-19-310-s-618:1": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-13",
+      "due": "2026-10-17",
       "last": null,
       "gezeigt": "2026-10-07",
       "reps": 0,
-      "unbeantwortet": 1
+      "unbeantwortet": 2
     },
     "lesetext:lg-hamburg-2019-02-19-310-s-618:2": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-13",
+      "due": "2026-10-17",
       "last": null,
       "gezeigt": "2026-10-07",
       "reps": 0,
-      "unbeantwortet": 1
+      "unbeantwortet": 2
     },
     "lesetext:lg-hamburg-2019-02-19-310-s-618:3": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": "2026-10-13",
+      "due": "2026-10-17",
       "last": null,
       "gezeigt": "2026-10-07",
       "reps": 0,
-      "unbeantwortet": 1
+      "unbeantwortet": 2
     },
     "zr-staat:form:014": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-10-16",
       "last": null,
       "gezeigt": "2026-10-08",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "lesetext:lg-koln-2025-06-25-28-o-3725:1": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-10-16",
       "last": null,
       "gezeigt": "2026-10-08",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "lesetext:lg-koln-2025-06-25-28-o-3725:2": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-10-16",
       "last": null,
       "gezeigt": "2026-10-08",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "lesetext:lg-koln-2025-06-25-28-o-3725:3": {
       "stability": 0.0,
       "difficulty": 5.0,
-      "due": null,
+      "due": "2026-10-16",
       "last": null,
       "gezeigt": "2026-10-08",
-      "reps": 0
+      "reps": 0,
+      "unbeantwortet": 1
     },
     "zr-staat:form:015": {
       "stability": 8.0,
@@ -2521,6 +2663,30 @@
         }
       ],
       "schnitt": 6.0
+    },
+    "lesetext:lg-frankfurt-am-main-2020-04-17-2-31-o-620:1": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-10-13",
+      "reps": 0
+    },
+    "lesetext:lg-frankfurt-am-main-2020-04-17-2-31-o-620:2": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-10-13",
+      "reps": 0
+    },
+    "lesetext:lg-frankfurt-am-main-2020-04-17-2-31-o-620:3": {
+      "stability": 0.0,
+      "difficulty": 5.0,
+      "due": null,
+      "last": null,
+      "gezeigt": "2026-10-13",
+      "reps": 0
     }
   },
   "letzter_korrekturlauf": "2026-10-12",

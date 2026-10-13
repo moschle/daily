@@ -1,6 +1,5 @@
 {
   "done": [
-    "zr-001",
     "zr-002",
     "zr-003",
     "zr-006",
@@ -19,9 +18,10 @@
     "zr-002",
     "zr-003",
     "zr-001",
-    "zr-004"
+    "zr-004",
+    "zr-005"
   ],
-  "last_id": "zr-004",
+  "last_id": "zr-005",
   "seen_slugs": [
     "olgdres-2021-11-16-4-u-116821",
     "kg--2020-09-30-3-161-ss-4920-48",
@@ -45,7 +45,8 @@
     "lg-stuttgart-2024-12-04-19-s-2623",
     "lg-hamburg-2019-02-19-310-s-618",
     "lg-koln-2025-06-25-28-o-3725",
-    "lg-koln-2026-03-31-37-o-25824"
+    "lg-koln-2026-03-31-37-o-25824",
+    "lg-frankfurt-am-main-2020-04-17-2-31-o-620"
   ],
   "next_index": 1,
   "offen": {},
@@ -105,6 +106,62 @@
           "abschnitt": "Lesetext Landgericht Köln lg-koln 28 O 37/25"
         }
       ]
+    },
+    "zr-005@13.10.": {
+      "case_id": "zr-005",
+      "datum": "2026-10-13",
+      "karten": [
+        {
+          "nr": 1,
+          "id": "zr-anwalt:form:018",
+          "typ": "formulierung",
+          "frage": "Ihr Mandant ist Inhaber eines vorrangigen Pfandrechts an einer Sache, die sich in der Verwertung durch einen anderen Gläubiger befindet. Er möchte seinen Vorrang gerichtlich durchsetzen. Formulieren Sie den Klageantrag nach § 805 ZPO.",
+          "loesung": "Der Kläger ist vor dem Beklagten aus dem Reinerlös aus der Vollstreckung in folgenden Gegenstand (genau bezeichnen) wegen einer Forderung des Klägers in Höhe von € ... zu befriedigen.",
+          "gewicht": 3,
+          "skript": "zr-anwalt",
+          "abschnitt": "V. Besonderheiten des Beweisrechts in der Anwaltsklausur › IX. Klagen und Rechtsbehelfe in der Zwangsvollstreckung › 1. Klagen gegen die Zwangsvollstreckung: › c. Klage auf vorzugsweise Befriedigung nach § 805 ZPO"
+        },
+        {
+          "nr": 2,
+          "id": "zr-anwalt:form:015",
+          "typ": "formulierung",
+          "frage": "Formulieren Sie die einleitende Parteivorstellung im Schriftsatz (Schmerzensgeld und Folgeansprüche aus Verkehrsunfall mit Polizeifahrzeug, 50 % Haftung).",
+          "loesung": "Der Kläger nimmt den Beklagten auf Zahlung von Schmerzensgeld sowie wegen Folgeansprüchen aus einem Verkehrsunfall unter Beteiligung eines Einsatzfahrzeuges der Polizei Berlin in Anspruch. Geltend gemacht werden 50 % der bei dem Unfall entstandenen Schäden.",
+          "gewicht": 2,
+          "skript": "zr-anwalt",
+          "abschnitt": "V. Die Klausurbearbeitung: › 22. Juli 2023 entstanden sind und noch entstehen werden."
+        },
+        {
+          "nr": 3,
+          "id": "lesetext:lg-frankfurt-am-main-2020-04-17-2-31-o-620:1",
+          "typ": "fall",
+          "frage": "Im Urteil des LG Frankfurt am Main vom 17.04.2020 (2-31 O 6/20) hatte ein Gutachter die Beklagte mit der Dokumentation und monetären Bewertung von Mängeln eines erworbenen Hotelgebäudes beauftragt, wobei ein zweistufiger Vergütungsmechanismus vereinbart war (Pauschale von 9.500 € sowie 2 % der realisierten Mängelansprüche). Nachdem die Beklagte eine vom Kläger übermittelte reduzierte Mängelliste im Verfahren gegen die Hotelpächterin vor dem LG Magdeburg verwendete, ohne zuvor das vollständige Honorar zu zahlen, und es am 10.10.2019 zu einem Zerwürfnis zwischen den Parteien kam, erklärte der Kläger am 01.11.2019 die außerordentliche fristlose Kündigung und verlangte sodann 114.109,23 € Resthonorar. Wie hat das LG Frankfurt über die Klage entschieden und warum?",
+          "loesung": "Das Gericht wies die Klage überwiegend als endgültig unbegründet ab, lediglich hinsichtlich eines Restbetrags von 2.826,25 € (ausstehende Pauschale) erfolgte eine Abweisung als derzeit unbegründet mangels Fälligkeit. Zur örtlichen Zuständigkeit bejahte das Gericht zunächst seine Zuständigkeit aufgrund der Gerichtsstandsvereinbarung in Anlage K 1, die durch konkludente Annahme der Beklagten (Inanspruchnahme der Leistungen in Kenntnis des Angebots) wirksam zustande gekommen sei; auf die Kaufmannseigenschaft des Klägers komme es nicht an, da die Rüge der fehlenden Zuständigkeit durch die prorogationsbefugte Beklagte selbst bei fehlender Prorogationsbefugnis des Klägers rechtsmissbräuchlich sei. In der Sache verneinte das Gericht einen wichtigen Grund für die außerordentliche Kündigung nach § 626 Abs. 1 BGB bzw. § 648a Abs. 1 BGB: Weder die Verwendung der reduzierten Mängelliste ohne vorherige Honorarzahlung (da der Kläger damit vertragswidrig die sofortige Zahlung des gesamten variablen Hononars unabhängig vom Verfahrensausgang verlangt habe) noch die behaupteten verbalen Entgleisungen des Geschäftsführers (die mangels Verbalinjurien/Schmähkritik und angesichts der unberechtigten Honorarforderung nachvollziehbar erschienen) noch die Kritik an der Arbeitsqualität des Klägers (bloße sachbezogene Kritik berechtigt nicht zur Kündigung) stellten einen wichtigen Grund dar. Zudem wäre die Kündigung vom 01.11.2019 hinsichtlich der im Juni 2019 bzw. Oktober 2019 liegenden Vorfälle ohnehin nicht fristgerecht im Sinne der (entsprechend heranzuziehenden) Frist des § 626 Abs. 2 BGB erklärt worden. Der Restanspruch auf die Pauschale von 2.826,25 € sei mangels vollständiger Leistungserbringung des Klägers (der selbst einräumte, noch Unterlagen zum Pachtbeginn 2003 zu benötigen) nicht fällig, weder nach § 614 BGB (Dienstvertrag) noch nach § 641 BGB (Werkvertrag, mangels Abnahme).",
+          "gewicht": 2,
+          "skript": "zr-anwalt",
+          "abschnitt": "Lesetext Landgericht Frankfurt am Main lg-frankfurt-am-main 2-31 O 6/20"
+        },
+        {
+          "nr": 4,
+          "id": "lesetext:lg-frankfurt-am-main-2020-04-17-2-31-o-620:2",
+          "typ": "fall",
+          "frage": "Die Entscheidung des LG Frankfurt am Main vom 17.04.2020 (2-31 O 6/20) befasst sich mit den Voraussetzungen einer außerordentlichen Kündigung eines Dienst- bzw. Werkvertrags durch den Auftragnehmer (Gutachter) wegen Unzumutbarkeit der Fortsetzung des Vertragsverhältnisses. Der Kläger stützte seine Kündigung u.a. auf einen angeblichen Vertrauensbruch der Beklagten, unsachliche Äußerungen des Geschäftsführers sowie Kritik an seiner Arbeitsleistung. Welchen rechtlichen Maßstab legt das Gericht für die Frage an, ob ein wichtiger Grund im Sinne von § 626 Abs. 1 BGB bzw. § 648a Abs. 1 BGB vorliegt, und wie wendet es diesen auf die einzelnen vom Kläger vorgetragenen Umstände an?",
+          "loesung": "Das Gericht legt den einheitlichen Maßstab zugrunde, dass ein wichtiger Grund nur vorliegt, wenn dem Kündigenden unter Berücksichtigung aller Umstände des Einzelfalls und nach Abwägung der beiderseitigen Interessen die Fortsetzung des Vertragsverhältnisses bis zum regulären Vertragsende nicht zugemutet werden kann (§ 626 Abs. 1 Hs. 2 BGB für Dienstverträge, inhaltsgleich § 648a Abs. 1 S. 2 BGB für Werkverträge). Entscheidend ist eine Gesamtwürdigung der Einzelfallumstände und eine beiderseitige Interessenabwägung, nicht das isolierte Vorliegen einzelner Pflichtverletzungen. Bei der Anwendung prüft das Gericht jeden vorgetragenen Grund gesondert: Die Verwendung der reduzierten Mängelliste ohne vorherige Honorarzahlung begründet keinen wichtigen Grund, da der Kläger damit in Wahrheit eine vertragswidrige Vorleistungspflicht durchsetzen wollte, die den Kernpunkt der vereinbarten erfolgsabhängigen Vergütung in Frage stellte; ein berechtigtes Interesse an sofortiger vollständiger Zahlung unabhängig vom Verfahrensausgang in Magdeburg sei nicht ersichtlich. Die behaupteten unsachlichen Äußerungen des Geschäftsführers reichen nicht aus, da keine Verbalinjurien oder Schmähkritik vorlägen und eine emotionale Reaktion auf eine unberechtigte Honorarforderung nachvollziehbar sei. Kritik an der fachlichen Qualität der Arbeitsleistung ist nach Auffassung des Gerichts grundsätzlich als sachbezogene Kritik zu werten, die keinen Kündigungsgrund darstellt, selbst wenn sie berechtigt sein sollte. Schließlich prüft das Gericht für jeden Grund zusätzlich die Einhaltung der Erklärungsfrist (entsprechend § 626 Abs. 2 BGB: zwei Wochen ab Kenntnis), die hinsichtlich aller vorgetragenen Umstände bereits verstrichen war, bevor der Kläger im November 2019 kündigte.",
+          "gewicht": 2,
+          "skript": "zr-anwalt",
+          "abschnitt": "Lesetext Landgericht Frankfurt am Main lg-frankfurt-am-main 2-31 O 6/20"
+        },
+        {
+          "nr": 5,
+          "id": "lesetext:lg-frankfurt-am-main-2020-04-17-2-31-o-620:3",
+          "typ": "fall",
+          "frage": "In der Entscheidung des LG Frankfurt am Main vom 17.04.2020 (2-31 O 6/20) verlangte der klagende Gutachter sein variables Erfolgshonorar sofort und vollständig, obwohl die Realisierung der Mängelansprüche vertraglich von einem noch laufenden gerichtlichen Verfahren (LG Magdeburg) abhing. Das Gericht wertete dieses Verlangen als vertragswidrige Änderung des vereinbarten Vergütungsmechanismus und verneinte deshalb einen wichtigen Kündigungsgrund zugunsten des Klägers. Welche Konsequenz ergibt sich aus dieser Erwägung für die anwaltliche Beratung bei der Gestaltung und Durchsetzung erfolgsabhängiger Vergütungsvereinbarungen?",
+          "loesung": "Für die anwaltliche Praxis folgt daraus, dass bei erfolgsabhängigen Vergütungsvereinbarungen (hier: 2 % der „realisierten“ Mängelansprüche) der Auftragnehmer die vertraglich vereinbarte Bedingung der Realisierung nicht eigenmächtig vorwegnehmen oder durch einseitige Zahlungsbedingungen unterlaufen darf, etwa indem er die Herausgabe oder Verwendung von Arbeitsergebnissen von einer sofortigen Vollzahlung abhängig macht, die über den vertraglich vorgesehenen Zeitpunkt der Fälligkeit hinausgeht. Berät man den Mandanten als Auftragnehmer, sollte man ihn darauf hinweisen, dass er sich nicht durch einseitige Erklärungen (wie die E-Mail-Bedingung „nur verwenden/verwerten sobald Zahlungseingang erfolgt ist“) von der vereinbarten Bedingung lösen kann, ohne hierdurch selbst vertragswidrig zu handeln und sich dadurch die Möglichkeit einer eigenen außerordentlichen Kündigung zu verbauen; vielmehr sollte er, wenn er eine vorzeitige Teilzahlung erreichen will, dies einvernehmlich vertraglich nachverhandeln oder nur den nicht realisierbaren Differenzbetrag (hier rechnerisch ermittelbar aus der Differenz zwischen ursprünglicher und reduzierter Mängelliste) geltend machen. Für die Formulierung entsprechender Klauseln empfiehlt sich zudem eine klare Regelung, was bei Teilrealisierung, Vergleich oder Klagereduzierung gelten soll, um Streit über den Fälligkeitszeitpunkt und etwaige Mitwirkungspflichten zu vermeiden. Schließlich zeigt die Entscheidung, dass bei der Geltendmachung eines wichtigen Kündigungsgrundes stets zügig gehandelt werden muss, da die zweiwöchige Erklärungsfrist des § 626 Abs. 2 BGB auch im Werkvertragsrecht als Orientierung herangezogen wird und eine verspätete Kündigung den Anspruch auf die Kündigungsvergütung insgesamt zu Fall bringen kann.",
+          "gewicht": 2,
+          "skript": "zr-anwalt",
+          "abschnitt": "Lesetext Landgericht Frankfurt am Main lg-frankfurt-am-main 2-31 O 6/20"
+        }
+      ]
     }
   },
   "erledigte_mails": [
@@ -122,5 +179,5 @@
     "<DDD4AD8A-8468-4A24-BC1F-91A6381C5787@web.de>",
     "<EE1DD304-AC61-4BA7-8DE0-18634AB30494@web.de>"
   ],
-  "letzter_brief": "2026-10-10"
+  "letzter_brief": "2026-10-13"
 }
