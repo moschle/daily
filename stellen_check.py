@@ -20,6 +20,7 @@ import sys
 import json
 import re
 import smtplib
+import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timedelta, timezone
@@ -353,7 +354,25 @@ def _get(url, ua, timeout):
         return resp.read().decode("utf-8", errors="replace")
 
 
+def _mit_wiederholung(holen, url, versuche=3):
+    """Netzaussetzer (DNS, Connection reset, Timeout) bis zu 3x versuchen."""
+    for i in range(versuche):
+        try:
+            return holen()
+        except urllib.error.HTTPError:
+            raise
+        except (urllib.error.URLError, ConnectionError, TimeoutError, OSError) as e:
+            if i == versuche - 1:
+                raise
+            print(f"  {url} -> {e}, neuer Versuch in {15*(i+1)} s", file=sys.stderr)
+            time.sleep(15 * (i + 1))
+
+
 def fetch_url(url, timeout=20):
+    return _mit_wiederholung(lambda: _fetch_url_einmal(url, timeout), url)
+
+
+def _fetch_url_einmal(url, timeout=20):
     """Holt eine URL. Bei 403/429 einmal mit Browser-UA nachfassen.
 
     Cloudflare & Co. sperren den Default-UA von GitHub-Actions-Runnern —

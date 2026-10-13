@@ -19,6 +19,7 @@ import re
 import sys
 import urllib.request
 import urllib.error
+import time
 from datetime import datetime
 from html import unescape
 from html.parser import HTMLParser
@@ -32,6 +33,20 @@ BROWSER_UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/127.0 Safari/537.36"
 )
+
+
+def _mit_wiederholung(holen, url, versuche=3):
+    """Netzaussetzer (DNS, Connection reset, Timeout) bis zu 3x versuchen."""
+    for i in range(versuche):
+        try:
+            return holen()
+        except urllib.error.HTTPError:
+            raise
+        except (urllib.error.URLError, ConnectionError, TimeoutError, OSError) as e:
+            if i == versuche - 1:
+                raise
+            print(f"  {url} -> {e}, neuer Versuch in {15*(i+1)} s", file=sys.stderr)
+            time.sleep(15 * (i + 1))
 
 
 def _hole(url, ua, timeout):
@@ -48,12 +63,12 @@ def _fetch(url, timeout=30):
     """Wie stellen_check.fetch_url: bei 401/403/429 einmal mit Browser-UA
     nachfassen. Runner-IPs werden von Cloudflare-Seiten geblockt."""
     try:
-        raw = _hole(url, USER_AGENT, timeout)
+        raw = _mit_wiederholung(lambda: _hole(url, USER_AGENT, timeout), url)
     except urllib.error.HTTPError as e:
         if e.code not in (401, 403, 429):
             raise
         print(f"  {url} -> HTTP {e.code}, Retry mit Browser-UA", file=sys.stderr)
-        raw = _hole(url, BROWSER_UA, timeout)
+        raw = _mit_wiederholung(lambda: _hole(url, BROWSER_UA, timeout), url)
     for enc in ("utf-8", "iso-8859-1"):
         try:
             return raw.decode(enc)
