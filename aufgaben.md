@@ -4,6 +4,13 @@
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
+## STAND 13.10.2026
+- [x] Futro S940n (J5005, 4 GB, 32 GB mSATA, inkl. Netzteil) für Home Assistant bestellt; USB-Tastatur organisiert (13.10.)
+- [x] Mail-Datum-Skript (netcup-Zeitfehler 08.–11.10.) ausgeführt, Ticket an netcup geschickt (13.10.)
+- [ ] Di 13.10. 11:30 Telefoninterview Demenz-WG; danach flaschenpost Mini (falls Nachtdienst als Midi) oder Midi (~12 h/Wo.) entscheiden; zweite Demenzstation zurückrufen
+- [ ] Jobcenter: Rücknahme SGB-II-Antrag zum 01.10. (inkl. § 16b/16c/AVGS) abschicken; EKS September + Mitwirkung bis 26.10.
+- [ ] Home Assistant auf Futro: feste IP 192.168.1.250, an Speedport-LAN; Generic Thermostat für Moritz' Zimmer, Shirins Zimmer, Kinderzimmer (dritter Sensor nötig); Apple-Zuhause nach Hermann-Liebmann zusammenlegen
+
 ## STAND 09.10.2026 — Nebenjob Nachtdienst
 - [ ] **Di 13.10.2026 Telefoninterview Häusliche Krankenpflege Silke Krüger GmbH**, Nachtdienst Demenz-WGs (Herbstzauber Böhlitz-Ehrenberg / Elsterpassage Plagwitz), 60 h/Monat — Stand 09.10.: doch offen dafür (Routine). Falls schon abgesagt: Mo 12.10. anrufen und wieder zusagen. Im Gespräch klären: Bereitschafts- oder Wachnacht (darf man schlafen?), Anteil Wochenenden, Nacht-/Sonntags-/Feiertagszuschläge, Stundenlohn, Vertragsart, Kündigungsfrist, Einarbeitung
 - [ ] **Achtung Stipendium**: 60 h/Monat passen NICHT zu KAS (max. 20 h/Monat Erwerbstätigkeit) und Studienstiftung (max. 5 h/Woche außerhalb Forschung/Lehre). Bis Förderbeginn (frühestens Sommer/Herbst 2027) unproblematisch, dann reduzieren oder kündigen — kurze Kündigungsfrist vereinbaren
