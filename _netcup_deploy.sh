@@ -16,6 +16,14 @@ rm -f /tmp/daily.tgz
 for f in stellen_seen.json gloss_state.json journal_state.json vocab_memory.json .env; do
   [ -f "daily/$f" ] && cp -p "daily/$f" "daily.neu/$f"
 done
+# Jurabrief laeuft seit 13.10.2026 auf netcup: Lernstand lebt hier, nicht im Repo.
+# Die Marke /automat/jurabrief.lokal wird nach der Erstuebernahme gesetzt.
+if [ -f /automat/jurabrief.lokal ]; then
+  for f in jurabriefe/state.json jurabriefe/progress.json; do
+    [ -f "daily/$f" ] && cp -p "daily/$f" "daily.neu/$f"
+  done
+  [ -d daily/jurabriefe/karten ] && rm -rf daily.neu/jurabriefe/karten && cp -rp daily/jurabriefe/karten daily.neu/jurabriefe/karten
+fi
 rm -rf daily.alt && [ -d daily ] && mv daily daily.alt
 mv daily.neu daily
 cd /automat/daily
