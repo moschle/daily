@@ -2506,7 +2506,7 @@
 },
 {
 "word": "انداختَن / انداز",
-"meaning": "werfen",
+"meaning": "werfen, fallen lassen (allgemein)",
 "gelernt": true
 },
 {
@@ -3552,7 +3552,7 @@
 {
 "word": "پِزِشکی",
 "meaning": "Medizin, Heilkunde",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "پیرمَرد",
@@ -3760,7 +3760,7 @@
 "gelernt": false
 },
 {
-"word": "با دِق َّت",
+"word": "با دِقَّت",
 "meaning": "aufmerksam, sorgfältig, genau",
 "gelernt": false
 },
@@ -4247,7 +4247,7 @@
 {
 "word": "تَخریب",
 "meaning": "Zerstörung",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "حَشَره",
@@ -4452,7 +4452,7 @@
 {
 "word": "بی‌هَدَف",
 "meaning": "ohne Ziel",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "تاریکی",
@@ -4572,7 +4572,7 @@
 {
 "word": "موقع ضَرورت",
 "meaning": "Notfall",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "وَضع",
@@ -4687,7 +4687,7 @@
 {
 "word": "عِلاوه بَر این",
 "meaning": "außerdem",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بِه هَمین دَلیل",
@@ -5542,7 +5542,7 @@
 {
 "word": "کَلَمات / کَلَمه‌ها",
 "meaning": "Wörter",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "کُمِدی",
@@ -5632,7 +5632,7 @@
 {
 "word": "مَسیر",
 "meaning": "Strecke / Route",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "مسیرم رو عوض میکنم / از یک راه دیگه میرم",
@@ -6092,7 +6092,7 @@
 {
 "word": "اِستِراحَت کَردَن",
 "meaning": "sich ausruhen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بلندترین ارتفاعی بود که توش کوهنوردی کردم",
@@ -6552,7 +6552,7 @@
 {
 "word": "پیتزا توسط من خورده شد",
 "meaning": "Die Pizza wurde von mir gegessen.",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "ساختِمان",
@@ -6797,7 +6797,7 @@
 {
 "word": "نمی‌دونم که این تولد بیرون هست یا نه",
 "meaning": "Ich weiß nicht, ob dieser Geburtstag draußen stattfindet.",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "این تنها برنامه‌ای است",
@@ -6912,7 +6912,7 @@
 {
 "word": "ما امشب یک جلسه داریم که در اون برای برنامه‌های کتاب‌خوانی پاییز برنامه‌ریزی می‌کنیم",
 "meaning": "Wir haben heute Abend ein Treffen, in dem wir die Lesungen für den Herbst planen.",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "قَهرِمان",
@@ -7052,7 +7052,7 @@
 {
 "word": "خواستَن",
 "meaning": "wollen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "خواهَم بود",
@@ -7857,12 +7857,12 @@
 {
 "word": "… هَم فَردا می‌رِه ↔ … فَردا هَم می‌رِه",
 "meaning": "Stellung von هم: es bezieht sich immer auf das Wort davor (er auch morgen ↔ er morgen auch)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "دُنبالِ چیزی گَشتَن ↔ چیزی را دُنبال کَردَن",
 "meaning": "nach etwas suchen ↔ etwas verfolgen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "پیشِ کَسی رَفتَن",
@@ -7882,7 +7882,7 @@
 {
 "word": "اگر کار پیدا نکنی، باید درخواست بکنی که به تو پول بدهند",
 "meaning": "Wenn du keine Arbeit findest, musst du beantragen, dass man dir Geld zahlt.",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "حتی کسایی که تو رشته‌های STEM تحصیل کردن هم با پیدا کردن کار مشکل دارن",
@@ -8567,7 +8567,7 @@
 {
 "word": "ژانرِ تاریخی",
 "meaning": "Historienfilm (Genre)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "جِنایَت",
@@ -8692,7 +8692,7 @@
 {
 "word": "کورکورانه",
 "meaning": "blind, unkritisch",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بازنِگَری",
@@ -8707,7 +8707,7 @@
 {
 "word": "طَلَبیدَن",
 "meaning": "erfordern, verlangen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "اُستُوار",
@@ -9177,7 +9177,7 @@
 {
 "word": "بینایی",
 "meaning": "Sehvermögen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "شِنَوایی",
@@ -9592,6 +9592,236 @@
 {
 "word": "بِه ذِهنَم رَسید",
 "meaning": "es kam mir in den Sinn",
+"gelernt": false
+},
+{
+"word": "جُداگانه",
+"meaning": "eigenständig, eigene",
+"gelernt": false
+},
+{
+"word": "کَلام",
+"meaning": "Wort, Sprache",
+"gelernt": false
+},
+{
+"word": "سَعی",
+"meaning": "Bemühen, Versuch",
+"gelernt": false
+},
+{
+"word": "تَعویق",
+"meaning": "Verschiebung, Aufschub",
+"gelernt": false
+},
+{
+"word": "تورنمنت",
+"meaning": "Turnier",
+"gelernt": false
+},
+{
+"word": "تِنیس",
+"meaning": "Tennis",
+"gelernt": false
+},
+{
+"word": "جُزْء",
+"meaning": "Teil, Bestandteil",
+"gelernt": false
+},
+{
+"word": "فوتْبالیسْت",
+"meaning": "Fußballspieler",
+"gelernt": false
+},
+{
+"word": "قوْل",
+"meaning": "Versprechen, Wort",
+"gelernt": false
+},
+{
+"word": "مَجْلِس",
+"meaning": "Parlament; Versammlung",
+"gelernt": false
+},
+{
+"word": "پایْبَند",
+"meaning": "gebunden, verpflichtet, treu",
+"gelernt": false
+},
+{
+"word": "کامِلاً",
+"meaning": "vollständig, völlig",
+"gelernt": false
+},
+{
+"word": "حَرَکَت",
+"meaning": "Bewegung",
+"gelernt": false
+},
+{
+"word": "عادَت",
+"meaning": "Gewohnheit, Gewöhnung",
+"gelernt": false
+},
+{
+"word": "آسیب",
+"meaning": "Verletzung, Schaden",
+"gelernt": false
+},
+{
+"word": "سِلاح هَسته‌ای",
+"meaning": "Atomwaffe",
+"gelernt": false
+},
+{
+"word": "عَلیه",
+"meaning": "gegen (jemanden)",
+"gelernt": false
+},
+{
+"word": "نیروی زَمینی",
+"meaning": "Bodentruppen",
+"gelernt": false
+},
+{
+"word": "اِعزام",
+"meaning": "Entsendung, Abordnung",
+"gelernt": false
+},
+{
+"word": "پارسال",
+"meaning": "letztes Jahr",
+"gelernt": false
+},
+{
+"word": "یِک‌روزه",
+"meaning": "eintägig, einen Tag dauernd",
+"gelernt": false
+},
+{
+"word": "تَحریم",
+"meaning": "Sanktion, Embargo",
+"gelernt": false
+},
+{
+"word": "تَعلیق",
+"meaning": "Aussetzung, Suspendierung",
+"gelernt": false
+},
+{
+"word": "اِمضا",
+"meaning": "Unterschrift",
+"gelernt": false
+},
+{
+"word": "تَجَمُّع",
+"meaning": "Versammlung",
+"gelernt": false
+},
+{
+"word": "دُشوار",
+"meaning": "schwierig",
+"gelernt": false
+},
+{
+"word": "دولَت‌مَرد",
+"meaning": "Staatsmann",
+"gelernt": false
+},
+{
+"word": "صَبر",
+"meaning": "Geduld",
+"gelernt": false
+},
+{
+"word": "فَریاد",
+"meaning": "Schrei, Ruf",
+"gelernt": false
+},
+{
+"word": "مَنافِع",
+"meaning": "Interessen, Vorteile",
+"gelernt": false
+},
+{
+"word": "کَسانی",
+"meaning": "Personen, jemand (Plural)",
+"gelernt": false
+},
+{
+"word": "راهی شُدَن",
+"meaning": "sich auf den Weg machen",
+"gelernt": false
+},
+{
+"word": "یَکسان",
+"meaning": "gleich, einheitlich",
+"gelernt": false
+},
+{
+"word": "شُستَن",
+"meaning": "waschen",
+"gelernt": false
+},
+{
+"word": "سُخَنگو",
+"meaning": "Sprecher(in)",
+"gelernt": false
+},
+{
+"word": "نیرو",
+"meaning": "Streitkraft, Truppe",
+"gelernt": false
+},
+{
+"word": "ناموفَق",
+"meaning": "erfolglos",
+"gelernt": false
+},
+{
+"word": "آبراه",
+"meaning": "Wasserstraße, Meerenge",
+"gelernt": false
+},
+{
+"word": "موفَقیَّت",
+"meaning": "Erfolg",
+"gelernt": false
+},
+{
+"word": "صورَت",
+"meaning": "Gesicht; Form, Art",
+"gelernt": false
+},
+{
+"word": "فَرماندَهی",
+"meaning": "Kommando, Befehlsgewalt",
+"gelernt": false
+},
+{
+"word": "موشَک",
+"meaning": "Rakete",
+"gelernt": false
+},
+{
+"word": "پَرتاب کَردَن",
+"meaning": "werfen, schleudern (mit Kraft, auf Weite)",
+"gelernt": false
+},
+{
+"word": "پَرتاب",
+"meaning": "Wurf; Abschuss (Rakete)",
+"gelernt": false
+},
+{
+"word": "تَحقیق کَردَن",
+"meaning": "forschen, untersuchen, recherchieren",
+"gelernt": false
+},
+{
+"word": "تَدقیق کَردَن",
+"meaning": "präzisieren, genau prüfen (gehoben)",
 "gelernt": false
 }
 ]
