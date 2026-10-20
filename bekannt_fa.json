@@ -1130,7 +1130,7 @@
 "gelernt": true
 },
 {
-"word": "بَر داشتَن",
+"word": "بَرداشتَن / بَردار",
 "meaning": "nehmen",
 "gelernt": true
 },
@@ -1800,7 +1800,7 @@
 "gelernt": true
 },
 {
-"word": "بَر گَشتَن",
+"word": "بَرگَشتَن / بَرگَرد",
 "meaning": "zurückkehren, sich umdrehen",
 "gelernt": true
 },
@@ -1840,12 +1840,12 @@
 "gelernt": true
 },
 {
-"word": "دَر آمَدَن",
+"word": "دَرآمَدَن / دَرآ",
 "meaning": "herauskommen",
 "gelernt": true
 },
 {
-"word": "دَر آوَردَن",
+"word": "دَرآوَردَن / دَرآوَر",
 "meaning": "herausnehmen, herausholen",
 "gelernt": true
 },
@@ -2205,7 +2205,7 @@
 "gelernt": true
 },
 {
-"word": "گُذاشتَن",
+"word": "گُذاشتَن / گُذار",
 "meaning": "legen",
 "gelernt": true
 },
@@ -2841,7 +2841,7 @@
 },
 {
 "word": "بایَد",
-"meaning": "müssen",
+"meaning": "müssen, sollen (unveränderliches Modalwort)",
 "gelernt": true
 },
 {
@@ -3225,7 +3225,7 @@
 "gelernt": false
 },
 {
-"word": "بهداشتَن اِعتِقاد",
+"word": "اِعتِقاد داشتَن بِه",
 "meaning": "glauben an",
 "gelernt": false
 },
@@ -3260,7 +3260,7 @@
 "gelernt": false
 },
 {
-"word": "کشیدَنسیگار",
+"word": "سیگار کِشیدَن",
 "meaning": "rauchen",
 "gelernt": false
 },
@@ -3512,7 +3512,7 @@
 {
 "word": "دَرس دادَن",
 "meaning": "Unterricht geben",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "دُزدیدن / دُزد",
@@ -3890,7 +3890,7 @@
 "gelernt": false
 },
 {
-"word": "فِرِستادَن، اِرسال کَردَن",
+"word": "فِرِستادَن / فِرِست، اِرسال کَردَن",
 "meaning": "schicken, senden",
 "gelernt": false
 },
@@ -4021,7 +4021,7 @@
 },
 {
 "word": "کُره",
-"meaning": "Globus, Kreis; Planet",
+"meaning": "Kugel; Globus; Himmelskörper",
 "gelernt": false
 },
 {
@@ -4105,7 +4105,7 @@
 "gelernt": true
 },
 {
-"word": "کَندَن",
+"word": "کَندَن / کَن",
 "meaning": "herausreißen, rupfen, graben",
 "gelernt": false
 },
@@ -4125,7 +4125,7 @@
 "gelernt": false
 },
 {
-"word": "لَرزیدَن",
+"word": "لَرزیدَن / لَرز",
 "meaning": "zittern, beben, wackeln, rütteln",
 "gelernt": false
 },
@@ -4277,7 +4277,7 @@
 {
 "word": "شورِش",
 "meaning": "Aufstand",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "فَرار",
@@ -4776,7 +4776,7 @@
 },
 {
 "word": "مَتروک",
-"meaning": "verlassen",
+"meaning": "verlassen (Adj.), aufgegeben, verwaist",
 "gelernt": true
 },
 {
@@ -4795,7 +4795,7 @@
 "gelernt": false
 },
 {
-"word": "شِتابیدَن",
+"word": "شِتابیدَن / شِتاب",
 "meaning": "hasten",
 "gelernt": false
 },
@@ -4837,17 +4837,17 @@
 {
 "word": "بِه دَرد خوردَن",
 "meaning": "nützlich sein",
-"gelernt": false
+"gelernt": true
 },
 {
-"word": "بَرخوردَن بِه",
+"word": "بَرخوردَن / بَرخور (بِه)",
 "meaning": "auf etw./jdn. stoßen, treffen",
 "gelernt": false
 },
 {
 "word": "آگاه کَردَن",
 "meaning": "informieren, Bescheid geben",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "سوء تفاهم پیش آمد",
@@ -4860,7 +4860,7 @@
 "gelernt": false
 },
 {
-"word": "گَزیدن",
+"word": "گَزیدَن / گَز",
 "meaning": "stechen",
 "gelernt": false
 },
@@ -5005,7 +5005,7 @@
 "gelernt": false
 },
 {
-"word": "باریدَن",
+"word": "باریدَن / بار",
 "meaning": "regnen",
 "gelernt": false
 },
@@ -5270,7 +5270,7 @@
 "gelernt": true
 },
 {
-"word": "داشتَن",
+"word": "داشتَن / دار",
 "meaning": "haben",
 "gelernt": false
 },
@@ -5475,7 +5475,7 @@
 "gelernt": false
 },
 {
-"word": "فِرِستادَن",
+"word": "فِرِستادَن / فِرِست",
 "meaning": "senden",
 "gelernt": false
 },
@@ -5565,12 +5565,12 @@
 "gelernt": false
 },
 {
-"word": "گِرِفتَن",
+"word": "گِرِفتَن / گیر",
 "meaning": "nehmen",
 "gelernt": false
 },
 {
-"word": "گُفتَن",
+"word": "گُفتَن / گو",
 "meaning": "sagen",
 "gelernt": false
 },
@@ -6045,7 +6045,7 @@
 "gelernt": false
 },
 {
-"word": "بَرانگیختَن",
+"word": "بَرانگیختَن / بَرانگیز",
 "meaning": "erregen, hervorrufen, auslösen",
 "gelernt": false
 },
@@ -6291,7 +6291,7 @@
 },
 {
 "word": "مَحفِل",
-"meaning": "Zirkel, Kreis",
+"meaning": "Zirkel, Kreis (von Personen)",
 "gelernt": false
 },
 {
@@ -6615,7 +6615,7 @@
 "gelernt": false
 },
 {
-"word": "گَشتَن",
+"word": "گَشتَن / گَرد",
 "meaning": "umhergehen, herumlaufen; suchen",
 "gelernt": false
 },
@@ -6632,7 +6632,7 @@
 {
 "word": "دَرخواست دادَن",
 "meaning": "sich bewerben, einen Antrag stellen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "من برای پنجاه تا کار درخواست دادم",
@@ -6992,7 +6992,7 @@
 {
 "word": "شاخه",
 "meaning": "Zweig, Ast",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "شاخهٔ دِرَخت",
@@ -7010,12 +7010,12 @@
 "gelernt": false
 },
 {
-"word": "اومَدَن",
+"word": "اومَدَن / آ",
 "meaning": "kommen (ugs.)",
 "gelernt": false
 },
 {
-"word": "ماندَن",
+"word": "ماندَن / مان",
 "meaning": "bleiben",
 "gelernt": false
 },
@@ -7050,7 +7050,7 @@
 "gelernt": false
 },
 {
-"word": "خواستَن",
+"word": "خواستَن / خواه",
 "meaning": "wollen",
 "gelernt": true
 },
@@ -7150,7 +7150,7 @@
 "gelernt": true
 },
 {
-"word": "بافتَن",
+"word": "بافتَن / باف",
 "meaning": "weben",
 "gelernt": true
 },
@@ -7485,7 +7485,7 @@
 "gelernt": true
 },
 {
-"word": "گُذَراندَن",
+"word": "گُذَراندَن / گُذَران",
 "meaning": "verbringen (Zeit)",
 "gelernt": true
 },
@@ -7500,7 +7500,7 @@
 "gelernt": true
 },
 {
-"word": "اَنگیختَن",
+"word": "اَنگیختَن / اَنگیز",
 "meaning": "erregen, auslösen",
 "gelernt": true
 },
@@ -7982,7 +7982,7 @@
 {
 "word": "عَروسَک",
 "meaning": "Puppe",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "توپ",
@@ -8705,7 +8705,7 @@
 "gelernt": false
 },
 {
-"word": "طَلَبیدَن",
+"word": "طَلَبیدَن / طَلَب",
 "meaning": "erfordern, verlangen",
 "gelernt": true
 },
@@ -9075,7 +9075,7 @@
 "gelernt": false
 },
 {
-"word": "خَندیدَن",
+"word": "خَندیدَن / خَند",
 "meaning": "lachen",
 "gelernt": false
 },
@@ -9140,7 +9140,7 @@
 "gelernt": false
 },
 {
-"word": "بَرگَشتَن به",
+"word": "بَرگَشتَن / بَرگَرد (بِه)",
 "meaning": "zurückkehren zu, nach",
 "gelernt": false
 },
@@ -9760,7 +9760,7 @@
 "gelernt": false
 },
 {
-"word": "شُستَن",
+"word": "شُستَن / شوی",
 "meaning": "waschen",
 "gelernt": false
 },
@@ -9782,7 +9782,7 @@
 {
 "word": "آبراه",
 "meaning": "Wasserstraße, Meerenge",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "موفَقیَّت",
@@ -9931,7 +9931,7 @@
 },
 {
 "word": "حَلقه",
-"meaning": "Ring; Kreis",
+"meaning": "Ring, Reif; Kreis (Runde)",
 "gelernt": false
 },
 {
@@ -9967,6 +9967,11 @@
 {
 "word": "تَلخ‌تَر از تَلخ",
 "meaning": "noch bitterer als bitter (Verstärkung: Komparativ + az + Grundform)",
+"gelernt": false
+},
+{
+"word": "دایِره",
+"meaning": "Kreis (geometrisch)",
 "gelernt": false
 }
 ]
