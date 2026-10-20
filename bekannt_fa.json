@@ -1310,7 +1310,7 @@
 "gelernt": true
 },
 {
-"word": "شِکَر",
+"word": "شَکَر",
 "meaning": "Zucker",
 "gelernt": true
 },
@@ -9822,6 +9822,151 @@
 {
 "word": "تَدقیق کَردَن",
 "meaning": "präzisieren, genau prüfen (gehoben)",
+"gelernt": false
+},
+{
+"word": "سوسَن",
+"meaning": "Lilie",
+"gelernt": false
+},
+{
+"word": "یاسَمَن",
+"meaning": "Jasmin",
+"gelernt": false
+},
+{
+"word": "بَهاران",
+"meaning": "Frühling (poetisch)",
+"gelernt": false
+},
+{
+"word": "کُنون",
+"meaning": "jetzt (poetisch)",
+"gelernt": false
+},
+{
+"word": "وَطَن",
+"meaning": "Heimat",
+"gelernt": false
+},
+{
+"word": "رَفتِگان",
+"meaning": "die Verstorbenen",
+"gelernt": false
+},
+{
+"word": "مَحبوب",
+"meaning": "beliebt; geliebt",
+"gelernt": false
+},
+{
+"word": "خَلق",
+"meaning": "Volk, die Leute",
+"gelernt": false
+},
+{
+"word": "دیو",
+"meaning": "Dämon",
+"gelernt": false
+},
+{
+"word": "فِرِشته",
+"meaning": "Engel",
+"gelernt": false
+},
+{
+"word": "دَرآمَدَن / دَرآ",
+"meaning": "hereinkommen; herauskommen",
+"gelernt": false
+},
+{
+"word": "بیرون رَفتَن",
+"meaning": "hinausgehen",
+"gelernt": false
+},
+{
+"word": "روزگار",
+"meaning": "Zeit, Zeitalter; Schicksal",
+"gelernt": false
+},
+{
+"word": "شُکر",
+"meaning": "Dank",
+"gelernt": false
+},
+{
+"word": "بارِ دِگَر",
+"meaning": "noch einmal (poetisch)",
+"gelernt": false
+},
+{
+"word": "مُجاهِد",
+"meaning": "Kämpfer; Glaubenskämpfer",
+"gelernt": false
+},
+{
+"word": "بَند",
+"meaning": "Fessel",
+"gelernt": false
+},
+{
+"word": "حَبس",
+"meaning": "Haft",
+"gelernt": false
+},
+{
+"word": "فَساد",
+"meaning": "Verderbnis; Korruption",
+"gelernt": false
+},
+{
+"word": "سِتَم",
+"meaning": "Unrecht, Unterdrückung",
+"gelernt": false
+},
+{
+"word": "به سَر آمَدَن",
+"meaning": "zu Ende gehen",
+"gelernt": false
+},
+{
+"word": "حَلقه",
+"meaning": "Ring; Kreis",
+"gelernt": false
+},
+{
+"word": "چَشم از حَلقه دَرآمَدَن",
+"meaning": "die Augen treten aus den Höhlen (vor Schreck)",
+"gelernt": false
+},
+{
+"word": "یَزیدِ زَمان",
+"meaning": "Tyrann der Gegenwart (wörtlich: Yazid der Zeit)",
+"gelernt": false
+},
+{
+"word": "چو",
+"meaning": "wenn; als (poetische Kurzform)",
+"gelernt": false
+},
+{
+"word": "ز",
+"meaning": "von, aus (poetische Kurzform)",
+"gelernt": false
+},
+{
+"word": "دِگَر",
+"meaning": "ander-; wieder (poetische Kurzform)",
+"gelernt": false
+},
+{
+"word": "آیَد",
+"meaning": "er/sie/es kommt (klassisches Präsens ohne mi-)",
+"gelernt": false
+},
+{
+"word": "تَلخ‌تَر از تَلخ",
+"meaning": "noch bitterer als bitter (Verstärkung: Komparativ + az + Grundform)",
 "gelernt": false
 }
 ]
