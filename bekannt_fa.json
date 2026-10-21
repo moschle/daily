@@ -3412,7 +3412,7 @@
 {
 "word": "هُش",
 "meaning": "Verstand, Vernunft, Bewusstsein, Sinn",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "به دُنیا آمدن",
@@ -3917,7 +3917,7 @@
 {
 "word": "بی‌نَقص",
 "meaning": "perfekt",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "تقریباً",
@@ -5742,7 +5742,7 @@
 {
 "word": "نِمی‌دونِستَم",
 "meaning": "ich wusste nicht",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "نِوِشته‌ای",
@@ -6137,7 +6137,7 @@
 {
 "word": "مامان‌بزرگ",
 "meaning": "Oma (ugs.)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "اِجرا کَردَن",
@@ -6827,7 +6827,7 @@
 {
 "word": "هر اجرای تئاتر نیاز به مجوز دارد",
 "meaning": "Jede Theateraufführung braucht eine Genehmigung.",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "خاص",
@@ -8177,7 +8177,7 @@
 {
 "word": "آجیل",
 "meaning": "Nüsse und Trockenfrüchte (Knabbermischung)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "لَواشَک",
@@ -8312,7 +8312,7 @@
 {
 "word": "چَمِدان جَمع کَردَن",
 "meaning": "Koffer packen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بَسته‌بَندی",
@@ -9622,7 +9622,7 @@
 {
 "word": "تِنیس",
 "meaning": "Tennis",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "جُزْء",
@@ -9972,6 +9972,151 @@
 {
 "word": "دایِره",
 "meaning": "Kreis (geometrisch)",
+"gelernt": false
+},
+{
+"word": "دِلتَنگی",
+"meaning": "Sehnsucht",
+"gelernt": false
+},
+{
+"word": "خوش‌آیَند",
+"meaning": "angenehm",
+"gelernt": false
+},
+{
+"word": "ناخوش‌آیَند",
+"meaning": "unangenehm",
+"gelernt": false
+},
+{
+"word": "اِقتِصادی",
+"meaning": "wirtschaftlich",
+"gelernt": false
+},
+{
+"word": "روزمَرَّه",
+"meaning": "alltäglich",
+"gelernt": false
+},
+{
+"word": "اَرشَد",
+"meaning": "ranghoch, senior",
+"gelernt": false
+},
+{
+"word": "نِظامی",
+"meaning": "militärisch; Militärangehöriger",
+"gelernt": false
+},
+{
+"word": "هَمزَمان",
+"meaning": "gleichzeitig",
+"gelernt": false
+},
+{
+"word": "بَرایِ کارَم که هَفته‌یِ دیگه شُروع میشه، بَرنامه‌ریزی کَردَم",
+"meaning": "Ich habe für meine Arbeit geplant, die nächste Woche anfängt.",
+"gelernt": false
+},
+{
+"word": "بَرایِ چیزی بَرنامه‌ریزی کَردَن",
+"meaning": "für etwas planen, etwas planen",
+"gelernt": false
+},
+{
+"word": "هَفته‌یِ دیگه",
+"meaning": "nächste Woche (ugs.)",
+"gelernt": false
+},
+{
+"word": "چیزی را شُروع کَردَن",
+"meaning": "etwas anfangen, beginnen (transitiv)",
+"gelernt": false
+},
+{
+"word": "شُروع شُدَن",
+"meaning": "anfangen, beginnen (intransitiv)",
+"gelernt": false
+},
+{
+"word": "با چیزی، چیزی را شُروع کَردَن",
+"meaning": "etwas mit etwas beginnen",
+"gelernt": false
+},
+{
+"word": "صُبحَم را شُروع کَردَم",
+"meaning": "ich habe meinen Morgen begonnen",
+"gelernt": false
+},
+{
+"word": "صُبحَم را با یِک قَهوه شُروع کَردَم",
+"meaning": "Ich habe meinen Morgen mit einem Kaffee begonnen.",
+"gelernt": false
+},
+{
+"word": "این کِتاب تَرجُمه‌یِ مَنه",
+"meaning": "Dieses Buch ist meine Übersetzung.",
+"gelernt": false
+},
+{
+"word": "مُعاصِر",
+"meaning": "zeitgenössisch",
+"gelernt": false
+},
+{
+"word": "اِسم + ـان (جَمع)",
+"meaning": "Plural auf -ān (v. a. bei Personen: شاعران)",
+"gelernt": false
+},
+{
+"word": "نِوِشته‌هایِ شاعِرانِ مُعاصِر",
+"meaning": "Texte zeitgenössischer Dichter",
+"gelernt": false
+},
+{
+"word": "شِعرهایِ شاعِرانِ مُعاصِر",
+"meaning": "Gedichte zeitgenössischer Dichter",
+"gelernt": false
+},
+{
+"word": "شِعرهایِ مُعاصِر",
+"meaning": "zeitgenössische Gedichte",
+"gelernt": false
+},
+{
+"word": "مُنتَشِر کَردَن",
+"meaning": "veröffentlichen, herausgeben",
+"gelernt": false
+},
+{
+"word": "مُنتَشِر شُدَن",
+"meaning": "erscheinen, veröffentlicht werden",
+"gelernt": false
+},
+{
+"word": "عُلومِ اِنسانی",
+"meaning": "Geisteswissenschaften",
+"gelernt": false
+},
+{
+"word": "اِنسان‌شِناسی",
+"meaning": "Anthropologie",
+"gelernt": false
+},
+{
+"word": "ایده",
+"meaning": "Idee",
+"gelernt": false
+},
+{
+"word": "با چیزی مُشکِل داشتَن",
+"meaning": "mit etwas ein Problem haben",
+"gelernt": false
+},
+{
+"word": "اِنسان‌شِناسی با کِتاب‌هایی که فَقَط دَربارهٔ ایدهٔ نِویسَنده هَستَند مُشکِل داره",
+"meaning": "Die Anthropologie hat ein Problem mit Büchern, die nur von der Idee des Autors handeln.",
 "gelernt": false
 }
 ]
