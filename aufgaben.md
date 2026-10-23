@@ -361,3 +361,4 @@ Entscheidung: Promotion in Halle (Phil. Fak. I, Purnaqcheband), Beginn 01.01.202
 
 - [ ] GUZU/Seide: Namensfavorit HOTPOT SILK (Claim: The rest is pleasure) – TMview hotpot prüfen (DE/EM/WO, Kl. 24/25/35), hotpotsilk.de/.com sichern, Greta abstimmen (23.10.2026)
 - [ ] Seide: UG gründen (Musterprotokoll, 50/50, GF Moritz) – Firma festlegen, IHK-Firmierungscheck, Notartermin, GLS-Konto UG i.G., Stammkapital einzahlen (23.10.2026)
+- [ ] Seide: DPMA-Gebühr HOTPOT 290 € zahlen bis ca. 23.01.2027 (Anmeldung 23.10.2026, Kl. 24/25), möglichst über UG-Konto
