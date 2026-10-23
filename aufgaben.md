@@ -4,6 +4,12 @@
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
+## STAND 23.10.2026 — Bewerbungen
+- [x] VG Wort Fachkraft Meldewesen (32 h) abgeschickt (23.10.)
+- [ ] **Dubnow-Institut Wiss. Redakteur — Frist Mi 28.10.**, eine PDF an bewerbung@dubnow.de; Entwurf: ~/Documents/Bewerbungen/03_laufend/2026_Dubnow_Redakteur/
+- [ ] Mail an Frau Meier mit neuem Abgabetermin (Antrag auf Annahme, Dekanat Phil. Fak. I) + Termin über promotionsverfahren@philfak1.uni-halle.de
+- [-] Buchenwald, Bergen-Belsen: Fristen verstrichen · Jena Imaginamics, CAU Kiel, FZ Jülich: nicht verfolgt · Jüdische Akademie: vermutlich besetzt
+
 ## STAND 13.10.2026
 - [x] Futro S940n (J5005, 4 GB, 32 GB mSATA, inkl. Netzteil) für Home Assistant bestellt; USB-Tastatur organisiert (13.10.)
 - [x] Mail-Datum-Skript (netcup-Zeitfehler 08.–11.10.) ausgeführt, Ticket an netcup geschickt (13.10.)
