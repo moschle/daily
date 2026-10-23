@@ -15,6 +15,7 @@ from stellen_quellen_extra import (
     fetch_museumsbund,
     fetch_gesine,
     fetch_stgs,
+    fetch_hochschuljob,
     ist_leiche,
 )
 from stellen_scoring_extra import score_v3
@@ -113,6 +114,7 @@ def main() -> None:
         ("museumsbund", fetch_museumsbund),
         ("gesinesjobtipps", fetch_gesine),
         ("stgs sachsen-anhalt", fetch_stgs),
+        ("hochschul-job", fetch_hochschuljob),
         # bpb ist aus, bis das href-Muster sitzt: die Seite liefert
         # Artikel statt Ausschreibungen, und Titel wie "Zeichen von
         # Radikalisierung" holen sich über behörden_fachlich 4 Punkte.

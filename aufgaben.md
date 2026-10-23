@@ -4,6 +4,13 @@
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
+## STAND 24.10.2026 — Stellenscan hochschul-job.de
+- Neue Quelle im Stellen-Monitor: hochschul-job.de (Endpunkt /jm-ajax/get_listings/, geistes-/sozialwiss. Kategorien), `fetch_hochschuljob` in stellen_quellen_extra.py, eingetragen in stellen_boot.py. Vollscan 24.10.: 2.758 Stellen, 8 über Min-Score.
+- [ ] **Uni Göttingen, Seminar für Turkologie und Zentralasienkunde, WiMi 50 %, befristet, ab 01.04.2027 — Frist 11.12.2026.** Gefordert: Master Turkologie, Islamwissenschaft (Schwerpunkt Türkisch) oder verwandtes philologisches Fach mit Bezug Türkei/Zentralasien. Volltext im Göttinger Stellenportal holen und prüfen, ob Türkisch Ausschlusskriterium ist (hochschul-job verlinkt falsch).
+- [ ] **TIB Hannover, WiMi semantische Erschließung von KI-Trainingsdaten** — Ausschreibung bei Stepstone lesen (Frist, Abschluss, Technik); passt zu SQL/STT/MT-Erfahrung.
+- [ ] Lamya Kaddor MdB (Grüne), wiss. Mitarbeit Vollzeit, befristet, Berlin — Frist 15.11.2026 (via KULTweet; Politik/Jura erwünscht).
+- [-] Nicht passend: MLU Romanistik 4-9370/26-H (Spanisch, Frist 04.11.), Zürich Oberassistenz Islamwiss. und FU Islamwiss. Postdoc (Promotion nötig), Wien Professuren Arabistik, Tübingen DaF-Leitung E14.
+
 ## STAND 23.10.2026 — Bewerbungen
 - [x] VG Wort Fachkraft Meldewesen (32 h) abgeschickt (23.10.)
 - [ ] **Dubnow-Institut Wiss. Redakteur — Frist Mi 28.10.**, eine PDF an bewerbung@dubnow.de; Entwurf: ~/Documents/Bewerbungen/03_laufend/2026_Dubnow_Redakteur/

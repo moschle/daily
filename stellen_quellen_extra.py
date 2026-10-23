@@ -348,6 +348,75 @@ def fetch_stgs():
     return jobs
 
 
+# ─── Quelle: hochschul-job.de ───
+# WordPress/WP Job Manager. Die Liste kommt per JS, die Daten aber als
+# JSON aus /jm-ajax/get_listings/ (Feld 'html' mit <li>-Eintraegen).
+# Ohne Kategorie liefert der Endpunkt alle ~2.700 Stellen; wir ziehen
+# nur die geistes-/sozialwissenschaftlichen Kategorien.
+HJ_URL = "https://hochschul-job.de/jm-ajax/get_listings/"
+HJ_KATEGORIEN = [
+    "geisteswissenschaften", "sprach-literaturwissenschaften",
+    "religionswissenschaft", "kulturwissenschaften",
+    "politikwissenschaften", "sozialwissenschaften",
+    "geschichtswissenschaft",
+]
+
+
+def _hj_strip(s):
+    return re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", s))).strip()
+
+
+def parse_hochschuljob(html):
+    jobs = []
+    for li in re.findall(r'<li id="job_listing-\d+.*?</li>\s*(?=<li id="job_listing-|$)', html, re.S):
+        jid = re.search(r'job_listing-(\d+)', li).group(1)
+        href = re.search(r'data-href="([^"]+)"', li)
+        titel = re.search(r'<h3 class="job_listing-title">(.*?)</h3>', li, re.S)
+        beschr = re.search(r'class="job_short_description">(.*?)</div>', li, re.S)
+        firma = re.search(r'class="job_listing-company">(.*?)</div>', li, re.S)
+        ort = re.search(r'class="job_listing-location[^"]*">(.*?)</div>', li, re.S)
+        typ = re.search(r'class="job_listing-type[^"]*">(.*?)</li>', li, re.S)
+        if not (href and titel):
+            continue
+        t = _hj_strip(titel.group(1))
+        f = _hj_strip(firma.group(1)) if firma else ""
+        o = _hj_strip(ort.group(1)) if ort else ""
+        jobs.append({
+            "source": "hochschul-job",
+            "id": f"hj-{jid}",
+            "title": f"{t} | {f}, {o}".strip(" |,"),
+            "url": href.group(1).replace("\\/", "/"),
+            "summary": " ".join(x for x in [
+                _hj_strip(beschr.group(1)) if beschr else "",
+                f"Arbeitgeber: {f}" if f else "",
+                _hj_strip(typ.group(1)) if typ else ""] if x)[:500],
+            "updated": "",
+        })
+    return jobs
+
+
+def fetch_hochschuljob(kategorien=HJ_KATEGORIEN, max_seiten=10):
+    import json
+    from urllib.parse import urlencode
+    alle, ids = [], set()
+    for kat in kategorien or [None]:
+        for seite in range(1, max_seiten + 1):
+            q = {"per_page": 100, "page": seite}
+            if kat:
+                q["search_categories[]"] = kat
+            data = json.loads(_fetch(f"{HJ_URL}?{urlencode(q)}", timeout=45))
+            for j in parse_hochschuljob(data.get("html", "")):
+                if j["id"] not in ids:
+                    ids.add(j["id"])
+                    alle.append(j)
+            if seite >= int(data.get("max_num_pages") or 1):
+                break
+    if not alle:
+        raise RuntimeError("Endpunkt geantwortet, aber 0 Stellen geparst — Markup pruefen")
+    print(f"hochschul-job: {len(alle)} Stellen geladen", file=sys.stderr)
+    return alle
+
+
 # ─── Landesportale und GIZ — DEAKTIVIERT ───
 # Befund 09.09.2026:
 #   karriere.sachsen.de/stellenmarkt.html  → 404, Seite umgezogen
