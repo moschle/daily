@@ -360,3 +360,4 @@ Entscheidung: Promotion in Halle (Phil. Fak. I, Purnaqcheband), Beginn 01.01.202
 - [x] Brodyer Nächte Termine 2 (21.05.) und 3 (18.06.)
 
 - [ ] GUZU/Seide: Namensfavorit HOTPOT SILK (Claim: The rest is pleasure) – TMview hotpot prüfen (DE/EM/WO, Kl. 24/25/35), hotpotsilk.de/.com sichern, Greta abstimmen (23.10.2026)
+- [ ] Seide: UG gründen (Musterprotokoll, 50/50, GF Moritz) – Firma festlegen, IHK-Firmierungscheck, Notartermin, GLS-Konto UG i.G., Stammkapital einzahlen (23.10.2026)
