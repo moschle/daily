@@ -8,7 +8,7 @@
 - [ ] Deloitte Lektorat/Berichtswesen München: Anschreiben fertig (~/Documents/Bewerbungen/deloitte_lektorat/), als PDF über Online-Portal einreichen
 - [ ] Silke Krüger: Rückfrage an Laura zu Benefit-Start (Anzeige vs. Mail vs. Merkblatt); Auszahlungstermin schriftlich; Arbeitsaufnahme ans Jobcenter melden
 - [ ] Entscheiden: Kiel NdL WiMi/Promotion (Frist 13.11., Exposé NdL/AVL nötig) · Bielefeld GRK 2650 (Frist 30.11.) · Basel Literaturvermittlung Kinder (ab 01.05.2027) · Hannover Religionswiss. (Frist 03.11., eher auslassen)
-- [ ] Stellenmonitor: kultweet nur erste 46 Einträge (keine Paginierung) — mehr Seiten/Kategorien holen; Scoring ergänzen um Lektorat, Germanistik/Neuere deutsche Literatur, Literaturvermittlung, Religionswissenschaft, Zielrichtung Promotion (Deloitte bekam nur Score 1)
+- [x] (erledigt 25.10., f123474) Stellenmonitor: kultweet nur erste 46 Einträge (keine Paginierung) — mehr Seiten/Kategorien holen; Scoring ergänzen um Lektorat, Germanistik/Neuere deutsche Literatur, Literaturvermittlung, Religionswissenschaft, Zielrichtung Promotion (Deloitte bekam nur Score 1)
 
 ## STAND 24.10.2026 — Stellenscan hochschul-job.de
 - Neue Quelle im Stellen-Monitor: hochschul-job.de (Endpunkt /jm-ajax/get_listings/, geistes-/sozialwiss. Kategorien), `fetch_hochschuljob` in stellen_quellen_extra.py, eingetragen in stellen_boot.py. Vollscan 24.10.: 2.758 Stellen, 8 über Min-Score.
