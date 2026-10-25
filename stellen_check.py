@@ -606,6 +606,22 @@ def fetch_kultweet():
     html = fetch_url(url, timeout=30)   # Fehler wirft, wie bei den anderen Quellen
     parser = KultweetParser()
     parser.feed(html)
+    # jobs.php zeigt nur ~46 Eintraege; aeltere liegen auf ?page=N (25.10.2026:
+    # ~38 Seiten). Premium-Anzeigen wiederholen sich auf jeder Seite, daher
+    # abbrechen, sobald eine Seite nichts Neues mehr bringt.
+    bekannt = {j["id"] for j in parser.jobs}
+    for seite in range(2, 81):
+        try:
+            p2 = KultweetParser()
+            p2.feed(fetch_url(f"{url}?page={seite}", timeout=30))
+        except Exception as e:
+            print(f"kultweet: Seite {seite} gescheitert: {e}", file=sys.stderr)
+            break
+        neu = [j for j in p2.jobs if j["id"] not in bekannt]
+        if not neu:
+            break
+        bekannt.update(j["id"] for j in neu)
+        parser.jobs.extend(neu)
     if not parser.jobs:
         raise RuntimeError(
             f"Seite geladen ({len(html)} Zeichen), aber 0 Treffer im Markup — Parser pruefen"

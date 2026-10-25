@@ -110,6 +110,26 @@ LITERATUR_KATEGORIEN = {
     },
 }
 
+# Lektorat, Germanistik, Literaturvermittlung — Deloitte-/Kiel-Loch (25.10.2026)
+LITERATUR_KATEGORIEN["lektorat_germanistik"] = {
+    "weight": 3,
+    "terms": [
+        r"lektorat\w*", r"lektor\b", r"lektorin", r"korrektorat",
+        r"germanistik", r"germanistisch\w*", r"neuere\w* deutsche\w* literatur",
+        r"literaturwissenschaft\w*", r"komparatistik", r"vergleichende\w* literatur\w*",
+        r"literaturvermittl\w*", r"leseförderung", r"lesefoerderung",
+        r"religionswissenschaft\w*",
+    ],
+}
+LITERATUR_KATEGORIEN["promotionsstelle"] = {
+    "weight": 3,
+    "terms": [
+        r"zielrichtung promotion", r"promotionsstelle\w*", r"promotionsvorhaben",
+        r"graduiertenkolleg\w*", r"geschlechterforschung", r"doktorand\w*",
+    ],
+}
+
+
 # ─── (2c) Erweiterungen bestehender Kategorien ───
 # Lyrik/Übersetzung von 3 auf 4: soll allein auslösen.
 UEBERSETZUNG_LYRIK_NEU = {
