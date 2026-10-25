@@ -4,6 +4,12 @@
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
+## STAND 25.10.2026 — Deloitte, neue kultweet-Stellen, Monitor-Lücke
+- [ ] Deloitte Lektorat/Berichtswesen München: Anschreiben fertig (~/Documents/Bewerbungen/deloitte_lektorat/), als PDF über Online-Portal einreichen
+- [ ] Silke Krüger: Rückfrage an Laura zu Benefit-Start (Anzeige vs. Mail vs. Merkblatt); Auszahlungstermin schriftlich; Arbeitsaufnahme ans Jobcenter melden
+- [ ] Entscheiden: Kiel NdL WiMi/Promotion (Frist 13.11., Exposé NdL/AVL nötig) · Bielefeld GRK 2650 (Frist 30.11.) · Basel Literaturvermittlung Kinder (ab 01.05.2027) · Hannover Religionswiss. (Frist 03.11., eher auslassen)
+- [ ] Stellenmonitor: kultweet nur erste 46 Einträge (keine Paginierung) — mehr Seiten/Kategorien holen; Scoring ergänzen um Lektorat, Germanistik/Neuere deutsche Literatur, Literaturvermittlung, Religionswissenschaft, Zielrichtung Promotion (Deloitte bekam nur Score 1)
+
 ## STAND 24.10.2026 — Stellenscan hochschul-job.de
 - Neue Quelle im Stellen-Monitor: hochschul-job.de (Endpunkt /jm-ajax/get_listings/, geistes-/sozialwiss. Kategorien), `fetch_hochschuljob` in stellen_quellen_extra.py, eingetragen in stellen_boot.py. Vollscan 24.10.: 2.758 Stellen, 8 über Min-Score.
 - [ ] **DRINGEND: TIB Hannover, WiMi semantische Erschließung von KI-Trainingsdaten, Kennziffer 41/2026 — Frist Sa 31.10.2026.** DFG-Projekt COUGAR (annotiertes Korpus ~120.000 deutscher Forschungsberichte, mit Uni Marburg), E13 TV-L, 39,8 h (Teilzeit möglich), 2 Jahre, Beginn frühestens 01.02.2027. Aufgaben: Annotationsschemata und -richtlinien, Anleitung studentischer Hilfskräfte, Qualitätssicherung, Open Data, Publikationen. Pflicht: Master in Computerlinguistik/DH/Informatik/BIW „oder verwandtem Fachgebiet“, sehr gutes Deutsch, Erfahrung in Projektkoordination oder Anleitung von Hilfskräften. Wünschenswert: INCEpTION o. ä., Sacherschließung/kontrollierte Vokabulare, Dublin Core/TEI/XML, Cohens Kappa. Argumente: tajikpoemanalyzer (Korpusaufbau), GND-Abgleich, Leitung Warte für Kultur e.V.; Lücke: kein DH-/CL-Abschluss. Bewerbung: eine PDF an Bewerbung@tib.eu oder tib.eu/bewerbungsformular-41-2026, Kennziffer + Stellenbörse im Betreff, Gehaltsvorstellung erwünscht. Kontakt Dr. Diana Slawig, 0511 762-3424.
