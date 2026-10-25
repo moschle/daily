@@ -4,6 +4,19 @@
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
+## STAND 25.10.2026 (spät) — kultweet-Vollanalyse: Vorschläge nach Frist
+- [ ] KAS Berlin, Referent Bundeswehr und Gesellschaft (Elternzeitvertretung) — Frist 28.10.2026 (!)
+- [ ] Grünen-Fraktion Landtag Sachsen-Anhalt, Magdeburg, Referent*in Wissenschaft, Kultur und Digitales — Frist 31.10.2026
+- [ ] Görlitz, Projektassistenz „Zwangsarbeit und antislawischer Rassismus während der NS-Zeit“ — Frist 02.11.2026
+- [ ] MDR Leipzig, Gehobene Redakteurin — Frist 04.11.2026
+- [ ] KAS Berlin, Referent Hauptabteilung Politische Bildung (Bildungsforum Berlin) — Frist prüfen (KAS-Seite: 03.–05.11.2026)
+- [ ] MDR KLASSIK Leipzig, Koordination Musikvermittlung, 30h — Frist 06.11.2026
+- [ ] Deutsche Welle Bonn/Berlin, Editorial Coordinator — Frist 08.11.2026
+- [ ] Literarische Gesellschaft Karlsruhe, wiss. Volontariat ab 01.02.2027 — Frist 15.11.2026 (info@literaturmuseum.de)
+- [ ] BBK Sachsen-Anhalt Halle, Mitarbeiter*in Künstlernachlässe 20h ab 01.01.2027 — keine Frist genannt, bald bewerben
+- Verworfen: GWZO Fachlektorat Leipzig (Master Kunstgeschichte Pflicht), KBB Kuratorische Redaktion (Frist 25.10. abgelaufen)
+- [x] Scoring um neue Felder erweitert, weiche Trennstriche entfernt (Commit 323be13)
+
 ## STAND 25.10.2026 — Deloitte, neue kultweet-Stellen, Monitor-Lücke
 - [ ] Deloitte Lektorat/Berichtswesen München: Anschreiben fertig (~/Documents/Bewerbungen/deloitte_lektorat/), als PDF über Online-Portal einreichen
 - [ ] Silke Krüger: Rückfrage an Laura zu Benefit-Start (Anzeige vs. Mail vs. Merkblatt); Auszahlungstermin schriftlich; Arbeitsaufnahme ans Jobcenter melden
