@@ -130,6 +130,23 @@ LITERATUR_KATEGORIEN["promotionsstelle"] = {
 }
 
 
+# Neue Berufsfelder aus der kultweet-Vollanalyse (25.10.2026)
+LITERATUR_KATEGORIEN["neue_felder_2610"] = {
+    "weight": 3,
+    "terms": [
+        r"kulturredakteur\w*", r"publikationswesen", r"editorial coordinat\w*",
+        r"musikvermittl\w*", r"\bchor\b", r"chöre\w*", r"chorleit\w*", r"jugendchor\w*",
+        r"künstlernachl\w*", r"nachlässe\w*",
+        r"provenienz\w*", r"zwangsarbeit\w*", r"erinnerungskultur\w*",
+        r"politische\w* bildung\w*", r"bildungsforum\w*",
+        r"bundeswehr", r"sicherheitspolitik\w*",
+        r"deutsch als fremdsprache", r"deutsch als zweitsprache", r"\bdaf\b", r"\bdaz\b",
+        r"goethe-institut\w*",
+        r"deutsch-französisch\w*", r"dt\.-frz\.",
+    ],
+}
+
+
 # ─── (2c) Erweiterungen bestehender Kategorien ───
 # Lyrik/Übersetzung von 3 auf 4: soll allein auslösen.
 UEBERSETZUNG_LYRIK_NEU = {
@@ -257,7 +274,11 @@ def _kompiliere(kategorien):
 _COMPILED = _kompiliere(ALLE_KATEGORIEN)
 
 
+ZWSP_SCORE = dict.fromkeys(list(range(0x200b, 0x2010)) + [0xad], None)
+
+
 def score_v3(text):
+    text = text.translate(ZWSP_SCORE)
     """Wie score_text in v2.0, aber mit Split, Veto und neuen Kategorien.
 
     Rückgabe: (score, [kategorien]) — identische Signatur, damit main()
