@@ -34,7 +34,8 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 - Nach der Promotion: DFG Eigene Stelle / Walter-Benjamin-Programm (Ausland, z. B. Oxford) prüfen.
 
 ### Fristen und Termine
-- [ ] 27.10.2026 Dekanat Phil. Fak. I: Fakultätsfrist Landesstipendium + Stand Annahme; transfer@uni-halle.de: Frist Transferpreis 2026 (Kategorie Abschlussarbeiten)
+- [x] 26.10.2026 Mail an promotionsverfahren@philfak1 wegen Fakultätsfrist Landesstipendium verschickt — Antwort abwarten, Frist dann im Kalender eintragen
+- [ ] 27.10.2026 transfer@uni-halle.de: Frist Transferpreis 2026 (Kategorie Abschlussarbeiten)
 - [ ] 03.11.2026 Purnaqcheband: DFG-Antrag besprechen, Dienstende klären (muss 3 J. Projektlaufzeit abdecken, sonst Prof. Meier als Mitantragstellerin)
 - [ ] 10.11.2026 Drittmittelservice MLU (Abt. 6): Beratung Sachbeihilfe, Kalkulation (Stelle, Reisemittel Duschanbe, Oxford)
 - [ ] 15.11.2026 Oxford Recognised Student: Bewerbungsfrist Hilary Term 2028 recherchieren
