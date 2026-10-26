@@ -13,7 +13,7 @@ rm -rf daily.neu && mkdir daily.neu
 tar -xzf /tmp/daily.tgz -C daily.neu --strip-components=1
 rm -f /tmp/daily.tgz
 # Zustandsdateien aus dem alten Stand uebernehmen, damit nichts doppelt kommt
-for f in stellen_seen.json gloss_state.json journal_state.json vocab_memory.json .env; do
+for f in stellen_seen.json stellen_llm_cache.json gloss_state.json journal_state.json vocab_memory.json .env; do
   [ -f "daily/$f" ] && cp -p "daily/$f" "daily.neu/$f"
 done
 # Jurabrief laeuft seit 13.10.2026 auf netcup: Lernstand lebt hier, nicht im Repo.
