@@ -122,10 +122,11 @@ LITERATUR_KATEGORIEN["lektorat_germanistik"] = {
     ],
 }
 LITERATUR_KATEGORIEN["promotionsstelle"] = {
-    "weight": 3,
+    # 26.10.2026: "doktorand"/"promotionsstelle" allein holten jede PhD-Stelle
+    # (Metaphysik, NLP, Umfrageforschung). Fach entscheidet die KI-Stufe.
+    "weight": 2,
     "terms": [
-        r"zielrichtung promotion", r"promotionsstelle\w*", r"promotionsvorhaben",
-        r"graduiertenkolleg\w*", r"geschlechterforschung", r"doktorand\w*",
+        r"zielrichtung promotion", r"graduiertenkolleg\w*", r"geschlechterforschung",
     ],
 }
 

@@ -175,6 +175,15 @@ def main() -> None:
 
     debug = os.environ.get("DEBUG_STELLEN") == "1"
     ausfaelle = [s for s, v in sources_status.items() if not isinstance(v, int)]
+    # Rauschfilter: Schlagwort-Treffer, die die KI schon unter 5 bewertet hat, fliegen raus
+    try:
+        import stellen_llm as _sl
+        _kc = _sl._lade_cache()
+        scored_hits = [h for h in scored_hits
+                       if float((_kc.get(h[0]["id"]) or {}).get("score", 10)) >= 5]
+    except Exception as e:
+        print(f"Rauschfilter uebersprungen: {e}", file=sys.stderr)
+
     if scored_hits or llm_treffer or debug or ausfaelle:
         html = sc.build_html_mail(scored_hits, len(seen), sources_status)
         html = html.replace("</h1>", "</h1>" + llm_html + "<h2>Schlagwort-Treffer</h2>", 1)
