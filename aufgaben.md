@@ -4,27 +4,39 @@
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
-## STAND 26.10.2026 — Promotionsförderung: Landesstipendium MLU als Start, KAS als Weiterförderung
-Ausschreibung (erstellt 01.10.2026) liegt in Papierform vor.
-- [ ] 27.10.: Dekanat Phil. Fak. I — Fakultätsfrist Graduiertenstipendium erfragen (Fakultäten → Abt. 1/Ref. 1.3 bis 31.01.2027, Förderbeginn 01.04.2027); Stand Antrag auf Annahme klären (Annahme ist Voraussetzung)
-- [ ] Arbeitsplan schreiben (Begründung, Thema, zeitliche und sachliche Gliederung) — zugleich Grundlage für KAS-Exposé (15.12.), DAAD, Studienstiftung, Böll
-- [ ] 16.11.: Gutachten Purnaqcheband + Stephan anfragen — dieselben für KAS und Landesstipendium
-- [ ] Einkommensnachweis nach GradFVO § 7a: Anrechnung freiberuflicher Einkünfte prüfen
-- [ ] Zeugnis beglaubigen (oder Original bei Abgabe vorlegen); Erstantrag ausfüllen
-- Konditionen: 1.400 €/Monat, einmalig 1.100 € Sach-/Reisekosten (auch Ausland; >30 Tage: 8 Wochen vorher Rücksprache Ref. 1.3), 3 Jahre (+1 in Ausnahmefällen). Kontakt: Heike Schmidt, 0345/55-21315, Barfüßerstr. 17
-- KAS: kein Parallelbezug; bei Zusage Wechsel, Landesstipendium endet. [ ] Bei KAS klären: Umgang mit laufendem Landesstipendium
-- DAAD: mit Landesstipendium nur Aufstockung („GRAFÖG – Aufstockung“) — für Feldaufenthalt Duschanbe; [ ] DAAD-Risikoländerliste (Tadschikistan/GBAO) prüfen. Als KAS-Stipendiat kein DAAD-Forschungsstipendium → Oxford über KAS-Auslandsförderung
-- DFG-Sachbeihilfe mit Doktorandenstelle (Prof. Meier sieht Chancen, 26.10.): Antrag stellt promovierte Person (Purnaqcheband oder Meier), Moritz als vorgesehener Mitarbeiter; jederzeit einreichbar, Entscheidung erst nach Monaten → Landesstipendium als Brücke
-- STRATEGIE 26.10. (abends): Ziele = schnelle Forschungsreise, max. 2 Jahre, keine Geldsorgen, keine Lehre, Vernetzung, Oxford langfristig. Hauptweg: Landesstipendium 04/2027 als Start + Bewerbung bei KAS (15.01.), Studienstiftung (Feb.), Böll (01.03.) parallel, beste Zusage annehmen; Duschanbe über Landesstipendium + DAAD-Aufstockung; Oxford Hilary 2028 über Auslandsförderung des Werks. DFG-Antrag parallel einreichen: Abgabe der Diss. nach 2 Jahren möglich, Stelle läuft bis Projektende weiter (3. Jahr bezahlt für Publikationen/Postdoc-Antrag); Oxford als Projektkosten oder DAAD mit Freistellung. Daneben: DÜF-Antrag läuft, Literatur-/Übersetzungsprojekt und DAAD-Forschungsstipendium allein (nach Annahme) möglich — jeweils Anrechnung bei Hauptförderung klären; DFG nach der Promotion für Postdoc (Eigene Stelle / Walter-Benjamin-Programm im Ausland) prüfen
-- (vorher) ENTSCHEIDUNG 26.10.: DFG-Antrag wird versucht — Purnaqcheband als Antragsteller (macht mit, wenn Moritz alles vorbereitet); bevorzugter Weg zur Promotion
-- [ ] Purnaqcheband: bis wann ist er im aktiven Dienst? (muss Projektlaufzeit abdecken)
-- [ ] Termin Drittmittelservice MLU (Abt. 6): Beratung Sachbeihilfe, Kalkulation (Stelle, Reisemittel Duschanbe, Oxford-Aufenthalt als Projektkosten)
-- [ ] Prof. Meier fragen, ob sie den Entwurf gegenliest
-- [ ] Ablauf: Arbeitsplan Grafög (Jan) → DFG-Projektbeschreibung nach Leitfaden 54_01 (Frühjahr 2027) → Einreichung über Purnaqcheband
-- [ ] Transferpreis MLU 2026 (Kategorie Abschlussarbeiten): Frist online nicht auffindbar → transfer@uni-halle.de, 0345 55-22955
+## STAND 26.10.2026 — FÖRDERFAHRPLAN PROMOTION (ersetzt die Einzelnotizen vom 26.10.)
+Ziele: schnelle Forschungsreise · max. 2 Jahre Promotion · keine Geldsorgen · keine Lehre · Vernetzung · Oxford langfristig.
+Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-Förderung gleichzeitig, jede Nebenförderung (DÜF, Literaturprojekt, Arbeit) bei der Hauptförderung anmelden und Anrechnung schriftlich bestätigen lassen.
+
+### Bausteine
+- Landesstipendium MLU (Grafög): 1.400 €/Monat + einmalig 1.100 € Sach-/Reisekosten, 3 J., keine Lehre. Start 01.04.2027. Antrag über Dekanat, Fakultätsfrist erfragen, Weiterleitung bis 31.01.2027. Unterlagen: Erstantrag, beglaubigtes Zeugnis, Arbeitsplan, 2 Gutachten, Lebenslauf, Einkommensnachweis § 7a GradFVO. Voraussetzung: Annahme als Doktorand (HalDoc-ID 6740). Ausland >30 Tage: 8 Wochen vorher Ref. 1.3. Kontakt Heike Schmidt, 0345/55-21315.
+- KAS (15.01.2027), Studienstiftung (01.–14.02.2027), Böll (01.03.2027): bei Zusage Wechsel, Landesstipendium endet. KAS bevorzugt (Auslandsförderung, Begleitprogramm). Bei KAS klären: Umgang mit laufendem Landesstipendium, Starttermin.
+- DFG-Sachbeihilfe mit Doktorandenstelle: Antragsteller Purnaqcheband, Moritz schreibt. Jederzeit einreichbar, Entscheidung nach Monaten → Start frühestens Ende 2027. Abgabe der Diss. nach 2 J. möglich, Stelle läuft bis Projektende (3. Jahr für Publikationen/Postdoc-Antrag). Oxford als Projektkosten budgetieren. Parallel zu den Stipendien einreichen.
+- DAAD: Forschungsstipendium für Doktorand:innen (nach formaler Annahme; 1–12 Monate) — allein möglich; mit Landesstipendium nur Aufstockung; mit Begabtenförderwerk ausgeschlossen; mit Stelle nur mit Freistellung. Risikoländerliste (Tadschikistan/GBAO) prüfen.
+- DÜF-Reisestipendium (landeskundliche Reise): beantragt zur Frist 15.09.2026, Reise 01.–21.03.2027, Jury-Entscheidung etwa Mitte November 2026. Reise liegt vor Start Landesstipendium — keine Doppelförderung; Promotionsrecherche in Duschanbe mitnehmen.
+- Literaturprojekt / Übersetzung: DÜF Initiativstipendium (2.000 €, ohne Verlagsvertrag; Frist 30.11. verifizieren); DÜF Arbeitsstipendium nur mit Verlagsvertrag (Runden 15.01./15.05./15.09.).
+- Nach der Promotion: DFG Eigene Stelle / Walter-Benjamin-Programm (Ausland, z. B. Oxford) prüfen.
+
+### Fristen und Termine
+- [ ] 27.10.2026 Dekanat Phil. Fak. I: Fakultätsfrist Landesstipendium + Stand Annahme; transfer@uni-halle.de: Frist Transferpreis 2026 (Kategorie Abschlussarbeiten)
+- [ ] Ende Okt./Nov. Purnaqcheband: Dienstende (muss DFG-Projektlaufzeit abdecken), DFG-Vorhaben besprechen; Termin Drittmittelservice MLU (Abt. 6)
+- [ ] ca. Mitte Nov. DÜF-Entscheidung Reisestipendium abwarten → Reise 01.–21.03.2027 buchen
+- [ ] 16.11.2026 Gutachten anfragen: Purnaqcheband + Stephan (für KAS, Landesstipendium, später DAAD/Studienstiftung/Böll)
+- [ ] 20.11.2026 Dreiländer-Orientkolloquium, Villa Tillmanns Leipzig, 8:30–17:30
+- [ ] 30.11.2026 DÜF Initiativstipendium (Frist verifizieren)
+- [ ] 15.12.2026 Exposé/Arbeitsplan fertig (auf 2 Jahre angelegt, eine Feldphase); Al-Manhal-/Kezana-Recherche abschließen (Testzugang bis 31.12.)
+- [ ] Fakultätsfrist (tbd) Landesstipendium einreichen; Weiterleitung bis 31.01.2027
+- [ ] 15.01.2027 KAS
+- [ ] 01.–14.02.2027 Studienstiftung
+- [ ] 01.03.2027 Böll
+- [ ] 01.–21.03.2027 Tadschikistan (DÜF, falls bewilligt)
+- [ ] 01.04.2027 Beginn Landesstipendium (falls bewilligt) → DAAD-Aufstockung für weitere Feldphase beantragen (Fristen auf daad.de prüfen)
+- [ ] Frühjahr 2027 DFG-Antrag über Purnaqcheband einreichen (Projektbeschreibung nach Leitfaden 54_01, Prof. Meier liest gegen)
+- [ ] Oxford Hilary Term 2028 (16.01.–11.03.2028): Bewerbungsfrist Recognised Student recherchieren; Finanzierung je nach Lage über KAS / DFG-Projekt / DAAD
+- [ ] Anfang 2029 Abgabe Dissertation
+
+### Weiteres aus den Aushängen
 - [ ] Purnaqcheband, „Firdawsī und der autochthone Diskurs“ (HBO 52/25) vor dem Arbeitsplan lesen
-- [ ] bis 15.12.: Al Manhal / Kezana TR Testzugang (FID Nahost, bis 31.12.) nutzen
-- 20.11.2026: Dreiländer-Orientkolloquium, Villa Tillmanns Leipzig, 8:30–17:30 (im Kalender)
 - Beobachten: Imaginamics Bridge Jena (2026: Frist 11.06.); 4memory-Fellowships nur bei Datenbank-Variante
 
 ## STAND 25.10.2026 (spät) — kultweet-Vollanalyse: Vorschläge nach Frist
