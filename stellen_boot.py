@@ -138,11 +138,15 @@ def main() -> None:
     print(f"Dedupliziert: {vorher} -> {len(all_jobs)}", file=sys.stderr)
 
     scored_hits = []
+    kandidaten, vorrang = [], {}   # fuer die KI-Bewertung (stellen_llm.py)
     for job in all_jobs:
         full_text = f"{job['title']} {job.get('summary', '')}"
         if ist_leiche(full_text):
             continue
         score, cats = score_v3(full_text)
+        if job["id"] not in seen:
+            kandidaten.append(job)
+            vorrang[job["id"]] = score
         if score < sc.MIN_SCORE:
             continue
         if job["id"] in seen:
@@ -157,12 +161,26 @@ def main() -> None:
     )
     sc.save_seen(seen)
 
+    # Stufe 2: KI-Bewertung (Parallelbetrieb seit 26.10.2026). Fehler duerfen den
+    # Monitor nie stoppen.
+    llm_treffer, llm_html = [], ""
+    try:
+        import stellen_llm
+        llm_treffer, llm_status = stellen_llm.bewerte(kandidaten, vorrang)
+        print(llm_status, file=sys.stderr)
+        llm_html = stellen_llm.html_abschnitt(llm_treffer, llm_status)
+    except Exception as e:
+        print(f"KI-Bewertung uebersprungen: {e}", file=sys.stderr)
+        llm_html = f"<p style='color:#a33;'>KI-Bewertung ausgefallen: {type(e).__name__}</p>"
+
     debug = os.environ.get("DEBUG_STELLEN") == "1"
     ausfaelle = [s for s, v in sources_status.items() if not isinstance(v, int)]
-    if scored_hits or debug or ausfaelle:
+    if scored_hits or llm_treffer or debug or ausfaelle:
         html = sc.build_html_mail(scored_hits, len(seen), sources_status)
-        if scored_hits:
-            subject = f"Stellen-Monitor: {len(scored_hits)} neue Treffer"
+        html = html.replace("</h1>", "</h1>" + llm_html + "<h2>Schlagwort-Treffer</h2>", 1)
+        if scored_hits or llm_treffer:
+            subject = (f"Stellen-Monitor: {len(llm_treffer)} KI-Treffer, "
+                       f"{len(scored_hits)} Schlagwort-Treffer")
         elif ausfaelle:
             subject = f"Stellen-Monitor: keine Treffer, AUSFALL {', '.join(ausfaelle)}"
         else:
