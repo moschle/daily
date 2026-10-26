@@ -4,6 +4,13 @@
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
+## DFG-Sachbeihilfe (Entscheidung 26.10.2026: sofort angehen)
+- Antragsteller formal Purnaqcheband (Promotion nötig), Moritz schreibt den Antrag; beantragt wird die eigene Doktorandenstelle + Reise-/Sachmittel; Laufzeit i. d. R. 36 Monate; keine feste Frist
+- [ ] 03.11.2026 Purnaqcheband: Zusage als Antragsteller, Zeitplan, Rolle der Fakultät
+- [ ] Forschungsförderung MLU (Drittmittelberatung) um Beratungstermin bitten — Antragsformulare, Kalkulation Personalmittel, interne Abläufe
+- [ ] Exposé bis 15.12. so anlegen, dass es Kern der DFG-Projektbeschreibung wird (Stand der Forschung, eigene Vorarbeiten: MA/Monografie De Gruyter, Tajikpoemanalyzer, Feldforschung 2025; Arbeitsprogramm, Zeitplan)
+- [ ] Ziel: DFG-Antrag Ende Februar 2027 einreichen (nach Grafög/KAS im Januar)
+
 ## ENTSCHEIDUNG 26.10.2026 — Fokus Promotion + Finanzierung
 - Vollzeit-Bewerbungen ruhen (Deloitte, Ferropolis Zeitzeugen, Topographie, Grüne LSA, Görlitz, MDR KLASSIK zurückgestellt)
 - Stellen-Monitor sucht nur noch Nebenjobs (bis ~20 h, Honorar, remote) sowie Promotionsstellen/Stipendien; Vollzeit max. 3/10
