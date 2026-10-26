@@ -24,7 +24,7 @@ Ausschreibung (erstellt 01.10.2026) liegt in Papierform vor.
 ## STAND 25.10.2026 (spät) — kultweet-Vollanalyse: Vorschläge nach Frist
 - [x] (verworfen 26.10.) KAS Berlin, Referent Bundeswehr und Gesellschaft — verlangt mehrjährige Berufserfahrung, wiss. Expertise Sicherheitspolitik, sehr gute Kenntnis der Bundeswehr-Führungskultur
 - [ ] Grünen-Fraktion LSA Magdeburg, Referent*in Wiss./Kultur/Digitales — Frist 31.10.2026; Anschreiben fertig (~/Documents/Bewerbungen/gruene_lsa_wiss_kultur_digitales/), PDF per Mail
-- [ ] Görlitz, Projektassistenz „Zwangsarbeit und antislawischer Rassismus während der NS-Zeit“ — Frist 02.11.2026
+- [ ] Görlitz (Meetingpoint Memory Messiaen), Projektassistenz Zwangsarbeit, 32h E9, ab 01/2027 — Frist 02.11.2026; Anschreiben fertig (~/Documents/Bewerbungen/goerlitz_zwangsarbeit_projektassistenz/), Mail an info@meetingpointmm.eu
 - [ ] MDR Leipzig, Gehobene Redakteurin — Frist 04.11.2026
 - [ ] KAS Berlin, Referent Hauptabteilung Politische Bildung (Bildungsforum Berlin) — Frist prüfen (KAS-Seite: 03.–05.11.2026)
 - [ ] MDR KLASSIK Leipzig, Koordination Musikvermittlung, 30h — Frist 06.11.2026
