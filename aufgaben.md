@@ -9,7 +9,10 @@
 - [ ] 03.11.2026 Purnaqcheband: Zusage als Antragsteller, Zeitplan, Rolle der Fakultät
 - [ ] Forschungsförderung MLU (Drittmittelberatung) um Beratungstermin bitten — Antragsformulare, Kalkulation Personalmittel, interne Abläufe
 - [ ] Exposé bis 15.12. so anlegen, dass es Kern der DFG-Projektbeschreibung wird (Stand der Forschung, eigene Vorarbeiten: MA/Monografie De Gruyter, Tajikpoemanalyzer, Feldforschung 2025; Arbeitsprogramm, Zeitplan)
-- [ ] Ziel: DFG-Antrag Ende Februar 2027 einreichen (nach Grafög/KAS im Januar)
+- [x] 26.10.2026 Erster Entwurf Projektbeschreibung: ~/Documents/Promotion/DFG_Antrag/ (ZIP, Prüfliste)
+- [ ] bis 30.11.2026 vollständiger Entwurf (Belege, Korpusumfang, Kalkulation)
+- [ ] 1.–15.12.2026 Gegenlesen Purnaqcheband + interne Prüfung MLU
+- [ ] vor Weihnachten 2026 einreichen (über elan); Januar: Grafög + KAS aus dem DFG-Text kürzen
 
 ## ENTSCHEIDUNG 26.10.2026 — Fokus Promotion + Finanzierung
 - Vollzeit-Bewerbungen ruhen (Deloitte, Ferropolis Zeitzeugen, Topographie, Grüne LSA, Görlitz, MDR KLASSIK zurückgestellt)
