@@ -4,6 +4,15 @@
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
+## STAND 26.10.2026 (abends) — neue Stellen aus dem Monitor-Testlauf
+- [ ] Ferropolis / Netzwerk Industriekultur Sachsen-Anhalt, Mitarbeiter/in Medienportal, 50 %, E11, remote + Gräfenhainichen, ab 01.01.2027, 2 J. — Frist 04.11.2026, bewerbung@ferropolis.de
+- [ ] Ferropolis / Netzwerk Industriekultur Sachsen-Anhalt, Mitarbeiter/in Zeitzeug:innenarbeit, Vollzeit, E11, remote + Gräfenhainichen, ab 01.01.2027, 2 J. — Frist 04.11.2026, bewerbung@ferropolis.de (Master ODER Berufserfahrung)
+- [ ] Topographie des Terrors / Dokumentationszentrum NS-Zwangsarbeit Berlin, Koordination im Bildungsbereich, Vollzeit, E9a, 2 J., ab 15.02.2027 — Frist 24.11.2026, Bewerbung über Kenjo-Portal (Erfahrung Vermittlung an NS-Erinnerungsorten gefordert)
+- [ ] MDR KLASSIK Leipzig Musikvermittlung 30h — Frist 06.11.2026 (prüfen)
+- [ ] BBK Sachsen-Anhalt Halle Künstlernachlässe 20h ab 01.01.2027 — keine Frist
+- Verworfen: Uni Würzburg Lektorat Französisch (Französisch als Muttersprache Pflicht), Zürich MINARET (Ethnologie, anthropologisch), Botschaft Doha (Ortskraft)
+- [x] Stellen-Monitor läuft auf netcup mit KI-Bewertung; Rückstand ~1.550 Stellen wird über ~10 Tage abgearbeitet; Rauschfilter eingebaut
+
 ## STAND 26.10.2026 — FÖRDERFAHRPLAN PROMOTION (ersetzt die Einzelnotizen vom 26.10.)
 Ziele: schnelle Forschungsreise · max. 2 Jahre Promotion · keine Geldsorgen · keine Lehre · Vernetzung · Oxford langfristig.
 Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-Förderung gleichzeitig, jede Nebenförderung (DÜF, Literaturprojekt, Arbeit) bei der Hauptförderung anmelden und Anrechnung schriftlich bestätigen lassen.
