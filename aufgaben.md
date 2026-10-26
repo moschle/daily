@@ -4,6 +4,13 @@
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
+## ENTSCHEIDUNG 26.10.2026 — Fokus Promotion + Finanzierung
+- Vollzeit-Bewerbungen ruhen (Deloitte, Ferropolis Zeitzeugen, Topographie, Grüne LSA, Görlitz, MDR KLASSIK zurückgestellt)
+- Stellen-Monitor sucht nur noch Nebenjobs (bis ~20 h, Honorar, remote) sowie Promotionsstellen/Stipendien; Vollzeit max. 3/10
+- Nachtdienst wird für jeden besseren Nebenjob sofort aufgegeben
+- Offen als Nebenjob: Ferropolis Medienportal 50 % remote (Frist 04.11.) — prüfen, ob 20 h neben Promotion passen; BBK Künstlernachlässe Halle 20 h
+- [ ] Dekanat Phil. Fak. I: Fakultätsfrist Landesgraduiertenförderung + Nebenverdienst/§ 7a GradFVO klären
+
 ## STAND 26.10.2026 (abends) — neue Stellen aus dem Monitor-Testlauf
 - [ ] Ferropolis / Netzwerk Industriekultur Sachsen-Anhalt, Mitarbeiter/in Medienportal, 50 %, E11, remote + Gräfenhainichen, ab 01.01.2027, 2 J. — Frist 04.11.2026, bewerbung@ferropolis.de
 - [ ] Ferropolis / Netzwerk Industriekultur Sachsen-Anhalt, Mitarbeiter/in Zeitzeug:innenarbeit, Vollzeit, E11, remote + Gräfenhainichen, ab 01.01.2027, 2 J. — Frist 04.11.2026, bewerbung@ferropolis.de (Master ODER Berufserfahrung)
