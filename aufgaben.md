@@ -15,7 +15,11 @@ Ausschreibung (erstellt 01.10.2026) liegt in Papierform vor.
 - KAS: kein Parallelbezug; bei Zusage Wechsel, Landesstipendium endet. [ ] Bei KAS klären: Umgang mit laufendem Landesstipendium
 - DAAD: mit Landesstipendium nur Aufstockung („GRAFÖG – Aufstockung“) — für Feldaufenthalt Duschanbe; [ ] DAAD-Risikoländerliste (Tadschikistan/GBAO) prüfen. Als KAS-Stipendiat kein DAAD-Forschungsstipendium → Oxford über KAS-Auslandsförderung
 - DFG-Sachbeihilfe mit Doktorandenstelle (Prof. Meier sieht Chancen, 26.10.): Antrag stellt promovierte Person (Purnaqcheband oder Meier), Moritz als vorgesehener Mitarbeiter; jederzeit einreichbar, Entscheidung erst nach Monaten → Landesstipendium als Brücke
-- [ ] Mit Purnaqcheband/Meier klären: wer beantragt, Stellenumfang, Reisemittel Duschanbe; Drittmittelservice MLU (Abt. 6) für Kalkulation
+- ENTSCHEIDUNG 26.10.: DFG-Antrag wird versucht — Purnaqcheband als Antragsteller (macht mit, wenn Moritz alles vorbereitet); bevorzugter Weg zur Promotion
+- [ ] Purnaqcheband: bis wann ist er im aktiven Dienst? (muss Projektlaufzeit abdecken)
+- [ ] Termin Drittmittelservice MLU (Abt. 6): Beratung Sachbeihilfe, Kalkulation (Stelle, Reisemittel Duschanbe, Oxford-Aufenthalt als Projektkosten)
+- [ ] Prof. Meier fragen, ob sie den Entwurf gegenliest
+- [ ] Ablauf: Arbeitsplan Grafög (Jan) → DFG-Projektbeschreibung nach Leitfaden 54_01 (Frühjahr 2027) → Einreichung über Purnaqcheband
 - [ ] Transferpreis MLU 2026 (Kategorie Abschlussarbeiten): Frist online nicht auffindbar → transfer@uni-halle.de, 0345 55-22955
 - [ ] Purnaqcheband, „Firdawsī und der autochthone Diskurs“ (HBO 52/25) vor dem Arbeitsplan lesen
 - [ ] bis 15.12.: Al Manhal / Kezana TR Testzugang (FID Nahost, bis 31.12.) nutzen
