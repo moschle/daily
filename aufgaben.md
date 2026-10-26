@@ -43,7 +43,7 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 - [ ] 20.11.2026 Dreiländer-Orientkolloquium, Villa Tillmanns Leipzig, 8:30–17:30
 - [ ] 30.11.2026 DÜF Initiativstipendium (Frist verifizieren)
 - [ ] 15.12.2026 Exposé/Arbeitsplan fertig (auf 2 Jahre angelegt, eine Feldphase); Al-Manhal-/Kezana-Recherche abschließen (Testzugang bis 31.12.)
-- [ ] Fakultätsfrist (tbd) Landesstipendium einreichen; Weiterleitung bis 31.01.2027
+- [ ] Fakultätsfrist (tbd, vermutlich Anfang Januar: Fakultät braucht Zeit für Stellungnahme + Rangliste) Landesstipendium einreichen; Weiterleitung bis 31.01.2027. Annahme als Doktorand kann der Dekan in klaren Fällen ohne Sitzung bewilligen. Mit Purnaqcheband besprechen, dass die Fakultätsstellungnahme das Vorhaben stützt
 - [ ] 08.01.2027 DFG-Projektbeschreibung (Leitfaden 54_01) als Entwurf an Prof. Meier
 - [ ] 15.01.2027 KAS
 - [ ] 01.–14.02.2027 Studienstiftung
