@@ -14,7 +14,8 @@ Ausschreibung (erstellt 01.10.2026) liegt in Papierform vor.
 - Konditionen: 1.400 €/Monat, einmalig 1.100 € Sach-/Reisekosten (auch Ausland; >30 Tage: 8 Wochen vorher Rücksprache Ref. 1.3), 3 Jahre (+1 in Ausnahmefällen). Kontakt: Heike Schmidt, 0345/55-21315, Barfüßerstr. 17
 - KAS: kein Parallelbezug; bei Zusage Wechsel, Landesstipendium endet. [ ] Bei KAS klären: Umgang mit laufendem Landesstipendium
 - DAAD: mit Landesstipendium nur Aufstockung („GRAFÖG – Aufstockung“) — für Feldaufenthalt Duschanbe; [ ] DAAD-Risikoländerliste (Tadschikistan/GBAO) prüfen. Als KAS-Stipendiat kein DAAD-Forschungsstipendium → Oxford über KAS-Auslandsförderung
-- DFG: nur über Stellen (GRK / Sachbeihilfe Purnaqcheband) — keine Startoption
+- DFG-Sachbeihilfe mit Doktorandenstelle (Prof. Meier sieht Chancen, 26.10.): Antrag stellt promovierte Person (Purnaqcheband oder Meier), Moritz als vorgesehener Mitarbeiter; jederzeit einreichbar, Entscheidung erst nach Monaten → Landesstipendium als Brücke
+- [ ] Mit Purnaqcheband/Meier klären: wer beantragt, Stellenumfang, Reisemittel Duschanbe; Drittmittelservice MLU (Abt. 6) für Kalkulation
 - [ ] Transferpreis MLU 2026 (Kategorie Abschlussarbeiten): Frist online nicht auffindbar → transfer@uni-halle.de, 0345 55-22955
 - [ ] Purnaqcheband, „Firdawsī und der autochthone Diskurs“ (HBO 52/25) vor dem Arbeitsplan lesen
 - [ ] bis 15.12.: Al Manhal / Kezana TR Testzugang (FID Nahost, bis 31.12.) nutzen
