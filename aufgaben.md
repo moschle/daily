@@ -22,8 +22,8 @@ Ausschreibung (erstellt 01.10.2026) liegt in Papierform vor.
 - Beobachten: Imaginamics Bridge Jena (2026: Frist 11.06.); 4memory-Fellowships nur bei Datenbank-Variante
 
 ## STAND 25.10.2026 (spät) — kultweet-Vollanalyse: Vorschläge nach Frist
-- [ ] KAS Berlin, Referent Bundeswehr und Gesellschaft (Elternzeitvertretung) — Frist 28.10.2026 (!)
-- [ ] Grünen-Fraktion Landtag Sachsen-Anhalt, Magdeburg, Referent*in Wissenschaft, Kultur und Digitales — Frist 31.10.2026
+- [x] (verworfen 26.10.) KAS Berlin, Referent Bundeswehr und Gesellschaft — verlangt mehrjährige Berufserfahrung, wiss. Expertise Sicherheitspolitik, sehr gute Kenntnis der Bundeswehr-Führungskultur
+- [ ] Grünen-Fraktion LSA Magdeburg, Referent*in Wiss./Kultur/Digitales — Frist 31.10.2026; Anschreiben fertig (~/Documents/Bewerbungen/gruene_lsa_wiss_kultur_digitales/), PDF per Mail
 - [ ] Görlitz, Projektassistenz „Zwangsarbeit und antislawischer Rassismus während der NS-Zeit“ — Frist 02.11.2026
 - [ ] MDR Leipzig, Gehobene Redakteurin — Frist 04.11.2026
 - [ ] KAS Berlin, Referent Hauptabteilung Politische Bildung (Bildungsforum Berlin) — Frist prüfen (KAS-Seite: 03.–05.11.2026)
