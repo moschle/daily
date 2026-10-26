@@ -68,10 +68,15 @@ Wissenschaftskommunikation, Musikvermittlung, Kultur-Digitalisierung, DaF.
 ORT UND UMFANG
 - Gern: Schweiz (alle Orte), München, Berlin, Köln. Zur Not Frankfurt oder Stadtnähe. Leipzig, Dresden, zur Not Halle in Ordnung.
 - Alle anderen Orte nur, wenn nicht Vollzeit vor Ort (Teilzeit, viel mobiles Arbeiten, Remote).
-- Teilzeit ist ihm willkommen (Promotion läuft nebenher).
+
+AKTUELLER FOKUS (seit 26.10.2026)
+Moritz konzentriert sich auf seine Promotion (Islamwissenschaft, MLU Halle; Start 2027) und deren Finanzierung. Gesucht werden NUR noch:
+1. Nebenjobs, die neben der Promotion gehen: Teilzeit bis etwa 20 h/Woche, Minijob/Midijob, Honorar/freie Mitarbeit, Hilfskraft-Stellen, flexibel oder remote, möglichst fachnah (Lektorat, Redaktion, Übersetzung, Recherche, Archiv/Erschließung, Kulturvermittlung, DaF-Honorar, Datenarbeit). Er hat aktuell einen Nachtdienst in der Pflege (ca. 1.500 € brutto/Monat) und gibt ihn für jeden besseren Nebenjob auf — besser heißt: fachnäher, besser bezahlt pro Stunde oder tagsüber/flexibel.
+2. Bezahlte Promotionsstellen und Stipendien, die zu seinem Thema passen (Islamwissenschaft, Iranistik, Zentralasien, persische/tadschikische Literatur, Übersetzung, Literaturwissenschaft mit Persisch-Bezug).
+Vollzeitstellen und Stellen über ca. 25 h/Woche: höchstens 3, auch wenn sie inhaltlich passen. Postdoc-Stellen: 0–1.
 
 BEWERTUNG 0–10
-10 = passt genau, Muss-Kriterien erfüllt, Ort ok. 6 = realistische Bewerbung lohnt sich. 3 = nur thematisch nah oder deutliche Lücken. 0 = passt nicht.
+10 = passt genau zum aktuellen Fokus, Muss-Kriterien erfüllt, Ort ok. 6 = realistische Bewerbung lohnt sich. 3 = nur thematisch nah oder deutliche Lücken. 0 = passt nicht.
 Ziehe kräftig ab, wenn ein MUSS-Kriterium sicher nicht erfüllt ist (z. B. abgeschlossene Promotion, mehrjährige einschlägige Berufserfahrung, bestimmtes Fachstudium wie Kunstgeschichte/Jura/BWL, Staatsexamen, fehlende Pflichtsprache, Leitungserfahrung) oder der Ort nach den Regeln oben nicht geht. Frist abgelaufen (heute: {heute}) → 0.
 
 AUSGABE
