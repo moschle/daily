@@ -19,19 +19,22 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 
 ### Fristen und Termine
 - [ ] 27.10.2026 Dekanat Phil. Fak. I: Fakultätsfrist Landesstipendium + Stand Annahme; transfer@uni-halle.de: Frist Transferpreis 2026 (Kategorie Abschlussarbeiten)
-- [ ] Ende Okt./Nov. Purnaqcheband: Dienstende (muss DFG-Projektlaufzeit abdecken), DFG-Vorhaben besprechen; Termin Drittmittelservice MLU (Abt. 6)
-- [ ] ca. Mitte Nov. DÜF-Entscheidung Reisestipendium abwarten → Reise 01.–21.03.2027 buchen
+- [ ] 03.11.2026 Purnaqcheband: DFG-Antrag besprechen, Dienstende klären (muss 3 J. Projektlaufzeit abdecken, sonst Prof. Meier als Mitantragstellerin)
+- [ ] 10.11.2026 Drittmittelservice MLU (Abt. 6): Beratung Sachbeihilfe, Kalkulation (Stelle, Reisemittel Duschanbe, Oxford)
+- [ ] 15.11.2026 Oxford Recognised Student: Bewerbungsfrist Hilary Term 2028 recherchieren
+- [ ] 25.11.2026 DÜF-Entscheidung Reisestipendium prüfen → Reise 01.–21.03.2027 buchen
 - [ ] 16.11.2026 Gutachten anfragen: Purnaqcheband + Stephan (für KAS, Landesstipendium, später DAAD/Studienstiftung/Böll)
 - [ ] 20.11.2026 Dreiländer-Orientkolloquium, Villa Tillmanns Leipzig, 8:30–17:30
 - [ ] 30.11.2026 DÜF Initiativstipendium (Frist verifizieren)
 - [ ] 15.12.2026 Exposé/Arbeitsplan fertig (auf 2 Jahre angelegt, eine Feldphase); Al-Manhal-/Kezana-Recherche abschließen (Testzugang bis 31.12.)
 - [ ] Fakultätsfrist (tbd) Landesstipendium einreichen; Weiterleitung bis 31.01.2027
+- [ ] 08.01.2027 DFG-Projektbeschreibung (Leitfaden 54_01) als Entwurf an Prof. Meier
 - [ ] 15.01.2027 KAS
 - [ ] 01.–14.02.2027 Studienstiftung
+- [ ] 26.02.2027 DFG-Antrag über Purnaqcheband einreichen (vor der Reise; Entscheidung ca. Herbst 2027)
 - [ ] 01.03.2027 Böll
 - [ ] 01.–21.03.2027 Tadschikistan (DÜF, falls bewilligt)
 - [ ] 01.04.2027 Beginn Landesstipendium (falls bewilligt) → DAAD-Aufstockung für weitere Feldphase beantragen (Fristen auf daad.de prüfen)
-- [ ] Frühjahr 2027 DFG-Antrag über Purnaqcheband einreichen (Projektbeschreibung nach Leitfaden 54_01, Prof. Meier liest gegen)
 - [ ] Oxford Hilary Term 2028 (16.01.–11.03.2028): Bewerbungsfrist Recognised Student recherchieren; Finanzierung je nach Lage über KAS / DFG-Projekt / DAAD
 - [ ] Anfang 2029 Abgabe Dissertation
 
