@@ -4,6 +4,23 @@
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
+## STAND 26.10.2026 — Promotionsförderung: Landesstipendium MLU als Start, KAS als Weiterförderung
+Ausschreibung (erstellt 01.10.2026) liegt in Papierform vor.
+- [ ] 27.10.: Dekanat Phil. Fak. I — Fakultätsfrist Graduiertenstipendium erfragen (Fakultäten → Abt. 1/Ref. 1.3 bis 31.01.2027, Förderbeginn 01.04.2027); Stand Antrag auf Annahme klären (Annahme ist Voraussetzung)
+- [ ] Arbeitsplan schreiben (Begründung, Thema, zeitliche und sachliche Gliederung) — zugleich Grundlage für KAS-Exposé (15.12.), DAAD, Studienstiftung, Böll
+- [ ] 16.11.: Gutachten Purnaqcheband + Stephan anfragen — dieselben für KAS und Landesstipendium
+- [ ] Einkommensnachweis nach GradFVO § 7a: Anrechnung freiberuflicher Einkünfte prüfen
+- [ ] Zeugnis beglaubigen (oder Original bei Abgabe vorlegen); Erstantrag ausfüllen
+- Konditionen: 1.400 €/Monat, einmalig 1.100 € Sach-/Reisekosten (auch Ausland; >30 Tage: 8 Wochen vorher Rücksprache Ref. 1.3), 3 Jahre (+1 in Ausnahmefällen). Kontakt: Heike Schmidt, 0345/55-21315, Barfüßerstr. 17
+- KAS: kein Parallelbezug; bei Zusage Wechsel, Landesstipendium endet. [ ] Bei KAS klären: Umgang mit laufendem Landesstipendium
+- DAAD: mit Landesstipendium nur Aufstockung („GRAFÖG – Aufstockung“) — für Feldaufenthalt Duschanbe; [ ] DAAD-Risikoländerliste (Tadschikistan/GBAO) prüfen. Als KAS-Stipendiat kein DAAD-Forschungsstipendium → Oxford über KAS-Auslandsförderung
+- DFG: nur über Stellen (GRK / Sachbeihilfe Purnaqcheband) — keine Startoption
+- [ ] Transferpreis MLU 2026 (Kategorie Abschlussarbeiten): Frist online nicht auffindbar → transfer@uni-halle.de, 0345 55-22955
+- [ ] Purnaqcheband, „Firdawsī und der autochthone Diskurs“ (HBO 52/25) vor dem Arbeitsplan lesen
+- [ ] bis 15.12.: Al Manhal / Kezana TR Testzugang (FID Nahost, bis 31.12.) nutzen
+- 20.11.2026: Dreiländer-Orientkolloquium, Villa Tillmanns Leipzig, 8:30–17:30 (im Kalender)
+- Beobachten: Imaginamics Bridge Jena (2026: Frist 11.06.); 4memory-Fellowships nur bei Datenbank-Variante
+
 ## STAND 25.10.2026 (spät) — kultweet-Vollanalyse: Vorschläge nach Frist
 - [ ] KAS Berlin, Referent Bundeswehr und Gesellschaft (Elternzeitvertretung) — Frist 28.10.2026 (!)
 - [ ] Grünen-Fraktion Landtag Sachsen-Anhalt, Magdeburg, Referent*in Wissenschaft, Kultur und Digitales — Frist 31.10.2026
