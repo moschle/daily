@@ -67,7 +67,6 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 - [ ] Analyzer: Metrum-Erkennung für Farzona unbrauchbar (Kāmil/Wāfir dominieren, Ramal als Mutaqārib) – vor Veröffentlichung prüfen; Fellowship-Thema Zuverlässigkeit
 - [x] Farzona: Gedichttrennung über Inhaltsverzeichnisse und 56 Stichproben verbessert; 2647 verschiedene Gedichte, 39344 Verse, 4814 Abdrucke (2170 Nachdrucke verknüpft); 341 Übersetzungen getrennt (Найсон ab S. 213, Себарга ab S. 236). Kennzahlen: foerderungen/09_4memory/Farzona_Baende_Kennzahlen.md
 - [x] Farzona: alle 14 Bände seitenweise geprüft (27.10.2026), Verzeichnisse am Bild abgeschrieben (toc_hand), ~500 Korrekturen + Regeln; Sammelausgabe Ҳама гул (2 Bde.) ausgeschlossen. Korpus: 12 Bände, 2177 Gedichte, ~32.300 Verse, 3349 Abdrucke; 362 Übersetzungen getrennt (Себарга bis Bandende S. 424, laut Inhaltsverzeichnis geklärt). Fellowship-Text angepasst, Korpusprojekt Tadschikisch ergänzt.
-- [ ] Себарга am Buch prüfen: Endet der Übersetzungsteil (Abai ab S. 376) vor S. 424? Ab S. 385 unsicher
 - [ ] Entscheiden: tajikpoemanalyzer-Commits pushen und features_public.json mit Farzona veröffentlichen?
 - [ ] Hodgkin, Kap. 20 Routledge Handbook (Persian Poetry in the Second-World Translation System) über Bibliothek besorgen, PDF in Bookends
 - [ ] 01.06.2027 Ausschreibung NFDI4Memory Incubator Funds 2028 prüfen (mit Historischem Datenzentrum; Ahrary einplanen)
