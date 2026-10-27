@@ -36,6 +36,8 @@
 - [x] Stellen-Monitor läuft auf netcup mit KI-Bewertung; Rückstand ~1.550 Stellen wird über ~10 Tage abgearbeitet; Rauschfilter eingebaut
 
 ## STAND 26.10.2026 — FÖRDERFAHRPLAN PROMOTION (ersetzt die Einzelnotizen vom 26.10.)
+Projektordner mit allen Ausschreibungen, Formularen, Sachstand und Mails: ~/Projects/foerderungen (00_uebersicht/SACHSTAND.md)
+Neu 27.10.: Studienstiftung Call 01.–14.02.2027 per POST (Ahrstr. 41, 53175 Bonn), Auswahl ca. Sept. 2027, Beginn frühestens 01.10.2027; braucht Erstgutachter-Fragebogen von Purnaqcheband; berufsbegleitende Promotion nicht förderbar (Nachtdienst klären). KAS-Gutachter müssen habilitiert/promotionsberechtigt sein (Rzehak prüfen). Böll braucht Nachweis Zulassung zur Promotion.
 Ziele: schnelle Forschungsreise · max. 2 Jahre Promotion · keine Geldsorgen · keine Lehre · Vernetzung · Oxford langfristig.
 Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-Förderung gleichzeitig, jede Nebenförderung (DÜF, Literaturprojekt, Arbeit) bei der Hauptförderung anmelden und Anrechnung schriftlich bestätigen lassen.
 
