@@ -57,6 +57,14 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 - [ ] Vor 10.11.2026 Ahrary um Angebot bitten: Umfang Code-Review und Härtung Tajikpoemanalyzer (Stunden, Satz) für DFG-Kalkulation
 - [ ] 02.11.2026 14:00 Infoveranstaltung FAIR Data Fellowships (dt.; engl. 03.11. 14:00), Link in Ausschreibung_2027_dt.pdf auf 4memory.de
 - [ ] 18.11.2026 FRIST NFDI4Memory FAIR Data Fellowship 2027 (1.500 €, 1 Monat remote, Feb–Dez 2027): Datenset aus der MA (Dilorom-Korpus, Merkmalsdatensatz) publikationsfähig machen. Unterlagen in einem PDF an fairdatafellowships.4memory.ifg@hu-berlin.de: Motivation inkl. Beratungsbedarf und Passung zur Einrichtung (max. 2000 Zeichen), Beschreibung Datenset (max. 2000 Zeichen), tabellarischer CV (max. 2 S.). Einrichtung wählen (DCH Köln: Software/Editionen/Datenbanken hosten; HAB: digitale Editionen) und vorher kontaktieren
+- [ ] 27.10.2026 Projektskizze fertig machen (Korpusumfang ergänzen; ~/Projects/foerderungen/00_uebersicht/Projektskizze_Kein_Blick_auf_Berge.docx) und an die Gutachter-Mails (Purnaqcheband, Rzehak) hängen
+- [ ] 27.10.2026 Mail an Ahrary schicken (unverbindliche Anfrage Code-Review Tajikpoemanalyzer, Entwurf im Chat 27.10.)
+- [ ] Rzehak fragen, worauf sich der Begriff Samisdat stützt (Bände ohne Druckgenehmigung belegbar?)
+- [ ] bis 06.11.2026 Data Center for the Humanities Köln kontaktieren (info-dch@uni-koeln.de): Passung Datenset, ob bezahlte Prüfung des Exportcodes durch Programmierer zulässig
+- [ ] bis 06.11.2026 Historisches Datenzentrum Sachsen-Anhalt (MLU, NFDI4Memory-Co-Antragstellerin) kontaktieren: FDM für DFG-Antrag, Incubator Funds 2028
+- [ ] bis 15.11.2026 Fellowship-Bewerbung fertig: Entwurf ~/Projects/foerderungen/09_4memory/ + tabellarischer CV (max. 2 S.) als ein PDF
+- [ ] Hodgkin, Kap. 20 Routledge Handbook (Persian Poetry in the Second-World Translation System) über Bibliothek besorgen, PDF in Bookends
+- [ ] 01.06.2027 Ausschreibung NFDI4Memory Incubator Funds 2028 prüfen (mit Historischem Datenzentrum; Ahrary einplanen)
 - [ ] Incubator Funds (bis 50.000 €, jährlich; Runde 2027 Frist war 27.07.2026 → nächste Runde Sommer 2027): MLU ist über das Historische Datenzentrum Sachsen-Anhalt Co-Antragstellerin von NFDI4Memory (Task Area Data Connectivity) → dort Kontakt aufnehmen, auch für FDM im DFG-Antrag; Ahrary darüber finanzierbar
 - [ ] 15.11.2026 Oxford Recognised Student: Bewerbungsfrist Hilary Term 2028 recherchieren
 - [ ] 25.11.2026 DÜF-Entscheidung Reisestipendium prüfen → Reise 01.–21.03.2027 buchen
