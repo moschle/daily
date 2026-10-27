@@ -4,6 +4,16 @@
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
+## STAND 27.10.2026 — Futro als Heimserver (Home Assistant + lokale KI über Nacht)
+Ziel: Futro wie ein „Pamir Lapis One“ — läuft rund um die Uhr, Home Assistant bleibt, dazu Agent und lokales Modell, das Aufgaben ohne Eile nachts abarbeitet.
+- [ ] Hardware: 8-GB-Riegel einbauen (→ 12 GB), im BIOS „Power on after power loss“ einschalten
+- [ ] mSATA-USB-Adapter besorgen; mSATA als einziges Laufwerk (USB-Stick + externe Festplatte fallen weg)
+- [ ] Umbau auf Debian, Home Assistant darin weiter (Backup einspielen), Werbeblocker + Tailscale mitnehmen
+- [ ] Lokales Modell (8–14B, quantisiert) + Whisper für Transkription; Nacht-Warteschlange: Ordner/Kurzbefehl rein, Ergebnis morgens raus
+- [ ] Erste Nachtaufgaben: Persisch-Karten aus Preply-Notizen gegen das Deck abgleichen, Diktate/Aufnahmen transkribieren, Unterlagen in Verwaltung benennen + Fristen ziehen
+- [ ] Danach: MemPalace auf den Futro (für Claude am Handy, mit Zugangsschutz), Anki-Sync-Server
+- [ ] Pala Note (Waveshare ESP32-S3-ePaper-1.54) prüfen: Board-Version 8 MB Flash/8 MB PSRAM? Gehäuse drucken lassen, größerer Akku; Aufnahmen lokal über den Futro transkribieren statt OpenAI
+
 ## DFG-Sachbeihilfe (Entscheidung 26.10.2026: sofort angehen)
 - Antragsteller formal Purnaqcheband (Promotion nötig), Moritz schreibt den Antrag; beantragt wird die eigene Doktorandenstelle + Reise-/Sachmittel; Laufzeit i. d. R. 36 Monate; keine feste Frist
 - [ ] 03.11.2026 Purnaqcheband: Zusage als Antragsteller, Zeitplan, Rolle der Fakultät
