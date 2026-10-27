@@ -65,7 +65,8 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 - [ ] bis 15.11.2026 Fellowship-Bewerbung fertig (Datensatz: Farzonas Werk, 22 Bände als Digitalisate; Entwurf ~/Projects/foerderungen/09_4memory/) + tabellarischer CV (max. 2 S.) als ein PDF
 - [x] Texterkennung Farzona abgeschlossen 27.10.2026: 14 Bände 1994–2019, 3975 S., Zierrahmen-Bände (Найсон, Муҳри гули мино) nachbeschnitten; 5337 Gedichte, 70459 Verse im Korpus (lokal), features_public.json erzeugt (nicht gepusht). Kennzahlen: foerderungen/09_4memory/Farzona_Baende_Kennzahlen.md. Fellowship-Text auf 14 Bände korrigiert.
 - [ ] Analyzer: Metrum-Erkennung für Farzona unbrauchbar (Kāmil/Wāfir dominieren, Ramal als Mutaqārib) – vor Veröffentlichung prüfen; Fellowship-Thema Zuverlässigkeit
-- [ ] Farzona: Varianten mehrfach gedruckter Gedichte unscharf zusammenführen (bisher nur 301 wortgleiche); Übersetzungsteil in Найсон klären
+- [x] Farzona: Gedichttrennung über Inhaltsverzeichnisse und 56 Stichproben verbessert; 2647 verschiedene Gedichte, 39344 Verse, 4814 Abdrucke (2170 Nachdrucke verknüpft); 341 Übersetzungen getrennt (Найсон ab S. 213, Себарга ab S. 236). Kennzahlen: foerderungen/09_4memory/Farzona_Baende_Kennzahlen.md
+- [ ] Себарга am Buch prüfen: Endet der Übersetzungsteil (Abai ab S. 376) vor S. 424? Ab S. 385 unsicher
 - [ ] Entscheiden: tajikpoemanalyzer-Commits pushen und features_public.json mit Farzona veröffentlichen?
 - [ ] Hodgkin, Kap. 20 Routledge Handbook (Persian Poetry in the Second-World Translation System) über Bibliothek besorgen, PDF in Bookends
 - [ ] 01.06.2027 Ausschreibung NFDI4Memory Incubator Funds 2028 prüfen (mit Historischem Datenzentrum; Ahrary einplanen)
