@@ -56,7 +56,7 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 - [ ] 10.11.2026 Drittmittelservice MLU (Abt. 6): Beratung Sachbeihilfe, Kalkulation (Stelle, Reisemittel Duschanbe, Oxford)
 - [ ] 15.11.2026 Oxford Recognised Student: Bewerbungsfrist Hilary Term 2028 recherchieren
 - [ ] 25.11.2026 DÜF-Entscheidung Reisestipendium prüfen → Reise 01.–21.03.2027 buchen
-- [ ] 27.10.2026 Gutachten JETZT anfragen: Purnaqcheband + Rzehak (Landesstipendium nach Gliederung A–G der MLU-Hinweise, dieselben Gutachter für KAS); Rückgabe bis 04.01.2027. Bei Heike Schmidt (0345 55-21315) klären, ob Rzehak als Gutachter zählt (Status Hochschullehrer, Ruhestand); Stephan als Ersatz
+- [ ] 27.10.2026 Gutachten JETZT anfragen: Purnaqcheband + Rzehak (Landesstipendium nach Gliederung A–G der MLU-Hinweise, dieselben Gutachter für KAS); Rückgabe bis 04.01.2027. Rzehak ist ordentlicher Hochschullehrer und habilitiert (erfüllt MLU, KAS, Böll); Stephan als Ersatz
 - [ ] 01.12.2026 Exposé/Arbeitsplan an beide Gutachter (vorgezogen vom 15.12.)
 - [ ] Einkommensnachweis § 7a: Stelle Pflegedienst ab 01.11.2026 (60 Std./Monat) angeben
 - [ ] 20.11.2026 Dreiländer-Orientkolloquium, Villa Tillmanns Leipzig, 8:30–17:30
