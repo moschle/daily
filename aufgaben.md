@@ -1,6 +1,6 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 11. Oktober 2026*
+*Letzte Aktualisierung: 27. Oktober 2026*
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
@@ -20,6 +20,11 @@
 - Nachtdienst wird für jeden besseren Nebenjob sofort aufgegeben
 - Offen als Nebenjob: Ferropolis Medienportal 50 % remote (Frist 04.11.) — prüfen, ob 20 h neben Promotion passen; BBK Künstlernachlässe Halle 20 h
 - [ ] Dekanat Phil. Fak. I: Fakultätsfrist Landesgraduiertenförderung + Nebenverdienst/§ 7a GradFVO klären
+
+## STAND 27.10.2026 — Stellen-Monitor
+- [ ] **NEVA e.V. München (Netzwerk Erinnern, Verändern, Aufklären), Projektkoordination Modellprojekt „selbstbestimmt vernetzen erinnern und bilden“ — Frist 15.11.2026.** 20 h, E11, befristet, Home-Office teilweise; KI-Bewertung 7/10. Passt als Nebenjob neben der Promotion. Belege: Langenstein-Zwieberge-Band, Warte für Kultur (Förderanträge, Budget, Vereinsarbeit). Lücke: kein Bachelor in den genannten Fächern (Ausweg: vergleichbare Berufserfahrung), Türkisch nur erwünscht. Vorher klären: Präsenzanteil in München. https://muenchen-erinnern.de/2026/10/22/projektkoordination-gesucht/
+- Verworfen: Orient-Institut Beirut WiMi (Promotion nötig), Schaufler Lab TU Dresden Doctoral Fellowship (Promotion in Dresden statt Halle), Zürich Cultural History of India
+- [ ] Stellen-Monitor: Quelle stgs sachsen-anhalt ausgefallen (Muster `/Chancen/.+\.pdf$` findet 0 Treffer) — Muster/URL anpassen, danach `bash _netcup_deploy.sh`
 
 ## STAND 26.10.2026 (abends) — neue Stellen aus dem Monitor-Testlauf
 - [ ] Ferropolis / Netzwerk Industriekultur Sachsen-Anhalt, Mitarbeiter/in Medienportal, 50 %, E11, remote + Gräfenhainichen, ab 01.01.2027, 2 J. — Frist 04.11.2026, bewerbung@ferropolis.de
