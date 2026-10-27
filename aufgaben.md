@@ -297,6 +297,7 @@ Entscheidung: Promotion in Halle (Phil. Fak. I, Purnaqcheband), Beginn 01.01.202
 ## ANOR / MA-Publikation „stille stürme"
 
 - MA am 10.06.2026 mit 1,0 bewertet; Aufnahme in die ANOR-Reihe (De Gruyter Brill) am 13.07.2026 zugesagt
+- [ ] Vor Drucklegung: „vierte Generation“ im Manuskript (body.tex Z. 297, 301, 311, 313) korrigieren — Quellen stützen die Zählung nicht (Shafipour Fomeni/Vafaei 2020: Gulruxsor = 5. Generation; Khodayar/Hooman 2023: Strömung „soziale Romantik“, keine Generationen). Neue Texte in Bookends (27.10.2026)
 - Rzehak schreibt das Peer-Review-Gutachten (Anfrage 22.08.2026); Herausgeberinnen peilen die Ausgabe noch im Kalenderjahr 2026 an
 - Entscheidung 22.08.2026: Pabst-Anmerkungen werden nicht eingearbeitet; stattdessen etwaige Anmerkungen aus Rzehaks Peer-Review abwarten
 - [ ] Vortrags-/Werkstattgesprächstermine mit Rzehak Mitte Oktober nach Semesterbeginn besprechen
