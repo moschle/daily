@@ -64,10 +64,9 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 - [ ] 15.12.2026 Exposé/Arbeitsplan fertig (auf 2 Jahre angelegt, eine Feldphase); Al-Manhal-/Kezana-Recherche abschließen (Testzugang bis 31.12.)
 - [ ] 04.01.2027 Endcheck Landesstipendium (Gutachten da? Digital-Fassung fertig?)
 - [ ] 11.01.2027 FRIST Landesstipendium: Antrag komplett mit allen Anlagen im Dekanat Phil. Fak. I abgeben (Emil-Abderhalden-Str. 6) UND vorab digital senden; Dekanat prüft Vollständigkeit, Prorektorat braucht Daten digital. Formulare (Erstantrag ausfüllbar, Gutachten-Bearbeitungshinweise für Purnaqcheband/Stephan): wisswei.verwaltung.uni-halle.de/graduiertenfoerderung__exkursions/. Zeugnis-Original zur Beglaubigung mitnehmen. Danach Fakultät: Stellungnahme + Rangliste; Weiterleitung bis 31.01.2027. Annahme als Doktorand kann der Dekan in klaren Fällen ohne Sitzung bewilligen. Mit Purnaqcheband besprechen, dass die Fakultätsstellungnahme das Vorhaben stützt
-- [ ] 08.01.2027 DFG-Projektbeschreibung (Leitfaden 54_01) als Entwurf an Prof. Meier
 - [ ] 15.01.2027 KAS
 - [ ] 01.–14.02.2027 Studienstiftung
-- [ ] 26.02.2027 DFG-Antrag über Purnaqcheband einreichen (vor der Reise; Entscheidung ca. Herbst 2027)
+- [ ] vor Weihnachten 2026 DFG-Antrag über Purnaqcheband einreichen (Entwurf: ~/Projects/foerderungen/05_dfg/DFG_Antrag; vorher Prof. Meier + Drittmittelservice)
 - [ ] 01.03.2027 Böll
 - [ ] 01.–21.03.2027 Tadschikistan (DÜF, falls bewilligt)
 - [ ] 01.04.2027 Beginn Landesstipendium (falls bewilligt) → DAAD-Aufstockung für weitere Feldphase beantragen (Fristen auf daad.de prüfen)
