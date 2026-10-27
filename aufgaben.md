@@ -62,7 +62,8 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 - [ ] Rzehak fragen, worauf sich der Begriff Samisdat stützt (Bände ohne Druckgenehmigung belegbar?)
 - [ ] bis 06.11.2026 Data Center for the Humanities Köln kontaktieren (info-dch@uni-koeln.de): Passung Datenset, ob bezahlte Prüfung des Exportcodes durch Programmierer zulässig
 - [ ] bis 06.11.2026 Historisches Datenzentrum Sachsen-Anhalt (MLU, NFDI4Memory-Co-Antragstellerin) kontaktieren: FDM für DFG-Antrag, Incubator Funds 2028
-- [ ] bis 15.11.2026 Fellowship-Bewerbung fertig: Entwurf ~/Projects/foerderungen/09_4memory/ + tabellarischer CV (max. 2 S.) als ein PDF
+- [ ] bis 15.11.2026 Fellowship-Bewerbung fertig (Datensatz: Farzonas Werk, 22 Bände als Digitalisate; Entwurf ~/Projects/foerderungen/09_4memory/) + tabellarischer CV (max. 2 S.) als ein PDF
+- [ ] bis 31.01.2027 Texterkennung der Farzona-Bände abschließen (Voraussetzung: Daten bei Antritt erhoben); Digitalisate aus iCloud lokal laden (~/Documents/Akademisch/MA/vergleichsgruppe)
 - [ ] Hodgkin, Kap. 20 Routledge Handbook (Persian Poetry in the Second-World Translation System) über Bibliothek besorgen, PDF in Bookends
 - [ ] 01.06.2027 Ausschreibung NFDI4Memory Incubator Funds 2028 prüfen (mit Historischem Datenzentrum; Ahrary einplanen)
 - [ ] Incubator Funds (bis 50.000 €, jährlich; Runde 2027 Frist war 27.07.2026 → nächste Runde Sommer 2027): MLU ist über das Historische Datenzentrum Sachsen-Anhalt Co-Antragstellerin von NFDI4Memory (Task Area Data Connectivity) → dort Kontakt aufnehmen, auch für FDM im DFG-Antrag; Ahrary darüber finanzierbar
