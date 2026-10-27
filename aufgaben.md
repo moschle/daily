@@ -55,6 +55,7 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 - [ ] 03.11.2026 Purnaqcheband: DFG-Antrag besprechen, Dienstende klären (muss 3 J. Projektlaufzeit abdecken, sonst Prof. Meier als Mitantragstellerin)
 - [ ] 10.11.2026 Drittmittelservice MLU (Abt. 6): Beratung Sachbeihilfe, Kalkulation (Stelle, Reisemittel Duschanbe, Oxford); dazu klären: Ahrary als Programmierer – Code-Review/Weiterentwicklung Tajikpoemanalyzer als Auftrag an Dritte (Mittel für Sonstiges, ab 10.000 € Angebot nötig) oder als Personal (je nach Qualifikation); Vergaberegeln MLU
 - [ ] Vor 10.11.2026 Ahrary um Angebot bitten: Umfang Code-Review und Härtung Tajikpoemanalyzer (Stunden, Satz) für DFG-Kalkulation
+- [ ] Sofort: 4memory.de prüfen – FAIR Data Fellowship (1.500 €, 1 Monat, Daten publikationsfähig machen; Runde 2026 endete 19.11.2025 → neue Runde jetzt?) und Incubator Funds (bis 50.000 €, jährlich, Runde 2027 endete 27.07.2026; antragstellende Einrichtung muss NFDI4Memory-Participant sein/werden → MLU?). Für Ahrary: Incubator Funds als Projektmittel über die MLU
 - [ ] 15.11.2026 Oxford Recognised Student: Bewerbungsfrist Hilary Term 2028 recherchieren
 - [ ] 25.11.2026 DÜF-Entscheidung Reisestipendium prüfen → Reise 01.–21.03.2027 buchen
 - [ ] 27.10.2026 Gutachten JETZT anfragen: Purnaqcheband + Rzehak (Landesstipendium nach Gliederung A–G der MLU-Hinweise, dieselben Gutachter für KAS); Rückgabe bis 04.01.2027. Rzehak ist ordentlicher Hochschullehrer und habilitiert (erfüllt MLU, KAS, Böll); Stephan als Ersatz
