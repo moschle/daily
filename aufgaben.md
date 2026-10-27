@@ -44,7 +44,7 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 - Nach der Promotion: DFG Eigene Stelle / Walter-Benjamin-Programm (Ausland, z. B. Oxford) prüfen.
 
 ### Fristen und Termine
-- [x] 26.10.2026 Mail an promotionsverfahren@philfak1 wegen Fakultätsfrist Landesstipendium verschickt — Antwort abwarten, Frist dann im Kalender eintragen
+- [x] 27.10.2026 Antwort Dekanat (Mandy Wehse, 0345/552-4207): FRIST 11.01.2027
 - [ ] 03.11.2026 Purnaqcheband: DFG-Antrag besprechen, Dienstende klären (muss 3 J. Projektlaufzeit abdecken, sonst Prof. Meier als Mitantragstellerin)
 - [ ] 10.11.2026 Drittmittelservice MLU (Abt. 6): Beratung Sachbeihilfe, Kalkulation (Stelle, Reisemittel Duschanbe, Oxford)
 - [ ] 15.11.2026 Oxford Recognised Student: Bewerbungsfrist Hilary Term 2028 recherchieren
@@ -53,7 +53,8 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 - [ ] 20.11.2026 Dreiländer-Orientkolloquium, Villa Tillmanns Leipzig, 8:30–17:30
 - [ ] 30.11.2026 DÜF Initiativstipendium (Frist verifizieren)
 - [ ] 15.12.2026 Exposé/Arbeitsplan fertig (auf 2 Jahre angelegt, eine Feldphase); Al-Manhal-/Kezana-Recherche abschließen (Testzugang bis 31.12.)
-- [ ] Fakultätsfrist (tbd, vermutlich Anfang Januar: Fakultät braucht Zeit für Stellungnahme + Rangliste) Landesstipendium einreichen; Weiterleitung bis 31.01.2027. Annahme als Doktorand kann der Dekan in klaren Fällen ohne Sitzung bewilligen. Mit Purnaqcheband besprechen, dass die Fakultätsstellungnahme das Vorhaben stützt
+- [ ] 04.01.2027 Endcheck Landesstipendium (Gutachten da? Digital-Fassung fertig?)
+- [ ] 11.01.2027 FRIST Landesstipendium: Antrag komplett mit allen Anlagen im Dekanat Phil. Fak. I abgeben (Emil-Abderhalden-Str. 6) UND vorab digital senden; Dekanat prüft Vollständigkeit, Prorektorat braucht Daten digital. Formulare (Erstantrag ausfüllbar, Gutachten-Bearbeitungshinweise für Purnaqcheband/Stephan): wisswei.verwaltung.uni-halle.de/graduiertenfoerderung__exkursions/. Zeugnis-Original zur Beglaubigung mitnehmen. Danach Fakultät: Stellungnahme + Rangliste; Weiterleitung bis 31.01.2027. Annahme als Doktorand kann der Dekan in klaren Fällen ohne Sitzung bewilligen. Mit Purnaqcheband besprechen, dass die Fakultätsstellungnahme das Vorhaben stützt
 - [ ] 08.01.2027 DFG-Projektbeschreibung (Leitfaden 54_01) als Entwurf an Prof. Meier
 - [ ] 15.01.2027 KAS
 - [ ] 01.–14.02.2027 Studienstiftung
