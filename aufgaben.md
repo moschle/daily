@@ -53,7 +53,8 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 ### Fristen und Termine
 - [x] 27.10.2026 Antwort Dekanat (Mandy Wehse, 0345/552-4207): FRIST 11.01.2027
 - [ ] 03.11.2026 Purnaqcheband: DFG-Antrag besprechen, Dienstende klären (muss 3 J. Projektlaufzeit abdecken, sonst Prof. Meier als Mitantragstellerin)
-- [ ] 10.11.2026 Drittmittelservice MLU (Abt. 6): Beratung Sachbeihilfe, Kalkulation (Stelle, Reisemittel Duschanbe, Oxford)
+- [ ] 10.11.2026 Drittmittelservice MLU (Abt. 6): Beratung Sachbeihilfe, Kalkulation (Stelle, Reisemittel Duschanbe, Oxford); dazu klären: Ahrary als Programmierer – Code-Review/Weiterentwicklung Tajikpoemanalyzer als Auftrag an Dritte (Mittel für Sonstiges, ab 10.000 € Angebot nötig) oder als Personal (je nach Qualifikation); Vergaberegeln MLU
+- [ ] Vor 10.11.2026 Ahrary um Angebot bitten: Umfang Code-Review und Härtung Tajikpoemanalyzer (Stunden, Satz) für DFG-Kalkulation
 - [ ] 15.11.2026 Oxford Recognised Student: Bewerbungsfrist Hilary Term 2028 recherchieren
 - [ ] 25.11.2026 DÜF-Entscheidung Reisestipendium prüfen → Reise 01.–21.03.2027 buchen
 - [ ] 27.10.2026 Gutachten JETZT anfragen: Purnaqcheband + Rzehak (Landesstipendium nach Gliederung A–G der MLU-Hinweise, dieselben Gutachter für KAS); Rückgabe bis 04.01.2027. Rzehak ist ordentlicher Hochschullehrer und habilitiert (erfüllt MLU, KAS, Böll); Stephan als Ersatz
