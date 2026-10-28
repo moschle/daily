@@ -1,7 +1,7 @@
 """Claude Messages API mit Modell-Fallback.
 
 claude-sonnet-4-20250514 liefert seit Sommer 2026 HTTP 400.
-Aktuell: claude-sonnet-5, danach ältere Aliasse.
+Aktuell: claude-sonnet-4-6 (sonnet-5 schneidet ab, 28.10.2026), danach sonnet-5 und ältere.
 """
 
 from __future__ import annotations
@@ -13,8 +13,8 @@ import urllib.error
 import urllib.request
 
 MODELS = [m.strip() for m in os.environ.get("JURABRIEF_MODELL", "").split(",") if m.strip()] or [
-    "claude-sonnet-5",
     "claude-sonnet-4-6",
+    "claude-sonnet-5",
     "claude-sonnet-4-5",
     "claude-sonnet-4-20250514",
 ]
