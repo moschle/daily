@@ -13,6 +13,12 @@ Immer in der Pipeline: monatlich Calls prüfen, in die Arbeit (stille stürme, F
 - [ ] CESS Annual Conference + ESCAS Regional (Calls meist Winter/Frühjahr) — beobachten, centraleurasia.org
 - [ ] Vortrag Rzehak/Werkstattgespräch, Vortrag Berlin (s. unten) — mit stille stürme verbinden
 
+## STAND 28.10.2026 — wazan (vormals tajikpoemanalyzer) und stille stürme
+- [x] Umbenennung (GitHub moschle/wazan), Dilorom-Korpus aus den Quelldateien neu (T 40, E 34, B 33), Review aller nicht erkannten Farzona-Gedichte + drei Stichprobenrunden (gesamt 89 %, frische Stichproben 85–100 %)
+- [ ] Labels (data/validierung/review.jsonl, von Claude) selbst stichprobenartig prüfen oder von einem zweiten Modell gegenprüfen lassen
+- [ ] stille stürme: Fußnote „Skansion von Hand“ + Farzona-Fußnote Druckgeschichte freigeben; MTLD-Werte im Buch (~149/150/232) gegen heutigen Analyzer (169/161/212) klären — Herkunft der Buchwerte?
+- [ ] T: drei Gedichte, die der Analyzer anders zählt als die Handzählung (25/15 statt 28/12), mit eigener Liste abgleichen
+
 ## STAND 27.10.2026 — Futro als Heimserver (Home Assistant + lokale KI über Nacht)
 Ziel: Futro wie ein „Pamir Lapis One“ — läuft rund um die Uhr, Home Assistant bleibt, dazu Agent und lokales Modell, das Aufgaben ohne Eile nachts abarbeitet.
 - [ ] Hardware: 8-GB-Riegel einbauen (→ 12 GB), im BIOS „Power on after power loss“ einschalten
