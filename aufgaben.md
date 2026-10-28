@@ -1,8 +1,17 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 27. Oktober 2026*
+*Letzte Aktualisierung: 28. Oktober 2026*
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
+
+## DAUERAUFGABE (seit 28.10.2026) — Tagungen, Preise, Vorträge
+Immer in der Pipeline: monatlich Calls prüfen, in die Arbeit (stille stürme, Farzona-Korpus, Analyzer, Übersetzungen) einreichbar? 2025 eine passende Sommertagung verpasst.
+- [ ] **SilkRoadNLP 2027 (2nd Workshop on NLP for the Iranian language family, EACL Athen 9.–14.03.2027) — Frist 15.12.2026** (direkte Einreichung). Shared Task: Transliteration Tadschikisch-Kyrillisch ↔ Perso-Arabisch. Passt für Analyzer/ʿarūż-Skansion + Farzona-Korpus. https://www.aclweb.org/portal/node/14605
+- [ ] ECIS 11 (European Conference of Iranian Studies, alle 4 Jahre, zuletzt Leiden 2023) — CfP für 2027 erwartet ca. Nov. 2026 (ECIS 10: CfP Nov. 2022); SIE vergibt auch einen Ph.D. Thesis Award. https://www.societasiranologicaeu.org/conferences/
+- [ ] Symposia Iranica (St Andrews, Nachwuchs) — V war April 2026, Abstract-Frist Ende Aug. 2025; nächste Runde beobachten
+- [ ] DAVO-Kongress (jährlich Herbst, CfP meist Mai/Juni) — Call 2027 beobachten
+- [ ] CESS Annual Conference + ESCAS Regional (Calls meist Winter/Frühjahr) — beobachten, centraleurasia.org
+- [ ] Vortrag Rzehak/Werkstattgespräch, Vortrag Berlin (s. unten) — mit stille stürme verbinden
 
 ## STAND 27.10.2026 — Futro als Heimserver (Home Assistant + lokale KI über Nacht)
 Ziel: Futro wie ein „Pamir Lapis One“ — läuft rund um die Uhr, Home Assistant bleibt, dazu Agent und lokales Modell, das Aufgaben ohne Eile nachts abarbeitet.
