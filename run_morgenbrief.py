@@ -59,17 +59,17 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
         print(f"Leseübung gescheitert: {e}", file=sys.stderr)
         sprachteil = "SPRACHÜBUNG - TEXT\n[entfällt heute]\n"
     msg = (
-        f"Heute ist {today}.\n\nWETTER:\n{wetter}\n\nTAGESIMPULS:\n{impulse}\n\n"
+        f"Heute ist {today}.\n\nWETTER:\n{wetter}\n\n"
         f"KONTEXT (enthält Format und Regeln - befolge sie exakt):\n{kontext}\n\n"
         f"OFFENE AUFGABEN:\n{aufgaben}\n\nKALENDER (nächste 3 Tage):\n{kalender}\n\n"
-        f"FAHRPLAN (nur als Hintergrund):\n{fahrplan}\n\n"
         f"AUFTRAG:\nSchreibe den Morgenbrief exakt in dieser Struktur:\n"
-        f"1. WETTER\n2. HEUTE\n3. IMPULS\n4. PROJEKTE\n5. ERLEDIGTES\n6. AUSBLICK\n\n"
-        f"Schreibe KEINE Sprachübung und KEINE Nachrichten; diese Teile werden separat angehängt.\n"
+        f"1. WETTER\n2. HEUTE\n3. AUSBLICK\n\n"
+        f"Keine weiteren Abschnitte; Musik, Sprachübung und Nachrichten hängt das Skript an.\n"
         f"WICHTIG: Verwende in Sektionstiteln immer einfache Bindestriche (-), NIEMALS Gedankenstriche.\n"
         f"Jede Sektion als Überschrift in Großbuchstaben. Kein Markdown. Sachlich."
     )
-    return complete(msg, max_tokens=2500).rstrip() + "\n\n" + sprachteil
+    musik = f"MUSIK\n{impulse}\n\n" if impulse else ""
+    return complete(msg, max_tokens=2500).rstrip() + "\n\n" + musik + sprachteil
 
 
 def fallback_brief(wetter, kalender, impulse, lang_ex):
@@ -77,10 +77,8 @@ def fallback_brief(wetter, kalender, impulse, lang_ex):
     return (
         f"WETTER\n{wetter}\n\n"
         f"HEUTE\nClaude war nicht erreichbar. Kalender und Wetter ungekürzt.\n\n"
-        f"IMPULS\n{impulse}\n\n"
-        f"PROJEKTE\n-\n\n"
-        f"ERLEDIGTES\n-\n\n"
         f"AUSBLICK\n{kalender}\n\n"
+        f"MUSIK\n{impulse}\n\n"
         f"SPRACHÜBUNG - TEXT\n[entfällt, API-Fehler]\n\n"
         f"SPRACHÜBUNG - FRAGEN\n-\n\n"
         f"NACHRICHTEN\n{news}\n"

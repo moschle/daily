@@ -515,70 +515,20 @@ def _lade_vorschlagsquellen():
         return {}
 
 def generate_impulse():
-    """Genau ein konkreter Vorschlag fuer heute - kurz, benannt, machbar.
+    """Ein Album aus der eigenen Mediathek, sonst nichts.
 
-    Die Vorschlaege stammen aus seinem eigenen Bestand: Buecher aus der
-    Calibre-Bibliothek, Karten aus dem Anki-Deck, Alben aus der Mediathek.
-    Nichts wird erfunden. Die Kategorie wechselt mit dem Wochentag, damit
-    nicht jeden Tag dasselbe kommt.
+    29.10.2026: Die LLM-Entdeckungsliste (discovery_albums.json) erfand Alben,
+    und "eine Seite aus <Fachbuch> lesen, nicht mehr" war Floskel. Beides raus.
     """
-    today = now_berlin()
-    day_de = {"Monday":"Montag","Tuesday":"Dienstag","Wednesday":"Mittwoch","Thursday":"Donnerstag",
-              "Friday":"Freitag","Saturday":"Samstag","Sunday":"Sonntag"}.get(today.strftime("%A"), today.strftime("%A"))
-    q = _lade_vorschlagsquellen()
-    wd = today.weekday()   # 0 = Montag
-
-    vorschlag = None
-
-    # Nachschlagewerke, Zeitschriftenhefte und Harry Potter taugen nicht fuer
-    # "eine Seite lesen" (08.10.2026: Persian-English Wiktionary dictionary).
-    nicht_lesen = re.compile(r"dictionary|wiktionary|wörterbuch|lexikon|rowling|harry potter|"
-                             r"arabic today|newsnet|review \d", re.I)
-    buecher = [b for b in q.get("buecher", []) if not nicht_lesen.search(
-        f"{b.get('titel', '')} {b.get('autor', '')}")]
-    if wd in (0, 3) and buecher:
-        b = random.choice(buecher)
-        titel = b.get("titel", "").strip()
-        autor = b.get("autor", "").strip()
-        wie = autor and f"{titel} von {autor}" or titel
-        vorschlag = f"Lies eine einzige Seite: {wie}. Eine Seite, nicht mehr."
-
-    elif wd in (1, 4) and q.get("vokabeln"):
-        drei = random.sample(q["vokabeln"], min(3, len(q["vokabeln"])))
-        liste = ", ".join(f"{v['word']} ({v['meaning'][:40]})" for v in drei)
-        vorschlag = f"Fünf Minuten Persisch: {liste}. Nur diese drei, laut lesen."
-
-    elif wd == 2 and q.get("filme"):
-        f = random.choice(q["filme"])
-        vorschlag = f"Sieh heute Abend etwas: {f}."
-
-    elif wd == 5:
-        vorschlag = "Nimm dir dreißig Minuten und geh mit der Kamera raus. Zehn Bilder, dann Schluss."
-
-    else:
-        vorschlag = "Schreib heute zehn Zeilen, egal worüber. Handschriftlich, kein Bildschirm."
-
-    # Album kommt zusaetzlich, das laeuft nebenbei
-    if random.random() < 0.25:
-        artist, album = _select_discovery_album()
-        album_line = f"{artist} — {album} (Entdeckung, nicht in deiner Bibliothek)"
-    else:
-        entry = _select_album_of_the_day()
-        if entry:
-            album_line = f"{entry['artist']} — {entry['album']}"
-            if entry["plays"] == 0:
-                album_line += " (noch nie gehört)"
-            elif entry["last_played"] and (today.date() - entry["last_played"]).days > 90:
-                album_line += " (lange nicht gehört)"
-        else:
-            a, b = _select_discovery_album()
-            album_line = f"{a} — {b}"
-
-    return (f"Heute ist {day_de}.\n"
-            f"EINE SACHE für heute: {vorschlag}\n"
-            f"Nebenbei zu hören: {album_line}\n"
-            f"Gib genau diesen einen Vorschlag wieder, formuliere ihn kurz und ohne Alternativen. "
-            f"Biete nichts zusätzlich an. Wenn der Tag voll ist, sag das in einem Halbsatz.")
+    entry = _select_album_of_the_day()
+    if not entry:
+        return ""
+    line = f"{entry['artist']} – {entry['album']}"
+    if entry["plays"] == 0:
+        line += " (noch nie gehört)"
+    elif entry["last_played"] and (now_berlin().date() - entry["last_played"]).days > 90:
+        line += " (lange nicht gehört)"
+    return line
 
 # ─── Sprachübung (mit Vokabelgedächtnis) ───
 LANG_START = datetime(2026, 4, 5, tzinfo=BERLIN_TZ)
@@ -775,7 +725,7 @@ def create_epub(text, date_str):
             flush()
             current_rtl = True
             html_parts.append(f"<h2>{s}</h2>")
-        elif u.strip().rstrip(":") in {"WETTER","HEUTE","IMPULS","PROJEKTE","ERLEDIGTES","AUSBLICK"}:
+        elif u.strip().rstrip(":") in {"WETTER","HEUTE","AUSBLICK","MUSIK","IMPULS","PROJEKTE","ERLEDIGTES"}:
             flush()
             current_rtl = False
             html_parts.append(f"<h2>{s}</h2>")
