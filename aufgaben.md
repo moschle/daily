@@ -19,7 +19,8 @@ Immer in der Pipeline: monatlich Calls prüfen, in die Arbeit (stille stürme, F
 - [ ] stille stürme: Fußnote „Skansion von Hand“ + Farzona-Fußnote Druckgeschichte freigeben
 - [x] 29.10. MTLD im Buch: alte Werte (~149/150/232) mit keinem Analyzer-Stand seit Feb. 2026 reproduzierbar; alle Fassungen ergeben 169/161/212 → im Buch ersetzt (B ein Viertel bis ein Drittel höher statt „fast 50 %“). Wortzahlen T (šab 24, sadoi 20, kase 16) bestätigt
 - [x] 29.10. Projektskizze, Mails, Farzona-Kennzahlen auf validierte Zahlen gebracht (Paket_2026-10-29.zip)
-- [ ] T: drei Gedichte, die der Analyzer anders zählt als die Handzählung (25/15 statt 28/12), mit eigener Liste abgleichen
+- [x] 29.10. Formzuordnung T/E am Text geprüft: Vaqt = Ġazal, Šab = Ramal (gebrochen gesetzt), Manu tu E frei, Ba modaram E gebunden; Tabelle II (T 25/15, E 20/14) und Abb. 4 korrigiert
+- [ ] stille stürme: Satz „T verbleiben 22 formal experimentelle Texte“ prüfen (8 davon gebunden)
 
 ## STAND 27.10.2026 — Futro als Heimserver (Home Assistant + lokale KI über Nacht)
 Ziel: Futro wie ein „Pamir Lapis One“ — läuft rund um die Uhr, Home Assistant bleibt, dazu Agent und lokales Modell, das Aufgaben ohne Eile nachts abarbeitet.
