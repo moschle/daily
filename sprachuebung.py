@@ -121,54 +121,147 @@ def pruefe(text: str, K: set[str]) -> tuple[float, list[str]]:
     return len(unbekannt) / len(toks), sorted(set(unbekannt))
 
 
-# ─── Stufe aus dem Wortschatz statt aus dem Kalender ──────────────────────
+# ─── Stufen nach dem Gemeinsamen Europäischen Referenzrahmen ───────────────
+# Die Stufe richtet sich nach der Zahl gelernter Notizen (Anki + Morgenbrief-Gedächtnis).
+# Schwellen sind Richtwerte für Wortschatzgrößen je GER-Stufe; seit 29.10.2026 bis C2.
+STUFEN = [  # (ab Notizen, Name, Beschreibung nach GER)
+    (0, "A2+",
+     "Kurze Hauptsätze, höchstens ein einfacher Nebensatz pro Satz. Präsens, einfache Vergangenheit, "
+     "Perfekt. Alltagsnahe, konkrete Sätze über unmittelbare Bedürfnisse und vertraute Situationen."),
+    (800, "B1",
+     "Echtes B1, kein A2: zusammenhängender Text über vertraute Themen, eine kleine Erzählung oder eine "
+     "begründete Meinung statt einer Aufzählung von Fakten. Pflicht: mindestens zwei Relativsätze mit که, "
+     "mindestens ein Subjunktiv (باید/شاید/اگر + Subjunktiv), mindestens ein Nebensatz mit چون, وقتی oder "
+     "با این که, Imperfekt (می‌رفتم) neben dem einfachen Präteritum. Mittellange Sätze, klare Sprache."),
+    (1500, "B1+",
+     "Oberes B1: wie B1, dazu längere Satzgefüge, Vergleich zweier Standpunkte, Ursache und Folge. "
+     "Noch keine gehobene Schriftsprache."),
+    (2500, "B2",
+     "B2: Text zu konkreten und abstrakten Themen wie in einem Zeitungsartikel oder Kommentar, mit klarer "
+     "Argumentation (Vor- und Nachteile, Gegenargument, Schluss). Standardschriftsprache, auch Passiv und "
+     "Konzessivsätze, verschiedene Konnektoren (اما، با این حال، از طرف دیگر، در نتیجه). Längere, "
+     "gut gegliederte Sätze; Fachwörter des Themas sind erlaubt."),
+    (4000, "C1",
+     "C1: anspruchsvoller Sachtext, Essay oder Rezension mit impliziten Bedeutungen und Abwägung. "
+     "Gehobene Schriftsprache (رسمی/ادبی): Nominalstil, Verbalnomen, Partizipialkonstruktionen, gehobene "
+     "Konnektoren (حال آنکه، از آنجا که، چنانچه، مگر آنکه), arabische Plurale und Masdar-Formen. "
+     "Präzise, stilistisch variiert, aber nicht künstlich."),
+    (6500, "C2",
+     "C2: Text wie von einem gebildeten iranischen Autor: Kolumne, literarische Prosa oder Essay mit "
+     "feinen Bedeutungsnuancen, Ironie, Redewendungen und Sprichwörtern, Wechsel der Register. Klassische "
+     "und literarische Formen dürfen vorkommen (به‌ + Präteritum, همی، چو، ز، دگر), sparsam und korrekt."),
+]
+
+
 def stufe(n_bekannt_eintraege: int) -> tuple[str, str]:
-    if n_bekannt_eintraege < 800:
-        return "A2+", ("Kurze Hauptsätze, höchstens ein einfacher Nebensatz pro Satz. "
-                       "Präsens, einfache Vergangenheit, Perfekt. Alltagsnahe Sätze.")
-    b1 = ("Das ist echtes B1, kein A2: zusammenhängender Text mit eigener Meinung oder kleiner "
-          "Erzählung statt einer Aufzählung von Fakten. Pflicht: mindestens zwei Relativsätze mit که, "
-          "mindestens ein Subjunktiv (باید/شاید/اگر + Subjunktiv), mindestens ein Nebensatz mit چون, "
-          "وقتی oder با این که, Vergangenheit im Imperfekt (می‌رفتم) neben dem einfachen Präteritum. "
-          "Mittellange Sätze. Klare, natürliche Sprache.")
-    if n_bekannt_eintraege < 1500:
-        return "B1", b1
-    return "B1+", b1 + " Dazu Passiv und längere Satzgefüge; keine gehobene Schriftsprache."
+    name, txt = STUFEN[0][1:]
+    for ab, n, t in STUFEN:
+        if n_bekannt_eintraege >= ab:
+            name, txt = n, t
+    return name, txt
 
 
-# ─── Grammatik-Progression ──────────────────────────────────────────────
-# Bis 29.10.2026 gab es nur drei Stufen nach Wortschatzgröße mit immer gleicher
-# B1-Checkliste. Jetzt kommt wöchentlich ein Schwerpunkt dazu; frühere bleiben erlaubt.
+def ab_b1(stufe_name: str) -> bool:
+    return stufe_name.split()[0] in ("B1", "B1+", "B2", "C1", "C2")
+
+
+# ─── Themen nach GER-Stufe (Lebensbereiche und Textsorten) ─────────────────
+THEMEN = {
+    "A2": ["Tagesablauf", "Einkaufen auf dem Markt", "meine Wohnung", "Familie und Freunde", "Essen und Kochen",
+           "Wetter und Jahreszeiten", "Freizeit am Wochenende", "Weg zur Arbeit", "Arzttermin", "Geburtstag"],
+    "B1": ["eine Reise, die anders lief als geplant", "ein Erlebnis bei der Arbeit", "Pläne für das nächste Jahr",
+           "ein Buch oder Film, der mir gefallen hat", "Gesundheit und Sport im Alltag", "Musik und Kunst in meinem Leben",
+           "Leben in der Stadt oder auf dem Land", "ein Missverständnis unter Freunden", "Feste und Bräuche",
+           "Erinnerung an die Schulzeit", "Wohnungssuche", "ein Ehrenamt"],
+    "B2": ["Vor- und Nachteile sozialer Medien", "Klimawandel und Wasserknappheit", "Migration und Arbeitsmarkt",
+           "Bildungssystem und Chancengleichheit", "Tourismus und Kulturerbe", "Stadtentwicklung und Verkehr",
+           "Übersetzen zwischen Kulturen", "Pressefreiheit", "Künstliche Intelligenz im Alltag", "Generationenkonflikte"],
+    "C1": ["Rezension eines Romans der Gegenwart", "Sprache und Identität in der persischsprachigen Welt",
+           "Erinnerungskultur und Geschichtsschreibung", "Wissenschaftsethik", "Recht und Gerechtigkeit",
+           "die Rolle der Lyrik in der iranischen Gesellschaft", "Urbanisierung in Zentralasien",
+           "Übersetzungstheorie", "Religion und Säkularität", "Exilliteratur"],
+    "C2": ["Kolumne mit ironischem Blick auf den Alltag in Teheran", "Essay über Hafis und die Mehrdeutigkeit",
+           "literarische Skizze: ein Abend am Fluss in Duschanbe", "Glosse über Bürokratie",
+           "Nachruf auf einen fiktiven Dichter", "Essay über Heimat und Fremde", "Satire über Expertentum",
+           "Betrachtung über Zeit und Vergänglichkeit"],
+}
+
+
+def thema(stufe_name: str, heute: date | None = None) -> str:
+    k = stufe_name.split()[0].rstrip("+")
+    liste = THEMEN.get(k, THEMEN["B1"])
+    return liste[(heute or date.today()).toordinal() % len(liste)]
+
+
+# ─── Grammatik-Progression je Stufe ─────────────────────────────────────
+# Wöchentlich ein Schwerpunkt aus der Liste der aktuellen Stufe; Strukturen früherer
+# Stufen bleiben erlaubt. Muster: Regex zur Kontrolle, None = nicht automatisch prüfbar.
 _PART = r"\S+(?:ده|ته)"          # Partizip Perfekt: رفته، آمده، کرده
 _E = r"(?=[\s.،؛!؟:»)]|$)"
-GRAMMATIK = [
-    ("Verlaufsform mit داشتن", "دارم می‌نویسم، داشت می‌رفت",
-     r"(?:^|\s)(?:دار(?:م|ی|د|یم|ید|ند)|داشت(?:م|ی|یم|ید|ند)?)\s+(?:\S+\s+)?می‌"),
-    ("Perfekt und Plusquamperfekt", "رفته‌ام، رفته بودم",
-     _PART + r"(?:‌(?:ام|ای|ایم|اید|اند)|\s+است|\s+بود(?:م|ی|یم|ید|ند)?)" + _E),
-    ("realer Bedingungssatz", "اگر وقت داشته باشم، می‌آیم", r"(?:^|\s)اگر\s"),
-    ("Passiv mit شدن", "ساخته شد، گفته می‌شود",
-     _PART + r"\s+(?:شد|شده|شود|شوند|می‌شود|می‌شوند|شدند|خواهد شد)" + _E),
-    ("indirekte Rede", "گفت که فردا می‌آید",
-     r"(?:گفت|گفتند|می‌گوید|می‌گویند|می‌گفت|نوشت|اعلام کرد|توضیح داد)\s+(?:\S+\s+){0,3}?که\s"),
-    ("irrealer Bedingungssatz", "اگر می‌دانستم، می‌گفتم",
-     r"اگر\s[^.؟!]*?می‌\S+[دت](?:م|ی|یم|ید|ند)?" + _E),
-    ("Subjunktiv Perfekt", "شاید رفته باشد", _PART + r"\s+باش(?:م|ی|د|یم|ید|ند)" + _E),
-    ("Infinitiv als Satzglied", "خواندن این کتاب آسان نیست",
-     r"(?:^|\s)(?!می‌)\S+(?:دن|تن)(?:\s+\S+){0,3}\s+(?:است|نیست|بود|می‌شود|را)" + _E),
-    ("Kausativ auf ‑اندن", "خنداندن، رساندن",
-     r"(?:^|\s)\S*[^ه\u200c\s](?<![\s\u200c]د)(?<![\s\u200c]م)(?<![\s\u200c]ر)(?<![\s\u200c]خو)(?<![\s\u200c]تو)(?<!^د)(?<!^م)(?<!^خو)(?<!^تو)اند(?:ن|م|ی|یم|ید|ند)?" + _E),
-    ("Temporalsätze mit پیش از آن که / بعد از آن که", "بعد از آن که رسید، زنگ زد",
-     r"(?:پیش|قبل|بعد)\s+از\s+(?:آن|این)\s*‌?که"),
-]
+_KAUS = (r"(?:^|\s)\S*[^ه\u200c\s](?<![\s\u200c]د)(?<![\s\u200c]م)(?<![\s\u200c]ر)(?<![\s\u200c]خو)"
+         r"(?<![\s\u200c]تو)(?<!^د)(?<!^م)(?<!^خو)(?<!^تو)اند(?:ن|م|ی|یم|ید|ند)?" + _E)
+GRAMMATIK_STUFEN = {
+    "A2": [
+        ("Perfekt", "رفته‌ام، دیده است", _PART + r"(?:‌(?:ام|ای|ایم|اید|اند)|\s+است)" + _E),
+        ("Subjunktiv nach باید / می‌خواهم", "باید بروم، می‌خواهم بخوانم", r"(?:باید|می‌خواه\S*)\s+ب\S+"),
+        ("Komparativ und Superlativ", "بزرگ‌تر، بهترین", r"\S+‌?(?:تر|ترین)" + _E),
+        ("Imperativ", "بیا، بنشین، نرو", None),
+    ],
+    "B1": [
+        ("Verlaufsform mit داشتن", "دارم می‌نویسم، داشت می‌رفت",
+         r"(?:^|\s)(?:دار(?:م|ی|د|یم|ید|ند)|داشت(?:م|ی|یم|ید|ند)?)\s+(?:\S+\s+)?می‌"),
+        ("Perfekt und Plusquamperfekt", "رفته‌ام، رفته بودم",
+         _PART + r"(?:‌(?:ام|ای|ایم|اید|اند)|\s+است|\s+بود(?:م|ی|یم|ید|ند)?)" + _E),
+        ("realer Bedingungssatz", "اگر وقت داشته باشم، می‌آیم", r"(?:^|\s)اگر\s"),
+        ("indirekte Rede", "گفت که فردا می‌آید",
+         r"(?:گفت|گفتند|می‌گوید|می‌گویند|می‌گفت|نوشت|اعلام کرد|توضیح داد)\s+(?:\S+\s+){0,3}?که\s"),
+        ("Infinitiv als Satzglied", "خواندن این کتاب آسان نیست",
+         r"(?:^|\s)(?!می‌)\S+(?:دن|تن)(?:\s+\S+){0,3}\s+(?:است|نیست|بود|می‌شود|را)" + _E),
+        ("Temporalsätze mit پیش از آن که / بعد از آن که", "بعد از آن که رسید، زنگ زد",
+         r"(?:پیش|قبل|بعد)\s+از\s+(?:آن|این)\s*‌?که"),
+        ("Finalsätze mit تا / برای اینکه", "آمدم تا ببینم", r"(?:^|\s)(?:تا|برای\s+این\s*‌?که)\s+ب\S+"),
+    ],
+    "B2": [
+        ("Passiv mit شدن", "ساخته شد، گفته می‌شود",
+         _PART + r"\s+(?:شد|شده|شود|شوند|می‌شود|می‌شوند|شدند|خواهد شد)" + _E),
+        ("irrealer Bedingungssatz", "اگر می‌دانستم، می‌گفتم؛ اگر رفته بودم …",
+         r"اگر\s[^.؟!]*?(?:می‌\S+[دت](?:م|ی|یم|ید|ند)?|" + _PART + r"\s+بود\S*)" + _E),
+        ("Subjunktiv Perfekt", "شاید رفته باشد", _PART + r"\s+باش(?:م|ی|د|یم|ید|ند)" + _E),
+        ("Kausativ auf ‑اندن", "خنداندن، رساندن", _KAUS),
+        ("Konzessivsätze", "با این که خسته بود، کار کرد؛ اگرچه … اما",
+         r"(?:با\s+این\s*‌?که|با\s+وجود\s+این\s*‌?که|اگرچه|هرچند)"),
+        ("Partizip als Attribut", "کتابِ نوشته‌شده، درِ بسته", r"\S+(?:ده|ته)‌?شده" + _E),
+        ("Futur der Schriftsprache", "خواهد رفت، خواهند گفت", r"(?:^|\s)خواه(?:م|ی|د|یم|ید|ند)\s+\S+[دت]" + _E),
+        ("unpersönliche Konstruktionen", "می‌توان گفت، باید دانست", r"(?:می‌توان|نمی‌توان|باید|نباید)\s+\S+[دت]" + _E),
+    ],
+    "C1": [
+        ("Nominalstil mit Verbalnomen", "با توجه به افزایش …، انجام این کار", r"(?:با\s+توجه\s+به|در\s+پی|به\s+منظور)"),
+        ("Partizipialkonstruktion statt Nebensatz", "با رسیدن به شهر، …؛ پس از بازگشت",
+         r"(?:با|پس\s+از|پیش\s+از|هنگام)\s+\S+(?:دن|تن)"),
+        ("gehobene Konnektoren", "حال آنکه، از آنجا که، چنانچه، مگر آنکه",
+         r"(?:حال\s*آن\s*‌?که|از\s+آنجا\s+که|چنانچه|مگر\s+آن\s*‌?که|در\s+صورتی\s+که)"),
+        ("Perfekt der Berichterstattung", "گفته‌اند که …، نوشته است", _PART + r"‌?(?:اند|است)\s+که"),
+        ("Kurzinfinitiv", "می‌توان رفت، باید دانست", r"(?:می‌توان|نمی‌توان|باید|نباید|بتوان)\s+\S+[دت]" + _E),
+        ("arabische Plurale und Masdar-Formen", "تحولات، مسائل، استقبال", None),
+    ],
+    "C2": [
+        ("klassische Verbformen", "بگفت، برفت، همی‌رفت", r"(?:^|\s)(?:ب\S+[دت]" + _E + r"|همی\s*‌?\S+)"),
+        ("Sprichwörter und Redewendungen", "آب که از سر گذشت، چه یک وجب چه صد وجب", None),
+        ("poetische Kurzformen", "ز، دگر، چو، اندر", r"(?:^|\s)(?:ز|دگر|چو|اندر)\s"),
+        ("Ironie und Registerwechsel", "gehobene Wendung neben Umgangssprache", None),
+    ],
+}
+GRAMMATIK = [g for liste in GRAMMATIK_STUFEN.values() for g in liste]
 GRAMMATIK_START = date(2026, 10, 26)
 _FOKUS = ""
 _FOKUS_RE = None
 
 
-def grammatik_fokus(heute: date | None = None):
-    woche = max(0, ((heute or date.today()) - GRAMMATIK_START).days // 7) % len(GRAMMATIK)
-    return GRAMMATIK[woche][:2], [g[0] for g in GRAMMATIK[:woche]]
+def grammatik_fokus(stufe_name: str = "B1", heute: date | None = None):
+    k = stufe_name.split()[0].rstrip("+")
+    liste = GRAMMATIK_STUFEN.get(k, GRAMMATIK_STUFEN["B1"])
+    woche = max(0, ((heute or date.today()) - GRAMMATIK_START).days // 7) % len(liste)
+    return liste[woche], [g[0] for g in liste[:woche]]
 
 
 # ─── B1-Prüfung ───────────────────────────────────────────────────────────
@@ -259,7 +352,7 @@ Antworte NUR mit JSON im selben Format, Felder "titel", "text", "nachricht", "ne
         q2, _ = pruefe(neu.get("text", "") + " " + neu.get("nachricht", ""), K | formen)
         if q2 > quote + 0.03:          # Lektorat hat den Text deutlich schwerer gemacht
             return d
-        if stufe_name.startswith("B1") and len(b1_maengel(neu["text"])) > len(b1_maengel(d.get("text", ""))):
+        if ab_b1(stufe_name) and len(b1_maengel(neu["text"])) > len(b1_maengel(d.get("text", ""))):
             return d                   # Lektorat hat B1-Merkmale weggeglättet
         return {**d, **{k: neu[k] for k in ("titel", "text", "nachricht", "neue_vokabeln") if neu.get(k) is not None}}
     except Exception:
@@ -380,14 +473,14 @@ def erzeuge(lang_ex: dict, complete) -> dict:
     stufe_name, stufe_txt = stufe(len(eintraege))
     global _FOKUS, _FOKUS_RE
     _FOKUS, _FOKUS_RE = "", None
-    if stufe_name.startswith("B1"):
-        (fokus, bsp), vorher = grammatik_fokus()
-        _FOKUS = fokus
-        _FOKUS_RE = re.compile(next(g[2] for g in GRAMMATIK if g[0] == fokus))
-        stufe_txt += (f" GRAMMATIKSCHWERPUNKT DIESER WOCHE: {fokus} (z. B. {bsp}); mindestens zweimal, "
-                      f"natürlich eingebettet.")
-        if vorher:
-            stufe_txt += " Bereits eingeführt, gern wiederholen: " + ", ".join(vorher) + "."
+    (fokus, bsp, muster), vorher = grammatik_fokus(stufe_name)
+    _FOKUS = fokus
+    _FOKUS_RE = re.compile(muster) if muster and ab_b1(stufe_name) else None
+    stufe_txt += (f" GRAMMATIKSCHWERPUNKT DIESER WOCHE: {fokus} (z. B. {bsp}); mindestens zweimal, "
+                  f"natürlich eingebettet. Strukturen der früheren Stufen sind selbstverständlich erlaubt.")
+    if vorher:
+        stufe_txt += " Auf dieser Stufe bereits eingeführt, gern wiederholen: " + ", ".join(vorher) + "."
+    lang_ex = {**lang_ex, "topic": thema(stufe_name)}
     # Die Liste fuer das Modell in echter Schreibung (nur ohne Kurzvokale). norm()
     # tilgt auch das Madde; mit dieser Liste vor Augen schrieb das Modell dann
     # اسمان, امده, افتابی statt آسمان, آمده, آفتابی.
@@ -424,7 +517,7 @@ def erzeuge(lang_ex: dict, complete) -> dict:
             continue
         neu = {w for v in d.get("neue_vokabeln", []) for w in _formen(v.get("fa", ""))}
         quote, fremd = pruefe(d.get("text", "") + " " + d.get("nachricht", ""), K | neu)
-        maengel = b1_maengel(d.get("text", "")) if stufe_name.startswith("B1") else []
+        maengel = b1_maengel(d.get("text", "")) if ab_b1(stufe_name) else []
         zu_viel = max(0, len(ganz_neu(d)) - GANZ_NEU_MAX)
         wert = quote + 0.05 * len(maengel) + 0.02 * zu_viel
         if bestes is None or wert < bestes[2]:
@@ -476,8 +569,8 @@ def erzeuge(lang_ex: dict, complete) -> dict:
                 for w in f:
                     bedeutung.setdefault(w, (e["word"], e.get("meaning", "")))
     d = _glossen_bereinigen(d, gelernt)
-    if stufe_name.startswith("B1") and b1_maengel(d.get("text", "")):
-        stufe_name = "A2+ (Ziel B1 verfehlt)"   # Label nicht schönen
+    if ab_b1(stufe_name) and b1_maengel(d.get("text", "")):
+        stufe_name = f"{stufe_name}, verfehlt: " + "; ".join(b1_maengel(d.get("text", "")))   # Label nicht schönen
     liste = [((v.get("fa") or "").strip(), (v.get("de") or "").strip(), "") for v in d.get("neue_vokabeln", [])]
     liste = [x for x in liste if x[0] and x[1] and not NAME.search(x[1])]
     alles = d.get("text", "") + " " + d.get("nachricht", "")
