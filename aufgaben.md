@@ -16,7 +16,9 @@ Immer in der Pipeline: monatlich Calls prüfen, in die Arbeit (stille stürme, F
 ## STAND 28.10.2026 — wazan (vormals tajikpoemanalyzer) und stille stürme
 - [x] Umbenennung (GitHub moschle/wazan), Dilorom-Korpus aus den Quelldateien neu (T 40, E 34, B 33), Review aller nicht erkannten Farzona-Gedichte + drei Stichprobenrunden (gesamt 89 %, frische Stichproben 85–100 %)
 - [ ] Labels (data/validierung/review.jsonl, von Claude) selbst stichprobenartig prüfen oder von einem zweiten Modell gegenprüfen lassen
-- [ ] stille stürme: Fußnote „Skansion von Hand“ + Farzona-Fußnote Druckgeschichte freigeben; MTLD-Werte im Buch (~149/150/232) gegen heutigen Analyzer (169/161/212) klären — Herkunft der Buchwerte?
+- [ ] stille stürme: Fußnote „Skansion von Hand“ + Farzona-Fußnote Druckgeschichte freigeben
+- [x] 29.10. MTLD im Buch: alte Werte (~149/150/232) mit keinem Analyzer-Stand seit Feb. 2026 reproduzierbar; alle Fassungen ergeben 169/161/212 → im Buch ersetzt (B ein Viertel bis ein Drittel höher statt „fast 50 %“). Wortzahlen T (šab 24, sadoi 20, kase 16) bestätigt
+- [x] 29.10. Projektskizze, Mails, Farzona-Kennzahlen auf validierte Zahlen gebracht (Paket_2026-10-29.zip)
 - [ ] T: drei Gedichte, die der Analyzer anders zählt als die Handzählung (25/15 statt 28/12), mit eigener Liste abgleichen
 
 ## STAND 27.10.2026 — Futro als Heimserver (Home Assistant + lokale KI über Nacht)
