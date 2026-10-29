@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Erzeugt bekannt_fa.json aus der lokalen Anki-Sammlung (Deck "Persisch").
 
-gelernt = mindestens eine Karte der Notiz wurde schon einmal richtig beantwortet.
+gelernt = mindestens eine Karte der Notiz wurde schon einmal richtig beantwortet oder ist
+per "Fälligkeit festlegen" zur Wiederholungskarte gemacht worden (29.10.2026).
 Nur diese Woerter gelten fuer den Morgenbrief als bekannt; alle Woerter des Decks
 werden aber mitgeschrieben, damit keine Dubletten als neue Vokabeln kommen.
 
@@ -31,7 +32,7 @@ def main():
     did = con.execute("select id from decks where name=?", (DECK,)).fetchone()[0]
     zeilen = con.execute(
         """select n.flds,
-                  max(exists(select 1 from revlog r where r.cid = c.id and r.ease >= 2))
+                  max(c.type = 2 or exists(select 1 from revlog r where r.cid = c.id and r.ease >= 2))
            from notes n join cards c on c.nid = n.id
            where c.did = ? group by n.id""", (did,)).fetchall()
     daten = []
