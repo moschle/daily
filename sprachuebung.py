@@ -18,6 +18,8 @@ from pathlib import Path
 HERE = Path(__file__).parent
 BEKANNT_FILE = HERE / "bekannt_fa.json"
 NEU_PRO_TAG = 7
+GANZ_NEU_MAX = 2          # davon höchstens so viele, die noch gar nicht im Deck stehen
+RUECKSTAND_ANGEBOT = 60   # ungelernte Deck-Karten, die dem Modell angeboten werden
 MAX_UNBEKANNT = 0.08       # Anteil unbekannter Wörter, ab dem neu geschrieben wird
 VERSUCHE = 3
 
@@ -137,25 +139,36 @@ def stufe(n_bekannt_eintraege: int) -> tuple[str, str]:
 # ─── Grammatik-Progression ──────────────────────────────────────────────
 # Bis 29.10.2026 gab es nur drei Stufen nach Wortschatzgröße mit immer gleicher
 # B1-Checkliste. Jetzt kommt wöchentlich ein Schwerpunkt dazu; frühere bleiben erlaubt.
+_PART = r"\S+(?:ده|ته)"          # Partizip Perfekt: رفته، آمده، کرده
+_E = r"(?=[\s.،؛!؟:»)]|$)"
 GRAMMATIK = [
-    ("Verlaufsform mit داشتن", "دارم می‌نویسم، داشت می‌رفت"),
-    ("Perfekt und Plusquamperfekt", "رفته‌ام، رفته بودم"),
-    ("realer Bedingungssatz", "اگر وقت داشته باشم، می‌آیم"),
-    ("Passiv mit شدن", "ساخته شد، گفته می‌شود"),
-    ("indirekte Rede", "گفت که فردا می‌آید"),
-    ("irrealer Bedingungssatz", "اگر می‌دانستم، می‌گفتم"),
-    ("Subjunktiv Perfekt", "شاید رفته باشد"),
-    ("Infinitiv als Satzglied", "خواندن این کتاب آسان نیست"),
-    ("Kausativ auf ‑اندن", "خنداندن، رساندن"),
-    ("Temporalsätze mit پیش از آن که / بعد از آن که", "بعد از آن که رسید، زنگ زد"),
+    ("Verlaufsform mit داشتن", "دارم می‌نویسم، داشت می‌رفت",
+     r"(?:^|\s)(?:دار(?:م|ی|د|یم|ید|ند)|داشت(?:م|ی|یم|ید|ند)?)\s+(?:\S+\s+)?می‌"),
+    ("Perfekt und Plusquamperfekt", "رفته‌ام، رفته بودم",
+     _PART + r"(?:‌(?:ام|ای|ایم|اید|اند)|\s+است|\s+بود(?:م|ی|یم|ید|ند)?)" + _E),
+    ("realer Bedingungssatz", "اگر وقت داشته باشم، می‌آیم", r"(?:^|\s)اگر\s"),
+    ("Passiv mit شدن", "ساخته شد، گفته می‌شود",
+     _PART + r"\s+(?:شد|شده|شود|شوند|می‌شود|می‌شوند|شدند|خواهد شد)" + _E),
+    ("indirekte Rede", "گفت که فردا می‌آید",
+     r"(?:گفت|گفتند|می‌گوید|می‌گویند|می‌گفت|نوشت|اعلام کرد|توضیح داد)\s+(?:\S+\s+){0,3}?که\s"),
+    ("irrealer Bedingungssatz", "اگر می‌دانستم، می‌گفتم",
+     r"اگر\s[^.؟!]*?می‌\S+[دت](?:م|ی|یم|ید|ند)?" + _E),
+    ("Subjunktiv Perfekt", "شاید رفته باشد", _PART + r"\s+باش(?:م|ی|د|یم|ید|ند)" + _E),
+    ("Infinitiv als Satzglied", "خواندن این کتاب آسان نیست",
+     r"(?:^|\s)(?!می‌)\S+(?:دن|تن)(?:\s+\S+){0,3}\s+(?:است|نیست|بود|می‌شود|را)" + _E),
+    ("Kausativ auf ‑اندن", "خنداندن، رساندن",
+     r"(?:^|\s)\S*[^ه\u200c\s](?<![\s\u200c]د)(?<![\s\u200c]م)(?<![\s\u200c]ر)(?<![\s\u200c]خو)(?<![\s\u200c]تو)(?<!^د)(?<!^م)(?<!^خو)(?<!^تو)اند(?:ن|م|ی|یم|ید|ند)?" + _E),
+    ("Temporalsätze mit پیش از آن که / بعد از آن که", "بعد از آن که رسید، زنگ زد",
+     r"(?:پیش|قبل|بعد)\s+از\s+(?:آن|این)\s*‌?که"),
 ]
 GRAMMATIK_START = date(2026, 10, 26)
 _FOKUS = ""
+_FOKUS_RE = None
 
 
 def grammatik_fokus(heute: date | None = None):
     woche = max(0, ((heute or date.today()) - GRAMMATIK_START).days // 7) % len(GRAMMATIK)
-    return GRAMMATIK[woche], [g[0] for g in GRAMMATIK[:woche]]
+    return GRAMMATIK[woche][:2], [g[0] for g in GRAMMATIK[:woche]]
 
 
 # ─── B1-Prüfung ───────────────────────────────────────────────────────────
@@ -181,11 +194,13 @@ def b1_maengel(text: str) -> list[str]:
         m.append("mindestens ein Subjunktiv (باید/شاید/اگر/تا + Subjunktiv)")
     if not VERGANGENHEIT.search(t):
         m.append("Erzählung in der Vergangenheit: einfaches Präteritum UND Imperfekt (می‌رفتم), kein reiner Präsens-Beschreibungstext")
+    if _FOKUS_RE is not None and not _FOKUS_RE.search(t):
+        m.append(f"Wochenschwerpunkt {_FOKUS} fehlt")
     return m
 
 
 # ─── Claude-Aufruf ────────────────────────────────────────────────────────
-def _prompt(lang_ex, bekannt_liste, stufe_txt, due, feedback):
+def _prompt(lang_ex, bekannt_liste, stufe_txt, due, feedback, rueckstand=""):
     wh = ""
     if due:
         wh = ("Diese Wörter hat er in den letzten Tagen neu gelernt. Verwende davon zwei bis vier, "
@@ -206,19 +221,19 @@ REGELN
 - Stufe {stufe_txt}
 - Thema: "{lang_ex['topic']}". 6–8 Sätze. Natürliches Persisch, wie es ein Iraner schreiben würde; keine Wörter nur um sie unterzubringen.
 - Neben Funktionswörtern nur Wörter aus der Liste, dazu GENAU {NEU_PRO_TAG} neue Wörter. Die neuen Wörter sollen häufig und nützlich sein und zum Thema passen.
+- Die neuen Wörter nimmst du ZUERST aus dieser Liste (Karten, die in seinem Anki-Deck stehen, aber noch nicht gelernt sind): {rueckstand or "-"}
+  Höchstens {GANZ_NEU_MAX} der neuen Wörter dürfen außerhalb dieser Liste liegen.
 - Jedes neue Wort beim ersten Vorkommen direkt hinter der VOLLSTÄNDIGEN Wortform (mit Plural- und Personalendungen) glossieren: سلاح‌ها (Waffen), nie سلاح (Waffe) ها. Sonst keine Glossen.
 - Zusammengesetzte Verben und feste Verbverbindungen (ارتباط برقرار کردن، لذت بردن، به نمایش گذاشتن، از سر گرفتن) sind eigene Vokabeln, auch wenn die Einzelteile bekannt sind: Glosse hinter der vollständigen Verbform, Infinitiv des ganzen Gefüges in "neue_vokabeln".
 - Ohne Kurzvokalzeichen im Fließtext, aber normale Rechtschreibung: Madde (آب, آمد, می‌آورد, آلودگی), Hamze und Halbabstand (ZWNJ) immer setzen.
 - Lieber ein schlichter Satz als ein seltenes, gehobenes oder unpassendes Wort. Keine Füllsätze, keine schiefen Aussagen, keine Substantivierungen, die kein Iraner so sagen würde (z. B. nicht „غمگینی می‌آورد“).
-{wh}- Danach 2–3 Verständnisfragen auf Deutsch.
-- Nachricht: in 3–4 einfachen Sätzen auf Persisch nacherzählen, ebenfalls fast nur mit bekannten Wörtern; höchstens 2 weitere neue Wörter, genauso glossiert. NUR Inhalte aus Schlagzeile und Meldungstext unten, nichts hinzufügen. Die Quelle bleibt erhalten: Wenn Medien oder eine Person etwas berichten oder behaupten, schreib das so (رسانه‌های آمریکا گزارش می‌دهند …), nicht als Tatsache und nicht als Aussage eines Staates. Aus „bereitet sich vor“ wird nicht „will“. Jeder Satz trägt eine Information aus der Meldung; keine Füllsätze wie „این خبر امروز آمد“ oder „مردم این خبر را می‌شنوند“.
+{wh}- Nachricht: in 3–4 einfachen Sätzen auf Persisch nacherzählen, ebenfalls fast nur mit bekannten Wörtern; höchstens 2 weitere neue Wörter, genauso glossiert. NUR Inhalte aus Schlagzeile und Meldungstext unten, nichts hinzufügen. Die Quelle bleibt erhalten: Wenn Medien oder eine Person etwas berichten oder behaupten, schreib das so (رسانه‌های آمریکا گزارش می‌دهند …), nicht als Tatsache und nicht als Aussage eines Staates. Aus „bereitet sich vor“ wird nicht „will“. Jeder Satz trägt eine Information aus der Meldung; keine Füllsätze wie „این خبر امروز آمد“ oder „مردم این خبر را می‌شنوند“.
 - Glossiere NUR die neuen Wörter. Wörter aus der Wortschatzliste bekommen keine Klammer.
 - Eigennamen (Personen, Orte, Länder, Organisationen) sind keine Vokabeln: nicht glossieren, nicht in "neue_vokabeln".
 {nachricht}{feedback}
 Antworte NUR mit JSON, ohne Markdown:
 {{"titel": "persischer Titel",
   "text": "Übungstext mit Glossen",
-  "fragen": ["...", "..."],
   "nachricht": "Nacherzählung auf Persisch oder leer",
   "neue_vokabeln": [{{"fa": "Wort mit Kurzvokalzeichen", "de": "knappe deutsche Bedeutung, ohne persische Schrift"}}]}}
 In "neue_vokabeln" stehen ALLE glossierten Wörter aus Text und Nachricht (Verben als Infinitiv, Nomen im Singular) und jedes weitere Wort, das nicht in der Wortschatzliste steht."""
@@ -363,11 +378,12 @@ def erzeuge(lang_ex: dict, complete) -> dict:
                      if e.get("gelernt", True)]
     eintraege += [norm(v["word"]) for v in mem.get("fa", [])]
     stufe_name, stufe_txt = stufe(len(eintraege))
-    global _FOKUS
-    _FOKUS = ""
+    global _FOKUS, _FOKUS_RE
+    _FOKUS, _FOKUS_RE = "", None
     if stufe_name.startswith("B1"):
         (fokus, bsp), vorher = grammatik_fokus()
         _FOKUS = fokus
+        _FOKUS_RE = re.compile(next(g[2] for g in GRAMMATIK if g[0] == fokus))
         stufe_txt += (f" GRAMMATIKSCHWERPUNKT DIESER WOCHE: {fokus} (z. B. {bsp}); mindestens zweimal, "
                       f"natürlich eingebettet.")
         if vorher:
@@ -383,24 +399,42 @@ def erzeuge(lang_ex: dict, complete) -> dict:
     anzeige_eintraege += [HAR.sub("", v["word"]).strip() for v in mem.get("fa", [])]
     bekannt_liste = ", ".join(dict.fromkeys(anzeige_eintraege))
     due = lang_ex.get("due_vocab") or []
+    # Anki-Rückstand: ungelernte Karten zuerst einsetzen (29.10.2026: 1272 von 2109 ungelernt)
+    deck_alle, offen_karten = set(), []
+    if BEKANNT_FILE.exists():
+        for e in json.loads(BEKANNT_FILE.read_text(encoding="utf-8")):
+            deck_alle |= _formen(e.get("word", ""))
+            if not e.get("gelernt", True) and HAR.sub("", e.get("word", "")).strip():
+                offen_karten.append(HAR.sub("", e["word"]).strip())
+    import random as _r
+    _r.Random(date.today().toordinal()).shuffle(offen_karten)
+    rueckstand = ", ".join(offen_karten[:RUECKSTAND_ANGEBOT])
+
+    def ganz_neu(d):
+        return [v.get("fa", "") for v in d.get("neue_vokabeln", [])
+                if v.get("fa") and " " not in norm(v["fa"]) and not (_formen(v["fa"]) <= deck_alle)]
 
     bestes, feedback = None, ""
     for _ in range(VERSUCHE):
         try:
-            d = _json(complete(_prompt(lang_ex, bekannt_liste, f"{stufe_name}: {stufe_txt}", due, feedback),
-                               max_tokens=2500))
+            d = _json(complete(_prompt(lang_ex, bekannt_liste, f"{stufe_name}: {stufe_txt}", due, feedback,
+                                       rueckstand), max_tokens=2500))
         except Exception as e:
             feedback = f"\nACHTUNG: Die letzte Antwort war kein gültiges JSON ({e}).\n"
             continue
         neu = {w for v in d.get("neue_vokabeln", []) for w in _formen(v.get("fa", ""))}
         quote, fremd = pruefe(d.get("text", "") + " " + d.get("nachricht", ""), K | neu)
         maengel = b1_maengel(d.get("text", "")) if stufe_name.startswith("B1") else []
-        wert = quote + 0.05 * len(maengel)
+        zu_viel = max(0, len(ganz_neu(d)) - GANZ_NEU_MAX)
+        wert = quote + 0.05 * len(maengel) + 0.02 * zu_viel
         if bestes is None or wert < bestes[2]:
             bestes = (quote, d, wert)
-        if quote <= MAX_UNBEKANNT and not maengel:
+        if quote <= MAX_UNBEKANNT and not maengel and not zu_viel:
             break
         feedback = ""
+        if zu_viel:
+            feedback += ("\nZU VIELE GANZ NEUE WÖRTER: " + ", ".join(ganz_neu(d))
+                         + f". Höchstens {GANZ_NEU_MAX}; nimm die übrigen aus der Liste der ungelernten Anki-Karten.\n")
         if quote > MAX_UNBEKANNT:
             feedback += ("\nDER LETZTE ENTWURF WAR ZU SCHWER. Diese Wörter kennt er nicht und sie waren nicht "
                          "als neu markiert. Ersetze sie durch Wörter aus der Liste oder einfache Umschreibungen:\n"
@@ -410,6 +444,19 @@ def erzeuge(lang_ex: dict, complete) -> dict:
                          + ". Schreib eine kleine Erzählung in der Vergangenheit zum Thema, nicht eine Beschreibung im Präsens.\n")
     if bestes is None:
         raise RuntimeError("Leseübung konnte nicht erzeugt werden")
+    if bestes[0] > MAX_UNBEKANNT:
+        # Notlauf statt zu schweren Text verschicken (28./29.10.: 82 % bzw. 86 % bekannt)
+        try:
+            notfall = feedback + ("\nLETZTER VERSUCH: Schreib nur 5 kurze Sätze, ausschließlich mit Wörtern aus der "
+                                  "Wortschatzliste und den neuen Wörtern. Lieber schlicht als zu schwer.\n")
+            d = _json(complete(_prompt(lang_ex, bekannt_liste, f"{stufe_name}: {stufe_txt}", due, notfall,
+                                       rueckstand), max_tokens=2500))
+            neu = {w for v in d.get("neue_vokabeln", []) for w in _formen(v.get("fa", ""))}
+            q, _ = pruefe(d.get("text", "") + " " + d.get("nachricht", ""), K | neu)
+            if q < bestes[0]:
+                bestes = (q, d, q)
+        except Exception:
+            pass
 
     quote, d, _ = bestes
     d = _lektorat(d, K, quote, complete, stufe_name)
@@ -475,15 +522,18 @@ def erzeuge(lang_ex: dict, complete) -> dict:
         zusatz = " (Wiederholung, bisher ohne Anki-Karte)" if n in wiederholt else ""
         anzeige.append(f"{fa} – {de}" + zusatz)
         neue.append((fa, de))
+    # Fällige und schwache Wörter (bei Vince: zuletzt "Nochmal") gelten formal als gelernt,
+    # bekommen aber trotzdem eine Klammer; sie gehen nicht ins Anki-Paket.
+    for v in due:
+        if v.get("word") and v.get("meaning") and norm(v["word"]) not in gesehen:
+            glossen.append((v["word"], v["meaning"], ""))
     for feld in ("text", "nachricht"):
         if d.get(feld):
             d[feld] = _glossieren(d[feld], glossen)
-    fragen = "\n".join(f"{i}. {q}" for i, q in enumerate(d.get("fragen", []), 1))
     woerter = "\n".join(anzeige) or "–"
     abschnitt = (
         f"SPRACHÜBUNG - TEXT\n{d.get('titel', '')}\n\n{d.get('text', '')}\n\n"
         f"NEUE WÖRTER (Stufe {stufe_name}{', Grammatik: ' + _FOKUS if _FOKUS else ''}, {round((1 - quote) * 100)} % bekannt; Anki-Paket im Anhang)\n{woerter}\n\n"
-        f"SPRACHÜBUNG - FRAGEN\n{fragen}\n\n"
         f"NACHRICHTEN\n{lang_ex.get('headline') or ''}\n\n{d.get('nachricht', '')}\n"
     )
     return {"abschnitt": abschnitt, "neue": neue, "quote": quote}
