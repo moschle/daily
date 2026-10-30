@@ -672,6 +672,7 @@ def anki_paket(neue: list[tuple[str, str]], ziel_dir: Path) -> Path | None:
     deck = genanki.Deck(DECK_ID, "Persisch")
     tag = date.today().isoformat()
     for fa, de in neue:
+        fa = fa.replace("ي", "ی").replace("ك", "ک")   # 29.10.: مُستَقيم، اَمنِيَّت mit arabischem Ya
         deck.add_note(genanki.Note(model=modell, fields=[fa, de],
                                    guid=genanki.guid_for("morgenbrief-fa", norm(fa)),
                                    tags=["morgenbrief", f"mb_{tag}"]))
