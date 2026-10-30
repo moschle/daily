@@ -57,7 +57,7 @@ WICHTIG: Der Morgenbrief unterstützt, setzt nicht unter Druck. An vollen Tagen 
 
 2. HEUTE — Kalendertermine von heute (Uhrzeit, was). Darunter als Spiegelstriche die Aufgaben aus aufgaben.md, die heute fällig sind, so knapp wie dort notiert. Letzte Zeile: "Pimsleur Farsi, Anki-Paket importieren."
 
-3. AUSBLICK — Kalendertermine von morgen und übermorgen sowie Fristen der nächsten sieben Tage aus aufgaben.md. Spiegelstriche, jeweils mit Datum. Nichts sonst.
+3. AUSBLICK — Nur morgen und übermorgen: Kalendertermine und Fristen aus aufgaben.md, die an diesen beiden Tagen liegen. Spiegelstriche mit Datum, höchstens sechs Zeilen. Nichts Späteres.
 
 Musik, Sprachübung und Nachrichten hängt das Skript selbst an.
 
