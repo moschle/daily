@@ -316,20 +316,19 @@ REGELN
 - Neben Funktionswörtern nur Wörter aus der Liste, dazu GENAU {NEU_PRO_TAG} neue Wörter. Die neuen Wörter sollen häufig und nützlich sein und zum Thema passen.
 - Die neuen Wörter nimmst du ZUERST aus dieser Liste (Karten, die in seinem Anki-Deck stehen, aber noch nicht gelernt sind): {rueckstand or "-"}
   Höchstens {GANZ_NEU_MAX} der neuen Wörter dürfen außerhalb dieser Liste liegen.
-- Jedes neue Wort beim ersten Vorkommen direkt hinter der VOLLSTÄNDIGEN Wortform (mit Plural- und Personalendungen) glossieren: سلاح‌ها (Waffen), nie سلاح (Waffe) ها. Sonst keine Glossen.
-- Zusammengesetzte Verben und feste Verbverbindungen (ارتباط برقرار کردن، لذت بردن، به نمایش گذاشتن، از سر گرفتن) sind eigene Vokabeln, auch wenn die Einzelteile bekannt sind: Glosse hinter der vollständigen Verbform, Infinitiv des ganzen Gefüges in "neue_vokabeln".
+- Schreib KEINE Glossen und keine Klammern in Text und Nachricht; die Übersetzungen setzt ein Programm.
+- Zusammengesetzte Verben und feste Verbverbindungen (ارتباط برقرار کردن، لذت بردن، به نمایش گذاشتن، از سر گرفتن) sind eigene Vokabeln, auch wenn die Einzelteile bekannt sind: Infinitiv des ganzen Gefüges in "neue_vokabeln".
 - Ohne Kurzvokalzeichen im Fließtext, aber normale Rechtschreibung: Madde (آب, آمد, می‌آورد, آلودگی), Hamze und Halbabstand (ZWNJ) immer setzen.
 - Lieber ein schlichter Satz als ein seltenes, gehobenes oder unpassendes Wort. Keine Füllsätze, keine schiefen Aussagen, keine Substantivierungen, die kein Iraner so sagen würde (z. B. nicht „غمگینی می‌آورد“).
-{wh}- Nachricht: in 3–4 einfachen Sätzen auf Persisch nacherzählen, ebenfalls fast nur mit bekannten Wörtern; höchstens 2 weitere neue Wörter, genauso glossiert. NUR Inhalte aus Schlagzeile und Meldungstext unten, nichts hinzufügen. Die Quelle bleibt erhalten: Wenn Medien oder eine Person etwas berichten oder behaupten, schreib das so (رسانه‌های آمریکا گزارش می‌دهند …), nicht als Tatsache und nicht als Aussage eines Staates. Aus „bereitet sich vor“ wird nicht „will“. Jeder Satz trägt eine Information aus der Meldung; keine Füllsätze wie „این خبر امروز آمد“ oder „مردم این خبر را می‌شنوند“.
-- Glossiere NUR die neuen Wörter. Wörter aus der Wortschatzliste bekommen keine Klammer.
-- Eigennamen (Personen, Orte, Länder, Organisationen) sind keine Vokabeln: nicht glossieren, nicht in "neue_vokabeln".
+{wh}- Nachricht: in 3–4 einfachen Sätzen auf Persisch nacherzählen, ebenfalls fast nur mit bekannten Wörtern; höchstens 2 weitere neue Wörter. NUR Inhalte aus Schlagzeile und Meldungstext unten, nichts hinzufügen. Die Quelle bleibt erhalten: Wenn Medien oder eine Person etwas berichten oder behaupten, schreib das so (رسانه‌های آمریکا گزارش می‌دهند …), nicht als Tatsache und nicht als Aussage eines Staates. Aus „bereitet sich vor“ wird nicht „will“. Jeder Satz trägt eine Information aus der Meldung; keine Füllsätze wie „این خبر امروز آمد“ oder „مردم این خبر را می‌شنوند“.
+- Eigennamen (Personen, Orte, Länder, Organisationen) sind keine Vokabeln, nicht in "neue_vokabeln". Grammatik (z. B. die Verlaufsform) ist keine Vokabel.
 {nachricht}{feedback}
 Antworte NUR mit JSON, ohne Markdown:
 {{"titel": "persischer Titel",
-  "text": "Übungstext mit Glossen",
+  "text": "Übungstext ohne Klammern",
   "nachricht": "Nacherzählung auf Persisch oder leer",
-  "neue_vokabeln": [{{"fa": "Wort mit Kurzvokalzeichen", "de": "knappe deutsche Bedeutung, ohne persische Schrift"}}]}}
-In "neue_vokabeln" stehen ALLE glossierten Wörter aus Text und Nachricht (Verben als Infinitiv, Nomen im Singular) und jedes weitere Wort, das nicht in der Wortschatzliste steht."""
+  "neue_vokabeln": [{{"fa": "Grundform mit Kurzvokalzeichen", "de": "knappe deutsche Bedeutung (1–3 Wörter)", "form": "die Wortform genau so, wie sie im Text steht"}}]}}
+In "neue_vokabeln" steht jedes Wort und jedes Verbgefüge aus Text und Nachricht, das nicht in der Wortschatzliste steht (Verben als Infinitiv, Nomen im Singular)."""
 
 
 def _lektorat(d: dict, K: set[str], quote: float, complete, stufe_name: str = "B1") -> dict:
@@ -339,9 +338,9 @@ Vereinfache die Grammatik NICHT: Relativsätze, Subjunktiv, Vergangenheitsformen
 Überarbeite Text und Nacherzählung so, dass sie klingen, wie ein gebildeter Iraner einfach und natürlich schreibt.
 - Korrigiere schiefe Aussagen, unidiomatische Wendungen, falsche Kollokationen, Füllsätze und Rechtschreibung (Madde, Hamze, Halbabstand).
 - Behalte Inhalt, Satzzahl und Schwierigkeit bei. Ersetze kein einfaches Wort durch ein schwierigeres; neue Wörter nur, wenn es wirklich nicht anders geht.
-- Glossen in Klammern bleiben erhalten und stehen hinter der vollständigen Wortform. Wird ein glossiertes Wort ersetzt, passe die Glosse an.
+- Der Text enthält keine Glossen; füge keine Klammern ein. Änderst du ein Wort aus "neue_vokabeln", passe dort "fa", "de" und "form" an.
 - Die Nacherzählung darf nichts enthalten, was nicht in der Meldung steht.
-Antworte NUR mit JSON im selben Format, Felder "titel", "text", "nachricht", "neue_vokabeln" (alle glossierten Wörter mit Kurzvokalen und deutscher Bedeutung).
+Antworte NUR mit JSON im selben Format, Felder "titel", "text", "nachricht", "neue_vokabeln" (Einträge mit "fa", "de", "form").
 
 {json.dumps({k: d.get(k) for k in ("titel", "text", "nachricht", "neue_vokabeln")}, ensure_ascii=False)}"""
     try:
@@ -411,44 +410,59 @@ def _ganz(eintrag: str) -> set[str]:
 WORT = re.compile(r"[\u0600-\u06FF\u200c]+")
 
 
-def _glossieren(text: str, glossen) -> str:
-    """Jedes nicht gelernte Wort bzw. Verbgefüge beim ersten Vorkommen glossieren."""
+def _kurz(de: str) -> str:
+    """Glosse kurz und ohne verschachtelte Klammern (30.10.: „las gerade (Bücher) vor – …“)."""
+    de = re.sub(r"\([^)]*\)", "", de).split("–")[0].split(";")[0]
+    return ", ".join(t.strip() for t in de.split(",")[:2] if t.strip())
+
+
+_ENDUNG = re.compile(r"(?:‌?(?:ها|های|هایی|ان|ات))?(?:‌?(?:ی|ای|یی|م|ت|ش|مان|تان|شان|ام|ات|اش|اند|ست|تر|ترین))?$")
+
+
+def _glossieren(text: str, glossen) -> tuple[str, set]:
+    """Glosse hinter die angegebene Textform, beim ersten Vorkommen; ohne Form nur bei
+    exakt passendem Einzelwort (30.10.: lockerer Abgleich glossierte نشستم als „waschen“)."""
+    gesetzt = set()
     for fa, de, form in glossen:
-        ende = None
-        if form:
-            muster = r"\s*(?:\([^)]*\)\s*)?".join(re.escape(t) for t in form.split())
-            m = re.search(muster, text)
-            ende = m.end() if m else None
-        else:
-            ziel = _formen(fa)
-            for m in WORT.finditer(text):
-                t = norm(m.group())
-                if len(t) > 1 and t not in FUNKTION and (t in ziel or _kandidaten(t) & ziel):
-                    ende = m.end()
-                    break
-        if ende is None or re.match(r"\s*\(", text[ende:]):
+        de = _kurz(de)
+        if not de:
             continue
-        text = f"{text[:ende]} ({de}){text[ende:]}"
-    return text
+        if form:
+            muster = r"(?<![\u0600-\u06FF\u200c])" + r"[\s\u200c]*".join(re.escape(t) for t in form.split()) \
+                     + r"(?![\u0600-\u06FF\u200c])"
+        else:
+            if " " in fa.strip() or norm(fa).endswith(("دن", "تن")):
+                continue
+            stamm = HAR.sub("", fa).strip()
+            muster = r"(?<![\u0600-\u06FF\u200c])" + re.escape(stamm) + _ENDUNG.pattern[:-1] + r"(?![\u0600-\u06FF\u200c])"
+        m = re.search(muster, text)
+        if not m or re.match(r"\s*\(", text[m.end():]):
+            continue
+        text = f"{text[:m.end()]} ({de}){text[m.end():]}"
+        gesetzt.add(norm(fa))
+    return text, gesetzt
 
 
 def _annotieren(text: str, woerter, complete):
     """Bedeutungen für unbekannte Wörter und alle Verbgefüge im Text."""
     p = ("Persischer Lesetext unten.\n"
          "1. Gib für jedes Wort der Liste die Grundform (Verben als Infinitiv, Nomen im Singular) mit "
-         "Kurzvokalzeichen und eine knappe deutsche Bedeutung. Eigennamen weglassen.\n"
+         "Kurzvokalzeichen und eine knappe deutsche Bedeutung (1–3 Wörter), wie sie IN DIESEM TEXT gemeint ist; "
+         "\"form\" ist das Wort genau wie in der Liste. Eigennamen weglassen. Ist das Wort Teil eines Verbgefüges, "
+         "gehört es nur unter 2.\n"
          "2. Finde ALLE zusammengesetzten Verben und festen Verbverbindungen im Text (Nomen, Adjektiv oder "
          "Präpositionalgruppe + کردن، شدن، دادن، گرفتن، بردن، زدن، داشتن، گذاشتن، آمدن، کشیدن usw.; "
          "z. B. ارتباط برقرار کردن، لذت بردن، به نمایش گذاشتن، از سر گرفتن). Für jedes: \"form\" = die "
          "Wortfolge exakt wie im Text, vom ersten bis zum letzten Bestandteil; \"fa\" = Infinitiv des "
          "Gefüges mit Kurzvokalzeichen; \"de\" = deutsche Bedeutung des Ganzen.\n"
-         'Antworte NUR mit JSON: {"woerter": [{"fa": "", "de": ""}], "verben": [{"form": "", "fa": "", "de": ""}]}\n\n'
+         'Antworte NUR mit JSON: {"woerter": [{"form": "", "fa": "", "de": ""}], "verben": [{"form": "", "fa": "", "de": ""}]}\n\n'
          "WÖRTER:\n" + ("\n".join(woerter) or "-") + "\n\nTEXT:\n" + text)
     try:
         d = _json(complete(p, max_tokens=1500))
     except Exception:
         return [], []
-    w = [((x.get("fa") or "").strip(), (x.get("de") or "").strip()) for x in d.get("woerter", [])]
+    w = [((x.get("form") or "").strip(), (x.get("fa") or "").strip(), (x.get("de") or "").strip())
+         for x in d.get("woerter", [])]
     v = [((x.get("form") or "").strip(), (x.get("fa") or "").strip(), (x.get("de") or "").strip())
          for x in d.get("verben", [])]
     return w, v
@@ -556,7 +570,7 @@ def erzeuge(lang_ex: dict, complete) -> dict:
     # Maßstab für Glossen ist allein das Gelernte im Anki-Deck. Bis 29.10.2026 galten
     # Morgenbrief-Wörter 60 Tage als bekannt und verloren ihre Klammer, obwohl die
     # Karte nie gelernt war (مختلف، روزانه، پیشرفت ohne Glosse im Text).
-    deck, gelernt, ganz_deck, ganz_gelernt, bedeutung = set(), set(), set(), set(), {}
+    deck, gelernt, ganz_deck, ganz_gelernt = set(), set(), set(), set()
     if BEKANNT_FILE.exists():
         for e in json.loads(BEKANNT_FILE.read_text(encoding="utf-8")):
             f, g = _formen(e.get("word", "")), _ganz(e.get("word", ""))
@@ -565,64 +579,69 @@ def erzeuge(lang_ex: dict, complete) -> dict:
             if e.get("gelernt", True):
                 gelernt |= f
                 ganz_gelernt |= g
-            else:
-                for w in f:
-                    bedeutung.setdefault(w, (e["word"], e.get("meaning", "")))
-    d = _glossen_bereinigen(d, gelernt)
+    # Glossen setzt nur noch das Programm; was das Modell trotzdem einklammert, fliegt raus,
+    # ebenso unmittelbar doppelte Wortfolgen (30.10.: „تبدیل شود تبدیل شود“)
+    for feld in ("text", "nachricht"):
+        if d.get(feld):
+            t = re.sub(r"\s*\([^)]*[A-Za-zÄÖÜäöüß][^)]*\)", "", d[feld])
+            t = re.sub(r"(?<![\u0600-\u06FF\u200c])((?:[\u0600-\u06FF\u200c]+ ){0,2}[\u0600-\u06FF\u200c]+) \1(?![\u0600-\u06FF\u200c])", r"\1", t)
+            d[feld] = t
     if ab_b1(stufe_name) and b1_maengel(d.get("text", "")):
         stufe_name = f"{stufe_name}, verfehlt: " + "; ".join(b1_maengel(d.get("text", "")))   # Label nicht schönen
-    liste = [((v.get("fa") or "").strip(), (v.get("de") or "").strip(), "") for v in d.get("neue_vokabeln", [])]
-    liste = [x for x in liste if x[0] and x[1] and not NAME.search(x[1])]
+
+    def tauglich(fa, de):
+        return (fa and de and not NAME.search(de) and len(fa.split()) <= 4
+                and not re.search(r"[A-Za-z+?؟]", fa))
+
+    liste = [((v.get("fa") or "").strip(), (v.get("de") or "").strip(), (v.get("form") or "").strip())
+             for v in d.get("neue_vokabeln", [])]
+    liste = [x for x in liste if tauglich(x[0], x[1])]
     alles = d.get("text", "") + " " + d.get("nachricht", "")
+    abgedeckt = {norm(t) for _, _, form in liste for t in form.split()}
     _, rest = pruefe(alles, gelernt | {w for fa, _, _ in liste for w in _formen(fa)})
-    wiederholt, offen = set(), []
-    for tok in rest:
-        v = next((v for v in mem.get("fa", []) if ist_bekannt(tok, _formen(v["word"]))), None)
-        if v:
-            liste.append((v["word"], v.get("meaning", ""), ""))
-            wiederholt.add(norm(v["word"]))
-            continue
-        b = next((bedeutung[w] for w in bedeutung if ist_bekannt(tok, {w})), None)
-        if b:
-            liste.append((b[0], b[1], ""))
-        else:
-            offen.append(tok)
-    woerter, verben = _annotieren(re.sub(r"\([^)]*\)", " ", alles), offen, complete)
-    liste += [(fa, de, "") for fa, de in woerter if fa and de and not NAME.search(de)]
+    offen = [t for t in rest if norm(t) not in abgedeckt]
+    woerter, verben = _annotieren(alles, offen, complete)
+    liste += [(fa, de, form or "") for form, fa, de in woerter if tauglich(fa, de)]
     for form, fa, de in verben:
-        if form and fa and de and _ganz(fa) and not (_ganz(fa) & ganz_gelernt):
+        if form and tauglich(fa, de) and not (_ganz(fa) & ganz_gelernt):
             liste.append((fa, de, form))
-    liste.sort(key=lambda x: not x[2])   # Verbgefüge vor Einzelwörtern
-    gefuege_teile = {w for fa, _, form in liste if form for w in min(_ganz(fa), key=len).split()[:-1]}
-    gesehen, anzeige, neue, glossen = set(), [], [], []
+    liste.sort(key=lambda x: len(x[2].split()), reverse=True)   # Verbgefüge vor Einzelwörtern
+    mem_woerter = {norm(v["word"]) for v in mem.get("fa", [])}
+    gesehen, kandidaten = set(), []
     for fa, de, form in liste:
         n = norm(fa)
         varianten = _ganz(fa) | {n}
-        if varianten & gesehen or (not form and n in gefuege_teile):
+        if varianten & gesehen:
             continue
         gesehen |= varianten
-        if form:
-            im_deck, ist_gelernt = bool(_ganz(fa) & ganz_deck), False
+        if " " in n.replace(ZWNJ, " ").strip():
+            im_deck, ist_gelernt = bool(_ganz(fa) & ganz_deck), bool(_ganz(fa) & ganz_gelernt)
         else:
             f = _formen(fa)
             im_deck, ist_gelernt = bool(f) and f <= deck, bool(f) and f <= gelernt
-        if ist_gelernt:
-            continue
-        glossen.append((fa, de, form))
-        if im_deck:
-            anzeige.append(f"{fa} – {de} (schon im Deck, noch nicht gelernt)")
-            continue
-        zusatz = " (Wiederholung, bisher ohne Anki-Karte)" if n in wiederholt else ""
-        anzeige.append(f"{fa} – {de}" + zusatz)
-        neue.append((fa, de))
-    # Fällige und schwache Wörter (bei Vince: zuletzt "Nochmal") gelten formal als gelernt,
-    # bekommen aber trotzdem eine Klammer; sie gehen nicht ins Anki-Paket.
-    for v in due:
-        if v.get("word") and v.get("meaning") and norm(v["word"]) not in gesehen:
-            glossen.append((v["word"], v["meaning"], ""))
+        if not ist_gelernt:
+            kandidaten.append((fa, de, form, im_deck))
+    # Fällige und schwache Wörter (bei Vince: zuletzt "Nochmal") bekommen eine Klammer,
+    # gehen aber nicht ins Anki-Paket.
+    glossen = [(fa, de, form) for fa, de, form, _ in kandidaten]
+    glossen += [(v["word"], v["meaning"], "") for v in due
+                if v.get("word") and v.get("meaning") and norm(v["word"]) not in gesehen]
+    gesetzt = set()
     for feld in ("text", "nachricht"):
         if d.get(feld):
-            d[feld] = _glossieren(d[feld], glossen)
+            d[feld], g = _glossieren(d[feld], glossen)
+            gesetzt |= g
+    # In Liste und Anki-Paket nur, was im Text tatsächlich glossiert steht
+    anzeige, neue = [], []
+    for fa, de, form, im_deck in kandidaten:
+        if norm(fa) not in gesetzt:
+            continue
+        if im_deck:
+            anzeige.append(f"{fa} – {_kurz(de)} (schon im Deck, noch nicht gelernt)")
+            continue
+        zusatz = " (Wiederholung, bisher ohne Anki-Karte)" if norm(fa) in mem_woerter else ""
+        anzeige.append(f"{fa} – {_kurz(de)}" + zusatz)
+        neue.append((fa, _kurz(de)))
     woerter = "\n".join(anzeige) or "–"
     abschnitt = (
         f"SPRACHÜBUNG - TEXT\n{d.get('titel', '')}\n\n{d.get('text', '')}\n\n"
