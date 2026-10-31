@@ -12,3 +12,5 @@ jurabriefe/karten/*.json
 !jurabriefe/karten/llm_manifest.json
 !jurabriefe/karten/referenz.json
 !jurabriefe/karten/INDEX.md
+entwuerfe/
+tmp/

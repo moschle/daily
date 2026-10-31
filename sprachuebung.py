@@ -477,6 +477,20 @@ def _annotieren(text: str, woerter, complete):
     return w, v
 
 
+def _entwurf_sichern(d: dict, quote: float, maengel: list) -> None:
+    """Jeden Entwurf neben dem Wortschatz ablegen (31.10.2026: verworfener Text war nicht nachvollziehbar)."""
+    try:
+        ordner = BEKANNT_FILE.parent / "entwuerfe"
+        ordner.mkdir(exist_ok=True)
+        pfad = ordner / f"{date.today().isoformat()}.json"
+        alle = json.loads(pfad.read_text(encoding="utf-8")) if pfad.exists() else []
+        alle.append({"bekannt": round(1 - quote, 3), "maengel": maengel, "text": d.get("text", ""),
+                     "nachricht": d.get("nachricht", ""), "neue_vokabeln": d.get("neue_vokabeln", [])})
+        pfad.write_text(json.dumps(alle, ensure_ascii=False, indent=1), encoding="utf-8")
+    except Exception:
+        pass
+
+
 def _json(roh: str) -> dict:
     roh = roh.strip()
     roh = re.sub(r"^```(?:json)?|```$", "", roh, flags=re.M).strip()
@@ -541,6 +555,7 @@ def erzeuge(lang_ex: dict, complete) -> dict:
         neu = {w for v in d.get("neue_vokabeln", []) for w in _formen(v.get("fa", ""))}
         quote, fremd = pruefe(d.get("text", "") + " " + d.get("nachricht", ""), K | neu)
         maengel = b1_maengel(d.get("text", "")) if ab_b1(stufe_name) else []
+        _entwurf_sichern(d, quote, maengel)
         zu_viel = max(0, len(ganz_neu(d)) - GANZ_NEU_MAX)
         wert = quote + 0.05 * len(maengel) + 0.02 * zu_viel
         if bestes is None or wert < bestes[2]:
@@ -560,20 +575,6 @@ def erzeuge(lang_ex: dict, complete) -> dict:
                          + ". Schreib eine kleine Erzählung in der Vergangenheit zum Thema, nicht eine Beschreibung im Präsens.\n")
     if bestes is None:
         raise RuntimeError("Leseübung konnte nicht erzeugt werden")
-    if bestes[0] > MAX_UNBEKANNT:
-        # Notlauf statt zu schweren Text verschicken (28./29.10.: 82 % bzw. 86 % bekannt)
-        try:
-            notfall = feedback + ("\nLETZTER VERSUCH: Schreib nur 5 kurze Sätze, ausschließlich mit Wörtern aus der "
-                                  "Wortschatzliste und den neuen Wörtern. Lieber schlicht als zu schwer.\n")
-            d = _json(complete(_prompt(lang_ex, bekannt_liste, f"{stufe_name}: {stufe_txt}", due, notfall,
-                                       rueckstand), max_tokens=2500))
-            neu = {w for v in d.get("neue_vokabeln", []) for w in _formen(v.get("fa", ""))}
-            q, _ = pruefe(d.get("text", "") + " " + d.get("nachricht", ""), K | neu)
-            if q < bestes[0]:
-                bestes = (q, d, q)
-        except Exception:
-            pass
-
     quote, d, _ = bestes
     d = _lektorat(d, K, quote, complete, stufe_name)
     # Maßstab für Glossen ist allein das Gelernte im Anki-Deck. Bis 29.10.2026 galten
