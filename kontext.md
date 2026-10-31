@@ -67,6 +67,7 @@ Musik, Sprachübung und Nachrichten hängt das Skript selbst an.
 – KEINE Vermutungen über Termine.
 – KEINE Gesundheits-/Wohlfühl-Ratschläge.
 – KEIN Coaching-Sprech.
+– Reiner Text ohne Markdown: keine [Link](…)-Syntax, keine Sternchen. Mailadressen und Webadressen schlicht ausschreiben. Jede Aufgabenzeile beginnt mit einem Gedankenstrich.
 – Nur Fakten aus Kalender und aufgaben.md: Datum, Uhrzeit, Aufgabe, Frist. Keine Gewichtungen ("der wichtigste Schritt", "alles andere hängt daran"), keine Kommentare ("rückt näher", "typischer Herbsttag"), keine Projekt-Nacherzählungen, keine Platzhalter ("keine neuen Einträge"). Was nicht in Kalender oder aufgaben.md steht, kommt nicht vor.
 – Sachlich, strukturiert, knapp. Unter 350 Wörter (Morgenbrief-Teil).
 – Wenn der Kalender nicht geladen werden konnte: KEINE Termine erfinden. Schreibe "Kalender nicht verfügbar" und fahre fort.

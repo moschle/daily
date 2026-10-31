@@ -420,12 +420,14 @@ _ENDUNG = re.compile(r"(?:‌?(?:ها|های|هایی|ان|ات))?(?:‌?(?:ی|�
 
 
 def _glossieren(text: str, glossen) -> tuple[str, set]:
-    """Glosse hinter die angegebene Textform, beim ersten Vorkommen; ohne Form nur bei
-    exakt passendem Einzelwort (30.10.: lockerer Abgleich glossierte نشستم als „waschen“)."""
-    gesetzt = set()
+    """Glosse hinter die angegebene Textform, beim ersten freien Vorkommen; ohne Form nur bei
+    exakt passendem Einzelwort (30.10.: lockerer Abgleich glossierte نشستم als „waschen“).
+    Belegte Stellen sind gesperrt: Teile eines glossierten Verbgefüges bekommen keine eigene
+    Klammer (31.10.: „گزارش (Bericht) داد (berichten)“, „به نقل (Zitierung) از (zitiert aus)“)."""
+    belegt, setzen, gesetzt = [], [], set()
     for fa, de, form in glossen:
         de = _kurz(de)
-        if not de:
+        if not de or norm(fa) in gesetzt:
             continue
         if form:
             muster = r"(?<![\u0600-\u06FF\u200c])" + r"[\s\u200c]*".join(re.escape(t) for t in form.split()) \
@@ -435,11 +437,15 @@ def _glossieren(text: str, glossen) -> tuple[str, set]:
                 continue
             stamm = HAR.sub("", fa).strip()
             muster = r"(?<![\u0600-\u06FF\u200c])" + re.escape(stamm) + _ENDUNG.pattern[:-1] + r"(?![\u0600-\u06FF\u200c])"
-        m = re.search(muster, text)
-        if not m or re.match(r"\s*\(", text[m.end():]):
-            continue
-        text = f"{text[:m.end()]} ({de}){text[m.end():]}"
-        gesetzt.add(norm(fa))
+        for m in re.finditer(muster, text):
+            if any(m.start() < b and a < m.end() for a, b in belegt):
+                continue
+            belegt.append((m.start(), m.end()))
+            setzen.append((m.end(), de))
+            gesetzt.add(norm(fa))
+            break
+    for ende, de in sorted(setzen, reverse=True):
+        text = f"{text[:ende]} ({de}){text[ende:]}"
     return text, gesetzt
 
 
@@ -447,11 +453,14 @@ def _annotieren(text: str, woerter, complete):
     """Bedeutungen für unbekannte Wörter und alle Verbgefüge im Text."""
     p = ("Persischer Lesetext unten.\n"
          "1. Gib für jedes Wort der Liste die Grundform (Verben als Infinitiv, Nomen im Singular) mit "
-         "Kurzvokalzeichen und eine knappe deutsche Bedeutung (1–3 Wörter), wie sie IN DIESEM TEXT gemeint ist; "
+         "Kurzvokalzeichen und eine knappe deutsche Bedeutung DER GRUNDFORM (1–3 Wörter, Nomen im Singular), "
+         "im Sinn dieses Textes; "
          "\"form\" ist das Wort genau wie in der Liste. Eigennamen weglassen. Ist das Wort Teil eines Verbgefüges, "
          "gehört es nur unter 2.\n"
          "2. Finde ALLE zusammengesetzten Verben und festen Verbverbindungen im Text (Nomen, Adjektiv oder "
-         "Präpositionalgruppe + کردن، شدن، دادن، گرفتن، بردن، زدن، داشتن، گذاشتن، آمدن، کشیدن usw.; "
+         "Präpositionalgruppe + کردن، شدن، دادن، گرفتن، بردن، زدن، داشتن، گذاشتن، آمدن، کشیدن، یافتن usw.; "
+         "nur feste Verbindungen, deren Bedeutung man nicht aus den Teilen erschließt, NICHT freie Fügungen wie "
+         "به شمال رفتن oder کتاب خواندن; "
          "z. B. ارتباط برقرار کردن، لذت بردن، به نمایش گذاشتن، از سر گرفتن). Für jedes: \"form\" = die "
          "Wortfolge exakt wie im Text, vom ersten bis zum letzten Bestandteil; \"fa\" = Infinitiv des "
          "Gefüges mit Kurzvokalzeichen; \"de\" = deutsche Bedeutung des Ganzen.\n"
