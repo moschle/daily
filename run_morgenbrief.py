@@ -76,7 +76,8 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     except Exception as e:
         print(f"Lesen gescheitert: {e}", file=sys.stderr)
         lesestueck = ""
-    return brief + lesestueck + musik + sprachteil
+    # Sprachteil (Leseübung, persische Nachrichten) zuerst, Forschungslektüre am Schluss
+    return brief + musik + sprachteil.rstrip() + "\n\n" + lesestueck
 
 
 def fallback_brief(wetter, kalender, impulse, lang_ex):
