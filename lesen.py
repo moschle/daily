@@ -42,7 +42,10 @@ def _w(t: str) -> int:
 
 
 def _buchstaben(t: str) -> str:
-    return "".join(c for c in unicodedata.normalize("NFKC", t) if c.isalpha())
+    """Nur Buchstaben; arabische und persische Varianten gleichgesetzt, Lam-Alef-Reihenfolge egal."""
+    t = unicodedata.normalize("NFKC", t).translate(str.maketrans("يكىۀة", "یکیهه"))
+    t = "".join(c for c in t if c.isalpha()).replace("ال", "لا")
+    return t
 
 
 def _claude(prompt: str, max_tokens: int) -> str:
@@ -106,6 +109,7 @@ def _waehle_und_bereinige(abs_: list[str], start: int) -> tuple[int, str]:
             break
     if rest <= MAX_W:
         ende = len(abs_) - 1
+    antwort = ""
     try:
         prompt = AUFTRAG.format(start=start, min_w=MIN_W if rest > MAX_W else 0,
                                 max_w=MAX_W if rest > MAX_W else rest,
@@ -127,6 +131,10 @@ def _waehle_und_bereinige(abs_: list[str], start: int) -> tuple[int, str]:
         return k_ende, text
     except Exception as e:
         print(f"Lesen: Bereinigung verworfen ({e}), Rohtext bis {ende}", file=sys.stderr)
+        try:
+            (LESEN_DIR / "verworfen.txt").write_text(f"{e}\n\n{antwort}", encoding="utf-8")
+        except Exception:
+            pass
         return ende, roh(ende)
 
 
