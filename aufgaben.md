@@ -7,7 +7,12 @@
 ## DAUERAUFGABE (seit 28.10.2026) — Tagungen, Preise, Vorträge
 Immer in der Pipeline: monatlich Calls prüfen, in die Arbeit (stille stürme, Farzona-Korpus, Analyzer, Übersetzungen) einreichbar? 2025 eine passende Sommertagung verpasst.
 - [ ] **SilkRoadNLP 2027 (2nd Workshop on NLP for the Iranian language family, EACL Athen 9.–14.03.2027) — Frist 15.12.2026** (direkte Einreichung). Shared Task: Transliteration Tadschikisch-Kyrillisch ↔ Perso-Arabisch. Passt für Analyzer/ʿarūż-Skansion + Farzona-Korpus. https://www.aclweb.org/portal/node/14605
-- [ ] ECIS 11 (European Conference of Iranian Studies, alle 4 Jahre, zuletzt Leiden 2023) — CfP für 2027 erwartet ca. Nov. 2026 (ECIS 10: CfP Nov. 2022); SIE vergibt auch einen Ph.D. Thesis Award. https://www.societasiranologicaeu.org/conferences/
+- [ ] **Deutscher Übersetzerfonds Initiativstipendium (2.000 €) — Frist 30.11.2026** (jährlich zum 30.11., Jahr auf Website gegenprüfen). Für Projekte ohne Verlagszusage: 3 S. Probeübersetzung, Exposé ~1 S., Kurzbio, Publikationsliste, Original-Auszug, Rechtelage geklärt. Passt für Farzona/Dilorom/Gulnoz-Übersetzungsprojekt. https://www.uebersetzerfonds.de/#4/stipendien (geprüft 01.11.2026)
+- [ ] **DH2027 (ADHO, Galway, 28.06.–03.07.2027) — Frist 20.11.2026 AoE** (ConfTool). wazan als Short Paper/Poster (digitale ʿarūż-Skansion, tadschikisches Lyrikkorpus). https://dh2027.adho.org/call-for-proposals/ (geprüft 01.11.2026)
+- [ ] Deutscher Übersetzerfonds Arbeits-/Aufenthalts-/Reise-/Bode-(Mentoring-)Stipendien — Frist 15.01.2027 (Zielsprache Deutsch). Arbeitsstipendium braucht i. d. R. Verlagsvertrag; Bode-Mentoring evtl. ohne. https://www.uebersetzerfonds.de/ (geprüft 01.11.2026)
+- [ ] ECIS 11 (European Conference of Iranian Studies, 2027) — Ort/CfP Stand 01.11.2026 noch nicht veröffentlicht, CfP erwartet. SIE-Thesis-Award (6. Runde, 2.000 €, Frist 15.01.2027) setzt Verteidigung 2023–31.12.2026 voraus → aktuell nicht zutreffend. https://www.societasiranologicaeu.org/ph-d-thesis-award/
+- [ ] ASPS 11th Biennial Convention, **Dushanbe** (Nationalbibliothek, 9.–13.08.2027) — Abstract-Frist 30.09.2026 **abgelaufen** (nur für ASPS-Mitglieder). Ggf. Nachfrist anfragen / als Teilnehmer hin. https://www.persianatesocieties.org/asps-eleventh-biennial-conference/
+- [ ] DHd2027 (Marburg, 1.–5.03.2027): Frist 01.08.2026 abgelaufen — DHd2028-Call erwartet ca. Juni 2027.
 - [ ] Symposia Iranica (St Andrews, Nachwuchs) — V war April 2026, Abstract-Frist Ende Aug. 2025; nächste Runde beobachten
 - [ ] DAVO-Kongress (jährlich Herbst, CfP meist Mai/Juni) — Call 2027 beobachten
 - [ ] CESS Annual Conference + ESCAS Regional (Calls meist Winter/Frühjahr) — beobachten, centraleurasia.org
