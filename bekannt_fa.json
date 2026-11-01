@@ -3717,7 +3717,7 @@
 {
 "word": "دَرمان کردَن",
 "meaning": "behandeln",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "نام را گُذاشتَن",
@@ -3852,7 +3852,7 @@
 {
 "word": "هَمان‌گاه",
 "meaning": "Unverzüglich",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "پِنهان",
@@ -9387,7 +9387,7 @@
 {
 "word": "دَفن‌شُده",
 "meaning": "vergraben, begraben (Partizip)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "وَسایلِ قَدیمیِ دَفن‌شُده در خاک",
@@ -10067,7 +10067,7 @@
 {
 "word": "اَطرافِ شَهر",
 "meaning": "Umgebung der Stadt",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "حومهٔ شَهر",
@@ -10137,7 +10137,7 @@
 {
 "word": "پایگاه",
 "meaning": "Stützpunkt, Basis",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "کارکَنان",
@@ -10932,7 +10932,7 @@
 {
 "word": "پیچیده",
 "meaning": "eingewickelt; kompliziert",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "پُشتِ هَم",
@@ -11542,7 +11542,7 @@
 {
 "word": "دَررَفتَن",
 "meaning": "entwischen, abhauen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "حِفظ کَردَن",
@@ -11602,7 +11602,7 @@
 {
 "word": "پیله کَردَن",
 "meaning": "nicht ablassen, jmdm. zusetzen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "جوشی شُدَن",
@@ -11632,7 +11632,7 @@
 {
 "word": "دَمِ دَست",
 "meaning": "griffbereit",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "سَنگِ تَرازو",
@@ -11937,7 +11937,7 @@
 {
 "word": "مُچ",
 "meaning": "Handgelenk",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "دَک و دَنده",
@@ -12172,6 +12172,61 @@
 {
 "word": "حَقیقَتَش را بِخواهید",
 "meaning": "ehrlich gesagt",
+"gelernt": false
+},
+{
+"word": "حَل کَردَن",
+"meaning": "lösen",
+"gelernt": false
+},
+{
+"word": "زیرِ توافق زَدَن",
+"meaning": "Vereinbarung brechen",
+"gelernt": false
+},
+{
+"word": "قابِلِ اعتِماد",
+"meaning": "vertrauenswürdig",
+"gelernt": false
+},
+{
+"word": "تَأسیسات هَسته‌ای",
+"meaning": "Nuklearanlagen",
+"gelernt": false
+},
+{
+"word": "نابود شُدَن",
+"meaning": "zerstört werden",
+"gelernt": false
+},
+{
+"word": "به موقع",
+"meaning": "rechtzeitig",
+"gelernt": false
+},
+{
+"word": "کارِ تیمی",
+"meaning": "Teamarbeit",
+"gelernt": false
+},
+{
+"word": "زَنگ زَدَن",
+"meaning": "klingeln, läuten",
+"gelernt": false
+},
+{
+"word": "تَماس گِرِفتَن",
+"meaning": "Kontakt aufnehmen",
+"gelernt": false
+},
+{
+"word": "اِقامَتگاه",
+"meaning": "Residenz, Aufenthaltsort",
+"gelernt": false
+},
+{
+"word": "هَمه‌چیز",
+"meaning": "alles",
 "gelernt": false
 }
 ]
