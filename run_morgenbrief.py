@@ -69,7 +69,14 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
         f"Jede Sektion als Überschrift in Großbuchstaben. Kein Markdown. Sachlich."
     )
     musik = f"MUSIK\n{impulse}\n\n" if impulse else ""
-    return complete(msg, max_tokens=2500).rstrip() + "\n\n" + musik + sprachteil
+    brief = complete(msg, max_tokens=2500).rstrip() + "\n\n"
+    try:
+        import lesen
+        lesestueck = lesen.abschnitt()
+    except Exception as e:
+        print(f"Lesen gescheitert: {e}", file=sys.stderr)
+        lesestueck = ""
+    return brief + lesestueck + musik + sprachteil
 
 
 def fallback_brief(wetter, kalender, impulse, lang_ex):

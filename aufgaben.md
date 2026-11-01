@@ -380,6 +380,7 @@ Entscheidung: Promotion in Halle (Phil. Fak. I, Purnaqcheband), Beginn 01.01.202
 - [ ] Texte platzieren (Lettre International u. a.) und Zeitungstexte schreiben
 - [x] Morgenbrief: Leseübung zu schwer — umgebaut am 26.09.2026: Text aus dem Anki-Wortschatz (gelernte Karten, bekannt_fa.json), Prüfung auf mind. 95 % bekannte Wörter mit bis zu drei Versuchen, max. 5 neue Wörter pro Tag, glossiert, als .apkg im Mailanhang. Wortschatz auffrischen: `python3 bekannt_aktualisieren.py` am Mac, dann committen und deployen
 - [ ] Morgenbrief Public Version (generisches Repo)
+- [x] **Morgenbrief: Abschnitt LESEN (02.11.2026)** — täglich ein Stück (~3.500 Wörter) aus der Leseliste (Artikel/Paper aus Bookends und Calibre, zuerst Texte, die nicht in der MA vorkommen). Queue und Schnitt auf dem Mac (~/Projects/foerderungen/leseliste/lesen_export.py, LaunchAgent de.schlenstedt.lesen alle 3 h, neue Einträge kommen nach vorn), Stücke unter /automat/lesen auf netcup, nicht im Repo.
 - [x] **Morgenbrief per Mail statt Kindle** — umgestellt am 26.09.2026: Versand an MORGENBRIEF_TO (in /automat/zugang.env auf netcup), Text im Mailtext, ePub im Anhang; ohne die Variable fällt er auf den Kindle zurück. Offen: FAZ-Ausgabe ebenfalls per Mail ausprobieren (faztokindle)
 
 ## Herbst 2026

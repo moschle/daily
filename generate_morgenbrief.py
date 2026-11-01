@@ -725,7 +725,7 @@ def create_epub(text, date_str):
             flush()
             current_rtl = True
             html_parts.append(f"<h2>{s}</h2>")
-        elif u.strip().rstrip(":") in {"WETTER","HEUTE","AUSBLICK","MUSIK","IMPULS","PROJEKTE","ERLEDIGTES"}:
+        elif u.strip().rstrip(":") in {"WETTER","HEUTE","AUSBLICK","LESEN","MUSIK","IMPULS","PROJEKTE","ERLEDIGTES"}:
             flush()
             current_rtl = False
             html_parts.append(f"<h2>{s}</h2>")
