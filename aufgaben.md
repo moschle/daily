@@ -1,8 +1,15 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 28. Oktober 2026*
+*Letzte Aktualisierung: 2. November 2026*
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
+
+## STAND 02.11.2026 — Pflegedienst Silke Krüger, Mails
+- [ ] Antwort Laura abwarten: Dienstplan November kollidiert mit 4 vorab gemeldeten Nächten (ab 20., 21., 28., 29.11.); Mail 02.11. verschickt. Falls keine Umplanung: Diensttausch oder schriftliche unbezahlte Freistellung
+- [ ] Zustimmung Nebentätigkeit (Sänger, Bildhauer) bei Silke Krüger in Textform einholen (§ 8 Arbeitsvertrag)
+- [ ] Ab Dezember monatlich per Mail die Vergütung der im Dienstplan abgezogenen Pausen geltend machen (Ausschlussfrist § 13: 3 Monate, Textform)
+- [ ] Mercor: Zinc-Einladung zur Hintergrundprüfung ist nicht angekommen (Postfächer geprüft 02.11.) → nachfragen, an welche Adresse
+- [ ] Rudern 02.11. ausgefallen → neu ansetzen
 
 ## DAUERAUFGABE (seit 28.10.2026) — Tagungen, Preise, Vorträge
 Immer in der Pipeline: monatlich Calls prüfen, in die Arbeit (stille stürme, Farzona-Korpus, Analyzer, Übersetzungen) einreichbar? 2025 eine passende Sommertagung verpasst.
