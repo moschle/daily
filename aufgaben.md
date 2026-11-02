@@ -518,3 +518,9 @@ Entscheidung: Promotion in Halle (Phil. Fak. I, Purnaqcheband), Beginn 01.01.202
 - [ ] Seide: DPMA-Gebühr HOTPOT 290 € zahlen bis ca. 23.01.2027 (Anmeldung 23.10.2026, Kl. 24/25), möglichst über UG-Konto
 
 - Standortwünsche (26.10.): Schweiz, München; lieber Berlin/Köln; zur Not Frankfurt; Dresden/Leipzig/Halle ok; sonst nur ohne volle Präsenz
+
+## LIFT-Termine (02.11.2026)
+- 06.12.2026 Moritzburg, Abfahrt 11:30, Konzert 15:00, danach Weihnachtsfeier — Kollision: Nussknacker Semperoper (SM-Kalender)
+- 2027: 06.02. Schmölln · 06.03. Bobbau · 11.03. Berlin Helgoland (Geburtstag, Broiler Bar 16:00 im SM-Kalender) · 15.03. Kamenz (Mo, Persisch 18:00) · 19.03. Dessau · 09.07. Schloss Trebsen · 14.08. Quappendorf
+- Nachtdienst-Schichten an diesen Tagen beim Dienstplan sperren
+- flaschenpost: Minijob entschieden; Fahrdienst/Haushaltshilfe abgesagt
