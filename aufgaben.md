@@ -525,3 +525,6 @@ Entscheidung: Promotion in Halle (Phil. Fak. I, Purnaqcheband), Beginn 01.01.202
 - Nachtdienst-Schichten an diesen Tagen beim Dienstplan sperren
 - flaschenpost: Minijob entschieden; Fahrdienst/Haushaltshilfe abgesagt
 - [ ] LIFT März 2027 (06./11./15./19.03.) kollidiert mit Tadschikistan-Reise 01.–22.03.2027 (DÜF, falls bewilligt) — mit Band klären
+- [ ] Bürgergeld/ALG-II-Schlussabrechnung machen
+- [ ] Pflegedienst: nach Dienstplan fragen + Personalfragebogen und Führungszeugnis abgeben (BfJ-Zahlung hing, Antrag blockiert)
+- [ ] Arzttermin wegen Nachtdienst-Verträglichkeit (arbeitsmed. Untersuchung, § 6 ArbZG)
