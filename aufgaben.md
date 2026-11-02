@@ -9,7 +9,8 @@
 - [ ] Zustimmung Nebentätigkeit (Sänger, Bildhauer) bei Silke Krüger in Textform einholen (§ 8 Arbeitsvertrag)
 - [ ] Ab Dezember monatlich per Mail die Vergütung der im Dienstplan abgezogenen Pausen geltend machen (Ausschlussfrist § 13: 3 Monate, Textform)
 - [ ] Mercor: Zinc-Einladung zur Hintergrundprüfung ist nicht angekommen (Postfächer geprüft 02.11.) → nachfragen, an welche Adresse
-- [ ] Rudern 02.11. ausgefallen → neu ansetzen
+- [ ] Aktualisierte EKS beim Jobcenter nachreichen (Stelle Pflegedienst ab 01.11., erster Lohn 20.12.) und um Antwort/Bestätigung bitten
+- [ ] Rudern 02.11. auf 15:10 nach dem Meeting verschoben
 
 ## DAUERAUFGABE (seit 28.10.2026) — Tagungen, Preise, Vorträge
 Immer in der Pipeline: monatlich Calls prüfen, in die Arbeit (stille stürme, Farzona-Korpus, Analyzer, Übersetzungen) einreichbar? 2025 eine passende Sommertagung verpasst.
