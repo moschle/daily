@@ -8,14 +8,15 @@
 - [ ] Antwort Laura abwarten: Dienstplan November kollidiert mit 4 vorab gemeldeten Nächten (ab 20., 21., 28., 29.11.); Mail 02.11. verschickt. Falls keine Umplanung: Diensttausch oder schriftliche unbezahlte Freistellung
 - [ ] Zustimmung Nebentätigkeit (Sänger, Bildhauer) bei Silke Krüger in Textform einholen (§ 8 Arbeitsvertrag)
 - [ ] Ab Dezember monatlich per Mail die Vergütung der im Dienstplan abgezogenen Pausen geltend machen (Ausschlussfrist § 13: 3 Monate, Textform)
-- [ ] Mercor: Zinc-Einladung zur Hintergrundprüfung ist nicht angekommen (Postfächer geprüft 02.11.) → nachfragen, an welche Adresse
+- [x] Mercor: Zinc-Einladung nicht angekommen → Zinc angeschrieben (02.11.)
 - [x] 02.11. Aktualisierte EKS (Sänger/Bildhauer + Hotpot Silk) und Beschäftigung (erster Lohn 20.11.) per Anfrage zum Bearbeitungsstand an Frau Brauer geschickt; Anspruch nur noch Sep. 1.158,19 / Okt. 386,81, ab Nov. 0; Vorschuss angemahnt. Paket ~/Downloads/JC_BWZ_Stand-2026-11-02_v5.zip
 - [ ] Jobcenter: Online-Konto hängt noch an alter BG Berlin (96202//0101964) → Umstellung auf Leipzig nachhalten; Bescheid Sep./Okt. abwarten, sonst Eilantrag Sozialgericht
-- [ ] AOK PLUS: Antwort (07_Antwort_AOK.txt, Neuberechnung Rückstand 575,12 €) vor 30.11. abschicken — Vollstreckungsaufschub bis 30.11.
+- [ ] AOK PLUS: vorerst keine Antwort (Entscheidung 02.11.); Entwurf 07_Antwort_AOK.txt liegt bereit — Vollstreckungsaufschub läuft bis 30.11.
 - [ ] Warte-Abrechnung Brodyer Nächte fertig und an Shirin zurück: Rechnung Lucaciu (bei Shirin), ELSTER-Protokoll UStVA Juli + BZSt-Anmeldung 50a ablegen, KSK im Sachbericht als „gemeldet, Zahlung nach Bescheid“, fehlende 2026er-Belege von Shirin
 - [ ] Warte Vereinsrecht/Finanzamt (Liste 08_Finanzamt/Offene_Punkte_2026-10-30.md): Satzungsänderung auf nächster MV (Vergütungsklausel Ehrenamtspauschale + Präambel „verzichtet auf Subventionen“); Vorstandsbeschluss zu Moritz' Rechnung 1062 (§ 181 BGB) nachträglich protokollieren; ungeklärte PayPal-/Amex-/Postbank-Eingänge 2025 klären; Mitglieder: Gottler-Atef nachtragen, Schuster unter Mindestbeitrag, Sipos Ehrenmitglied per MV; Anschrift beim Finanzamt ändern; Vorstandswechsel notariell zum Vereinsregister; Banking-App: Vereinskonto als eigenes Profil, damit Konten nicht mehr vertauscht werden
-- [ ] Zinc (Hintergrundprüfung Mercor) direkt anschreiben: Einladung vom 30.10. an moritz@schlenstedt.de nie angekommen → Zustellstatus prüfen lassen; ggf. netcup-Support nach abgewiesenen Mails vom 30.10. fragen
-- [ ] Rudern 02.11. auf 15:10 nach dem Meeting verschoben
+- [x] Zinc (Hintergrundprüfung Mercor) direkt anschreiben (erledigt, Stand 02.11.): Einladung vom 30.10. an moritz@schlenstedt.de nie angekommen → Zustellstatus prüfen lassen; ggf. netcup-Support nach abgewiesenen Mails vom 30.10. fragen
+- [ ] Rudern (Rudergeraet, 30 Min. + Vor-/Nachbereitung)
+- [ ] Warte-Abrechnung mit Shirin durchsprechen, dann gemeinsam wegschicken
 
 ## DAUERAUFGABE (seit 28.10.2026) — Tagungen, Preise, Vorträge
 Immer in der Pipeline: monatlich Calls prüfen, in die Arbeit (stille stürme, Farzona-Korpus, Analyzer, Übersetzungen) einreichbar? 2025 eine passende Sommertagung verpasst.
@@ -53,7 +54,7 @@ Ziel: Futro wie ein „Pamir Lapis One“ — läuft rund um die Uhr, Home Assis
 
 ## DFG-Sachbeihilfe (Entscheidung 26.10.2026: sofort angehen)
 - Antragsteller formal Purnaqcheband (Promotion nötig), Moritz schreibt den Antrag; beantragt wird die eigene Doktorandenstelle + Reise-/Sachmittel; Laufzeit i. d. R. 36 Monate; keine feste Frist
-- [ ] 03.11.2026 Purnaqcheband: Zusage als Antragsteller, Zeitplan, Rolle der Fakultät
+- [ ] Purnaqcheband: Treffen 03.11. findet nicht statt → schleunigst Fahrplan (Annahme, DFG, Landesgraduiertenförderung, Gutachten, Stipendien) zusammenstellen und ihm vorstellen; Zusage als Antragsteller, Zeitplan, Rolle der Fakultät
 - [ ] Forschungsförderung MLU (Drittmittelberatung) um Beratungstermin bitten — Antragsformulare, Kalkulation Personalmittel, interne Abläufe
 - [ ] Exposé bis 15.12. so anlegen, dass es Kern der DFG-Projektbeschreibung wird (Stand der Forschung, eigene Vorarbeiten: MA/Monografie De Gruyter, Tajikpoemanalyzer, Feldforschung 2025; Arbeitsprogramm, Zeitplan)
 - [x] 26.10.2026 Erster Entwurf Projektbeschreibung: ~/Documents/Promotion/DFG_Antrag/ (ZIP, Prüfliste)
