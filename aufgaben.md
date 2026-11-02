@@ -10,6 +10,9 @@
 - [ ] Ab Dezember monatlich per Mail die Vergütung der im Dienstplan abgezogenen Pausen geltend machen (Ausschlussfrist § 13: 3 Monate, Textform)
 - [ ] Mercor: Zinc-Einladung zur Hintergrundprüfung ist nicht angekommen (Postfächer geprüft 02.11.) → nachfragen, an welche Adresse
 - [ ] Aktualisierte EKS beim Jobcenter nachreichen (Stelle Pflegedienst ab 01.11., erster Lohn 20.12.) und um Antwort/Bestätigung bitten
+- [ ] Warte-Abrechnung Brodyer Nächte fertig und an Shirin zurück: Rechnung Lucaciu (bei Shirin), ELSTER-Protokoll UStVA Juli + BZSt-Anmeldung 50a ablegen, KSK im Sachbericht als „gemeldet, Zahlung nach Bescheid“, fehlende 2026er-Belege von Shirin
+- [ ] Warte Vereinsrecht/Finanzamt (Liste 08_Finanzamt/Offene_Punkte_2026-10-30.md): Satzungsänderung auf nächster MV (Vergütungsklausel Ehrenamtspauschale + Präambel „verzichtet auf Subventionen“); Vorstandsbeschluss zu Moritz' Rechnung 1062 (§ 181 BGB) nachträglich protokollieren; ungeklärte PayPal-/Amex-/Postbank-Eingänge 2025 klären; Mitglieder: Gottler-Atef nachtragen, Schuster unter Mindestbeitrag, Sipos Ehrenmitglied per MV; Anschrift beim Finanzamt ändern; Vorstandswechsel notariell zum Vereinsregister; Banking-App: Vereinskonto als eigenes Profil, damit Konten nicht mehr vertauscht werden
+- [ ] Zinc (Hintergrundprüfung Mercor) direkt anschreiben: Einladung vom 30.10. an moritz@schlenstedt.de nie angekommen → Zustellstatus prüfen lassen; ggf. netcup-Support nach abgewiesenen Mails vom 30.10. fragen
 - [ ] Rudern 02.11. auf 15:10 nach dem Meeting verschoben
 
 ## DAUERAUFGABE (seit 28.10.2026) — Tagungen, Preise, Vorträge
