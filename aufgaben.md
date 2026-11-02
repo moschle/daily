@@ -524,3 +524,4 @@ Entscheidung: Promotion in Halle (Phil. Fak. I, Purnaqcheband), Beginn 01.01.202
 - 2027: 06.02. Schmölln · 06.03. Bobbau · 11.03. Berlin Helgoland (Geburtstag, Broiler Bar 16:00 im SM-Kalender) · 15.03. Kamenz (Mo, Persisch 18:00) · 19.03. Dessau · 09.07. Schloss Trebsen · 14.08. Quappendorf
 - Nachtdienst-Schichten an diesen Tagen beim Dienstplan sperren
 - flaschenpost: Minijob entschieden; Fahrdienst/Haushaltshilfe abgesagt
+- [ ] LIFT März 2027 (06./11./15./19.03.) kollidiert mit Tadschikistan-Reise 01.–22.03.2027 (DÜF, falls bewilligt) — mit Band klären
