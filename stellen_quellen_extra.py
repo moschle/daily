@@ -506,3 +506,62 @@ def fetch_akademischejobs():
                 ids.add(j["id"])
                 jobs.append(j)
     return jobs
+
+
+# --- Bundesagentur fuer Arbeit, Jobsuche (oeffentliche API, v6) -------------
+# DaF/DaZ- und Deutsch-Lehrstellen bei Bildungstraegern und Schulen tauchen in
+# den Fachportalen kaum auf, in der BA-Jobsuche aber fast immer.
+BA_SUCHEN = [
+    "Deutsch als Fremdsprache",
+    "Deutsch als Zweitsprache",
+    "Integrationskurs",
+    "Lehrkraft Deutsch",
+    "Dozent Deutsch",
+    "Germanistik",
+]
+BA_ORTE = [("Leipzig", 75), ("Berlin", 30)]   # Leipzig-Umkreis deckt Halle/Dessau ab
+BA_MAX_TAGE = 21
+
+
+def fetch_arbeitsagentur():
+    import json
+    from datetime import date, timedelta
+    from urllib.parse import urlencode
+    grenze = (date.today() - timedelta(days=BA_MAX_TAGE)).isoformat()
+    jobs, ids = [], set()
+    for was in BA_SUCHEN:
+        for wo, km in BA_ORTE:
+            q = urlencode({"was": was, "wo": wo, "umkreis": km,
+                           "angebotsart": 1, "size": 100, "page": 1})
+            req = urllib.request.Request(
+                "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v6/jobs?" + q,
+                headers={"X-API-Key": "jobboerse-jobsuche", "User-Agent": "Mozilla/5.0"})
+            try:
+                with urllib.request.urlopen(req, timeout=30) as r:
+                    daten = json.load(r)
+            except Exception as e:
+                print(f"arbeitsagentur {was}/{wo}: {e}", file=sys.stderr)
+                continue
+            for s in daten.get("ergebnisliste", []):
+                ref = s.get("referenznummer")
+                if not ref or ref in ids:
+                    continue
+                if (s.get("datumErsteVeroeffentlichung") or "") < grenze:
+                    continue
+                if not re.search(r"deutsch|daf|daz|integrationskurs|berufssprach|germanist", ((s.get("stellenangebotsTitel") or "") + " " + (s.get("hauptberuf") or "")).lower()):
+                    continue
+                ids.add(ref)
+                orte = ", ".join(l.get("adresse", {}).get("ort", "")
+                                  for l in s.get("stellenlokationen", [])[:2])
+                umfang = "Vollzeit" if s.get("arbeitszeitVollzeit") else "Teilzeit"
+                jobs.append({
+                    "source": "arbeitsagentur",
+                    "id": "ba-" + ref,
+                    "title": (s.get("stellenangebotsTitel") or "")[:250],
+                    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/" + ref,
+                    "summary": f"{s.get('hauptberuf','')} · {s.get('firma','')} · {orte} · {umfang} · Suche: {was} (DaF/DaZ, Deutschunterricht)",
+                    "updated": s.get("datumErsteVeroeffentlichung", ""),
+                })
+            time.sleep(0.5)
+    print(f"arbeitsagentur: {len(jobs)} Stellen geladen", file=sys.stderr)
+    return jobs
