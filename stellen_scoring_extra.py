@@ -148,6 +148,38 @@ LITERATUR_KATEGORIEN["neue_felder_2610"] = {
 }
 
 
+
+# Breitere Literatursuche (02.11.2026): Literaturhaeuser, Verlage, Promotionsstellen.
+# Gewicht 2 loest allein nicht aus (MIN_SCORE 3) — erst zusammen,
+# z. B. "Verlag" + "Literatur" oder "Doktorand" + "Literatur".
+LITERATUR_KATEGORIEN["literatur_orte"] = {
+    "weight": 3,
+    "terms": [
+        r"literaturh(a|ä|ae)us\w*", r"literaturb(ü|ue)ro\w*", r"literaturforum",
+        r"literaturmuseum", r"literaturagent\w*", r"literaturzentrum",
+        r"belletristik", r"programmbereich\w*", r"buchwissenschaft\w*",
+        r"editionswiss\w*", r"editionsprojekt\w*", r"briefedition\w*",
+        r"literaturpreis\w*", r"stipendienprogramm\w*", r"autorenlesung\w*",
+        r"lesereihe\w*", r"literaturveranstaltung\w*",
+    ],
+}
+LITERATUR_KATEGORIEN["literatur_breit"] = {
+    "weight": 2,
+    "terms": [
+        r"literatur\w*", r"literar\w*", r"verlag\w*", r"buchhandel\w*",
+        r"kulturwissenschaft\w*", r"philolog\w*", r"romanistik", r"frankophon\w*",
+        r"französisch\w*", r"franzoesisch\w*", r"anglistik",
+    ],
+}
+LITERATUR_KATEGORIEN["promotion_breit"] = {
+    "weight": 1,
+    "terms": [
+        r"doktorand\w*", r"promotionsstelle\w*", r"praedoc", r"pre-?doc\w*",
+        r"qualifikationsstelle\w*", r"eigene\w* wissenschaftliche\w* qualifi\w*",
+        r"phd position\w*", r"doctoral\w*",
+    ],
+}
+
 # ─── (2c) Erweiterungen bestehender Kategorien ───
 # Lyrik/Übersetzung von 3 auf 4: soll allein auslösen.
 UEBERSETZUNG_LYRIK_NEU = {
@@ -227,6 +259,7 @@ VETO_KATEGORIEN = {
         "weight": -3,
         "terms": [
             r"buchhaltung", r"rechnungswesen", r"controlling",
+            r"steuerrecht\w*", r"arbeitsschutz\w*", r"wirtschaftsrecht\w*",
             r"vergabestelle", r"vergaberecht", r"beschaffungsstelle",
             r"personalsachbearbeit\w*", r"lohnbuchhaltung",
             r"haushaltssachbearbeit\w*", r"reisekostenabrechnung",
@@ -326,6 +359,12 @@ _FAELLE = [
     ("Wissenschaftliche/n Volontär/in (m/w/d) am Stadtmuseum", True),
     ("Wissenschaftlicher Volontär (m/w/d) Sammlung", True),
     ("Wissenschaftliches Volontariat (m/w/d)", True),
+    ("Projektkoordination (m/w/d) im Literaturhaus Leipzig, 20 Std.", True),
+    ("Volontariat im Verlag, Programm Literatur", True),
+    ("Wiss. Mitarbeiter*in (Praedoc) Neuere deutsche Literatur, 50 %", True),
+    ("Doktorand*in Komparatistik, Promotionsstelle 65 %", True),
+    ("Lektor/Redakteur (m/w/d) Steuerrecht in einem Fachverlag", False),
+    ("Doktorand (m/w/d) Metaphysik", False),
 ]
 
 

@@ -475,3 +475,34 @@ if __name__ == "__main__":
 #            continue
 #
 # ──────────────────────────────────────────────────────────────
+
+
+# ─── Quelle: Börsenblatt Medienjobs (02.11.2026) ───
+# ~470 Stellen aus Verlagen und Buchhandel, 20 pro Seite (?page=N).
+def fetch_boersenblatt(max_seiten=25):
+    basis = "https://medienjobs.boersenblatt.net/jobs"
+    jobs = _harvest("boersenblatt", basis, r"/job/[a-z0-9-]{8,}", "bbl", min_titel_len=10)
+    ids = {j["id"] for j in jobs}
+    for n in range(1, max_seiten):
+        neu = [j for j in _harvest("boersenblatt", f"{basis}?page={n}", r"/job/[a-z0-9-]{8,}",
+                                   "bbl", min_titel_len=10, strikt=False) if j["id"] not in ids]
+        if not neu:
+            break
+        ids.update(j["id"] for j in neu)
+        jobs.extend(neu)
+    return jobs
+
+
+# ─── Quelle: akademische-jobs.de (02.11.2026) ───
+AKA_FACHGEBIETE = ["literaturwissenschaft", "germanistik", "geisteswissenschaften"]
+
+
+def fetch_akademischejobs():
+    jobs, ids = [], set()
+    for fg in AKA_FACHGEBIETE:
+        for j in _harvest("akademische-jobs", f"https://akademische-jobs.de/fachgebiet/{fg}/",
+                          r"/job/[a-z0-9-]{8,}/?$", "aka", min_titel_len=10):
+            if j["id"] not in ids:
+                ids.add(j["id"])
+                jobs.append(j)
+    return jobs
