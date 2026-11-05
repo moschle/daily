@@ -27,7 +27,9 @@ from datetime import date
 from pathlib import Path
 
 LESEN_DIR = Path(os.environ.get("LESEN_DIR", "/automat/lesen"))
-MIN_W, MAX_W, FENSTER_W = 2500, 4000, 5500
+MIN_W, MAX_W, FENSTER_W = 1500, 2500, 3800   # 05.11.2026 gekürzt (vorher 2500–4000)
+REST_W = 1000   # kleinerer Rest eines Textes kommt gleich mit
+APKG = None     # Lernkarten des Tages (lesen_karten), hängt run_morgenbrief an
 
 
 def _laden(pfad: Path, leer):
@@ -107,12 +109,13 @@ def _waehle_und_bereinige(abs_: list[str], start: int) -> tuple[int, str]:
         if n >= MIN_W and (i + 1 < len(abs_) and abs_[i + 1].startswith("## ") or n >= MAX_W):
             ende = i
             break
-    if rest <= MAX_W:
+    if rest <= MAX_W + REST_W:
         ende = len(abs_) - 1
     antwort = ""
     try:
-        prompt = AUFTRAG.format(start=start, min_w=MIN_W if rest > MAX_W else 0,
-                                max_w=MAX_W if rest > MAX_W else rest,
+        alles = rest <= MAX_W + REST_W
+        prompt = AUFTRAG.format(start=start, min_w=0 if alles else MIN_W,
+                                max_w=rest if alles else MAX_W,
                                 absaetze="\n\n".join(f"[{i}] {abs_[i]}" for i in fenster))
         antwort = _claude(prompt, 16000)
         m = re.match(r"\s*ENDE:\s*(\d+)\s*\n(.*)", antwort, re.S)
@@ -122,6 +125,10 @@ def _waehle_und_bereinige(abs_: list[str], start: int) -> tuple[int, str]:
         if not (start <= k_ende <= fenster[-1]):
             raise ValueError(f"Ende {k_ende} außerhalb")
         text = m.group(2).strip()
+        if k_ende < len(abs_) - 1 and sum(_w(a) for a in abs_[k_ende + 1:]) < REST_W:
+            # kurzer Rest: roh anhängen statt morgen nur ein paar Zeilen (04.11.2026)
+            text += "\n\n" + "\n\n".join(a[3:] if a.startswith("## ") else a for a in abs_[k_ende + 1:])
+            k_ende = len(abs_) - 1
         a, b = _buchstaben(roh(k_ende)), _buchstaben(text)
         ta = Counter(a[i:i + 3] for i in range(len(a) - 2))
         tb = Counter(b[i:i + 3] for i in range(len(b) - 2))
@@ -162,6 +169,15 @@ def abschnitt() -> str:
     if start > 0 or ende < len(abs_) - 1:
         kopf += f" ({round(100 * bis / gesamt)} %)"
     out = f"LESEN\n{kopf}\n\n{stueck}\n\n"
+    global APKG
+    try:
+        import lesen_karten
+        karten = lesen_karten.erzeugen(LESEN_DIR, name, text["titel"], stueck, _claude, n=8)
+        APKG = lesen_karten.paket(karten, Path("/tmp"), heute)
+        if karten:
+            out += f"({len(karten)} Lernkarten zum Abschnitt im Anki-Paket „Lektüre“)\n\n"
+    except Exception as e:
+        print(f"Lesen: Karten gescheitert ({e})", file=sys.stderr)
     if ende >= len(abs_) - 1:
         fertig.append(name)
         name, ende = None, -1

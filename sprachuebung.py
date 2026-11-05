@@ -12,12 +12,15 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 from datetime import date, datetime
 from pathlib import Path
 
 HERE = Path(__file__).parent
 BEKANNT_FILE = HERE / "bekannt_fa.json"
 NEU_PRO_TAG = 7
+BUCH_ANKI_MAX = 15        # Buchmodus: so viele Karten pro Tag ins Anki-Paket
+NACHRICHT_ORIGINAL_AB = 0.80   # ab diesem Anteil bekannter Wörter kommt die Meldung im Original
 GANZ_NEU_MAX = 2          # davon höchstens so viele, die noch gar nicht im Deck stehen
 RUECKSTAND_ANGEBOT = 60   # ungelernte Deck-Karten, die dem Modell angeboten werden
 MAX_UNBEKANNT = 0.08       # Anteil unbekannter Wörter, ab dem neu geschrieben wird
@@ -114,7 +117,8 @@ def _kandidaten(t: str) -> set[str]:
 
 def pruefe(text: str, K: set[str]) -> tuple[float, list[str]]:
     ohne_glossen = re.sub(r"\([^)]*\)", " ", text)
-    toks = [t for t in re.findall(r"[\u0600-\u06FF\u200c]+", ohne_glossen) if len(norm(t)) > 1]
+    toks = [t for t in re.findall(r"[\u0621-\u065F\u066E-\u06D3\u06FA-\u06FF\u200c]+", ohne_glossen)
+            if len(norm(t).strip("\u200c")) > 1]   # ohne ، ؛ ؟ und Ziffern (31.10.: „می‌زد،“ als Wort)
     if not toks:
         return 1.0, []
     unbekannt = [t for t in toks if not ist_bekannt(t, K)]
@@ -467,7 +471,7 @@ def _annotieren(text: str, woerter, complete):
          'Antworte NUR mit JSON: {"woerter": [{"form": "", "fa": "", "de": ""}], "verben": [{"form": "", "fa": "", "de": ""}]}\n\n'
          "WÖRTER:\n" + ("\n".join(woerter) or "-") + "\n\nTEXT:\n" + text)
     try:
-        d = _json(complete(p, max_tokens=1500))
+        d = _json(complete(p, max_tokens=6000))
     except Exception:
         return [], []
     w = [((x.get("form") or "").strip(), (x.get("fa") or "").strip(), (x.get("de") or "").strip())
@@ -489,6 +493,37 @@ def _entwurf_sichern(d: dict, quote: float, maengel: list) -> None:
         pfad.write_text(json.dumps(alle, ensure_ascii=False, indent=1), encoding="utf-8")
     except Exception:
         pass
+
+
+def _nachricht_original(lang_ex: dict, K: set) -> str:
+    """Anfang der Originalmeldung (bis etwa 120 Wörter), wenn genug Wörter bekannt sind."""
+    roh = (lang_ex.get("news_text") or "").replace("ي", "ی").replace("ك", "ک")
+    saetze, n = [], 0
+    for satz in re.findall(r"[^.!؟?]+[.!؟?]?", roh):
+        if n and n + len(satz.split()) > 120:
+            break
+        saetze.append(satz.strip())
+        n += len(satz.split())
+    text = " ".join(saetze).strip()
+    if len(text.split()) < 25:
+        return ""
+    q, _ = pruefe(text, K)
+    return text if 1 - q >= NACHRICHT_ORIGINAL_AB else ""
+
+
+def _nacherzaehlen(lang_ex: dict, bekannt_liste: str, complete) -> tuple[str, list]:
+    p = ("Erzähle die Meldung unten in 3–4 einfachen persischen Sätzen nach, fast nur mit Wörtern aus der "
+         "Wortschatzliste. NUR Inhalte aus Schlagzeile und Meldung; die Quelle bleibt erhalten (wer berichtet "
+         "oder behauptet etwas), nichts als Tatsache, was nur berichtet wird. Keine Füllsätze, keine Klammern.\n"
+         'Antworte NUR mit JSON: {"nachricht": "", "neue_vokabeln": [{"fa": "Grundform mit Kurzvokalen", '
+         '"de": "knappe deutsche Bedeutung", "form": "Form wie im Text"}]}\n\n'
+         f"WORTSCHATZLISTE: {bekannt_liste}\n\nSCHLAGZEILE: {lang_ex.get('headline')}\n"
+         f"MELDUNG: {(lang_ex.get('news_text') or '')[:900]}")
+    try:
+        d = _json(complete(p, max_tokens=1500))
+        return d.get("nachricht", ""), d.get("neue_vokabeln", [])
+    except Exception:
+        return "", []
 
 
 def _json(roh: str) -> dict:
@@ -544,39 +579,57 @@ def erzeuge(lang_ex: dict, complete) -> dict:
         return [v.get("fa", "") for v in d.get("neue_vokabeln", [])
                 if v.get("fa") and " " not in norm(v["fa"]) and not (_formen(v["fa"]) <= deck_alle)]
 
-    bestes, feedback = None, ""
-    for _ in range(VERSUCHE):
+    # Persisches Buch statt erfundenem Lesetext (nur wenn der Aufrufer ein Buch angibt; 05.11.2026)
+    buch_teil = None
+    if lang_ex.get("buch_dir"):
         try:
-            d = _json(complete(_prompt(lang_ex, bekannt_liste, f"{stufe_name}: {stufe_txt}", due, feedback,
-                                       rueckstand), max_tokens=2500))
+            import buch as _buch
+            buch_teil = _buch.abschnitt(Path(lang_ex["buch_dir"]))
         except Exception as e:
-            feedback = f"\nACHTUNG: Die letzte Antwort war kein gültiges JSON ({e}).\n"
-            continue
-        neu = {w for v in d.get("neue_vokabeln", []) for w in _formen(v.get("fa", ""))}
-        quote, fremd = pruefe(d.get("text", "") + " " + d.get("nachricht", ""), K | neu)
-        maengel = b1_maengel(d.get("text", "")) if ab_b1(stufe_name) else []
-        _entwurf_sichern(d, quote, maengel)
-        zu_viel = max(0, len(ganz_neu(d)) - GANZ_NEU_MAX)
-        wert = quote + 0.05 * len(maengel) + 0.02 * zu_viel
-        if bestes is None or wert < bestes[2]:
-            bestes = (quote, d, wert)
-        if quote <= MAX_UNBEKANNT and not maengel and not zu_viel:
-            break
-        feedback = ""
-        if zu_viel:
-            feedback += ("\nZU VIELE GANZ NEUE WÖRTER: " + ", ".join(ganz_neu(d))
-                         + f". Höchstens {GANZ_NEU_MAX}; nimm die übrigen aus der Liste der ungelernten Anki-Karten.\n")
-        if quote > MAX_UNBEKANNT:
-            feedback += ("\nDER LETZTE ENTWURF WAR ZU SCHWER. Diese Wörter kennt er nicht und sie waren nicht "
-                         "als neu markiert. Ersetze sie durch Wörter aus der Liste oder einfache Umschreibungen:\n"
-                         + ", ".join(fremd[:40]) + "\n")
-        if maengel:
-            feedback += ("\nDER LETZTE ENTWURF WAR NUR A2, NICHT B1. Es fehlte: " + "; ".join(maengel)
-                         + ". Schreib eine kleine Erzählung in der Vergangenheit zum Thema, nicht eine Beschreibung im Präsens.\n")
-    if bestes is None:
-        raise RuntimeError("Leseübung konnte nicht erzeugt werden")
-    quote, d, _ = bestes
-    d = _lektorat(d, K, quote, complete, stufe_name)
+            print(f"Buch: {e}", file=sys.stderr)
+    orig = _nachricht_original(lang_ex, K)
+    if buch_teil is None:
+        bestes, feedback = None, ""
+        for _ in range(VERSUCHE):
+            try:
+                d = _json(complete(_prompt(lang_ex, bekannt_liste, f"{stufe_name}: {stufe_txt}", due, feedback,
+                                           rueckstand), max_tokens=2500))
+            except Exception as e:
+                feedback = f"\nACHTUNG: Die letzte Antwort war kein gültiges JSON ({e}).\n"
+                continue
+            neu = {w for v in d.get("neue_vokabeln", []) for w in _formen(v.get("fa", ""))}
+            quote, fremd = pruefe(d.get("text", "") + " " + d.get("nachricht", ""), K | neu)
+            maengel = b1_maengel(d.get("text", "")) if ab_b1(stufe_name) else []
+            _entwurf_sichern(d, quote, maengel)
+            zu_viel = max(0, len(ganz_neu(d)) - GANZ_NEU_MAX)
+            wert = quote + 0.05 * len(maengel) + 0.02 * zu_viel
+            if bestes is None or wert < bestes[2]:
+                bestes = (quote, d, wert)
+            if quote <= MAX_UNBEKANNT and not maengel and not zu_viel:
+                break
+            feedback = ""
+            if zu_viel:
+                feedback += ("\nZU VIELE GANZ NEUE WÖRTER: " + ", ".join(ganz_neu(d))
+                             + f". Höchstens {GANZ_NEU_MAX}; nimm die übrigen aus der Liste der ungelernten Anki-Karten.\n")
+            if quote > MAX_UNBEKANNT:
+                feedback += ("\nDER LETZTE ENTWURF WAR ZU SCHWER. Diese Wörter kennt er nicht und sie waren nicht "
+                             "als neu markiert. Ersetze sie durch Wörter aus der Liste oder einfache Umschreibungen:\n"
+                             + ", ".join(fremd[:40]) + "\n")
+            if maengel:
+                feedback += ("\nDER LETZTE ENTWURF WAR NUR A2, NICHT B1. Es fehlte: " + "; ".join(maengel)
+                             + ". Schreib eine kleine Erzählung in der Vergangenheit zum Thema, nicht eine Beschreibung im Präsens.\n")
+        if bestes is None:
+            raise RuntimeError("Leseübung konnte nicht erzeugt werden")
+        quote, d, _ = bestes
+        d = _lektorat(d, K, quote, complete, stufe_name)
+    else:
+        stufe_name, _FOKUS, _FOKUS_RE = "Buch", "", None
+        d = {"titel": buch_teil[0], "text": buch_teil[1], "nachricht": "", "neue_vokabeln": []}
+        if lang_ex.get("headline") and not orig:
+            d["nachricht"], d["neue_vokabeln"] = _nacherzaehlen(lang_ex, bekannt_liste, complete)
+        quote, _ = pruefe(d["text"], K)
+    if orig:
+        d["nachricht"] = orig   # Originalmeldung, sobald 80 % der Wörter bekannt sind
     # Maßstab für Glossen ist allein das Gelernte im Anki-Deck. Bis 29.10.2026 galten
     # Morgenbrief-Wörter 60 Tage als bekannt und verloren ihre Klammer, obwohl die
     # Karte nie gelernt war (مختلف، روزانه، پیشرفت ohne Glosse im Text).
@@ -652,11 +705,27 @@ def erzeuge(lang_ex: dict, complete) -> dict:
         zusatz = " (Wiederholung, bisher ohne Anki-Karte)" if norm(fa) in mem_woerter else ""
         anzeige.append(f"{fa} – {_kurz(de)}" + zusatz)
         neue.append((fa, _kurz(de)))
+    if buch_teil is not None:
+        # Echter Text hat viele unbekannte Wörter: alle stehen glossiert im Text, ins Anki-Paket
+        # kommen nur die im Buch häufigsten (sonst wächst der Stapel schneller, als man lernt)
+        freq = _buch.haeufigkeit(Path(lang_ex["buch_dir"]))
+        form_von = {norm(fa): form for fa, _, form, _ in kandidaten}
+
+        def gewicht(x):
+            f = (form_von.get(norm(x[0])) or HAR.sub("", x[0])).split() or [""]
+            return freq.get(f[0], 0)
+        weitere = max(0, len(anzeige) - BUCH_ANKI_MAX)
+        neue = sorted(neue, key=gewicht, reverse=True)[:BUCH_ANKI_MAX]
+        anzeige = [f"{fa} – {de}" for fa, de in neue]
+        if weitere:
+            anzeige.append(f"(weitere {weitere} Wörter nur im Text glossiert)")
     woerter = "\n".join(anzeige) or "–"
     abschnitt = (
         f"SPRACHÜBUNG - TEXT\n{d.get('titel', '')}\n\n{d.get('text', '')}\n\n"
-        f"NEUE WÖRTER (Stufe {stufe_name}{', Grammatik: ' + _FOKUS if _FOKUS else ''}, {round((1 - quote) * 100)} % bekannt; Anki-Paket im Anhang)\n{woerter}\n\n"
-        f"NACHRICHTEN\n{lang_ex.get('headline') or ''}\n\n{d.get('nachricht', '')}\n"
+        + (f"NEUE WÖRTER ({round((1 - quote) * 100)} % bekannt; die häufigsten im Anki-Paket)\n{woerter}\n\n"
+         if buch_teil is not None else
+         f"NEUE WÖRTER (Stufe {stufe_name}{', Grammatik: ' + _FOKUS if _FOKUS else ''}, {round((1 - quote) * 100)} % bekannt; Anki-Paket im Anhang)\n{woerter}\n\n")
+        + f"NACHRICHTEN\n{lang_ex.get('headline') or ''}\n\n{d.get('nachricht', '')}\n"
     )
     return {"abschnitt": abschnitt, "neue": neue, "quote": quote}
 
