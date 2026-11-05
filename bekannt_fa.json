@@ -285,11 +285,6 @@
 "gelernt": true
 },
 {
-"word": "نوش",
-"meaning": "zum Wohl",
-"gelernt": true
-},
-{
 "word": "بازار",
 "meaning": "Markt",
 "gelernt": true
@@ -3882,7 +3877,7 @@
 {
 "word": "راندَن / ران",
 "meaning": "fahren, lenken",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "کامیون",
@@ -4152,7 +4147,7 @@
 {
 "word": "پیری",
 "meaning": "Alter",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "ناخوشی",
@@ -4357,7 +4352,7 @@
 {
 "word": "عِشقِ اَفلاطونی",
 "meaning": "platonische Liebe",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "طَبیعَتِ خَفه شُده",
@@ -5167,7 +5162,7 @@
 {
 "word": "جا پِیدا میشه؟",
 "meaning": "Findet sich ein Platz?",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "جُزئیات",
@@ -5597,7 +5592,7 @@
 {
 "word": "مُتَوَقِّف کَردَن",
 "meaning": "stoppen / anhalten",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "مَجارِستان",
@@ -5722,7 +5717,7 @@
 {
 "word": "نَقد کَردَن",
 "meaning": "rezensieren / kritisieren",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "نِمی‌دونِستَم",
@@ -6132,7 +6127,7 @@
 {
 "word": "بازیگَر دَر یِک فیلم بازی کَرد",
 "meaning": "Der Schauspieler spielte in einem Film.",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "دیروز یِکی اَز بَرادَرهایَم کُنسِرتی اِجرا کَرد",
@@ -6857,7 +6852,7 @@
 {
 "word": "شِگِفتی",
 "meaning": "Wunder, Staunen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "شِگِفت‌اَنگیز",
@@ -6922,7 +6917,7 @@
 {
 "word": "اِختیار",
 "meaning": "Verfügung, Vollmacht",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "چیزی را دَر اِختیار داشتَن",
@@ -7267,7 +7262,7 @@
 {
 "word": "حَشَرات",
 "meaning": "Insekten (arabischer Plural)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "تُند",
@@ -8077,7 +8072,7 @@
 {
 "word": "مَطَبِ دَندان‌پِزِشک",
 "meaning": "Zahnarztpraxis",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "سُرمه‌ای",
@@ -8142,7 +8137,7 @@
 {
 "word": "دَم کَردَن",
 "meaning": "(Tee) aufbrühen, ziehen lassen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "چایِ تازه‌دَم",
@@ -8897,7 +8892,7 @@
 {
 "word": "حوثی",
 "meaning": "Huthi (Bezeichnung der Gruppe)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "یَمَن",
@@ -8987,7 +8982,7 @@
 {
 "word": "هُشدار",
 "meaning": "Warnung",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "دَردناک",
@@ -9277,7 +9272,7 @@
 {
 "word": "مِهار",
 "meaning": "Kontrolle, Zügel",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "هَمچُنین",
@@ -9397,7 +9392,7 @@
 {
 "word": "نِوِشته شُدَن",
 "meaning": "geschrieben werden",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "خودکار",
@@ -9422,7 +9417,7 @@
 {
 "word": "… ساله بودَن / … سال داشتَن",
 "meaning": "… Jahre alt sein",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "ـه + شُدَن (مَجهول)",
@@ -9482,7 +9477,7 @@
 {
 "word": "داشتَن + فِعلِ اِستِمراری",
 "meaning": "Verlaufsform: gerade dabei sein, etwas zu tun",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "فَوت کَردَن",
@@ -9672,7 +9667,7 @@
 {
 "word": "نیرو",
 "meaning": "Streitkraft, Truppe",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "ناموفَق",
@@ -9852,7 +9847,7 @@
 {
 "word": "دِگَر",
 "meaning": "ander-; wieder (poetische Kurzform)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "آیَد",
@@ -11282,7 +11277,7 @@
 {
 "word": "دَست‌بَردار نَبودَن",
 "meaning": "nicht lockerlassen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "گَرد",
@@ -11987,7 +11982,7 @@
 {
 "word": "کوتاه آمَدَن",
 "meaning": "nachgeben",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "نیم‌تَمام",
@@ -12417,7 +12412,7 @@
 {
 "word": "حِزب",
 "meaning": "Partei",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "رَأی‌دِهَنده",
@@ -12452,6 +12447,56 @@
 {
 "word": "کُنتُرُل",
 "meaning": "Kontrolle",
+"gelernt": false
+},
+{
+"word": "مُرتَبِط بودَن",
+"meaning": "zusammenhängen mit",
+"gelernt": false
+},
+{
+"word": "دِل گِرِفتَن",
+"meaning": "bedrückt/traurig werden",
+"gelernt": false
+},
+{
+"word": "گیتار زَدَن",
+"meaning": "Gitarre spielen",
+"gelernt": false
+},
+{
+"word": "اضافه",
+"meaning": "überflüssig",
+"gelernt": false
+},
+{
+"word": "این‌قَدر",
+"meaning": "so sehr",
+"gelernt": false
+},
+{
+"word": "تَأثیر",
+"meaning": "Wirkung",
+"gelernt": false
+},
+{
+"word": "جُمهوری‌خواه",
+"meaning": "Republikaner",
+"gelernt": false
+},
+{
+"word": "سابِق",
+"meaning": "früher",
+"gelernt": false
+},
+{
+"word": "مَطرَح",
+"meaning": "zur Sprache gebracht",
+"gelernt": false
+},
+{
+"word": "هیچ‌وَقت",
+"meaning": "niemals",
 "gelernt": false
 }
 ]
