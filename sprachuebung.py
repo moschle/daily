@@ -526,6 +526,44 @@ def _nacherzaehlen(lang_ex: dict, bekannt_liste: str, complete) -> tuple[str, li
         return "", []
 
 
+GOLESTAN_ANKI_MAX = 3
+
+
+def golestan_glossieren(text: str, K: set, deck: set, complete) -> tuple[str, list]:
+    """Klassisches Persisch: Glossen für unbekannte Wörter, bei alten Formen mit heutiger
+    Entsprechung, Übersetzung arabischer Verse; liefert (Text, Anki-Wörter)."""
+    _, rest = pruefe(text, K)
+    p = ("Klassischer persischer Text (Saadi, Golestan, 13. Jh.) unten. Der Leser ist ein Deutscher auf Niveau B1 "
+         "im heutigen Persisch.\n"
+         "1. Gib für jedes Wort der Liste: \"form\" genau wie in der Liste, \"fa\" Grundform mit Kurzvokalen, "
+         "\"de\" knappe deutsche Bedeutung IM SINN DIESES TEXTES (1–3 Wörter), \"heute\" die heutige Entsprechung "
+         "auf Persisch, wenn Form oder Wort veraltet ist (بگفت → گفت، همی‌رفت → می‌رفت، ملک → پادشاه), sonst leer, "
+         "und \"gebraeuchlich\": true, wenn das Wort im heutigen Persisch normal verwendet wird. Eigennamen weglassen.\n"
+         "2. Gib für jede arabische Zeile oder jeden arabischen Halbvers \"arabisch\" (genau wie im Text) und "
+         "\"de\" (deutsche Übersetzung).\n"
+         'Antworte NUR mit JSON: {"woerter": [{"form": "", "fa": "", "de": "", "heute": "", "gebraeuchlich": true}], '
+         '"arabisch": [{"arabisch": "", "de": ""}]}\n\nWÖRTER:\n' + ("\n".join(rest) or "-") + "\n\nTEXT:\n" + text)
+    try:
+        d = _json(complete(p, max_tokens=6000))
+    except Exception:
+        return text, []
+    glossen, anki = [], []
+    for w in d.get("woerter", []):
+        form, fa, de, heute = (w.get(k) or "" for k in ("form", "fa", "de", "heute"))
+        if not (form and de) or re.search(r"[A-Za-z]", fa):
+            continue
+        glossen.append((fa or form, (f"= {heute}, " if heute and norm(heute) != norm(form) else "") + de, form))
+        f = _formen(fa)
+        if w.get("gebraeuchlich") and not heute and fa and f and not f <= deck and len(anki) < GOLESTAN_ANKI_MAX:
+            anki.append((fa, _kurz(de)))
+    text, _ = _glossieren(text, glossen)
+    for a in d.get("arabisch", []):
+        zeile, de = (a.get("arabisch") or "").strip(), (a.get("de") or "").strip()
+        if zeile and de and zeile in text:
+            text = text.replace(zeile, f"{zeile}\n    ({de})", 1)
+    return text, anki
+
+
 def _json(roh: str) -> dict:
     roh = roh.strip()
     roh = re.sub(r"^```(?:json)?|```$", "", roh, flags=re.M).strip()
@@ -719,12 +757,27 @@ def erzeuge(lang_ex: dict, complete) -> dict:
         anzeige = [f"{fa} – {de}" for fa, de in neue]
         if weitere:
             anzeige.append(f"(weitere {weitere} Wörter nur im Text glossiert)")
+    golestan_teil = ""
+    if lang_ex.get("golestan_dir"):
+        try:
+            import golestan as _golestan
+            g = _golestan.abschnitt(Path(lang_ex["golestan_dir"]))
+            if g:
+                gtext, ganki = golestan_glossieren(g[1], K, deck, complete)
+                golestan_teil = f"GOLESTAN\n{g[0]}\n\n{gtext}\n\n"
+                if ganki:
+                    golestan_teil += "Ins Anki-Paket: " + "، ".join(fa for fa, _ in ganki) + "\n\n"
+                neue = neue + [x for x in ganki if norm(x[0]) not in {norm(n) for n, _ in neue}]
+                _golestan.wochenkarte(Path(lang_ex["golestan_dir"]), lambda pr, mt: complete(pr, max_tokens=mt))
+        except Exception as e:
+            print(f"Golestan: {e}", file=sys.stderr)
     woerter = "\n".join(anzeige) or "–"
     abschnitt = (
         f"SPRACHÜBUNG - TEXT\n{d.get('titel', '')}\n\n{d.get('text', '')}\n\n"
         + (f"NEUE WÖRTER ({round((1 - quote) * 100)} % bekannt; die häufigsten im Anki-Paket)\n{woerter}\n\n"
          if buch_teil is not None else
          f"NEUE WÖRTER (Stufe {stufe_name}{', Grammatik: ' + _FOKUS if _FOKUS else ''}, {round((1 - quote) * 100)} % bekannt; Anki-Paket im Anhang)\n{woerter}\n\n")
+        + golestan_teil
         + f"NACHRICHTEN\n{lang_ex.get('headline') or ''}\n\n{d.get('nachricht', '')}\n"
     )
     return {"abschnitt": abschnitt, "neue": neue, "quote": quote}

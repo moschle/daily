@@ -51,6 +51,8 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     try:
         if Path("/automat/buch_fa/reihenfolge.json").exists():
             lang = {**lang, "buch_dir": "/automat/buch_fa"}
+        if Path("/automat/golestan/teile.json").exists():
+            lang = {**lang, "golestan_dir": "/automat/golestan"}
         ue = sprachuebung.erzeuge(lang, complete)
         if ue["neue"]:
             g.add_new_vocab("fa", ue["neue"], lang["memory"])
@@ -101,7 +103,8 @@ def main():
     def _anhaenge():
         try:
             import lesen
-            return [p for p in (_APKG, lesen.APKG) if p] or None
+            import golestan
+            return [p for p in (_APKG, lesen.APKG, golestan.APKG) if p] or None
         except Exception:
             return [_APKG] if _APKG else None
     g.send_to_kindle = lambda epub, text=None: _senden(epub, text, anhaenge=_anhaenge())
