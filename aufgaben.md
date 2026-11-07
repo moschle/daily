@@ -78,7 +78,7 @@ Ziel: Futro wie ein „Pamir Lapis One“ — läuft rund um die Uhr, Home Assis
 - [ ] Ferropolis / Netzwerk Industriekultur Sachsen-Anhalt, Mitarbeiter/in Medienportal, 50 %, E11, remote + Gräfenhainichen, ab 01.01.2027, 2 J. — Frist 04.11.2026, bewerbung@ferropolis.de
 - [ ] Ferropolis / Netzwerk Industriekultur Sachsen-Anhalt, Mitarbeiter/in Zeitzeug:innenarbeit, Vollzeit, E11, remote + Gräfenhainichen, ab 01.01.2027, 2 J. — Frist 04.11.2026, bewerbung@ferropolis.de (Master ODER Berufserfahrung)
 - [ ] Topographie des Terrors / Dokumentationszentrum NS-Zwangsarbeit Berlin, Koordination im Bildungsbereich, Vollzeit, E9a, 2 J., ab 15.02.2027 — Frist 24.11.2026, Bewerbung über Kenjo-Portal (Erfahrung Vermittlung an NS-Erinnerungsorten gefordert)
-- [ ] MDR KLASSIK Leipzig Musikvermittlung 30h — Frist 06.11.2026 (prüfen)
+- [x] MDR KLASSIK Leipzig Musikvermittlung 30h — Frist 06.11.2026 verstrichen (nicht eingereicht)
 - [ ] BBK Sachsen-Anhalt Halle Künstlernachlässe 20h ab 01.01.2027 — keine Frist
 - Verworfen: Uni Würzburg Lektorat Französisch (Französisch als Muttersprache Pflicht), Zürich MINARET (Ethnologie, anthropologisch), Botschaft Doha (Ortskraft)
 - [x] Stellen-Monitor läuft auf netcup mit KI-Bewertung; Rückstand ~1.550 Stellen wird über ~10 Tage abgearbeitet; Rauschfilter eingebaut
@@ -151,7 +151,7 @@ Grundsatz: überall bewerben, beste Zusage annehmen; nur eine Lebensunterhalts-F
 - [~] (zurückgestellt 26.10.) Görlitz (Meetingpoint Memory Messiaen), Projektassistenz Zwangsarbeit, 32h E9, ab 01/2027 — Frist 02.11.2026; Anschreiben fertig (~/Documents/Bewerbungen/goerlitz_zwangsarbeit_projektassistenz/), Mail an info@meetingpointmm.eu
 - [x] (verworfen 26.10., zu erfahrungslastig) MDR Leipzig, Gehobene Redakteurin — Frist 04.11.2026
 - [ ] KAS Berlin, Referent Hauptabteilung Politische Bildung (Bildungsforum Berlin) — Frist prüfen (KAS-Seite: 03.–05.11.2026)
-- [ ] MDR KLASSIK Leipzig, Koordination Musikvermittlung, 30h — Frist 06.11.2026
+- [x] MDR KLASSIK Leipzig, Koordination Musikvermittlung, 30h — Frist 06.11.2026 verstrichen (nicht eingereicht)
 - [ ] Deutsche Welle Bonn/Berlin, Editorial Coordinator — Frist 08.11.2026
 - [ ] Literarische Gesellschaft Karlsruhe, wiss. Volontariat ab 01.02.2027 — Frist 15.11.2026 (info@literaturmuseum.de)
 - [ ] BBK Sachsen-Anhalt Halle, Mitarbeiter*in Künstlernachlässe 20h ab 01.01.2027 — keine Frist genannt, bald bewerben

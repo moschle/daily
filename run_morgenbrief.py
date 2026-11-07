@@ -51,7 +51,8 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     try:
         if Path("/automat/buch_fa/reihenfolge.json").exists():
             lang = {**lang, "buch_dir": "/automat/buch_fa"}
-        if Path("/automat/golestan/teile.json").exists():
+        GOLESTAN_AKTIV = False   # 07.11.2026 pausiert: zu viel neben Hedayat; Stand bleibt erhalten
+        if GOLESTAN_AKTIV and Path("/automat/golestan/teile.json").exists():
             lang = {**lang, "golestan_dir": "/automat/golestan"}
         ue = sprachuebung.erzeuge(lang, complete)
         if ue["neue"]:

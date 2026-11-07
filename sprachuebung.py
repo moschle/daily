@@ -19,7 +19,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 BEKANNT_FILE = HERE / "bekannt_fa.json"
 NEU_PRO_TAG = 7
-BUCH_ANKI_MAX = 15        # Buchmodus: so viele Karten pro Tag ins Anki-Paket
+BUCH_ANKI_MAX = 10000     # Buchmodus: alle glossierten Wörter ins Anki-Paket (07.11.2026, vorher 15)
 NACHRICHT_ORIGINAL_AB = 0.80   # ab diesem Anteil bekannter Wörter kommt die Meldung im Original
 GANZ_NEU_MAX = 2          # davon höchstens so viele, die noch gar nicht im Deck stehen
 RUECKSTAND_ANGEBOT = 60   # ungelernte Deck-Karten, die dem Modell angeboten werden
@@ -454,6 +454,19 @@ def _glossieren(text: str, glossen) -> tuple[str, set]:
 
 
 def _annotieren(text: str, woerter, complete):
+    """In Portionen zu 40 Wörtern: Bei echten Buchtexten (150+ unbekannte Wörter) wurde die
+    Antwort abgeschnitten, und fast nichts kam als Glosse an (06./07.11.2026)."""
+    alle_w, alle_v = [], []
+    teile = [woerter[i:i + 40] for i in range(0, len(woerter), 40)] or [[]]
+    for i, teil in enumerate(teile):
+        w, v = _annotieren_teil(text, teil, complete)
+        alle_w += w
+        if i == 0:
+            alle_v = v
+    return alle_w, alle_v
+
+
+def _annotieren_teil(text: str, woerter, complete):
     """Bedeutungen für unbekannte Wörter und alle Verbgefüge im Text."""
     p = ("Persischer Lesetext unten.\n"
          "1. Gib für jedes Wort der Liste die Grundform (Verben als Infinitiv, Nomen im Singular) mit "
@@ -774,7 +787,7 @@ def erzeuge(lang_ex: dict, complete) -> dict:
     woerter = "\n".join(anzeige) or "–"
     abschnitt = (
         f"SPRACHÜBUNG - TEXT\n{d.get('titel', '')}\n\n{d.get('text', '')}\n\n"
-        + (f"NEUE WÖRTER ({round((1 - quote) * 100)} % bekannt; die häufigsten im Anki-Paket)\n{woerter}\n\n"
+        + (f"NEUE WÖRTER ({round((1 - quote) * 100)} % bekannt; alle im Anki-Paket)\n{woerter}\n\n"
          if buch_teil is not None else
          f"NEUE WÖRTER (Stufe {stufe_name}{', Grammatik: ' + _FOKUS if _FOKUS else ''}, {round((1 - quote) * 100)} % bekannt; Anki-Paket im Anhang)\n{woerter}\n\n")
         + golestan_teil
