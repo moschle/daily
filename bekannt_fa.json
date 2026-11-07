@@ -5012,7 +5012,7 @@
 {
 "word": "باید ۱۰ یورو پول بِدَم / بِپَردازَم",
 "meaning": "ich muss 10 Euro zahlen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بالا رَفتَن",
@@ -6247,7 +6247,7 @@
 {
 "word": "قَلعه",
 "meaning": "Burg, Festung",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "قَلعهٔ اَلَموت",
@@ -6862,7 +6862,7 @@
 {
 "word": "مَن یِک نَمایِش اِجرا کَردَم",
 "meaning": "Ich habe eine Aufführung gemacht.",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "سازماندِهی",
@@ -8032,7 +8032,7 @@
 {
 "word": "عِراق",
 "meaning": "Irak",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "وُجود",
@@ -10422,7 +10422,7 @@
 {
 "word": "عالی",
 "meaning": "höchst, oberst, ausgezeichnet",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "مُذاکَرات",
@@ -11507,7 +11507,7 @@
 {
 "word": "خونسَرد",
 "meaning": "gelassen, kaltblütig",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "خونسَردی",
@@ -12172,7 +12172,7 @@
 {
 "word": "حَل کَردَن",
 "meaning": "lösen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "زیرِ توافق زَدَن",
@@ -12497,6 +12497,26 @@
 {
 "word": "هیچ‌وَقت",
 "meaning": "niemals",
+"gelernt": false
+},
+{
+"word": "همکاری",
+"meaning": "Zusammenarbeit",
+"gelernt": false
+},
+{
+"word": "اَسیر",
+"meaning": "Gefangener",
+"gelernt": false
+},
+{
+"word": "اِیوان",
+"meaning": "Palasthalle",
+"gelernt": false
+},
+{
+"word": "بَس",
+"meaning": "genug, nur",
 "gelernt": false
 }
 ]
