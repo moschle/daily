@@ -150,6 +150,13 @@ def abschnitt() -> str:
     heute = date.today().isoformat()
     if stand.get("datum") == heute and stand.get("heute"):
         return stand["heute"]  # Nachversand am selben Tag: dasselbe Stück
+    if date.today().weekday() >= 5:
+        return ""  # Wochenende: nur der persische Text, kein Fachtext (07.11.2026)
+    if stand.get("wiederholen") and stand.get("heute"):
+        # Am Wochenende verschickter Abschnitt kommt am nächsten Werktag noch einmal (ohne neue Karten)
+        stand.update({"wiederholen": False, "datum": heute})
+        (LESEN_DIR / "stand.json").write_text(json.dumps(stand, ensure_ascii=False), encoding="utf-8")
+        return stand["heute"]
     reihe = _laden(LESEN_DIR / "reihenfolge.json", [])
     fertig = stand.get("fertig", [])
     name, start = stand.get("text"), stand.get("absatz", 0)
