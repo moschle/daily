@@ -15,7 +15,7 @@ from collections import Counter
 from datetime import date
 from pathlib import Path
 
-MIN_W, MAX_W, REST_W = 500, 750, 300
+MIN_W, MAX_W, REST_W = 180, 280, 80   # 09.11.2026: 500–750 war zu viel
 WORT = re.compile(r"[؀-ۿ‌]+")
 
 
@@ -39,6 +39,24 @@ def haeufigkeit(ordner: Path) -> Counter:
     return c
 
 
+def _teilen(absaetze: list) -> list:
+    """Absätze über MAX_W Wörter an Satzenden teilen (Hedayat hat Absätze mit 400+ Wörtern)."""
+    out = []
+    for a in absaetze:
+        if _w(a) <= MAX_W:
+            out.append(a)
+            continue
+        stueck = ""
+        for satz in re.findall(r"[^.!?؟،:]+[.!?؟،:»]*\s*", a):
+            if stueck and _w(stueck) + _w(satz) > MAX_W:
+                out.append(stueck.strip())
+                stueck = ""
+            stueck += satz
+        if stueck.strip():
+            out.append(stueck.strip())
+    return out
+
+
 def abschnitt(ordner: Path) -> tuple[str, str] | None:
     """(Kopfzeile, Text) für heute oder None, wenn alles gelesen ist."""
     stand = _laden(ordner / "stand.json", {})
@@ -55,12 +73,13 @@ def abschnitt(ordner: Path) -> tuple[str, str] | None:
     text = _laden(ordner / "texte" / f"{name}.json", None)
     if not text:
         return None
-    abs_ = text["absaetze"]
+    abs_ = _teilen(text["absaetze"])
     ende, n = len(abs_) - 1, 0
     for i in range(start, len(abs_)):
         n += _w(abs_[i])
         naechster = _w(abs_[i + 1]) if i + 1 < len(abs_) else 0
-        if n >= MAX_W or (n >= MIN_W and (n + naechster > MAX_W or abs_[i + 1:i + 2] == ["* * *"])):
+        if n >= MAX_W or (n >= 100 and n + naechster > MAX_W + 40) \
+                or (n >= MIN_W and (n + naechster > MAX_W or abs_[i + 1:i + 2] == ["* * *"])):
             ende = i
             break
     if sum(_w(a) for a in abs_[ende + 1:]) < REST_W:
