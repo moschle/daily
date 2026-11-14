@@ -456,14 +456,19 @@ def _glossieren(text: str, glossen) -> tuple[str, set]:
 def _annotieren(text: str, woerter, complete):
     """In Portionen zu 40 Wörtern: Bei echten Buchtexten (150+ unbekannte Wörter) wurde die
     Antwort abgeschnitten, und fast nichts kam als Glosse an (06./07.11.2026)."""
-    alle_w, alle_v = [], []
+    alle_w, alle_v, alle_n = [], [], set()
     teile = [woerter[i:i + 40] for i in range(0, len(woerter), 40)] or [[]]
     for i, teil in enumerate(teile):
-        w, v = _annotieren_teil(text, teil, complete)
+        w, v, n = _annotieren_teil(text, teil, complete)
         alle_w += w
+        alle_n |= n
         if i == 0:
             alle_v = v
-    return alle_w, alle_v
+    # Namen aus Gemeinwörtern (14.11.: زرین کلاه als „golden, Hut“, خوشقدم, ماندگار علی) nicht glossieren
+    namen = {x for x in alle_n if x and x in text}
+    teile_n = {norm(t) for x in namen for t in x.replace(ZWNJ, " ").split()}
+    alle_w = [x for x in alle_w if not (x[0] and {norm(t) for t in x[0].split()} <= teile_n)]
+    return alle_w, alle_v, namen
 
 
 def _annotieren_teil(text: str, woerter, complete):
@@ -473,7 +478,9 @@ def _annotieren_teil(text: str, woerter, complete):
          "Kurzvokalzeichen und eine knappe deutsche Bedeutung DER GRUNDFORM (1–3 Wörter, Nomen im Singular), "
          "im Sinn dieses Textes; "
          "\"form\" ist das Wort genau wie in der Liste. Eigennamen weglassen. Ist das Wort Teil eines Verbgefüges, "
-         "gehört es nur unter 2.\n"
+         "gehört es nur unter 2. Lieder, Verse oder Rede im Dialekt (Gilaki, Mazandarani u. a.): Bedeutung im "
+         "Dialekt, nicht die des gleich geschriebenen persischen Worts (گالش کوری = Hirtenmädchen, nicht "
+         "„Blindheit“), \"de\" dann mit „Dial.“ beginnen; im Zweifel das Wort weglassen statt raten.\n"
          "2. Finde ALLE zusammengesetzten Verben und festen Verbverbindungen im Text (Nomen, Adjektiv oder "
          "Präpositionalgruppe + کردن، شدن، دادن، گرفتن، بردن، زدن، داشتن، گذاشتن، آمدن، کشیدن، یافتن usw.; "
          "nur feste Verbindungen, deren Bedeutung man nicht aus den Teilen erschließt, NICHT freie Fügungen wie "
@@ -481,17 +488,21 @@ def _annotieren_teil(text: str, woerter, complete):
          "z. B. ارتباط برقرار کردن، لذت بردن، به نمایش گذاشتن، از سر گرفتن). Für jedes: \"form\" = die "
          "Wortfolge exakt wie im Text, vom ersten bis zum letzten Bestandteil; \"fa\" = Infinitiv des "
          "Gefüges mit Kurzvokalzeichen; \"de\" = deutsche Bedeutung des Ganzen.\n"
-         'Antworte NUR mit JSON: {"woerter": [{"form": "", "fa": "", "de": ""}], "verben": [{"form": "", "fa": "", "de": ""}]}\n\n'
+         "3. \"namen\": ALLE Eigennamen im Text (Personen, Orte, Flüsse, Dörfer, Beinamen), genau wie im Text, "
+         "auch wenn sie aus normalen Wörtern bestehen (z. B. زرین کلاه، گل ببو، خوشقدم باجی، کشور سلطان، ماندگار علی) "
+         "oder Titel wie خانم، باجی، بانو، ننه، سلطان tragen. Diese Wörter stehen NICHT unter 1.\n"
+         'Antworte NUR mit JSON: {"woerter": [{"form": "", "fa": "", "de": ""}], "verben": [{"form": "", "fa": "", "de": ""}], "namen": [""]}\n\n'
          "WÖRTER:\n" + ("\n".join(woerter) or "-") + "\n\nTEXT:\n" + text)
     try:
         d = _json(complete(p, max_tokens=6000))
     except Exception:
-        return [], []
+        return [], [], set()
     w = [((x.get("form") or "").strip(), (x.get("fa") or "").strip(), (x.get("de") or "").strip())
          for x in d.get("woerter", [])]
     v = [((x.get("form") or "").strip(), (x.get("fa") or "").strip(), (x.get("de") or "").strip())
          for x in d.get("verben", [])]
-    return w, v
+    n = {(x or "").strip() for x in d.get("namen", []) if isinstance(x, str)}
+    return w, v, n
 
 
 def _entwurf_sichern(d: dict, quote: float, maengel: list) -> None:
@@ -714,7 +725,7 @@ def erzeuge(lang_ex: dict, complete) -> dict:
     abgedeckt = {norm(t) for _, _, form in liste for t in form.split()}
     _, rest = pruefe(alles, gelernt | {w for fa, _, _ in liste for w in _formen(fa)})
     offen = [t for t in rest if norm(t) not in abgedeckt]
-    woerter, verben = _annotieren(alles, offen, complete)
+    woerter, verben, namen = _annotieren(alles, offen, complete)
     liste += [(fa, de, form or "") for form, fa, de in woerter if tauglich(fa, de)]
     for form, fa, de in verben:
         if form and tauglich(fa, de) and not (_ganz(fa) & ganz_gelernt):
@@ -738,6 +749,7 @@ def erzeuge(lang_ex: dict, complete) -> dict:
     # Fällige und schwache Wörter (bei Vince: zuletzt "Nochmal") bekommen eine Klammer,
     # gehen aber nicht ins Anki-Paket.
     glossen = [(fa, de, form) for fa, de, form, _ in kandidaten]
+    glossen += [(n, "Name", n) for n in sorted(namen, key=len, reverse=True) if norm(n) not in gesehen]
     glossen += [(v["word"], v["meaning"], "") for v in due
                 if v.get("word") and v.get("meaning") and norm(v["word"]) not in gesehen]
     gesetzt = set()
