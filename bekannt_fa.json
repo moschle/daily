@@ -11117,7 +11117,7 @@
 {
 "word": "مَظلوم",
 "meaning": "unterdrückt; unschuldig, harmlos",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "حَق‌بِه‌جانِب",
@@ -13410,8 +13410,8 @@
 "gelernt": false
 },
 {
-"word": "ماندگار",
-"meaning": "bleibend, verewigt",
+"word": "ماندِگار",
+"meaning": "bleibend/ansässig",
 "gelernt": false
 },
 {
@@ -13445,8 +13445,8 @@
 "gelernt": false
 },
 {
-"word": "تحویل دادن",
-"meaning": "übergeben, aushändigen",
+"word": "تَحویل دادَن",
+"meaning": "übergeben, abliefern",
 "gelernt": false
 },
 {
@@ -13887,6 +13887,91 @@
 {
 "word": "جُمهور",
 "meaning": "Republik",
+"gelernt": false
+},
+{
+"word": "دَست کِشیدَن",
+"meaning": "aufhören, die Arbeit niederlegen",
+"gelernt": false
+},
+{
+"word": "آنکه",
+"meaning": "nachdem/dass",
+"gelernt": false
+},
+{
+"word": "غُروب",
+"meaning": "Sonnenuntergang",
+"gelernt": false
+},
+{
+"word": "دِلداری کَردَن",
+"meaning": "trösten",
+"gelernt": false
+},
+{
+"word": "دَرحَقیقَت",
+"meaning": "in Wirklichkeit",
+"gelernt": false
+},
+{
+"word": "رَهسِپار شُدَن",
+"meaning": "sich aufmachen, aufbrechen",
+"gelernt": false
+},
+{
+"word": "بَد آمَدَن",
+"meaning": "jemanden nicht mögen, Abneigung haben",
+"gelernt": false
+},
+{
+"word": "بَر آمَدَن",
+"meaning": "imstande sein, können",
+"gelernt": false
+},
+{
+"word": "بَستَری شُدَن",
+"meaning": "bettlägerig werden, ins Bett kommen",
+"gelernt": false
+},
+{
+"word": "آسیا",
+"meaning": "Asien",
+"gelernt": false
+},
+{
+"word": "بَدقَدَم",
+"meaning": "unheilbringend",
+"gelernt": false
+},
+{
+"word": "توبه",
+"meaning": "Reue",
+"gelernt": false
+},
+{
+"word": "ریسمان",
+"meaning": "Seil",
+"gelernt": false
+},
+{
+"word": "زاییدَن",
+"meaning": "gebären",
+"gelernt": false
+},
+{
+"word": "لابِلای",
+"meaning": "zwischen/inmitten",
+"gelernt": false
+},
+{
+"word": "دیدار داشتَن",
+"meaning": "ein Treffen haben, sich treffen",
+"gelernt": false
+},
+{
+"word": "بی‌پایان",
+"meaning": "endlos",
 "gelernt": false
 }
 ]
