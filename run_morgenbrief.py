@@ -77,7 +77,10 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     brief = complete(msg, max_tokens=2500).rstrip() + "\n\n"
     try:
         import lesen
-        lesestueck = lesen.abschnitt()
+        from sprachuebung import PRUEFUNG_BIS
+        from datetime import date as _date
+        # bis zum Vortest 24.11.2026 keine Fachlektüre, danach automatisch weiter
+        lesestueck = lesen.abschnitt() if _date.today() > PRUEFUNG_BIS else ""
     except Exception as e:
         print(f"Lesen gescheitert: {e}", file=sys.stderr)
         lesestueck = ""

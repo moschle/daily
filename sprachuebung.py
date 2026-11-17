@@ -191,7 +191,25 @@ THEMEN = {
 }
 
 
+# Vortest Polizei Berlin (24.11.2026): bis dahin Lesetext als Zeitungsmeldung (wie im
+# AA-Sprachtest) statt Buch; Hedayat und LESEN laufen ab 25.11. automatisch weiter.
+PRUEFUNG_BIS = date(2026, 11, 24)
+PRUEFUNG_THEMEN = [
+    "Zeitungsmeldung: Wahlen und Parlament",
+    "Zeitungsmeldung: Ministerbesuch, Verhandlungen und Abkommen",
+    "Zeitungsmeldung: Wirtschaft, Inflation und Preise",
+    "Zeitungsmeldung: Umwelt, Dürre und Klimawandel",
+    "Zeitungsmeldung: Kultur, Filmfestival und Preisverleihung",
+    "Zeitungsmeldung: Migration und Asyl",
+    "Zeitungsmeldung: Polizei und Justiz, Festnahme und Ermittlungen",
+    "Zeitungsmeldung: Proteste und Menschenrechte",
+]
+
+
 def thema(stufe_name: str, heute: date | None = None) -> str:
+    tag = heute or date.today()
+    if tag <= PRUEFUNG_BIS:
+        return PRUEFUNG_THEMEN[tag.toordinal() % len(PRUEFUNG_THEMEN)]
     k = stufe_name.split()[0].rstrip("+")
     liste = THEMEN.get(k, THEMEN["B1"])
     return liste[(heute or date.today()).toordinal() % len(liste)]
@@ -643,7 +661,7 @@ def erzeuge(lang_ex: dict, complete) -> dict:
 
     # Persisches Buch statt erfundenem Lesetext (nur wenn der Aufrufer ein Buch angibt; 05.11.2026)
     buch_teil = None
-    if lang_ex.get("buch_dir"):
+    if lang_ex.get("buch_dir") and date.today() > PRUEFUNG_BIS:
         try:
             import buch as _buch
             buch_teil = _buch.abschnitt(Path(lang_ex["buch_dir"]))

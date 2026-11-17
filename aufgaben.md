@@ -1,8 +1,31 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 2. November 2026*
+*Letzte Aktualisierung: 17. November 2026*
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
+
+## STAND 17.11.2026 — Vortest Polizei Berlin 24.11. + Wochenplan
+- [ ] **HEUTE: Termin Polizei Berlin 155-26 buchen (Frist 20.11.)**: Vortest Di 24.11., 08:30, Friesenstraße 16 (Abschnitt 52), computergestützt, ca. 2 Std. (Sprachtest Persisch + OSINT). Ausweis + Einladung mitnehmen. Zug buchen
+- [ ] Persisch täglich 90 Min.: Probetest A (B1, Format gehobener Dienst) → AA-Farsi 2019 (Archiv) → Probetest B (B2/C1) → Fehleranalyse; Anki: Persisch::Wortfeld Sprachtest + Wortfeld Sicherheit
+- [ ] OSINT-Module: Mi Suche · Do Bild/Video · Sa Geolokalisierung · So Personen/Domains/IP · Mo Bewertung/Doku/Recht + Probefall 60 Min. (Bericht an Claude)
+- [ ] TÄGLICH bis 24.11.: Morgenbrief · Anki regulär Persisch (nur Fällige, neue = 0) · Spezial-Decks neu/Tag: Wortfeld Sprachtest 25, Wortfeld Sicherheit 10, OSINT 15, Gespräch 5 (an Nachtdienst-/flaschenpost-Tagen nur Wiederholungen)
+- [ ] OSINT-Videos: Bendobrown „OSINT At Home“ (#1–4, 11–13, 19–21, 24, 26, 11 No-Code-Tools) + Bellingcat Tech Series (Toolkit, Auto Archiver, Digital Safety); Lesen: Berkeley Protocol, Fiorella/Godart/Waters 2021, Lakomy 2023 — Zuordnung in OSINT_Lehrplan.md
+- [ ] Rudern Di/Mi/Mo 30 Min., ab 18 Uhr frei
+- KALENDER 17.–24.11.: Nachtdienst 17./18. und 18./19.; Mi Feiertag (Kita zu), Preply 18:00; Do flaschenpost 8:30–14:30, Promovenden-Treffen 17:00; Fr–So Oldenburg (Zug Fr 8:12, zurück So 20:15) → Kolloquium 20.11. entfällt; Mo 23. Hauptlerntag; Di 24. Test 8:20, Milan abholen 16:00
+- [ ] HEUTE 17.11. (statt Mi): PROMOTIONSPROJEKT FESTZURREN (vorgelagert!) — Projektskizze 29.10. (foerderungen/00_uebersicht) durchgehen, offen: zweite Frage „Blick“ fest oder Ausblick? Gulnoz im Kernkorpus ohne Feldphase machbar? Feldphase Frühjahr (DÜF) oder Sommer 2027? 24 Monate + Titel festlegen · BVA anrufen wegen AWV-2026-091
+- [ ] Mi 18.11.: finale Skizze + Fahrplan an Purnaqcheband, um Bestätigung bitten
+- [ ] 25.–27.11.: Drittmittelservice MLU Termin · BfV Fachtrainer Studiengänge prüfen · DAAD-Lehrassistenz Frist prüfen
+- [ ] ERST NACH Bestätigung, spätestens Mi 25.11.: Gutachten-Anfragen an Purnaqcheband + Rzehak (Landesstipendium, Rückgabe 04.01.) mit finaler Skizze
+- [ ] Fr 20.11.: DH2027 einreichen oder streichen
+- [ ] Morgenbrief: Hedayat pausieren, Lesetext Wortfeld Nachrichten/Politik (B1/B2) bis 24.11. — offen, braucht Sitzung am Mac (Repo + netcup-Deploy)
+- Neu 17.11.: möchte nach Berlin ziehen (relevant für Polizei Berlin, BfV Berlin)
+- Paket: Polizei_Berlin_Vorbereitung_v2.zip (Chat 17.11.) → nach ~/Documents/Bewerbungen/03_laufend/2026_Polizei_Berlin_155-26/ legen
+
+## STAND 16.11.2026 — Jobpipeline
+- [x] Ev. Gymnasium Doberlug-Kirchhain: Gespräch 16.11. geführt, Stelle abgewählt
+- Plan: gute Stelle mit Promotion > DFG-Stelle (bevorzugt) > notfalls Stipendium
+- [ ] **BfV Trainees mit Master, hausweiter Einsatz — AWV-2026-091, Frist 07.12.2026** (höherer Dienst, bis EG 13, Verbeamtung bis A14 möglich, VZ/TZ, mobiles Arbeiten je nach Einsatz, Berlin/Köln). Nur BVA-Portal: https://bewerbung.dienstleistungszentrum.de/frontend/AWV-2026-091/index.html. HÜRDE: zugelassen nur Politik-/Staatswiss., Geschichte, MPA, Jura/Wirtschaftsrecht, Intelligence & Security Studies — Islamwissenschaft nicht gelistet → vorher BVA anrufen (0228 99 358-87500), ob Islamwiss./Deutsche Literatur anerkannt wird
+- [ ] BfV Fachtrainer/-in Islamismus/islamistischer Terrorismus — gehobener Dienst, Köln/Berlin, Frist 09.12.2026 (zugelassene Studiengänge prüfen)
 
 ## STAND 02.11.2026 — Pflegedienst Silke Krüger, Mails
 - [ ] Antwort Laura abwarten: Dienstplan November kollidiert mit 4 vorab gemeldeten Nächten (ab 20., 21., 28., 29.11.); Mail 02.11. verschickt. Falls keine Umplanung: Diensttausch oder schriftliche unbezahlte Freistellung
