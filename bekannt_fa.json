@@ -3382,7 +3382,7 @@
 {
 "word": "عَجَم",
 "meaning": "Perser, Iraner, Nichtaraber",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "لَحظه",
@@ -3602,7 +3602,7 @@
 {
 "word": "ریاضیّات",
 "meaning": "Mathematik (Wissenschaft)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "ستاره‌شِناسی",
@@ -3662,7 +3662,7 @@
 {
 "word": "مَسئَله / مَسائِل",
 "meaning": "Frage, Thema, Problem, Aufgabe, Gegenstand",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "مُطالَعه",
@@ -3742,7 +3742,7 @@
 {
 "word": "مُحتاج",
 "meaning": "arm, bedürftig",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "نِگَران",
@@ -3777,7 +3777,7 @@
 {
 "word": "سَراسیمه",
 "meaning": "Hals über Kopf, bestürzt, überrascht",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "فُرو",
@@ -4062,7 +4062,7 @@
 {
 "word": "سِپَری کَردَن",
 "meaning": "(be)enden",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "قانون (ج. قَوانین)",
@@ -4342,7 +4342,7 @@
 {
 "word": "جُنونِ عُمومی",
 "meaning": "kollektiver Wahnsinn",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "حَشَره‌ی دَمدَمی",
@@ -4577,12 +4577,12 @@
 {
 "word": "بِه کُلّی",
 "meaning": "gänzlich, völlig, absolut",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "عَقایِد",
 "meaning": "Überzeugungen, Glaubensansichten",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "مَذهَب / مَذاهِب",
@@ -4597,7 +4597,7 @@
 {
 "word": "اِشتِباه بَرداشت کَردَم",
 "meaning": "Ich habe falsch verstanden",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "نِوِشته",
@@ -4612,7 +4612,7 @@
 {
 "word": "وَقت گُذاشتَن",
 "meaning": "sich Zeit nehmen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "کاش",
@@ -4957,7 +4957,7 @@
 {
 "word": "اِنتِظارِش رو نَداشتَم",
 "meaning": "das hatte ich nicht erwartet",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "ـانگیز",
@@ -5197,7 +5197,7 @@
 {
 "word": "حُضور داشتَن / دَر جایی بودَن",
 "meaning": "anwesend sein / sich an einem Ort aufhalten",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "حِیوانات",
@@ -5277,7 +5277,7 @@
 {
 "word": "خاکِستَریِ دودی",
 "meaning": "rauchgrau",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "دورِهَمی",
@@ -5297,7 +5297,7 @@
 {
 "word": "راست گُفتَن / دُروغ گُفتَن",
 "meaning": "die Wahrheit sagen / lügen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "راجِع بِه / راجِب",
@@ -5322,7 +5322,7 @@
 {
 "word": "روس",
 "meaning": "Russe (Person)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "روسیه",
@@ -5432,7 +5432,7 @@
 {
 "word": "طَنز",
 "meaning": "Satire / Humor",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "طوسی",
@@ -5497,7 +5497,7 @@
 {
 "word": "قَرنِ دَهُمِ میلادی",
 "meaning": "10. Jahrhundert n. Chr.",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "قِرمِز",
@@ -5517,7 +5517,7 @@
 {
 "word": "کارآموزی",
 "meaning": "Praktikum / Ausbildung",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "کِشاوَرزی",
@@ -5672,7 +5672,7 @@
 {
 "word": "مُنتَقِدان",
 "meaning": "Kritiker (Plural)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "مَوادّ",
@@ -5882,7 +5882,7 @@
 {
 "word": "چِراغ‌قُوّه",
 "meaning": "Taschenlampe",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "زیرنِویس",
@@ -5922,7 +5922,7 @@
 {
 "word": "اَز تاجیکِستان بِه هِند",
 "meaning": "von Tadschikistan nach Indien",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "کِتاب‌خوانی",
@@ -6102,7 +6102,7 @@
 {
 "word": "شَمع رو فوت کَردَن",
 "meaning": "eine Kerze auspusten",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "دَفن کَردَن",
@@ -6182,7 +6182,7 @@
 {
 "word": "فَرق داشتَن",
 "meaning": "sich unterscheiden, anders sein",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "دَرس خواندَن",
@@ -6272,7 +6272,7 @@
 {
 "word": "مَحفِل",
 "meaning": "Zirkel, Kreis (von Personen)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "مَحافِلِ دانِشگاهی",
@@ -6412,7 +6412,7 @@
 {
 "word": "اِختِلاف",
 "meaning": "Unterschied, Differenz; Meinungsverschiedenheit",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "مُتَفاوِت",
@@ -6637,7 +6637,7 @@
 {
 "word": "یِک لِباسِ سُنَّتیِ خاص داشت",
 "meaning": "Er/sie trug ein besonderes traditionelles Gewand.",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بَقیّه",
@@ -6712,7 +6712,7 @@
 {
 "word": "یِکی اَز دَریاچه‌هایی که کِنارِ اینجا هَستَند",
 "meaning": "einer der Seen, die hier in der Nähe liegen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "مَتن‌هایی دَربارهٔ سیاسَتِ اَفغانِستان",
@@ -6802,7 +6802,7 @@
 {
 "word": "تِئاتر اِجرا کَردَن",
 "meaning": "Theater aufführen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "هَر اِجرایِ تِئاتر نیاز بِه مُجَوِّز دارَد",
@@ -6872,7 +6872,7 @@
 {
 "word": "آیا سازماندِهی و اِجرا یِکی هَستَند؟",
 "meaning": "Sind Organisation und Durchführung dasselbe?",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بَرنامه‌ریزی",
@@ -6927,7 +6927,7 @@
 {
 "word": "خیره شُدَن",
 "meaning": "starren, anstarren",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "رَده",
@@ -7052,7 +7052,7 @@
 {
 "word": "کلاً",
 "meaning": "insgesamt, im Großen und Ganzen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "قَدیمی‌تَرین",
@@ -7062,7 +7062,7 @@
 {
 "word": "لِباسَم کُهنه شُده",
 "meaning": "Meine Kleidung ist abgenutzt.",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "کُهَن",
@@ -7072,7 +7072,7 @@
 {
 "word": "باستانی",
 "meaning": "antik, uralt",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "مَجروح",
@@ -7367,7 +7367,7 @@
 {
 "word": "مَن می‌خوام فارسی یاد بِگیرَم، بَرایِ هَمین اینجام",
 "meaning": "Ich will Persisch lernen, deshalb bin ich hier.",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بِه دَلیلِ اینکه می‌خوام فارسی یاد بِگیرَم، اینجا هَستَم",
@@ -7507,7 +7507,7 @@
 {
 "word": "فُر",
 "meaning": "Backofen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "شومینه",
@@ -7662,7 +7662,7 @@
 {
 "word": "قانون‌گُذاری",
 "meaning": "Gesetzgebung",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "اِداره‌ی کار",
@@ -7882,7 +7882,7 @@
 {
 "word": "دانِشِ زیادی دَربارهٔ آسیایِ میانه دارَد",
 "meaning": "Er hat viel Wissen über Zentralasien.",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "اَز این موضوع جویا شُدَم",
@@ -8162,7 +8162,7 @@
 {
 "word": "لَواش",
 "meaning": "Lavash (dünnes Fladenbrot)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "نِگَه‌داری کَردَن",
@@ -8197,7 +8197,7 @@
 {
 "word": "سَختگیر",
 "meaning": "streng (Person)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "آشنایی داشتَن با",
@@ -8257,7 +8257,7 @@
 {
 "word": "تَتو زَدَن",
 "meaning": "tätowieren; sich tätowieren lassen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "تَتوکار",
@@ -8637,7 +8637,7 @@
 {
 "word": "روشمَند",
 "meaning": "methodisch, systematisch",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بِستَر",
@@ -8722,7 +8722,7 @@
 {
 "word": "آگاهانه",
 "meaning": "bewusst, absichtlich",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "غَمگینی",
@@ -8852,7 +8852,7 @@
 {
 "word": "زَخمی",
 "meaning": "verletzt",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "سِوُّمین",
@@ -8867,7 +8867,7 @@
 {
 "word": "سُعودی",
 "meaning": "saudisch",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "سیصَد",
@@ -9312,7 +9312,7 @@
 {
 "word": "وَقتی شِش ساله بودَم",
 "meaning": "als ich sechs Jahre alt war (… ساله بودن)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "وَقتی شِش سال داشتَم",
@@ -9387,7 +9387,7 @@
 {
 "word": "وَسایلِ قَدیمیِ دَفن‌شُده در خاک",
 "meaning": "alte, in der Erde vergrabene Gegenstände",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "نِوِشته شُدَن",
@@ -9512,7 +9512,7 @@
 {
 "word": "تورنمنت",
 "meaning": "Turnier",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "تِنیس",
@@ -9522,7 +9522,7 @@
 {
 "word": "جُزْء",
 "meaning": "Teil, Bestandteil",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "فوتْبالیسْت",
@@ -9537,7 +9537,7 @@
 {
 "word": "مَجْلِس",
 "meaning": "Parlament; Versammlung",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "پایْبَند",
@@ -9572,7 +9572,7 @@
 {
 "word": "عَلیه",
 "meaning": "gegen (jemanden)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "نیروی زَمینی",
@@ -9592,12 +9592,12 @@
 {
 "word": "یِک‌روزه",
 "meaning": "eintägig, einen Tag dauernd",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "تَحریم",
 "meaning": "Sanktion, Embargo",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "تَعلیق",
@@ -9857,7 +9857,7 @@
 {
 "word": "تَلخ‌تَر از تَلخ",
 "meaning": "noch bitterer als bitter (Verstärkung: Komparativ + az + Grundform)",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "دایِره",
@@ -9907,7 +9907,7 @@
 {
 "word": "بَرایِ کارَم که هَفته‌یِ دیگه شُروع میشه، بَرنامه‌ریزی کَردَم",
 "meaning": "Ich habe für meine Arbeit geplant, die nächste Woche anfängt.",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بَرایِ چیزی بَرنامه‌ریزی کَردَن",
@@ -9932,7 +9932,7 @@
 {
 "word": "با چیزی، چیزی را شُروع کَردَن",
 "meaning": "etwas mit etwas beginnen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "صُبحَم را شُروع کَردَم",
@@ -10177,7 +10177,7 @@
 {
 "word": "پیشخوان",
 "meaning": "Ladentheke, Tresen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بَشکه",
@@ -10317,7 +10317,7 @@
 {
 "word": "حاصِل شُدَن",
 "meaning": "erreicht werden, zustande kommen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "مُطمَئِن",
@@ -10467,7 +10467,7 @@
 {
 "word": "طول کِشیدَن",
 "meaning": "dauern",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "خارِج شُدَن",
@@ -10492,7 +10492,7 @@
 {
 "word": "اِتِّفاق اُفتادَن",
 "meaning": "passieren, geschehen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "عُفونَت کَردَن",
@@ -10502,7 +10502,7 @@
 {
 "word": "عَوَض کَردَن",
 "meaning": "wechseln, ändern",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "گوش دادَن",
@@ -10587,7 +10587,7 @@
 {
 "word": "قیفی",
 "meaning": "trichterförmig",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "تنباکو",
@@ -10597,7 +10597,7 @@
 {
 "word": "ترازو",
 "meaning": "Waage; Gleichgewicht",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "تَصمیم گِرِفتَن",
@@ -10607,12 +10607,12 @@
 {
 "word": "داشتَن + می‌خواندَن (Verlaufsform)",
 "meaning": "las gerade (Bücher) vor – progressive Verlaufsform",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "گِریه کَردَن",
 "meaning": "weinen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "وَقت طَلَبیدَن",
@@ -10757,7 +10757,7 @@
 {
 "word": "کُمَک‌رِسانی",
 "meaning": "Hilfeleistung, humanitäre Hilfe",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "پیشرَفت داشتَن",
@@ -10782,7 +10782,7 @@
 {
 "word": "اِدامه یافتَن",
 "meaning": "fortgesetzt werden",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "گَزارِش شُدَن",
@@ -10857,7 +10857,7 @@
 {
 "word": "چُرتکه اَنداختَن",
 "meaning": "mit dem Rechenbrett rechnen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "راه اُفتادَن",
@@ -10872,7 +10872,7 @@
 {
 "word": "بَقّالی",
 "meaning": "Krämerladen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "کوچه",
@@ -10922,7 +10922,7 @@
 {
 "word": "پیچیدَن / پیچ",
 "meaning": "einwickeln; abbiegen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "پیچیده",
@@ -10992,7 +10992,7 @@
 {
 "word": "قَطع شُدَن",
 "meaning": "abbrechen, unterbrochen werden",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "حَسّاس",
@@ -11007,7 +11007,7 @@
 {
 "word": "کُتَک خوردَن",
 "meaning": "Prügel bekommen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "کُتَک زَدَن",
@@ -11037,7 +11037,7 @@
 {
 "word": "مِثلِ تیر",
 "meaning": "pfeilschnell",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "دُکان",
@@ -11062,7 +11062,7 @@
 {
 "word": "بَلا",
 "meaning": "Unheil, Unglück",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "هَر بَلایی سَرِ چیزی آوَردَن",
@@ -11097,7 +11097,7 @@
 {
 "word": "تَعَجُّب",
 "meaning": "Erstaunen, Verwunderung",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "گَردَن",
@@ -11162,7 +11162,7 @@
 {
 "word": "عَرض کَردَن",
 "meaning": "(höflich) sagen, vortragen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "طِفل",
@@ -11212,7 +11212,7 @@
 {
 "word": "کاسِبی",
 "meaning": "Kleinhandel, Gewerbe",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "کار و کاسِبی",
@@ -11252,12 +11252,12 @@
 {
 "word": "آدَمیزاد",
 "meaning": "Mensch, Menschenkind",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "لوبیا",
 "meaning": "Bohne",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "حالیِ کَسی شُدَن",
@@ -11387,7 +11387,7 @@
 {
 "word": "فایده نَداشتَن",
 "meaning": "nichts nützen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "تَقصیر",
@@ -11622,7 +11622,7 @@
 {
 "word": "شِکَستَن / شِکَن",
 "meaning": "zerbrechen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "دَمِ دَست",
@@ -11632,7 +11632,7 @@
 {
 "word": "سَنگِ تَرازو",
 "meaning": "Wägestein, Gewicht",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "آهَنی",
@@ -11672,7 +11672,7 @@
 {
 "word": "سَرِ چیزی دَعوا داشتَن",
 "meaning": "um etw. streiten",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "جَسارَت",
@@ -11682,7 +11682,7 @@
 {
 "word": "چَسباندَن",
 "meaning": "andrücken, ankleben",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "زَبان‌بَسته",
@@ -11722,12 +11722,12 @@
 {
 "word": "لُطف کَردَن",
 "meaning": "freundlich sein",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "اَلحَق",
 "meaning": "wahrlich, in der Tat",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "جانوَر",
@@ -11767,7 +11767,7 @@
 {
 "word": "بِگیر و بِبَند",
 "meaning": "Bestrafung, Strafen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "جار و جَنجال",
@@ -12071,8 +12071,8 @@
 },
 {
 "word": "بِه دِلِ کَسی چَسبیدَن",
-"meaning": "jmdm. zusagen",
-"gelernt": false
+"meaning": "jmdm. gefallen/zusagen",
+"gelernt": true
 },
 {
 "word": "پِسَرَک",
@@ -12127,7 +12127,7 @@
 {
 "word": "اَز تَرسِ اینکه مَبادا …",
 "meaning": "aus Angst, dass …",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "هَر چه + اِسم + … دارَم",
@@ -12197,7 +12197,7 @@
 {
 "word": "به موقع",
 "meaning": "rechtzeitig",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "کارِ تیمی",
@@ -12212,7 +12212,7 @@
 {
 "word": "تَماس گِرِفتَن",
 "meaning": "Kontakt aufnehmen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "اِقامَتگاه",
@@ -12467,7 +12467,7 @@
 {
 "word": "گیتار زَدَن",
 "meaning": "Gitarre spielen",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "اضافه",
@@ -12482,7 +12482,7 @@
 {
 "word": "تَأثیر",
 "meaning": "Wirkung",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "جُمهوری‌خواه",
@@ -12512,7 +12512,7 @@
 {
 "word": "اَسیر",
 "meaning": "Gefangener",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "اِیوان",
@@ -12522,7 +12522,7 @@
 {
 "word": "بَس",
 "meaning": "genug, nur",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "به شهر رساندن",
@@ -12542,7 +12542,7 @@
 {
 "word": "از دست دادن",
 "meaning": "verlieren",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "زَرّین",
@@ -12667,7 +12667,7 @@
 {
 "word": "مَرموز",
 "meaning": "geheimnisvoll",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "مَقصود",
@@ -12677,7 +12677,7 @@
 {
 "word": "پَدیدار",
 "meaning": "sichtbar, erscheinend",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "پَراکَندَن",
@@ -12812,7 +12812,7 @@
 {
 "word": "اُلاغ",
 "meaning": "Esel",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بی‌اِعتِنا",
@@ -12822,7 +12822,7 @@
 {
 "word": "بی‌سَر‌و‌صِدا",
 "meaning": "geräuschlos, still",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "بی‌نور",
@@ -12917,7 +12917,7 @@
 {
 "word": "جسور شدن",
 "meaning": "mutig werden",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "خنثی کردن",
@@ -12977,7 +12977,7 @@
 {
 "word": "تَغییرناپَذیر",
 "meaning": "unveränderlich",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "تیپ",
@@ -13052,7 +13052,7 @@
 {
 "word": "مُستَقیماً",
 "meaning": "direkt, geradeaus",
-"gelernt": false
+"gelernt": true
 },
 {
 "word": "مَعطَلی",
@@ -13172,6 +13172,721 @@
 {
 "word": "مُثبَت",
 "meaning": "positiv",
+"gelernt": false
+},
+{
+"word": "در پیش گِرِفتَن",
+"meaning": "einschlagen, sich auf den Weg machen",
+"gelernt": false
+},
+{
+"word": "تَکان خوردَن",
+"meaning": "sich rütteln, erschüttert werden",
+"gelernt": false
+},
+{
+"word": "پیاده کَردَن",
+"meaning": "aussteigen lassen, absetzen",
+"gelernt": false
+},
+{
+"word": "پیاده شُدَن",
+"meaning": "aussteigen",
+"gelernt": false
+},
+{
+"word": "ورزیده",
+"meaning": "straff, trainiert",
+"gelernt": true
+},
+{
+"word": "مَحَل",
+"meaning": "Ort",
+"gelernt": false
+},
+{
+"word": "کَتَک‌خورده",
+"meaning": "geschlagen, verprügelt",
+"gelernt": false
+},
+{
+"word": "مُشارَکَت داشتَن",
+"meaning": "beteiligt sein",
+"gelernt": false
+},
+{
+"word": "دادگُستَری",
+"meaning": "Justiz",
+"gelernt": false
+},
+{
+"word": "تَرورِستی",
+"meaning": "terroristisch",
+"gelernt": false
+},
+{
+"word": "اِستِقرار",
+"meaning": "Stationierung",
+"gelernt": false
+},
+{
+"word": "اساس",
+"meaning": "Grundlage",
+"gelernt": false
+},
+{
+"word": "بَررَسی کَردَن",
+"meaning": "prüfen, untersuchen",
+"gelernt": false
+},
+{
+"word": "اُتوموبیل",
+"meaning": "Auto",
+"gelernt": true
+},
+{
+"word": "پَدیدار گَشتَن",
+"meaning": "erscheinen, sichtbar werden",
+"gelernt": false
+},
+{
+"word": "مَرموزی",
+"meaning": "Geheimnisvolles",
+"gelernt": false
+},
+{
+"word": "پَراکَنده",
+"meaning": "verstreut",
+"gelernt": false
+},
+{
+"word": "تَرتیب دادَن",
+"meaning": "arrangieren, organisieren",
+"gelernt": false
+},
+{
+"word": "تهدید کردن",
+"meaning": "bedrohen",
+"gelernt": false
+},
+{
+"word": "آبگیری",
+"meaning": "Betanken",
+"gelernt": false
+},
+{
+"word": "دَخیل",
+"meaning": "beteiligt, verwickelt",
+"gelernt": true
+},
+{
+"word": "پیچ‌و‌خَم",
+"meaning": "Windung, Kurve",
+"gelernt": false
+},
+{
+"word": "هَدَف قَرار گِرفتَن",
+"meaning": "zum Ziel werden",
+"gelernt": false
+},
+{
+"word": "قَطَر",
+"meaning": "Katar",
+"gelernt": false
+},
+{
+"word": "ژورنال",
+"meaning": "Journal",
+"gelernt": false
+},
+{
+"word": "به یاد انداختن",
+"meaning": "erinnern, ins Gedächtnis rufen",
+"gelernt": false
+},
+{
+"word": "به جان کشیدن",
+"meaning": "auf jmdn. losgehen, einpeitschen",
+"gelernt": false
+},
+{
+"word": "قوا",
+"meaning": "Kräfte",
+"gelernt": false
+},
+{
+"word": "بی‌حس شدن",
+"meaning": "taub werden, erstarren",
+"gelernt": false
+},
+{
+"word": "آرزو کردن",
+"meaning": "sich wünschen",
+"gelernt": false
+},
+{
+"word": "تابع محض شدن",
+"meaning": "völlig hörig werden",
+"gelernt": false
+},
+{
+"word": "خویشان",
+"meaning": "Verwandte",
+"gelernt": false
+},
+{
+"word": "دلربا",
+"meaning": "bezaubernd, reizend",
+"gelernt": false
+},
+{
+"word": "طی",
+"meaning": "während, im Laufe",
+"gelernt": false
+},
+{
+"word": "هدف قرار دادن",
+"meaning": "ins Visier nehmen, angreifen",
+"gelernt": false
+},
+{
+"word": "مَنهَدَم کَردَن",
+"meaning": "zerstören, vernichten",
+"gelernt": false
+},
+{
+"word": "خَلیج",
+"meaning": "Golf, Meerbusen",
+"gelernt": false
+},
+{
+"word": "پاسِدار (ج. پاسِداران)",
+"meaning": "Wächter",
+"gelernt": false
+},
+{
+"word": "راداد",
+"meaning": "Radar",
+"gelernt": false
+},
+{
+"word": "موضِع (ج. مَواضِع)",
+"meaning": "Position, Stützpunkt",
+"gelernt": false
+},
+{
+"word": "بَحرِین",
+"meaning": "Bahrain",
+"gelernt": false
+},
+{
+"word": "سیریک",
+"meaning": "Sirik",
+"gelernt": false
+},
+{
+"word": "حوزه",
+"meaning": "Gebiet, Region",
+"gelernt": false
+},
+{
+"word": "یاد دادن",
+"meaning": "beibringen, lehren",
+"gelernt": false
+},
+{
+"word": "له",
+"meaning": "Ausruf",
+"gelernt": false
+},
+{
+"word": "تفریح",
+"meaning": "Vergnügen",
+"gelernt": false
+},
+{
+"word": "اولین‌بار",
+"meaning": "erstes Mal",
+"gelernt": false
+},
+{
+"word": "ماندگار",
+"meaning": "bleibend, verewigt",
+"gelernt": false
+},
+{
+"word": "دسته‌جمعی",
+"meaning": "gemeinsam",
+"gelernt": false
+},
+{
+"word": "چِنار",
+"meaning": "Platane",
+"gelernt": false
+},
+{
+"word": "انگورچینی",
+"meaning": "Weinlese",
+"gelernt": false
+},
+{
+"word": "بجار",
+"meaning": "Reisfeld",
+"gelernt": false
+},
+{
+"word": "آه",
+"meaning": "Seufzer",
+"gelernt": false
+},
+{
+"word": "رودخانه",
+"meaning": "Fluss",
+"gelernt": false
+},
+{
+"word": "تحویل دادن",
+"meaning": "übergeben, aushändigen",
+"gelernt": false
+},
+{
+"word": "اسباب",
+"meaning": "Mittel, Anlass",
+"gelernt": false
+},
+{
+"word": "تازه‌وارد",
+"meaning": "Neuankömmling",
+"gelernt": false
+},
+{
+"word": "درخشان",
+"meaning": "glänzend",
+"gelernt": false
+},
+{
+"word": "فاکون",
+"meaning": "Reisfeld",
+"gelernt": false
+},
+{
+"word": "موستان",
+"meaning": "Weinberg",
+"gelernt": false
+},
+{
+"word": "کوری",
+"meaning": "Blindheit",
+"gelernt": false
+},
+{
+"word": "گالِش",
+"meaning": "Hirte",
+"gelernt": false
+},
+{
+"word": "دخیل بستن",
+"meaning": "ein Votivband knüpfen",
+"gelernt": false
+},
+{
+"word": "بارگیری کردن",
+"meaning": "beladen, aufladen",
+"gelernt": false
+},
+{
+"word": "تَصنیف",
+"meaning": "Lied",
+"gelernt": false
+},
+{
+"word": "لولا",
+"meaning": "Scharnier",
+"gelernt": false
+},
+{
+"word": "لولاکش",
+"meaning": "Korbträger",
+"gelernt": false
+},
+{
+"word": "مازندرانی",
+"meaning": "aus Māzandarān",
+"gelernt": false
+},
+{
+"word": "گَوهَر",
+"meaning": "Edelstein, Perle",
+"gelernt": false
+},
+{
+"word": "اُکراین",
+"meaning": "Ukraine",
+"gelernt": false
+},
+{
+"word": "خبرگزاری",
+"meaning": "Nachrichtenagentur",
+"gelernt": false
+},
+{
+"word": "فِکرِ ... اُفتادَن",
+"meaning": "an jmdn. denken",
+"gelernt": false
+},
+{
+"word": "همین‌که",
+"meaning": "sobald, kaum dass",
+"gelernt": false
+},
+{
+"word": "رَنگ گُذاشتَن",
+"meaning": "erröten",
+"gelernt": false
+},
+{
+"word": "به‌طوری‌که",
+"meaning": "so dass",
+"gelernt": false
+},
+{
+"word": "جُرئَت کَردَن",
+"meaning": "sich trauen",
+"gelernt": false
+},
+{
+"word": "بازو",
+"meaning": "Arm",
+"gelernt": false
+},
+{
+"word": "به‌خُصوص",
+"meaning": "besonders",
+"gelernt": false
+},
+{
+"word": "پَرهیز کَردَن",
+"meaning": "meiden",
+"gelernt": false
+},
+{
+"word": "اَسرار",
+"meaning": "Geheimnisse",
+"gelernt": false
+},
+{
+"word": "زیرا",
+"meaning": "denn",
+"gelernt": false
+},
+{
+"word": "نَقل کَردَن",
+"meaning": "erzählen",
+"gelernt": false
+},
+{
+"word": "چالاکی",
+"meaning": "Gewandtheit, Geschicklichkeit",
+"gelernt": false
+},
+{
+"word": "کافی",
+"meaning": "ausreichend, genug",
+"gelernt": false
+},
+{
+"word": "کُنجکاو",
+"meaning": "neugierig",
+"gelernt": false
+},
+{
+"word": "ظاهِر کَردَن",
+"meaning": "zeigen, offenbaren",
+"gelernt": false
+},
+{
+"word": "اَغلَب",
+"meaning": "meistens",
+"gelernt": false
+},
+{
+"word": "به‌عَلاوه",
+"meaning": "außerdem",
+"gelernt": false
+},
+{
+"word": "تاکُنون",
+"meaning": "bisher",
+"gelernt": false
+},
+{
+"word": "فَریفته کَردَن",
+"meaning": "verführen, betören",
+"gelernt": false
+},
+{
+"word": "تَسخیر کَردَن",
+"meaning": "erobern",
+"gelernt": false
+},
+{
+"word": "رَدوبَدَل شُدَن",
+"meaning": "ausgetauscht werden",
+"gelernt": false
+},
+{
+"word": "سوزان",
+"meaning": "brennend",
+"gelernt": false
+},
+{
+"word": "اِعلام کَردَن",
+"meaning": "verkünden, bekanntmachen",
+"gelernt": false
+},
+{
+"word": "چَشم‌زَهره گِرفتَن",
+"meaning": "einschüchtern",
+"gelernt": false
+},
+{
+"word": "زَخمی شُدَن",
+"meaning": "verletzt werden",
+"gelernt": false
+},
+{
+"word": "قَهقَه خَندیدَن",
+"meaning": "laut lachen",
+"gelernt": false
+},
+{
+"word": "سابِقه داشتَن",
+"meaning": "Vorgeschichte haben",
+"gelernt": false
+},
+{
+"word": "هَم‌چَشمی کَردَن",
+"meaning": "wetteifern, rivalisieren",
+"gelernt": false
+},
+{
+"word": "باختَن",
+"meaning": "verlieren",
+"gelernt": false
+},
+{
+"word": "تَلَفُّظ",
+"meaning": "Aussprache",
+"gelernt": false
+},
+{
+"word": "تَمایُل",
+"meaning": "Neigung",
+"gelernt": false
+},
+{
+"word": "جابه‌جا کَردَن",
+"meaning": "versetzen",
+"gelernt": false
+},
+{
+"word": "غَنج",
+"meaning": "Koketterie",
+"gelernt": false
+},
+{
+"word": "مَحرَمانه",
+"meaning": "vertraulich",
+"gelernt": false
+},
+{
+"word": "وَزین",
+"meaning": "schwer, gewichtig",
+"gelernt": false
+},
+{
+"word": "کَشف",
+"meaning": "Entdeckung",
+"gelernt": false
+},
+{
+"word": "کوچولو",
+"meaning": "klein, winzig",
+"gelernt": false
+},
+{
+"word": "حَماس",
+"meaning": "Hamas",
+"gelernt": false
+},
+{
+"word": "فَرمانده",
+"meaning": "Kommandant, Befehlshaber",
+"gelernt": false
+},
+{
+"word": "اِسرائیل",
+"meaning": "Israel",
+"gelernt": false
+},
+{
+"word": "غَزه",
+"meaning": "Gaza",
+"gelernt": false
+},
+{
+"word": "لَبخَند",
+"meaning": "Lächeln",
+"gelernt": false
+},
+{
+"word": "به‌قَدری",
+"meaning": "so sehr",
+"gelernt": false
+},
+{
+"word": "در‌صورَتی‌که",
+"meaning": "obwohl",
+"gelernt": false
+},
+{
+"word": "گَردِش کَردَن",
+"meaning": "zirkulieren",
+"gelernt": false
+},
+{
+"word": "مُلتَفِت",
+"meaning": "aufmerksam, gewahr",
+"gelernt": false
+},
+{
+"word": "تَصَوُّر",
+"meaning": "Vorstellung",
+"gelernt": false
+},
+{
+"word": "خوشگَلی",
+"meaning": "Schönheit",
+"gelernt": false
+},
+{
+"word": "ذَرَّه",
+"meaning": "Teilchen",
+"gelernt": false
+},
+{
+"word": "زِرَنگی",
+"meaning": "Geschicklichkeit",
+"gelernt": false
+},
+{
+"word": "مایِل",
+"meaning": "geneigt, zugetan",
+"gelernt": false
+},
+{
+"word": "اَفزودَن",
+"meaning": "hinzufügen",
+"gelernt": false
+},
+{
+"word": "تَحَمُّل‌ناپَذیر",
+"meaning": "unerträglich",
+"gelernt": false
+},
+{
+"word": "سُلطان",
+"meaning": "Herrscher",
+"gelernt": false
+},
+{
+"word": "لَنگه",
+"meaning": "Strang, Zopf",
+"gelernt": false
+},
+{
+"word": "هَمین‌قَدر",
+"meaning": "nur so viel, soviel",
+"gelernt": false
+},
+{
+"word": "گویا",
+"meaning": "anscheinend, offenbar",
+"gelernt": false
+},
+{
+"word": "گیس",
+"meaning": "Zopf, Haarflechte",
+"gelernt": false
+},
+{
+"word": "شُعلِه زَدَن",
+"meaning": "in Flammen stehen",
+"gelernt": false
+},
+{
+"word": "دُختَربَچِّه",
+"meaning": "kleines Mädchen",
+"gelernt": false
+},
+{
+"word": "دُزدَکی",
+"meaning": "heimlich",
+"gelernt": false
+},
+{
+"word": "زیبایی",
+"meaning": "Schönheit",
+"gelernt": false
+},
+{
+"word": "سُست",
+"meaning": "schwach",
+"gelernt": false
+},
+{
+"word": "سیاه‌بَخت",
+"meaning": "unglücklich",
+"gelernt": false
+},
+{
+"word": "صَد",
+"meaning": "hundert",
+"gelernt": false
+},
+{
+"word": "عَمِّه",
+"meaning": "Tante",
+"gelernt": false
+},
+{
+"word": "غَیرمُمکِن",
+"meaning": "unmöglich",
+"gelernt": false
+},
+{
+"word": "لَطافَت",
+"meaning": "Zartheit, Anmut",
+"gelernt": false
+},
+{
+"word": "موشکافی",
+"meaning": "Scharfsinn, Feingefühl",
+"gelernt": false
+},
+{
+"word": "نو",
+"meaning": "neu",
+"gelernt": false
+},
+{
+"word": "دِموکراسی",
+"meaning": "Demokratie",
+"gelernt": false
+},
+{
+"word": "جُمهور",
+"meaning": "Republik",
 "gelernt": false
 }
 ]
