@@ -844,7 +844,10 @@ def anki_paket(neue: list[tuple[str, str]], ziel_dir: Path) -> Path | None:
         # dessen Styling durch genankis Vorgabe ohne Zentrierung (09.10.2026).
         css=".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n"
             " color: black;\n background-color: white;\n}\n")
-    deck = genanki.Deck(DECK_ID, "Persisch")
+    # bis zum Vortest landen die Tagesvokabeln (Zeitungsmeldungen) im Spezial-Deck;
+    # ab 25.11. wieder direkt in "Persisch" (das Spezial-Deck wird dann eingeschmolzen)
+    deck = (genanki.Deck(1789230431, "Persisch::Wortfeld Sprachtest") if date.today() <= PRUEFUNG_BIS
+            else genanki.Deck(DECK_ID, "Persisch"))
     tag = date.today().isoformat()
     for fa, de in neue:
         fa = fa.replace("ي", "ی").replace("ك", "ک")   # 29.10.: مُستَقيم، اَمنِيَّت mit arabischem Ya
