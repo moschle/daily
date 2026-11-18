@@ -48,6 +48,7 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
         )
     import sprachuebung
     global _APKG
+    neu_heute = []
     try:
         if Path("/automat/buch_fa/reihenfolge.json").exists():
             lang = {**lang, "buch_dir": "/automat/buch_fa"}
@@ -55,6 +56,7 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
         if GOLESTAN_AKTIV and Path("/automat/golestan/teile.json").exists():
             lang = {**lang, "golestan_dir": "/automat/golestan"}
         ue = sprachuebung.erzeuge(lang, complete)
+        neu_heute = list(ue["neue"])
         if ue["neue"]:
             g.add_new_vocab("fa", ue["neue"], lang["memory"])
             _APKG = sprachuebung.anki_paket(ue["neue"], Path("/tmp"))
@@ -63,6 +65,18 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
     except Exception as e:
         print(f"Leseübung gescheitert: {e}", file=sys.stderr)
         sprachteil = "SPRACHÜBUNG - TEXT\n[entfällt heute]\n"
+    # Vortest-Training bis PRUEFUNG_BIS: echte Telegram-Posts auswerten (18.11.2026)
+    try:
+        from datetime import date as _d
+        if _d.today() <= sprachuebung.PRUEFUNG_BIS:
+            import auswertung
+            aw, aw_neu = auswertung.erzeuge(complete)
+            if aw:
+                sprachteil = sprachteil.rstrip() + "\n\n" + aw + "\n"
+            if aw_neu:
+                _APKG = sprachuebung.anki_paket(neu_heute + aw_neu, Path("/tmp"))
+    except Exception as e:
+        print(f"Auswertung gescheitert: {e}", file=sys.stderr)
     msg = (
         f"Heute ist {today}.\n\nWETTER:\n{wetter}\n\n"
         f"KONTEXT (enthält Format und Regeln - befolge sie exakt):\n{kontext}\n\n"
