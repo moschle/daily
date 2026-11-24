@@ -5,6 +5,8 @@
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
 ## STAND 24.11.2026 — nach dem Vortest
+- [ ] HEUTE 24.11.: Anmeldung Vorstandsänderung Warte (VR 6604) an die Notarin schicken — Paket in WARTE/08_Finanzamt/Nach_MV_2026/02_Vereinsregister_Notar/Notar_Paket_2026-11-24.zip (Entwurf, Mail, Protokoll, Satzung). Vorher: Geburtsdatum Hanar Hupka prüfen. Risiko: Satzung kennt keine „2. Vorsitzende“ (§ 8: Vorsitz, Schriftführerin, Kassenwärtin) → Notarin um Prüfung gebeten
+- [ ] Mi 25.11.: DAAD-Lehrassistenz 2027/28 Frist prüfen (Vorjahr 25.11.) · DÜF Reisezeitraum (Sommer 2027) melden, damit Vertrag kommt
 - [x] Vortest Polizei Berlin 155-26 am 24.11.: OSINT-Fall (Netzwerk um einen Basar) bis auf kleine Fehler gelöst; Persisch-Sprachtest abgebrochen (schriftlicher religiös-politischer Text, Basmala-Einstieg). 4 Bewerber auf 2 Stellen, weitere Ausschreibungen angekündigt
 - [ ] Neben der Promotion weiter auf Sicherheitsbehörden vorbereiten; Schwerpunkt: schriftliches Amts-/Redenpersisch (Fars, Mehr, IRNA, Reden)
 - [ ] TÄGLICH: Morgenbrief lesen (Hedayat + NACHRICHTEN im Original aus Fars/Mehr/IRNA-Telegram, glossiert) · Anki: Persisch (Fällige) + Persisch::Presse und Reden 15 neu/Tag · OSINT und Gespräch Sicherheitsbehörden nur Fällige
@@ -64,6 +66,7 @@ Immer in der Pipeline: monatlich Calls prüfen, in die Arbeit (stille stürme, F
 - [ ] Deutscher Übersetzerfonds Arbeits-/Aufenthalts-/Reise-/Bode-(Mentoring-)Stipendien — Frist 15.01.2027 (Zielsprache Deutsch). Arbeitsstipendium braucht i. d. R. Verlagsvertrag; Bode-Mentoring evtl. ohne. https://www.uebersetzerfonds.de/ (geprüft 01.11.2026)
 - [ ] ECIS 11 (European Conference of Iranian Studies, 2027) — Ort/CfP Stand 01.11.2026 noch nicht veröffentlicht, CfP erwartet. SIE-Thesis-Award (6. Runde, 2.000 €, Frist 15.01.2027) setzt Verteidigung 2023–31.12.2026 voraus → aktuell nicht zutreffend. https://www.societasiranologicaeu.org/ph-d-thesis-award/
 - [ ] ASPS 11th Biennial Convention, **Dushanbe** (Nationalbibliothek, 9.–13.08.2027) — Abstract-Frist 30.09.2026 **abgelaufen** (nur für ASPS-Mitglieder). Ggf. Nachfrist anfragen / als Teilnehmer hin. Passt zur Feldphase Sommer 2027 (Skizze 17.11.). https://www.persianatesocieties.org/asps-eleventh-biennial-conference/
+- [ ] **ASPS/JPS Graduate Student Prize + Virtual Graduate Conference — nächste Runde erwartet 2028** (zweijährlich; 2026: Abstract 24.07., Prize 16.08., Konferenz 25.09. online). Voraussetzung: ASPS-Mitglied, noch nicht promoviert, Abstract zur Graduate Conference; unveröffentlichter Aufsatz im JPS-Stil. Preis: Veröffentlichung im Journal of Persianate Studies + Einladung zur ASPS-Tagung mit Reisezuschuss. Kandidat: Farzona-Aufsatz (freier Vers und Wiederdruck) — dann nicht vorher anderswo veröffentlichen. Jury 2024: kein Preis vergeben, Mängel: Grundlagenliteratur, Methode, Argumentation. Kalender 01.05.2028. https://www.persianatesocieties.org/asps-jps-graduate-student-prize-2026/
 - [ ] DHd2027 (Marburg, 1.–5.03.2027): Frist 01.08.2026 abgelaufen — DHd2028-Call erwartet ca. Juni 2027.
 - [ ] Symposia Iranica (St Andrews, Nachwuchs) — V war April 2026, Abstract-Frist Ende Aug. 2025; nächste Runde beobachten
 - [ ] DAVO-Kongress (jährlich Herbst, CfP meist Mai/Juni) — Call 2027 beobachten
