@@ -19,6 +19,7 @@ from stellen_quellen_extra import (
     fetch_boersenblatt,
     fetch_akademischejobs,
     fetch_arbeitsagentur,
+    fetch_journojobs,
     ist_leiche,
 )
 from stellen_scoring_extra import score_v3
@@ -121,6 +122,7 @@ def main() -> None:
         ("boersenblatt", fetch_boersenblatt),
         ("akademische-jobs", fetch_akademischejobs),
         ("arbeitsagentur", fetch_arbeitsagentur),
+        ("journojobs", fetch_journojobs),
         # bpb ist aus, bis das href-Muster sitzt: die Seite liefert
         # Artikel statt Ausschreibungen, und Titel wie "Zeichen von
         # Radikalisierung" holen sich über behörden_fachlich 4 Punkte.

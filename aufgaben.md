@@ -37,6 +37,8 @@
 - Plan: gute Stelle mit Promotion > DFG-Stelle (bevorzugt) > notfalls Stipendium
 - [ ] **BfV Trainees mit Master, hausweiter Einsatz — AWV-2026-091, Frist 07.12.2026** (höherer Dienst, bis EG 13, Verbeamtung bis A14 möglich, VZ/TZ, mobiles Arbeiten je nach Einsatz, Berlin/Köln). Nur BVA-Portal: https://bewerbung.dienstleistungszentrum.de/frontend/AWV-2026-091/index.html. HÜRDE: zugelassen nur Politik-/Staatswiss., Geschichte, MPA, Jura/Wirtschaftsrecht, Intelligence & Security Studies — Islamwissenschaft nicht gelistet → vorher BVA anrufen (0228 99 358-87500), ob Islamwiss./Deutsche Literatur anerkannt wird
 - [ ] BfV Fachtrainer/-in Islamismus/islamistischer Terrorismus — gehobener Dienst, Köln/Berlin, Frist 09.12.2026 (zugelassene Studiengänge prüfen)
+- [ ] **BayLfV Daten-Analyst/-in Technische Innovation (Kennung „KI“) — Frist 03.01.2027**, München, A10/E10 TV-L, befristet mit Übernahme in 3. QE. HÜRDE: Bachelor Data Science/Informatik/Computerlinguistik/Mathe/Physik „oder gleichwertig“; Python, NLP, ML erwünscht → vorher nachfragen, ob Abschluss + wazan-Portfolio reicht. Dienstort München (Berlin-Umzug geplant). bewerbung@lfv.bayern.de, Betreff KI. https://www.lfv.bayern.de/jobs/daten-analyst-in-m-w-d-fuer-den-bereich-technische-innovation/ (geprüft 24.11.; Initiativbewerbungen weiter nicht möglich)
+- 24.11.: Fristen BfV 07.12./09.12. und BayLfV 03.01. als FRIST-Termine im Kalender „Moritz“
 
 ## STAND 02.11.2026 — Pflegedienst Silke Krüger, Mails
 - [ ] Antwort Laura abwarten: Dienstplan November kollidiert mit 4 vorab gemeldeten Nächten (ab 20., 21., 28., 29.11.); Mail 02.11. verschickt. Falls keine Umplanung: Diensttausch oder schriftliche unbezahlte Freistellung
@@ -489,6 +491,7 @@ Entscheidung: Promotion in Halle (Phil. Fak. I, Purnaqcheband), Beginn 01.01.202
 - [ ] VdÜ Kandidatenstatus beantragen (Vollmitglied nach Verlagsvertrag)
 - [ ] GiG (Gesellschaft für interkulturelle Germanistik) prüfen
 - [ ] SIE (Societas Iranologica Europaea) — langfristig, 2 Bürgen nötig
+- [ ] **ASPS (Association for the Study of Persianate Societies) — Januar 2027 beitreten** (Entscheidung 24.11.): Studententarif 75 USD/2 J. nach Annahme als Doktorand; nötig für Tagung Duschanbe 9.–13.08.2027; Journal (Brill). Kalender 11.01.2027. https://www.persianatesocieties.org/membership-form/
 - [ ] H-Net + H-Soz-Kult für CfP-Alerts registrieren
 - [x] ASEEES Vollmitglied seit Mai 2026 (Independent Scholar, Leipzig)
 

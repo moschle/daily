@@ -508,6 +508,66 @@ def fetch_akademischejobs():
     return jobs
 
 
+# --- JOURNOJOBS.COOL (Oskar Vitlif) ------------------------------------------
+# Die Website selbst listet keine Stellen, sie ist nur die Anmeldeseite des
+# Newsletters. Jede Ausgabe erscheint aber auch im oeffentlichen Telegram-Kanal,
+# dessen Webansicht (t.me/s/journojobs) ohne Anmeldung lesbar ist: pro Zeile
+# "Ort – Medium sucht Titel <kurzlink jobs.vit.li>", Abschnitte fett
+# (Praktikum, Nebenjobs, Volontariate, Berufseinstieg). Die Seite zeigt die
+# letzten ~20 Beitraege, das deckt die aktuelle Ausgabe ab.
+JJ_URL = "https://t.me/s/journojobs"
+JJ_MAX_TAGE = 30
+
+
+def fetch_journojobs():
+    from datetime import date, timedelta
+    req = urllib.request.Request(JJ_URL, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            html = r.read().decode("utf-8", "replace")
+    except Exception as e:
+        print(f"journojobs: {e}", file=sys.stderr)
+        return []
+    grenze = (date.today() - timedelta(days=JJ_MAX_TAGE)).isoformat()
+    jobs, ids = [], set()
+    for block in re.split(r'(?=<div class="tgme_widget_message_wrap)', html)[1:]:
+        m_dt = re.search(r'<time[^>]*datetime="([^"]+)"', block)
+        datum = m_dt.group(1)[:10] if m_dt else ""
+        if datum and datum < grenze:
+            continue
+        m_txt = re.search(r'<div class="tgme_widget_message_text[^"]*"[^>]*>(.*?)</div>', block, re.S)
+        if not m_txt:
+            continue
+        abschnitt = ""
+        for zeile in re.split(r"<br\s*/?>", m_txt.group(1)):
+            m_link = re.search(r'href="(https?://jobs\.vit\.li/[A-Za-z0-9]+)', zeile)
+            text = unescape(re.sub(r"<[^>]+>", "", re.sub(r"<a\b.*?</a>", "", zeile, flags=re.S))).strip()
+            if not m_link:
+                if text and len(text) < 40 and "<b>" in zeile:
+                    abschnitt = text
+                continue
+            text = re.sub(r"\s*https?://\S+", "", text).replace("(Anzeige)", "").strip()
+            if " sucht " not in text:
+                continue
+            url = m_link.group(1)
+            jid = "jj-" + url.rsplit("/", 1)[-1]
+            ort_org, titel = text.split(" sucht ", 1)
+            ort, _, org = ort_org.partition(" – ")
+            if jid in ids:
+                continue
+            ids.add(jid)
+            jobs.append({
+                "source": "journojobs",
+                "id": jid,
+                "title": f"{titel} – {org or ort_org}"[:250],
+                "url": url,
+                "summary": f"{abschnitt} · {org} · {ort} · Journalismus (journojobs.cool)",
+                "updated": datum,
+            })
+    print(f"journojobs: {len(jobs)} Stellen geladen", file=sys.stderr)
+    return jobs
+
+
 # --- Bundesagentur fuer Arbeit, Jobsuche (oeffentliche API, v6) -------------
 # DaF/DaZ- und Deutsch-Lehrstellen bei Bildungstraegern und Schulen tauchen in
 # den Fachportalen kaum auf, in der BA-Jobsuche aber fast immer.
