@@ -238,6 +238,44 @@ def fetch_weather():
     return result
 
 # ─── Nachrichten: Headline + Artikeltext aus BBC GitHub Markdown ───
+# Ab 25.11.2026: Persisch-Quelltext aus staatsnahen iranischen Kanälen statt BBC (Moritz;
+# Vince bleibt bei BBC). Bevorzugt Posts mit Reden/Erklärungen, Register wie im Sprachtest.
+STAATSMEDIEN_KANAELE = ["farsna", "Mehrnews", "irna_1313"]
+_REDE = ("بیانات", "سخنرانی", "رهبر انقلاب", "رهبر معظم", "در دیدار", "در جمع", "پیام", "خطبه",
+         "گفت:", "تأکید کرد", "اظهار داشت", "بیانیه", "شهید", "مقاومت", "استکبار")
+
+
+def fetch_staatsmedien_fa():
+    """Längster rede-artiger Post der letzten Telegram-Seite (Web-Vorschau t.me/s/).
+    Rückgabe: (headline, text, quelle) oder (None, None, None)."""
+    import html as _h
+    for kanal in STAATSMEDIEN_KANAELE:
+        try:
+            req = urllib.request.Request(f"https://t.me/s/{kanal}", headers={"User-Agent": "Mozilla/5.0"})
+            roh = urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "replace")
+        except Exception as e:
+            print(f"Telegram {kanal}: {e}", file=sys.stderr)
+            continue
+        beste = None
+        for stueck in roh.split('data-post="')[1:]:
+            pid = stueck.split('"', 1)[0]
+            m = re.search(r'<div class="tgme_widget_message_text[^"]*"[^>]*>(.*?)</div>', stueck, re.S)
+            if not m:
+                continue
+            t = re.sub(r"<br\s*/?>", "\n", m.group(1))
+            t = _h.unescape(re.sub(r"<[^>]+>", "", t))
+            t = re.sub(r"@\w+|[\U0001F300-\U0001FAFF☀-➿⬀-⯿️]", "", t).strip()
+            if len(t.split()) < 60:
+                continue
+            punkte = sum(k in t for k in _REDE) * 40 + min(len(t.split()), 200)
+            if not beste or punkte >= beste[0]:
+                beste = (punkte, pid, t)
+        if beste:
+            zeilen = [z.strip() for z in beste[2].splitlines() if z.strip()]
+            return zeilen[0], " ".join(zeilen[1:])[:900], f"Quelle: t.me/{beste[1]}"
+    return None, None, None
+
+
 def fetch_bbc_news_with_article(lang_code):
     """
     Ruft die BBC GitHub Markdown-Datei ab, extrahiert die erste Schlagzeile,
@@ -605,7 +643,14 @@ def generate_language_exercise():
         vl = "\n".join([f"  - {v['word']} ({v['meaning']})" for v in due])
         rep = f"\nVOKABELWIEDERHOLUNG:\nDiese Wörter sollen heute wiederholt werden. Baue sie in den Übungstext ein:\n{vl}\n"
 
-    headline, article = fetch_bbc_news_with_article(lc)
+    quelle = ""
+    if lc == "fa":
+        headline, article, quelle = fetch_staatsmedien_fa()
+        if not headline:
+            headline, article = fetch_bbc_news_with_article(lc)
+            quelle = "Quelle: BBC Persian (Ersatz)" if headline else ""
+    else:
+        headline, article = fetch_bbc_news_with_article(lc)
     if headline:
         news_content = f"Schlagzeile: {headline}\n\nArtikeltext:\n{article[:800]}" if article else f"Schlagzeile: {headline}"
     else:
@@ -616,7 +661,7 @@ def generate_language_exercise():
               "Arbeit und Beruf","Kindheitserinnerungen","Natur und Umwelt","Musik und Kunst","Gesundheit und Sport","Politik und Gesellschaft"]
 
     return {"language":language,"lang_code":lc,"level":level,"instructions":instr,
-            "topic":topics[dss%len(topics)],"headline":headline,"news_text":news_content,
+            "topic":topics[dss%len(topics)],"headline":headline,"news_text":news_content,"quelle":quelle,
             "week":week,"repetition_prompt":rep,
             "new_vocab_instruction":"\nWICHTIG: Neue Vokabeln inline glossieren. Am Ende eine Zeile: \"NEUE VOKABELN: Wort (Bedeutung), Wort (Bedeutung)\"\n",
             "memory":mem,"due_vocab":due,"bekannt":bekannt}

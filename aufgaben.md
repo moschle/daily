@@ -1,19 +1,26 @@
 # Aufgaben
 
-*Letzte Aktualisierung: 17. November 2026*
+*Letzte Aktualisierung: 24. November 2026*
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
+## STAND 24.11.2026 — nach dem Vortest
+- [x] Vortest Polizei Berlin 155-26 am 24.11.: OSINT-Fall (Netzwerk um einen Basar) bis auf kleine Fehler gelöst; Persisch-Sprachtest abgebrochen (schriftlicher religiös-politischer Text, Basmala-Einstieg). 4 Bewerber auf 2 Stellen, weitere Ausschreibungen angekündigt
+- [ ] Neben der Promotion weiter auf Sicherheitsbehörden vorbereiten; Schwerpunkt: schriftliches Amts-/Redenpersisch (Fars, Mehr, IRNA, Reden)
+- [ ] TÄGLICH: Morgenbrief lesen (Hedayat + NACHRICHTEN im Original aus Fars/Mehr/IRNA-Telegram, glossiert) · Anki: Persisch (Fällige) + Persisch::Presse und Reden 15 neu/Tag · OSINT und Gespräch Sicherheitsbehörden nur Fällige
+- [x] Morgenbrief ab 25.11. wieder Hedayat + LESEN; Vortest-Modus (Zeitungsmeldungen, AUSWERTUNG) beendet; Nachrichten aus staatsnahen Kanälen statt BBC
+- [x] Anki 24.11.: 26 fehlende Morgenbrief-Wörter nachgetragen; Wortfeld Sprachtest + Wortfeld Sicherheit + OSINT-Vortest → Persisch::Presse und Reden; OSINT-Decks → OSINT; Gespräch Polizei Berlin → Gespräch Sicherheitsbehörden; Testsätze und Linksextremismus ausgesetzt (Archiv)
+
 ## STAND 17.11.2026 — Vortest Polizei Berlin 24.11. + Wochenplan
-- [ ] **HEUTE: Termin Polizei Berlin 155-26 buchen (Frist 20.11.)**: Vortest Di 24.11., 08:30, Friesenstraße 16 (Abschnitt 52), computergestützt, ca. 2 Std. (Sprachtest Persisch + OSINT). Ausweis + Einladung mitnehmen. Zug buchen
-- [ ] Persisch täglich 90 Min.: Probetest A (B1, Format gehobener Dienst) → AA-Farsi 2019 (Archiv) → Probetest B (B2/C1) → Fehleranalyse; Anki: Persisch::Wortfeld Sprachtest + Wortfeld Sicherheit
-- [ ] OSINT-Module: Mi Suche · Do Bild/Video · Sa Geolokalisierung · So Personen/Domains/IP · Mo Bewertung/Doku/Recht + Probefall 60 Min. (Bericht an Claude)
-- [ ] TÄGLICH bis 24.11.: Morgenbrief · Anki regulär Persisch (nur Fällige, neue = 0) · Spezial-Decks neu/Tag: Wortfeld Sprachtest 25, Wortfeld Sicherheit 10, OSINT 15, Gespräch 5 (an Nachtdienst-/flaschenpost-Tagen nur Wiederholungen)
+- [x] **HEUTE: Termin Polizei Berlin 155-26 buchen (Frist 20.11.)**: Vortest Di 24.11., 08:30, Friesenstraße 16 (Abschnitt 52), computergestützt, ca. 2 Std. (Sprachtest Persisch + OSINT). Ausweis + Einladung mitnehmen. Zug buchen
+- [x] Persisch täglich 90 Min.: Probetest A (B1, Format gehobener Dienst) → AA-Farsi 2019 (Archiv) → Probetest B (B2/C1) → Fehleranalyse; Anki: Persisch::Wortfeld Sprachtest + Wortfeld Sicherheit
+- [x] OSINT-Module: Mi Suche · Do Bild/Video · Sa Geolokalisierung · So Personen/Domains/IP · Mo Bewertung/Doku/Recht + Probefall 60 Min. (Bericht an Claude)
+- [x] TÄGLICH bis 24.11.: Morgenbrief · Anki regulär Persisch (nur Fällige, neue = 0) · Spezial-Decks neu/Tag: Wortfeld Sprachtest 25, Wortfeld Sicherheit 10, OSINT 15, Gespräch 5 (an Nachtdienst-/flaschenpost-Tagen nur Wiederholungen)
 - [ ] OSINT-Videos: Bendobrown „OSINT At Home“ (#1–4, 11–13, 19–21, 24, 26, 11 No-Code-Tools) + Bellingcat Tech Series (Toolkit, Auto Archiver, Digital Safety); Lesen: Berkeley Protocol, Fiorella/Godart/Waters 2021, Lakomy 2023 — Zuordnung in OSINT_Lehrplan.md
 - [ ] Rudern Di/Mi/Do/Mo 30 Min., ab 18 Uhr frei
 - Stand 17.11. abends: Probetest A 36/60 bestanden (Lesen 16/16, Wendungen 7/22, Grammatik 13/22), Drill Wendungen 12/22; Auswertungstraining 6 Texte in 45 Min. (Fehler: Begriffe ungenau, Spekulation statt „unbekannt“). Neu: Anki Persisch::Testsätze (56), Persisch::Verbstämme (69, 15/Tag), Persisch::Umgangssprache und Social Media (54), OSINT::SOCMINT und Datenverkehr (30); OSINT-Fallübungen (10 Fälle); Probetest C2; Auswertungsschema_OSINT.md (Kernaussage zuerst, Feststellung ≠ Einschätzung)
 - [x] 18.11.: Morgenbrief bis 24.11. mit Abschnitt AUSWERTUNG: echte Telegram-Posts (farsna + bbcpersian/iranintltv im Wechsel), Musterlösung am Folgetag, unbekannte Wörter ins Deck Persisch::Wortfeld Sprachtest (auswertung.py)
-- [ ] Mi 18.: AA-Farsi 2019 Original · FRAU KOHLS ANRUFEN (Format Sprachtest? Hilfsmittel? Dauer?) · Skizze an Purnaqcheband · Mi-Nacht: Fallübungen 6–10 · Do: Probetest C2 + B, Gralhix, Sourcing.Games · Fr Zug: BBC Persian, Modul 3 · Sa: TryHackMe OhSINT · So Zug: Fehleranalyse, Modul 4 · Mo: Probetest A erneut, Probefall 60 Min., BreachNoir
+- [x] Mi 18.: AA-Farsi 2019 Original · FRAU KOHLS ANRUFEN (Format Sprachtest? Hilfsmittel? Dauer?) · Skizze an Purnaqcheband · Mi-Nacht: Fallübungen 6–10 · Do: Probetest C2 + B, Gralhix, Sourcing.Games · Fr Zug: BBC Persian, Modul 3 · Sa: TryHackMe OhSINT · So Zug: Fehleranalyse, Modul 4 · Mo: Probetest A erneut, Probefall 60 Min., BreachNoir
 - [x] Promotionsskizze 17.11. aktualisiert: Blick bleibt, Feldphase Voraussetzung (Sommer 2027, ggf. 2. Phase Monate 25–30), Oxford Hilary 2028 (Monate 13–15), 36 Monate
 - KALENDER 17.–24.11.: Nachtdienst 17./18. und 18./19.; Mi Feiertag (Kita zu), Preply 18:00; Do flaschenpost 8:30–14:30, Promovenden-Treffen 17:00; Fr–So Oldenburg (Zug Fr 8:12, zurück So 20:15) → Kolloquium 20.11. entfällt; Mo 23. Hauptlerntag; Di 24. Test 8:20, Milan abholen 16:00
 - [ ] HEUTE 17.11. (statt Mi): PROMOTIONSPROJEKT FESTZURREN (vorgelagert!) — Projektskizze 29.10. (foerderungen/00_uebersicht) durchgehen, offen: zweite Frage „Blick“ fest oder Ausblick? Gulnoz im Kernkorpus ohne Feldphase machbar? Feldphase Frühjahr (DÜF) oder Sommer 2027? 24 Monate + Titel festlegen · BVA anrufen wegen AWV-2026-091
@@ -21,7 +28,7 @@
 - [ ] 25.–27.11.: Drittmittelservice MLU Termin · BfV Fachtrainer Studiengänge prüfen · DAAD-Lehrassistenz Frist prüfen
 - [ ] ERST NACH Bestätigung, spätestens Mi 25.11.: Gutachten-Anfragen an Purnaqcheband + Rzehak (Landesstipendium, Rückgabe 04.01.) mit finaler Skizze
 - [ ] Fr 20.11.: DH2027 einreichen oder streichen
-- [ ] Morgenbrief: Hedayat pausieren, Lesetext Wortfeld Nachrichten/Politik (B1/B2) bis 24.11. — offen, braucht Sitzung am Mac (Repo + netcup-Deploy)
+- [x] Morgenbrief: Hedayat pausieren, Lesetext Wortfeld Nachrichten/Politik (B1/B2) bis 24.11. — offen, braucht Sitzung am Mac (Repo + netcup-Deploy)
 - Neu 17.11.: möchte nach Berlin ziehen (relevant für Polizei Berlin, BfV Berlin)
 - Paket: Polizei_Berlin_Vorbereitung_v2.zip (Chat 17.11.) → nach ~/Documents/Bewerbungen/03_laufend/2026_Polizei_Berlin_155-26/ legen
 

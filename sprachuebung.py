@@ -21,6 +21,7 @@ BEKANNT_FILE = HERE / "bekannt_fa.json"
 NEU_PRO_TAG = 7
 BUCH_ANKI_MAX = 10000     # Buchmodus: alle glossierten Wörter ins Anki-Paket (07.11.2026, vorher 15)
 NACHRICHT_ORIGINAL_AB = 0.80   # ab diesem Anteil bekannter Wörter kommt die Meldung im Original
+# Seit 25.11.2026: mit lang_ex["quelle"] (Fars/Mehr/IRNA, nur Moritz) immer Original, glossiert
 GANZ_NEU_MAX = 2          # davon höchstens so viele, die noch gar nicht im Deck stehen
 RUECKSTAND_ANGEBOT = 60   # ungelernte Deck-Karten, die dem Modell angeboten werden
 MAX_UNBEKANNT = 0.08       # Anteil unbekannter Wörter, ab dem neu geschrieben wird
@@ -540,6 +541,7 @@ def _entwurf_sichern(d: dict, quote: float, maengel: list) -> None:
 def _nachricht_original(lang_ex: dict, K: set) -> str:
     """Anfang der Originalmeldung (bis etwa 120 Wörter), wenn genug Wörter bekannt sind."""
     roh = (lang_ex.get("news_text") or "").replace("ي", "ی").replace("ك", "ک")
+    roh = roh.split("Artikeltext:", 1)[-1].strip()   # Schlagzeile steht schon darüber
     saetze, n = [], 0
     for satz in re.findall(r"[^.!؟?]+[.!؟?]?", roh):
         if n and n + len(satz.split()) > 120:
@@ -550,7 +552,7 @@ def _nachricht_original(lang_ex: dict, K: set) -> str:
     if len(text.split()) < 25:
         return ""
     q, _ = pruefe(text, K)
-    return text if 1 - q >= NACHRICHT_ORIGINAL_AB else ""
+    return text if lang_ex.get("quelle") or 1 - q >= NACHRICHT_ORIGINAL_AB else ""
 
 
 def _nacherzaehlen(lang_ex: dict, bekannt_liste: str, complete) -> tuple[str, list]:
@@ -821,7 +823,7 @@ def erzeuge(lang_ex: dict, complete) -> dict:
          if buch_teil is not None else
          f"NEUE WÖRTER (Stufe {stufe_name}{', Grammatik: ' + _FOKUS if _FOKUS else ''}, {round((1 - quote) * 100)} % bekannt; Anki-Paket im Anhang)\n{woerter}\n\n")
         + golestan_teil
-        + f"NACHRICHTEN\n{lang_ex.get('headline') or ''}\n\n{d.get('nachricht', '')}\n"
+        + f"NACHRICHTEN\n{lang_ex.get('quelle') or ''}\n{lang_ex.get('headline') or ''}\n\n{d.get('nachricht', '')}\n"
     )
     return {"abschnitt": abschnitt, "neue": neue, "quote": quote}
 
