@@ -77,6 +77,17 @@ def call_claude(kontext, fahrplan, aufgaben, kalender, wetter, impulse, lang_exe
                 _APKG = sprachuebung.anki_paket(neu_heute + aw_neu, Path("/tmp"))
     except Exception as e:
         print(f"Auswertung gescheitert: {e}", file=sys.stderr)
+    # Freitag Prüfungssimulation (echter Text ohne Glossen), Samstag Lösung (25.11.2026)
+    try:
+        import wochentest
+        wt, wt_neu = wochentest.erzeuge(complete)
+        if wt:
+            sprachteil = sprachteil.rstrip() + "\n\n" + wt + "\n"
+        if wt_neu:
+            neu_heute = neu_heute + wt_neu
+            _APKG = sprachuebung.anki_paket(neu_heute, Path("/tmp"))
+    except Exception as e:
+        print(f"Wochentest gescheitert: {e}", file=sys.stderr)
     msg = (
         f"Heute ist {today}.\n\nWETTER:\n{wetter}\n\n"
         f"KONTEXT (enthält Format und Regeln - befolge sie exakt):\n{kontext}\n\n"

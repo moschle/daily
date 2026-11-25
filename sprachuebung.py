@@ -472,6 +472,43 @@ def _glossieren(text: str, glossen) -> tuple[str, set]:
     return text, gesetzt
 
 
+def _faellige_pruefen(text: str, due, complete) -> list[tuple[str, str, str]]:
+    """Fällige Anki-Wörter nur glossieren, wenn sie im Satz wirklich gemeint sind.
+    25.11.2026: صد (hundert) lag blind auf صدای (Geräusch), تنش (Spannung) auf تنش (ihr Körper)."""
+    treffer = []
+    for fa, de in due:
+        if " " in fa.strip() or norm(fa).endswith(("دن", "تن")):
+            continue
+        stamm = HAR.sub("", fa).strip()
+        m = re.search(r"(?<![؀-ۿ‌])" + re.escape(stamm) + _ENDUNG.pattern[:-1]
+                      + r"(?![؀-ۿ‌])", text)
+        if m:
+            a, b = text.rfind(".", 0, m.start()) + 1, text.find(".", m.end())
+            treffer.append((fa, de, m.group(0), text[a: b if b > 0 else None].strip()[:300]))
+    if not treffer:
+        return []
+    p = ("Für jedes Wort unten: Ist die angegebene deutsche Bedeutung im zitierten Satz richtig? "
+         "Achte auf gleich geschriebene Wörter (صد/صدای، تنش = تن+ش، گل/گِل). Antworte NUR mit JSON: "
+         '[{"form": "", "passt": true, "de": "richtige Bedeutung im Satz, 1-3 Wörter"}]\n\n'
+         + "\n".join(f"{f} | vermutet: {d} | Satz: {s}" for _, d, f, s in treffer))
+    try:
+        roh = complete(p, max_tokens=1200)
+        liste = json.loads(roh[roh.find("["): roh.rfind("]") + 1])
+        urteil = {(x.get("form") or "").strip(): x for x in liste}
+    except Exception:
+        return []   # im Zweifel lieber keine Klammer als eine falsche
+    out = []
+    for fa, de, form, _ in treffer:
+        u = urteil.get(form)
+        if not u:
+            continue
+        if u.get("passt"):
+            out.append((fa, de, form))
+        elif (u.get("de") or "").strip():
+            out.append((form, u["de"].strip(), form))
+    return out
+
+
 def _annotieren(text: str, woerter, complete):
     """In Portionen zu 40 Wörtern: Bei echten Buchtexten (150+ unbekannte Wörter) wurde die
     Antwort abgeschnitten, und fast nichts kam als Glosse an (06./07.11.2026)."""
@@ -770,8 +807,8 @@ def erzeuge(lang_ex: dict, complete) -> dict:
     # gehen aber nicht ins Anki-Paket.
     glossen = [(fa, de, form) for fa, de, form, _ in kandidaten]
     glossen += [(n, "Name", n) for n in sorted(namen, key=len, reverse=True) if norm(n) not in gesehen]
-    glossen += [(v["word"], v["meaning"], "") for v in due
-                if v.get("word") and v.get("meaning") and norm(v["word"]) not in gesehen]
+    glossen += _faellige_pruefen(alles, [(v["word"], v["meaning"]) for v in due
+                if v.get("word") and v.get("meaning") and norm(v["word"]) not in gesehen], complete)
     gesetzt = set()
     for feld in ("text", "nachricht"):
         if d.get(feld):
