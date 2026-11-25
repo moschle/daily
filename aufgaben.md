@@ -4,6 +4,10 @@
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
+## STAND 25.11.2026 — Bundesakademie Wolfenbüttel, Stellen-Monitor
+- [ ] Bundesakademie für Kulturelle Bildung Wolfenbüttel, Programmleitung Literatur (m/w/d), 75 % (29,85 h), bis E13 TV-L, 2 J. befristet mit Option auf Entfristung, Beginn 01.05.2027. FRIST 15.12.2026, eine PDF an bewerbung@bundesakademie.de. Rückfragen: 0157 5012 3668. Vorher klären: Anteil mobiles Arbeiten / Präsenz im Schloss; ob Wochenend-Seminare dazugehören; Vereinbarkeit mit Promotion (Tadschikistan Sommer 2027, Oxford Hilary 2028). Entscheiden: Alternative zur DFG-Stelle, nicht Ergänzung.
+- Stellen-Monitor (Commit 6e23fa1, deployt): KI liest jetzt PDF-Ausschreibungen; schon gemeldete Stellen bleiben KI-Kandidaten, bis sie bewertet sind; Programmleitung Literatur / Schreibförderung / Literaturvermittlung höher gewichtet (Wolfenbüttel jetzt 7 statt 4 Punkte).
+
 ## STAND 24.11.2026 — nach dem Vortest
 - [-] 24.11.: DAAD Lehrassistenz 2027/28 nicht beworben — Fokus Promotion + Oxford (Ziele: max. 2 J., keine Lehre). Nächste Runde Herbst 2027 (Hochschuljahr 2028/29) wäre noch möglich, Master dann < 2 J. alt
 - [x] 24.11. Mail an Notarin Jänicke verschickt — Hotpot Silk UG — Formular (~/Downloads/UG_Gruendung_Hotpot_Silk_ausgefuellt.pdf) an Notarin Cornelia Jänicke, info@notarin-jaenicke.de; vorher Familienstand ankreuzen, S. 3 unterschreiben, Ausweiskopien beider; Mailtext HOTPOT/hotpot_gruendung/06_Mail_Notarin_2026-11-24.md
