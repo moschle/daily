@@ -4945,11 +4945,6 @@
 "gelernt": true
 },
 {
-"word": "اِنتِقاد کَردَن",
-"meaning": "kritisieren",
-"gelernt": true
-},
-{
 "word": "اِنتِظار داشتَن",
 "meaning": "erwarten",
 "gelernt": true
@@ -7025,11 +7020,6 @@
 "gelernt": true
 },
 {
-"word": "خواستَن / خواه",
-"meaning": "wollen",
-"gelernt": true
-},
-{
 "word": "خواهَم بود",
 "meaning": "ich werde sein",
 "gelernt": true
@@ -7455,11 +7445,6 @@
 "gelernt": true
 },
 {
-"word": "فِرِستادَن / فِرِست",
-"meaning": "schicken, senden",
-"gelernt": true
-},
-{
 "word": "گُذَراندَن / گُذَران",
 "meaning": "verbringen (Zeit)",
 "gelernt": true
@@ -7672,11 +7657,6 @@
 {
 "word": "دَرخواست کَردَن",
 "meaning": "beantragen, ersuchen",
-"gelernt": false
-},
-{
-"word": "قَرارداد",
-"meaning": "Vertrag",
 "gelernt": false
 },
 {
@@ -10600,11 +10580,6 @@
 "gelernt": true
 },
 {
-"word": "تَصمیم گِرِفتَن",
-"meaning": "eine Entscheidung treffen, beschließen",
-"gelernt": false
-},
-{
 "word": "داشتَن + می‌خواندَن (Verlaufsform)",
 "meaning": "las gerade (Bücher) vor – progressive Verlaufsform",
 "gelernt": true
@@ -10690,68 +10665,8 @@
 "gelernt": true
 },
 {
-"word": "گِریه کَردَن",
-"meaning": "weinen",
-"gelernt": false
-},
-{
-"word": "وَقت طَلَبیدَن",
-"meaning": "Zeit erfordern",
-"gelernt": false
-},
-{
-"word": "اِحساس کَردَن",
-"meaning": "fühlen, empfinden",
-"gelernt": false
-},
-{
-"word": "مَعنا داشتَن",
-"meaning": "Sinn haben",
-"gelernt": false
-},
-{
-"word": "اِدامه دادَن",
-"meaning": "fortsetzen, weitermachen",
-"gelernt": false
-},
-{
-"word": "اِجازه دادَن",
-"meaning": "erlauben, gestatten",
-"gelernt": false
-},
-{
-"word": "تَبدیل شُدَن",
-"meaning": "sich verwandeln in, werden zu",
-"gelernt": false
-},
-{
-"word": "تَأکید کَردَن",
-"meaning": "betonen, bekräftigen",
-"gelernt": false
-},
-{
-"word": "اِستِفاده کَردَن",
-"meaning": "benutzen, verwenden",
-"gelernt": false
-},
-{
 "word": "داوطَلَبانه",
 "meaning": "ehrenamtlich, freiwillig",
-"gelernt": false
-},
-{
-"word": "خوشحالی",
-"meaning": "Freude, Fröhlichkeit",
-"gelernt": false
-},
-{
-"word": "مُخالَفَت",
-"meaning": "Widerstand, Ablehnung",
-"gelernt": false
-},
-{
-"word": "نَبودَن",
-"meaning": "nicht sein, nicht vorhanden sein",
 "gelernt": false
 },
 {
@@ -12305,11 +12220,6 @@
 "gelernt": false
 },
 {
-"word": "اِنفِجار",
-"meaning": "Explosion",
-"gelernt": false
-},
-{
 "word": "اینقَدَر",
 "meaning": "so sehr",
 "gelernt": false
@@ -13270,19 +13180,9 @@
 "gelernt": false
 },
 {
-"word": "آبگیری",
-"meaning": "Betanken",
-"gelernt": false
-},
-{
 "word": "دَخیل",
 "meaning": "beteiligt, verwickelt",
 "gelernt": true
-},
-{
-"word": "پیچ‌و‌خَم",
-"meaning": "Windung, Kurve",
-"gelernt": false
 },
 {
 "word": "هَدَف قَرار گِرفتَن",
@@ -13810,11 +13710,6 @@
 "gelernt": false
 },
 {
-"word": "گویا",
-"meaning": "anscheinend, offenbar",
-"gelernt": false
-},
-{
 "word": "گیس",
 "meaning": "Zopf, Haarflechte",
 "gelernt": false
@@ -13987,11 +13882,6 @@
 {
 "word": "اِخراج کَردَن",
 "meaning": "entlassen, hinauswerfen",
-"gelernt": false
-},
-{
-"word": "تَأمینِ مالی",
-"meaning": "Finanzierung",
 "gelernt": false
 },
 {
@@ -14297,6 +14187,246 @@
 {
 "word": "مُردِگان",
 "meaning": "die Toten",
+"gelernt": false
+},
+{
+"word": "کَمَر",
+"meaning": "Taille, Hüfte",
+"gelernt": false
+},
+{
+"word": "مَهتاب",
+"meaning": "Mondschein",
+"gelernt": false
+},
+{
+"word": "هَرگِز",
+"meaning": "niemals",
+"gelernt": false
+},
+{
+"word": "نَسیم",
+"meaning": "Brise, Lüftchen",
+"gelernt": false
+},
+{
+"word": "اِشاره",
+"meaning": "Hinweis",
+"gelernt": false
+},
+{
+"word": "باریک",
+"meaning": "schmal",
+"gelernt": false
+},
+{
+"word": "حَوض",
+"meaning": "Wasserbecken",
+"gelernt": false
+},
+{
+"word": "مَعمولی",
+"meaning": "gewöhnlich",
+"gelernt": false
+},
+{
+"word": "خواب بُردَن",
+"meaning": "einschlafen",
+"gelernt": false
+},
+{
+"word": "ضَعیف",
+"meaning": "schwach",
+"gelernt": false
+},
+{
+"word": "پاوَرچین",
+"meaning": "auf Zehenspitzen",
+"gelernt": false
+},
+{
+"word": "کوزه",
+"meaning": "Krug, Tonkrug",
+"gelernt": false
+},
+{
+"word": "بُغض گِرِفتَن",
+"meaning": "einen Kloß im Hals bekommen",
+"gelernt": false
+},
+{
+"word": "خُنَکی",
+"meaning": "Kühle",
+"gelernt": false
+},
+{
+"word": "گَوارایی",
+"meaning": "Annehmlichkeit, Wohlgefühl",
+"gelernt": false
+},
+{
+"word": "به‌خوبی",
+"meaning": "gut",
+"gelernt": false
+},
+{
+"word": "تَرسو",
+"meaning": "feige",
+"gelernt": false
+},
+{
+"word": "غَم‌اَنگیز",
+"meaning": "traurig, betrüblich",
+"gelernt": false
+},
+{
+"word": "غَیرِطَبیعی",
+"meaning": "unnatürlich",
+"gelernt": false
+},
+{
+"word": "فَضا",
+"meaning": "Raum, Sphäre",
+"gelernt": false
+},
+{
+"word": "مَحبوس شَدَن",
+"meaning": "eingesperrt sein",
+"gelernt": false
+},
+{
+"word": "اَشک",
+"meaning": "Träne",
+"gelernt": false
+},
+{
+"word": "اَژدَها",
+"meaning": "Drache",
+"gelernt": false
+},
+{
+"word": "بَرخی",
+"meaning": "einige",
+"gelernt": false
+},
+{
+"word": "بَغَل کَشیدَن",
+"meaning": "umarmen",
+"gelernt": false
+},
+{
+"word": "بی‌اَهَمِّیَت",
+"meaning": "unbedeutend",
+"gelernt": false
+},
+{
+"word": "خُرخُر",
+"meaning": "Schnarchen",
+"gelernt": false
+},
+{
+"word": "زُلف",
+"meaning": "Locke",
+"gelernt": false
+},
+{
+"word": "ماست",
+"meaning": "Joghurt",
+"gelernt": false
+},
+{
+"word": "مَجهول",
+"meaning": "unbekannt",
+"gelernt": false
+},
+{
+"word": "نارَون",
+"meaning": "Ulme",
+"gelernt": false
+},
+{
+"word": "پاشویه",
+"meaning": "Beckenrand, Fußbad",
+"gelernt": false
+},
+{
+"word": "ژاله",
+"meaning": "Tau, Tautropfen",
+"gelernt": false
+},
+{
+"word": "مُنجَر شَدَن",
+"meaning": "führen zu",
+"gelernt": false
+},
+{
+"word": "مورِدِ بَررَسی قَرار گِرِفتَن",
+"meaning": "geprüft werden",
+"gelernt": false
+},
+{
+"word": "تَکذیب شَدَن",
+"meaning": "dementiert werden",
+"gelernt": false
+},
+{
+"word": "اِدِّعا",
+"meaning": "Behauptung",
+"gelernt": false
+},
+{
+"word": "شایِعه",
+"meaning": "Gerücht",
+"gelernt": false
+},
+{
+"word": "شَهادَت",
+"meaning": "Märtyrertod",
+"gelernt": false
+},
+{
+"word": "غَیرِدَقیق",
+"meaning": "ungenau",
+"gelernt": false
+},
+{
+"word": "فَعّال",
+"meaning": "Aktivist",
+"gelernt": false
+},
+{
+"word": "قَضایی",
+"meaning": "justitiell, gerichtlich",
+"gelernt": false
+},
+{
+"word": "قُوِّهٔ قَضائیه",
+"meaning": "Justizgewalt",
+"gelernt": false
+},
+{
+"word": "مَجازی",
+"meaning": "virtuell",
+"gelernt": false
+},
+{
+"word": "مَحکوم",
+"meaning": "Verurteilter",
+"gelernt": false
+},
+{
+"word": "مَرجَع",
+"meaning": "Instanz, Behörde",
+"gelernt": false
+},
+{
+"word": "مورِد",
+"meaning": "Fall, Gegenstand",
+"gelernt": false
+},
+{
+"word": "کَذِب",
+"meaning": "Lüge, falsch",
 "gelernt": false
 }
 ]
