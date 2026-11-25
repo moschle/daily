@@ -520,6 +520,13 @@ def _annotieren(text: str, woerter, complete):
         alle_n |= n
         if i == 0:
             alle_v = v
+    # Nachfassen: Wörter, die das Modell ausgelassen hat (25.11.: پستان، گونه bei Hedayat ohne Glosse)
+    abgedeckt = {norm(t) for f, _, _ in alle_w + alle_v for t in f.replace(ZWNJ, " ").split()}
+    abgedeckt |= {norm(t) for x in alle_n for t in x.replace(ZWNJ, " ").split()}
+    fehlt = [x for x in woerter if norm(x) not in abgedeckt]
+    if fehlt:
+        w2, _, _ = _annotieren_teil(text, fehlt, complete)
+        alle_w += w2
     # Namen aus Gemeinwörtern (14.11.: زرین کلاه als „golden, Hut“, خوشقدم, ماندگار علی) nicht glossieren
     namen = {x for x in alle_n if x and x in text}
     teile_n = {norm(t) for x in namen for t in x.replace(ZWNJ, " ").split()}
@@ -532,7 +539,7 @@ def _annotieren_teil(text: str, woerter, complete):
     p = ("Persischer Lesetext unten.\n"
          "1. Gib für jedes Wort der Liste die Grundform (Verben als Infinitiv, Nomen im Singular) mit "
          "Kurzvokalzeichen und eine knappe deutsche Bedeutung DER GRUNDFORM (1–3 Wörter, Nomen im Singular), "
-         "im Sinn dieses Textes; "
+         "im Sinn dieses Textes; lass KEIN Wort der Liste aus, auch Körper- und Liebeswörter in Literatur nicht; "
          "\"form\" ist das Wort genau wie in der Liste. Eigennamen weglassen. Ist das Wort Teil eines Verbgefüges, "
          "gehört es nur unter 2. Lieder, Verse oder Rede im Dialekt (Gilaki, Mazandarani u. a.): Bedeutung im "
          "Dialekt, nicht die des gleich geschriebenen persischen Worts (گالش کوری = Hirtenmädchen, nicht "
@@ -544,6 +551,13 @@ def _annotieren_teil(text: str, woerter, complete):
          "z. B. ارتباط برقرار کردن، لذت بردن، به نمایش گذاشتن، از سر گرفتن). Für jedes: \"form\" = die "
          "Wortfolge exakt wie im Text, vom ersten bis zum letzten Bestandteil; \"fa\" = Infinitiv des "
          "Gefüges mit Kurzvokalzeichen; \"de\" = deutsche Bedeutung des Ganzen.\n"
+         "2b. Ebenfalls unter \"verben\": feste Wendungen, deren Sinn sich nicht aus den Einzelwörtern ergibt: "
+         "Ezafe-Fügungen (فضای مجازی = soziale Medien, حکم قطعی = rechtskräftiges Urteil, عناوین اتهامی = "
+         "Anklagepunkte), Präpositionalausdrücke (در مورد = bezüglich, بدین وسیله = hiermit, با وجود = trotz), "
+         "Zählfügungen (دو تن = zwei Personen), Amts- und Partizipformeln (مورد اشاره = erwähnt, صادر شده = "
+         "erlassen, مدعی شدن = behaupten), Redewendungen (زیر گِل رفتن = begraben werden, بغض گلو را گرفتن = "
+         "einen Kloß im Hals haben). \"form\" exakt wie im Text, \"fa\" Grundform mit Kurzvokalzeichen. Diese Wörter "
+         "dann nicht einzeln unter 1.\n"
          "3. \"namen\": ALLE Eigennamen im Text (Personen, Orte, Flüsse, Dörfer, Beinamen), genau wie im Text, "
          "auch wenn sie aus normalen Wörtern bestehen (z. B. زرین کلاه، گل ببو، خوشقدم باجی، کشور سلطان، ماندگار علی) "
          "oder Titel wie خانم، باجی، بانو، ننه، سلطان tragen. Diese Wörter stehen NICHT unter 1.\n"
