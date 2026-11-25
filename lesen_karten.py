@@ -15,7 +15,7 @@ from pathlib import Path
 
 MODELL_ID = 1790500000001
 DECK_ID = 1793600000023
-DECK_NAME = "Lektüre"   # 25.11.2026 umgezogen
+DECK_NAME = "Wissen::Lektüre"   # 25.11.2026 umgezogen
 CSS = (".card{font-family:-apple-system,\"Segoe UI\",Helvetica,Arial,sans-serif;font-size:21px;line-height:1.45;"
        "text-align:center;color:#1d1d1f;background:#fff;padding:12px}\n.q{font-weight:600}\n.a{font-size:22px}\n"
        ".k{margin:18px auto 0;max-width:34em;font-size:16px;line-height:1.5;text-align:left;color:#555;"
