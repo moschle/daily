@@ -10,7 +10,8 @@
 - [ ] Mi 25.11.: DÜF Reisezeitraum (Sommer 2027) melden · Gutachten-Anfragen Purnaqcheband/Rzehak
 - [x] Vortest Polizei Berlin 155-26 am 24.11.: OSINT-Fall (Netzwerk um einen Basar) bis auf kleine Fehler gelöst; Persisch-Sprachtest abgebrochen (schriftlicher religiös-politischer Text, Basmala-Einstieg). 4 Bewerber auf 2 Stellen, weitere Ausschreibungen angekündigt
 - [ ] Neben der Promotion weiter auf Sicherheitsbehörden vorbereiten; Schwerpunkt: schriftliches Amts-/Redenpersisch (Fars, Mehr, IRNA, Reden)
-- [ ] TÄGLICH: Morgenbrief lesen (Hedayat + NACHRICHTEN im Original aus Fars/Mehr/IRNA-Telegram, glossiert) · Anki: Persisch (Fällige) + Persisch::Presse und Reden 15 neu/Tag · OSINT und Gespräch Sicherheitsbehörden nur Fällige
+- [ ] ROUTINE (Focumon, ab 25.11.): Arbeitstag — Morgen 55 Min. (Tag planen 5 · Sonnengruß/Plank/Liegestütze 8 · Meditation 10 · Persisch 30: Brief 10 + Anki 20) · Promotion 2×50 · Admin 25 · Rudern 25 · abends Journal 10. Nach Nachtdienst/flaschenpost: Tag planen 5 · Anki 15 · ein Block 50, sonst frei. Freitag: Prüfungssimulation 30 statt Lesen
+- [ ] TÄGLICH: Morgenbrief lesen (Hedayat + NACHRICHTEN im Original aus Fars/Mehr/IRNA-Telegram, glossiert) · Anki neu/Tag: Presse und Reden 10, Sicherheit & Iran 5, Lektüre 5, OSINT 3; Hintergrund und Promotion nur Wiederholungen
 - [x] Morgenbrief ab 25.11. wieder Hedayat + LESEN; Vortest-Modus (Zeitungsmeldungen, AUSWERTUNG) beendet; Nachrichten aus staatsnahen Kanälen statt BBC
 - [x] Anki 24.11.: 26 fehlende Morgenbrief-Wörter nachgetragen; Wortfeld Sprachtest + Wortfeld Sicherheit + OSINT-Vortest → Persisch::Presse und Reden; OSINT-Decks → OSINT; Gespräch Polizei Berlin → Gespräch Sicherheitsbehörden; Testsätze und Linksextremismus ausgesetzt (Archiv)
 
