@@ -152,9 +152,11 @@ def main() -> None:
         if ist_leiche(full_text):
             continue
         score, cats = score_v3(full_text)
-        if job["id"] not in seen:
-            kandidaten.append(job)
-            vorrang[job["id"]] = score
+        # Auch schon gemeldete Stellen bleiben KI-Kandidaten, bis sie bewertet
+        # sind (stellen_llm filtert per Cache). Vorher fielen Stellen, die die
+        # 150er-Kappung am ersten Tag verpassten, für immer raus (25.11.2026).
+        kandidaten.append(job)
+        vorrang[job["id"]] = score
         if score < sc.MIN_SCORE:
             continue
         if job["id"] in seen:

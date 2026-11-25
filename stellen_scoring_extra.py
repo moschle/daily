@@ -161,6 +161,10 @@ LITERATUR_KATEGORIEN["literatur_orte"] = {
         r"editionswiss\w*", r"editionsprojekt\w*", r"briefedition\w*",
         r"literaturpreis\w*", r"stipendienprogramm\w*", r"autorenlesung\w*",
         r"lesereihe\w*", r"literaturveranstaltung\w*",
+        # 25.11.2026 (Wolfenbüttel-Loch): Programmleitung Literatur u. ä.
+        r"programm\w*\s+(f(ü|ue)r\s+)?literatur", r"literatur\w*programm\w*",
+        r"schreibf(ö|oe)rderung", r"schreibwerkst(a|ä)tt\w*",
+        r"literaturvermittl\w*", r"literarische\w* bildung",
     ],
 }
 LITERATUR_KATEGORIEN["literatur_breit"] = {

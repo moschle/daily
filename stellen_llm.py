@@ -101,7 +101,24 @@ def _speichere_cache(cache: dict) -> None:
 _ZW = dict.fromkeys(list(range(0x200B, 0x2010)) + [0xAD], None)
 
 
+def _pdftext(url: str) -> str:
+    """PDF-Ausschreibungen (z. B. kultweet) als Text lesen (25.11.2026)."""
+    import io
+    from pypdf import PdfReader
+    req = urllib.request.Request(url, headers={"User-Agent": sc.BROWSER_UA})
+    with urllib.request.urlopen(req, timeout=25) as r:
+        daten = r.read()
+    seiten = PdfReader(io.BytesIO(daten)).pages[:4]
+    txt = " ".join((s.extract_text() or "") for s in seiten).translate(_ZW)
+    return re.sub(r"\s+", " ", txt)[:DETAIL_ZEICHEN]
+
+
 def _detailtext(job: dict) -> str:
+    if job["url"].lower().split("?")[0].endswith(".pdf"):
+        try:
+            return _pdftext(job["url"])
+        except Exception as e:
+            return f"(PDF nicht lesbar: {type(e).__name__})"
     try:
         roh = sc.fetch_url(job["url"], timeout=25)
     except Exception as e:
