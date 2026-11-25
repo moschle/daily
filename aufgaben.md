@@ -5,8 +5,9 @@
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
 ## STAND 24.11.2026 — nach dem Vortest
-- [ ] HEUTE 24.11.: Anmeldung Vorstandsänderung Warte (VR 6604) an die Notarin schicken — Paket in WARTE/08_Finanzamt/Nach_MV_2026/02_Vereinsregister_Notar/Notar_Paket_2026-11-24.zip (Entwurf, Mail, Protokoll, Satzung). Vorher: Geburtsdatum Hanar Hupka prüfen. Risiko: Satzung kennt keine „2. Vorsitzende“ (§ 8: Vorsitz, Schriftführerin, Kassenwärtin) → Notarin um Prüfung gebeten
-- [ ] Mi 25.11.: DAAD-Lehrassistenz 2027/28 Frist prüfen (Vorjahr 25.11.) · DÜF Reisezeitraum (Sommer 2027) melden, damit Vertrag kommt
+- [-] 24.11.: DAAD Lehrassistenz 2027/28 nicht beworben — Fokus Promotion + Oxford (Ziele: max. 2 J., keine Lehre). Nächste Runde Herbst 2027 (Hochschuljahr 2028/29) wäre noch möglich, Master dann < 2 J. alt
+- [x] 24.11. Mail an Notarin Jänicke verschickt — Hotpot Silk UG — Formular (~/Downloads/UG_Gruendung_Hotpot_Silk_ausgefuellt.pdf) an Notarin Cornelia Jänicke, info@notarin-jaenicke.de; vorher Familienstand ankreuzen, S. 3 unterschreiben, Ausweiskopien beider; Mailtext HOTPOT/hotpot_gruendung/06_Mail_Notarin_2026-11-24.md
+- [ ] Mi 25.11.: DÜF Reisezeitraum (Sommer 2027) melden · Gutachten-Anfragen Purnaqcheband/Rzehak
 - [x] Vortest Polizei Berlin 155-26 am 24.11.: OSINT-Fall (Netzwerk um einen Basar) bis auf kleine Fehler gelöst; Persisch-Sprachtest abgebrochen (schriftlicher religiös-politischer Text, Basmala-Einstieg). 4 Bewerber auf 2 Stellen, weitere Ausschreibungen angekündigt
 - [ ] Neben der Promotion weiter auf Sicherheitsbehörden vorbereiten; Schwerpunkt: schriftliches Amts-/Redenpersisch (Fars, Mehr, IRNA, Reden)
 - [ ] TÄGLICH: Morgenbrief lesen (Hedayat + NACHRICHTEN im Original aus Fars/Mehr/IRNA-Telegram, glossiert) · Anki: Persisch (Fällige) + Persisch::Presse und Reden 15 neu/Tag · OSINT und Gespräch Sicherheitsbehörden nur Fällige
@@ -37,7 +38,7 @@
 ## STAND 16.11.2026 — Jobpipeline
 - [x] Ev. Gymnasium Doberlug-Kirchhain: Gespräch 16.11. geführt, Stelle abgewählt
 - Plan: gute Stelle mit Promotion > DFG-Stelle (bevorzugt) > notfalls Stipendium
-- [ ] **BfV Trainees mit Master, hausweiter Einsatz — AWV-2026-091, Frist 07.12.2026** (höherer Dienst, bis EG 13, Verbeamtung bis A14 möglich, VZ/TZ, mobiles Arbeiten je nach Einsatz, Berlin/Köln). Nur BVA-Portal: https://bewerbung.dienstleistungszentrum.de/frontend/AWV-2026-091/index.html. HÜRDE: zugelassen nur Politik-/Staatswiss., Geschichte, MPA, Jura/Wirtschaftsrecht, Intelligence & Security Studies — Islamwissenschaft nicht gelistet → vorher BVA anrufen (0228 99 358-87500), ob Islamwiss./Deutsche Literatur anerkannt wird
+- [-] (24.11.: nicht gewollt) **BfV Trainees mit Master, hausweiter Einsatz — AWV-2026-091, Frist 07.12.2026** (höherer Dienst, bis EG 13, Verbeamtung bis A14 möglich, VZ/TZ, mobiles Arbeiten je nach Einsatz, Berlin/Köln). Nur BVA-Portal: https://bewerbung.dienstleistungszentrum.de/frontend/AWV-2026-091/index.html. HÜRDE: zugelassen nur Politik-/Staatswiss., Geschichte, MPA, Jura/Wirtschaftsrecht, Intelligence & Security Studies — Islamwissenschaft nicht gelistet → vorher BVA anrufen (0228 99 358-87500), ob Islamwiss./Deutsche Literatur anerkannt wird
 - [ ] BfV Fachtrainer/-in Islamismus/islamistischer Terrorismus — gehobener Dienst, Köln/Berlin, Frist 09.12.2026 (zugelassene Studiengänge prüfen)
 - [ ] **BayLfV Daten-Analyst/-in Technische Innovation (Kennung „KI“) — Frist 03.01.2027**, München, A10/E10 TV-L, befristet mit Übernahme in 3. QE. HÜRDE: Bachelor Data Science/Informatik/Computerlinguistik/Mathe/Physik „oder gleichwertig“; Python, NLP, ML erwünscht → vorher nachfragen, ob Abschluss + wazan-Portfolio reicht. Dienstort München (Berlin-Umzug geplant). bewerbung@lfv.bayern.de, Betreff KI. https://www.lfv.bayern.de/jobs/daten-analyst-in-m-w-d-fuer-den-bereich-technische-innovation/ (geprüft 24.11.; Initiativbewerbungen weiter nicht möglich)
 - 24.11.: Fristen BfV 07.12./09.12. und BayLfV 03.01. als FRIST-Termine im Kalender „Moritz“
@@ -47,7 +48,7 @@
 - [ ] Zustimmung Nebentätigkeit (Sänger, Bildhauer) bei Silke Krüger in Textform einholen (§ 8 Arbeitsvertrag)
 - [ ] Ab Dezember monatlich per Mail die Vergütung der im Dienstplan abgezogenen Pausen geltend machen (Ausschlussfrist § 13: 3 Monate, Textform)
 - [x] Mercor: Zinc-Einladung nicht angekommen → Zinc angeschrieben (02.11.)
-- [x] 02.11. Aktualisierte EKS (Sänger/Bildhauer + Hotpot Silk) und Beschäftigung (erster Lohn 20.11.) per Anfrage zum Bearbeitungsstand an Frau Brauer geschickt; Anspruch nur noch Sep. 1.158,19 / Okt. 386,81, ab Nov. 0; Vorschuss angemahnt. Paket ~/Downloads/JC_BWZ_Stand-2026-11-02_v5.zip
+- [x] 02.11. Aktualisierte EKS (Sänger/Bildhauer + Hotpot Silk) und Beschäftigung (erster Lohn um den 20.11. lt. Arbeitgeberbestätigung 28.10.; am 25.11. noch nicht eingegangen) per Anfrage zum Bearbeitungsstand an Frau Brauer geschickt; Anspruch nur noch Sep. 1.158,19 / Okt. 386,81, ab Nov. 0; Vorschuss angemahnt. Paket ~/Downloads/JC_BWZ_Stand-2026-11-02_v5.zip
 - [ ] Jobcenter: Online-Konto hängt noch an alter BG Berlin (96202//0101964) → Umstellung auf Leipzig nachhalten; Bescheid Sep./Okt. abwarten, sonst Eilantrag Sozialgericht
 - [ ] AOK PLUS: vorerst keine Antwort (Entscheidung 02.11.); Entwurf 07_Antwort_AOK.txt liegt bereit — Vollstreckungsaufschub läuft bis 30.11.
 - [ ] Warte-Abrechnung Brodyer Nächte fertig und an Shirin zurück: Rechnung Lucaciu (bei Shirin), ELSTER-Protokoll UStVA Juli + BZSt-Anmeldung 50a ablegen, KSK im Sachbericht als „gemeldet, Zahlung nach Bescheid“, fehlende 2026er-Belege von Shirin
