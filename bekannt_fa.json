@@ -10210,11 +10210,6 @@
 "gelernt": false
 },
 {
-"word": "کارگردان",
-"meaning": "Regisseur",
-"gelernt": false
-},
-{
 "word": "هَدَفمَند",
 "meaning": "zielgerichtet",
 "gelernt": false
@@ -10650,11 +10645,6 @@
 "gelernt": false
 },
 {
-"word": "کَمَک‌رَسانی",
-"meaning": "Hilfeleistung, humanitäre Hilfe",
-"gelernt": false
-},
-{
 "word": "داشتَم کِتاب می‌خواندَم",
 "meaning": "ich war gerade dabei, ein Buch zu lesen",
 "gelernt": false
@@ -10663,11 +10653,6 @@
 "word": "تَصمیم گِرِفتَن",
 "meaning": "eine Entscheidung treffen, beschließen",
 "gelernt": true
-},
-{
-"word": "داوطَلَبانه",
-"meaning": "ehrenamtlich, freiwillig",
-"gelernt": false
 },
 {
 "word": "کُمَک‌رِسانی",
@@ -12385,11 +12370,6 @@
 "gelernt": false
 },
 {
-"word": "این‌قَدر",
-"meaning": "so sehr",
-"gelernt": false
-},
-{
 "word": "تَأثیر",
 "meaning": "Wirkung",
 "gelernt": true
@@ -13232,11 +13212,6 @@
 {
 "word": "خویشان",
 "meaning": "Verwandte",
-"gelernt": false
-},
-{
-"word": "دلربا",
-"meaning": "bezaubernd, reizend",
 "gelernt": false
 },
 {
@@ -14427,6 +14402,261 @@
 {
 "word": "کَذِب",
 "meaning": "Lüge, falsch",
+"gelernt": false
+},
+{
+"word": "روی آوَردَن",
+"meaning": "sich zuwenden, sich verlegen auf",
+"gelernt": false
+},
+{
+"word": "آب به صورَت زَدَن",
+"meaning": "Wasser ins Gesicht spritzen",
+"gelernt": false
+},
+{
+"word": "مُشت زَدَن",
+"meaning": "einen Faustschlag geben",
+"gelernt": false
+},
+{
+"word": "پَرده بَرداشتَن",
+"meaning": "enthüllen, aufdecken",
+"gelernt": false
+},
+{
+"word": "مُلایِم",
+"meaning": "sanft, mild",
+"gelernt": false
+},
+{
+"word": "پی بُردَن",
+"meaning": "herausfinden, begreifen",
+"gelernt": false
+},
+{
+"word": "پَناه بُردَن",
+"meaning": "Zuflucht nehmen",
+"gelernt": false
+},
+{
+"word": "نُمودَن",
+"meaning": "erscheinen, wirken",
+"gelernt": false
+},
+{
+"word": "اِحساسِ آرامِش نُمودَن",
+"meaning": "ein Gefühl der Ruhe empfinden",
+"gelernt": false
+},
+{
+"word": "مُجَسَّم شُدَن",
+"meaning": "verkörpert werden, sich vor Augen stellen",
+"gelernt": false
+},
+{
+"word": "تَلَف شُدَن",
+"meaning": "vergeudet werden, umkommen",
+"gelernt": false
+},
+{
+"word": "کَلُفت",
+"meaning": "dick, kräftig",
+"gelernt": false
+},
+{
+"word": "فُروکِش کَردَن",
+"meaning": "nachlassen, abklingen",
+"gelernt": false
+},
+{
+"word": "هَروَقت",
+"meaning": "jedes Mal wenn",
+"gelernt": false
+},
+{
+"word": "بیخ گَلو را گِرِفتَن",
+"meaning": "jmdn. am Hals packen, würgen",
+"gelernt": false
+},
+{
+"word": "آسوده شُدَن",
+"meaning": "befreit werden, zur Ruhe kommen",
+"gelernt": false
+},
+{
+"word": "اِستِقلال",
+"meaning": "Unabhängigkeit",
+"gelernt": false
+},
+{
+"word": "مُقابِل",
+"meaning": "Mal, gegenüber",
+"gelernt": false
+},
+{
+"word": "نوع",
+"meaning": "Art, Sorte",
+"gelernt": false
+},
+{
+"word": "آسایش",
+"meaning": "Erholung, Ruhe",
+"gelernt": false
+},
+{
+"word": "اِضطِراب",
+"meaning": "Angst, Unruhe",
+"gelernt": false
+},
+{
+"word": "زار",
+"meaning": "jammernd, kläglich",
+"gelernt": false
+},
+{
+"word": "شَرّ",
+"meaning": "Übel, Unheil",
+"gelernt": false
+},
+{
+"word": "فَحش",
+"meaning": "Schimpfwort",
+"gelernt": false
+},
+{
+"word": "پُرپُشت",
+"meaning": "dicht, buschig",
+"gelernt": false
+},
+{
+"word": "پیراهَن",
+"meaning": "Hemd, Kleid",
+"gelernt": false
+},
+{
+"word": "کَچَل",
+"meaning": "kahlköpfig",
+"gelernt": false
+},
+{
+"word": "دِلجویی کَردَن",
+"meaning": "jmdn. trösten",
+"gelernt": false
+},
+{
+"word": "اِستِنشاق کَردَن",
+"meaning": "einatmen",
+"gelernt": false
+},
+{
+"word": "پَلاسیدَن",
+"meaning": "welken, schlaff werden",
+"gelernt": false
+},
+{
+"word": "پوسیدَن",
+"meaning": "verwesen, verrotten",
+"gelernt": false
+},
+{
+"word": "بی‌دَلیلی",
+"meaning": "Grundlosigkeit",
+"gelernt": false
+},
+{
+"word": "تَرسناک",
+"meaning": "beängstigend",
+"gelernt": false
+},
+{
+"word": "تِکّه‌تِکّه",
+"meaning": "in Stücke",
+"gelernt": false
+},
+{
+"word": "رَختِخواب",
+"meaning": "Bett",
+"gelernt": false
+},
+{
+"word": "عُمده",
+"meaning": "hauptsächlich, überwiegend",
+"gelernt": false
+},
+{
+"word": "وَرای",
+"meaning": "jenseits von",
+"gelernt": false
+},
+{
+"word": "پاشنه",
+"meaning": "Ferse, Absatz",
+"gelernt": false
+},
+{
+"word": "کاه",
+"meaning": "Stroh",
+"gelernt": false
+},
+{
+"word": "فراگرفتن",
+"meaning": "erfassen, ergreifen",
+"gelernt": false
+},
+{
+"word": "مَطرَح بودَن",
+"meaning": "zur Debatte stehen, aufgeworfen sein",
+"gelernt": false
+},
+{
+"word": "دَست‌وپا کَردَن",
+"meaning": "sich besorgen, sich verschaffen",
+"gelernt": false
+},
+{
+"word": "مَرتَبِط داشتَن",
+"meaning": "als verbunden betrachten",
+"gelernt": false
+},
+{
+"word": "آنلاین‌شاپ",
+"meaning": "Online-Shop",
+"gelernt": false
+},
+{
+"word": "اِینتِرنِتی",
+"meaning": "internetbasiert",
+"gelernt": false
+},
+{
+"word": "حامی",
+"meaning": "Unterstützer",
+"gelernt": false
+},
+{
+"word": "سالگی",
+"meaning": "Lebensjahr",
+"gelernt": false
+},
+{
+"word": "مالی",
+"meaning": "finanziell",
+"gelernt": false
+},
+{
+"word": "چَندمیلیون‌دُلاری",
+"meaning": "mehrere Millionen Dollar",
+"gelernt": false
+},
+{
+"word": "کَسب‌وکار",
+"meaning": "Geschäft",
+"gelernt": false
+},
+{
+"word": "گِران‌قیمَت",
+"meaning": "teuer",
 "gelernt": false
 }
 ]
