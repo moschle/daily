@@ -472,6 +472,37 @@ def _glossieren(text: str, glossen) -> tuple[str, set]:
     return text, gesetzt
 
 
+# Feste Amts- und Pressewendungen, die das Modell trotz Anweisung zerlegt (26.11.2026: مورد (Fall) اشاره (Hinweis)
+# قرار گرفته). Werden vor allen anderen Glossen als Einheit gesetzt und sperren ihre Einzelwörter.
+_QG = r"قرار[\s‌]+(?:می‌|نمی‌|ن)?(?:گرفت|گیر|داد|ده)[^\s.،؛!؟:]*(?:[\s‌]+(?:است|بود|شده|شد|اند|باشد|شود)[^\s.،؛!؟:]*)?"
+FESTE_WENDUNGEN = [
+    (r"مورد[\s‌]+اشاره[\s‌]+(?:\S+[\s‌]+){0,2}" + _QG, "مورِدِ اِشاره قَرار گِرِفتَن", "erwähnt werden"),
+    (r"مورد[\s‌]+بررسی[\s‌]+(?:\S+[\s‌]+){0,2}" + _QG, "مورِدِ بَررَسی قَرار گِرِفتَن", "geprüft werden"),
+    (r"مورد[\s‌]+توجه[\s‌]+(?:\S+[\s‌]+){0,2}" + _QG, "مورِدِ تَوَجُّه قَرار گِرِفتَن", "Beachtung finden"),
+    (r"مورد[\s‌]+حمله[\s‌]+(?:\S+[\s‌]+){0,2}" + _QG, "مورِدِ حَمله قَرار گِرِفتَن", "angegriffen werden"),
+    (r"مورد[\s‌]+انتقاد[\s‌]+(?:\S+[\s‌]+){0,2}" + _QG, "مورِدِ اِنتِقاد قَرار گِرِفتَن", "kritisiert werden"),
+    (r"مورد[\s‌]+استفاده[\s‌]+(?:\S+[\s‌]+){0,2}" + _QG, "مورِدِ اِستِفاده قَرار گِرِفتَن", "genutzt werden"),
+    (r"فضای[\s‌]+مجازی", "فَضایِ مَجازی", "soziale Medien"),
+    (r"در[\s‌]+آستانه(?:[\s‌]+ی)?", "دَر آستانهٔ", "kurz vor, am Vorabend von"),
+    (r"در[\s‌]+مورد(?![\s‌]+(?:اشاره|بررسی|توجه))", "دَر مورِدِ", "bezüglich, über"),
+    (r"بدین[\s‌]+وسیله", "بِدین وَسیله", "hiermit"),
+    (r"گفتنی[\s‌]+است", "گُفتَنی است", "es sei angemerkt"),
+    (r"در[\s‌]+حالی[\s‌]+(?:که)?", "دَر حالی که", "während, obwohl"),
+    (r"پیش[\s‌]*تر", "پیش‌تَر", "zuvor, früher"),
+    (r"حکم[\s‌]+قطعی", "حُکمِ قَطعی", "rechtskräftiges Urteil"),
+    (r"دو[\s‌]+تن(?![؀-ۿ])", "دو تَن", "zwei Personen"),
+]
+
+
+def feste_wendungen(text: str) -> list[tuple[str, str, str]]:
+    out = []
+    for muster, fa, de in FESTE_WENDUNGEN:
+        m = re.search(r"(?<![؀-ۿ‌])" + muster, text)
+        if m:
+            out.append((fa, de, m.group(0).strip()))
+    return out
+
+
 def _faellige_pruefen(text: str, due, complete) -> list[tuple[str, str, str]]:
     """Fällige Anki-Wörter nur glossieren, wenn sie im Satz wirklich gemeint sind.
     25.11.2026: صد (hundert) lag blind auf صدای (Geräusch), تنش (Spannung) auf تنش (ihr Körper)."""
@@ -799,6 +830,7 @@ def erzeuge(lang_ex: dict, complete) -> dict:
     _, rest = pruefe(alles, gelernt | {w for fa, _, _ in liste for w in _formen(fa)})
     offen = [t for t in rest if norm(t) not in abgedeckt]
     woerter, verben, namen = _annotieren(alles, offen, complete)
+    verben = [(form, fa, de) for fa, de, form in feste_wendungen(alles)] + verben
     liste += [(fa, de, form or "") for form, fa, de in woerter if tauglich(fa, de)]
     for form, fa, de in verben:
         if form and tauglich(fa, de) and not (_ganz(fa) & ganz_gelernt):
