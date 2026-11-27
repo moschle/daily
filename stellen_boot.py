@@ -183,6 +183,16 @@ def main() -> None:
         print(f"KI-Bewertung uebersprungen: {e}", file=sys.stderr)
         llm_html = f"<p style='color:#a33;'>KI-Bewertung ausgefallen: {type(e).__name__}</p>"
 
+    # Literarische Ausschreibungen (wortmagier.de), eigener Abschnitt (27.11.2026)
+    aus_neu, aus_erinnern, aus_html = [], [], ""
+    try:
+        import ausschreibungen
+        aus_neu, aus_erinnern, aus_status = ausschreibungen.pruefe()
+        print(aus_status, file=sys.stderr)
+        aus_html = ausschreibungen.html_abschnitt(aus_neu, aus_erinnern, aus_status)
+    except Exception as e:
+        print(f"Ausschreibungen uebersprungen: {e}", file=sys.stderr)
+
     debug = os.environ.get("DEBUG_STELLEN") == "1"
     ausfaelle = [s for s, v in sources_status.items() if not isinstance(v, int)]
     # Rauschfilter: Schlagwort-Treffer, die die KI schon unter 5 bewertet hat, fliegen raus
@@ -194,10 +204,12 @@ def main() -> None:
     except Exception as e:
         print(f"Rauschfilter uebersprungen: {e}", file=sys.stderr)
 
-    if scored_hits or llm_treffer or debug or ausfaelle:
+    if scored_hits or llm_treffer or aus_neu or aus_erinnern or debug or ausfaelle:
         html = sc.build_html_mail(scored_hits, len(seen), sources_status)
-        html = html.replace("</h1>", "</h1>" + llm_html + "<h2>Schlagwort-Treffer</h2>", 1)
-        if scored_hits or llm_treffer:
+        html = html.replace("</h1>", "</h1>" + aus_html + llm_html + "<h2>Schlagwort-Treffer</h2>", 1)
+        if (aus_neu or aus_erinnern) and not (scored_hits or llm_treffer):
+            subject = f"Stellen-Monitor: {len(aus_neu) + len(aus_erinnern)} literarische Ausschreibungen"
+        elif scored_hits or llm_treffer:
             subject = (f"Stellen-Monitor: {len(llm_treffer)} KI-Treffer, "
                        f"{len(scored_hits)} Schlagwort-Treffer")
         elif ausfaelle:

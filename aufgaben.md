@@ -4,6 +4,14 @@
 
 > Regel für den Morgenbrief: Einträge mit [x] sind erledigt. Bei Widersprüchen gilt der neueste STAND-Block.
 
+## STAND 27.11.2026 — Anträge, Residenzen, Ausschreibungs-Monitor
+- [x] Jobcenter: Weiterbewilligungsantrag gestartet (Antragstag 27.11., wirkt ab 01.11.) — [ ] Vorgang auf jobcenter.digital mit Nachweisen abschließen
+- [x] Wohngeld formlos per Mail (Eingang 27.11. bestätigt) — [ ] Vollantrag mit Unterlagen nachreichen
+- [x] DÜF-Initiativstipendium abgeschickt (27.11.) — [ ] PDF über Link aus der Bestätigungsmail hochladen (…_final.pdf)
+- [ ] **Baldreit-Stipendium Baden-Baden 2027/28 (Flussauf) — Frist Mo 30.11.**: Online-Bewerbungsbogen (Wunsch April–Sept. 2028, wegen Oxford Jan–März 2028) + Portfolio (Exposé + Kap. IV) per Einschreiben an Kulturbüro, Marktplatz 2, 76530 Baden-Baden. Bei Zusage bei Landesstipendium/DFG anmelden (nur eine Lebensunterhalts-Förderung)
+- [ ] Nächste Residenzen: Tarabya (Call 2027/28 beobachten), Wiepersdorf (15.02.–15.04.2027), Kalbe/Salzwedel (~30.06.2027), Schöppingen (~31.08.2027); Rolf-Bossert-Preis Lyrik 15.12.2026
+- [x] Stellen-Monitor: Quelle wortmagier.de (ausschreibungen.py) — literarische Ausschreibungen als eigener Mail-Abschnitt, Erinnerung 7 Tage vor Frist
+
 ## STAND 25.11.2026 — Bundesakademie Wolfenbüttel, Stellen-Monitor
 - [ ] Bundesakademie für Kulturelle Bildung Wolfenbüttel, Programmleitung Literatur (m/w/d), 75 % (29,85 h), bis E13 TV-L, 2 J. befristet mit Option auf Entfristung, Beginn 01.05.2027. FRIST 15.12.2026, eine PDF an bewerbung@bundesakademie.de. Rückfragen: 0157 5012 3668. Vorher klären: Anteil mobiles Arbeiten / Präsenz im Schloss; ob Wochenend-Seminare dazugehören; Vereinbarkeit mit Promotion (Tadschikistan Sommer 2027, Oxford Hilary 2028). Entscheiden: Alternative zur DFG-Stelle, nicht Ergänzung.
 - Stellen-Monitor (Commit 6e23fa1, deployt): KI liest jetzt PDF-Ausschreibungen; schon gemeldete Stellen bleiben KI-Kandidaten, bis sie bewertet sind; Programmleitung Literatur / Schreibförderung / Literaturvermittlung höher gewichtet (Wolfenbüttel jetzt 7 statt 4 Punkte).
