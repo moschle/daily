@@ -600,3 +600,4 @@ Entscheidung: Promotion in Halle (Phil. Fak. I, Purnaqcheband), Beginn 01.01.202
 - [ ] Pflegedienst: nach Dienstplan fragen + Personalfragebogen und Führungszeugnis abgeben (BfJ-Zahlung hing, Antrag blockiert)
 - [ ] Arzttermin wegen Nachtdienst-Verträglichkeit (arbeitsmed. Untersuchung, § 6 ArbZG)
 - [ ] Wohngeld: Vollantrag fertig (~/Documents/Verwaltung/Wohnen/Wohngeld_2026), IBAN + Unterschrift eintragen, dann senden. Erwartung ca. 101 EUR/Monat (27.11.)
+- [ ] Jobcenter: Rücknahme WBA 27.11. + Verzicht ab 01.11.2026 abschicken (Text in Wohngeld_2026/08_Ruecknahme_Jobcenter.txt), Kopie zum Wohngeldantrag
