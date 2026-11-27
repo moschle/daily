@@ -8,6 +8,7 @@
 - [x] Jobcenter: Weiterbewilligungsantrag gestartet (Antragstag 27.11., wirkt ab 01.11.) — [ ] Vorgang auf jobcenter.digital mit Nachweisen abschließen
 - [x] Wohngeld formlos per Mail (Eingang 27.11. bestätigt) — [ ] Vollantrag mit Unterlagen nachreichen
 - [x] DÜF-Initiativstipendium abgeschickt (27.11.) — [ ] PDF über Link aus der Bestätigungsmail hochladen (…_final.pdf)
+- [x] Baldreit online eingereicht 27.11. (Vorgang KFAS_902250BAD-6AAGK7NL) — [ ] Druckfassung per Post/Einschreiben am 27.11.
 - [ ] **Baldreit-Stipendium Baden-Baden 2027/28 (Flussauf) — Frist Mo 30.11.**: Online-Bewerbungsbogen (Wunsch April–Sept. 2028, wegen Oxford Jan–März 2028) + Portfolio (Exposé + Kap. IV) per Einschreiben an Kulturbüro, Marktplatz 2, 76530 Baden-Baden. Bei Zusage bei Landesstipendium/DFG anmelden (nur eine Lebensunterhalts-Förderung)
 - [ ] Nächste Residenzen: Tarabya (Call 2027/28 beobachten), Wiepersdorf (15.02.–15.04.2027), Kalbe/Salzwedel (~30.06.2027), Schöppingen (~31.08.2027); Rolf-Bossert-Preis Lyrik 15.12.2026
 - [x] Stellen-Monitor: Quelle wortmagier.de (ausschreibungen.py) — literarische Ausschreibungen als eigener Mail-Abschnitt, Erinnerung 7 Tage vor Frist
